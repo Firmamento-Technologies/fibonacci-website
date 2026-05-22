@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
+import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -27,15 +28,8 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2.5">
-          <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm font-bold"
-            style={{ background: 'var(--fg)' }}
-          >
-            F
-          </div>
-          <span className="font-semibold text-base" style={{ color: 'var(--fg)' }}>
-            Fibonacci
-          </span>
+          <FibonacciLogo size={34} />
+          <FibonacciWordmark className="text-base" />
         </a>
 
         {/* Desktop nav */}

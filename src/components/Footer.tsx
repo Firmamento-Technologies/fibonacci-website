@@ -1,4 +1,5 @@
 import { SPECIALTIES } from '@/lib/specialties'
+import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 
 export function Footer() {
   return (
@@ -8,12 +9,8 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-7 h-7 rounded-lg flex items-center justify-center text-white text-xs font-bold"
-                style={{ background: 'var(--fg)' }}
-              >
-                F
-              </div>
-              <span className="font-semibold text-sm" style={{ color: 'var(--fg)' }}>Fibonacci</span>
+              <FibonacciLogo size={28} />
+              <FibonacciWordmark className="text-sm" />
             </div>
             <p className="text-xs leading-relaxed" style={{ color: 'var(--muted)' }}>
               La cartella clinica specialistica per medici italiani. GDPR by design. Dati in EU.
