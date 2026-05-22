@@ -56,77 +56,65 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 pt-20 lg:pt-24 pb-20 flex-1">
         {/* Colonna sinistra */}
         <div className="flex-1 max-w-xl">
-          {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6"
-            style={{ background: selected.accent, color: selected.color }}
-          >
-            <div className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: selected.color }} />
-            Software specialistico per medici italiani
-          </motion.div>
+          {/* Selettore specialità come pill — sopra il titolo */}
+          <div className="relative mb-5">
+            <button
+              onClick={() => setDropOpen(!dropOpen)}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all hover:opacity-90"
+              style={{ background: selected.accent, color: selected.color, border: `1.5px solid ${selected.color}44` }}
+            >
+              <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: selected.color }} />
+              {selected.label}
+              <ChevronDown className="w-4 h-4" />
+            </button>
 
-          {/* Headline — mobile safe: "di [Specialità]" su unica riga */}
+            <AnimatePresence>
+              {dropOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 8, scale: 0.96 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: 8, scale: 0.96 }}
+                  transition={{ duration: 0.15 }}
+                  className="absolute top-full left-0 mt-2 w-56 rounded-xl shadow-2xl p-1.5 z-50"
+                  style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
+                >
+                  {SPECIALTIES.map((s) => (
+                    <button
+                      key={s.id}
+                      onClick={() => { setSelected(s); setDropOpen(false) }}
+                      className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors text-sm font-medium"
+                      style={{
+                        color: selected.id === s.id ? s.color : 'var(--fg)',
+                        background: selected.id === s.id ? s.accent : 'transparent',
+                      }}
+                    >
+                      <div className="w-2 h-2 rounded-full shrink-0" style={{ background: s.color }} />
+                      {s.label}
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          {/* Headline fisso — nessun selettore embedded, zero problemi di wrap */}
           <h1
-            className="font-[var(--font-playfair)] text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6"
+            className="font-[var(--font-playfair)] text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.08] mb-5"
             style={{ color: 'var(--fg)' }}
           >
-            La cartella clinica
-            <br />
-            <span className="inline-flex items-baseline gap-2 flex-wrap">
-              <span style={{ color: 'var(--muted)', fontSize: '0.9em' }}>di</span>
-
-              {/* Selettore specialità */}
-              <span className="relative inline-block">
-                <button
-                  onClick={() => setDropOpen(!dropOpen)}
-                  className="inline-flex items-center gap-1.5 pb-1 border-b-2 transition-colors leading-tight"
-                  style={{ color: selected.color, borderColor: selected.color }}
-                >
-                  <AnimatePresence mode="wait">
-                    <motion.span
-                      key={selected.id}
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      {selected.label}
-                    </motion.span>
-                  </AnimatePresence>
-                  <ChevronDown className="w-5 h-5 shrink-0" />
-                </button>
-
-                <AnimatePresence>
-                  {dropOpen && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 8, scale: 0.96 }}
-                      animate={{ opacity: 1, y: 0, scale: 1 }}
-                      exit={{ opacity: 0, y: 8, scale: 0.96 }}
-                      transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 mt-2 w-56 rounded-xl shadow-2xl p-1.5 z-50"
-                      style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
-                    >
-                      {SPECIALTIES.map((s) => (
-                        <button
-                          key={s.id}
-                          onClick={() => { setSelected(s); setDropOpen(false) }}
-                          className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors text-sm font-medium"
-                          style={{
-                            color: selected.id === s.id ? s.color : 'var(--fg)',
-                            background: selected.id === s.id ? s.accent : 'transparent',
-                          }}
-                        >
-                          <div className="w-2 h-2 rounded-full shrink-0" style={{ background: s.color }} />
-                          {s.label}
-                        </button>
-                      ))}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </span>
-            </span>
+            <AnimatePresence mode="wait">
+              <motion.span
+                key={selected.id}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.2 }}
+                className="block"
+              >
+                La cartella clinica<br />
+                <span style={{ color: selected.color }}>di {selected.label}</span>
+              </motion.span>
+            </AnimatePresence>
           </h1>
 
           {/* Tagline */}
@@ -187,8 +175,8 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Colonna destra: UI mockup */}
-        <div className="flex-1 w-full max-w-2xl">
+        {/* Colonna destra: UI mockup — nascosto su mobile, visibile da lg */}
+        <div className="hidden lg:block flex-1 w-full max-w-2xl">
           <AnimatePresence mode="wait">
             <motion.div
               key={selected.id}

@@ -92,14 +92,15 @@ export function SpecialtiesSection() {
                   </a>
                 </div>
 
-                {/* Stat highlight */}
-                <div className="md:w-44 flex flex-col items-center justify-center text-center rounded-xl p-6"
-                  style={{ background: 'white', border: `1px solid ${active.color}33` }}
+                {/* Stat highlight — integrata nel pannello, non box isolato */}
+                <div
+                  className="md:w-40 flex flex-col items-center justify-center text-center rounded-2xl p-6 shrink-0"
+                  style={{ background: active.color }}
                 >
-                  <span className="font-[var(--font-playfair)] text-4xl font-bold" style={{ color: active.color }}>
+                  <span className="font-[var(--font-playfair)] text-5xl font-bold text-white leading-none">
                     {active.heroStat.value}
                   </span>
-                  <span className="text-xs mt-2" style={{ color: 'var(--muted)' }}>
+                  <span className="text-xs mt-3 leading-snug font-medium" style={{ color: 'rgba(255,255,255,0.75)' }}>
                     {active.heroStat.label}
                   </span>
                 </div>
