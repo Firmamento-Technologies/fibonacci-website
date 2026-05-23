@@ -309,8 +309,8 @@ export function AppMockup({ specialty }: { specialty: Specialty }) {
       style={{ border: `1px solid ${specialty.color}33` }}
       role="img"
       aria-label={`Anteprima visiva del modulo ${specialty.label} di Fibonacci`}
+      aria-hidden="true"
     >
-      <div aria-hidden="true" className="contents">
       {/* Chrome bar */}
       <div
         className="flex items-center gap-2 px-4 py-3"
@@ -394,7 +394,6 @@ export function AppMockup({ specialty }: { specialty: Specialty }) {
             </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   )

@@ -147,11 +147,11 @@ export function Hero() {
             >
               <span
                 className="text-2xl font-bold font-[var(--font-playfair)]"
-                style={{ color: selected.color }}
+                style={{ color: 'var(--fg)' }}
               >
                 {selected.heroStat.value}
               </span>
-              <span className="text-sm font-medium" style={{ color: selected.color }}>
+              <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>
                 {selected.heroStat.label}
               </span>
             </motion.div>

@@ -85,11 +85,11 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               >
                 <span
                   className="text-2xl font-bold font-[var(--font-playfair)]"
-                  style={{ color: specialty.color }}
+                  style={{ color: 'var(--fg)' }}
                 >
                   {specialty.heroStat.value}
                 </span>
-                <span className="text-sm font-medium" style={{ color: specialty.color }}>
+                <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>
                   {specialty.heroStat.label}
                 </span>
               </div>
