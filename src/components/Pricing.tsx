@@ -68,11 +68,12 @@ export function Pricing() {
           {PLANS.map((plan) => (
             <div
               key={plan.name}
-              className="rounded-2xl p-8 flex flex-col gap-6 relative"
-              style={{
-                background: plan.highlighted ? 'var(--fg)' : 'var(--bg)',
-                border: plan.highlighted ? 'none' : '1px solid var(--border)',
-              }}
+              className={`rounded-2xl p-8 flex flex-col gap-6 relative transition-transform duration-300 hover:-translate-y-1 ${plan.highlighted ? '' : 'liquid-glass'}`}
+              style={
+                plan.highlighted
+                  ? { background: 'var(--fg)', border: 'none' }
+                  : undefined
+              }
             >
               {plan.highlighted && (
                 <div

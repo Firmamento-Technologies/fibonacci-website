@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown, Play, ArrowRight } from 'lucide-react'
 import { SPECIALTIES, type Specialty } from '@/lib/specialties'
 import { AppMockup } from '@/components/AppMockup'
+import { AuroraBackground } from '@/components/AuroraBackground'
 
 // Spirale di Fibonacci decorativa SVG — elemento identitario di sfondo
 function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: number }) {
@@ -37,20 +38,11 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col pt-16 overflow-hidden">
-      {/* Sfondo gradient dinamico */}
-      <div
-        className="absolute inset-0 pointer-events-none transition-all duration-700"
-        style={{
-          background: `radial-gradient(ellipse 70% 55% at 65% 5%, ${selected.accent} 0%, transparent 65%)`,
-        }}
-      />
+      {/* Aurora gradient mesh - blob colorati blurrati animati */}
+      <AuroraBackground accent={selected.accent} />
 
-      {/* Spirale decorativa in alto a destra */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] -translate-y-1/4 translate-x-1/4">
-        <SpiralDecor color={selected.color} opacity={0.08} />
-      </div>
-      {/* Spirale secondaria in basso a sinistra */}
-      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] translate-y-1/3 -translate-x-1/3 rotate-180">
+      {/* Spirale Fibonacci secondaria sottile - ancora richiama il brand */}
+      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] translate-y-1/3 -translate-x-1/3 rotate-180 pointer-events-none">
         <SpiralDecor color={selected.color} opacity={0.04} />
       </div>
 
@@ -157,11 +149,11 @@ export function Hero() {
             </motion.div>
           </AnimatePresence>
 
-          {/* CTA */}
+          {/* CTA con aurora glow attorno al primario */}
           <div className="flex flex-wrap items-center gap-3">
             <a
               href="#demo"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-lg"
+              className="cta-aurora inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-xl"
               style={{ background: 'var(--fg)' }}
             >
               Richiedi demo gratuita
@@ -169,8 +161,8 @@ export function Hero() {
             </a>
             <a
               href="#come-funziona"
-              className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors"
-              style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
+              className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors backdrop-blur-sm"
+              style={{ color: 'var(--fg)', border: '1.5px solid var(--border)', background: 'rgba(255,255,255,0.4)' }}
             >
               <Play className="w-3.5 h-3.5" />
               Guarda come funziona

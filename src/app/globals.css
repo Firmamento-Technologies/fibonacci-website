@@ -39,3 +39,128 @@ h1, h2, h3 {
   word-break: break-word;
   overflow-wrap: anywhere;
 }
+
+/* ────────────────────────────────────────────────────────────────────
+   LIQUID GLASS + AURORA — design language sottile ispirato a iOS 26
+   (Apple WWDC 2025). Usato SPARINGLY su Navbar scrolled, Pricing cards
+   e CTA primari. Non applicato a dense content per non compromettere
+   readability.
+   ──────────────────────────────────────────────────────────────────── */
+
+/* Liquid glass: vetro semitrasparente con backdrop blur + specular highlight
+   superiore (inset shadow). Riusabile su navbar e card floating. */
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.7),
+    inset 0 -1px 0 0 rgba(232, 228, 221, 0.3),
+    0 10px 30px -10px rgba(27, 46, 75, 0.15);
+}
+
+/* Variante dark per sezioni con bg navy/fg */
+.liquid-glass-dark {
+  background: rgba(27, 46, 75, 0.55);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
+    0 10px 30px -10px rgba(0, 0, 0, 0.3);
+}
+
+/* Aurora gradient mesh - blob colorati blurrati che fluttuano lentamente.
+   Posizionati assoluti dentro un parent con position:relative+overflow:hidden.
+   Animazione lentissima (40s) per non distrarre da copy/CTA. */
+.aurora-mesh {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.aurora-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.6;
+  will-change: transform;
+}
+.aurora-blob-1 {
+  width: 420px;
+  height: 420px;
+  background: var(--accent-light);
+  top: -120px;
+  right: -120px;
+  animation: aurora-float-1 45s ease-in-out infinite;
+}
+.aurora-blob-2 {
+  width: 360px;
+  height: 360px;
+  background: #f5e8e7;
+  bottom: -120px;
+  left: -100px;
+  animation: aurora-float-2 55s ease-in-out infinite;
+}
+.aurora-blob-3 {
+  width: 300px;
+  height: 300px;
+  background: #e5eef5;
+  top: 40%;
+  left: 30%;
+  animation: aurora-float-3 50s ease-in-out infinite;
+}
+
+@keyframes aurora-float-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40px, 60px) scale(1.15); }
+}
+@keyframes aurora-float-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-50px, -40px) scale(1.1); }
+}
+@keyframes aurora-float-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, -30px) scale(0.9); }
+}
+
+/* Aurora glow attorno al CTA primario: conic-gradient animato lentamente
+   crea un alone gold/rame iridescente. Subtle blur, opacity ridotta. */
+@property --aurora-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.cta-aurora {
+  position: relative;
+  isolation: isolate;
+}
+.cta-aurora::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--aurora-angle),
+    #f0d27a,
+    #c4a87b,
+    #7d6638,
+    #f0d27a
+  );
+  filter: blur(10px);
+  opacity: 0.55;
+  z-index: -1;
+  animation: aurora-rotate 8s linear infinite;
+}
+@keyframes aurora-rotate {
+  to { --aurora-angle: 360deg; }
+}
+
+/* Riduzione movimento per utenti con prefer-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .aurora-blob,
+  .cta-aurora::before {
+    animation: none;
+  }
+}
