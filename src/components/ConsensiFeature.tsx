@@ -100,7 +100,7 @@ export function ConsensiFeature() {
           style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
         >
           {[
-            { num: '30', label: 'procedure nel catalogo (5 pronte + 25 AI)' },
+            { num: '29', label: 'modelli pronti out-of-the-box (v0.1 bozza)' },
             { num: '72', label: 'clausole PA italiane verificate' },
             { num: '8', label: 'sezioni obbligatorie validate' },
             { num: '0', label: 'consensi salvati senza review medica' },

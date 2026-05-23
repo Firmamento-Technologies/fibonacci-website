@@ -4,8 +4,8 @@ Questa guida descrive come generare consensi informati conformi alla **legge 219
 
 Fibonacci non distribuisce modelli di terzi. Il sistema combina due fonti:
 
-1. **5 modelli proprietari Fibonacci v0.1** già pronti per le procedure più frequenti di medicina estetica iniettiva e non chirurgica.
-2. **Wizard AI generativo** che compone consensi su misura per altre 25 procedure, partendo da una library di **72 clausole giuridiche estratte da fonti della Pubblica Amministrazione italiana** (atti regionali, ASL, aziende ospedaliere) che sono di pubblico dominio per la legge 633/1941 art. 5.
+1. **29 modelli proprietari Fibonacci v0.1** già pronti per le procedure più frequenti di medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia e follow-up.
+2. **Wizard AI generativo** per consensi su misura per qualsiasi trattamento fuori catalogo, partendo da una library di **72 clausole giuridiche estratte da fonti della Pubblica Amministrazione italiana** (atti regionali, ASL, aziende ospedaliere) che sono di pubblico dominio per la legge 633/1941 art. 5.
 
 Tutti gli output sono validati da tre strati anti-allucinazione (vedi Passo 4) e archiviati con sigillo elettronico avanzato e tracciatura FHIR AuditEvent.
 
@@ -25,7 +25,7 @@ Dalla scheda visita del paziente, il tab `Consensi` apre il pannello di gestione
 
 I consensi già firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive né modifica i precedenti: ogni consenso è un'entità FHIR `Consent` distinta con il suo `AuditEvent` immutabile.
 
-In alternativa, dal menu `Consensi → Catalogo` si accede ai 5 modelli proprietari Fibonacci pronti per il download in PDF (compilati automaticamente con i dati di studio e medico). Sono utili come riferimento o per stampe rapide senza paziente in carico.
+In alternativa, dal menu `Consensi → Catalogo` si accede ai 29 modelli proprietari Fibonacci pronti per il download in PDF (compilati automaticamente con i dati di studio e medico). Sono utili come riferimento o per stampe rapide senza paziente in carico.
 
 ## Passo 2, Wizard AI in 4 step
 
@@ -117,7 +117,7 @@ Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'
 
 ## Note importanti
 
-- I 5 modelli proprietari Fibonacci sono in **versione 0.1 (bozza interna)**: sono redatti sulla base di fonti normative di pubblico dominio (linee guida regionali PA + giurisprudenza pubblica), ma richiedono **validazione legale finale dello studio** prima dell'uso con pazienti reali. Fibonacci fornisce l'infrastruttura tecnica, non sostituisce il parere legale dell'avvocato sanitario.
+- I 29 modelli proprietari Fibonacci sono in **versione 0.1 (bozza interna)**. Coprono la struttura legale prevista (8 sezioni L. 219/2017 + 5 elementi Cassazione 26104/2022 + GDPR + eIDAS + PDF/A-3b) ma il **contenuto clinico non è stato ancora validato da avvocato sanitario né da medico specialista** della disciplina. Prima dell'uso con pazienti reali devi: (1) far rivedere ogni modello dal legale del tuo studio, (2) verificare rischi/percentuali con le linee guida societarie aggiornate (SICPRE/ISAPS, SIDeMaST, SIME/AIME), (3) personalizzare il consenso sul singolo paziente (allergie, terapie in atto, comorbilità — il wizard ti obbliga a farlo allo Step 2), (4) controfirmare il documento dopo la firma OTP del paziente. Fibonacci fornisce l'infrastruttura tecnica, non sostituisce il parere legale dell'avvocato sanitario né la responsabilità clinica del medico curante.
 
 - Il Wizard AI genera testi che vanno **sempre riletti** dal medico prima dell'invio: l'AI è uno strumento di supporto (conforme requisito RF-5.4), non un dispositivo medico. La review obbligatoria nelle 8 sezioni del Step 4 serve a marcare questa responsabilità.
 

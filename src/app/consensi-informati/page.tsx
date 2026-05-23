@@ -37,7 +37,7 @@ const PIPELINE_STEPS = [
     icon: ListChecks,
     title: 'Scegli la procedura',
     body:
-      "Catalogo di 30 procedure (5 modelli Fibonacci pronti + 25 generabili via AI) coprenti medicina estetica, chirurgia plastica, dermatologia, follow-up. Puoi anche partire da bianco con descrizione libera.",
+      "Catalogo di 29 modelli proprietari Fibonacci pronti all'uso coprenti medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia, follow-up. Puoi anche partire da bianco con descrizione libera per trattamenti fuori catalogo.",
   },
   {
     icon: Cpu,
@@ -321,6 +321,75 @@ export default function ConsensiInformatiPage() {
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Disclaimer onesto v0.1 — cosa serve prima dell'uso reale */}
+        <section className="py-20" style={{ background: 'var(--bg)' }} id="disclaimer">
+          <div className="max-w-4xl mx-auto px-6">
+            <div
+              className="p-8 rounded-2xl"
+              style={{
+                background: 'var(--card)',
+                border: '1.5px solid var(--accent)',
+                borderLeft: '5px solid var(--accent)',
+              }}
+            >
+              <h2
+                className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold mb-4"
+                style={{ color: 'var(--fg)' }}
+              >
+                Onestà: sono pronti per l&apos;uso reale?
+              </h2>
+              <p className="text-base mb-4 leading-relaxed" style={{ color: 'var(--muted)' }}>
+                I 29 modelli rispettano la struttura legale (8 sezioni
+                L. 219/2017, 5 elementi Cassazione 26104/2022, GDPR, eIDAS,
+                PDF/A-3b). Il contenuto clinico è generato con AI ancorata alla
+                library di clausole PA. <strong style={{ color: 'var(--fg)' }}>Sono
+                però in versione 0.1 (bozza interna)</strong>: prima dell&apos;uso
+                con pazienti reali devi:
+              </p>
+              <ul className="space-y-2 mb-6 text-sm" style={{ color: 'var(--muted)' }}>
+                <li className="flex items-start gap-2">
+                  <span style={{ color: 'var(--accent)' }}>·</span>
+                  <span>
+                    Far rivedere ogni modello dall&apos;avvocato sanitario del
+                    tuo studio.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span style={{ color: 'var(--accent)' }}>·</span>
+                  <span>
+                    Verificare rischi e percentuali con le linee guida societarie
+                    aggiornate (SICPRE/ISAPS, SIDeMaST, SIME/AIME).
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span style={{ color: 'var(--accent)' }}>·</span>
+                  <span>
+                    Personalizzare ogni consenso sul singolo paziente (allergie,
+                    terapie in atto, comorbilità) — il wizard ti obbliga a
+                    farlo allo Step 2.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span style={{ color: 'var(--accent)' }}>·</span>
+                  <span>
+                    Controfirmare il documento (firma medico) dopo la firma OTP
+                    del paziente.
+                  </span>
+                </li>
+              </ul>
+              <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
+                Fibonacci fornisce l&apos;<strong style={{ color: 'var(--fg)' }}>infrastruttura
+                tecnica</strong> (struttura, formato, archivio FHIR, audit,
+                firma eIDAS, validatori anti-allucinazione). La <strong style={{ color: 'var(--fg)' }}>validazione
+                di merito clinico e legale</strong> resta responsabilità dello
+                studio che firma — esattamente come per qualsiasi altro
+                software clinico (incluso il template SICPRE cartaceo
+                tradizionale, anch&apos;esso richiede personalizzazione).
+              </p>
             </div>
           </div>
         </section>
