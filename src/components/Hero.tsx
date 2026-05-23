@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown, Play, ArrowRight } from 'lucide-react'
 import { SPECIALTIES, type Specialty } from '@/lib/specialties'
 import { AppMockup } from '@/components/AppMockup'
-import { AuroraBackground } from '@/components/AuroraBackground'
 
 // Spirale di Fibonacci decorativa SVG — elemento identitario di sfondo
 function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: number }) {
@@ -38,12 +37,44 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col pt-16 overflow-hidden">
-      {/* Aurora gradient mesh - blob colorati blurrati animati */}
-      <AuroraBackground accent={selected.accent} />
+      {/* Dot grid pattern premium texture - statico, no animazioni */}
+      <div
+        className="absolute inset-0 pointer-events-none opacity-50"
+        style={{
+          backgroundImage:
+            'radial-gradient(circle at center, rgba(27, 46, 75, 0.12) 1px, transparent 1.2px)',
+          backgroundSize: '24px 24px',
+          maskImage:
+            'radial-gradient(ellipse 70% 60% at 50% 40%, black 30%, transparent 80%)',
+          WebkitMaskImage:
+            'radial-gradient(ellipse 70% 60% at 50% 40%, black 30%, transparent 80%)',
+        }}
+        aria-hidden="true"
+      />
 
-      {/* Spirale Fibonacci secondaria sottile - ancora richiama il brand */}
-      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] translate-y-1/3 -translate-x-1/3 rotate-180 pointer-events-none">
-        <SpiralDecor color={selected.color} opacity={0.04} />
+      {/* Soft gradient radial specialty-tinted - statico, transition smooth */}
+      <div
+        className="absolute inset-0 pointer-events-none transition-all duration-700"
+        style={{
+          background: `radial-gradient(ellipse 65% 50% at 70% 10%, ${selected.accent} 0%, transparent 60%)`,
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Spirale Fibonacci sottile in alto a destra - firma brand */}
+      <div
+        className="absolute top-0 right-0 w-[500px] h-[500px] -translate-y-1/4 translate-x-1/4 pointer-events-none"
+        aria-hidden="true"
+      >
+        <SpiralDecor color={selected.color} opacity={0.06} />
+      </div>
+
+      {/* Spirale Fibonacci secondaria piccola in basso a sinistra */}
+      <div
+        className="absolute bottom-0 left-0 w-[260px] h-[260px] translate-y-1/3 -translate-x-1/3 rotate-180 pointer-events-none"
+        aria-hidden="true"
+      >
+        <SpiralDecor color={selected.color} opacity={0.03} />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 pt-20 lg:pt-24 pb-20 flex-1">
