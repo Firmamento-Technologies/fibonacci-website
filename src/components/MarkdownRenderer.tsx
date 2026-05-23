@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
@@ -50,17 +51,32 @@ export function MarkdownRenderer({ content }: { content: string }) {
               {children}
             </li>
           ),
-          a: ({ href, children }) => (
-            <a
-              href={href}
-              className="underline underline-offset-2 transition-opacity hover:opacity-75"
-              style={{ color: 'var(--accent)' }}
-              target={href?.startsWith('http') ? '_blank' : undefined}
-              rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
-            >
-              {children}
-            </a>
-          ),
+          a: ({ href, children }) => {
+            const linkClass = 'underline underline-offset-2 transition-opacity hover:opacity-75'
+            const linkStyle = { color: 'var(--accent)' }
+            // Link interni (path assoluti tipo /docs/x/ o /privacy/) usano next/Link
+            // per ereditare il basePath GitHub Pages automaticamente.
+            if (href?.startsWith('/')) {
+              return (
+                <Link href={href} className={linkClass} style={linkStyle}>
+                  {children}
+                </Link>
+              )
+            }
+            // Esterni (http) + mailto + anchor restano <a>
+            const isExternal = href?.startsWith('http')
+            return (
+              <a
+                href={href}
+                className={linkClass}
+                style={linkStyle}
+                target={isExternal ? '_blank' : undefined}
+                rel={isExternal ? 'noopener noreferrer' : undefined}
+              >
+                {children}
+              </a>
+            )
+          },
           strong: ({ children }) => (
             <strong className="font-semibold" style={{ color: 'var(--fg)' }}>
               {children}

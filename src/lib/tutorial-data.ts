@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { assetPath } from './asset-path'
 
 export interface TutorialMeta {
   slug: string
@@ -8,6 +9,7 @@ export interface TutorialMeta {
   duration: string
   scenes: number
   videoSrc: string
+  videoSrcWebm: string
   posterSrc: string
 }
 
@@ -19,8 +21,9 @@ export const TUTORIALS: TutorialMeta[] = [
       'Una panoramica veloce del software. Per chi vuole capire in 90 secondi cosa fa Fibonacci e perché potrebbe servirgli.',
     duration: '90 sec',
     scenes: 9,
-    videoSrc: '/videos/home-walkthrough.mp4',
-    posterSrc: '/screenshots/home-hero.png',
+    videoSrc: assetPath('/videos/home-walkthrough.mp4'),
+    videoSrcWebm: assetPath('/videos/home-walkthrough.webm'),
+    posterSrc: assetPath('/screenshots/home-hero.png'),
   },
   {
     slug: 'prima-visita',
@@ -29,8 +32,9 @@ export const TUTORIALS: TutorialMeta[] = [
       'Walkthrough completo: dalla creazione paziente al consenso firmato. Pensato per il primo onboarding pratico.',
     duration: '3-4 min',
     scenes: 11,
-    videoSrc: '/videos/specialty-tour.mp4',
-    posterSrc: '/screenshots/specialty-estetica-hero.png',
+    videoSrc: assetPath('/videos/specialty-tour.mp4'),
+    videoSrcWebm: assetPath('/videos/specialty-tour.webm'),
+    posterSrc: assetPath('/screenshots/specialty-estetica-hero.png'),
   },
   {
     slug: 'body-map-consenso',
@@ -39,8 +43,9 @@ export const TUTORIALS: TutorialMeta[] = [
       'Focus sulla feature distintiva per medicina estetica: body-map 2D con pallini numerati e generazione consenso SICPRE pre-compilato.',
     duration: '2 min',
     scenes: 9,
-    videoSrc: '/videos/specialty-tour-2.mp4',
-    posterSrc: '/screenshots/mockup-estetica.png',
+    videoSrc: assetPath('/videos/specialty-tour-2.mp4'),
+    videoSrcWebm: assetPath('/videos/specialty-tour-2.webm'),
+    posterSrc: assetPath('/screenshots/mockup-estetica.png'),
   },
 ]
 

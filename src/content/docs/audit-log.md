@@ -145,8 +145,8 @@ L'export per il paziente esclude i dati di accesso che riguardano altri pazienti
 
 ## Vedi anche
 
-- [Generare e firmare consensi SICPRE in PDF](consensi-sicpre)
-- [Creazione e gestione anagrafica paziente](anagrafica-paziente)
-- [Primo accesso e configurazione iniziale](installazione)
+- [Generare e firmare consensi SICPRE in PDF](/docs/consensi-sicpre/)
+- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
+- [Primo accesso e configurazione iniziale](/docs/installazione/)
 
 Ultima revisione: {ULTIMA_REVISIONE}

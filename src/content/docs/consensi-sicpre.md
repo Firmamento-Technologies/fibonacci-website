@@ -145,8 +145,8 @@ La verifica e disponibile anche al di fuori della piattaforma utilizzando lettor
 
 ## Vedi anche
 
-- [Body map 2D per documentare le aree trattate](body-map)
-- [Creazione e gestione anagrafica paziente](anagrafica-paziente)
-- [Audit log e tracciabilita accessi](audit-log)
+- [Body map 2D per documentare le aree trattate](/docs/body-map/)
+- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
+- [Audit log e tracciabilita accessi](/docs/audit-log/)
 
 Ultima revisione: {ULTIMA_REVISIONE}

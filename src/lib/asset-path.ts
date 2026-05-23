@@ -1,0 +1,12 @@
+// Aggiunge il basePath GitHub Pages a path assoluti per asset binari
+// (img, video, source, poster) che non passano da next/Link.
+// Necessario perche' i tag HTML standard non ereditano il basePath di Next.config.
+
+const isProd = process.env.NODE_ENV === 'production'
+
+export const BASE_PATH = isProd ? '/fibonacci-website' : ''
+
+export function assetPath(path: string): string {
+  if (!path.startsWith('/')) return path
+  return `${BASE_PATH}${path}`
+}

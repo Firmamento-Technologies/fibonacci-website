@@ -109,8 +109,8 @@ L'utente puo richiedere di non utilizzare la dettatura per una specifica visita:
 
 ## Vedi anche
 
-- [Creazione e gestione anagrafica paziente](anagrafica-paziente)
-- [Body map 2D per documentare le aree trattate](body-map)
-- [Audit log e tracciabilita accessi](audit-log)
+- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
+- [Body map 2D per documentare le aree trattate](/docs/body-map/)
+- [Audit log e tracciabilita accessi](/docs/audit-log/)
 
 Ultima revisione: {ULTIMA_REVISIONE}

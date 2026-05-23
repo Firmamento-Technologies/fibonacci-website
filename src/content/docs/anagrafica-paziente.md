@@ -132,8 +132,8 @@ L'archivio e firmato digitalmente per garantirne l'integrita ed e disponibile pe
 
 ## Vedi anche
 
-- [Primo accesso e configurazione iniziale](installazione)
-- [Compilare l'anamnesi con la dettatura AI](anamnesi-dettatura)
-- [Audit log e tracciabilita accessi](audit-log)
+- [Primo accesso e configurazione iniziale](/docs/installazione/)
+- [Compilare l'anamnesi con la dettatura AI](/docs/anamnesi-dettatura/)
+- [Audit log e tracciabilita accessi](/docs/audit-log/)
 
 Ultima revisione: {ULTIMA_REVISIONE}

@@ -91,6 +91,7 @@ export default function TutorialIndex() {
                       playsInline
                     >
                       <source src={tut.videoSrc} type="video/mp4" />
+                      <source src={tut.videoSrcWebm} type="video/webm" />
                       Il tuo browser non supporta la riproduzione di video HTML5.
                     </video>
                   </div>

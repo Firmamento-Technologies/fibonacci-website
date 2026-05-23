@@ -148,8 +148,8 @@ Per privacy, gli appuntamenti sincronizzati esternamente mostrano solo titolo ge
 
 ## Vedi anche
 
-- [Creazione e gestione anagrafica paziente](anagrafica-paziente)
-- [Primo accesso e configurazione iniziale](installazione)
-- [Audit log e tracciabilita accessi](audit-log)
+- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
+- [Primo accesso e configurazione iniziale](/docs/installazione/)
+- [Audit log e tracciabilita accessi](/docs/audit-log/)
 
 Ultima revisione: {ULTIMA_REVISIONE}

@@ -129,8 +129,8 @@ Per prodotti non presenti nel catalogo, ad esempio dispositivi medici di nicchia
 
 ## Vedi anche
 
-- [Compilare l'anamnesi con la dettatura AI](anamnesi-dettatura)
-- [Generare e firmare consensi SICPRE in PDF](consensi-sicpre)
-- [Audit log e tracciabilita accessi](audit-log)
+- [Compilare l'anamnesi con la dettatura AI](/docs/anamnesi-dettatura/)
+- [Generare e firmare consensi SICPRE in PDF](/docs/consensi-sicpre/)
+- [Audit log e tracciabilita accessi](/docs/audit-log/)
 
 Ultima revisione: {ULTIMA_REVISIONE}
