@@ -82,20 +82,36 @@ export default function TutorialIndex() {
                 <div className="grid md:grid-cols-[1.4fr_1fr] gap-0">
                   {/* Video player */}
                   <div className="relative bg-black aspect-video md:aspect-auto">
-                    {/* Video doppiato italiano in lavorazione. Per ora poster + storyboard testuale. */}
-                    <Image
-                      src={tut.posterSrc}
-                      alt={tut.title}
-                      width={1440}
-                      height={900}
-                      unoptimized
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-                      <div className="px-4 py-2 rounded-full text-xs font-semibold backdrop-blur-sm" style={{ background: 'rgba(0,0,0,0.6)', color: 'white' }}>
-                        Video doppiato italiano in arrivo
-                      </div>
-                    </div>
+                    {tut.hasVideo && tut.videoSrc ? (
+                      <video
+                        className="w-full h-full object-cover"
+                        controls
+                        preload="metadata"
+                        poster={tut.posterSrc}
+                        muted
+                        playsInline
+                      >
+                        <source src={tut.videoSrc} type="video/mp4" />
+                        {tut.videoSrcWebm ? <source src={tut.videoSrcWebm} type="video/webm" /> : null}
+                        Il tuo browser non supporta la riproduzione di video HTML5.
+                      </video>
+                    ) : (
+                      <>
+                        <Image
+                          src={tut.posterSrc}
+                          alt={tut.title}
+                          width={1440}
+                          height={900}
+                          unoptimized
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                          <div className="px-4 py-2 rounded-full text-xs font-semibold backdrop-blur-sm" style={{ background: 'rgba(0,0,0,0.6)', color: 'white' }}>
+                            Video doppiato italiano in arrivo
+                          </div>
+                        </div>
+                      </>
+                    )}
                   </div>
 
                   {/* Info side */}

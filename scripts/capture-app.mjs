@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-// Capture screenshot + video MP4 dell'app live medicina estetica via Playwright.
-// Usa account medico1 (senza MFA) per attraversare il flow OAuth Medplum completo:
-//   startLogin -> code -> processCode -> navigate('/pazienti')
-// Output: public/screenshots/estetica/*.png e public/videos/*.webm + MP4/GIF conversion
+// Capture screenshot + video MP4 dell'app live in UNA SOLA sessione browser
+// per evitare rate limit /auth/login (10/IP/h). Login una volta, poi sequenza
+// completa di navigazione che genera 1 video lungo + N screenshot inline.
 
 import { chromium } from 'playwright'
 import { mkdir, readdir, rename, rm } from 'node:fs/promises'
@@ -15,40 +14,40 @@ const SCREENSHOTS_DIR = join(ROOT, 'public', 'screenshots', 'estetica')
 const VIDEOS_DIR = join(ROOT, 'public', 'videos')
 
 const APP_URL = 'https://82.25.101.118.nip.io'
-// medico1 e' un account dev SENZA MFA — necessario per l'automation
-const LOGIN_EMAIL = process.env.EMR_EMAIL ?? 'medico1@emr-estetica.local'
-const LOGIN_PASSWORD = process.env.EMR_PASSWORD ?? 'aYo1AreVEsO7Iarm8NF5QeuyZRZNhYY'
+const LOGIN_EMAIL = process.env.EMR_EMAIL ?? 'medico@studio.test'
+const LOGIN_PASSWORD = process.env.EMR_PASSWORD ?? 'fYS9mBWK3-teH3sJm2wOyE7l'
 
 const VIEWPORT = { width: 1440, height: 900 }
-const DEVICE_SCALE_FACTOR = 2
 
 async function ensureDir(p) { await mkdir(p, { recursive: true }) }
 
-async function login(page) {
-  console.log(`[login] -> ${APP_URL}/login`)
-  await page.goto(`${APP_URL}/login`, { waitUntil: 'networkidle', timeout: 20000 })
-
-  await page.fill('input#email', LOGIN_EMAIL)
-  await page.fill('input#password', LOGIN_PASSWORD)
-  console.log(`[login] submitting credentials for ${LOGIN_EMAIL}`)
-
-  // Submit + wait for navigation to /pazienti (success path)
-  await Promise.all([
-    page.waitForURL(/\/pazienti/, { timeout: 20000 }).catch((e) => {
-      throw new Error(`login non ha portato a /pazienti: ${e.message}`)
-    }),
-    page.locator('button[type="submit"]').click(),
-  ])
-
-  console.log(`[login] OK url=${page.url()}`)
-  await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {})
-  await page.waitForTimeout(1500)
+async function loginWithRetry(page, maxAttempts = 3) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      console.log(`[login] attempt ${attempt}/${maxAttempts}`)
+      await page.goto(`${APP_URL}/login`, { waitUntil: 'domcontentloaded', timeout: 20000 })
+      await page.waitForSelector('input#email', { timeout: 10000 })
+      await page.fill('input#email', LOGIN_EMAIL)
+      await page.fill('input#password', LOGIN_PASSWORD)
+      await Promise.all([
+        page.waitForURL(/\/(pazienti|appuntamenti|dashboard)/, { timeout: 25000 }),
+        page.locator('button[type="submit"]').click(),
+      ])
+      console.log(`[login] OK -> ${page.url()}`)
+      return
+    } catch (e) {
+      console.warn(`[login] attempt ${attempt} failed: ${e.message.split('\n')[0]}`)
+      if (attempt === maxAttempts) throw e
+      // backoff: aspetta 8-15s prima del prossimo tentativo (anche per evitare rate limit)
+      await page.waitForTimeout(8000 + attempt * 2000)
+    }
+  }
 }
 
 async function shot(page, name, opts = {}) {
   const path = join(SCREENSHOTS_DIR, `${name}.png`)
   await page.waitForLoadState('networkidle', { timeout: 8000 }).catch(() => {})
-  await page.waitForTimeout(opts.delay ?? 1000)
+  await page.waitForTimeout(opts.delay ?? 1200)
   await page.screenshot({ path, fullPage: opts.fullPage ?? false, type: 'png' })
   console.log(`[shot] ${name}`)
 }
@@ -58,7 +57,7 @@ async function goShot(page, route, name, opts = {}) {
   await page.goto(`${APP_URL}${route}`, { waitUntil: 'networkidle', timeout: 20000 }).catch((e) => {
     console.warn(`[nav] fail ${route}: ${e.message}`)
   })
-  await page.waitForTimeout(1200)
+  await page.waitForTimeout(opts.beforeShot ?? 1500)
   await shot(page, name, opts)
 }
 
@@ -66,43 +65,52 @@ async function main() {
   await ensureDir(SCREENSHOTS_DIR)
   await ensureDir(VIDEOS_DIR)
 
-  // Clean vecchie catture (sostituiamo con quelle dell'APP vera)
-  console.log('[cleanup] rm vecchi screenshots/videos di test')
+  // Cleanup
+  console.log('[cleanup]')
   await rm(SCREENSHOTS_DIR, { recursive: true, force: true })
   await ensureDir(SCREENSHOTS_DIR)
+  // Rimuovi solo video binari, non altri asset
+  for (const f of await readdir(VIDEOS_DIR).catch(() => [])) {
+    if (/\.(webm|mp4|gif)$/.test(f)) await rm(join(VIDEOS_DIR, f)).catch(() => {})
+  }
 
   const browser = await chromium.launch({ headless: true })
 
-  // --- Sessione 1: screenshot ---
-  const ctxShot = await browser.newContext({
+  // UNA sola sessione context con recordVideo
+  const ctx = await browser.newContext({
     viewport: VIEWPORT,
-    deviceScaleFactor: DEVICE_SCALE_FACTOR,
+    deviceScaleFactor: 2, // retina screenshots
     locale: 'it-IT',
     timezoneId: 'Europe/Rome',
     ignoreHTTPSErrors: true,
+    recordVideo: { dir: VIDEOS_DIR, size: VIEWPORT },
   })
-  const page = await ctxShot.newPage()
+  const page = await ctx.newPage()
 
   try {
-    await login(page)
-    // /pazienti landing (lista pazienti)
-    await shot(page, '01-pazienti-list')
+    await loginWithRetry(page, 3)
+    await page.waitForTimeout(2500)
 
-    // Apri primo paziente per dettaglio
-    const firstPatientLink = page.locator('a[href*="/pazienti/"]:not([href$="/pazienti"]):not([href$="/pazienti/"])').first()
-    const hasFirst = await firstPatientLink.isVisible({ timeout: 4000 }).catch(() => false)
-    if (hasFirst) {
-      await firstPatientLink.click()
-      await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {})
-      await page.waitForTimeout(1500)
+    // Step 1: lista pazienti (landing post-login)
+    await shot(page, '01-pazienti-list', { delay: 2500 })
+
+    // Step 2: apri primo paziente
+    const firstPatient = page.locator('a[href*="/pazienti/"]:not([href$="/pazienti"]):not([href$="/pazienti/"])').first()
+    if (await firstPatient.isVisible({ timeout: 4000 }).catch(() => false)) {
+      console.log('[nav] apertura primo paziente')
+      await firstPatient.click()
+      await page.waitForTimeout(2500)
       await shot(page, '02-paziente-detail')
 
       // Tab anamnesi
-      const anamnesiTab = page.locator('a:has-text("Anamnesi"), button:has-text("Anamnesi"), [role="tab"]:has-text("Anamnesi")').first()
-      if (await anamnesiTab.isVisible({ timeout: 2500 }).catch(() => false)) {
-        await anamnesiTab.click()
-        await page.waitForTimeout(1500)
-        await shot(page, '03-anamnesi')
+      for (const label of ['Anamnesi', 'anamnesi']) {
+        const tab = page.locator(`a:has-text("${label}"), button:has-text("${label}"), [role="tab"]:has-text("${label}")`).first()
+        if (await tab.isVisible({ timeout: 1500 }).catch(() => false)) {
+          await tab.click()
+          await page.waitForTimeout(2500)
+          await shot(page, '03-anamnesi')
+          break
+        }
       }
 
       // Tab trattamenti / body-map
@@ -110,137 +118,57 @@ async function main() {
         const tab = page.locator(`a:has-text("${label}"), button:has-text("${label}"), [role="tab"]:has-text("${label}")`).first()
         if (await tab.isVisible({ timeout: 1500 }).catch(() => false)) {
           await tab.click()
-          await page.waitForTimeout(1500)
+          await page.waitForTimeout(2500)
           await shot(page, '04-body-map-trattamenti')
           break
         }
       }
 
       // Tab consensi
-      const consensiTab = page.locator('a:has-text("Consensi"), button:has-text("Consensi"), [role="tab"]:has-text("Consensi")').first()
-      if (await consensiTab.isVisible({ timeout: 1500 }).catch(() => false)) {
-        await consensiTab.click()
-        await page.waitForTimeout(1500)
-        await shot(page, '05-consensi')
+      for (const label of ['Consensi', 'consensi']) {
+        const tab = page.locator(`a:has-text("${label}"), button:has-text("${label}"), [role="tab"]:has-text("${label}")`).first()
+        if (await tab.isVisible({ timeout: 1500 }).catch(() => false)) {
+          await tab.click()
+          await page.waitForTimeout(2500)
+          await shot(page, '05-consensi')
+          break
+        }
       }
     } else {
-      console.log('[note] nessun paziente trovato, skip detail screenshots')
+      console.log('[note] nessun paziente — skip tab')
     }
 
-    // Agenda
-    await goShot(page, '/appuntamenti', '06-agenda')
+    // Step 3: agenda
+    await goShot(page, '/appuntamenti', '06-agenda', { beforeShot: 2500 })
 
-    // Audit log
-    await goShot(page, '/audit', '07-audit-log')
+    // Step 4: audit log
+    await goShot(page, '/audit', '07-audit-log', { beforeShot: 2500 })
 
-    // Impostazioni
-    await goShot(page, '/impostazioni', '08-impostazioni')
+    // Step 5: impostazioni
+    await goShot(page, '/impostazioni', '08-impostazioni', { beforeShot: 2500 })
 
-    // Farmaci AIFA catalog
-    await goShot(page, '/farmaci', '09-farmaci-aifa')
+    // Step 6: farmaci AIFA
+    await goShot(page, '/farmaci', '09-farmaci-aifa', { beforeShot: 2500 })
 
-    // Dashboard / Home post-login
-    await goShot(page, '/', '10-dashboard')
+    // Step 7: dashboard home
+    await goShot(page, '/', '10-dashboard', { beforeShot: 2500 })
+
+    // Pausa finale per il video
+    await page.waitForTimeout(2000)
   } catch (e) {
-    console.error(`[error] capture failed: ${e.message}`)
+    console.error(`[error] ${e.message}`)
     await shot(page, '99-error-state').catch(() => {})
   } finally {
-    await ctxShot.close()
-  }
-
-  // --- Sessione 2: video MP4 dei flussi reali nell'app ---
-  console.log(`[video] starting flows on real app`)
-  // Clean vecchi webm (sostituiamo con video real-app)
-  const existingFiles = await readdir(VIDEOS_DIR).catch(() => [])
-  for (const f of existingFiles) {
-    if (f.endsWith('.webm') || f.endsWith('.mp4') || f.endsWith('.gif')) {
-      await rm(join(VIDEOS_DIR, f)).catch(() => {})
+    // CHIUDI page PRIMA del context per chiudere il video
+    const videoPath = await page.video()?.path()
+    await page.close()
+    await ctx.close()
+    if (videoPath) {
+      // Rinomina il video con nome semantico
+      const dst = join(VIDEOS_DIR, 'panoramica-app.webm')
+      await rename(videoPath, dst).catch((e) => console.warn(`[rename] ${e.message}`))
+      console.log(`[video] -> ${dst}`)
     }
-  }
-
-  const flows = [
-    {
-      name: 'panoramica-app',
-      description: 'Tour generale: pazienti -> agenda -> audit -> impostazioni',
-      steps: async (page) => {
-        await login(page)
-        await page.waitForTimeout(2500)
-        await page.goto(`${APP_URL}/pazienti`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(3000)
-        await page.goto(`${APP_URL}/appuntamenti`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(3000)
-        await page.goto(`${APP_URL}/audit`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(3000)
-        await page.goto(`${APP_URL}/impostazioni`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(3000)
-      },
-    },
-    {
-      name: 'navigazione-paziente',
-      description: 'Apertura paziente e navigazione tra tab cartella',
-      steps: async (page) => {
-        await login(page)
-        await page.goto(`${APP_URL}/pazienti`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(2000)
-        const link = page.locator('a[href*="/pazienti/"]:not([href$="/pazienti"]):not([href$="/pazienti/"])').first()
-        if (await link.isVisible().catch(() => false)) {
-          await link.click()
-          await page.waitForTimeout(3000)
-          for (const label of ['Anamnesi', 'Trattamenti', 'Body map', 'Consensi']) {
-            const t = page.locator(`a:has-text("${label}"), button:has-text("${label}"), [role="tab"]:has-text("${label}")`).first()
-            if (await t.isVisible({ timeout: 1500 }).catch(() => false)) {
-              await t.click()
-              await page.waitForTimeout(2500)
-            }
-          }
-        }
-      },
-    },
-    {
-      name: 'agenda-audit',
-      description: 'Agenda appuntamenti + audit log',
-      steps: async (page) => {
-        await login(page)
-        await page.goto(`${APP_URL}/appuntamenti`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(3000)
-        await page.evaluate(() => window.scrollTo({ top: 400, behavior: 'smooth' }))
-        await page.waitForTimeout(2500)
-        await page.goto(`${APP_URL}/audit`, { waitUntil: 'networkidle' })
-        await page.waitForTimeout(3000)
-        await page.evaluate(() => window.scrollTo({ top: 300, behavior: 'smooth' }))
-        await page.waitForTimeout(2500)
-      },
-    },
-  ]
-
-  const flowVideoMap = new Map() // key = webm path letto, value = target name
-
-  for (const flow of flows) {
-    console.log(`[video] flow=${flow.name}`)
-    const videoCtx = await browser.newContext({
-      viewport: VIEWPORT,
-      locale: 'it-IT',
-      timezoneId: 'Europe/Rome',
-      ignoreHTTPSErrors: true,
-      recordVideo: { dir: VIDEOS_DIR, size: VIEWPORT },
-    })
-    const videoPage = await videoCtx.newPage()
-    try {
-      await flow.steps(videoPage)
-    } catch (e) {
-      console.warn(`[video] ${flow.name} error: ${e.message}`)
-    } finally {
-      const videoPath = await videoPage.video()?.path()
-      await videoPage.close()
-      await videoCtx.close()
-      if (videoPath) flowVideoMap.set(videoPath, flow.name)
-    }
-  }
-
-  // Rinomina webm
-  for (const [src, targetName] of flowVideoMap.entries()) {
-    const dst = join(VIDEOS_DIR, `${targetName}.webm`)
-    if (src !== dst) await rename(src, dst).catch((e) => console.warn(`[rename] ${e.message}`))
   }
 
   await browser.close()

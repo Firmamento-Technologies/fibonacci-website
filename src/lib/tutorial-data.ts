@@ -8,8 +8,9 @@ export interface TutorialMeta {
   description: string
   duration: string
   scenes: number
-  videoSrc: string
-  videoSrcWebm: string
+  hasVideo: boolean
+  videoSrc?: string
+  videoSrcWebm?: string
   posterSrc: string
 }
 
@@ -18,23 +19,23 @@ export const TUTORIALS: TutorialMeta[] = [
     slug: 'panoramica',
     title: 'Fibonacci in 90 secondi',
     description:
-      'Una panoramica veloce del software. Per chi vuole capire in 90 secondi cosa fa Fibonacci e perché potrebbe servirgli.',
+      'Tour live dell\'applicazione: pazienti, paziente dettaglio, consensi, agenda, audit log, impostazioni e catalogo farmaci AIFA. Registrato dal vivo sull\'app medicina estetica.',
     duration: '90 sec',
     scenes: 9,
-    videoSrc: assetPath('/videos/home-walkthrough.mp4'),
-    videoSrcWebm: assetPath('/videos/home-walkthrough.webm'),
-    posterSrc: assetPath('/screenshots/home-hero.png'),
+    hasVideo: true,
+    videoSrc: assetPath('/videos/panoramica-app.mp4'),
+    videoSrcWebm: assetPath('/videos/panoramica-app.webm'),
+    posterSrc: assetPath('/screenshots/estetica/01-pazienti-list.png'),
   },
   {
     slug: 'prima-visita',
     title: 'La prima visita su Fibonacci',
     description:
-      'Walkthrough completo: dalla creazione paziente al consenso firmato. Pensato per il primo onboarding pratico.',
+      'Walkthrough completo dalla creazione paziente al consenso firmato. Storyboard pronto per il doppiaggio italiano, video in arrivo.',
     duration: '3-4 min',
     scenes: 11,
-    videoSrc: assetPath('/videos/specialty-tour.mp4'),
-    videoSrcWebm: assetPath('/videos/specialty-tour.webm'),
-    posterSrc: assetPath('/screenshots/specialty-estetica-hero.png'),
+    hasVideo: false,
+    posterSrc: assetPath('/screenshots/estetica/02-paziente-detail.png'),
   },
   {
     slug: 'body-map-consenso',
@@ -43,9 +44,8 @@ export const TUTORIALS: TutorialMeta[] = [
       'Focus sulla feature distintiva per medicina estetica: body-map 2D con pallini numerati e generazione consenso SICPRE pre-compilato.',
     duration: '2 min',
     scenes: 9,
-    videoSrc: assetPath('/videos/specialty-tour-2.mp4'),
-    videoSrcWebm: assetPath('/videos/specialty-tour-2.webm'),
-    posterSrc: assetPath('/screenshots/mockup-estetica.png'),
+    hasVideo: false,
+    posterSrc: assetPath('/screenshots/estetica/05-consensi.png'),
   },
 ]
 
