@@ -22,8 +22,20 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
-body {
+html, body {
   background: var(--bg);
   color: var(--fg);
   -webkit-font-smoothing: antialiased;
+  /* Previene overflow orizzontale globale da elementi decorativi assoluti
+     (spirali, gradient bleed). Salva il rendering mobile dove il document
+     allarga oltre il viewport. */
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Headline lunghe come "Estetica su Fibonacci" su display <380px andavano
+   in overflow. break-words globale sui titoli previene il bleed. */
+h1, h2, h3 {
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
