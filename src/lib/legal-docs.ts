@@ -62,6 +62,8 @@ export interface SitePage {
 export const STATIC_SITE_PAGES: SitePage[] = [
   { slug: 'faq', changeFrequency: 'monthly', priority: 0.7 },
   { slug: 'chi-siamo', changeFrequency: 'yearly', priority: 0.6 },
+  { slug: 'docs', changeFrequency: 'monthly', priority: 0.7 },
+  { slug: 'tutorial', changeFrequency: 'monthly', priority: 0.7 },
 ]
 
 export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {

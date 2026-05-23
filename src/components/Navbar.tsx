@@ -92,18 +92,25 @@ export function Navbar() {
             Prezzi
           </Link>
           <Link
+            href="/tutorial"
+            className="text-sm font-medium transition-colors"
+            style={{ color: 'var(--muted)' }}
+          >
+            Tutorial
+          </Link>
+          <Link
+            href="/docs"
+            className="text-sm font-medium transition-colors"
+            style={{ color: 'var(--muted)' }}
+          >
+            Docs
+          </Link>
+          <Link
             href="/faq"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
           >
             FAQ
-          </Link>
-          <Link
-            href="/chi-siamo"
-            className="text-sm font-medium transition-colors"
-            style={{ color: 'var(--muted)' }}
-          >
-            Chi siamo
           </Link>
           <a
             href="https://app.fibonacci.it"
@@ -162,6 +169,22 @@ export function Navbar() {
                 </Link>
               ))}
               <div className="pt-3 border-t flex flex-col gap-2" style={{ borderColor: 'var(--border)' }}>
+                <Link
+                  href="/tutorial"
+                  className="text-sm font-medium py-1"
+                  style={{ color: 'var(--muted)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Tutorial
+                </Link>
+                <Link
+                  href="/docs"
+                  className="text-sm font-medium py-1"
+                  style={{ color: 'var(--muted)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Documentazione
+                </Link>
                 <Link
                   href="/faq"
                   className="text-sm font-medium py-1"

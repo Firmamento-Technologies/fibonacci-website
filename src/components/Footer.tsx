@@ -6,7 +6,8 @@ import { NewsletterForm } from '@/components/NewsletterForm'
 const PRODUCT_LINKS = [
   { label: 'Come funziona', href: '/#come-funziona', external: false },
   { label: 'Prezzi', href: '/#prezzi', external: false },
-  { label: 'Specialità', href: '/#specialita', external: false },
+  { label: 'Tutorial video', href: '/tutorial', external: false },
+  { label: 'Documentazione', href: '/docs', external: false },
   { label: 'FAQ', href: '/faq', external: false },
   { label: 'Chi siamo', href: '/chi-siamo', external: false },
   { label: 'Accedi al software', href: 'https://app.fibonacci.it', external: true },
