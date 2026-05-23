@@ -37,6 +37,20 @@ export const LEGAL_DOCS: LegalDocMeta[] = [
     description:
       'Condizioni generali di contratto SaaS B2B per l\'utilizzo del software Fibonacci da parte di medici e strutture sanitarie.',
   },
+  {
+    slug: 'sicurezza',
+    title: 'Sicurezza e protezione dei dati',
+    shortTitle: 'Sicurezza',
+    description:
+      'Scheda tecnica delle misure di sicurezza ex art. 32 GDPR adottate da Fibonacci. Allegato A del DPA.',
+  },
+  {
+    slug: 'sub-responsabili',
+    title: 'Sub-responsabili del trattamento',
+    shortTitle: 'Sub-responsabili',
+    description:
+      'Elenco nominativo aggiornato dei sub-responsabili del trattamento autorizzati ex art. 28.2 GDPR. Allegato B del DPA.',
+  },
 ]
 
 export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {

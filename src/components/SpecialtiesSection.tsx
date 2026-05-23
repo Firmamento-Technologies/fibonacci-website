@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight, Check } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
@@ -82,14 +83,14 @@ export function SpecialtiesSection() {
                     ))}
                   </ul>
 
-                  <a
+                  <Link
                     href={`/specialita/${active.id}`}
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-white transition-opacity hover:opacity-90"
                     style={{ background: active.color }}
                   >
                     Scopri {active.label}
                     <ArrowRight className="w-4 h-4" />
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Stat highlight — integrata nel pannello, non box isolato */}

@@ -4,13 +4,13 @@ La presente informativa descrive le modalità di trattamento dei dati personali 
 
 Fibonacci è una cartella clinica digitale multi-specialità rivolta a medici e professionisti sanitari italiani, distribuita in modalità Software as a Service. Le specialità coperte includono medicina estetica, dermatologia, ortopedia, psicologia, nutrizione e oculistica, con estensione progressiva. Tra le funzionalità rientrano la gestione dell'anagrafica del paziente, l'anamnesi strutturata, le foto cliniche cifrate, la body-map 2D, la dettatura assistita da intelligenza artificiale per anamnesi e referti, la generazione e l'archiviazione dei consensi informati in formato PDF, il catalogo farmaci AIFA, il log di audit immutabile in formato FHIR AuditEvent, l'agenda appuntamenti, l'autenticazione a due fattori TOTP e l'interscambio nativo in formato FHIR R4.
 
-> Avvertenza preliminare: tre ruoli distinti coesistono nel perimetro del servizio. Per i dati di navigazione del sito fibonacci.it e per i dati dei medici clienti che sottoscrivono l'abbonamento al software, Firmamento Technologies S.r.l. agisce in qualità di Titolare del trattamento. Per i dati dei pazienti inseriti dai medici clienti nel software, Firmamento Technologies S.r.l. agisce in qualità di Responsabile del trattamento ex art. 28 GDPR, mentre il Titolare è il medico cliente che ha la relazione professionale con il paziente. La regolamentazione del trattamento dei dati dei pazienti è disciplinata dall'Accordo sul trattamento dei dati (di seguito "DPA"), sottoscritto contestualmente al contratto di servizio dal medico cliente, ed è descritta sinteticamente nella sezione 3 e nella sezione 8 della presente informativa.
+> Avvertenza preliminare: tre ruoli distinti coesistono nel perimetro del servizio. Per i dati di navigazione del sito fibonacci.it e per i dati dei medici clienti che sottoscrivono l'abbonamento al software, Fibonacci agisce in qualità di Titolare del trattamento. Per i dati dei pazienti inseriti dai medici clienti nel software, Fibonacci agisce in qualità di Responsabile del trattamento ex art. 28 GDPR, mentre il Titolare è il medico cliente che ha la relazione professionale con il paziente. La regolamentazione del trattamento dei dati dei pazienti è disciplinata dall'Accordo sul trattamento dei dati (di seguito "DPA"), sottoscritto contestualmente al contratto di servizio dal medico cliente, ed è descritta sinteticamente nella sezione 3 e nella sezione 8 della presente informativa.
 
 ## 1. Titolare del trattamento
 
 Titolare del trattamento dei dati personali è:
 
-Firmamento Technologies S.r.l.
+Fibonacci
 Sede legale: Genova, Italia
 Codice Fiscale / Partita IVA: IT____________
 Email di contatto per le questioni privacy: privacy@fibonacci.it
@@ -50,15 +50,15 @@ In relazione ai medici e agli operatori sanitari che sottoscrivono un abbonament
 - dati anagrafici e professionali: nome, cognome, codice fiscale, data e luogo di nascita, indirizzo, numero di iscrizione all'Ordine professionale, specializzazione, partita IVA, dati di fatturazione;
 - credenziali di accesso: indirizzo email, hash della password, secret TOTP per l'autenticazione a due fattori, log degli accessi;
 - dati relativi all'utilizzo del servizio: configurazione dell'account, preferenze, log di attività, audit trail delle operazioni svolte sull'applicazione;
-- dati di pagamento: i dati strumentali alla gestione dell'abbonamento (nome titolare, riferimento al metodo di pagamento) sono trattati dal sub-responsabile Stripe Payments Europe Ltd, che opera in qualità di autonomo responsabile del trattamento dei dati delle carte. Firmamento Technologies S.r.l. non conserva i numeri completi delle carte di pagamento.
+- dati di pagamento: i dati strumentali alla gestione dell'abbonamento (nome titolare, riferimento al metodo di pagamento) sono trattati dal sub-responsabile Stripe Payments Europe Ltd, che opera in qualità di autonomo responsabile del trattamento dei dati delle carte. Fibonacci non conserva i numeri completi delle carte di pagamento.
 
 ### 3.3 Pazienti dei medici clienti
 
 I dati dei pazienti delle strutture sanitarie clienti, inseriti nel software dal medico cliente o dai suoi collaboratori autorizzati, comprendono dati anagrafici, dati di contatto, dati clinici e anamnestici, fotografie cliniche, referti, prescrizioni, consensi informati e ogni altro dato funzionale all'erogazione della prestazione sanitaria, ivi inclusi dati appartenenti alle categorie particolari di cui all'art. 9 GDPR (in particolare dati relativi alla salute).
 
-Per tali dati Firmamento Technologies S.r.l. agisce in qualità di Responsabile del trattamento ai sensi dell'art. 28 GDPR. Il Titolare è il medico cliente o la struttura sanitaria che utilizza il software. I dettagli sulle categorie di dati trattati, sulle istruzioni documentate, sui sub-responsabili autorizzati e sulle misure di sicurezza adottate sono disciplinati dall'Accordo sul trattamento dei dati (DPA) sottoscritto contestualmente al contratto di servizio. Il DPA è disponibile su richiesta all'indirizzo privacy@fibonacci.it e nella sezione documentale dell'area riservata del medico cliente.
+Per tali dati Fibonacci agisce in qualità di Responsabile del trattamento ai sensi dell'art. 28 GDPR. Il Titolare è il medico cliente o la struttura sanitaria che utilizza il software. I dettagli sulle categorie di dati trattati, sulle istruzioni documentate, sui sub-responsabili autorizzati e sulle misure di sicurezza adottate sono disciplinati dall'Accordo sul trattamento dei dati (DPA) sottoscritto contestualmente al contratto di servizio. Il DPA è disponibile su richiesta all'indirizzo privacy@fibonacci.it e nella sezione documentale dell'area riservata del medico cliente.
 
-I pazienti che intendano esercitare i propri diritti sono invitati a rivolgersi al proprio medico curante in qualità di Titolare del trattamento. Firmamento Technologies S.r.l., in qualità di Responsabile, fornisce al medico Titolare l'assistenza tecnica necessaria a dare riscontro alle richieste degli interessati.
+I pazienti che intendano esercitare i propri diritti sono invitati a rivolgersi al proprio medico curante in qualità di Titolare del trattamento. Fibonacci, in qualità di Responsabile, fornisce al medico Titolare l'assistenza tecnica necessaria a dare riscontro alle richieste degli interessati.
 
 ## 4. Finalità e base giuridica del trattamento
 
@@ -72,7 +72,7 @@ I trattamenti svolti dal Titolare perseguono le finalità di seguito indicate, c
 | Riscontro alle richieste inviate tramite i form di contatto e gestione delle richieste demo da parte di potenziali clienti | Dati di contatto, contenuto del messaggio | Art. 6, par. 1, lett. b GDPR (esecuzione di misure precontrattuali su richiesta dell'interessato) |
 | Invio di comunicazioni promozionali, newsletter e materiali informativi sui prodotti Fibonacci | Indirizzo email, nome, cognome, preferenze | Art. 6, par. 1, lett. a GDPR (consenso specifico, separato e revocabile) |
 | Esercizio o difesa di un diritto in sede giudiziaria | Tutte le categorie pertinenti al singolo contenzioso | Art. 6, par. 1, lett. f GDPR (legittimo interesse del Titolare) e, ove applicabile, art. 9, par. 2, lett. f GDPR |
-| Trattamento dei dati dei pazienti per conto del medico cliente Titolare (gestione della cartella clinica, archiviazione delle prestazioni, dettatura referti) | Dati anagrafici dei pazienti, dati relativi alla salute, fotografie cliniche, consensi informati | Per il Titolare medico: art. 6, par. 1, lett. b GDPR e art. 9, par. 2, lett. h GDPR (finalità di medicina preventiva, diagnosi, assistenza o terapia sanitaria). Per Firmamento Technologies S.r.l.: art. 28 GDPR in qualità di Responsabile, secondo le istruzioni documentate nel DPA |
+| Trattamento dei dati dei pazienti per conto del medico cliente Titolare (gestione della cartella clinica, archiviazione delle prestazioni, dettatura referti) | Dati anagrafici dei pazienti, dati relativi alla salute, fotografie cliniche, consensi informati | Per il Titolare medico: art. 6, par. 1, lett. b GDPR e art. 9, par. 2, lett. h GDPR (finalità di medicina preventiva, diagnosi, assistenza o terapia sanitaria). Per Fibonacci: art. 28 GDPR in qualità di Responsabile, secondo le istruzioni documentate nel DPA |
 
 Il conferimento dei dati per le finalità contrattuali, amministrative e di sicurezza è necessario alla fornitura del servizio. Il rifiuto comporta l'impossibilità di erogare il servizio. Il consenso alle comunicazioni promozionali è invece facoltativo e revocabile in qualsiasi momento, senza pregiudizio per il rapporto contrattuale e per il trattamento già svolto sulla base del consenso precedentemente prestato.
 
@@ -92,7 +92,7 @@ Il trattamento è effettuato con strumenti elettronici, in conformità al princi
 - formazione del personale autorizzato al trattamento e adozione di accordi di riservatezza;
 - registri delle attività di trattamento ex art. 30 GDPR.
 
-I dati sono accessibili esclusivamente al personale di Firmamento Technologies S.r.l. autorizzato e istruito in qualità di soggetto designato al trattamento ex art. 29 GDPR e art. 2-quaterdecies Codice Privacy.
+I dati sono accessibili esclusivamente al personale di Fibonacci autorizzato e istruito in qualità di soggetto designato al trattamento ex art. 29 GDPR e art. 2-quaterdecies Codice Privacy.
 
 ## 6. Sub-responsabili e destinatari dei dati
 
@@ -167,7 +167,7 @@ Le richieste possono essere indirizzate, anche disgiuntamente, al Titolare e al 
 
 Il Titolare fornisce riscontro entro 30 giorni dal ricevimento della richiesta. Il termine può essere prorogato di ulteriori 60 giorni in caso di particolare complessità della richiesta o di numero elevato di richieste, con motivazione comunicata all'interessato. Il riscontro è gratuito; il Titolare si riserva di richiedere un contributo spese o di rifiutare la richiesta in caso di istanze manifestamente infondate o eccessive, ai sensi dell'art. 12, par. 5 GDPR.
 
-I pazienti dei medici clienti devono rivolgere le proprie richieste al medico Titolare del trattamento, che resta il loro punto di contatto primario. Il Titolare Firmamento, in qualità di Responsabile, presta tempestiva assistenza al medico nel dare seguito a tali richieste, conformemente all'art. 28, par. 3, lett. e GDPR.
+I pazienti dei medici clienti devono rivolgere le proprie richieste al medico Titolare del trattamento, che resta il loro punto di contatto primario. Il Titolare Fibonacci, in qualità di Responsabile, presta tempestiva assistenza al medico nel dare seguito a tali richieste, conformemente all'art. 28, par. 3, lett. e GDPR.
 
 ## 10. Data breach
 
@@ -175,7 +175,7 @@ In caso di violazione dei dati personali, il Titolare effettua una valutazione d
 
 Ai sensi dell'art. 34 GDPR, quando la violazione è suscettibile di presentare un rischio elevato per i diritti e le libertà degli interessati, il Titolare provvede a comunicare la violazione direttamente agli interessati senza ingiustificato ritardo, con linguaggio chiaro e fornendo le indicazioni utili a proteggersi dalle possibili conseguenze.
 
-Nel caso in cui la violazione interessi dati di pazienti trattati per conto del medico cliente Titolare, Firmamento Technologies S.r.l., in qualità di Responsabile, notifica senza ingiustificato ritardo la violazione al medico Titolare, fornendo le informazioni necessarie per consentirgli di adempiere ai propri obblighi di notifica ex artt. 33 e 34 GDPR, secondo quanto disciplinato dal DPA.
+Nel caso in cui la violazione interessi dati di pazienti trattati per conto del medico cliente Titolare, Fibonacci, in qualità di Responsabile, notifica senza ingiustificato ritardo la violazione al medico Titolare, fornendo le informazioni necessarie per consentirgli di adempiere ai propri obblighi di notifica ex artt. 33 e 34 GDPR, secondo quanto disciplinato dal DPA.
 
 ## 11. Reclamo all'Autorità di controllo
 
@@ -197,7 +197,7 @@ Il sito fibonacci.it utilizza cookie tecnici necessari al corretto funzionamento
 
 Il servizio Fibonacci è destinato a professionisti sanitari maggiorenni, in possesso dei requisiti di abilitazione professionale richiesti dalla normativa italiana. Il sito istituzionale e l'area di sottoscrizione del software non sono indirizzati a minori di 18 anni. Il Titolare non raccoglie consapevolmente dati di minori in relazione ai propri rapporti con i medici clienti.
 
-Qualora un paziente del medico cliente sia un minore, la raccolta e il trattamento dei dati avvengono sotto la responsabilità del medico Titolare, che provvede ad acquisire il consenso del genitore o del tutore legale secondo le modalità previste dalla normativa sanitaria e dal D.Lgs. 101/2018. Firmamento Technologies S.r.l. mette a disposizione del medico Titolare gli strumenti tecnici per la gestione del consenso parentale.
+Qualora un paziente del medico cliente sia un minore, la raccolta e il trattamento dei dati avvengono sotto la responsabilità del medico Titolare, che provvede ad acquisire il consenso del genitore o del tutore legale secondo le modalità previste dalla normativa sanitaria e dal D.Lgs. 101/2018. Fibonacci mette a disposizione del medico Titolare gli strumenti tecnici per la gestione del consenso parentale.
 
 ## 14. Modifiche all'informativa
 

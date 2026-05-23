@@ -41,7 +41,7 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 
 | Campo | Valore |
 | --- | --- |
-| Ragione sociale | Firmamento Technologies S.r.l. |
+| Ragione sociale | Fibonacci |
 | Sede legale | Genova, Italia |
 | Partita IVA | IT____________ |
 | Email di contatto | `privacy@fibonacci.it` |
@@ -56,7 +56,7 @@ Nel prosieguo, il Titolare e il Responsabile sono congiuntamente denominati "Par
 Ai fini del presente DPA, i termini utilizzati con lettera maiuscola hanno il significato di seguito indicato. Per quanto non espressamente definito, valgono le definizioni di cui all'art. 4 GDPR.
 
 - **Titolare del trattamento**: il soggetto identificato all'art. 2.1, che determina le finalità e i mezzi del trattamento dei dati personali dei pazienti, ai sensi dell'art. 4, n. 7 GDPR.
-- **Responsabile del trattamento**: Firmamento Technologies S.r.l., come identificata all'art. 2.2, che tratta i dati personali per conto del Titolare ai sensi dell'art. 4, n. 8 GDPR.
+- **Responsabile del trattamento**: Fibonacci, come identificata all'art. 2.2, che tratta i dati personali per conto del Titolare ai sensi dell'art. 4, n. 8 GDPR.
 - **Sub-responsabile**: ogni altro soggetto designato dal Responsabile per svolgere attività specifiche di trattamento per conto del Titolare, ai sensi dell'art. 28, par. 2 e 4 GDPR.
 - **Dati personali**: qualsiasi informazione riguardante una persona fisica identificata o identificabile (l'Interessato), trattata nell'ambito del Servizio, ai sensi dell'art. 4, n. 1 GDPR.
 - **Categorie particolari di dati**: i dati personali di cui all'art. 9 GDPR, con particolare riferimento ai dati relativi alla salute trattati nell'ambito del Servizio.
@@ -313,7 +313,7 @@ Il presente Accordo per il Trattamento dei Dati è sottoscritto dalle Parti come
 | --- | --- |
 | Data | {DATA_FIRMA_RESPONSABILE} |
 | Luogo | Genova |
-| Ragione sociale | Firmamento Technologies S.r.l. |
+| Ragione sociale | Fibonacci |
 | Legale rappresentante | {RESPONSABILE_LEGALE_RAPPRESENTANTE} |
 | Firma | _____________________________ |
 

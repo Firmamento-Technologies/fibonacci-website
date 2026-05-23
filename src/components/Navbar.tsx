@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
@@ -27,10 +28,10 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5">
           <FibonacciLogo size={34} />
           <FibonacciWordmark className="text-base" />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
@@ -57,7 +58,7 @@ export function Navbar() {
                   style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
                 >
                   {SPECIALTIES.map((s) => (
-                    <a
+                    <Link
                       key={s.id}
                       href={`/specialita/${s.id}`}
                       className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors hover:bg-[var(--bg)]"
@@ -69,7 +70,7 @@ export function Navbar() {
                       <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>
                         {s.label}
                       </span>
-                    </a>
+                    </Link>
                   ))}
                 </motion.div>
               )}
@@ -132,7 +133,7 @@ export function Navbar() {
           >
             <div className="px-6 py-4 space-y-3">
               {SPECIALTIES.map((s) => (
-                <a
+                <Link
                   key={s.id}
                   href={`/specialita/${s.id}`}
                   className="flex items-center gap-3 py-2"
@@ -142,7 +143,7 @@ export function Navbar() {
                   <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>
                     {s.label}
                   </span>
-                </a>
+                </Link>
               ))}
               <div className="pt-3 border-t" style={{ borderColor: 'var(--border)' }}>
                 <a

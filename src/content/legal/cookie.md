@@ -1,6 +1,6 @@
 # Cookie Policy
 
-La presente Cookie Policy descrive le tipologie di cookie e di altri strumenti di tracciamento utilizzati sul sito vetrina https://fibonacci.it e, in via complementare, sull'applicazione https://app.fibonacci.it gestiti da Firmamento Technologies S.r.l. La policy è redatta ai sensi dell'art. 122 del D.Lgs. 30 giugno 2003 n. 196 (Codice in materia di protezione dei dati personali), del Regolamento (UE) 2016/679 (GDPR) e del Provvedimento del Garante per la Protezione dei Dati Personali del 10 giugno 2021 recante "Linee guida cookie e altri strumenti di tracciamento".
+La presente Cookie Policy descrive le tipologie di cookie e di altri strumenti di tracciamento utilizzati sul sito vetrina https://fibonacci.it e, in via complementare, sull'applicazione https://app.fibonacci.it gestiti da Fibonacci La policy è redatta ai sensi dell'art. 122 del D.Lgs. 30 giugno 2003 n. 196 (Codice in materia di protezione dei dati personali), del Regolamento (UE) 2016/679 (GDPR) e del Provvedimento del Garante per la Protezione dei Dati Personali del 10 giugno 2021 recante "Linee guida cookie e altri strumenti di tracciamento".
 
 ## 1. Cosa sono i cookie e gli altri strumenti di tracciamento
 
@@ -78,7 +78,7 @@ Per un'illustrazione completa dei diritti dell'interessato, dei tempi di conserv
 
 Titolare del trattamento dei dati personali è:
 
-Firmamento Technologies S.r.l.
+Fibonacci
 Sede legale: Genova, Italia
 P.IVA: IT____________ (placeholder, in attesa di registrazione definitiva)
 Indirizzo per le comunicazioni privacy: privacy@fibonacci.it
@@ -94,4 +94,4 @@ La presente Cookie Policy può essere modificata o aggiornata in qualsiasi momen
 
 Data di ultima revisione: {ULTIMA_REVISIONE}
 
-> Avvertenza: il presente documento costituisce un template adattato al contesto del progetto Fibonacci di Firmamento Technologies S.r.l. ed è soggetto a revisione legale prima del go-live commerciale. Versione 0.1, bozza interna.
+> Avvertenza: il presente documento costituisce un template adattato al contesto del progetto Fibonacci di Fibonacci ed è soggetto a revisione legale prima del go-live commerciale. Versione 0.1, bozza interna.

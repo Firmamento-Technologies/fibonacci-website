@@ -2,7 +2,7 @@
 
 **Condizioni Generali di Contratto SaaS - Software Fibonacci**
 
-Fornitore: Firmamento Technologies S.r.l., con sede legale in Genova (Italia), P.IVA `IT____________`, Codice Destinatario SDI `____________`, email commerciale `info@fibonacci.it`, email supporto `supporto@fibonacci.it` (di seguito, il "Fornitore").
+Fornitore: Fibonacci, con sede legale in Genova (Italia), P.IVA `IT____________`, Codice Destinatario SDI `____________`, email commerciale `info@fibonacci.it`, email supporto `supporto@fibonacci.it` (di seguito, il "Fornitore").
 
 Cliente: il professionista sanitario abilitato o la struttura sanitaria autorizzata che sottoscrive l'accesso al Servizio nei modi indicati al successivo Art. 3 (di seguito, il "Cliente").
 
@@ -14,7 +14,7 @@ Le presenti Condizioni Generali disciplinano l'accesso e l'utilizzo del software
 
 Ai fini delle presenti Condizioni Generali si intende per:
 
-1.1 **Fornitore**: Firmamento Technologies S.r.l., con sede legale in Genova, P.IVA `IT____________`.
+1.1 **Fornitore**: Fibonacci, con sede legale in Genova, P.IVA `IT____________`.
 
 1.2 **Cliente**: il professionista sanitario abilitato all'esercizio della professione (medico chirurgo, odontoiatra o altra figura sanitaria iscritta al rispettivo albo) ovvero la struttura sanitaria autorizzata che sottoscrive il presente contratto.
 
@@ -196,7 +196,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 ## Art. 11 - Proprieta intellettuale
 
-11.1 Il software Fibonacci, il codice sorgente, gli algoritmi, le interfacce utente, la grafica, i marchi denominativi e figurativi (incluso "Fibonacci"), i nomi a dominio, la documentazione, i materiali di formazione e ogni altro elemento del Servizio sono e restano di esclusiva proprieta di Firmamento Technologies S.r.l. o dei suoi licenzianti.
+11.1 Il software Fibonacci, il codice sorgente, gli algoritmi, le interfacce utente, la grafica, i marchi denominativi e figurativi (incluso "Fibonacci"), i nomi a dominio, la documentazione, i materiali di formazione e ogni altro elemento del Servizio sono e restano di esclusiva proprieta di Fibonacci o dei suoi licenzianti.
 
 11.2 Con la sottoscrizione del contratto il Cliente acquista esclusivamente un diritto di utilizzo non esclusivo, non trasferibile, limitato alla durata del contratto e ai limiti del Piano sottoscritto. Nessuna previsione delle presenti Condizioni Generali puo essere interpretata come trasferimento, cessione o licenza di diritti di proprieta intellettuale ulteriori rispetto a quanto espressamente previsto.
 
@@ -356,4 +356,4 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 **Ultima revisione**: {ULTIMA_REVISIONE}
 
-> Avvertenza: il presente documento e una bozza template adattata al Servizio Fibonacci di Firmamento Technologies S.r.l. e **richiede revisione legale da parte di un professionista abilitato prima della pubblicazione e della sottoscrizione con clienti**. Versione 0.1 - bozza interna.
+> Avvertenza: il presente documento e una bozza template adattata al Servizio Fibonacci di Fibonacci e **richiede revisione legale da parte di un professionista abilitato prima della pubblicazione e della sottoscrizione con clienti**. Versione 0.1 - bozza interna.

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { LEGAL_DOCS } from '@/lib/legal-docs'
@@ -15,7 +16,7 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
         >
           <div className="max-w-6xl mx-auto px-6 py-10">
             <div className="flex items-center gap-2 text-xs font-medium mb-3" style={{ color: 'var(--muted)' }}>
-              <a href="/" className="hover:underline">Home</a>
+              <Link href="/" className="hover:underline">Home</Link>
               <span>/</span>
               <span style={{ color: 'var(--fg)' }}>Documentazione legale</span>
             </div>
@@ -54,7 +55,7 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
               </p>
               <nav className="flex flex-col gap-1">
                 {LEGAL_DOCS.map((doc) => (
-                  <a
+                  <Link
                     key={doc.slug}
                     href={`/${doc.slug}`}
                     className="flex items-start gap-3 px-3 py-2.5 rounded-lg transition-colors hover:bg-[var(--card)]"
@@ -71,7 +72,7 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
                         {doc.shortTitle}
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </nav>
               <div
