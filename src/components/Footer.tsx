@@ -48,10 +48,20 @@ export function Footer() {
               Prodotto
             </p>
             <ul className="space-y-2">
-              {['Come funziona', 'Prezzi', 'Sicurezza', 'FHIR & Interoperabilità', 'Changelog'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-xs transition-colors hover:underline" style={{ color: 'var(--muted)' }}>
-                    {item}
+              {[
+                { label: 'Come funziona', href: '/#come-funziona' },
+                { label: 'Prezzi', href: '/#prezzi' },
+                { label: 'Specialità', href: '/#specialita' },
+                { label: 'Richiedi demo', href: '/#demo' },
+                { label: 'Accedi al software', href: 'https://app.fibonacci.it' },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    className="text-xs transition-colors hover:underline"
+                    style={{ color: 'var(--muted)' }}
+                  >
+                    {item.label}
                   </a>
                 </li>
               ))}
@@ -64,10 +74,20 @@ export function Footer() {
               Legale
             </p>
             <ul className="space-y-2">
-              {['Privacy Policy', 'Cookie Policy', 'DPA (GDPR art. 28)', 'Termini di Servizio', 'Contatti'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-xs transition-colors hover:underline" style={{ color: 'var(--muted)' }}>
-                    {item}
+              {[
+                { label: 'Privacy Policy', href: '/privacy' },
+                { label: 'Cookie Policy', href: '/cookie' },
+                { label: 'DPA (GDPR art. 28)', href: '/dpa' },
+                { label: 'Termini di Servizio', href: '/termini' },
+                { label: 'Contatti', href: 'mailto:info@fibonacci.it' },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    className="text-xs transition-colors hover:underline"
+                    style={{ color: 'var(--muted)' }}
+                  >
+                    {item.label}
                   </a>
                 </li>
               ))}

@@ -8,7 +8,7 @@ export function SpecialtiesSection() {
   const [active, setActive] = useState(SPECIALTIES[0])
 
   return (
-    <section className="py-24" style={{ background: 'var(--card)' }}>
+    <section className="py-24" style={{ background: 'var(--card)' }} id="specialita">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: 'var(--accent)' }}>
