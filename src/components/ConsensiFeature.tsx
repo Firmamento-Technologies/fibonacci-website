@@ -8,7 +8,7 @@ const CONSENSI_HIGHLIGHTS = [
     title: 'AI generativa con catalogo 30 procedure',
     body:
       "Selezioni il trattamento e l'AI compone in 12 secondi un consenso conforme L. 219/2017 con 8 sezioni: identificazione paziente, descrizione clinica, benefici, rischi, alternative, conseguenze del rifiuto, conferma comprensione, firma.",
-    detail: 'Mistral Medium 3.1',
+    detail: 'Mistral Small 3.2 24B',
   },
   {
     icon: BookOpen,

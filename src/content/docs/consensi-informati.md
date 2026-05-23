@@ -35,7 +35,7 @@ Il pulsante `Nuovo consenso` apre il wizard a 4 step.
 
 **Step 2 — Parametri clinici**: campi pre-impostati per tecnica, materiali (es. tipo di filler, lotto, dispositivo laser), rischi noti specifici della procedura, alternative terapeutiche e note. Più dettagli inserisci, più alto sarà il punteggio di confidenza nel passo successivo.
 
-**Step 3 — Generazione AI**: il sistema invoca Mistral Medium 3.1 (ospitato in UE) e in 10-15 secondi compone le 8 sezioni obbligatorie ai sensi della legge 219/2017:
+**Step 3 — Generazione AI**: il sistema invoca Mistral Small 3.2 24B (ospitato in UE) e in 10-15 secondi compone le 8 sezioni obbligatorie ai sensi della legge 219/2017:
 
 1. Identificazione paziente e contesto della prestazione
 2. Descrizione clinica della procedura

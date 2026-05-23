@@ -43,7 +43,7 @@ const PIPELINE_STEPS = [
     icon: Cpu,
     title: "L'AI compone le 8 sezioni",
     body:
-      "Mistral Medium 3.1 (UE) genera identificazione paziente, descrizione clinica, benefici attesi, rischi documentati, alternative terapeutiche, conseguenze rifiuto, dichiarazione comprensione, firma. Citazioni norme inline.",
+      "Mistral Small 3.2 24B (UE) genera identificazione paziente, descrizione clinica, benefici attesi, rischi documentati, alternative terapeutiche, conseguenze rifiuto, dichiarazione comprensione, firma. Citazioni norme inline.",
   },
   {
     icon: ShieldCheck,
