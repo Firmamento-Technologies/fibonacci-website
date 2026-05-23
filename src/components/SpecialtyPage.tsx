@@ -1,10 +1,12 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { ArrowRight, Check, ShieldCheck, Sparkles, Zap } from 'lucide-react'
 import type { Specialty } from '@/lib/specialties'
 import { SPECIALTIES } from '@/lib/specialties'
 import { AppMockup } from '@/components/AppMockup'
+import { assetPath } from '@/lib/asset-path'
 
 function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: number }) {
   return (
@@ -111,15 +113,32 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               </div>
             </div>
 
-            {/* Mockup app specialty-aware - hidden su mobile per evitare overflow,
-                e per concentrare il messaggio sulle CTA. Da sm:block in su mostra mockup. */}
+            {/* Estetica usa screenshot reale dell'app live; altre specialty usano mockup
+                React (modulo in arrivo). Mobile nascosto per concentrare CTA. */}
             <motion.div
               initial={{ opacity: 0, x: 24 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.4 }}
               className="relative hidden md:block max-w-full"
             >
-              <AppMockup specialty={specialty} />
+              {specialty.id === 'estetica' ? (
+                <div
+                  className="rounded-2xl overflow-hidden shadow-2xl"
+                  style={{ border: `1px solid ${specialty.color}33` }}
+                >
+                  <Image
+                    src={assetPath('/screenshots/estetica/01-pazienti-list.png')}
+                    alt="Fibonacci Medicina Estetica: schermata lista pazienti dell'app live"
+                    width={1440}
+                    height={900}
+                    unoptimized
+                    className="w-full h-auto object-cover"
+                    priority
+                  />
+                </div>
+              ) : (
+                <AppMockup specialty={specialty} />
+              )}
             </motion.div>
           </div>
         </div>

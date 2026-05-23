@@ -4,6 +4,7 @@ import { StatsBar } from '@/components/StatsBar'
 import { SocialProof } from '@/components/SocialProof'
 import { ProblemSolution } from '@/components/ProblemSolution'
 import { ProcessSteps } from '@/components/ProcessSteps'
+import { AppPreview } from '@/components/AppPreview'
 import { SpecialtiesSection } from '@/components/SpecialtiesSection'
 import { Pricing } from '@/components/Pricing'
 import { NewsletterForm } from '@/components/NewsletterForm'
@@ -20,6 +21,7 @@ export default function HomePage() {
         <SocialProof />
         <ProblemSolution />
         <ProcessSteps />
+        <AppPreview />
         <SpecialtiesSection />
         <Pricing />
         <section className="py-20" style={{ background: 'var(--bg)' }}>
