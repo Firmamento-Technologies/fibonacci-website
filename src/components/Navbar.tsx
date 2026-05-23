@@ -105,6 +105,13 @@ export function Navbar() {
             AI
           </Link>
           <Link
+            href="/consensi-informati"
+            className="text-sm font-medium transition-colors"
+            style={{ color: 'var(--muted)' }}
+          >
+            Consensi
+          </Link>
+          <Link
             href="/tutorial"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
@@ -203,6 +210,14 @@ export function Navbar() {
                   onClick={() => setMobileOpen(false)}
                 >
                   Intelligenza Artificiale
+                </Link>
+                <Link
+                  href="/consensi-informati"
+                  className="text-sm font-medium py-1"
+                  style={{ color: 'var(--muted)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Consensi informati
                 </Link>
                 <Link
                   href="/tutorial"
