@@ -93,6 +93,13 @@ export function Navbar() {
             Prezzi
           </Link>
           <Link
+            href="/intelligenza-artificiale"
+            className="text-sm font-medium transition-colors"
+            style={{ color: 'var(--muted)' }}
+          >
+            AI
+          </Link>
+          <Link
             href="/tutorial"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
@@ -170,6 +177,14 @@ export function Navbar() {
                 </Link>
               ))}
               <div className="pt-3 border-t flex flex-col gap-2" style={{ borderColor: 'var(--border)' }}>
+                <Link
+                  href="/intelligenza-artificiale"
+                  className="text-sm font-medium py-1"
+                  style={{ color: 'var(--muted)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Intelligenza Artificiale
+                </Link>
                 <Link
                   href="/tutorial"
                   className="text-sm font-medium py-1"

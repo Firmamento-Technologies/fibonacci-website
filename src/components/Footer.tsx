@@ -6,6 +6,7 @@ import { NewsletterForm } from '@/components/NewsletterForm'
 
 const PRODUCT_LINKS = [
   { label: 'Come funziona', href: '/#come-funziona', external: false },
+  { label: 'Intelligenza Artificiale', href: '/intelligenza-artificiale', external: false },
   { label: 'Prezzi', href: '/#prezzi', external: false },
   { label: 'Tutorial video', href: '/tutorial', external: false },
   { label: 'Documentazione', href: '/docs', external: false },

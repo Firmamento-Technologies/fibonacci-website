@@ -5,6 +5,7 @@ import { SocialProof } from '@/components/SocialProof'
 import { ProblemSolution } from '@/components/ProblemSolution'
 import { ProcessSteps } from '@/components/ProcessSteps'
 import { AppPreview } from '@/components/AppPreview'
+import { AIFeatures } from '@/components/AIFeatures'
 import { SpecialtiesSection } from '@/components/SpecialtiesSection'
 import { Pricing } from '@/components/Pricing'
 import { NewsletterForm } from '@/components/NewsletterForm'
@@ -22,6 +23,7 @@ export default function HomePage() {
         <ProblemSolution />
         <ProcessSteps />
         <AppPreview />
+        <AIFeatures />
         <SpecialtiesSection />
         <Pricing />
         <section className="py-20" style={{ background: 'var(--bg)' }}>
