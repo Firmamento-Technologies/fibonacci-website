@@ -62,7 +62,7 @@ export function DemoForm() {
       <div className="max-w-2xl mx-auto px-6 text-center">
         <p
           className="text-sm font-semibold uppercase tracking-wider mb-3"
-          style={{ color: 'var(--accent)' }}
+          style={{ color: '#f0d27a' }}
         >
           Inizia adesso
         </p>
@@ -115,9 +115,9 @@ export function DemoForm() {
                 onChange={(e) => update('specialty', e.target.value)}
                 className="px-4 py-3.5 rounded-xl text-sm outline-none focus:ring-2 w-full"
                 style={{
-                  background: 'rgba(255,255,255,0.08)',
-                  border: '1px solid rgba(255,255,255,0.15)',
-                  color: form.specialty ? 'white' : 'rgba(255,255,255,0.5)',
+                  background: 'rgba(255,255,255,0.12)',
+                  border: '1px solid rgba(255,255,255,0.25)',
+                  color: form.specialty ? 'white' : 'rgba(255,255,255,0.85)',
                 }}
               >
                 <option value="">Specialità medica</option>
