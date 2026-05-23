@@ -57,11 +57,11 @@ export function StatsBar() {
             <div key={s.label} className="flex flex-col items-center text-center px-6 py-2">
               <div
                 className="font-[var(--font-playfair)] text-4xl md:text-5xl font-bold mb-2"
-                style={{ color: 'var(--accent)' }}
+                style={{ color: '#f0d27a' }}
               >
                 <Counter target={s.value} suffix={s.suffix} prefix={s.prefix} />
               </div>
-              <p className="text-sm leading-snug" style={{ color: 'rgba(255,255,255,0.55)' }}>
+              <p className="text-sm leading-snug" style={{ color: 'rgba(255,255,255,0.85)' }}>
                 {s.label}
               </p>
             </div>

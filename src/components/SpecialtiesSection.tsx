@@ -33,8 +33,8 @@ export function SpecialtiesSection() {
                 className="flex items-center gap-3 px-4 py-3 rounded-xl text-left whitespace-nowrap lg:whitespace-normal transition-all shrink-0"
                 style={{
                   background: active.id === s.id ? s.accent : 'transparent',
-                  border: `1.5px solid ${active.id === s.id ? s.color + '44' : 'var(--border)'}`,
-                  color: active.id === s.id ? s.color : 'var(--muted)',
+                  border: `1.5px solid ${active.id === s.id ? s.color + '66' : 'var(--border)'}`,
+                  color: active.id === s.id ? 'var(--fg)' : 'var(--muted)',
                 }}
               >
                 <div
