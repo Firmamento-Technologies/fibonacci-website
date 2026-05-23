@@ -67,15 +67,30 @@ export function Navbar() {
                     <Link
                       key={s.id}
                       href={`/specialita/${s.id}`}
-                      className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors hover:bg-[var(--bg)]"
+                      className="flex items-center gap-2 px-3 py-2.5 rounded-lg transition-colors hover:bg-[var(--bg)]"
                     >
                       <div
                         className="w-2 h-2 rounded-full shrink-0"
                         style={{ background: s.color }}
                       />
-                      <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>
+                      <span className="text-sm font-medium flex-1 truncate" style={{ color: 'var(--fg)' }}>
                         {s.label}
                       </span>
+                      {s.status === 'available' ? (
+                        <span
+                          className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
+                          style={{ background: '#16a34a', color: 'white' }}
+                        >
+                          Live
+                        </span>
+                      ) : (
+                        <span
+                          className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
+                          style={{ background: 'var(--accent-light)', color: 'var(--accent)' }}
+                        >
+                          Co-design
+                        </span>
+                      )}
                     </Link>
                   ))}
                 </motion.div>

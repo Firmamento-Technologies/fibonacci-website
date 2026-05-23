@@ -4,10 +4,10 @@
 import { useEffect, useRef, useState } from 'react'
 
 const STATS = [
-  { value: 5, suffix: '', label: 'Modelli consenso base inclusi', prefix: '' },
+  { value: 1, suffix: '', label: 'modulo live (Medicina Estetica)', prefix: '' },
+  { value: 5, suffix: '', label: 'specialità in co-design con cliniche partner', prefix: '' },
   { value: 3, suffix: ' min', label: 'per documentare una visita', prefix: '' },
   { value: 100, suffix: '%', label: 'dati su server EU', prefix: '' },
-  { value: 6, suffix: '', label: 'specialità mediche supportate', prefix: '' },
 ]
 
 function Counter({ target, suffix, prefix }: { target: number; suffix: string; prefix: string }) {

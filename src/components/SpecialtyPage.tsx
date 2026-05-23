@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { ArrowRight, Check, ShieldCheck, Sparkles, Zap } from 'lucide-react'
+import { ArrowRight, Check, ShieldCheck, Sparkles, Zap, Handshake } from 'lucide-react'
 import type { Specialty } from '@/lib/specialties'
 import { SPECIALTIES } from '@/lib/specialties'
 import { AppMockup } from '@/components/AppMockup'
@@ -65,6 +65,22 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               >
                 <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: specialty.color }} />
                 {specialty.label}
+                {specialty.status === 'codesign' && (
+                  <span
+                    className="ml-2 text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded"
+                    style={{ background: specialty.color, color: 'white' }}
+                  >
+                    In co-design
+                  </span>
+                )}
+                {specialty.status === 'available' && (
+                  <span
+                    className="ml-2 text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded"
+                    style={{ background: '#16a34a', color: 'white' }}
+                  >
+                    Live
+                  </span>
+                )}
               </div>
 
               <h1
@@ -94,22 +110,69 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
                 </span>
               </div>
 
+              {specialty.status === 'codesign' && (
+                <div
+                  className="p-5 rounded-2xl mb-6"
+                  style={{
+                    background: 'var(--card)',
+                    border: `1.5px solid ${specialty.color}33`,
+                    borderLeft: `4px solid ${specialty.color}`,
+                  }}
+                >
+                  <p className="text-sm font-semibold mb-1" style={{ color: 'var(--fg)' }}>
+                    <Handshake className="inline w-4 h-4 mr-1.5 align-text-bottom" style={{ color: specialty.color }} />
+                    Specialità in co-design con clinica partner
+                  </p>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
+                    Stiamo costruendo {specialty.label} a quattro mani con uno
+                    studio che la userà in produzione. Non è un mockup di
+                    marketing: è un'app in sviluppo che disegniamo con chi la
+                    userà davvero. Se vuoi diventare il nostro partner di
+                    co-design per {specialty.label}, contattaci.
+                  </p>
+                </div>
+              )}
+
               <div className="flex flex-wrap items-center gap-3">
-                <Link
-                  href="/#demo"
-                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-lg"
-                  style={{ background: specialty.color }}
-                >
-                  Richiedi demo {specialty.label}
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-                <Link
-                  href="/#prezzi"
-                  className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors"
-                  style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
-                >
-                  Vedi i prezzi
-                </Link>
+                {specialty.status === 'available' ? (
+                  <>
+                    <Link
+                      href="/#demo"
+                      className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-lg"
+                      style={{ background: specialty.color }}
+                    >
+                      <Sparkles className="w-4 h-4" />
+                      Prova {specialty.label} in demo live
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                    <Link
+                      href="/#prezzi"
+                      className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors"
+                      style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
+                    >
+                      Vedi i prezzi
+                    </Link>
+                  </>
+                ) : (
+                  <>
+                    <Link
+                      href="/#demo"
+                      className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-lg"
+                      style={{ background: specialty.color }}
+                    >
+                      <Handshake className="w-4 h-4" />
+                      Diventa clinica partner di co-design
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                    <Link
+                      href="/specialita/estetica"
+                      className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors"
+                      style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
+                    >
+                      Vedi Medicina Estetica (live)
+                    </Link>
+                  </>
+                )}
               </div>
             </div>
 

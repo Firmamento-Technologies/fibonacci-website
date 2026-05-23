@@ -1,3 +1,5 @@
+export type SpecialtyStatus = 'available' | 'codesign'
+
 export interface Specialty {
   id: string
   name: string
@@ -8,6 +10,10 @@ export interface Specialty {
   screenshot: string        // placeholder path
   features: string[]
   heroStat: { value: string; label: string }
+  /** Stato del modulo:
+   *  - 'available': prodotto live, demo accessibile pubblicamente
+   *  - 'codesign': in sviluppo con clinica partner, lista d'attesa aperta */
+  status: SpecialtyStatus
 }
 
 export const SPECIALTIES: Specialty[] = [
@@ -27,6 +33,7 @@ export const SPECIALTIES: Specialty[] = [
       'Foto cliniche cifrate GDPR',
     ],
     heroStat: { value: '3 min', label: 'per documentare una visita' },
+    status: 'available',
   },
   {
     id: 'dermatologia',
@@ -44,6 +51,7 @@ export const SPECIALTIES: Specialty[] = [
       'Referto generato con un click',
     ],
     heroStat: { value: '40%', label: 'riduzione tempo refertazione' },
+    status: 'codesign',
   },
   {
     id: 'ortopedia',
@@ -61,6 +69,7 @@ export const SPECIALTIES: Specialty[] = [
       'Lettere di dimissione automatiche',
     ],
     heroStat: { value: '0 carta', label: 'dalla prima visita alla dimissione' },
+    status: 'codesign',
   },
   {
     id: 'psicologia',
@@ -78,6 +87,7 @@ export const SPECIALTIES: Specialty[] = [
       'Gestione consenso trattamento psicologico',
     ],
     heroStat: { value: 'E2E', label: 'cifratura note di seduta' },
+    status: 'codesign',
   },
   {
     id: 'nutrizione',
@@ -95,6 +105,7 @@ export const SPECIALTIES: Specialty[] = [
       'Obiettivi e progress tracking',
     ],
     heroStat: { value: '2 min', label: 'per generare un piano alimentare' },
+    status: 'codesign',
   },
   {
     id: 'oculistica',
@@ -112,7 +123,12 @@ export const SPECIALTIES: Specialty[] = [
       'Follow-up glaucoma strutturato',
     ],
     heroStat: { value: '100%', label: 'interoperabile con strumentazione' },
+    status: 'codesign',
   },
 ]
+
+/** Helper: filtri rapidi per status */
+export const AVAILABLE_SPECIALTIES = SPECIALTIES.filter((s) => s.status === 'available')
+export const CODESIGN_SPECIALTIES = SPECIALTIES.filter((s) => s.status === 'codesign')
 
 export const DEFAULT_SPECIALTY = SPECIALTIES[0]
