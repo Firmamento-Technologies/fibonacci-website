@@ -184,7 +184,7 @@ export function Hero() {
           <div className="flex flex-wrap items-center gap-3">
             <a
               href="#demo"
-              className="cta-aurora inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-lg"
               style={{ background: 'var(--fg)' }}
             >
               Richiedi demo gratuita
