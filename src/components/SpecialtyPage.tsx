@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight, Check, ShieldCheck, Sparkles, Zap } from 'lucide-react'
 import type { Specialty } from '@/lib/specialties'
 import { SPECIALTIES } from '@/lib/specialties'
+import { AppMockup } from '@/components/AppMockup'
 
 function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: number }) {
   return (
@@ -110,86 +111,14 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               </div>
             </div>
 
-            {/* Mockup app specialty-colored */}
+            {/* Mockup app specialty-aware */}
             <motion.div
               initial={{ opacity: 0, x: 24 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.4 }}
               className="relative"
             >
-              <div
-                className="rounded-2xl overflow-hidden shadow-2xl"
-                style={{ border: `1px solid ${specialty.color}33` }}
-              >
-                <div
-                  className="flex items-center gap-2 px-4 py-3"
-                  style={{ background: '#ede9e2', borderBottom: `1px solid ${specialty.color}22` }}
-                >
-                  <div className="flex gap-1.5">
-                    <div className="w-3 h-3 rounded-full bg-red-400/80" />
-                    <div className="w-3 h-3 rounded-full bg-yellow-400/80" />
-                    <div className="w-3 h-3 rounded-full bg-green-400/80" />
-                  </div>
-                  <div
-                    className="flex-1 mx-4 px-3 py-1 rounded-md text-xs font-mono"
-                    style={{ background: 'rgba(255,255,255,0.7)', color: 'var(--muted)' }}
-                  >
-                    app.fibonacci.it/{specialty.id}
-                  </div>
-                </div>
-                <div
-                  className="relative aspect-[16/10]"
-                  style={{ background: specialty.accent }}
-                >
-                  <div
-                    className="absolute left-0 top-0 bottom-0 w-12 flex flex-col items-center py-3 gap-2"
-                    style={{ background: `${specialty.color}18` }}
-                  >
-                    {[...Array(5)].map((_, i) => (
-                      <div
-                        key={i}
-                        className="w-6 h-6 rounded-lg"
-                        style={{
-                          background: i === 0 ? specialty.color : `${specialty.color}30`,
-                          opacity: i === 0 ? 1 : 0.6,
-                        }}
-                      />
-                    ))}
-                  </div>
-                  <div className="absolute left-14 right-4 top-3 bottom-3 flex flex-col gap-2">
-                    <div className="flex items-center justify-between">
-                      <div className="h-4 w-28 rounded" style={{ background: `${specialty.color}40` }} />
-                      <div
-                        className="h-6 w-20 rounded-lg text-[8px] flex items-center justify-center font-bold text-white"
-                        style={{ background: specialty.color }}
-                      >
-                        + Nuova visita
-                      </div>
-                    </div>
-                    <div
-                      className="flex-1 rounded-xl p-3 flex flex-col gap-2"
-                      style={{ background: 'rgba(255,255,255,0.7)' }}
-                    >
-                      <div className="h-2.5 w-2/5 rounded" style={{ background: `${specialty.color}50` }} />
-                      {[...Array(5)].map((_, i) => (
-                        <div key={i} className="flex items-center gap-2">
-                          <div
-                            className="w-3 h-3 rounded"
-                            style={{ background: i < 2 ? specialty.color : `${specialty.color}30` }}
-                          />
-                          <div
-                            className="h-1.5 rounded"
-                            style={{
-                              width: `${[78, 60, 84, 50, 70][i]}%`,
-                              background: `${specialty.color}25`,
-                            }}
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <AppMockup specialty={specialty} />
             </motion.div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const AFTER = [
 
 export function ProblemSolution() {
   return (
-    <section className="py-24" style={{ background: 'var(--bg)' }} id="come-funziona">
+    <section className="py-24" style={{ background: 'var(--bg)' }} id="problema-soluzione">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: 'var(--accent)' }}>

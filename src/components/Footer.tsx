@@ -1,12 +1,14 @@
 import Link from 'next/link'
 import { SPECIALTIES } from '@/lib/specialties'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
+import { NewsletterForm } from '@/components/NewsletterForm'
 
 const PRODUCT_LINKS = [
   { label: 'Come funziona', href: '/#come-funziona', external: false },
   { label: 'Prezzi', href: '/#prezzi', external: false },
   { label: 'Specialità', href: '/#specialita', external: false },
-  { label: 'Richiedi demo', href: '/#demo', external: false },
+  { label: 'FAQ', href: '/faq', external: false },
+  { label: 'Chi siamo', href: '/chi-siamo', external: false },
   { label: 'Accedi al software', href: 'https://app.fibonacci.it', external: true },
 ] as const
 
@@ -27,6 +29,11 @@ export function Footer() {
       style={{ background: 'var(--bg)', borderColor: 'var(--border)' }}
     >
       <div className="max-w-7xl mx-auto px-6">
+        {/* Newsletter band */}
+        <div className="mb-12 max-w-2xl">
+          <NewsletterForm />
+        </div>
+
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div>

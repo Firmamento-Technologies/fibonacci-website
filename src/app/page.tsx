@@ -3,8 +3,10 @@ import { Hero } from '@/components/Hero'
 import { StatsBar } from '@/components/StatsBar'
 import { SocialProof } from '@/components/SocialProof'
 import { ProblemSolution } from '@/components/ProblemSolution'
+import { ProcessSteps } from '@/components/ProcessSteps'
 import { SpecialtiesSection } from '@/components/SpecialtiesSection'
 import { Pricing } from '@/components/Pricing'
+import { NewsletterForm } from '@/components/NewsletterForm'
 import { DemoForm } from '@/components/DemoForm'
 import { Footer } from '@/components/Footer'
 
@@ -17,8 +19,14 @@ export default function HomePage() {
         <StatsBar />
         <SocialProof />
         <ProblemSolution />
+        <ProcessSteps />
         <SpecialtiesSection />
         <Pricing />
+        <section className="py-20" style={{ background: 'var(--bg)' }}>
+          <div className="max-w-3xl mx-auto px-6">
+            <NewsletterForm />
+          </div>
+        </section>
         <DemoForm />
       </main>
       <Footer />

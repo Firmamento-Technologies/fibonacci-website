@@ -77,24 +77,40 @@ export function Navbar() {
             </AnimatePresence>
           </div>
 
-          <a
-            href="#come-funziona"
+          <Link
+            href="/#come-funziona"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
           >
             Come funziona
-          </a>
-          <a
-            href="#prezzi"
+          </Link>
+          <Link
+            href="/#prezzi"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
           >
             Prezzi
-          </a>
+          </Link>
+          <Link
+            href="/faq"
+            className="text-sm font-medium transition-colors"
+            style={{ color: 'var(--muted)' }}
+          >
+            FAQ
+          </Link>
+          <Link
+            href="/chi-siamo"
+            className="text-sm font-medium transition-colors"
+            style={{ color: 'var(--muted)' }}
+          >
+            Chi siamo
+          </Link>
           <a
             href="https://app.fibonacci.it"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Accedi
           </a>
@@ -145,15 +161,31 @@ export function Navbar() {
                   </span>
                 </Link>
               ))}
-              <div className="pt-3 border-t" style={{ borderColor: 'var(--border)' }}>
-                <a
-                  href="#demo"
-                  className="block w-full text-center px-4 py-2.5 rounded-lg text-sm font-semibold text-white"
+              <div className="pt-3 border-t flex flex-col gap-2" style={{ borderColor: 'var(--border)' }}>
+                <Link
+                  href="/faq"
+                  className="text-sm font-medium py-1"
+                  style={{ color: 'var(--muted)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  FAQ
+                </Link>
+                <Link
+                  href="/chi-siamo"
+                  className="text-sm font-medium py-1"
+                  style={{ color: 'var(--muted)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Chi siamo
+                </Link>
+                <Link
+                  href="/#demo"
+                  className="mt-2 block w-full text-center px-4 py-2.5 rounded-lg text-sm font-semibold text-white"
                   style={{ background: 'var(--fg)' }}
                   onClick={() => setMobileOpen(false)}
                 >
                   Richiedi demo gratuita
-                </a>
+                </Link>
               </div>
             </div>
           </motion.div>

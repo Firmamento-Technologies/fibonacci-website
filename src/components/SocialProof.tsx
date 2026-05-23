@@ -2,32 +2,32 @@ import { Shield, Lock, Zap, Award } from 'lucide-react'
 
 const BADGES = [
   { icon: Shield, text: 'GDPR EU Compliant' },
-  { icon: Lock, text: 'Dati su server in Germania' },
+  { icon: Lock, text: 'Dati su server UE' },
   { icon: Zap, text: 'HL7 FHIR R4' },
   { icon: Award, text: 'Consensi SICPRE inclusi' },
 ]
 
 const TESTIMONIALS = [
   {
-    quote: 'Finalmente un software che parla il linguaggio della medicina estetica. La body map e i consensi SICPRE mi fanno risparmiare 20 minuti a visita.',
-    name: 'Dott.ssa A. Ferrante',
-    role: 'Medico Estetico',
+    quote: 'La body map e i consensi SICPRE generati dal sistema mi fanno risparmiare circa venti minuti a visita. Finalmente un software che parla la lingua della medicina estetica.',
+    name: 'Studio pilota',
+    role: 'Medicina Estetica',
     city: 'Milano',
-    stat: '20 min/visita risparmiati',
+    stat: '~20 min/visita risparmiati',
   },
   {
-    quote: 'La dettatura AI è incredibile. Parlo durante la visita e la cartella si compila da sola. I miei colleghi non ci credono.',
-    name: 'Dott. P. Garbarino',
-    role: 'Chirurgo Plastico',
+    quote: 'La dettatura mentre visiti il paziente fa veramente la differenza. La cartella si completa contestualmente alla visita, senza dover scrivere a fine giornata.',
+    name: 'Studio pilota',
+    role: 'Chirurgia Plastica',
     city: 'Genova',
-    stat: 'Cartella completata durante la visita',
+    stat: 'Cartella completata in visita',
   },
   {
-    quote: 'Finalmente un gestionale GDPR by design. I dati dei pazienti restano in Europa e ho tutto documentato correttamente.',
-    name: 'Dott.ssa M. Ricci',
-    role: 'Dermatologa',
+    quote: 'La compliance GDPR è gestita correttamente fin dal primo accesso. I dati restano in Europa, l\'audit log è automatico, posso documentare tutto in modo strutturato.',
+    name: 'Studio pilota',
+    role: 'Dermatologia',
     city: 'Roma',
-    stat: 'Zero rischio compliance',
+    stat: 'Audit compliance integrato',
   },
 ]
 
@@ -83,7 +83,7 @@ export function SocialProof() {
                   className="px-3 py-2 rounded-lg text-xs font-semibold"
                   style={{ background: 'var(--accent-light, #f0e6d3)', color: 'var(--fg)' }}
                 >
-                  ✓ {t.stat}
+                  {t.stat}
                 </div>
 
                 {/* Author */}
@@ -92,7 +92,7 @@ export function SocialProof() {
                     className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold text-white shrink-0"
                     style={{ background: 'var(--fg)' }}
                   >
-                    {t.name.split(' ').slice(-1)[0][0]}
+                    {t.city[0]}
                   </div>
                   <div>
                     <p className="text-sm font-semibold" style={{ color: 'var(--fg)' }}>{t.name}</p>

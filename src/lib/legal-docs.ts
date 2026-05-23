@@ -53,6 +53,17 @@ export const LEGAL_DOCS: LegalDocMeta[] = [
   },
 ]
 
+export interface SitePage {
+  slug: string
+  changeFrequency: 'weekly' | 'monthly' | 'yearly'
+  priority: number
+}
+
+export const STATIC_SITE_PAGES: SitePage[] = [
+  { slug: 'faq', changeFrequency: 'monthly', priority: 0.7 },
+  { slug: 'chi-siamo', changeFrequency: 'yearly', priority: 0.6 },
+]
+
 export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {
   return LEGAL_DOCS.find((d) => d.slug === slug)
 }

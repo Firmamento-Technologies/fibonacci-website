@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown, Play, ArrowRight } from 'lucide-react'
 import { SPECIALTIES, type Specialty } from '@/lib/specialties'
+import { AppMockup } from '@/components/AppMockup'
 
 // Spirale di Fibonacci decorativa SVG — elemento identitario di sfondo
 function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: number }) {
@@ -186,124 +187,7 @@ export function Hero() {
               transition={{ duration: 0.35, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="relative"
             >
-              {/* Browser frame */}
-              <div
-                className="rounded-2xl overflow-hidden shadow-2xl"
-                style={{ border: `1px solid ${selected.color}33` }}
-              >
-                {/* Chrome bar */}
-                <div
-                  className="flex items-center gap-2 px-4 py-3"
-                  style={{ background: '#ede9e2', borderBottom: `1px solid ${selected.color}22` }}
-                >
-                  <div className="flex gap-1.5">
-                    <div className="w-3 h-3 rounded-full bg-red-400/80" />
-                    <div className="w-3 h-3 rounded-full bg-yellow-400/80" />
-                    <div className="w-3 h-3 rounded-full bg-green-400/80" />
-                  </div>
-                  <div
-                    className="flex-1 mx-4 px-3 py-1 rounded-md text-xs font-mono"
-                    style={{ background: 'rgba(255,255,255,0.7)', color: 'var(--muted)' }}
-                  >
-                    app.fibonacci.it/{selected.id}
-                  </div>
-                </div>
-
-                {/* App mockup */}
-                <div
-                  className="relative aspect-[16/10] overflow-hidden"
-                  style={{ background: selected.accent }}
-                >
-                  {/* Sidebar */}
-                  <div
-                    className="absolute left-0 top-0 bottom-0 w-12 flex flex-col items-center py-3 gap-2"
-                    style={{ background: `${selected.color}18` }}
-                  >
-                    {[...Array(5)].map((_, i) => (
-                      <div
-                        key={i}
-                        className="w-6 h-6 rounded-lg"
-                        style={{
-                          background: i === 0 ? selected.color : `${selected.color}30`,
-                          opacity: i === 0 ? 1 : 0.6,
-                        }}
-                      />
-                    ))}
-                  </div>
-
-                  {/* Content area */}
-                  <div className="absolute left-14 right-4 top-3 bottom-3 flex flex-col gap-2">
-                    {/* Top bar */}
-                    <div className="flex items-center justify-between">
-                      <div className="h-4 w-28 rounded" style={{ background: `${selected.color}40` }} />
-                      <div
-                        className="h-6 w-20 rounded-lg text-[8px] flex items-center justify-center font-bold text-white"
-                        style={{ background: selected.color }}
-                      >
-                        + Nuovo
-                      </div>
-                    </div>
-
-                    {/* Cards row */}
-                    <div className="flex gap-2 mt-1">
-                      {['Body map', 'Anamnesi', 'Consensi'].map((label, i) => (
-                        <div
-                          key={label}
-                          className="flex-1 rounded-xl p-2 flex flex-col gap-1"
-                          style={{
-                            background: i === 0 ? selected.color : 'rgba(255,255,255,0.6)',
-                            color: i === 0 ? 'white' : selected.color,
-                          }}
-                        >
-                          <div className="text-[7px] font-semibold opacity-80">{label}</div>
-                          <div
-                            className="h-2 w-4/5 rounded"
-                            style={{ background: i === 0 ? 'rgba(255,255,255,0.3)' : `${selected.color}30` }}
-                          />
-                          <div
-                            className="h-1.5 w-3/5 rounded"
-                            style={{ background: i === 0 ? 'rgba(255,255,255,0.2)' : `${selected.color}20` }}
-                          />
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* Main content */}
-                    <div
-                      className="flex-1 rounded-xl p-3 flex flex-col gap-2"
-                      style={{ background: 'rgba(255,255,255,0.7)' }}
-                    >
-                      <div className="h-2.5 w-2/5 rounded" style={{ background: `${selected.color}50` }} />
-                      {[...Array(4)].map((_, i) => (
-                        <div key={i} className="flex items-center gap-2">
-                          <div
-                            className="w-3 h-3 rounded"
-                            style={{ background: i < 2 ? selected.color : `${selected.color}30` }}
-                          />
-                          <div
-                            className="h-1.5 rounded"
-                            style={{
-                              width: `${[70, 55, 80, 45][i]}%`,
-                              background: `${selected.color}25`,
-                            }}
-                          />
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* Bottom action */}
-                    <div className="flex gap-2">
-                      <div className="flex-1 h-7 rounded-lg" style={{ background: `${selected.color}20` }} />
-                      <div
-                        className="h-7 w-24 rounded-lg flex items-center justify-center text-[8px] font-bold text-white"
-                        style={{ background: selected.color }}
-                      >
-                        Salva visita
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <AppMockup specialty={selected} />
 
               {/* Badge floating GDPR */}
               <motion.div
@@ -313,7 +197,7 @@ export function Hero() {
                 className="absolute -bottom-4 -left-4 px-4 py-2.5 rounded-xl shadow-lg text-sm font-semibold flex items-center gap-2"
                 style={{ background: 'var(--card)', border: '1px solid var(--border)', color: 'var(--fg)' }}
               >
-                🇪🇺 <span>GDPR · FHIR R4 · Dati in EU</span>
+                <span>GDPR · FHIR R4 · Dati in UE</span>
               </motion.div>
 
               {/* Badge floating specialty */}
