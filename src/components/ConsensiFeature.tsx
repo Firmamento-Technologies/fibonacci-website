@@ -60,7 +60,6 @@ export function ConsensiFeature() {
             Generazione automatica di consensi conformi L. 219/2017 partendo dal
             catalogo procedure. Ogni paragrafo è ancorato a fonti pubbliche
             italiane, validato sezione per sezione e tracciato in audit FHIR.
-            Nessun template copiato, nessuna allucinazione passata in silenzio.
           </p>
         </div>
 
