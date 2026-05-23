@@ -100,7 +100,7 @@ export function Hero() {
 
           {/* Headline fisso — nessun selettore embedded, zero problemi di wrap */}
           <h1
-            className="font-[var(--font-playfair)] text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.08] mb-5"
+            className="font-[var(--font-playfair)] text-[2rem] sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-[1.1] mb-5 break-words"
             style={{ color: 'var(--fg)' }}
           >
             <AnimatePresence mode="wait">

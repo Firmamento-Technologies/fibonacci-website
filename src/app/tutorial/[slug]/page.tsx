@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowLeft, Clock, Film } from 'lucide-react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
@@ -87,19 +88,19 @@ export default async function TutorialDetail({
         {/* Video player */}
         <section className="py-10" style={{ background: 'var(--bg)' }}>
           <div className="max-w-5xl mx-auto px-6">
-            <div className="rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video">
-              <video
-                className="w-full h-full object-contain"
-                controls
-                preload="metadata"
-                poster={tut.posterSrc}
-                muted
-                playsInline
-              >
-                <source src={tut.videoSrc} type="video/mp4" />
-                <source src={tut.videoSrcWebm} type="video/webm" />
-                Il tuo browser non supporta la riproduzione di video HTML5.
-              </video>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video">
+              <Image
+                src={tut.posterSrc}
+                alt={tut.title}
+                fill
+                unoptimized
+                className="object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                <div className="px-4 py-2 rounded-full text-sm font-semibold backdrop-blur-sm" style={{ background: 'rgba(0,0,0,0.6)', color: 'white' }}>
+                  Video doppiato italiano in arrivo
+                </div>
+              </div>
             </div>
           </div>
         </section>

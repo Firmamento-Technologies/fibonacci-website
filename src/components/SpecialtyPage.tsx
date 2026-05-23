@@ -66,7 +66,7 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               </div>
 
               <h1
-                className="font-[var(--font-playfair)] text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.05] mb-5"
+                className="font-[var(--font-playfair)] text-[2rem] sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-[1.1] mb-5 break-words"
                 style={{ color: 'var(--fg)' }}
               >
                 {specialty.name.replace('Fibonacci ', '')}{' '}
@@ -111,12 +111,13 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               </div>
             </div>
 
-            {/* Mockup app specialty-aware */}
+            {/* Mockup app specialty-aware - hidden su mobile per evitare overflow,
+                e per concentrare il messaggio sulle CTA. Da sm:block in su mostra mockup. */}
             <motion.div
               initial={{ opacity: 0, x: 24 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.4 }}
-              className="relative"
+              className="relative hidden md:block max-w-full"
             >
               <AppMockup specialty={specialty} />
             </motion.div>

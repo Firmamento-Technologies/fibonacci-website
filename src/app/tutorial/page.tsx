@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Play, Clock, Film, ArrowRight, Info } from 'lucide-react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
@@ -62,9 +63,8 @@ export default function TutorialIndex() {
           >
             <Info className="w-4 h-4 mt-0.5 shrink-0" style={{ color: 'var(--accent)' }} />
             <span>
-              I video qui mostrati sono anteprime navigazione del sito (senza audio).
-              Le versioni complete con voiceover italiano e schermate live dell&apos;applicazione
-              sono in lavorazione. Per una demo dal vivo,{' '}
+              I video doppiati in italiano sono in lavorazione: qui trovi gli storyboard
+              completi con script voiceover, scene-by-scene. Per una demo live dell&apos;applicazione,{' '}
               <Link href="/#demo" className="font-semibold underline">richiedila gratuitamente</Link>.
             </span>
           </div>
@@ -82,18 +82,20 @@ export default function TutorialIndex() {
                 <div className="grid md:grid-cols-[1.4fr_1fr] gap-0">
                   {/* Video player */}
                   <div className="relative bg-black aspect-video md:aspect-auto">
-                    <video
+                    {/* Video doppiato italiano in lavorazione. Per ora poster + storyboard testuale. */}
+                    <Image
+                      src={tut.posterSrc}
+                      alt={tut.title}
+                      width={1440}
+                      height={900}
+                      unoptimized
                       className="w-full h-full object-cover"
-                      controls
-                      preload="metadata"
-                      poster={tut.posterSrc}
-                      muted
-                      playsInline
-                    >
-                      <source src={tut.videoSrc} type="video/mp4" />
-                      <source src={tut.videoSrcWebm} type="video/webm" />
-                      Il tuo browser non supporta la riproduzione di video HTML5.
-                    </video>
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                      <div className="px-4 py-2 rounded-full text-xs font-semibold backdrop-blur-sm" style={{ background: 'rgba(0,0,0,0.6)', color: 'white' }}>
+                        Video doppiato italiano in arrivo
+                      </div>
+                    </div>
                   </div>
 
                   {/* Info side */}
