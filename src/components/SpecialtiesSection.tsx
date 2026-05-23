@@ -101,7 +101,7 @@ export function SpecialtiesSection() {
                   <span className="font-[var(--font-playfair)] text-5xl font-bold text-white leading-none">
                     {active.heroStat.value}
                   </span>
-                  <span className="text-xs mt-3 leading-snug font-medium" style={{ color: 'rgba(255,255,255,0.75)' }}>
+                  <span className="text-xs mt-3 leading-snug font-medium" style={{ color: 'rgba(255,255,255,0.95)' }}>
                     {active.heroStat.label}
                   </span>
                 </div>
