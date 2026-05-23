@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { SPECIALTIES } from '@/lib/specialties'
+import { APP_URL } from '@/lib/site-config'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 import { NewsletterForm } from '@/components/NewsletterForm'
 
@@ -10,7 +11,7 @@ const PRODUCT_LINKS = [
   { label: 'Documentazione', href: '/docs', external: false },
   { label: 'FAQ', href: '/faq', external: false },
   { label: 'Chi siamo', href: '/chi-siamo', external: false },
-  { label: 'Accedi al software', href: 'https://app.fibonacci.it', external: true },
+  { label: 'Accedi al software', href: APP_URL, external: true },
 ] as const
 
 const LEGAL_LINKS = [

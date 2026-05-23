@@ -121,7 +121,7 @@ export function Pricing() {
               </ul>
 
               <a
-                href="#demo"
+                href="/#demo"
                 className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
                 style={{
                   background: plan.highlighted ? 'var(--accent)' : 'var(--fg)',

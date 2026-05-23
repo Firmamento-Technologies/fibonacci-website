@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
+import { APP_URL } from '@/lib/site-config'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 
 export function Navbar() {
@@ -113,7 +114,7 @@ export function Navbar() {
             FAQ
           </Link>
           <a
-            href="https://app.fibonacci.it"
+            href={APP_URL}
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
             target="_blank"
@@ -125,13 +126,13 @@ export function Navbar() {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="#demo"
+          <Link
+            href="/#demo"
             className="px-4 py-2 rounded-lg text-sm font-semibold text-white transition-opacity hover:opacity-90"
             style={{ background: 'var(--fg)' }}
           >
             Richiedi demo
-          </a>
+          </Link>
         </div>
 
         {/* Mobile menu toggle */}

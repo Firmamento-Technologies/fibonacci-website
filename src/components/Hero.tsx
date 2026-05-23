@@ -174,6 +174,7 @@ export function Hero() {
               Guarda come funziona
             </a>
           </div>
+          {/* Note: Hero esiste solo sulla home, gli anchor #demo/#come-funziona qui sono safe */}
         </div>
 
         {/* Colonna destra: UI mockup — nascosto su mobile, visibile da lg */}
