@@ -11,7 +11,7 @@ const BEFORE = [
 
 const AFTER = [
   'Cartella compilata mentre parli (AI)',
-  'Consensi SICPRE generati e inviati in PDF',
+  'Consensi informati generati e inviati in PDF',
   'Foto cifrate AES-256, GDPR by design',
   '3 minuti per documentare una visita',
   'Dati su server EU, compliance automatica',

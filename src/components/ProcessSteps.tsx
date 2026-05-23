@@ -25,7 +25,7 @@ const STEPS = [
     icon: FileSignature,
     title: 'Documenta visita e genera consenso',
     body:
-      'Body map 2D per le aree trattate, catalogo farmaci AIFA per i prodotti, foto cliniche cifrate AES-256. Consenso SICPRE generato in PDF e firmato digitalmente.',
+      'Body map 2D per le aree trattate, catalogo farmaci AIFA per i prodotti, foto cliniche cifrate AES-256. Consenso informato generato in PDF e firmato digitalmente.',
     detail: 'documentazione completa',
     photo: PHOTOS.doctorWritingChart,
     photoAlt: 'Medico scrive su clipboard la cronologia medica del paziente',

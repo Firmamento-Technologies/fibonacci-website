@@ -39,8 +39,8 @@ export const DOCS: DocMeta[] = [
     icon: 'MapPin',
   },
   {
-    slug: 'consensi-sicpre',
-    title: 'Consensi SICPRE',
+    slug: 'consensi-informati',
+    title: 'Consensi informati',
     description: 'Generare e firmare consensi informati in PDF.',
     category: 'utilizzo',
     icon: 'FileSignature',

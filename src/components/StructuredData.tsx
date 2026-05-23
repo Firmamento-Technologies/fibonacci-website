@@ -39,7 +39,7 @@ export function SoftwareApplicationSchema() {
     '@type': 'SoftwareApplication',
     name: 'Fibonacci',
     description:
-      'Cartella clinica digitale SaaS per medici italiani. Dettatura AI, body-map 2D, consensi SICPRE, GDPR by design, FHIR R4 nativo.',
+      'Cartella clinica digitale SaaS per medici italiani. Dettatura AI, body-map 2D, consensi informati, GDPR by design, FHIR R4 nativo.',
     applicationCategory: 'HealthApplication',
     operatingSystem: 'Web Browser',
     url: SITE_URL,
@@ -89,7 +89,7 @@ export function SoftwareApplicationSchema() {
       'Anagrafica paziente FHIR R4',
       'Anamnesi con dettatura AI Voxtral',
       'Body-map 2D con pallini numerati',
-      'Consensi SICPRE generati in PDF',
+      'Consensi informati generati in PDF',
       'Audit log immutabile hash-chain',
       'Catalogo farmaci AIFA integrato',
       'Agenda condivisa multi-operatore',

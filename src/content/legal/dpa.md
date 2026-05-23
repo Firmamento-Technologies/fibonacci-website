@@ -100,7 +100,7 @@ Ai fini del presente DPA, i termini utilizzati con lettera maiuscola hanno il si
 - b) **Dati di contatto**: indirizzo postale, indirizzo email, recapito telefonico.
 - c) **Dati sanitari (categoria particolare ex art. 9 GDPR)**: anamnesi clinica (allergie, patologie pregresse e in atto, farmaci assunti, familiarità, stile di vita), referti, diagnosi, trattamenti effettuati (data, prodotto, lotto, quantità, area corporea), prescrizioni, foto cliniche.
 - d) **Audio temporanei di dettatura**: tracce audio della voce del Titolare, inviate al sub-responsabile Mistral AI per la trascrizione automatica e non persistite oltre la sessione di processing.
-- e) **Consensi informati**: documenti PDF firmati dagli Interessati, comprensivi dei consensi SICPRE per la medicina estetica e dei consensi generici per le altre specialità.
+- e) **Consensi informati**: documenti PDF firmati dagli Interessati, comprensivi dei consensi informati per la medicina estetica e dei consensi generici per le altre specialità.
 - f) **Audit log**: registrazione delle operazioni di creazione, lettura, modifica e cancellazione effettuate sulle risorse cliniche dell'account del Titolare.
 - g) **Dati di pagamento dei pazienti** (eventuali, ove il Titolare attivi la funzionalità di fatturazione clienti tramite il Software, ad oggi non rilasciata): importi fatturati, riferimenti fiscali del paziente.
 

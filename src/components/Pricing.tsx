@@ -8,7 +8,7 @@ const PLANS = [
     features: [
       'Pazienti illimitati',
       'Tutte le feature della specialità',
-      'Consensi SICPRE inclusi',
+      'Consensi informati inclusi',
       'Dettatura AI illimitata',
       'Backup giornaliero',
       'Supporto via email',

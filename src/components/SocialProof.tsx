@@ -4,12 +4,12 @@ const BADGES = [
   { icon: Shield, text: 'GDPR EU Compliant' },
   { icon: Lock, text: 'Dati su server UE' },
   { icon: Zap, text: 'HL7 FHIR R4' },
-  { icon: Award, text: 'Consensi SICPRE inclusi' },
+  { icon: Award, text: 'Consensi informati inclusi' },
 ]
 
 const TESTIMONIALS = [
   {
-    quote: 'La body map e i consensi SICPRE generati dal sistema mi fanno risparmiare circa venti minuti a visita. Finalmente un software che parla la lingua della medicina estetica.',
+    quote: 'La body map e i consensi informati generati dal sistema mi fanno risparmiare circa venti minuti a visita. Finalmente un software che parla la lingua della medicina estetica.',
     name: 'Studio pilota',
     role: 'Medicina Estetica',
     city: 'Milano',

@@ -28,7 +28,7 @@ Per creare un nuovo pallino esistono due modalita:
 
 Si apre una modale con i seguenti campi:
 
-- **Area corporea**, combobox con autocompletamento dal catalogo aree, ad esempio `Glabella`, `Zigomo destro`, `Solco nasolabiale sinistro`. Le aree seguono la nomenclatura SICPRE per coerenza con i consensi.
+- **Area corporea**, combobox con autocompletamento dal catalogo aree, ad esempio `Glabella`, `Zigomo destro`, `Solco nasolabiale sinistro`. Le aree seguono la nomenclatura per coerenza con i consensi.
 - **Prodotto AIFA**, combobox con ricerca testuale sul catalogo italiano dei farmaci AIFA. Mostra principio attivo, nome commerciale, indicazioni autorizzate.
 - **Lotto**, campo libero per inserire il numero di lotto stampato sulla confezione del prodotto.
 - **Quantita**, valore numerico con selezione dell'unita di misura: millilitri (`ml`), unita (`U`), siringhe (`sg`).
@@ -111,7 +111,7 @@ Per prodotti non presenti nel catalogo, ad esempio dispositivi medici di nicchia
 
 - Scorciatoie da tastiera: **N** per nuovo pallino, **D** per duplicare l'ultimo, **E** per modificare, **canc** per eliminare il pallino selezionato.
 - Usa la stessa fotografia di base nel tempo per valutare l'evoluzione del paziente. Le foto storiche restano nella anagrafica con timestamp.
-- Configura la nomenclatura preferita delle aree corporee in `Impostazioni > Body map > Lessico`: il sistema offre il default SICPRE ma supporta personalizzazioni di studio.
+- Configura la nomenclatura preferita delle aree corporee in `Impostazioni > Body map > Lessico`: il sistema offre il default ma supporta personalizzazioni di studio.
 - Per i trattamenti combinati registra il prodotto principale e nel campo `Note` le associazioni: il PDF di consenso integra le combinazioni nel testo.
 - Inserisci il lotto sempre completo di lettere e numeri, eventuali zeri iniziali compresi: serve per la rintracciabilita in caso di richiamo del prodotto.
 
@@ -130,7 +130,7 @@ Per prodotti non presenti nel catalogo, ad esempio dispositivi medici di nicchia
 ## Vedi anche
 
 - [Compilare l'anamnesi con la dettatura AI](/docs/anamnesi-dettatura/)
-- [Generare e firmare consensi SICPRE in PDF](/docs/consensi-sicpre/)
+- [Generare e firmare consensi informati in PDF](/docs/consensi-informati/)
 - [Audit log e tracciabilita accessi](/docs/audit-log/)
 
 Ultima revisione: {ULTIMA_REVISIONE}

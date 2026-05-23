@@ -1,8 +1,8 @@
-# Generare e firmare consensi SICPRE in PDF
+# Generare e firmare consensi informati in PDF
 
-Questa guida descrive come generare e gestire i consensi informati standardizzati dalla **SICPRE** (Societa Italiana di Chirurgia Plastica Ricostruttiva ed Estetica) e come acquisire la firma del paziente in modalita cartacea o digitale. Si rivolge ai medici di medicina estetica e chirurgia plastica che operano in Italia, con riferimento al quadro normativo della legge sul consenso informato (legge 219/2017) e alle linee guida societarie SICPRE.
+Questa guida descrive come generare e gestire i consensi informati standardizzati dalla **** (Societa Italiana di Chirurgia Plastica Ricostruttiva ed Estetica) e come acquisire la firma del paziente in modalita cartacea o digitale. Si rivolge ai medici di medicina estetica e chirurgia plastica che operano in Italia, con riferimento al quadro normativo della legge sul consenso informato (legge 219/2017) e alle linee guida societarie .
 
-Fibonacci include una libreria di modelli SICPRE aggiornata periodicamente, che copre i trattamenti piu comuni. Il sistema genera dinamicamente il PDF compilando i campi dell'anagrafica paziente, del medico esecutore, della data e del trattamento programmato. Il PDF e archiviato con sigillo elettronico avanzato (PAdES), garantendo integrita e marcatura temporale.
+Fibonacci include una libreria di modelli di consenso aggiornata periodicamente, che copre i trattamenti piu comuni. Il sistema genera dinamicamente il PDF compilando i campi dell'anagrafica paziente, del medico esecutore, della data e del trattamento programmato. Il PDF e archiviato con sigillo elettronico avanzato (PAdES), garantendo integrita e marcatura temporale.
 
 ## Prerequisiti
 
@@ -20,7 +20,7 @@ Dalla scheda visita del paziente, il tab `Consensi` apre il pannello di gestione
 
 I consensi gia firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive ne modifica i precedenti.
 
-## Passo 2, scelta del modello SICPRE
+## Passo 2, scelta del modello 
 
 Il pulsante `Nuovo consenso` apre il catalogo dei modelli disponibili, raggruppati per categoria:
 
@@ -31,7 +31,7 @@ Il pulsante `Nuovo consenso` apre il catalogo dei modelli disponibili, raggruppa
 - **Trattamenti combinati**: armonizzazione facciale, full face,
 - **Altri**: mesoterapia, fili di trazione, biorivitalizzazione.
 
-Ogni modello mostra una breve descrizione, l'elenco dei rischi specifici, le alternative terapeutiche standard e l'aggiornamento piu recente del testo SICPRE. I modelli vengono revisionati dalla societa scientifica con cadenza annuale; Fibonacci aggiorna automaticamente la libreria al rilascio delle nuove versioni.
+Ogni modello mostra una breve descrizione, l'elenco dei rischi specifici, le alternative terapeutiche standard e l'aggiornamento piu recente del testo . I modelli vengono revisionati dalla societa scientifica con cadenza annuale; Fibonacci aggiorna automaticamente la libreria al rilascio delle nuove versioni.
 
 La selezione di un modello apre l'editor di consenso pre-compilato.
 
@@ -43,7 +43,7 @@ L'editor presenta il consenso pre-compilato con i seguenti campi compilati autom
 - **Dati del medico esecutore**: nome, cognome, codice fiscale, numero di iscrizione all'Ordine, specializzazione.
 - **Dati dello studio**: ragione sociale, partita IVA, indirizzo della sede.
 - **Data della prestazione** programmata.
-- **Descrizione del trattamento** dal modello SICPRE.
+- **Descrizione del trattamento** dal modello .
 - **Rischi e complicanze** specifici, secondo l'aggiornamento corrente del modello.
 - **Alternative terapeutiche** indicate dal modello.
 - **Costi** della prestazione, opzionale, importabile dal catalogo prezzi dello studio.
@@ -63,7 +63,7 @@ Il pulsante `Genera PDF` produce il documento finale. L'anteprima full screen mo
 - titolo `Consenso informato per trattamento di [tipo]`,
 - testo completo del consenso,
 - sezione firma con riquadri per data, firma paziente, firma medico,
-- pie di pagina con identificativo univoco del documento e versione del modello SICPRE.
+- pie di pagina con identificativo univoco del documento e versione del modello .
 
 Il pulsante `Salva come bozza` permette di interrompere la procedura conservando lo stato per modifiche successive. Le bozze non sono valide come consenso.
 
@@ -129,7 +129,7 @@ La verifica e disponibile anche al di fuori della piattaforma utilizzando lettor
 - Per pazienti minori il consenso e firmato dal **tutore legale** registrato in anagrafica; il sistema compila automaticamente il nome del tutore nella sezione firma.
 - I costi del trattamento, se inseriti, devono coincidere con il preventivo eventualmente firmato in precedenza: incongruenze possono invalidare il consenso informato.
 - Conserva nello studio un **registro cartaceo** dei consensi su carta firmati anche dopo l'upload, per due anni: pratica raccomandata da molti ordini professionali.
-- Verifica annualmente che i modelli in uso siano ancora la versione SICPRE corrente: la pagina `Impostazioni > Consensi > Modelli` mostra le versioni installate e l'ultima versione disponibile.
+- Verifica annualmente che i modelli in uso siano ancora la versione corrente: la pagina `Impostazioni > Consensi > Modelli` mostra le versioni installate e l'ultima versione disponibile.
 
 ## Risoluzione problemi
 
@@ -137,7 +137,7 @@ La verifica e disponibile anche al di fuori della piattaforma utilizzando lettor
 
 **Firma grafometrica rifiutata dal lettore PDF esterno.** Alcuni lettori PDF non aggiornati non riconoscono la firma PAdES. Apri il PDF con Adobe Acrobat Reader aggiornato per verificare correttamente la firma. La firma resta valida indipendentemente dal lettore usato per la verifica esterna.
 
-**Modello SICPRE mancante per un trattamento non presente in catalogo.** Apri una richiesta dal pulsante `Suggerisci modello` indicando il trattamento. Le richieste sono valutate insieme a SICPRE per inserimento nelle release periodiche. Nel frattempo usa il modello generico `Consenso per trattamento medico-estetico` personalizzandolo con le specifiche del trattamento.
+**Modello mancante per un trattamento non presente in catalogo.** Apri una richiesta dal pulsante `Suggerisci modello` indicando il trattamento. Le richieste sono valutate insieme a per inserimento nelle release periodiche. Nel frattempo usa il modello generico `Consenso per trattamento medico-estetico` personalizzandolo con le specifiche del trattamento.
 
 **Il PDF generato mostra dati anagrafici incompleti.** Verifica nella scheda anagrafica paziente che i campi obbligatori siano tutti compilati. Mancanza di codice fiscale o data di nascita sono le cause piu frequenti.
 

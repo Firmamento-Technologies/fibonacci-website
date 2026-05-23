@@ -9,7 +9,7 @@ import { TUTORIALS } from '@/lib/tutorial-data'
 export const metadata: Metadata = {
   title: 'Video tutorial',
   description:
-    'Tre video walkthrough di Fibonacci: panoramica in 90 secondi, prima visita completa, body-map e consenso SICPRE in azione.',
+    'Tre video walkthrough di Fibonacci: panoramica in 90 secondi, prima visita completa, body-map e consenso informato in azione.',
   alternates: { canonical: '/tutorial' },
 }
 

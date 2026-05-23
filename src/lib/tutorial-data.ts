@@ -39,9 +39,9 @@ export const TUTORIALS: TutorialMeta[] = [
   },
   {
     slug: 'body-map-consenso',
-    title: 'Body map e consenso SICPRE',
+    title: 'Body map e consenso informato',
     description:
-      'Focus sulla feature distintiva per medicina estetica: body-map 2D con pallini numerati e generazione consenso SICPRE pre-compilato.',
+      'Focus sulla feature distintiva per medicina estetica: body-map 2D con pallini numerati e generazione consenso informato pre-compilato.',
     duration: '2 min',
     scenes: 9,
     hasVideo: false,

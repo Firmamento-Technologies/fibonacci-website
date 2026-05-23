@@ -4,7 +4,7 @@
 
 ## Sinossi
 
-Il video accompagna passo passo un medico estetico nella sua prima visita reale dentro Fibonacci. Si parte dal login con autenticazione a due fattori, si crea la scheda della paziente Maria Rossi, si apre la visita e si detta l'anamnesi a voce. Poi si segnano due pallini sulla body map con prodotti AIFA, si genera e firma il consenso SICPRE per il Botox, si verifica l'audit log e si archivia la visita. Chiude con tre consigli rapidi per le visite successive.
+Il video accompagna passo passo un medico estetico nella sua prima visita reale dentro Fibonacci. Si parte dal login con autenticazione a due fattori, si crea la scheda della paziente Maria Rossi, si apre la visita e si detta l'anamnesi a voce. Poi si segnano due pallini sulla body map con prodotti AIFA, si genera e firma il consenso informato per il Botox, si verifica l'audit log e si archivia la visita. Chiude con tre consigli rapidi per le visite successive.
 
 ## Storyboard scene-by-scene
 
@@ -50,11 +50,11 @@ Il video accompagna passo passo un medico estetico nella sua prima visita reale 
 **Note regia**: secondo pallino su zigomi, prodotto "filler acido ialuronico", dose "1 ml", entrambi i pallini visibili sulla mappa.
 **On-screen**: callout "Pallino, prodotto, dose, lotto. Tutto in dieci secondi".
 
-### Scena 8 (2:50 - 3:20) - Consenso SICPRE Botox
-**Inquadratura**: tab consensi, clic su "Genera consenso SICPRE Botox", anteprima PDF con nome, prodotto e lotto già scritti, clic su "Firma su tablet".
+### Scena 8 (2:50 - 3:20) - Consenso informato Botox
+**Inquadratura**: tab consensi, clic su "Genera consenso informato Botox", anteprima PDF con nome, prodotto e lotto già scritti, clic su "Firma su tablet".
 **Audio**: voiceover che mostra il flusso consenso.
 **Note regia**: simulazione firma grafometrica con pennino, sigillo verde "firmato" che appare sul PDF.
-**On-screen**: callout "Consenso conforme SICPRE, firmato e archiviato".
+**On-screen**: callout "Consenso conforme , firmato e archiviato".
 
 ### Scena 9 (3:20 - 3:35) - Audit log
 **Inquadratura**: tab audit, righe in ordine cronologico, creazione paziente, apertura visita, salvataggio anamnesi, generazione consenso, firma consenso.
@@ -90,7 +90,7 @@ Clicca sul microfono e parla normalmente. Racconta a voce il motivo della visita
 
 Adesso passiamo alla body map. Vedi il viso davanti a te. Clicca sulla glabella per posare il primo pallino. Si apre il pannello laterale, scegli "Botox", indichi la dose, venti unità, e selezioni il lotto AIFA dal menu. Poi un secondo pallino sugli zigomi, filler acido ialuronico, un millilitro. I due pallini restano lì per sempre, anche tra sei mesi ritrovi tutto.
 
-Tab consensi. Clicca "Genera consenso SICPRE Botox". Fibonacci ti propone il PDF già precompilato con nome, prodotto e lotto. Controlli, passi il tablet alla paziente, lei firma con il pennino. Il consenso è archiviato dentro la cartella con sigillo verde.
+Tab consensi. Clicca "Genera consenso informato Botox". Fibonacci ti propone il PDF già precompilato con nome, prodotto e lotto. Controlli, passi il tablet alla paziente, lei firma con il pennino. Il consenso è archiviato dentro la cartella con sigillo verde.
 
 Prima di chiudere fai un salto nella tab audit. Vedi tutto quello che è successo nella visita, in ordine cronologico, con orario al secondo. Se un domani qualcuno ti chiede una verifica, è tutto qui.
 
@@ -108,7 +108,7 @@ Ora tocca a te. Se ti blocchi scrivici a supporto chiocciola fibonacci punto it,
 - 1:10 - 1:18 callout "Quattro tab per ogni visita"
 - 1:40 - 1:50 callout "Venti minuti risparmiati con dettatura"
 - 2:20 - 2:30 callout "Body map con prodotti e lotti AIFA"
-- 2:55 - 3:05 callout "Consensi SICPRE precompilati"
+- 2:55 - 3:05 callout "Consensi informati precompilati"
 - 3:25 - 3:32 callout "Audit log con timestamp al secondo"
 - 3:38 - 3:55 tre tip mini lower-third in sequenza
 - 3:56 - 4:00 footer "supporto@fibonacci.it, risposta in un'ora"

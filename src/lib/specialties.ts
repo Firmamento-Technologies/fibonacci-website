@@ -17,11 +17,11 @@ export const SPECIALTIES: Specialty[] = [
     label: 'Medicina Estetica',
     color: '#a85b53',
     accent: '#f5e8e7',
-    tagline: 'Body map, consensi SICPRE e dettatura AI. La visita documentata in 3 minuti.',
+    tagline: 'Body map, consensi informati e dettatura AI. La visita documentata in 3 minuti.',
     screenshot: '/screenshots/estetica.png',
     features: [
       'Body map 2D con pallini per area trattata',
-      'Consensi SICPRE generati in PDF',
+      'Consensi informati generati in PDF',
       'Dettatura AI — anamnesi compilata mentre parli',
       'Catalogo farmaci AIFA integrato',
       'Foto cliniche cifrate GDPR',

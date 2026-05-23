@@ -4,7 +4,7 @@
 
 ## Sinossi
 
-Il video apre sul caos quotidiano di chi gestisce ancora le cartelle cliniche tra carta, Word e WhatsApp. Mostra Fibonacci come la soluzione che unifica tutto in un unico ambiente conforme. In quaranta secondi presenta le quattro funzioni che fanno la differenza, dettatura assistita, body map, consensi SICPRE e infrastruttura GDPR. Chiude con un invito chiaro a provarlo gratis per quattordici giorni o a prenotare una demo.
+Il video apre sul caos quotidiano di chi gestisce ancora le cartelle cliniche tra carta, Word e WhatsApp. Mostra Fibonacci come la soluzione che unifica tutto in un unico ambiente conforme. In quaranta secondi presenta le quattro funzioni che fanno la differenza, dettatura assistita, body map, consensi informati e infrastruttura GDPR. Chiude con un invito chiaro a provarlo gratis per quattordici giorni o a prenotare una demo.
 
 ## Storyboard scene-by-scene
 
@@ -38,11 +38,11 @@ Il video apre sul caos quotidiano di chi gestisce ancora le cartelle cliniche tr
 **Note regia**: animazione dei pallini con piccolo bounce, badge "Botox 20U" e "Filler 0.5ml" visibili.
 **On-screen**: callout "Body map, ogni trattamento mappato e ritrovabile".
 
-### Scena 6 (0:48 - 0:58) - Feature consensi SICPRE
-**Inquadratura**: clic su "Genera consenso", anteprima PDF SICPRE Botox precompilato con nome paziente, prodotto e lotto.
-**Audio**: voiceover che evidenzia la conformità SICPRE.
+### Scena 6 (0:48 - 0:58) - Feature consensi informati
+**Inquadratura**: clic su "Genera consenso", anteprima PDF Botox precompilato con nome paziente, prodotto e lotto.
+**Audio**: voiceover che evidenzia la conformità .
 **Note regia**: zoom sul nome del paziente già stampato e sulla firma grafometrica simulata.
-**On-screen**: callout "Consensi SICPRE pronti in trenta secondi".
+**On-screen**: callout "Consensi informati pronti in trenta secondi".
 
 ### Scena 7 (0:58 - 1:05) - Feature GDPR e audit
 **Inquadratura**: schermata audit log con righe di accesso e modifica, lucchetto verde nell'angolo.
@@ -68,7 +68,7 @@ Cartelle di carta, file Word sparsi, foto pazienti su WhatsApp. Se questa è la 
 
 Detti l'anamnesi a voce, Fibonacci la trascrive e la struttura. Recuperi fino a venti minuti per ogni paziente. La body map ti permette di segnare ogni trattamento con un pallino, con prodotto AIFA, lotto e dose. Apri la scheda di un paziente di sei mesi fa e vedi tutto a colpo d'occhio.
 
-I consensi SICPRE per Botox e filler sono pronti in trenta secondi, precompilati con i dati del paziente e firmabili al tablet. I dati restano su server europei, ogni accesso e ogni modifica viene tracciato nell'audit log.
+I consensi informati per Botox e filler sono pronti in trenta secondi, precompilati con i dati del paziente e firmabili al tablet. I dati restano su server europei, ogni accesso e ogni modifica viene tracciato nell'audit log.
 
 Solo a trentanove euro al mese, Studio a settantanove, Clinica a centoquarantanove. Provalo gratis quattordici giorni o prenota una demo su app punto fibonacci punto it. Ti facciamo vedere come è fatto, in dieci minuti.
 
@@ -78,7 +78,7 @@ Solo a trentanove euro al mese, Studio a settantanove, Clinica a centoquarantano
 - 0:18 - 0:24 callout "Una sola piattaforma, conforme GDPR"
 - 0:30 - 0:36 callout "Dettatura clinica integrata"
 - 0:42 - 0:48 callout "Body map con prodotti AIFA"
-- 0:52 - 0:58 callout "Consensi SICPRE precompilati"
+- 0:52 - 0:58 callout "Consensi informati precompilati"
 - 1:02 - 1:08 callout "Server europei, audit log completo"
 - 1:18 - 1:24 lower-third "Solo trentanove euro al mese, Studio settantanove, Clinica centoquarantanove"
 - 1:24 - 1:30 lower-third grande "Richiedi demo su app.fibonacci.it"

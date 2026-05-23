@@ -8,7 +8,7 @@ import { DEMO_URL } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Prova la demo live',
   description:
-    'Esplora Fibonacci in 30 secondi: account isolato, nessuna registrazione, accesso istantaneo a body-map, dettatura AI, consensi SICPRE e tutte le funzionalità della piattaforma.',
+    'Esplora Fibonacci in 30 secondi: account isolato, nessuna registrazione, accesso istantaneo a body-map, dettatura AI, consensi informati e tutte le funzionalità della piattaforma.',
   alternates: { canonical: '/prova-demo' },
 }
 
@@ -22,7 +22,7 @@ const CAN_DO = [
   'Creare un paziente con anagrafica completa',
   'Aprire la body-map 2D e marcare aree trattate',
   'Compilare anamnesi con dettatura AI Voxtral',
-  'Generare un consenso SICPRE in PDF',
+  'Generare un consenso informato in PDF',
   'Esplorare l\'agenda appuntamenti condivisa',
   'Vedere l\'audit log immutabile in tempo reale',
   'Chattare con l\'assistente AI sul paziente',

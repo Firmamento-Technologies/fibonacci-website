@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 const STATS = [
-  { value: 57, suffix: '', label: 'Consensi SICPRE inclusi', prefix: '' },
+  { value: 57, suffix: '', label: 'Consensi informati inclusi', prefix: '' },
   { value: 3, suffix: ' min', label: 'per documentare una visita', prefix: '' },
   { value: 100, suffix: '%', label: 'dati su server EU', prefix: '' },
   { value: 6, suffix: '', label: 'specialità mediche supportate', prefix: '' },

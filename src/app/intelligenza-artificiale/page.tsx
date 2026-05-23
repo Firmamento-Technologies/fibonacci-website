@@ -49,7 +49,7 @@ const CAPABILITIES = [
     title: 'Chatbot clinico in-app',
     paragraphs: [
       'Il widget "Chiedi all\'AI" in basso a destra di ogni pagina risponde a domande in linguaggio naturale, con context sul paziente correntemente aperto: "ha allergie note?", "quali trattamenti negli ultimi 6 mesi?", "ultimo PHQ-9 era a quanto?".',
-      'Per le query sui workflow Fibonacci: "come inserisco un consenso SICPRE?", "dove vedo l\'audit log?". Il chatbot conosce la documentazione, accelera l\'onboarding senza chiamare il supporto.',
+      'Per le query sui workflow Fibonacci: "come inserisco un consenso informato?", "dove vedo l\'audit log?". Il chatbot conosce la documentazione, accelera l\'onboarding senza chiamare il supporto.',
       'Per la dettatura: chiamando il chatbot via microfono, parla a voce e ricevi una risposta testuale. Utile durante la visita per query veloci che richiederebbero di staccarti dal paziente.',
     ],
     detail: 'Context-aware LLM su FHIR + docs index',

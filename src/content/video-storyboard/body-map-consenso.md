@@ -1,10 +1,10 @@
-# Body map e consenso SICPRE in azione
+# Body map e consenso informato in azione
 
 > Durata: 120 secondi | Obiettivo: mostrare il valore concreto del body map e del workflow consenso | Pubblico: medico estetico in fase di valutazione che vuole vedere la feature distintiva
 
 ## Sinossi
 
-Il video mostra in due minuti come Fibonacci sostituisce venti minuti di carta. Si parte da una paziente con foto base, si posizionano due pallini sulla body map con prodotti AIFA e dosi, si visualizza la vista storica aggregata di tutti i trattamenti, si genera un consenso SICPRE Botox precompilato e si firma al tablet. Chiude con il confronto numerico tra il flusso Fibonacci e la cartella tradizionale.
+Il video mostra in due minuti come Fibonacci sostituisce venti minuti di carta. Si parte da una paziente con foto base, si posizionano due pallini sulla body map con prodotti AIFA e dosi, si visualizza la vista storica aggregata di tutti i trattamenti, si genera un consenso informato Botox precompilato e si firma al tablet. Chiude con il confronto numerico tra il flusso Fibonacci e la cartella tradizionale.
 
 ## Storyboard scene-by-scene
 
@@ -38,11 +38,11 @@ Il video mostra in due minuti come Fibonacci sostituisce venti minuti di carta. 
 **Note regia**: pallini con leggera trasparenza per le visite più vecchie, pallini pieni per la visita attuale, filtro per data e prodotto in alto.
 **On-screen**: callout "Tutto lo storico della paziente in una vista sola".
 
-### Scena 6 (1:35 - 1:55) - Generazione consenso SICPRE Botox precompilato
-**Inquadratura**: clic su "Genera consenso SICPRE Botox", anteprima PDF con nome paziente, prodotto, lotto, dose, area trattata e data già stampati.
+### Scena 6 (1:35 - 1:55) - Generazione consenso informato Botox precompilato
+**Inquadratura**: clic su "Genera consenso informato Botox", anteprima PDF con nome paziente, prodotto, lotto, dose, area trattata e data già stampati.
 **Audio**: voiceover sul consenso precompilato.
-**Note regia**: highlight progressivo sui campi precompilati uno alla volta, sigillo "conforme SICPRE" in alto.
-**On-screen**: callout "Consenso SICPRE conforme, zero rischio di campi vuoti".
+**Note regia**: highlight progressivo sui campi precompilati uno alla volta, sigillo "conforme " in alto.
+**On-screen**: callout "Consenso informato conforme, zero rischio di campi vuoti".
 
 ### Scena 7 (1:55 - 2:05) - Firma grafometrica al tablet
 **Inquadratura**: passaggio del tablet, paziente che firma con pennino, sigillo verde "firmato" e timestamp che appaiono.
@@ -74,7 +74,7 @@ Adesso il secondo. Clicca sugli zigomi. Pannello, Botox, venti unità, lotto AIF
 
 Clicca "Storico paziente". Fibonacci ti mostra tutti i pallini di tutte le visite precedenti, con una timeline laterale. Filtri per data, per area, per prodotto. Tre mesi fa hai trattato il mento? È lì. Sei mesi fa hai fatto un ritocco al sopracciglio? È lì. Niente cartelle aperte, niente foto sparse.
 
-Tab consensi. Clicca "Genera consenso SICPRE Botox". Fibonacci ti propone il PDF già pronto, con nome paziente, prodotto, lotto, dose, area trattata e data al secondo. Niente campi da riempire a penna, niente rischio di dimenticare un dato.
+Tab consensi. Clicca "Genera consenso informato Botox". Fibonacci ti propone il PDF già pronto, con nome paziente, prodotto, lotto, dose, area trattata e data al secondo. Niente campi da riempire a penna, niente rischio di dimenticare un dato.
 
 Passi il tablet alla paziente. Lei firma con il pennino. Sul PDF appare il sigillo verde con il timestamp. Il consenso è archiviato dentro la cartella, firmato, con valore legale.
 
@@ -88,7 +88,7 @@ Provalo gratis quattordici giorni su app punto fibonacci punto it.
 - 0:25 - 0:35 callout "Filler 0,5 ml, lotto AIFA tracciato"
 - 0:55 - 1:05 callout "Botox 20 unità, codice colore separato"
 - 1:22 - 1:33 callout "Storico completo, timeline laterale"
-- 1:38 - 1:50 callout "Consenso SICPRE precompilato"
+- 1:38 - 1:50 callout "Consenso informato precompilato"
 - 1:55 - 2:04 callout "Firma grafometrica con valore legale"
 - 2:05 - 2:15 grande lower-third "Due minuti contro venti, ogni paziente"
 - 2:15 - 2:20 footer "Prova gratis su app.fibonacci.it"

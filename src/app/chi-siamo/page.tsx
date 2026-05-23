@@ -118,7 +118,7 @@ export default function ChiSiamoPage() {
                 Da un lato gestionali storici dal design fermo agli anni Duemila, costruiti
                 per la burocrazia amministrativa più che per la clinica. Dall&apos;altro
                 soluzioni internazionali che parlano la lingua del database e non quella del
-                medico, prive di consensi SICPRE, di catalogo farmaci AIFA e di sensibilità
+                medico, prive di consensi informati, di catalogo farmaci AIFA e di sensibilità
                 ai regolamenti italiani.
               </p>
               <p className="text-base leading-relaxed mb-5" style={{ color: 'var(--fg)' }}>

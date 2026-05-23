@@ -6,7 +6,7 @@ import { DOCS, DOC_CATEGORIES, type DocMeta } from '@/lib/docs-data'
 export const metadata: Metadata = {
   title: 'Guide utente',
   description:
-    'Documentazione completa di Fibonacci: onboarding, anagrafica paziente, dettatura AI, body-map, consensi SICPRE, agenda, audit log.',
+    'Documentazione completa di Fibonacci: onboarding, anagrafica paziente, dettatura AI, body-map, consensi informati, agenda, audit log.',
   alternates: { canonical: '/docs' },
 }
 

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'dettatura AI medica',
     'software dermatologia',
     'software ortopedia',
-    'consensi SICPRE',
+    'consensi informati',
     'body map paziente',
   ],
   authors: [{ name: 'Fibonacci' }],

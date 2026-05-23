@@ -28,8 +28,8 @@ const SCREENS: Screen[] = [
   },
   {
     src: assetPath('/screenshots/estetica/05-consensi.png'),
-    title: 'Consensi SICPRE',
-    body: 'Modelli SICPRE generati in PDF, firma grafometrica, invio automatico al paziente.',
+    title: 'Consensi informati',
+    body: 'Modelli di consenso generati in PDF, firma grafometrica, invio automatico al paziente.',
     icon: FileSignature,
   },
   {
