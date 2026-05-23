@@ -236,7 +236,7 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
           >
             Pronto a provare Fibonacci {specialty.label}?
           </h2>
-          <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
+          <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.95)' }}>
             14 giorni gratis, nessuna carta di credito. Demo personalizzata in 30 minuti.
           </p>
           <Link
