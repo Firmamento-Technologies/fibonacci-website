@@ -1,9 +1,10 @@
 'use client'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronDown, Play, ArrowRight } from 'lucide-react'
+import { ChevronDown, Play, ArrowRight, Sparkles } from 'lucide-react'
 import { SPECIALTIES, type Specialty } from '@/lib/specialties'
 import { AppMockup } from '@/components/AppMockup'
+import { DEMO_URL } from '@/lib/site-config'
 
 // Spirale di Fibonacci decorativa SVG — elemento identitario di sfondo
 function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: number }) {
@@ -180,25 +181,31 @@ export function Hero() {
             </motion.div>
           </AnimatePresence>
 
-          {/* CTA con aurora glow attorno al primario */}
+          {/* CTA primario "Prova demo live" + secondario "Richiedi demo gratuita" */}
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="#demo"
+              href={DEMO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-lg"
               style={{ background: 'var(--fg)' }}
             >
-              Richiedi demo gratuita
+              <Sparkles className="w-4 h-4" />
+              Prova demo live
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="#come-funziona"
+              href="#demo"
               className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors backdrop-blur-sm"
               style={{ color: 'var(--fg)', border: '1.5px solid var(--border)', background: 'rgba(255,255,255,0.4)' }}
             >
               <Play className="w-3.5 h-3.5" />
-              Guarda come funziona
+              Richiedi demo guidata
             </a>
           </div>
+          <p className="text-xs mt-3" style={{ color: 'var(--muted)' }}>
+            Demo live: nessuna registrazione, esplori il prodotto in 30 secondi.
+          </p>
           {/* Note: Hero esiste solo sulla home, gli anchor #demo/#come-funziona qui sono safe */}
         </div>
 

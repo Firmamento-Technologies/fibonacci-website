@@ -65,6 +65,7 @@ export const STATIC_SITE_PAGES: SitePage[] = [
   { slug: 'docs', changeFrequency: 'monthly', priority: 0.7 },
   { slug: 'tutorial', changeFrequency: 'monthly', priority: 0.7 },
   { slug: 'intelligenza-artificiale', changeFrequency: 'monthly', priority: 0.8 },
+  { slug: 'prova-demo', changeFrequency: 'monthly', priority: 0.9 },
 ]
 
 export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {

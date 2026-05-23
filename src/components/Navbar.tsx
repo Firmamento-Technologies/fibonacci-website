@@ -2,9 +2,9 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, ChevronDown } from 'lucide-react'
+import { Menu, X, ChevronDown, Sparkles } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
-import { APP_URL } from '@/lib/site-config'
+import { APP_URL, DEMO_URL } from '@/lib/site-config'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 
 export function Navbar() {
@@ -136,15 +136,18 @@ export function Navbar() {
           </a>
         </nav>
 
-        {/* CTA */}
+        {/* CTA: Prova demo live (primario) - apre app live in nuova tab */}
         <div className="hidden md:flex items-center gap-3">
-          <Link
-            href="/#demo"
-            className="px-4 py-2 rounded-lg text-sm font-semibold text-white transition-opacity hover:opacity-90"
+          <a
+            href={DEMO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold text-white transition-opacity hover:opacity-90"
             style={{ background: 'var(--fg)' }}
           >
-            Richiedi demo
-          </Link>
+            <Sparkles className="w-3.5 h-3.5" />
+            Prova demo
+          </a>
         </div>
 
         {/* Mobile menu toggle */}
@@ -182,6 +185,17 @@ export function Navbar() {
                 </Link>
               ))}
               <div className="pt-3 border-t flex flex-col gap-2" style={{ borderColor: 'var(--border)' }}>
+                <a
+                  href={DEMO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mb-2 px-4 py-2.5 rounded-lg text-sm font-semibold text-white"
+                  style={{ background: 'var(--fg)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  Prova demo live
+                </a>
                 <Link
                   href="/intelligenza-artificiale"
                   className="text-sm font-medium py-1"

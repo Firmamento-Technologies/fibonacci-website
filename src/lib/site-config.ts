@@ -4,6 +4,9 @@
 // TODO: cambia a 'https://app.fibonacci.it' una volta registrato il dominio
 // (FASE 0-3 piano go-to-market).
 export const APP_URL = 'https://82.25.101.118.nip.io'
+// Demo live: auto-login con account isolato medico@studio.test, redirect a /pazienti.
+// Visitatori possono testare body-map, dettatura, consensi, agenda senza registrarsi.
+export const DEMO_URL = 'https://82.25.101.118.nip.io/demo'
 
 // URL pubblici del sito vetrina e dei contatti.
 export const SITE_URL = 'https://firmamento-technologies.github.io/fibonacci-website'
