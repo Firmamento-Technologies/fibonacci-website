@@ -125,7 +125,7 @@ export function ConsensiFeature() {
             className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold transition-colors"
             style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
           >
-            Vedi come funziona, fonti e confronto vs alternative
+            Vedi come funziona e le fonti normative
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
