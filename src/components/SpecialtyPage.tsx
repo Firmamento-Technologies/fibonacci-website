@@ -59,8 +59,8 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-5"
                 style={{
                   background: specialty.accent,
-                  color: specialty.color,
-                  border: `1.5px solid ${specialty.color}44`,
+                  color: 'var(--fg)',
+                  border: `1.5px solid ${specialty.color}66`,
                 }}
               >
                 <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: specialty.color }} />

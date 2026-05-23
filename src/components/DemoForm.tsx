@@ -110,6 +110,7 @@ export function DemoForm() {
               />
               <select
                 required
+                aria-label="Specialità medica"
                 value={form.specialty}
                 onChange={(e) => update('specialty', e.target.value)}
                 className="px-4 py-3.5 rounded-xl text-sm outline-none focus:ring-2 w-full"

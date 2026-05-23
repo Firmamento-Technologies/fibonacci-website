@@ -61,8 +61,10 @@ export function Hero() {
           <div className="relative mb-5">
             <button
               onClick={() => setDropOpen(!dropOpen)}
+              aria-label={`Cambia specialità, attualmente ${selected.label}`}
+              aria-expanded={dropOpen}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all hover:opacity-90"
-              style={{ background: selected.accent, color: selected.color, border: `1.5px solid ${selected.color}44` }}
+              style={{ background: selected.accent, color: 'var(--fg)', border: `1.5px solid ${selected.color}66` }}
             >
               <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: selected.color }} />
               {selected.label}

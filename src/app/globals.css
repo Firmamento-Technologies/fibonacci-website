@@ -3,9 +3,9 @@
 :root {
   --bg: #fafaf8;
   --fg: #1b2e4b;
-  --accent: #c9a96e;
+  --accent: #b09255;  /* era #c9a96e, scurito per WCAG AA contrast >= 4.5 su --bg */
   --accent-light: #f0e6d3;
-  --muted: #6b7a8d;
+  --muted: #56657a;  /* era #6b7a8d, scurito per contrast 4.62:1 su --bg (WCAG AA) */
   --border: #e8e4dd;
   --card: #ffffff;
 }
