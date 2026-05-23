@@ -172,9 +172,9 @@ export function DemoForm() {
               {loading ? 'Apertura email…' : 'Prenota demo gratuita'}
               {!loading && <ArrowRight className="w-4 h-4" />}
             </button>
-            <p className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>
+            <p className="text-xs" style={{ color: 'rgba(255,255,255,0.75)' }}>
               Si aprirà il tuo client di posta con i dati precompilati verso{' '}
-              <span style={{ color: 'rgba(255,255,255,0.6)' }}>info@fibonacci.it</span>.
+              <span style={{ color: 'rgba(255,255,255,0.95)' }}>info@fibonacci.it</span>.
               Nessun vincolo contrattuale. I tuoi dati non vengono ceduti a terzi. GDPR compliant.
             </p>
           </form>
