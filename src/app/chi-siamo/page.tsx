@@ -184,6 +184,51 @@ export default function ChiSiamoPage() {
           </div>
         </section>
 
+        {/* Foto team diversity tra Valori e Approccio */}
+        <section className="py-12" style={{ background: 'var(--bg)' }}>
+          <div className="max-w-4xl mx-auto px-6">
+            <div className="grid md:grid-cols-[1fr_1fr] gap-8 items-center">
+              <div
+                className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-lg"
+                style={{ border: '1px solid var(--border)' }}
+              >
+                <Image
+                  src={PHOTOS.fourFemaleDoctors}
+                  alt="Gruppo di dottoresse sorridenti in camice bianco con stetoscopi"
+                  fill
+                  unoptimized
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p
+                  className="text-sm font-semibold uppercase tracking-wider mb-3"
+                  style={{ color: 'var(--accent)' }}
+                >
+                  Per chi facciamo
+                </p>
+                <h2
+                  className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold mb-4 leading-tight"
+                  style={{ color: 'var(--fg)' }}
+                >
+                  Per ogni medico, in ogni studio
+                </h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--fg)' }}>
+                  Fibonacci è disegnato per la varietà reale dei professionisti italiani:
+                  studi singoli, studi associati, cliniche multi-operatore. Dal medico estetico
+                  di provincia che fa quindici visite al giorno alla clinica metropolitana
+                  con dieci operatori in agenda condivisa.
+                </p>
+                <p className="text-base leading-relaxed" style={{ color: 'var(--fg)' }}>
+                  Stessa interfaccia, stessa compliance, stessa promessa: il tempo che oggi
+                  spendi su carta torna alla cura del paziente.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Approccio prodotto */}
         <section className="py-20" style={{ background: 'var(--card)' }}>
           <div className="max-w-3xl mx-auto px-6">

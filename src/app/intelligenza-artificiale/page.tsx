@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Mic,
   Sparkles,
@@ -13,6 +14,7 @@ import {
 } from 'lucide-react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import { PHOTOS } from '@/lib/asset-path'
 
 export const metadata: Metadata = {
   title: 'Intelligenza Artificiale',
@@ -146,8 +148,31 @@ export default function IntelligenzaArtificialePage() {
           </div>
         </section>
 
+        {/* Foto contestuale: medico con tablet, link cognitivo a "AI nello strumento del medico" */}
+        <section className="py-12" style={{ background: 'var(--card)' }}>
+          <div className="max-w-4xl mx-auto px-6">
+            <div
+              className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-xl"
+              style={{ border: '1px solid var(--border)' }}
+            >
+              <Image
+                src={PHOTOS.doctorTablet}
+                alt="Mani su tablet con stetoscopio: documentazione clinica digitale supportata dall'AI"
+                fill
+                unoptimized
+                priority
+                className="object-cover"
+              />
+            </div>
+            <p className="text-xs mt-3 italic text-center" style={{ color: 'var(--muted)' }}>
+              L&apos;AI di Fibonacci accompagna il medico al tavolo, dove tu sei.
+              Non lo sostituisce.
+            </p>
+          </div>
+        </section>
+
         {/* 4 capabilities */}
-        <section className="py-16" style={{ background: 'var(--card)' }}>
+        <section className="py-16" style={{ background: 'var(--bg)' }}>
           <div className="max-w-4xl mx-auto px-6 flex flex-col gap-16">
             {CAPABILITIES.map((cap, idx) => (
               <div key={cap.title} className="grid md:grid-cols-[80px_1fr] gap-6">

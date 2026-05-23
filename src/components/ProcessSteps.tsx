@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import { UserPlus, Mic, FileSignature, BarChart3 } from 'lucide-react'
+import { PHOTOS } from '@/lib/asset-path'
 
 const STEPS = [
   {
@@ -7,6 +9,8 @@ const STEPS = [
     body:
       'Anagrafica completa in meno di un minuto. Codice fiscale, contatti, foto profilo. La pratica è creata e indicizzata FHIR R4 dal primo dato inserito.',
     detail: 'tempo medio 45 secondi',
+    photo: PHOTOS.doctorPatientTalk,
+    photoAlt: 'Medico in studio parla con un paziente seduto di fronte',
   },
   {
     icon: Mic,
@@ -14,6 +18,8 @@ const STEPS = [
     body:
       'Parli durante la visita, la cartella si compila in tempo reale. Voxtral trascrive ed estrae i campi strutturati. Apply-to-form con confidence score per ogni campo.',
     detail: 'parli, lui scrive',
+    photo: PHOTOS.doctorComforting,
+    photoAlt: 'Mani di medico e paziente si toccano sul tavolo dello studio',
   },
   {
     icon: FileSignature,
@@ -21,6 +27,8 @@ const STEPS = [
     body:
       'Body map 2D per le aree trattate, catalogo farmaci AIFA per i prodotti, foto cliniche cifrate AES-256. Consenso SICPRE generato in PDF e firmato digitalmente.',
     detail: 'documentazione completa',
+    photo: PHOTOS.doctorWritingChart,
+    photoAlt: 'Medico scrive su clipboard la cronologia medica del paziente',
   },
   {
     icon: BarChart3,
@@ -28,6 +36,8 @@ const STEPS = [
     body:
       'Timeline paziente, audit log immutabile FHIR, agenda per i richiami. Export ZIP FHIR R4 in qualsiasi momento, portabilità garantita ex art. 20 GDPR.',
     detail: 'visione 360 sul paziente',
+    photo: PHOTOS.handWritingStethoscope,
+    photoAlt: 'Mano scrive su documento clinico con stetoscopio accanto',
   },
 ] as const
 
@@ -116,8 +126,20 @@ export function ProcessSteps() {
                     </p>
                   </div>
 
-                  {/* Placeholder/spacer dal lato opposto su desktop */}
-                  <div className="hidden md:block" />
+                  {/* Foto contestuale dal lato opposto su desktop */}
+                  <div
+                    className={`hidden md:block relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] ${isEven ? 'md:col-start-1 md:row-start-1' : 'md:col-start-2'}`}
+                    style={{ border: '1px solid var(--border)' }}
+                  >
+                    <Image
+                      src={step.photo}
+                      alt={step.photoAlt}
+                      fill
+                      unoptimized
+                      className="object-cover"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
               )
             })}

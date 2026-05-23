@@ -11,9 +11,17 @@ export function assetPath(path: string): string {
   return `${BASE_PATH}${path}`
 }
 
-// Photo URLs per le 3 foto stock Unsplash usate nel sito (commercial license free)
+// Photo URLs per le 9 foto stock Unsplash usate nel sito (commercial license free)
 export const PHOTOS = {
+  // Set originale (Hero, AppPreview, ChiSiamo hero, DemoForm)
   doctorFemaleStethoscope: assetPath('/photos/doctor-female-stethoscope.jpg'),
   doctorFemaleCoat: assetPath('/photos/doctor-female-coat.jpg'),
   doctorTablet: assetPath('/photos/doctor-tablet.jpg'),
+  // Set espanso (ProcessSteps, AIFeatures, /intelligenza-artificiale, ChiSiamo team)
+  doctorPatientTalk: assetPath('/photos/doctor-patient-talk.jpg'),
+  doctorComforting: assetPath('/photos/doctor-comforting.jpg'),
+  doctorWritingChart: assetPath('/photos/doctor-writing-chart.jpg'),
+  fourFemaleDoctors: assetPath('/photos/four-female-doctors.jpg'),
+  femaleDoctorSmile: assetPath('/photos/female-doctor-smile.jpg'),
+  handWritingStethoscope: assetPath('/photos/hand-writing-stethoscope.jpg'),
 } as const
