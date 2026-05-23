@@ -55,7 +55,7 @@ export default function NotFound() {
               {[
                 { href: '/#specialita', label: 'Specialità', icon: ArrowRight },
                 { href: '/docs', label: 'Documentazione', icon: FileText },
-                { href: '/tutorial', label: 'Video tutorial', icon: ArrowRight },
+                { href: '/consensi-informati', label: 'Consensi informati', icon: ArrowRight },
               ].map((item) => (
                 <Link
                   key={item.href}

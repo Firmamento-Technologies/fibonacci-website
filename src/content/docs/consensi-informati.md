@@ -1,152 +1,135 @@
 # Generare e firmare consensi informati in PDF
 
-Questa guida descrive come generare e gestire i consensi informati standardizzati dalla **** (Societa Italiana di Chirurgia Plastica Ricostruttiva ed Estetica) e come acquisire la firma del paziente in modalita cartacea o digitale. Si rivolge ai medici di medicina estetica e chirurgia plastica che operano in Italia, con riferimento al quadro normativo della legge sul consenso informato (legge 219/2017) e alle linee guida societarie .
+Questa guida descrive come generare consensi informati conformi alla **legge 219/2017** usando il **Wizard AI di Fibonacci**, validarli sezione per sezione e raccogliere la firma OTP del paziente in formato PDF/A-3b a norma. Si rivolge ai medici di medicina estetica e chirurgia plastica che operano in Italia.
 
-Fibonacci include una libreria di modelli di consenso aggiornata periodicamente, che copre i trattamenti piu comuni. Il sistema genera dinamicamente il PDF compilando i campi dell'anagrafica paziente, del medico esecutore, della data e del trattamento programmato. Il PDF e archiviato con sigillo elettronico avanzato (PAdES), garantendo integrita e marcatura temporale.
+Fibonacci non distribuisce modelli di terzi. Il sistema combina due fonti:
+
+1. **5 modelli proprietari Fibonacci v0.1** già pronti per le procedure più frequenti di medicina estetica iniettiva e non chirurgica.
+2. **Wizard AI generativo** che compone consensi su misura per altre 25 procedure, partendo da una library di **72 clausole giuridiche estratte da fonti della Pubblica Amministrazione italiana** (atti regionali, ASL, aziende ospedaliere) che sono di pubblico dominio per la legge 633/1941 art. 5.
+
+Tutti gli output sono validati da tre strati anti-allucinazione (vedi Passo 4) e archiviati con sigillo elettronico avanzato e tracciatura FHIR AuditEvent.
 
 ## Prerequisiti
 
 - Account con ruolo `medico` o `admin studio`.
 - Anagrafica paziente completa con almeno nome, cognome, codice fiscale e data di nascita.
-- Profilo medico dello studio configurato con dati identificativi e numero di iscrizione all'Ordine.
-- Per la firma grafometrica: tablet con stilo capacitivo, oppure dispositivo touchscreen con stilo passivo, oppure firma su carta seguita da upload del PDF firmato.
+- Profilo medico dello studio configurato con dati identificativi e numero di iscrizione all'Ordine (verificare in Impostazioni → Dati studio e medico).
+- Per la firma OTP: numero di cellulare del paziente registrato in anagrafica.
 
 ## Passo 1, apertura del modulo consensi
 
 Dalla scheda visita del paziente, il tab `Consensi` apre il pannello di gestione. La schermata mostra:
 
-- nella colonna sinistra l'elenco dei consensi gia generati per il paziente, con stato `Bozza`, `Inviato`, `Firmato`, `Annullato`,
-- nella colonna destra il pulsante `Nuovo consenso` e il filtro per categoria di trattamento.
+- nella colonna sinistra l'elenco dei consensi già generati per il paziente, con stato `Bozza`, `Inviato`, `Firmato`, `Revocato`;
+- nella colonna destra il pulsante `Nuovo consenso` che apre il Wizard AI.
 
-I consensi gia firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive ne modifica i precedenti.
+I consensi già firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive né modifica i precedenti: ogni consenso è un'entità FHIR `Consent` distinta con il suo `AuditEvent` immutabile.
 
-## Passo 2, scelta del modello 
+In alternativa, dal menu `Consensi → Catalogo` si accede ai 5 modelli proprietari Fibonacci pronti per il download in PDF (compilati automaticamente con i dati di studio e medico). Sono utili come riferimento o per stampe rapide senza paziente in carico.
 
-Il pulsante `Nuovo consenso` apre il catalogo dei modelli disponibili, raggruppati per categoria:
+## Passo 2, Wizard AI in 4 step
 
-- **Tossina botulinica**: trattamento estetico del terzo superiore, trattamento dell'iperidrosi, bruxismo,
-- **Filler**: acido ialuronico volumizzante, riempitivo lineare, biostimolanti,
-- **Peeling chimici**: superficiale, medio, profondo,
-- **Laser e luce pulsata**: epilazione, fotoringiovanimento, lesioni vascolari, lesioni pigmentate,
-- **Trattamenti combinati**: armonizzazione facciale, full face,
-- **Altri**: mesoterapia, fili di trazione, biorivitalizzazione.
+Il pulsante `Nuovo consenso` apre il wizard a 4 step.
 
-Ogni modello mostra una breve descrizione, l'elenco dei rischi specifici, le alternative terapeutiche standard e l'aggiornamento piu recente del testo . I modelli vengono revisionati dalla societa scientifica con cadenza annuale; Fibonacci aggiorna automaticamente la libreria al rilascio delle nuove versioni.
+**Step 1 — Scelta procedura**: il catalogo elenca le 30 procedure disponibili divise per categoria (medicina estetica iniettiva, non chirurgica, dermatologia, follow-up). Puoi cercare per nome o partire da bianco con descrizione libera del trattamento.
 
-La selezione di un modello apre l'editor di consenso pre-compilato.
+**Step 2 — Parametri clinici**: campi pre-impostati per tecnica, materiali (es. tipo di filler, lotto, dispositivo laser), rischi noti specifici della procedura, alternative terapeutiche e note. Più dettagli inserisci, più alto sarà il punteggio di confidenza nel passo successivo.
 
-## Passo 3, personalizzazione del consenso
+**Step 3 — Generazione AI**: il sistema invoca Mistral Medium 3.1 (ospitato in UE) e in 10-15 secondi compone le 8 sezioni obbligatorie ai sensi della legge 219/2017:
 
-L'editor presenta il consenso pre-compilato con i seguenti campi compilati automaticamente:
+1. Identificazione paziente e contesto della prestazione
+2. Descrizione clinica della procedura
+3. Benefici attesi
+4. Rischi documentati e probabilità realistiche
+5. Alternative terapeutiche (inclusa l'astensione)
+6. Conseguenze del rifiuto
+7. Dichiarazione di comprensione del paziente
+8. Firma e ratifica
 
-- **Dati anagrafici del paziente**: nome, cognome, codice fiscale, data di nascita, residenza.
-- **Dati del medico esecutore**: nome, cognome, codice fiscale, numero di iscrizione all'Ordine, specializzazione.
-- **Dati dello studio**: ragione sociale, partita IVA, indirizzo della sede.
-- **Data della prestazione** programmata.
-- **Descrizione del trattamento** dal modello .
-- **Rischi e complicanze** specifici, secondo l'aggiornamento corrente del modello.
-- **Alternative terapeutiche** indicate dal modello.
-- **Costi** della prestazione, opzionale, importabile dal catalogo prezzi dello studio.
+Sotto l'output ricevi il pannello `Validazione automatica` (Passo 4).
 
-Campi facoltativi personalizzabili dal medico:
+**Step 4 — Review medica + firma**: nel passo finale spunti ciascuna delle 8 sezioni dopo averla riletta, poi invii il PDF al paziente per la firma OTP. Il bottone `Salva e invia` resta disabilitato finché non hai confermato tutte e 8 le sezioni.
 
-- **Note specifiche** per il singolo paziente, ad esempio condizioni cliniche particolari, controindicazioni relative discusse, accorgimenti specifici concordati.
-- **Combinazione di trattamenti**: se la visita prevede piu prodotti contemporanei, l'editor permette di unire piu modelli in un unico consenso multi-trattamento.
+## Passo 3, parametri clinici e personalizzazione
 
-L'anteprima in tempo reale a destra mostra il PDF aggiornato a ogni modifica.
+L'editor del wizard al Step 2 presenta i seguenti campi compilati o suggeriti:
 
-## Passo 4, generazione e anteprima PDF
+- **Anagrafica**: nome, cognome, codice fiscale, data di nascita del paziente (compilati automaticamente).
+- **Studio**: denominazione, P.IVA, indirizzo, telefono, PEC (compilati automaticamente dalle Impostazioni).
+- **Medico esecutore**: nome, ordine professionale, numero iscrizione (compilati automaticamente).
+- **Data della prestazione**: tipicamente oggi o la data dell'appuntamento collegato.
+- **Tecnica**: descrizione del metodo (es. "iniezione intradermica con cannula 25G in zona vermiglio, paziente seduto, anestesia topica EMLA 30 min").
+- **Materiali**: prodotti utilizzati con lotti tracciabili.
+- **Rischi noti**: i rischi specifici di questa procedura con probabilità (es. "ecchimosi 5-10%, edema 48h, asimmetria <2%, ischemia rara").
+- **Alternative**: opzioni alternative ragionevoli (incluso "astensione dal trattamento").
+- **Note libere**: eventuali condizioni cliniche del paziente che modificano il consenso (allergie, terapie anticoagulanti).
 
-Il pulsante `Genera PDF` produce il documento finale. L'anteprima full screen mostra il PDF impaginato a colori con:
+Il livello di dettaglio che inserisci qui guida l'AI: input ricco → output ricco con citazioni puntuali. Input scarno → output generico che andrà marcato come `review_obbligatoria`.
 
-- intestazione con logo studio,
-- titolo `Consenso informato per trattamento di [tipo]`,
-- testo completo del consenso,
-- sezione firma con riquadri per data, firma paziente, firma medico,
-- pie di pagina con identificativo univoco del documento e versione del modello .
+## Passo 4, validatori anti-allucinazione
 
-Il pulsante `Salva come bozza` permette di interrompere la procedura conservando lo stato per modifiche successive. Le bozze non sono valide come consenso.
+Prima che il consenso venga mostrato al medico, il sistema esegue tre validatori in sequenza:
 
-## Passo 5, firma del paziente
+**Validator #1 — Blacklist termini vietati**: il backend rigetta automaticamente qualsiasi output che contenga:
 
-Sono disponibili tre modalita di firma, equivalenti dal punto di vista probatorio:
+- nomi di marchi o sigle di società terze del settore (protezione anti-copyright);
+- claim ingannevoli del tipo "risultato garantito", "100% sicuro", "guarigione garantita", "nessuna complicanza", "certifico che", "senza alcun rischio".
 
-### Firma grafometrica con stilo
+In caso di hit, l'output non viene mai mostrato e il sistema rigenera con prompt rafforzato.
 
-Il pulsante `Firma con tablet` apre la modalita firma su un dispositivo con stilo capacitivo, tipicamente un tablet iPad con Apple Pencil o un Wacom con stilo. Il paziente firma direttamente nel riquadro a schermo. La firma cattura:
+**Validator #2 — Citation check**: verifica che il testo contenga riferimenti normativi obbligatori (`L. 219/2017`, `Cassazione`, `GDPR`). Se mancano, emette un warning ma non blocca: il medico può comunque procedere consapevolmente.
 
-- traccia bidimensionale della firma in alta risoluzione,
-- timestamp di inizio e fine,
-- pressione esercitata se il dispositivo la espone,
-- velocita media del tratto.
+**Validator #3 — Confidence scoring per sezione**: ogni sezione delle 8 obbligatorie ottiene un punteggio `0.0-1.0` calcolato su:
 
-I dati biometrici della firma sono cifrati con chiave separata dal documento e usati come prova di autenticita in caso di contestazione. La firma e applicata sul PDF in posizione preimpostata.
+- lunghezza del testo (sezioni troppo corte = confidenza bassa);
+- presenza di citazioni normative inline (`legge 219`, `art.`, `gdpr`, `cassazione`, `fnomceo`, `lazio`);
+- numero di clausole PA referenziate dalla library di 72 elementi.
 
-### Firma su touchscreen
+La sezione 5 (Sottoscrizione/firma) richiede sempre review manuale a prescindere dal punteggio, essendo la più critica giuridicamente.
 
-Modalita equivalente alla grafometrica ma senza stilo dedicato: il paziente firma con il dito su touchscreen. Le proprieta biometriche catturate sono ridotte (tipicamente niente pressione), pertanto la modalita e accettabile ma meno difensibile in caso di contestazione.
+Se `overall_confidence < 0.7` o se sono presenti errori dalla blacklist, il sistema imposta `review_obbligatoria=true` e blocca il salvataggio finché il medico non riformula manualmente le sezioni problematiche.
 
-### Firma su carta e upload
+In più, una frequency check segnala come warning eventuali percentuali sospette (es. "100% di rischio", "0.001% di complicanza") che spesso indicano allucinazioni numeriche dell'LLM.
 
-Il pulsante `Stampa per firma su carta` invia il PDF alla stampante. Il paziente firma a penna sul foglio. Il foglio firmato viene scansionato o fotografato, quindi caricato con `Upload PDF firmato` o `Upload foto firmata`. Il sistema verifica visivamente la presenza di una firma nel riquadro previsto e archivia il documento.
+## Passo 5, firma del paziente e archiviazione
 
-Questa modalita e indispensabile per pazienti che preferiscono la modalita tradizionale o quando il dispositivo grafometrico non e disponibile.
+Dopo la review medica (8/8 spunte attive), il pulsante `Salva e invia` diventa attivo. Cliccandolo accadono in sequenza:
 
-## Passo 6, sigillo elettronico avanzato e archiviazione
+1. **Generazione PDF/A-3b**: il modulo `pdf-signer` di Fibonacci converte il Markdown del consenso in PDF/A-3 conforme ISO 19005-3, con file XML embedded per la validazione long-term. Questo è il formato richiesto dal Codice dell'Amministrazione Digitale art. 44 per la conservazione decennale.
 
-Tutte le modalita di firma producono un PDF finale **sigillato elettronicamente** secondo standard PAdES, con i seguenti requisiti:
+2. **Sigillo elettronico avanzato (PAdES)**: il PDF viene sigillato lato server con certificato del titolare studio e marca temporale (TSA conforme eIDAS).
 
-- hash SHA-256 del documento prima della firma,
-- timestamp da Time Stamping Authority esterna,
-- catena di certificati verificabile,
-- inclusione della firma del paziente come allegato cifrato.
+3. **Invio link OTP al paziente**: SMS o email contenente un link sicuro al `pdf-signer` per la firma elettronica avanzata via OTP. La firma generata ha valore legale equiparato all'autografa per Regolamento UE 910/2014 art. 26.
 
-Il sistema garantisce che ogni modifica successiva al PDF firmato sia immediatamente rilevabile.
+4. **Salvataggio FHIR**: il consenso firmato viene archiviato come risorsa FHIR `Consent` collegata a `Patient`, `Practitioner` e `Encounter`. Il PDF firmato è una `DocumentReference` con `Binary` content.
 
-Il sigillo elettronico avanzato e tecnicamente conforme alla qualifica di firma elettronica avanzata. L'evoluzione verso firma elettronica qualificata, che richiede TSA accreditata AgID, e in roadmap per i piani sanitari avanzati.
+5. **AuditEvent FHIR**: viene generato un `AuditEvent` immutabile con `action=C` (create), `purposeOfEvent` che descrive la review AI 8/8 sezioni, agent (medico), source (Wizard AI), outcome (success/failure). Ricerca forense da Audit Log con filtri data, paziente, medico.
 
-I PDF firmati sono archiviati con cifratura AES-256 a riposo e conservati per venti anni come previsto dalla normativa sulla cartella clinica.
+Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'originale archiviato.
 
-## Passo 7, invio al paziente
+## Passo 6, revoca, modifica, ristampa
 
-Dopo la firma, il pulsante `Invia copia al paziente` invia il PDF firmato all'email registrata in anagrafica. L'email contiene:
+- **Revoca**: il paziente o il medico possono revocare un consenso firmato dal menu contestuale `Revoca`. Lo stato passa a `inactive` (Revocato), viene creato un nuovo `AuditEvent action=U` con motivazione, ma il PDF originale resta archiviato. Una revoca dopo prestazione comporta interruzione del trattamento (legge 219/2017 art. 1 comma 5).
 
-- copia del PDF in allegato,
-- link diretto alla scheda paziente nell'area riservata (se attivata),
-- testo di accompagnamento personalizzabile dallo studio.
+- **Modifica**: i consensi firmati **non sono modificabili**. Se serve un consenso aggiornato (es. cambio di tecnica), si genera un nuovo consenso. Il sistema mostra automaticamente i precedenti nella scheda paziente con la cronologia versioni.
 
-L'invio e tracciato in audit log e fa parte della cronologia consensi del paziente.
+- **Ristampa**: dal consenso firmato si può sempre riscaricare il PDF originale (sigillato, hash identico). Utile per portarlo in cartella cartacea o consegnarlo nuovamente al paziente.
 
-## Verifica integrita del consenso firmato
+## Note importanti
 
-Dalla scheda del consenso, il pulsante `Verifica integrita` ricalcola l'hash del PDF e lo confronta con il valore registrato in fase di firma. Risultato `Integro` conferma che il documento non e stato alterato, `Alterato` segnala una manomissione e dovrebbe innescare un'indagine immediata.
+- I 5 modelli proprietari Fibonacci sono in **versione 0.1 (bozza interna)**: sono redatti sulla base di fonti normative di pubblico dominio (linee guida regionali PA + giurisprudenza pubblica), ma richiedono **validazione legale finale dello studio** prima dell'uso con pazienti reali. Fibonacci fornisce l'infrastruttura tecnica, non sostituisce il parere legale dell'avvocato sanitario.
 
-La verifica e disponibile anche al di fuori della piattaforma utilizzando lettori PDF compatibili con PAdES: il PDF mostra la firma elettronica nella sezione `Firme` del lettore.
+- Il Wizard AI genera testi che vanno **sempre riletti** dal medico prima dell'invio: l'AI è uno strumento di supporto (conforme requisito RF-5.4), non un dispositivo medico. La review obbligatoria nelle 8 sezioni del Step 4 serve a marcare questa responsabilità.
 
-## Suggerimenti
+- I dati clinici trattati per la generazione del consenso non vengono mai usati per training del modello LLM. L'inferenza avviene su Mistral hosted in Francia (UE), con contratto DPA Mistral AI in atto. Vedi `/dpa` per il Data Processing Agreement.
 
-- Genera il consenso al momento del **colloquio pre-trattamento** e non al momento dell'esecuzione: la legge richiede tempo congruo per riflessione e domande.
-- Per pazienti minori il consenso e firmato dal **tutore legale** registrato in anagrafica; il sistema compila automaticamente il nome del tutore nella sezione firma.
-- I costi del trattamento, se inseriti, devono coincidere con il preventivo eventualmente firmato in precedenza: incongruenze possono invalidare il consenso informato.
-- Conserva nello studio un **registro cartaceo** dei consensi su carta firmati anche dopo l'upload, per due anni: pratica raccomandata da molti ordini professionali.
-- Verifica annualmente che i modelli in uso siano ancora la versione corrente: la pagina `Impostazioni > Consensi > Modelli` mostra le versioni installate e l'ultima versione disponibile.
+## Riferimenti normativi
 
-## Risoluzione problemi
+- **Legge 219/2017 art. 1**: Norme in materia di consenso informato e disposizioni anticipate di trattamento.
+- **Cassazione 26104/2022**: Onere della prova del consenso informato a carico del medico.
+- **GDPR art. 9 + art. 30**: Trattamento dati sanitari + registro attività di trattamento.
+- **Regolamento UE 910/2014 (eIDAS)**: Firma elettronica avanzata.
+- **CAD art. 44 + ISO 19005-3**: Conservazione documenti informatici a norma.
+- **Legge 633/1941 art. 5**: Atti della Pubblica Amministrazione nel pubblico dominio.
 
-**Il paziente non ha un indirizzo email.** Stampa il PDF firmato in copia e consegnalo direttamente al paziente. La consegna fisica e equivalente all'invio email ai fini documentali; tracciala con il pulsante `Marca come consegnato a mano`.
-
-**Firma grafometrica rifiutata dal lettore PDF esterno.** Alcuni lettori PDF non aggiornati non riconoscono la firma PAdES. Apri il PDF con Adobe Acrobat Reader aggiornato per verificare correttamente la firma. La firma resta valida indipendentemente dal lettore usato per la verifica esterna.
-
-**Modello mancante per un trattamento non presente in catalogo.** Apri una richiesta dal pulsante `Suggerisci modello` indicando il trattamento. Le richieste sono valutate insieme a per inserimento nelle release periodiche. Nel frattempo usa il modello generico `Consenso per trattamento medico-estetico` personalizzandolo con le specifiche del trattamento.
-
-**Il PDF generato mostra dati anagrafici incompleti.** Verifica nella scheda anagrafica paziente che i campi obbligatori siano tutti compilati. Mancanza di codice fiscale o data di nascita sono le cause piu frequenti.
-
-**Firma in posizione sbagliata sul PDF caricato da scansione.** Il sistema verifica visivamente la presenza di una firma nel riquadro previsto. Se la firma e fuori riquadro, il sistema chiede conferma manuale dell'operatore. Conferma se la firma e comunque presente e leggibile; archivia in caso contrario richiedendo nuova firma.
-
-## Vedi anche
-
-- [Body map 2D per documentare le aree trattate](/docs/body-map/)
-- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
-- [Audit log e tracciabilita accessi](/docs/audit-log/)
-
-Ultima revisione: {ULTIMA_REVISIONE}
+> Documento aggiornato il **{TODAY}**.

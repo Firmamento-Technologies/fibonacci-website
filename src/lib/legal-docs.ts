@@ -63,7 +63,7 @@ export const STATIC_SITE_PAGES: SitePage[] = [
   { slug: 'faq', changeFrequency: 'monthly', priority: 0.7 },
   { slug: 'chi-siamo', changeFrequency: 'yearly', priority: 0.6 },
   { slug: 'docs', changeFrequency: 'monthly', priority: 0.7 },
-  { slug: 'tutorial', changeFrequency: 'monthly', priority: 0.7 },
+  { slug: 'consensi-informati', changeFrequency: 'monthly', priority: 0.8 },
   { slug: 'intelligenza-artificiale', changeFrequency: 'monthly', priority: 0.8 },
   { slug: 'prova-demo', changeFrequency: 'monthly', priority: 0.9 },
 ]

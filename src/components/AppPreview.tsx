@@ -206,11 +206,11 @@ export function AppPreview() {
         {/* CTA finale */}
         <div className="mt-10 text-center">
           <Link
-            href="/tutorial"
+            href="/docs"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold transition-colors"
             style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
           >
-            Guarda il video panoramica
+            Leggi la documentazione completa
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

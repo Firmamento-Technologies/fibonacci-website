@@ -112,13 +112,6 @@ export function Navbar() {
             Consensi
           </Link>
           <Link
-            href="/tutorial"
-            className="text-sm font-medium transition-colors"
-            style={{ color: 'var(--muted)' }}
-          >
-            Tutorial
-          </Link>
-          <Link
             href="/docs"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
@@ -218,14 +211,6 @@ export function Navbar() {
                   onClick={() => setMobileOpen(false)}
                 >
                   Consensi informati
-                </Link>
-                <Link
-                  href="/tutorial"
-                  className="text-sm font-medium py-1"
-                  style={{ color: 'var(--muted)' }}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  Tutorial
                 </Link>
                 <Link
                   href="/docs"
