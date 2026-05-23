@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight, Users, FileSignature, Calendar, Shield, Pill } from 'lucide-react'
-import { assetPath } from '@/lib/asset-path'
+import { assetPath, PHOTOS } from '@/lib/asset-path'
 
 interface Screen {
   src: string
@@ -59,23 +59,39 @@ export function AppPreview() {
   return (
     <section className="py-24" style={{ background: 'var(--bg)' }} id="app-in-azione">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <p
-            className="text-sm font-semibold uppercase tracking-wider mb-3"
-            style={{ color: 'var(--accent)' }}
+        <div className="grid md:grid-cols-[1fr_280px] gap-8 items-end mb-12">
+          <div className="text-center md:text-left">
+            <p
+              className="text-sm font-semibold uppercase tracking-wider mb-3"
+              style={{ color: 'var(--accent)' }}
+            >
+              L&apos;app in 3 minuti
+            </p>
+            <h2
+              className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4 break-words"
+              style={{ color: 'var(--fg)' }}
+            >
+              Schermate vere dall&apos;applicazione live
+            </h2>
+            <p className="text-base max-w-2xl" style={{ color: 'var(--muted)' }}>
+              Non sono mockup: queste sono le interfacce reali del modulo medicina estetica
+              attualmente in uso. Le altre specialità arrivano nei prossimi mesi.
+            </p>
+          </div>
+
+          {/* Foto inline desktop - rinforza identità "medico digitale" */}
+          <div
+            className="hidden md:block relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg"
+            style={{ border: '1px solid var(--border)' }}
           >
-            L&apos;app in 3 minuti
-          </p>
-          <h2
-            className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4 break-words"
-            style={{ color: 'var(--fg)' }}
-          >
-            Schermate vere dall&apos;applicazione live
-          </h2>
-          <p className="text-base max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
-            Non sono mockup: queste sono le interfacce reali del modulo medicina estetica
-            attualmente in uso. Le altre specialità arrivano nei prossimi mesi.
-          </p>
+            <Image
+              src={PHOTOS.doctorTablet}
+              alt="Mani che usano un tablet con stetoscopio - documentazione clinica digitale"
+              fill
+              unoptimized
+              className="object-cover"
+            />
+          </div>
         </div>
 
         {/* Video MP4 autoplay loop (panoramica registrata sull'app live) */}

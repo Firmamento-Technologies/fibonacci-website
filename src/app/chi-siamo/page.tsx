@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ShieldCheck, Sparkles, Heart, ArrowRight } from 'lucide-react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import { PHOTOS } from '@/lib/asset-path'
 
 export const metadata: Metadata = {
   title: 'Chi siamo',
@@ -74,6 +76,29 @@ export default function ChiSiamoPage() {
               Fibonacci nasce dalla frustrazione di vedere troppi specialisti italiani spendere
               venti minuti a visita dietro a carta, Excel e WhatsApp. Una cartella clinica
               digitale costruita partendo dai workflow reali, non da uno schema dati.
+            </p>
+          </div>
+        </section>
+
+        {/* Foto scene clinica - tra Hero e Missione */}
+        <section className="py-12" style={{ background: 'var(--bg)' }}>
+          <div className="max-w-4xl mx-auto px-6">
+            <div
+              className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-xl"
+              style={{ border: '1px solid var(--border)' }}
+            >
+              <Image
+                src={PHOTOS.doctorFemaleCoat}
+                alt="Dottoresse in studio clinico - scene contemporanea di consulto fra colleghe"
+                fill
+                unoptimized
+                priority
+                className="object-cover"
+              />
+            </div>
+            <p className="text-xs mt-3 italic text-center" style={{ color: 'var(--muted)' }}>
+              Immagine illustrativa. Fibonacci nasce dall&apos;osservazione del lavoro
+              reale dei medici italiani.
             </p>
           </div>
         </section>

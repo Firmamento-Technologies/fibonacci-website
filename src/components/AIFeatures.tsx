@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Mic, Sparkles, MessageCircle, ShieldCheck, ArrowRight } from 'lucide-react'
+import { FibonacciPattern } from '@/components/FibonacciPattern'
 
 const AI_FEATURES = [
   {
@@ -34,8 +35,9 @@ const AI_FEATURES = [
 
 export function AIFeatures() {
   return (
-    <section className="py-24" style={{ background: 'var(--card)' }} id="ai">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-24 relative overflow-hidden" style={{ background: 'var(--card)' }} id="ai">
+      <FibonacciPattern size={700} opacity={0.05} align="bottom-left" color="#7d6638" />
+      <div className="max-w-6xl mx-auto px-6 relative">
         <div className="text-center mb-14">
           <div
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-4"

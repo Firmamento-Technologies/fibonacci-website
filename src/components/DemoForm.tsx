@@ -1,7 +1,9 @@
 'use client'
 import { useState } from 'react'
+import Image from 'next/image'
 import { ArrowRight, CheckCircle2 } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
+import { PHOTOS } from '@/lib/asset-path'
 
 interface FormState {
   nome: string
@@ -58,8 +60,31 @@ export function DemoForm() {
   }
 
   return (
-    <section className="py-24" id="demo" style={{ background: 'var(--fg)' }}>
-      <div className="max-w-2xl mx-auto px-6 text-center">
+    <section className="py-24 relative overflow-hidden" id="demo" style={{ background: 'var(--fg)' }}>
+      <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-[1fr_auto] items-center gap-12">
+        {/* Foto medico - solo desktop, ammorbidisce la sezione dark */}
+        <div className="hidden md:block w-64 lg:w-80 order-2">
+          <div
+            className="relative aspect-[3/4] rounded-2xl overflow-hidden"
+            style={{ border: '1px solid rgba(255,255,255,0.15)' }}
+          >
+            <Image
+              src={PHOTOS.doctorFemaleStethoscope}
+              alt="Dottoressa con stetoscopio - immagine illustrativa"
+              fill
+              unoptimized
+              className="object-cover"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background: 'linear-gradient(to top, rgba(27,46,75,0.6) 0%, transparent 50%)',
+              }}
+            />
+          </div>
+        </div>
+
+        <div className="text-center md:text-left order-1">
         <p
           className="text-sm font-semibold uppercase tracking-wider mb-3"
           style={{ color: '#f0d27a' }}
@@ -93,7 +118,7 @@ export function DemoForm() {
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-left">
             <div className="grid sm:grid-cols-2 gap-4">
               <input
                 required
@@ -179,6 +204,7 @@ export function DemoForm() {
             </p>
           </form>
         )}
+        </div>
       </div>
     </section>
   )
