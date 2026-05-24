@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ShieldCheck, Sparkles, Heart, ArrowRight } from 'lucide-react'
+import { ShieldCheck, Sparkles, Heart, ArrowRight, Building2, ExternalLink, Rocket, Users } from 'lucide-react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { PHOTOS } from '@/lib/asset-path'
+import { FIRMAMENTO } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Chi siamo',
@@ -261,6 +262,159 @@ export default function ChiSiamoPage() {
                 è sempre del medico.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Firmamento Technologies — la cooperativa madre */}
+        <section className="py-20" style={{ background: 'var(--bg)' }}>
+          <div className="max-w-5xl mx-auto px-6">
+            <div className="text-center mb-12">
+              <p
+                className="text-sm font-semibold uppercase tracking-wider mb-3"
+                style={{ color: 'var(--accent)' }}
+              >
+                La società che costruisce Fibonacci
+              </p>
+              <h2
+                className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4"
+                style={{ color: 'var(--fg)' }}
+              >
+                Firmamento Technologies Soc. Coop.
+              </h2>
+              <p className="text-base max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
+                Fibonacci è un prodotto della cooperativa deep-tech genovese che fa da ponte fra
+                ricerca accademica e industria. La forma cooperativa non è un dettaglio: significa
+                che ogni euro di utile va anche a costruire ricerca, innovazione e nuove imprese
+                sul territorio.
+              </p>
+            </div>
+
+            <div
+              className="rounded-2xl p-8 md:p-10"
+              style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
+            >
+              <div className="grid md:grid-cols-2 gap-8 items-start">
+                <div>
+                  <div className="flex items-start gap-3 mb-4">
+                    <div
+                      className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0"
+                      style={{ background: 'var(--accent-light)' }}
+                    >
+                      <Building2 className="w-5 h-5" style={{ color: 'var(--accent)' }} />
+                    </div>
+                    <div>
+                      <h3
+                        className="font-[var(--font-playfair)] text-xl font-bold mb-1"
+                        style={{ color: 'var(--fg)' }}
+                      >
+                        {FIRMAMENTO.legalName}
+                      </h3>
+                      <p className="text-xs" style={{ color: 'var(--muted)' }}>
+                        Cooperativa di lavoro a mutualità prevalente
+                      </p>
+                    </div>
+                  </div>
+
+                  <dl className="space-y-2.5 text-sm">
+                    <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        Sede legale
+                      </dt>
+                      <dd style={{ color: 'var(--fg)' }}>Genova · Italia</dd>
+                    </div>
+                    <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        C.F. / P.IVA
+                      </dt>
+                      <dd className="font-mono" style={{ color: 'var(--fg)' }}>
+                        {FIRMAMENTO.vatNumber}
+                      </dd>
+                    </div>
+                    <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        Forma giuridica
+                      </dt>
+                      <dd style={{ color: 'var(--fg)' }}>{FIRMAMENTO.legalForm}</dd>
+                    </div>
+                    <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        Riferimento normativo
+                      </dt>
+                      <dd className="text-right text-xs" style={{ color: 'var(--fg)' }}>
+                        L. 59/1992 · D.Lgs. 220/2002 · artt. 2511 e ss. c.c.
+                      </dd>
+                    </div>
+                    <div className="flex justify-between gap-3">
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        Patrocinio
+                      </dt>
+                      <dd className="text-right text-xs" style={{ color: 'var(--fg)' }}>
+                        Legacoop Liguria · Coopfond
+                      </dd>
+                    </div>
+                  </dl>
+
+                  <a
+                    href={FIRMAMENTO.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
+                    style={{ background: 'var(--accent)', color: 'white' }}
+                  >
+                    Visita firmamentotechnologies.com
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+
+                <div className="space-y-5">
+                  <div className="flex items-start gap-3">
+                    <Rocket className="w-5 h-5 shrink-0 mt-1" style={{ color: 'var(--accent)' }} />
+                    <div>
+                      <h4 className="font-semibold mb-1" style={{ color: 'var(--fg)' }}>
+                        Missione
+                      </h4>
+                      <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
+                        Ponte operativo fra ricerca accademica e industria. Venture building
+                        cooperativo: commesse reali generano utili, gli utili finanziano
+                        nuove startup deep-tech.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Sparkles className="w-5 h-5 shrink-0 mt-1" style={{ color: 'var(--accent)' }} />
+                    <div>
+                      <h4 className="font-semibold mb-1" style={{ color: 'var(--fg)' }}>
+                        Verticali
+                      </h4>
+                      <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
+                        Healthcare (Fibonacci EMR), AI agentica (TIRO research),
+                        aerospace (H.A.L.E. Drone), simulazione CFD, additive manufacturing.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Users className="w-5 h-5 shrink-0 mt-1" style={{ color: 'var(--accent)' }} />
+                    <div>
+                      <h4 className="font-semibold mb-1" style={{ color: 'var(--fg)' }}>
+                        Partner
+                      </h4>
+                      <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
+                        Università di Genova · DOPE Hubs · Coopfond · Legacoop Liguria.
+                        Filosofia &laquo;Humans Keep Purpose&raquo;: l&apos;AI accelera, gli
+                        umani decidono.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-center text-xs mt-6 italic" style={{ color: 'var(--muted)' }}>
+              I dati di iscrizione all&apos;Albo delle Società Cooperative MISE e gli estremi della
+              sede legale completa sono disponibili presso la Camera di Commercio di Genova.
+            </p>
           </div>
         </section>
 

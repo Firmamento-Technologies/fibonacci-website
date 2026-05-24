@@ -1,6 +1,7 @@
 import Link from 'next/link'
+import { ExternalLink } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
-import { APP_URL } from '@/lib/site-config'
+import { APP_URL, FIRMAMENTO } from '@/lib/site-config'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 import { NewsletterForm } from '@/components/NewsletterForm'
 
@@ -45,9 +46,33 @@ export function Footer() {
               <FibonacciLogo size={28} />
               <FibonacciWordmark className="text-sm" />
             </div>
-            <p className="text-xs leading-relaxed" style={{ color: 'var(--muted)' }}>
+            <p className="text-xs leading-relaxed mb-4" style={{ color: 'var(--muted)' }}>
               La cartella clinica specialistica per medici italiani. GDPR by design. Dati in EU.
             </p>
+            <div
+              className="text-[10px] leading-relaxed pt-3 border-t"
+              style={{ color: 'var(--muted)', borderColor: 'var(--border)' }}
+            >
+              <p className="font-semibold mb-1" style={{ color: 'var(--fg)' }}>
+                Un prodotto di
+              </p>
+              <a
+                href={FIRMAMENTO.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-semibold transition-colors hover:underline"
+                style={{ color: 'var(--accent)' }}
+              >
+                Firmamento Technologies Soc. Coop.
+                <ExternalLink className="w-2.5 h-2.5" />
+              </a>
+              <p className="mt-1.5">C.F./P.IVA {FIRMAMENTO.vatNumber}</p>
+              <p>Genova · Italia</p>
+              <p className="mt-1">Cooperativa di lavoro a mutualità prevalente</p>
+              <p className="text-[9px] mt-0.5" style={{ color: 'var(--muted)' }}>
+                Patrocinata da Legacoop Liguria e Coopfond
+              </p>
+            </div>
           </div>
 
           {/* Specialità */}

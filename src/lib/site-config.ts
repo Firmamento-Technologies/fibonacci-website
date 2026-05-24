@@ -17,3 +17,25 @@ export const CONTACT_EMAIL = 'info@fibonacci.it'
 export const SUPPORT_EMAIL = 'supporto@fibonacci.it'
 export const NEWS_EMAIL = 'news@fibonacci.it'
 export const PRIVACY_EMAIL = 'privacy@fibonacci.it'
+
+// Firmamento Technologies Soc. Coop. - società produttrice/madre di Fibonacci.
+// Cooperativa di lavoro a mutualità prevalente (artt. 2512-2513 c.c.).
+// Patrocinata da Legacoop Liguria e Coopfond.
+export const FIRMAMENTO = {
+  legalName: 'Firmamento Technologies Società Cooperativa',
+  shortName: 'Firmamento Technologies',
+  fiscalCode: '03038500991',
+  vatNumber: '03038500991',
+  address: {
+    locality: 'Genova',
+    region: 'Liguria',
+    country: 'IT',
+  },
+  legalForm: 'Società Cooperativa',
+  website: 'https://firmamentotechnologies.com',
+  email: 'info@firmamentotechnologies.com',
+  description:
+    'Cooperativa deep-tech di Genova, ponte operativo tra ricerca accademica e industria. Verticali: AI agentica, aerospace, simulazione CFD, healthcare.',
+  patronage: ['Legacoop Liguria', 'Coopfond'],
+  partners: ['DOPE Hubs', 'Università di Genova'],
+} as const

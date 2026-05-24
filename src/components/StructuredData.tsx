@@ -1,4 +1,4 @@
-import { SITE_URL, CONTACT_EMAIL } from '@/lib/site-config'
+import { SITE_URL, CONTACT_EMAIL, FIRMAMENTO } from '@/lib/site-config'
 
 // JSON-LD structured data per rich snippet Google e altri motori di ricerca.
 // Schema.org: Organization + SoftwareApplication + MedicalBusiness.
@@ -9,14 +9,31 @@ export function OrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Fibonacci',
+    legalName: 'Firmamento Technologies Società Cooperativa',
     url: SITE_URL,
     logo: `${SITE_URL}/icon.svg`,
     description:
-      'Fibonacci e\' la cartella clinica digitale per medici italiani. Software SaaS multi-specialita\': medicina estetica, dermatologia, ortopedia, psicologia, nutrizione, oculistica.',
+      'Fibonacci e\' la cartella clinica digitale per medici italiani, prodotto da Firmamento Technologies Soc. Coop. Software SaaS multi-specialita\': medicina estetica, dermatologia, ortopedia, psicologia, nutrizione, oculistica.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Genova',
+      addressRegion: 'Liguria',
       addressCountry: 'IT',
+    },
+    taxID: FIRMAMENTO.fiscalCode,
+    vatID: FIRMAMENTO.vatNumber,
+    parentOrganization: {
+      '@type': 'Organization',
+      name: FIRMAMENTO.legalName,
+      url: FIRMAMENTO.website,
+      description: FIRMAMENTO.description,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Genova',
+        addressRegion: 'Liguria',
+        addressCountry: 'IT',
+      },
+      taxID: FIRMAMENTO.fiscalCode,
     },
     contactPoint: {
       '@type': 'ContactPoint',
@@ -44,15 +61,20 @@ export function SoftwareApplicationSchema() {
     operatingSystem: 'Web Browser',
     url: SITE_URL,
     inLanguage: 'it-IT',
+    producer: {
+      '@type': 'Organization',
+      name: FIRMAMENTO.legalName,
+      url: FIRMAMENTO.website,
+    },
     offers: [
       {
         '@type': 'Offer',
-        name: 'Solo',
-        price: '39',
+        name: 'Solo Pro',
+        price: '149',
         priceCurrency: 'EUR',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '39',
+          price: '149',
           priceCurrency: 'EUR',
           billingDuration: 'P1M',
         },
@@ -61,11 +83,11 @@ export function SoftwareApplicationSchema() {
       {
         '@type': 'Offer',
         name: 'Studio',
-        price: '79',
+        price: '349',
         priceCurrency: 'EUR',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '79',
+          price: '349',
           priceCurrency: 'EUR',
           billingDuration: 'P1M',
         },
@@ -74,11 +96,24 @@ export function SoftwareApplicationSchema() {
       {
         '@type': 'Offer',
         name: 'Clinica',
-        price: '149',
+        price: '749',
         priceCurrency: 'EUR',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '149',
+          price: '749',
+          priceCurrency: 'EUR',
+          billingDuration: 'P1M',
+        },
+        eligibleCustomerType: 'http://purl.org/goodrelations/v1#Business',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Enterprise',
+        price: '1999',
+        priceCurrency: 'EUR',
+        priceSpecification: {
+          '@type': 'UnitPriceSpecification',
+          price: '1999',
           priceCurrency: 'EUR',
           billingDuration: 'P1M',
         },
@@ -110,7 +145,7 @@ export function MedicalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'MedicalBusiness',
     name: 'Fibonacci',
-    description: 'Software SaaS per la gestione della cartella clinica digitale di medici e studi medici italiani.',
+    description: 'Software SaaS per la gestione della cartella clinica digitale di medici e studi medici italiani. Prodotto da Firmamento Technologies Soc. Coop.',
     url: SITE_URL,
     medicalSpecialty: [
       'PlasticSurgery',
@@ -123,7 +158,14 @@ export function MedicalBusinessSchema() {
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Genova',
+      addressRegion: 'Liguria',
       addressCountry: 'IT',
+    },
+    provider: {
+      '@type': 'Organization',
+      name: FIRMAMENTO.legalName,
+      url: FIRMAMENTO.website,
+      taxID: FIRMAMENTO.fiscalCode,
     },
   }
   return (
