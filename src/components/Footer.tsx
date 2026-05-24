@@ -68,10 +68,6 @@ export function Footer() {
               </a>
               <p className="mt-1.5">C.F./P.IVA {FIRMAMENTO.vatNumber}</p>
               <p>Genova · Italia</p>
-              <p className="mt-1">Cooperativa di lavoro a mutualità prevalente</p>
-              <p className="text-[9px] mt-0.5" style={{ color: 'var(--muted)' }}>
-                Patrocinata da Legacoop Liguria e Coopfond
-              </p>
             </div>
           </div>
 
