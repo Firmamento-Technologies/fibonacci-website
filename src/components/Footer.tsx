@@ -12,6 +12,7 @@ const PRODUCT_LINKS = [
   { label: 'Prezzi', href: '/#prezzi', external: false },
   { label: 'Programma Ambassador', href: '/partners', external: false },
   { label: 'Stato dei servizi', href: '/status', external: false },
+  { label: 'Verifica firma consenso', href: '/verify', external: false },
   { label: 'Documentazione', href: '/docs', external: false },
   { label: 'FAQ', href: '/faq', external: false },
   { label: 'Chi siamo', href: '/chi-siamo', external: false },
