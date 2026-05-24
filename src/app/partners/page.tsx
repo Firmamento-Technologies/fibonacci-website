@@ -508,7 +508,7 @@ export default function PartnersPage() {
           </p>
 
           <Link
-            href="/prova-demo?intent=ambassador"
+            href="/?intent=ambassador#demo"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl text-base font-semibold text-white transition-opacity hover:opacity-90"
             style={{ background: 'var(--accent)' }}
           >
