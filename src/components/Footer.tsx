@@ -9,6 +9,7 @@ const PRODUCT_LINKS = [
   { label: 'Intelligenza Artificiale', href: '/intelligenza-artificiale', external: false },
   { label: 'Consensi informati', href: '/consensi-informati', external: false },
   { label: 'Prezzi', href: '/#prezzi', external: false },
+  { label: 'Programma Ambassador', href: '/partners', external: false },
   { label: 'Documentazione', href: '/docs', external: false },
   { label: 'FAQ', href: '/faq', external: false },
   { label: 'Chi siamo', href: '/chi-siamo', external: false },
