@@ -1,0 +1,54 @@
+name: CI · Fibonacci Website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build + lint + typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: ESLint
+        run: npm run lint
+      - name: Build Next.js
+        run: npm run build
+      - name: Verify static export size
+        run: |
+          # Warning se bundle > 5MB
+          if [ -d out ]; then
+            size_kb=$(du -sk out | awk '{print $1}')
+            echo "Build output: ${size_kb} KB"
+            if [ "$size_kb" -gt 5120 ]; then
+              echo "::warning::Build output > 5MB (${size_kb} KB)"
+            fi
+          fi
+
+  a11y:
+    name: Accessibility audit (axe-core)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Build site
+        run: npm run build
+      - name: Run a11y audit
+        run: |
+          if [ -f scripts/audit-a11y.mjs ]; then
+            node scripts/audit-a11y.mjs || echo "::warning::A11y audit found issues"
+          fi

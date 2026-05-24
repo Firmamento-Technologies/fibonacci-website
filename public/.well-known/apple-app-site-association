@@ -1,0 +1,31 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["REPLACE_APPLE_TEAM_ID.it.fibonacci.emr"],
+        "components": [
+          {
+            "/": "/app/*",
+            "comment": "Tutto sotto /app/* apre l'app Fibonacci iOS"
+          },
+          {
+            "/": "/paziente/*",
+            "comment": "Deep link diretto al paziente specifico"
+          },
+          {
+            "/": "/consenso/*",
+            "comment": "Deep link al PDF consenso firmato"
+          },
+          {
+            "/": "/agenda/*",
+            "comment": "Deep link reminder appuntamento"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["REPLACE_APPLE_TEAM_ID.it.fibonacci.emr"]
+  },
+  "comment": "Apple Universal Links manifest. REPLACE_APPLE_TEAM_ID va sostituito con il Team ID Apple Developer Program (10 caratteri alfanumerici) prima della pubblicazione su App Store."
+}
