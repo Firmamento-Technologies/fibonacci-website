@@ -320,7 +320,22 @@ export default function ChiSiamoPage() {
                       <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
                         Sede legale
                       </dt>
-                      <dd style={{ color: 'var(--fg)' }}>Genova · Italia</dd>
+                      <dd className="text-right" style={{ color: 'var(--fg)' }}>
+                        {FIRMAMENTO.address.street}<br />
+                        {FIRMAMENTO.address.postalCode} {FIRMAMENTO.address.locality} ({FIRMAMENTO.address.province})
+                      </dd>
+                    </div>
+                    <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        REA
+                      </dt>
+                      <dd className="font-mono" style={{ color: 'var(--fg)' }}>{FIRMAMENTO.rea}</dd>
+                    </div>
+                    <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
+                      <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
+                        PEC
+                      </dt>
+                      <dd className="text-xs font-mono" style={{ color: 'var(--fg)' }}>{FIRMAMENTO.pec}</dd>
                     </div>
                     <div className="flex justify-between gap-3 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
                       <dt className="text-xs uppercase tracking-wider" style={{ color: 'var(--muted)' }}>

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { OrganizationSchema, SoftwareApplicationSchema, MedicalBusinessSchema } from '@/components/StructuredData'
 import { WebsiteChatbot } from '@/components/WebsiteChatbot'
@@ -11,6 +11,16 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://firmamento-technol
 const SITE_NAME = 'Fibonacci'
 const SITE_DESCRIPTION =
   'Cartella clinica digitale per medici italiani: medicina estetica, dermatologia, ortopedia, psicologia, nutrizione, oculistica. Dettatura AI, consensi inclusi, GDPR by design, FHIR R4.'
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#a85b53' },
+    { media: '(prefers-color-scheme: dark)', color: '#7d3530' },
+  ],
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

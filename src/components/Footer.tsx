@@ -68,8 +68,10 @@ export function Footer() {
                 Firmamento Technologies Soc. Coop.
                 <ExternalLink className="w-2.5 h-2.5" />
               </a>
-              <p className="mt-1.5">C.F./P.IVA {FIRMAMENTO.vatNumber}</p>
-              <p>Genova · Italia</p>
+              <p className="mt-1.5">{FIRMAMENTO.address.street}</p>
+              <p>{FIRMAMENTO.address.postalCode} {FIRMAMENTO.address.locality} ({FIRMAMENTO.address.province})</p>
+              <p className="mt-1">C.F./P.IVA {FIRMAMENTO.vatNumber} · REA {FIRMAMENTO.rea}</p>
+              <p>PEC: {FIRMAMENTO.pec}</p>
             </div>
           </div>
 
