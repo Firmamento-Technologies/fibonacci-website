@@ -75,11 +75,11 @@ export function SoftwareApplicationSchema() {
       {
         '@type': 'Offer',
         name: 'Solo',
-        price: '89',
+        price: '149',
         priceCurrency: 'EUR',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '89',
+          price: '149',
           priceCurrency: 'EUR',
           billingDuration: 'P1M',
         },
@@ -88,11 +88,11 @@ export function SoftwareApplicationSchema() {
       {
         '@type': 'Offer',
         name: 'Studio',
-        price: '199',
+        price: '349',
         priceCurrency: 'EUR',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '199',
+          price: '349',
           priceCurrency: 'EUR',
           billingDuration: 'P1M',
         },
@@ -101,11 +101,24 @@ export function SoftwareApplicationSchema() {
       {
         '@type': 'Offer',
         name: 'Clinica',
-        price: '449',
+        price: '749',
         priceCurrency: 'EUR',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '449',
+          price: '749',
+          priceCurrency: 'EUR',
+          billingDuration: 'P1M',
+        },
+        eligibleCustomerType: 'http://purl.org/goodrelations/v1#Business',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Enterprise',
+        price: '1999',
+        priceCurrency: 'EUR',
+        priceSpecification: {
+          '@type': 'UnitPriceSpecification',
+          price: '1999',
           priceCurrency: 'EUR',
           billingDuration: 'P1M',
         },

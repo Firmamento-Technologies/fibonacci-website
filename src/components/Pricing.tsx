@@ -12,7 +12,7 @@ interface Plan {
 const PLANS: readonly Plan[] = [
   {
     name: 'Solo',
-    price: 89,
+    price: 149,
     description: 'Un medico, uno studio',
     features: [
       'Cartella clinica digitale',
@@ -26,7 +26,7 @@ const PLANS: readonly Plan[] = [
   },
   {
     name: 'Studio',
-    price: 199,
+    price: 349,
     description: 'Fino a 5 operatori',
     features: [
       'Tutto di Solo',
@@ -40,7 +40,7 @@ const PLANS: readonly Plan[] = [
   },
   {
     name: 'Clinica',
-    price: 449,
+    price: 749,
     description: 'Operatori illimitati, multi-sede',
     features: [
       'Tutto di Studio',
@@ -48,6 +48,20 @@ const PLANS: readonly Plan[] = [
       'Branding personalizzato',
       'Account manager dedicato',
       'Supporto prioritario',
+    ],
+    cta: 'Inizia gratis',
+    highlighted: false,
+  },
+  {
+    name: 'Enterprise',
+    price: 1999,
+    description: 'Cliniche e gruppi medici',
+    features: [
+      'Tutto di Clinica',
+      'White-label completo',
+      'API per integrazioni',
+      'SLA garantito',
+      'Pen-test annuale',
     ],
     cta: 'Parliamone',
     highlighted: false,
@@ -70,7 +84,7 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
           {PLANS.map((plan) => (
             <div
               key={plan.name}
@@ -151,14 +165,7 @@ export function Pricing() {
           ))}
         </div>
 
-        <p className="text-center text-sm mt-10" style={{ color: 'var(--muted)' }}>
-          Hai più di 10 sedi o un gruppo medico?{' '}
-          <a href="mailto:info@firmamentotechnologies.com" className="underline" style={{ color: 'var(--accent)' }}>
-            Scrivici per un preventivo
-          </a>
-        </p>
-
-        <p className="text-center text-xs mt-6" style={{ color: 'var(--muted)' }}>
+        <p className="text-center text-xs mt-10" style={{ color: 'var(--muted)' }}>
           IVA esclusa · Fattura elettronica inclusa · 100% deducibile come spesa professionale
         </p>
       </div>

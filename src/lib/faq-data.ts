@@ -17,7 +17,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'pricing',
     question: 'Quanto costa Fibonacci?',
     answer:
-      'Tre piani: Solo a 89 euro al mese (un medico, pazienti illimitati, cartella + body-map + consensi + firma + conservazione), Studio a 199 euro al mese (fino a 5 operatori, dettatura durante la visita, agenda condivisa, reminder), Clinica a 449 euro al mese (operatori illimitati, multi-sede, branding, account manager). Tutti i prezzi sono IVA esclusa, fattura elettronica italiana inclusa. Il trial di 14 giorni è gratuito e non richiede carta di credito.',
+      'Quattro piani: Solo a 149 euro al mese (un medico, cartella + body-map + consensi + firma + conservazione), Studio a 349 euro al mese (fino a 5 operatori, dettatura durante la visita, agenda condivisa, reminder), Clinica a 749 euro al mese (operatori illimitati, multi-sede, branding, account manager), Enterprise a 1999 euro al mese (white-label completo, API per integrazioni, SLA garantito, pen-test annuale). Tutti i prezzi sono IVA esclusa, fattura elettronica italiana inclusa. Il trial di 14 giorni è gratuito e non richiede carta di credito.',
   },
   {
     category: 'pricing',

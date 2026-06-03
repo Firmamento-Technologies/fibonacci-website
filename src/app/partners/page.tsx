@@ -4,7 +4,6 @@ import { HandshakeIcon, Share2, Banknote, ArrowRight, Award } from 'lucide-react
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { FibonacciPattern } from '@/components/FibonacciPattern'
-import { PartnersCalculator } from './PartnersCalculator'
 
 export const metadata: Metadata = {
   title: 'Programma Ambassador · Fibonacci',
@@ -14,9 +13,9 @@ export const metadata: Metadata = {
 }
 
 const EXAMPLES = [
-  { plan: 'Solo', price: 89, firstYear: 213, recurring: 107 },
-  { plan: 'Studio', price: 199, firstYear: 478, recurring: 239 },
-  { plan: 'Clinica', price: 449, firstYear: 1078, recurring: 539 },
+  { plan: 'Solo', price: 149, firstYear: 358, recurring: 179 },
+  { plan: 'Studio', price: 349, firstYear: 838, recurring: 419 },
+  { plan: 'Clinica', price: 749, firstYear: 1798, recurring: 899 },
 ] as const
 
 const STEPS = [
@@ -158,12 +157,6 @@ export default function PartnersPage() {
             ))}
           </div>
 
-          <div className="mt-12">
-            <p className="text-center text-sm mb-6" style={{ color: 'var(--muted)' }}>
-              Oppure simula con i tuoi numeri
-            </p>
-            <PartnersCalculator />
-          </div>
         </div>
       </section>
 
