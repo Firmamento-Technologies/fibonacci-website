@@ -92,9 +92,9 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 | Piano | Corrispettivo mensile (IVA esclusa) | Operatori | Funzionalita principali |
 |---|---|---|---|
-| Solo | 39,00 EUR | 1 medico | Pazienti illimitati, tutte le funzioni cliniche |
-| Studio | 79,00 EUR | fino a 3 operatori | Agenda condivisa, report mensili |
-| Clinica | 149,00 EUR | operatori illimitati | Branding personalizzato, API access, account manager, SLA 99,9% |
+| Solo | 89,00 EUR | 1 medico | Pazienti illimitati, cartella, body-map, consensi, firma elettronica, conservazione |
+| Studio | 199,00 EUR | fino a 5 operatori | Dettatura durante la visita, agenda condivisa, reminder appuntamenti |
+| Clinica | 449,00 EUR | operatori illimitati | Multi-sede, branding personalizzato, account manager, supporto prioritario |
 
 Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sara applicata nella misura di legge.
 
