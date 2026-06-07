@@ -52,20 +52,6 @@ const PLANS: readonly Plan[] = [
     cta: 'Inizia gratis',
     highlighted: false,
   },
-  {
-    name: 'Enterprise',
-    price: 1999,
-    description: 'Cliniche e gruppi medici',
-    features: [
-      'Tutto di Clinica',
-      'White-label completo',
-      'API per integrazioni',
-      'SLA garantito',
-      'Pen-test annuale',
-    ],
-    cta: 'Parliamone',
-    highlighted: false,
-  },
 ] as const
 
 export function Pricing() {
@@ -84,7 +70,7 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
           {PLANS.map((plan) => (
             <div
               key={plan.name}

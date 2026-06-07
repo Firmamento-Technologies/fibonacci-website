@@ -95,7 +95,6 @@ Ai fini delle presenti Condizioni Generali si intende per:
 | Solo | 149,00 EUR | 1 medico | Pazienti illimitati, cartella, body-map, consensi, firma elettronica, conservazione |
 | Studio | 349,00 EUR | fino a 5 operatori | Dettatura durante la visita, agenda condivisa, reminder appuntamenti |
 | Clinica | 749,00 EUR | operatori illimitati | Multi-sede, branding personalizzato, account manager, supporto prioritario |
-| Enterprise | 1999,00 EUR | operatori illimitati | White-label completo, API per integrazioni, SLA garantito, pen-test annuale |
 
 Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sara applicata nella misura di legge.
 

@@ -111,19 +111,6 @@ export function SoftwareApplicationSchema() {
         },
         eligibleCustomerType: 'http://purl.org/goodrelations/v1#Business',
       },
-      {
-        '@type': 'Offer',
-        name: 'Enterprise',
-        price: '1999',
-        priceCurrency: 'EUR',
-        priceSpecification: {
-          '@type': 'UnitPriceSpecification',
-          price: '1999',
-          priceCurrency: 'EUR',
-          billingDuration: 'P1M',
-        },
-        eligibleCustomerType: 'http://purl.org/goodrelations/v1#Business',
-      },
     ],
     featureList: [
       'Anagrafica paziente FHIR R4',
