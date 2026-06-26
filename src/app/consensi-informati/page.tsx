@@ -92,7 +92,7 @@ const FEATURES = [
     icon: FileSignature,
     title: 'Firma eIDAS + PDF/A-3b',
     body:
-      "Firma elettronica avanzata via OTP paziente con valore legale equiparato all'autografa per Reg. UE 910/2014. Output PDF/A-3b (ISO 19005-3) con file XML embedded per validazione long-term archive: conservazione decennale per CAD art. 44.",
+      "Firma elettronica avanzata (FEA) via OTP del paziente, previa verifica dell'identità: ha l'efficacia probatoria della scrittura privata (art. 2702 c.c.). Output PDF/A-3b (ISO 19005-3) con XML embedded per conservazione decennale (CAD art. 44). Per la massima robustezza probatoria sono attivabili firma qualificata (FEQ) e marca temporale qualificata tramite QTSP accreditato.",
     badge: 'eIDAS',
   },
   {
@@ -123,7 +123,7 @@ const NORMATIVE_REFS = [
   {
     label: 'Reg. UE 910/2014 (eIDAS)',
     body:
-      "Firma elettronica avanzata (FEA) basata su OTP riconosciuta in tutta UE con valore legale equiparato all'autografa secondo art. 26. Fibonacci usa FEA OTP del paziente per la firma del consenso.",
+      "Firma elettronica avanzata (FEA) basata su OTP, riconosciuta in UE (art. 25-26): ha efficacia di scrittura privata, ma se disconosciuta l'onere della prova è di chi la produce. La piena presunzione di riferibilità al firmatario si ottiene con la firma qualificata (FEQ). Fibonacci usa FEA OTP previa verifica dell'identità del paziente; FEQ e marca temporale qualificata sono attivabili via QTSP accreditato.",
   },
   {
     label: 'L. 633/1941 art. 5',
