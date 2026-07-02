@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Check, ArrowRight } from 'lucide-react'
 
 interface Plan {
@@ -122,7 +123,7 @@ export function Pricing() {
                 ))}
               </ul>
 
-              <a
+              <Link
                 href="/#demo"
                 className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
                 style={{
@@ -132,7 +133,7 @@ export function Pricing() {
               >
                 {plan.cta}
                 <ArrowRight className="w-4 h-4" />
-              </a>
+              </Link>
             </div>
           ))}
         </div>

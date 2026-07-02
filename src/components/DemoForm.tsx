@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { ArrowRight, CheckCircle2, Award, Sparkles } from 'lucide-react'
 import { SPECIALTIES } from '@/lib/specialties'
 import { PHOTOS } from '@/lib/asset-path'
+import { LEAD_API_URL } from '@/lib/site-config'
 
 interface FormState {
   nome: string
@@ -143,6 +144,41 @@ export function DemoForm() {
     }
 
     lines.push('', 'Grazie,', form.nome, '', '---', `Richiesta inviata da fibonacci.it · intent=${intent}`)
+
+    // Prova prima l'endpoint lead strutturato (tracciabile, non dipende dal
+    // client di posta dell'utente). Il mailto resta come fallback se
+    // l'endpoint è irraggiungibile o risponde errore.
+    try {
+      const controller = new AbortController()
+      const timeout = setTimeout(() => controller.abort(), 6000)
+      const resp = await fetch(LEAD_API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
+        body: JSON.stringify({
+          intent,
+          nome: form.nome,
+          specialty: specialtyLabel,
+          email: form.email,
+          telefono: form.telefono,
+          ordineProvincia: form.ordineProvincia || undefined,
+          numeroAlbo: form.numeroAlbo || undefined,
+          partitaIva: form.partitaIva || undefined,
+          networkSize: form.networkSize || undefined,
+          motivazione: form.motivazione || undefined,
+          refCode: refCode || undefined,
+          source: 'fibonacci-website',
+        }),
+      })
+      clearTimeout(timeout)
+      if (resp.ok) {
+        setSent(true)
+        setLoading(false)
+        return
+      }
+    } catch {
+      // Endpoint non disponibile: si prosegue col fallback mailto.
+    }
 
     const body = encodeURIComponent(lines.join('\n'))
     const to = isAmbassador ? 'partners@fibonacci.it' : 'info@fibonacci.it'

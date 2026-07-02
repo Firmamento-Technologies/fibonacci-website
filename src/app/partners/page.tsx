@@ -156,6 +156,13 @@ export default function PartnersPage() {
             ))}
           </div>
 
+          <p className="text-center text-xs mt-8 max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
+            Il programma Ambassador è in corso di verifica di compatibilità con il codice di
+            deontologia medica: termini, percentuali e condizioni potranno essere modificati
+            prima dell&apos;attivazione. Nessun compenso è riconosciuto fino alla sottoscrizione
+            dell&apos;accordo individuale.
+          </p>
+
         </div>
       </section>
 
