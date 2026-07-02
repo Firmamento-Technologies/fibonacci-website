@@ -99,7 +99,7 @@ Dopo la review medica (8/8 spunte attive), il pulsante `Salva e invia` diventa a
 
 2. **Sigillo elettronico avanzato (PAdES)**: il PDF viene sigillato lato server con certificato del titolare studio e marca temporale (TSA conforme eIDAS).
 
-3. **Invio link OTP al paziente**: SMS o email contenente un link sicuro al `pdf-signer` per la firma elettronica avanzata via OTP. La firma generata ha valore legale equiparato all'autografa per Regolamento UE 910/2014 art. 26.
+3. **Invio link OTP al paziente**: SMS o email contenente un link sicuro al `pdf-signer` per la firma elettronica avanzata (FEA) via OTP, previa verifica dell'identità del paziente. La FEA ha l'efficacia probatoria della scrittura privata (art. 2702 c.c.); se disconosciuta, l'onere della prova è di chi la produce. La piena presunzione di riferibilità al firmatario (art. 20 c. 1-bis CAD) si ottiene con la firma qualificata (FEQ), attivabile — insieme alla marca temporale qualificata — tramite QTSP accreditato.
 
 4. **Salvataggio FHIR**: il consenso firmato viene archiviato come risorsa FHIR `Consent` collegata a `Patient`, `Practitioner` e `Encounter`. Il PDF firmato è una `DocumentReference` con `Binary` content.
 
