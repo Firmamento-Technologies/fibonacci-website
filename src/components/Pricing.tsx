@@ -12,7 +12,7 @@ interface Plan {
 const PLANS: readonly Plan[] = [
   {
     name: 'Solo',
-    price: 149,
+    price: 99,
     description: 'Un medico, uno studio',
     features: [
       'Cartella clinica digitale',
@@ -26,7 +26,7 @@ const PLANS: readonly Plan[] = [
   },
   {
     name: 'Studio',
-    price: 349,
+    price: 189,
     description: 'Fino a 5 operatori',
     features: [
       'Tutto di Solo',
@@ -37,20 +37,6 @@ const PLANS: readonly Plan[] = [
     ],
     cta: 'Inizia gratis',
     highlighted: true,
-  },
-  {
-    name: 'Clinica',
-    price: 749,
-    description: 'Operatori illimitati, multi-sede',
-    features: [
-      'Tutto di Studio',
-      'Più sedi',
-      'Branding personalizzato',
-      'Account manager dedicato',
-      'Supporto prioritario',
-    ],
-    cta: 'Inizia gratis',
-    highlighted: false,
   },
 ] as const
 
@@ -70,7 +56,7 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-5 max-w-3xl mx-auto">
           {PLANS.map((plan) => (
             <div
               key={plan.name}

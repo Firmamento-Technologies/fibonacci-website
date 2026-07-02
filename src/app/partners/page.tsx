@@ -13,9 +13,8 @@ export const metadata: Metadata = {
 }
 
 const EXAMPLES = [
-  { plan: 'Solo', price: 149, firstYear: 358, recurring: 179 },
-  { plan: 'Studio', price: 349, firstYear: 838, recurring: 419 },
-  { plan: 'Clinica', price: 749, firstYear: 1798, recurring: 899 },
+  { plan: 'Solo', price: 99, firstYear: 238, recurring: 119 },
+  { plan: 'Studio', price: 189, firstYear: 454, recurring: 227 },
 ] as const
 
 const STEPS = [
@@ -114,7 +113,7 @@ export default function PartnersPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-2 gap-5 max-w-2xl mx-auto">
             {EXAMPLES.map((ex) => (
               <div
                 key={ex.plan}
