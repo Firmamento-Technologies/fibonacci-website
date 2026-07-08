@@ -10,6 +10,9 @@ export const DEMO_URL = 'https://82.25.101.118.nip.io/demo'
 // Endpoint pubblico chatbot AI: assistente Mistral con knowledge base sito.
 // Rate limit 30 msg / 15 min per IP. Endpoint nel container emr-transcriber-prod.
 export const CHAT_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-chat'
+// Endpoint pubblico raccolta lead (form demo/ambassador): persiste il lead
+// lato server e notifica via email. Il form fa fallback a mailto se irraggiungibile.
+export const LEAD_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-lead'
 
 // URL pubblici del sito vetrina e dei contatti.
 export const SITE_URL = 'https://firmamento-technologies.github.io/fibonacci-website'

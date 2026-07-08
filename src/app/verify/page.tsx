@@ -35,7 +35,7 @@ const VERIFY_STEPS = [
     icon: KeyRound,
     title: 'Verifica firma elettronica',
     body:
-      "Controllo della presenza di firma OTP eIDAS art. 26 (Reg. UE 910/2014). Visualizzazione degli estremi: studio firmatario, data e ora, paziente firmatario (iniziali), hash documento.",
+      "Controllo della presenza della firma elettronica avanzata grafometrica (eIDAS art. 26, Reg. UE 910/2014). Visualizzazione degli estremi: studio firmatario, data e ora, paziente firmatario (iniziali), hash documento.",
   },
   {
     icon: ShieldCheck,
@@ -128,11 +128,13 @@ export default function VerifyPage() {
           </h2>
           <div className="space-y-4 text-sm leading-relaxed" style={{ color: 'var(--fg)' }}>
             <p>
-              <strong>eIDAS art. 26 (Reg. UE 910/2014):</strong> la firma elettronica avanzata via
-              OTP del paziente è equiparata alla firma autografa per gli effetti di legge, purché
-              soddisfi i quattro requisiti previsti: connessione univoca al firmatario, identificazione
-              univoca, creazione con mezzi controllati esclusivamente dal firmatario, collegamento ai
-              dati firmati che permetta di rilevare modifiche successive.
+              <strong>eIDAS art. 26 (Reg. UE 910/2014):</strong> la firma elettronica avanzata (FEA)
+              grafometrica del paziente ha l&apos;efficacia probatoria della scrittura privata
+              (art. 2702 c.c.) se soddisfa i quattro requisiti previsti: connessione univoca al
+              firmatario, identificazione univoca, creazione con mezzi controllati esclusivamente dal
+              firmatario, collegamento ai dati firmati che permetta di rilevare modifiche successive.
+              La piena presunzione di riferibilità al firmatario (art. 20 c. 1-bis CAD) è propria
+              della firma qualificata (FEQ), attivabile tramite QTSP accreditato.
             </p>
             <p>
               <strong>L. 219/2017 (consenso informato e DAT):</strong> il consenso informato è

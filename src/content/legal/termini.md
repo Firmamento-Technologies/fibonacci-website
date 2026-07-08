@@ -92,9 +92,8 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 | Piano | Corrispettivo mensile (IVA esclusa) | Operatori | Funzionalita principali |
 |---|---|---|---|
-| Solo | 149,00 EUR | 1 medico | Pazienti illimitati, cartella, body-map, consensi, firma elettronica, conservazione |
-| Studio | 349,00 EUR | fino a 5 operatori | Dettatura durante la visita, agenda condivisa, reminder appuntamenti |
-| Clinica | 749,00 EUR | operatori illimitati | Multi-sede, branding personalizzato, account manager, supporto prioritario |
+| Solo | 99,00 EUR | 1 medico | Pazienti illimitati, cartella, body-map, consensi, firma elettronica, conservazione |
+| Studio | 189,00 EUR | fino a 5 operatori | Dettatura durante la visita, agenda condivisa, reminder appuntamenti |
 
 Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sara applicata nella misura di legge.
 
@@ -130,11 +129,9 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 ## Art. 8 - Livelli di servizio (SLA)
 
-8.1 Il Fornitore garantisce i seguenti livelli di disponibilita del Servizio, calcolati su base mensile:
+8.1 Il Fornitore garantisce il seguente livello di disponibilita del Servizio, calcolato su base mensile:
 
-(a) 99,5% di uptime per i Piani Solo e Studio;
-
-(b) 99,9% di uptime per il Piano Clinica.
+(a) 99,5% di uptime per i Piani Solo e Studio.
 
 8.2 Sono escluse dal calcolo dell'uptime:
 

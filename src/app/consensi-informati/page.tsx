@@ -19,7 +19,7 @@ import { DEMO_URL } from '@/lib/site-config'
 export const metadata: Metadata = {
   title: 'Consensi informati AI · Fibonacci',
   description:
-    "Generazione automatica di consensi informati conformi L. 219/2017. Library 72 clausole PA italiane, confidence scoring per sezione, firma eIDAS PDF/A-3b, audit FHIR forense.",
+    "Bozze di consenso informato assistite da AI, strutturate secondo la L. 219/2017 e sempre validate dal medico. Library clausole PA italiane, confidence scoring, firma elettronica avanzata, PDF/A-3b, audit FHIR.",
   keywords: [
     'consenso informato',
     'consenso informato digitale',
@@ -37,13 +37,13 @@ const PIPELINE_STEPS = [
     icon: ListChecks,
     title: 'Scegli la procedura',
     body:
-      "Catalogo di 29 modelli proprietari Fibonacci pronti all'uso coprenti medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia, follow-up. Puoi anche partire da bianco con descrizione libera per trattamenti fuori catalogo.",
+      "Catalogo di oltre 100 modelli proprietari Fibonacci (bozze v0.1, da validare e personalizzare) coprenti medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia, follow-up. Puoi anche partire da bianco con descrizione libera per trattamenti fuori catalogo.",
   },
   {
     icon: Cpu,
     title: "L'AI compone le 8 sezioni",
     body:
-      "Mistral Small 3.2 24B (UE) genera identificazione paziente, descrizione clinica, benefici attesi, rischi documentati, alternative terapeutiche, conseguenze rifiuto, dichiarazione comprensione, firma. Citazioni norme inline.",
+      "Un modello linguistico genera la bozza delle 8 sezioni: identificazione paziente, descrizione clinica, benefici attesi, rischi documentati, alternative terapeutiche, conseguenze rifiuto, dichiarazione comprensione, firma. Ogni sezione è una proposta che il medico rivede e valida.",
   },
   {
     icon: ShieldCheck,
@@ -55,7 +55,7 @@ const PIPELINE_STEPS = [
     icon: FileCheck2,
     title: 'Review medica + firma paziente',
     body:
-      "Wizard a 4 step: il medico deve spuntare ciascuna delle 8 sezioni prima di poter salvare. Firma OTP del paziente, PDF/A-3b conservazione decennale, AuditEvent FHIR immutabile.",
+      "Wizard a 4 step: il medico deve spuntare ciascuna delle 8 sezioni prima di poter salvare. Firma elettronica avanzata grafometrica del paziente (su tablet, previa verifica dell'identità), PDF/A-3b conservazione decennale, AuditEvent FHIR immutabile.",
   },
 ] as const
 
@@ -92,7 +92,7 @@ const FEATURES = [
     icon: FileSignature,
     title: 'Firma eIDAS + PDF/A-3b',
     body:
-      "Firma elettronica avanzata via OTP paziente con valore legale equiparato all'autografa per Reg. UE 910/2014. Output PDF/A-3b (ISO 19005-3) con file XML embedded per validazione long-term archive: conservazione decennale per CAD art. 44.",
+      "Firma elettronica avanzata (FEA) grafometrica del paziente su tablet, con cattura dei dati biometrici del tratto e previa verifica dell'identità: ha l'efficacia probatoria della scrittura privata (art. 2702 c.c.). Output PDF/A-3b (ISO 19005-3) con XML embedded per conservazione decennale (CAD art. 44). Per la massima robustezza probatoria sono attivabili firma qualificata (FEQ) e marca temporale qualificata tramite QTSP accreditato.",
     badge: 'eIDAS',
   },
   {
@@ -123,7 +123,7 @@ const NORMATIVE_REFS = [
   {
     label: 'Reg. UE 910/2014 (eIDAS)',
     body:
-      "Firma elettronica avanzata (FEA) basata su OTP riconosciuta in tutta UE con valore legale equiparato all'autografa secondo art. 26. Fibonacci usa FEA OTP del paziente per la firma del consenso.",
+      "Firma elettronica avanzata (FEA), riconosciuta in UE (art. 25-26): ha efficacia di scrittura privata, ma se disconosciuta l'onere della prova è di chi la produce. La piena presunzione di riferibilità al firmatario si ottiene con la firma qualificata (FEQ). Fibonacci usa FEA grafometrica previa verifica dell'identità del paziente; FEQ e marca temporale qualificata sono attivabili via QTSP accreditato.",
   },
   {
     label: 'L. 633/1941 art. 5',
@@ -161,7 +161,7 @@ export default function ConsensiInformatiPage() {
               ancorati alla norma italiana.
             </h1>
             <p className="text-lg max-w-3xl mb-8" style={{ color: 'var(--muted)' }}>
-              Fibonacci genera consensi conformi L. 219/2017 partendo da una
+              Fibonacci compone bozze di consenso strutturate secondo la L. 219/2017 — che il medico rivede, personalizza e valida — partendo da una
               library di 72 clausole estratte da fonti della Pubblica
               Amministrazione italiana. Tre strati di validators
               anti-allucinazione, confidence scoring per sezione, audit FHIR
@@ -343,7 +343,7 @@ export default function ConsensiInformatiPage() {
                 Onestà: sono pronti per l&apos;uso reale?
               </h2>
               <p className="text-base mb-4 leading-relaxed" style={{ color: 'var(--muted)' }}>
-                I 29 modelli rispettano la struttura legale (8 sezioni
+                I modelli del catalogo rispettano la struttura legale (8 sezioni
                 L. 219/2017, 5 elementi Cassazione 26104/2022, GDPR, eIDAS,
                 PDF/A-3b). Il contenuto clinico è generato con AI ancorata alla
                 library di clausole PA. <strong style={{ color: 'var(--fg)' }}>Sono
@@ -376,7 +376,7 @@ export default function ConsensiInformatiPage() {
                 <li className="flex items-start gap-2">
                   <span style={{ color: 'var(--accent)' }}>·</span>
                   <span>
-                    Controfirmare il documento (firma medico) dopo la firma OTP
+                    Controfirmare il documento (firma medico) dopo la firma
                     del paziente.
                   </span>
                 </li>
@@ -406,7 +406,7 @@ export default function ConsensiInformatiPage() {
             <p className="text-base mb-8" style={{ color: 'var(--muted)' }}>
               Apri la demo live, scegli una procedura dal catalogo, lascia che
               l&apos;AI componga 8 sezioni e validi le sue stesse uscite. Il
-              risultato è un PDF/A-3b pronto da firmare con OTP.
+              risultato è un PDF/A-3b pronto per la firma grafometrica.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a

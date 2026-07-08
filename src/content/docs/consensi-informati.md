@@ -1,10 +1,10 @@
 # Generare e firmare consensi informati in PDF
 
-Questa guida descrive come generare consensi informati conformi alla **legge 219/2017** usando il **Wizard AI di Fibonacci**, validarli sezione per sezione e raccogliere la firma OTP del paziente in formato PDF/A-3b a norma. Si rivolge ai medici di medicina estetica e chirurgia plastica che operano in Italia.
+Questa guida descrive come generare bozze di consenso informato strutturate secondo la **legge 219/2017** usando il **Wizard AI di Fibonacci**, validarle sezione per sezione e raccogliere la firma grafometrica del paziente in formato PDF/A-3b a norma. Si rivolge ai medici di medicina estetica e chirurgia plastica che operano in Italia.
 
 Fibonacci non distribuisce modelli di terzi. Il sistema combina due fonti:
 
-1. **29 modelli proprietari Fibonacci v0.1** già pronti per le procedure più frequenti di medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia e follow-up.
+1. **Oltre 100 modelli proprietari Fibonacci v0.1 (bozze da validare)** per le procedure più frequenti di medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia e follow-up.
 2. **Wizard AI generativo** per consensi su misura per qualsiasi trattamento fuori catalogo, partendo da una library di **72 clausole giuridiche estratte da fonti della Pubblica Amministrazione italiana** (atti regionali, ASL, aziende ospedaliere) che sono di pubblico dominio per la legge 633/1941 art. 5.
 
 Tutti gli output sono validati da tre strati anti-allucinazione (vedi Passo 4) e archiviati con sigillo elettronico avanzato e tracciatura FHIR AuditEvent.
@@ -14,7 +14,7 @@ Tutti gli output sono validati da tre strati anti-allucinazione (vedi Passo 4) e
 - Account con ruolo `medico` o `admin studio`.
 - Anagrafica paziente completa con almeno nome, cognome, codice fiscale e data di nascita.
 - Profilo medico dello studio configurato con dati identificativi e numero di iscrizione all'Ordine (verificare in Impostazioni → Dati studio e medico).
-- Per la firma OTP: numero di cellulare del paziente registrato in anagrafica.
+- Per la firma grafometrica: un tablet o dispositivo touch su cui il paziente possa apporre la firma, e un documento d'identità del paziente per la verifica preventiva.
 
 ## Passo 1, apertura del modulo consensi
 
@@ -25,17 +25,17 @@ Dalla scheda visita del paziente, il tab `Consensi` apre il pannello di gestione
 
 I consensi già firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive né modifica i precedenti: ogni consenso è un'entità FHIR `Consent` distinta con il suo `AuditEvent` immutabile.
 
-In alternativa, dal menu `Consensi → Catalogo` si accede ai 29 modelli proprietari Fibonacci pronti per il download in PDF (compilati automaticamente con i dati di studio e medico). Sono utili come riferimento o per stampe rapide senza paziente in carico.
+In alternativa, dal menu `Consensi → Catalogo` si accede agli oltre 100 modelli proprietari Fibonacci pronti per il download in PDF (compilati automaticamente con i dati di studio e medico). Sono utili come riferimento o per stampe rapide senza paziente in carico.
 
 ## Passo 2, Wizard AI in 4 step
 
 Il pulsante `Nuovo consenso` apre il wizard a 4 step.
 
-**Step 1 — Scelta procedura**: il catalogo elenca le 30 procedure disponibili divise per categoria (medicina estetica iniettiva, non chirurgica, dermatologia, follow-up). Puoi cercare per nome o partire da bianco con descrizione libera del trattamento.
+**Step 1 — Scelta procedura**: il catalogo elenca le procedure disponibili divise per categoria (medicina estetica iniettiva, non chirurgica, dermatologia, follow-up). Puoi cercare per nome o partire da bianco con descrizione libera del trattamento.
 
 **Step 2 — Parametri clinici**: campi pre-impostati per tecnica, materiali (es. tipo di filler, lotto, dispositivo laser), rischi noti specifici della procedura, alternative terapeutiche e note. Più dettagli inserisci, più alto sarà il punteggio di confidenza nel passo successivo.
 
-**Step 3 — Generazione AI**: il sistema invoca Mistral Small 3.2 24B (ospitato in UE) e in 10-15 secondi compone le 8 sezioni obbligatorie ai sensi della legge 219/2017:
+**Step 3 — Generazione AI**: il sistema invoca il modello linguistico configurato e in 10-15 secondi compone la bozza delle 8 sezioni obbligatorie ai sensi della legge 219/2017:
 
 1. Identificazione paziente e contesto della prestazione
 2. Descrizione clinica della procedura
@@ -48,7 +48,7 @@ Il pulsante `Nuovo consenso` apre il wizard a 4 step.
 
 Sotto l'output ricevi il pannello `Validazione automatica` (Passo 4).
 
-**Step 4 — Review medica + firma**: nel passo finale spunti ciascuna delle 8 sezioni dopo averla riletta, poi invii il PDF al paziente per la firma OTP. Il bottone `Salva e invia` resta disabilitato finché non hai confermato tutte e 8 le sezioni.
+**Step 4 — Review medica + firma**: nel passo finale spunti ciascuna delle 8 sezioni dopo averla riletta, poi raccogli la firma grafometrica del paziente. Il bottone `Salva e invia` resta disabilitato finché non hai confermato tutte e 8 le sezioni.
 
 ## Passo 3, parametri clinici e personalizzazione
 
@@ -99,7 +99,7 @@ Dopo la review medica (8/8 spunte attive), il pulsante `Salva e invia` diventa a
 
 2. **Sigillo elettronico avanzato (PAdES)**: il PDF viene sigillato lato server con certificato del titolare studio e marca temporale (TSA conforme eIDAS).
 
-3. **Invio link OTP al paziente**: SMS o email contenente un link sicuro al `pdf-signer` per la firma elettronica avanzata via OTP. La firma generata ha valore legale equiparato all'autografa per Regolamento UE 910/2014 art. 26.
+3. **Firma grafometrica del paziente**: il paziente firma su tablet; il sistema cattura, oltre all'immagine della firma, i dati biometrici del tratto (pressione, velocità, tempi), che vengono cifrati e incorporati nel PDF per eventuale perizia grafologica. È una firma elettronica avanzata (FEA), da raccogliere previa verifica dell'identità del paziente tramite documento. La FEA ha l'efficacia probatoria della scrittura privata (art. 2702 c.c.); se disconosciuta, l'onere della prova è di chi la produce. La piena presunzione di riferibilità al firmatario (art. 20 c. 1-bis CAD) si ottiene con la firma qualificata (FEQ), attivabile — insieme alla marca temporale qualificata — tramite QTSP accreditato.
 
 4. **Salvataggio FHIR**: il consenso firmato viene archiviato come risorsa FHIR `Consent` collegata a `Patient`, `Practitioner` e `Encounter`. Il PDF firmato è una `DocumentReference` con `Binary` content.
 
@@ -117,11 +117,11 @@ Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'
 
 ## Note importanti
 
-- I 29 modelli proprietari Fibonacci sono in **versione 0.1 (bozza interna)**. Coprono la struttura legale prevista (8 sezioni L. 219/2017 + 5 elementi Cassazione 26104/2022 + GDPR + eIDAS + PDF/A-3b) ma il **contenuto clinico non è stato ancora validato da avvocato sanitario né da medico specialista** della disciplina. Prima dell'uso con pazienti reali devi: (1) far rivedere ogni modello dal legale del tuo studio, (2) verificare rischi/percentuali con le linee guida societarie aggiornate (SICPRE/ISAPS, SIDeMaST, SIME/AIME), (3) personalizzare il consenso sul singolo paziente (allergie, terapie in atto, comorbilità — il wizard ti obbliga a farlo allo Step 2), (4) controfirmare il documento dopo la firma OTP del paziente. Fibonacci fornisce l'infrastruttura tecnica, non sostituisce il parere legale dell'avvocato sanitario né la responsabilità clinica del medico curante.
+- Gli oltre 100 modelli proprietari Fibonacci sono in **versione 0.1 (bozza interna)**. Coprono la struttura legale prevista (8 sezioni L. 219/2017 + 5 elementi Cassazione 26104/2022 + GDPR + eIDAS + PDF/A-3b) ma il **contenuto clinico non è stato ancora validato da avvocato sanitario né da medico specialista** della disciplina. Prima dell'uso con pazienti reali devi: (1) far rivedere ogni modello dal legale del tuo studio, (2) verificare rischi/percentuali con le linee guida societarie aggiornate (SICPRE/ISAPS, SIDeMaST, SIME/AIME), (3) personalizzare il consenso sul singolo paziente (allergie, terapie in atto, comorbilità — il wizard ti obbliga a farlo allo Step 2), (4) controfirmare il documento dopo la firma del paziente. Fibonacci fornisce l'infrastruttura tecnica, non sostituisce il parere legale dell'avvocato sanitario né la responsabilità clinica del medico curante.
 
 - Il Wizard AI genera testi che vanno **sempre riletti** dal medico prima dell'invio: l'AI è uno strumento di supporto (conforme requisito RF-5.4), non un dispositivo medico. La review obbligatoria nelle 8 sezioni del Step 4 serve a marcare questa responsabilità.
 
-- I dati clinici trattati per la generazione del consenso non vengono mai usati per training del modello LLM. L'inferenza avviene su Mistral hosted in Francia (UE), con contratto DPA Mistral AI in atto. Vedi `/dpa` per il Data Processing Agreement.
+- I dati trattati per la generazione del consenso non vengono usati per l'addestramento dei modelli (opt-out contrattuale con i provider). L'inferenza avviene tramite il provider LLM configurato: l'elenco aggiornato dei sub-responsabili e delle relative sedi di trattamento è pubblicato in `/sub-responsabili`. Non inserire nel contesto clinico identificativi diretti del paziente oltre quanto strettamente necessario.
 
 ## Riferimenti normativi
 

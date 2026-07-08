@@ -13,9 +13,8 @@ export const metadata: Metadata = {
 }
 
 const EXAMPLES = [
-  { plan: 'Solo', price: 149, firstYear: 358, recurring: 179 },
-  { plan: 'Studio', price: 349, firstYear: 838, recurring: 419 },
-  { plan: 'Clinica', price: 749, firstYear: 1798, recurring: 899 },
+  { plan: 'Solo', price: 99, firstYear: 238, recurring: 119 },
+  { plan: 'Studio', price: 189, firstYear: 454, recurring: 227 },
 ] as const
 
 const STEPS = [
@@ -114,7 +113,7 @@ export default function PartnersPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-2 gap-5 max-w-2xl mx-auto">
             {EXAMPLES.map((ex) => (
               <div
                 key={ex.plan}
@@ -156,6 +155,13 @@ export default function PartnersPage() {
               </div>
             ))}
           </div>
+
+          <p className="text-center text-xs mt-8 max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
+            Il programma Ambassador è in corso di verifica di compatibilità con il codice di
+            deontologia medica: termini, percentuali e condizioni potranno essere modificati
+            prima dell&apos;attivazione. Nessun compenso è riconosciuto fino alla sottoscrizione
+            dell&apos;accordo individuale.
+          </p>
 
         </div>
       </section>
