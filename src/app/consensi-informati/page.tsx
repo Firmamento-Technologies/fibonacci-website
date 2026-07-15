@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     'FHIR Consent',
     'medicina estetica',
   ],
+  alternates: { canonical: '/consensi-informati' },
 }
 
 const PIPELINE_STEPS = [

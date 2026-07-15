@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Link from 'next/link'
 import { ArrowRight, Mail, CheckCircle2 } from 'lucide-react'
 
 interface NewsletterFormProps {
@@ -32,7 +33,7 @@ export function NewsletterForm({
         'Grazie,',
       ].join('\n'),
     )
-    window.location.href = `mailto:news@fibonacci.it?subject=${subject}&body=${body}`
+    window.location.href = `mailto:news@firmamentotechnologies.com?subject=${subject}&body=${body}`
 
     setTimeout(() => {
       setSent(true)
@@ -126,7 +127,7 @@ export function NewsletterForm({
         </button>
       </form>
       <p className="text-[10px] mt-3" style={{ color: 'var(--muted)' }}>
-        Iscrivendoti accetti la <a href="/privacy/" className="underline">Privacy Policy</a>.
+        Iscrivendoti accetti la <Link href="/privacy" className="underline">Privacy Policy</Link>.
         Disiscrivi quando vuoi.
       </p>
     </div>

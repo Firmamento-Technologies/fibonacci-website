@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description:
     "Hai un collega a cui Fibonacci potrebbe servire? Ti riconosciamo il 20% del primo anno e il 10% finché resta cliente. Senza tier, senza limiti, senza complicazioni.",
   keywords: ['ambassador fibonacci', 'programma referral medici', 'partnership EMR'],
+  alternates: { canonical: '/partners' },
 }
 
 const EXAMPLES = [

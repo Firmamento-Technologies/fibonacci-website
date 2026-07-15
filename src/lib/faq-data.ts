@@ -17,7 +17,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'pricing',
     question: 'Quanto costa Fibonacci?',
     answer:
-      'Tre piani: Solo a 149 euro al mese (un medico, cartella + body-map + consensi + firma + conservazione), Studio a 349 euro al mese (fino a 5 operatori, dettatura durante la visita, agenda condivisa, reminder), Clinica a 749 euro al mese (operatori illimitati, multi-sede, branding, account manager). Tutti i prezzi sono IVA esclusa, fattura elettronica italiana inclusa. Il trial di 14 giorni è gratuito e non richiede carta di credito.',
+      'Due piani: Solo a 99 euro al mese (un medico: cartella clinica, body map, consensi informati, firma elettronica del paziente, conservazione a norma) e Studio a 189 euro al mese (fino a 5 operatori: tutto di Solo più dettatura durante la visita, agenda condivisa, reminder appuntamenti e supporto chat). Tutti i prezzi sono IVA esclusa, fattura elettronica italiana inclusa. Il trial di 14 giorni è gratuito e non richiede carta di credito.',
   },
   {
     category: 'pricing',
@@ -59,7 +59,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'tecnico',
     question: 'Posso integrare Fibonacci con il mio strumento diagnostico o gestionale?',
     answer:
-      'Sul piano Clinica è disponibile l\'API access con endpoint REST FHIR R4 documentati. Per piani inferiori l\'export ZIP FHIR resta sempre disponibile. Stiamo definendo integrazioni native con i principali sistemi di refertazione e fatturazione elettronica sanitaria. Se hai esigenze specifiche, contattaci a info@fibonacci.it.',
+      'L\'export ZIP in formato FHIR R4 è sempre disponibile su tutti i piani, così i tuoi dati restano portabili. L\'accesso API REST FHIR documentato e le integrazioni native con i principali sistemi di refertazione e fatturazione elettronica sanitaria sono in fase di definizione. Se hai un\'esigenza specifica, scrivici a info@firmamentotechnologies.com.',
   },
   {
     category: 'utilizzo',
@@ -71,18 +71,18 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'utilizzo',
     question: 'Posso usare Fibonacci se sono uno studio associato con più operatori?',
     answer:
-      'Sì. Il piano Studio supporta fino a 3 operatori con agenda condivisa, ciascuno con proprie credenziali e MFA. Il piano Clinica supporta operatori illimitati con compartimentazione FHIR (un medico vede solo i pazienti del suo perimetro, definito da AccessPolicy). Ogni utente ha proprio audit log e profilo di accesso.',
+      'Sì. Il piano Studio supporta fino a 5 operatori con agenda condivisa, ciascuno con proprie credenziali e MFA e con compartimentazione FHIR (un medico vede solo i pazienti del suo perimetro, definito da AccessPolicy). Ogni utente ha il proprio audit log e profilo di accesso. Per esigenze oltre i 5 operatori, contattaci.',
   },
   {
     category: 'supporto',
     question: 'C\'è formazione inclusa? Come funziona l\'onboarding?',
     answer:
-      'Il piano Solo include onboarding via email con guide step-by-step. Il piano Studio include una sessione di onboarding guidato di un\'ora via videoconferenza. Il piano Clinica include account manager dedicato con sessione di formazione di tre ore in presenza o remoto, più follow-up mensili nei primi 6 mesi.',
+      'Il piano Solo include onboarding via email con guide step-by-step. Il piano Studio include una sessione di onboarding guidato di un\'ora via videoconferenza. Per studi con esigenze di formazione più strutturate possiamo concordare un percorso dedicato: scrivici.',
   },
   {
     category: 'supporto',
     question: 'Come funziona il supporto tecnico?',
     answer:
-      'Supporto via email a supporto@fibonacci.it con risposta entro 24 ore lavorative sul piano Solo, entro 12 ore sul piano Studio, entro 4 ore sul piano Clinica. Per il piano Clinica è incluso anche supporto telefonico negli orari d\'ufficio. Lo SLA di uptime è 99.5% per Solo/Studio e 99.9% per Clinica, calcolato su base mensile.',
+      'Supporto via email a supporto@firmamentotechnologies.com con risposta entro 24 ore lavorative sul piano Solo ed entro 12 ore sul piano Studio (che include anche il supporto via chat). Lo SLA di uptime è 99.5% calcolato su base mensile.',
   },
 ]

@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { docRevisionDate } from './doc-dates'
 
 export interface DocMeta {
   slug: string
@@ -74,10 +75,6 @@ export function getDocMeta(slug: string): DocMeta | undefined {
 export async function loadDoc(slug: string): Promise<string> {
   const filePath = join(process.cwd(), 'src', 'content', 'docs', `${slug}.md`)
   const raw = await readFile(filePath, 'utf-8')
-  const today = new Date().toLocaleDateString('it-IT', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  })
-  return raw.replaceAll('{ULTIMA_REVISIONE}', today)
+  // Data di revisione PINNATA (E2.2): non la data di build (vedi doc-dates.ts).
+  return raw.replaceAll('{ULTIMA_REVISIONE}', docRevisionDate(slug))
 }

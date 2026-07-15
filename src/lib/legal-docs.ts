@@ -1,5 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { FIRMAMENTO } from './site-config'
+import { docRevisionDate } from './doc-dates'
 
 export interface LegalDocMeta {
   slug: string
@@ -27,8 +29,7 @@ export const LEGAL_DOCS: LegalDocMeta[] = [
     slug: 'dpa',
     title: 'Accordo per il Trattamento dei Dati (DPA)',
     shortTitle: 'DPA art. 28 GDPR',
-    description:
-      'Accordo ex art. 28 GDPR fra il medico cliente (Titolare) e Firmamento Technologies S.r.l. (Responsabile) per il trattamento dei dati dei pazienti.',
+    description: `Accordo ex art. 28 GDPR fra il medico cliente (Titolare) e ${FIRMAMENTO.legalName} (Responsabile) per il trattamento dei dati dei pazienti.`,
   },
   {
     slug: 'termini',
@@ -66,6 +67,9 @@ export const STATIC_SITE_PAGES: SitePage[] = [
   { slug: 'consensi-informati', changeFrequency: 'monthly', priority: 0.8 },
   { slug: 'intelligenza-artificiale', changeFrequency: 'monthly', priority: 0.8 },
   { slug: 'prova-demo', changeFrequency: 'monthly', priority: 0.9 },
+  { slug: 'partners', changeFrequency: 'monthly', priority: 0.6 },
+  { slug: 'status', changeFrequency: 'weekly', priority: 0.5 },
+  { slug: 'verify', changeFrequency: 'monthly', priority: 0.5 },
 ]
 
 export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {
@@ -75,10 +79,6 @@ export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {
 export async function loadLegalDoc(slug: string): Promise<string> {
   const filePath = join(process.cwd(), 'src', 'content', 'legal', `${slug}.md`)
   const raw = await readFile(filePath, 'utf-8')
-  const today = new Date().toLocaleDateString('it-IT', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  })
-  return raw.replaceAll('{ULTIMA_REVISIONE}', today)
+  // Data di revisione PINNATA (E2.2): non la data di build (vedi doc-dates.ts).
+  return raw.replaceAll('{ULTIMA_REVISIONE}', docRevisionDate(slug))
 }

@@ -63,18 +63,26 @@ function persistRef(ref: string) {
 
 export function DemoForm() {
   const [sent, setSent] = useState(false)
+  // Distingue come è partita la richiesta: 'api' = lead registrato dal backend
+  // (nessun client di posta), 'mailto' = fallback che apre il client dell'utente
+  // (che DEVE ancora premere invio). Due messaggi diversi (E2.2).
+  const [sentVia, setSentVia] = useState<'api' | 'mailto' | null>(null)
   const [loading, setLoading] = useState(false)
   const [form, setForm] = useState<FormState>(INITIAL_FORM)
   const [intent, setIntent] = useState<'demo' | 'ambassador'>('demo')
   const [refCode, setRefCode] = useState<string | null>(null)
 
-  // Capture URL params (?intent, ?ref) e persistenza ref 90gg
+  // Capture URL params (?intent, ?ref) e persistenza ref 90gg.
+  // setState in effect è INTENZIONALE: i query param sono leggibili solo lato
+  // client (in prerender statico `window` è undefined), quindi non si può usare
+  // un initializer lazy di useState. Guardato con `typeof window === 'undefined'`.
   useEffect(() => {
     if (typeof window === 'undefined') return
     const params = new URLSearchParams(window.location.search)
 
     const intentParam = params.get('intent')
     if (intentParam === 'ambassador') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- vedi nota sopra
       setIntent('ambassador')
     }
 
@@ -172,6 +180,7 @@ export function DemoForm() {
       })
       clearTimeout(timeout)
       if (resp.ok) {
+        setSentVia('api')
         setSent(true)
         setLoading(false)
         return
@@ -181,10 +190,11 @@ export function DemoForm() {
     }
 
     const body = encodeURIComponent(lines.join('\n'))
-    const to = isAmbassador ? 'partners@fibonacci.it' : 'info@fibonacci.it'
+    const to = isAmbassador ? 'partners@firmamentotechnologies.com' : 'info@firmamentotechnologies.com'
     window.location.href = `mailto:${to}?subject=${subject}&body=${body}`
 
     setTimeout(() => {
+      setSentVia('mailto')
       setSent(true)
       setLoading(false)
     }, 400)
@@ -259,14 +269,28 @@ export function DemoForm() {
           {sent ? (
             <div className="flex flex-col items-center gap-4 py-10">
               <CheckCircle2 className="w-14 h-14" style={{ color: 'var(--accent)' }} />
-              <h3 className="text-xl font-semibold text-white">Email pronta!</h3>
+              <h3 className="text-xl font-semibold text-white">
+                {sentVia === 'mailto' ? 'Email pronta!' : 'Richiesta inviata!'}
+              </h3>
               <p style={{ color: 'rgba(255,255,255,0.6)' }} className="max-w-md">
-                Si è aperto il tuo client di posta con i dati precompilati. Conferma
-                l&apos;invio e ti contatteremo entro {isAmbassador ? '5 giorni lavorativi' : '24 ore'}.
+                {sentVia === 'mailto' ? (
+                  <>
+                    Si è aperto il tuo client di posta con i dati precompilati.{' '}
+                    <strong>Conferma l&apos;invio dell&apos;email</strong> per completare
+                    la richiesta: ti contatteremo entro{' '}
+                    {isAmbassador ? '5 giorni lavorativi' : '24 ore'}.
+                  </>
+                ) : (
+                  <>
+                    Abbiamo ricevuto la tua richiesta. Ti contatteremo entro{' '}
+                    {isAmbassador ? '5 giorni lavorativi' : '24 ore'}.
+                  </>
+                )}
               </p>
               <button
                 onClick={() => {
                   setSent(false)
+                  setSentVia(null)
                   setForm(INITIAL_FORM)
                 }}
                 className="text-sm underline transition-opacity hover:opacity-75"
@@ -447,7 +471,7 @@ export function DemoForm() {
               <p className="text-xs" style={{ color: 'rgba(255,255,255,0.75)' }}>
                 Si aprirà il tuo client di posta con i dati precompilati verso{' '}
                 <span style={{ color: 'rgba(255,255,255,0.95)' }}>
-                  {isAmbassador ? 'partners@fibonacci.it' : 'info@fibonacci.it'}
+                  {isAmbassador ? 'partners@firmamentotechnologies.com' : 'info@firmamentotechnologies.com'}
                 </span>
                 . I tuoi dati non vengono ceduti a terzi. GDPR compliant.
               </p>

@@ -132,4 +132,4 @@ Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'
 - **CAD art. 44 + ISO 19005-3**: Conservazione documenti informatici a norma.
 - **Legge 633/1941 art. 5**: Atti della Pubblica Amministrazione nel pubblico dominio.
 
-> Documento aggiornato il **{TODAY}**.
+> Documento aggiornato il **{ULTIMA_REVISIONE}**.

@@ -41,7 +41,7 @@ export function SocialProof() {
       >
         <div className="max-w-7xl mx-auto px-6 flex flex-wrap items-center justify-center gap-8 md:gap-14">
           <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--muted)' }}>
-            Certificazioni
+            Conformità
           </span>
           {BADGES.map((b) => (
             <div key={b.text} className="flex items-center gap-2">
