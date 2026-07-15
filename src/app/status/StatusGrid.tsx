@@ -125,7 +125,7 @@ export function StatusGrid() {
                   Anomalia rilevata
                 </p>
                 <p className="text-xs" style={{ color: '#b91c1c', opacity: 0.8 }}>
-                  Stiamo indagando. Per emergenze: supporto@fibonacci.it
+                  Stiamo indagando. Per emergenze: supporto@firmamentotechnologies.com
                 </p>
               </div>
             </>

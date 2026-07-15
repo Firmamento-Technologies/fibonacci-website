@@ -1,8 +1,10 @@
 // URL dell'applicazione SaaS Fibonacci, usato dai CTA "Accedi" su Navbar e Footer.
-// Mentre il dominio fibonacci.it non e' ancora registrato, punta al VPS attuale
-// che ospita la versione live medicina estetica con HTTPS valido.
-// TODO: cambia a 'https://app.fibonacci.it' una volta registrato il dominio
-// (FASE 0-3 piano go-to-market).
+// NB: il dominio `fibonacci.it` NON è di Firmamento — è registrato da terzi dal
+// 2003 (vedi decisione-dominio-brand). Finché non si registra un dominio proprio
+// (`fibonaccimed.it` è il candidato primario), l'app punta al VPS attuale via
+// nip.io con HTTPS valido. TODO: passare a 'https://app.<dominio-proprio>' una
+// volta registrato. Le email di contatto sono già su `firmamentotechnologies.com`
+// (dominio realmente controllato) per non recapitare a terzi.
 export const APP_URL = 'https://82.25.101.118.nip.io'
 // Demo live: auto-login con account isolato medico@studio.test, redirect a /pazienti.
 // Visitatori possono testare body-map, dettatura, consensi, agenda senza registrarsi.
@@ -16,10 +18,10 @@ export const LEAD_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-le
 
 // URL pubblici del sito vetrina e dei contatti.
 export const SITE_URL = 'https://firmamento-technologies.github.io/fibonacci-website'
-export const CONTACT_EMAIL = 'info@fibonacci.it'
-export const SUPPORT_EMAIL = 'supporto@fibonacci.it'
-export const NEWS_EMAIL = 'news@fibonacci.it'
-export const PRIVACY_EMAIL = 'privacy@fibonacci.it'
+export const CONTACT_EMAIL = 'info@firmamentotechnologies.com'
+export const SUPPORT_EMAIL = 'supporto@firmamentotechnologies.com'
+export const NEWS_EMAIL = 'news@firmamentotechnologies.com'
+export const PRIVACY_EMAIL = 'privacy@firmamentotechnologies.com'
 
 // Firmamento Technologies Soc. Coop. - società produttrice/madre di Fibonacci.
 // Cooperativa di lavoro a mutualità prevalente (artt. 2512-2513 c.c.).

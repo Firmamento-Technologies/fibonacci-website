@@ -13,11 +13,11 @@ Titolare del trattamento dei dati personali è:
 Fibonacci
 Sede legale: Genova, Italia
 Codice Fiscale / Partita IVA: IT____________
-Email di contatto per le questioni privacy: privacy@fibonacci.it
+Email di contatto per le questioni privacy: privacy@firmamentotechnologies.com
 
 In considerazione della natura del trattamento, che riguarda categorie particolari di dati ex art. 9 GDPR (dati relativi alla salute) su larga scala, è in corso di nomina il Responsabile della protezione dei dati (Data Protection Officer) ai sensi dell'art. 37 GDPR. Il DPO può essere contattato all'indirizzo:
 
-Email DPO: dpo@fibonacci.it
+Email DPO: dpo@firmamentotechnologies.com
 
 ## 2. Definizioni essenziali
 
@@ -56,7 +56,7 @@ In relazione ai medici e agli operatori sanitari che sottoscrivono un abbonament
 
 I dati dei pazienti delle strutture sanitarie clienti, inseriti nel software dal medico cliente o dai suoi collaboratori autorizzati, comprendono dati anagrafici, dati di contatto, dati clinici e anamnestici, fotografie cliniche, referti, prescrizioni, consensi informati e ogni altro dato funzionale all'erogazione della prestazione sanitaria, ivi inclusi dati appartenenti alle categorie particolari di cui all'art. 9 GDPR (in particolare dati relativi alla salute).
 
-Per tali dati Fibonacci agisce in qualità di Responsabile del trattamento ai sensi dell'art. 28 GDPR. Il Titolare è il medico cliente o la struttura sanitaria che utilizza il software. I dettagli sulle categorie di dati trattati, sulle istruzioni documentate, sui sub-responsabili autorizzati e sulle misure di sicurezza adottate sono disciplinati dall'Accordo sul trattamento dei dati (DPA) sottoscritto contestualmente al contratto di servizio. Il DPA è disponibile su richiesta all'indirizzo privacy@fibonacci.it e nella sezione documentale dell'area riservata del medico cliente.
+Per tali dati Fibonacci agisce in qualità di Responsabile del trattamento ai sensi dell'art. 28 GDPR. Il Titolare è il medico cliente o la struttura sanitaria che utilizza il software. I dettagli sulle categorie di dati trattati, sulle istruzioni documentate, sui sub-responsabili autorizzati e sulle misure di sicurezza adottate sono disciplinati dall'Accordo sul trattamento dei dati (DPA) sottoscritto contestualmente al contratto di servizio. Il DPA è disponibile su richiesta all'indirizzo privacy@firmamentotechnologies.com e nella sezione documentale dell'area riservata del medico cliente.
 
 I pazienti che intendano esercitare i propri diritti sono invitati a rivolgersi al proprio medico curante in qualità di Titolare del trattamento. Fibonacci, in qualità di Responsabile, fornisce al medico Titolare l'assistenza tecnica necessaria a dare riscontro alle richieste degli interessati.
 
@@ -126,7 +126,7 @@ L'unico flusso che comporta un trasferimento extra-UE riguarda il servizio forni
 - limitazione del trattamento ai soli metadati di rete necessari al routing e alla protezione anti-DDoS;
 - esclusione dei dati sanitari dal perimetro tecnico accessibile a Cloudflare.
 
-Copia delle Clausole Contrattuali Standard e della relativa valutazione di impatto sui trasferimenti (Transfer Impact Assessment) è disponibile su richiesta scrivendo a privacy@fibonacci.it.
+Copia delle Clausole Contrattuali Standard e della relativa valutazione di impatto sui trasferimenti (Transfer Impact Assessment) è disponibile su richiesta scrivendo a privacy@firmamentotechnologies.com.
 
 ## 8. Periodo di conservazione
 
@@ -162,8 +162,8 @@ L'interessato può esercitare in qualsiasi momento i diritti riconosciuti dagli 
 
 Le richieste possono essere indirizzate, anche disgiuntamente, al Titolare e al DPO ai seguenti recapiti:
 
-- email Titolare: privacy@fibonacci.it
-- email DPO: dpo@fibonacci.it
+- email Titolare: privacy@firmamentotechnologies.com
+- email DPO: dpo@firmamentotechnologies.com
 
 Il Titolare fornisce riscontro entro 30 giorni dal ricevimento della richiesta. Il termine può essere prorogato di ulteriori 60 giorni in caso di particolare complessità della richiesta o di numero elevato di richieste, con motivazione comunicata all'interessato. Il riscontro è gratuito; il Titolare si riserva di richiedere un contributo spese o di rifiutare la richiesta in caso di istanze manifestamente infondate o eccessive, ai sensi dell'art. 12, par. 5 GDPR.
 
@@ -212,4 +212,4 @@ L'utilizzo del servizio successivo alla pubblicazione delle modifiche costituisc
 Data di ultima revisione: {ULTIMA_REVISIONE}
 Versione del documento: 0.1 (bozza interna)
 
-> Avvertenza finale: il presente documento costituisce un template adattato al contesto del servizio Fibonacci e sarà sottoposto a revisione legale prima dell'avvio delle attività commerciali. La versione qui pubblicata è una bozza interna numerata 0.1 e non sostituisce il parere di un consulente legale qualificato. Eventuali rilievi, correzioni o integrazioni potranno essere indirizzati a privacy@fibonacci.it.
+> Avvertenza finale: il presente documento costituisce un template adattato al contesto del servizio Fibonacci e sarà sottoposto a revisione legale prima dell'avvio delle attività commerciali. La versione qui pubblicata è una bozza interna numerata 0.1 e non sostituisce il parere di un consulente legale qualificato. Eventuali rilievi, correzioni o integrazioni potranno essere indirizzati a privacy@firmamentotechnologies.com.

@@ -87,7 +87,7 @@ La verifica completa di dieci anni di eventi puo richiedere alcuni minuti. Per g
 Risultati possibili:
 
 - **Catena integra**, nessuna alterazione rilevata, il sigillo di integrita e valido.
-- **Catena alterata**, una o piu discrepanze rilevate. Il dettaglio indica l'evento o gli eventi alterati. Questo risultato e un **incidente di sicurezza grave** che richiede notifica immediata al supporto Fibonacci all'indirizzo `security@fibonacci.it` e valutazione di obbligo di notifica al Garante entro settantadue ore secondo articolo 33 GDPR.
+- **Catena alterata**, una o piu discrepanze rilevate. Il dettaglio indica l'evento o gli eventi alterati. Questo risultato e un **incidente di sicurezza grave** che richiede notifica immediata al supporto Fibonacci all'indirizzo `security@firmamentotechnologies.com` e valutazione di obbligo di notifica al Garante entro settantadue ore secondo articolo 33 GDPR.
 
 ## Esportazione
 
@@ -135,7 +135,7 @@ L'export per il paziente esclude i dati di accesso che riguardano altri pazienti
 
 **Pannello audit vuoto.** Verifica nei filtri il range date: il default e gli ultimi sette giorni e potrebbe non includere il periodo cercato. Estendi il range. Se il problema persiste, verifica con l'amministratore di sistema che il proprio ruolo abbia il permesso `audit:read`.
 
-**Verifica integrita riporta `Catena alterata`.** Si tratta di un incidente di sicurezza potenzialmente grave. Procedi nell'ordine: non chiudere la pagina e non eseguire altre operazioni; esegui screenshot del risultato; contatta immediatamente il supporto Fibonacci all'indirizzo `security@fibonacci.it` con oggetto `URGENTE - Audit chain integrity broken` allegando lo screenshot e indicando il tuo identificativo studio; mantieni traccia dell'orario in cui hai rilevato l'anomalia. Il supporto attiva la procedura di analisi forense entro due ore. In funzione delle conclusioni potrebbe essere necessaria notifica al Garante per la protezione dei dati personali entro settantadue ore.
+**Verifica integrita riporta `Catena alterata`.** Si tratta di un incidente di sicurezza potenzialmente grave. Procedi nell'ordine: non chiudere la pagina e non eseguire altre operazioni; esegui screenshot del risultato; contatta immediatamente il supporto Fibonacci all'indirizzo `security@firmamentotechnologies.com` con oggetto `URGENTE - Audit chain integrity broken` allegando lo screenshot e indicando il tuo identificativo studio; mantieni traccia dell'orario in cui hai rilevato l'anomalia. Il supporto attiva la procedura di analisi forense entro due ore. In funzione delle conclusioni potrebbe essere necessaria notifica al Garante per la protezione dei dati personali entro settantadue ore.
 
 **Esportazione PDF molto lenta o fallita.** Esportazioni di intervalli ampi (oltre dodici mesi) possono richiedere alcuni minuti. Il sistema esegue automaticamente le esportazioni grandi in background e notifica via email quando il PDF e pronto al download. Verifica nella sezione `Esportazioni > Cronologia` lo stato della richiesta.
 

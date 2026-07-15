@@ -26,7 +26,7 @@ const LEGAL_LINKS = [
   { label: 'Termini di Servizio', href: '/termini', external: false },
   { label: 'Sicurezza', href: '/sicurezza', external: false },
   { label: 'Sub-responsabili', href: '/sub-responsabili', external: false },
-  { label: 'Contatti', href: 'mailto:info@fibonacci.it', external: true },
+  { label: 'Contatti', href: 'mailto:info@firmamentotechnologies.com', external: true },
 ] as const
 
 export function Footer() {

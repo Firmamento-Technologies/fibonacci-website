@@ -72,7 +72,7 @@ Il video accompagna passo passo un medico estetico nella sua prima visita reale 
 **Inquadratura**: schermata finale con logo, url app.fibonacci.it e link a centro assistenza.
 **Audio**: jingle Fibonacci due secondi.
 **Note regia**: fade verso nero con logo persistente per un secondo.
-**On-screen**: testo "Hai bisogno di aiuto? supporto@fibonacci.it".
+**On-screen**: testo "Hai bisogno di aiuto? supporto@firmamentotechnologies.com".
 
 ## Script voiceover completo (per dubbing)
 
@@ -111,7 +111,7 @@ Ora tocca a te. Se ti blocchi scrivici a supporto chiocciola fibonacci punto it,
 - 2:55 - 3:05 callout "Consensi informati precompilati"
 - 3:25 - 3:32 callout "Audit log con timestamp al secondo"
 - 3:38 - 3:55 tre tip mini lower-third in sequenza
-- 3:56 - 4:00 footer "supporto@fibonacci.it, risposta in un'ora"
+- 3:56 - 4:00 footer "supporto@firmamentotechnologies.com, risposta in un'ora"
 
 ## Note di produzione
 

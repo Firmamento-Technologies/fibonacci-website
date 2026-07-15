@@ -94,7 +94,7 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 
 3.2. **Contenuto della notifica**. La notifica indica: la denominazione e la sede del Sub-responsabile interessato, la categoria di servizio affidata, la tipologia di dati trattati, la localizzazione del trattamento, la base giuridica del trasferimento ove applicabile, le garanzie adottate, la data di efficacia.
 
-3.3. **Diritto di obiezione**. Entro 30 giorni dalla ricezione della notifica, il Titolare può obiettare per iscritto alla modifica proposta, indicando le ragioni dell'obiezione. L'obiezione è inviata all'indirizzo `privacy@fibonacci.it`, ovvero per posta elettronica certificata o raccomandata con avviso di ricevimento all'indirizzo della sede del Responsabile.
+3.3. **Diritto di obiezione**. Entro 30 giorni dalla ricezione della notifica, il Titolare può obiettare per iscritto alla modifica proposta, indicando le ragioni dell'obiezione. L'obiezione è inviata all'indirizzo `privacy@firmamentotechnologies.com`, ovvero per posta elettronica certificata o raccomandata con avviso di ricevimento all'indirizzo della sede del Responsabile.
 
 3.4. **Gestione dell'obiezione**. Ricevuta l'obiezione, il Responsabile valuta in buona fede soluzioni alternative idonee a soddisfare l'esigenza tecnica o organizzativa sottesa alla modifica, fermo restando il diritto del Responsabile di adottare la soluzione tecnica ritenuta più adeguata per la prosecuzione del Servizio.
 
@@ -118,10 +118,10 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 
 Per qualsiasi richiesta di chiarimento, esercizio del diritto di obiezione o richiesta di documentazione integrativa relativa ai sub-responsabili autorizzati, il Titolare può rivolgersi ai seguenti recapiti:
 
-- **Responsabile della protezione dei dati (DPO)**: `dpo@fibonacci.it`
-- **Ufficio privacy**: `privacy@fibonacci.it`
+- **Responsabile della protezione dei dati (DPO)**: `dpo@firmamentotechnologies.com`
+- **Ufficio privacy**: `privacy@firmamentotechnologies.com`
 - **Fibonacci** — sede legale: Genova, Italia
 
 ---
 
-> Il presente documento è aggiornato alla data indicata in apertura ed è soggetto a revisione continua. Il Titolare può richiedere in qualsiasi momento conferma scritta della versione vigente del presente elenco, scrivendo all'indirizzo `privacy@fibonacci.it`. In caso di discordanza tra la copia stampata e la versione pubblicata all'indirizzo `https://fibonacci.it/sub-responsabili`, prevale la versione pubblicata online.
+> Il presente documento è aggiornato alla data indicata in apertura ed è soggetto a revisione continua. Il Titolare può richiedere in qualsiasi momento conferma scritta della versione vigente del presente elenco, scrivendo all'indirizzo `privacy@firmamentotechnologies.com`. In caso di discordanza tra la copia stampata e la versione pubblicata all'indirizzo `https://fibonacci.it/sub-responsabili`, prevale la versione pubblicata online.

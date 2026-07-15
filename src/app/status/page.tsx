@@ -99,7 +99,7 @@ export default function StatusPage() {
       <section className="py-12" style={{ background: 'var(--bg)' }}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="text-xs" style={{ color: 'var(--muted)' }}>
-            Per segnalare incidenti o richiedere informazioni operative: <strong>supporto@fibonacci.it</strong>
+            Per segnalare incidenti o richiedere informazioni operative: <strong>supporto@firmamentotechnologies.com</strong>
             <br />
             Operatore: {FIRMAMENTO.legalName} · C.F./P.IVA {FIRMAMENTO.vatNumber} · Genova
           </p>

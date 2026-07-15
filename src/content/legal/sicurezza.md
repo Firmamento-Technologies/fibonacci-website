@@ -280,9 +280,9 @@ Fibonacci ha posto come obiettivo la valutazione di avvio del percorso di certif
 
 | Funzione | Contatto |
 | --- | --- |
-| Sicurezza informatica e segnalazione vulnerabilità | `security@fibonacci.it` |
-| Data Protection Officer | `dpo@fibonacci.it` |
-| Privacy e questioni di trattamento dati | `privacy@fibonacci.it` |
+| Sicurezza informatica e segnalazione vulnerabilità | `security@firmamentotechnologies.com` |
+| Data Protection Officer | `dpo@firmamentotechnologies.com` |
+| Privacy e questioni di trattamento dati | `privacy@firmamentotechnologies.com` |
 
 Le segnalazioni di vulnerabilità sono benvenute e gestite in coerenza con le pratiche di responsible disclosure. È possibile, su richiesta del segnalante, instaurare un canale cifrato mediante chiave PGP del team di sicurezza, fornita su richiesta. Fibonacci si impegna a fornire un riscontro iniziale al segnalante entro un tempo ragionevole dalla ricezione, a non perseguire legalmente segnalazioni effettuate in buona fede e nel rispetto del perimetro indicato, e a riconoscere pubblicamente il contributo del segnalante salvo richiesta di anonimato.
 

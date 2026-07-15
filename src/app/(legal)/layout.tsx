@@ -82,11 +82,11 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
                 Hai domande sulla compliance del nostro servizio?
                 Scrivi a{' '}
                 <a
-                  href="mailto:privacy@fibonacci.it"
+                  href="mailto:privacy@firmamentotechnologies.com"
                   className="font-semibold transition-opacity hover:opacity-75"
                   style={{ color: 'var(--accent)' }}
                 >
-                  privacy@fibonacci.it
+                  privacy@firmamentotechnologies.com
                 </a>
               </div>
             </aside>

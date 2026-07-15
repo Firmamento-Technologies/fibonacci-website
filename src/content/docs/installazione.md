@@ -14,9 +14,9 @@ Al termine della procedura lo studio dispone di un account amministrativo protet
 
 ## Passo 1, accesso tramite link di invito
 
-L'email di invito proviene dall'indirizzo `noreply@fibonacci.it` con oggetto `Invito a Fibonacci`. Contiene un link unico valido per quarantotto ore.
+L'email di invito proviene dall'indirizzo `noreply@firmamentotechnologies.com` con oggetto `Invito a Fibonacci`. Contiene un link unico valido per quarantotto ore.
 
-Apri il link in una scheda nuova del browser. Se il link risulta scaduto, contatta il supporto allo `supporto@fibonacci.it` per ricevere un nuovo invito.
+Apri il link in una scheda nuova del browser. Se il link risulta scaduto, contatta il supporto allo `supporto@firmamentotechnologies.com` per ricevere un nuovo invito.
 
 La prima schermata richiede di confermare l'indirizzo email e di impostare una password personale. La password deve rispettare i seguenti requisiti minimi:
 
@@ -87,7 +87,7 @@ Il numero massimo di operatori dipende dal piano sottoscritto. Il pannello mostr
 
 **Il codice TOTP risulta non valido.** Verifica che l'ora dello smartphone sia sincronizzata automaticamente con la rete. Una deriva temporale superiore ai trenta secondi invalida i codici TOTP. Su iOS, `Impostazioni > Generali > Data e ora > Automatica`. Su Android, `Impostazioni > Sistema > Data e ora > Automatica`.
 
-**Il link di invito risulta scaduto.** I link sono validi quarantotto ore. Richiedi un nuovo invito al supporto allo `supporto@fibonacci.it` indicando l'email destinataria.
+**Il link di invito risulta scaduto.** I link sono validi quarantotto ore. Richiedi un nuovo invito al supporto allo `supporto@firmamentotechnologies.com` indicando l'email destinataria.
 
 **Codici di recupero smarriti e smartphone non disponibile.** Contatta il supporto. La procedura prevede verifica dell'identita del titolare dello studio tramite documento d'identita e successivo reset MFA. Il reset richiede fino a ventiquattro ore lavorative.
 

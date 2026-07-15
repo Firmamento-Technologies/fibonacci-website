@@ -92,7 +92,7 @@ export function WebsiteChatbot() {
         ...prev,
         {
           role: 'assistant',
-          content: `Mi dispiace, ho avuto un problema: ${msg}. Puoi scrivere direttamente a [info@fibonacci.it](mailto:info@fibonacci.it).`,
+          content: `Mi dispiace, ho avuto un problema: ${msg}. Puoi scrivere direttamente a [info@firmamentotechnologies.com](mailto:info@firmamentotechnologies.com).`,
         },
       ])
     } finally {

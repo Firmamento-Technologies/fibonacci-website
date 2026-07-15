@@ -41,7 +41,7 @@ const VERIFY_STEPS = [
     icon: ShieldCheck,
     title: 'Hash chain audit',
     body:
-      "Per verifica forense più approfondita, l'hash del documento può essere confrontato con il registro AuditEvent FHIR conservato da Fibonacci (richiesta a supporto@fibonacci.it con motivazione legittima).",
+      "Per verifica forense più approfondita, l'hash del documento può essere confrontato con il registro AuditEvent FHIR conservato da Fibonacci (richiesta a supporto@firmamentotechnologies.com con motivazione legittima).",
   },
 ] as const
 
@@ -164,11 +164,11 @@ export default function VerifyPage() {
           </h2>
           <p className="text-base mb-6" style={{ color: 'var(--muted)' }}>
             Per richieste di verifica forense con accesso all&apos;hash chain dell&apos;AuditEvent
-            FHIR (es. cause legali, contestazioni), scrivici a supporto@fibonacci.it con motivazione
+            FHIR (es. cause legali, contestazioni), scrivici a supporto@firmamentotechnologies.com con motivazione
             legittima. Rispondiamo entro 5 giorni lavorativi.
           </p>
           <a
-            href="mailto:supporto@fibonacci.it?subject=Richiesta%20verifica%20forense%20consenso"
+            href="mailto:supporto@firmamentotechnologies.com?subject=Richiesta%20verifica%20forense%20consenso"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold text-white transition-opacity hover:opacity-90"
             style={{ background: 'var(--accent)' }}
           >

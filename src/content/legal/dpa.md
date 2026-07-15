@@ -44,8 +44,8 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 | Ragione sociale | Fibonacci |
 | Sede legale | Genova, Italia |
 | Partita IVA | IT____________ |
-| Email di contatto | `privacy@fibonacci.it` |
-| Responsabile della protezione dei dati (DPO) | `dpo@fibonacci.it` |
+| Email di contatto | `privacy@firmamentotechnologies.com` |
+| Responsabile della protezione dei dati (DPO) | `dpo@firmamentotechnologies.com` |
 
 Nel prosieguo, il Titolare e il Responsabile sono congiuntamente denominati "Parti" e singolarmente "Parte".
 
@@ -289,7 +289,7 @@ Costituiscono parte integrante del presente DPA i seguenti Allegati, sempre aggi
 
 - **Allegato A — Descrizione tecnica del trattamento e delle misure di sicurezza**: scheda tecnica di dettaglio pubblicata all'indirizzo `https://fibonacci.it/sicurezza`.
 - **Allegato B — Scheda dei Sub-responsabili**: elenco sempre aggiornato dei Sub-responsabili autorizzati, pubblicato all'indirizzo `https://fibonacci.it/sub-responsabili`.
-- **Allegato C — Contatti operativi**: Responsabile della protezione dei dati (DPO) del Responsabile: `dpo@fibonacci.it`; supporto Privacy del Responsabile: `privacy@fibonacci.it`.
+- **Allegato C — Contatti operativi**: Responsabile della protezione dei dati (DPO) del Responsabile: `dpo@firmamentotechnologies.com`; supporto Privacy del Responsabile: `privacy@firmamentotechnologies.com`.
 
 ---
 

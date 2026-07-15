@@ -100,11 +100,11 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
               >
                 Non trovi quello che cerchi? Scrivi a{' '}
                 <a
-                  href="mailto:supporto@fibonacci.it"
+                  href="mailto:supporto@firmamentotechnologies.com"
                   className="font-semibold transition-opacity hover:opacity-75"
                   style={{ color: 'var(--accent)' }}
                 >
-                  supporto@fibonacci.it
+                  supporto@firmamentotechnologies.com
                 </a>{' '}
                 o consulta le{' '}
                 <Link

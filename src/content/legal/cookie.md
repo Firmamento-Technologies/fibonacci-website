@@ -72,7 +72,7 @@ Si avverte che alcuni cookie utilizzati, in particolare i cookie tecnici di sess
 
 In relazione ai trattamenti di dati personali eseguiti tramite cookie e altri strumenti di tracciamento, l'utente può esercitare in qualsiasi momento i diritti riconosciuti dagli articoli da 15 a 22 del Regolamento (UE) 2016/679, tra cui il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità, opposizione e revoca del consenso (ove applicabile), nonché il diritto di proporre reclamo all'Autorità Garante per la Protezione dei Dati Personali (https://www.garanteprivacy.it).
 
-Per un'illustrazione completa dei diritti dell'interessato, dei tempi di conservazione e delle modalità di trattamento si rinvia alla Privacy Policy disponibile sul sito. L'esercizio dei diritti è gratuito e può essere effettuato inviando una comunicazione scritta all'indirizzo privacy@fibonacci.it, indicando con chiarezza i diritti che si intendono esercitare e allegando copia di un documento di identità in corso di validità, ove necessario all'identificazione del richiedente.
+Per un'illustrazione completa dei diritti dell'interessato, dei tempi di conservazione e delle modalità di trattamento si rinvia alla Privacy Policy disponibile sul sito. L'esercizio dei diritti è gratuito e può essere effettuato inviando una comunicazione scritta all'indirizzo privacy@firmamentotechnologies.com, indicando con chiarezza i diritti che si intendono esercitare e allegando copia di un documento di identità in corso di validità, ove necessario all'identificazione del richiedente.
 
 ## 8. Titolare del trattamento e contatti
 
@@ -81,8 +81,8 @@ Titolare del trattamento dei dati personali è:
 Fibonacci
 Sede legale: Genova, Italia
 P.IVA: IT____________ (placeholder, in attesa di registrazione definitiva)
-Indirizzo per le comunicazioni privacy: privacy@fibonacci.it
-Responsabile della Protezione dei Dati (DPO): dpo@fibonacci.it
+Indirizzo per le comunicazioni privacy: privacy@firmamentotechnologies.com
+Responsabile della Protezione dei Dati (DPO): dpo@firmamentotechnologies.com
 
 L'utente può rivolgersi agli indirizzi sopra indicati per qualunque richiesta inerente al trattamento dei dati personali, all'esercizio dei diritti riconosciuti dal GDPR e alla gestione dei cookie.
 
