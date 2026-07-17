@@ -10,12 +10,12 @@ const BEFORE = [
 ]
 
 const AFTER = [
-  'Cartella compilata mentre parli (AI)',
+  'Cartella compilata mentre parli, con l\'AI',
   'Consensi informati generati e inviati in PDF',
-  'Foto cifrate AES-256, GDPR by design',
+  'Foto cifrate, protette per legge',
   '3 minuti per documentare una visita',
-  'Dati su server EU, compliance automatica',
-  'FHIR R4: pronto per il FSE 2.0',
+  'Dati su server in UE, conformità continua',
+  'Pronta per il Fascicolo Sanitario Elettronico',
 ]
 
 export function ProblemSolution() {
@@ -32,33 +32,33 @@ export function ProblemSolution() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {/* Prima */}
-          <div className="rounded-2xl p-8" style={{ background: '#fff5f5', border: '1px solid #fecaca' }}>
-            <p className="text-sm font-semibold uppercase tracking-wider mb-6" style={{ color: '#dc2626' }}>
+          {/* Prima — carta neutra, sobria (il "male" è sussurrato, non urlato) */}
+          <div className="rounded-2xl p-8" style={{ background: 'var(--bg)', border: '1px solid var(--border)' }}>
+            <p className="text-sm font-semibold uppercase tracking-wider mb-6" style={{ color: 'var(--muted)' }}>
               Senza Fibonacci
             </p>
             <ul className="space-y-4">
               {BEFORE.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center shrink-0 mt-0.5">
-                    <X className="w-3 h-3 text-red-600" />
+                  <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5" style={{ background: 'var(--border)' }}>
+                    <X className="w-3 h-3" style={{ color: 'var(--muted)' }} />
                   </div>
-                  <span className="text-sm" style={{ color: 'var(--fg)' }}>{item}</span>
+                  <span className="text-sm" style={{ color: 'var(--muted)' }}>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Dopo */}
-          <div className="rounded-2xl p-8" style={{ background: '#f0fdf4', border: '1px solid #bbf7d0' }}>
-            <p className="text-sm font-semibold uppercase tracking-wider mb-6" style={{ color: '#15803d' }}>
+          {/* Dopo — accento azzurro piatto (la soluzione è il brand) */}
+          <div className="rounded-2xl p-8" style={{ background: 'var(--accent-light)', border: '1px solid var(--accent)' }}>
+            <p className="text-sm font-semibold uppercase tracking-wider mb-6" style={{ color: 'var(--accent)' }}>
               Con Fibonacci
             </p>
             <ul className="space-y-4">
               {AFTER.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-0.5">
-                    <Check className="w-3 h-3" style={{ color: '#15803d' }} />
+                  <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5" style={{ background: 'var(--card)' }}>
+                    <Check className="w-3 h-3" style={{ color: 'var(--accent)' }} />
                   </div>
                   <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>{item}</span>
                 </li>

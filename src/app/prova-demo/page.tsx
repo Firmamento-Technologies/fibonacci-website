@@ -202,7 +202,7 @@ export default function ProvaDemoPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-4 rounded-xl text-base font-semibold transition-opacity hover:opacity-90"
-              style={{ background: '#f0d27a', color: 'var(--fg)' }}
+              style={{ background: 'var(--fg)', color: '#fff' }}
             >
               <Sparkles className="w-5 h-5" />
               Avvia demo live

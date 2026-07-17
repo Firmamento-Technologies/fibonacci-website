@@ -5,31 +5,31 @@ import { FibonacciPattern } from '@/components/FibonacciPattern'
 const CONSENSI_HIGHLIGHTS = [
   {
     icon: Sparkles,
-    title: 'AI generativa con catalogo 30 procedure',
+    title: 'Generati dall’AI, conformi alla norma',
     body:
-      "Selezioni il trattamento e l'AI compone in 12 secondi un consenso conforme L. 219/2017 con 8 sezioni: identificazione paziente, descrizione clinica, benefici, rischi, alternative, conseguenze del rifiuto, conferma comprensione, firma.",
-    detail: 'Mistral Small 3.2 24B',
+      "Selezioni il trattamento e l'AI compone in pochi secondi un consenso conforme alla L. 219/2017, con tutte le sezioni obbligatorie: descrizione, benefici, rischi, alternative, conseguenze del rifiuto, conferma di comprensione e firma.",
+    detail: 'Conforme L. 219/2017',
   },
   {
     icon: BookOpen,
-    title: 'Library clausole PA italiane (anti-allucinazione)',
+    title: 'Ancorati a fonti pubbliche italiane',
     body:
-      "72 clausole giuridiche estratte da 5 fonti della Pubblica Amministrazione (Lazio 2022, Lombardia, ASL Alessandria, AO Cosenza, Emilia-Romagna): testi nel pubblico dominio per L. 633/1941 art. 5. RAG-anchored, non inventati.",
-    detail: 'RAG + 5 fonti PA',
+      "Ogni paragrafo è ancorato a clausole tratte da documenti pubblici della sanità italiana (Regione Lazio, Lombardia, Emilia-Romagna, ASL e aziende ospedaliere): testi reali e verificati, non inventati dall'AI.",
+    detail: 'Testi reali, non inventati',
   },
   {
     icon: ShieldCheck,
-    title: 'Confidence scoring per sezione',
+    title: 'Validati sezione per sezione',
     body:
-      "Ogni sezione del consenso ottiene un punteggio 0.0-1.0 calcolato su lunghezza, presenza di citazioni normative e ancoraggio alla library. Sotto 0.7 il sistema obbliga la review medica prima di salvare.",
-    detail: 'Validators Python',
+      "Ogni sezione riceve un controllo di qualità su completezza, riferimenti normativi e ancoraggio alle fonti. Quando il controllo non è pieno, il sistema chiede la revisione del medico prima di procedere.",
+    detail: 'Il medico rivede sempre',
   },
   {
     icon: Activity,
-    title: 'Audit FHIR + firma eIDAS PDF/A-3b',
+    title: 'Firma con valore legale, conservazione a norma',
     body:
-      "Ogni generazione e firma producono AuditEvent FHIR R4 immutabili. Firma elettronica avanzata via OTP paziente, valore legale Reg. UE 910/2014. Output PDF/A-3b conservazione decennale (CAD art. 44).",
-    detail: 'FHIR + eIDAS',
+      "Il consenso si firma elettronicamente con valore legale e viene conservato in un formato a norma per l'archiviazione a lungo termine. Ogni generazione e ogni firma restano tracciate.",
+    detail: 'Firma + conservazione',
   },
 ] as const
 
@@ -40,7 +40,7 @@ export function ConsensiFeature() {
       style={{ background: 'var(--bg)' }}
       id="consensi"
     >
-      <FibonacciPattern size={620} opacity={0.04} align="top-right" color="#7d6638" />
+      <FibonacciPattern size={620} opacity={0.04} align="top-right" color="#0b699f" />
       <div className="max-w-6xl mx-auto px-6 relative">
         <div className="text-center mb-14">
           <div
@@ -59,7 +59,7 @@ export function ConsensiFeature() {
           <p className="text-base max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
             Generazione automatica di consensi conformi L. 219/2017 partendo dal
             catalogo procedure. Ogni paragrafo è ancorato a fonti pubbliche
-            italiane, validato sezione per sezione e tracciato in audit FHIR.
+            italiane, validato sezione per sezione e sempre tracciato.
           </p>
         </div>
 
@@ -100,14 +100,14 @@ export function ConsensiFeature() {
           style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
         >
           {[
-            { num: '100+', label: 'modelli in catalogo (v0.1 bozza, da validare)' },
-            { num: '72', label: 'clausole PA italiane verificate' },
-            { num: '8', label: 'sezioni obbligatorie validate' },
-            { num: '0', label: 'consensi salvati senza review medica' },
+            { num: '72', label: 'clausole da documenti pubblici italiani' },
+            { num: '8', label: 'sezioni obbligatorie in ogni consenso' },
+            { num: 'L. 219/2017', label: 'la norma di riferimento sul consenso' },
+            { num: 'Sempre', label: 'revisione del medico prima di salvare' },
           ].map((item) => (
             <div key={item.label} className="text-center">
               <p
-                className="font-[var(--font-playfair)] text-3xl font-bold mb-1"
+                className="font-[family-name:var(--font-geist)] tracking-[-0.02em] text-3xl font-semibold mb-1"
                 style={{ color: 'var(--fg)' }}
               >
                 {item.num}

@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #fafaf8;
-  --fg: #1b2e4b;
-  --accent: #7d6638;  /* scurito per WCAG AA contrast 5.6:1 su --bg/--card (era #b09255 -> 2.96:1) */
-  --accent-light: #f0e6d3;
-  --muted: #56657a;  /* contrast 4.62:1 su --bg (WCAG AA) */
-  --border: #e8e4dd;
+  /* Sistema unico BIANCO + AZZURRO condiviso con l'app EMR (redesign 2026-07-16).
+     Azzurro = UNICO accento (#0b699f, hue 242 azure desaturato); oro/terracotta
+     RITIRATI. Profondità da superfici a tono diverso + filetti, mai gradienti.
+     Valori verificati WCAG AA (testo ≥4.5:1). */
+  --bg: #f6f9fc;            /* bianco freddissimo (superficie pagina) */
+  --fg: #172a3e;            /* inchiostro navy */
+  --accent: #0b699f;        /* azzurro — 5.6:1 su --bg, 5.9:1 su --card (era oro #7d6638) */
+  --accent-light: #e6f2fb;  /* azzurro pallido (era #f0e6d3 oro chiaro) */
+  --muted: #51616f;         /* 6.0:1 su --bg (WCAG AA) */
+  --border: #e2e8ee;        /* filetto azzurro-freddo (era caldo #e8e4dd) */
   --card: #ffffff;
 }
 
@@ -19,8 +23,22 @@
   --color-card: var(--card);
 }
 
+/* Tutto-sans Geist: le var legacy puntano a Geist (definita da next/font su
+   <html>). Ogni `var(--font-playfair)` / `var(--font-inter)` già presente nei
+   componenti rende così Geist → nessun serif residuo, senza toccare 28 file. */
+:root {
+  --font-inter: var(--font-geist), system-ui, -apple-system, sans-serif;
+  --font-playfair: var(--font-geist), system-ui, -apple-system, sans-serif;
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+body { font-family: var(--font-geist), system-ui, -apple-system, sans-serif; }
+
+/* Gerarchia titoli senza contrasto serif/sans: tracking stretto alle misure
+   grandi (le utility Tailwind tracking-* nei componenti vincono per specificità). */
+h1, h2 { letter-spacing: -0.025em; }
+h3 { letter-spacing: -0.02em; }
 
 html, body {
   background: var(--bg);
@@ -98,7 +116,7 @@ h1, h2, h3 {
 .aurora-blob-2 {
   width: 360px;
   height: 360px;
-  background: #f5e8e7;
+  background: #dceefd;
   bottom: -120px;
   left: -100px;
   animation: aurora-float-2 55s ease-in-out infinite;

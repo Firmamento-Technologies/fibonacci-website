@@ -230,7 +230,7 @@ export function DemoForm() {
           {isAmbassador ? (
             <p
               className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider mb-3 px-3 py-1 rounded-full"
-              style={{ color: '#f0d27a', background: 'rgba(240,210,122,0.12)' }}
+              style={{ color: '#0b699f', background: 'rgba(11,105,159,0.10)' }}
             >
               <Award className="w-3.5 h-3.5" />
               Candidatura Ambassador
@@ -238,7 +238,7 @@ export function DemoForm() {
           ) : (
             <p
               className="text-sm font-semibold uppercase tracking-wider mb-3"
-              style={{ color: '#f0d27a' }}
+              style={{ color: '#0b699f' }}
             >
               Inizia adesso
             </p>
@@ -259,9 +259,9 @@ export function DemoForm() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs mb-6"
               style={{ background: 'rgba(168,91,83,0.15)', border: '1px solid rgba(168,91,83,0.35)' }}
             >
-              <Sparkles className="w-3.5 h-3.5" style={{ color: '#f0d27a' }} />
+              <Sparkles className="w-3.5 h-3.5" style={{ color: '#0b699f' }} />
               <span style={{ color: 'rgba(255,255,255,0.85)' }}>
-                Sei stato segnalato da Ambassador <strong style={{ color: '#f0d27a' }}>{refCode}</strong>
+                Sei stato segnalato da Ambassador <strong style={{ color: '#0b699f' }}>{refCode}</strong>
               </span>
             </div>
           )}

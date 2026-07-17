@@ -14,23 +14,12 @@ export default async function OGImage() {
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          background: '#fafaf8',
+          background: '#ffffff',
           padding: '80px',
-          fontFamily: 'serif',
+          fontFamily: 'sans-serif',
           position: 'relative',
         }}
       >
-        <div
-          style={{
-            position: 'absolute',
-            top: 0,
-            right: 0,
-            width: '700px',
-            height: '700px',
-            background:
-              'radial-gradient(circle at 70% 30%, rgba(196, 115, 107, 0.18) 0%, transparent 60%)',
-          }}
-        />
         <div
           style={{
             display: 'flex',
@@ -81,7 +70,7 @@ export default async function OGImage() {
             display: 'flex',
           }}
         >
-          Dettatura AI, consensi inclusi, GDPR by design, FHIR R4.
+          Dettatura AI, consensi inclusi, GDPR by design.
         </div>
         <div
           style={{
@@ -99,9 +88,9 @@ export default async function OGImage() {
                 fontSize: '18px',
                 padding: '8px 16px',
                 borderRadius: '999px',
-                background: 'white',
-                border: '1px solid #e8e4dd',
-                color: '#6b7a8d',
+                background: '#f6f9fc',
+                border: '1px solid #e2e8ee',
+                color: '#51616f',
                 display: 'flex',
               }}
             >

@@ -53,29 +53,14 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      {/* Soft gradient radial specialty-tinted - statico, transition smooth */}
-      <div
-        className="absolute inset-0 pointer-events-none transition-all duration-700"
-        style={{
-          background: `radial-gradient(ellipse 65% 50% at 70% 10%, ${selected.accent} 0%, transparent 60%)`,
-        }}
-        aria-hidden="true"
-      />
-
-      {/* Spirale Fibonacci sottile in alto a destra - firma brand */}
+      {/* Firma brand: UNA spirale Fibonacci sottile in alto a destra (azzurro
+          piatto, non un gradiente). La profondità viene dallo spazio bianco e
+          dalla texture a punti, non da sfumature — coerente con l'anti-AI. */}
       <div
         className="absolute top-0 right-0 w-[500px] h-[500px] -translate-y-1/4 translate-x-1/4 pointer-events-none"
         aria-hidden="true"
       >
         <SpiralDecor color={selected.color} opacity={0.06} />
-      </div>
-
-      {/* Spirale Fibonacci secondaria piccola in basso a sinistra */}
-      <div
-        className="absolute bottom-0 left-0 w-[260px] h-[260px] translate-y-1/3 -translate-x-1/3 rotate-180 pointer-events-none"
-        aria-hidden="true"
-      >
-        <SpiralDecor color={selected.color} opacity={0.03} />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 pt-20 lg:pt-24 pb-20 flex-1">
@@ -90,7 +75,7 @@ export function Hero() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all hover:opacity-90"
               style={{ background: selected.accent, color: 'var(--fg)', border: `1.5px solid ${selected.color}66` }}
             >
-              <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: selected.color }} />
+              <div className="w-2 h-2 rounded-full" style={{ background: selected.color }} />
               {selected.label}
               <ChevronDown className="w-4 h-4" />
             </button>
@@ -126,7 +111,7 @@ export function Hero() {
 
           {/* Headline fisso — nessun selettore embedded, zero problemi di wrap */}
           <h1
-            className="font-[var(--font-playfair)] text-[2rem] sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-[1.1] mb-5 break-words"
+            className="font-[family-name:var(--font-geist)] tracking-[-0.03em] text-[2rem] sm:text-4xl md:text-5xl lg:text-[3.5rem] font-semibold leading-[1.08] mb-5 break-words"
             style={{ color: 'var(--fg)' }}
           >
             <AnimatePresence mode="wait">
@@ -170,7 +155,7 @@ export function Hero() {
               style={{ background: selected.accent, border: `1px solid ${selected.color}22` }}
             >
               <span
-                className="text-2xl font-bold font-[var(--font-playfair)]"
+                className="text-2xl font-semibold font-[family-name:var(--font-geist)] tracking-[-0.02em]"
                 style={{ color: 'var(--fg)' }}
               >
                 {selected.heroStat.value}
@@ -196,8 +181,8 @@ export function Hero() {
             </a>
             <a
               href="#demo"
-              className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-colors backdrop-blur-sm"
-              style={{ color: 'var(--fg)', border: '1.5px solid var(--border)', background: 'rgba(255,255,255,0.4)' }}
+              className="inline-flex items-center gap-2 px-5 py-3.5 rounded-lg text-sm font-semibold transition-colors hover:bg-[var(--accent-light)]"
+              style={{ color: 'var(--fg)', border: '1px solid var(--border)', background: 'var(--card)' }}
             >
               <Play className="w-3.5 h-3.5" />
               Richiedi demo guidata
@@ -230,7 +215,7 @@ export function Hero() {
                 className="absolute -bottom-4 -left-4 px-4 py-2.5 rounded-xl shadow-lg text-sm font-semibold flex items-center gap-2"
                 style={{ background: 'var(--card)', border: '1px solid var(--border)', color: 'var(--fg)' }}
               >
-                <span>GDPR · FHIR R4 · Dati in UE</span>
+                <span>Conforme GDPR · Dati cifrati in UE</span>
               </motion.div>
 
               {/* Badge floating specialty */}

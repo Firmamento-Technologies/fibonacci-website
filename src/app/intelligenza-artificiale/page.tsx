@@ -350,7 +350,7 @@ export default function IntelligenzaArtificialePage() {
             <Link
               href="/#demo"
               className="inline-flex items-center gap-2 px-6 py-4 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
-              style={{ background: '#f0d27a', color: 'var(--fg)' }}
+              style={{ background: 'var(--fg)', color: '#fff' }}
             >
               Richiedi demo gratuita
               <ArrowRight className="w-4 h-4" />

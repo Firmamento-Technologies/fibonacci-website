@@ -23,7 +23,7 @@ const SCREENS: Screen[] = [
   {
     src: assetPath('/screenshots/estetica/02-paziente-detail.png'),
     title: 'Cartella paziente',
-    body: 'Anagrafica, anamnesi, foto cliniche cifrate, trattamenti, consensi. Tutto FHIR R4 nativo.',
+    body: 'Anagrafica, anamnesi, foto cliniche cifrate, trattamenti, consensi. Tutto in un\'unica cartella, sempre esportabile.',
     icon: Users,
   },
   {
@@ -41,7 +41,7 @@ const SCREENS: Screen[] = [
   {
     src: assetPath('/screenshots/estetica/07-audit-log.png'),
     title: 'Audit log immutabile',
-    body: 'Ogni accesso e modifica tracciata in hash-chain FHIR. Esportabile per richieste Garante.',
+    body: 'Ogni accesso e modifica è tracciato e immutabile. Esportabile per le richieste del Garante.',
     icon: Shield,
   },
   {

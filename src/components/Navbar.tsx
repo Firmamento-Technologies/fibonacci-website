@@ -20,14 +20,20 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'liquid-glass' : ''}`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={
         scrolled
-          ? {}
+          ? {
+              // Barra piena bianca + filetto 1px (niente liquid-glass): la
+              // separazione viene dal bordo e da un'ombra minima, non dal blur.
+              background: 'var(--card)',
+              borderBottom: '1px solid var(--border)',
+              boxShadow: '0 1px 2px rgba(23, 42, 62, 0.04)',
+            }
           : {
               background: 'transparent',
               backdropFilter: 'none',
-              borderBottom: 'none',
+              borderBottom: '1px solid transparent',
               boxShadow: 'none',
             }
       }

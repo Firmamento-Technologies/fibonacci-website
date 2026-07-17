@@ -127,12 +127,12 @@ export function WebsiteChatbot() {
             className="fixed bottom-5 right-5 z-50 flex items-center gap-2 pl-4 pr-5 py-3 rounded-full text-sm font-semibold text-white shadow-2xl transition-transform hover:scale-105"
             style={{ background: 'var(--fg)' }}
           >
-            <Sparkles className="w-4 h-4" style={{ color: '#f0d27a' }} />
+            <Sparkles className="w-4 h-4" style={{ color: '#8bc3ee' }} />
             <span className="hidden sm:inline">Chiedi all&apos;AI</span>
             <span className="sm:hidden">AI</span>
             <span
-              className="ml-1 w-2 h-2 rounded-full animate-pulse"
-              style={{ background: '#f0d27a' }}
+              className="ml-1 w-2 h-2 rounded-full"
+              style={{ background: '#8bc3ee' }}
               aria-hidden="true"
             />
           </motion.button>
@@ -162,12 +162,12 @@ export function WebsiteChatbot() {
                   className="w-8 h-8 rounded-full flex items-center justify-center"
                   style={{ background: 'rgba(240, 210, 122, 0.2)' }}
                 >
-                  <Sparkles className="w-4 h-4" style={{ color: '#f0d27a' }} />
+                  <Sparkles className="w-4 h-4" style={{ color: '#8bc3ee' }} />
                 </div>
                 <div>
                   <p className="text-sm font-semibold">Assistente Fibonacci</p>
                   <p className="text-[10px]" style={{ color: 'rgba(255,255,255,0.7)' }}>
-                    Powered by Mistral AI
+                    Risponde con l’AI
                   </p>
                 </div>
               </div>

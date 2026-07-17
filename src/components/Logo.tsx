@@ -55,7 +55,7 @@ export function FibonacciWordmark({ className = '' }: { className?: string }) {
   return (
     <span
       className={`font-semibold tracking-tight ${className}`}
-      style={{ fontFamily: 'var(--font-playfair)', letterSpacing: '-0.01em' }}
+      style={{ fontFamily: 'var(--font-geist)', letterSpacing: '-0.02em' }}
     >
       Fibonacci
     </span>

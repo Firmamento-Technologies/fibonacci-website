@@ -255,12 +255,12 @@ export function SpecialtyPage({ specialty }: { specialty: Specialty }) {
               {
                 icon: ShieldCheck,
                 title: 'GDPR by design',
-                body: 'Dati cifrati AES-256, server in Germania, audit log immutabile FHIR, MFA TOTP. Compliance integrata, non incollata sopra.',
+                body: 'Dati cifrati, server in Germania, registro accessi immutabile, accesso a due fattori. Conformità integrata, non incollata sopra.',
               },
               {
                 icon: Zap,
                 title: 'Dettatura AI',
-                body: 'Parli durante la visita, la cartella si compila in tempo reale con Voxtral. Apply-to-form sui campi strutturati con confidence score.',
+                body: 'Parli durante la visita, la cartella si compila in tempo reale. L\'AI estrae i campi dell\'anamnesi e tu li confermi.',
               },
               {
                 icon: Sparkles,

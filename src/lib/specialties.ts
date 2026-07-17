@@ -21,8 +21,8 @@ export const SPECIALTIES: Specialty[] = [
     id: 'estetica',
     name: 'Fibonacci Estetica',
     label: 'Medicina Estetica',
-    color: '#a85b53',
-    accent: '#f5e8e7',
+    color: '#0b699f',
+    accent: '#e6f2fb',
     tagline: 'Body map, consensi informati e dettatura AI. La visita documentata in 3 minuti.',
     screenshot: '/screenshots/estetica.png',
     features: [

@@ -12,7 +12,7 @@ interface NewsletterFormProps {
 export function NewsletterForm({
   variant = 'card',
   title = 'Guide pratiche per medici italiani',
-  body = 'Risorse GDPR, FHIR, AI clinica. Una email ogni due settimane, niente spam.',
+  body = 'Risorse su privacy, conformità e AI in clinica. Una email ogni due settimane, niente spam.',
 }: NewsletterFormProps) {
   const [email, setEmail] = useState('')
   const [sent, setSent] = useState(false)

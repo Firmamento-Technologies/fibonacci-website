@@ -145,7 +145,7 @@ export default function ConsensiInformatiPage() {
       <main>
         {/* Hero */}
         <section className="pt-32 pb-20 relative overflow-hidden" style={{ background: 'var(--bg)' }}>
-          <FibonacciPattern size={680} opacity={0.05} align="top-right" color="#7d6638" />
+          <FibonacciPattern size={680} opacity={0.05} align="top-right" color="#0b699f" />
           <div className="max-w-5xl mx-auto px-6 relative">
             <div
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"

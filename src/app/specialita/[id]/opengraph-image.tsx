@@ -24,24 +24,12 @@ export default async function Image({ params }: { params: { id: string } }) {
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          background: '#fafaf8',
+          background: '#ffffff',
           padding: '80px',
-          fontFamily: 'serif',
+          fontFamily: 'sans-serif',
           position: 'relative',
         }}
       >
-        {/* Background gradient specialty-tinted */}
-        <div
-          style={{
-            position: 'absolute',
-            top: 0,
-            right: 0,
-            width: '900px',
-            height: '900px',
-            background: `radial-gradient(circle at 75% 25%, ${specialty.color}28 0%, transparent 60%)`,
-          }}
-        />
-
         {/* Brand row */}
         <div
           style={{
@@ -150,10 +138,10 @@ export default async function Image({ params }: { params: { id: string } }) {
             left: '80px',
             display: 'flex',
             fontSize: '20px',
-            color: '#6b7a8d',
+            color: '#51616f',
           }}
         >
-          fibonacci.it/specialita/{specialty.id}
+          Fibonacci · {specialty.label}
         </div>
       </div>
     ),

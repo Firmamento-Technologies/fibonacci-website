@@ -7,36 +7,36 @@ const AI_FEATURES = [
     icon: Mic,
     title: 'Dettatura clinica in tempo reale',
     body:
-      'Voxtral 24B di Mistral AI trascrive la tua voce mentre visiti il paziente. Le parole appaiono in tempo reale, partial in grigio e finali in nero. Accuratezza 95-98% sull\'italiano medico clinico.',
-    detail: 'Mistral Voxtral 24B',
+      'Parli mentre visiti il paziente e le tue parole diventano testo all\'istante. La nota si scrive da sé, ottimizzata per il linguaggio medico italiano.',
+    detail: 'Voce → testo',
   },
   {
     icon: Sparkles,
-    title: 'Estrazione strutturata con confidence',
+    title: 'Anamnesi assistita, campo per campo',
     body:
-      'L\'AI legge la tua dettatura e propone i campi anamnesi (allergie, farmaci, patologie, familiarità) con punteggio di confidenza per ogni campo. Tu approvi, modifichi o ignori prima del salvataggio.',
-    detail: 'Apply-to-form ML',
+      'L\'AI rilegge la dettatura e propone i campi dell\'anamnesi — allergie, farmaci, patologie, familiarità. Tu approvi, correggi o ignori prima di salvare.',
+    detail: 'Proposta, mai imposta',
   },
   {
     icon: MessageCircle,
-    title: 'Chatbot clinico in-app',
+    title: 'Assistente clinico in-app',
     body:
-      'Il widget "Chiedi all\'AI" risponde a domande sul paziente corrente o sui workflow Fibonacci: cerca per sintomo, confronta visite, suggerisce template anamnesi della tua specialità.',
-    detail: 'Context-aware assistant',
+      'Un assistente sempre a portata di clic: cerca un paziente per sintomo, confronta visite, suggerisce i modelli di anamnesi della tua specialità.',
+    detail: 'Sempre a portata',
   },
   {
     icon: ShieldCheck,
     title: 'AI responsabile, mai automatica',
     body:
-      'L\'AI propone, il medico decide. Nessun output AI viene salvato in cartella senza approvazione esplicita. Audit log traccia ogni interazione AI. Conformità RF-5.4: strumento di supporto, non dispositivo medico MDR.',
-    detail: 'Compliance RF-5.4',
+      'L\'AI propone, il medico decide. Nessun contenuto entra in cartella senza la tua approvazione, e ogni intervento dell\'AI resta tracciato. È uno strumento di supporto, non un dispositivo medico.',
+    detail: 'Il medico firma',
   },
 ] as const
 
 export function AIFeatures() {
   return (
     <section className="py-24 relative overflow-hidden" style={{ background: 'var(--card)' }} id="ai">
-      <FibonacciPattern size={700} opacity={0.05} align="bottom-left" color="#7d6638" />
+      <FibonacciPattern size={700} opacity={0.05} align="bottom-left" color="#0b699f" />
       <div className="max-w-6xl mx-auto px-6 relative">
         <div className="text-center mb-14">
           <div
@@ -96,13 +96,13 @@ export function AIFeatures() {
           style={{ background: 'var(--bg)', border: '1px solid var(--border)' }}
         >
           {[
-            { num: '0', label: 'output AI salvati senza approvazione' },
-            { num: '100%', label: 'tracciato in audit log FHIR' },
-            { num: 'EU', label: 'modelli ospitati in UE (Mistral Francia)' },
+            { num: 'Sempre', label: 'il medico approva prima di salvare' },
+            { num: 'Tracciata', label: 'ogni interazione con l’AI è registrata' },
+            { num: 'UE', label: 'modelli AI ospitati in Europa' },
           ].map((item) => (
             <div key={item.label} className="text-center">
               <p
-                className="font-[var(--font-playfair)] text-3xl font-bold mb-1"
+                className="font-[family-name:var(--font-geist)] tracking-[-0.02em] text-3xl font-semibold mb-1"
                 style={{ color: 'var(--fg)' }}
               >
                 {item.num}

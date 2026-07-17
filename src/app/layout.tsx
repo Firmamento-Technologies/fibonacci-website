@@ -1,11 +1,14 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Geist } from 'next/font/google'
 import { OrganizationSchema, SoftwareApplicationSchema, MedicalBusinessSchema } from '@/components/StructuredData'
 import { WebsiteChatbot } from '@/components/WebsiteChatbot'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
+// Sistema tutto-sans (redesign 2026-07-16): NIENTE serif nei titoli. Geist
+// (grotesque con carattere) per titoli + UI + corpo; gerarchia via peso/size/
+// spazio. Le var legacy --font-inter / --font-playfair sono aliasate a Geist in
+// globals.css, così ogni riferimento esistente rende Geist (zero serif residuo).
+const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://firmamento-technologies.github.io/fibonacci-website'
 const SITE_NAME = 'Fibonacci'
@@ -14,8 +17,8 @@ const SITE_DESCRIPTION =
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#a85b53' },
-    { media: '(prefers-color-scheme: dark)', color: '#7d3530' },
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#0a1016' },
   ],
   width: 'device-width',
   initialScale: 1,
@@ -83,13 +86,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="it" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="it" className={geist.variable}>
       <head>
         <OrganizationSchema />
         <SoftwareApplicationSchema />
         <MedicalBusinessSchema />
       </head>
-      <body className="min-h-screen flex flex-col font-[var(--font-inter)]">
+      <body className="min-h-screen flex flex-col font-[family-name:var(--font-geist)]">
         {children}
         <WebsiteChatbot />
       </body>

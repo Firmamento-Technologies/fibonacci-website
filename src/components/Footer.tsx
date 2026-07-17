@@ -175,7 +175,7 @@ export function Footer() {
             © 2026 Fibonacci · Tutti i diritti riservati
           </p>
           <div className="flex items-center gap-4">
-            {['Dati in EU', 'HL7 FHIR R4', 'GDPR'].map((badge) => (
+            {['Dati in UE', 'Conservazione a norma', 'GDPR'].map((badge) => (
               <span
                 key={badge}
                 className="text-xs px-2.5 py-1 rounded-full"

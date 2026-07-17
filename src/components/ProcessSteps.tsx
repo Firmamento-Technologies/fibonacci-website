@@ -7,7 +7,7 @@ const STEPS = [
     icon: UserPlus,
     title: 'Registra il paziente',
     body:
-      'Anagrafica completa in meno di un minuto. Codice fiscale, contatti, foto profilo. La pratica è creata e indicizzata FHIR R4 dal primo dato inserito.',
+      'Anagrafica completa in meno di un minuto. Codice fiscale, contatti, foto profilo. La cartella è pronta e ricercabile dal primo dato inserito.',
     detail: 'tempo medio 45 secondi',
     photo: APP_SCREENSHOTS.pazientiList,
     photoAlt: 'Schermata Pazienti di Fibonacci con elenco anagrafiche e ricerca per cognome',
@@ -16,7 +16,7 @@ const STEPS = [
     icon: Mic,
     title: 'Compila l\'anamnesi con la voce',
     body:
-      'Parli durante la visita, la cartella si compila in tempo reale. Voxtral trascrive ed estrae i campi strutturati. Apply-to-form con confidence score per ogni campo.',
+      'Parli durante la visita, la cartella si compila in tempo reale. L\'AI trascrive ed estrae i campi dell\'anamnesi: tu li confermi con un tocco.',
     detail: 'parli, lui scrive',
     photo: APP_SCREENSHOTS.pazienteDetail,
     photoAlt: 'Schermata dettaglio paziente di Fibonacci con anamnesi e dettatura AI',
@@ -25,7 +25,7 @@ const STEPS = [
     icon: FileSignature,
     title: 'Documenta visita e genera consenso',
     body:
-      'Body map 2D per le aree trattate, catalogo farmaci AIFA per i prodotti, foto cliniche cifrate AES-256. Consenso informato generato in PDF e firmato digitalmente.',
+      'Body map per le aree trattate, catalogo farmaci AIFA per i prodotti, foto cliniche cifrate. Consenso informato generato in PDF e firmato digitalmente.',
     detail: '115 modelli consenso pronti',
     photo: APP_SCREENSHOTS.consensiCatalog,
     photoAlt: 'Catalogo Consensi Fibonacci con 115 modelli pronti suddivisi per categoria',
@@ -34,10 +34,10 @@ const STEPS = [
     icon: BarChart3,
     title: 'Storico e follow-up',
     body:
-      'Timeline paziente, audit log immutabile FHIR, agenda per i richiami. Export ZIP FHIR R4 in qualsiasi momento, portabilità garantita ex art. 20 GDPR.',
-    detail: 'audit log immutabile',
+      'Timeline del paziente, registro accessi immutabile, agenda per i richiami. Esporti tutti i dati quando vuoi: portabilità garantita dal GDPR.',
+    detail: 'registro accessi immutabile',
     photo: APP_SCREENSHOTS.auditLog,
-    photoAlt: 'Audit log FHIR Fibonacci con cronologia immutabile delle azioni',
+    photoAlt: 'Registro accessi Fibonacci con cronologia immutabile delle azioni',
   },
 ] as const
 

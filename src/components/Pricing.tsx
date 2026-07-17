@@ -49,7 +49,7 @@ export function Pricing() {
           <p className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: 'var(--accent)' }}>
             Prezzi
           </p>
-          <h2 className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4" style={{ color: 'var(--fg)' }}>
+          <h2 className="font-[family-name:var(--font-geist)] tracking-[-0.02em] text-3xl md:text-4xl font-bold mb-4" style={{ color: 'var(--fg)' }}>
             Prezzi semplici, niente sorprese
           </h2>
           <p className="text-base" style={{ color: 'var(--muted)' }}>
@@ -73,7 +73,7 @@ export function Pricing() {
                   className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full text-[10px] font-bold text-white whitespace-nowrap"
                   style={{ background: 'var(--accent)' }}
                 >
-                  PIÙ SCELTO
+                  CONSIGLIATO
                 </div>
               )}
 
@@ -86,7 +86,7 @@ export function Pricing() {
                 </p>
                 <div className="flex items-end gap-1.5 mb-2">
                   <span
-                    className="font-[var(--font-playfair)] text-5xl font-bold"
+                    className="font-[family-name:var(--font-geist)] tracking-[-0.02em] text-5xl font-bold"
                     style={{ color: plan.highlighted ? 'white' : 'var(--fg)' }}
                   >
                     €{plan.price}
@@ -139,7 +139,7 @@ export function Pricing() {
         </div>
 
         <p className="text-center text-xs mt-10" style={{ color: 'var(--muted)' }}>
-          IVA esclusa · Fattura elettronica inclusa · 100% deducibile come spesa professionale
+          IVA esclusa · Fattura elettronica inclusa · Spesa deducibile per la tua attività
         </p>
       </div>
     </section>
