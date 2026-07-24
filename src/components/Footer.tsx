@@ -6,6 +6,7 @@ import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 import { NewsletterForm } from '@/components/NewsletterForm'
 
 const PRODUCT_LINKS = [
+  { label: 'Segretaria AI', href: '/segreteria', external: false },
   { label: 'Come funziona', href: '/#come-funziona', external: false },
   { label: 'Intelligenza Artificiale', href: '/intelligenza-artificiale', external: false },
   { label: 'Consensi informati', href: '/consensi-informati', external: false },

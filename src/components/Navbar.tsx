@@ -105,6 +105,13 @@ export function Navbar() {
           </div>
 
           <Link
+            href="/segreteria"
+            className="text-sm font-semibold transition-colors"
+            style={{ color: 'var(--accent)' }}
+          >
+            Segretaria AI
+          </Link>
+          <Link
             href="/#come-funziona"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
@@ -213,6 +220,14 @@ export function Navbar() {
                 </Link>
               ))}
               <div className="pt-3 border-t flex flex-col gap-2" style={{ borderColor: 'var(--border)' }}>
+                <Link
+                  href="/segreteria"
+                  className="text-sm font-semibold py-1"
+                  style={{ color: 'var(--accent)' }}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Segretaria AI per studi medici
+                </Link>
                 <a
                   href={DEMO_URL}
                   target="_blank"
