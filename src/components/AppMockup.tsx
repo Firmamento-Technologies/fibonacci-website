@@ -325,7 +325,10 @@ export function AppMockup({ specialty }: { specialty: Specialty }) {
           className="flex-1 mx-4 px-3 py-1 rounded-md text-xs font-mono"
           style={{ background: 'rgba(255,255,255,0.7)', color: 'var(--muted)' }}
         >
-          app.fibonacci.it/{specialty.id}/paziente
+          {/* Niente dominio inventato in vetrina: `fibonacci.it` e' di terzi dal 2003
+              ([[decisione-dominio-brand]]). Si mostra il contesto, non un indirizzo
+              che non possiamo usare. */}
+          Fibonacci · cartella di Maria Rossi
         </div>
       </div>
 

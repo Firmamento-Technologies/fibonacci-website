@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { ExternalLink } from 'lucide-react'
-import { SPECIALTIES } from '@/lib/specialties'
 import { APP_URL, FIRMAMENTO } from '@/lib/site-config'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 import { NewsletterForm } from '@/components/NewsletterForm'
@@ -50,7 +49,7 @@ export function Footer() {
               <FibonacciWordmark className="text-sm" />
             </div>
             <p className="text-xs leading-relaxed mb-4" style={{ color: 'var(--muted)' }}>
-              La cartella clinica specialistica per medici italiani. GDPR by design. Dati in EU.
+              La cartella clinica per la medicina estetica. Dati e backup su server europei.
             </p>
             <div
               className="text-[10px] leading-relaxed pt-3 border-t"
@@ -76,28 +75,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Specialità */}
-          <div>
-            <p
-              className="text-xs font-semibold uppercase tracking-wider mb-4"
-              style={{ color: 'var(--fg)' }}
-            >
-              Specialità
-            </p>
-            <ul className="space-y-2">
-              {SPECIALTIES.map((s) => (
-                <li key={s.id}>
-                  <Link
-                    href={`/specialita/${s.id}`}
-                    className="text-xs transition-colors hover:underline"
-                    style={{ color: 'var(--muted)' }}
-                  >
-                    {s.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+
 
           {/* Prodotto */}
           <div>
@@ -176,7 +154,7 @@ export function Footer() {
             © 2026 Fibonacci · Tutti i diritti riservati
           </p>
           <div className="flex items-center gap-4">
-            {['Dati in UE', 'Conservazione a norma', 'GDPR'].map((badge) => (
+            {['Dati in UE', 'Accessi tracciati', 'GDPR'].map((badge) => (
               <span
                 key={badge}
                 className="text-xs px-2.5 py-1 rounded-full"

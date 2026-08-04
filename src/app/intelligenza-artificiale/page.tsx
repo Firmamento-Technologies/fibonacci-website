@@ -273,8 +273,8 @@ export default function IntelligenzaArtificialePage() {
             </h2>
             <div className="flex flex-col gap-4 text-base leading-relaxed" style={{ color: 'var(--fg)' }}>
               <p>
-                <strong>Non emette diagnosi.</strong> Nessun output AI dice "questo paziente
-                ha X". L&apos;AI trascrive, struttura, suggerisce template, ma la diagnosi
+                <strong>Non emette diagnosi.</strong> Nessun output AI dice &laquo;questo paziente
+                ha X&raquo;. L&apos;AI trascrive, struttura, suggerisce template, ma la diagnosi
                 è atto medico esclusivo del professionista.
               </p>
               <p>

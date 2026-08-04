@@ -14,7 +14,7 @@ import { VerifierUpload } from './VerifierUpload'
 export const metadata: Metadata = {
   title: 'Verifica firma consenso · Fibonacci',
   description:
-    'Verifica la validità di un consenso informato firmato con Fibonacci EMR: firma elettronica eIDAS art. 26, timestamp PDF/A-3b, hash chain immutabile. Tool pubblico gratuito.',
+    'Verifica cosa contiene davvero un consenso informato firmato con Fibonacci: firma del paziente, riferimento temporale, impronta del documento. Analisi nel browser, nessuna registrazione.',
   alternates: { canonical: '/verify' },
 }
 
@@ -68,6 +68,23 @@ export default function VerifyPage() {
           <p className="text-base max-w-2xl" style={{ color: 'var(--muted)' }}>
             Carica un PDF di consenso firmato con Fibonacci EMR. Il browser legge i metadati embedded
             (XMP + signature info) senza inviare nulla a server esterni.
+          </p>
+          {/* Trasparenza sullo stadio del prodotto: la firma QUALIFICATA (FEQ) dipende
+              dal KYC presso il prestatore di servizi fiduciari, non ancora completato.
+              Il tool riporta ciò che il singolo documento contiene davvero — non promette
+              una garanzia che il flusso non produce ancora. */}
+          <p
+            className="text-sm max-w-2xl mt-5 rounded-xl px-4 py-3"
+            style={{
+              color: 'var(--fg)',
+              background: 'var(--accent-light)',
+              border: '1px solid var(--border)',
+            }}
+          >
+            <strong>Dove siamo oggi.</strong> Fibonacci è in fase di pilota: la{' '}
+            <strong>firma qualificata (FEQ)</strong> non è ancora attiva. Questo strumento riporta
+            ciò che il documento caricato contiene davvero — firma del paziente, riferimento
+            temporale, impronta — senza aggiungere garanzie che il documento non porta.
           </p>
         </div>
       </section>

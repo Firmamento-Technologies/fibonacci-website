@@ -1,5 +1,4 @@
 import type { MetadataRoute } from 'next'
-import { SPECIALTIES } from '@/lib/specialties'
 import { LEGAL_DOCS, STATIC_SITE_PAGES } from '@/lib/legal-docs'
 import { DOCS } from '@/lib/docs-data'
 
@@ -16,12 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1.0,
     },
-    ...SPECIALTIES.map((s) => ({
-      url: `${BASE_URL}/specialita/${s.id}/`,
-      lastModified: now,
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    })),
+
     ...STATIC_SITE_PAGES.map((page) => ({
       url: `${BASE_URL}/${page.slug}/`,
       lastModified: now,

@@ -12,8 +12,11 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://firmamento-technologies.github.io/fibonacci-website'
 const SITE_NAME = 'Fibonacci'
+// Mono-verticale dal 2026-08-04 (decisione-fibonacci-solo-estetica): una sola
+// specialità, nessun elenco di specialità "in arrivo". La descrizione dice cosa
+// fa il prodotto oggi, non cosa potrebbe fare.
 const SITE_DESCRIPTION =
-  'Cartella clinica digitale per medici italiani: medicina estetica, dermatologia, ortopedia, psicologia, nutrizione, oculistica. Dettatura AI, consensi inclusi, GDPR by design, FHIR R4.'
+  'La cartella clinica per la medicina estetica: consensi informati generati e firmati dal paziente, body map, dettatura durante la visita, foto cliniche cifrate. Dati su server europei.'
 
 export const viewport: Viewport = {
   themeColor: [
@@ -28,7 +31,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Fibonacci — La cartella clinica per ogni specialità medica',
+    default: 'Fibonacci — La cartella clinica per la medicina estetica',
     template: '%s | Fibonacci',
   },
   description: SITE_DESCRIPTION,
@@ -39,8 +42,8 @@ export const metadata: Metadata = {
     'GDPR sanitario',
     'FHIR R4',
     'dettatura AI medica',
-    'software dermatologia',
-    'software ortopedia',
+    'consenso informato medicina estetica',
+    'software studio medicina estetica',
     'consensi informati',
     'body map paziente',
   ],
@@ -55,12 +58,12 @@ export const metadata: Metadata = {
     locale: 'it_IT',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'Fibonacci — La cartella clinica per ogni specialità medica',
+    title: 'Fibonacci — La cartella clinica per la medicina estetica',
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fibonacci — La cartella clinica per ogni specialità medica',
+    title: 'Fibonacci — La cartella clinica per la medicina estetica',
     description: SITE_DESCRIPTION,
   },
   robots: {

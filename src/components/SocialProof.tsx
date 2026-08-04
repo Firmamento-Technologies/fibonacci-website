@@ -4,11 +4,14 @@ import { Shield, Lock, FileCheck, Award } from 'lucide-react'
 // Rimossi i testimonial placeholder ("Studio pilota"): la L. 145/2018 vieta i
 // testimonial nella comunicazione sanitaria e non abbiamo clienti citabili in
 // pilot. Niente sigle da ingegnere (via "HL7 FHIR R4") — solo garanzie chiare.
+// 2026-08-05: via anche "Conservazione a norma" — il conservatore accreditato non
+// e' ancora contrattualizzato (GTM 2.8). Al suo posto una cosa che e' vera oggi:
+// la catena di hash dell'audit e' installata e attiva in produzione dal 04-08.
 const BADGES = [
   { icon: Shield, text: 'Conforme GDPR' },
   { icon: Lock, text: 'Dati e backup in UE' },
   { icon: Award, text: 'Consensi informati inclusi' },
-  { icon: FileCheck, text: 'Conservazione a norma' },
+  { icon: FileCheck, text: 'Accessi tracciati e verificabili' },
 ]
 
 export function SocialProof() {

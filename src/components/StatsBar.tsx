@@ -2,10 +2,10 @@
 // Niente contatori animati (vanity) né oro: numeri fermi in azzurro chiaro
 // su fondo inchiostro. Fatti onesti sullo stadio del prodotto, senza iperboli.
 const STATS = [
-  { value: '1', label: 'modulo clinico live (Medicina Estetica)' },
-  { value: '5', label: 'specialità in co-design con cliniche partner' },
   { value: '3 min', label: 'per documentare una visita' },
   { value: 'UE', label: 'dati e backup su server europei' },
+  { value: '0', label: 'moduli da comprare a parte: è tutto incluso' },
+  { value: '10 anni', label: 'di conservazione prevista per la cartella' },
 ]
 
 export function StatsBar() {

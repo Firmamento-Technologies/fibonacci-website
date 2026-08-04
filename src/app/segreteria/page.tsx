@@ -22,6 +22,10 @@ export const metadata: Metadata = {
     'risposta automatica pazienti',
     'segretaria artificiale ambulatorio',
   ],
+  // Igea e' un prodotto di un'altra societa' ([[decisione-fibonacci-vs-igea]]):
+  // finche' la landing vive qui dentro, non deve competere nell'indice con
+  // Fibonacci ne' confondere il medico estetico.
+  robots: { index: false, follow: true },
   alternates: { canonical: '/segreteria/' },
   openGraph: {
     title: 'Segretaria AI per studi medici — non perderai mai più una telefonata',

@@ -7,7 +7,6 @@ import { ProcessSteps } from '@/components/ProcessSteps'
 import { AppPreview } from '@/components/AppPreview'
 import { AIFeatures } from '@/components/AIFeatures'
 import { ConsensiFeature } from '@/components/ConsensiFeature'
-import { SpecialtiesSection } from '@/components/SpecialtiesSection'
 import { Pricing } from '@/components/Pricing'
 import { NewsletterForm } from '@/components/NewsletterForm'
 import { DemoForm } from '@/components/DemoForm'
@@ -26,7 +25,6 @@ export default function HomePage() {
         <AppPreview />
         <AIFeatures />
         <ConsensiFeature />
-        <SpecialtiesSection />
         <Pricing />
         <section className="py-20" style={{ background: 'var(--bg)' }}>
           <div className="max-w-3xl mx-auto px-6">

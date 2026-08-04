@@ -1,7 +1,6 @@
 'use client'
-import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronDown, Play, ArrowRight, Sparkles } from 'lucide-react'
+import { Play, ArrowRight, Sparkles } from 'lucide-react'
 import { SPECIALTIES, type Specialty } from '@/lib/specialties'
 import { AppMockup } from '@/components/AppMockup'
 import { DEMO_URL } from '@/lib/site-config'
@@ -33,8 +32,8 @@ function SpiralDecor({ color, opacity = 0.06 }: { color: string; opacity?: numbe
 }
 
 export function Hero() {
-  const [selected, setSelected] = useState<Specialty>(SPECIALTIES[0])
-  const [dropOpen, setDropOpen] = useState(false)
+  // Un solo verticale: la specialita' non si sceglie piu', si dichiara.
+  const selected: Specialty = SPECIALTIES[0]
 
   return (
     <section className="relative min-h-screen flex flex-col pt-16 overflow-hidden">
@@ -66,48 +65,15 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 pt-20 lg:pt-24 pb-20 flex-1">
         {/* Colonna sinistra */}
         <div className="flex-1 max-w-xl">
-          {/* Selettore specialità come pill — sopra il titolo */}
-          <div className="relative mb-5">
-            <button
-              onClick={() => setDropOpen(!dropOpen)}
-              aria-label={`Cambia specialità, attualmente ${selected.label}`}
-              aria-expanded={dropOpen}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all hover:opacity-90"
-              style={{ background: selected.accent, color: 'var(--fg)', border: `1.5px solid ${selected.color}66` }}
-            >
-              <div className="w-2 h-2 rounded-full" style={{ background: selected.color }} />
-              {selected.label}
-              <ChevronDown className="w-4 h-4" />
-            </button>
-
-            <AnimatePresence>
-              {dropOpen && (
-                <motion.div
-                  initial={{ opacity: 0, y: 8, scale: 0.96 }}
-                  animate={{ opacity: 1, y: 0, scale: 1 }}
-                  exit={{ opacity: 0, y: 8, scale: 0.96 }}
-                  transition={{ duration: 0.15 }}
-                  className="absolute top-full left-0 mt-2 w-56 rounded-xl shadow-2xl p-1.5 z-50"
-                  style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
-                >
-                  {SPECIALTIES.map((s) => (
-                    <button
-                      key={s.id}
-                      onClick={() => { setSelected(s); setDropOpen(false) }}
-                      className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors text-sm font-medium"
-                      style={{
-                        color: selected.id === s.id ? s.color : 'var(--fg)',
-                        background: selected.id === s.id ? s.accent : 'transparent',
-                      }}
-                    >
-                      <div className="w-2 h-2 rounded-full shrink-0" style={{ background: s.color }} />
-                      {s.label}
-                    </button>
-                  ))}
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+          {/* Occhiello statico: con un solo verticale un selettore non ha piu' senso
+              (era il residuo della fase multi-specialita'). Piccolo, spaziato,
+              dice categoria e prodotto in una riga. */}
+          <p
+            className="mb-5 text-xs font-semibold uppercase tracking-[0.18em]"
+            style={{ color: 'var(--accent)' }}
+          >
+            Medicina estetica · Cartella clinica
+          </p>
 
           {/* Headline fisso — nessun selettore embedded, zero problemi di wrap */}
           <h1

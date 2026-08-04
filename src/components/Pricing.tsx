@@ -19,10 +19,10 @@ const PLANS: readonly Plan[] = [
       'Cartella clinica digitale',
       'Body map 2D',
       'Consensi informati pronti',
-      'Firma elettronica paziente',
-      'Conservazione a norma',
+      'Firma del paziente su tablet',
+      'Registro accessi con tracciato immodificabile',
     ],
-    cta: 'Inizia gratis',
+    cta: 'Richiedi una demo',
     highlighted: false,
   },
   {
@@ -36,7 +36,7 @@ const PLANS: readonly Plan[] = [
       'Reminder appuntamenti',
       'Supporto chat',
     ],
-    cta: 'Inizia gratis',
+    cta: 'Richiedi una demo',
     highlighted: true,
   },
 ] as const
@@ -53,7 +53,7 @@ export function Pricing() {
             Prezzi semplici, niente sorprese
           </h2>
           <p className="text-base" style={{ color: 'var(--muted)' }}>
-            14 giorni gratis, senza carta di credito. Disdici quando vuoi.
+            Prezzi di lancio, IVA esclusa. Nessun vincolo di durata.
           </p>
         </div>
 

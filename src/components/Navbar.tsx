@@ -2,15 +2,13 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, ChevronDown, Sparkles } from 'lucide-react'
-import { SPECIALTIES } from '@/lib/specialties'
+import { Menu, X, Sparkles } from 'lucide-react'
 import { APP_URL, DEMO_URL } from '@/lib/site-config'
 import { FibonacciLogo, FibonacciWordmark } from '@/components/Logo'
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [specialtyOpen, setSpecialtyOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -47,70 +45,6 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {/* Specialità dropdown */}
-          <div className="relative">
-            <button
-              onMouseEnter={() => setSpecialtyOpen(true)}
-              onMouseLeave={() => setSpecialtyOpen(false)}
-              className="flex items-center gap-1 text-sm font-medium transition-colors"
-              style={{ color: 'var(--muted)' }}
-            >
-              Specialità <ChevronDown className="w-3.5 h-3.5" />
-            </button>
-            <AnimatePresence>
-              {specialtyOpen && (
-                <motion.div
-                  initial={{ opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 8 }}
-                  transition={{ duration: 0.15 }}
-                  onMouseEnter={() => setSpecialtyOpen(true)}
-                  onMouseLeave={() => setSpecialtyOpen(false)}
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 rounded-xl shadow-xl p-2"
-                  style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
-                >
-                  {SPECIALTIES.map((s) => (
-                    <Link
-                      key={s.id}
-                      href={`/specialita/${s.id}`}
-                      className="flex items-center gap-2 px-3 py-2.5 rounded-lg transition-colors hover:bg-[var(--bg)]"
-                    >
-                      <div
-                        className="w-2 h-2 rounded-full shrink-0"
-                        style={{ background: s.color }}
-                      />
-                      <span className="text-sm font-medium flex-1 truncate" style={{ color: 'var(--fg)' }}>
-                        {s.label}
-                      </span>
-                      {s.status === 'available' ? (
-                        <span
-                          className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
-                          style={{ background: '#16a34a', color: 'white' }}
-                        >
-                          Live
-                        </span>
-                      ) : (
-                        <span
-                          className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
-                          style={{ background: 'var(--accent-light)', color: 'var(--accent)' }}
-                        >
-                          Co-design
-                        </span>
-                      )}
-                    </Link>
-                  ))}
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-
-          <Link
-            href="/segreteria"
-            className="text-sm font-semibold transition-colors"
-            style={{ color: 'var(--accent)' }}
-          >
-            Segretaria AI
-          </Link>
           <Link
             href="/#come-funziona"
             className="text-sm font-medium transition-colors"
@@ -140,25 +74,11 @@ export function Navbar() {
             Consensi
           </Link>
           <Link
-            href="/partners"
-            className="text-sm font-medium transition-colors"
-            style={{ color: 'var(--muted)' }}
-          >
-            Ambassador
-          </Link>
-          <Link
             href="/docs"
             className="text-sm font-medium transition-colors"
             style={{ color: 'var(--muted)' }}
           >
             Docs
-          </Link>
-          <Link
-            href="/faq"
-            className="text-sm font-medium transition-colors"
-            style={{ color: 'var(--muted)' }}
-          >
-            FAQ
           </Link>
           <a
             href={APP_URL}
@@ -206,28 +126,7 @@ export function Navbar() {
             style={{ background: 'var(--bg)', borderBottom: '1px solid var(--border)' }}
           >
             <div className="px-6 py-4 space-y-3">
-              {SPECIALTIES.map((s) => (
-                <Link
-                  key={s.id}
-                  href={`/specialita/${s.id}`}
-                  className="flex items-center gap-3 py-2"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  <div className="w-2 h-2 rounded-full" style={{ background: s.color }} />
-                  <span className="text-sm font-medium" style={{ color: 'var(--fg)' }}>
-                    {s.label}
-                  </span>
-                </Link>
-              ))}
               <div className="pt-3 border-t flex flex-col gap-2" style={{ borderColor: 'var(--border)' }}>
-                <Link
-                  href="/segreteria"
-                  className="text-sm font-semibold py-1"
-                  style={{ color: 'var(--accent)' }}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  Segretaria AI per studi medici
-                </Link>
                 <a
                   href={DEMO_URL}
                   target="_blank"
