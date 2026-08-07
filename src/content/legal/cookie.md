@@ -2,7 +2,7 @@
 
 {AVVISO_BOZZA}
 
-La presente Cookie Policy descrive le tipologie di cookie e di altri strumenti di tracciamento utilizzati sul sito vetrina il sito Fibonacci e, in via complementare, sull'applicazione l'applicazione Fibonacci gestiti da Fibonacci La policy è redatta ai sensi dell'art. 122 del D.Lgs. 30 giugno 2003 n. 196 (Codice in materia di protezione dei dati personali), del Regolamento (UE) 2016/679 (GDPR) e del Provvedimento del Garante per la Protezione dei Dati Personali del 10 giugno 2021 recante "Linee guida cookie e altri strumenti di tracciamento".
+La presente Cookie Policy descrive le tipologie di cookie e di altri strumenti di tracciamento utilizzati sul sito vetrina Fibonacci e, in via complementare, sull'applicazione Fibonacci. La policy è redatta ai sensi dell'art. 122 del D.Lgs. 30 giugno 2003 n. 196 (Codice in materia di protezione dei dati personali), del Regolamento (UE) 2016/679 (GDPR) e del Provvedimento del Garante per la Protezione dei Dati Personali del 10 giugno 2021 recante "Linee guida cookie e altri strumenti di tracciamento".
 
 ## 1. Cosa sono i cookie e gli altri strumenti di tracciamento
 
@@ -17,16 +17,16 @@ Ai fini della presente policy si distinguono:
 
 ## 2. Cookie utilizzati sul sito Fibonacci (sito vetrina)
 
-Il sito vetrina il sito Fibonacci è un sito statico di carattere informativo. Allo stato attuale non sono presenti cookie di profilazione, cookie di marketing, cookie statistici non anonimizzati né strumenti di tracciamento di terze parti (a titolo esemplificativo: non sono integrati Google Analytics, Google Tag Manager, Meta Pixel, LinkedIn Insight Tag, TikTok Pixel o servizi analoghi).
+Il sito vetrina Fibonacci è un sito statico di carattere informativo. Allo stato attuale non sono presenti cookie di profilazione, cookie di marketing, cookie statistici non anonimizzati né strumenti di tracciamento di terze parti (a titolo esemplificativo: non sono integrati Google Analytics, Google Tag Manager, Meta Pixel, LinkedIn Insight Tag, TikTok Pixel o servizi analoghi).
 
 | Nome cookie | Tipologia | Finalità | Prima o terza parte | Durata | Base giuridica | Consenso |
 |---|---|---|---|---|---|---|
 
 Qualora in futuro venissero attivati strumenti analitici anonimi (a titolo esemplificativo, una istanza self-hosted di Plausible Analytics o di Matomo configurata in modalità conforme alle Linee guida del Garante del 10 giugno 2021), gli stessi resterebbero esenti dall'obbligo di acquisizione del consenso a condizione che siano rispettati i requisiti previsti dal provvedimento citato, in particolare la mascheratura dell'indirizzo IP, la disattivazione del cross-site tracking, l'assenza di arricchimenti con dati di terze parti e l'impossibilità di re-identificazione del singolo utente. In tal caso la presente policy sarà aggiornata con la lista puntuale degli strumenti attivati.
 
-## 3. Cookie utilizzati su l'applicazione Fibonacci (applicazione)
+## 3. Cookie utilizzati su Fibonacci (applicazione)
 
-L'applicazione l'applicazione Fibonacci è destinata agli utenti registrati (professionisti sanitari e operatori delle strutture clienti) e utilizza esclusivamente cookie tecnici strettamente necessari all'erogazione del servizio richiesto dall'utente. I cookie applicativi non vengono utilizzati per finalità di profilazione né condivisi con terze parti per scopi di marketing.
+L'applicazione Fibonacci è destinata agli utenti registrati (professionisti sanitari e operatori delle strutture clienti) e utilizza esclusivamente cookie tecnici strettamente necessari all'erogazione del servizio richiesto dall'utente. I cookie applicativi non vengono utilizzati per finalità di profilazione né condivisi con terze parti per scopi di marketing.
 
 | Nome cookie | Tipologia | Finalità | Prima o terza parte | Durata | Base giuridica | Consenso |
 |---|---|---|---|---|---|---|
@@ -38,7 +38,7 @@ Tutti i cookie sopra elencati sono qualificati come cookie tecnici ai sensi dell
 
 ## 4. Cookie di profilazione, marketing e statistici non anonimi
 
-Allo stato attuale il sito vetrina il sito Fibonacci e l'applicazione l'applicazione Fibonacci non utilizzano cookie di profilazione, cookie di marketing né cookie statistici non anonimizzati. Non sono presenti strumenti che consentano la creazione di profili comportamentali dell'utente, il retargeting pubblicitario o la condivisione di identificatori con piattaforme di terze parti.
+Allo stato attuale il sito vetrina Fibonacci e l'applicazione Fibonacci non utilizzano cookie di profilazione, cookie di marketing né cookie statistici non anonimizzati. Non sono presenti strumenti che consentano la creazione di profili comportamentali dell'utente, il retargeting pubblicitario o la condivisione di identificatori con piattaforme di terze parti.
 
 Qualora in futuro venissero introdotti strumenti di tale natura, il Titolare provvederà preventivamente a:
 

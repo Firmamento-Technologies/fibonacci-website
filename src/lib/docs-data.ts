@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { docRevisionDate } from './doc-dates'
+import { risolviSegnaposto } from './segnaposto'
 
 export interface DocMeta {
   slug: string
@@ -74,7 +74,7 @@ export function getDocMeta(slug: string): DocMeta | undefined {
 
 export async function loadDoc(slug: string): Promise<string> {
   const filePath = join(process.cwd(), 'src', 'content', 'docs', `${slug}.md`)
-  const raw = await readFile(filePath, 'utf-8')
-  // Data di revisione PINNATA (E2.2): non la data di build (vedi doc-dates.ts).
-  return raw.replaceAll('{ULTIMA_REVISIONE}', docRevisionDate(slug))
+  // Stessa risoluzione dei legali: una copia parziale qui aveva gia' lasciato
+  // un {URL_APP} non risolto in una guida (vedi segnaposto.ts).
+  return risolviSegnaposto(await readFile(filePath, 'utf-8'), slug)
 }

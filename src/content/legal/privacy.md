@@ -2,11 +2,11 @@
 
 {AVVISO_BOZZA}
 
-La presente informativa descrive le modalità di trattamento dei dati personali raccolti, conservati ed elaborati nell'ambito del sito istituzionale il sito Fibonacci, dell'applicazione SaaS Fibonacci accessibile dal dominio dell'applicazione e dei servizi correlati. Il documento è reso ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (di seguito "GDPR") e del D.Lgs. 30 giugno 2003 n. 196, come modificato dal D.Lgs. 10 agosto 2018 n. 101 (di seguito "Codice Privacy").
+La presente informativa descrive le modalità di trattamento dei dati personali raccolti, conservati ed elaborati nell'ambito del sito istituzionale Fibonacci ({URL_SITO}), dell'applicazione SaaS Fibonacci accessibile all'indirizzo {URL_APP} e dei servizi correlati. Il documento è reso ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (di seguito "GDPR") e del D.Lgs. 30 giugno 2003 n. 196, come modificato dal D.Lgs. 10 agosto 2018 n. 101 (di seguito "Codice Privacy").
 
 Fibonacci è una cartella clinica digitale per la medicina estetica, rivolta a medici e professionisti sanitari italiani e distribuita in modalità Software as a Service. Tra le funzionalità rientrano la gestione dell'anagrafica del paziente, l'anamnesi strutturata, le foto cliniche cifrate, la body-map 2D, la dettatura assistita da intelligenza artificiale per anamnesi e referti, la generazione e l'archiviazione dei consensi informati in formato PDF, il catalogo farmaci AIFA, il log di audit immutabile in formato FHIR AuditEvent, l'agenda appuntamenti, l'autenticazione a due fattori TOTP e l'interscambio nativo in formato FHIR R4.
 
-> Avvertenza preliminare: tre ruoli distinti coesistono nel perimetro del servizio. Per i dati di navigazione del sito il sito Fibonacci e per i dati dei medici clienti che sottoscrivono l'abbonamento al software, Fibonacci agisce in qualità di Titolare del trattamento. Per i dati dei pazienti inseriti dai medici clienti nel software, Fibonacci agisce in qualità di Responsabile del trattamento ex art. 28 GDPR, mentre il Titolare è il medico cliente che ha la relazione professionale con il paziente. La regolamentazione del trattamento dei dati dei pazienti è disciplinata dall'Accordo sul trattamento dei dati (di seguito "DPA"), sottoscritto contestualmente al contratto di servizio dal medico cliente, ed è descritta sinteticamente nella sezione 3 e nella sezione 8 della presente informativa.
+> Avvertenza preliminare: tre ruoli distinti coesistono nel perimetro del servizio. Per i dati di navigazione del sito Fibonacci e per i dati dei medici clienti che sottoscrivono l'abbonamento al software, Fibonacci agisce in qualità di Titolare del trattamento. Per i dati dei pazienti inseriti dai medici clienti nel software, Fibonacci agisce in qualità di Responsabile del trattamento ex art. 28 GDPR, mentre il Titolare è il medico cliente che ha la relazione professionale con il paziente. La regolamentazione del trattamento dei dati dei pazienti è disciplinata dall'Accordo sul trattamento dei dati (di seguito "DPA"), sottoscritto contestualmente al contratto di servizio dal medico cliente, ed è descritta sinteticamente nella sezione 3 e nella sezione 8 della presente informativa.
 
 ## 1. Titolare del trattamento
 
@@ -39,7 +39,7 @@ Ai fini della presente informativa si intendono per:
 
 Il Titolare tratta dati personali differenti in funzione del segmento di interessato. Di seguito la distinzione.
 
-### 3.1 Visitatori del sito il sito Fibonacci
+### 3.1 Visitatori del sito Fibonacci
 
 In relazione ai visitatori del sito istituzionale e ai potenziali clienti che compilano i form di contatto o di richiesta demo, sono trattati i seguenti dati:
 
@@ -195,7 +195,7 @@ Resta impregiudicato il diritto di proporre ricorso in sede giurisdizionale ai s
 
 ## 12. Cookie
 
-Il sito il sito Fibonacci utilizza cookie tecnici necessari al corretto funzionamento del sito e, previo consenso espresso dell'utente, cookie analitici e di terze parti. Per il dettaglio delle tipologie di cookie utilizzati, delle finalità e delle modalità di gestione delle preferenze, si rinvia alla Cookie Policy disponibile alla pagina /cookie.
+Il sito Fibonacci utilizza cookie tecnici necessari al corretto funzionamento del sito e, previo consenso espresso dell'utente, cookie analitici e di terze parti. Per il dettaglio delle tipologie di cookie utilizzati, delle finalità e delle modalità di gestione delle preferenze, si rinvia alla Cookie Policy disponibile alla pagina /cookie.
 
 ## 13. Minori
 

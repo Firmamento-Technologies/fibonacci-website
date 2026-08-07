@@ -13,8 +13,14 @@ const REVISIONE_PER_SLUG: Record<string, string> = {
   // 'dpa': '2026-07-15',
 }
 
-/** Revisione complessiva di default (ultimo allineamento dei documenti). */
-const REVISIONE_DEFAULT = '2026-07-15'
+/** Revisione complessiva di default (ultimo allineamento dei documenti).
+ *
+ *  2026-08-07: i sei documenti legali sono stati revisionati davvero — via
+ *  l'intestazione della vecchia società e i suoi recapiti, via i segnaposto mai
+ *  risolti. Lasciare «15 luglio» avrebbe dichiarato in pagina una data di
+ *  revisione anteriore alla revisione, che è esattamente il difetto che questo
+ *  file esiste per impedire. */
+const REVISIONE_DEFAULT = '2026-08-07'
 
 /** Data di revisione (it-IT, es. "15 luglio 2026") stabile fra i build. */
 export function docRevisionDate(slug: string): string {

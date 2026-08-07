@@ -38,3 +38,14 @@ Scartate, con il motivo, perché il criterio resti applicabile la prossima volta
   l'atto iniettivo è medico, e la didascalia visiva direbbe il contrario.
 
 Restano scene uno-a-uno in un ambulatorio, con lo strumento giusto in mano.
+
+## Nota sulle foto non usate (2026-08-07)
+
+Il 7 agosto sono state rimosse da `public/` **9 foto `doctor-*`** (camice, stetoscopio, gruppi
+di medici in posa): non erano referenziate da nessuna pagina ma restavano **pubblicate e
+raggiungibili al loro indirizzo**, ed erano proprio il repertorio che i criteri qui sopra
+dichiarano scartato. Sono recuperabili dalla storia git, se mai servissero.
+
+`mano-guanto-siringa.jpg` **è rimasta di proposito** pur non essendo usata: appartiene al set
+curato secondo i criteri qui sopra ed è una riserva per il redesign in corso. È l'unica
+eccezione, ed è dichiarata perché non venga scambiata per una dimenticanza.

@@ -9,7 +9,7 @@ La funzione si rivolge ai medici che vogliono ridurre il tempo dedicato alla dig
 - Account con ruolo `medico` e accesso clinico al paziente.
 - Microfono integrato o esterno funzionante. La qualita dell'estrazione cresce con un microfono da scrivania a condensatore o con auricolare con cancellazione del rumore.
 - Browser supportato: Chrome, Edge o Safari in versione recente. Firefox non supporta ancora alcune API audio richieste.
-- Permesso microfono concesso al dominio `l'applicazione Fibonacci`.
+- Permesso microfono concesso al dominio `{URL_APP}`.
 - Sezione paziente gia aperta sulla scheda visita corrente.
 - Connessione internet stabile; la dettatura usa streaming WebSocket verso il backend.
 

@@ -46,6 +46,22 @@ const VIETATI = [
   { re: /Firmamento/i, perche: 'intestazione societaria da rimuovere', soloInterfaccia: true },
 ]
 
+/* ⚠️ L'URL DI PUBBLICAZIONE CONTIENE «firmamento», E NON È UN'INTESTAZIONE.
+ *
+ * Il sito è ospitato su `firmamento-technologies.github.io`, quindi ogni pagina
+ * che cita il proprio indirizzo — i documenti legali lo fanno, per dire dove
+ * sono pubblicati — contiene quella stringa. Il 2026-08-07, sostituiti i
+ * segnaposto rotti con l'indirizzo vero, il controllo qui sopra è passato da 0 a
+ * 5 segnalazioni **senza che una sola intestazione fosse tornata**.
+ *
+ * Spegnere il controllo sarebbe stato il rimedio sbagliato: cercava una cosa
+ * vera. Quindi l'URL di pubblicazione viene tolto dal testo PRIMA del confronto,
+ * e il fatto — che il sito sta sotto l'organizzazione della vecchia società —
+ * viene detto a parte, una volta, invece di travestirsi da cinque intestazioni.
+ * Si chiude registrando il dominio proprio, non toccando i documenti. */
+const URL_PUBBLICAZIONE = 'https://firmamento-technologies.github.io/fibonacci-website'
+const senzaUrlDiPubblicazione = (testo) => testo.replaceAll(URL_PUBBLICAZIONE, '«il sito»')
+
 /* La lineetta lunga con spazi è la punteggiatura più riconoscibile dei testi
  * generati. Il sito non la usa mai: se compare, è rientrata da un copia-incolla. */
 const LINEETTA = /\s—\s/
@@ -61,6 +77,7 @@ async function main() {
 
   const problemi = []
   const daRiscrivere = new Set()
+  const pagineConUrlDiPubblicazione = new Set()
   const erroriConsole = []
   page.on('pageerror', (e) => erroriConsole.push(`${page.url()} → ${e.message}`))
 
@@ -95,13 +112,16 @@ async function main() {
     for (const img of struttura.immaginiRotte) problemi.push(`${percorso}: immagine ROTTA, il file non esiste (${img})`)
 
     // ── Claim ──────────────────────────────────────────────────────────
-    /* I documenti legali sono bozze in markdown, ancora intestate alla
-     * vecchia società: vanno riscritte alla costituzione, non ritoccate a
-     * mano adesso. Il controllo sull'intestazione vale sulle pagine di
-     * interfaccia; sui documenti resta un promemoria separato. */
+    /* I documenti legali sono bozze da far validare: se un'intestazione
+     * societaria ricompare va segnalata a parte, non mescolata ai problemi. */
     const documentoLegale = LEGALI.includes(percorso)
+    /* L'indirizzo di pubblicazione contiene «firmamento» ma è un fatto di
+     * hosting, non un'intestazione: va tolto prima del confronto (vedi il
+     * commento su URL_PUBBLICAZIONE). */
+    const testoDaControllare = senzaUrlDiPubblicazione(struttura.testo)
+    if (struttura.testo.includes(URL_PUBBLICAZIONE)) pagineConUrlDiPubblicazione.add(percorso)
     for (const { re, perche, soloInterfaccia } of VIETATI) {
-      const trovato = struttura.testo.match(re)
+      const trovato = testoDaControllare.match(re)
       if (!trovato) continue
       if (soloInterfaccia && documentoLegale) {
         daRiscrivere.add(percorso)
@@ -151,6 +171,16 @@ async function main() {
   if (daRiscrivere.size) {
     console.log(giallo(`\nDocumenti ancora intestati alla vecchia società (${daRiscrivere.size}), da riscrivere alla costituzione:`))
     console.log('  ' + [...daRiscrivere].join(' · '))
+  }
+
+  if (pagineConUrlDiPubblicazione.size) {
+    console.log(
+      giallo(
+        `\nIl sito è ospitato sotto l'organizzazione della vecchia società, e ${pagineConUrlDiPubblicazione.size} pagine citano il proprio indirizzo:`
+      )
+    )
+    console.log('  ' + URL_PUBBLICAZIONE)
+    console.log("  Non è un'intestazione: si chiude registrando il dominio proprio.")
   }
 
   if (erroriConsole.length) {

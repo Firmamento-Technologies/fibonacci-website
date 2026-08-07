@@ -12,11 +12,47 @@ import { LEGAL_DOCS } from '@/lib/legal-docs'
  * scansione. Qui l'ordine rispecchia il percorso d'acquisto — capire, poi
  * fidarsi, poi il prezzo — e i documenti legali restano indicizzabili
  * perché è esattamente lì che il consulente del cliente arriva da Google. */
+/* ⚠️ DUE DIFETTI CORRETTI IL 2026-08-07, misurati sul sito pubblicato.
+ *
+ * 1. LA BARRA FINALE. `next.config.ts` ha `trailingSlash: true`, ma qui i
+ *    percorsi erano costruiti senza: il sitemap dichiarava `…/come-funziona`,
+ *    che risponde **301** verso `…/come-funziona/`, mentre il canonical della
+ *    pagina dichiarava la versione con la barra. Cioè 23 URL su 24 proposti ai
+ *    motori redirigevano, e nessuno coincideva con il canonical che la pagina
+ *    stessa indicava. Un sitemap deve elencare URL canonici, non tappe.
+ *
+ * 2. LA DATA. `lastModified` era `new Date()`, valutata durante la
+ *    costruzione: tutti e 24 gli URL portavano lo stesso timbro e ogni
+ *    ricostruzione dichiarava ai motori che l'intero sito era cambiato, anche
+ *    quando non era cambiato niente. È lo stesso difetto che E2.2 aveva già
+ *    corretto nei documenti (`doc-dates.ts`) e che qui era sopravvissuto.
+ *    Ora le date sono PINNATE: si aggiornano a mano quando la pagina cambia
+ *    davvero, che è l'unico momento in cui l'informazione è vera. */
+
+/** Ultima revisione reale, per percorso. Aggiornare quando la pagina cambia. */
+const REVISIONE: Record<string, string> = {
+  '/': '2026-08-07',
+  '/come-funziona': '2026-08-07',
+  '/consensi-informati': '2026-08-07',
+  '/prezzi': '2026-08-07',
+  '/sicurezza-e-dati': '2026-08-07',
+  '/richiedi-una-demo': '2026-08-07',
+  '/verifica': '2026-08-07',
+  '/domande': '2026-08-07',
+  '/intelligenza-artificiale': '2026-08-07',
+  '/chi-siamo': '2026-08-07',
+  '/documentazione': '2026-08-07',
+}
+
+/** Default per le pagine non elencate sopra (guide e documenti legali). */
+const REVISIONE_DEFAULT = '2026-08-07'
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const oggi = new Date()
   const pagina = (percorso: string, priorita: number) => ({
-    url: `${SITE_URL}${percorso}`,
-    lastModified: oggi,
+    // La barra finale è obbligatoria: senza, l'URL risponde 301 e contraddice
+    // il canonical della pagina. La radice ce l'ha già.
+    url: `${SITE_URL}${percorso}${percorso.endsWith('/') ? '' : '/'}`,
+    lastModified: new Date(`${REVISIONE[percorso] ?? REVISIONE_DEFAULT}T00:00:00Z`),
     changeFrequency: 'monthly' as const,
     priority: priorita,
   })

@@ -12,7 +12,7 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 
 ## Art. 1 · Premesse
 
-1.1. Il Titolare ha sottoscritto con il Responsabile il Contratto di Servizio avente ad oggetto la fornitura del software Fibonacci, applicativo SaaS di cartella clinica digitale per la medicina estetica erogato dal Responsabile al Titolare in modalità cloud, accessibile all'indirizzo `l'applicazione Fibonacci`.
+1.1. Il Titolare ha sottoscritto con il Responsabile il Contratto di Servizio avente ad oggetto la fornitura del software Fibonacci, applicativo SaaS di cartella clinica digitale per la medicina estetica erogato dal Responsabile al Titolare in modalità cloud, accessibile all'indirizzo `{URL_APP}`.
 
 1.2. L'esecuzione del Contratto di Servizio comporta il trattamento, da parte del Responsabile per conto del Titolare, di dati personali e di categorie particolari di dati ai sensi dell'art. 9 GDPR, riferiti ai pazienti del Titolare.
 
@@ -152,7 +152,7 @@ In conformità all'art. 28, par. 3 GDPR, il Responsabile si impegna a:
 - b) **Brevo SAS**, con sede in 106 Boulevard Haussmann, 75008 Parigi, Francia. Attività: invio di email transazionali (conferme di appuntamento, notifiche di sistema, recupero password). Dati trattati: indirizzo email dei destinatari e contenuto del messaggio. Non riceve dati clinici di dettaglio.
 - c) **Mistral AI SAS**, con sede in 15 rue des Halles, 75001 Parigi, Francia. Attività: trascrizione in testo delle dettature audio del Titolare tramite servizio di intelligenza artificiale. L'audio è inviato in streaming via API e non è persistito da Mistral oltre la finestra di processing. Trasferimenti extra-UE: nessuno; ove applicabile, clausole contrattuali tipo della Commissione UE.
 - d) **Stripe Payments Europe Ltd**, con sede in 1 Grand Canal Street Lower, Dublino, Irlanda. Attività: gestione dell'abbonamento e della fatturazione del Titolare nei confronti del Responsabile. Non riceve dati clinici dei pazienti. Tratta esclusivamente dati di pagamento riferiti al Titolare medico.
-- e) **Cloudflare Inc.**, con sede in 101 Townsend St, San Francisco, CA, USA. Attività: gestione DNS, proxy HTTPS, protezione DDoS e rete di distribuzione di contenuti per il dominio `il sito Fibonacci` ed i relativi sottodomini. Le operazioni avvengono sotto la copertura delle clausole contrattuali tipo di cui alla Decisione UE 2021/914 e con misure supplementari di sicurezza. I dati sanitari non sono mai esposti a Cloudflare in chiaro, in quanto il traffico è cifrato in modalità end-to-end con TLS sino al backend in Germania.
+- e) **Cloudflare Inc.**, con sede in 101 Townsend St, San Francisco, CA, USA. Attività: gestione DNS, proxy HTTPS, protezione DDoS e rete di distribuzione di contenuti per il dominio `{URL_SITO}` ed i relativi sottodomini. Le operazioni avvengono sotto la copertura delle clausole contrattuali tipo di cui alla Decisione UE 2021/914 e con misure supplementari di sicurezza. I dati sanitari non sono mai esposti a Cloudflare in chiaro, in quanto il traffico è cifrato in modalità end-to-end con TLS sino al backend in Germania.
 
 7.3. **Modifiche all'elenco**. Il Responsabile informa il Titolare di qualsiasi modifica all'elenco dei Sub-responsabili, sia in caso di aggiunta sia in caso di sostituzione, con **preavviso di almeno 30 giorni** rispetto alla data di efficacia della modifica. L'informativa è fornita tramite pubblicazione della scheda aggiornata all'indirizzo di cui all'Allegato B e mediante comunicazione email all'indirizzo del Titolare di cui all'art. 2.1.
 
@@ -291,8 +291,8 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 Costituiscono parte integrante del presente DPA i seguenti Allegati, sempre aggiornati alla versione più recente pubblicata dal Responsabile:
 
-- **Allegato A · Descrizione tecnica del trattamento e delle misure di sicurezza**: scheda tecnica di dettaglio pubblicata all'indirizzo `il sito Fibonacci/sicurezza`.
-- **Allegato B · Scheda dei Sub-responsabili**: elenco sempre aggiornato dei Sub-responsabili autorizzati, pubblicato all'indirizzo `il sito Fibonacci/sub-responsabili`.
+- **Allegato A · Descrizione tecnica del trattamento e delle misure di sicurezza**: scheda tecnica di dettaglio pubblicata all'indirizzo `{URL_SITO}/sicurezza`.
+- **Allegato B · Scheda dei Sub-responsabili**: elenco sempre aggiornato dei Sub-responsabili autorizzati, pubblicato all'indirizzo `{URL_SITO}/sub-responsabili`.
 - **Allegato C · Contatti operativi**: contatto per la protezione dei dati del Responsabile: {EMAIL_PRIVACY}.
 
 ---
