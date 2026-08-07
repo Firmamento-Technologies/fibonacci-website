@@ -1,5 +1,7 @@
 # Informativa sulla Privacy
 
+{AVVISO_BOZZA}
+
 La presente informativa descrive le modalità di trattamento dei dati personali raccolti, conservati ed elaborati nell'ambito del sito istituzionale il sito Fibonacci, dell'applicazione SaaS Fibonacci accessibile dal dominio dell'applicazione e dei servizi correlati. Il documento è reso ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (di seguito "GDPR") e del D.Lgs. 30 giugno 2003 n. 196, come modificato dal D.Lgs. 10 agosto 2018 n. 101 (di seguito "Codice Privacy").
 
 Fibonacci è una cartella clinica digitale per la medicina estetica, rivolta a medici e professionisti sanitari italiani e distribuita in modalità Software as a Service. Tra le funzionalità rientrano la gestione dell'anagrafica del paziente, l'anamnesi strutturata, le foto cliniche cifrate, la body-map 2D, la dettatura assistita da intelligenza artificiale per anamnesi e referti, la generazione e l'archiviazione dei consensi informati in formato PDF, il catalogo farmaci AIFA, il log di audit immutabile in formato FHIR AuditEvent, l'agenda appuntamenti, l'autenticazione a due fattori TOTP e l'interscambio nativo in formato FHIR R4.
@@ -10,14 +12,16 @@ Fibonacci è una cartella clinica digitale per la medicina estetica, rivolta a m
 
 Titolare del trattamento dei dati personali è:
 
-Fibonacci
-Sede legale: Genova, Italia
-Codice Fiscale / Partita IVA: IT____________
-Email di contatto per le questioni privacy: privacy@firmamentotechnologies.com
+Denominazione: {DENOMINAZIONE}
+Sede legale: {SEDE_LEGALE}
+Partita IVA: {PARTITA_IVA}
+Numero REA: {REA}
+Posta elettronica certificata: {PEC}
+Contatto per le questioni privacy: {EMAIL_PRIVACY}
 
 Per ogni questione relativa al trattamento dei dati personali, compreso l'esercizio dei diritti previsti dagli artt. 15-22 GDPR, il canale di contatto è il seguente:
 
-Email: privacy@firmamentotechnologies.com
+Canale di contatto: {EMAIL_PRIVACY}
 
 ## 2. Definizioni essenziali
 
@@ -56,7 +60,7 @@ In relazione ai medici e agli operatori sanitari che sottoscrivono un abbonament
 
 I dati dei pazienti delle strutture sanitarie clienti, inseriti nel software dal medico cliente o dai suoi collaboratori autorizzati, comprendono dati anagrafici, dati di contatto, dati clinici e anamnestici, fotografie cliniche, referti, prescrizioni, consensi informati e ogni altro dato funzionale all'erogazione della prestazione sanitaria, ivi inclusi dati appartenenti alle categorie particolari di cui all'art. 9 GDPR (in particolare dati relativi alla salute).
 
-Per tali dati Fibonacci agisce in qualità di Responsabile del trattamento ai sensi dell'art. 28 GDPR. Il Titolare è il medico cliente o la struttura sanitaria che utilizza il software. I dettagli sulle categorie di dati trattati, sulle istruzioni documentate, sui sub-responsabili autorizzati e sulle misure di sicurezza adottate sono disciplinati dall'Accordo sul trattamento dei dati (DPA) sottoscritto contestualmente al contratto di servizio. Il DPA è disponibile su richiesta all'indirizzo privacy@firmamentotechnologies.com e nella sezione documentale dell'area riservata del medico cliente.
+Per tali dati Fibonacci agisce in qualità di Responsabile del trattamento ai sensi dell'art. 28 GDPR. Il Titolare è il medico cliente o la struttura sanitaria che utilizza il software. I dettagli sulle categorie di dati trattati, sulle istruzioni documentate, sui sub-responsabili autorizzati e sulle misure di sicurezza adottate sono disciplinati dall'Accordo sul trattamento dei dati (DPA) sottoscritto contestualmente al contratto di servizio. Il DPA è disponibile su richiesta all'indirizzo {EMAIL_PRIVACY} e nella sezione documentale dell'area riservata del medico cliente.
 
 I pazienti che intendano esercitare i propri diritti sono invitati a rivolgersi al proprio medico curante in qualità di Titolare del trattamento. Fibonacci, in qualità di Responsabile, fornisce al medico Titolare l'assistenza tecnica necessaria a dare riscontro alle richieste degli interessati.
 
@@ -126,7 +130,7 @@ L'unico flusso che comporta un trasferimento extra-UE riguarda il servizio forni
 - limitazione del trattamento ai soli metadati di rete necessari al routing e alla protezione anti-DDoS;
 - esclusione dei dati sanitari dal perimetro tecnico accessibile a Cloudflare.
 
-Copia delle Clausole Contrattuali Standard e della relativa valutazione di impatto sui trasferimenti (Transfer Impact Assessment) è disponibile su richiesta scrivendo a privacy@firmamentotechnologies.com.
+Copia delle Clausole Contrattuali Standard e della relativa valutazione di impatto sui trasferimenti (Transfer Impact Assessment) è disponibile su richiesta scrivendo a {EMAIL_PRIVACY}.
 
 ## 8. Periodo di conservazione
 
@@ -162,8 +166,8 @@ L'interessato può esercitare in qualsiasi momento i diritti riconosciuti dagli 
 
 Le richieste possono essere indirizzate al Titolare ai seguenti recapiti:
 
-- email Titolare: privacy@firmamentotechnologies.com
-- email: privacy@firmamentotechnologies.com
+- email Titolare: {EMAIL_PRIVACY}
+- email: {EMAIL_PRIVACY}
 
 Il Titolare fornisce riscontro entro 30 giorni dal ricevimento della richiesta. Il termine può essere prorogato di ulteriori 60 giorni in caso di particolare complessità della richiesta o di numero elevato di richieste, con motivazione comunicata all'interessato. Il riscontro è gratuito; il Titolare si riserva di richiedere un contributo spese o di rifiutare la richiesta in caso di istanze manifestamente infondate o eccessive, ai sensi dell'art. 12, par. 5 GDPR.
 
@@ -212,4 +216,4 @@ L'utilizzo del servizio successivo alla pubblicazione delle modifiche costituisc
 Data di ultima revisione: {ULTIMA_REVISIONE}
 Versione del documento: 0.1 (bozza interna)
 
-> Avvertenza finale: il presente documento costituisce un template adattato al contesto del servizio Fibonacci e sarà sottoposto a revisione legale prima dell'avvio delle attività commerciali. La versione qui pubblicata è una bozza interna numerata 0.1 e non sostituisce il parere di un consulente legale qualificato. Eventuali rilievi, correzioni o integrazioni potranno essere indirizzati a privacy@firmamentotechnologies.com.
+> Avvertenza finale: il presente documento costituisce un template adattato al contesto del servizio Fibonacci e sarà sottoposto a revisione legale prima dell'avvio delle attività commerciali. La versione qui pubblicata è una bozza interna numerata 0.1 e non sostituisce il parere di un consulente legale qualificato. Eventuali rilievi, correzioni o integrazioni potranno essere indirizzati a {EMAIL_PRIVACY}.

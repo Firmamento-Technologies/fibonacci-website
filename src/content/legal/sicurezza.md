@@ -2,6 +2,8 @@
 
 **Versione 0.1 · Ultima revisione: {ULTIMA_REVISIONE}**
 
+{AVVISO_BOZZA}
+
 La presente scheda tecnica descrive le misure di sicurezza, tecniche e organizzative, adottate da Fibonacci (di seguito, "Fibonacci" o il "Responsabile") nell'erogazione del software SaaS di cartella clinica digitale Fibonacci (di seguito, il "Servizio" o "Fibonacci"). Il documento è reso ai sensi dell'articolo 32 del Regolamento (UE) 2016/679 (di seguito, "GDPR") e costituisce l'Allegato A dell'Accordo per il Trattamento dei Dati (DPA) sottoscritto dal medico cliente in qualità di Titolare del trattamento. Le misure descritte si applicano al trattamento di categorie particolari di dati ai sensi dell'art. 9 GDPR (dati relativi alla salute) effettuato per conto del Titolare nell'ambito del Servizio.
 
 Il documento è pubblicato all'indirizzo il sito Fibonacci/sicurezza ed è soggetto ad aggiornamenti periodici in funzione dell'evoluzione tecnologica del Servizio e dello stato dell'arte in materia di sicurezza informatica. Le modifiche tecniche significative sono notificate ai Titolari clienti con le modalità indicate in calce al presente documento.
@@ -280,9 +282,9 @@ Fibonacci ha posto come obiettivo la valutazione di avvio del percorso di certif
 
 | Funzione | Contatto |
 | --- | --- |
-| Sicurezza informatica e segnalazione vulnerabilità | `security@firmamentotechnologies.com` |
-| Contatto per la protezione dei dati | `privacy@firmamentotechnologies.com` |
-| Privacy e questioni di trattamento dati | `privacy@firmamentotechnologies.com` |
+| Sicurezza informatica e segnalazione vulnerabilità | {EMAIL_SICUREZZA} |
+| Contatto per la protezione dei dati | {EMAIL_PRIVACY} |
+| Privacy e questioni di trattamento dati | {EMAIL_PRIVACY} |
 
 Le segnalazioni di vulnerabilità sono benvenute e gestite in coerenza con le pratiche di responsible disclosure. È possibile, su richiesta del segnalante, instaurare un canale cifrato mediante chiave PGP del team di sicurezza, fornita su richiesta. Fibonacci si impegna a fornire un riscontro iniziale al segnalante entro un tempo ragionevole dalla ricezione, a non perseguire legalmente segnalazioni effettuate in buona fede e nel rispetto del perimetro indicato, e a riconoscere pubblicamente il contributo del segnalante salvo richiesta di anonimato.
 

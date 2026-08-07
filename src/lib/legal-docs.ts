@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { docRevisionDate } from './doc-dates'
+import { SOCIETA, PRIVACY_EMAIL, SUPPORT_EMAIL, CONTACT_EMAIL } from './site-config'
 
 export interface LegalDocMeta {
   slug: string
@@ -76,9 +77,62 @@ export function getLegalDocMeta(slug: string): LegalDocMeta | undefined {
   return LEGAL_DOCS.find((d) => d.slug === slug)
 }
 
+/* ── Intestazione societaria dei documenti legali ──────────────────────────
+ * I sei documenti erano intestati a Firmamento Technologies Soc. Coop. e ne
+ * riportavano le caselle di posta. Quella società non è il prestatore del
+ * servizio: Fibonacci sarà una S.r.l. che alla data di questa revisione NON è
+ * ancora costituita. Pubblicare l'anagrafica e gli indirizzi di un soggetto
+ * diverso da chi eroga il servizio non è un dettaglio di forma — manda chi
+ * deve esercitare un diritto o notificare una violazione al destinatario
+ * sbagliato, e in un documento ex art. 28 GDPR il destinatario è la controparte
+ * contrattuale.
+ *
+ * Quindi qui NON si inventa e non si eredita: il dato che non esiste resta un
+ * vuoto dichiarato, esattamente come in `site-config.ts`. Quando la S.r.l. è
+ * iscritta si compila quel file e questi sei documenti si popolano da soli.
+ *
+ * ⚠️ Finché i vuoti restano, il sito è fuori dall'art. 7 c. 1 D.Lgs. 70/2003 e
+ * i documenti NON sono sottoscrivibili: è la ragione dell'avviso in testa a
+ * ciascuno di essi. */
+/* Il segnaposto è volutamente CORTO. La prima versione diceva «da indicare alla
+ * costituzione della società» per esteso, e nella riga «Fornitore» dei Termini
+ * ricorre cinque volte di fila: la frase è corretta e il paragrafo diventa
+ * illeggibile. La spiegazione sta una volta sola, nell'avviso in testa al
+ * documento; qui basta il segno che marca il vuoto. */
+const LACUNA = '⟨da indicare⟩'
+
+/** Un recapito che non esiste non diventa un indirizzo finto: diventa il
+ *  modulo di contatto, come già fa il piè di pagina dei legali. */
+const ripiegoModulo = (indirizzo: string) => indirizzo || 'il modulo di contatto del sito'
+
+/* ⚠️ Ogni riga porta il proprio `> `: la riga successiva NON deve iniziare a sua
+ * volta con `> `, o markdown legge una citazione annidata e il riquadro esce con
+ * due barre verticali. Trovato guardando la pagina, non il codice. */
+const AVVISO_BOZZA = [
+  '**Bozza non sottoscritta, pubblicata a scopo di consultazione.**',
+  "L'intestazione societaria di questo documento è deliberatamente vuota: la",
+  'società che erogherà il servizio è una S.r.l. **non ancora costituita**, e',
+  "riportare l'anagrafica della società che ha sviluppato il software indicherebbe",
+  'una controparte contrattuale sbagliata. Denominazione, sede, partita IVA,',
+  "numero REA e recapiti vengono compilati il giorno dell'iscrizione al registro",
+  'delle imprese; fino ad allora il documento non è sottoscrivibile e non produce',
+  'effetti fra le parti.',
+].map((riga) => `> ${riga}`).join('\n')
+
 export async function loadLegalDoc(slug: string): Promise<string> {
   const filePath = join(process.cwd(), 'src', 'content', 'legal', `${slug}.md`)
   const raw = await readFile(filePath, 'utf-8')
   // Data di revisione PINNATA (E2.2): non la data di build (vedi doc-dates.ts).
-  return raw.replaceAll('{ULTIMA_REVISIONE}', docRevisionDate(slug))
+  return raw
+    .replaceAll('{ULTIMA_REVISIONE}', docRevisionDate(slug))
+    .replaceAll('{AVVISO_BOZZA}', AVVISO_BOZZA)
+    .replaceAll('{DENOMINAZIONE}', SOCIETA.ragioneSociale || LACUNA)
+    .replaceAll('{SEDE_LEGALE}', SOCIETA.sede.via ? `${SOCIETA.sede.via}, ${SOCIETA.sede.cap} ${SOCIETA.sede.comune} (${SOCIETA.sede.provincia})` : LACUNA)
+    .replaceAll('{PARTITA_IVA}', SOCIETA.partitaIva || LACUNA)
+    .replaceAll('{REA}', SOCIETA.rea || LACUNA)
+    .replaceAll('{PEC}', SOCIETA.pec || LACUNA)
+    .replaceAll('{EMAIL_PRIVACY}', ripiegoModulo(PRIVACY_EMAIL))
+    .replaceAll('{EMAIL_SUPPORTO}', ripiegoModulo(SUPPORT_EMAIL))
+    .replaceAll('{EMAIL_COMMERCIALE}', ripiegoModulo(CONTACT_EMAIL))
+    .replaceAll('{EMAIL_SICUREZZA}', ripiegoModulo(PRIVACY_EMAIL))
 }

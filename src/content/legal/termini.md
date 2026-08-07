@@ -2,7 +2,19 @@
 
 **Condizioni Generali di Contratto SaaS - Software Fibonacci**
 
-Fornitore: Fibonacci, con sede legale in Genova (Italia), P.IVA `IT____________`, Codice Destinatario SDI `____________`, email commerciale `info@firmamentotechnologies.com`, email supporto `supporto@firmamentotechnologies.com` (di seguito, il "Fornitore").
+{AVVISO_BOZZA}
+
+Fornitore (di seguito, il "Fornitore"):
+
+| Campo | Valore |
+| --- | --- |
+| Denominazione | {DENOMINAZIONE} |
+| Sede legale | {SEDE_LEGALE} |
+| Partita IVA | {PARTITA_IVA} |
+| Numero REA | {REA} |
+| Posta elettronica certificata | {PEC} |
+| Contatto commerciale | {EMAIL_COMMERCIALE} |
+| Contatto per l'assistenza | {EMAIL_SUPPORTO} |
 
 Cliente: il professionista sanitario abilitato o la struttura sanitaria autorizzata che sottoscrive l'accesso al Servizio nei modi indicati al successivo Art. 3 (di seguito, il "Cliente").
 
@@ -14,13 +26,13 @@ Le presenti Condizioni Generali disciplinano l'accesso e l'utilizzo del software
 
 Ai fini delle presenti Condizioni Generali si intende per:
 
-1.1 **Fornitore**: Fibonacci, con sede legale in Genova, P.IVA `IT____________`.
+1.1 **Fornitore**: {DENOMINAZIONE}, con sede legale in {SEDE_LEGALE}, partita IVA {PARTITA_IVA}.
 
 1.2 **Cliente**: il professionista sanitario abilitato all'esercizio della professione (medico chirurgo, odontoiatra o altra figura sanitaria iscritta al rispettivo albo) ovvero la struttura sanitaria autorizzata che sottoscrive il presente contratto.
 
 1.3 **Utente Autorizzato**: la persona fisica (medico, segretaria, assistente, collaboratore) cui il Cliente attribuisce credenziali di accesso al Servizio nei limiti del Piano sottoscritto.
 
-1.4 **Servizio**: il software SaaS multi-specialità denominato "Fibonacci", erogato in modalità cloud e accessibile via browser web all'indirizzo `l'applicazione Fibonacci`, comprensivo dei moduli, delle funzionalità, della documentazione e dei servizi accessori indicati nel Piano sottoscritto.
+1.4 **Servizio**: il software SaaS denominato "Fibonacci", erogato in modalità cloud e accessibile via browser web all'indirizzo `l'applicazione Fibonacci`, comprensivo dei moduli, delle funzionalità, della documentazione e dei servizi accessori indicati nel Piano sottoscritto.
 
 1.5 **Piano**: il livello di abbonamento sottoscritto dal Cliente fra quelli descritti all'Art. 5, con relativi limiti operativi, funzionalità e corrispettivo.
 
@@ -113,7 +125,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 6.2 La modifica ha effetto dal primo rinnovo del Periodo di Abbonamento successivo alla scadenza del preavviso.
 
-6.3 Entro 30 (trenta) giorni dal ricevimento della comunicazione di modifica, il Cliente ha facolta di recedere dal contratto senza costi e senza penalita, dandone comunicazione via email a `supporto@firmamentotechnologies.com` o dal pannello "Abbonamento" dell'applicazione. La mancata comunicazione di recesso entro detto termine costituisce accettazione tacita della modifica.
+6.3 Entro 30 (trenta) giorni dal ricevimento della comunicazione di modifica, il Cliente ha facolta di recedere dal contratto senza costi e senza penalita, dandone comunicazione via email a {EMAIL_SUPPORTO} o dal pannello "Abbonamento" dell'applicazione. La mancata comunicazione di recesso entro detto termine costituisce accettazione tacita della modifica.
 
 ---
 
@@ -147,7 +159,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 8.3 In caso di mancato raggiungimento del livello di uptime garantito, il Cliente ha diritto, a titolo di unico rimedio, a un credito di servizio pari a un giorno di abbonamento per ogni 1 (uno) per cento di uptime mancante rispetto alla soglia, fino a un massimo del 50% (cinquanta per cento) del canone mensile del mese interessato.
 
-8.4 Il credito di servizio e applicato sulla prima fattura utile successiva, su richiesta scritta del Cliente da inoltrare a `supporto@firmamentotechnologies.com` entro 30 (trenta) giorni dal termine del mese di riferimento, a pena di decadenza. Il credito non e cumulabile con altri rimedi ed e l'unico ristoro spettante al Cliente in relazione al mancato rispetto dello SLA.
+8.4 Il credito di servizio e applicato sulla prima fattura utile successiva, su richiesta scritta del Cliente da inoltrare a {EMAIL_SUPPORTO} entro 30 (trenta) giorni dal termine del mese di riferimento, a pena di decadenza. Il credito non e cumulabile con altri rimedi ed e l'unico ristoro spettante al Cliente in relazione al mancato rispetto dello SLA.
 
 ---
 
@@ -261,7 +273,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 14.1 Alla cessazione del contratto, a qualsiasi titolo avvenuta, il Cliente ha diritto a ricevere l'export completo dei Dati Cliente e dei Dati Pazienti memorizzati nel Servizio.
 
-14.2 La richiesta di export deve pervenire al Fornitore via email a `supporto@firmamentotechnologies.com` entro 30 (trenta) giorni dalla data di cessazione del contratto.
+14.2 La richiesta di export deve pervenire al Fornitore via email a {EMAIL_SUPPORTO} entro 30 (trenta) giorni dalla data di cessazione del contratto.
 
 14.3 Il Fornitore consegna l'export in formato ZIP strutturato secondo lo standard HL7 FHIR R4 entro 15 (quindici) giorni lavorativi dalla richiesta, mediante link di download protetto da credenziali e con scadenza temporale.
 
@@ -279,7 +291,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 15.3 Le modifiche sostanziali (riorganizzazione di funzionalita rilevanti, dismissione di moduli, cambio di architettura tecnica con impatto operativo per il Cliente) sono comunicate al Cliente con preavviso di almeno 30 (trenta) giorni via email.
 
-15.4 Qualora una modifica determini la riduzione in modo non irrilevante delle funzionalita essenziali del Piano sottoscritto dal Cliente, quest'ultimo ha facolta di recedere dal contratto senza costi e senza penalita entro 30 (trenta) giorni dalla comunicazione, dandone notizia via email a `supporto@firmamentotechnologies.com`.
+15.4 Qualora una modifica determini la riduzione in modo non irrilevante delle funzionalita essenziali del Piano sottoscritto dal Cliente, quest'ultimo ha facolta di recedere dal contratto senza costi e senza penalita entro 30 (trenta) giorni dalla comunicazione, dandone notizia via email a {EMAIL_SUPPORTO}.
 
 ---
 
@@ -309,7 +321,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 18.2 Il Cliente e tenuto a mantenere aggiornato il proprio recapito email dal pannello "Account" dell'applicazione. Eventuali comunicazioni inviate dal Fornitore all'ultimo indirizzo email comunicato dal Cliente si intendono regolarmente ricevute.
 
-18.3 Gli indirizzi email del Fornitore sono: `info@firmamentotechnologies.com` per comunicazioni commerciali e contrattuali, `supporto@firmamentotechnologies.com` per richieste di assistenza tecnica.
+18.3 Gli indirizzi email del Fornitore sono: {EMAIL_COMMERCIALE} per comunicazioni commerciali e contrattuali, {EMAIL_SUPPORTO} per richieste di assistenza tecnica.
 
 ---
 

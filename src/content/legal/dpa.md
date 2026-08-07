@@ -2,6 +2,8 @@
 
 **Versione 0.1 (bozza interna) · Ultima revisione: {ULTIMA_REVISIONE}**
 
+{AVVISO_BOZZA}
+
 Il presente Accordo per il Trattamento dei Dati (di seguito, "DPA" o "Accordo") è stipulato ai sensi e per gli effetti dell'articolo 28 del Regolamento (UE) 2016/679 (di seguito, "GDPR") e del D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018 (di seguito, "Codice Privacy"), e disciplina i rapporti tra le Parti in relazione al trattamento dei dati personali svolto dal Responsabile per conto del Titolare nell'ambito del Servizio Fibonacci.
 
 Il presente DPA costituisce parte integrante e sostanziale del Contratto di Servizio Fibonacci sottoscritto tra le Parti (di seguito, "Contratto di Servizio") ed ha durata coincidente con il medesimo.
@@ -10,7 +12,7 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 
 ## Art. 1 · Premesse
 
-1.1. Il Titolare ha sottoscritto con il Responsabile il Contratto di Servizio avente ad oggetto la fornitura del software Fibonacci, applicativo SaaS di cartella clinica digitale multi-specialità erogato dal Responsabile al Titolare in modalità cloud, accessibile all'indirizzo `l'applicazione Fibonacci`.
+1.1. Il Titolare ha sottoscritto con il Responsabile il Contratto di Servizio avente ad oggetto la fornitura del software Fibonacci, applicativo SaaS di cartella clinica digitale per la medicina estetica erogato dal Responsabile al Titolare in modalità cloud, accessibile all'indirizzo `l'applicazione Fibonacci`.
 
 1.2. L'esecuzione del Contratto di Servizio comporta il trattamento, da parte del Responsabile per conto del Titolare, di dati personali e di categorie particolari di dati ai sensi dell'art. 9 GDPR, riferiti ai pazienti del Titolare.
 
@@ -41,11 +43,13 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 
 | Campo | Valore |
 | --- | --- |
-| Ragione sociale | Fibonacci |
-| Sede legale | Genova, Italia |
-| Partita IVA | IT____________ |
-| Email di contatto | `privacy@firmamentotechnologies.com` |
-| Contatto per la protezione dei dati | `privacy@firmamentotechnologies.com` |
+| Ragione sociale | {DENOMINAZIONE} |
+| Sede legale | {SEDE_LEGALE} |
+| Partita IVA | {PARTITA_IVA} |
+| Numero REA | {REA} |
+| Posta elettronica certificata | {PEC} |
+| Canale di contatto | {EMAIL_PRIVACY} |
+| Contatto per la protezione dei dati | {EMAIL_PRIVACY} |
 
 Nel prosieguo, il Titolare e il Responsabile sono congiuntamente denominati "Parti" e singolarmente "Parte".
 
@@ -289,7 +293,7 @@ Costituiscono parte integrante del presente DPA i seguenti Allegati, sempre aggi
 
 - **Allegato A · Descrizione tecnica del trattamento e delle misure di sicurezza**: scheda tecnica di dettaglio pubblicata all'indirizzo `il sito Fibonacci/sicurezza`.
 - **Allegato B · Scheda dei Sub-responsabili**: elenco sempre aggiornato dei Sub-responsabili autorizzati, pubblicato all'indirizzo `il sito Fibonacci/sub-responsabili`.
-- **Allegato C · Contatti operativi**: contatto per la protezione dei dati del Responsabile: `privacy@firmamentotechnologies.com`.
+- **Allegato C · Contatti operativi**: contatto per la protezione dei dati del Responsabile: {EMAIL_PRIVACY}.
 
 ---
 
@@ -312,8 +316,8 @@ Il presente Accordo per il Trattamento dei Dati è sottoscritto dalle Parti come
 | Campo | Valore |
 | --- | --- |
 | Data | {DATA_FIRMA_RESPONSABILE} |
-| Luogo | Genova |
-| Ragione sociale | Fibonacci |
+| Luogo | {LUOGO_FIRMA_RESPONSABILE} |
+| Ragione sociale | {DENOMINAZIONE} |
 | Legale rappresentante | {RESPONSABILE_LEGALE_RAPPRESENTANTE} |
 | Firma | _____________________________ |
 
