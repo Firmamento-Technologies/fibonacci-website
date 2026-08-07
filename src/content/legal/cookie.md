@@ -1,6 +1,6 @@
 # Cookie Policy
 
-La presente Cookie Policy descrive le tipologie di cookie e di altri strumenti di tracciamento utilizzati sul sito vetrina https://fibonacci.it e, in via complementare, sull'applicazione https://app.fibonacci.it gestiti da Fibonacci La policy è redatta ai sensi dell'art. 122 del D.Lgs. 30 giugno 2003 n. 196 (Codice in materia di protezione dei dati personali), del Regolamento (UE) 2016/679 (GDPR) e del Provvedimento del Garante per la Protezione dei Dati Personali del 10 giugno 2021 recante "Linee guida cookie e altri strumenti di tracciamento".
+La presente Cookie Policy descrive le tipologie di cookie e di altri strumenti di tracciamento utilizzati sul sito vetrina il sito Fibonacci e, in via complementare, sull'applicazione l'applicazione Fibonacci gestiti da Fibonacci La policy è redatta ai sensi dell'art. 122 del D.Lgs. 30 giugno 2003 n. 196 (Codice in materia di protezione dei dati personali), del Regolamento (UE) 2016/679 (GDPR) e del Provvedimento del Garante per la Protezione dei Dati Personali del 10 giugno 2021 recante "Linee guida cookie e altri strumenti di tracciamento".
 
 ## 1. Cosa sono i cookie e gli altri strumenti di tracciamento
 
@@ -13,31 +13,30 @@ Ai fini della presente policy si distinguono:
 - cookie tecnici, utilizzati al solo fine di effettuare la trasmissione di una comunicazione su una rete di comunicazione elettronica oppure nella misura strettamente necessaria al fornitore di un servizio della società dell'informazione esplicitamente richiesto dall'utente; tali cookie non richiedono il consenso preventivo dell'interessato, ai sensi dell'art. 122 del Codice Privacy;
 - cookie di profilazione e di marketing, finalizzati a creare profili relativi all'utente e utilizzati al fine di inviare messaggi pubblicitari in linea con le preferenze manifestate dallo stesso nell'ambito della navigazione in rete; tali cookie richiedono il consenso libero, specifico, informato, granulare e univoco dell'interessato.
 
-## 2. Cookie utilizzati su fibonacci.it (sito vetrina)
+## 2. Cookie utilizzati sul sito Fibonacci (sito vetrina)
 
-Il sito vetrina https://fibonacci.it è un sito statico di carattere informativo. Allo stato attuale non sono presenti cookie di profilazione, cookie di marketing, cookie statistici non anonimizzati né strumenti di tracciamento di terze parti (a titolo esemplificativo: non sono integrati Google Analytics, Google Tag Manager, Meta Pixel, LinkedIn Insight Tag, TikTok Pixel o servizi analoghi).
+Il sito vetrina il sito Fibonacci è un sito statico di carattere informativo. Allo stato attuale non sono presenti cookie di profilazione, cookie di marketing, cookie statistici non anonimizzati né strumenti di tracciamento di terze parti (a titolo esemplificativo: non sono integrati Google Analytics, Google Tag Manager, Meta Pixel, LinkedIn Insight Tag, TikTok Pixel o servizi analoghi).
 
 | Nome cookie | Tipologia | Finalità | Prima o terza parte | Durata | Base giuridica | Consenso |
 |---|---|---|---|---|---|---|
-| fibonacci_specialty_pref | Tecnico di preferenza | Memorizzare l'ultima specialità clinica selezionata nell'area hero della home, al fine di personalizzare la presentazione dei contenuti alla visita successiva | Prima parte (dominio fibonacci.it) | 30 giorni | Art. 6, par. 1, lett. f) GDPR (legittimo interesse del Titolare a fornire un'esperienza coerente) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
 
 Qualora in futuro venissero attivati strumenti analitici anonimi (a titolo esemplificativo, una istanza self-hosted di Plausible Analytics o di Matomo configurata in modalità conforme alle Linee guida del Garante del 10 giugno 2021), gli stessi resterebbero esenti dall'obbligo di acquisizione del consenso a condizione che siano rispettati i requisiti previsti dal provvedimento citato, in particolare la mascheratura dell'indirizzo IP, la disattivazione del cross-site tracking, l'assenza di arricchimenti con dati di terze parti e l'impossibilità di re-identificazione del singolo utente. In tal caso la presente policy sarà aggiornata con la lista puntuale degli strumenti attivati.
 
-## 3. Cookie utilizzati su app.fibonacci.it (applicazione)
+## 3. Cookie utilizzati su l'applicazione Fibonacci (applicazione)
 
-L'applicazione https://app.fibonacci.it è destinata agli utenti registrati (professionisti sanitari e operatori delle strutture clienti) e utilizza esclusivamente cookie tecnici strettamente necessari all'erogazione del servizio richiesto dall'utente. I cookie applicativi non vengono utilizzati per finalità di profilazione né condivisi con terze parti per scopi di marketing.
+L'applicazione l'applicazione Fibonacci è destinata agli utenti registrati (professionisti sanitari e operatori delle strutture clienti) e utilizza esclusivamente cookie tecnici strettamente necessari all'erogazione del servizio richiesto dall'utente. I cookie applicativi non vengono utilizzati per finalità di profilazione né condivisi con terze parti per scopi di marketing.
 
 | Nome cookie | Tipologia | Finalità | Prima o terza parte | Durata | Base giuridica | Consenso |
 |---|---|---|---|---|---|---|
-| medplum_session | Tecnico di autenticazione (httpOnly, Secure, SameSite=Strict) | Mantenere la sessione autenticata dell'utente dopo il login, inclusa la verifica del secondo fattore (MFA) | Prima parte (dominio app.fibonacci.it) | Durata della sessione di lavoro | Art. 6, par. 1, lett. b) GDPR (esecuzione del contratto di servizio) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
-| csrf_token | Tecnico di sicurezza | Prevenire attacchi di tipo Cross-Site Request Forgery sulle operazioni autenticate | Prima parte (dominio app.fibonacci.it) | Durata della sessione di lavoro | Art. 6, par. 1, lett. f) GDPR (legittimo interesse alla sicurezza del trattamento ai sensi dell'art. 32 GDPR) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
-| fibonacci_lang | Tecnico di preferenza | Memorizzare la lingua dell'interfaccia selezionata dall'utente | Prima parte (dominio app.fibonacci.it) | 365 giorni | Art. 6, par. 1, lett. f) GDPR (legittimo interesse a fornire l'interfaccia nella lingua scelta) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
+| medplum_session | Tecnico di autenticazione (httpOnly, Secure, SameSite=Strict) | Mantenere la sessione autenticata dell'utente dopo il login, inclusa la verifica del secondo fattore (MFA) | Prima parte (dominio dell'applicazione) | Durata della sessione di lavoro | Art. 6, par. 1, lett. b) GDPR (esecuzione del contratto di servizio) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
+| csrf_token | Tecnico di sicurezza | Prevenire attacchi di tipo Cross-Site Request Forgery sulle operazioni autenticate | Prima parte (dominio dell'applicazione) | Durata della sessione di lavoro | Art. 6, par. 1, lett. f) GDPR (legittimo interesse alla sicurezza del trattamento ai sensi dell'art. 32 GDPR) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
+| fibonacci_lang | Tecnico di preferenza | Memorizzare la lingua dell'interfaccia selezionata dall'utente | Prima parte (dominio dell'applicazione) | 365 giorni | Art. 6, par. 1, lett. f) GDPR (legittimo interesse a fornire l'interfaccia nella lingua scelta) e art. 122 D.Lgs. 196/2003 | Esente da consenso |
 
 Tutti i cookie sopra elencati sono qualificati come cookie tecnici ai sensi dell'art. 122 del D.Lgs. 196/2003 e del paragrafo 3.1 delle Linee guida del Garante del 10 giugno 2021 e non richiedono pertanto la preventiva acquisizione del consenso dell'interessato.
 
 ## 4. Cookie di profilazione, marketing e statistici non anonimi
 
-Allo stato attuale il sito vetrina fibonacci.it e l'applicazione app.fibonacci.it non utilizzano cookie di profilazione, cookie di marketing né cookie statistici non anonimizzati. Non sono presenti strumenti che consentano la creazione di profili comportamentali dell'utente, il retargeting pubblicitario o la condivisione di identificatori con piattaforme di terze parti.
+Allo stato attuale il sito vetrina il sito Fibonacci e l'applicazione l'applicazione Fibonacci non utilizzano cookie di profilazione, cookie di marketing né cookie statistici non anonimizzati. Non sono presenti strumenti che consentano la creazione di profili comportamentali dell'utente, il retargeting pubblicitario o la condivisione di identificatori con piattaforme di terze parti.
 
 Qualora in futuro venissero introdotti strumenti di tale natura, il Titolare provvederà preventivamente a:
 
@@ -51,7 +50,6 @@ Qualora in futuro venissero introdotti strumenti di tale natura, il Titolare pro
 
 ## 5. Gestione del consenso e delle preferenze cookie
 
-In considerazione del fatto che il sito vetrina fibonacci.it non utilizza cookie soggetti a consenso, all'utente non viene presentato alcun banner cookie alla prima visita. L'utente conserva tuttavia la facoltà di gestire, limitare o eliminare in ogni momento i cookie tecnici di preferenza eventualmente installati (in particolare il cookie fibonacci_specialty_pref) attraverso le impostazioni del proprio browser.
 
 Si riportano di seguito i link alle guide ufficiali dei principali browser per la gestione dei cookie:
 
@@ -66,7 +64,6 @@ In aggiunta, l'utente può consultare il sito https://www.youronlinechoices.com/
 
 ## 6. Disattivazione dei cookie tecnici
 
-Si avverte che alcuni cookie utilizzati, in particolare i cookie tecnici di sessione e di sicurezza dell'applicazione app.fibonacci.it (medplum_session, csrf_token), sono strettamente necessari al corretto funzionamento del servizio. La disattivazione o la cancellazione di tali cookie può comportare l'impossibilità di mantenere lo stato di autenticazione, di completare le procedure di accesso con secondo fattore, di salvare le preferenze d'uso e, più in generale, può determinare il malfunzionamento di alcune sezioni del servizio. Analogamente, la disattivazione del cookie fibonacci_specialty_pref non pregiudica la fruibilità del sito vetrina ma determina la mancata memorizzazione della specialità clinica selezionata.
 
 ## 7. Diritti dell'interessato
 
@@ -82,7 +79,7 @@ Fibonacci
 Sede legale: Genova, Italia
 P.IVA: IT____________ (placeholder, in attesa di registrazione definitiva)
 Indirizzo per le comunicazioni privacy: privacy@firmamentotechnologies.com
-Responsabile della Protezione dei Dati (DPO): dpo@firmamentotechnologies.com
+Contatto per la protezione dei dati: privacy@firmamentotechnologies.com
 
 L'utente può rivolgersi agli indirizzi sopra indicati per qualunque richiesta inerente al trattamento dei dati personali, all'esercizio dei diritti riconosciuti dal GDPR e alla gestione dei cookie.
 

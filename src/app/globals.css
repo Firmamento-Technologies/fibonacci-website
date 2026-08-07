@@ -1,151 +1,483 @@
 @import "tailwindcss";
 
+/* ═══════════════════════════════════════════════════════════════════════
+   FIBONACCI — sistema di design
+   ═══════════════════════════════════════════════════════════════════════
+
+   Tre decisioni portano tutto il resto.
+
+   1. La PROPORZIONE è il marchio. Il prodotto si chiama Fibonacci: la
+      sequenza non è un disegno nell'angolo, è la scala di spaziatura e la
+      scala tipografica. 8 · 13 · 21 · 34 · 55 · 89 · 144 · 233.
+      Un valore fuori scala è un errore, non una sfumatura.
+
+   2. La PROFONDITÀ viene da superfici a tono diverso e da filetti di 1px,
+      mai da gradienti, ombre morbide o vetro. Gradiente + vetro + serif
+      decorativo è la firma visiva dei siti generati: qui non entra.
+
+   3. Il COLORE è bianco + azzurro. Un solo accento (#0b699f). Deciso e
+      verificato WCAG AA il 2026-07-16, non si riapre.
+   ═══════════════════════════════════════════════════════════════════════ */
+
 :root {
-  /* Sistema unico BIANCO + AZZURRO condiviso con l'app EMR (redesign 2026-07-16).
-     Azzurro = UNICO accento (#0b699f, hue 242 azure desaturato); oro/terracotta
-     RITIRATI. Profondità da superfici a tono diverso + filetti, mai gradienti.
-     Valori verificati WCAG AA (testo ≥4.5:1). */
-  --bg: #f6f9fc;            /* bianco freddissimo (superficie pagina) */
-  --fg: #172a3e;            /* inchiostro navy */
-  --accent: #0b699f;        /* azzurro — 5.6:1 su --bg, 5.9:1 su --card (era oro #7d6638) */
-  --accent-light: #e6f2fb;  /* azzurro pallido (era #f0e6d3 oro chiaro) */
-  --muted: #51616f;         /* 6.0:1 su --bg (WCAG AA) */
-  --border: #e2e8ee;        /* filetto azzurro-freddo (era caldo #e8e4dd) */
-  --card: #ffffff;
+  /* ── Superfici ─────────────────────────────────────────────────────── */
+  --paper:      #ffffff;   /* il foglio: card, pannelli in rilievo        */
+  --bg:         #f7f9fb;   /* la scrivania: fondo pagina                  */
+  --bg-sunk:    #eef3f7;   /* incavo: fasce alternate, campi              */
+  --ink:        #101f2e;   /* inchiostro pieno: sezioni scure             */
+  --ink-soft:   #17293c;   /* inchiostro su fondo scuro, un tono sopra    */
+
+  /* ── Testo ─────────────────────────────────────────────────────────── */
+  --fg:         #142434;   /* corpo e titoli su chiaro — 14.5:1 su --bg   */
+  --fg-muted:   #4d5f6f;   /* secondario — 6.4:1 su --bg (AA)             */
+  --fg-faint:   #64727f;   /* terziario, solo ≥16px — 4.6:1 su --bg       */
+  --on-ink:     #f2f7fa;   /* testo su fondo scuro — 15.1:1               */
+  --on-ink-muted: #a7bccd; /* secondario su scuro — 7.2:1                 */
+
+  /* ── Accento ───────────────────────────────────────────────────────── */
+  --accent:       #0b699f; /* 5.6:1 su --bg, 5.9:1 su --paper             */
+  --accent-deep:  #08527d; /* stato premuto/hover — 7.4:1 su --paper      */
+  --accent-ink:   #06456b; /* accento su fondo chiaro quando serve peso   */
+  --accent-wash:  #e8f2f9; /* velo azzurro: sfondo di evidenziazione      */
+  --accent-onink: #7ec4ec; /* accento leggibile su fondo scuro — 8.1:1    */
+
+  /* ── Filetti ───────────────────────────────────────────────────────── */
+  --rule:        #dde5ec;  /* filetto standard                            */
+  --rule-strong: #c3d0da;  /* filetto marcato                             */
+  --rule-ink:    #2a4055;  /* filetto su fondo scuro                      */
+
+  /* ── Scala di spaziatura = sequenza di Fibonacci (px) ──────────────── */
+  --s-1:   1px;
+  --s-2:   2px;
+  --s-3:   3px;
+  --s-5:   5px;
+  --s-8:   8px;
+  --s-13:  13px;
+  --s-21:  21px;
+  --s-34:  34px;
+  --s-55:  55px;
+  --s-89:  89px;
+  --s-144: 144px;
+  --s-233: 233px;
+
+  /* ── Misure di colonna ─────────────────────────────────────────────── */
+  --measure:      34rem;   /* ~66 caratteri: dentro i 45-90 di Butterick  */
+  --measure-tight: 21rem;
+  --page:         75rem;   /* gabbia massima                              */
+  --page-narrow:  55rem;
+
+  /* ── Raggi (pochi, e in scala) ─────────────────────────────────────── */
+  --r-sm: 3px;
+  --r:    5px;
+  --r-lg: 8px;
+  --r-xl: 13px;
+
+  /* ── Tempi ─────────────────────────────────────────────────────────── */
+  --t-fast: 160ms;
+  --t:      340ms;
+  --t-slow: 620ms;
+  --ease:      cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @theme inline {
+  --color-paper: var(--paper);
   --color-background: var(--bg);
+  --color-sunk: var(--bg-sunk);
+  --color-ink: var(--ink);
   --color-foreground: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-faint: var(--fg-faint);
   --color-accent: var(--accent);
-  --color-muted: var(--muted);
-  --color-border: var(--border);
-  --color-card: var(--card);
+  --color-rule: var(--rule);
+
+  --font-display: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-geist), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
 }
 
-/* Tutto-sans Geist: le var legacy puntano a Geist (definita da next/font su
-   <html>). Ogni `var(--font-playfair)` / `var(--font-inter)` già presente nei
-   componenti rende così Geist → nessun serif residuo, senza toccare 28 file. */
-:root {
-  --font-inter: var(--font-geist), system-ui, -apple-system, sans-serif;
-  --font-playfair: var(--font-geist), system-ui, -apple-system, sans-serif;
-}
+/* ═══════════════════════════════════════════════════════════════════════
+   BASE
+   ═══════════════════════════════════════════════════════════════════════ */
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { font-family: var(--font-geist), system-ui, -apple-system, sans-serif; }
 
-/* Gerarchia titoli senza contrasto serif/sans: tracking stretto alle misure
-   grandi (le utility Tailwind tracking-* nei componenti vincono per specificità). */
-h1, h2 { letter-spacing: -0.025em; }
-h3 { letter-spacing: -0.02em; }
+html {
+  scroll-behavior: smooth;
+  /* le ancore non finiscono sotto l'intestazione fissa */
+  scroll-padding-top: var(--s-89);
+  -webkit-text-size-adjust: 100%;
+}
 
 html, body {
   background: var(--bg);
   color: var(--fg);
   -webkit-font-smoothing: antialiased;
-  /* Previene overflow orizzontale globale da elementi decorativi assoluti
-     (spirali, gradient bleed). Salva il rendering mobile dove il document
-     allarga oltre il viewport. */
-  overflow-x: hidden;
-  max-width: 100vw;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
 }
 
-/* Headline lunghe come "Estetica su Fibonacci" su display <380px andavano
-   in overflow. break-words globale sui titoli previene il bleed. */
-h1, h2, h3 {
-  word-break: break-word;
-  overflow-wrap: anywhere;
+body {
+  font-family: var(--font-sans);
+  /* Butterick: corpo 15-25px, interlinea 120-145%. 17px / 1.6 sta dentro,
+     verso l'alto perché il lettore è un medico che legge in fretta. */
+  font-size: 17px;
+  line-height: 1.62;
+  font-feature-settings: "kern", "liga", "calt";
 }
 
-/* ────────────────────────────────────────────────────────────────────
-   LIQUID GLASS + AURORA — design language sottile ispirato a iOS 26
-   (Apple WWDC 2025). Usato SPARINGLY su Navbar scrolled, Pricing cards
-   e CTA primari. Non applicato a dense content per non compromettere
-   readability.
-   ──────────────────────────────────────────────────────────────────── */
+/* ── Titoli: Newsreader, ottico, con crenatura stretta alle misure grandi ── */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  color: var(--fg);
+  text-wrap: balance;
+  font-variation-settings: "opsz" 36;
+}
+h1 { letter-spacing: -0.021em; line-height: 1.04; }
+h2 { letter-spacing: -0.018em; line-height: 1.1; }
+h3 { letter-spacing: -0.012em; line-height: 1.2; }
+h4 { letter-spacing: -0.008em; line-height: 1.3; font-variation-settings: "opsz" 20; }
 
-/* Liquid glass: vetro semitrasparente con backdrop blur + specular highlight
-   superiore (inset shadow). Riusabile su navbar e card floating. */
-.liquid-glass {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(18px) saturate(180%);
-  -webkit-backdrop-filter: blur(18px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  box-shadow:
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.7),
-    inset 0 -1px 0 0 rgba(232, 228, 221, 0.3),
-    0 10px 30px -10px rgba(27, 46, 75, 0.15);
+p { text-wrap: pretty; }
+
+/* Il corsivo di Newsreader ha una personalità che il tondo non ha: si usa
+   per una parola sola dentro un titolo, mai per un paragrafo intero. */
+.accento-corsivo {
+  font-style: italic;
+  font-variation-settings: "opsz" 36;
+  color: var(--accent-ink);
 }
 
-/* Variante dark per sezioni con bg navy/fg */
-.liquid-glass-dark {
-  background: rgba(27, 46, 75, 0.55);
-  backdrop-filter: blur(18px) saturate(160%);
-  -webkit-backdrop-filter: blur(18px) saturate(160%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow:
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
-    0 10px 30px -10px rgba(0, 0, 0, 0.3);
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--accent-wash); color: var(--accent-deep); }
+
+/* Focus visibile ovunque: requisito WCAG, non un dettaglio estetico. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
 }
 
-/* Aurora gradient mesh - blob colorati blurrati che fluttuano lentamente.
-   Posizionati assoluti dentro un parent con position:relative+overflow:hidden.
-   Animazione lentissima (40s) per non distrarre da copy/CTA. */
-.aurora-mesh {
+/* ═══════════════════════════════════════════════════════════════════════
+   COMPOSIZIONE
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.gabbia {
+  width: 100%;
+  max-width: var(--page);
+  margin-inline: auto;
+  padding-inline: var(--s-21);
+}
+@media (min-width: 768px) { .gabbia { padding-inline: var(--s-34); } }
+
+.gabbia-stretta { max-width: var(--page-narrow); }
+.colonna { max-width: var(--measure); }
+
+/* Proporzione aurea testo : figura — sostituisce le max-width ad hoc. */
+.aurea {
+  display: grid;
+  gap: var(--s-34);
+}
+@media (min-width: 900px) {
+  .aurea { grid-template-columns: 1fr 1.618fr; gap: var(--s-55); align-items: center; }
+  .aurea-inversa { grid-template-columns: 1.618fr 1fr; }
+}
+
+/* Fasce verticali in scala */
+.fascia    { padding-block: var(--s-89); }
+.fascia-lg { padding-block: var(--s-144); }
+@media (max-width: 767px) {
+  .fascia    { padding-block: var(--s-55); }
+  .fascia-lg { padding-block: var(--s-89); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   ELEMENTI RICORRENTI
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* Occhiello monospaziato: piccolo, spaziato, tecnico. Dà alla pagina il
+   tono «documento» invece del tono «brochure». */
+.occhiello {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+}
+.occhiello::before {
+  content: "";
+  width: var(--s-21);
+  height: 1px;
+  background: currentColor;
+  opacity: 0.55;
+}
+.occhiello-chiaro { color: var(--accent-onink); }
+
+/* Il filetto orizzontale che separa le sezioni: 1px, mai un'ombra. */
+.filetto { height: 1px; background: var(--rule); border: 0; }
+
+/* Superficie foglio */
+.foglio {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+}
+
+/* Numerazione tipografica per gli elenchi ordinati grandi */
+.numero {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--fg-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Pulsanti ──────────────────────────────────────────────────────────
+   Due soli livelli. Il terzo livello è un link testuale, non un terzo
+   pulsante: tre pesi di CTA nella stessa schermata vuol dire nessuna
+   gerarchia. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-8);
+  min-height: 48px;              /* WCAG 2.2 SC 2.5.8 con margine */
+  padding: 0 var(--s-21);
+  border-radius: var(--r);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background var(--t-fast) var(--ease),
+              border-color var(--t-fast) var(--ease),
+              color var(--t-fast) var(--ease),
+              transform var(--t-fast) var(--ease);
+  white-space: nowrap;
+}
+.btn:active { transform: translateY(1px); }
+
+.btn-primario {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primario:hover { background: var(--accent-deep); }
+
+.btn-secondario {
+  background: var(--paper);
+  color: var(--fg);
+  border-color: var(--rule-strong);
+}
+.btn-secondario:hover { border-color: var(--accent); color: var(--accent-deep); }
+
+.btn-su-scuro {
+  background: transparent;
+  color: var(--on-ink);
+  border-color: var(--rule-ink);
+}
+.btn-su-scuro:hover { background: rgba(255, 255, 255, 0.07); border-color: var(--accent-onink); }
+
+/* Link testuale con freccia che avanza al passaggio */
+.link-avanti {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--accent-deep);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--t-fast) var(--ease);
+}
+.link-avanti:hover { border-bottom-color: currentColor; }
+.link-avanti svg { transition: transform var(--t-fast) var(--ease); }
+.link-avanti:hover svg { transform: translateX(3px); }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   MOVIMENTO
+   ═══════════════════════════════════════════════════════════════════════
+   NN/g: l'animazione ha tre mestieri — mostrare che un oggetto cambia
+   stato, orientare in una gerarchia, evitare disorientamento. Non
+   decorare. Qui il movimento fa una cosa sola: fa capire che il documento
+   si sta componendo mentre si scorre.
+
+   Ogni effetto legato allo scorrimento è spento da prefers-reduced-motion:
+   per chi ha disturbi vestibolari produce nausea, non fastidio.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+@keyframes sali {
+  from { opacity: 0; transform: translate3d(0, var(--s-21), 0); }
+  to   { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes appari {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes traccia {
+  from { stroke-dashoffset: var(--dash, 1000); }
+  to   { stroke-dashoffset: 0; }
+}
+@keyframes cursore {
+  0%, 45%  { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100%     { opacity: 1; }
+}
+
+.cursore-scrittura {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: var(--accent);
+  vertical-align: text-bottom;
+  animation: cursore 1.05s steps(1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .cursore-scrittura { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   FOTOGRAFIA
+   ═══════════════════════════════════════════════════════════════════════
+   Le foto stock sono d'ambiente, non di prodotto: non devono mai competere
+   con le schermate vere. Trattamento uniforme — leggera desaturazione e un
+   velo azzurro in moltiplicazione — così quattro autori diversi sembrano
+   una campagna sola invece di un collage. */
+
+.foto {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--r-lg);
+  background: var(--bg-sunk);
+  isolation: isolate;
+}
+.foto img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.9) contrast(1.02);
+}
+.foto::after {
+  content: "";
   position: absolute;
   inset: 0;
+  background: var(--accent);
+  mix-blend-mode: multiply;
+  opacity: 0.07;
   pointer-events: none;
+}
+.foto-piena::after { opacity: 0.13; }
+
+/* Didascalia in mono, allineata al filetto sotto la figura */
+.didascalia {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--fg-faint);
+  padding-top: var(--s-8);
+  border-top: 1px solid var(--rule);
+  margin-top: var(--s-13);
+}
+
+/* Schermate dell'app: bordo netto, nessuna cornice di browser disegnata.
+   Baymard — l'utente vuole vedere com'è fatto, non l'interpretazione che un
+   designer dà dell'interfaccia. */
+.schermata {
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-lg);
   overflow: hidden;
+  background: var(--paper);
+  box-shadow: 0 1px 2px rgba(16, 31, 46, 0.04),
+              0 var(--s-8) var(--s-34) -12px rgba(16, 31, 46, 0.18);
 }
-.aurora-blob {
+.schermata img { display: block; width: 100%; height: auto; }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SEZIONI SCURE
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.scuro {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+.scuro h1, .scuro h2, .scuro h3, .scuro h4 { color: var(--on-ink); }
+.scuro .filetto { background: var(--rule-ink); }
+.scuro .foglio { background: var(--ink-soft); border-color: var(--rule-ink); }
+.scuro .didascalia { color: var(--on-ink-muted); border-top-color: var(--rule-ink); }
+.scuro .numero { color: var(--on-ink-muted); }
+.scuro .accento-corsivo { color: var(--accent-onink); }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   TESTO LUNGO (pagine legali, documentazione, articoli)
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.prosa { max-width: var(--measure); }
+.prosa > * + * { margin-top: var(--s-21); }
+.prosa h2 {
+  font-size: 1.5rem;
+  margin-top: var(--s-55);
+  padding-top: var(--s-21);
+  border-top: 1px solid var(--rule);
+}
+.prosa h3 { font-size: 1.2rem; margin-top: var(--s-34); }
+.prosa p, .prosa li { color: var(--fg-muted); }
+.prosa strong { color: var(--fg); font-weight: 600; }
+.prosa a { color: var(--accent-deep); border-bottom: 1px solid var(--rule-strong); }
+.prosa a:hover { border-bottom-color: currentColor; }
+.prosa ul, .prosa ol { padding-left: var(--s-21); }
+.prosa li + li { margin-top: var(--s-8); }
+.prosa ul { list-style: disc; }
+.prosa ol { list-style: decimal; }
+.prosa code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--bg-sunk);
+  padding: 2px 5px;
+  border-radius: var(--r-sm);
+}
+.prosa table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.prosa th, .prosa td {
+  text-align: left;
+  padding: var(--s-8) var(--s-13);
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.prosa th { font-weight: 600; color: var(--fg); }
+.prosa td { color: var(--fg-muted); }
+.prosa blockquote {
+  border-left: 2px solid var(--accent);
+  padding-left: var(--s-21);
+  color: var(--fg-muted);
+  font-style: italic;
+}
+
+/* Salta al contenuto: primo elemento focalizzabile della pagina */
+.salta-al-contenuto {
   position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.6;
-  will-change: transform;
+  left: var(--s-13);
+  top: var(--s-13);
+  z-index: 100;
+  transform: translateY(-200%);
+  background: var(--accent);
+  color: #fff;
+  padding: var(--s-8) var(--s-21);
+  border-radius: var(--r);
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform var(--t-fast) var(--ease);
 }
-.aurora-blob-1 {
-  width: 420px;
-  height: 420px;
-  background: var(--accent-light);
-  top: -120px;
-  right: -120px;
-  animation: aurora-float-1 45s ease-in-out infinite;
-}
-.aurora-blob-2 {
-  width: 360px;
-  height: 360px;
-  background: #dceefd;
-  bottom: -120px;
-  left: -100px;
-  animation: aurora-float-2 55s ease-in-out infinite;
-}
-.aurora-blob-3 {
-  width: 300px;
-  height: 300px;
-  background: #e5eef5;
-  top: 40%;
-  left: 30%;
-  animation: aurora-float-3 50s ease-in-out infinite;
-}
-
-@keyframes aurora-float-1 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(40px, 60px) scale(1.15); }
-}
-@keyframes aurora-float-2 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(-50px, -40px) scale(1.1); }
-}
-@keyframes aurora-float-3 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(60px, -30px) scale(0.9); }
-}
-
-/* Riduzione movimento per utenti con prefer-reduced-motion */
-@media (prefers-reduced-motion: reduce) {
-  .aurora-blob {
-    animation: none;
-  }
-}
+.salta-al-contenuto:focus { transform: translateY(0); }

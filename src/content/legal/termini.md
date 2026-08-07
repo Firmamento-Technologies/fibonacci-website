@@ -20,7 +20,7 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 1.3 **Utente Autorizzato**: la persona fisica (medico, segretaria, assistente, collaboratore) cui il Cliente attribuisce credenziali di accesso al Servizio nei limiti del Piano sottoscritto.
 
-1.4 **Servizio**: il software SaaS multi-specialità denominato "Fibonacci", erogato in modalità cloud e accessibile via browser web all'indirizzo `https://app.fibonacci.it`, comprensivo dei moduli, delle funzionalità, della documentazione e dei servizi accessori indicati nel Piano sottoscritto.
+1.4 **Servizio**: il software SaaS multi-specialità denominato "Fibonacci", erogato in modalità cloud e accessibile via browser web all'indirizzo `l'applicazione Fibonacci`, comprensivo dei moduli, delle funzionalità, della documentazione e dei servizi accessori indicati nel Piano sottoscritto.
 
 1.5 **Piano**: il livello di abbonamento sottoscritto dal Cliente fra quelli descritti all'Art. 5, con relativi limiti operativi, funzionalità e corrispettivo.
 
@@ -34,7 +34,7 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 1.10 **Forza Maggiore**: gli eventi imprevedibili e indipendenti dalla volonta delle parti definiti all'Art. 16.
 
-1.11 **DPA**: il Data Processing Agreement pubblicato su `https://fibonacci.it/dpa`, che disciplina i ruoli e gli obblighi delle parti in materia di trattamento dei dati personali ai sensi del Regolamento (UE) 2016/679.
+1.11 **DPA**: il Data Processing Agreement pubblicato su `il sito Fibonacci/dpa`, che disciplina i ruoli e gli obblighi delle parti in materia di trattamento dei dati personali ai sensi del Regolamento (UE) 2016/679.
 
 ---
 
@@ -42,7 +42,7 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 2.1 Il Fornitore concede al Cliente, in modalità Software-as-a-Service (SaaS), non esclusiva, non trasferibile e limitata alla durata del presente contratto, il diritto di accesso e utilizzo del Servizio Fibonacci nei limiti operativi e funzionali del Piano sottoscritto.
 
-2.2 Il Servizio e accessibile via browser web all'indirizzo `https://app.fibonacci.it` ed e ospitato esclusivamente su infrastruttura di responsabilita del Fornitore. Il presente contratto non prevede licenza di installazione on-premise ne consegna del codice sorgente.
+2.2 Il Servizio e accessibile via browser web all'indirizzo `l'applicazione Fibonacci` ed e ospitato esclusivamente su infrastruttura di responsabilita del Fornitore. Il presente contratto non prevede licenza di installazione on-premise ne consegna del codice sorgente.
 
 2.3 Il diritto di accesso e attribuito agli Utenti Autorizzati indicati dal Cliente, nei limiti numerici del Piano, esclusivamente per finalita professionali interne all'attivita del Cliente.
 
@@ -52,7 +52,7 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 ## Art. 3 - Accettazione e modalita di sottoscrizione
 
-3.1 Il contratto si perfeziona al momento dell'accettazione elettronica delle presenti Condizioni Generali da parte del Cliente, mediante apposizione di flag in sede di registrazione su `https://app.fibonacci.it`, contestualmente all'inserimento dei dati anagrafici e dei dati di pagamento, ovvero, in caso di attivazione del Periodo di Prova, all'avvio dello stesso.
+3.1 Il contratto si perfeziona al momento dell'accettazione elettronica delle presenti Condizioni Generali da parte del Cliente, mediante apposizione di flag in sede di registrazione su `l'applicazione Fibonacci`, contestualmente all'inserimento dei dati anagrafici e dei dati di pagamento, ovvero, in caso di attivazione del Periodo di Prova, all'avvio dello stesso.
 
 3.2 Il Cliente, in sede di sottoscrizione, dichiara e garantisce:
 
@@ -181,13 +181,13 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 ## Art. 10 - Trattamento dei dati personali e DPA
 
-10.1 Il trattamento dei dati personali, ivi inclusi i Dati Pazienti, memorizzati, elaborati o trasmessi nell'ambito del Servizio e disciplinato dal Data Processing Agreement (DPA) pubblicato all'indirizzo `https://fibonacci.it/dpa`, parte integrante del presente contratto, che il Cliente dichiara di conoscere e accettare in sede di sottoscrizione.
+10.1 Il trattamento dei dati personali, ivi inclusi i Dati Pazienti, memorizzati, elaborati o trasmessi nell'ambito del Servizio e disciplinato dal Data Processing Agreement (DPA) pubblicato all'indirizzo `il sito Fibonacci/dpa`, parte integrante del presente contratto, che il Cliente dichiara di conoscere e accettare in sede di sottoscrizione.
 
 10.2 In caso di conflitto fra le previsioni del DPA e quelle delle presenti Condizioni Generali in materia di trattamento dei dati personali, prevalgono le previsioni del DPA.
 
 10.3 Ai fini del GDPR il Cliente e Titolare del trattamento dei Dati Pazienti e il Fornitore e Responsabile del trattamento. Il Fornitore opera esclusivamente sulla base delle istruzioni documentate del Cliente.
 
-10.4 L'Informativa Privacy del Fornitore relativa ai trattamenti svolti in qualita di Titolare (ad esempio per i Dati Cliente, cookie, comunicazioni commerciali) e pubblicata su `https://fibonacci.it/privacy`.
+10.4 L'Informativa Privacy del Fornitore relativa ai trattamenti svolti in qualita di Titolare (ad esempio per i Dati Cliente, cookie, comunicazioni commerciali) e pubblicata su `il sito Fibonacci/privacy`.
 
 ---
 
@@ -345,7 +345,7 @@ Tutti gli importi sono espressi in Euro e si intendono al netto dell'IVA, che sa
 
 21.2 La tolleranza di una parte rispetto a comportamenti dell'altra parte difformi dalle previsioni del contratto non costituisce rinuncia ai diritti derivanti dal contratto stesso, ne acquiescenza ad analoghi comportamenti futuri.
 
-21.3 Il presente documento, unitamente al Data Processing Agreement pubblicato su `https://fibonacci.it/dpa` e all'Informativa Privacy pubblicata su `https://fibonacci.it/privacy`, costituisce l'intero accordo fra le parti in relazione all'oggetto del contratto e sostituisce ogni precedente intesa, scritta o verbale, sul medesimo oggetto.
+21.3 Il presente documento, unitamente al Data Processing Agreement pubblicato su `il sito Fibonacci/dpa` e all'Informativa Privacy pubblicata su `il sito Fibonacci/privacy`, costituisce l'intero accordo fra le parti in relazione all'oggetto del contratto e sostituisce ogni precedente intesa, scritta o verbale, sul medesimo oggetto.
 
 21.4 Eventuali modifiche al presente contratto devono essere comunicate per iscritto via email al Cliente con preavviso di almeno 30 (trenta) giorni e si considerano accettate in mancanza di recesso esercitato entro detto termine, secondo le modalita di cui all'Art. 7.
 

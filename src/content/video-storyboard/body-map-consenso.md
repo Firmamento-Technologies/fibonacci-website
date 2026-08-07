@@ -54,7 +54,7 @@ Il video mostra in due minuti come Fibonacci sostituisce venti minuti di carta. 
 **Inquadratura**: split screen, a sinistra timer "due minuti" con dashboard Fibonacci sullo sfondo, a destra timer "venti minuti" con foto stilizzata di scrivania piena di carta.
 **Audio**: voiceover di chiusura con confronto.
 **Note regia**: contrast forte tra le due metà, palette desaturata a destra, brillante a sinistra.
-**On-screen**: dati "Due minuti con Fibonacci, venti con la carta", pulsante "Richiedi demo" e url app.fibonacci.it.
+**On-screen**: dati "Due minuti con Fibonacci, venti con la carta", pulsante "Richiedi demo" e url l'applicazione Fibonacci.
 
 ### Scena 9 (2:15 - 2:20) - Branding chiusura
 **Inquadratura**: logo Fibonacci con url e pulsante.
@@ -91,7 +91,7 @@ Provalo gratis quattordici giorni su app punto fibonacci punto it.
 - 1:38 - 1:50 callout "Consenso informato precompilato"
 - 1:55 - 2:04 callout "Firma grafometrica con valore legale"
 - 2:05 - 2:15 grande lower-third "Due minuti contro venti, ogni paziente"
-- 2:15 - 2:20 footer "Prova gratis su app.fibonacci.it"
+- 2:15 - 2:20 footer "Prova gratis su l'applicazione Fibonacci"
 
 ## Note di produzione
 

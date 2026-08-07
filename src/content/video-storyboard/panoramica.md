@@ -57,10 +57,10 @@ Il video apre sul caos quotidiano di chi gestisce ancora le cartelle cliniche tr
 **On-screen**: dati visibili "venti minuti a visita", "quattordici giorni di prova gratis".
 
 ### Scena 9 (1:20 - 1:30) - Call to action finale
-**Inquadratura**: schermata finale con pulsante "Richiedi demo" e indirizzo app.fibonacci.it ben leggibile, breve animazione del cursore che ci passa sopra.
+**Inquadratura**: schermata finale con pulsante "Richiedi demo" e indirizzo l'applicazione Fibonacci ben leggibile, breve animazione del cursore che ci passa sopra.
 **Audio**: voiceover di chiusura con invito esplicito, jingle Fibonacci di chiusura due secondi.
 **Note regia**: pulsante con leggero pulse, fade to logo finale.
-**On-screen**: pulsante "Richiedi demo", url app.fibonacci.it, testo "Prova gratis quattordici giorni".
+**On-screen**: pulsante "Richiedi demo", url l'applicazione Fibonacci, testo "Prova gratis quattordici giorni".
 
 ## Script voiceover completo (per dubbing)
 
@@ -81,7 +81,7 @@ Solo a trentanove euro al mese, Studio a settantanove, Clinica a centoquarantano
 - 0:52 - 0:58 callout "Consensi informati precompilati"
 - 1:02 - 1:08 callout "Server europei, audit log completo"
 - 1:18 - 1:24 lower-third "Solo trentanove euro al mese, Studio settantanove, Clinica centoquarantanove"
-- 1:24 - 1:30 lower-third grande "Richiedi demo su app.fibonacci.it"
+- 1:24 - 1:30 lower-third grande "Richiedi demo su l'applicazione Fibonacci"
 
 ## Note di produzione
 

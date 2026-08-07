@@ -1,156 +1,79 @@
-import { SITE_URL, CONTACT_EMAIL, FIRMAMENTO } from '@/lib/site-config'
+import { SITE_URL, SOCIETA } from '@/lib/site-config'
 
-// JSON-LD structured data per rich snippet Google e altri motori di ricerca.
-// Schema.org: Organization + SoftwareApplication + MedicalBusiness.
-// Vedi https://developers.google.com/search/docs/appearance/structured-data
+/* Dati strutturati per i motori di ricerca.
+ *
+ * Regola: qui dentro non finisce niente che non sia vero e verificabile
+ * altrove sul sito. I dati strutturati sono la prima cosa che un motore
+ * confronta con il contenuto della pagina, e una discrepanza vale più di
+ * un'omissione. Per questo l'anagrafica societaria compare SOLO quando la
+ * S.r.l. è costituita: finché `SOCIETA.costituita` è falso, il grafo
+ * descrive il prodotto e tace sull'editore. */
 
-export function OrganizationSchema() {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Fibonacci',
-    legalName: 'Firmamento Technologies Società Cooperativa',
-    url: SITE_URL,
-    logo: `${SITE_URL}/icon.svg`,
-    description:
-      'Fibonacci e\' la cartella clinica digitale per medici italiani, prodotto da Firmamento Technologies Soc. Coop. Software SaaS multi-specialita\': medicina estetica, dermatologia, ortopedia, psicologia, nutrizione, oculistica.',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: FIRMAMENTO.address.street,
-      postalCode: FIRMAMENTO.address.postalCode,
-      addressLocality: FIRMAMENTO.address.locality,
-      addressRegion: FIRMAMENTO.address.region,
-      addressCountry: FIRMAMENTO.address.country,
-    },
-    taxID: FIRMAMENTO.fiscalCode,
-    vatID: FIRMAMENTO.vatEU,
-    parentOrganization: {
-      '@type': 'Organization',
-      name: FIRMAMENTO.legalName,
-      url: FIRMAMENTO.website,
-      description: FIRMAMENTO.description,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: FIRMAMENTO.address.street,
-        postalCode: FIRMAMENTO.address.postalCode,
-        addressLocality: FIRMAMENTO.address.locality,
-        addressRegion: FIRMAMENTO.address.region,
-        addressCountry: FIRMAMENTO.address.country,
-      },
-      taxID: FIRMAMENTO.fiscalCode,
-      vatID: FIRMAMENTO.vatEU,
-    },
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'customer service',
-      email: CONTACT_EMAIL,
-      availableLanguage: ['Italian'],
-    },
-  }
+function Json({ dati }: { dati: Record<string, unknown> }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(dati) }}
+    />
+  )
+}
+
+export function OrganizationSchema() {
+  if (!SOCIETA.costituita) return null
+  return (
+    <Json
+      dati={{
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: SOCIETA.nomeBreve,
+        legalName: SOCIETA.ragioneSociale,
+        url: SITE_URL,
+        vatID: SOCIETA.partitaIva,
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: SOCIETA.sede.via,
+          postalCode: SOCIETA.sede.cap,
+          addressLocality: SOCIETA.sede.comune,
+          addressCountry: 'IT',
+        },
+      }}
     />
   )
 }
 
 export function SoftwareApplicationSchema() {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
-    name: 'Fibonacci',
-    description:
-      'Cartella clinica digitale SaaS per medici italiani. Dettatura AI, body-map 2D, consensi informati, GDPR by design, FHIR R4 nativo.',
-    applicationCategory: 'HealthApplication',
-    operatingSystem: 'Web Browser',
-    url: SITE_URL,
-    inLanguage: 'it-IT',
-    producer: {
-      '@type': 'Organization',
-      name: FIRMAMENTO.legalName,
-      url: FIRMAMENTO.website,
-    },
-    offers: [
-      {
-        '@type': 'Offer',
-        name: 'Solo',
-        price: '99',
-        priceCurrency: 'EUR',
-        priceSpecification: {
-          '@type': 'UnitPriceSpecification',
-          price: '99',
-          priceCurrency: 'EUR',
-          billingDuration: 'P1M',
-        },
-        eligibleCustomerType: 'http://purl.org/goodrelations/v1#Business',
-      },
-      {
-        '@type': 'Offer',
-        name: 'Studio',
-        price: '189',
-        priceCurrency: 'EUR',
-        priceSpecification: {
-          '@type': 'UnitPriceSpecification',
-          price: '189',
-          priceCurrency: 'EUR',
-          billingDuration: 'P1M',
-        },
-        eligibleCustomerType: 'http://purl.org/goodrelations/v1#Business',
-      },
-    ],
-    featureList: [
-      'Anagrafica paziente FHIR R4',
-      'Anamnesi con dettatura AI Voxtral',
-      'Body-map 2D con pallini numerati',
-      'Consensi informati generati in PDF',
-      'Audit log immutabile hash-chain',
-      'Catalogo farmaci AIFA integrato',
-      'Agenda condivisa multi-operatore',
-      'MFA TOTP per accesso sicuro',
-      'Export ZIP FHIR R4 GDPR',
-    ],
-  }
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  )
-}
-
-export function MedicalBusinessSchema() {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'MedicalBusiness',
-    name: 'Fibonacci',
-    description: 'Software SaaS per la gestione della cartella clinica digitale di medici e studi medici italiani. Prodotto da Firmamento Technologies Soc. Coop.',
-    url: SITE_URL,
-    medicalSpecialty: [
-      'PlasticSurgery',
-      'Dermatology',
-      'Orthopedic',
-      'Psychiatric',
-      'Dietetic',
-      'Ophthalmologic',
-    ],
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Genova',
-      addressRegion: 'Liguria',
-      addressCountry: 'IT',
-    },
-    provider: {
-      '@type': 'Organization',
-      name: FIRMAMENTO.legalName,
-      url: FIRMAMENTO.website,
-      taxID: FIRMAMENTO.fiscalCode,
-    },
-  }
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    <Json
+      dati={{
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: 'Fibonacci',
+        applicationCategory: 'HealthApplication',
+        applicationSubCategory: 'Cartella clinica per la medicina estetica',
+        operatingSystem: 'Web',
+        url: SITE_URL,
+        inLanguage: 'it-IT',
+        description:
+          'Cartella clinica per studi di medicina estetica: consenso informato firmato in studio, mappa del viso per le sedute, foto cliniche cifrate, anamnesi dettata, registro accessi con catena di impronte.',
+        // I prezzi dichiarati qui sono gli stessi di /prezzi. Se divergono, è
+        // la pagina a fare fede e questo va corretto.
+        offers: [
+          {
+            '@type': 'Offer',
+            name: 'Solo',
+            price: '99',
+            priceCurrency: 'EUR',
+            description: 'Un medico, uno studio. Prezzo mensile, IVA esclusa.',
+          },
+          {
+            '@type': 'Offer',
+            name: 'Studio',
+            price: '189',
+            priceCurrency: 'EUR',
+            description: 'Fino a cinque operatori. Prezzo mensile, IVA esclusa.',
+          },
+        ],
+      }}
     />
   )
 }

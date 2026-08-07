@@ -1,10 +1,10 @@
 # Sicurezza e protezione dei dati
 
-**Versione 0.1 — Ultima revisione: {ULTIMA_REVISIONE}**
+**Versione 0.1 · Ultima revisione: {ULTIMA_REVISIONE}**
 
 La presente scheda tecnica descrive le misure di sicurezza, tecniche e organizzative, adottate da Fibonacci (di seguito, "Fibonacci" o il "Responsabile") nell'erogazione del software SaaS di cartella clinica digitale Fibonacci (di seguito, il "Servizio" o "Fibonacci"). Il documento è reso ai sensi dell'articolo 32 del Regolamento (UE) 2016/679 (di seguito, "GDPR") e costituisce l'Allegato A dell'Accordo per il Trattamento dei Dati (DPA) sottoscritto dal medico cliente in qualità di Titolare del trattamento. Le misure descritte si applicano al trattamento di categorie particolari di dati ai sensi dell'art. 9 GDPR (dati relativi alla salute) effettuato per conto del Titolare nell'ambito del Servizio.
 
-Il documento è pubblicato all'indirizzo https://fibonacci.it/sicurezza ed è soggetto ad aggiornamenti periodici in funzione dell'evoluzione tecnologica del Servizio e dello stato dell'arte in materia di sicurezza informatica. Le modifiche tecniche significative sono notificate ai Titolari clienti con le modalità indicate in calce al presente documento.
+Il documento è pubblicato all'indirizzo il sito Fibonacci/sicurezza ed è soggetto ad aggiornamenti periodici in funzione dell'evoluzione tecnologica del Servizio e dello stato dell'arte in materia di sicurezza informatica. Le modifiche tecniche significative sono notificate ai Titolari clienti con le modalità indicate in calce al presente documento.
 
 ---
 
@@ -216,7 +216,7 @@ Per il trattamento dei dati sanitari dei pazienti, Fibonacci non effettua alcun 
 
 ### 9.1 Cloudflare
 
-Fibonacci utilizza Cloudflare, Inc. (Stati Uniti) come fornitore di DNS, proxy e CDN per il dominio fibonacci.it e per il dominio applicativo. La base giuridica del trasferimento extra-UE per i dati tecnici di routing (indirizzo IP, header di richiesta, metadati di rete) è costituita dalle Clausole Contrattuali Standard adottate con Decisione di esecuzione (UE) 2021/914 della Commissione Europea, nonché dalle misure supplementari indicate nelle Raccomandazioni 01/2020 EDPB. In particolare:
+Fibonacci utilizza Cloudflare, Inc. (Stati Uniti) come fornitore di DNS, proxy e CDN per il dominio del sito e per il dominio applicativo. La base giuridica del trasferimento extra-UE per i dati tecnici di routing (indirizzo IP, header di richiesta, metadati di rete) è costituita dalle Clausole Contrattuali Standard adottate con Decisione di esecuzione (UE) 2021/914 della Commissione Europea, nonché dalle misure supplementari indicate nelle Raccomandazioni 01/2020 EDPB. In particolare:
 
 - il traffico applicativo viaggia in TLS 1.3 end-to-end fino al backend Hetzner in Germania;
 - Cloudflare non termina TLS applicativo e non dispone delle chiavi private del backend;
@@ -281,7 +281,7 @@ Fibonacci ha posto come obiettivo la valutazione di avvio del percorso di certif
 | Funzione | Contatto |
 | --- | --- |
 | Sicurezza informatica e segnalazione vulnerabilità | `security@firmamentotechnologies.com` |
-| Data Protection Officer | `dpo@firmamentotechnologies.com` |
+| Contatto per la protezione dei dati | `privacy@firmamentotechnologies.com` |
 | Privacy e questioni di trattamento dati | `privacy@firmamentotechnologies.com` |
 
 Le segnalazioni di vulnerabilità sono benvenute e gestite in coerenza con le pratiche di responsible disclosure. È possibile, su richiesta del segnalante, instaurare un canale cifrato mediante chiave PGP del team di sicurezza, fornita su richiesta. Fibonacci si impegna a fornire un riscontro iniziale al segnalante entro un tempo ragionevole dalla ricezione, a non perseguire legalmente segnalazioni effettuate in buona fede e nel rispetto del perimetro indicato, e a riconoscere pubblicamente il contributo del segnalante salvo richiesta di anonimato.

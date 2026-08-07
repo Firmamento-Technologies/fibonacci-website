@@ -1,52 +1,43 @@
-// Logo Fibonacci: spirale aurea SVG derivata dalla sequenza di Fibonacci.
-// La spirale cresce secondo il rapporto aureo φ ≈ 1.618 — evoca matematica,
-// natura, perfezione proporzionale. Identità visiva unica nel mercato medico.
+/* Il marchio.
+ *
+ * La spirale non è un ornamento: è la costruzione esatta della sequenza.
+ * Quadrati di lato 8, 5, 3, 2, 1 accostati in un rettangolo 13×8 (rapporto
+ * 1,625, cioè φ approssimato dalla sequenza stessa), e in ognuno il quarto di
+ * cerchio che li unisce. I raggi degli archi sono 8, 5, 3, 2, 1: gli stessi
+ * numeri della scala di spaziatura del sito.
+ *
+ * Disegnata a filo, non dentro un quadrato colorato: un'icona da app store
+ * direbbe «prodotto di consumo», e qui si vende una cartella clinica.
+ */
+
+const SPIRALE = 'M0 8 A8 8 0 0 1 8 0 A5 5 0 0 1 13 5 A3 3 0 0 1 10 8 A2 2 0 0 1 8 6 A1 1 0 0 1 9 5'
+
 export function FibonacciLogo({
-  size = 32,
-  color = '#1b2e4b',
+  size = 26,
+  color = 'currentColor',
+  spessore = 0.75,
 }: {
   size?: number
   color?: string
+  spessore?: number
 }) {
   return (
     <svg
-      width={size}
+      width={(size * 14.4) / 9.4}
       height={size}
-      viewBox="0 0 40 40"
+      viewBox="-0.7 -0.7 14.4 9.4"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      aria-label="Fibonacci logo"
+      aria-hidden="true"
+      focusable="false"
     >
-      {/* Quadrati della sequenza di Fibonacci stilizzati come spirale */}
-      {/* Sfondo rounded */}
-      <rect width="40" height="40" rx="10" fill={color} />
-      {/* Spirale aurea in bianco */}
-      {/* Arco grande (quadrante in basso a destra) */}
       <path
-        d="M 22 8 Q 34 8 34 20 Q 34 32 22 32 Q 10 32 10 20 Q 10 13 16 10"
-        stroke="white"
-        strokeWidth="2.2"
-        fill="none"
+        d={SPIRALE}
+        stroke={color}
+        strokeWidth={spessore}
         strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      {/* Arco medio */}
-      <path
-        d="M 16 10 Q 22 10 22 16 Q 22 22 16 22"
-        stroke="white"
-        strokeWidth="2.2"
-        fill="none"
-        strokeLinecap="round"
-      />
-      {/* Arco piccolo */}
-      <path
-        d="M 16 22 Q 16 18 20 18"
-        stroke="white"
-        strokeWidth="2"
-        fill="none"
-        strokeLinecap="round"
-      />
-      {/* Punto centrale */}
-      <circle cx="20" cy="18" r="1.5" fill="white" opacity="0.8" />
     </svg>
   )
 }
@@ -54,10 +45,29 @@ export function FibonacciLogo({
 export function FibonacciWordmark({ className = '' }: { className?: string }) {
   return (
     <span
-      className={`font-semibold tracking-tight ${className}`}
-      style={{ fontFamily: 'var(--font-geist)', letterSpacing: '-0.02em' }}
+      className={className}
+      style={{
+        fontFamily: 'var(--font-display)',
+        fontSize: '1.3125rem',
+        letterSpacing: '-0.018em',
+        fontVariationSettings: '"opsz" 24',
+      }}
     >
       Fibonacci
+    </span>
+  )
+}
+
+/** Marchio completo: spirale + parola. È l'unico posto in cui compaiono insieme. */
+export function Logo({ chiaro = false }: { chiaro?: boolean }) {
+  return (
+    <span
+      className="inline-flex items-center gap-[var(--s-13)]"
+      style={{ color: chiaro ? 'var(--on-ink)' : 'var(--fg)' }}
+    >
+      <FibonacciLogo size={22} color={chiaro ? 'var(--accent-onink)' : 'var(--accent)'} />
+      <FibonacciWordmark />
+      <span className="sr-only">Fibonacci</span>
     </span>
   )
 }

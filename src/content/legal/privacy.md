@@ -1,10 +1,10 @@
 # Informativa sulla Privacy
 
-La presente informativa descrive le modalità di trattamento dei dati personali raccolti, conservati ed elaborati nell'ambito del sito istituzionale https://fibonacci.it, dell'applicazione SaaS Fibonacci accessibile dal dominio https://app.fibonacci.it e dei servizi correlati. Il documento è reso ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (di seguito "GDPR") e del D.Lgs. 30 giugno 2003 n. 196, come modificato dal D.Lgs. 10 agosto 2018 n. 101 (di seguito "Codice Privacy").
+La presente informativa descrive le modalità di trattamento dei dati personali raccolti, conservati ed elaborati nell'ambito del sito istituzionale il sito Fibonacci, dell'applicazione SaaS Fibonacci accessibile dal dominio dell'applicazione e dei servizi correlati. Il documento è reso ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (di seguito "GDPR") e del D.Lgs. 30 giugno 2003 n. 196, come modificato dal D.Lgs. 10 agosto 2018 n. 101 (di seguito "Codice Privacy").
 
-Fibonacci è una cartella clinica digitale multi-specialità rivolta a medici e professionisti sanitari italiani, distribuita in modalità Software as a Service. Le specialità coperte includono medicina estetica, dermatologia, ortopedia, psicologia, nutrizione e oculistica, con estensione progressiva. Tra le funzionalità rientrano la gestione dell'anagrafica del paziente, l'anamnesi strutturata, le foto cliniche cifrate, la body-map 2D, la dettatura assistita da intelligenza artificiale per anamnesi e referti, la generazione e l'archiviazione dei consensi informati in formato PDF, il catalogo farmaci AIFA, il log di audit immutabile in formato FHIR AuditEvent, l'agenda appuntamenti, l'autenticazione a due fattori TOTP e l'interscambio nativo in formato FHIR R4.
+Fibonacci è una cartella clinica digitale per la medicina estetica, rivolta a medici e professionisti sanitari italiani e distribuita in modalità Software as a Service. Tra le funzionalità rientrano la gestione dell'anagrafica del paziente, l'anamnesi strutturata, le foto cliniche cifrate, la body-map 2D, la dettatura assistita da intelligenza artificiale per anamnesi e referti, la generazione e l'archiviazione dei consensi informati in formato PDF, il catalogo farmaci AIFA, il log di audit immutabile in formato FHIR AuditEvent, l'agenda appuntamenti, l'autenticazione a due fattori TOTP e l'interscambio nativo in formato FHIR R4.
 
-> Avvertenza preliminare: tre ruoli distinti coesistono nel perimetro del servizio. Per i dati di navigazione del sito fibonacci.it e per i dati dei medici clienti che sottoscrivono l'abbonamento al software, Fibonacci agisce in qualità di Titolare del trattamento. Per i dati dei pazienti inseriti dai medici clienti nel software, Fibonacci agisce in qualità di Responsabile del trattamento ex art. 28 GDPR, mentre il Titolare è il medico cliente che ha la relazione professionale con il paziente. La regolamentazione del trattamento dei dati dei pazienti è disciplinata dall'Accordo sul trattamento dei dati (di seguito "DPA"), sottoscritto contestualmente al contratto di servizio dal medico cliente, ed è descritta sinteticamente nella sezione 3 e nella sezione 8 della presente informativa.
+> Avvertenza preliminare: tre ruoli distinti coesistono nel perimetro del servizio. Per i dati di navigazione del sito il sito Fibonacci e per i dati dei medici clienti che sottoscrivono l'abbonamento al software, Fibonacci agisce in qualità di Titolare del trattamento. Per i dati dei pazienti inseriti dai medici clienti nel software, Fibonacci agisce in qualità di Responsabile del trattamento ex art. 28 GDPR, mentre il Titolare è il medico cliente che ha la relazione professionale con il paziente. La regolamentazione del trattamento dei dati dei pazienti è disciplinata dall'Accordo sul trattamento dei dati (di seguito "DPA"), sottoscritto contestualmente al contratto di servizio dal medico cliente, ed è descritta sinteticamente nella sezione 3 e nella sezione 8 della presente informativa.
 
 ## 1. Titolare del trattamento
 
@@ -15,9 +15,9 @@ Sede legale: Genova, Italia
 Codice Fiscale / Partita IVA: IT____________
 Email di contatto per le questioni privacy: privacy@firmamentotechnologies.com
 
-In considerazione della natura del trattamento, che riguarda categorie particolari di dati ex art. 9 GDPR (dati relativi alla salute) su larga scala, è in corso di nomina il Responsabile della protezione dei dati (Data Protection Officer) ai sensi dell'art. 37 GDPR. Il DPO può essere contattato all'indirizzo:
+Per ogni questione relativa al trattamento dei dati personali, compreso l'esercizio dei diritti previsti dagli artt. 15-22 GDPR, il canale di contatto è il seguente:
 
-Email DPO: dpo@firmamentotechnologies.com
+Email: privacy@firmamentotechnologies.com
 
 ## 2. Definizioni essenziali
 
@@ -35,7 +35,7 @@ Ai fini della presente informativa si intendono per:
 
 Il Titolare tratta dati personali differenti in funzione del segmento di interessato. Di seguito la distinzione.
 
-### 3.1 Visitatori del sito fibonacci.it
+### 3.1 Visitatori del sito il sito Fibonacci
 
 In relazione ai visitatori del sito istituzionale e ai potenziali clienti che compilano i form di contatto o di richiesta demo, sono trattati i seguenti dati:
 
@@ -104,7 +104,7 @@ Per l'esecuzione di specifiche attività tecniche, il Titolare si avvale dei seg
 | Brevo SAS | Francia | Invio di email transazionali (notifiche di servizio, recupero password, conferme di pagamento) e, ove autorizzato, comunicazioni promozionali |
 | Mistral AI SAS | Francia | Servizio di trascrizione audio Voxtral utilizzato per la dettatura assistita. L'audio è trasmesso in modalità transitoria, non viene persistito né utilizzato per addestrare modelli, secondo gli accordi contrattuali specifici |
 | Stripe Payments Europe Ltd | Irlanda | Gestione tecnica degli abbonamenti, dei pagamenti ricorrenti e dei dati di fatturazione. Stripe non riceve dati sanitari né dati dei pazienti |
-| Cloudflare Inc. | Stati Uniti d'America | Servizi DNS, proxy CDN e protezione anti-DDoS sul dominio fibonacci.it e sui sottodomini applicativi |
+| Cloudflare Inc. | Stati Uniti d'America | Servizi DNS, proxy CDN e protezione anti-DDoS sul dominio del sito e sui sottodomini applicativi |
 
 L'elenco aggiornato dei sub-responsabili è pubblicato e mantenuto nell'area documentale riservata ai medici clienti. Eventuali modifiche o aggiunte sono notificate con congruo preavviso ai sensi del DPA.
 
@@ -160,10 +160,10 @@ L'interessato può esercitare in qualsiasi momento i diritti riconosciuti dagli 
 - diritto di revoca del consenso (art. 7, par. 3 GDPR): revocare in qualsiasi momento i consensi prestati, senza pregiudizio per la liceità del trattamento svolto prima della revoca;
 - diritto di non essere sottoposto a decisioni automatizzate (art. 22 GDPR): nessuna decisione che produca effetti giuridici o significativi è assunta esclusivamente su base automatizzata. Le funzioni di dettatura e assistenza AI svolgono un ruolo di supporto al professionista sanitario, che mantiene piena autonomia decisionale.
 
-Le richieste possono essere indirizzate, anche disgiuntamente, al Titolare e al DPO ai seguenti recapiti:
+Le richieste possono essere indirizzate al Titolare ai seguenti recapiti:
 
 - email Titolare: privacy@firmamentotechnologies.com
-- email DPO: dpo@firmamentotechnologies.com
+- email: privacy@firmamentotechnologies.com
 
 Il Titolare fornisce riscontro entro 30 giorni dal ricevimento della richiesta. Il termine può essere prorogato di ulteriori 60 giorni in caso di particolare complessità della richiesta o di numero elevato di richieste, con motivazione comunicata all'interessato. Il riscontro è gratuito; il Titolare si riserva di richiedere un contributo spese o di rifiutare la richiesta in caso di istanze manifestamente infondate o eccessive, ai sensi dell'art. 12, par. 5 GDPR.
 
@@ -191,7 +191,7 @@ Resta impregiudicato il diritto di proporre ricorso in sede giurisdizionale ai s
 
 ## 12. Cookie
 
-Il sito fibonacci.it utilizza cookie tecnici necessari al corretto funzionamento del sito e, previo consenso espresso dell'utente, cookie analitici e di terze parti. Per il dettaglio delle tipologie di cookie utilizzati, delle finalità e delle modalità di gestione delle preferenze, si rinvia alla Cookie Policy disponibile alla pagina /cookie.
+Il sito il sito Fibonacci utilizza cookie tecnici necessari al corretto funzionamento del sito e, previo consenso espresso dell'utente, cookie analitici e di terze parti. Per il dettaglio delle tipologie di cookie utilizzati, delle finalità e delle modalità di gestione delle preferenze, si rinvia alla Cookie Policy disponibile alla pagina /cookie.
 
 ## 13. Minori
 
@@ -201,7 +201,7 @@ Qualora un paziente del medico cliente sia un minore, la raccolta e il trattamen
 
 ## 14. Modifiche all'informativa
 
-La presente informativa può essere aggiornata in qualsiasi momento per riflettere modifiche normative, evoluzioni del servizio o variazioni dell'organizzazione del Titolare. La versione vigente è sempre pubblicata su https://fibonacci.it/privacy con indicazione della data di ultima revisione.
+La presente informativa può essere aggiornata in qualsiasi momento per riflettere modifiche normative, evoluzioni del servizio o variazioni dell'organizzazione del Titolare. La versione vigente è sempre pubblicata sul sito Fibonacci/privacy con indicazione della data di ultima revisione.
 
 Le modifiche sostanziali, intese come modifiche che incidono in modo significativo sulle finalità del trattamento, sulle basi giuridiche, sui sub-responsabili o sui diritti degli interessati, sono notificate via email agli utenti registrati e segnalate in evidenza nell'area riservata, con congruo preavviso rispetto all'efficacia delle modifiche stesse.
 

@@ -1,52 +1,72 @@
-// URL dell'applicazione SaaS Fibonacci, usato dai CTA "Accedi" su Navbar e Footer.
-// NB: il dominio `fibonacci.it` NON è di Firmamento — è registrato da terzi dal
-// 2003 (vedi decisione-dominio-brand). Finché non si registra un dominio proprio
-// (`fibonaccimed.it` è il candidato primario), l'app punta al VPS attuale via
-// nip.io con HTTPS valido. TODO: passare a 'https://app.<dominio-proprio>' una
-// volta registrato. Le email di contatto sono già su `firmamentotechnologies.com`
-// (dominio realmente controllato) per non recapitare a terzi.
+/* Anagrafica e indirizzi: un posto solo.
+ *
+ * ⚠️ INTESTAZIONE SOCIETARIA — DA COMPLETARE ALLA COSTITUZIONE.
+ * Fibonacci non è più intestato a Firmamento Technologies Soc. Coop.: sarà
+ * una S.r.l. nuova, che alla data di questa revisione NON è ancora costituita.
+ * Finché non lo è, questo file NON contiene ragione sociale, partita IVA, REA
+ * né PEC, perché non esistono ancora e inventarli sarebbe peggio che ometterli.
+ *
+ * CONSEGUENZA DA CONOSCERE, non un dettaglio: l'art. 7 c. 1 del D.Lgs.
+ * 70/2003 impone al prestatore di rendere «facilmente accessibili, in modo
+ * diretto e permanente» denominazione, sede legale, contatti, numero REA e
+ * partita IVA. Finché i campi qui sotto restano vuoti il sito è fuori da quel
+ * requisito. Va colmato il giorno stesso dell'iscrizione al registro imprese,
+ * e da quel momento il piè di pagina si popola da solo.
+ */
+export const SOCIETA = {
+  /** Ragione sociale completa, es. «Fibonacci S.r.l.». */
+  ragioneSociale: '',
+  /** Nome breve per il testo corrente. */
+  nomeBreve: '',
+  partitaIva: '',
+  rea: '',
+  pec: '',
+  sede: {
+    via: '',
+    cap: '',
+    comune: '',
+    provincia: '',
+  },
+  /** true quando l'anagrafica è completa: il piè di pagina la mostra solo allora. */
+  get costituita() {
+    return Boolean(this.ragioneSociale && this.partitaIva && this.rea && this.sede.via)
+  },
+} as const
+
+/* ── Contatti ──────────────────────────────────────────────────────────
+ * ⚠️ VUOTI FINCHÉ LA S.R.L. NON HA LE PROPRIE CASELLE.
+ * Le vecchie caselle appartenevano a un'altra società e sono state tolte:
+ * pubblicare l'indirizzo di posta di un soggetto diverso dal prestatore del
+ * servizio confonde chi deve esercitare un diritto e chi deve notificare
+ * qualcosa. Finché questi campi restano vuoti l'unico canale è il modulo di
+ * contatto, e l'interfaccia si adegua da sola: nessuna riga mostra una
+ * casella inesistente e il ripiego su `mailto:` del modulo resta spento.
+ *
+ * ⚠️ L'art. 7 c. 1 lett. c) D.Lgs. 70/2003 impone un recapito di posta
+ * elettronica fra le informazioni obbligatorie. Vanno riempiti insieme
+ * all'anagrafica societaria, non dopo. */
+export const CONTACT_EMAIL = ''
+export const SUPPORT_EMAIL = ''
+export const PRIVACY_EMAIL = ''
+
+/* ── Indirizzi del prodotto ────────────────────────────────────────────
+ * ⚠️ Il dominio `fibonacci.it` è di terzi dal 2003 e non si può usare.
+ * Finché non se ne registra uno proprio, l'applicazione risponde sul VPS via
+ * nip.io con certificato valido. Da cambiare in `https://app.<dominio>`. */
 export const APP_URL = 'https://82.25.101.118.nip.io'
-// Demo live: auto-login con account isolato medico@studio.test, redirect a /pazienti.
-// Visitatori possono testare body-map, dettatura, consensi, agenda senza registrarsi.
 export const DEMO_URL = 'https://82.25.101.118.nip.io/demo'
-// Endpoint pubblico chatbot AI: assistente Mistral con knowledge base sito.
-// Rate limit 30 msg / 15 min per IP. Endpoint nel container emr-transcriber-prod.
-export const CHAT_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-chat'
-// Endpoint pubblico raccolta lead (form demo/ambassador): persiste il lead
-// lato server e notifica via email. Il form fa fallback a mailto se irraggiungibile.
+
+/** Raccolta dei contatti dal modulo. Il modulo ripiega su mailto se non risponde. */
 export const LEAD_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-lead'
 
-// URL pubblici del sito vetrina e dei contatti.
+/** Dove è pubblicata la vetrina. Da spostare sul dominio proprio. */
 export const SITE_URL = 'https://firmamento-technologies.github.io/fibonacci-website'
-export const CONTACT_EMAIL = 'info@firmamentotechnologies.com'
-export const SUPPORT_EMAIL = 'supporto@firmamentotechnologies.com'
-export const NEWS_EMAIL = 'news@firmamentotechnologies.com'
-export const PRIVACY_EMAIL = 'privacy@firmamentotechnologies.com'
 
-// Firmamento Technologies Soc. Coop. - società produttrice/madre di Fibonacci.
-// Cooperativa di lavoro a mutualità prevalente (artt. 2512-2513 c.c.).
-// Patrocinata da Legacoop Liguria e Coopfond.
-export const FIRMAMENTO = {
-  legalName: 'Firmamento Technologies Società Cooperativa',
-  shortName: 'Firmamento Technologies',
-  fiscalCode: '03038500991',
-  vatNumber: '03038500991',
-  vatEU: 'IT03038500991',
-  rea: 'GE-528629',
-  pec: 'firmamentotechnologies@pec.it',
-  address: {
-    street: 'Via Brigata Liguria 105 R',
-    postalCode: '16121',
-    locality: 'Genova',
-    province: 'GE',
-    region: 'Liguria',
-    country: 'IT',
-  },
-  legalForm: 'Società Cooperativa',
-  website: 'https://firmamentotechnologies.com',
-  email: 'info@firmamentotechnologies.com',
-  description:
-    'Cooperativa deep-tech di Genova, ponte operativo tra ricerca accademica e industria. Verticali: AI agentica, aerospace, simulazione CFD, healthcare.',
-  patronage: ['Legacoop Liguria', 'Coopfond'],
-  partners: ['DOPE Hubs', 'Università di Genova'],
+/** Dove stanno fisicamente i dati clinici. Detto per esteso perché è una
+ *  delle prime tre domande di ogni medico prudente, e perché scrivere
+ *  «in Italia» sarebbe falso. */
+export const OSPITALITA = {
+  fornitore: 'Hetzner Online GmbH',
+  luogo: 'Falkenstein, Germania',
+  area: 'Spazio economico europeo',
 } as const

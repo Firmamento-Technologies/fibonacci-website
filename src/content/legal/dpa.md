@@ -1,6 +1,6 @@
 # Accordo per il Trattamento dei Dati (DPA)
 
-**Versione 0.1 (bozza interna) — Ultima revisione: {ULTIMA_REVISIONE}**
+**Versione 0.1 (bozza interna) · Ultima revisione: {ULTIMA_REVISIONE}**
 
 Il presente Accordo per il Trattamento dei Dati (di seguito, "DPA" o "Accordo") è stipulato ai sensi e per gli effetti dell'articolo 28 del Regolamento (UE) 2016/679 (di seguito, "GDPR") e del D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018 (di seguito, "Codice Privacy"), e disciplina i rapporti tra le Parti in relazione al trattamento dei dati personali svolto dal Responsabile per conto del Titolare nell'ambito del Servizio Fibonacci.
 
@@ -8,9 +8,9 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 
 ---
 
-## Art. 1 — Premesse
+## Art. 1 · Premesse
 
-1.1. Il Titolare ha sottoscritto con il Responsabile il Contratto di Servizio avente ad oggetto la fornitura del software Fibonacci, applicativo SaaS di cartella clinica digitale multi-specialità erogato dal Responsabile al Titolare in modalità cloud, accessibile all'indirizzo `https://app.fibonacci.it`.
+1.1. Il Titolare ha sottoscritto con il Responsabile il Contratto di Servizio avente ad oggetto la fornitura del software Fibonacci, applicativo SaaS di cartella clinica digitale multi-specialità erogato dal Responsabile al Titolare in modalità cloud, accessibile all'indirizzo `l'applicazione Fibonacci`.
 
 1.2. L'esecuzione del Contratto di Servizio comporta il trattamento, da parte del Responsabile per conto del Titolare, di dati personali e di categorie particolari di dati ai sensi dell'art. 9 GDPR, riferiti ai pazienti del Titolare.
 
@@ -22,7 +22,7 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 
 ---
 
-## Art. 2 — Identificazione delle Parti
+## Art. 2 · Identificazione delle Parti
 
 ### 2.1. Titolare del trattamento
 
@@ -45,13 +45,13 @@ Il presente DPA costituisce parte integrante e sostanziale del Contratto di Serv
 | Sede legale | Genova, Italia |
 | Partita IVA | IT____________ |
 | Email di contatto | `privacy@firmamentotechnologies.com` |
-| Responsabile della protezione dei dati (DPO) | `dpo@firmamentotechnologies.com` |
+| Contatto per la protezione dei dati | `privacy@firmamentotechnologies.com` |
 
 Nel prosieguo, il Titolare e il Responsabile sono congiuntamente denominati "Parti" e singolarmente "Parte".
 
 ---
 
-## Art. 3 — Definizioni
+## Art. 3 · Definizioni
 
 Ai fini del presente DPA, i termini utilizzati con lettera maiuscola hanno il significato di seguito indicato. Per quanto non espressamente definito, valgono le definizioni di cui all'art. 4 GDPR.
 
@@ -68,7 +68,7 @@ Ai fini del presente DPA, i termini utilizzati con lettera maiuscola hanno il si
 
 ---
 
-## Art. 4 — Oggetto, natura, finalità e durata del trattamento
+## Art. 4 · Oggetto, natura, finalità e durata del trattamento
 
 4.1. **Oggetto**. Il Responsabile tratta i Dati personali per conto del Titolare nella misura strettamente necessaria all'erogazione del Servizio Fibonacci, come definito nel Contratto di Servizio.
 
@@ -87,7 +87,7 @@ Ai fini del presente DPA, i termini utilizzati con lettera maiuscola hanno il si
 
 ---
 
-## Art. 5 — Categorie di Interessati e tipologie di Dati personali
+## Art. 5 · Categorie di Interessati e tipologie di Dati personali
 
 5.1. **Categorie di Interessati**. Sono Interessati al trattamento:
 
@@ -108,7 +108,7 @@ Ai fini del presente DPA, i termini utilizzati con lettera maiuscola hanno il si
 
 ---
 
-## Art. 6 — Obblighi del Responsabile
+## Art. 6 · Obblighi del Responsabile
 
 In conformità all'art. 28, par. 3 GDPR, il Responsabile si impegna a:
 
@@ -138,7 +138,7 @@ In conformità all'art. 28, par. 3 GDPR, il Responsabile si impegna a:
 
 ---
 
-## Art. 7 — Sub-responsabili autorizzati
+## Art. 7 · Sub-responsabili autorizzati
 
 7.1. Il Titolare conferisce al Responsabile, ai sensi dell'art. 28, par. 2 GDPR, **autorizzazione generale** all'impiego dei Sub-responsabili indicati al successivo punto 7.2 per l'erogazione del Servizio, con l'obbligo per il Responsabile di informare il Titolare delle modifiche all'elenco secondo le modalità di cui al punto 7.3.
 
@@ -148,7 +148,7 @@ In conformità all'art. 28, par. 3 GDPR, il Responsabile si impegna a:
 - b) **Brevo SAS**, con sede in 106 Boulevard Haussmann, 75008 Parigi, Francia. Attività: invio di email transazionali (conferme di appuntamento, notifiche di sistema, recupero password). Dati trattati: indirizzo email dei destinatari e contenuto del messaggio. Non riceve dati clinici di dettaglio.
 - c) **Mistral AI SAS**, con sede in 15 rue des Halles, 75001 Parigi, Francia. Attività: trascrizione in testo delle dettature audio del Titolare tramite servizio di intelligenza artificiale. L'audio è inviato in streaming via API e non è persistito da Mistral oltre la finestra di processing. Trasferimenti extra-UE: nessuno; ove applicabile, clausole contrattuali tipo della Commissione UE.
 - d) **Stripe Payments Europe Ltd**, con sede in 1 Grand Canal Street Lower, Dublino, Irlanda. Attività: gestione dell'abbonamento e della fatturazione del Titolare nei confronti del Responsabile. Non riceve dati clinici dei pazienti. Tratta esclusivamente dati di pagamento riferiti al Titolare medico.
-- e) **Cloudflare Inc.**, con sede in 101 Townsend St, San Francisco, CA, USA. Attività: gestione DNS, proxy HTTPS, protezione DDoS e rete di distribuzione di contenuti per il dominio `fibonacci.it` ed i relativi sottodomini. Le operazioni avvengono sotto la copertura delle clausole contrattuali tipo di cui alla Decisione UE 2021/914 e con misure supplementari di sicurezza. I dati sanitari non sono mai esposti a Cloudflare in chiaro, in quanto il traffico è cifrato in modalità end-to-end con TLS sino al backend in Germania.
+- e) **Cloudflare Inc.**, con sede in 101 Townsend St, San Francisco, CA, USA. Attività: gestione DNS, proxy HTTPS, protezione DDoS e rete di distribuzione di contenuti per il dominio `il sito Fibonacci` ed i relativi sottodomini. Le operazioni avvengono sotto la copertura delle clausole contrattuali tipo di cui alla Decisione UE 2021/914 e con misure supplementari di sicurezza. I dati sanitari non sono mai esposti a Cloudflare in chiaro, in quanto il traffico è cifrato in modalità end-to-end con TLS sino al backend in Germania.
 
 7.3. **Modifiche all'elenco**. Il Responsabile informa il Titolare di qualsiasi modifica all'elenco dei Sub-responsabili, sia in caso di aggiunta sia in caso di sostituzione, con **preavviso di almeno 30 giorni** rispetto alla data di efficacia della modifica. L'informativa è fornita tramite pubblicazione della scheda aggiornata all'indirizzo di cui all'Allegato B e mediante comunicazione email all'indirizzo del Titolare di cui all'art. 2.1.
 
@@ -158,7 +158,7 @@ In conformità all'art. 28, par. 3 GDPR, il Responsabile si impegna a:
 
 ---
 
-## Art. 8 — Trasferimenti extra-UE/SEE
+## Art. 8 · Trasferimenti extra-UE/SEE
 
 8.1. I Dati personali e, in particolare, i dati sanitari di cui all'art. 9 GDPR non sono trasferiti al di fuori dello Spazio Economico Europeo. Il database produttivo, i backup e le foto cliniche risiedono fisicamente in Germania.
 
@@ -170,7 +170,7 @@ In conformità all'art. 28, par. 3 GDPR, il Responsabile si impegna a:
 
 ---
 
-## Art. 9 — Misure tecniche e organizzative (art. 32 GDPR)
+## Art. 9 · Misure tecniche e organizzative (art. 32 GDPR)
 
 Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure tecniche e organizzative, parametrate al rischio del trattamento di categorie particolari di dati ex art. 9 GDPR.
 
@@ -216,7 +216,7 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 ---
 
-## Art. 10 — Violazione dei dati personali (data breach)
+## Art. 10 · Violazione dei dati personali (data breach)
 
 10.1. **Obbligo di notifica del Responsabile al Titolare**. Il Responsabile notifica al Titolare ogni Violazione dei dati personali di cui venga a conoscenza, **entro 24 ore dalla scoperta**, mediante comunicazione scritta all'indirizzo email del Titolare di cui all'art. 2.1, contenente:
 
@@ -233,7 +233,7 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 ---
 
-## Art. 11 — Audit e ispezioni
+## Art. 11 · Audit e ispezioni
 
 11.1. Il Titolare ha diritto di richiedere al Responsabile informazioni utili a dimostrare il rispetto degli obblighi previsti dall'art. 28 GDPR e dal presente DPA, nonché di effettuare audit di conformità.
 
@@ -249,7 +249,7 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 ---
 
-## Art. 12 — Termine del trattamento
+## Art. 12 · Termine del trattamento
 
 12.1. **Restituzione dei dati**. Alla cessazione del Contratto di Servizio, su richiesta scritta del Titolare da formularsi entro **30 giorni** dalla data di cessazione, il Responsabile restituisce al Titolare tutti i Dati personali trattati per conto del medesimo in formato **ZIP strutturato secondo lo standard FHIR R4**.
 
@@ -263,7 +263,7 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 ---
 
-## Art. 13 — Responsabilità
+## Art. 13 · Responsabilità
 
 13.1. Ciascuna Parte risponde dei danni causati a terzi nei limiti di quanto previsto dall'art. 82 GDPR e secondo la propria sfera di responsabilità. Il Titolare risponde della liceità del trattamento e della correttezza delle istruzioni impartite al Responsabile; il Responsabile risponde del rispetto degli obblighi specificamente posti a suo carico dal presente DPA, dall'art. 28 GDPR e dall'art. 32 GDPR.
 
@@ -275,7 +275,7 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 ---
 
-## Art. 14 — Legge applicabile e foro competente
+## Art. 14 · Legge applicabile e foro competente
 
 14.1. Il presente DPA è regolato dalla legge italiana.
 
@@ -283,17 +283,17 @@ Il Responsabile adotta e mantiene per tutta la durata del DPA le seguenti misure
 
 ---
 
-## Art. 15 — Allegati
+## Art. 15 · Allegati
 
 Costituiscono parte integrante del presente DPA i seguenti Allegati, sempre aggiornati alla versione più recente pubblicata dal Responsabile:
 
-- **Allegato A — Descrizione tecnica del trattamento e delle misure di sicurezza**: scheda tecnica di dettaglio pubblicata all'indirizzo `https://fibonacci.it/sicurezza`.
-- **Allegato B — Scheda dei Sub-responsabili**: elenco sempre aggiornato dei Sub-responsabili autorizzati, pubblicato all'indirizzo `https://fibonacci.it/sub-responsabili`.
-- **Allegato C — Contatti operativi**: Responsabile della protezione dei dati (DPO) del Responsabile: `dpo@firmamentotechnologies.com`; supporto Privacy del Responsabile: `privacy@firmamentotechnologies.com`.
+- **Allegato A · Descrizione tecnica del trattamento e delle misure di sicurezza**: scheda tecnica di dettaglio pubblicata all'indirizzo `il sito Fibonacci/sicurezza`.
+- **Allegato B · Scheda dei Sub-responsabili**: elenco sempre aggiornato dei Sub-responsabili autorizzati, pubblicato all'indirizzo `il sito Fibonacci/sub-responsabili`.
+- **Allegato C · Contatti operativi**: contatto per la protezione dei dati del Responsabile: `privacy@firmamentotechnologies.com`.
 
 ---
 
-## Art. 16 — Sottoscrizione
+## Art. 16 · Sottoscrizione
 
 Il presente Accordo per il Trattamento dei Dati è sottoscritto dalle Parti come segue. La sottoscrizione può essere effettuata mediante firma autografa su supporto cartaceo ovvero mediante firma elettronica avanzata o firma elettronica qualificata, con piena efficacia giuridica equivalente.
 
@@ -319,7 +319,7 @@ Il presente Accordo per il Trattamento dei Dati è sottoscritto dalle Parti come
 
 ---
 
-## Art. 17 — Ultima revisione
+## Art. 17 · Ultima revisione
 
 Ultima revisione del presente documento: **{ULTIMA_REVISIONE}**.
 

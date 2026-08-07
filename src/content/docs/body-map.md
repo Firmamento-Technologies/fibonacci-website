@@ -2,7 +2,7 @@
 
 Questa guida descrive l'uso della body map bidimensionale di Fibonacci per documentare in modo strutturato e visivo le aree del corpo del paziente sottoposte a trattamento. Ogni punto trattato viene rappresentato da un pallino numerato posizionato sulla fotografia del paziente, con i dettagli clinici associati: area corporea, prodotto utilizzato, lotto, quantita ed eventuale uso off-label.
 
-La funzione e attualmente disponibile per la specialita di medicina estetica. Altre specialita verticali sono in fase di sviluppo: dermatologia, ortopedia e fisiatria seguiranno secondo la roadmap pubblica.
+La funzione e pensata per la medicina estetica: le aree della mappa sono quelle su cui si interviene in uno studio estetico.
 
 ## Prerequisiti
 

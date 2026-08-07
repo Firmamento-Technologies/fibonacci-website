@@ -9,7 +9,7 @@ La funzione si rivolge ai medici che vogliono ridurre il tempo dedicato alla dig
 - Account con ruolo `medico` e accesso clinico al paziente.
 - Microfono integrato o esterno funzionante. La qualita dell'estrazione cresce con un microfono da scrivania a condensatore o con auricolare con cancellazione del rumore.
 - Browser supportato: Chrome, Edge o Safari in versione recente. Firefox non supporta ancora alcune API audio richieste.
-- Permesso microfono concesso al dominio `app.fibonacci.it`.
+- Permesso microfono concesso al dominio `l'applicazione Fibonacci`.
 - Sezione paziente gia aperta sulla scheda visita corrente.
 - Connessione internet stabile; la dettatura usa streaming WebSocket verso il backend.
 
@@ -99,7 +99,7 @@ L'utente puo richiedere di non utilizzare la dettatura per una specifica visita:
 
 **Il microfono non funziona o non viene rilevato.** Verifica nel browser le autorizzazioni: in Chrome, clic sul lucchetto a sinistra dell'URL, sezione `Microfono`, consenti. In Safari, `Safari > Impostazioni > Siti web > Microfono`. In Edge, identico a Chrome. Verifica anche le impostazioni di sistema del dispositivo: un microfono disattivato a livello sistema operativo non e accessibile dal browser.
 
-**Il testo non appare durante la dettatura.** Indica un problema di connessione al backend di trascrizione. Apri la console di rete del browser e verifica la presenza di errori WebSocket sull'endpoint `wss://api.fibonacci.it/voxtral`. Le cause piu comuni sono firewall aziendali che bloccano WebSocket o proxy intermedi che chiudono le connessioni di lunga durata. Contatta il responsabile IT dello studio o passa a connessione mobile per verifica.
+**Il testo non appare durante la dettatura.** Indica un problema di connessione al backend di trascrizione. Apri la console di rete del browser e verifica la presenza di errori WebSocket sull'endpoint `wss://<dominio-applicazione>/voxtral`. Le cause piu comuni sono firewall aziendali che bloccano WebSocket o proxy intermedi che chiudono le connessioni di lunga durata. Contatta il responsabile IT dello studio o passa a connessione mobile per verifica.
 
 **Confidence score sistematicamente bassi.** Avvicinati al microfono o riduci il rumore ambientale. Parla a volume normale ma costante. Se il problema persiste anche in ambiente silenzioso, prova con un microfono esterno: i microfoni integrati di alcuni portatili economici sono di qualita insufficiente per la trascrizione clinica.
 

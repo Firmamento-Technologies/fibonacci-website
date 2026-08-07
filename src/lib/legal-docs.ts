@@ -1,6 +1,5 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { FIRMAMENTO } from './site-config'
 import { docRevisionDate } from './doc-dates'
 
 export interface LegalDocMeta {
@@ -16,7 +15,7 @@ export const LEGAL_DOCS: LegalDocMeta[] = [
     title: 'Informativa sulla Privacy',
     shortTitle: 'Privacy Policy',
     description:
-      'Informativa ex artt. 13-14 GDPR sul trattamento dei dati personali raccolti tramite il sito fibonacci.it e l\'applicazione Fibonacci.',
+      'Informativa ex artt. 13-14 GDPR sul trattamento dei dati personali raccolti tramite il sito e l\'applicazione Fibonacci.',
   },
   {
     slug: 'cookie',
@@ -29,7 +28,7 @@ export const LEGAL_DOCS: LegalDocMeta[] = [
     slug: 'dpa',
     title: 'Accordo per il Trattamento dei Dati (DPA)',
     shortTitle: 'DPA art. 28 GDPR',
-    description: `Accordo ex art. 28 GDPR fra il medico cliente (Titolare) e ${FIRMAMENTO.legalName} (Responsabile) per il trattamento dei dati dei pazienti.`,
+    description: 'Accordo ex art. 28 GDPR fra il medico cliente, titolare del trattamento, e il fornitore del servizio, responsabile, per il trattamento dei dati dei pazienti.',
   },
   {
     slug: 'termini',

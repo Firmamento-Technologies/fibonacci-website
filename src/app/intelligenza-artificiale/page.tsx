@@ -1,364 +1,161 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
-import {
-  Mic,
-  Sparkles,
-  MessageCircle,
-  ShieldCheck,
-  ArrowRight,
-  Check,
-  AlertCircle,
-  Lock,
-  FileSignature,
-} from 'lucide-react'
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
-import { PHOTOS } from '@/lib/asset-path'
+import { Pagina } from '@/components/chrome/Pagina'
+import { Reveal } from '@/components/ui/Reveal'
+import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Intelligenza Artificiale',
+  title: 'Come usiamo l’intelligenza artificiale',
   description:
-    'Come Fibonacci usa l\'AI per la cartella clinica: Voxtral dettatura real-time, apply-to-form con confidence score, chatbot clinico. AI responsabile, mai automatica, sempre validata dal medico.',
+    'Dove c’è un modello linguistico dentro Fibonacci, cosa fa, cosa non fa mai, chi controlla il risultato e dove girano i dati. Senza entusiasmi.',
   alternates: { canonical: '/intelligenza-artificiale' },
 }
 
-const CAPABILITIES = [
+/* Pagina di trasparenza sull'IA.
+ *
+ * Serve a due cose insieme, ed è raro che coincidano così bene:
+ *   · al posizionamento — «l'IA non decide niente» è esattamente ciò che un
+ *     medico prudente vuole sentirsi dire;
+ *   · alla conformità — l'art. 50 dell'AI Act impone di rendere riconoscibile
+ *     l'interazione con un sistema di IA, e il cons. 58 ricorda che restare
+ *     fuori dall'alto rischio dipende da cosa il sistema decide davvero.
+ *
+ * Regola per questa pagina: niente futuro. Solo quello che gira adesso. */
+
+const DOVE = [
   {
-    icon: Mic,
-    title: 'Dettatura clinica con Voxtral 24B',
-    paragraphs: [
-      'Voxtral è il modello speech-to-text di Mistral AI, ottimizzato per il dominio clinico. Trascrive l\'italiano medico con accuratezza 95-98% nelle nostre prove interne, gestendo termini tecnici, posologie, sigle diagnostiche.',
-      'Il flusso è real-time: mentre parli, le parole appaiono nello schermo. Le partial appaiono in grigio (riconoscimento in corso), le final in nero (consolidate). Lo stop è automatico dopo 8 secondi di silenzio, oppure manuale.',
-      'L\'audio non viene mai persistito: solo testo trascritto, e solo se confermi il salvataggio. Mistral non utilizza i tuoi input per addestrare i modelli (verificato a contratto).',
-    ],
-    detail: 'Provider: Mistral AI SAS, Parigi (UE) - Sub-responsabile DPA art. 28',
+    titolo: 'La dettatura dell’anamnesi',
+    cosaFa: 'Trascrive quello che dici durante la visita e propone i campi compilati.',
+    cosaNonFa: 'Non salva niente da sola. Ogni campo resta modificabile e il salvataggio è un tuo gesto.',
+    chiControlla: 'Tu, prima di salvare.',
   },
   {
-    icon: Sparkles,
-    title: 'Apply-to-form con confidence score',
-    paragraphs: [
-      'Dopo la trascrizione, un secondo passaggio AI estrae i campi strutturati: allergie, farmaci in uso, patologie pregresse, familiarità, stile di vita. Per ogni campo viene mostrato un punteggio di confidenza.',
-      'Verde (>80%): l\'AI è fiduciosa. Giallo (50-80%): rivedi prima di accettare. Rosso (<50%): probabilmente serve correzione manuale. Il colore guida il tuo occhio sui campi che richiedono attenzione.',
-      'Niente viene salvato in cartella senza un click esplicito di approvazione del medico. Il pattern è "AI propone, medico dispone": riduci il tempo di compilazione del 60-70% senza cedere la responsabilità clinica.',
-    ],
-    detail: 'Endpoint: /api/clinical-extract - Funzione interna LLM',
+    titolo: 'La bozza di un consenso fuori catalogo',
+    cosaFa: 'Costruisce la struttura di un modulo per una procedura che non è fra i modelli pronti.',
+    cosaNonFa:
+      'Non inventa contenuto clinico spacciandolo per verificato. Il testo esce marcato come bozza e va rivisto prima dell’uso con pazienti reali.',
+    chiControlla: 'Il medico, e per il testo clinico il suo legale.',
   },
   {
-    icon: MessageCircle,
-    title: 'Chatbot clinico in-app',
-    paragraphs: [
-      'Il widget "Chiedi all\'AI" in basso a destra di ogni pagina risponde a domande in linguaggio naturale, con context sul paziente correntemente aperto: "ha allergie note?", "quali trattamenti negli ultimi 6 mesi?", "ultimo PHQ-9 era a quanto?".',
-      'Per le query sui workflow Fibonacci: "come inserisco un consenso informato?", "dove vedo l\'audit log?". Il chatbot conosce la documentazione, accelera l\'onboarding senza chiamare il supporto.',
-      'Per la dettatura: chiamando il chatbot via microfono, parla a voce e ricevi una risposta testuale. Utile durante la visita per query veloci che richiederebbero di staccarti dal paziente.',
-    ],
-    detail: 'Context-aware LLM su FHIR + docs index',
-  },
-  {
-    icon: ShieldCheck,
-    title: 'AI responsabile - clausola RF-5.4',
-    paragraphs: [
-      'La conformità RF-5.4 del nostro spec interno garantisce tre livelli di responsabilità AI:',
-      'Livello 1 - UI: ogni output AI è visualizzato come "proposta" rivedibile, mai come "fatto compiuto". Il medico vede sempre il source: trascrizione audio, confidence, alternativa.',
-      'Livello 2 - Backend: ogni call AI è loggata come AuditEvent FHIR con timestamp, modello, confidence, decisione del medico (accettato / modificato / rifiutato). Retention 10 anni.',
-      'Livello 3 - Contrattuale: bozza clausola nei Termini di Servizio chiarisce che Fibonacci è uno strumento di supporto, non dispositivo medico MDR (Reg. UE 2017/745). La responsabilità clinica e diagnostica resta del medico.',
-    ],
-    detail: 'Doc tecnica: docs/RF_5_4_VALIDAZIONE_OUTPUT_AI.md',
+    titolo: 'Il controllo sulle allergie',
+    cosaFa:
+      'Confronta quello che stai per prescrivere con le allergie registrate in cartella e segnala l’incongruenza.',
+    cosaNonFa:
+      'Non è intelligenza artificiale: è un confronto deterministico fra due elenchi. Lo scriviamo qui perché venga contato per quello che è, e non per qualcosa di più.',
+    chiControlla: 'Il segnale è un avviso, non un blocco. Decidi tu.',
   },
 ] as const
 
-const COMMITMENTS = [
-  {
-    icon: Lock,
-    title: 'Audio mai persistito',
-    body: 'Il tuo audio passa solo nella finestra di trascrizione live. Non viene salvato né da Fibonacci né da Mistral.',
-  },
-  {
-    icon: ShieldCheck,
-    title: 'Modelli in UE',
-    body: 'Mistral è francese, server in UE. Nessun dato sanitario lascia l\'Unione Europea via AI.',
-  },
-  {
-    icon: Check,
-    title: 'Opt-out training',
-    body: 'Verifichiamo contrattualmente che gli input clinici non vengano usati per addestrare i modelli.',
-  },
-  {
-    icon: AlertCircle,
-    title: 'Trasparenza errori',
-    body: 'Confidence score sempre visibile. Quando l\'AI sbaglia, il medico lo vede prima di approvare.',
-  },
-  {
-    icon: FileSignature,
-    title: 'Audit log immutabile',
-    body: 'Ogni decisione AI (accetta/modifica/rifiuta) è tracciata in hash-chain FHIR per 10 anni.',
-  },
-  {
-    icon: Sparkles,
-    title: 'Modelli aggiornati',
-    body: 'Quando esce un modello migliore (es. Voxtral v2) lo aggiorniamo dopo validazione interna.',
-  },
+const MAI = [
+  'Non formula diagnosi, e nessuna schermata ne propone una.',
+  'Non consiglia terapie, dosaggi o prodotti.',
+  'Non decide niente al posto tuo: non esiste un’azione che parte senza che tu la confermi.',
+  'Non parla con i pazienti al posto tuo dentro la cartella clinica.',
+  'Non addestra modelli sui dati dei tuoi pazienti.',
 ] as const
 
-export default function IntelligenzaArtificialePage() {
+export default function IntelligenzaArtificiale() {
   return (
-    <>
-      <Navbar />
-      <main className="pt-16" style={{ background: 'var(--bg)' }}>
-        {/* Hero */}
-        <section className="relative overflow-hidden">
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              background:
-                'radial-gradient(ellipse 70% 50% at 50% 0%, var(--accent-light) 0%, transparent 65%)',
-            }}
-          />
-          <div className="relative max-w-4xl mx-auto px-6 py-20 lg:py-28 text-center">
-            <div
-              className="flex items-center gap-2 text-xs font-medium mb-3 justify-center"
-              style={{ color: 'var(--muted)' }}
-            >
-              <Link href="/" className="hover:underline">Home</Link>
-              <span>/</span>
-              <span style={{ color: 'var(--fg)' }}>Intelligenza Artificiale</span>
-            </div>
-            <div
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-5"
-              style={{ background: 'var(--accent-light)', color: 'var(--fg)' }}
-            >
-              <Sparkles className="w-3.5 h-3.5" style={{ color: 'var(--accent)' }} />
-              Intelligenza Artificiale
-            </div>
-            <h1
-              className="font-[var(--font-playfair)] text-[2rem] sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-[1.05] mb-6 break-words"
-              style={{ color: 'var(--fg)' }}
-            >
-              L&apos;AI che scrive con te, non al posto tuo
-            </h1>
-            <p
-              className="text-base md:text-lg leading-relaxed max-w-2xl mx-auto"
-              style={{ color: 'var(--muted)' }}
-            >
-              Fibonacci integra modelli di intelligenza artificiale per accelerare la
-              documentazione clinica. Il medico parla, l&apos;AI struttura, il medico valida.
-              Nessuna decisione clinica automatica, nessuna persistenza senza approvazione,
-              tutto tracciato in audit log.
-            </p>
-          </div>
-        </section>
-
-        {/* Foto contestuale: medico con tablet, link cognitivo a "AI nello strumento del medico" */}
-        <section className="py-12" style={{ background: 'var(--card)' }}>
-          <div className="max-w-4xl mx-auto px-6">
-            <div
-              className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-xl"
-              style={{ border: '1px solid var(--border)' }}
-            >
-              <Image
-                src={PHOTOS.doctorTablet}
-                alt="Mani su tablet con stetoscopio: documentazione clinica digitale supportata dall'AI"
-                fill
-                unoptimized
-                priority
-                className="object-cover"
-              />
-            </div>
-            <p className="text-xs mt-3 italic text-center" style={{ color: 'var(--muted)' }}>
-              L&apos;AI di Fibonacci accompagna il medico al tavolo, dove tu sei.
-              Non lo sostituisce.
-            </p>
-          </div>
-        </section>
-
-        {/* 4 capabilities */}
-        <section className="py-16" style={{ background: 'var(--bg)' }}>
-          <div className="max-w-4xl mx-auto px-6 flex flex-col gap-16">
-            {CAPABILITIES.map((cap, idx) => (
-              <div key={cap.title} className="grid md:grid-cols-[80px_1fr] gap-6">
-                <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center shrink-0"
-                  style={{ background: 'var(--accent-light)' }}
-                >
-                  <cap.icon className="w-7 h-7" style={{ color: 'var(--accent)' }} />
+    <Pagina
+      occhiello="Trasparenza"
+      titolo={
+        <>
+          C&apos;è dell&apos;intelligenza artificiale, e <span className="accento-corsivo">non</span>{' '}
+          decide niente
+        </>
+      }
+      sommario="Tre punti del prodotto usano un modello linguistico. Qui c’è cosa fa ciascuno, cosa non fa mai, e chi controlla il risultato."
+    >
+      <section style={{ paddingBottom: 'var(--s-55)' }}>
+        <div className="gabbia gabbia-stretta">
+          {DOVE.map((d, i) => (
+            <Reveal key={d.titolo}>
+              <div className="py-[var(--s-34)]" style={{ borderTop: '1px solid var(--rule)' }}>
+                <div className="flex items-baseline gap-[var(--s-13)]">
+                  <span className="numero">{String(i + 1).padStart(2, '0')}</span>
+                  <h2 className="text-[1.35rem]">{d.titolo}</h2>
                 </div>
-                <div>
-                  <p
-                    className="text-xs font-semibold uppercase tracking-wider mb-2"
-                    style={{ color: 'var(--accent)' }}
-                  >
-                    Capacità {idx + 1} di {CAPABILITIES.length}
-                  </p>
-                  <h2
-                    className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold mb-4 leading-tight"
-                    style={{ color: 'var(--fg)' }}
-                  >
-                    {cap.title}
-                  </h2>
-                  <div className="flex flex-col gap-4 mb-4">
-                    {cap.paragraphs.map((p, i) => (
-                      <p key={i} className="text-base leading-relaxed" style={{ color: 'var(--fg)' }}>
-                        {p}
-                      </p>
-                    ))}
-                  </div>
-                  <div
-                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs"
-                    style={{ background: 'var(--bg)', color: 'var(--muted)', border: '1px solid var(--border)' }}
-                  >
-                    {cap.detail}
-                  </div>
-                </div>
+                <dl className="mt-[var(--s-21)] grid gap-[var(--s-21)] md:grid-cols-3">
+                  {[
+                    ['Cosa fa', d.cosaFa],
+                    ['Cosa non fa', d.cosaNonFa],
+                    ['Chi controlla', d.chiControlla],
+                  ].map(([k, v]) => (
+                    <div key={k}>
+                      <dt className="numero">{k}</dt>
+                      <dd className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                        {v}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
               </div>
-            ))}
-          </div>
-        </section>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
-        {/* I nostri impegni AI */}
-        <section className="py-20" style={{ background: 'var(--bg)' }}>
-          <div className="max-w-5xl mx-auto px-6">
-            <div className="text-center mb-12">
-              <p
-                className="text-sm font-semibold uppercase tracking-wider mb-3"
-                style={{ color: 'var(--accent)' }}
-              >
-                I nostri impegni
-              </p>
-              <h2
-                className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold"
-                style={{ color: 'var(--fg)' }}
-              >
-                Sei cose a cui non transigiamo sull&apos;AI
-              </h2>
-            </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-              {COMMITMENTS.map((c) => (
-                <div
-                  key={c.title}
-                  className="p-5 rounded-2xl"
-                  style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
-                >
-                  <div
-                    className="w-9 h-9 rounded-lg flex items-center justify-center mb-3"
-                    style={{ background: 'var(--accent-light)' }}
-                  >
-                    <c.icon className="w-4 h-4" style={{ color: 'var(--accent)' }} />
-                  </div>
-                  <h3 className="text-base font-semibold mb-2" style={{ color: 'var(--fg)' }}>
-                    {c.title}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                    {c.body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Cosa non fa l'AI */}
-        <section className="py-20" style={{ background: 'var(--card)' }}>
-          <div className="max-w-3xl mx-auto px-6">
-            <p
-              className="text-sm font-semibold uppercase tracking-wider mb-3"
-              style={{ color: 'var(--accent)' }}
-            >
-              Trasparenza
-            </p>
-            <h2
-              className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold mb-6 leading-tight"
-              style={{ color: 'var(--fg)' }}
-            >
-              Cosa l&apos;AI di Fibonacci NON fa
-            </h2>
-            <div className="flex flex-col gap-4 text-base leading-relaxed" style={{ color: 'var(--fg)' }}>
-              <p>
-                <strong>Non emette diagnosi.</strong> Nessun output AI dice &laquo;questo paziente
-                ha X&raquo;. L&apos;AI trascrive, struttura, suggerisce template, ma la diagnosi
-                è atto medico esclusivo del professionista.
-              </p>
-              <p>
-                <strong>Non prescrive farmaci automaticamente.</strong> L&apos;AI può aiutarti
-                a compilare il campo farmaco, ma la prescrizione richiede sempre firma del
-                medico abilitato.
-              </p>
-              <p>
-                <strong>Non comunica con il paziente in autonomia.</strong> Nessun messaggio
-                viene inviato al paziente senza approvazione esplicita del medico. Il chatbot
-                in-app è uno strumento per il medico, non per il paziente.
-              </p>
-              <p>
-                <strong>Non sostituisce il giudizio clinico.</strong> Quando confidence è
-                bassa, l&apos;AI lo dichiara visivamente. Quando un caso è atipico, l&apos;AI
-                tace o segnala l&apos;incertezza. Il medico decide sempre.
-              </p>
-              <p>
-                <strong>Non usa i tuoi dati per addestrare modelli.</strong> Verifichiamo
-                contrattualmente con Mistral l&apos;opt-out training. Audio mai persistito,
-                testo strutturato mai esfiltrato.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Compliance RF-5.4 link */}
-        <section className="py-16" style={{ background: 'var(--bg)' }}>
-          <div className="max-w-3xl mx-auto px-6">
-            <div
-              className="p-6 rounded-2xl flex items-start gap-4"
-              style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
-            >
-              <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                style={{ background: 'var(--accent-light)' }}
-              >
-                <ShieldCheck className="w-6 h-6" style={{ color: 'var(--accent)' }} />
-              </div>
+      <section className="scuro fascia">
+        <div className="gabbia">
+          <div className="aurea">
+            <Reveal>
               <div>
-                <h3 className="text-lg font-semibold mb-2" style={{ color: 'var(--fg)' }}>
-                  Vuoi i dettagli tecnici della compliance AI?
-                </h3>
-                <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--muted)' }}>
-                  La nostra spec interna RF-5.4 descrive nel dettaglio i 3 livelli di
-                  enforcement (UI, backend, contrattuale), il pattern audit AuditEvent
-                  FHIR ai-output-*, la procedura di incident clinico, e il posizionamento
-                  rispetto a MDR (Reg. UE 2017/745) e AI Act.
-                </p>
-                <Link
-                  href="/sicurezza"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-opacity hover:opacity-75"
-                  style={{ color: 'var(--accent)' }}
-                >
-                  Leggi la scheda Sicurezza
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
+                <Occhiello chiaro>I confini</Occhiello>
+                <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '16ch' }}>
+                  Cinque cose che non succedono mai
+                </h2>
+                <ul className="mt-[var(--s-34)]">
+                  {MAI.map((m) => (
+                    <li
+                      key={m}
+                      className="py-[var(--s-13)] text-[1.0625rem]"
+                      style={{ borderTop: '1px solid var(--rule-ink)', color: 'var(--on-ink-muted)' }}
+                    >
+                      {m}
+                    </li>
+                  ))}
+                </ul>
               </div>
-            </div>
+            </Reveal>
+            <Reveal da="destra">
+              <Foto
+                nome="viso-detersione"
+                alt="Detersione del viso durante un trattamento estetico, con la paziente distesa e gli occhi chiusi."
+                proporzione="4 / 3"
+                piena
+              />
+            </Reveal>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* CTA */}
-        <section className="py-20" style={{ background: 'var(--fg)' }}>
-          <div className="max-w-3xl mx-auto px-6 text-center">
-            <h2 className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
-              Provala in 30 minuti
-            </h2>
-            <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.85)' }}>
-              Una demo personalizzata con i tuoi workflow reali. Ti facciamo vedere
-              la dettatura AI in azione, dalla voce alla cartella firmata.
+      <section className="fascia">
+        <div className="gabbia gabbia-stretta">
+          <Occhiello>Dove girano i dati</Occhiello>
+          <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '20ch' }}>
+            La domanda che conta davvero
+          </h2>
+          <div className="prosa mt-[var(--s-21)]">
+            <p>
+              Un modello linguistico gira su server di qualcun altro, e questo è il punto in cui la
+              conformità di un prodotto sanitario si gioca sul serio. I fornitori che usiamo sono
+              elencati nella pagina dei sub-responsabili, con l&apos;indicazione di dove trattano i
+              dati e dell&apos;impegno contrattuale a non addestrare sui nostri.
             </p>
-            <Link
-              href="/#demo"
-              className="inline-flex items-center gap-2 px-6 py-4 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
-              style={{ background: 'var(--fg)', color: '#fff' }}
-            >
-              Richiedi demo gratuita
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+            <p>
+              Nessuno di questi passaggi è indispensabile per tenere la cartella: la dettatura e la
+              generazione dei moduli si possono spegnere, e il prodotto continua a funzionare come
+              una cartella clinica normale. Se il tuo consulente preferisce così, si fa così.
+            </p>
           </div>
-        </section>
-      </main>
-      <Footer />
-    </>
+          <p className="mt-[var(--s-34)]">
+            <Link href="/sub-responsabili" className="link-avanti">
+              Chi tratta i dati oltre a noi
+              <Freccia />
+            </Link>
+          </p>
+        </div>
+      </section>
+    </Pagina>
   )
 }

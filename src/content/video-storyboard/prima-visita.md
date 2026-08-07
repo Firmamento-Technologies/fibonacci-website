@@ -15,7 +15,7 @@ Il video accompagna passo passo un medico estetico nella sua prima visita reale 
 **On-screen**: titolo "La tua prima visita su Fibonacci".
 
 ### Scena 2 (0:05 - 0:20) - Login e MFA
-**Inquadratura**: screen recording della pagina app.fibonacci.it/login, inserimento email e password, poi schermata di codice OTP, infine dashboard.
+**Inquadratura**: screen recording della pagina l'applicazione Fibonacci/login, inserimento email e password, poi schermata di codice OTP, infine dashboard.
 **Audio**: voiceover che spiega il login a due fattori.
 **Note regia**: zoom sul campo OTP a sei cifre, highlight del pulsante "Accedi".
 **On-screen**: callout "Doppio fattore obbligatorio per legge".
@@ -69,7 +69,7 @@ Il video accompagna passo passo un medico estetico nella sua prima visita reale 
 **On-screen**: tre tip, "Crea template anamnesi riusabili", "Carica le foto prima e dopo dalla tab allegati", "Usa scorciatoia tastiera CTRL N per nuovo paziente".
 
 ### Scena 11 (3:55 - 4:00) - Branding chiusura
-**Inquadratura**: schermata finale con logo, url app.fibonacci.it e link a centro assistenza.
+**Inquadratura**: schermata finale con logo, url l'applicazione Fibonacci e link a centro assistenza.
 **Audio**: jingle Fibonacci due secondi.
 **Note regia**: fade verso nero con logo persistente per un secondo.
 **On-screen**: testo "Hai bisogno di aiuto? supporto@firmamentotechnologies.com".

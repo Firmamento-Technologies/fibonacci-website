@@ -1,444 +1,192 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import {
-  FileSignature,
-  ShieldCheck,
-  BookOpen,
-  Activity,
-  Sparkles,
-  ArrowRight,
-  FileCheck2,
-  ListChecks,
-  Cpu,
-} from 'lucide-react'
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
-import { FibonacciPattern } from '@/components/FibonacciPattern'
-import { DEMO_URL } from '@/lib/site-config'
+import { Pagina } from '@/components/chrome/Pagina'
+import { Reveal } from '@/components/ui/Reveal'
+import { Occhiello, Freccia, Foto, Schermata } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Consensi informati AI · Fibonacci',
+  title: 'Il consenso informato in medicina estetica',
   description:
-    "Bozze di consenso informato assistite da AI, strutturate secondo la L. 219/2017 e sempre validate dal medico. Library clausole PA italiane, confidence scoring, firma elettronica avanzata, PDF/A-3b, audit FHIR.",
-  keywords: [
-    'consenso informato',
-    'consenso informato digitale',
-    'consenso informato AI',
-    'L. 219/2017',
-    'eIDAS firma elettronica',
-    'PDF/A-3b sanità',
-    'FHIR Consent',
-    'medicina estetica',
-  ],
+    'Che cosa deve contenere un consenso informato per un trattamento estetico, chi lo firma, quanto si conserva, e perché il modulo unico scaricato da internet è il punto più debole di uno studio.',
   alternates: { canonical: '/consensi-informati' },
 }
 
-const PIPELINE_STEPS = [
+/* Pagina pilastro.
+ *
+ * L'intento di ricerca del medico estetico non è «software cartella
+ * clinica»: sono gli adempimenti e la paura. Questa pagina risponde alla
+ * domanda vera, e il prodotto compare alla fine come risposta, non come
+ * premessa. È anche la pagina su cui si appoggeranno gli articoli di
+ * dettaglio (tossina, filler, laser, conservazione, foto).
+ *
+ * ⚠️ Nessuna riga di questa pagina è un parere legale, e il testo lo dice.
+ * Su un sito che vende a dei medici, spacciare una sintesi per consulenza è
+ * il modo più veloce di perdere il lettore competente. */
+
+const CONTENUTI = [
   {
-    icon: ListChecks,
-    title: 'Scegli la procedura',
-    body:
-      "Catalogo di oltre 100 modelli proprietari Fibonacci (bozze v0.1, da validare e personalizzare) coprenti medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto/corpo/mammaria, dermatologia, follow-up. Puoi anche partire da bianco con descrizione libera per trattamenti fuori catalogo.",
+    voce: 'Chi esegue, e con quale qualifica',
+    perche: 'Il paziente ha diritto di sapere chi gli mette le mani addosso, non solo il nome dello studio.',
   },
   {
-    icon: Cpu,
-    title: "L'AI compone le 8 sezioni",
-    body:
-      "Un modello linguistico genera la bozza delle 8 sezioni: identificazione paziente, descrizione clinica, benefici attesi, rischi documentati, alternative terapeutiche, conseguenze rifiuto, dichiarazione comprensione, firma. Ogni sezione è una proposta che il medico rivede e valida.",
+    voce: 'In che cosa consiste la procedura',
+    perche: 'Descritta in modo comprensibile, non con la sigla commerciale del prodotto.',
   },
   {
-    icon: ShieldCheck,
-    title: 'Validators anti-allucinazione',
-    body:
-      "Tre strati: blacklist termini vietati (claim ingannevoli del tipo \"risultato garantito\"), citation-check normativo, confidence scoring per sezione. Se overall < 0.7 il sistema marca review_obbligatoria=true.",
+    voce: 'Rischi e complicanze di quella procedura',
+    perche: 'Specifici. «Possibili effetti indesiderati» non è un rischio, è una formula.',
   },
   {
-    icon: FileCheck2,
-    title: 'Review medica + firma paziente',
-    body:
-      "Wizard a 4 step: il medico deve spuntare ciascuna delle 8 sezioni prima di poter salvare. Firma elettronica avanzata grafometrica del paziente (su tablet, previa verifica dell'identità), PDF/A-3b conservazione decennale, AuditEvent FHIR immutabile.",
+    voce: 'Alternative, compresa quella di non fare niente',
+    perche: 'In estetica pesa più che altrove: l’alternativa di astenersi è quasi sempre praticabile.',
+  },
+  {
+    voce: 'Il risultato che ci si può attendere, e i suoi limiti',
+    perche:
+      'È il punto che la giurisprudenza sull’estetica guarda per primo, e quello che i moduli generici saltano.',
+  },
+  {
+    voce: 'Che cosa succede se il risultato non soddisfa',
+    perche: 'Ritocchi, tempi, costi. Detto prima, non contrattato dopo.',
   },
 ] as const
 
-const FEATURES = [
-  {
-    icon: BookOpen,
-    title: 'Library 72 clausole PA italiane',
-    body:
-      "Estratte da 5 fonti pubbliche: Regione Lazio 2022, Regione Lombardia, ASL Alessandria, AO Cosenza, Emilia-Romagna anestesia. Atti PA = pubblico dominio per L. 633/1941 art. 5. Categorizzate per principio-fondamentale, informazione, sottoscrizione, revoca, rifiuto, minori, emergenza, GDPR, responsabilità, DAT.",
-    badge: 'RAG-anchored',
-  },
-  {
-    icon: ShieldCheck,
-    title: 'Triplo strato anti-allucinazione',
-    body:
-      "Validator #1: blacklist claim ingannevoli (risultato garantito, 100% sicuro, nessuna complicanza, ecc.). Validator #2: ricerca pattern citazione norme (L. 219, Cassazione, GDPR). Validator #3: confidence per sezione 0-1 + soglia review.",
-    badge: '3 validators',
-  },
-  {
-    icon: Activity,
-    title: 'Confidence scoring trasparente',
-    body:
-      "Ogni sezione ottiene punteggio basato su lunghezza, presenza citazioni, clausole PA referenziate. Sotto 0.7 → review_obbligatoria=true bloccando il salvataggio. La sezione 5 (sottoscrizione) richiede sempre review manuale a prescindere dal punteggio.",
-    badge: 'Per-section',
-  },
-  {
-    icon: FileCheck2,
-    title: 'Audit FHIR + AuditEvent immutabile',
-    body:
-      "Ogni generazione AI e firma producono AuditEvent FHIR R4 con purposeOfEvent, agent, source e outcome. Conservazione separata dai dati clinici, ricerca forense con SearchControl Medplum. Tracciabilità ai sensi del GDPR art. 30.",
-    badge: 'FHIR R4',
-  },
-  {
-    icon: FileSignature,
-    title: 'Firma eIDAS + PDF/A-3b',
-    body:
-      "Firma elettronica avanzata (FEA) grafometrica del paziente su tablet, con cattura dei dati biometrici del tratto e previa verifica dell'identità: ha l'efficacia probatoria della scrittura privata (art. 2702 c.c.). Output PDF/A-3b (ISO 19005-3) con XML embedded per conservazione decennale (CAD art. 44). Per la massima robustezza probatoria sono attivabili firma qualificata (FEQ) e marca temporale qualificata tramite QTSP accreditato.",
-    badge: 'eIDAS',
-  },
-  {
-    icon: Sparkles,
-    title: 'Integrato in EMR completo',
-    body:
-      "Il consenso non vive in silos: è collegato al Patient FHIR, alla Practitioner che lo ha firmato, all'Encounter del trattamento, alla DocumentReference Binary del PDF firmato. AccessPolicy multi-tenant Medplum, isolamento per studio.",
-    badge: 'EMR-native',
-  },
-] as const
-
-const NORMATIVE_REFS = [
-  {
-    label: 'L. 219/2017 art. 1',
-    body:
-      "Norme in materia di consenso informato e disposizioni anticipate di trattamento. Stabilisce diritto all'autodeterminazione del paziente, forma scritta o videoregistrazione obbligatoria, revocabilità in qualsiasi momento.",
-  },
-  {
-    label: 'Cassazione 26104/2022',
-    body:
-      "Onere della prova del consenso informato a carico del medico. Generico riferimento all'aver informato il paziente non basta: la prova deve essere documentale, sezione per sezione, secondo i 5 elementi (diagnosi, benefici, rischi, alternative, conseguenze rifiuto).",
-  },
-  {
-    label: 'GDPR art. 9 + art. 30',
-    body:
-      "Trattamento dati sanitari richiede consenso esplicito o altra base giuridica. Registro delle attività di trattamento obbligatorio. Fibonacci traccia ogni accesso al consenso in AuditEvent FHIR conforme art. 30 GDPR.",
-  },
-  {
-    label: 'Reg. UE 910/2014 (eIDAS)',
-    body:
-      "Firma elettronica avanzata (FEA), riconosciuta in UE (art. 25-26): ha efficacia di scrittura privata, ma se disconosciuta l'onere della prova è di chi la produce. La piena presunzione di riferibilità al firmatario si ottiene con la firma qualificata (FEQ). Fibonacci usa FEA grafometrica previa verifica dell'identità del paziente; FEQ e marca temporale qualificata sono attivabili via QTSP accreditato.",
-  },
-  {
-    label: 'L. 633/1941 art. 5',
-    body:
-      "Le opere della Pubblica Amministrazione (delibere regionali, atti ASL, linee guida Ministeriali) sono nel pubblico dominio. Fibonacci attinge a 5 fonti PA italiane per la library di clausole, mantenendo piena tracciabilità della fonte legale di ogni paragrafo.",
-  },
-  {
-    label: 'CAD art. 44 + ISO 19005-3',
-    body:
-      "Conservazione documenti informatici a norma per 10 anni minimo. PDF/A-3b è lo standard ISO 19005-3 con file XML embedded per long-term archive. Fibonacci genera ogni consenso firmato in questo formato.",
-  },
-] as const
-
-export default function ConsensiInformatiPage() {
+export default function ConsensiInformati() {
   return (
-    <>
-      <Navbar />
-      <main>
-        {/* Hero */}
-        <section className="pt-32 pb-20 relative overflow-hidden" style={{ background: 'var(--bg)' }}>
-          <FibonacciPattern size={680} opacity={0.05} align="top-right" color="#0b699f" />
-          <div className="max-w-5xl mx-auto px-6 relative">
-            <div
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
-              style={{ background: 'var(--accent-light)', color: 'var(--fg)' }}
-            >
-              <FileSignature className="w-3.5 h-3.5" style={{ color: 'var(--accent)' }} />
-              Modulo Consensi Fibonacci
-            </div>
-            <h1
-              className="font-[var(--font-playfair)] text-4xl md:text-5xl font-bold mb-6 break-words"
-              style={{ color: 'var(--fg)' }}
-            >
-              Consensi informati generati dall&apos;AI,<br className="hidden md:block" />{' '}
-              ancorati alla norma italiana.
-            </h1>
-            <p className="text-lg max-w-3xl mb-8" style={{ color: 'var(--muted)' }}>
-              Fibonacci compone bozze di consenso strutturate secondo la L. 219/2017 — che il medico rivede, personalizza e valida — partendo da una
-              library di 72 clausole estratte da fonti della Pubblica
-              Amministrazione italiana. Tre strati di validators
-              anti-allucinazione, confidence scoring per sezione, audit FHIR
-              forense, firma eIDAS PDF/A-3b.
+    <Pagina
+      occhiello="Guida"
+      titolo={
+        <>
+          Il consenso informato in medicina estetica: che cosa deve{' '}
+          <span className="accento-corsivo">contenere</span>
+        </>
+      }
+      sommario={
+        <>
+          Una guida pratica per chi firma consensi ogni giorno. Non è un parere legale: è una
+          sintesi ragionata, e prima di adottare un modulo va rivista dal tuo legale.
+        </>
+      }
+    >
+      <section style={{ paddingBottom: 'var(--s-55)' }}>
+        <div className="gabbia gabbia-stretta">
+          <div className="prosa">
+            <p>
+              In medicina estetica il consenso non è un adempimento fra gli altri: è il documento su
+              cui si decide una contestazione. La prestazione è elettiva, il paziente sceglie di
+              sottoporsi a un trattamento di cui potrebbe fare a meno, e quando il risultato non
+              corrisponde all&apos;attesa la domanda che arriva è sempre la stessa: che cosa gli era
+              stato detto, e chi può dimostrarlo.
             </p>
-            <div className="flex flex-wrap gap-3">
-              <a
-                href={DEMO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-white"
-                style={{ background: 'var(--fg)' }}
-              >
-                <Sparkles className="w-4 h-4" />
-                Prova il Wizard Consensi in demo live
-              </a>
-              <Link
-                href="#come-funziona"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold"
-                style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
-              >
-                Come funziona la generazione
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Pipeline */}
-        <section className="py-20" style={{ background: 'var(--card)' }} id="come-funziona">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2
-                className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4"
-                style={{ color: 'var(--fg)' }}
-              >
-                Come funziona la generazione
-              </h2>
-              <p className="text-base max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
-                Pipeline a 4 step. Il medico resta sempre al centro: l&apos;AI
-                propone, il medico spunta sezione per sezione, il paziente firma.
-              </p>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {PIPELINE_STEPS.map((step, idx) => (
-                <div
-                  key={step.title}
-                  className="p-6 rounded-2xl relative"
-                  style={{ background: 'var(--bg)', border: '1px solid var(--border)' }}
-                >
-                  <div className="flex items-center gap-3 mb-3">
-                    <div
-                      className="w-10 h-10 rounded-xl flex items-center justify-center"
-                      style={{ background: 'var(--accent-light)' }}
-                    >
-                      <step.icon className="w-5 h-5" style={{ color: 'var(--accent)' }} />
-                    </div>
-                    <span
-                      className="font-[var(--font-playfair)] text-2xl font-bold"
-                      style={{ color: 'var(--accent)' }}
-                    >
-                      {idx + 1}
-                    </span>
-                  </div>
-                  <h3 className="text-base font-semibold mb-2" style={{ color: 'var(--fg)' }}>
-                    {step.title}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                    {step.body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Features */}
-        <section className="py-20" style={{ background: 'var(--bg)' }}>
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2
-                className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4"
-                style={{ color: 'var(--fg)' }}
-              >
-                6 capacità del modulo Consensi
-              </h2>
-              <p className="text-base max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
-                Library legale verificabile, validators che impediscono di
-                salvare consensi sotto la soglia di confidenza, audit FHIR
-                immutabile. Tutto sopra l&apos;EMR Fibonacci esistente.
-              </p>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {FEATURES.map((f) => (
-                <div
-                  key={f.title}
-                  className="p-6 rounded-2xl transition-shadow hover:shadow-md"
-                  style={{ background: 'var(--card)', border: '1px solid var(--border)' }}
-                >
-                  <div className="flex items-center gap-3 mb-3">
-                    <div
-                      className="w-10 h-10 rounded-xl flex items-center justify-center"
-                      style={{ background: 'var(--accent-light)' }}
-                    >
-                      <f.icon className="w-5 h-5" style={{ color: 'var(--accent)' }} />
-                    </div>
-                    <span
-                      className="text-xs font-medium uppercase tracking-wider px-2 py-0.5 rounded-full"
-                      style={{ background: 'var(--bg)', color: 'var(--muted)' }}
-                    >
-                      {f.badge}
-                    </span>
-                  </div>
-                  <h3 className="text-base font-semibold mb-2" style={{ color: 'var(--fg)' }}>
-                    {f.title}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                    {f.body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Norme citate */}
-        <section className="py-20" style={{ background: 'var(--card)' }} id="norme">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2
-                className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4"
-                style={{ color: 'var(--fg)' }}
-              >
-                Le norme su cui poggia il modulo
-              </h2>
-              <p className="text-base max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
-                Ogni consenso generato cita queste fonti inline, sezione per
-                sezione. Il medico vede sempre da quale articolo deriva
-                l&apos;obbligo informativo.
-              </p>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {NORMATIVE_REFS.map((ref) => (
-                <div
-                  key={ref.label}
-                  className="p-5 rounded-2xl"
-                  style={{ background: 'var(--bg)', border: '1px solid var(--border)' }}
-                >
-                  <div
-                    className="inline-block px-2 py-0.5 rounded text-xs font-mono font-semibold mb-3"
-                    style={{ background: 'var(--accent-light)', color: 'var(--fg)' }}
-                  >
-                    {ref.label}
-                  </div>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                    {ref.body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Disclaimer onesto v0.1 — cosa serve prima dell'uso reale */}
-        <section className="py-20" style={{ background: 'var(--bg)' }} id="disclaimer">
-          <div className="max-w-4xl mx-auto px-6">
-            <div
-              className="p-8 rounded-2xl"
-              style={{
-                background: 'var(--card)',
-                border: '1.5px solid var(--accent)',
-                borderLeft: '5px solid var(--accent)',
-              }}
-            >
-              <h2
-                className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold mb-4"
-                style={{ color: 'var(--fg)' }}
-              >
-                Onestà: sono pronti per l&apos;uso reale?
-              </h2>
-              <p className="text-base mb-4 leading-relaxed" style={{ color: 'var(--muted)' }}>
-                I modelli del catalogo rispettano la struttura legale (8 sezioni
-                L. 219/2017, 5 elementi Cassazione 26104/2022, GDPR, eIDAS,
-                PDF/A-3b). Il contenuto clinico è generato con AI ancorata alla
-                library di clausole PA. <strong style={{ color: 'var(--fg)' }}>Sono
-                però in versione 0.1 (bozza interna)</strong>: prima dell&apos;uso
-                con pazienti reali devi:
-              </p>
-              <ul className="space-y-2 mb-6 text-sm" style={{ color: 'var(--muted)' }}>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: 'var(--accent)' }}>·</span>
-                  <span>
-                    Far rivedere ogni modello dall&apos;avvocato sanitario del
-                    tuo studio.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: 'var(--accent)' }}>·</span>
-                  <span>
-                    Verificare rischi e percentuali con le linee guida societarie
-                    aggiornate (SICPRE/ISAPS, SIDeMaST, SIME/AIME).
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: 'var(--accent)' }}>·</span>
-                  <span>
-                    Personalizzare ogni consenso sul singolo paziente (allergie,
-                    terapie in atto, comorbilità) — il wizard ti obbliga a
-                    farlo allo Step 2.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span style={{ color: 'var(--accent)' }}>·</span>
-                  <span>
-                    Controfirmare il documento (firma medico) dopo la firma
-                    del paziente.
-                  </span>
-                </li>
-              </ul>
-              <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                Fibonacci fornisce l&apos;<strong style={{ color: 'var(--fg)' }}>infrastruttura
-                tecnica</strong> (struttura, formato, archivio FHIR, audit,
-                firma eIDAS, validatori anti-allucinazione). La <strong style={{ color: 'var(--fg)' }}>validazione
-                di merito clinico e legale</strong> resta responsabilità dello
-                studio che firma — esattamente come per qualsiasi altro
-                software clinico (incluso il template SICPRE cartaceo
-                tradizionale, anch&apos;esso richiede personalizzazione).
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA finale */}
-        <section className="py-24" style={{ background: 'var(--bg)' }}>
-          <div className="max-w-3xl mx-auto px-6 text-center">
-            <h2
-              className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: 'var(--fg)' }}
-            >
-              Pronto a generare il primo consenso?
-            </h2>
-            <p className="text-base mb-8" style={{ color: 'var(--muted)' }}>
-              Apri la demo live, scegli una procedura dal catalogo, lascia che
-              l&apos;AI componga 8 sezioni e validi le sue stesse uscite. Il
-              risultato è un PDF/A-3b pronto per la firma grafometrica.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <a
-                href={DEMO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-white"
-                style={{ background: 'var(--fg)' }}
-              >
-                <Sparkles className="w-4 h-4" />
-                Apri demo live Fibonacci
-              </a>
-              <Link
-                href="/#prezzi"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold"
-                style={{ color: 'var(--fg)', border: '1.5px solid var(--border)' }}
-              >
-                Vedi piani e prezzi
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-            <p className="text-xs mt-6" style={{ color: 'var(--muted)' }}>
-              I modelli di consenso sono in versione 0.1 (bozza interna):
-              richiedono validazione legale finale dello studio prima
-              dell&apos;uso con pazienti reali. Fibonacci fornisce
-              l&apos;infrastruttura tecnica, non sostituisce il parere legale.
+            <p>
+              Il modulo unico buono per tutto, scaricato una volta e firmato in sala d&apos;attesa,
+              è il punto più debole di uno studio. Non perché sia illegale, ma perché non contiene
+              nulla di specifico su quella procedura, e quindi non prova nulla.
             </p>
           </div>
-        </section>
-      </main>
-      <Footer />
-    </>
+        </div>
+      </section>
+
+      <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
+        <div className="gabbia gabbia-stretta">
+          <Occhiello>La sostanza</Occhiello>
+          <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '18ch' }}>
+            Sei cose che un consenso estetico deve dire
+          </h2>
+          <div className="mt-[var(--s-34)]">
+            {CONTENUTI.map((c, i) => (
+              <Reveal key={c.voce}>
+                <div className="grid gap-[var(--s-21)] py-[var(--s-21)] sm:grid-cols-[2.5rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
+                  <span className="numero" style={{ paddingTop: 5 }}>{String(i + 1).padStart(2, '0')}</span>
+                  <div>
+                    <h3 className="text-[1.125rem]">{c.voce}</h3>
+                    <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                      {c.perche}
+                    </p>
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="fascia">
+        <div className="gabbia">
+          <div className="aurea">
+            <Reveal>
+              <Foto
+                nome="iniezione-mento"
+                alt="Trattamento iniettivo al mento eseguito con guanti, la paziente distesa con gli occhi chiusi."
+                proporzione="4 / 5"
+              />
+            </Reveal>
+            <Reveal da="destra">
+              <div>
+                <Occhiello>Gli errori ricorrenti</Occhiello>
+                <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '16ch' }}>
+                  Quattro modi di avere un consenso che non regge
+                </h2>
+                <ol className="mt-[var(--s-34)]">
+                  {[
+                    ['Il modulo unico', 'Uguale per la tossina e per il laser. Se vale per tutto, non descrive niente.'],
+                    ['La firma in sala d’attesa', 'Firmato mentre aspetta, senza che nessuno abbia parlato con lei.'],
+                    ['Il risultato dato per certo', 'Elencare i benefici come fatti compiuti è la postura più esposta che esista in estetica.'],
+                    ['La data mancante', 'Un consenso senza data e senza tracciabilità è una dichiarazione che non si può collocare nel tempo.'],
+                  ].map(([t, d], i) => (
+                    <li key={t} className="grid gap-[var(--s-13)] py-[var(--s-13)] sm:grid-cols-[2rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
+                      <span className="numero" style={{ paddingTop: 4 }}>{String(i + 1).padStart(2, '0')}</span>
+                      <div>
+                        <p className="text-[1.0625rem]" style={{ fontFamily: 'var(--font-display)' }}>{t}</p>
+                        <p className="mt-[2px] text-[15px]" style={{ color: 'var(--fg-muted)' }}>{d}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
+        <div className="gabbia">
+          <div className="aurea aurea-inversa">
+            <Reveal>
+              <div className="lg:order-2">
+                <Occhiello>Come lo risolve Fibonacci</Occhiello>
+                <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '16ch' }}>
+                  Un modulo per procedura, firmato in studio
+                </h2>
+                <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+                  Scegli la procedura e il modulo esce con i rischi, le alternative e l&apos;esito
+                  atteso di quella. La paziente firma sul tablet dopo aver letto, tu controfirmi, e
+                  il documento entra nel registro con data e ora certe.
+                </p>
+                <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg)', borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}>
+                  I modelli sono una struttura, non un parere. Il contenuto clinico va rivisto dal
+                  tuo specialista e dal tuo legale: l&apos;applicazione te lo ricorda ogni volta,
+                  non solo su questa pagina.
+                </p>
+                <p className="mt-[var(--s-34)]">
+                  <Link href="/come-funziona" className="link-avanti">
+                    Guarda il flusso completo
+                    <Freccia />
+                  </Link>
+                </p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <Schermata
+                file="/schermate/catalogo-consensi.png"
+                alt="Il catalogo dei consensi di Fibonacci con i modelli raggruppati per categoria e l'avviso che i modelli vanno validati prima dell'uso."
+                className="lg:order-1"
+                didascalia="L'avviso in alto è nel prodotto, non solo nella documentazione."
+              />
+            </Reveal>
+          </div>
+        </div>
+      </section>
+    </Pagina>
   )
 }
