@@ -50,6 +50,12 @@ export const DOMANDE: Domanda[] = [
   },
   {
     categoria: 'prodotto',
+    id: 'portale',
+    d: 'Uso già un portale per farmi trovare dai pazienti. Devo lasciarlo?',
+    r: 'No, e non te lo chiediamo per cominciare. Un portale riempie l’agenda; una cartella clinica registra che cosa è successo in visita. Sono due lavori diversi. Va detto per intero, però: oggi Fibonacci non parla con il portale che usi, quindi l’agenda pubblica resta dove è adesso e qui entra il lavoro clinico.',
+  },
+  {
+    categoria: 'prodotto',
     d: 'Funziona su tablet?',
     r: 'Sì, ed è così che la paziente firma. Il resto del lavoro si fa meglio da un computer, perché una cartella clinica si compila con una tastiera.',
   },
@@ -121,6 +127,16 @@ export const DOMANDE: Domanda[] = [
     id: 'cosa-manca',
     d: 'Che cosa Fibonacci non fa, oggi?',
     r: 'Non c’è la firma elettronica qualificata: quella della paziente è una firma elettronica avanzata. Non c’è la conservazione a norma, perché non abbiamo ancora contrattualizzato un conservatore accreditato. Non c’è l’invio al Sistema Tessera Sanitaria né la fatturazione. E non c’è un percorso di iscrizione self-service: si parte parlando con noi.',
+  },
+  {
+    categoria: 'limiti',
+    d: 'Mi portate pazienti nuovi?',
+    r: 'No. Non siamo un portale di prenotazione, non abbiamo un pubblico da girarti e non vendiamo visibilità. Se il problema che vuoi risolvere è farti trovare, ti serve un’altra cosa e preferiamo dirtelo prima. Fibonacci comincia a servire dal momento in cui la paziente entra in studio.',
+  },
+  {
+    categoria: 'limiti',
+    d: 'Le recensioni dei pazienti finiscono da qualche parte?',
+    r: 'No. Non raccogliamo recensioni, non le pubblichiamo e non c’è una classifica di medici. Qui non esiste una posizione da comprare, né per te né per un collega. Quello che entra è la cartella dei tuoi pazienti, e resta tua.',
   },
   {
     categoria: 'limiti',

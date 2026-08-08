@@ -44,6 +44,23 @@ const VIETATI = [
   { re: /dermatolog|ortopedi|psicolog|nutrizion|oculistic/i, perche: 'residuo multi-specialità' },
   { re: /dpo@/i, perche: 'nessun DPO designato' },
   { re: /Firmamento/i, perche: 'intestazione societaria da rimuovere', soloInterfaccia: true },
+  /* Le due funzioni progettate l'8 agosto 2026 e NON ancora costruite. Il sito
+   * dice già «prodotto, lotto, unità» ed è vero: i campi esistono. Quello che
+   * non esiste è cercarli — «dammi un lotto, ti dico chi l'ha ricevuto» — e il
+   * controllo delle comunicazioni contro la L. 145/2018. Sono esattamente le
+   * due righe che un cliente citerebbe dopo la firma, quindi il presidio le
+   * tiene fuori finché non diventano vere. Si tolgono da qui il giorno in cui
+   * si possono dimostrare, non prima. */
+  { re: /ricerca\s+per\s+lotto|cerca(re)?\s+per\s+lotto|richiamo\s+del\s+lotto|tracciabilit[àa]\s+(del\s+)?lott/i, perche: 'la ricerca per lotto non è costruita' },
+  { re: /comunicazion\w*\s+conform\w*|controllo\s+(di\s+)?conformit[àa]\s+delle\s+comunicazioni/i, perche: 'il controllo delle comunicazioni non è costruito' },
+  /* ⚠️ La prima versione era /conform\w*\s+(all[oa]\s+)?EHDS/ e NON scattava su
+   * «conforme all’EHDS»: il sito usa l'apostrofo tipografico, la regex si
+   * aspettava «allo »/«alla » con lo spazio. Cinque test l'avrebbero dichiarata
+   * verde; la prova per mutazione l'ha vista. Ora si misura la VICINANZA fra le
+   * due parole, così l'elisione non conta. Un enunciato di fatto sulle date
+   * («l'EHDS si applica dal 2027, la conformità sarà richiesta dal 2029») resta
+   * fuori: sono più di 20 caratteri. */
+  { re: /conform\w*[^.]{0,20}EHDS|EHDS[^.]{0,20}conform\w*|EHDS[\s-]?ready|conform\w*\s+al\s+regolamento\s+2025\/327/i, perche: 'gli atti di esecuzione EHDS non esistono: la conformità non è dichiarabile' },
 ]
 
 /* ⚠️ L'URL DI PUBBLICAZIONE CONTIENE «firmamento», E NON È UN'INTESTAZIONE.

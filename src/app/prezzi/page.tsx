@@ -4,7 +4,7 @@ import { Pagina } from '@/components/chrome/Pagina'
 import { SchedePiani } from '@/components/Listino'
 import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
-import { ATTIVAZIONE, ANCORA } from '@/lib/listino'
+import { ATTIVAZIONE, ANCORA, CONVIVENZA } from '@/lib/listino'
 
 export const metadata: Metadata = {
   title: 'Prezzi',
@@ -118,6 +118,50 @@ export default function Prezzi() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* La convivenza col portale: è un'obiezione di spesa, quindi sta qui e
+          non in una pagina di prodotto. Precede l'ancora perché prima si
+          sgombera il campo dal doppione, poi si dice con che cosa si confronta. */}
+      <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
+        <div className="gabbia gabbia-stretta">
+          <Reveal>
+            <Occhiello>Se paghi già un portale</Occhiello>
+            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '18ch' }}>
+              {CONVIVENZA.titolo}
+            </h2>
+            <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+              {CONVIVENZA.testo}
+            </p>
+          </Reveal>
+
+          {/* Un solo Reveal FUORI dalla lista: avvolgendo ogni <li> si infila un
+              <div> dentro la <ul>, e il collaudo lo segna come violazione WCAG
+              serious (due regole, «list» e «listitem»). Stessa forma della
+              lista Attivazione qui sopra. */}
+          <Reveal>
+            <ul className="mt-[var(--s-34)]">
+              {CONVIVENZA.righe.map((r) => (
+                <li
+                  key={r}
+                  className="py-[var(--s-13)] text-[1.0625rem]"
+                  style={{ borderTop: '1px solid var(--rule)', color: 'var(--fg-muted)' }}
+                >
+                  {r}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+
+          <Reveal>
+            <p
+              className="mt-[var(--s-21)] text-[15px]"
+              style={{ borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}
+            >
+              {CONVIVENZA.cautela}
+            </p>
+          </Reveal>
         </div>
       </section>
 

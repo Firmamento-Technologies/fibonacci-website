@@ -59,9 +59,38 @@ export const ATTIVAZIONE = [
   'Nessun costo di attivazione, nessun vincolo di durata',
 ] as const
 
+/**
+ * La convivenza col portale di prenotazione.
+ *
+ * Sta nel listino e non altrove perché è un'obiezione di spesa, non di
+ * funzionalità: chi paga già un portale crede di avere il software e legge il
+ * nostro prezzo come un doppione. La risposta è che sono due lavori diversi.
+ *
+ * ⚠️ Le tre righe qui sotto sono affermazioni su di NOI, verificabili, e non
+ * nominano nessun concorrente: la comparativa fra imprese è lecita (D.Lgs.
+ * 145/2007) ma è un rischio nostro in cambio di poco, e il medico sa già di chi
+ * si parla. La `cautela` dice il costo vero della convivenza — due agende —
+ * perché è la cosa che si scopre dopo la firma se non la scrivi prima.
+ */
+export const CONVIVENZA = {
+  titolo: 'Un portale non è una cartella clinica',
+  testo:
+    'Molti studi hanno già l’abbonamento a un portale di prenotazione e danno per scontato di avere il software. Un portale riempie l’agenda: mostra il profilo, raccoglie le prenotazioni, manda i promemoria. Una cartella clinica risponde ad altre domande, che arrivano dopo e da un’altra parte: che cosa hai iniettato, dove, con quale lotto, che cosa avevi spiegato prima di farlo, chi ha aperto quel documento due anni dopo.',
+  righe: [
+    'Se usi un portale per farti trovare, tienilo. Non ti chiediamo di rinunciarci per cominciare.',
+    'Non raccogliamo recensioni sul tuo conto e non pubblichiamo classifiche di medici.',
+    'Non vendiamo visibilità. Qui non c’è una posizione da comprare, né per te né per un collega.',
+  ],
+  cautela:
+    'Quello che ci rimetti, detto prima: oggi Fibonacci non parla con il portale che usi. Se lo tieni, l’agenda pubblica resta dove è adesso e le prenotazioni le riporti tu.',
+} as const
+
 /** L'ancora del prezzo. Non è il risparmio: è il costo di una contestazione. */
 export const ANCORA = {
-  titolo: 'Con che cosa si confronta',
+  /* Era «Con che cosa si confronta», identico all'occhiello che gli sta sopra
+   * in /prezzi: la stessa riga stampata due volte a due centimetri di distanza.
+   * L'occhiello dice di che cosa si parla, il titolo deve dire la tesi. */
+  titolo: 'Il conto non si fa col prezzo del software',
   testo:
     'Il conto non si fa con quanto costa il software. Si fa con quanto costa la prima volta che devi dimostrare cosa avevi spiegato a una paziente due anni fa, e non hai niente di scritto oltre a un modulo generico. La parcella di un legale per aprire quella pratica supera l’abbonamento di un anno.',
   cautela:
