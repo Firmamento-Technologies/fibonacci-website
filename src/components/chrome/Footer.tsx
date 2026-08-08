@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
-import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL } from '@/lib/site-config'
+import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, DEMO_URL } from '@/lib/site-config'
 
 const COLONNE = [
   {
@@ -10,6 +10,7 @@ const COLONNE = [
       { href: '/consensi-informati', testo: 'Consenso informato' },
       { href: '/che-software-serve', testo: 'Che software serve' },
       { href: '/autovalutazione', testo: 'La tua documentazione regge?' },
+      { href: DEMO_URL, testo: 'Entra nella demo', esterno: true },
       { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
       { href: '/verifica', testo: 'Verifica un documento' },
       { href: '/integrazioni', testo: 'Integrazioni' },
@@ -67,9 +68,23 @@ export function Footer() {
               <ul className="mt-[var(--s-21)] space-y-[var(--s-13)]">
                 {col.voci.map((v) => (
                   <li key={v.href}>
-                    <Link href={v.href} className="text-[15px]" style={{ color: 'var(--on-ink-muted)' }}>
-                      {v.testo}
-                    </Link>
+                    {/* La demo sta su un altro dominio: `next/link` con un URL
+                        assoluto funziona, ma un'ancora dice la verità e non
+                        prova a fare il pre-caricamento di un'altra origine. */}
+                    {'esterno' in v && v.esterno ? (
+                      <a
+                        href={v.href}
+                        rel="noopener"
+                        className="text-[15px]"
+                        style={{ color: 'var(--on-ink-muted)' }}
+                      >
+                        {v.testo}
+                      </a>
+                    ) : (
+                      <Link href={v.href} className="text-[15px]" style={{ color: 'var(--on-ink-muted)' }}>
+                        {v.testo}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

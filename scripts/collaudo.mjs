@@ -13,8 +13,30 @@
 
 import { chromium } from 'playwright'
 import AxeBuilder from '@axe-core/playwright'
+import { readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
 
 const BASE = process.argv[2] ?? 'http://localhost:3210'
+
+/* La demo pubblica sta su un'altra macchina e il sito la promuove: va
+ * controllata anche lei. Tenuta qui e non importata da `src/lib/site-config.ts`
+ * perché questo script è JavaScript semplice e quello è un modulo TypeScript
+ * con gli alias di Next; se le due stringhe divergono, il controllo qui sotto
+ * misura un indirizzo che il sito non usa. Un test lo impedisce. */
+const DEMO_URL = 'https://82.25.101.118.nip.io/demo'
+
+/* Il test promesso dal commento qui sopra. Legge la stringa vera dal sorgente
+ * del sito: se qualcuno cambia `DEMO_URL` in `site-config.ts` e non qui, il
+ * controllo della demo starebbe misurando un indirizzo che il sito non usa
+ * più, cioè darebbe verde su una cosa che non esiste. */
+function demoUrlDelSito() {
+  const cfg = readFileSync(
+    join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'lib', 'site-config.ts'),
+    'utf8',
+  )
+  return cfg.match(/export const DEMO_URL\s*=\s*['"]([^'"]+)['"]/)?.[1]
+}
 
 /* I documenti in markdown: bozze legali ereditate, da riscrivere in blocco
    quando la società esiste. */
@@ -280,6 +302,46 @@ async function main() {
     if ((await page.locator('main select').count()) > 0) {
       problemi.push('/per-le-societa-scientifiche: c\'è ancora l\'elenco obbligatorio delle procedure estetiche')
     }
+  }
+
+  /* ── La demo pubblica risponde davvero? ──────────────────────────────────
+   *
+   * Dall'8 agosto «Entra nella demo» è il pulsante principale della home. È
+   * l'unica cosa che un medico può verificare da solo, di notte, senza parlare
+   * con nessuno — e vive su un'ALTRA macchina, che non passa da questo deploy.
+   *
+   * Il rischio è preciso e ha una data: `VITE_DEMO` ha default `false`, quindi
+   * il primo rilascio dell'applicazione che non porti `WEB_DEMO=true` fa
+   * sparire la rotta `/demo`, e la vetrina resta a pubblicizzare una porta
+   * chiusa senza che nessuno se ne accorga. Questo controllo è il campanello.
+   *
+   * ⚠️ Non basta un 200: l'applicazione è a pagina singola e risponde 200 a
+   * qualunque percorso, anche a quelli che non esistono. Si guarda dove si
+   * FINISCE: a demo accesa l'auto-accesso porta all'elenco dei pazienti; a
+   * demo spenta la rotta non è registrata e il router rimanda al login. */
+  {
+    const delSito = demoUrlDelSito()
+    if (delSito !== DEMO_URL) {
+      problemi.push(
+        `demo: questo script controlla ${DEMO_URL} ma il sito manda a ${delSito ?? '(non trovato)'} — il controllo misurerebbe un indirizzo che nessuno usa`,
+      )
+    }
+    const demo = await ctx.newPage()
+    try {
+      await demo.goto(DEMO_URL, { waitUntil: 'networkidle', timeout: 45000 })
+      await demo.waitForTimeout(4000)
+      const dove = new URL(demo.url()).pathname
+      if (/\/login/.test(dove)) {
+        problemi.push(
+          `demo: ${DEMO_URL} finisce su ${dove} — la rotta /demo non è accesa (manca WEB_DEMO=true?), ma la home la promuove come pulsante principale`,
+        )
+      } else if (!/\/pazienti/.test(dove)) {
+        problemi.push(`demo: ${DEMO_URL} finisce su ${dove}, non sull'elenco dei pazienti`)
+      }
+    } catch (e) {
+      problemi.push(`demo: ${DEMO_URL} non risponde (${String(e).slice(0, 80)}), e la home la promuove`)
+    }
+    await demo.close()
   }
 
   // ── Movimento ridotto ────────────────────────────────────────────────

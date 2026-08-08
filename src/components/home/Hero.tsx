@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { motion, useReducedMotion } from 'framer-motion'
 import { Occhiello } from '@/components/ui/elementi'
 import { assetPath } from '@/lib/asset-path'
+import { DEMO_URL } from '@/lib/site-config'
 
 /* Il primo schermo.
  *
@@ -64,12 +65,20 @@ export function Hero() {
               cifrate. In un posto solo, e con ogni scrittura tracciata.
             </motion.p>
 
+            {/* La demo pubblica passa in prima fila.
+                Nessuno in questo mercato ti fa entrare senza registrarti: i
+                portali danno solo la demo col venditore. Averla e tenerla come
+                terzo link in fondo a due pagine era sprecare l'unica cosa che
+                un medico può verificare da solo in trenta secondi, di notte,
+                senza parlare con nessuno. La demo guidata resta, ma dopo:
+                chiedere mezz'ora a uno sconosciuto è un impegno più grande che
+                aprire una scheda. */}
             <motion.div {...entra(0.24)} className="mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
-              <Link href="/richiedi-una-demo" className="btn btn-primario">
-                Richiedi una demo guidata
-              </Link>
-              <Link href="/come-funziona" className="btn btn-secondario">
-                Guarda il prodotto
+              <a href={DEMO_URL} className="btn btn-primario" rel="noopener">
+                Entra nella demo
+              </a>
+              <Link href="/richiedi-una-demo" className="btn btn-secondario">
+                Oppure fattela mostrare
               </Link>
             </motion.div>
 
@@ -78,8 +87,8 @@ export function Hero() {
               className="mt-[var(--s-21)] text-[14px]"
               style={{ color: 'var(--fg-faint)' }}
             >
-              Trenta minuti, con un medico che il prodotto lo ha costruito. Nessun impegno,
-              nessuna carta di credito.
+              La demo è aperta: nessuna registrazione, nessuna email, nessuna carta di credito.
+              Dentro ci sono pazienti finti in uno spazio separato, e puoi toccare tutto.
             </motion.p>
           </div>
 
