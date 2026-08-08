@@ -161,6 +161,12 @@ export default function Prezzi() {
             >
               {CONVIVENZA.cautela}
             </p>
+            <p className="mt-[var(--s-21)]">
+              <Link href="/che-software-serve" className="link-avanti">
+                Portale, gestionale o cartella verticale: le tre categorie a confronto
+                <Freccia />
+              </Link>
+            </p>
           </Reveal>
         </div>
       </section>

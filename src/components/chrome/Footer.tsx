@@ -8,8 +8,11 @@ const COLONNE = [
     voci: [
       { href: '/come-funziona', testo: 'Come funziona' },
       { href: '/consensi-informati', testo: 'Consenso informato' },
+      { href: '/che-software-serve', testo: 'Che software serve' },
+      { href: '/autovalutazione', testo: 'La tua documentazione regge?' },
       { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
       { href: '/verifica', testo: 'Verifica un documento' },
+      { href: '/integrazioni', testo: 'Integrazioni' },
       { href: '/prezzi', testo: 'Prezzi' },
       { href: '/documentazione', testo: 'Documentazione' },
     ],

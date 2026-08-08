@@ -25,6 +25,10 @@ const PAGINE = [
   '/richiedi-una-demo', '/verifica', '/domande', '/intelligenza-artificiale',
   '/chi-siamo', '/documentazione', '/privacy', '/cookie', '/dpa', '/termini',
   '/sub-responsabili', '/sicurezza',
+  /* Le tre dell'8 agosto. Una pagina che non è in questo elenco non viene
+     controllata da niente: non è un dettaglio di manutenzione, è il motivo
+     per cui i difetti del 7 agosto erano rimasti in piedi per settimane. */
+  '/che-software-serve', '/autovalutazione', '/integrazioni',
 ]
 
 /* Affermazioni che oggi il prodotto non regge. Se una compare in una pagina
@@ -158,6 +162,95 @@ async function main() {
     const gravi = esito.violations.filter((v) => ['serious', 'critical'].includes(v.impact))
     for (const v of gravi) {
       problemi.push(`${percorso}: a11y ${v.impact} · ${v.id} · ${v.nodes.length} nodi · ${v.help}`)
+    }
+  }
+
+  /* ── L'autovalutazione, esercitata davvero ──────────────────────────────
+   *
+   * Il giro qui sopra guarda le pagine come arrivano. Ma di questa pagina la
+   * parte che conta non esiste finché non la si usa: l'esito compare dopo otto
+   * risposte, ed è lì che vivono la regione live, il fuoco e le voci generate.
+   * Una pagina interattiva controllata solo nello stato iniziale è controllata
+   * a metà, e la metà scoperta è quella che il visitatore legge davvero. */
+  {
+    const p = '/autovalutazione'
+    await page.goto(BASE + p, { waitUntil: 'networkidle' })
+
+    /* 1. La convalida deve parlare, non disabilitare in silenzio.
+     *
+     * ⚠️ DUE DIFETTI IN QUESTO SOLO CONTROLLO, trovati per mutazione.
+     *
+     * 1. `locator.count()` NON aspetta: contava i nodi nell'istante subito
+     *    dopo il clic, prima che React avesse ri-disegnato.
+     * 2. Peggio: il selettore era `[role="alert"]` senza contesto, e i
+     *    localizzatori di Playwright ATTRAVERSANO lo shadow DOM. In sviluppo
+     *    l'overlay di Next.js ne espone uno dentro `<nextjs-portal>`, quindi
+     *    il controllo trovava sempre un `role="alert"` e non poteva fallire:
+     *    misurava il framework, non il prodotto. `document.querySelectorAll`
+     *    ne contava zero mentre Playwright ne contava uno, ed è così che si
+     *    è visto.
+     *
+     * Il rimedio è ancorare il controllo a `main`, dove sta il prodotto e non
+     * l'impalcatura di sviluppo. */
+    await page.getByRole('button', { name: /vedi l/i }).click()
+    try {
+      await page.waitForSelector('main [role="alert"]', { timeout: 3000 })
+    } catch {
+      problemi.push(`${p}: senza risposte il pulsante non segnala che cosa manca`)
+    }
+
+    // 2. Otto risposte tutte «scoperte»: l'esito deve elencarle tutte.
+    const gruppi = page.locator('fieldset')
+    const quanti = await gruppi.count()
+    if (quanti !== 8) problemi.push(`${p}: ${quanti} domande invece di 8`)
+    for (let i = 0; i < quanti; i++) {
+      const radio = gruppi.nth(i).locator('input[type="radio"]')
+      const n = await radio.count()
+      // L'ultima opzione di ogni domanda è sempre una che scopre il punto.
+      await radio.nth(n - 1).check()
+    }
+    await page.getByRole('button', { name: /vedi l/i }).click()
+    await page.waitForTimeout(300)
+
+    const esitoTesto = await page.evaluate(() => document.body.innerText)
+    if (!/Risultano scoperti 8 punti su otto/.test(esitoTesto)) {
+      problemi.push(`${p}: con otto risposte scoperte l'esito non li conta tutti e otto`)
+    }
+    if (!/In Fibonacci:/.test(esitoTesto)) {
+      problemi.push(`${p}: l'esito non dice che cosa fa il prodotto per i punti scoperti`)
+    }
+    // Ancorato a `main` per la stessa ragione del controllo qui sopra.
+    const stato = await page.locator('main [role="status"][aria-live="polite"]').count()
+    if (stato === 0) problemi.push(`${p}: l'esito non è in una regione live: chi non vede non sa che è comparso`)
+    const fuocoSulTitolo = await page.evaluate(() => document.activeElement?.tagName === 'H2')
+    if (!fuocoSulTitolo) problemi.push(`${p}: dopo il calcolo il fuoco non va sul titolo dell'esito`)
+
+    /* 3. L'altro ramo. Se non risulta scoperto niente, la pagina dice che non
+     *    abbiamo niente da vendere: è la frase più insolita del sito e vive in
+     *    un ramo che il giro qui sopra non attraversa mai. Un ramo che nessuno
+     *    controlla è un ramo che si rompe in silenzio. */
+    await page.goto(BASE + p, { waitUntil: 'networkidle' })
+    for (let i = 0; i < quanti; i++) {
+      const radio = gruppi.nth(i).locator('input[type="radio"]')
+      // Nella prima domanda la risposta che NON scopre è la seconda.
+      await radio.nth(i === 0 ? 1 : 0).check()
+    }
+    await page.getByRole('button', { name: /vedi l/i }).click()
+    await page.waitForTimeout(300)
+    const testoZero = await page.evaluate(() => document.body.innerText)
+    if (!/Non risulta scoperto nessuno degli otto punti/.test(testoZero)) {
+      problemi.push(`${p}: rispondendo bene a tutte, l'esito non riconosce che non c'è niente di scoperto`)
+    }
+    if (/In Fibonacci:/.test(testoZero)) {
+      problemi.push(`${p}: senza punti scoperti la pagina vende comunque qualcosa`)
+    }
+
+    // 4. Accessibilità dello stato che prima non esisteva.
+    const esitoAxe = await new AxeBuilder({ page })
+      .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+      .analyze()
+    for (const v of esitoAxe.violations.filter((v) => ['serious', 'critical'].includes(v.impact))) {
+      problemi.push(`${p} (esito): a11y ${v.impact} · ${v.id} · ${v.nodes.length} nodi · ${v.help}`)
     }
   }
 

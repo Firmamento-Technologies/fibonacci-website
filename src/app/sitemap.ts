@@ -34,7 +34,10 @@ const REVISIONE: Record<string, string> = {
   '/': '2026-08-07',
   '/come-funziona': '2026-08-07',
   '/consensi-informati': '2026-08-07',
-  '/prezzi': '2026-08-07',
+  '/che-software-serve': '2026-08-08',
+  '/autovalutazione': '2026-08-08',
+  '/integrazioni': '2026-08-08',
+  '/prezzi': '2026-08-08',
   '/sicurezza-e-dati': '2026-08-07',
   '/richiedi-una-demo': '2026-08-07',
   '/verifica': '2026-08-07',
@@ -61,7 +64,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     pagina('/', 1),
     pagina('/come-funziona', 0.9),
     pagina('/consensi-informati', 0.9),
+    /* Le tre pagine dell'8 agosto. `che-software-serve` sta alto perché è
+       l'unica che risponde a chi cerca «gestionale medicina estetica»;
+       `autovalutazione` è lo strumento, e vale quanto una pagina di prodotto. */
+    pagina('/che-software-serve', 0.85),
+    pagina('/autovalutazione', 0.8),
     pagina('/prezzi', 0.85),
+    pagina('/integrazioni', 0.6),
     pagina('/sicurezza-e-dati', 0.85),
     pagina('/richiedi-una-demo', 0.8),
     pagina('/verifica', 0.7),
