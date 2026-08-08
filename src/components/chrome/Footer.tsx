@@ -21,6 +21,7 @@ const COLONNE = [
     titolo: 'Società',
     voci: [
       { href: '/chi-siamo', testo: 'Chi siamo' },
+      { href: '/per-le-societa-scientifiche', testo: 'Per le società scientifiche' },
       { href: '/intelligenza-artificiale', testo: "Come usiamo l'intelligenza artificiale" },
       { href: '/domande', testo: 'Domande frequenti' },
       { href: '/richiedi-una-demo', testo: 'Richiedi una demo' },

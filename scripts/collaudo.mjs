@@ -29,6 +29,7 @@ const PAGINE = [
      controllata da niente: non è un dettaglio di manutenzione, è il motivo
      per cui i difetti del 7 agosto erano rimasti in piedi per settimane. */
   '/che-software-serve', '/autovalutazione', '/integrazioni',
+  '/per-le-societa-scientifiche',
 ]
 
 /* Affermazioni che oggi il prodotto non regge. Se una compare in una pagina
@@ -251,6 +252,33 @@ async function main() {
       .analyze()
     for (const v of esitoAxe.violations.filter((v) => ['serious', 'critical'].includes(v.impact))) {
       problemi.push(`${p} (esito): a11y ${v.impact} · ${v.id} · ${v.nodes.length} nodi · ${v.help}`)
+    }
+  }
+
+  /* ── Le due varianti del modulo ─────────────────────────────────────────
+   *
+   * `ModuloDemo` ha una variante per le società scientifiche, e il suo valore
+   * predefinito è ciò che tiene le due pagine storiche identiche a prima.
+   * Un valore predefinito è una promessa silenziosa: se cambia, nessuno se ne
+   * accorge finché un medico non si trova a dichiarare il proprio ruolo in una
+   * società che non ha. Qui la promessa diventa verificabile. */
+  {
+    await page.goto(BASE + '/richiedi-una-demo', { waitUntil: 'networkidle' })
+    const demo = await page.evaluate(() => document.body.innerText)
+    if (!/Che procedure fai/.test(demo)) {
+      problemi.push('/richiedi-una-demo: il modulo non è più quello della demo')
+    }
+    if (/Che ruolo hai nella società/.test(demo)) {
+      problemi.push('/richiedi-una-demo: al medico viene chiesto il ruolo in una società scientifica')
+    }
+
+    await page.goto(BASE + '/per-le-societa-scientifiche', { waitUntil: 'networkidle' })
+    const soc = await page.evaluate(() => document.body.innerText)
+    if (!/Che ruolo hai nella società/.test(soc)) {
+      problemi.push('/per-le-societa-scientifiche: il modulo non è la variante per le società')
+    }
+    if ((await page.locator('main select').count()) > 0) {
+      problemi.push('/per-le-societa-scientifiche: c\'è ancora l\'elenco obbligatorio delle procedure estetiche')
     }
   }
 

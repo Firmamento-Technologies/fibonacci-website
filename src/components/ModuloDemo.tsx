@@ -25,7 +25,22 @@ const PROCEDURE = [
   'Un misto di queste',
 ] as const
 
-export function ModuloDemo({ compatto = false }: { compatto?: boolean }) {
+/* `variante` esiste per una ragione sola: alla pagina delle società
+ * scientifiche serviva un modulo, e riusare questo così com'era avrebbe
+ * costretto il presidente di una società a scegliere «Tossina botulinica e
+ * filler» da un elenco obbligatorio di procedure. Meglio una variante additiva
+ * che un secondo canale: il canale è uno (`LEAD_API_URL`), il ripiego a
+ * casella vuota è già gestito qui, e `pagina` nel corpo dice già da dove
+ * arriva la richiesta. Il valore predefinito lascia le due pagine esistenti
+ * identiche al byte. */
+export function ModuloDemo({
+  compatto = false,
+  variante = 'demo',
+}: {
+  compatto?: boolean
+  variante?: 'demo' | 'societa'
+}) {
+  const perSocieta = variante === 'societa'
   const [stato, setStato] = useState<Stato>('fermo')
   const [viaPosta, setViaPosta] = useState(false)
   const [dati, setDati] = useState({ nome: '', studio: '', email: '', procedure: '' })
@@ -40,7 +55,7 @@ export function ModuloDemo({ compatto = false }: { compatto?: boolean }) {
     setStato('invio')
 
     const corpo = {
-      intent: 'demo-estetica',
+      intent: perSocieta ? 'societa-scientifica' : 'demo-estetica',
       nome: dati.nome,
       studio: dati.studio,
       email: dati.email,
@@ -63,7 +78,9 @@ export function ModuloDemo({ compatto = false }: { compatto?: boolean }) {
          Senza una casella configurata questo ripiego non esiste, e allora la
          cosa onesta è dirlo invece di far credere che sia partito. */
       if (CONTACT_EMAIL) {
-        const oggetto = encodeURIComponent('Richiesta di demo guidata')
+        const oggetto = encodeURIComponent(
+          perSocieta ? 'Contatto da una società scientifica' : 'Richiesta di demo guidata',
+        )
         const testo = encodeURIComponent(
           [
             `Nome: ${dati.nome}`,
@@ -91,7 +108,9 @@ export function ModuloDemo({ compatto = false }: { compatto?: boolean }) {
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
           {viaPosta
             ? 'Il modulo non è riuscito a raggiungerci, quindi il messaggio è già pronto nel tuo programma di posta: manca solo che tu lo invii.'
-            : 'Proponiamo due o tre fasce orarie. Se nessuna va bene, rispondi con le tue.'}
+            : perSocieta
+              ? 'Risponde una persona, non un modulo automatico. Se preferisci una chiamata, dillo nella risposta.'
+              : 'Proponiamo due o tre fasce orarie. Se nessuna va bene, rispondi con le tue.'}
         </p>
       </div>
     )
@@ -101,30 +120,47 @@ export function ModuloDemo({ compatto = false }: { compatto?: boolean }) {
     <form onSubmit={invia} noValidate={false}>
       {!compatto && (
         <>
-          <p className="occhiello">Richiedi una demo guidata</p>
-          <h3 className="mt-[var(--s-13)] text-[1.35rem]">Quattro campi, poi ti scriviamo noi</h3>
+          <p className="occhiello">{perSocieta ? 'Scrivici' : 'Richiedi una demo guidata'}</p>
+          <h3 className="mt-[var(--s-13)] text-[1.35rem]">
+            {perSocieta ? 'Quattro campi, e ti risponde una persona' : 'Quattro campi, poi ti scriviamo noi'}
+          </h3>
         </>
       )}
 
       <div className={`${compatto ? '' : 'mt-[var(--s-21)]'} space-y-[var(--s-13)]`}>
         <Campo id="nome" etichetta="Nome e cognome" valore={dati.nome} onChange={aggiorna('nome')} autoComplete="name" />
-        <Campo id="studio" etichetta="Nome dello studio" valore={dati.studio} onChange={aggiorna('studio')} autoComplete="organization" />
+        <Campo
+          id="studio"
+          etichetta={perSocieta ? 'Società o associazione' : 'Nome dello studio'}
+          valore={dati.studio}
+          onChange={aggiorna('studio')}
+          autoComplete="organization"
+        />
         <Campo id="email" etichetta="Email" tipo="email" valore={dati.email} onChange={aggiorna('email')} autoComplete="email" />
 
-        <div>
-          <label htmlFor="procedure" className="numero">Che procedure fai</label>
-          <select
+        {perSocieta ? (
+          <Campo
             id="procedure"
-            required
-            value={dati.procedure}
+            etichetta="Che ruolo hai nella società"
+            valore={dati.procedure}
             onChange={aggiorna('procedure')}
-            className="mt-[var(--s-5)] w-full"
-            style={campoStile}
-          >
-            <option value="" disabled>Scegli</option>
-            {PROCEDURE.map((p) => <option key={p} value={p}>{p}</option>)}
-          </select>
-        </div>
+          />
+        ) : (
+          <div>
+            <label htmlFor="procedure" className="numero">Che procedure fai</label>
+            <select
+              id="procedure"
+              required
+              value={dati.procedure}
+              onChange={aggiorna('procedure')}
+              className="mt-[var(--s-5)] w-full"
+              style={campoStile}
+            >
+              <option value="" disabled>Scegli</option>
+              {PROCEDURE.map((p) => <option key={p} value={p}>{p}</option>)}
+            </select>
+          </div>
+        )}
       </div>
 
       <label className="mt-[var(--s-21)] flex cursor-pointer items-start gap-[var(--s-13)]">
@@ -151,7 +187,7 @@ export function ModuloDemo({ compatto = false }: { compatto?: boolean }) {
         disabled={stato === 'invio' || !consenso}
         style={{ opacity: !consenso ? 0.55 : 1 }}
       >
-        {stato === 'invio' ? 'Invio…' : 'Richiedi la demo'}
+        {stato === 'invio' ? 'Invio…' : perSocieta ? 'Scrivici' : 'Richiedi la demo'}
       </button>
 
       {stato === 'errore' && (

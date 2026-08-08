@@ -30,7 +30,10 @@ const MAPPA = {
   // /partners e /status non erano né aggiornati né verificabili, e una
   // pagina di stato ferma toglie fiducia invece di darne.
   '/specialita': '/',
-  '/partners': '/chi-siamo',
+  /* Dall'8 agosto `/partners` ha di nuovo una destinazione propria: la pagina
+     per le società scientifiche. Mandava a `/chi-siamo` solo perché non
+     c'era niente di meglio. */
+  '/partners': '/per-le-societa-scientifiche',
   '/status': '/sicurezza-e-dati',
   '/segreteria': '/',
   '/ambassador': '/',
