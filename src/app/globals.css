@@ -60,6 +60,31 @@
   --s-144: 144px;
   --s-233: 233px;
 
+  /* ── Livello DISPLAY — l'unico posto in cui la marca parla in φ ──────────
+   *
+   * DECISIONE TD-11 (2026-08-10). La domanda era «imporre una scala φ alle 35
+   * pagine?». Risposta: **no sul testo, sì qui**, e per una ragione misurata.
+   *
+   * Material Design 3 (tier 1, m3.material.io/styles/typography) usa la **Major
+   * Second, 1,125** per l'interfaccia e raccomanda di *«avoid small differences»*
+   * riducendo il numero di stili. La scala del TESTO di questo sito — 9 misure,
+   * ogni salto ≥13 % — è già in quel territorio: rifarla in φ (1,618) la
+   * porterebbe a 5-6 gradini usabili e obbligherebbe a ri-verificare la
+   * lunghezza di riga (45-75 caratteri) su 35 pagine. φ è un rapporto **da
+   * display**, e nel display ci sta bene.
+   *
+   * 🔎 E qui c'era già, senza che nessuno l'avesse scritto: 3,4 / 2,1 = **1,619**
+   * e 2,1 / 1,3 = **1,615**. Queste tre righe rendono esplicito un rapporto che
+   * il sito aveva per caso, e ci tirano sopra le rampe che ne erano fuori: erano
+   * **sei**, e tre distavano meno del 13 % l'una dall'altra (2,3 vs 2,1 = 9,5 %;
+   * 2,1 vs 1,9 = 10,5 %) — cioè la stessa malattia già curata sul testo.
+   *
+   * ⛔ Non aggiungere un quarto gradino senza toglierne uno: sei rampe sono
+   * tornate una volta. */
+  --display-1: clamp(2.1rem, 5.2vw, 3.4rem);   /* apertura della home */
+  --display-2: clamp(1.6rem, 4.2vw, 2.1rem);   /* titolo di pagina, sezione grande */
+  --display-3: clamp(1.15rem, 2.4vw, 1.3rem);  /* sezione piccola, prosa h2 */
+
   /* ── Misure di colonna ─────────────────────────────────────────────── */
   --measure:      34rem;   /* ~66 caratteri: dentro i 45-90 di Butterick  */
   --measure-tight: 21rem;
@@ -520,9 +545,8 @@ a { color: inherit; text-decoration: none; }
 .prosa { max-width: var(--measure); }
 .prosa > * + * { margin-top: var(--s-21); }
 .prosa h2 {
-  /* Allineata al gradino dei titoli di sezione: prima erano 24px, cioè un
-     gradino inventato che non compariva da nessun'altra parte. */
-  font-size: 1.4rem;
+  /* TD-11: era 1.4rem, un gradino fuori dalla scala φ del display. */
+  font-size: var(--display-3);
   margin-top: var(--s-55);
   padding-top: var(--s-21);
   border-top: 1px solid var(--rule);

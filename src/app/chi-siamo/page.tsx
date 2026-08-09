@@ -91,7 +91,7 @@ export default function ChiSiamo() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Occhiello>Come lavoriamo</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '18ch' }}>
+          <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
             Quattro regole che ci siamo dati
           </h2>
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
@@ -112,7 +112,7 @@ export default function ChiSiamo() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Occhiello>A che punto siamo</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[clamp(1.5rem,3vw,2.1rem)]" style={{ maxWidth: '18ch' }}>
+          <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
             In pilota, non in scala
           </h2>
           <div className="prosa mt-[var(--s-21)]">

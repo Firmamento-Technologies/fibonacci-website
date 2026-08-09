@@ -109,7 +109,7 @@ export function ListinoSintesi() {
         <Reveal>
           <div className="text-center" style={{ maxWidth: '40rem', marginInline: 'auto' }}>
             <p className="occhiello" style={{ justifyContent: 'center' }}>Prezzi</p>
-            <h2 className="mt-[var(--s-21)] text-[clamp(1.85rem,4.2vw,2.9rem)]">
+            <h2 className="mt-[var(--s-21)] text-[var(--display-2)]">
               Due piani, nessuna sorpresa
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>

@@ -99,7 +99,7 @@ export default function PerLeSocietaScientifiche() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Dove siamo</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '22ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '22ch' }}>
               Oggi non c’è nessuna convenzione attiva
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -120,7 +120,7 @@ export default function PerLeSocietaScientifiche() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Che cosa offriamo</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Quattro cose, in ordine di quanto ci crediamo
             </h2>
           </Reveal>
@@ -146,7 +146,7 @@ export default function PerLeSocietaScientifiche() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Che cosa chiediamo</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Una persona che risponda, e tempo di lettura
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -163,7 +163,7 @@ export default function PerLeSocietaScientifiche() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello chiaro>Le regole che ci diamo</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '22ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '22ch' }}>
               Perché una convenzione non diventi un incentivo improprio
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>
@@ -193,7 +193,7 @@ export default function PerLeSocietaScientifiche() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Quello che non facciamo</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '18ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
               Tre richieste a cui diciamo di no
             </h2>
             <ul className="mt-[var(--s-34)]">

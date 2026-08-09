@@ -29,7 +29,7 @@ export function Pagina({
         <section style={{ paddingTop: 'var(--s-55)', paddingBottom: 'var(--s-34)' }}>
           <div className={`gabbia ${larga ? '' : 'gabbia-stretta'}`}>
             <Occhiello>{occhiello}</Occhiello>
-            <h1 className="mt-[var(--s-21)] text-[clamp(1.85rem,4.2vw,2.9rem)]" style={{ maxWidth: '20ch' }}>
+            <h1 className="mt-[var(--s-21)] text-[var(--display-1)]" style={{ maxWidth: '20ch' }}>
               {titolo}
             </h1>
             {sommario && (

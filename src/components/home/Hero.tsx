@@ -50,7 +50,7 @@ export function Hero() {
               <Occhiello>Medicina estetica · Cartella clinica</Occhiello>
             </div>
 
-            <h1 className="entra-primo-schermo ritardo-1 mt-[var(--s-21)] text-[clamp(2.1rem,5.2vw,3.4rem)]">
+            <h1 className="entra-primo-schermo ritardo-1 mt-[var(--s-21)] text-[var(--display-1)]">
               Cartella clinica, consensi e immagini per la{' '}
               <span className="accento-corsivo">medicina estetica</span>
             </h1>

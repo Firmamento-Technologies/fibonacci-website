@@ -165,7 +165,7 @@ export function TestaSezione({
     <div className={centrata ? 'text-center mx-auto' : ''} style={centrata ? { maxWidth: '44rem' } : undefined}>
       <Occhiello chiaro={chiaro}>{occhiello}</Occhiello>
       <h2
-        className="mt-[var(--s-21)] text-[clamp(1.85rem,4.2vw,2.9rem)]"
+        className="mt-[var(--s-21)] text-[var(--display-2)]"
         style={{ maxWidth: centrata ? undefined : '22ch' }}
       >
         {titolo}

@@ -13,13 +13,23 @@
 
 import { chromium } from 'playwright'
 import AxeBuilder from '@axe-core/playwright'
-import { readFileSync, existsSync } from 'node:fs'
+import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const QUI = dirname(fileURLToPath(import.meta.url))
+
+/** Tutti i sorgenti di `src/`: serve ai controlli statici che leggono il codice
+ *  invece della pagina resa. */
+function* walkSrc(dir = join(QUI, '..', 'src')) {
+  for (const voce of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, voce.name)
+    if (voce.isDirectory()) yield* walkSrc(p)
+    else if (/\.(tsx?|css)$/.test(voce.name)) yield p
+  }
+}
 const BASE = process.argv[2] ?? 'http://localhost:3210'
 
 /* La demo pubblica sta su un'altra macchina e il sito la promuove: va
@@ -404,6 +414,46 @@ async function main() {
       problemi.push(`demo: ${DEMO_URL} non risponde (${String(e).slice(0, 80)}), e la home la promuove`)
     }
     await demo.close()
+  }
+
+  /* ── TD-11 · il livello display resta a TRE gradini, e in rapporto φ ──
+   *
+   * La decisione: φ non tocca il testo (la scala a 9 misure è già in territorio
+   * Major Second, che è ciò che Material 3 raccomanda) ma governa il display.
+   * Prima erano **sei** rampe `clamp(...)` sparse nei componenti, e tre
+   * distavano meno del 13 % l'una dall'altra — indistinguibili. Sono tornate una
+   * volta: senza questo controllo tornano ancora, perché aggiungere un
+   * `text-[clamp(...)]` in una pagina nuova costa zero e non lo vede nessuno. */
+  {
+    const css = readFileSync(join(QUI, '..', 'src', 'app', 'globals.css'), 'utf8')
+    const gradini = [1, 2, 3].map((n) => {
+      const m = css.match(new RegExp(`--display-${n}:\\s*clamp\\(([^)]+)\\)`))
+      if (!m) return null
+      const max = m[1].split(',').at(-1).trim()
+      return parseFloat(max)
+    })
+    if (gradini.some((g) => g === null)) {
+      problemi.push('display: manca uno dei tre gradini --display-1/2/3 in globals.css')
+    } else {
+      for (const [a, b] of [[0, 1], [1, 2]]) {
+        const r = gradini[a] / gradini[b]
+        if (Math.abs(r - 1.618) > 0.05) {
+          problemi.push(
+            `display: --display-${a + 1}/--display-${b + 1} = ${r.toFixed(3)}, non è φ (1.618 ±0.05)`,
+          )
+        }
+      }
+    }
+    // Nessuna rampa ad hoc fuori dai token: è così che erano diventate sei.
+    const fuori = new Set()
+    for (const f of [...walkSrc()]) {
+      for (const m of readFileSync(f, 'utf8').matchAll(/text-\[clamp\([^\]]+\]/g)) fuori.add(m[0])
+    }
+    if (fuori.size) {
+      problemi.push(
+        `display: ${fuori.size} rampa/e tipografica/he fuori dai token: ${[...fuori].join(' · ')}`,
+      )
+    }
   }
 
   /* ── Gli ALTRI due canali che il sito promette ────────────────────────
