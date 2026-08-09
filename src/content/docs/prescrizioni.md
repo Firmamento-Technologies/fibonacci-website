@@ -25,7 +25,7 @@ I campi seguono la struttura della ricetta: dose, frequenza, periodicità, durat
 
 ## Passo 4, stampa
 
-La ricetta stampata riporta i dati dello studio e del medico — denominazione, sede, iscrizione all'Ordine con numero — presi dalla configurazione dello studio. Se quei campi sono vuoti, la ricetta li stampa come spazi da riempire a mano: il sistema non inventa dati identificativi.
+La ricetta stampata riporta i dati dello studio e del medico (denominazione, sede, iscrizione all'Ordine con numero), presi dalla configurazione dello studio. Se quei campi sono vuoti, la ricetta li stampa come spazi da riempire a mano: il sistema non inventa dati identificativi.
 
 ## Errori frequenti
 

@@ -42,6 +42,47 @@ function demoUrlDelSito() {
    quando la società esiste. */
 const LEGALI = ['/privacy', '/cookie', '/dpa', '/termini', '/sub-responsabili', '/sicurezza']
 
+/* Le guide della documentazione, lette dal sorgente invece che ricopiate.
+ *
+ * ⚠️ Qui l'elenco scritto a mano aveva già fallito, e in silenzio. Il sitemap
+ * le pubblica tutte perché le prende da `DOCS`; questo elenco no, e il
+ * 2026-08-09 le guide sono passate da 7 a 14 senza che una sola delle nuove
+ * venisse mai aperta da niente. Non erano rotte — semplicemente, se lo fossero
+ * state, non l'avrebbe saputo nessuno. È lo stesso difetto che il commento in
+ * fondo a PAGINE descrive, ripetuto su una rotta dinamica.
+ *
+ * Due elenchi da tenere allineati a mano sono un difetto che torna: si legge
+ * quello vero. La tecnica è quella di `demoUrlDelSito()` — questo script è
+ * JavaScript semplice, `docs-data.ts` è TypeScript con gli alias di Next.
+ * L'ancoraggio parte da `export const DOCS` così l'interfaccia `DocMeta` (che
+ * ha anch'essa un campo `slug`) resta fuori; la virgoletta nella regex tiene
+ * fuori le firme `slug: string` delle funzioni che seguono l'array. */
+function guideDelSito() {
+  const sorgente = readFileSync(
+    join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'lib', 'docs-data.ts'),
+    'utf8',
+  )
+  const daDocsInPoi = sorgente.slice(sorgente.indexOf('export const DOCS'))
+  return [...daDocsInPoi.matchAll(/slug:\s*'([^']+)'/g)].map((m) => `/documentazione/${m[1]}`)
+}
+
+const GUIDE = guideDelSito()
+
+/* Leggere il sorgente con una regex ha un modo di fallire che non si vede:
+ * se qualcuno riscrive `docs-data.ts` con le virgolette doppie, o rinomina
+ * l'array, `GUIDE` torna vuoto e il collaudo riprende a non controllare
+ * nessuna guida — esattamente il difetto che questa riga esiste per chiudere,
+ * ma senza più il sospetto che l'ha fatto scoprire. Un elenco vuoto qui è un
+ * presidio rotto, non un sito senza guide: si ferma subito e si dice perché. */
+/* ⚠️ Niente `rosso()` qui: è un `const` definito più in basso, e chiamarlo
+ * prima lo troverebbe nella temporal dead zone — il presidio morirebbe con un
+ * ReferenceError invece del messaggio che spiega cosa fare. */
+if (GUIDE.length === 0) {
+  console.error('Collaudo interrotto: nessuna guida estratta da src/lib/docs-data.ts.')
+  console.error("L'array DOCS è stato rinominato o riscritto: aggiorna guideDelSito().")
+  process.exit(1)
+}
+
 const PAGINE = [
   '/', '/come-funziona', '/consensi-informati', '/prezzi', '/sicurezza-e-dati',
   '/richiedi-una-demo', '/verifica', '/domande', '/intelligenza-artificiale',
@@ -52,6 +93,7 @@ const PAGINE = [
      per cui i difetti del 7 agosto erano rimasti in piedi per settimane. */
   '/che-software-serve', '/autovalutazione', '/integrazioni',
   '/per-le-societa-scientifiche',
+  ...GUIDE,
 ]
 
 /* Affermazioni che oggi il prodotto non regge. Se una compare in una pagina

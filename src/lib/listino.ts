@@ -85,6 +85,30 @@ export const CONVIVENZA = {
     'Quello che ci rimetti, detto prima: oggi Fibonacci non parla con il portale che usi. Se lo tieni, l’agenda pubblica resta dove è adesso e le prenotazioni le riporti tu.',
 } as const
 
+/**
+ * Il residuo del contratto che il medico ha altrove.
+ *
+ * È l'obiezione vera di chi vorrebbe cambiare e non può: non il prezzo nostro,
+ * ma i mesi già pagati a qualcun altro. I contratti dei portali durano dodici
+ * mesi e si rinnovano da soli, quindi in qualunque momento dell'anno c'è un
+ * residuo che rende «ne riparliamo» la risposta più comoda.
+ *
+ * ⛔ **Senza cifra, per scelta** (decisione dell'utente, 2026-08-09). Un tetto
+ * in euro scritto qui sarebbe un numero inventato prima di conoscere
+ * l'interlocutore: è la stessa forma già usata per le condizioni alle società
+ * scientifiche, dove pure si è deciso di non pubblicare importi.
+ *
+ * ⚠️ E dice «ne parliamo», non «lo copriamo»: la società non è ancora
+ * costituita, quindi oggi non esiste il soggetto che possa impegnarsi a pagare
+ * il residuo di un terzo. La riga promette una conversazione, che è una cosa
+ * che possiamo mantenere.
+ */
+export const RESIDUO = {
+  titolo: 'Se ti restano mesi da pagare altrove',
+  testo:
+    'La ragione più comune per non cambiare non è il prezzo: sono i mesi che restano sul contratto che hai già firmato con qualcun altro. Se sei in quella situazione dillo subito, prima di guardare il listino: entro un tetto che concordiamo insieme quei mesi li copriamo noi. Non è uno sconto e non è una promozione: è il costo di uscita che ti toglie di mezzo, e va discusso caso per caso perché dipende da quanto ti resta.',
+} as const
+
 /** L'ancora del prezzo. Non è il risparmio: è il costo di una contestazione. */
 export const ANCORA = {
   /* Era «Con che cosa si confronta», identico all'occhiello che gli sta sopra

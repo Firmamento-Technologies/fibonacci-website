@@ -17,7 +17,7 @@ Il titolare del trattamento è **lo studio**: le richieste dei pazienti arrivano
 
 Dalla scheda del paziente, il pulsante di esportazione produce un documento con anagrafica, anamnesi, trattamenti, prescrizioni, esami, consensi e cronologia degli accessi.
 
-Le **fotografie** non sono dentro quel documento: sono cifrate e la loro apertura è un accesso tracciato a sé. Si esportano separatamente e vengono **decifrate al momento della consegna**, in modo che il paziente riceva immagini che può aprire — un file cifrato che non si può leggere non soddisfa il diritto alla portabilità.
+Le **fotografie** non sono dentro quel documento: sono cifrate e la loro apertura è un accesso tracciato a sé. Si esportano separatamente e vengono **decifrate al momento della consegna**, in modo che il paziente riceva immagini che può aprire: un file cifrato che non si può leggere non soddisfa il diritto alla portabilità.
 
 ## Passo 2, la richiesta di cancellazione
 
@@ -25,7 +25,7 @@ Le **fotografie** non sono dentro quel documento: sono cifrate e la loro apertur
 
 In pratica: la documentazione clinica va conservata per il tempo in cui il medico può essere chiamato a rispondere del proprio operato. Cancellarla su richiesta significherebbe privarsi della prova con cui difendersi, e non è un obbligo che il GDPR impone.
 
-⇒ La risposta corretta a una richiesta di cancellazione è motivata, non è un rifiuto e non è un'esecuzione automatica. Se la richiesta riguarda dati non clinici — un recapito, una nota organizzativa — quelli si cancellano.
+⇒ La risposta corretta a una richiesta di cancellazione è motivata, non è un rifiuto e non è un'esecuzione automatica. Se la richiesta riguarda dati non clinici (un recapito, una nota organizzativa), quelli si cancellano.
 
 ## Passo 3, se lo studio chiude o cambia software
 

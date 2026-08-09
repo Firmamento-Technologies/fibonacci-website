@@ -22,7 +22,7 @@ Quando si salva una seduta il cui prodotto ha una durata attesa **scritta in un 
 
 Due scelte dichiarate:
 
-- **Si richiama all'estremo inferiore** della durata attesa: per la tossina a 4 mesi, non a 6. Il motivo è clinico prima che commerciale — l'effetto comincia a calare all'inizio della forbice, e un paziente ricontattato quando l'effetto è già finito nel frattempo è andato altrove.
+- **Si richiama all'estremo inferiore** della durata attesa: per la tossina a 4 mesi, non a 6. Il motivo è clinico prima che commerciale: l'effetto comincia a calare all'inizio della forbice, e un paziente ricontattato quando l'effetto è già finito nel frattempo è andato altrove.
 - **Se la durata non è nota, non si propone niente.** Non si stima. Un richiamo inventato sembra un consiglio del medico.
 
 Ogni voce dice **da dove viene**, citando la frase del consenso: un promemoria che non sa dire perché è lì è un promemoria che il medico spegne.

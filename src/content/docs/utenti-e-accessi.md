@@ -31,7 +31,7 @@ L'operazione viene registrata nel registro accessi: chi l'ha eseguita, su chi, e
 
 ### Perché non esiste una «sospensione temporanea»
 
-È la domanda che si pone chiunque cerchi il pulsante e non lo trovi. La risposta è che su questo impianto il campo che sembrerebbe servire — «utente non attivo» — **non impedisce l'accesso**: è descrittivo. Un pulsante «sospendi» costruito su quel campo direbbe all'amministratore di aver tolto l'accesso senza averlo tolto, ed è peggio dell'assenza del pulsante.
+È la domanda che si pone chiunque cerchi il pulsante e non lo trovi. La risposta è che su questo impianto il campo che sembrerebbe servire, «utente non attivo», **non impedisce l'accesso**: è descrittivo. Un pulsante «sospendi» costruito su quel campo direbbe all'amministratore di aver tolto l'accesso senza averlo tolto, ed è peggio dell'assenza del pulsante.
 
 Se l'assenza è temporanea e si vuole comunque chiudere la porta, la strada è rimuovere l'accesso e reinvitare al rientro.
 

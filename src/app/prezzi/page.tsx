@@ -4,7 +4,7 @@ import { Pagina } from '@/components/chrome/Pagina'
 import { SchedePiani } from '@/components/Listino'
 import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
-import { ATTIVAZIONE, ANCORA, CONVIVENZA } from '@/lib/listino'
+import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 
 export const metadata: Metadata = {
   title: 'Prezzi',
@@ -166,6 +166,24 @@ export default function Prezzi() {
                 Portale, gestionale o cartella verticale: le tre categorie a confronto
                 <Freccia />
               </Link>
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Il residuo del contratto altrove. Sta fra la convivenza e l'ancora
+          perché è l'ultima obiezione di spesa rimasta in piedi: la convivenza
+          toglie il sospetto del doppione, questa toglie il costo di uscita, e
+          solo dopo ha senso dire con che cosa si confronta il prezzo. */}
+      <section className="fascia">
+        <div className="gabbia gabbia-stretta">
+          <Reveal>
+            <Occhiello>Se sei sotto contratto</Occhiello>
+            <h2 className="mt-[var(--s-13)] text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '18ch' }}>
+              {RESIDUO.titolo}
+            </h2>
+            <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+              {RESIDUO.testo}
             </p>
           </Reveal>
         </div>

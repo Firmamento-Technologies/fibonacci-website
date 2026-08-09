@@ -8,13 +8,13 @@ La registrazione della seduta è l'atto clinico che, mesi o anni dopo, dimostra 
 
 - Account con ruolo `medico`.
 - Anagrafica del paziente esistente.
-- Consenso informato del trattamento **firmato**. Se il consenso manca, la seduta si registra comunque — non si nasconde ciò che è stato fatto — ma resta segnalata come priva di consenso.
+- Consenso informato del trattamento **firmato**. Se il consenso manca, la seduta si registra comunque (non si nasconde ciò che è stato fatto), ma resta segnalata come priva di consenso.
 
 ## Passo 1, aprire la seduta
 
 Dalla scheda del paziente, la sezione `Trattamenti` e il pulsante `Nuovo trattamento`. Si sceglie il prodotto, e il sistema riconosce da solo la categoria e la famiglia chimica: acido ialuronico, idrossiapatite, acido poli-L-lattico, tossina botulinica.
 
-Il riconoscimento serve a due cose: colorare la mappa delle aree per categoria, e — dove esiste una durata scritta in un consenso — proporre il richiamo del passo 5.
+Il riconoscimento serve a due cose: colorare la mappa delle aree per categoria, e, dove esiste una durata scritta in un consenso, proporre il richiamo del passo 5.
 
 ## Passo 2, lotto, quantità, scadenza
 
