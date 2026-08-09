@@ -71,15 +71,23 @@ const VIETATI = [
   { re: /dermatolog|ortopedi|psicolog|nutrizion|oculistic/i, perche: 'residuo multi-specialità' },
   { re: /dpo@/i, perche: 'nessun DPO designato' },
   { re: /Firmamento/i, perche: 'intestazione societaria da rimuovere', soloInterfaccia: true },
-  /* Le due funzioni progettate l'8 agosto 2026 e NON ancora costruite. Il sito
-   * dice già «prodotto, lotto, unità» ed è vero: i campi esistono. Quello che
-   * non esiste è cercarli — «dammi un lotto, ti dico chi l'ha ricevuto» — e il
-   * controllo delle comunicazioni contro la L. 145/2018. Sono esattamente le
-   * due righe che un cliente citerebbe dopo la firma, quindi il presidio le
-   * tiene fuori finché non diventano vere. Si tolgono da qui il giorno in cui
-   * si possono dimostrare, non prima. */
-  { re: /ricerca\s+per\s+lotto|cerca(re)?\s+per\s+lotto|richiamo\s+del\s+lotto|tracciabilit[àa]\s+(del\s+)?lott/i, perche: 'la ricerca per lotto non è costruita' },
-  { re: /comunicazion\w*\s+conform\w*|controllo\s+(di\s+)?conformit[àa]\s+delle\s+comunicazioni/i, perche: 'il controllo delle comunicazioni non è costruito' },
+  /* ✅ **Le due funzioni dell'8 agosto SONO state costruite**, e queste due
+   * righe sono state tolte il 2026-08-09.
+   *
+   * Il presidio le teneva fuori con la formula giusta: «si tolgono da qui il
+   * giorno in cui si possono dimostrare, non prima». Quel giorno è arrivato:
+   * la tracciabilità del lotto è chiusa T1-T5 (`a2c2803`, provata e2e — due
+   * sedute con lo stesso lotto su due pazienti diversi, trovate in una sola
+   * chiamata) e il controllo delle comunicazioni è chiuso C1-C4 (`ce4f29b`,
+   * banco a due direzioni 17/17 e 0/18).
+   *
+   * ⚠️ Entrambe sono dietro un interruttore spento di suo
+   * (`VITE_TRACCIABILITA_LOTTO`, `VITE_COMUNICAZIONE_CONFORME`): esistono nel
+   * prodotto, non sono accese su ogni studio. La guida lo dice a chiare
+   * lettere — «se la voce non compare nel menu, la funzione non è stata
+   * abilitata» — ed è la ragione per cui parlarne non è più un claim vuoto.
+   *
+   * ⛔ Se un domani venissero ritirate, queste due righe tornano qui. */
   /* ⚠️ La prima versione era /conform\w*\s+(all[oa]\s+)?EHDS/ e NON scattava su
    * «conforme all’EHDS»: il sito usa l'apostrofo tipografico, la regex si
    * aspettava «allo »/«alla » con lo spazio. Cinque test l'avrebbero dichiarata

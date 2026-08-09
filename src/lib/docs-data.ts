@@ -54,6 +54,27 @@ export const DOCS: DocMeta[] = [
     icon: 'Calendar',
   },
   {
+    slug: 'foto-confronto',
+    title: 'Foto cliniche e confronto prima/dopo',
+    description: 'Acquisire, cifrare, confrontare e consegnare le fotografie.',
+    category: 'utilizzo',
+    icon: 'Camera',
+  },
+  {
+    slug: 'tracciabilita-lotto',
+    title: 'Tracciabilità del lotto',
+    description: 'Registrare il lotto e rispondere a un richiamo del produttore.',
+    category: 'utilizzo',
+    icon: 'PackageSearch',
+  },
+  {
+    slug: 'utenti-e-accessi',
+    title: 'Utenti dello studio e revoca degli accessi',
+    description: 'Invitare un collaboratore, e togliergli l\'accesso quando se ne va.',
+    category: 'compliance',
+    icon: 'UserMinus',
+  },
+  {
     slug: 'audit-log',
     title: 'Audit log',
     description: 'Tracciabilità accessi, hash-chain, verifica integrità.',
