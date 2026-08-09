@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useScroll, useMotionValueEvent, useReducedMotion } from 'framer-motion'
 import { Occhiello } from '@/components/ui/elementi'
 
@@ -112,7 +112,31 @@ export function DocumentoCheSiCompone() {
     setRigheScritte(Math.max(1, Math.min(RIGHE_TOTALI, Math.ceil(v * RIGHE_TOTALI))))
   })
 
-  if (menoMovimento) return <VersioneStatica />
+  /* ⚠️ LA VERSIONE STATICA È IL PUNTO DI PARTENZA, NON IL RIPIEGO.
+   *
+   * Prima questo componente rendeva SUBITO la versione a scorrimento, e i
+   * cinque testi sovrapposti nascevano con `opacity: 0` scritta in linea
+   * nell'HTML generato: quattro tappe su cinque, più le venti righe del
+   * documento, esistevano nella pagina ed erano invisibili finché React non
+   * idratava. Erano il **13 %** di testo della home ancora appeso al
+   * JavaScript dopo il lavoro su `Reveal` e `Hero`
+   * ([[sintesi-analisi-ui-ux-2026-08-09]] §S3).
+   *
+   * `VersioneStatica` esisteva già — la sceglieva `useReducedMotion()`, cioè
+   * un hook di React: **la stessa cosa che poteva non arrivare**. Ora è ciò
+   * che il server genera e ciò che il primo render del client produce (i due
+   * coincidono, quindi nessuna disparità di idratazione), e la versione a
+   * scorrimento subentra in un effetto, un fotogramma dopo.
+   *
+   * Il costo è invisibile: questa sezione sta a migliaia di pixel dalla piega.
+   * Il guadagno è che senza JavaScript la storia si legge tutta, impaginata
+   * come un documento — che è esattamente ciò che la sezione racconta. */
+  const [interattivo, setInterattivo] = useState(false)
+  useEffect(() => {
+    if (!menoMovimento) setInterattivo(true)
+  }, [menoMovimento])
+
+  if (menoMovimento || !interattivo) return <VersioneStatica />
 
   return (
     <section

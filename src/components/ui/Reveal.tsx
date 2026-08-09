@@ -33,9 +33,12 @@ interface RevealProps {
  * ([[sintesi-analisi-ui-ux-2026-08-09]] §S3)
  *
  * Ora lo stato di partenza è **visibile** e il nascondimento vive in CSS sotto
- * `html.anim` — classe che uno script in testa al documento mette **solo se il
- * JavaScript è vivo**. Senza JavaScript la pagina si legge tutta; con il
- * JavaScript l'effetto è identico a prima.
+ * `@media (scripting: enabled)` — cioè si applica **solo se il JavaScript è
+ * vivo**, perché è il JavaScript a doverlo poi togliere. Senza JavaScript la
+ * pagina si legge tutta; con il JavaScript l'effetto è identico a prima.
+ * ⛔ Il primo tentativo usava uno `<script>` in testa che accendeva una classe
+ * `html.anim`: produceva un errore di idratazione, perché le estensioni del
+ * browser iniettano i propri script in `<head>` e spostano il nostro.
  *
  * Tre conseguenze, tutte volute:
  * · `prefers-reduced-motion` è gestito **in CSS** (`globals.css`), quindi vale
@@ -63,8 +66,11 @@ export function Reveal({ children, ritardo = 0, da = 'su', className, as = 'div'
 }
 
 /**
- * Contenitore che scagliona i figli diretti avvolti in <RevealFiglio>.
+ * Contenitore che scagliona gli elementi `.rivela` che contiene.
  * Evita di dover calcolare a mano il ritardo di ogni elemento di una griglia.
+ * Funziona sia con `<RevealFiglio>` sia con elementi che portano da sé le
+ * classi `rivela rivela-su` — è il caso degli anelli della catena nel Sigillo,
+ * che devono restare `<li>` dentro un `<ol>` per ragioni semantiche.
  */
 export function RevealGruppo({
   children,
@@ -85,7 +91,15 @@ export function RevealGruppo({
         if (!voce.isIntersecting) return
         // Lo scaglionamento è un ritardo per ciascun figlio, applicato al
         // momento dell'entrata: non serve una macchina a stati.
-        const figli = el.querySelectorAll<HTMLElement>(':scope > .rivela')
+        // ⚠️ `:scope > .rivela` (figli DIRETTI) è stato un difetto: nel
+        // `Sigillo` gli anelli della catena stanno dentro un `<ol>`, quindi
+        // sono nipoti e non venivano mai trovati — la catena restava a
+        // opacità zero per sempre. Trovato eseguendo: 0 anelli su 4 entrati.
+        // Si cercano i discendenti, escludendo quelli di un eventuale gruppo
+        // annidato, che ha un suo osservatore.
+        const figli = [...el.querySelectorAll<HTMLElement>('.rivela')].filter(
+          (f) => f.closest('[data-rivela-gruppo]') === el,
+        )
         figli.forEach((f, i) => {
           f.style.transitionDelay = `${i * passo}s`
           f.classList.add('dentro')
@@ -100,7 +114,7 @@ export function RevealGruppo({
   }, [passo])
 
   return (
-    <div ref={rif} className={className}>
+    <div ref={rif} data-rivela-gruppo="" className={className}>
       {children}
     </div>
   )

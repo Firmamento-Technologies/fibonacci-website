@@ -1,8 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import { motion, useReducedMotion } from 'framer-motion'
 import { Occhiello, Foto } from '@/components/ui/elementi'
+import { RevealGruppo } from '@/components/ui/Reveal'
 import { ModuloDemo } from '@/components/ModuloDemo'
 
 /* Il culmine della pagina.
@@ -24,8 +24,9 @@ const ANELLI = [
 ]
 
 export function Sigillo() {
-  const menoMovimento = useReducedMotion()
-
+  // ⛔ Niente `useReducedMotion()`: il rispetto del movimento ridotto è passato
+  // in CSS (`globals.css`), quindi vale anche a JavaScript spento — prima
+  // dipendeva da un hook di React, cioè dalla stessa cosa che poteva mancare.
   return (
     <section className="scuro fascia-lg" id="il-sigillo">
       <div className="gabbia">
@@ -75,26 +76,23 @@ export function Sigillo() {
           {/* La catena. Gli anelli si collegano uno dopo l'altro quando la
               sezione entra in vista: il movimento qui ha un mestiere preciso,
               far vedere che ogni anello DIPENDE dal precedente. */}
-          <motion.div
-            className="foglio"
-            style={{ padding: 'var(--s-34)' }}
-            initial={menoMovimento ? undefined : 'nascosto'}
-            whileInView={menoMovimento ? undefined : 'visibile'}
-            viewport={{ once: true, margin: '0px 0px -15% 0px' }}
-            variants={{ visibile: { transition: { staggerChildren: 0.16 } } }}
-          >
+          {/* ⚠️ Da framer-motion a RevealGruppo, e non è un cambio di libreria.
+              Le varianti scrivevano lo stato `nascosto` **in linea nell'HTML
+              generato** (`style="opacity:0"`): senza JavaScript i sei anelli
+              della catena — cioè la prova che la sezione esiste per mostrare —
+              erano nel documento e invisibili. `RevealGruppo` tiene lo stato di
+              partenza VISIBILE e nasconde in CSS solo sotto
+              `@media (scripting: enabled)`.
+              ([[sintesi-analisi-ui-ux-2026-08-09]] §S3) */}
+          <RevealGruppo className="foglio" passo={0.16}>
             <p className="numero">CATENA DI IMPRONTE · CARTELLA 4471</p>
 
             <ol className="mt-[var(--s-21)]">
               {ANELLI.map((a, i) => (
-                <motion.li
+                <li
                   key={a.hash}
-                  className="relative grid gap-[var(--s-13)] sm:grid-cols-[1.6rem_1fr]"
+                  className="rivela rivela-su relative grid gap-[var(--s-13)] sm:grid-cols-[1.6rem_1fr]"
                   style={{ paddingBottom: i === ANELLI.length - 1 ? 0 : 'var(--s-21)' }}
-                  variants={{
-                    nascosto: { opacity: 0, y: 13 },
-                    visibile: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } },
-                  }}
                 >
                   {/* filo verticale che unisce l'anello al successivo */}
                   {i < ANELLI.length - 1 && (
@@ -144,24 +142,20 @@ export function Sigillo() {
                       {a.hash}
                     </p>
                   </div>
-                </motion.li>
+                </li>
               ))}
             </ol>
 
-            <motion.div
-              className="mt-[var(--s-21)]"
+            <div
+              className="rivela mt-[var(--s-21)]"
               style={{ borderTop: '1px solid var(--rule-ink)', paddingTop: 'var(--s-13)' }}
-              variants={{
-                nascosto: { opacity: 0 },
-                visibile: { opacity: 1, transition: { duration: 0.6 } },
-              }}
             >
               <p className="text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
                 Modificando l&apos;anello delle 09:38 si spezzano i tre successivi. Il controllo lo
                 rileva, e dice quale.
               </p>
-            </motion.div>
-          </motion.div>
+            </div>
+          </RevealGruppo>
         </div>
       </div>
     </section>
