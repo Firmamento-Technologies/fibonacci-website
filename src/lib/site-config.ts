@@ -53,8 +53,18 @@ export const PRIVACY_EMAIL = ''
  * ⚠️ Il dominio `fibonacci.it` è di terzi dal 2003 e non si può usare.
  * Finché non se ne registra uno proprio, l'applicazione risponde sul VPS via
  * nip.io con certificato valido. Da cambiare in `https://app.<dominio>`. */
-export const APP_URL = 'https://82.25.101.118.nip.io'
-export const DEMO_URL = 'https://82.25.101.118.nip.io/demo'
+/* ⛔ VUOTI DI PROPOSITO dal 2026-08-09 — la macchina non esiste più.
+ * `/opt/emr` è sparito e i due indirizzi rispondevano **HTTP 502**, mentre la
+ * home li promuoveva come pulsante principale e come «Accedi». Un invito che
+ * porta a una pagina d'errore non consegna il differenziatore: consegna
+ * l'opposto — chi clicca «l'unica cosa che puoi verificare da solo in trenta
+ * secondi» trova un errore.
+ * Qui vale la stessa regola dei recapiti (vedi `segnaposto.ts`): il dato che
+ * non esiste resta un **vuoto dichiarato**, mai un indirizzo inventato. Ogni
+ * componente che li usa non disegna il pulsante quando sono vuoti.
+ * ✅ PER RIMETTERLI: si riscrive l'URL qui, e basta — nient'altro da toccare. */
+export const APP_URL: string = ''
+export const DEMO_URL: string = ''
 
 /** Raccolta dei contatti dal modulo. Il modulo ripiega su mailto se non risponde. */
 export const LEAD_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-lead'

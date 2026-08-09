@@ -150,9 +150,11 @@ export default function ComeFunziona() {
             <Link href="/richiedi-una-demo" className="btn btn-primario">
               Richiedi una demo guidata
             </Link>
-            <a href={DEMO_URL} className="btn btn-secondario" rel="noopener">
-              Entra nella demo pubblica
-            </a>
+            {DEMO_URL && (
+              <a href={DEMO_URL} className="btn btn-secondario" rel="noopener">
+                Entra nella demo pubblica
+              </a>
+            )}
           </div>
           <p className="mt-[var(--s-21)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
             La demo contiene dati finti. Non inserirci dati di pazienti reali.

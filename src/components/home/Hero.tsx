@@ -72,11 +72,18 @@ export function Hero() {
                 chiedere mezz'ora a uno sconosciuto è un impegno più grande che
                 aprire una scheda. */}
             <div className="entra-primo-schermo ritardo-3 mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
-              <a href={DEMO_URL} className="btn btn-primario" rel="noopener">
-                Entra nella demo
-              </a>
-              <Link href="/richiedi-una-demo" className="btn btn-secondario">
-                Oppure fattela mostrare
+              {/* Senza un host la demo non si promuove: il secondario sale a
+                  primario invece di lasciare il primo schermo senza invito. */}
+              {DEMO_URL && (
+                <a href={DEMO_URL} className="btn btn-primario" rel="noopener">
+                  Entra nella demo
+                </a>
+              )}
+              <Link
+                href="/richiedi-una-demo"
+                className={DEMO_URL ? 'btn btn-secondario' : 'btn btn-primario'}
+              >
+                {DEMO_URL ? 'Oppure fattela mostrare' : 'Fattela mostrare'}
               </Link>
             </div>
 

@@ -85,6 +85,8 @@ export function risolviSegnaposto(testo: string, slug: string): string {
       .replaceAll('{EMAIL_SICUREZZA}', ripiegoModulo(PRIVACY_EMAIL))
       // Indirizzi. Cambiano entrambi quando si registra il dominio proprio.
       .replaceAll('{URL_SITO}', SITE_URL)
-      .replaceAll('{URL_APP}', APP_URL)
+      /* Un URL che non esiste non entra in un documento legale come stringa
+         vuota: diventa la lacuna dichiarata, come gli altri dati mancanti. */
+      .replaceAll('{URL_APP}', APP_URL || LACUNA)
   )
 }

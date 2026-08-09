@@ -53,6 +53,7 @@ export default function RichiediUnaDemo() {
                   ))}
                 </dl>
 
+                {DEMO_URL && (
                 <div className="mt-[var(--s-34)] foglio" style={{ padding: 'var(--s-21)' }}>
                   <Occhiello>Preferisci provarlo da solo</Occhiello>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
@@ -63,6 +64,7 @@ export default function RichiediUnaDemo() {
                     Entra nella demo
                   </a>
                 </div>
+                )}
               </div>
             </Reveal>
 

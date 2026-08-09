@@ -81,14 +81,16 @@ export function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-[var(--s-21)]">
-            <a
-              href={APP_URL}
-              className="text-[15px]"
-              style={{ color: 'var(--fg-faint)' }}
-              rel="noopener"
-            >
-              Accedi
-            </a>
+            {APP_URL && (
+              <a
+                href={APP_URL}
+                className="text-[15px]"
+                style={{ color: 'var(--fg-faint)' }}
+                rel="noopener"
+              >
+                Accedi
+              </a>
+            )}
             <Link href="/richiedi-una-demo" className="btn btn-primario">
               Richiedi una demo
             </Link>
@@ -113,14 +115,26 @@ export function Header() {
               all'hamburger senza comprimere il marchio, e porta alla demo
               aperta, che è la cosa che un medico può verificare da solo.
               ([[sintesi-analisi-ui-ux-2026-08-09]] §S5) */}
-          <a
-            href={DEMO_URL}
-            className="btn btn-primario lg:hidden"
-            style={{ marginRight: 'var(--s-8)', paddingInline: 'var(--s-13)', fontSize: 13 }}
-            rel="noopener"
-          >
-            Entra nella demo
-          </a>
+          {/* S5 chiede un invito nell'intestazione su telefono: resta, e senza
+              demo punta al modulo. La parola torna «Entra» quando c'è un host. */}
+          {DEMO_URL ? (
+            <a
+              href={DEMO_URL}
+              className="btn btn-primario lg:hidden"
+              style={{ marginRight: 'var(--s-8)', paddingInline: 'var(--s-13)', fontSize: 13 }}
+              rel="noopener"
+            >
+              Entra nella demo
+            </a>
+          ) : (
+            <Link
+              href="/richiedi-una-demo"
+              className="btn btn-primario lg:hidden"
+              style={{ marginRight: 'var(--s-8)', paddingInline: 'var(--s-13)', fontSize: 13 }}
+            >
+              Richiedi una demo
+            </Link>
+          )}
 
           <button
             type="button"
@@ -203,9 +217,11 @@ export function Header() {
               <Link href="/richiedi-una-demo" className="btn btn-primario" onClick={() => setMenuAperto(false)}>
                 Richiedi una demo
               </Link>
-              <a href={APP_URL} className="btn btn-secondario" rel="noopener">
-                Accedi
-              </a>
+              {APP_URL && (
+                <a href={APP_URL} className="btn btn-secondario" rel="noopener">
+                  Accedi
+                </a>
+              )}
             </div>
           </nav>
         </div>

@@ -27,7 +27,7 @@ const BASE = process.argv[2] ?? 'http://localhost:3210'
  * perché questo script è JavaScript semplice e quello è un modulo TypeScript
  * con gli alias di Next; se le due stringhe divergono, il controllo qui sotto
  * misura un indirizzo che il sito non usa. Un test lo impedisce. */
-const DEMO_URL = 'https://82.25.101.118.nip.io/demo'
+const DEMO_URL = demoUrlDelSito()
 
 /* Il test promesso dal commento qui sopra. Legge la stringa vera dal sorgente
  * del sito: se qualcuno cambia `DEMO_URL` in `site-config.ts` e non qui, il
@@ -38,7 +38,7 @@ function demoUrlDelSito() {
     join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'lib', 'site-config.ts'),
     'utf8',
   )
-  return cfg.match(/export const DEMO_URL\s*=\s*['"]([^'"]+)['"]/)?.[1]
+  return cfg.match(/export const DEMO_URL(?::\s*string)?\s*=\s*['"]([^'"]*)['"]/)?.[1]
 }
 
 /* I documenti in markdown: bozze legali ereditate, da riscrivere in blocco
@@ -372,13 +372,22 @@ async function main() {
    * qualunque percorso, anche a quelli che non esistono. Si guarda dove si
    * FINISCE: a demo accesa l'auto-accesso porta all'elenco dei pazienti; a
    * demo spenta la rotta non è registrata e il router rimanda al login. */
-  {
-    const delSito = demoUrlDelSito()
-    if (delSito !== DEMO_URL) {
+  if (!DEMO_URL) {
+    /* ⛔ Demo VUOTA DI PROPOSITO (2026-08-09): non c'è nessun host. Non è un
+       difetto da segnalare, ed è la differenza che tiene vivo un presidio —
+       uno che si lamenta di una scelta deliberata viene spento, e con lui la
+       segnalazione vera. Qui si controlla l'altra metà: che il sito non
+       promuova la demo mentre l'indirizzo non c'è. */
+    const home = await ctx.newPage()
+    await home.goto(BASE, { waitUntil: 'networkidle', timeout: 45000 })
+    const inviti = await home.locator('a:has-text("Entra nella demo")').count()
+    if (inviti > 0) {
       problemi.push(
-        `demo: questo script controlla ${DEMO_URL} ma il sito manda a ${delSito ?? '(non trovato)'} — il controllo misurerebbe un indirizzo che nessuno usa`,
+        `demo: DEMO_URL è vuoto ma la home mostra ancora ${inviti} invito/i «Entra nella demo» — un pulsante senza indirizzo`,
       )
     }
+    await home.close()
+  } else {
     const demo = await ctx.newPage()
     try {
       await demo.goto(DEMO_URL, { waitUntil: 'networkidle', timeout: 45000 })
@@ -395,6 +404,54 @@ async function main() {
       problemi.push(`demo: ${DEMO_URL} non risponde (${String(e).slice(0, 80)}), e la home la promuove`)
     }
     await demo.close()
+  }
+
+  /* ── Gli ALTRI due canali che il sito promette ────────────────────────
+   *
+   * Il controllo qui sopra copriva la demo e basta, e per due mesi e' bastato
+   * perche' i tre indirizzi stavano sulla stessa macchina viva. Il 2026-08-09
+   * quella macchina e' sparita, e si e' visto che il presidio ne sorvegliava
+   * **uno su tre**: la vetrina promuove anche «Accedi» (`APP_URL`, in
+   * intestazione e pie' di pagina) e un modulo di contatto che consegna a
+   * `LEAD_API_URL`. Un presidio che copre una superficie e non le sorelle da'
+   * verde su un sito che non funziona.
+   *
+   * ⚠️ Il modulo NON mente quando l'endpoint e' morto — il ripiego `mailto` e'
+   * protetto da `if (CONTACT_EMAIL)` e senza casella dichiara l'errore invece
+   * di far credere che sia partito. Ma dichiarare bene un fallimento non e'
+   * riceverlo: **senza questi due, il sito non ha nessun canale per essere
+   * contattato**, ed e' il moltiplicatore del rilievo n. 1 (zero interviste). */
+  {
+    const cfg = readFileSync(new URL('../src/lib/site-config.ts', import.meta.url), 'utf8')
+    const leggi = (nome) =>
+      cfg.match(new RegExp(`export const ${nome}\\s*=\\s*['"]([^'"]*)['"]`))?.[1]
+
+    for (const [nome, atteso] of [['APP_URL', 'accesso'], ['LEAD_API_URL', 'contatti']]) {
+      const url = leggi(nome)
+      if (!url) {
+        problemi.push(`${nome} non e' leggibile da site-config.ts: il controllo misurerebbe il nulla`)
+        continue
+      }
+      try {
+        // HEAD basta: qui si chiede «questo host esiste?», non «cosa risponde».
+        const r = await fetch(url, { method: 'HEAD', redirect: 'manual', signal: AbortSignal.timeout(15000) })
+        if (r.status >= 500) {
+          problemi.push(`${nome} (${atteso}): ${url} risponde HTTP ${r.status}, e il sito lo promuove`)
+        }
+      } catch (e) {
+        problemi.push(
+          `${nome} (${atteso}): ${url} non risponde (${String(e).slice(0, 60)}) — il sito offre un canale che non esiste`,
+        )
+      }
+    }
+
+    // Un recapito vuoto e' una scelta dichiarata (segnaposto.ts), ma diventa un
+    // difetto quando e' l'UNICO ripiego di un modulo il cui endpoint e' morto.
+    if (!leggi('CONTACT_EMAIL')) {
+      problemi.push(
+        'CONTACT_EMAIL e\' vuoto: il ripiego del modulo di contatto non esiste ⇒ se LEAD_API_URL e\' giu\', il sito non puo\' ricevere NESSUN contatto',
+      )
+    }
   }
 
   // ── Movimento ridotto ────────────────────────────────────────────────

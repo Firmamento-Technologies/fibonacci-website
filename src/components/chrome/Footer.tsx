@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
-import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, DEMO_URL } from '@/lib/site-config'
+import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL } from '@/lib/site-config'
 
 const COLONNE = [
   {
@@ -10,7 +10,6 @@ const COLONNE = [
       { href: '/consensi-informati', testo: 'Consenso informato' },
       { href: '/che-software-serve', testo: 'Che software serve' },
       { href: '/autovalutazione', testo: 'La tua documentazione regge?' },
-      { href: DEMO_URL, testo: 'Entra nella demo', esterno: true },
       { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
       { href: '/verifica', testo: 'Verifica un documento' },
       { href: '/integrazioni', testo: 'Integrazioni' },
@@ -50,14 +49,16 @@ export function Footer() {
             <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--on-ink-muted)', maxWidth: '22ch' }}>
               La cartella clinica della medicina estetica.
             </p>
-            <a
-              href={APP_URL}
-              rel="noopener"
-              className="link-avanti mt-[var(--s-21)] inline-flex"
-              style={{ color: 'var(--accent-onink)' }}
-            >
-              Accedi
-            </a>
+            {APP_URL && (
+              <a
+                href={APP_URL}
+                rel="noopener"
+                className="link-avanti mt-[var(--s-21)] inline-flex"
+                style={{ color: 'var(--accent-onink)' }}
+              >
+                Accedi
+              </a>
+            )}
           </div>
 
           {COLONNE.map((col) => (
