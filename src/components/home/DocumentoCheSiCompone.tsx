@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useRef, useState, useSyncExternalStore } from 'react'
 import { useScroll, useMotionValueEvent, useReducedMotion } from 'framer-motion'
 import { Occhiello } from '@/components/ui/elementi'
 
@@ -131,10 +131,19 @@ export function DocumentoCheSiCompone() {
    * Il costo è invisibile: questa sezione sta a migliaia di pixel dalla piega.
    * Il guadagno è che senza JavaScript la storia si legge tutta, impaginata
    * come un documento — che è esattamente ciò che la sezione racconta. */
-  const [interattivo, setInterattivo] = useState(false)
-  useEffect(() => {
-    if (!menoMovimento) setInterattivo(true)
-  }, [menoMovimento])
+  /* ⚠️ La prima versione era `useState(false)` + `useEffect(() => setState(true))`.
+   * Funziona, ma è il pattern che `react-hooks/set-state-in-effect` segnala
+   * («Calling setState synchronously within an effect can trigger cascading
+   * renders»), ed era l'unico errore di eslint del sito. `useSyncExternalStore`
+   * è il meccanismo che React offre esattamente per questo: uno snapshot per il
+   * server e uno per il client, senza render a cascata e senza disparità di
+   * idratazione. Non si sottoscrive niente perché il valore, una volta sul
+   * client, non cambia più. */
+  const interattivo = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  )
 
   if (menoMovimento || !interattivo) return <VersioneStatica />
 
