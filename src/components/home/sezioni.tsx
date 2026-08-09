@@ -59,7 +59,7 @@ export function Problema() {
                       {String(i + 1).padStart(2, '0')}
                     </span>
                     <div>
-                      <h3 className="text-[1.125rem]">{s.titolo}</h3>
+                      <h3 className="text-[1.0625rem]">{s.titolo}</h3>
                       <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                         {s.testo}
                       </p>
@@ -328,7 +328,7 @@ export function Prove() {
           {PROVE.map((p) => (
             <RevealFiglio key={p.titolo}>
               <div className="foglio flex h-full flex-col" style={{ padding: 'var(--s-34)' }}>
-                <h3 className="text-[1.2rem]">{p.titolo}</h3>
+                <h3 className="text-[1.3rem]">{p.titolo}</h3>
                 <p className="mt-[var(--s-13)] flex-1 text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                   {p.testo}
                 </p>

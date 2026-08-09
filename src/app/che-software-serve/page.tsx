@@ -130,7 +130,7 @@ export default function CheSoftwareServe() {
             <Reveal>
               {c.noi && <Occhiello>Qui stiamo noi</Occhiello>}
               <h2
-                className="text-[clamp(1.5rem,3.2vw,2.1rem)]"
+                className="text-[clamp(1.5rem,3vw,2.1rem)]"
                 style={{ maxWidth: '20ch', marginTop: c.noi ? 'var(--s-13)' : 0 }}
               >
                 {c.nome}

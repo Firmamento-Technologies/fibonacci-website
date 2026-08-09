@@ -73,7 +73,7 @@ export default function IntelligenzaArtificiale() {
               <div className="py-[var(--s-34)]" style={{ borderTop: '1px solid var(--rule)' }}>
                 <div className="flex items-baseline gap-[var(--s-13)]">
                   <span className="numero">{String(i + 1).padStart(2, '0')}</span>
-                  <h2 className="text-[1.35rem]">{d.titolo}</h2>
+                  <h2 className="text-[1.3rem]">{d.titolo}</h2>
                 </div>
                 <dl className="mt-[var(--s-21)] grid gap-[var(--s-21)] md:grid-cols-3">
                   {[

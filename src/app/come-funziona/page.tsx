@@ -55,7 +55,7 @@ const PASSI = [
     testo:
       'Le aree si segnano sulla mappa. Prodotto, unità e lotto restano legati alla seduta, e al controllo di due mesi dopo sono ancora lì.',
     schermata: '/schermate/trattamenti.png',
-    alt: "L'elenco dei trattamenti di una paziente con date, sedi trattate e note.",
+    alt: "L'elenco dei trattamenti di una paziente: prodotto e unità nel titolo di ogni seduta, la data, e la nota tecnica del medico — diluizione, numero di punti, reazioni.",
   },
   {
     ora: '20:15',
@@ -154,7 +154,7 @@ export default function ComeFunziona() {
               Entra nella demo pubblica
             </a>
           </div>
-          <p className="mt-[var(--s-21)] text-[14px]" style={{ color: 'var(--fg-faint)' }}>
+          <p className="mt-[var(--s-21)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
             La demo contiene dati finti. Non inserirci dati di pazienti reali.
           </p>
           <p className="mt-[var(--s-34)]">

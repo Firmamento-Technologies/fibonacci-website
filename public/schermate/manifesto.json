@@ -1,0 +1,111 @@
+{
+  "generato": "2026-08-09T14:33:21.682Z",
+  "commitFrontendEmr": "55ab649d180d89ee68e3416a4230d47a5256155f",
+  "larghezze": [
+    720,
+    1120,
+    1400
+  ],
+  "schermate": {
+    "agenda": {
+      "sorgente": "2800×1750",
+      "varianti": [
+        {
+          "w": 720,
+          "webp": 15330,
+          "avif": 11174
+        },
+        {
+          "w": 1120,
+          "webp": 28624,
+          "avif": 18798
+        },
+        {
+          "w": 1400,
+          "webp": 40534,
+          "avif": 23762
+        }
+      ]
+    },
+    "cartella-paziente": {
+      "sorgente": "2800×1750",
+      "varianti": [
+        {
+          "w": 720,
+          "webp": 16686,
+          "avif": 12416
+        },
+        {
+          "w": 1120,
+          "webp": 32778,
+          "avif": 22944
+        },
+        {
+          "w": 1400,
+          "webp": 46204,
+          "avif": 29015
+        }
+      ]
+    },
+    "trattamenti": {
+      "sorgente": "2800×1750",
+      "varianti": [
+        {
+          "w": 720,
+          "webp": 14916,
+          "avif": 10832
+        },
+        {
+          "w": 1120,
+          "webp": 29390,
+          "avif": 19928
+        },
+        {
+          "w": 1400,
+          "webp": 40800,
+          "avif": 25776
+        }
+      ]
+    },
+    "catalogo-consensi": {
+      "sorgente": "2800×1750",
+      "varianti": [
+        {
+          "w": 720,
+          "webp": 15160,
+          "avif": 11136
+        },
+        {
+          "w": 1120,
+          "webp": 30394,
+          "avif": 20534
+        },
+        {
+          "w": 1400,
+          "webp": 43074,
+          "avif": 26405
+        }
+      ]
+    },
+    "registro-accessi": {
+      "sorgente": "2800×1750",
+      "varianti": [
+        {
+          "w": 720,
+          "webp": 19002,
+          "avif": 13301
+        },
+        {
+          "w": 1120,
+          "webp": 35916,
+          "avif": 24355
+        },
+        {
+          "w": 1400,
+          "webp": 49316,
+          "avif": 31317
+        }
+      ]
+    }
+  }
+}

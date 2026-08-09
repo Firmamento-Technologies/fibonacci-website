@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { motion, useScroll, useSpring, useReducedMotion } from 'framer-motion'
-import { APP_URL } from '@/lib/site-config'
+import { APP_URL, DEMO_URL } from '@/lib/site-config'
 import { Logo } from '@/components/Logo'
 
 /* Cinque voci, non undici.
@@ -93,6 +93,34 @@ export function Header() {
               Richiedi una demo
             </Link>
           </div>
+
+          {/* ⚠️ L'INVITO ALL'AZIONE RESTA IN VISTA ANCHE SU TELEFONO.
+              Misurato il 2026-08-09: sotto `lg` questa intestazione conteneva
+              **solo il marchio e l'hamburger** — nessun invito — su una home
+              alta **21.693 px**. Passato il primo schermo, per convertire
+              bisognava aprire un menu. Sul desktop, dove l'intestazione è
+              `sticky`, il pulsante segue il lettore per tutta la pagina: su
+              telefono, dove la pagina è più lunga, spariva.
+              CXL (tier 2), sulle cose che funzionano più spesso che no negli
+              A/B test: *«On small-screen mobile websites, having a sticky
+              header or footer containing a call to action has consistently
+              increased conversion rates»* — e nota che sui piè di pagina c'è
+              **più cecità** che sulle intestazioni. Per questo il rimedio è
+              qui e non è una barra nuova in fondo: l'intestazione è già
+              `sticky`, e una barra flottante in più sarebbe l'errore che
+              abbiamo appena corretto nell'applicazione.
+              «Entra» e non «Richiedi una demo»: è più corto, ci sta accanto
+              all'hamburger senza comprimere il marchio, e porta alla demo
+              aperta, che è la cosa che un medico può verificare da solo.
+              ([[sintesi-analisi-ui-ux-2026-08-09]] §S5) */}
+          <a
+            href={DEMO_URL}
+            className="btn btn-primario lg:hidden"
+            style={{ marginRight: 'var(--s-8)', paddingInline: 'var(--s-13)', fontSize: 13 }}
+            rel="noopener"
+          >
+            Entra nella demo
+          </a>
 
           <button
             type="button"

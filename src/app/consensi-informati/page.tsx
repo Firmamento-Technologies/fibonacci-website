@@ -99,7 +99,7 @@ export default function ConsensiInformati() {
                 <div className="grid gap-[var(--s-21)] py-[var(--s-21)] sm:grid-cols-[2.5rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
                   <span className="numero" style={{ paddingTop: 5 }}>{String(i + 1).padStart(2, '0')}</span>
                   <div>
-                    <h3 className="text-[1.125rem]">{c.voce}</h3>
+                    <h3 className="text-[1.0625rem]">{c.voce}</h3>
                     <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                       {c.perche}
                     </p>

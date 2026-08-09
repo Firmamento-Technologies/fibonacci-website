@@ -81,7 +81,7 @@ export default function SicurezzaEDati() {
               <div className="grid gap-[var(--s-21)] py-[var(--s-21)] sm:grid-cols-[2.5rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
                 <span className="numero" style={{ paddingTop: 5 }}>{String(i + 1).padStart(2, '0')}</span>
                 <div>
-                  <h2 className="text-[1.2rem]">{q.d}</h2>
+                  <h2 className="text-[1.3rem]">{q.d}</h2>
                   <p className="mt-[var(--s-8)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
                     {q.r}
                   </p>
@@ -115,7 +115,7 @@ export default function SicurezzaEDati() {
                           </span>
                           <span style={{ color: 'var(--accent)' }}><Freccia /></span>
                         </span>
-                        <span className="mt-[2px] block text-[14px]" style={{ color: 'var(--fg-muted)' }}>
+                        <span className="mt-[2px] block text-[13px]" style={{ color: 'var(--fg-muted)' }}>
                           {d.descr}
                         </span>
                       </Link>

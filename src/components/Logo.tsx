@@ -48,7 +48,7 @@ export function FibonacciWordmark({ className = '' }: { className?: string }) {
       className={className}
       style={{
         fontFamily: 'var(--font-display)',
-        fontSize: '1.3125rem',
+        fontSize: '1.3rem',
         letterSpacing: '-0.018em',
         fontVariationSettings: '"opsz" 24',
       }}

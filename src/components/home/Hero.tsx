@@ -1,9 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { motion, useReducedMotion } from 'framer-motion'
-import { Occhiello } from '@/components/ui/elementi'
-import { assetPath } from '@/lib/asset-path'
+import { Occhiello, Schermata } from '@/components/ui/elementi'
 import { DEMO_URL } from '@/lib/site-config'
 
 /* Il primo schermo.
@@ -26,17 +24,21 @@ import { DEMO_URL } from '@/lib/site-config'
  * giochi di parole, zero contrasti a effetto. L'unica libertà è il corsivo su
  * «medicina estetica», che è il segmento, non uno slogan. */
 
+/* ⚠️ L'ENTRATA DEL PRIMO SCHERMO NON PASSA PIÙ DA framer-motion.
+ * Prima ogni pezzo di questo blocco nasceva con `initial: {opacity: 0}`, e su
+ * un export statico quello finisce **scritto in linea nell'HTML**. web.dev
+ * (tier 1) esclude dai candidati LCP *«elements with an opacity of 0, that are
+ * invisible to the user»*, e il First Contentful Paint invece li conta: da qui
+ * il divario misurato il 2026-08-09, **FCP 1,4 s contro LCP 5,8 s**, con TBT
+ * 50 ms e CLS 0 — cioè nessun costo di JavaScript, solo il titolo tenuto
+ * invisibile finché non arrivava il pacchetto delle animazioni.
+ * Ora l'entrata è una animazione CSS che muove **solo la trasformazione**
+ * (`entra-primo-schermo` in `globals.css`): il contenuto è dipinto e
+ * leggibile dal primo fotogramma, quindi è candidato LCP, e sale lo stesso.
+ * Nessun JavaScript, quindi nessuna attesa dell'idratazione.
+ * `prefers-reduced-motion` è gestito in CSS e vale anche a JavaScript spento.
+ * ([[sintesi-analisi-ui-ux-2026-08-09]] §S3) */
 export function Hero() {
-  const menoMovimento = useReducedMotion()
-
-  const entra = (ritardo: number) =>
-    menoMovimento
-      ? {}
-      : {
-          initial: { opacity: 0, y: 21 },
-          animate: { opacity: 1, y: 0 },
-          transition: { duration: 0.7, delay: ritardo, ease: [0.16, 1, 0.3, 1] as const },
-        }
 
   return (
     <section style={{ paddingTop: 'var(--s-55)', paddingBottom: 'var(--s-89)' }}>
@@ -44,26 +46,22 @@ export function Hero() {
         <div className="grid gap-[var(--s-55)] lg:grid-cols-[1fr_1.1fr] lg:gap-[var(--s-89)] lg:items-center">
           {/* ── Parola ─────────────────────────────────────────────────── */}
           <div>
-            <motion.div {...entra(0)}>
+            <div className="entra-primo-schermo">
               <Occhiello>Medicina estetica · Cartella clinica</Occhiello>
-            </motion.div>
+            </div>
 
-            <motion.h1
-              {...entra(0.08)}
-              className="mt-[var(--s-21)] text-[clamp(2.1rem,5.2vw,3.4rem)]"
-            >
+            <h1 className="entra-primo-schermo ritardo-1 mt-[var(--s-21)] text-[clamp(2.1rem,5.2vw,3.4rem)]">
               Cartella clinica, consensi e immagini per la{' '}
               <span className="accento-corsivo">medicina estetica</span>
-            </motion.h1>
+            </h1>
 
-            <motion.p
-              {...entra(0.16)}
-              className="mt-[var(--s-34)] text-[1.125rem]"
-              style={{ color: 'var(--fg-muted)', maxWidth: '40ch' }}
+            <p
+              className="entra-primo-schermo ritardo-2 mt-[var(--s-34)] text-[1.0625rem]"
+              style={{ color: 'var(--fg-muted)', maxWidth: 'var(--misura-corta)' }}
             >
               Anamnesi, sedute con prodotto e lotto, consensi firmati in studio, fotografie
               cifrate. In un posto solo, e con ogni scrittura tracciata.
-            </motion.p>
+            </p>
 
             {/* La demo pubblica passa in prima fila.
                 Nessuno in questo mercato ti fa entrare senza registrarti: i
@@ -73,23 +71,22 @@ export function Hero() {
                 senza parlare con nessuno. La demo guidata resta, ma dopo:
                 chiedere mezz'ora a uno sconosciuto è un impegno più grande che
                 aprire una scheda. */}
-            <motion.div {...entra(0.24)} className="mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
+            <div className="entra-primo-schermo ritardo-3 mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
               <a href={DEMO_URL} className="btn btn-primario" rel="noopener">
                 Entra nella demo
               </a>
               <Link href="/richiedi-una-demo" className="btn btn-secondario">
                 Oppure fattela mostrare
               </Link>
-            </motion.div>
+            </div>
 
-            <motion.p
-              {...entra(0.32)}
-              className="mt-[var(--s-21)] text-[14px]"
+            <p
+              className="entra-primo-schermo ritardo-4 mt-[var(--s-21)] text-[13px]"
               style={{ color: 'var(--fg-faint)' }}
             >
               La demo è aperta: nessuna registrazione, nessuna email, nessuna carta di credito.
               Dentro ci sono pazienti finti in uno spazio separato, e puoi toccare tutto.
-            </motion.p>
+            </p>
           </div>
 
           {/* ── Prova ───────────────────────────────────────────────────
@@ -98,31 +95,15 @@ export function Hero() {
               valuta vuole vedere com'è fatto e non l'interpretazione che un
               designer ne dà. Qui la schermata è la prima cosa a destra del
               titolo, non a quattromila pixel di distanza. */}
-          <motion.div
-            initial={menoMovimento ? undefined : { opacity: 0, y: 34, scale: 0.985 }}
-            animate={menoMovimento ? undefined : { opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.9, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
-          >
-            <figure>
-              <div className="schermata">
-                {/* next/image non serve: l'export statico non ha ottimizzatore
-                    a runtime, e la schermata è già ridimensionata a monte. */}
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={assetPath('/schermate/cartella-paziente.png')}
-                  alt="La cartella di una paziente in Fibonacci: intestazione con nome, data di nascita e codice fiscale, banner delle allergie in evidenza, ed elenco delle sedute con le aree trattate."
-                  width={2560}
-                  height={1600}
-                  loading="eager"
-                  decoding="sync"
-                  fetchPriority="high"
-                />
-              </div>
-              <figcaption className="didascalia">
-                Schermata dall&apos;applicazione, non un disegno.
-              </figcaption>
-            </figure>
-          </motion.div>
+          <div className="entra-primo-schermo-figura">
+            <Schermata
+              file="/schermate/cartella-paziente.png"
+              alt="La cartella di una paziente in Fibonacci: intestazione con nome, data di nascita e codice fiscale, banner delle allergie in evidenza, ed elenco delle sedute con le aree trattate."
+              didascalia="Schermata dall'applicazione, non un disegno."
+              sizes="(min-width: 1024px) 544px, calc(100vw - 44px)"
+              priorita
+            />
+          </div>
         </div>
 
         {/* ── Fascia di verità ───────────────────────────────────────────
@@ -130,15 +111,8 @@ export function Hero() {
             urli «fidati di me» fai nascere il sospetto; contano invece i
             fatti controllabili. Il terzo dichiara lo stadio del prodotto,
             che è più credibile di una piazza di loghi finti. */}
-        <motion.div
-          {...(menoMovimento
-            ? {}
-            : {
-                initial: { opacity: 0 },
-                animate: { opacity: 1 },
-                transition: { duration: 0.7, delay: 0.5 },
-              })}
-          className="mt-[var(--s-89)] grid gap-[var(--s-21)] md:grid-cols-3"
+        <div
+          className="entra-primo-schermo ritardo-4 mt-[var(--s-89)] grid gap-[var(--s-21)] md:grid-cols-3"
           style={{ borderTop: '1px solid var(--rule)', paddingTop: 'var(--s-34)' }}
         >
           {[
@@ -159,12 +133,12 @@ export function Hero() {
               <p className="text-[15px] font-medium" style={{ color: 'var(--fg)' }}>
                 {f.t}
               </p>
-              <p className="mt-[var(--s-8)] text-[14px]" style={{ color: 'var(--fg-muted)' }}>
+              <p className="mt-[var(--s-8)] text-[13px]" style={{ color: 'var(--fg-muted)' }}>
                 {f.d}
               </p>
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   )

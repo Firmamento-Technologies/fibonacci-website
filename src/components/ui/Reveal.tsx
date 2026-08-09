@@ -1,7 +1,6 @@
 'use client'
 
-import { motion, useReducedMotion, type Variants } from 'framer-motion'
-import type { ReactNode, ElementType } from 'react'
+import { useEffect, useRef, type ReactNode, type ElementType } from 'react'
 
 type Direzione = 'su' | 'sinistra' | 'destra' | 'nessuna'
 
@@ -15,13 +14,6 @@ interface RevealProps {
   as?: ElementType
 }
 
-const SPOSTAMENTO: Record<Direzione, { x: number; y: number }> = {
-  su: { x: 0, y: 21 },
-  sinistra: { x: -21, y: 0 },
-  destra: { x: 21, y: 0 },
-  nessuna: { x: 0, y: 0 },
-}
-
 /**
  * Comparsa allo scorrimento.
  *
@@ -29,41 +21,41 @@ const SPOSTAMENTO: Record<Direzione, { x: number; y: number }> = {
  * arrivando adesso, così l'occhio sa dove guardare. Non decora. Per questo
  * l'ampiezza è piccola (21px, un gradino della scala) e la durata breve.
  *
- * Con `prefers-reduced-motion` il contenuto compare e basta: nessuna
- * traslazione, nessuna dissolvenza scaglionata. Per chi ha disturbi
- * vestibolari il movimento legato allo scorrimento provoca nausea e vertigini,
- * non fastidio, quindi qui non è una raffinatezza opzionale.
+ * ⚠️ PERCHÉ NON USA PIÙ framer-motion (riscritto il 2026-08-09).
+ * La versione precedente dichiarava lo stato `nascosto` come `initial`, e
+ * framer-motion lo scriveva **in linea nell'HTML generato**:
+ * `style="opacity:0;transform:translateY(21px)"`. Su un export statico —
+ * costruito apposta per servire HTML che funziona da solo — il risultato era
+ * che **il 78 % del testo della home, il 91 % di `/prezzi` e l'86 % di
+ * `/sicurezza-e-dati` stava nel documento ed era invisibile** finché React non
+ * idratava. E `/domande`, nello stesso codice, era a **0 %**: la prova che non
+ * era un vincolo tecnico ma una disomogeneità.
+ * ([[sintesi-analisi-ui-ux-2026-08-09]] §S3)
  *
- * `once: true` è deliberato: un elemento che si rianima ogni volta che
- * riattraversa la finestra sembra rotto.
+ * Ora lo stato di partenza è **visibile** e il nascondimento vive in CSS sotto
+ * `html.anim` — classe che uno script in testa al documento mette **solo se il
+ * JavaScript è vivo**. Senza JavaScript la pagina si legge tutta; con il
+ * JavaScript l'effetto è identico a prima.
+ *
+ * Tre conseguenze, tutte volute:
+ * · `prefers-reduced-motion` è gestito **in CSS** (`globals.css`), quindi vale
+ *   anche a JavaScript spento. Prima dipendeva da un hook di React, cioè dalla
+ *   stessa cosa che poteva non arrivare.
+ * · Niente più `motion` su queste pagine ⇒ meno codice da scaricare.
+ * · L'elemento resta un candidato LCP dal primo fotogramma: web.dev esclude
+ *   dai candidati gli elementi a opacità zero, ed era il motivo dei 5,8 s.
+ *
+ * `once`: un elemento che si rianima ogni volta che riattraversa la finestra
+ * sembra rotto, quindi l'osservatore smette di guardarlo appena è entrato.
  */
 export function Reveal({ children, ritardo = 0, da = 'su', className, as = 'div' }: RevealProps) {
-  const menoMovimento = useReducedMotion()
-  const Componente = motion[as as keyof typeof motion] as typeof motion.div
-
-  if (menoMovimento) {
-    const Statico = as as ElementType
-    return <Statico className={className}>{children}</Statico>
-  }
-
-  const { x, y } = SPOSTAMENTO[da]
-  const varianti: Variants = {
-    nascosto: { opacity: 0, x, y },
-    visibile: {
-      opacity: 1,
-      x: 0,
-      y: 0,
-      transition: { duration: 0.62, delay: ritardo, ease: [0.16, 1, 0.3, 1] },
-    },
-  }
+  const rif = useRivelaAllEntrata(ritardo)
+  const Componente = as as ElementType
 
   return (
     <Componente
-      className={className}
-      variants={varianti}
-      initial="nascosto"
-      whileInView="visibile"
-      viewport={{ once: true, margin: '0px 0px -12% 0px' }}
+      ref={rif}
+      className={[className, 'rivela', da !== 'nessuna' && `rivela-${da}`].filter(Boolean).join(' ')}
     >
       {children}
     </Componente>
@@ -83,35 +75,68 @@ export function RevealGruppo({
   className?: string
   passo?: number
 }) {
-  const menoMovimento = useReducedMotion()
-  if (menoMovimento) return <div className={className}>{children}</div>
+  const rif = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const el = rif.current
+    if (!el || typeof IntersectionObserver === 'undefined') return
+    const osservatore = new IntersectionObserver(
+      ([voce]) => {
+        if (!voce.isIntersecting) return
+        // Lo scaglionamento è un ritardo per ciascun figlio, applicato al
+        // momento dell'entrata: non serve una macchina a stati.
+        const figli = el.querySelectorAll<HTMLElement>(':scope > .rivela')
+        figli.forEach((f, i) => {
+          f.style.transitionDelay = `${i * passo}s`
+          f.classList.add('dentro')
+        })
+        el.classList.add('dentro')
+        osservatore.disconnect()
+      },
+      { rootMargin: '0px 0px -10% 0px' },
+    )
+    osservatore.observe(el)
+    return () => osservatore.disconnect()
+  }, [passo])
 
   return (
-    <motion.div
-      className={className}
-      initial="nascosto"
-      whileInView="visibile"
-      viewport={{ once: true, margin: '0px 0px -10% 0px' }}
-      variants={{ visibile: { transition: { staggerChildren: passo } } }}
-    >
+    <div ref={rif} className={className}>
       {children}
-    </motion.div>
+    </div>
   )
 }
 
 export function RevealFiglio({ children, className }: { children: ReactNode; className?: string }) {
-  const menoMovimento = useReducedMotion()
-  if (menoMovimento) return <div className={className}>{children}</div>
+  // Nessun osservatore proprio: è il gruppo che decide quando entrano, così lo
+  // scaglionamento resta un fatto solo.
+  return <div className={[className, 'rivela', 'rivela-su'].filter(Boolean).join(' ')}>{children}</div>
+}
 
-  return (
-    <motion.div
-      className={className}
-      variants={{
-        nascosto: { opacity: 0, y: 21 },
-        visibile: { opacity: 1, y: 0, transition: { duration: 0.55, ease: [0.16, 1, 0.3, 1] } },
-      }}
-    >
-      {children}
-    </motion.div>
-  )
+/** Aggiunge `.dentro` quando l'elemento entra nella finestra, una volta sola. */
+function useRivelaAllEntrata(ritardo: number) {
+  const rif = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    const el = rif.current
+    if (!el) return
+    // Senza IntersectionObserver (o con JavaScript a metà) il contenuto deve
+    // restare visibile, non nascosto per sempre: si entra e basta.
+    if (typeof IntersectionObserver === 'undefined') {
+      el.classList.add('dentro')
+      return
+    }
+    if (ritardo) el.style.transitionDelay = `${ritardo}s`
+    const osservatore = new IntersectionObserver(
+      ([voce]) => {
+        if (!voce.isIntersecting) return
+        el.classList.add('dentro')
+        osservatore.disconnect()
+      },
+      { rootMargin: '0px 0px -12% 0px' },
+    )
+    osservatore.observe(el)
+    return () => osservatore.disconnect()
+  }, [ritardo])
+
+  return rif
 }

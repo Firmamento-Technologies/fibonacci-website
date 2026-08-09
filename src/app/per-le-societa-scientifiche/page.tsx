@@ -128,7 +128,7 @@ export default function PerLeSocietaScientifiche() {
             {OFFRIAMO.map((o) => (
               <Reveal key={o.titolo}>
                 <div className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule)' }}>
-                  <h3 className="text-[1.125rem]">{o.titolo}</h3>
+                  <h3 className="text-[1.0625rem]">{o.titolo}</h3>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                     {o.testo}
                   </p>
@@ -178,7 +178,7 @@ export default function PerLeSocietaScientifiche() {
             {REGOLE.map((r) => (
               <Reveal key={r.titolo}>
                 <div className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule-ink)' }}>
-                  <h3 className="text-[1.125rem]" style={{ color: 'var(--on-ink)' }}>{r.titolo}</h3>
+                  <h3 className="text-[1.0625rem]" style={{ color: 'var(--on-ink)' }}>{r.titolo}</h3>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--on-ink-muted)' }}>
                     {r.testo}
                   </p>

@@ -53,7 +53,7 @@ export default function Verifica() {
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
             <div className="foglio" style={{ padding: 'var(--s-34)' }}>
               <p className="numero" style={{ color: 'var(--accent)' }}>ATTIVO OGGI</p>
-              <h3 className="mt-[var(--s-13)] text-[1.2rem]">La catena di impronte</h3>
+              <h3 className="mt-[var(--s-13)] text-[1.3rem]">La catena di impronte</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                 Ogni scrittura nel registro porta l&apos;impronta di quella prima. Il database
                 rifiuta modifiche e cancellazioni sulle righe già chiuse. Se qualcuno interviene
@@ -67,7 +67,7 @@ export default function Verifica() {
 
             <div className="foglio" style={{ padding: 'var(--s-34)' }}>
               <p className="numero">NON ANCORA</p>
-              <h3 className="mt-[var(--s-13)] text-[1.2rem]">La firma qualificata</h3>
+              <h3 className="mt-[var(--s-13)] text-[1.3rem]">La firma qualificata</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                 La firma della paziente oggi è una firma elettronica avanzata. La firma
                 qualificata, quella che il codice civile equipara alla firma autografa, richiede un

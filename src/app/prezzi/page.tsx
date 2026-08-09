@@ -110,7 +110,7 @@ export default function Prezzi() {
             {NON_COMPRESO.map((n) => (
               <Reveal key={n.voce}>
                 <div className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule)' }}>
-                  <h3 className="text-[1.125rem]">{n.voce}</h3>
+                  <h3 className="text-[1.0625rem]">{n.voce}</h3>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                     {n.perche}
                   </p>

@@ -36,7 +36,7 @@ export default function Documentazione() {
                     <li key={d.slug} style={{ borderTop: '1px solid var(--rule)' }}>
                       <Link href={`/documentazione/${d.slug}`} className="block py-[var(--s-21)]">
                         <span className="flex items-baseline justify-between gap-[var(--s-13)]">
-                          <span className="text-[1.125rem]" style={{ fontFamily: 'var(--font-display)' }}>
+                          <span className="text-[1.0625rem]" style={{ fontFamily: 'var(--font-display)' }}>
                             {d.title}
                           </span>
                           <span style={{ color: 'var(--accent)' }}><Freccia /></span>

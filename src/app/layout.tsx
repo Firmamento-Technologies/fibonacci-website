@@ -93,6 +93,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="it" className={`${newsreader.variable} ${geist.variable} ${geistMono.variable}`}>
       <head>
+        {/* ⛔ QUI NON VA UNO <script>, e vale la pena dire perché.
+            Il primo tentativo (2026-08-09) metteva in testa uno script in linea
+            che aggiungeva `html.anim`, l'interruttore che permette alle
+            rivelazioni di nascondere il contenuto **solo se il JavaScript è
+            vivo**. Ha prodotto subito un errore di idratazione: un'estensione
+            del browser inietta il proprio `<script>` in `<head>`, sposta il
+            nostro, e React trova un albero diverso da quello che ha generato.
+            La lezione non è «colpa dell'estensione»: è che `<head>` è terreno
+            conteso e quell'interruttore **non ha bisogno di JavaScript**.
+            La stessa condizione si esprime in CSS con `@media (scripting:
+            enabled)` — vedi `globals.css`. Nessuno script, nessuna idratazione
+            da far combaciare, nessuna estensione che possa rompere niente. */}
         <OrganizationSchema />
         <SoftwareApplicationSchema />
       </head>

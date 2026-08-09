@@ -267,7 +267,7 @@ export function VerificaDocumento() {
             </div>
           )}
 
-          <p className="text-[10px] pt-2 border-t" style={{ color: 'var(--muted)', borderColor: 'var(--border)' }}>
+          <p className="text-[11px] pt-2 border-t" style={{ color: 'var(--muted)', borderColor: 'var(--border)' }}>
             Analisi client-side best-effort sui primi {formatSize(analysis.bytesAnalyzed)}. Per
             verifica legale formale di validità della firma elettronica avanzata eIDAS, usare Aruba
             Sign / Adobe Reader Pro / InfoCert DigiSign che validano contro la EU Trust List ufficiale.

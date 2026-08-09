@@ -13,10 +13,13 @@
 
 import { chromium } from 'playwright'
 import AxeBuilder from '@axe-core/playwright'
-import { readFileSync } from 'node:fs'
+import { readFileSync, existsSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
+const QUI = dirname(fileURLToPath(import.meta.url))
 const BASE = process.argv[2] ?? 'http://localhost:3210'
 
 /* La demo pubblica sta su un'altra macchina e il sito la promuove: va
@@ -436,6 +439,62 @@ async function main() {
   if (erroriConsole.length) {
     console.log(rosso(`\nErrori JavaScript (${erroriConsole.length}):`))
     for (const e of [...new Set(erroriConsole)]) console.log('  ' + e)
+  }
+
+  // ── Le schermate dicono la verità? ───────────────────────────────────
+  //
+  // ⚠️ Perché questo controllo esiste. Il 2026-08-09 l'immagine dell'hero —
+  // pubblicata sotto la didascalia «Schermata dall'applicazione, non un
+  // disegno» — mostrava **due banner di allergia sovrapposti**, cioè un
+  // difetto che il prodotto aveva già corretto; e `trattamenti.png` era **lo
+  // stesso file** di `cartella-paziente.png`, usato come due passi diversi di
+  // /come-funziona. Quelle immagini erano già state rifatte a mano il 6 agosto
+  // *proprio perché scadute*, e sono riscadute in **48 ore**.
+  // Un gesto manuale che va rifatto a ogni rilascio non è un rimedio: è un
+  // debito con la scadenza mobile. Qui si controllano le due cose che una
+  // macchina può controllare — che siano **distinte** e che vengano dal
+  // **commit dell'EMR che gira adesso**. ([[sintesi-analisi-ui-ux-2026-08-09]])
+  try {
+    const manifesto = JSON.parse(readFileSync(join(QUI, '../public/schermate/manifesto.json'), 'utf8'))
+
+    // (a) due passi diversi non devono mostrare la stessa immagine
+    const impronte = new Map()
+    for (const nome of Object.keys(manifesto.schermate)) {
+      const f = join(QUI, `../public/schermate/${nome}.png`)
+      const h = createHash('sha256').update(readFileSync(f)).digest('hex')
+      if (impronte.has(h)) {
+        problemi.push(
+          `schermate: «${nome}» e «${impronte.get(h)}» sono lo STESSO file — ` +
+            'due passi non possono illustrarsi con la stessa immagine',
+        )
+      }
+      impronte.set(h, nome)
+    }
+
+    // (b) vengono dal codice che gira adesso?
+    const repoEmr = join(QUI, '../../EMR')
+    // ⚠️ Si confronta il commit che ha toccato per ultimo **il frontend**, non
+    // HEAD: un rilascio sul `pdf-signer` non cambia una schermata, e un
+    // presidio che si lamenta di cose che non cambiano l'immagine viene spento.
+    if (manifesto.commitFrontendEmr && existsSync(repoEmr)) {
+      const attuale = execFileSync(
+        'git', ['-C', repoEmr, 'log', '-1', '--format=%H', '--', 'apps/web/src'],
+        { encoding: 'utf8' },
+      ).trim()
+      if (attuale !== manifesto.commitFrontendEmr) {
+        problemi.push(
+          `schermate: prese dal frontend EMR ${manifesto.commitFrontendEmr.slice(0, 8)}, ` +
+            `ma l'ultimo commit su apps/web/src è ${attuale.slice(0, 8)} — ` +
+            'rigenerale con `node scripts/schermate.mjs`',
+        )
+      }
+    } else if (!existsSync(repoEmr)) {
+      console.log(
+        giallo('\nSchermate: non verificate contro l’EMR (il sottomodulo non è in questo clone).'),
+      )
+    }
+  } catch (e) {
+    problemi.push(`schermate: manifesto illeggibile (${e.message}) — esegui \`node scripts/schermate.mjs\``)
   }
 
   if (problemi.length) {

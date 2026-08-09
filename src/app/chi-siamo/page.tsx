@@ -98,7 +98,7 @@ export default function ChiSiamo() {
             {PRINCIPI.map((p) => (
               <Reveal key={p.titolo}>
                 <div className="foglio h-full" style={{ padding: 'var(--s-34)' }}>
-                  <h3 className="text-[1.2rem]">{p.titolo}</h3>
+                  <h3 className="text-[1.3rem]">{p.titolo}</h3>
                   <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                     {p.testo}
                   </p>

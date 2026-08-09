@@ -142,7 +142,7 @@ export function DocumentoCheSiCompone() {
                       pointerEvents: i === tappaAttiva ? undefined : 'none',
                     }}
                   >
-                    <h2 className="text-[clamp(1.7rem,3.6vw,2.5rem)]" style={{ maxWidth: '18ch' }}>
+                    <h2 className="text-[clamp(1.6rem,3.4vw,2.3rem)]" style={{ maxWidth: '18ch' }}>
                       {tappa.titolo}
                     </h2>
                     <p
@@ -272,7 +272,7 @@ function VersioneStatica() {
               <p className="numero">
                 {String(i + 1).padStart(2, '0')} · {tappa.etichetta}
               </p>
-              <h3 className="mt-[var(--s-13)] text-[1.2rem]">{tappa.titolo}</h3>
+              <h3 className="mt-[var(--s-13)] text-[1.3rem]">{tappa.titolo}</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                 {tappa.testo}
               </p>
@@ -280,7 +280,7 @@ function VersioneStatica() {
                 {tappa.righe.map((r) => (
                   <div key={r.campo} className="py-[var(--s-8)]">
                     <dt className="numero">{r.campo}</dt>
-                    <dd className="text-[14px]" style={{ color: 'var(--fg)' }}>
+                    <dd className="text-[13px]" style={{ color: 'var(--fg)' }}>
                       {r.valore}
                     </dd>
                   </div>

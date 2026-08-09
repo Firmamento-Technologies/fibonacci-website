@@ -56,7 +56,11 @@ export function SchedePiani() {
               <span
                 style={{
                   fontFamily: 'var(--font-display)',
-                  fontSize: '3rem',
+                  /* 2,9rem: lo stesso gradino dei titoli di sezione. Era 3rem, cioè
+                     48px contro 46,4 — una differenza del 3,4 %, che nessun
+                     lettore distingue e che quindi non comunica gerarchia:
+                     comunica rumore. ([[sintesi-analisi-ui-ux-2026-08-09]] §S6) */
+                  fontSize: '2.9rem',
                   letterSpacing: '-0.02em',
                   fontVariationSettings: '"opsz" 40',
                 }}

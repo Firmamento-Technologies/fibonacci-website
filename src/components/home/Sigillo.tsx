@@ -32,7 +32,7 @@ export function Sigillo() {
         <div className="aurea">
           <div>
             <Occhiello chiaro>Il sigillo</Occhiello>
-            <h2 className="mt-[var(--s-21)] text-[clamp(1.85rem,4.4vw,3rem)]" style={{ maxWidth: '16ch' }}>
+            <h2 className="mt-[var(--s-21)] text-[clamp(1.85rem,4.2vw,2.9rem)]" style={{ maxWidth: '16ch' }}>
               Una cartella si contesta dicendo che è stata{' '}
               <span className="accento-corsivo">riscritta</span>
             </h2>
@@ -65,7 +65,7 @@ export function Sigillo() {
               </Link>
             </div>
 
-            <p className="mt-[var(--s-21)] text-[14px]" style={{ color: 'var(--on-ink-muted)' }}>
+            <p className="mt-[var(--s-21)] text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
               La catena dimostra che un documento non è stato ritoccato dopo essere stato scritto.
               Non è una firma elettronica qualificata: quella arriverà, e finché non c&apos;è non la
               scriviamo da nessuna parte.
@@ -156,7 +156,7 @@ export function Sigillo() {
                 visibile: { opacity: 1, transition: { duration: 0.6 } },
               }}
             >
-              <p className="text-[14px]" style={{ color: 'var(--on-ink-muted)' }}>
+              <p className="text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
                 Modificando l&apos;anello delle 09:38 si spezzano i tre successivi. Il controllo lo
                 rileva, e dice quale.
               </p>

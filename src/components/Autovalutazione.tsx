@@ -115,7 +115,7 @@ export function Autovalutazione() {
             <div className="mt-[var(--s-34)]">
               {esito.map((d) => (
                 <div key={d.id} className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule)' }}>
-                  <h3 className="text-[1.125rem]">{d.punto}</h3>
+                  <h3 className="text-[1.0625rem]">{d.punto}</h3>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                     {d.perche}
                   </p>

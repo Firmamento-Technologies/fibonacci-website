@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { assetPath } from '@/lib/asset-path'
+import MANIFESTO from '../../../public/schermate/manifesto.json'
 
 /* Elementi tipografici e figurativi ricorrenti. Server component: nessuno di
  * questi ha bisogno di stato, e tenerli fuori dal bundle client conta. */
@@ -81,25 +82,65 @@ export function Schermata({
   didascalia,
   className = '',
   priorita = false,
+  sizes = '(min-width: 1024px) 664px, calc(100vw - 44px)',
 }: {
+  /** Percorso storico (`/schermate/nome.png`) oppure il solo nome. */
   file: string
   alt: string
   didascalia?: string
   className?: string
+  /** Vero solo per la schermata del primo schermo: è quella che decide l'LCP. */
   priorita?: boolean
+  /** Quanto sarà larga a schermo, per far scegliere al browser la variante. */
+  sizes?: string
 }) {
+  const nome = file.replace(/^.*\//, '').replace(/\.png$/, '')
+  const varianti = MANIFESTO.schermate[nome as keyof typeof MANIFESTO.schermate]
+  const larghezze = MANIFESTO.larghezze
+  const srcset = (est: string) =>
+    larghezze.map((w) => `${assetPath(`/schermate/${nome}-${w}.${est}`)} ${w}w`).join(', ')
+
   return (
     <figure className={className}>
       <div className="schermata">
-        {/* next/image non serve: l'export statico non ha ottimizzatore a runtime,
-            e le immagini sono già ridimensionate in fase di preparazione. */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={assetPath(file)}
-          alt={alt}
-          loading={priorita ? 'eager' : 'lazy'}
-          decoding={priorita ? 'sync' : 'async'}
-        />
+        {/* ⚠️ `next/image` qui non serve e non servirebbe: l'export statico non
+            ha un ottimizzatore a runtime (`images.unoptimized: true` in
+            `next.config.ts`, obbligato da GitHub Pages). Le varianti si
+            generano in anticipo con `scripts/schermate.mjs` e si servono qui.
+            Perché: il 2026-08-09 queste schermate erano PNG da **2880 px
+            serviti per 544** sul desktop (5,3×) e **per 346 su telefono**
+            (8,3×) — 351 KB in `fetchpriority=high` per dipingere una miniatura
+            illeggibile, ed erano l'elemento LCP della home. La variante AVIF a
+            1120 px pesa **23 KB**: quindici volte meno.
+            ([[sintesi-analisi-ui-ux-2026-08-09]] §S4)
+            L'ordine dei `<source>` conta: il browser prende il primo che sa
+            leggere. Se una schermata non è ancora nel manifesto si ricade sul
+            PNG storico, così una pagina nuova non si rompe. */}
+        {varianti ? (
+          <picture>
+            <source type="image/avif" srcSet={srcset('avif')} sizes={sizes} />
+            <source type="image/webp" srcSet={srcset('webp')} sizes={sizes} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={assetPath(`/schermate/${nome}.png`)}
+              sizes={sizes}
+              alt={alt}
+              width={larghezze[larghezze.length - 1]}
+              height={Math.round(larghezze[larghezze.length - 1] * (875 / 1400))}
+              loading={priorita ? 'eager' : 'lazy'}
+              decoding={priorita ? 'sync' : 'async'}
+              fetchPriority={priorita ? 'high' : 'auto'}
+            />
+          </picture>
+        ) : (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img
+            src={assetPath(file)}
+            alt={alt}
+            loading={priorita ? 'eager' : 'lazy'}
+            decoding={priorita ? 'sync' : 'async'}
+          />
+        )}
       </div>
       {didascalia && <figcaption className="didascalia">{didascalia}</figcaption>}
     </figure>

@@ -102,7 +102,7 @@ export function ModuloDemo({
     return (
       <div role="status">
         <p className="occhiello">Ricevuto</p>
-        <h3 className="mt-[var(--s-13)] text-[1.35rem]">
+        <h3 className="mt-[var(--s-13)] text-[1.3rem]">
           {viaPosta ? 'Si apre il tuo programma di posta' : 'Ti scriviamo entro un giorno lavorativo'}
         </h3>
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
@@ -121,7 +121,7 @@ export function ModuloDemo({
       {!compatto && (
         <>
           <p className="occhiello">{perSocieta ? 'Scrivici' : 'Richiedi una demo guidata'}</p>
-          <h3 className="mt-[var(--s-13)] text-[1.35rem]">
+          <h3 className="mt-[var(--s-13)] text-[1.3rem]">
             {perSocieta ? 'Quattro campi, e ti risponde una persona' : 'Quattro campi, poi ti scriviamo noi'}
           </h3>
         </>
@@ -191,7 +191,7 @@ export function ModuloDemo({
       </button>
 
       {stato === 'errore' && (
-        <p role="alert" className="mt-[var(--s-13)] text-[14px]" style={{ color: '#9c2626' }}>
+        <p role="alert" className="mt-[var(--s-13)] text-[13px]" style={{ color: '#9c2626' }}>
           La richiesta non è partita.{' '}
           <button
             type="button"
