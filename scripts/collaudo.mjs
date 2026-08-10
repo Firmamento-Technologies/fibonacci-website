@@ -16,6 +16,8 @@ import AxeBuilder from '@axe-core/playwright'
 import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
+
+import { PERCORSI_CHE_CAMBIANO_LA_RESA } from './ancora-emr.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -604,15 +606,10 @@ async function main() {
     // presidio che si lamenta di cose che non cambiano l'immagine viene spento.
     if (manifesto.commitFrontendEmr && existsSync(repoEmr)) {
       const attuale = execFileSync(
-        /* ⛔ I file di TEST sono esclusi: non possono cambiare una schermata, e
-           includerli fa diventare rosso il controllo a ogni commit di sola
-           suite — e' successo il 2026-08-10 con `piano-studio.test.ts`. E' la
-           seconda volta che questa ancora e' troppo larga: prima era `HEAD`
-           dell'EMR e si lamentava per commit sul `pdf-signer`. *Un presidio che
-           segnala cio' che non riguarda cio' che sorveglia viene spento, e con
-           lui la segnalazione vera.* */
-        'git', ['-C', repoEmr, 'log', '-1', '--format=%H', '--', 'apps/web/src',
-                ':(exclude)apps/web/src/**/*.test.ts', ':(exclude)apps/web/src/**/*.test.tsx'],
+        /* L'elenco dei percorsi viene da `ancora-emr.mjs`, la stessa fonte che
+           il generatore usa per scriverlo nel manifesto. Due copie di questa
+           regola si sono gia' scostate due volte. */
+        'git', ['-C', repoEmr, 'log', '-1', '--format=%H', '--', ...PERCORSI_CHE_CAMBIANO_LA_RESA],
         { encoding: 'utf8' },
       ).trim()
       if (attuale !== manifesto.commitFrontendEmr) {

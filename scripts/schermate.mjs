@@ -29,7 +29,7 @@
  */
 import { chromium } from 'playwright'
 import sharp from 'sharp'
-import { execFileSync } from 'node:child_process'
+import { commitFrontendEmr } from './ancora-emr.mjs'
 import { mkdirSync, writeFileSync, rmSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -101,27 +101,10 @@ async function entra(p) {
   await p.waitForTimeout(500)
 }
 
-/**
- * Il commit che ha toccato per ultimo **il frontend** dell'EMR — non HEAD.
- *
- * ⚠️ La differenza non è pedanteria. Il primo tentativo registrava `HEAD`, e il
- * collaudo è diventato rosso appena un'altra sessione ha committato quattro
- * correzioni al `pdf-signer`: schermate identiche, presidio rosso. Un presidio
- * che si lamenta di cose che non cambiano l'immagine viene spento, e con lui se
- * ne va anche la segnalazione vera. Si àncora a `apps/web/src`, che è l'unica
- * cosa che può cambiare come appare l'applicazione.
- */
-function commitFrontendEmr() {
-  for (const dir of [join(RADICE, '../EMR'), process.env.EMR_REPO]) {
-    if (!dir || !existsSync(dir)) continue
-    try {
-      return execFileSync('git', ['-C', dir, 'log', '-1', '--format=%H', '--', 'apps/web/src'], {
-        encoding: 'utf8',
-      }).trim()
-    } catch { /* non è un repo: si tira avanti senza */ }
-  }
-  return null
-}
+/* L'ancora vive in `ancora-emr.mjs`, UNA sola volta: generatore e collaudo
+   devono per forza essere d'accordo, e finche' erano due copie si sono scostate
+   due volte (l'ultima il 2026-08-10, lasciando il presidio rosso su immagini
+   appena rigenerate). */
 
 const browser = await chromium.launch()
 // deviceScaleFactor 2: si cattura in alta risoluzione una volta sola, poi si
@@ -133,7 +116,7 @@ console.log(`→ entro nella demo su ${EMR}`)
 await entra(page)
 
 mkdirSync(USCITA, { recursive: true })
-const manifesto = { generato: new Date().toISOString(), commitFrontendEmr: commitFrontendEmr(), larghezze: LARGHEZZE, schermate: {} }
+const manifesto = { generato: new Date().toISOString(), commitFrontendEmr: commitFrontendEmr([join(RADICE, '../EMR'), process.env.EMR_REPO]), larghezze: LARGHEZZE, schermate: {} }
 
 for (const s of SCHERMATE) {
   await s.vai(page)
