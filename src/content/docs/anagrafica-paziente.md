@@ -1,5 +1,11 @@
 # Creazione e gestione anagrafica paziente
 
+
+> ⚠️ **Verificato contro l'applicazione il 2026-08-10.** Le voci elencate qui sono quelle
+> che esistono davvero. Se ne trovi una descritta e non la vedi a schermo, è un difetto
+> della guida: segnalalo.
+
+
 Questa guida descrive come registrare un nuovo paziente in Fibonacci, come ricercarlo, modificarlo, archiviarlo e come esportare i suoi dati per soddisfare il diritto di portabilita previsto dall'articolo 20 del GDPR. Si rivolge a medici e personale di segreteria.
 
 L'anagrafica paziente e la base di ogni altra funzionalita clinica: visite, body map, consensi, agenda e audit log si agganciano alla scheda anagrafica tramite identificativo univoco. La corretta compilazione iniziale evita duplicati, riduce gli errori clinici e garantisce la conformita alle norme sanitarie italiane.
@@ -33,7 +39,7 @@ I campi obbligatori sono:
 - **Sesso**, valori `M`, `F`, `Altro` o `Non specificato`.
 - **Contatto principale**, almeno uno tra email e numero di telefono.
 
-Il codice fiscale italiano viene validato automaticamente. Il sistema calcola il codice di controllo, verifica la coerenza con data di nascita, sesso e luogo di nascita, segnala incongruenze prima del salvataggio. Per i pazienti senza codice fiscale italiano e disponibile il campo `Tipo documento` con valori `Passaporto`, `Carta d'identita estera`, `Permesso di soggiorno`, `Tessera sanitaria europea`.
+Il codice fiscale italiano viene validato automaticamente. Il sistema calcola il codice di controllo, verifica la coerenza con data di nascita, sesso e luogo di nascita, segnala incongruenze prima del salvataggio. Per i pazienti senza codice fiscale italiano e disponibile il campo `Tipo documento`: i valori sono quelli che trovi nel menu a tendina.
 
 Il numero di telefono italiano accetta sia il formato locale `333 1234567` sia il formato internazionale `+39 333 1234567`. Il sistema normalizza sempre al formato internazionale per i reminder SMS automatici.
 
@@ -87,7 +93,7 @@ I filtri si combinano e producono un elenco ordinabile, esportabile in CSV.
 
 Quando un paziente non e piu in cura, il pulsante `Archivia` nella scheda paziente lo marca come archiviato. L'operazione **non cancella i dati**: la cartella clinica resta accessibile in sola lettura per il periodo di conservazione previsto dalla normativa sanitaria.
 
-Il paziente archiviato non compare nella ricerca standard ne nelle proposte di nuovo appuntamento. Resta visibile attivando il filtro `Includi archiviati`.
+Il paziente archiviato non compare nella ricerca standard ne nelle proposte di nuovo appuntamento. Resta comunque nella cartella e si ritrova dalla ricerca.
 
 L'archiviazione e la modalita conforme all'articolo 17 del GDPR (diritto all'oblio) nel contesto sanitario, dove il diritto e bilanciato con gli obblighi di conservazione previsti dal Codice di deontologia medica e dalla normativa fiscale.
 
@@ -95,7 +101,7 @@ L'archiviazione e la modalita conforme all'articolo 17 del GDPR (diritto all'obl
 
 La cancellazione fisica dei dati e ammessa solo nei casi previsti dalla normativa, ad esempio per pazienti registrati per errore o con consenso revocato prima dell'inizio della prestazione.
 
-Il pulsante `Richiedi cancellazione definitiva` apre una richiesta che richiede approvazione di un secondo operatore con ruolo `admin studio`. La cancellazione effettiva avviene dopo trenta giorni di periodo di ripensamento, con avviso preventivo via email all'operatore richiedente. Tutte le fasi della procedura sono registrate in audit log.
+La cancellazione definitiva non si avvia dall'interfaccia: si chiede all'assistenza, ed è deliberato — è un'operazione irreversibile su dati clinici. Approvazione di un secondo operatore con ruolo `admin studio`. La cancellazione effettiva avviene dopo trenta giorni di periodo di ripensamento, con avviso preventivo via email all'operatore richiedente. Tutte le fasi della procedura sono registrate in audit log.
 
 ## Consegnare al paziente i suoi dati
 
@@ -116,8 +122,8 @@ L'archivio e firmato digitalmente per garantirne l'integrita ed e disponibile pe
 ## Suggerimenti
 
 - Scorciatoia da tastiera **N** ovunque per nuovo paziente, **F** per aprire la ricerca rapida, **Esc** per chiudere le modali.
-- Importazione bulk da CSV disponibile in `Impostazioni > Importazione dati`: il template prevede una riga per paziente con intestazioni standard. L'importazione e in due fasi: anteprima con validazione, poi conferma.
-- Per pazienti minori il campo `Tutore legale` permette di registrare il riferimento contrattuale: i consensi e le ricevute fanno riferimento al tutore.
+- Importazione bulk da CSV disponibile in `le impostazioni dello studio`: il template prevede una riga per paziente con intestazioni standard. L'importazione e in due fasi: anteprima con validazione, poi conferma.
+- Per i pazienti minori il riferimento del genitore o tutore si registra fra i contatti: i consensi e le ricevute fanno riferimento al tutore.
 - Per pazienti stranieri privi di codice fiscale italiano si raccomanda di richiedere copia del documento e di registrarne il numero nel campo `Tipo documento > Numero`.
 
 ## Risoluzione problemi

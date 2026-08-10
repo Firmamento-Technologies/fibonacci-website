@@ -1,5 +1,11 @@
 # Agenda e gestione appuntamenti
 
+
+> ⚠️ **Verificato contro l'applicazione il 2026-08-10.** Le voci elencate qui sono quelle
+> che esistono davvero. Se ne trovi una descritta e non la vedi a schermo, è un difetto
+> della guida: segnalalo.
+
+
 Questa guida descrive come utilizzare l'agenda integrata di Fibonacci per pianificare visite, gestire un calendario condiviso multi-operatore, inviare reminder SMS automatici ai pazienti, esportare e sincronizzare gli appuntamenti con calendari esterni. Si rivolge ai medici e al personale di segreteria.
 
 L'agenda e progettata per studi di piccole e medie dimensioni, da uno a venti operatori. La vista predefinita e settimanale per privilegiare la pianificazione operativa quotidiana, ma sono disponibili viste giornaliera e mensile per esigenze diverse.
@@ -15,7 +21,7 @@ L'agenda e progettata per studi di piccole e medie dimensioni, da uno a venti op
 
 Dalla barra di navigazione principale, l'icona calendario apre la sezione `Agenda`. La schermata mostra:
 
-- in alto a sinistra il selettore di vista: `Giornaliera`, `Settimanale`, `Mensile`,
+- in alto a sinistra il selettore di vista: `Giornaliera`, `Settimana`, `Mese`,
 - in alto a destra il selettore operatore con filtro `Tutti`, `Solo io`, `Multi-operatore`,
 - al centro la griglia oraria con gli appuntamenti disposti come blocchi colorati,
 - nella sidebar destra il pannello dettagli dell'appuntamento selezionato.
@@ -28,9 +34,9 @@ Click sinistro su una fascia oraria libera apre la modale `Nuovo appuntamento`. 
 
 - **Paziente**, combobox con autocompletamento sull'anagrafica esistente. Il pulsante `+` adiacente apre la creazione rapida paziente.
 - **Operatore**, selezione tra gli operatori attivi dello studio. Default: utente corrente se ha ruolo medico, altrimenti il primo operatore disponibile.
-- **Motivo** o **Tipo visita**, selezione da catalogo configurabile: `Prima visita`, `Visita di controllo`, `Trattamento`, `Procedura`, `Telemedicina`.
+- **Motivo** o **Tipo visita**, selezione da catalogo configurabile dallo studio: le voci disponibili sono quelle che trovi nel menu, non un elenco fisso.
 - **Durata**, valore in minuti con default trenta, opzioni rapide quindici, trenta, quarantacinque, sessanta, novanta.
-- **Stato iniziale**, default `Programmato`, ridefinibile in seguito.
+- **Stato**, modificabile in seguito dalla scheda dell'appuntamento.
 - **Note**, campo libero per memo dell'operatore non visibili al paziente.
 - **Note paziente**, campo libero incluso nei reminder automatici.
 
@@ -105,7 +111,7 @@ L'agenda supporta interazioni dirette per modifiche rapide:
 - **Trascinamento** del bordo inferiore di un appuntamento, modifica la durata,
 - **Doppio click** su un appuntamento, apre il pannello dettagliato con tutti i campi,
 - **Click destro** su un appuntamento, apre il menu rapido con `Modifica`, `Annulla`, `Duplica`, `Sposta`, `Marca check-in`,
-- **Click destro** su una fascia libera, apre il menu rapido con `Nuovo appuntamento`, `Blocca fascia`, `Pausa pranzo`.
+- **Click destro** su una fascia libera, apre il menu rapido per creare l'appuntamento su quella fascia.
 
 Le modifiche per drag and drop generano automaticamente, se l'appuntamento e gia stato confermato, una notifica al paziente con il nuovo orario.
 
@@ -136,7 +142,7 @@ Per privacy, gli appuntamenti sincronizzati esternamente mostrano solo titolo ge
 
 ## Risoluzione problemi
 
-**Reminder SMS non arrivati al paziente.** Verifica nell'ordine: numero di cellulare in formato internazionale `+39 333 1234567`; flag `Consenso comunicazioni` attivo in anagrafica paziente; saldo SMS sufficiente nel pannello `Impostazioni > Comunicazioni > Saldo`; storico invio del singolo appuntamento nel pannello `Comunicazioni > Storico` che mostra eventuali errori del provider.
+**Reminder SMS non arrivati al paziente.** Verifica nell'ordine: numero di cellulare in formato internazionale `+39 333 1234567`; flag `Consenso comunicazioni` attivo in anagrafica paziente; saldo SMS sufficiente nel pannello `le impostazioni delle comunicazioni`; storico invio del singolo appuntamento nel pannello `Comunicazioni > Storico` che mostra eventuali errori del provider.
 
 **Appuntamento sovrapposto creato per errore.** Apri l'appuntamento e usa `Modifica orario` per spostarlo, oppure `Assegna ad altro operatore` per ridistribuire il carico. In ogni caso il sistema notifica eventuali pazienti gia avvisati con il nuovo orario o cambio operatore.
 
@@ -144,7 +150,7 @@ Per privacy, gli appuntamenti sincronizzati esternamente mostrano solo titolo ge
 
 **Drag and drop non funziona su tablet o touchscreen.** Su alcuni dispositivi mobili la modalita drag richiede una pressione prolungata (long press) prima di iniziare a trascinare. In alternativa, usa il pannello laterale `Modifica` per cambiare data e ora con tastiera virtuale.
 
-**Stato `No-show` non aggiornato automaticamente.** Lo stato resta `Programmato` o `Confermato` se non viene marcato manualmente. Configura in `Impostazioni > Agenda > Auto no-show` il timeout dopo il quale un appuntamento non avviato viene marcato automaticamente come `No-show`: default disabilitato, valore consigliato sessanta minuti.
+**Stato `No-show` non aggiornato automaticamente.** Lo stato resta quello iniziale o `Confermato` se non viene marcato manualmente. Configura in `Impostazioni > Agenda > Auto no-show` il timeout dopo il quale un appuntamento non avviato viene marcato automaticamente come `No-show`: default disabilitato, valore consigliato sessanta minuti.
 
 ## Vedi anche
 

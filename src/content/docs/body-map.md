@@ -1,5 +1,11 @@
 # Body map 2D per documentare le aree trattate
 
+
+> ⚠️ **Verificato contro l'applicazione il 2026-08-10.** Le voci elencate qui sono quelle
+> che esistono davvero. Se ne trovi una descritta e non la vedi a schermo, è un difetto
+> della guida: segnalalo.
+
+
 Questa guida descrive l'uso della body map bidimensionale di Fibonacci per documentare in modo strutturato e visivo le aree del corpo del paziente sottoposte a trattamento. Ogni punto trattato viene rappresentato da un pallino numerato posizionato sulla fotografia del paziente, con i dettagli clinici associati: area corporea, prodotto utilizzato, lotto, quantita ed eventuale uso off-label.
 
 La funzione e pensata per la medicina estetica: le aree della mappa sono quelle su cui si interviene in uno studio estetico.
@@ -32,7 +38,7 @@ Si apre una modale con i seguenti campi:
 - **Prodotto AIFA**, combobox con ricerca testuale sul catalogo italiano dei farmaci AIFA. Mostra principio attivo, nome commerciale, indicazioni autorizzate.
 - **Lotto**, campo libero per inserire il numero di lotto stampato sulla confezione del prodotto.
 - **Quantita**, valore numerico con selezione dell'unita di misura: millilitri (`ml`), unita (`U`), siringhe (`sg`).
-- **Tecnica**, facoltativo, descrive la modalita di iniezione: `Bolo`, `Lineare retrograda`, `Microboli`, `Fanning`, `Cross-hatching`.
+- **Tecnica**, facoltativo, descrive la modalita di iniezione.
 - **Note**, campo libero per osservazioni cliniche specifiche del punto trattato.
 
 Il pulsante `Salva pallino` conferma e aggiunge il pallino numerato in sequenza progressiva sulla fotografia.
@@ -79,9 +85,9 @@ Il pulsante `Esporta PDF` genera un documento contenente:
 
 Il PDF e archiviato come allegato della visita ed e inviabile al paziente o ad altri operatori coinvolti. La conservazione segue le regole della cartella clinica: venti anni per documentazione clinica integrale.
 
-## Faccione aggregato
+## mappa aggregata del viso
 
-La vista `Faccione aggregato` mostra una rappresentazione cumulativa di tutti i trattamenti del paziente nel tempo. Ogni area corporea trattata e colorata in base alla categoria di prodotto utilizzata:
+La vista `mappa aggregata del viso` mostra una rappresentazione cumulativa di tutti i trattamenti del paziente nel tempo. Ogni area corporea trattata e colorata in base alla categoria di prodotto utilizzata:
 
 - **azzurro** per tossina botulinica,
 - **rosa** per filler a base di acido ialuronico,
@@ -111,7 +117,7 @@ Per prodotti non presenti nel catalogo, ad esempio dispositivi medici di nicchia
 
 - Scorciatoie da tastiera: **N** per nuovo pallino, **D** per duplicare l'ultimo, **E** per modificare, **canc** per eliminare il pallino selezionato.
 - Usa la stessa fotografia di base nel tempo per valutare l'evoluzione del paziente. Le foto storiche restano nella anagrafica con timestamp.
-- Configura la nomenclatura preferita delle aree corporee in `Impostazioni > Body map > Lessico`: il sistema offre il default ma supporta personalizzazioni di studio.
+- Configura la nomenclatura preferita delle aree corporee in `le impostazioni dello studio`: il sistema offre il default ma supporta personalizzazioni di studio.
 - Per i trattamenti combinati registra il prodotto principale e nel campo `Note` le associazioni: il PDF di consenso integra le combinazioni nel testo.
 - Inserisci il lotto sempre completo di lettere e numeri, eventuali zeri iniziali compresi: serve per la rintracciabilita in caso di richiamo del prodotto.
 
