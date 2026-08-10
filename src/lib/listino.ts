@@ -21,10 +21,11 @@
  *      valore corretto: ⛔ un prezzo non si inventa (stessa regola per cui il
  *      buy-out del residuo va sul sito come principio e senza cifra, e per cui
  *      `/per-le-societa-scientifiche` non pubblica importi).
- *   2. ⚠️ **Lo sconto annuale è ancora un'assunzione mia**: due mensilità in
- *      regalo (×10), la convenzione più diffusa e l'unica che si spiega da sé
- *      al cliente. Non è stata confermata. Si cambia in UNA riga
- *      (`MESI_PAGATI_SULL_ANNUALE`) e tutto il resto segue.
+ *   2. ✅ **Lo sconto annuale: due mensilità in regalo (×10)**, confermato
+ *      dall'utente il 2026-08-10. Era nato come assunzione mia — la convenzione
+ *      più diffusa, e l'unica che si spiega da sé al cliente senza dover fare
+ *      una percentuale a mente. Si cambia in UNA riga
+ *      (`MESI_PAGATI_SULL_ANNUALE`) e prezzi, totali e risparmi seguono.
  *
  * ⚠️ `prezzo: null` resta supportato di proposito: è ciò che deve comparire se
  * un domani nasce un piano senza prezzo deciso. La scheda dice «Su richiesta»,
