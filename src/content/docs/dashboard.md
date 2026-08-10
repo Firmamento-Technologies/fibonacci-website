@@ -1,5 +1,9 @@
 # La dashboard: cosa guardare la mattina
 
+> ⚠️ **Verificata aprendo la schermata il 2026-08-10.** Le voci qui sotto sono quelle
+> che vedi davvero; se qualcosa non torna, è un difetto della guida: segnalalo.
+
+
 La dashboard è la pagina su cui si atterra dopo l'accesso. Non è un cruscotto di
 statistiche: è pensata per rispondere a una domanda sola — *cosa mi aspetta oggi*.
 
@@ -7,10 +11,11 @@ statistiche: è pensata per rispondere a una domanda sola — *cosa mi aspetta o
 
 Dall'alto verso il basso:
 
-1. **Una riga di indicatori.** Pazienti, appuntamenti, consensi firmati e ancora
-   validi, comunicazioni inviate. Ogni indicatore ha due letture: *dall'apertura
-   dello studio* e *nel periodo scelto*.
-2. **La giornata.** Gli appuntamenti di oggi, in ordine di orario. È la ragione
+1. **Quattro indicatori**: *Pazienti in cartella*, *Trattamenti eseguiti*,
+   *Consensi attivi*, *Email consegnate*. Sotto ognuno c'è scritto **a quale
+   periodo si riferisce**: i pazienti sono il totale dello studio e non seguono
+   il selettore, gli altri tre sì.
+2. **Appuntamenti di oggi.** In ordine di orario, in ordine di orario. È la ragione
    vera per cui si apre una dashboard la mattina, ed è per questo che sta sopra
    tutto il resto tranne i numeri.
 3. **Da fare.** I richiami e i promemoria ancora aperti — i pazienti che il
@@ -18,13 +23,16 @@ Dall'alto verso il basso:
 
 ## Il selettore di periodo
 
-In alto a destra si sceglie l'intervallo. ⚠️ **Non governa tutta la pagina**: agisce
-sugli indicatori che dichiarano «nel periodo scelto», mentre *la giornata* mostra
-sempre oggi — cambiarla in base a un filtro non avrebbe senso — e le voci *da fare*
-restano quelle aperte, indipendentemente da quando sono nate.
+Le quattro scelte sono **Oggi · 7 giorni · 30 giorni · Sempre**.
 
-Se un numero non cambia muovendo il periodo, non è un difetto: è un indicatore
-«dall'apertura dello studio».
+⚠️ **Non governa tutta la pagina**: agisce sui tre indicatori che dichiarano «nel
+periodo scelto», mentre *Pazienti in cartella* è il totale dello studio, *gli
+appuntamenti di oggi* mostrano sempre oggi — cambiarli in base a un filtro non
+avrebbe senso — e le voci *da fare* restano quelle aperte, indipendentemente da
+quando sono nate.
+
+Se un numero non cambia muovendo il periodo, non è un difetto: sotto c'è scritto
+che è «indipendente dal periodo».
 
 ## Cosa NON troverai qui
 
