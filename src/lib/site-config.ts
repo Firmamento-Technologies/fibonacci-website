@@ -86,8 +86,20 @@ export const DEMO_URL: string = ''
  * ✅ PER ACCENDERLO: si scrive l'URL qui, e basta. */
 export const BILLING_URL: string = ''
 
-/** Raccolta dei contatti dal modulo. Il modulo ripiega su mailto se non risponde. */
-export const LEAD_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-lead'
+/* Raccolta dei contatti dal modulo.
+ *
+ * ⛔ **VUOTO DICHIARATO dal 2026-08-11**, e non per prudenza: misurato con
+ * `curl`, quell'indirizzo risponde **HTTP 502** — è la stessa macchina sparita
+ * che aveva già reso morti `APP_URL` e `DEMO_URL`. Nel giro del 2026-08-09
+ * quei due furono svuotati e **questo fu saltato**, quindi il modulo ha
+ * continuato a spedire verso il nulla: il medico compilava quattro campi,
+ * aspettava la richiesta fallita, e vedeva un errore.
+ *
+ * Con questo vuoto il modulo **non finge**: se non c'è né endpoint né casella,
+ * dice che il canale non è attivo invece di far perdere tempo a chi scrive.
+ * ✅ PER RIACCENDERLO: basta **una riga** — o questo indirizzo, o `CONTACT_EMAIL`
+ * qui sopra. Il modulo torna da sé, senza toccare nessun componente. */
+export const LEAD_API_URL: string = ''
 
 /** Dove è pubblicata la vetrina. Da spostare sul dominio proprio. */
 export const SITE_URL = 'https://firmamento-technologies.github.io/fibonacci-website'

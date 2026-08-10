@@ -17,6 +17,22 @@ import { LEAD_API_URL, CONTACT_EMAIL } from '@/lib/site-config'
 
 type Stato = 'fermo' | 'invio' | 'inviato' | 'errore'
 
+/* ⛔ Nessuno dei due canali è configurato ⇒ il modulo NON si disegna.
+ *
+ * Non è prudenza eccessiva: fino al 2026-08-11 `LEAD_API_URL` puntava a una
+ * macchina sparita che rispondeva **HTTP 502** (misurato con `curl`), e il
+ * ripiego `mailto:` era spento perché `CONTACT_EMAIL` è vuota. Il risultato era
+ * il peggiore possibile — il medico compilava quattro campi, aspettava una
+ * richiesta destinata a fallire, e vedeva un errore.
+ *
+ * ⚖️ È la stessa regola già pagata con `DEMO_URL`: *un invito che porta a una
+ * pagina d'errore non consegna il differenziatore, consegna l'opposto*. Meglio
+ * dire che il canale non è attivo che sprecare il tempo di chi voleva parlarci.
+ *
+ * ✅ Una riga sola lo riaccende — l'endpoint **oppure** la casella — e non c'è
+ * niente da toccare qui dentro. */
+const CANALE_ATTIVO = Boolean(LEAD_API_URL) || Boolean(CONTACT_EMAIL)
+
 const PROCEDURE = [
   'Tossina botulinica e filler',
   'Laser ed energie',
@@ -96,6 +112,20 @@ export function ModuloDemo({
         setStato('errore')
       }
     }
+  }
+
+  if (!CANALE_ATTIVO) {
+    return (
+      <div role="status">
+        <p className="occhiello">Contatti</p>
+        <h3 className="mt-[var(--s-13)] text-[1.3rem]">Il modulo non è ancora attivo</h3>
+        <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+          Stiamo attivando la casella con cui riceviamo le richieste. Se lo dicessimo dopo
+          che hai compilato il modulo ti avremmo fatto perdere tempo e il messaggio
+          sarebbe andato perso: preferiamo dirtelo adesso.
+        </p>
+      </div>
+    )
   }
 
   if (stato === 'inviato') {
