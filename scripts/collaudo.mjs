@@ -473,15 +473,34 @@ async function main() {
    * contattato**, ed e' il moltiplicatore del rilievo n. 1 (zero interviste). */
   {
     const cfg = readFileSync(new URL('../src/lib/site-config.ts', import.meta.url), 'utf8')
+    /* ⚠️ `(?::\\s*\\w+)?` NON e' pedanteria: `APP_URL` e `DEMO_URL` sono
+       dichiarati `: string = ''` — l'annotazione serve a non farne inferire il
+       tipo letterale `''`, che romperebbe i `DEMO_URL ? … : …` nei componenti.
+       Senza questo pezzo la regex non trovava niente e il controllo diceva
+       «non e' leggibile da site-config.ts»: un ROSSO su una cosa giusta, cioe'
+       il modo piu' rapido di far spegnere un presidio. E l'annotazione l'avevo
+       aggiunta io, nello stesso commit che ha creato il bisogno del controllo. */
     const leggi = (nome) =>
-      cfg.match(new RegExp(`export const ${nome}\\s*=\\s*['"]([^'"]*)['"]`))?.[1]
+      cfg.match(new RegExp(`export const ${nome}(?::\\s*\\w+)?\\s*=\\s*['"]([^'"]*)['"]`))?.[1]
 
     for (const [nome, atteso] of [['APP_URL', 'accesso'], ['LEAD_API_URL', 'contatti']]) {
       const url = leggi(nome)
-      if (!url) {
-        problemi.push(`${nome} non e' leggibile da site-config.ts: il controllo misurerebbe il nulla`)
+      /* ⚠️ TRE stati, non due, e confonderli e' costato un rosso su una cosa
+         giusta (2026-08-10):
+           · `undefined` → la regex non trova la riga: il presidio e' ROTTO;
+           · `''`        → il valore c'e' ed e' VUOTO DI PROPOSITO — `APP_URL` e
+                           `DEMO_URL` sono vuoti dichiarati perche' la macchina
+                           non esiste. Non e' un difetto: e' la scelta che il
+                           collaudo stesso ha verificato in pagina;
+           · una stringa → si prova l'host.
+         La prima versione faceva `if (!url)` e trattava il vuoto deliberato
+         come una lettura fallita: un presidio che segnala la propria decisione
+         e' il modo piu' rapido per farsi spegnere. */
+      if (url === undefined) {
+        problemi.push(`${nome} non e' leggibile da site-config.ts: il controllo e' rotto, non il sito`)
         continue
       }
+      if (url === '') continue  // assenza dichiarata: gia' verificata altrove
       try {
         // HEAD basta: qui si chiede «questo host esiste?», non «cosa risponde».
         const r = await fetch(url, { method: 'HEAD', redirect: 'manual', signal: AbortSignal.timeout(15000) })
@@ -585,7 +604,15 @@ async function main() {
     // presidio che si lamenta di cose che non cambiano l'immagine viene spento.
     if (manifesto.commitFrontendEmr && existsSync(repoEmr)) {
       const attuale = execFileSync(
-        'git', ['-C', repoEmr, 'log', '-1', '--format=%H', '--', 'apps/web/src'],
+        /* ⛔ I file di TEST sono esclusi: non possono cambiare una schermata, e
+           includerli fa diventare rosso il controllo a ogni commit di sola
+           suite — e' successo il 2026-08-10 con `piano-studio.test.ts`. E' la
+           seconda volta che questa ancora e' troppo larga: prima era `HEAD`
+           dell'EMR e si lamentava per commit sul `pdf-signer`. *Un presidio che
+           segnala cio' che non riguarda cio' che sorveglia viene spento, e con
+           lui la segnalazione vera.* */
+        'git', ['-C', repoEmr, 'log', '-1', '--format=%H', '--', 'apps/web/src',
+                ':(exclude)apps/web/src/**/*.test.ts', ':(exclude)apps/web/src/**/*.test.tsx'],
         { encoding: 'utf8' },
       ).trim()
       if (attuale !== manifesto.commitFrontendEmr) {
