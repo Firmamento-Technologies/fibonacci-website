@@ -12,6 +12,41 @@ export interface DocMeta {
 
 export const DOCS: DocMeta[] = [
   {
+    slug: 'dashboard',
+    title: 'La dashboard: cosa guardare la mattina',
+    description: 'Indicatori, la giornata, i richiami aperti — e cosa governa il selettore di periodo.',
+    category: 'inizio',
+    icon: 'LayoutDashboard',
+  },
+  {
+    slug: 'anatomia',
+    title: 'Atlante anatomico 3D',
+    description: 'Mostrare al paziente dove si interviene. Sistemi multipli, drill-down, limiti dichiarati.',
+    category: 'utilizzo',
+    icon: 'Bone',
+  },
+  {
+    slug: 'letteratura',
+    title: 'Ricerca in letteratura',
+    description: 'PubMed dentro la cartella: filtri per tipo di studio, abstract, full-text quando esiste.',
+    category: 'utilizzo',
+    icon: 'BookOpen',
+  },
+  {
+    slug: 'questionari-prom',
+    title: 'Questionari al paziente (PROM)',
+    description: 'L\'esito raccontato dal paziente, e perché il tablet non va lasciato incustodito.',
+    category: 'utilizzo',
+    icon: 'ClipboardList',
+  },
+  {
+    slug: 'catalogo-farmaci-aifa',
+    title: 'Catalogo farmaci: com\'è aggiornato',
+    description: 'Stato dell\'importazione AIFA, perché «forza sync» è disabilitato, cosa fare se fallisce.',
+    category: 'compliance',
+    icon: 'Database',
+  },
+  {
     slug: 'installazione',
     title: 'Primo accesso e configurazione iniziale',
     description: 'Login, MFA, configurazione studio, inviti operatori.',
