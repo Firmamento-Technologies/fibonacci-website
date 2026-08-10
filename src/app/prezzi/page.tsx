@@ -9,7 +9,7 @@ import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 export const metadata: Metadata = {
   title: 'Prezzi',
   description:
-    'Tre piani: Solo a 99 euro al mese, Studio a 189, Clinica su richiesta. Pagando un anno in anticipo due mensilità sono in regalo. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
+    'Tre piani: Solo a 99 euro al mese, Studio a 189, Clinica a 349. Pagando un anno in anticipo due mensilità sono in regalo. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
   alternates: { canonical: '/prezzi' },
 }
 

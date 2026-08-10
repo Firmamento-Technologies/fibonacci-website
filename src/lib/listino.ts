@@ -13,18 +13,22 @@
  */
 
 /**
- * ⚠️ NUMERI DA CONFERMARE — decisione D2/D3 dell'utente (2026-08-10): «aggiungi
- * entrambi, annuale e clinica». Il *che cosa* è deciso; due *quanto* no, e non
- * li invento (è la stessa regola per cui il buy-out del residuo va sul sito
- * come principio e senza cifra, e per cui `/per-le-societa-scientifiche` non
- * pubblica importi).
+ * I numeri del listino — decisione D2/D3 dell'utente (2026-08-10): «aggiungi
+ * entrambi, annuale e clinica».
  *
- *   1. **Lo sconto annuale**: qui sotto è **due mensilità in regalo** (×10), la
- *      convenzione più diffusa e l'unica che si spiega da sé al cliente. Si
- *      cambia in UNA riga (`MESI_PAGATI_SULL_ANNUALE`).
- *   2. **Il prezzo di Clinica**: **non c'è**, e finché non c'è la scheda dice
- *      «su richiesta» e porta alla demo invece che al pagamento. Un terzo
- *      scaglione con un numero inventato è peggio di un terzo scaglione senza.
+ *   1. ✅ **Il prezzo di Clinica: 349 €/mese**, deciso dall'utente il
+ *      2026-08-10. Fino a quel momento era `null` — «su richiesta» — ed era il
+ *      valore corretto: ⛔ un prezzo non si inventa (stessa regola per cui il
+ *      buy-out del residuo va sul sito come principio e senza cifra, e per cui
+ *      `/per-le-societa-scientifiche` non pubblica importi).
+ *   2. ⚠️ **Lo sconto annuale è ancora un'assunzione mia**: due mensilità in
+ *      regalo (×10), la convenzione più diffusa e l'unica che si spiega da sé
+ *      al cliente. Non è stata confermata. Si cambia in UNA riga
+ *      (`MESI_PAGATI_SULL_ANNUALE`) e tutto il resto segue.
+ *
+ * ⚠️ `prezzo: null` resta supportato di proposito: è ciò che deve comparire se
+ * un domani nasce un piano senza prezzo deciso. La scheda dice «Su richiesta»,
+ * porta alla demo e **non** al pagamento.
  */
 export const MESI_PAGATI_SULL_ANNUALE = 10
 
@@ -74,9 +78,10 @@ export const PIANI: readonly Piano[] = [
   {
     chiave: 'clinica',
     nome: 'Clinica',
-    // ⛔ `null` = su richiesta. Vedi il riquadro in testa: il numero lo decidi
-    // tu, e finché non c'è questa scheda non porta al pagamento ma alla demo.
-    prezzo: null,
+    // ✅ 349 — deciso dall'utente il 2026-08-10. Prima era `null` («su
+    // richiesta»), che è il valore giusto finché un prezzo non c'è: ⛔ non si
+    // inventa, e la scheda porta alla demo invece che al pagamento.
+    prezzo: 349,
     perChi: 'Più sedi, o oltre cinque operatori',
     incluso: [
       'Tutto quello che c’è in Studio',
