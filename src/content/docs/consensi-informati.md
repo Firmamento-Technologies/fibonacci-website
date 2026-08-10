@@ -7,7 +7,7 @@ Fibonacci non distribuisce modelli di terzi. Il sistema combina due fonti:
 1. **Oltre 100 modelli proprietari Fibonacci v0.1 (bozze da validare)** per le procedure più frequenti di medicina estetica iniettiva e non chirurgica, chirurgia plastica del volto e del corpo, e follow-up.
 2. **Wizard AI generativo** per consensi su misura per qualsiasi trattamento fuori catalogo, partendo da una library di **72 clausole giuridiche estratte da fonti della Pubblica Amministrazione italiana** (atti regionali, ASL, aziende ospedaliere) che sono di pubblico dominio per la legge 633/1941 art. 5.
 
-Tutti gli output sono validati da tre strati anti-allucinazione (vedi Passo 4) e archiviati con sigillo elettronico avanzato e tracciatura FHIR AuditEvent.
+Tutti gli output sono validati da tre strati anti-allucinazione (vedi Passo 4) e archiviati con un sigillo elettronico avanzato, e ogni passaggio resta nel registro accessi.
 
 ## Prerequisiti
 
@@ -23,7 +23,7 @@ Dalla scheda visita del paziente, il tab `Consensi` apre il pannello di gestione
 - nella colonna sinistra l'elenco dei consensi già generati per il paziente, con stato `Bozza`, `Inviato`, `Firmato`, `Revocato`;
 - nella colonna destra il pulsante `Nuovo consenso` che apre il Wizard AI.
 
-I consensi già firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive né modifica i precedenti: ogni consenso è un'entità FHIR `Consent` distinta con il suo `AuditEvent` immutabile.
+I consensi già firmati restano accessibili in sola lettura. La generazione di un nuovo consenso non sovrascrive né modifica i precedenti: ogni consenso resta un documento a sé, con la propria traccia non modificabile.
 
 In alternativa, dal menu `Consensi → Catalogo` si accede agli oltre 100 modelli proprietari Fibonacci pronti per il download in PDF (compilati automaticamente con i dati di studio e medico). Sono utili come riferimento o per stampe rapide senza paziente in carico.
 
@@ -97,13 +97,13 @@ Dopo la review medica (8/8 spunte attive), il pulsante `Salva e invia` diventa a
 
 1. **Generazione PDF/A-3b**: il modulo `pdf-signer` di Fibonacci converte il Markdown del consenso in PDF/A-3 conforme ISO 19005-3, con file XML embedded per la validazione long-term. Questo è il formato richiesto dal Codice dell'Amministrazione Digitale art. 44 per la conservazione decennale.
 
-2. **Sigillo elettronico avanzato (PAdES)**: il PDF viene sigillato lato server con certificato del titolare studio e marca temporale (TSA conforme eIDAS).
+2. **Sigillo elettronico avanzato**: il PDF viene sigillato lato server con certificato del titolare studio e marca temporale (TSA conforme eIDAS).
 
 3. **Firma grafometrica del paziente**: il paziente firma su tablet; il sistema cattura, oltre all'immagine della firma, i dati biometrici del tratto (pressione, velocità, tempi), che vengono cifrati e incorporati nel PDF per eventuale perizia grafologica. È una firma elettronica avanzata (FEA), da raccogliere previa verifica dell'identità del paziente tramite documento. La FEA ha l'efficacia probatoria della scrittura privata (art. 2702 c.c.); se disconosciuta, l'onere della prova è di chi la produce. La piena presunzione di riferibilità al firmatario (art. 20 c. 1-bis CAD) si ottiene con la firma qualificata (FEQ), attivabile · insieme alla marca temporale qualificata · tramite QTSP accreditato.
 
-4. **Salvataggio FHIR**: il consenso firmato viene archiviato come risorsa FHIR `Consent` collegata a `Patient`, `Practitioner` e `Encounter`. Il PDF firmato è una `DocumentReference` con `Binary` content.
+4. **Archiviazione**: il consenso firmato entra nella cartella del paziente, collegato alla visita e al medico che l'ha raccolto. Il PDF resta allegato e scaricabile.
 
-5. **AuditEvent FHIR**: viene generato un `AuditEvent` immutabile con `action=C` (create), `purposeOfEvent` che descrive la review AI 8/8 sezioni, agent (medico), source (Wizard AI), outcome (success/failure). Ricerca forense da Audit Log con filtri data, paziente, medico.
+5. **Traccia**: l'operazione entra nel registro accessi immutabile con `action=C` (create), `purposeOfEvent` che descrive la review AI 8/8 sezioni, agent (medico), source (Wizard AI), outcome (success/failure). Ricerca forense da Audit Log con filtri data, paziente, medico.
 
 Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'originale archiviato.
 
@@ -113,7 +113,7 @@ Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'
 
 - **Modifica**: i consensi firmati **non sono modificabili**. Se serve un consenso aggiornato (es. cambio di tecnica), si genera un nuovo consenso. Il sistema mostra automaticamente i precedenti nella scheda paziente con la cronologia versioni.
 
-- **Ristampa**: dal consenso firmato si può sempre riscaricare il PDF originale (sigillato, hash identico). Utile per portarlo in cartella cartacea o consegnarlo nuovamente al paziente.
+- **Ristampa**: dal consenso firmato si può sempre riscaricare il PDF originale, identico a quello sigillato. Utile per portarlo in cartella cartacea o consegnarlo nuovamente al paziente.
 
 ## Note importanti
 

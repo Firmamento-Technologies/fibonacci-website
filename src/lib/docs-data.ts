@@ -139,8 +139,8 @@ export const DOCS: DocMeta[] = [
   },
   {
     slug: 'audit-log',
-    title: 'Audit log',
-    description: 'Tracciabilità accessi, hash-chain, verifica integrità.',
+    title: 'Registro accessi: chi ha fatto cosa',
+    description: 'Rispondere a chi chiede chi ha visto la sua cartella, e perché il registro non si corregge.',
     category: 'compliance',
     icon: 'Shield',
   },

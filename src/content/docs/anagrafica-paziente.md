@@ -30,7 +30,7 @@ I campi obbligatori sono:
 - **Nome** e **Cognome**, in caratteri latini senza abbreviazioni.
 - **Codice fiscale** italiano oppure tipo e numero di documento per pazienti stranieri.
 - **Data di nascita**, formato `gg/mm/aaaa`.
-- **Sesso**, valori `M`, `F`, `Altro` o `Non specificato` come previsto da FHIR R4.
+- **Sesso**, valori `M`, `F`, `Altro` o `Non specificato`.
 - **Contatto principale**, almeno uno tra email e numero di telefono.
 
 Il codice fiscale italiano viene validato automaticamente. Il sistema calcola il codice di controllo, verifica la coerenza con data di nascita, sesso e luogo di nascita, segnala incongruenze prima del salvataggio. Per i pazienti senza codice fiscale italiano e disponibile il campo `Tipo documento` con valori `Passaporto`, `Carta d'identita estera`, `Permesso di soggiorno`, `Tessera sanitaria europea`.
@@ -97,13 +97,13 @@ La cancellazione fisica dei dati e ammessa solo nei casi previsti dalla normativ
 
 Il pulsante `Richiedi cancellazione definitiva` apre una richiesta che richiede approvazione di un secondo operatore con ruolo `admin studio`. La cancellazione effettiva avviene dopo trenta giorni di periodo di ripensamento, con avviso preventivo via email all'operatore richiedente. Tutte le fasi della procedura sono registrate in audit log.
 
-## Export dati paziente in formato FHIR R4
+## Consegnare al paziente i suoi dati
 
 L'articolo 20 del GDPR garantisce al paziente il diritto di ricevere i propri dati in un formato strutturato e di uso comune.
 
 Dal pulsante `Esporta dati` nella scheda paziente si genera un archivio ZIP contenente:
 
-- file `Patient.json` con l'anagrafica completa in formato FHIR R4,
+- file `Patient.json` con l'anagrafica completa, in un formato standard che qualunque altra cartella clinica sa leggere,
 - file `Observation.json` con osservazioni e parametri rilevati,
 - file `Condition.json` con anamnesi e patologie,
 - file `MedicationStatement.json` con i farmaci registrati,
