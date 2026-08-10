@@ -66,6 +66,26 @@ export const PRIVACY_EMAIL = ''
 export const APP_URL: string = ''
 export const DEMO_URL: string = ''
 
+/* Dove risponde il servizio dei pagamenti, per aprire il checkout dal listino.
+ * Serve da quando il self-service è la strada scelta (D5, utente 2026-08-10).
+ *
+ * ⛔ **VUOTO DICHIARATO**, stessa regola dei due di sopra, e qui per tre motivi
+ * che vanno sciolti nell'ordine:
+ *   1. **il sito è `output: 'export'`**, cioè statico: la chiamata parte dal
+ *      browser, quindi il servizio dev'essere raggiungibile **da internet** e
+ *      con la nostra origine in `ALLOWED_ORIGINS`. Oggi sta dietro un profilo
+ *      compose e non ha nessuna route pubblica;
+ *   2. `create_checkout_session` risponde **503** finché `APP_BASE_URL` e
+ *      `SITE_BASE_URL` non hanno un valore, e non ce l'hanno finché il dominio
+ *      non è comprato (TD-20);
+ *   3. servono i Price ID veri, che vengono con l'account Stripe (TD-25).
+ *
+ * Finché è vuoto le schede **non disegnano il pulsante d'acquisto** e restano
+ * sull'invito alla demo: un «Attiva ora» che porta a un errore è peggio di un
+ * «Attiva ora» che non c'è — è la lezione già pagata con `DEMO_URL`.
+ * ✅ PER ACCENDERLO: si scrive l'URL qui, e basta. */
+export const BILLING_URL: string = ''
+
 /** Raccolta dei contatti dal modulo. Il modulo ripiega su mailto se non risponde. */
 export const LEAD_API_URL = 'https://transcriber.82.25.101.118.nip.io/website-lead'
 

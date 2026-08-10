@@ -163,6 +163,24 @@ export function ModuloDemo({
         )}
       </div>
 
+      {/* ⛔ MISURA ex art. 32, non una cortesia — decisione 2026-08-10: il supporto
+          NON deve vedere i dati dei pazienti ([[decisione-supporto-clienti]]).
+          L'EDPB distingue l'accesso «sistematico» (che ci renderebbe responsabili
+          del trattamento) da quello «puramente accessorio ed estremamente
+          limitato», e la differenza la fanno le misure che lo IMPEDISCONO.
+          ⚠️ Sta QUI, accanto al campo, e non nelle condizioni d'uso: una regola
+          scritta in un documento che nessuno apre non impedisce niente. */}
+      <p
+        className="mt-[var(--s-13)] text-[13px]"
+        style={{ color: 'var(--fg-muted)' }}
+        data-misura="niente-dati-pazienti"
+      >
+        ⛔ <strong>Non scrivere qui dati di pazienti</strong> — né nomi, né date di nascita,
+        né schermate della cartella. Per capire un problema ci basta il{' '}
+        <strong>codice di riferimento</strong> che l&apos;applicazione mostra quando qualcosa
+        va storto.
+      </p>
+
       <label className="mt-[var(--s-21)] flex cursor-pointer items-start gap-[var(--s-13)]">
         <input
           type="checkbox"

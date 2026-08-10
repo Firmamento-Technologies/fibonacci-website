@@ -12,9 +12,29 @@
  * Rientrano il giorno in cui diventano vere, non prima.
  */
 
+/**
+ * ⚠️ NUMERI DA CONFERMARE — decisione D2/D3 dell'utente (2026-08-10): «aggiungi
+ * entrambi, annuale e clinica». Il *che cosa* è deciso; due *quanto* no, e non
+ * li invento (è la stessa regola per cui il buy-out del residuo va sul sito
+ * come principio e senza cifra, e per cui `/per-le-societa-scientifiche` non
+ * pubblica importi).
+ *
+ *   1. **Lo sconto annuale**: qui sotto è **due mensilità in regalo** (×10), la
+ *      convenzione più diffusa e l'unica che si spiega da sé al cliente. Si
+ *      cambia in UNA riga (`MESI_PAGATI_SULL_ANNUALE`).
+ *   2. **Il prezzo di Clinica**: **non c'è**, e finché non c'è la scheda dice
+ *      «su richiesta» e porta alla demo invece che al pagamento. Un terzo
+ *      scaglione con un numero inventato è peggio di un terzo scaglione senza.
+ */
+export const MESI_PAGATI_SULL_ANNUALE = 10
+
 export interface Piano {
+  /** La chiave del checkout. ⚠️ Deve combaciare con il `Literal` di `plan` in
+   *  `EMR/services/billing/main.py` e con le chiavi di `PRICE_IDS`. */
+  chiave: 'solo-pro' | 'studio' | 'clinica'
   nome: string
-  prezzo: number
+  /** Canone mensile, pagamento mensile. `null` = prezzo su richiesta. */
+  prezzo: number | null
   perChi: string
   incluso: readonly string[]
   consigliato?: boolean
@@ -22,6 +42,7 @@ export interface Piano {
 
 export const PIANI: readonly Piano[] = [
   {
+    chiave: 'solo-pro',
     nome: 'Solo',
     prezzo: 99,
     perChi: 'Un medico, uno studio',
@@ -36,6 +57,7 @@ export const PIANI: readonly Piano[] = [
     ],
   },
   {
+    chiave: 'studio',
     nome: 'Studio',
     prezzo: 189,
     perChi: 'Fino a cinque operatori',
@@ -49,7 +71,37 @@ export const PIANI: readonly Piano[] = [
       'Assistenza via chat con risposta in giornata',
     ],
   },
+  {
+    chiave: 'clinica',
+    nome: 'Clinica',
+    // ⛔ `null` = su richiesta. Vedi il riquadro in testa: il numero lo decidi
+    // tu, e finché non c'è questa scheda non porta al pagamento ma alla demo.
+    prezzo: null,
+    perChi: 'Più sedi, o oltre cinque operatori',
+    incluso: [
+      'Tutto quello che c’è in Studio',
+      'Più sedi con anagrafiche separate e agenda unica',
+      'Ruoli e permessi definiti sede per sede',
+      'Esportazione periodica programmata',
+      'Referente dedicato per l’avvio e la migrazione',
+    ],
+  },
 ] as const
+
+/** Il prezzo mensile equivalente pagando un anno in anticipo. `null` se il
+ *  piano è su richiesta. Arrotondato ai 50 centesimi: `189 × 10 / 12` fa
+ *  157,50, e mostrare 157,4999 sarebbe il modo più veloce di far sospettare
+ *  che il conto non torni. */
+export function prezzoMensileSuAnnuale(piano: Piano): number | null {
+  if (piano.prezzo === null) return null
+  return Math.round((piano.prezzo * MESI_PAGATI_SULL_ANNUALE) / 12 / 0.5) * 0.5
+}
+
+/** Quanto si paga in una volta sola, per un anno. `null` se su richiesta. */
+export function totaleAnnuale(piano: Piano): number | null {
+  if (piano.prezzo === null) return null
+  return piano.prezzo * MESI_PAGATI_SULL_ANNUALE
+}
 
 /** Cosa è compreso nell'attivazione, senza costi a sorpresa. */
 export const ATTIVAZIONE = [

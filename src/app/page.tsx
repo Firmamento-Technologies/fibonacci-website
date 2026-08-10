@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  *   Foto cliniche   il tema che gli studi risolvono peggio di tutti
  *   Sigillo         il culmine: la catena e il verificatore pubblico
  *   Prove           come si controlla tutto senza fidarsi di noi
- *   Prezzi          due piani, IVA dichiarata
+ *   Prezzi          tre piani, IVA dichiarata
  *   Obiezioni       le domande che farebbe un compratore prudente
  *   Chiusura        quattro campi
  */

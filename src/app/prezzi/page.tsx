@@ -9,14 +9,14 @@ import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 export const metadata: Metadata = {
   title: 'Prezzi',
   description:
-    'Due piani: Solo a 99 euro al mese, Studio a 189. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
+    'Tre piani: Solo a 99 euro al mese, Studio a 189, Clinica su richiesta. Pagando un anno in anticipo due mensilità sono in regalo. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
   alternates: { canonical: '/prezzi' },
 }
 
 /* Il listino.
  *
  * CXL, sulle pagine prezzi: semplice batte astuto, e la prima domanda da
- * farsi è «come lo rendo più facile da capire». Due piani, due colonne, e
+ * farsi è «come lo rendo più facile da capire». Tre piani, tre colonne, e
  * l'elenco di cosa NON è compreso subito sotto, perché è la parte che il
  * compratore prudente cerca e non trova mai. */
 
@@ -44,7 +44,7 @@ export default function Prezzi() {
       occhiello="Prezzi"
       titolo={
         <>
-          Due piani, e l&apos;elenco di quello che <span className="accento-corsivo">non</span>{' '}
+          Tre piani, e l&apos;elenco di quello che <span className="accento-corsivo">non</span>{' '}
           comprendono
         </>
       }
