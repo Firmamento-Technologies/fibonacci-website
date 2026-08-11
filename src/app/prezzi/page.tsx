@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
 import { SchedePiani } from '@/components/Listino'
 import { Reveal } from '@/components/ui/Reveal'
+import { Assistente } from '@/components/Assistente'
 import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 
@@ -226,6 +227,34 @@ export default function Prezzi() {
               {ANCORA.cautela}
             </p>
           </Reveal>
+        </div>
+      </section>
+
+      {/* ⚠️ QUI e non altrove, ed e' una misura. Le domande che si fanno
+          guardando un listino sono «che differenza c'e' fra Studio e Clinica?»,
+          «cosa comprende il piano Solo?», «l'IVA e' inclusa?» — e prima
+          dell'indizio della pagina l'assistente pescava `/prezzi/` solo **7
+          volte su 12** proprio su quelle. Il widget manda il percorso su cui
+          si trova, quindi questa pagina entra sempre fra gli estratti: 12/12.
+          Vedi `estratti_pertinenti` in `EMR/services/assistente/main.py`.
+          ⇒ Sta PRIMA della richiesta di demo: chi non ha capito quale piano fa
+          per lui non prenota, chiude. */}
+      <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
+        <div className="gabbia gabbia-stretta text-center">
+          <Occhiello>Prima di scegliere</Occhiello>
+          <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch', marginInline: 'auto' }}>
+            Se la tua situazione non rientra nei tre
+          </h2>
+          <p
+            className="mt-[var(--s-21)] text-[1.0625rem]"
+            style={{ color: 'var(--fg-muted)', maxWidth: '52ch', marginInline: 'auto' }}
+          >
+            Due sedi ma un medico solo, una segretaria che non visita, un periodo di prova.
+            Chiedi pure: se la risposta non c&apos;è, lo dice invece di inventarla.
+          </p>
+          <div className="mt-[var(--s-34)]">
+            <Assistente />
+          </div>
         </div>
       </section>
 

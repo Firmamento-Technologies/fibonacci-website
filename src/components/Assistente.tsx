@@ -72,7 +72,16 @@ export function Assistente() {
       const r = await fetch('/assistente/domanda', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ domanda: pulita }),
+        /* `pagina`: il percorso che chi chiede ha sotto gli occhi. Quella
+           pagina entra sempre fra gli estratti — misurato prima di mettere il
+           widget sul listino: su dodici domande da prezzi `/prezzi/` ci
+           finiva **7 volte su 12**, e le mancanti erano proprio quelle che si
+           fanno guardando il listino. Con l'indizio, 12 su 12.
+           ⚠️ Non è un identificativo e non traccia niente: è l'indirizzo della
+           pagina pubblica su cui il widget è disegnato, che il server già
+           conosce. Il server lo accetta solo se combacia **esattamente** con
+           una pagina del corpus. */
+        body: JSON.stringify({ domanda: pulita, pagina: window.location.pathname }),
       })
       const dati = (await r.json()) as Partial<Esito>
       /* ⚠️ Anche 429 e 503 portano un testo sensato dal servizio: si mostra
