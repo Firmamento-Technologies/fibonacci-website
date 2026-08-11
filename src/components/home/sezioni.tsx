@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Reveal, RevealGruppo, RevealFiglio } from '@/components/ui/Reveal'
 import { Occhiello, Foto, Schermata, TestaSezione, Freccia } from '@/components/ui/elementi'
+import { ProvaCatalogoConsensi } from '@/components/home/ProvaCatalogoConsensi'
 
 /* ══════════════════════════════════════════════════════════════════════════
    IL PROBLEMA, DETTO COME LO VIVE LUI
@@ -154,8 +155,12 @@ const CAPACITA = [
     testo:
       'Un modello per ogni procedura: tossina, filler, laser, peeling. Ognuno con i rischi e le alternative di quella procedura, non di «un trattamento».',
     aCosaServe: 'Alla domanda «me lo aveva detto?» risponde un documento che nomina quel rischio.',
-    immagine: { tipo: 'schermata', file: '/schermate/catalogo-consensi.png' },
-    alt: 'Il catalogo dei consensi in Fibonacci, con i modelli raggruppati per categoria e il pulsante di anteprima accanto a ciascuno.',
+    /* 🔄 Era `/schermate/catalogo-consensi.png`, l'immagine più usata del sito.
+       Una lista in figura si guarda; qui la domanda del medico è UNA — «il
+       modulo per quello che faccio io c'è?» — e una figura non può rispondere.
+       Ora risponde il catalogo vero, 115 procedure prese dall'EMR. */
+    immagine: { tipo: 'prova', file: 'catalogo' },
+    alt: '',
   },
   {
     occhiello: 'Sedute',
@@ -223,7 +228,13 @@ export function Capacita() {
                     {c.aCosaServe}
                   </p>
                 </div>
-                {c.immagine.tipo === 'schermata' ? (
+                {c.immagine.tipo === 'prova' ? (
+                  /* Un pezzo di prodotto in pagina, non una sua fotografia.
+                     Vedi `ProvaCatalogoConsensi.tsx` per il perché. */
+                  <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
+                    <ProvaCatalogoConsensi />
+                  </div>
+                ) : c.immagine.tipo === 'schermata' ? (
                   <Schermata
                     file={c.immagine.file}
                     alt={c.alt}

@@ -1,0 +1,580 @@
+{
+ "generato": "node scripts/catalogo.mjs",
+ "procedure": [
+  {
+   "slug": "addominoplastica",
+   "titolo": "Addominoplastica",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "asportazione-cheloide",
+   "titolo": "Asportazione di cicatrice cheloidea",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "asportazione-cisti-sebacea",
+   "titolo": "Asportazione cisti sebacea / epidermoide",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "asportazione-fibroma",
+   "titolo": "Asportazione fibromi penduli (skin tags)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "asportazione-lipoma",
+   "titolo": "Asportazione lipoma sottocutaneo",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "asportazione-nevo",
+   "titolo": "Asportazione nevo melanocitico (escissione chirurgica)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "bia-alcl",
+   "titolo": "BIA-ALCL",
+   "categoria": "Follow-up"
+  },
+  {
+   "slug": "biopsia-cutanea",
+   "titolo": "Biopsia cutanea per esame istologico",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "biostimolatori-polinucleotidi",
+   "titolo": "Polinucleotidi (PN-HPT, Plinest)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "biostimolatori-radiesse",
+   "titolo": "Idrossiapatite di calcio (Radiesse-like)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "biostimolatori-sculptra",
+   "titolo": "Acido polilattico (Sculptra-like)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "biostimolatori-skinbooster",
+   "titolo": "Skinbooster acido ialuronico non reticolato",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "blefaroplastica",
+   "titolo": "Blefaroplastica",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "blefaroplastica-inferiore",
+   "titolo": "Blefaroplastica inferiore",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "blefaroplastica-superiore",
+   "titolo": "Blefaroplastica superiore",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "botox-bruxismo",
+   "titolo": "Tossina botulinica per bruxismo e ipertrofia massetere",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "botox-collo",
+   "titolo": "Tossina botulinica per cordoni del collo (platismolifting)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "botox-iperidrosi",
+   "titolo": "Tossina botulinica per iperidrosi",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "brachioplastica",
+   "titolo": "Brachioplastica (lifting braccia chirurgico)",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "carbossiterapia-corpo",
+   "titolo": "Carbossiterapia corpo (adiposità, cellulite)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "carbossiterapia-viso",
+   "titolo": "Carbossiterapia viso e collo",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "cheiloplastica",
+   "titolo": "Cheiloplastica",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "cheratosi-seborroiche-asportazione",
+   "titolo": "Asportazione di cheratosi seborroiche",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "consensi-di-ginecoplastica",
+   "titolo": "CONSENSI DI GINECOPLASTICA",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "consulenza-bariatrica",
+   "titolo": "Valutazione preliminare per chirurgia bariatrica",
+   "categoria": "Bariatrica"
+  },
+  {
+   "slug": "correzione-di-ginecomastia",
+   "titolo": "Correzione di ginecomastia",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "criolipolisi",
+   "titolo": "Criolipolisi non invasiva (Coolsculpting-like)",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "crioterapia-verruche",
+   "titolo": "Crioterapia verruche e cheratosi",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "cruroplastica",
+   "titolo": "Cruroplastica (lifting interno cosce)",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "dermoabrasione",
+   "titolo": "Dermoabrasione",
+   "categoria": "Dermoabrasione"
+  },
+  {
+   "slug": "doppio-mento-hifu",
+   "titolo": "Trattamento doppio mento con HIFU o lipolitici iniettivi",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "esosomi",
+   "titolo": "Trattamento con esosomi (medicina rigenerativa)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "evlt-laser-endovenoso",
+   "titolo": "Trattamento endovenoso laser delle varici (EVLT)",
+   "categoria": "Medicina vascolare estetica"
+  },
+  {
+   "slug": "fili-cog-bidirezionali",
+   "titolo": "Fili di sospensione bidirezionali (silhouette-like)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "fili-pdo-cog",
+   "titolo": "Fili di trazione PDO con cog (uncini)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "fili-pdo-mono",
+   "titolo": "Fili di tensione PDO monofilamento",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-acido-ialuronico",
+   "titolo": "Filler acido ialuronico",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-glutei",
+   "titolo": "Aumento glutei con filler (gluteoplastica iniettiva)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "filler-labbra",
+   "titolo": "Filler labbra (acido ialuronico)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-mandibola",
+   "titolo": "Filler contorno mandibolare e mento",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-mani",
+   "titolo": "Filler ringiovanimento dorso mani",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-naso-liquido",
+   "titolo": "Rinoplastica medica con filler (rinofiller)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-occhiaie",
+   "titolo": "Filler occhiaie (tear trough)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-tempie",
+   "titolo": "Filler tempie",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "filler-zigomi",
+   "titolo": "Filler zigomi",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "frenuloplastica",
+   "titolo": "Frenuloplastica peniena",
+   "categoria": "Andrologia estetica"
+  },
+  {
+   "slug": "hifu",
+   "titolo": "HIFU ultrasuoni focalizzati ad alta intensità",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "idrolifting",
+   "titolo": "Idrolifting acido ialuronico free",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "imenoplastica",
+   "titolo": "Imenoplastica",
+   "categoria": "Ginecologia estetica"
+  },
+  {
+   "slug": "labioplastica-piccole-labbra",
+   "titolo": "Labioplastica di riduzione (piccole labbra)",
+   "categoria": "Ginecologia estetica"
+  },
+  {
+   "slug": "laser-co2-frazionato",
+   "titolo": "Laser CO2 frazionato ablativo",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "laser-erbio",
+   "titolo": "Laser Erbio YAG frazionato",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "laser-ipl",
+   "titolo": "Laser e luce pulsata (IPL)",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "laser-pico",
+   "titolo": "Pico laser per pigmentazioni resistenti e tatuaggi",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "laser-pigmentario",
+   "titolo": "Laser Q-switched per discromie e tatuaggi",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "laser-vascolare",
+   "titolo": "Laser vascolare (PDL, Nd:YAG) per couperose e teleangectasie",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "led-therapy",
+   "titolo": "Fototerapia LED viso",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "lifting-del-gluteo",
+   "titolo": "Lifting del gluteo",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "lifting-delle-braccia",
+   "titolo": "Lifting delle braccia",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "lifting-delle-cosce",
+   "titolo": "Lifting delle cosce",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "lifting-facciale-e-cervicale",
+   "titolo": "Lifting facciale e cervicale",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "lifting-medio-facciale",
+   "titolo": "Lifting medio-facciale",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "lifting-temporale-e-frontale",
+   "titolo": "Lifting temporale e frontale",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "lipocavitazione",
+   "titolo": "Cavitazione ultrasonica per adiposità localizzate",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "lipofilling-lipostruttura",
+   "titolo": "Lipofilling-Lipostruttura",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "lipofilling-seno",
+   "titolo": "Lipofilling mammario (aumento autologo)",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "liposuzione",
+   "titolo": "Liposuzione",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "lobuloplastica",
+   "titolo": "Lobuloplastica (riparazione lobo orecchio lacerato)",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "mappatura-nevi",
+   "titolo": "Mappatura nevi e dermoscopia digitale",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "mastopessi",
+   "titolo": "Mastopessi (lifting mammario)",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "mastoplastica-additiva",
+   "titolo": "Mastoplastica  additiva",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "mastoplastica-aggiunta-protesi",
+   "titolo": "Sostituzione protesi mammaria",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "mastoplastica-riduttiva",
+   "titolo": "Mastoplastica riduttiva",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "mentoplastica-additiva",
+   "titolo": "Mentoplastica additiva",
+   "categoria": "Chirurgia mammaria"
+  },
+  {
+   "slug": "mesoterapia",
+   "titolo": "Mesoterapia e biorivitalizzazione",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "mesoterapia-capelli",
+   "titolo": "Mesoterapia tricologica per alopecia",
+   "categoria": "Tricologia"
+  },
+  {
+   "slug": "microneedling",
+   "titolo": "Microneedling dermapen / dermaroller",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "microneedling-capelli",
+   "titolo": "Microneedling cuoio capelluto",
+   "categoria": "Tricologia"
+  },
+  {
+   "slug": "microneedling-rf",
+   "titolo": "Microneedling con radiofrequenza frazionata",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "modulo-bianco-di-consenso",
+   "titolo": "Modulo bianco di consenso",
+   "categoria": "Generico"
+  },
+  {
+   "slug": "neoformazioni-cutanee",
+   "titolo": "Neoformazioni cutanee",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "onde-urto",
+   "titolo": "Onde d'urto focali / radiali per cellulite e adiposità",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "onicectomia",
+   "titolo": "Onicectomia parziale (unghia incarnita)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "otoplastica",
+   "titolo": "Otoplastica",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "otoplastica-pediatrica",
+   "titolo": "Otoplastica (correzione orecchie a sventola)",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "peeling-chimico",
+   "titolo": "Peeling chimico",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "perineoplastica",
+   "titolo": "Perineoplastica (ricostruzione perineale)",
+   "categoria": "Ginecologia estetica"
+  },
+  {
+   "slug": "plasma-exeresi",
+   "titolo": "Plasma exeresi (Plexr-like) per cheratosi, fibromi, blefaroplastica non chirurgica",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "plastica-addominale-postbariatrica",
+   "titolo": "Plastica addominale post-dimagrimento bariatrico",
+   "categoria": "Chirurgia del corpo"
+  },
+  {
+   "slug": "prp-capelli",
+   "titolo": "PRP autologo cuoio capelluto (alopecia)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "prp-viso",
+   "titolo": "PRP autologo viso (medicina rigenerativa)",
+   "categoria": "Biostimolatori"
+  },
+  {
+   "slug": "ptosi-palpebrale-correzione",
+   "titolo": "Correzione chirurgica di ptosi palpebrale",
+   "categoria": "Chirurgia del volto"
+  },
+  {
+   "slug": "radiofrequenza-corpo",
+   "titolo": "Radiofrequenza corpo per lassità cutanea",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "radiofrequenza-viso",
+   "titolo": "Radiofrequenza viso bipolare/monopolare",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "ricostruzione-areola-mastectomia",
+   "titolo": "Ricostruzione areola post-mastectomia con tatuaggio medicale",
+   "categoria": "Senologia ricostruttiva"
+  },
+  {
+   "slug": "ricostruzione-mammaria",
+   "titolo": "Ricostruzione mammaria",
+   "categoria": "Altro"
+  },
+  {
+   "slug": "riduzione-temporanea-delle-rughe",
+   "titolo": "Riduzione temporanea delle rughe",
+   "categoria": "Filler dermici"
+  },
+  {
+   "slug": "ringiovanimento-vaginale-laser",
+   "titolo": "Ringiovanimento vaginale con laser",
+   "categoria": "Ginecologia estetica"
+  },
+  {
+   "slug": "rinoplastica",
+   "titolo": "Rinoplastica",
+   "categoria": "Chirurgia del naso"
+  },
+  {
+   "slug": "rinosettoplastica",
+   "titolo": "Rinosettoplastica funzionale ed estetica",
+   "categoria": "Chirurgia del naso"
+  },
+  {
+   "slug": "scleroterapia-varici",
+   "titolo": "Scleroterapia di varici e teleangectasie",
+   "categoria": "Medicina vascolare estetica"
+  },
+  {
+   "slug": "smp-tricopigmentazione",
+   "titolo": "SMP - Scalp Micropigmentation (tricopigmentazione)",
+   "categoria": "Tricologia"
+  },
+  {
+   "slug": "tossina-botulinica",
+   "titolo": "Tossina botulinica (Botox)",
+   "categoria": "Medicina estetica iniettiva"
+  },
+  {
+   "slug": "trapianto-fue",
+   "titolo": "Trapianto capelli con tecnica FUE",
+   "categoria": "Tricologia"
+  },
+  {
+   "slug": "trapianto-fut",
+   "titolo": "Trapianto capelli con tecnica FUT (strip)",
+   "categoria": "Tricologia"
+  },
+  {
+   "slug": "trattamento-acne",
+   "titolo": "Trattamento medico acne attiva (topici + sistemici)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "trattamento-cellulite",
+   "titolo": "Trattamento della cellulite (panniculopatia edemato-fibrosclerotica)",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "trattamento-cicatrici-acne",
+   "titolo": "Trattamento cicatrici post-acneiche (laser/microneedling)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "trattamento-iperidrosi",
+   "titolo": "Trattamento dell'iperidrosi (sudorazione eccessiva)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "trattamento-melasma",
+   "titolo": "Trattamento del melasma (combinato peeling + topici)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "trattamento-rosacea",
+   "titolo": "Trattamento rosacea (topico + laser vascolare)",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "trattamento-smagliature-laser",
+   "titolo": "Trattamento smagliature con laser frazionato",
+   "categoria": "Medicina estetica non chirurgica"
+  },
+  {
+   "slug": "trattamento-vitiligine",
+   "titolo": "Trattamento della vitiligine",
+   "categoria": "Dermatologia"
+  },
+  {
+   "slug": "vaginoplastica-restringimento",
+   "titolo": "Vaginoplastica (restringimento canale vaginale)",
+   "categoria": "Ginecologia estetica"
+  },
+  {
+   "slug": "xantelasmi-asportazione",
+   "titolo": "Asportazione di xantelasmi palpebrali",
+   "categoria": "Dermatologia"
+  }
+ ]
+}
