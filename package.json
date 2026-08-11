@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/fix-og-image-mime.mjs && node scripts/reindirizzamenti.mjs",
+    "postbuild": "node scripts/fix-og-image-mime.mjs && node scripts/reindirizzamenti.mjs && node scripts/cname.mjs",
     "start": "next start",
     "lint": "eslint"
   },

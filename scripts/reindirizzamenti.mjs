@@ -17,7 +17,16 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUT = join(__dirname, '..', 'out')
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '/fibonacci-website'
+/* ⚠️ Terza copia della stessa regola, trovata l'11 agosto passando al dominio
+ * proprio: `next.config.ts`, `src/lib/asset-path.ts` e questo script decidevano
+ * il prefisso ognuno per conto suo, con condizioni diverse. Con il dominio
+ * acceso gli altri due lo toglievano e questo continuava a scriverlo, quindi
+ * **11 stub di reindirizzamento** mandavano a un percorso inesistente — e un
+ * reindirizzamento rotto è peggio di una pagina mancante, perché il visitatore
+ * ci arriva convinto di essere sulla strada giusta.
+ * Ora la sorgente è UNA: `NEXT_PUBLIC_DOMINIO_SITO`. */
+const dominioProprio = (process.env.NEXT_PUBLIC_DOMINIO_SITO ?? '').trim()
+const BASE = dominioProprio ? '' : (process.env.NEXT_PUBLIC_BASE_PATH ?? '/fibonacci-website')
 
 /** vecchio → nuovo. Chi non ha un nuovo posto va alla home, non a un 404. */
 const MAPPA = {

@@ -114,7 +114,15 @@ export const BILLING_URL: string = ''
 export const LEAD_API_URL: string = ''
 
 /** Dove è pubblicata la vetrina. Da spostare sul dominio proprio. */
-export const SITE_URL = 'https://firmamento-technologies.github.io/fibonacci-website'
+/* L'indirizzo canonico del sito. Segue `NEXT_PUBLIC_DOMINIO_SITO` — la STESSA
+ * variabile che in `next.config.ts` toglie il prefisso `/fibonacci-website` e
+ * che fa scrivere `out/CNAME`. Un solo interruttore per tre effetti, perché tre
+ * interruttori separati sarebbero divergiti al primo rilascio.
+ * Vuota ⇒ si resta su github.io e non cambia niente. */
+const dominio = (process.env.NEXT_PUBLIC_DOMINIO_SITO ?? '').trim()
+export const SITE_URL = dominio
+  ? `https://${dominio}`
+  : 'https://firmamento-technologies.github.io/fibonacci-website'
 
 /** Dove stanno fisicamente i dati clinici. Detto per esteso perché è una
  *  delle prime tre domande di ogni medico prudente, e perché scrivere
