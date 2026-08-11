@@ -97,6 +97,16 @@ export interface SchedaMedicoPubblica {
     numeroIscrizione: string
   }
 
+  /** La foto del medico. **Facoltativa** (decisione dell'utente, 2026-08-12).
+   *
+   * 🔑 Il suo mestiere è il **riconoscimento**, non la decorazione: NN/g chiede
+   * foto *«large enough to identify a known item»* — qui «a known item» è la
+   * persona che il paziente ha già visto in studio o su Instagram.
+   * ⛔ **Mai una foto di repertorio**: una faccia finta su una scheda sanitaria
+   * è peggio di nessuna faccia. Se manca, si mostrano le iniziali — che non
+   * fingono niente e tengono il ritmo dell'elenco. */
+  foto?: { src: string; alt: string }
+
   /** Cosa fa davvero. ⛔ Nomi delle prestazioni, mai prezzi né promesse di
    *  risultato. */
   prestazioni: readonly string[]
@@ -112,6 +122,24 @@ export interface SchedaMedicoPubblica {
  * ⚠️ Serve a costruire e collaudare la pagina **prima** che esista un cliente,
  * non a far numero. Perciò: nome che dichiara sé stesso, `esempio: true`,
  * `noindex`, fuori dal sitemap, e un avviso **in pagina**. */
+/* ⚠️ Gli orari dell'esempio si calcolano dal momento della **costruzione**.
+ *
+ * Su una pagina indicizzata sarebbe l'errore che `sitemap.ts` documenta (una
+ * data di build spacciata per un fatto), ⛔ ma qui la pagina è **`noindex` e
+ * fuori dal sitemap**, e serve a esercitare il ramo «ci sono orari» — che
+ * altrimenti nessuno guarderebbe mai, come è già successo per il ramo opposto. */
+function slotDiEsempio(): SlotPubblico[] {
+  const base = new Date()
+  base.setDate(base.getDate() + 2)
+  return [10, 11, 15].map((ora, i) => {
+    const inizio = new Date(base)
+    inizio.setHours(ora, 30, 0, 0)
+    const fine = new Date(inizio)
+    fine.setMinutes(fine.getMinutes() + 30)
+    return { id: `esempio-${i}`, inizio: inizio.toISOString(), fine: fine.toISOString() }
+  })
+}
+
 export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
   {
     slug: 'studio-dimostrativo',
@@ -142,7 +170,39 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
      * sarebbe mai stato guardato da nessuno. */
     slot: [],
   },
+  {
+    /* Il secondo esempio esiste per una ragione sola: **l'elenco con più di una
+     * voce**, e il ramo «questo studio ha orari liberi». Con un esempio solo,
+     * metà della UI non sarebbe mai stata guardata. */
+    slug: 'studio-dimostrativo-due',
+    esempio: true,
+    studio: {
+      nome: 'Secondo Studio Dimostrativo',
+      indirizzo: 'Piazza di Esempio 2',
+      comune: 'Milano (MI)',
+      telefono: '+39 000 0000001',
+      email: 'esempio2@fibonaccimedica.it',
+    },
+    medico: {
+      nome: 'Altro Nome Cognome',
+      titolo: 'Medico chirurgo',
+      ordineProvinciale: 'Milano',
+      numeroIscrizione: '00001',
+    },
+    prestazioni: ['Prima visita di medicina estetica', 'Tossina botulinica', 'Peeling'],
+    slot: slotDiEsempio(),
+  },
 ]
+
+/* La soglia sotto cui l'elenco resta nudo: niente ricerca, niente filtri.
+ *
+ * **15** (decisione dell'utente, 2026-08-12). ⚠️ Non è un numero di
+ * ottimizzazione, è un numero di **dignità**: filtrare tre risultati è teatro,
+ * e una ricerca che restituisce due nomi dice al paziente che il posto è vuoto
+ * meglio di quanto lo direbbe l'elenco stesso.
+ * Stessa logica per cui l'indice non si pubblica con tre schede
+ * ([[piano-canale-paziente-implementazione]] §P6). */
+export const SOGLIA_ELENCO = 15
 
 /** Gli studi da pubblicare. Oggi: solo gli esempi. */
 export function mediciPubblicati(): readonly SchedaMedicoPubblica[] {
@@ -157,6 +217,23 @@ export function medicoPerSlug(slug: string): SchedaMedicoPubblica | undefined {
  *  pagina, sitemap e dati strutturati non possono divergere. */
 export function percorsoMedico(slug: string): string {
   return `/pazienti/medico/${slug}`
+}
+
+/** Solo il giorno («venerdì 14 agosto»). Serve a scriverlo **una volta sola**
+ *  sopra una fila di orari, invece di ripeterlo per ogni orario: tre righe che
+ *  dicono lo stesso giorno sono tre righe da leggere per un'informazione sola.
+ *  ⚠️ Difetto visto a video il 2026-08-12 e corretto lì. */
+export function giornoInItaliano(iso: string): string {
+  return new Intl.DateTimeFormat('it-IT', {
+    weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Europe/Rome',
+  }).format(new Date(iso))
+}
+
+/** Solo l'ora («10:30»). */
+export function oraInItaliano(iso: string): string {
+  return new Intl.DateTimeFormat('it-IT', {
+    hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Rome',
+  }).format(new Date(iso))
 }
 
 /** Giorno e ora in italiano, per gli orari liberi.

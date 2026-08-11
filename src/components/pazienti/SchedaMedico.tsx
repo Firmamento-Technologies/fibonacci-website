@@ -1,5 +1,7 @@
+import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
-import { quandoInItaliano } from '@/lib/medici-pubblici'
+import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
+import { Ritratto } from '@/components/pazienti/VoceElenco'
 
 /* La scheda di un medico, lato paziente.
  *
@@ -47,14 +49,34 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
 
   return (
     <article className="gabbia" style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-55)' }}>
-      <header style={{ maxWidth: 'var(--measure)' }}>
-        <p className="text-[13px] uppercase tracking-[.08em]" style={{ color: 'var(--fg-faint)' }}>
-          {m.medico.titolo}
-        </p>
-        <h1 className="mt-[var(--s-8)] text-[length:var(--display-2)]">{m.medico.nome}</h1>
-        <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-          {m.studio.nome} · {m.studio.comune}
-        </p>
+      {/* ⚠️ Il ritorno all'elenco mancava, e su una pagina di dettaglio è la via
+          d'uscita più usata dopo il tasto indietro del telefono. */}
+      <p className="text-[15px]">
+        <Link href="/pazienti" style={COLLEGAMENTO}>
+          ← Tutti gli studi
+        </Link>
+      </p>
+
+      <header
+        style={{
+          maxWidth: 'var(--measure)',
+          marginTop: 'var(--s-21)',
+          display: 'flex',
+          gap: 'var(--s-21)',
+          alignItems: 'flex-start',
+        }}
+      >
+        {/* Foto se il medico l'ha data, iniziali se no. ⛔ Mai di repertorio. */}
+        <Ritratto m={m} grande />
+        <div style={{ minWidth: 0 }}>
+          <p className="text-[13px] uppercase tracking-[.08em]" style={{ color: 'var(--fg-faint)' }}>
+            {m.medico.titolo}
+          </p>
+          <h1 className="mt-[var(--s-8)] text-[length:var(--display-2)]">{m.medico.nome}</h1>
+          <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+            {m.studio.nome} · {m.studio.comune}
+          </p>
+        </div>
       </header>
 
       {/* ── L'iscrizione all'albo ───────────────────────────────────────────
@@ -131,19 +153,51 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
 
         {m.slot.length > 0 ? (
           <>
-            <ul className="mt-[var(--s-13)]">
+            {/* Il giorno **una volta**, poi gli orari in fila. Stessa correzione
+                fatta nella voce di elenco: la data ripetuta a ogni riga si
+                legge tre volte per un'informazione sola. */}
+            <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
+              {giornoInItaliano(m.slot[0].inizio)}
+            </p>
+            <ul
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: 'var(--s-8)',
+                marginTop: 'var(--s-8)',
+              }}
+            >
               {m.slot.map((s) => (
-                <li key={s.id} style={{ padding: 'var(--s-5) 0' }}>
-                  {quandoInItaliano(s.inizio)}
+                <li
+                  key={s.id}
+                  style={{
+                    listStyle: 'none',
+                    padding: 'var(--s-5) var(--s-13)',
+                    background: 'var(--bg-sunk)',
+                    borderRadius: 'var(--r-sm)',
+                  }}
+                >
+                  {oraInItaliano(s.inizio)}
                 </li>
               ))}
             </ul>
-            {/* ⚖️ «Richiesta», mai «prenotato»: il paziente ha accettato, lo
-                studio no — ed è lo stesso motivo per cui il sidecar crea
+            {/* 🔴 **Corretto il 2026-08-12 guardando la pagina.** Qui c'era
+                scritto *«Scegliere un orario invia una richiesta»* — ma gli
+                orari **non sono selezionabili**: il modulo di prenotazione è
+                fermo finché il gate d'emergenza non sta lato server (TD-104).
+                Era una promessa scritta di un'interazione inesistente, cioè lo
+                stesso difetto del pulsante finto, in forma di prosa.
+                ⚖️ Quando il modulo esisterà, la riga torna — e resterà
+                «richiesta», mai «prenotato»: il paziente ha accettato, lo
+                studio no, ed è la ragione per cui il sidecar crea
                 l'appuntamento in stato `pending`. */}
+            <p className="mt-[var(--s-21)]">
+              <a href={`tel:${telefonoComponibile}`} className="btn btn-primario">
+                Chiama per prenotare · {m.studio.telefono}
+              </a>
+            </p>
             <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-              Scegliere un orario invia una <strong>richiesta</strong>: è lo studio a
-              confermarla.
+              La prenotazione online da questa pagina non è ancora attiva.
             </p>
           </>
         ) : (

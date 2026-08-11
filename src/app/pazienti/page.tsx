@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
-import { mediciPubblicati, percorsoMedico } from '@/lib/medici-pubblici'
+import { VoceElenco } from '@/components/pazienti/VoceElenco'
+import { mediciPubblicati, SOGLIA_ELENCO } from '@/lib/medici-pubblici'
 
 export const metadata: Metadata = {
   title: 'Trova il tuo medico estetico e prenota',
@@ -22,10 +23,27 @@ export const metadata: Metadata = {
  * società non è ancora costituita: è lo stesso principio applicato due volte.
  * ⛔ Non si scrive «presto disponibile», che è una promessa con una data
  * implicita. */
+/* ⚠️ **Come si guarda l'elenco quando l'elenco è vuoto.**
+ * Gli esempi non contano come studi pubblicati — contarli vorrebbe dire dire al
+ * visitatore un numero falso — ma senza di loro **il ramo «ci sono medici» non
+ * lo guarderebbe mai nessuno**, che è esattamente l'errore già evitato per il
+ * ramo «nessun orario». Perciò: interruttore, **default spento**, come
+ * `semina-dati-vetrina.mjs` che si rifiuta di girare fuori da localhost.
+ *
+ *     PAZIENTI_ESEMPI=true npm run build   ⇒ l'elenco mostra gli esempi
+ *
+ * ⛔ In un rilascio normale resta spento e in pagina non compare un medico che
+ * non esiste. */
+const MOSTRA_ESEMPI = process.env.PAZIENTI_ESEMPI === 'true'
+
 export default function Page() {
-  /* Gli esempi non contano come studi pubblicati: sono materiale di collaudo.
-   * ⛔ Contarli qui vorrebbe dire dire al visitatore un numero falso. */
-  const pubblicati = mediciPubblicati().filter((m) => !m.esempio)
+  /* ⚠️ L'ordinamento è **davvero** alfabetico perché la pagina lo dichiara in
+   * fondo: una riga che promette un criterio e un elenco che ne segue un altro
+   * è una bugia piccola e gratuita. `localeCompare('it')` per le accentate. */
+  const pubblicati = mediciPubblicati()
+    .filter((m) => MOSTRA_ESEMPI || !m.esempio)
+    .slice()
+    .sort((a, b) => a.medico.nome.localeCompare(b.medico.nome, 'it'))
 
   return (
     <GuscioPaziente>
@@ -53,16 +71,30 @@ export default function Page() {
                 usa Fibonacci, l’indirizzo della sua pagina te lo può dare lui.
               </p>
             ) : (
-              <ul>
-                {pubblicati.map((m) => (
-                  <li key={m.slug} style={{ padding: 'var(--s-8) 0' }}>
-                    <Link href={percorsoMedico(m.slug)} style={COLLEGAMENTO}>
-                      {m.medico.nome}
-                    </Link>{' '}
-                    <span style={{ color: 'var(--fg-muted)' }}>— {m.studio.comune}</span>
-                  </li>
-                ))}
-              </ul>
+              <>
+                {/* ⛔ **Niente ricerca né filtri sotto i 15 studi**
+                    (`SOGLIA_ELENCO`, decisione dell'utente 2026-08-12): filtrare
+                    tre risultati è teatro, e una ricerca che ne restituisce due
+                    dice «qui non c'è nessuno» meglio dell'elenco stesso.
+                    Sopra la soglia entrano — NN/g mette le sotto-categorie
+                    **sopra** l'elenco, separate dai filtri. */}
+                {pubblicati.length >= SOGLIA_ELENCO && (
+                  <p className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                    {pubblicati.length} studi.
+                  </p>
+                )}
+                <ul style={{ marginTop: 'var(--s-8)' }}>
+                  {pubblicati.map((m) => (
+                    <VoceElenco key={m.slug} m={m} />
+                  ))}
+                </ul>
+                {/* ⚖️ L'ordine si dichiara **sempre**, anche quando è banale: è
+                    il contrario esatto del badge «In evidenza», che è posizione
+                    in vendita. Qui non lo è, e va detto in pagina. */}
+                <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
+                  In ordine alfabetico. Nessuno può pagare per comparire più in alto.
+                </p>
+              </>
             )}
           </Sezione>
 
