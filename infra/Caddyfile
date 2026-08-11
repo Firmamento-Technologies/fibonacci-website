@@ -1,0 +1,53 @@
+# Fibonacci — vetrina statica su fibonaccimedica.it
+#
+# Il sito e' `output: 'export'` di Next: file statici, nessun runtime. Caddy li
+# serve e prende il certificato da solo (ACME) appena il DNS punta qui.
+#
+# ⚠️ Finche' il record A di fibonaccimedica.it non e' 188.213.175.26, Caddy
+# NON riesce a emettere il certificato: e' atteso, riprova da solo, e il sito
+# resta raggiungibile su GitHub Pages nel frattempo.
+
+fibonaccimedica.it, www.fibonaccimedica.it {
+	root * /var/www/fibonaccimedica
+	encode gzip zstd
+
+	# Il sito e' costruito con `trailingSlash: true`: ogni pagina e' una
+	# cartella con dentro index.html. Senza questa riga /prezzi/ darebbe 404.
+	try_files {path} {path}/index.html {path}.html
+	file_server
+
+	# Pagina 404 del sito invece di quella nuda di Caddy.
+	handle_errors {
+		@notfound expression {err.status_code} == 404
+		rewrite @notfound /404.html
+		file_server
+	}
+
+	# Intestazioni di sicurezza. Sono poche e tutte giustificate: il sito non
+	# ha login ne' dati, quindi non serve altro.
+	header {
+		# HSTS: un anno. ⚠️ Da NON mettere prima che il certificato funzioni,
+		# altrimenti un browser che ha visto l'intestazione si rifiuta di
+		# aprire il sito in HTTP anche se il TLS si rompe.
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Frame-Options "SAMEORIGIN"
+		# Toglie l'intestazione che annuncia il server.
+		-Server
+	}
+
+	# Gli asset con impronta nel nome sono immutabili: si possono tenere a
+	# lungo. L'HTML no, o un aggiornamento non si vedrebbe.
+	@immutabili path /_next/static/*
+	header @immutabili Cache-Control "public, max-age=31536000, immutable"
+	@html path *.html /
+	header @html Cache-Control "public, max-age=0, must-revalidate"
+
+	log {
+		output file /var/log/caddy/fibonaccimedica.log {
+			roll_size 10MiB
+			roll_keep 5
+		}
+	}
+}
