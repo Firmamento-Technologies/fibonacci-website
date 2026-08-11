@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { SOCIETA } from '@/lib/site-config'
 
@@ -50,15 +51,16 @@ export function GuscioPaziente({
         </div>
       )}
 
-      {/* ⚠️ **Nessun collegamento, per ora, ed è deliberato.** La pagina
-          iniziale del lato paziente e «Che cos'è questo sito» sono due delle
-          sei pagine di TD-95 e **non esistono ancora**: un marchio cliccabile
-          che porta a un 404 è peggio di un marchio fermo, e un collegamento
-          alla vetrina manderebbe un paziente su un'offerta di software.
-          ⛔ Non aggiungere qui una voce prima che la sua pagina esista. */}
+      {/* ✅ Il marchio torna cliccabile: `/pazienti` **ora esiste**. La regola
+          resta — ⛔ non si aggiunge qui una voce prima che la sua pagina esista,
+          perché un marchio che porta a un 404 è peggio di un marchio fermo — e
+          ⛔ non si collega alla vetrina, che manderebbe un paziente su
+          un'offerta di software. */}
       <header style={{ padding: 'var(--s-21) 0' }}>
         <div className="gabbia flex items-center gap-[var(--s-13)]">
-          <Logo />
+          <Link href="/pazienti" aria-label="Trova un medico, pagina iniziale">
+            <Logo />
+          </Link>
         </div>
       </header>
 

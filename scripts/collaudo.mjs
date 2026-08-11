@@ -119,6 +119,8 @@ const PAGINE = [
      costruiscono tutte le altre, ed è esattamente il caso in cui «non è
      indicizzata» diventerebbe la scusa per non controllarla. */
   '/pazienti/medico/studio-dimostrativo',
+  '/pazienti', '/pazienti/verificare-un-medico', '/pazienti/prima-di-un-trattamento',
+  '/pazienti/consenso-informato', '/pazienti/privacy',
   ...GUIDE,
 ]
 

@@ -46,6 +46,14 @@ const REVISIONE: Record<string, string> = {
   '/intelligenza-artificiale': '2026-08-07',
   '/chi-siamo': '2026-08-07',
   '/documentazione': '2026-08-07',
+  /* Il lato paziente (TD-95). ⚠️ Le schede dei medici NON stanno qui: la loro
+     data è `Organization.meta.lastUpdated`, che è una data vera, e gli esempi
+     restano fuori dal sitemap perché sono `noindex`. */
+  '/pazienti': '2026-08-12',
+  '/pazienti/verificare-un-medico': '2026-08-12',
+  '/pazienti/prima-di-un-trattamento': '2026-08-12',
+  '/pazienti/consenso-informato': '2026-08-12',
+  '/pazienti/privacy': '2026-08-12',
 }
 
 /** Default per le pagine non elencate sopra (guide e documenti legali). */
@@ -80,6 +88,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     pagina('/intelligenza-artificiale', 0.6),
     pagina('/chi-siamo', 0.6),
     pagina('/documentazione', 0.5),
+    /* Lato paziente. `/pazienti` sta a 0.8 e non a 1: la pagina che deve
+       posizionarsi è **quella del medico**, non l'indice. Le tre pagine di
+       fiducia stanno alte perché sono l'unico contenuto che possiamo
+       pubblicare e i nostri clienti no. */
+    pagina('/pazienti', 0.8),
+    pagina('/pazienti/verificare-un-medico', 0.7),
+    pagina('/pazienti/prima-di-un-trattamento', 0.7),
+    pagina('/pazienti/consenso-informato', 0.7),
+    pagina('/pazienti/privacy', 0.3),
     ...DOCS.map((d) => pagina(`/documentazione/${d.slug}`, 0.4)),
     ...LEGAL_DOCS.map((d) => pagina(`/${d.slug}`, 0.3)),
   ]
