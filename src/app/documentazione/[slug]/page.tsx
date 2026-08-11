@@ -64,8 +64,15 @@ export default async function Guida({ params }: { params: Promise<{ slug: string
             )}
           </nav>
 
+          {/* ⚠️ Fino al 2026-08-12 questo collegamento portava a
+            * `/richiedi-una-demo`: un **modulo commerciale** proposto a chi sta
+            * leggendo il manuale, cioe' a chi ha gia' comprato. Chi cerca come
+            * si fa una cosa non vuole essere venduto — vuole la risposta.
+            * Ora porta all'assistente, che legge queste stesse pagine e dice
+            * quali ha usato; l'indirizzo per scriverci sta nel testo delle
+            * guide, risolto da `{EMAIL_SUPPORTO}`. */}
           <p className="mt-[var(--s-34)]">
-            <Link href="/richiedi-una-demo" className="link-avanti">Non trovi quello che cerchi? Chiedilo a noi<Freccia /></Link>
+            <Link href="/domande" className="link-avanti">Non trovi quello che cerchi? Chiedilo all’assistente<Freccia /></Link>
           </p>
         </div>
       </main>
