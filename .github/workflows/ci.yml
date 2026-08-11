@@ -21,6 +21,13 @@ jobs:
         run: npm run lint
       - name: Build Next.js
         run: npm run build
+      # Il gate vero è dentro `postbuild`, che rifiuta di scrivere un corpus
+      # rotto e fa fallire la build ovunque venga costruita. Questo passo esiste
+      # perché quel cablaggio si può togliere: è successo per undici giorni a
+      # `verifica-guide.py`, e allo script del corpus, che è vissuto costruito e
+      # non chiamato. Costa un secondo e nomina il guasto nella CI.
+      - name: Corpus dell'assistente
+        run: node scripts/corpus-assistente.mjs --verifica
       - name: Verify static export size
         run: |
           # Warning se bundle > 5MB
