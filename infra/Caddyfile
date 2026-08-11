@@ -59,3 +59,66 @@ fibonaccimedica.it, www.fibonaccimedica.it {
 		}
 	}
 }
+
+# ── L'applicazione ────────────────────────────────────────────────────────────
+#
+# Un solo host per tre cose, e non e' una scorciatoia: gli indirizzi sono
+# COTTI DENTRO il bundle al momento della build (`VITE_MEDPLUM_BASE_URL`,
+# `VITE_PDF_SIGNER_URL` sono build args, non variabili di runtime). Quindi
+# questo blocco non e' libero di instradare come gli pare: deve corrispondere
+# a cio' che il JavaScript gia' costruito chiedera'. Misurato dentro
+# l'immagine: `/api/` e `/pdf/...`.
+#
+# Il vantaggio di tenerli sullo stesso host e' che il browser non fa nessuna
+# richiesta cross-origin: niente preflight CORS, niente cookie di terze parti.
+app.fibonaccimedica.it {
+	encode gzip zstd
+
+	# ── L'API FHIR (Medplum) ──────────────────────────────────────────────
+	# Il bundle chiama https://app.fibonaccimedica.it/api/fhir/R4/... e
+	# Medplum si aspetta /fhir/R4/... : il prefisso va TOLTO, non inoltrato.
+	handle_path /api/* {
+		reverse_proxy 127.0.0.1:8103
+	}
+
+	# ── Il sidecar dei PDF e delle foto ───────────────────────────────────
+	# Stessa logica: /pdf/photo/erase → /photo/erase.
+	# ⚠️ Qui passano immagini cliniche cifrate e PDF firmati: il corpo puo'
+	# essere grande, quindi niente limite piu' stretto del necessario.
+	handle_path /pdf/* {
+		reverse_proxy 127.0.0.1:8201
+	}
+
+	# ── L'applicazione vera e propria ─────────────────────────────────────
+	# nginx dentro il container gestisce gia' il fallback su index.html
+	# (e' una SPA: ogni percorso deve tornare l'index o un ricaricamento su
+	# /pazienti/123 darebbe 404).
+	handle {
+		reverse_proxy 127.0.0.1:8091
+	}
+
+	# ── Intestazioni ──────────────────────────────────────────────────────
+	# Piu' severe di quelle della vetrina, perche' qui c'e' una sessione.
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		# ⛔ DENY e non SAMEORIGIN: una cartella clinica non va incorniciata
+		# da nessuno, nemmeno da un'altra pagina dello stesso sito.
+		X-Frame-Options "DENY"
+		# Il browser non deve mai tenere in cache una risposta autenticata.
+		Cache-Control "no-store"
+		-Server
+	}
+
+	# Gli asset con impronta nel nome sono l'eccezione: immutabili.
+	@immutabili path /assets/*
+	header @immutabili Cache-Control "public, max-age=31536000, immutable"
+
+	log {
+		output file /var/log/caddy/app-fibonaccimedica.log {
+			roll_size 10MiB
+			roll_keep 5
+		}
+	}
+}
