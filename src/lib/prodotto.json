@@ -1,0 +1,77 @@
+{
+ "generato": "node scripts/prodotto.mjs",
+ "durate": [
+  {
+   "codice": "tossina-bot",
+   "nome": "Tossina botulinica di tipo A",
+   "meseMin": 4,
+   "meseMax": 6,
+   "fonte": "Ripetibile ogni 4-6 mesi."
+  },
+  {
+   "codice": "filler-ha",
+   "nome": "Filler ad acido ialuronico",
+   "meseMin": 6,
+   "meseMax": 18,
+   "fonte": "Durata indicativa 6-18 mesi in funzione del prodotto, dell"
+  },
+  {
+   "codice": "biostim-pllla",
+   "nome": "Biostimolatore (acido poli-L-lattico)",
+   "meseMin": 18,
+   "meseMax": 24,
+   "fonte": "Durata 18-24 mesi."
+  }
+ ],
+ "sezioni": [
+  {
+   "id": "riepilogo",
+   "titolo": "Riepilogo",
+   "dentro": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "anamnesi",
+   "titolo": "Anamnesi",
+   "dentro": [
+    "anamnesi",
+    "prom"
+   ]
+  },
+  {
+   "id": "cure",
+   "titolo": "Cure",
+   "dentro": [
+    "visite",
+    "trattamenti",
+    "piani",
+    "prescrizioni",
+    "esami"
+   ]
+  },
+  {
+   "id": "immagini",
+   "titolo": "Foto",
+   "dentro": [
+    "foto"
+   ]
+  },
+  {
+   "id": "documenti",
+   "titolo": "Documenti",
+   "dentro": [
+    "documenti",
+    "consensi"
+   ]
+  },
+  {
+   "id": "dati",
+   "titolo": "Dati e persone",
+   "dentro": [
+    "anagrafica",
+    "equipe"
+   ]
+  }
+ ]
+}

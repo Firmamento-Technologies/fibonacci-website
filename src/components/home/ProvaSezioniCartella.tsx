@@ -1,0 +1,103 @@
+'use client'
+
+/* Cosa c'è dentro una cartella, sezione per sezione.
+ *
+ * ── PERCHÉ SOSTITUISCE `cartella-paziente.png` ──────────────────────────────
+ * Quella schermata era la cartella INTERA, ed è la stessa immagine che stava
+ * nel primo schermo: rimpicciolita non si legge un carattere, e la ricerca del
+ * 7 agosto l'aveva già bocciata per quello. Ma la domanda vera davanti a una
+ * cartella clinica non è «com'è fatta»: è **«dove finisce quello che scrivo?»**.
+ * Sei sezioni, tredici posti. Si tocca una sezione e si vede cosa contiene.
+ *
+ * ⚖️ È la mappa vera: `sezioni-cartella.ts` non elenca sezioni a mano, le
+ * costruisce dal **registro dei moduli** — quindi ciò che si vede qui è ciò che
+ * il medico trova in barra, non una brochure. `parita-prodotto.mjs` diventa
+ * rosso se un tab cambia sezione.
+ *
+ * ⚠️ «Dati e persone» sta fuori dalla barra anche nel prodotto (si raggiunge
+ * dall'intestazione): qui è nell'elenco perché è comunque parte della cartella,
+ * e nasconderlo darebbe l'idea che l'anagrafica non ci sia.
+ */
+
+import { useState } from 'react'
+import dati from '@/lib/prodotto.json'
+
+type Sezione = { id: string; titolo: string; dentro: string[] }
+const SEZIONI = dati.sezioni as Sezione[]
+
+/* I nomi dei tab come li legge il medico. ⚠️ Sono etichette di VETRINA: nel
+ * prodotto stanno in `i18n`, e replicarne il file qui sarebbe una terza copia
+ * da tenere allineata. Qui basta che siano comprensibili e veri — il presidio
+ * confronta gli **identificativi**, che sono il dato, non queste parole. */
+const NOME: Record<string, string> = {
+  timeline: 'Cronologia',
+  anamnesi: 'Anamnesi',
+  prom: 'Questionari alla paziente',
+  visite: 'Visite',
+  trattamenti: 'Trattamenti',
+  piani: 'Piani di cura',
+  prescrizioni: 'Prescrizioni',
+  esami: 'Esami',
+  foto: 'Foto',
+  documenti: 'Documenti',
+  consensi: 'Consensi',
+  anagrafica: 'Anagrafica',
+  equipe: 'Équipe',
+}
+
+export function ProvaSezioniCartella() {
+  const [aperta, setAperta] = useState<string | null>(null)
+  const s = SEZIONI.find((x) => x.id === aperta) ?? null
+  const totale = SEZIONI.reduce((n, x) => n + x.dentro.length, 0)
+
+  return (
+    <div className="prova-catalogo" data-testid="prova-sezioni-cartella">
+      <p className="prova-viso__invito">
+        <strong>Provalo qui.</strong> {SEZIONI.length} sezioni, {totale} posti dove finisce
+        quello che scrivi. Toccane una.
+      </p>
+
+      <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label="Sezioni della cartella">
+        {SEZIONI.map((x) => (
+          <button
+            key={x.id}
+            type="button"
+            onClick={() => setAperta(aperta === x.id ? null : x.id)}
+            aria-pressed={aperta === x.id}
+            className={`prova-viso__pillola${aperta === x.id ? ' e-scelta' : ''}`}
+          >
+            {x.titolo}
+          </button>
+        ))}
+      </div>
+
+      <div className="prova-catalogo__esito" aria-live="polite">
+        {!s && (
+          <p className="prova-viso__vuoto">
+            Nessuna cartella «a campo libero»: ogni cosa ha il suo posto, e da lì si ritrova
+            otto mesi dopo.
+          </p>
+        )}
+        {s && (
+          <>
+            <p className="prova-catalogo__titolo" style={{ fontWeight: 600 }}>
+              {s.titolo}
+            </p>
+            <ul className="prova-catalogo__lista">
+              {s.dentro.map((t) => (
+                <li key={t}>
+                  <span className="prova-catalogo__titolo">{NOME[t] ?? t}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </div>
+
+      <p className="prova-viso__didascalia">
+        È la mappa vera dell’applicazione: le sezioni non sono scritte a mano, le costruisce
+        il registro dei moduli. Quello che vedi qui è quello che il medico trova in barra.
+      </p>
+    </div>
+  )
+}

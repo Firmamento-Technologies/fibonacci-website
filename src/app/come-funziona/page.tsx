@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
 import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Schermata, Foto, Freccia } from '@/components/ui/elementi'
+import { ProvaSezioniCartella } from '@/components/home/ProvaSezioniCartella'
+import { ProvaCatalogoConsensi } from '@/components/home/ProvaCatalogoConsensi'
+import { ProvaDurate } from '@/components/home/ProvaDurate'
 import { DEMO_URL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
@@ -36,7 +39,10 @@ const PASSI = [
     titolo: 'L’anamnesi si scrive mentre parli',
     testo:
       'Detti, e i campi si riempiono. Le allergie compaiono in cima alla cartella con un banner che non si può non vedere: è il posto in cui una lidocaina dimenticata smette di essere un rischio.',
-    schermata: '/schermate/cartella-paziente.png',
+    /* 🔄 Era la cartella INTERA — la stessa immagine bocciata nel primo
+       schermo perché a quella dimensione non si legge. La domanda vera non è
+       «com'è fatta» ma «dove finisce quello che scrivo». */
+    prova: 'sezioni',
     alt: 'La cartella di una paziente in Fibonacci con il banner rosso delle allergie in evidenza e la cronologia delle sedute.',
   },
   {
@@ -45,7 +51,7 @@ const PASSI = [
     titolo: 'Il modulo giusto, non il modulo unico',
     testo:
       'Scegli la procedura e il modulo esce con i rischi, le alternative e l’esito atteso di quella procedura. La paziente firma sul tablet, tu controfirmi, e il documento è archiviato prima che si alzi.',
-    schermata: '/schermate/catalogo-consensi.png',
+    prova: 'catalogo',
     alt: 'Il catalogo dei consensi di Fibonacci, con i modelli raggruppati per categoria.',
   },
   {
@@ -54,7 +60,9 @@ const PASSI = [
     titolo: 'Dove, quanto, con che lotto',
     testo:
       'Le aree si segnano sulla mappa. Prodotto, unità e lotto restano legati alla seduta, e al controllo di due mesi dopo sono ancora lì.',
-    schermata: '/schermate/trattamenti.png',
+    /* 🔄 La cosa che una figura non può mostrare: da DOVE viene la data del
+       richiamo — dalla frase del consenso, non da una tabella nostra. */
+    prova: 'durate',
     alt: "L'elenco dei trattamenti di una paziente: prodotto e unità nel titolo di ogni seduta, la data, e la nota tecnica del medico — diluizione, numero di punti, reazioni.",
   },
   {
@@ -103,7 +111,15 @@ export default function ComeFunziona() {
                       {p.testo}
                     </p>
                   </div>
-                  <Schermata file={p.schermata} alt={p.alt} className={i % 2 === 1 ? 'lg:order-1' : ''} />
+                  {'prova' in p ? (
+                    <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
+                      {p.prova === 'sezioni' && <ProvaSezioniCartella />}
+                      {p.prova === 'catalogo' && <ProvaCatalogoConsensi />}
+                      {p.prova === 'durate' && <ProvaDurate />}
+                    </div>
+                  ) : (
+                    <Schermata file={p.schermata} alt={p.alt} className={i % 2 === 1 ? 'lg:order-1' : ''} />
+                  )}
                 </div>
               </Reveal>
             ))}

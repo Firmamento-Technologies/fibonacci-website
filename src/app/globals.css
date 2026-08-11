@@ -799,6 +799,29 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 }
 .prova-catalogo__nulla { font-size: 13px; line-height: 1.6; color: var(--fg-muted); }
 
+/* ── Durate: il numero e la sua fonte ────────────────────────────────── */
+.prova-durate__quando { font-size: 15px; color: var(--fg); }
+.prova-durate__quando span { color: var(--fg-muted); }
+/* La citazione è la parte che conta: si stacca dal resto con un filetto
+   d'accento, come le note a margine del sito. */
+.prova-durate__fonte {
+  margin: var(--s-13) 0 0;
+  padding-left: var(--s-13);
+  border-left: 2px solid var(--accent);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--fg);
+}
+.prova-durate__fonte cite {
+  display: block;
+  margin-top: var(--s-5);
+  font-style: normal;
+  font-size: 12px;
+  color: var(--fg-faint);
+}
+/* Sei pillole non stanno su una riga sola su telefono. */
+.prova-sezioni__pillole { flex-wrap: wrap; }
+
 .prova-viso__didascalia {
   margin-top: var(--s-13);
   padding-top: var(--s-8);

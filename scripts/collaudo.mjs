@@ -21,6 +21,7 @@ import { PERCORSI_CHE_CAMBIANO_LA_RESA } from './ancora-emr.mjs'
 import { paritaMappaViso } from './parita-viso.mjs'
 import { paritaCatalogo } from './parita-catalogo.mjs'
 import { paritaFarmaci } from './parita-farmaci.mjs'
+import { paritaProdotto } from './parita-prodotto.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -647,6 +648,7 @@ async function main() {
   paritaMappaViso(problemi, (m) => console.log(giallo('\n' + m)))
   paritaCatalogo(problemi, (m) => console.log(giallo('\n' + m)))
   paritaFarmaci(problemi, (m) => console.log(giallo('\n' + m)))
+  paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
 
   if (problemi.length) {
     console.log(rosso(`\n${problemi.length} problemi:`))
