@@ -114,6 +114,11 @@ const PAGINE = [
      per cui i difetti del 7 agosto erano rimasti in piedi per settimane. */
   '/che-software-serve', '/autovalutazione', '/integrazioni',
   '/per-le-societa-scientifiche',
+  /* Il lato paziente (TD-95). ⚠️ La scheda di esempio è `noindex` e fuori dal
+     sitemap **di proposito**, ma va comunque collaudata: è la pagina su cui si
+     costruiscono tutte le altre, ed è esattamente il caso in cui «non è
+     indicizzata» diventerebbe la scusa per non controllarla. */
+  '/pazienti/medico/studio-dimostrativo',
   ...GUIDE,
 ]
 
