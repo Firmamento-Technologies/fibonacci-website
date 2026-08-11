@@ -118,6 +118,16 @@ app.fibonaccimedica.it {
 		X-Frame-Options "DENY"
 		# Il browser non deve mai tenere in cache una risposta autenticata.
 		Cache-Control "no-store"
+		# ── CSP ───────────────────────────────────────────────────────────
+		# ⚠️ MANCAVA, e non era una svista qualsiasi: la sessione dell'app vive
+		# in `localStorage` (TD-13), quindi la CSP e' cio' che sta fra un XSS e
+		# il token. Il progetto ne aveva gia' una in `EMR/infra/Caddyfile`; il
+		# blocco scritto stasera per questo host non l'aveva copiata.
+		# 🔑 Qui e' PIU' STRETTA dell'originale: quella prevedeva sottodomini
+		# separati (api./pdf./transcriber.) e doveva elencarli in connect-src.
+		# Servendo tutto da un host solo con i percorsi, basta 'self'.
+		# `'wasm-unsafe-eval'` serve a mediapipe (la mappa del viso).
+		Content-Security-Policy "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' data:; img-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' wss://app.fibonaccimedica.it; frame-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; worker-src 'self' blob:; object-src 'none'; media-src 'self' blob:"
 		-Server
 	}
 
