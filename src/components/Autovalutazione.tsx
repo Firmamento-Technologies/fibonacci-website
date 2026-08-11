@@ -153,7 +153,7 @@ export function Autovalutazione() {
 
   return (
     <div>
-      <p className="text-[15px]" style={{ color: 'var(--fg-faint)' }}>
+      <p className="passo text-[15px]" style={{ color: 'var(--fg-faint)' }}>
         Le risposte restano in questa pagina: non vengono inviate, non vengono salvate e non
         servono a profilarti. Se ricarichi, si perdono.
       </p>
@@ -168,7 +168,12 @@ export function Autovalutazione() {
               ref={(el) => {
                 gruppiRef.current[d.id] = el
               }}
-              className="py-[var(--s-21)]"
+              /* `passo`: sul telefono una domanda per schermata. Le otto
+                 insieme facevano 2.347px su 721 utili — si rispondeva
+                 scorrendo alla cieca. Resta UN modulo solo, quindi `calcola()`
+                 e il salto alla prima risposta mancante funzionano come
+                 prima; su desktop la classe è inerte e l'elenco è quello. */
+              className="passo py-[var(--s-21)]"
               style={{ borderTop: '1px solid var(--rule)' }}
               aria-describedby={d.aiuto ? idAiuto : undefined}
             >

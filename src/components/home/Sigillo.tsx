@@ -32,6 +32,10 @@ export function Sigillo() {
       <div className="gabbia">
         <div className="aurea">
           <div>
+            {/* Anche la prima metà è un passo: se lo è solo la seconda, la
+                prima resta «fuori dai passi» e sul telefono si legge insieme
+                a un pezzo della seconda. */}
+            <div className="passo">
             <Occhiello chiaro>Il sigillo</Occhiello>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
               Una cartella si contesta dicendo che è stata{' '}
@@ -50,12 +54,21 @@ export function Sigillo() {
                 anelli già chiusi. Toccare una virgola di sei mesi fa vuol dire spezzare tutti gli
                 anelli successivi, e la rottura si vede.
               </p>
-              <p style={{ color: 'var(--on-ink)' }}>
-                La parte che conta: il controllo lo può fare chiunque, non noi. Il verificatore è
-                una pagina pubblica, senza registrazione. Vale come prova proprio perché funziona
-                anche contro di noi.
-              </p>
             </div>
+            </div>
+
+            {/* ⚠️ Da qui è un passo a sé sul telefono: la colonna intera faceva
+                856px su 755 utili. Il taglio non è a caso — sopra c'è COME
+                funziona la catena, qui PERCHÉ vale come prova (lo verifica
+                chiunque, anche contro di noi) e cosa fare per provarlo. Sono
+                due affermazioni diverse, e separate si leggono meglio.
+                Su desktop la colonna resta una. */}
+            <div className="passo">
+            <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink)' }}>
+              La parte che conta: il controllo lo può fare chiunque, non noi. Il verificatore è
+              una pagina pubblica, senza registrazione. Vale come prova proprio perché funziona
+              anche contro di noi.
+            </p>
 
             <div className="mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
               <Link href="/verifica" className="btn btn-primario">
@@ -71,6 +84,7 @@ export function Sigillo() {
               Non è una firma elettronica qualificata: quella arriverà, e finché non c&apos;è non la
               scriviamo da nessuna parte.
             </p>
+            </div>
           </div>
 
           {/* La catena. Gli anelli si collegano uno dopo l'altro quando la
@@ -195,6 +209,7 @@ export function Chiusura() {
       <div className="gabbia">
         <div className="aurea">
           <div>
+            <div className="passo">
             <Occhiello>Il passo dopo</Occhiello>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '15ch' }}>
               Mezz&apos;ora, e capisci se fa per te
@@ -211,7 +226,8 @@ export function Chiusura() {
               className="mt-[var(--s-34)]"
             />
 
-            <dl className="mt-[var(--s-34)]" style={{ color: 'var(--fg-muted)' }}>
+            </div>
+            <dl className="passo mt-[var(--s-34)]" style={{ color: 'var(--fg-muted)' }}>
               {[
                 ['Chi chiama', 'Una persona che il prodotto lo ha costruito, non un venditore.'],
                 ['Cosa serve', 'Sapere che procedure fai e con che gestionale lavori oggi.'],

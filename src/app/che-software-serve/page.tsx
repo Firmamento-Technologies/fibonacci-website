@@ -136,7 +136,7 @@ export default function CheSoftwareServe() {
           style={c.noi ? { background: 'var(--accent-wash)' } : undefined}
         >
           <div className="gabbia gabbia-stretta">
-            <Reveal>
+            <Reveal className="passo">
               {c.noi && <Occhiello>Qui stiamo noi</Occhiello>}
               <h2
                 className="text-[length:var(--display-2)]"
@@ -149,7 +149,11 @@ export default function CheSoftwareServe() {
               </p>
             </Reveal>
 
-            <Reveal>
+            {/* Due passi: «che cos'è e cosa fa», poi «quando basta e quando
+                no». Sul telefono la categoria intera faceva 785-878px su 721
+                utili, e sono due domande diverse — separarle è anche più
+                chiaro che tenerle insieme. */}
+            <Reveal className="passo">
               <ul className="mt-[var(--s-34)]">
                 {c.fa.map((f) => (
                   <li
@@ -163,7 +167,7 @@ export default function CheSoftwareServe() {
               </ul>
             </Reveal>
 
-            <Reveal>
+            <Reveal className="passo">
               <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
                 <div>
                   <h3 className="text-[1.0625rem]">Basta, se</h3>

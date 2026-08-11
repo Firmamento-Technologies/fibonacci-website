@@ -33,7 +33,7 @@ export function Problema() {
     <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
       <div className="gabbia">
         <div className="aurea">
-          <Reveal>
+          <Reveal className="passo">
             <Foto
               nome="cartella-a-mano"
               alt="Le mani di un medico che compila a penna un modulo su una cartellina, con le mani della paziente appoggiate al tavolo dall'altra parte."
@@ -43,14 +43,14 @@ export function Problema() {
           </Reveal>
 
           <div>
-            <Reveal>
+            <Reveal className="passo">
               <Occhiello>Perché esistiamo</Occhiello>
               <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                 Nessuno apre uno studio per fare l&apos;<span className="accento-corsivo">archivista</span>
               </h2>
             </Reveal>
 
-            <RevealGruppo className="mt-[var(--s-34)]">
+            <RevealGruppo className="passo mt-[var(--s-34)]">
               {SERE.map((s, i) => (
                 <RevealFiglio key={s.titolo}>
                   <div
@@ -106,7 +106,7 @@ export function Procedure() {
   return (
     <section className="fascia">
       <div className="gabbia">
-        <Reveal>
+        <Reveal className="passo">
           <div className="flex flex-wrap items-end justify-between gap-[var(--s-21)]">
             <div>
               <Occhiello>Per chi è</Occhiello>
@@ -123,7 +123,7 @@ export function Procedure() {
 
         <RevealGruppo className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-3" passo={0.1}>
           {PROCEDURE.map((p) => (
-            <RevealFiglio key={p.nome}>
+            <RevealFiglio key={p.nome} className="passo">
               <Foto nome={p.nome} alt={p.alt} proporzione="3 / 4" didascalia={p.didascalia} />
             </RevealFiglio>
           ))}
@@ -361,7 +361,7 @@ export function Prove() {
   return (
     <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
       <div className="gabbia">
-        <Reveal>
+        <Reveal className="passo">
           <TestaSezione
             occhiello="Come si controlla"
             titolo="Non chiediamo di fidarsi"
@@ -371,7 +371,7 @@ export function Prove() {
 
         <RevealGruppo className="mt-[var(--s-55)] grid gap-[var(--s-21)] md:grid-cols-3">
           {PROVE.map((p) => (
-            <RevealFiglio key={p.titolo}>
+            <RevealFiglio className="passo" key={p.titolo}>
               <div className="foglio flex h-full flex-col" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
                 <h3 className="text-[1.3rem]">{p.titolo}</h3>
                 <p className="mt-[var(--s-13)] flex-1 text-[15px]" style={{ color: 'var(--fg-muted)' }}>

@@ -143,7 +143,11 @@ export function SchedePiani() {
 
       <RevealGruppo className="grid gap-[var(--s-21)] md:grid-cols-3" passo={0.1}>
         {PIANI.map((p) => (
-          <RevealFiglio key={p.nome}>
+          /* `passo`: sul telefono ogni piano prende una schermata (vedi
+             `.tappa .passo` in globals.css). Su desktop la classe è inerte e
+             le tre colonne restano affiancate — che è l'unico modo per
+             confrontarle. */
+          <RevealFiglio key={p.nome} className="passo">
             <div
               className="relative flex h-full flex-col"
               style={{
@@ -213,7 +217,10 @@ export function ListinoSintesi() {
   return (
     <section className="fascia" id="prezzi" style={{ background: 'var(--bg-sunk)' }}>
       <div className="gabbia">
-        <Reveal>
+        {/* `passo`: sul telefono l'insegna prende una schermata sua invece di
+            stare sopra il primo piano (erano 438px orfani, cioè la prima
+            schermata mostrava titolo + un pezzo del primo piano). */}
+        <Reveal className="passo">
           <div className="text-center" style={{ maxWidth: '40rem', marginInline: 'auto' }}>
             <p className="occhiello" style={{ justifyContent: 'center' }}>Prezzi</p>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]">

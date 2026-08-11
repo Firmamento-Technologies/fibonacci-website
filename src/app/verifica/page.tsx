@@ -46,13 +46,15 @@ export default function Verifica() {
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
-          <Occhiello>Che cosa dimostra, e che cosa no</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-            Due cose diverse che spesso vengono confuse
-          </h2>
+          <div className="passo">
+            <Occhiello>Che cosa dimostra, e che cosa no</Occhiello>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
+              Due cose diverse che spesso vengono confuse
+            </h2>
+          </div>
 
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
-            <div className="foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
+            <div className="passo foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
               <p className="numero" style={{ color: 'var(--accent)' }}>ATTIVO OGGI</p>
               <h3 className="mt-[var(--s-13)] text-[1.3rem]">La catena di impronte</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
@@ -66,7 +68,7 @@ export default function Verifica() {
               </p>
             </div>
 
-            <div className="foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
+            <div className="passo foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
               <p className="numero">NON ANCORA</p>
               <h3 className="mt-[var(--s-13)] text-[1.3rem]">La firma qualificata</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>

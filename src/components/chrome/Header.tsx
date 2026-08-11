@@ -60,7 +60,14 @@ export function Header() {
       }}
     >
       <div className="gabbia">
-        <div className="flex items-center justify-between" style={{ height: 'var(--s-89)' }}>
+        {/* ⚠️ L'altezza passa da una variabile perché su telefono è diversa:
+            89px erano il 12% di una schermata da 812, tolti a OGNI passo del
+            percorso. A 55 il logo (34px) e il pulsante ci stanno comodi.
+            ⛔ `--h-barra` e `--h-intestazione` in `globals.css` sono una
+            coppia: il secondo è il primo più il filetto. Se cambia uno,
+            cambia l'altro — e il presidio legge `--h-intestazione`, quindi
+            una modifica sbagliata si vede subito. */}
+        <div className="flex items-center justify-between" style={{ height: 'var(--h-barra)' }}>
           <Link href="/" className="flex items-center gap-[var(--s-13)]" aria-label="Fibonacci, home">
             <Logo />
           </Link>

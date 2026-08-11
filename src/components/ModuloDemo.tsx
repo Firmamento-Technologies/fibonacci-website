@@ -266,7 +266,12 @@ export function ModuloDemo({
 }
 
 const campoStile: React.CSSProperties = {
-  padding: '11px 13px',
+  /* ⚠️ Il margine verticale passa da una variabile perché su telefono un
+     modulo di quattro campi è arrivato a 797px su 755 utili: 3px per campo
+     sopra e sotto, per quattro campi più il selettore, sono i ~40px che
+     mancavano. Il bersaglio resta ben oltre i 24×24px di WCAG 2.2 SC 2.5.8 —
+     il campo è alto 40px anche a 8. */
+  padding: 'var(--pad-campo, 11px) 13px',
   border: '1px solid var(--rule-strong)',
   borderRadius: 'var(--r)',
   background: 'var(--paper)',

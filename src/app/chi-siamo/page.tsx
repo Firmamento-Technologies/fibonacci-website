@@ -91,13 +91,15 @@ export default function ChiSiamo() {
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
-          <Occhiello>Come lavoriamo</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-            Quattro regole che ci siamo dati
-          </h2>
+          <div className="passo">
+            <Occhiello>Come lavoriamo</Occhiello>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
+              Quattro regole che ci siamo dati
+            </h2>
+          </div>
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
             {PRINCIPI.map((p) => (
-              <Reveal key={p.titolo}>
+              <Reveal key={p.titolo} className="passo">
                 <div className="foglio h-full" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
                   <h3 className="text-[1.3rem]">{p.titolo}</h3>
                   <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
@@ -116,7 +118,7 @@ export default function ChiSiamo() {
           <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
             In pilota, non in scala
           </h2>
-          <div className="prosa mt-[var(--s-21)]">
+          <div className="passo prosa mt-[var(--s-21)]">
             <p>
               Il software gira in produzione presso uno studio pilota. Le prime attivazioni sono
               del 2026. Non abbiamo una piazza di loghi da mostrare, e non ne inventiamo: nella

@@ -114,74 +114,114 @@ for (const u of PAGINE) {
   }
 }
 /* ── E SUL TELEFONO ──────────────────────────────────────────────────────────
-   ⚠️ QUI SI MISURA UNA COSA DIVERSA, E IL PERCHÉ È UN FATTO DI ARITMETICA.
-   375×721 offre **3,8 volte meno area** di 1264×809. Lo stesso contenuto, con
-   le colonne impilate, fa 1,5-3 schermate: farlo stare vorrebbe dire togliere
-   parole o rimpicciolire il testo, e non si fa né l'una né l'altra cosa.
-   Misurato: tre leve (figure a 30vh, stacchi ridotti, interlinea al tetto di
-   Butterick) hanno portato le tappe fuori misura da **38 a 37**. Non è poco
-   lavoro mal fatto: è che il conto non torna.
+   ⚠️ QUI L'UNITÀ DI MISURA È DIVERSA, ED È IL PUNTO.
+   375×755 offre 3,3 volte meno area di 1264×809: la stessa tappa che su
+   desktop sta in una schermata, impilata ne occupa due o tre. Erano **33 su
+   91**. Le vie erano togliere parole (no), rimpicciolire il testo (no), o
+   spezzare anche su desktop (dimezzare la densità dello schermo grande per un
+   problema dello schermo piccolo).
 
-   ⇒ Il difetto che l'altezza misurava non è «la tappa è alta», è **la V
-   finisce fuori campo**. Su telefono la V è agganciata al fondo della finestra
-   (vedi `globals.css`), quindi il difetto si misura direttamente: si scorre la
-   pagina e da OGNI posizione ci dev'essere una V visibile. Questo è il
-   cancello. L'altezza resta come **cricca**, per non perdere il guadagno.
+   ⇒ Si è cambiata l'unità: non la tappa, il **passo**. Sul telefono ogni
+   griglia è già a una colonna, quindi basta dare a ogni pezzo l'altezza della
+   schermata dove già si trova (`.tappa .passo` in `globals.css`). Chi è un
+   passo lo dice il CSS con `--passo: 1`, e questo script lo **chiede al
+   browser** invece di ricopiare i selettori: la prima versione li ricopiava e
+   le due liste sono divergite in un'ora.
 
-   ⛔ Non sostituire questo controllo con quello dell'altezza «così è uguale»:
-   uno è ottenibile e l'altro no, e un cancello non ottenibile viene spento. */
+   Si misurano i passi FOGLIA (un passo dentro un passo non è un passo: il
+   contenitore erediterebbe l'altezza minima del figlio e crescerebbe), e si
+   segnala anche quanta tappa resta **fuori** da ogni passo — perché lì il
+   ritmo slitta anche se nessun passo sfora. La freccia non conta: sta nella
+   tappa e in nessun passo, ed è giusto così. */
 const TEL = { width: 375, height: 812 }
-const UTILE_TEL = TEL.height - 91
 const telefono = await browser.newPage({ viewport: TEL, isMobile: true, hasTouch: true, deviceScaleFactor: 2 })
 let oltreTel = 0
 const senzaV = []
+const slittano = []
 for (const u of PAGINE) {
   await telefono.goto(BASE + u, { waitUntil: 'networkidle' })
   await telefono.evaluate(async () => {
-    for (let y = 0; y < document.body.scrollHeight; y += 500) {
+    document.documentElement.style.scrollBehavior = 'auto'
+    for (let y = 0; y < document.body.scrollHeight; y += 450) {
       window.scrollTo(0, y)
-      await new Promise((r) => requestAnimationFrame(r))
+      await new Promise((r) => setTimeout(r, 50))
     }
     window.scrollTo(0, 0)
   })
-  await telefono.waitForTimeout(200)
-  oltreTel += await telefono.evaluate(
-    (utile) => [...document.querySelectorAll('.tappa')].filter((t) => t.getBoundingClientRect().height > utile * 1.02).length,
-    UTILE_TEL,
-  )
+  await telefono.waitForTimeout(250)
 
-  /* ⚠️ SI SCORRE DAVVERO, non si simula. La prima versione calcolava
-     `top + window.scrollY` da fermo e chiedeva se la V sarebbe stata in vista:
-     ma per un elemento `sticky` quella è la posizione **non agganciata**,
-     cioè esattamente ciò che l'aggancio serve a cambiare. Il controllo
-     ri-misurava l'altezza travestita da controllo sulla V, e infatti dava
-     rosso sulle stesse pagine. Un `getBoundingClientRect()` su uno sticky
-     vale solo alla posizione in cui lo si legge.
+  /* L'altezza dell'intestazione si CHIEDE alla pagina: su telefono la barra è
+     più bassa che su desktop, e un numero scritto qui sarebbe una seconda
+     copia destinata a divergere. */
+  const utileTel =
+    TEL.height -
+    (await telefono.evaluate(() =>
+      parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--h-intestazione')),
+    ))
+
+  const esito = await telefono.evaluate((utile) => {
+    const passo = (el) => getComputedStyle(el).getPropertyValue('--passo').trim() === '1'
+    let oltre = 0
+    const slitta = []
+    for (const t of document.querySelectorAll('.tappa')) {
+      const passi = [...t.querySelectorAll('*')].filter(passo)
+      const alte = passi.length
+        ? passi.map((x) => x.getBoundingClientRect().height)
+        : [t.getBoundingClientRect().height]
+      oltre += alte.filter((h) => h > utile * 1.02).length
+      if (passi.length) {
+        const v = t.querySelector(':scope > .freccia-avanti')
+        const fuori = Math.round(
+          t.getBoundingClientRect().height -
+            alte.reduce((a, b) => a + b, 0) -
+            (v ? v.getBoundingClientRect().height : 0),
+        )
+        if (fuori > 200) slitta.push({ id: t.id, fuori })
+      }
+    }
+    return { oltre, slitta }
+  }, utileTel)
+  oltreTel += esito.oltre
+  for (const s of esito.slitta) slittano.push({ u, ...s })
+
+  /* ⚠️ SI SCORRE DAVVERO, non si simula: per un elemento `sticky` il
+     rettangolo letto da fermi è la posizione **non agganciata**, cioè
+     esattamente ciò che l'aggancio serve a cambiare.
      ⛔ L'ultima tappa del percorso non ha una V: lì finisce, ed è giusto. */
+  /* ⚠️ Il percorso finisce dove finisce l'ultima tappa: sotto c'è il piè di
+     pagina, che una V non ce l'ha e non deve averla. Prima questo confine era
+     «l'ultima tappa, se è senza V», e passava per un motivo sbagliato — le
+     tappe erano così alte che nessun punto di sonda cadeva nel piè di pagina.
+     Appena l'ultima tappa è diventata alta **esattamente** una schermata, il
+     piè di pagina è emerso e il controllo è diventato rosso su 7 pagine.
+     Il difetto era nel controllo, non nel sito. */
   const finePercorso = await telefono.evaluate(() => {
-    const tappe = [...document.querySelectorAll('.tappa')]
-    const ultima = tappe[tappe.length - 1]
-    return ultima && !ultima.querySelector('.freccia-avanti')
-      ? ultima.getBoundingClientRect().top + window.scrollY
-      : Infinity
+    /* L'ULTIMA TAPPA CON UNA V, non l'ultima tappa: sull'ultima pagina del
+       percorso (e su quelle fuori percorso, come /verifica) la coda non ha
+       una V perché non c'è un seguito — chiederla lì sarebbe pretendere un
+       cartello che indica il nulla. */
+    const conV = [...document.querySelectorAll('.tappa')].filter((t) =>
+      t.querySelector(':scope > .freccia-avanti'),
+    )
+    const ultima = conV[conV.length - 1]
+    return ultima ? ultima.getBoundingClientRect().bottom + window.scrollY : 0
   })
   const altezzaDoc = await telefono.evaluate(() => document.body.scrollHeight)
   const buchi = []
   for (let y = 0; y + TEL.height < altezzaDoc && y + TEL.height < finePercorso; y += 300) {
     await telefono.evaluate((y) => window.scrollTo(0, y), y)
     await telefono.waitForTimeout(60)
-    const vista = await telefono.evaluate(
-      () =>
-        [...document.querySelectorAll('.freccia-avanti')].some((f) => {
-          const r = f.getBoundingClientRect()
-          /* Sotto l'intestazione `sticky` e dentro la finestra. */
-          return r.bottom > 91 && r.top < window.innerHeight
-        }),
+    const vista = await telefono.evaluate(() =>
+      [...document.querySelectorAll('.freccia-avanti')].some((f) => {
+        const r = f.getBoundingClientRect()
+        return r.bottom > 57 && r.top < window.innerHeight
+      }),
     )
     if (!vista) buchi.push(y)
   }
   if (buchi.length) senzaV.push({ u, buchi })
 }
+
 await browser.close()
 
 console.log(`Tappe a ${VIEWPORT.width}×${VIEWPORT.height} — spazio utile ${UTILE}px\n`)
@@ -232,9 +272,13 @@ if (sforate.length) {
 
 const attesoTel = CRICCA.telefono_fuori_misura
 console.log(
-  `\nSu telefono (${TEL.width}×${TEL.height}): ${oltreTel} tappe più alte di una schermata` +
+  `\nSu telefono (${TEL.width}×${TEL.height}): ${oltreTel} PASSI più alti di una schermata` +
     ` — la cricca dice ${attesoTel}.`,
 )
+if (slittano.length) {
+  console.log(`\n· ${slittano.length} tappe con pixel fuori dai passi (il ritmo slitta, nessun passo sfora):`)
+  for (const s of slittano.sort((a, b) => b.fuori - a.fuori)) console.log(`  ${s.fuori}px  ${s.u}#${s.id}`)
+}
 if (oltreTel > attesoTel) {
   console.log(
     `\n⛔ PEGGIORATO su telefono: ${oltreTel} contro ${attesoTel}.\n` +

@@ -108,7 +108,7 @@ export default function Prezzi() {
       {/* Cosa NON è compreso — la sezione che vale la pagina */}
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
-          <Reveal>
+          <Reveal className="passo">
             <Occhiello>Quello che non c&apos;è</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               Tre cose che altri mettono nel listino e noi no
@@ -119,7 +119,7 @@ export default function Prezzi() {
             </p>
           </Reveal>
 
-          <div className="mt-[var(--s-34)]">
+          <div className="passo mt-[var(--s-34)]">
             {NON_COMPRESO.map((n) => (
               <Reveal key={n.voce}>
                 <div className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule)' }}>
@@ -139,7 +139,7 @@ export default function Prezzi() {
           sgombera il campo dal doppione, poi si dice con che cosa si confronta. */}
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
-          <Reveal>
+          <Reveal className="passo">
             <Occhiello>Se paghi già un portale</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               {CONVIVENZA.titolo}
@@ -149,11 +149,13 @@ export default function Prezzi() {
             </p>
           </Reveal>
 
-          {/* Un solo Reveal FUORI dalla lista: avvolgendo ogni <li> si infila un
+          {/* `passo`: sul telefono la lista prende una schermata sua, separata
+              dal titolo che la introduce.
+              Un solo Reveal FUORI dalla lista: avvolgendo ogni <li> si infila un
               <div> dentro la <ul>, e il collaudo lo segna come violazione WCAG
               serious (due regole, «list» e «listitem»). Stessa forma della
               lista Attivazione qui sopra. */}
-          <Reveal>
+          <Reveal className="passo">
             <ul className="mt-[var(--s-34)]">
               {CONVIVENZA.righe.map((r) => (
                 <li

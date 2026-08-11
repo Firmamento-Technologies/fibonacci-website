@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
 import { Reveal } from '@/components/ui/Reveal'
+import { raggruppa } from '@/lib/raggruppa'
 import { Occhiello, Freccia, Foto, Schermata } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
@@ -90,12 +91,19 @@ export default function ConsensiInformati() {
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
-          <Occhiello>La sostanza</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-            Sei cose che un consenso estetico deve dire
-          </h2>
+          <div className="passo">
+            <Occhiello>La sostanza</Occhiello>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
+              Sei cose che un consenso estetico deve dire
+            </h2>
+          </div>
+          {/* Tre voci per schermata sul telefono (1.149px su 721 utili se
+              stanno tutte insieme). Su desktop i gruppi sono `<div>`
+              trasparenti e l'elenco resta identico. */}
           <div className="mt-[var(--s-34)]">
-            {CONTENUTI.map((c, i) => (
+            {raggruppa(CONTENUTI, 3).map((gruppo, g) => (
+            <div key={g} className="passo">
+            {gruppo.map((c, k) => { const i = g * 3 + k; return (
               <Reveal key={c.voce}>
                 <div className="grid gap-[var(--s-21)] py-[var(--s-21)] sm:grid-cols-[2.5rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
                   <span className="numero" style={{ paddingTop: 5 }}>{String(i + 1).padStart(2, '0')}</span>
@@ -107,6 +115,8 @@ export default function ConsensiInformati() {
                   </div>
                 </div>
               </Reveal>
+            )})}
+            </div>
             ))}
           </div>
         </div>

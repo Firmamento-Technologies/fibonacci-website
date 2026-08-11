@@ -39,6 +39,6 @@
       "perche": "La chiusura con i quattro campi del modulo. Il modulo non si spezza."
     }
   ],
-  "telefono_fuori_misura": 33,
-  "_telefono": "Quante tappe superano una schermata su 375×812. ⚠️ NON è un difetto: 375×721 offre 3,8 volte meno area di 1264×809, quindi lo stesso contenuto NON ci sta senza togliere parole o rimpicciolire il testo — e non si fa né l'una né l'altra cosa. Cinque leve (figure a 30vh, stacchi ridotti, interlinea al tetto di Butterick, margini delle schede, «CONTINUA» tolto alle frecce interne) più una divisione hanno portato il numero da 38 a 33: il resto è aritmetica. Il DIFETTO vero — la V fuori campo — è misurato a parte e deve restare verde. Questo numero è una cricca: può solo scendere."
+  "telefono_fuori_misura": 2,
+  "_telefono": "Quanti PASSI superano una schermata su 375×812. Il passo — non la tappa — è l'unità di lettura sul telefono: 375×755 offre 3,3 volte meno area di 1264×809, quindi la TAPPA lì non ci sta e non ci può stare. Erano 33 tappe; spezzando in passi sono 2 passi, e sono i due MODULI (richiedi-una-demo e per-le-societa-scientifiche), 18 e 30px oltre: un modulo non si spezza a metà, e i campi sono già al minimo (8px di margine interno, 8 fra un campo e l'altro). Cricca: può solo scendere."
 }

@@ -73,7 +73,7 @@ export default function IntelligenzaArtificiale() {
       <section style={{ paddingBottom: 'var(--s-8)' }}>
         <div className="gabbia gabbia-stretta">
           {DOVE.map((d, i) => (
-            <Reveal key={d.titolo}>
+            <Reveal key={d.titolo} className="passo">
               <div className="py-[var(--s-34)]" style={{ borderTop: '1px solid var(--rule)' }}>
                 <div className="flex items-baseline gap-[var(--s-13)]">
                   <span className="numero">{String(i + 1).padStart(2, '0')}</span>

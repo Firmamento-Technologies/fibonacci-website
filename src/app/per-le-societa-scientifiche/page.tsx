@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
 import { ModuloDemo } from '@/components/ModuloDemo'
 import { Reveal } from '@/components/ui/Reveal'
+import { raggruppa } from '@/lib/raggruppa'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
@@ -125,8 +126,12 @@ export default function PerLeSocietaScientifiche() {
               Quattro cose, in ordine di quanto ci crediamo
             </h2>
           </Reveal>
+          {/* 2 voci per schermata sul telefono; su desktop il gruppo è un
+              `<div>` trasparente e l'elenco resta identico. */}
           <div className="mt-[var(--s-34)]">
-            {OFFRIAMO.map((o) => (
+            {raggruppa(OFFRIAMO, 2).map((gruppo, g) => (
+            <div key={g} className="passo">
+            {gruppo.map((o) => (
               <Reveal key={o.titolo}>
                 <div className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule)' }}>
                   <h3 className="text-[1.0625rem]">{o.titolo}</h3>
@@ -138,6 +143,8 @@ export default function PerLeSocietaScientifiche() {
                   </p>
                 </div>
               </Reveal>
+            ))}
+            </div>
             ))}
           </div>
         </div>
@@ -162,7 +169,7 @@ export default function PerLeSocietaScientifiche() {
 
       <section className="scuro fascia">
         <div className="gabbia gabbia-stretta">
-          <Reveal>
+          <Reveal className="passo">
             <Occhiello chiaro>Le regole che ci diamo</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '22ch' }}>
               Perché una convenzione non diventi un incentivo improprio
@@ -177,7 +184,7 @@ export default function PerLeSocietaScientifiche() {
           </Reveal>
           <div className="mt-[var(--s-34)]">
             {REGOLE.map((r) => (
-              <Reveal key={r.titolo}>
+              <Reveal className="passo" key={r.titolo}>
                 <div className="py-[var(--s-21)]" style={{ borderTop: '1px solid var(--rule-ink)' }}>
                   <h3 className="text-[1.0625rem]" style={{ color: 'var(--on-ink)' }}>{r.titolo}</h3>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--on-ink-muted)' }}>
@@ -218,7 +225,7 @@ export default function PerLeSocietaScientifiche() {
 
       <section className="fascia">
         <div className="gabbia" style={{ maxWidth: '38rem' }}>
-          <Reveal>
+          <Reveal className="passo">
             <ModuloDemo variante="societa" />
           </Reveal>
           <p className="mt-[var(--s-34)] text-center">

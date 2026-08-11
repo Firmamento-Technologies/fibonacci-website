@@ -53,7 +53,7 @@ export function Hero() {
       <div className="gabbia">
         <div className="grid gap-[var(--s-55)] lg:grid-cols-[1fr_1.1fr] lg:gap-[var(--s-89)] lg:items-center">
           {/* ── Parola ─────────────────────────────────────────────────── */}
-          <div>
+          <div className="passo">
             <div className="entra-primo-schermo">
               <Occhiello>Medicina estetica · Cartella clinica</Occhiello>
             </div>
@@ -143,7 +143,7 @@ export function Hero() {
               nell'EMR (`643bd10`): la stessa allergia in due banner attaccati.
               Restava in vetrina perché le immagini invecchiano da sole; un
               componente vero no, e `parita-viso.mjs` lo tiene agganciato. */}
-          <div className="entra-primo-schermo-figura">
+          <div className="passo entra-primo-schermo-figura">
             <ProvaMappaViso />
           </div>
         </div>
@@ -154,7 +154,7 @@ export function Hero() {
             fatti controllabili. Il terzo dichiara lo stadio del prodotto,
             che è più credibile di una piazza di loghi finti. */}
         <div
-          className="entra-primo-schermo ritardo-4 mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-3"
+          className="passo entra-primo-schermo ritardo-4 mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-3"
           style={{ borderTop: '1px solid var(--rule)', paddingTop: 'var(--s-34)' }}
         >
           {[

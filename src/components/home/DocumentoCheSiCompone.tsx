@@ -327,13 +327,19 @@ function VersioneStatica() {
   return (
     <section id="il-documento" className="fascia-lg">
       <div className="gabbia">
+        {/* ⚠️ L'insegna è un passo suo. Senza, sul telefono restava 285px
+            sopra la prima scheda: la prima schermata mostrava titolo + mezza
+            scheda, e il ritmo «una cosa per volta» si rompeva proprio
+            all'inizio, dove si decide se continuare. */}
+        <div className="passo">
         <Occhiello>Il documento che regge</Occhiello>
         <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
           Come si compone un consenso
         </h2>
+        </div>
         <div className="mt-[var(--s-55)] grid gap-[var(--s-21)] md:grid-cols-2 lg:grid-cols-3">
           {TAPPE.map((tappa, i) => (
-            <div key={tappa.chiave} className="foglio" style={{ padding: 'var(--s-21)' }}>
+            <div key={tappa.chiave} className="passo foglio" style={{ padding: 'var(--s-21)' }}>
               <p className="numero">
                 {String(i + 1).padStart(2, '0')} · {tappa.etichetta}
               </p>
