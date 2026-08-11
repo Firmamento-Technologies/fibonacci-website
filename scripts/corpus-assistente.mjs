@@ -140,9 +140,15 @@ function testoDaHtml(html) {
     .trim()
 }
 
+/* ⚠️ Anche il titolo va decodificato, e il 2026-08-12 non lo era: nel corpus
+ * appena costruito stava «Catalogo farmaci: com&#x27;è aggiornato». Il difetto
+ * è lo stesso di `testoDaHtml`, ma è sopravvissuto al rimedio **perché il
+ * presidio guardava solo `testo`** — e si è visto solo mettendo i titoli in un
+ * elenco da dare a un modello. ⇒ ora `problemiDelCorpus` controlla entrambi i
+ * campi: un presidio che copre metà della struttura dice «sano» a metà prezzo. */
 function titoloDaHtml(html) {
   const m = html.match(/<title>([^<]*)<\/title>/i)
-  return m ? m[1].replace(/\s+\|\s+Fibonacci.*$/, '').trim() : ''
+  return m ? decodificaEntita(m[1]).replace(/\s+\|\s+Fibonacci.*$/, '').trim() : ''
 }
 
 async function* pagine(dir) {
@@ -216,10 +222,16 @@ export function problemiDelCorpus(voci, guide = guideAttese()) {
   // decodifica auto-sorvegliata invece di curata caso per caso.
   const RESIDUE = /&(?:[a-z]+|#\d+|#x[0-9a-f]+);/gi
   for (const v of voci) {
-    const trovate = v.testo.match(RESIDUE)
-    if (trovate) {
-      const forme = [...new Set(trovate)].slice(0, 5).join(' ')
-      problemi.push(`${v.percorso}: ${trovate.length} entità HTML non decodificate (${forme}).`)
+    // ⚠️ `titolo` E `testo`: guardando solo il testo, questo controllo ha
+    // dichiarato sano un corpus in cui 2 titoli su 40 portavano `&#x27;`.
+    for (const campo of ['titolo', 'testo']) {
+      const trovate = (v[campo] ?? '').match(RESIDUE)
+      if (trovate) {
+        const forme = [...new Set(trovate)].slice(0, 5).join(' ')
+        problemi.push(
+          `${v.percorso} (${campo}): ${trovate.length} entità HTML non decodificate (${forme}).`,
+        )
+      }
     }
   }
 
