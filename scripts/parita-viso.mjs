@@ -87,13 +87,29 @@ export function paritaMappaViso(problemi, avvisa = console.log) {
     )
   }
 
-  // (2) Codici, etichette e coordinate contro l'originale nell'EMR.
+  // (2) Codici, etichette, coordinate e RAGGIO D'AGGANCIO contro l'originale.
   const sorgente = join(QUI, '../../EMR/apps/web/src/lib/body-areas.ts')
   if (!existsSync(sorgente)) {
     avvisa('Mappa del viso: non verificata contro l’EMR (il sottomodulo non è in questo clone).')
     return
   }
   const originale = readFileSync(sorgente, 'utf8')
+
+  // Il raggio entro cui un click si aggancia a un'area. ⚠️ Se qui fosse più
+  // generoso che nel prodotto, il sito mostrerebbe una precisione che
+  // l'applicazione non ha — cioè una promessa, che è il difetto che questo
+  // sito ha già pagato più volte.
+  const raggioEmr = originale.match(/maxDistance\s*=\s*([\d.]+)/)?.[1]
+  const raggioSito = copia.match(/RAGGIO_AGGANCIO\s*=\s*([\d.]+)/)?.[1]
+  if (!raggioEmr || !raggioSito) {
+    problemi.push('mappa del viso: non trovo il raggio d’aggancio in uno dei due file')
+  } else if (Number(raggioEmr) !== Number(raggioSito)) {
+    problemi.push(
+      `mappa del viso: il raggio d’aggancio diverge — l'applicazione usa ${raggioEmr}, ` +
+        `il sito ${raggioSito}: la vetrina promette una precisione diversa da quella vera`,
+    )
+  }
+
   confronta(problemi, 'le aree del volto', leggiAree(originale, 'FACE_AREAS'), leggiAree(copia, 'AREE_VISO'))
   confronta(problemi, 'le coordinate donna', leggiCoord(originale, 'FACE_AREA_COORDS_FEMALE'), leggiCoord(copia, 'COORD_DONNA'))
   confronta(problemi, 'le coordinate uomo', leggiCoord(originale, 'FACE_AREA_COORDS_MALE'), leggiCoord(copia, 'COORD_UOMO'))

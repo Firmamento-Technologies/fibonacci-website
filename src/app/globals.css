@@ -612,6 +612,12 @@ a { color: inherit; text-decoration: none; }
   height: 30px;
   border-radius: 999px;
   border: 2px solid rgba(255, 255, 255, 0.85);
+  /* ⚠️ Il fondo sta QUI, non inline. Nella prima versione lo dava il
+     componente (`backgroundColor` per categoria di prodotto): tolta quella,
+     i pallini erano rimasti **senza fondo** — cerchi bianchi con dentro un
+     numero bianco, cioè invisibili. Un colore che vive in due posti sparisce
+     quando se ne toglie uno. */
+  background: var(--accent);
   color: #fff;
   font-size: 13px;
   font-weight: 600;
@@ -623,6 +629,7 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 1px 4px rgba(16, 31, 46, 0.35);
   transition: transform 120ms ease, box-shadow 120ms ease;
 }
+.prova-viso__punto:hover { background: var(--accent-deep); }
 .prova-viso__punto::after {
   content: '';
   position: absolute;
@@ -630,58 +637,69 @@ a { color: inherit; text-decoration: none; }
   border-radius: 999px;
 }
 .prova-viso__punto:hover { transform: translate(-50%, -50%) scale(1.12); }
-.prova-viso__punto.e-scelto {
-  transform: translate(-50%, -50%) scale(1.2);
-  border-color: #fff;
-  box-shadow: 0 0 0 3px var(--accent-wash), 0 2px 8px rgba(16, 31, 46, 0.4);
-  z-index: 2;
-}
 .prova-viso__punto:focus-visible { outline: 2px solid var(--accent-deep); outline-offset: 3px; }
 
-.prova-viso__storico {
+.prova-viso__elenco {
   background: var(--bg-sunk);
   border: 1px solid var(--rule);
   border-radius: var(--r);
   padding: var(--s-13);
   min-height: 168px;
 }
-.prova-viso__area { font-weight: 600; color: var(--fg); font-size: 15px; margin-bottom: var(--s-8); }
-.prova-viso__sedute { list-style: none; margin: 0; padding: 0; }
-/* ⚠️ Data SOPRA il prodotto, non accanto: in colonna stretta (~250 px) la
-   disposizione affiancata mandava ogni voce a capo tre volte — «Tossina /
-   botulinica · / 12 U · 4 / punti». Il pallino della categoria resta a
-   sinistra di entrambe le righe. */
-.prova-viso__sedute li {
-  display: grid;
-  grid-template-columns: var(--s-8) 1fr;
-  gap: var(--s-8);
-  padding-block: var(--s-8);
-  border-top: 1px solid var(--rule);
-  font-size: 13px;
-  line-height: 1.45;
+.prova-viso__titolo {
+  font-weight: 600;
+  color: var(--fg);
+  font-size: 14px;
+  margin-bottom: var(--s-8);
 }
-.prova-viso__sedute li:first-child { border-top: 0; padding-top: 0; }
-.prova-viso__categoria {
-  width: var(--s-8);
-  height: var(--s-8);
-  border-radius: 999px;
-  margin-top: 6px;
-}
-/* ⚠️ ENTRAMBI in colonna 2, esplicitamente. Con solo `quando` in colonna 2 il
-   prodotto veniva auto-posizionato nella cella libera successiva — la prima
-   colonna, larga 8 px — e il testo si spezzava una parola per riga:
-   «12 / U / · / 4 / punti». L'auto-posizionamento della griglia riempie i
-   buchi, e qui il buco era il pallino. */
-.prova-viso__quando {
-  display: block;
-  grid-column: 2;
-  color: var(--fg-faint);
-  font-size: 12px;
-}
-.prova-viso__prodotto { grid-column: 2; color: var(--fg); }
-.prova-viso__dettaglio { color: var(--fg-muted); }
-.prova-viso__nota { margin-top: var(--s-8); font-size: 12px; color: var(--fg-faint); }
+.prova-viso__titolo span { color: var(--accent); font-variant-numeric: tabular-nums; }
 .prova-viso__vuoto { font-size: 13px; line-height: 1.6; color: var(--fg-muted); }
+
+.prova-viso__aree { list-style: none; margin: 0; padding: 0; }
+.prova-viso__aree li {
+  padding-block: var(--s-5);
+  border-top: 1px solid var(--rule);
+}
+.prova-viso__aree li:first-child { border-top: 0; padding-top: 0; }
+.prova-viso__nome { display: block; font-size: 13px; color: var(--fg); }
+/* Il codice è il punto di tutto: senza, è un disegno. Monospazio perché è un
+   dato, non una parola. */
+.prova-viso__codice {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-ink);
+  overflow-wrap: anywhere;
+}
+.prova-viso__azzera {
+  margin-top: var(--s-8);
+  font-size: 12px;
+  color: var(--fg-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+.prova-viso__azzera:hover { color: var(--accent); }
+
+/* Fuori raggio: si dice, non si inventa un'area. */
+.prova-viso__mancato {
+  position: absolute;
+  left: 50%;
+  bottom: var(--s-13);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 92%;
+  background: var(--ink);
+  color: var(--on-ink);
+  font-size: 12px;
+  line-height: 1.4;
+  padding: var(--s-5) var(--s-13);
+  border-radius: var(--r);
+  text-align: center;
+}
 
 .prova-viso__didascalia {
   margin-top: var(--s-13);

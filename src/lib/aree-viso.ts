@@ -153,61 +153,40 @@ export function xNelRitaglio(x: number): number {
   return (x - RITAGLIO.x0) / RITAGLIO.larghezza
 }
 
-/* ── I dati mostrati nel dimostratore ──────────────────────────────────────
- * 🛑 INVENTATI, e devono restarlo. Fibonacci non ha pazienti reali (non è in
- * produzione), e anche quando ne avrà **non finiranno mai in vetrina**. Questa
- * è una paziente che non esiste, con una storia clinica plausibile costruita
- * per mostrare come si legge la mappa: niente nome, niente data di nascita,
- * niente codice fiscale — solo l'informazione che il medico guarda davvero.
- *
- * ⚠️ I nomi dei prodotti sono generici di proposito (il principio attivo, non
- * la marca): un listino di marche in vetrina diventa pubblicità sanitaria, che
- * la L. 145/2018 art. 1 c. 525 vieta oltre le informazioni sui titoli.
- *
- * 📏 **SEI AREE, E SONO SEI PER MISURA.** La prima versione ne aveva dieci —
- * anche i solchi naso-genieni e le guance — e a video **i pallini si
- * sovrapponevano**: alla larghezza dell'hero (~370 px di volto) le coppie più
- * strette stavano a **22, 27 e 29 px** con pallini da 30. Cioè il difetto per
- * cui la schermata precedente è stata sostituita — una cosa illeggibile —
- * ricreato da capo, in un componente nato per essere leggibile.
- * Con queste sei la coppia più stretta è a **68 px**. ⛔ Prima di aggiungerne
- * un'altra, rifare il conto: due aree adiacenti sullo stesso viso si toccano.
- * (Nel prodotto vero il problema non si pone allo stesso modo: lì il medico
- * vede la mappa a schermo intero e può spostare i pallini.) */
-export interface SedutaFinta {
-  quando: string
-  prodotto: string
-  categoria: CategoriaProdotto
-  dettaglio: string
+/** La x del ritaglio riportata al fotogramma originale — serve per capire su
+ *  quale area è caduto un click, dato che le coordinate sono in quello spazio. */
+export function xDalRitaglio(x: number): number {
+  return x * RITAGLIO.larghezza + RITAGLIO.x0
 }
 
-export type CategoriaProdotto = 'tossina' | 'filler' | 'biostim' | 'peeling'
+/**
+ * L'area codificata più vicina a un punto, entro `raggioMax`.
+ *
+ * 🔑 **È QUESTA la funzione che fa il prodotto**, non il ritratto. Il medico
+ * clicca dove ha trattato — a mano libera, dove capita — e il sistema aggancia
+ * quel punto a un'**area del vocabolario**: `face.glabella`, non «più o meno
+ * fra le sopracciglia». Da lì esce un `BodySite` FHIR codificato, che è ciò che
+ * rende la cartella interrogabile e difendibile.
+ *
+ * ⚠️ Copiata da `findNearestFaceArea` in `EMR/apps/web/src/lib/body-areas.ts`,
+ * **stessa formula e stesso raggio di default (0,08)**: se qui il raggio fosse
+ * più generoso, il sito mostrerebbe una precisione che il prodotto non ha.
+ * Il presidio in `scripts/parita-viso.mjs` confronta anche questo numero.
+ */
+export const RAGGIO_AGGANCIO = 0.08
 
-export const STORICO_FINTO: Record<string, SedutaFinta[]> = {
-  'face.glabella': [
-    { quando: 'marzo 2026', prodotto: 'Tossina botulinica', categoria: 'tossina', dettaglio: '12 U · 4 punti' },
-    { quando: 'ottobre 2025', prodotto: 'Tossina botulinica', categoria: 'tossina', dettaglio: '10 U · 4 punti' },
-    { quando: 'aprile 2025', prodotto: 'Tossina botulinica', categoria: 'tossina', dettaglio: '10 U · 3 punti' },
-  ],
-  'face.frontale': [
-    { quando: 'marzo 2026', prodotto: 'Tossina botulinica', categoria: 'tossina', dettaglio: '8 U · 5 punti' },
-    { quando: 'ottobre 2025', prodotto: 'Tossina botulinica', categoria: 'tossina', dettaglio: '8 U · 5 punti' },
-  ],
-  'face.zigomi.dx': [
-    { quando: 'gennaio 2026', prodotto: 'Acido ialuronico', categoria: 'filler', dettaglio: '0,5 ml · cannula' },
-  ],
-  'face.zigomi.sx': [
-    { quando: 'gennaio 2026', prodotto: 'Acido ialuronico', categoria: 'filler', dettaglio: '0,5 ml · cannula' },
-  ],
-  'face.labbra.sup': [
-    { quando: 'novembre 2025', prodotto: 'Acido ialuronico', categoria: 'filler', dettaglio: '0,5 ml' },
-  ],
-  'face.collo': [
-    { quando: 'giugno 2025', prodotto: 'Polinucleotidi', categoria: 'biostim', dettaglio: '2 ml · 3ª seduta' },
-  ],
+export function areaPiuVicina(
+  x: number,
+  y: number,
+  sesso: SessoRitratto,
+  raggioMax = RAGGIO_AGGANCIO,
+): string | null {
+  let migliore: { code: string; dist: number } | null = null
+  for (const [code, c] of Object.entries(coordPerSesso(sesso))) {
+    const dist = Math.hypot(c.x - x, c.y - y)
+    if (dist <= raggioMax && (migliore === null || dist < migliore.dist)) {
+      migliore = { code, dist }
+    }
+  }
+  return migliore?.code ?? null
 }
-
-/** Quante volte è stata trattata ogni area — derivato, non scritto due volte. */
-export const CONTEGGI_FINTI: Record<string, number> = Object.fromEntries(
-  Object.entries(STORICO_FINTO).map(([code, sedute]) => [code, sedute.length]),
-)
