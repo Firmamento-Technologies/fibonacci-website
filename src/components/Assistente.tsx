@@ -92,7 +92,16 @@ export function Assistente() {
   }
 
   return (
-    <div className="mx-auto max-w-[46rem] text-left">
+    /* ⛔ `data-fuori-corpus`: questo blocco NON entra nella conoscenza
+       dell'assistente. Senza, il widget si legge da solo — le sue etichette e
+       le sue domande di esempio finivano nel corpus (**520 caratteri** dentro
+       `/domande/`, e la scritta del pulsante *«Quanto costa?»* contava come
+       un'occorrenza di «costa» su una pagina che il prezzo non lo dice).
+       Con il widget su due pagine il conto raddoppiava.
+       ⇒ Stesso principio per cui si estrae solo `<main>`: ciò che serve a
+       **usare** il sito non è ciò che il sito **dice**. Vedi
+       `scripts/corpus-assistente.mjs`. */
+    <div data-fuori-corpus className="mx-auto max-w-[46rem] text-left">
       <form
         onSubmit={(e) => {
           e.preventDefault()

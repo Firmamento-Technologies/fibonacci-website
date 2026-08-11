@@ -6,6 +6,7 @@ import { Hero } from '@/components/home/Hero'
 import { DocumentoCheSiCompone } from '@/components/home/DocumentoCheSiCompone'
 import { Problema, Procedure, tappeCapacita, FotoCliniche, Prove, Obiezioni } from '@/components/home/sezioni'
 import { Sigillo, Chiusura } from '@/components/home/Sigillo'
+import { Chiedi } from '@/components/home/Chiedi'
 import { ListinoSintesi } from '@/components/Listino'
 
 export const metadata: Metadata = {
@@ -51,6 +52,10 @@ export default function Home() {
           <Prove />
           <ListinoSintesi />
           <Obiezioni />
+          {/* Dopo le domande che abbiamo previsto noi, la propria — e prima
+              della richiesta di demo, perché chi ha ancora un dubbio non
+              prenota: se ne va. Vedi `Chiedi.tsx`. */}
+          <Chiedi />
           <Chiusura />
         </Tappe>
       </main>

@@ -104,7 +104,7 @@ export default function DomandeFrequenti() {
         <div className="gabbia gabbia-stretta text-center">
           <h2 className="text-[length:var(--display-2)]">Manca la tua?</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Chiedila qui: l&apos;assistente legge le pagine di questo sito e ti dice quali ha usato.
+            Chiedila qui. Se la risposta non c&apos;è in queste pagine, te lo dice.
           </p>
           <div className="mt-[var(--s-34)]">
             <Assistente />
