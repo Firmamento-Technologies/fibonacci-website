@@ -155,8 +155,12 @@
 
 html {
   scroll-behavior: smooth;
-  /* le ancore non finiscono sotto l'intestazione fissa */
-  scroll-padding-top: var(--s-89);
+  /* Le ancore non finiscono sotto l'intestazione fissa.
+     ⚠️ Vale `--h-intestazione` (91px misurati) e non più `--s-89`: i due
+     numeri si somigliano, ma il secondo era una spaziatura scelta a occhio e
+     questo è **l'altezza vera della barra**. La differenza si è vista solo
+     quando le ancore sono diventate il modo normale di muoversi nel sito. */
+  scroll-padding-top: var(--h-intestazione);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -903,21 +907,86 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
   display: flex;
   flex-direction: column;
 }
-/* Il contenuto prende lo spazio, la freccia resta in fondo: così pagine con
-   poco testo riempiono comunque lo schermo invece di lasciare un vuoto sotto. */
-.schermo-pieno > :last-child { margin-top: auto; }
+/* ── LA TAPPA ────────────────────────────────────────────────────────────────
+   Ogni sezione della pagina è una schermata a sé, con la V in fondo.
+
+   ⚠️ CHI HA L'ALTEZZA È IL CONTENITORE, NON LA SEZIONE. Il primo tentativo
+   metteva `min-height` sulla sezione stessa: la freccia finiva DENTRO la
+   fascia colorata e, sulle sezioni scure, la V spariva sul nero. Qui il
+   contenitore è alto una schermata, la sezione prende lo spazio che avanza
+   (`flex: 1`) — così il suo fondo colorato arriva davvero fino in fondo — e
+   la freccia sta sotto, sul fondo della pagina.
+
+   ⛔ Vale la stessa regola di `.schermo-pieno`: `min-height`, mai `height`.
+   Una tappa con troppo contenuto si allunga e si scorre. Non si taglia. */
+.tappa {
+  min-height: calc(100dvh - var(--h-intestazione));
+  display: flex;
+  flex-direction: column;
+  /* ⛔ NIENTE `scroll-margin-top` QUI. Ce l'aveva, e sembrava giusto: senza,
+     saltando a `#tappa-3` le prime righe finirebbero sotto la barra. Ma
+     `scroll-padding-top` della pagina e `scroll-margin-top` dell'elemento
+     **si sommano** — 89 + 91 = **180px** — e la tappa si fermava 89px più in
+     basso del dovuto, cioè la V finiva di nuovo sotto il bordo dopo OGNI
+     salto. Esattamente il difetto che tutto questo serve a evitare, e
+     invisibile a chi guarda una schermata sola.
+     Lo scarto lo dà `scroll-padding-top` sull'`html`, una volta per tutte. */
+}
+/* Il corpo della tappa è QUALUNQUE figlio che non sia la freccia: nel guscio
+   condiviso è una `<section>`, nella home è un componente di cui non
+   conosciamo la radice. Un selettore sulla classe avrebbe funzionato solo nel
+   primo caso. */
+.tappa > :not(.freccia-avanti) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Il respiro delle fasce era pensato per una pagina che scorre di continuo:
+   89px sopra e sotto. Dentro una tappa quel vuoto è **già** dato dalla
+   centratura verticale (`justify-content: center` qui sopra): il margine
+   serve solo come minimo quando il contenuto riempie tutta la schermata, ed è
+   proprio il caso in cui quei 178px sarebbero un quinto di schermo tolto al
+   testo. Quindi si tiene il minimo: sulle tappe che non riempiono lo spazio
+   non si vede alcuna differenza. */
+.tappa .fascia,
+.tappa .fascia-lg { padding-block: var(--s-8); }
+
+/* ⚠️ La freccia costa 110px misurati (55 di margini + 40 di bersaglio + il
+   testo), e quei 110px li paga OGNI tappa: sono il 14% dei 809px utili su un
+   portatile da 900. Con 13/21 scende a ~74 e resta comodamente sopra i 24×24
+   px di bersaglio che chiede WCAG 2.2 SC 2.5.8 — il riquadro cliccabile è il
+   link intero, non la V. ⛔ Non stringere oltre: sotto quel bersaglio si
+   scende sotto la soglia. */
+/* ── LE FIGURE DENTRO UNA TAPPA ──────────────────────────────────────────────
+   Una fotografia 3/4 in mezza gabbia è alta **736px**: da sola supera gli 809
+   utili di un portatile da 900, prima ancora del testo che le sta accanto. Era
+   la ragione ricorrente delle tappe troppo alte (`aurea` + `Foto`).
+
+   `object-fit: cover` è già impostato su `.foto img` ⇒ il riquadro si accorcia
+   e l'immagine si ritaglia, non si deforma. Sulle fotografie di questo sito il
+   ritaglio non toglie informazione: sono illustrative, il soggetto è al
+   centro.
+
+   ⛔ Sulle SCHERMATE dell'applicazione non si ritaglia — lì l'informazione è
+   tutta e ovunque, e un taglio nasconderebbe proprio la cosa che si mostra.
+   Quelle si riducono in larghezza (`max-height` con `height:auto`), così si
+   rimpiccioliscono intere. */
+.tappa .foto { max-height: 56vh; }
+.tappa .schermata { max-height: 56vh; width: fit-content; margin-inline: auto; }
+.tappa .schermata img { max-height: 56vh; width: auto; }
 
 .freccia-avanti {
   display: flex;
   justify-content: center;
-  padding-block: var(--s-21) var(--s-34);
+  padding-block: var(--s-8) var(--s-13);
 }
 .freccia-avanti a {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--s-5);
-  padding: var(--s-8) var(--s-21);
+  gap: var(--s-3);
+  padding: var(--s-5) var(--s-21);
   border-radius: var(--r);
   color: var(--fg-faint);
   font-size: 12px;

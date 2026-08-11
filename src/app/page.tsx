@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
 import { Header } from '@/components/chrome/Header'
+import { Tappe } from '@/components/chrome/Tappe'
 import { Footer } from '@/components/chrome/Footer'
 import { Hero } from '@/components/home/Hero'
 import { DocumentoCheSiCompone } from '@/components/home/DocumentoCheSiCompone'
-import { Problema, Procedure, Capacita, FotoCliniche, Prove, Obiezioni } from '@/components/home/sezioni'
+import { Problema, Procedure, tappeCapacita, FotoCliniche, Prove, Obiezioni } from '@/components/home/sezioni'
 import { Sigillo, Chiusura } from '@/components/home/Sigillo'
 import { ListinoSintesi } from '@/components/Listino'
 
@@ -32,17 +33,26 @@ export default function Home() {
     <>
       <Header />
       <main id="contenuto" className="flex-1">
-        <Hero />
-        <DocumentoCheSiCompone />
-        <Problema />
-        <Procedure />
-        <Capacita />
-        <FotoCliniche />
-        <Sigillo />
-        <Prove />
-        <ListinoSintesi />
-        <Obiezioni />
-        <Chiusura />
+        {/* ⚠️ Undici sezioni = **17,2 schermate** misurate a 1440×900: la home
+            era di gran lunga la pagina più lunga del sito, e chi arrivava dalla
+            ricerca doveva scorrere per un minuto prima di sapere se il prodotto
+            lo riguardava. Dentro `Tappe` ciascuna diventa una schermata con la
+            V in fondo: le stesse undici sezioni, nello stesso ordine, senza una
+            parola tolta. Vedi `Tappe.tsx`. */}
+        <Tappe href="/">
+          <Hero />
+          <DocumentoCheSiCompone />
+          <Problema />
+          <Procedure />
+          {/* Cinque tappe, non una: vedi `tappeCapacita` in `sezioni.tsx`. */}
+          {tappeCapacita()}
+          <FotoCliniche />
+          <Sigillo />
+          <Prove />
+          <ListinoSintesi />
+          <Obiezioni />
+          <Chiusura />
+        </Tappe>
       </main>
       <Footer />
     </>

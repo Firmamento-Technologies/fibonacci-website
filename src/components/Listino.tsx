@@ -226,7 +226,7 @@ export function ListinoSintesi() {
           </div>
         </Reveal>
 
-        <div className="mt-[var(--s-55)]" style={{ maxWidth: '64rem', marginInline: 'auto' }}>
+        <div className="mt-[var(--s-34)]" style={{ maxWidth: '64rem', marginInline: 'auto' }}>
           <SchedePiani />
         </div>
 

@@ -25,7 +25,10 @@ export default function RichiediUnaDemo() {
       sommario="Non è una telefonata commerciale. Ti mostriamo il prodotto sulle procedure che fai, e ti diciamo anche dove non ti conviene."
       larga
     >
-      <section style={{ paddingBottom: 'var(--s-89)' }}>
+      {/* ⚠️ La coda era di px: dentro una tappa lo spazio lo dà già la
+          centratura verticale, e quella coda mandava la V sotto il bordo
+          (misurato: 1% oltre la schermata, `scripts/altezza-pagine.mjs`). */}
+      <section style={{ paddingBottom: 'var(--s-8)' }}>
         <div className="gabbia">
           <div className="aurea">
             <Reveal>

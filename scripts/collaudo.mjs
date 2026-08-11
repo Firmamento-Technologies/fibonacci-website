@@ -12,6 +12,7 @@
  */
 
 import { chromium } from 'playwright'
+import { esigiStile } from './lib/stile-caricato.mjs'
 import AxeBuilder from '@axe-core/playwright'
 import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
@@ -197,6 +198,9 @@ async function main() {
 
   for (const percorso of PAGINE) {
     const risposta = await page.goto(BASE + percorso, { waitUntil: 'networkidle', timeout: 45000 })
+    /* ⚠️ Sul PRIMO indirizzo, e prima di qualunque misura: una pagina senza
+       CSS risponde 200 e si misura benissimo. Vedi `lib/stile-caricato.mjs`. */
+    if (percorso === PAGINE[0]) await esigiStile(page, 'collaudo')
     if (!risposta || risposta.status() >= 400) {
       problemi.push(`${percorso}: HTTP ${risposta?.status()}`)
       continue
@@ -651,6 +655,17 @@ async function main() {
   paritaFarmaci(problemi, (m) => console.log(giallo('\n' + m)))
   paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
   classiEsistono(problemi)
+
+  /* ⚠️ LE TAPPE. Il sito è un percorso: ogni sezione è una schermata con la V
+     in fondo. Due cose si rompono in silenzio e le prende solo una misura sul
+     reso — una tappa VUOTA (è successo: il JSON-LD di `/domande` era diventato
+     una schermata bianca) e una tappa troppo alta, che manda la V sotto il
+     bordo. Gira in un processo a parte perché apre un suo browser. */
+  try {
+    execFileSync('node', ['scripts/altezza-pagine.mjs', BASE], { stdio: 'inherit' })
+  } catch {
+    problemi.push('tappe: vedi `node scripts/altezza-pagine.mjs` qui sopra')
+  }
 
   if (problemi.length) {
     console.log(rosso(`\n${problemi.length} problemi:`))

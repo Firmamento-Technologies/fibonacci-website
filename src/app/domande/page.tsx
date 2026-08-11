@@ -48,15 +48,23 @@ export default function DomandeFrequenti() {
       }
       sommario="Se cerchi un limite e non lo trovi qui, chiedicelo: lo aggiungiamo alla pagina."
     >
-      <SchemaDomande />
-
-      <section style={{ paddingBottom: 'var(--s-89)' }}>
-        <div className="gabbia gabbia-stretta">
-          {ORDINE.map((cat) => {
-            const gruppo = DOMANDE.filter((q) => q.categoria === cat)
-            if (!gruppo.length) return null
-            return (
-              <div key={cat} style={{ marginTop: 'var(--s-55)' }}>
+      {/* ⚠️ UNA SEZIONE PER CATEGORIA. Tutte le domande stavano in una sezione
+          sola: **2.268px, il 280% di una schermata**. Le categorie esistevano
+          già nei dati (`ORDINE`) e servivano solo a mettere un occhiello in
+          mezzo all'elenco; ora ognuna è la sua schermata, che è quello che una
+          categoria dovrebbe essere.
+          ⚠️ Lo `<SchemaDomande />` è finito QUI DENTRO e non più fra i figli:
+          è un `<script>` di dati strutturati, non rende niente, e da figlio di
+          primo livello diventava una **tappa bianca** — schermata vuota con la
+          freccia in fondo, fra l'intestazione e le domande. */}
+      {ORDINE.map((cat, iCat) => {
+        const gruppo = DOMANDE.filter((q) => q.categoria === cat)
+        if (!gruppo.length) return null
+        return (
+          <section key={cat} style={{ paddingBlock: 'var(--s-34)' }}>
+            {iCat === 0 && <SchemaDomande />}
+            <div className="gabbia gabbia-stretta">
+              <div>
                 <Occhiello>{CATEGORIE[cat]}</Occhiello>
                 <div className="mt-[var(--s-21)]">
                   {gruppo.map((q) => (
@@ -86,10 +94,10 @@ export default function DomandeFrequenti() {
                   ))}
                 </div>
               </div>
-            )
-          })}
-        </div>
-      </section>
+            </div>
+          </section>
+        )
+      })}
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta text-center">

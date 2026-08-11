@@ -39,10 +39,17 @@ import { DEMO_URL } from '@/lib/site-config'
  * Nessun JavaScript, quindi nessuna attesa dell'idratazione.
  * `prefers-reduced-motion` è gestito in CSS e vale anche a JavaScript spento.
  * ([[sintesi-analisi-ui-ux-2026-08-09]] §S3) */
+/* ⚠️ SPAZIATURA DEL PRIMO SCHERMO — misurata, non a occhio.
+ * Era 55 sopra e 89 sotto, più altri 89 di stacco prima delle tre prove in
+ * fondo: **233px di solo vuoto**, su una prima schermata che misurava 1.022px
+ * contro gli 809 utili di un portatile da 900. Il primo schermo è l'unico che
+ * tutti vedono, ed era quello che non ci stava.
+ * 13/13 e uno stacco di 34: nessuna parola tolta, 181px recuperati.
+ * ⛔ Non rialzarli senza rimisurare `node scripts/altezza-pagine.mjs`. */
 export function Hero() {
 
   return (
-    <section style={{ paddingTop: 'var(--s-55)', paddingBottom: 'var(--s-89)' }}>
+    <section style={{ paddingTop: 'var(--s-13)', paddingBottom: 'var(--s-13)' }}>
       <div className="gabbia">
         <div className="grid gap-[var(--s-55)] lg:grid-cols-[1fr_1.1fr] lg:gap-[var(--s-89)] lg:items-center">
           {/* ── Parola ─────────────────────────────────────────────────── */}
@@ -147,7 +154,7 @@ export function Hero() {
             fatti controllabili. Il terzo dichiara lo stadio del prodotto,
             che è più credibile di una piazza di loghi finti. */}
         <div
-          className="entra-primo-schermo ritardo-4 mt-[var(--s-89)] grid gap-[var(--s-21)] md:grid-cols-3"
+          className="entra-primo-schermo ritardo-4 mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-3"
           style={{ borderTop: '1px solid var(--rule)', paddingTop: 'var(--s-34)' }}
         >
           {[

@@ -203,9 +203,25 @@ const CAPACITA = [
   },
 ] as const
 
-export function Capacita() {
-  return (
-    <section id="cosa-fa" className="fascia" style={{ background: 'var(--bg-sunk)' }}>
+/* ⚠️ RESTITUISCE UN ELENCO DI SEZIONI, NON UNA SEZIONE.
+ *
+ * Era una sezione sola con dentro le quattro capacità in colonna: **2.643px,
+ * il 327% di una schermata** (misurato con `scripts/altezza-pagine.mjs`). In un
+ * sito che scorre di continuo andava bene; in un percorso a tappe voleva dire
+ * che chi arrivava qui perdeva di vista la freccia per proseguire e non sapeva
+ * più che ci fosse un seguito.
+ *
+ * Ora sono cinque schermate: l'insegna, e una per capacità — con la sua prova
+ * da toccare accanto. Nessuna parola tolta, e la cosa singola torna a
+ * occupare uno schermo intero invece di un quarto.
+ *
+ * ⛔ NON è un componente: `Children.toArray` **non attraversa un Fragment**,
+ * quindi `<Capacita />` sarebbe rimasta una tappa sola qualunque cosa
+ * restituisse. Un array invece viene appiattito, e ogni elemento diventa una
+ * tappa vera. Perciò si chiama in JSX come `{tappeCapacita()}`. */
+export function tappeCapacita() {
+  return [
+    <section key="insegna" id="cosa-fa" className="fascia" style={{ background: 'var(--bg-sunk)' }}>
       <div className="gabbia">
         <Reveal>
           <TestaSezione
@@ -219,55 +235,61 @@ export function Capacita() {
             sommario="Non è un gestionale con sopra un modulo sanitario. È una cartella costruita attorno alle procedure che fai."
           />
         </Reveal>
-
-        <div className="mt-[var(--s-89)] space-y-[var(--s-89)]">
-          {CAPACITA.map((c, i) => (
-            <Reveal key={c.titolo}>
-              <div className={`aurea ${i % 2 === 1 ? 'aurea-inversa' : ''}`}>
-                <div className={i % 2 === 1 ? 'lg:order-2' : ''}>
-                  <Occhiello>{c.occhiello}</Occhiello>
-                  <h3 className="mt-[var(--s-13)] text-[length:var(--display-3)]" style={{ maxWidth: '15ch' }}>
-                    {c.titolo}
-                  </h3>
-                  <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                    {c.testo}
-                  </p>
-                  <p
-                    className="mt-[var(--s-21)] text-[15px]"
-                    style={{ color: 'var(--fg)', borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}
-                  >
-                    {c.aCosaServe}
-                  </p>
-                </div>
-                {c.immagine.tipo === 'prova' ? (
-                  /* Un pezzo di prodotto in pagina, non una sua fotografia.
-                     Vedi `ProvaCatalogoConsensi.tsx` per il perché. */
-                  <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
-                    {c.immagine.file === 'complicanze' ? <ProvaComplicanze /> : <ProvaCatalogoConsensi />}
-                  </div>
-                ) : (
-                  /* ⚠️ Il ramo `schermata` è stato tolto il 2026-08-11 e NON è
-                     una svista: in questa sezione non resta nessuna figura
-                     dell'applicazione, e il compilatore l'ha detto da sé
-                     («'foto' e 'schermata' non hanno sovrapposizione»). Se un
-                     domani ne torna una, il tipo si riapre e il ramo va
-                     rimesso — non aggiungere una schermata lasciando questo
-                     codice a indovinare. */
-                  <Foto
-                    nome={c.immagine.file}
-                    alt={c.alt}
-                    proporzione="4 / 3"
-                    didascalia={'didascalia' in c.immagine ? c.immagine.didascalia : undefined}
-                    className={i % 2 === 1 ? 'lg:order-1' : ''}
-                  />
-                )}
-              </div>
-            </Reveal>
-          ))}
-        </div>
       </div>
-    </section>
-  )
+    </section>,
+
+    ...CAPACITA.map((c, i) => (
+      <section
+        key={c.titolo}
+        className="fascia"
+        style={{ background: 'var(--bg-sunk)' }}
+      >
+        <div className="gabbia">
+          <Reveal>
+            <div className={`aurea ${i % 2 === 1 ? 'aurea-inversa' : ''}`}>
+              <div className={i % 2 === 1 ? 'lg:order-2' : ''}>
+                <Occhiello>{c.occhiello}</Occhiello>
+                <h3 className="mt-[var(--s-13)] text-[length:var(--display-3)]" style={{ maxWidth: '15ch' }}>
+                  {c.titolo}
+                </h3>
+                <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+                  {c.testo}
+                </p>
+                <p
+                  className="mt-[var(--s-21)] text-[15px]"
+                  style={{ color: 'var(--fg)', borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}
+                >
+                  {c.aCosaServe}
+                </p>
+              </div>
+              {c.immagine.tipo === 'prova' ? (
+                /* Un pezzo di prodotto in pagina, non una sua fotografia.
+                   Vedi `ProvaCatalogoConsensi.tsx` per il perché. */
+                <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
+                  {c.immagine.file === 'complicanze' ? <ProvaComplicanze /> : <ProvaCatalogoConsensi />}
+                </div>
+              ) : (
+                /* ⚠️ Il ramo `schermata` è stato tolto il 2026-08-11 e NON è
+                   una svista: in questa sezione non resta nessuna figura
+                   dell'applicazione, e il compilatore l'ha detto da sé
+                   («'foto' e 'schermata' non hanno sovrapposizione»). Se un
+                   domani ne torna una, il tipo si riapre e il ramo va
+                   rimesso — non aggiungere una schermata lasciando questo
+                   codice a indovinare. */
+                <Foto
+                  nome={c.immagine.file}
+                  alt={c.alt}
+                  proporzione="4 / 3"
+                  didascalia={'didascalia' in c.immagine ? c.immagine.didascalia : undefined}
+                  className={i % 2 === 1 ? 'lg:order-1' : ''}
+                />
+              )}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+    )),
+  ]
 }
 
 /* ══════════════════════════════════════════════════════════════════════════

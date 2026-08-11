@@ -75,9 +75,18 @@ export default function SicurezzaEDati() {
       }
       sommario="Otto risposte senza rassicurazioni generiche. Se una ti sembra evasiva, scrivicelo: le riscriviamo o ammettiamo il limite."
     >
-      <section style={{ paddingBottom: 'var(--s-34)' }}>
+      {/* ⚠️ QUATTRO PER SCHERMATA, non otto in colonna.
+          Le otto risposte stavano in una sezione sola: **1.368px, il 169% di
+          una schermata**. La numerazione prosegue (`i + 1` sull'indice
+          globale), quindi «otto risposte» resta vero e chi arriva alla quinta
+          la vede numerata 05: la divisione si vede solo come respiro, non come
+          due elenchi diversi. */}
+      {[0, 4].map((da) => (
+        <section key={da} style={{ paddingBlock: 'var(--s-21)' }}>
         <div className="gabbia gabbia-stretta">
-          {DOMANDE.map((q, i) => (
+          {DOMANDE.slice(da, da + 4).map((q, iRel) => {
+            const i = da + iRel
+            return (
             <Reveal key={q.d}>
               <div className="grid gap-[var(--s-21)] py-[var(--s-21)] sm:grid-cols-[2.5rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
                 <span className="numero" style={{ paddingTop: 5 }}>{String(i + 1).padStart(2, '0')}</span>
@@ -89,9 +98,11 @@ export default function SicurezzaEDati() {
                 </div>
               </div>
             </Reveal>
-          ))}
+            )
+          })}
         </div>
-      </section>
+        </section>
+      ))}
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia">

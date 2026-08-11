@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import { Header } from '@/components/chrome/Header'
-import { FrecciaAvanti } from '@/components/chrome/FrecciaAvanti'
+import { Tappe } from '@/components/chrome/Tappe'
 import { Footer } from '@/components/chrome/Footer'
 import { Occhiello } from '@/components/ui/elementi'
 
@@ -45,7 +45,8 @@ export function Pagina({
             del primo contenuto utile.
             34/21 tiene il respiro senza mangiare mezza schermata. ⛔ Non
             rialzarli senza rimisurare `node scripts/altezza-pagine.mjs`. */}
-        <section style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-21)' }}>
+        <Tappe href={href}>
+        <section className="tappa__intestazione" style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-21)' }}>
           <div className={`gabbia ${larga ? '' : 'gabbia-stretta'}`}>
             <Occhiello>{occhiello}</Occhiello>
             {/* ⚠️ `--display-2`, non `--display-1`: il token stesso si descrive
@@ -68,7 +69,7 @@ export function Pagina({
           </div>
         </section>
         {children}
-        <FrecciaAvanti da={href} />
+        </Tappe>
       </main>
       <Footer />
     </>

@@ -1,0 +1,44 @@
+{
+  "_perche": "Le tappe che oggi superano una schermata, con la ragione. È una CRICCA come `lint-produzione.py` nel knowledge: da qui il numero può solo SCENDERE. Un'assoluta «tutte sotto il 108%» sarebbe rossa dal primo giorno per casi legittimi (il questionario è una cosa sola), e un presidio sempre rosso viene spento — è già successo due volte in questo progetto. Così invece una tappa NUOVA che sfora fa diventare rosso il collaudo.",
+  "_come_si_aggiorna": "Quando ne accorci una, TOGLI la sua riga da qui. Aggiungerne una è vietato: `node scripts/altezza-pagine.mjs` lo rifiuta e dice quale. Se una tappa sfora per una ragione legittima nuova, discutine prima — non incollarla qui.",
+  "tollerate": [
+    {
+      "pagina": "/autovalutazione",
+      "tappa": "tappa-2",
+      "px": 1898,
+      "perche": "Le otto domande sono UN gesto solo: si risponde in sequenza e l'esito si legge in fondo. Spezzarle in due schermate romperebbe l'interazione, non la impaginerebbe meglio. ⛔ Non dividere senza ripensare il componente."
+    },
+    {
+      "pagina": "/",
+      "tappa": "tappa-13",
+      "px": 1009,
+      "perche": "I tre piani affiancati. Le colonne sono confrontabili solo se stanno insieme: metterne due su una schermata e uno sull'altra è peggio che scorrere di 250px."
+    },
+    {
+      "pagina": "/",
+      "tappa": "tappa-2",
+      "px": 967,
+      "perche": "«Parli, e la scheda si riempie» — la dettatura che si compone da sola. È una dimostrazione continua: tagliarla a metà toglie il prima o il dopo, cioè il punto."
+    },
+    {
+      "pagina": "/",
+      "tappa": "tappa-11",
+      "px": 931,
+      "perche": "Il sigillo: la catena di impronte accanto alla spiegazione. Grafico e testo si leggono insieme."
+    },
+    {
+      "pagina": "/per-le-societa-scientifiche",
+      "tappa": "tappa-3",
+      "px": 877,
+      "perche": "«Quattro cose, in ordine di quanto ci crediamo»: l'ordine È il contenuto, e si vede solo se le quattro stanno sotto gli occhi insieme."
+    },
+    {
+      "pagina": "/",
+      "tappa": "tappa-15",
+      "px": 861,
+      "perche": "La chiusura con i quattro campi del modulo. Il modulo non si spezza."
+    }
+  ],
+  "telefono_fuori_misura": 38,
+  "_telefono": "Quante tappe superano una schermata su 375×812. A quella larghezza le due colonne si impilano e la stessa tappa raddoppia: «una schermata» lì non è ottenibile senza spezzare i contenuti per larghezza, che è un lavoro a parte. Il numero è una cricca: può solo scendere."
+}

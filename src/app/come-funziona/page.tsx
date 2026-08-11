@@ -89,11 +89,17 @@ export default function ComeFunziona() {
       sommario="Cinque momenti di una giornata di studio. Le immagini sono schermate dell’applicazione, non disegni."
       larga
     >
-      <section className="fascia">
-        <div className="gabbia">
-          <div className="space-y-[var(--s-89)]">
-            {PASSI.map((p, i) => (
-              <Reveal key={p.ora}>
+      {/* ⚠️ UNA SEZIONE PER MOMENTO, non una sezione con dentro cinque momenti.
+          I cinque erano in colonna dentro un'unica sezione: **2.420px, il 299%
+          di una schermata**. La pagina si chiama «un mercoledì qualunque» e
+          racconta una giornata per momenti — averli uno per schermata è anche
+          più fedele di quanto fossero prima. Nessuna parola cambiata: è la
+          stessa `PASSI.map`, con la sezione spostata dentro il ciclo. */}
+      {PASSI.map((p, i) => (
+        <section className="fascia" key={p.ora}>
+          <div className="gabbia">
+            <div>
+              <Reveal>
                 <div className={`aurea ${i % 2 === 1 ? 'aurea-inversa' : ''}`}>
                   <div className={i % 2 === 1 ? 'lg:order-2' : ''}>
                     <div className="flex items-baseline gap-[var(--s-13)]">
@@ -123,10 +129,10 @@ export default function ComeFunziona() {
                   )}
                 </div>
               </Reveal>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ))}
 
       {/* Le foto cliniche meritano una fermata a parte */}
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>

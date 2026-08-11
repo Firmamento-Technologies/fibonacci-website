@@ -67,7 +67,10 @@ export default function IntelligenzaArtificiale() {
       }
       sommario="Tre punti del prodotto usano un modello linguistico. Qui c’è cosa fa ciascuno, cosa non fa mai, e chi controlla il risultato."
     >
-      <section style={{ paddingBottom: 'var(--s-55)' }}>
+      {/* ⚠️ La coda era di px: dentro una tappa lo spazio lo dà già la
+          centratura verticale, e quella coda mandava la V sotto il bordo
+          (misurato: 1% oltre la schermata, `scripts/altezza-pagine.mjs`). */}
+      <section style={{ paddingBottom: 'var(--s-8)' }}>
         <div className="gabbia gabbia-stretta">
           {DOVE.map((d, i) => (
             <Reveal key={d.titolo}>
