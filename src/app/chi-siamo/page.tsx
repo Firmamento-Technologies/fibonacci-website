@@ -50,6 +50,7 @@ const PRINCIPI = [
 export default function ChiSiamo() {
   return (
     <Pagina
+      href="/chi-siamo"
       occhiello="Chi siamo"
       titolo={
         <>

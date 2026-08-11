@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 export default function AutovalutazionePagina() {
   return (
     <Pagina
+      href="/autovalutazione"
       occhiello="Autovalutazione"
       titolo={
         <>

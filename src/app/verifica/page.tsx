@@ -29,6 +29,7 @@ export const metadata: Metadata = {
 export default function Verifica() {
   return (
     <Pagina
+      href="/verifica"
       occhiello="Verifica"
       titolo={
         <>

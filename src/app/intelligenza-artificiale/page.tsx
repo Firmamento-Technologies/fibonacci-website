@@ -57,6 +57,7 @@ const MAI = [
 export default function IntelligenzaArtificiale() {
   return (
     <Pagina
+      href="/intelligenza-artificiale"
       occhiello="Trasparenza"
       titolo={
         <>

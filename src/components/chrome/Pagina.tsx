@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { Header } from '@/components/chrome/Header'
+import { FrecciaAvanti } from '@/components/chrome/FrecciaAvanti'
 import { Footer } from '@/components/chrome/Footer'
 import { Occhiello } from '@/components/ui/elementi'
 
@@ -15,17 +16,28 @@ export function Pagina({
   sommario,
   children,
   larga = false,
+  href,
 }: {
   occhiello: string
   titolo: ReactNode
   sommario?: ReactNode
   children: ReactNode
   larga?: boolean
+  /** L'indirizzo di QUESTA pagina: serve alla freccia per sapere qual è la
+   *  successiva. ⛔ Non si deduce da `usePathname()` perché il guscio è un
+   *  componente di server: dedurlo lo renderebbe di client, e con esso ogni
+   *  pagina del sito. */
+  href: string
 }) {
   return (
     <>
       <Header />
-      <main id="contenuto" className="flex-1">
+      {/* ⚠️ `schermo-pieno`: la pagina occupa ESATTAMENTE una schermata, e la
+          freccia sta in fondo al centro. È la struttura chiesta dall'utente il
+          2026-08-11 dopo che la mia limatura a pixel non aveva cambiato niente
+          — il problema non era l'altezza di un titolo, era che il sito è un
+          rotolo invece di un percorso. Vedi `src/lib/percorso.ts`. */}
+      <main id="contenuto" className="schermo-pieno">
         {/* ⚠️ Padding ridotto il 2026-08-11 (era 55/34), e vale per TUTTE le
             pagine: questa intestazione è condivisa, quindi i suoi 327px erano
             la ragione sistematica per cui «diverse pagine non stanno in una
@@ -56,6 +68,7 @@ export function Pagina({
           </div>
         </section>
         {children}
+        <FrecciaAvanti da={href} />
       </main>
       <Footer />
     </>

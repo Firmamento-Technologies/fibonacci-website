@@ -54,6 +54,7 @@ const CONTENUTI = [
 export default function ConsensiInformati() {
   return (
     <Pagina
+      href="/consensi-informati"
       occhiello="Guida"
       titolo={
         <>

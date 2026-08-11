@@ -41,6 +41,7 @@ const NON_COMPRESO = [
 export default function Prezzi() {
   return (
     <Pagina
+      href="/prezzi"
       occhiello="Prezzi"
       titolo={
         <>

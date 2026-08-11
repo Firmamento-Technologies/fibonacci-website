@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 export default function RichiediUnaDemo() {
   return (
     <Pagina
+      href="/richiedi-una-demo"
       occhiello="Parliamone"
       titolo={
         <>

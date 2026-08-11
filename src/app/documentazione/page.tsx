@@ -19,6 +19,7 @@ const GRUPPI = {
 export default function Documentazione() {
   return (
     <Pagina
+      href="/documentazione"
       occhiello="Documentazione"
       titolo={<>Le guide, scritte per chi <span className="accento-corsivo">lavora</span></>}
       sommario="Niente manuale da 200 pagine. Una guida per compito, con le schermate del prodotto."

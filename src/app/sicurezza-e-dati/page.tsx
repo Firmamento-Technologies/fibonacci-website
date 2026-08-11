@@ -65,6 +65,7 @@ const DOCUMENTI = [
 export default function SicurezzaEDati() {
   return (
     <Pagina
+      href="/sicurezza-e-dati"
       occhiello="Sicurezza e dati"
       titolo={
         <>

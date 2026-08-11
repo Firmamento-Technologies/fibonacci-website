@@ -79,6 +79,7 @@ const PASSI = [
 export default function ComeFunziona() {
   return (
     <Pagina
+      href="/come-funziona"
       occhiello="Il prodotto"
       titolo={
         <>

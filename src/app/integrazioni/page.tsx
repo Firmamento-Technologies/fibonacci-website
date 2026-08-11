@@ -63,6 +63,7 @@ const ESCE = [
 export default function Integrazioni() {
   return (
     <Pagina
+      href="/integrazioni"
       occhiello="Integrazioni"
       titolo={
         <>

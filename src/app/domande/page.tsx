@@ -39,6 +39,7 @@ function SchemaDomande() {
 export default function DomandeFrequenti() {
   return (
     <Pagina
+      href="/domande"
       occhiello="Domande"
       titolo={
         <>

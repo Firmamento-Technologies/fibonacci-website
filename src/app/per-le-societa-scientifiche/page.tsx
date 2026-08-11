@@ -79,6 +79,7 @@ const REGOLE = [
 export default function PerLeSocietaScientifiche() {
   return (
     <Pagina
+      href="/per-le-societa-scientifiche"
       occhiello="Società scientifiche"
       titolo={
         <>

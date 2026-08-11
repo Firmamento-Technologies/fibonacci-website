@@ -101,6 +101,7 @@ const CATEGORIE: readonly Categoria[] = [
 export default function CheSoftwareServe() {
   return (
     <Pagina
+      href="/che-software-serve"
       occhiello="Confronto"
       titolo={
         <>
