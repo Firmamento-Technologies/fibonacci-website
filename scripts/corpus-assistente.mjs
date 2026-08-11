@@ -198,6 +198,26 @@ function titoloDaHtml(html) {
   return m ? decodificaEntita(m[1]).replace(/\s+\|\s+Fibonacci.*$/, '').trim() : ''
 }
 
+/**
+ * La `<meta name="description">` della pagina: una riga che dice di cosa parla.
+ *
+ * 🔑 **Aggiunta il 2026-08-12 perché una misura l'ha chiesta.** Il banco delle
+ * domande (`EMR/services/pdf-signer/eval_assistenza.py`) ha mostrato che
+ * l'assistente in-app sceglieva la guida sbagliata **3 volte su 11**, e due
+ * erano spiegate dallo stesso motivo: nell'indice vedeva **solo il titolo**, e
+ * «Body map 2D» o «Catalogo farmaci» non contengono le parole con cui la
+ * domanda si presenta. La descrizione invece sì — quella del catalogo dice alla
+ * lettera *«perché «forza sync» è disabilitato»*, che era la domanda mancata.
+ *
+ * ⇒ Il rimedio non è stato riscrivere i titoli per compiacere un modello — che
+ * li avrebbe resi peggiori per le persone — ma **dargli la riga che esiste già,
+ * scritta per gli umani e mantenuta insieme alla guida**.
+ */
+function descrizioneDaHtml(html) {
+  const m = html.match(/<meta\s+name="description"\s+content="([^"]*)"/i)
+  return m ? decodificaEntita(m[1]).trim() : ''
+}
+
 async function* pagine(dir) {
   for (const voce of await readdir(dir, { withFileTypes: true })) {
     const intero = join(dir, voce.name)
@@ -269,9 +289,10 @@ export function problemiDelCorpus(voci, guide = guideAttese()) {
   // decodifica auto-sorvegliata invece di curata caso per caso.
   const RESIDUE = /&(?:[a-z]+|#\d+|#x[0-9a-f]+);/gi
   for (const v of voci) {
-    // ⚠️ `titolo` E `testo`: guardando solo il testo, questo controllo ha
-    // dichiarato sano un corpus in cui 2 titoli su 40 portavano `&#x27;`.
-    for (const campo of ['titolo', 'testo']) {
+    // ⚠️ Tutti i campi di testo, non uno: guardando solo `testo`, questo
+    // controllo ha dichiarato sano un corpus in cui 2 titoli su 40 portavano
+    // `&#x27;`. `descrizione` è entrata dopo, e la lezione vale anche per lei.
+    for (const campo of ['titolo', 'descrizione', 'testo']) {
       const trovate = (v[campo] ?? '').match(RESIDUE)
       if (trovate) {
         const forme = [...new Set(trovate)].slice(0, 5).join(' ')
@@ -300,7 +321,12 @@ async function main() {
     const testo = testoDaHtml(contenutoPrincipale(html))
     // Pagine quasi vuote (redirect, gusci) non aggiungono niente e diluiscono.
     if (testo.length < 200) continue
-    voci.push({ percorso, titolo: titoloDaHtml(html), testo })
+    voci.push({
+      percorso,
+      titolo: titoloDaHtml(html),
+      descrizione: descrizioneDaHtml(html),
+      testo,
+    })
   }
 
   voci.sort((a, b) => a.percorso.localeCompare(b.percorso))
