@@ -146,7 +146,7 @@ export function VerificaDocumento() {
     <div className="space-y-6">
       {!analysis && (
         <div
-          className="rounded-2xl border-2 border-dashed p-12 text-center cursor-pointer transition-colors hover:bg-[var(--card)]"
+          className="rounded-2xl border-2 border-dashed p-12 text-center cursor-pointer transition-colors hover:bg-[color:var(--card)]"
           style={{ borderColor: 'var(--accent)', background: 'var(--card)' }}
           onClick={() => inputRef.current?.click()}
           onDragOver={(e) => e.preventDefault()}

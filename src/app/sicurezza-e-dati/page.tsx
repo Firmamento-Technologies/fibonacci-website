@@ -98,7 +98,7 @@ export default function SicurezzaEDati() {
             <Reveal>
               <div>
                 <Occhiello>I documenti</Occhiello>
-                <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
                   Girali al tuo consulente prima di parlare con noi
                 </h2>
                 <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -138,7 +138,7 @@ export default function SicurezzaEDati() {
       <section className="scuro fascia">
         <div className="gabbia gabbia-stretta">
           <Occhiello chiaro>Se trovi un problema</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
             Segnalazioni di sicurezza
           </h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>

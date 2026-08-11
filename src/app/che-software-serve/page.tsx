@@ -130,7 +130,7 @@ export default function CheSoftwareServe() {
             <Reveal>
               {c.noi && <Occhiello>Qui stiamo noi</Occhiello>}
               <h2
-                className="text-[var(--display-2)]"
+                className="text-[length:var(--display-2)]"
                 style={{ maxWidth: '20ch', marginTop: c.noi ? 'var(--s-13)' : 0 }}
               >
                 {c.nome}
@@ -179,7 +179,7 @@ export default function CheSoftwareServe() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello chiaro>La risposta che non trovi nei listini</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Quasi sempre servono due caselle, non una
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>
@@ -205,7 +205,7 @@ export default function CheSoftwareServe() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[var(--display-2)]">Non sei sicuro di quale ti manchi?</h2>
+          <h2 className="text-[length:var(--display-2)]">Non sei sicuro di quale ti manchi?</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             Otto domande sulla tua documentazione. Le risposte restano nel tuo browser e l’esito
             si legge subito, senza lasciare l’email.

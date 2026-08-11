@@ -43,7 +43,7 @@ export function Problema() {
           <div>
             <Reveal>
               <Occhiello>Perché esistiamo</Occhiello>
-              <h2 className="mt-[var(--s-21)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+              <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                 Nessuno apre uno studio per fare l&apos;<span className="accento-corsivo">archivista</span>
               </h2>
             </Reveal>
@@ -108,7 +108,7 @@ export function Procedure() {
           <div className="flex flex-wrap items-end justify-between gap-[var(--s-21)]">
             <div>
               <Occhiello>Per chi è</Occhiello>
-              <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+              <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
                 Uno studio di medicina estetica, non un ambulatorio qualsiasi
               </h2>
             </div>
@@ -210,7 +210,7 @@ export function Capacita() {
               <div className={`aurea ${i % 2 === 1 ? 'aurea-inversa' : ''}`}>
                 <div className={i % 2 === 1 ? 'lg:order-2' : ''}>
                   <Occhiello>{c.occhiello}</Occhiello>
-                  <h3 className="mt-[var(--s-13)] text-[var(--display-3)]" style={{ maxWidth: '15ch' }}>
+                  <h3 className="mt-[var(--s-13)] text-[length:var(--display-3)]" style={{ maxWidth: '15ch' }}>
                     {c.titolo}
                   </h3>
                   <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -261,7 +261,7 @@ export function FotoCliniche() {
           <Reveal>
             <div className="lg:order-2">
               <Occhiello>Foto cliniche</Occhiello>
-              <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+              <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                 Il prima e dopo esce dal telefono
               </h2>
               <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -380,7 +380,7 @@ export function Obiezioni() {
           <Reveal>
             <div>
               <Occhiello>Le domande scomode</Occhiello>
-              <h2 className="mt-[var(--s-21)] text-[var(--display-2)]" style={{ maxWidth: '14ch' }}>
+              <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '14ch' }}>
                 Quelle che faresti tu
               </h2>
               <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>

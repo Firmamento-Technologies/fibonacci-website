@@ -175,7 +175,7 @@ export function DocumentoCheSiCompone() {
                       pointerEvents: i === tappaAttiva ? undefined : 'none',
                     }}
                   >
-                    <h2 className="text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+                    <h2 className="text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
                       {tappa.titolo}
                     </h2>
                     <p
@@ -296,7 +296,7 @@ function VersioneStatica() {
     <section id="il-documento" className="fascia-lg">
       <div className="gabbia">
         <Occhiello>Il documento che regge</Occhiello>
-        <h2 className="mt-[var(--s-21)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+        <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
           Come si compone un consenso
         </h2>
         <div className="mt-[var(--s-55)] grid gap-[var(--s-21)] md:grid-cols-2 lg:grid-cols-3">

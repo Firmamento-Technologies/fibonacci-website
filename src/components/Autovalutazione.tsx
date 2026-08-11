@@ -82,7 +82,7 @@ export function Autovalutazione() {
         <h2
           ref={esitoRef}
           tabIndex={-1}
-          className="text-[var(--display-2)]"
+          className="text-[length:var(--display-2)]"
           style={{ maxWidth: '22ch', outline: 'none' }}
         >
           {esito.length === 0

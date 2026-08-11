@@ -101,7 +101,7 @@ export default function IntelligenzaArtificiale() {
             <Reveal>
               <div>
                 <Occhiello chiaro>I confini</Occhiello>
-                <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                   Cinque cose che non succedono mai
                 </h2>
                 <ul className="mt-[var(--s-34)]">
@@ -132,7 +132,7 @@ export default function IntelligenzaArtificiale() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Occhiello>Dove girano i dati</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
             La domanda che conta davvero
           </h2>
           <div className="prosa mt-[var(--s-21)]">

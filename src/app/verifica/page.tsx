@@ -46,7 +46,7 @@ export default function Verifica() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Occhiello>Che cosa dimostra, e che cosa no</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
             Due cose diverse che spesso vengono confuse
           </h2>
 

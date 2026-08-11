@@ -90,7 +90,7 @@ export default function ConsensiInformati() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Occhiello>La sostanza</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
             Sei cose che un consenso estetico deve dire
           </h2>
           <div className="mt-[var(--s-34)]">
@@ -124,7 +124,7 @@ export default function ConsensiInformati() {
             <Reveal da="destra">
               <div>
                 <Occhiello>Gli errori ricorrenti</Occhiello>
-                <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                   Quattro modi di avere un consenso che non regge
                 </h2>
                 <ol className="mt-[var(--s-34)]">
@@ -155,7 +155,7 @@ export default function ConsensiInformati() {
             <Reveal>
               <div className="lg:order-2">
                 <Occhiello>Come lo risolve Fibonacci</Occhiello>
-                <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                   Un modulo per procedura, firmato in studio
                 </h2>
                 <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>

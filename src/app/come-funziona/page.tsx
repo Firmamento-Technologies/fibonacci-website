@@ -96,7 +96,7 @@ export default function ComeFunziona() {
                       </span>
                       <Occhiello>{p.occhiello}</Occhiello>
                     </div>
-                    <h2 className="mt-[var(--s-13)] text-[var(--display-3)]" style={{ maxWidth: '16ch' }}>
+                    <h2 className="mt-[var(--s-13)] text-[length:var(--display-3)]" style={{ maxWidth: '16ch' }}>
                       {p.titolo}
                     </h2>
                     <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -125,7 +125,7 @@ export default function ComeFunziona() {
             <Reveal da="destra">
               <div>
                 <Occhiello>Foto cliniche</Occhiello>
-                <h2 className="mt-[var(--s-13)] text-[var(--display-3)]" style={{ maxWidth: '16ch' }}>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-3)]" style={{ maxWidth: '16ch' }}>
                   Il prima e dopo non sta nel rullino
                 </h2>
                 <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -141,7 +141,7 @@ export default function ComeFunziona() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[var(--display-2)]">Provalo, o fattelo mostrare</h2>
+          <h2 className="text-[length:var(--display-2)]">Provalo, o fattelo mostrare</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             La demo è aperta e non chiede registrazione. Se preferisci vedertelo spiegare sulle tue
             procedure, mezz&apos;ora basta.

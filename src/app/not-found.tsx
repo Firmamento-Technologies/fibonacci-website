@@ -14,7 +14,7 @@ export default function NonTrovata() {
       <main id="contenuto" className="flex-1 fascia-lg">
         <div className="gabbia">
           <Occhiello>Errore 404</Occhiello>
-          <h1 className="mt-[var(--s-21)] text-[var(--display-1)]" style={{ maxWidth: '16ch' }}>
+          <h1 className="mt-[var(--s-21)] text-[length:var(--display-1)]" style={{ maxWidth: '16ch' }}>
             Questa pagina non c&apos;è
           </h1>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)', maxWidth: '44ch' }}>

@@ -33,7 +33,7 @@ export function Sigillo() {
         <div className="aurea">
           <div>
             <Occhiello chiaro>Il sigillo</Occhiello>
-            <h2 className="mt-[var(--s-21)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+            <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
               Una cartella si contesta dicendo che è stata{' '}
               <span className="accento-corsivo">riscritta</span>
             </h2>
@@ -174,7 +174,7 @@ export function Chiusura() {
         <div className="aurea">
           <div>
             <Occhiello>Il passo dopo</Occhiello>
-            <h2 className="mt-[var(--s-21)] text-[var(--display-2)]" style={{ maxWidth: '15ch' }}>
+            <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '15ch' }}>
               Mezz&apos;ora, e capisci se fa per te
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)', maxWidth: '44ch' }}>

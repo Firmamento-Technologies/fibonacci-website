@@ -40,7 +40,7 @@ export default function AutovalutazionePagina() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Come è fatta</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Nessun punteggio, e nessuna email da lasciare
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -61,7 +61,7 @@ export default function AutovalutazionePagina() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[var(--display-2)]">Se qualche punto è scoperto</h2>
+          <h2 className="text-[length:var(--display-2)]">Se qualche punto è scoperto</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             Non serve per forza cambiare software: alcuni si chiudono cambiando un’abitudine. Se
             invece vuoi vedere come li chiude Fibonacci, si fa in mezz’ora.

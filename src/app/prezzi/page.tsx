@@ -64,7 +64,7 @@ export default function Prezzi() {
             <Reveal>
               <div>
                 <Occhiello>Attivazione</Occhiello>
-                <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '16ch' }}>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                   Compreso nel prezzo, non a preventivo
                 </h2>
                 <ul className="mt-[var(--s-34)]">
@@ -97,7 +97,7 @@ export default function Prezzi() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Quello che non c&apos;è</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               Tre cose che altri mettono nel listino e noi no
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -128,7 +128,7 @@ export default function Prezzi() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Se paghi già un portale</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               {CONVIVENZA.titolo}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -179,7 +179,7 @@ export default function Prezzi() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Se sei sotto contratto</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               {RESIDUO.titolo}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -194,7 +194,7 @@ export default function Prezzi() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello chiaro>Con che cosa si confronta</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               {ANCORA.titolo}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>
@@ -212,7 +212,7 @@ export default function Prezzi() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[var(--display-2)]">Vuoi vederlo prima di decidere?</h2>
+          <h2 className="text-[length:var(--display-2)]">Vuoi vederlo prima di decidere?</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             Mezz&apos;ora, sulle procedure che fai tu.
           </p>

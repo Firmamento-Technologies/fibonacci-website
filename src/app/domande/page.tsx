@@ -92,7 +92,7 @@ export default function DomandeFrequenti() {
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[var(--display-2)]">Manca la tua?</h2>
+          <h2 className="text-[length:var(--display-2)]">Manca la tua?</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             {CONTACT_EMAIL ? (
               <>

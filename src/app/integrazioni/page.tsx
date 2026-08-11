@@ -79,7 +79,7 @@ export default function Integrazioni() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Perché non c’è un elenco di loghi</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '22ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '22ch' }}>
               Un’integrazione è una promessa che dipende da un altro
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
@@ -101,7 +101,7 @@ export default function Integrazioni() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Che cosa entra</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '18ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               Portare i dati dentro è un lavoro nostro
             </h2>
           </Reveal>
@@ -131,7 +131,7 @@ export default function Integrazioni() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello>Che cosa esce</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Uno standard, non un formato nostro
             </h2>
           </Reveal>
@@ -154,7 +154,7 @@ export default function Integrazioni() {
         <div className="gabbia gabbia-stretta">
           <Reveal>
             <Occhiello chiaro>E il portale che usi già</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[var(--display-2)]" style={{ maxWidth: '20ch' }}>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Convivono, e il costo lo diciamo
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>
@@ -169,7 +169,7 @@ export default function Integrazioni() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[var(--display-2)]">Vuoi vedere come esce un documento?</h2>
+          <h2 className="text-[length:var(--display-2)]">Vuoi vedere come esce un documento?</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             Il verificatore gira nel tuo browser e funziona anche su un file che non è nostro.
           </p>

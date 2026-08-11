@@ -279,6 +279,18 @@ a { color: inherit; text-decoration: none; }
    Due soli livelli. Il terzo livello è un link testuale, non un terzo
    pulsante: tre pesi di CTA nella stessa schermata vuol dire nessuna
    gerarchia. */
+/* ⚠️ STRATIFICATO il 2026-08-11, e il motivo va saputo perché vale per tutto
+   questo file. Le regole NON stratificate battono SEMPRE quelle dentro un
+   `@layer`, per la regola delle cascade layers — e Tailwind mette le proprie
+   utility in `@layer utilities`. ⇒ `.btn` (CSS semplice, e scritto DOPO nel
+   file) vinceva su qualunque utility provasse a sovrascriverlo.
+   Sintomo visibile: nell'intestazione «Richiedi una demo» compariva DUE volte
+   su desktop, perché `.btn` imponeva `display:flex` e la utility `lg:hidden`
+   del pulsante mobile — che esiste ed è corretta — perdeva in silenzio.
+   ⛔ Le altre ~60 classi di questo file hanno lo stesso difetto latente: qui è
+   stratificato solo `.btn*`, perché stratificare tutto cambia la cascata su 40
+   pagine e va fatto con una verifica visiva sua. Vedi il log del 2026-08-11. */
+@layer components {
 .btn {
   display: inline-flex;
   align-items: center;
@@ -320,6 +332,8 @@ a { color: inherit; text-decoration: none; }
   border-color: var(--rule-ink);
 }
 .btn-su-scuro:hover { background: rgba(255, 255, 255, 0.07); border-color: var(--accent-onink); }
+}
+
 
 /* Link testuale con freccia che avanza al passaggio */
 .link-avanti {
