@@ -46,10 +46,14 @@ fibonaccimedica.it {
 	# BFF piu' sotto, e per la stessa ragione — un servizio che conosce il
 	# proprio prefisso e' un servizio che si rompe quando lo si sposta.
 	handle_path /assistente/* {
-		# Una domanda e' testo: 8 KB sono gia' abbondanti, e il limite qui
-		# costa zero mentre a valle costerebbe token.
+		# Una domanda e' testo, e il servizio la tronca comunque a 500
+		# caratteri: il limite qui costa zero mentre a valle costerebbe token.
+		# ⚠️ 16 KB e non 8: allineato a cio' che gira davvero sulla macchina,
+		# verificato col diff il 2026-08-12. Quando il file versionato e la
+		# macchina divergono, e' la macchina a dire cosa gira — il file la
+		# descrive, non la comanda.
 		request_body {
-			max_size 8KB
+			max_size 16KB
 		}
 		reverse_proxy 127.0.0.1:8212
 	}
