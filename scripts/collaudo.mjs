@@ -20,6 +20,7 @@ import { execFileSync } from 'node:child_process'
 import { PERCORSI_CHE_CAMBIANO_LA_RESA } from './ancora-emr.mjs'
 import { paritaMappaViso } from './parita-viso.mjs'
 import { paritaCatalogo } from './parita-catalogo.mjs'
+import { paritaFarmaci } from './parita-farmaci.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -645,6 +646,7 @@ async function main() {
   // quelli dell'applicazione **di proposito** — è la decisione TD-15.
   paritaMappaViso(problemi, (m) => console.log(giallo('\n' + m)))
   paritaCatalogo(problemi, (m) => console.log(giallo('\n' + m)))
+  paritaFarmaci(problemi, (m) => console.log(giallo('\n' + m)))
 
   if (problemi.length) {
     console.log(rosso(`\n${problemi.length} problemi:`))

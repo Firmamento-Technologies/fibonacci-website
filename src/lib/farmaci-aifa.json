@@ -1,0 +1,132 @@
+{
+ "generato": "node scripts/farmaci.mjs",
+ "confezioniNelCampione": 46,
+ "principi": [
+  {
+   "principio": "Acido glicolico",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Acido ialuronico",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 11
+  },
+  {
+   "principio": "Acido ialuronico + lidocaina",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 4
+  },
+  {
+   "principio": "Acido ialuronico stabilizzato",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 2
+  },
+  {
+   "principio": "Acido polilattico",
+   "atc": "D11AX",
+   "fornitura": "OSP",
+   "confezioni": 1
+  },
+  {
+   "principio": "Acido salicilico",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Acido tricloroacetico",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 2
+  },
+  {
+   "principio": "Atorvastatina calcio",
+   "atc": "C10AA05",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Calcio idrossiapatite",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Calcio idrossiapatite + lidocaina",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Desloratadina",
+   "atc": "R06AX27",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Ibuprofene",
+   "atc": "M01AE01",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Lidocaina + adrenalina",
+   "atc": "N01BB52",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Lidocaina + prilocaina",
+   "atc": "N01BB20",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Lidocaina cloridrato",
+   "atc": "N01BB02",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Metformina cloridrato",
+   "atc": "A10BA02",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Paracetamolo",
+   "atc": "N02BE01",
+   "fornitura": "RR",
+   "confezioni": 2
+  },
+  {
+   "principio": "Polidocanolo",
+   "atc": "C05BB02",
+   "fornitura": "RR",
+   "confezioni": 3
+  },
+  {
+   "principio": "Resorcinolo + acido lattico + acido salicilico",
+   "atc": "D11AX",
+   "fornitura": "RR",
+   "confezioni": 1
+  },
+  {
+   "principio": "Sodio tetradecil solfato",
+   "atc": "C05BB04",
+   "fornitura": "RR",
+   "confezioni": 3
+  },
+  {
+   "principio": "Tossina botulinica di tipo A",
+   "atc": "M03AX01",
+   "fornitura": "OSP",
+   "confezioni": 6
+  }
+ ]
+}

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Header } from '@/components/chrome/Header'
 import { Footer } from '@/components/chrome/Footer'
 import { MarkdownRenderer } from '@/components/MarkdownRenderer'
+import { ProvaFarmaciAifa } from '@/components/home/ProvaFarmaciAifa'
 import { Freccia } from '@/components/ui/elementi'
 import { DOCS, getDocMeta, loadDoc } from '@/lib/docs-data'
 
@@ -37,6 +38,16 @@ export default async function Guida({ params }: { params: Promise<{ slug: string
           <article className="prosa mt-[var(--s-34)]">
             <MarkdownRenderer content={contenuto} />
           </article>
+
+          {/* La guida che PARLA del catalogo farmaci lo fa anche provare.
+              ⚖️ Sta qui e non nella home: è il posto dove chi legge si sta già
+              chiedendo come funziona quel catalogo, e dove il campione ridotto
+              (46 confezioni) non rischia di essere letto come un vanto. */}
+          {slug === 'catalogo-farmaci-aifa' && (
+            <div className="mt-[var(--s-55)]">
+              <ProvaFarmaciAifa />
+            </div>
+          )}
 
           <nav className="mt-[var(--s-89)] grid gap-[var(--s-21)] sm:grid-cols-2" style={{ borderTop: '1px solid var(--rule)', paddingTop: 'var(--s-21)' }} aria-label="Guide vicine">
             {precedente ? (
