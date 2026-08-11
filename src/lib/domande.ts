@@ -64,7 +64,7 @@ export const DOMANDE: Domanda[] = [
   {
     categoria: 'prezzi',
     d: 'Quanto costa?',
-    r: 'Solo 99 euro al mese per un medico; Studio 189 euro al mese fino a cinque operatori. Prezzi per studio, IVA esclusa. Migrazione dei dati e formazione iniziale sono comprese, non a preventivo.',
+    r: 'Solo 129 euro al mese per un medico; Studio 279 euro al mese fino a cinque operatori. Prezzi per studio, IVA esclusa. Migrazione dei dati e formazione iniziale sono comprese, non a preventivo.',
   },
   {
     categoria: 'prezzi',

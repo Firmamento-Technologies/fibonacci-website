@@ -9,7 +9,7 @@ import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 export const metadata: Metadata = {
   title: 'Prezzi',
   description:
-    'Tre piani: Solo a 99 euro al mese, Studio a 189, Clinica a 349. Pagando un anno in anticipo due mensilità sono in regalo. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
+    'Tre piani: Solo a 129 euro al mese, Studio a 279, Clinica a 549. Pagando un anno in anticipo due mensilità sono in regalo. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
   alternates: { canonical: '/prezzi' },
 }
 
@@ -169,7 +169,11 @@ export default function Prezzi() {
             </ul>
           </Reveal>
 
-          <Reveal>
+          {/* Dentro il passo dell'elenco, non dopo: da sola questa nota è
+              155px che restavano fuori da ogni passo, e sul telefono facevano
+              cominciare la tappa dopo un quinto di schermata più in basso.
+              È anche il posto giusto — commenta l'elenco che la precede. */}
+          <Reveal className="passo">
             <p
               className="mt-[var(--s-21)] text-[15px]"
               style={{ borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}

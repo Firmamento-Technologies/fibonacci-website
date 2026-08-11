@@ -61,16 +61,23 @@ export function SoftwareApplicationSchema() {
           {
             '@type': 'Offer',
             name: 'Solo',
-            price: '99',
+            price: '129',
             priceCurrency: 'EUR',
             description: 'Un medico, uno studio. Prezzo mensile, IVA esclusa.',
           },
           {
             '@type': 'Offer',
             name: 'Studio',
-            price: '189',
+            price: '279',
             priceCurrency: 'EUR',
             description: 'Fino a cinque operatori. Prezzo mensile, IVA esclusa.',
+          },
+          {
+            '@type': 'Offer',
+            name: 'Clinica',
+            price: '549',
+            priceCurrency: 'EUR',
+            description: 'Più sedi, o oltre cinque operatori. Prezzo mensile, IVA esclusa.',
           },
         ],
       }}

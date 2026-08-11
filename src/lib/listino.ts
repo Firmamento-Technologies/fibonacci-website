@@ -13,13 +13,31 @@
  */
 
 /**
- * I numeri del listino — decisione D2/D3 dell'utente (2026-08-10): «aggiungi
- * entrambi, annuale e clinica».
+ * I numeri del listino — decisione dell'utente del 2026-08-11: **129 · 279 · 549**.
  *
- *   1. ✅ **Il prezzo di Clinica: 349 €/mese**, deciso dall'utente il
- *      2026-08-10. Fino a quel momento era `null` — «su richiesta» — ed era il
- *      valore corretto: ⛔ un prezzo non si inventa (stessa regola per cui il
- *      buy-out del residuo va sul sito come principio e senza cifra, e per cui
+ *   0. ✅ **Il livello: 129 / 279 / 549**, deciso il 2026-08-11 (prima erano
+ *      99 / 189 / 349). Chiude una domanda rimasta aperta dal **14 luglio**:
+ *      `decisione-posizionamento-gtm` elencava *«pricing (premium
+ *      "assicurazione" vs €99)»* fra le cinque decisioni non-codice «da
+ *      prendere ORA», scartava *«competere a €99 sulla parità di feature»* e
+ *      rinviava la calibratura «dopo le prime 5-10 demo» — demo che non ci sono
+ *      state, quindi i 99 € stavano qui **per inerzia, non per scelta**.
+ *      Il mercato misurato l'11 agosto sulle pagine prezzi vere:
+ *      **BeebeeDoc** (verticale estetica) 45 € per 1 account, 99 € per **4-6**;
+ *      **ArzaMed** (generalista) 99 € fino a 2 utenti, **249** fino a 5, **499**
+ *      fino a 15. ⇒ a 99 € eravamo **il posto singolo più caro del mercato
+ *      italiano pubblicato** e insieme **sotto mercato in alto**, dove
+ *      battevamo sul prezzo un generalista che offre meno.
+ *      129 allinea l'ACV (1.548 €/anno) all'**ARPU di ~1.350 €/anno che il GTM
+ *      già assumeva** e che 99 € (1.188 €) mancava.
+ *      ⚠️ È una **decisione**, non un calcolo: nessuno ha ancora quotato un
+ *      prezzo a un medico vero, la disponibilità a pagare resta **non
+ *      misurata**, e la regola 10-5-20 vuole *deal persi* per calibrare.
+ *      Dettaglio e fonti in `wiki/sintesi-pricing-mercato-2026-08-11.md`.
+ *   1. ✅ **L'esistenza di un prezzo per Clinica** (non «su richiesta»), decisa
+ *      il 2026-08-10. Fino a quel momento era `null` ed era il valore corretto:
+ *      ⛔ un prezzo non si inventa (stessa regola per cui il buy-out del residuo
+ *      va sul sito come principio e senza cifra, e per cui
  *      `/per-le-societa-scientifiche` non pubblica importi).
  *   2. ✅ **Lo sconto annuale: due mensilità in regalo (×10)**, confermato
  *      dall'utente il 2026-08-10. Era nato come assunzione mia — la convenzione
@@ -56,7 +74,7 @@ export const PIANI: readonly Piano[] = [
   {
     chiave: 'solo-pro',
     nome: 'Solo',
-    prezzo: 99,
+    prezzo: 129,
     perChi: 'Un medico, uno studio',
     incluso: [
       'Cartella completa, pazienti illimitati',
@@ -71,7 +89,7 @@ export const PIANI: readonly Piano[] = [
   {
     chiave: 'studio',
     nome: 'Studio',
-    prezzo: 189,
+    prezzo: 279,
     perChi: 'Fino a cinque operatori',
     consigliato: true,
     incluso: [
@@ -86,10 +104,12 @@ export const PIANI: readonly Piano[] = [
   {
     chiave: 'clinica',
     nome: 'Clinica',
-    // ✅ 349 — deciso dall'utente il 2026-08-10. Prima era `null` («su
-    // richiesta»), che è il valore giusto finché un prezzo non c'è: ⛔ non si
-    // inventa, e la scheda porta alla demo invece che al pagamento.
-    prezzo: 349,
+    // ✅ 549 — deciso dall'utente il 2026-08-11 (era 349 dal 2026-08-10, e
+    // `null` — «su richiesta» — prima ancora, che è il valore giusto finché un
+    // prezzo non c'è: ⛔ non si inventa, e la scheda porta alla demo invece che
+    // al pagamento). 549 sta sopra i 499 che ArzaMed chiede per 15 utenti, in
+    // una fascia dove nessun concorrente italiano pubblica.
+    prezzo: 549,
     perChi: 'Più sedi, o oltre cinque operatori',
     incluso: [
       'Tutto quello che c’è in Studio',
@@ -102,8 +122,8 @@ export const PIANI: readonly Piano[] = [
 ] as const
 
 /** Il prezzo mensile equivalente pagando un anno in anticipo. `null` se il
- *  piano è su richiesta. Arrotondato ai 50 centesimi: `189 × 10 / 12` fa
- *  157,50, e mostrare 157,4999 sarebbe il modo più veloce di far sospettare
+ *  piano è su richiesta. Arrotondato ai 50 centesimi: `279 × 10 / 12` fa
+ *  232,50, e mostrare 232,4999 sarebbe il modo più veloce di far sospettare
  *  che il conto non torni. */
 export function prezzoMensileSuAnnuale(piano: Piano): number | null {
   if (piano.prezzo === null) return null
