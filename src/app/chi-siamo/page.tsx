@@ -98,7 +98,7 @@ export default function ChiSiamo() {
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
             {PRINCIPI.map((p) => (
               <Reveal key={p.titolo}>
-                <div className="foglio h-full" style={{ padding: 'var(--s-34)' }}>
+                <div className="foglio h-full" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
                   <h3 className="text-[1.3rem]">{p.titolo}</h3>
                   <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                     {p.testo}

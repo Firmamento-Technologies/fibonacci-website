@@ -73,7 +73,7 @@ export default function RichiediUnaDemo() {
             </Reveal>
 
             <Reveal da="destra">
-              <div className="foglio lg:sticky" style={{ padding: 'var(--s-34)', top: 'var(--s-144)' }}>
+              <div className="foglio lg:sticky" style={{ padding: 'var(--pad-foglio, var(--s-34))', top: 'var(--s-144)' }}>
                 <ModuloDemo />
               </div>
             </Reveal>

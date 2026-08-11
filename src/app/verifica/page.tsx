@@ -52,7 +52,7 @@ export default function Verifica() {
           </h2>
 
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
-            <div className="foglio" style={{ padding: 'var(--s-34)' }}>
+            <div className="foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
               <p className="numero" style={{ color: 'var(--accent)' }}>ATTIVO OGGI</p>
               <h3 className="mt-[var(--s-13)] text-[1.3rem]">La catena di impronte</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
@@ -66,7 +66,7 @@ export default function Verifica() {
               </p>
             </div>
 
-            <div className="foglio" style={{ padding: 'var(--s-34)' }}>
+            <div className="foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
               <p className="numero">NON ANCORA</p>
               <h3 className="mt-[var(--s-13)] text-[1.3rem]">La firma qualificata</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>

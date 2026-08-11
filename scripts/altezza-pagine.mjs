@@ -114,15 +114,27 @@ for (const u of PAGINE) {
   }
 }
 /* ── E SUL TELEFONO ──────────────────────────────────────────────────────────
-   A 375px le due colonne si impilano e la stessa tappa diventa alta il doppio:
-   «una tappa = una schermata» lì non si può ottenere senza spezzare i
-   contenuti in modo diverso per larghezza, che è un lavoro a parte.
-   ⛔ Ma non si tace: si conta. Il numero è una **cricca** — può solo scendere,
-   e una modifica che ne peggiora il conto diventa rossa. */
+   ⚠️ QUI SI MISURA UNA COSA DIVERSA, E IL PERCHÉ È UN FATTO DI ARITMETICA.
+   375×721 offre **3,8 volte meno area** di 1264×809. Lo stesso contenuto, con
+   le colonne impilate, fa 1,5-3 schermate: farlo stare vorrebbe dire togliere
+   parole o rimpicciolire il testo, e non si fa né l'una né l'altra cosa.
+   Misurato: tre leve (figure a 30vh, stacchi ridotti, interlinea al tetto di
+   Butterick) hanno portato le tappe fuori misura da **38 a 37**. Non è poco
+   lavoro mal fatto: è che il conto non torna.
+
+   ⇒ Il difetto che l'altezza misurava non è «la tappa è alta», è **la V
+   finisce fuori campo**. Su telefono la V è agganciata al fondo della finestra
+   (vedi `globals.css`), quindi il difetto si misura direttamente: si scorre la
+   pagina e da OGNI posizione ci dev'essere una V visibile. Questo è il
+   cancello. L'altezza resta come **cricca**, per non perdere il guadagno.
+
+   ⛔ Non sostituire questo controllo con quello dell'altezza «così è uguale»:
+   uno è ottenibile e l'altro no, e un cancello non ottenibile viene spento. */
 const TEL = { width: 375, height: 812 }
 const UTILE_TEL = TEL.height - 91
 const telefono = await browser.newPage({ viewport: TEL, isMobile: true, hasTouch: true, deviceScaleFactor: 2 })
 let oltreTel = 0
+const senzaV = []
 for (const u of PAGINE) {
   await telefono.goto(BASE + u, { waitUntil: 'networkidle' })
   await telefono.evaluate(async () => {
@@ -137,8 +149,39 @@ for (const u of PAGINE) {
     (utile) => [...document.querySelectorAll('.tappa')].filter((t) => t.getBoundingClientRect().height > utile * 1.02).length,
     UTILE_TEL,
   )
-}
 
+  /* ⚠️ SI SCORRE DAVVERO, non si simula. La prima versione calcolava
+     `top + window.scrollY` da fermo e chiedeva se la V sarebbe stata in vista:
+     ma per un elemento `sticky` quella è la posizione **non agganciata**,
+     cioè esattamente ciò che l'aggancio serve a cambiare. Il controllo
+     ri-misurava l'altezza travestita da controllo sulla V, e infatti dava
+     rosso sulle stesse pagine. Un `getBoundingClientRect()` su uno sticky
+     vale solo alla posizione in cui lo si legge.
+     ⛔ L'ultima tappa del percorso non ha una V: lì finisce, ed è giusto. */
+  const finePercorso = await telefono.evaluate(() => {
+    const tappe = [...document.querySelectorAll('.tappa')]
+    const ultima = tappe[tappe.length - 1]
+    return ultima && !ultima.querySelector('.freccia-avanti')
+      ? ultima.getBoundingClientRect().top + window.scrollY
+      : Infinity
+  })
+  const altezzaDoc = await telefono.evaluate(() => document.body.scrollHeight)
+  const buchi = []
+  for (let y = 0; y + TEL.height < altezzaDoc && y + TEL.height < finePercorso; y += 300) {
+    await telefono.evaluate((y) => window.scrollTo(0, y), y)
+    await telefono.waitForTimeout(60)
+    const vista = await telefono.evaluate(
+      () =>
+        [...document.querySelectorAll('.freccia-avanti')].some((f) => {
+          const r = f.getBoundingClientRect()
+          /* Sotto l'intestazione `sticky` e dentro la finestra. */
+          return r.bottom > 91 && r.top < window.innerHeight
+        }),
+    )
+    if (!vista) buchi.push(y)
+  }
+  if (buchi.length) senzaV.push({ u, buchi })
+}
 await browser.close()
 
 console.log(`Tappe a ${VIEWPORT.width}×${VIEWPORT.height} — spazio utile ${UTILE}px\n`)
@@ -201,5 +244,18 @@ if (oltreTel > attesoTel) {
   console.log(`\n✓ Migliorato: porta \`telefono_fuori_misura\` a ${oltreTel} in scripts/tappe-alte.json.`)
 }
 
-if (sforate.length || vuote.length || TOLLERATE.size || oltreTel !== attesoTel) process.exit(1)
+if (senzaV.length) {
+  console.log(`\n⛔ Su telefono, ${senzaV.length} pagine hanno tratti SENZA una V in vista:`)
+  for (const s of senzaV) console.log(`  ${s.u}: a y = ${s.buchi.slice(0, 6).join(', ')}${s.buchi.length > 6 ? '…' : ''}`)
+  console.log(
+    '\n   Chi scorre lì non ha nessun segno che ci sia un seguito. La V è\n' +
+      '   `position: sticky; bottom: 0` sotto i 768px: se un tratto ne è privo,\n' +
+      '   quasi sempre un antenato ha `overflow` o `transform`, che rompono lo\n' +
+      '   sticky **senza dare errore**.',
+  )
+} else {
+  console.log('\n✓ Su telefono la V è in vista da ogni punto del percorso.')
+}
+
+if (sforate.length || vuote.length || TOLLERATE.size || oltreTel > attesoTel || senzaV.length) process.exit(1)
 console.log('\n✓ nessuna tappa vuota, nessuna nuova tappa fuori misura')

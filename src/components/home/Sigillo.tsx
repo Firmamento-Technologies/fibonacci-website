@@ -225,7 +225,7 @@ export function Chiusura() {
             </dl>
           </div>
 
-          <div className="foglio" style={{ padding: 'var(--s-34)' }}>
+          <div className="foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
             <ModuloDemo />
           </div>
         </div>

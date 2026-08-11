@@ -976,6 +976,99 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 .tappa .schermata { max-height: 56vh; width: fit-content; margin-inline: auto; }
 .tappa .schermata img { max-height: 56vh; width: auto; }
 
+/* Sul telefono le due colonne si impilano: la figura non divide più lo schermo
+   con il testo, se lo prende **tutto** — 444px misurati su 721 utili, prima di
+   una parola. 30vh (≈244px) resta una figura vera su 375px di larghezza e
+   lascia lo schermo al testo, che è la ragione per cui si è arrivati fin qui. */
+@media (max-width: 767px) {
+  .tappa .foto,
+  .tappa .schermata,
+  .tappa .schermata img { max-height: 30vh; }
+
+  /* Gli stacchi larghi sono pensati per colonne affiancate. Impilate, ogni
+     stacco si paga **una volta per elemento**: in una griglia di cinque
+     schede un `gap` da 55 vale 220px, cioè un terzo di schermo di telefono
+     speso in aria. Qui si scende sulla scala, non fuori: 21. */
+  .tappa .gap-\[var\(--s-55\)\],
+  .tappa .gap-\[var\(--s-34\)\] { gap: var(--s-21); }
+  .tappa .mt-\[var\(--s-89\)\],
+  .tappa .mt-\[var\(--s-55\)\] { margin-top: var(--s-34); }
+  .tappa .space-y-\[var\(--s-89\)\] > * + * { margin-top: var(--s-34); }
+
+  /* ⚠️ L'INTERLINEA COSTA PIÙ SU UNO SCHERMO STRETTO, ed è la ragione per cui
+     qui cambia e altrove no. Lo stesso paragrafo che su desktop occupa 3 righe
+     su telefono ne occupa 9: l'extra di interlinea si paga **nove volte**.
+     Butterick (dominio «Design visivo e tipografia», tier 1) dà 120-145% come
+     intervallo comodo; il sito usa 160%, cioè **sopra** l'intervallo — scelto
+     per il desktop. 145% è il tetto di Butterick, non un valore inventato per
+     far tornare i conti, e su nove righe recupera ~40px.
+     ⛔ Non scendere sotto: sotto il 120% le righe si attaccano. */
+  .tappa p,
+  .tappa li,
+  .tappa dd { line-height: 1.45; }
+
+  /* Il margine interno delle schede si paga una volta per scheda: quattro
+     schede da 34px sopra e sotto sono **272px**, più di un terzo di schermo.
+     ⚠️ Passa da una variabile e non da un `!important`: il valore è scritto in
+     linea nel JSX (`style={{ padding: … }}`) e in linea vince su tutto tranne
+     `!important` — che avrebbe funzionato e lasciato una regola che nessuno
+     riesce più a scavalcare. `--pad-foglio` la si può ancora sovrascrivere. */
+  .tappa { --pad-foglio: var(--s-21); }
+
+  /* Dentro la pagina la parola «CONTINUA» ripete quello che la V già dice, e
+     su telefono costa 18px su ogni tappa. Sparisce solo lì, e solo per le
+     frecce interne: quella dell'ULTIMA tappa porta a un'altra pagina e ne
+     scrive il nome — quella è informazione, non decorazione.
+     ⚠️ Sparisce agli occhi, non a chi ascolta: il nome resta nell'`aria-label`
+     («Continua: sezione 3 di 8»), che non è toccato. */
+  .freccia-avanti--interna a span { display: none; }
+
+  /* ══ LA V RESTA A PORTATA ANCHE QUANDO LA TAPPA NON CI STA ══════════════
+     ⚠️ Su telefono la tappa **non può** stare in una schermata, e non è una
+     resa: 375×721 offre **3,8 volte meno area** di 1264×809. Lo stesso testo
+     e le stesse due colonne, impilate, fanno 1,5-3 schermate. Le uniche vie
+     per farcele stare sarebbero togliere parole o rimpicciolire il testo, e
+     nessuna delle due si fa.
+
+     Ma il difetto che l'altezza misurava non è «la tappa è alta»: è **la V
+     finisce fuori campo**, cioè si perde il segnale che c'è un seguito. Qui
+     la V si ancora al fondo della finestra finché la tappa è in lettura, e
+     scorre via con lei quando finisce. Il segnale non si perde mai.
+
+     `position: sticky` e non `fixed`: `fixed` la incollerebbe allo schermo
+     anche fuori dalla tappa, e punterebbe alla tappa sbagliata.
+
+     ⛔ NIENTE `scroll-snap`, ed era la prima idea: agganciare la cima di ogni
+     tappa avrebbe ridato il ritmo «una schermata per passo». Provato e tolto —
+     con tappe più alte dello schermo lo scatto **strappa**: partendo da y=1400
+     la pagina saltava da sola a 1628, cioè in avanti di 228px mentre si stava
+     leggendo. È scroll-jacking, e il ritmo non vale il controllo tolto a chi
+     legge. (`proximity` invece di `mandatory` non basta: con tappe da 1.500px
+     i confini sono sempre «vicini».) */
+  .freccia-avanti {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    padding-block: var(--s-5) var(--s-8);
+    /* Opaca: sotto ci passa il testo della tappa. La striscia di fondo pagina
+       sotto ogni sezione c'è già oggi — qui resta solo agganciata. */
+    background-color: var(--bg);
+    border-top: 1px solid var(--rule);
+  }
+
+  /* ⚠️ Sulle tappe scure la barra chiara stonava: agganciata al fondo galleggia
+     SOPRA il fondo d'inchiostro, e a fine tappa fa un gradino. Da ferma non si
+     vedeva — la striscia di fondo pagina sotto una sezione scura c'è da
+     sempre — ma agganciata sì, perché entra dentro la sezione.
+     `:has()` guarda in giù, che è l'unico modo: la freccia è **sorella** della
+     sezione, non figlia, quindi `.scuro .freccia-avanti` non la prende. */
+  .tappa:has(.scuro) .freccia-avanti {
+    background-color: var(--ink);
+    border-top-color: var(--rule-ink);
+  }
+  .tappa:has(.scuro) .freccia-avanti a { color: var(--on-ink-muted); }
+}
+
 .freccia-avanti {
   display: flex;
   justify-content: center;

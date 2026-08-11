@@ -66,7 +66,7 @@ export function Tappe({ children, href }: { children: ReactNode; href: string })
             {figlio}
 
             {bersaglio && (
-              <div className="freccia-avanti">
+              <div className={`freccia-avanti ${ultima ? '' : 'freccia-avanti--interna'}`}>
                 {ultima ? (
                   <Link href={bersaglio} aria-label={`Avanti: ${etichetta}`}>
                     <span aria-hidden="true">{etichetta}</span>

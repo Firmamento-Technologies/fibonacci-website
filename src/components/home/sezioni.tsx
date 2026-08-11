@@ -372,7 +372,7 @@ export function Prove() {
         <RevealGruppo className="mt-[var(--s-55)] grid gap-[var(--s-21)] md:grid-cols-3">
           {PROVE.map((p) => (
             <RevealFiglio key={p.titolo}>
-              <div className="foglio flex h-full flex-col" style={{ padding: 'var(--s-34)' }}>
+              <div className="foglio flex h-full flex-col" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
                 <h3 className="text-[1.3rem]">{p.titolo}</h3>
                 <p className="mt-[var(--s-13)] flex-1 text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                   {p.testo}

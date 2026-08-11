@@ -75,16 +75,20 @@ export default function SicurezzaEDati() {
       }
       sommario="Otto risposte senza rassicurazioni generiche. Se una ti sembra evasiva, scrivicelo: le riscriviamo o ammettiamo il limite."
     >
-      {/* ⚠️ QUATTRO PER SCHERMATA, non otto in colonna.
+      {/* ⚠️ DUE PER SCHERMATA, non otto in colonna.
           Le otto risposte stavano in una sezione sola: **1.368px, il 169% di
-          una schermata**. La numerazione prosegue (`i + 1` sull'indice
-          globale), quindi «otto risposte» resta vero e chi arriva alla quinta
-          la vede numerata 05: la divisione si vede solo come respiro, non come
-          due elenchi diversi. */}
-      {[0, 4].map((da) => (
+          una schermata** su desktop e **1.346px su 721 utili** al telefono.
+          Prima divise in due da quattro (desktop a posto), poi in quattro da
+          due: quattro risposte impilate su uno schermo da 375px fanno ancora
+          il doppio dell'altezza utile, e lì il rimedio è solo dividere.
+          Su desktop due risposte per schermata sono più ariose, non più
+          vuote: la tappa riempie comunque lo schermo e il testo è centrato.
+          La numerazione prosegue (`i + 1` sull'indice globale), quindi «otto
+          risposte» resta vero e chi arriva alla quinta la vede numerata 05. */}
+      {[0, 2, 4, 6].map((da) => (
         <section key={da} style={{ paddingBlock: 'var(--s-21)' }}>
         <div className="gabbia gabbia-stretta">
-          {DOMANDE.slice(da, da + 4).map((q, iRel) => {
+          {DOMANDE.slice(da, da + 2).map((q, iRel) => {
             const i = da + iRel
             return (
             <Reveal key={q.d}>

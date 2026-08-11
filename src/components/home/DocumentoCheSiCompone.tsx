@@ -275,7 +275,7 @@ function Documento({ righeScritte }: { righeScritte: number }) {
   }, 0)
 
   return (
-    <div className="foglio" style={{ padding: 'var(--s-34)', minHeight: 420 }}>
+    <div className="foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))', minHeight: 420 }}>
       <div
         className="flex items-baseline justify-between"
         style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 'var(--s-13)' }}
