@@ -134,7 +134,10 @@ export function SchedePiani() {
 
   return (
     <div>
-      <div className="mb-[var(--s-34)] text-center">
+      {/* ⚠️ Margine s-21 e non s-34: qui ogni pixel sposta i pulsanti sotto
+          la piega. Misurato su /prezzi a 1440×900 — i tre prezzi si vedono da
+          502px, ma i pulsanti finivano a 976 contro una schermata di 900. */}
+      <div className="mb-[var(--s-21)] text-center">
         <Interruttore valore={ricorrenza} onChange={setRicorrenza} />
       </div>
 

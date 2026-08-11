@@ -55,8 +55,16 @@ export default function Prezzi() {
           schede portava la decisione sul prezzo a 1350px, cioè fuori dalla
           prima schermata. Su una pagina di listino la cosa che deve stare
           sopra la piega sono i tre prezzi, non il titolo. */}
-      <section style={{ paddingBottom: 'var(--s-21)' }}>
-        <div className="gabbia" style={{ maxWidth: '52rem' }}>
+      <section style={{ paddingBottom: 'var(--s-13)' }}>
+        {/* ⚠️ Larghezza piena, non 52rem, e la ragione è misurata.
+            Con `maxWidth: 52rem` il contenitore stava in **832px per TRE
+            schede** ⇒ ogni scheda 241px, e **5 voci su 7 andavano a capo**: la
+            lista faceva 396px e la scheda 730. Il testo non era lungo — era la
+            colonna a essere stretta. 52rem è una misura da PROSA (una colonna
+            di testo si legge meglio corta); un confronto a tre colonne vuole
+            l'opposto, e la `gabbia` normale del sito è 75rem.
+            ⛔ Non rimetterla senza rimisurare l'altezza della scheda. */}
+        <div className="gabbia">
           <SchedePiani />
         </div>
       </section>

@@ -36,7 +36,13 @@ export function Pagina({
         <section style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-21)' }}>
           <div className={`gabbia ${larga ? '' : 'gabbia-stretta'}`}>
             <Occhiello>{occhiello}</Occhiello>
-            <h1 className="mt-[var(--s-21)] text-[length:var(--display-1)]" style={{ maxWidth: '20ch' }}>
+            {/* ⚠️ `--display-2`, non `--display-1`: il token stesso si descrive
+                «apertura della home», e `--display-2` dice «titolo di pagina».
+                Questa intestazione è di PAGINA, e usava quello della home —
+                113px di solo titolo, su due righe, su ogni pagina del sito.
+                Non è una riduzione estetica: è usare il token per quello che
+                dichiara di essere. */}
+            <h1 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               {titolo}
             </h1>
             {sommario && (
