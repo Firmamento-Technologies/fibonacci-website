@@ -79,20 +79,33 @@ export function Hero() {
                   Entra nella demo
                 </a>
               )}
+              {/* Una sola etichetta in tutto il sito. Prima ce n'erano quattro
+                  per la stessa azione — «Fattela mostrare», «Richiedi la demo»,
+                  «Richiedi una demo guidata», «Richiedi una demo» — e un
+                  visitatore che le incontra in sequenza non sa se stia chiedendo
+                  quattro cose diverse. */}
               <Link
                 href="/richiedi-una-demo"
                 className={DEMO_URL ? 'btn btn-secondario' : 'btn btn-primario'}
               >
-                {DEMO_URL ? 'Oppure fattela mostrare' : 'Fattela mostrare'}
+                Richiedi una demo
               </Link>
             </div>
 
+            {/* ⚠️ Questa riga è legata a DEMO_URL come il pulsante sopra, e non
+                lo era: fino al 2026-08-11 prometteva «la demo è aperta: nessuna
+                registrazione, nessuna email» mentre il bottone — spento
+                DEMO_URL — portava a un modulo che chiede esattamente nome ed
+                email. Il pulsante era stato cambiato quando la macchina è
+                sparita, la frase sotto no.
+                ⇒ La promessa vive e muore con la cosa che promette. */}
             <p
               className="entra-primo-schermo ritardo-4 mt-[var(--s-21)] text-[13px]"
               style={{ color: 'var(--fg-faint)' }}
             >
-              La demo è aperta: nessuna registrazione, nessuna email, nessuna carta di credito.
-              Dentro ci sono pazienti finti in uno spazio separato, e puoi toccare tutto.
+              {DEMO_URL
+                ? 'La demo è aperta: nessuna registrazione, nessuna email, nessuna carta di credito. Dentro ci sono pazienti finti in uno spazio separato, e puoi toccare tutto.'
+                : 'Mezz’ora, sulle tue procedure e coi tuoi casi. Nessun impegno e nessuna carta di credito.'}
             </p>
           </div>
 

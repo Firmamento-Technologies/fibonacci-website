@@ -141,18 +141,24 @@ export default function ComeFunziona() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[length:var(--display-2)]">Provalo, o fattelo mostrare</h2>
+          <h2 className="text-[length:var(--display-2)]">
+            {DEMO_URL ? 'Provalo, o fattelo mostrare' : 'Fattelo mostrare'}
+          </h2>
+          {/* ⚠️ Legata a DEMO_URL: senza demo, dire «la demo è aperta e non
+              chiede registrazione» è falso — il solo percorso è un modulo che
+              la registrazione la chiede. Vedi la nota in Hero.tsx. */}
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            La demo è aperta e non chiede registrazione. Se preferisci vedertelo spiegare sulle tue
-            procedure, mezz&apos;ora basta.
+            {DEMO_URL
+              ? 'La demo è aperta e non chiede registrazione. Se preferisci vedertelo spiegare sulle tue procedure, mezz’ora basta.'
+              : 'Mezz’ora sulle tue procedure, coi tuoi casi. Nessun impegno.'}
           </p>
           <div className="mt-[var(--s-34)] flex flex-wrap justify-center gap-[var(--s-13)]">
             <Link href="/richiedi-una-demo" className="btn btn-primario">
-              Richiedi una demo guidata
+              Richiedi una demo
             </Link>
             {DEMO_URL && (
               <a href={DEMO_URL} className="btn btn-secondario" rel="noopener">
-                Entra nella demo pubblica
+                Entra nella demo
               </a>
             )}
           </div>

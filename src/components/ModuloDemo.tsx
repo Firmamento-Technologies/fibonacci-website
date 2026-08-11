@@ -150,7 +150,7 @@ export function ModuloDemo({
     <form onSubmit={invia} noValidate={false}>
       {!compatto && (
         <>
-          <p className="occhiello">{perSocieta ? 'Scrivici' : 'Richiedi una demo guidata'}</p>
+          <p className="occhiello">{perSocieta ? 'Scrivici' : 'Richiedi una demo'}</p>
           <h3 className="mt-[var(--s-13)] text-[1.3rem]">
             {perSocieta ? 'Quattro campi, e ti risponde una persona' : 'Quattro campi, poi ti scriviamo noi'}
           </h3>
@@ -235,7 +235,7 @@ export function ModuloDemo({
         disabled={stato === 'invio' || !consenso}
         style={{ opacity: !consenso ? 0.55 : 1 }}
       >
-        {stato === 'invio' ? 'Invio…' : perSocieta ? 'Scrivici' : 'Richiedi la demo'}
+        {stato === 'invio' ? 'Invio…' : perSocieta ? 'Scrivici' : 'Richiedi una demo'}
       </button>
 
       {stato === 'errore' && (
