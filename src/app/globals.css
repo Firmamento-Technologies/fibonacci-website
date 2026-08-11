@@ -186,7 +186,28 @@ p { text-wrap: pretty; }
   color: var(--accent-ink);
 }
 
-a { color: inherit; text-decoration: none; }
+/* ⚠️ `:not(.btn)` e non `a` secco, ed è una riga che vale un difetto intero.
+ *
+ * L'11 agosto `.btn*` è stato messo dentro `@layer components` per risolvere il
+ * doppio «Richiedi una demo» nell'intestazione (vedi il commento lì). Ma le
+ * regole NON stratificate battono **sempre** quelle dentro un layer, a
+ * qualunque specificità: questa riga, non stratificata, ha cominciato a vincere
+ * su `.btn-primario { color: #fff }`, e il pulsante ha ereditato l'inchiostro
+ * scuro del corpo.
+ * 🔴 Misurato: testo `#142434` su fondo `#0b699f` = **2,65:1**, contro il 4,5
+ * richiesto da WCAG AA. Su **cinque** pulsanti, ed è la chiamata all'azione
+ * principale del sito — la si vedeva a occhio.
+ * ⇒ Escludendo `.btn` da questo azzeramento, nessuna regola non stratificata
+ * tocca più il colore dei pulsanti, e quella dentro il layer torna ad applicarsi.
+ * ⛔ Non rimettere `a` secco senza rimisurare il contrasto del pulsante.
+ *
+ * 🔎 E `:where()` NON è un vezzo: la prima versione di questa correzione usava
+ * `a:not(.btn)`, che alza la specificità da 0,0,1 a **0,1,1** — e così ha
+ * cominciato a battere `.salta-al-contenuto` (0,1,0), rompendo il contrasto del
+ * link «Salta al contenuto», che serve proprio a chi naviga da tastiera:
+ * **2,65:1**, misurato col fuoco addosso. `:where()` non conta nella
+ * specificità, quindi esclude i pulsanti senza spostare niente altro. */
+a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 
 ::selection { background: var(--accent-wash); color: var(--accent-deep); }
 

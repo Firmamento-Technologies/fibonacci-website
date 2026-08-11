@@ -5,7 +5,10 @@ import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Integrazioni: con che cosa si collega Fibonacci, e con che cosa no',
+  /* 48 caratteri + « · Fibonacci» = 59, sotto la soglia dei 60 (vedi la nota in
+   * `che-software-serve/page.tsx`). Era 66 + 11 = 77, e conteneva «Fibonacci»
+   * due volte: una nel titolo e una aggiunta dal modello. */
+  title: 'Integrazioni: con cosa si collega, e con cosa no',
   description:
     'Oggi Fibonacci non si integra con nessun altro software, e lo diciamo. Al suo posto ci sono l’importazione dei tuoi dati fatta da noi e l’esportazione in FHIR R4, uno standard che un altro fornitore legge senza reinventare il formato.',
   alternates: { canonical: '/integrazioni' },

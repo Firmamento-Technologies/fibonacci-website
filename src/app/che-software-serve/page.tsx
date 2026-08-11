@@ -5,7 +5,15 @@ import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Portale, gestionale o cartella clinica: che software serve a uno studio di medicina estetica',
+  /* ⚠️ 39 caratteri, e il conto è il punto. Il modello di `layout.tsx` aggiunge
+   * « · Fibonacci» (11), quindi il titolo di pagina deve stare sotto i ~49 per
+   * rientrare nei 60 sotto i quali Moz misura che **~90% dei titoli si vede
+   * intero** in SERP. Prima erano 93 + 11 = **104**: il pezzo che distingueva
+   * (portale/gestionale/cartella) veniva troncato via, cioè si perdeva proprio
+   * l'unica parte che faceva cliccare. La distinzione resta nell'H1 e nel testo,
+   * dove c'è spazio. ⛔ Titolo e descrizione **non sono un fattore di ranking**
+   * (CXL, tier 2): servono al clic. Non riempirli di parole chiave. */
+  title: 'Che software serve in medicina estetica',
   description:
     'Un portale di prenotazione, un gestionale medico generalista e una cartella clinica verticale risolvono tre problemi diversi. Che cosa fa ciascuno, quando basta, quando non basta, e perché molti studi ne usano due.',
   alternates: { canonical: '/che-software-serve' },

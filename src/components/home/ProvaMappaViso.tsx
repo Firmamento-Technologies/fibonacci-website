@@ -134,6 +134,15 @@ export function ProvaMappaViso() {
             />
             {/* Ripiego JPEG e non PNG: è una fotografia, e in PNG lo stesso
                 ritaglio pesa 1,4 MB contro 65 KB. Misure di `volti.mjs`. */}
+            {/* ⚠️ `eager` + `sync` + `fetchPriority=high` come faceva
+                `<Schermata priorita>`, che stava qui prima: questo ritratto è
+                l'elemento LCP del primo schermo. Sostituendo il componente
+                avevo perso quei tre attributi — il browser tornava a scaricarlo
+                con priorità bassa, cioè un peggioramento di Core Web Vitals
+                introdotto da un cambio che non c'entrava niente.
+                ⛔ Vale solo per il ritratto INIZIALE: quello dell'altro sesso
+                si carica quando si preme la pillola, e lì `eager` sprecherebbe
+                banda sul percorso che quasi nessuno fa. */}
             <img
               src={assetPath(`/img/${ritratto.file}.jpg`)}
               alt={`Ritratto di riferimento (${ritratto.etichetta.toLowerCase()}) su cui segnare le aree trattate`}
@@ -141,6 +150,9 @@ export function ProvaMappaViso() {
               draggable={false}
               width={960}
               height={1190}
+              loading={sesso === 'donna' ? 'eager' : 'lazy'}
+              decoding={sesso === 'donna' ? 'sync' : 'async'}
+              fetchPriority={sesso === 'donna' ? 'high' : undefined}
             />
           </picture>
 
