@@ -24,7 +24,23 @@ import { quandoInItaliano } from '@/lib/medici-pubblici'
  *     apre altrove: una mappa di terzi butterebbe via da sola la ragione per
  *     cui questo sito non ha il banner dei cookie.
  */
+/* ⚠️ `globals.css:242` azzera i collegamenti di proposito —
+ * `a:where(:not(.btn)) { color: inherit; text-decoration: none; }` — perché
+ * sulla vetrina ogni collegamento è stilato dove compare. Un `<a>` nudo qui
+ * esce **identico al testo**: stesso colore, nessuna sottolineatura.
+ *
+ * 🔎 **È esattamente il difetto che la verifica a video ha preso e che build,
+ * lint e collaudo non vedevano**: su questa pagina, quando lo studio non ha
+ * ancora orari, il telefono è **l'unica azione disponibile** — e non si
+ * distingueva da una riga di prosa. */
+const COLLEGAMENTO = {
+  color: 'var(--accent)',
+  textDecoration: 'underline',
+  textUnderlineOffset: '3px',
+} as const
+
 export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
+  const telefonoComponibile = m.studio.telefono.replace(/\s/g, '')
   const mappa = `https://www.openstreetmap.org/search?query=${encodeURIComponent(
     `${m.studio.indirizzo}, ${m.studio.comune}`,
   )}`
@@ -78,11 +94,13 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           {m.studio.indirizzo}, {m.studio.comune}
         </p>
         <p className="mt-[var(--s-8)]">
-          <a href={`tel:${m.studio.telefono.replace(/\s/g, '')}`}>{m.studio.telefono}</a>
+          <a href={`tel:${telefonoComponibile}`} style={COLLEGAMENTO}>
+            {m.studio.telefono}
+          </a>
         </p>
         {/* ⛔ Un collegamento, non una mappa incorporata: vedi la nota in cima. */}
         <p className="mt-[var(--s-8)] text-[15px]">
-          <a href={mappa} rel="noopener noreferrer" target="_blank">
+          <a href={mappa} rel="noopener noreferrer" target="_blank" style={COLLEGAMENTO}>
             Apri l’indirizzo in una mappa
           </a>
         </p>
@@ -134,11 +152,21 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
              questo ramo non l'avrebbe guardato nessuno. ⛔ Non si mostra un
              calendario vuoto e non si finge un «al momento non disponibile»
              temporaneo — si dice cosa fare adesso. */
-          <p className="mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
-            Questo studio non ha ancora pubblicato i suoi orari liberi. Per un appuntamento
-            chiama il{' '}
-            <a href={`tel:${m.studio.telefono.replace(/\s/g, '')}`}>{m.studio.telefono}</a>.
-          </p>
+          <>
+            <p className="mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
+              Questo studio non ha ancora pubblicato i suoi orari liberi.
+            </p>
+            {/* 🔑 L'unica azione disponibile diventa un **pulsante**, non una
+                riga di prosa: `.btn` porta `min-height: 48px`, sopra i 44 px
+                che [[decisione-bersagli-tattili]] fissa per il puntatore
+                grossolano. Prima era un collegamento invisibile alto 22 px —
+                metà del bersaglio, e senza alcun segnale di essere premibile. */}
+            <p className="mt-[var(--s-21)]">
+              <a href={`tel:${telefonoComponibile}`} className="btn btn-primario">
+                Chiama lo studio · {m.studio.telefono}
+              </a>
+            </p>
+          </>
         )}
       </section>
     </article>
