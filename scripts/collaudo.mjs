@@ -18,6 +18,7 @@ import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 
 import { PERCORSI_CHE_CAMBIANO_LA_RESA } from './ancora-emr.mjs'
+import { paritaMappaViso } from './parita-viso.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -627,6 +628,21 @@ async function main() {
   } catch (e) {
     problemi.push(`schermate: manifesto illeggibile (${e.message}) — esegui \`node scripts/schermate.mjs\``)
   }
+
+  // ── Mappa del viso: la copia deve restare uguale all'originale ─────────
+  //
+  // ⚠️ PERCHÉ ESISTE. `src/lib/aree-viso.ts` è una COPIA di
+  // `EMR/apps/web/src/lib/body-areas.ts` — il sito è un repo separato e non può
+  // importarne uno. Una copia senza presidio è precisamente il difetto che
+  // questo progetto insegue da giorni: *due copie di una regola divergono, e la
+  // seconda diverge in silenzio*. Qui il silenzio sarebbe totale — cambiare una
+  // coordinata nell'applicazione non romperebbe niente nel sito, i pallini
+  // finirebbero solo fuori posto sopra un viso, in vetrina.
+  //
+  // Cosa confronta: **i dati** (codici, etichette, coordinate) e il numero del
+  // ritaglio. ⛔ NON l'aspetto: colori e spaziature del sito sono diversi da
+  // quelli dell'applicazione **di proposito** — è la decisione TD-15.
+  paritaMappaViso(problemi, (m) => console.log(giallo('\n' + m)))
 
   if (problemi.length) {
     console.log(rosso(`\n${problemi.length} problemi:`))

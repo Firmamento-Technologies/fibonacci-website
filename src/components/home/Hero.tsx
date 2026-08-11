@@ -1,7 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import { Occhiello, Schermata } from '@/components/ui/elementi'
+import { Occhiello } from '@/components/ui/elementi'
+import { ProvaMappaViso } from '@/components/home/ProvaMappaViso'
 import { DEMO_URL } from '@/lib/site-config'
 
 /* Il primo schermo.
@@ -111,18 +112,32 @@ export function Hero() {
 
           {/* ── Prova ───────────────────────────────────────────────────
               Baymard: sulla home servono immagini VERE dell'interfaccia, in
-              alto e in quantità. Il mockup disegnato rende peggio, perché chi
-              valuta vuole vedere com'è fatto e non l'interpretazione che un
-              designer ne dà. Qui la schermata è la prima cosa a destra del
-              titolo, non a quattromila pixel di distanza. */}
+              alto. Il mockup disegnato rende peggio, perché chi valuta vuole
+              vedere com'è fatto e non l'interpretazione che un designer ne dà.
+
+              🔄 **Dal 2026-08-11 non è più un'immagine: è il componente.**
+              Qui c'era `cartella-paziente.png`, la cartella INTERA — barra
+              laterale, seconda colonna, elenco sedute — rimpicciolita in questa
+              metà di schermo, dove non si legge un carattere. NN/G (tier 1)
+              divide le visuali in *informative* e *decorative*, e le seconde
+              non vengono guardate poco: vengono **ignorate**. Una schermata
+              illeggibile è decorativa, cioè perde esattamente il vantaggio che
+              la giustificava e si tiene solo la freddezza.
+              ([[sintesi-hero-schermata-vs-foto-2026-08-07]], che raccomandava
+              «una cosa sola e leggibile» — questo va un passo oltre: la cosa
+              sola non è una figura, si tocca.)
+
+              🔑 E si è scelta la mappa del viso, non un'altra: è l'unico pezzo
+              del prodotto su cui un medico si è espresso — «meglio del 3D per
+              uso quotidiano», call del 2026-05-17 — ed è l'unico che si porta
+              qui senza backend, perché nell'applicazione è CSS puro.
+
+              ⚠️ Quella schermata mostrava anche un difetto già corretto
+              nell'EMR (`643bd10`): la stessa allergia in due banner attaccati.
+              Restava in vetrina perché le immagini invecchiano da sole; un
+              componente vero no, e `parita-viso.mjs` lo tiene agganciato. */}
           <div className="entra-primo-schermo-figura">
-            <Schermata
-              file="/schermate/cartella-paziente.png"
-              alt="La cartella di una paziente in Fibonacci: intestazione con nome, data di nascita e codice fiscale, banner delle allergie in evidenza, ed elenco delle sedute con le aree trattate."
-              didascalia="Schermata dall'applicazione, non un disegno."
-              sizes="(min-width: 1024px) 544px, calc(100vw - 44px)"
-              priorita
-            />
+            <ProvaMappaViso />
           </div>
         </div>
 
