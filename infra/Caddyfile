@@ -99,6 +99,23 @@ app.fibonaccimedica.it {
 		reverse_proxy 127.0.0.1:8201
 	}
 
+
+	# ── Il BFF (TD-13) ────────────────────────────────────────────────────
+	# Tiene la sessione al posto del browser: da qui passano le chiamate ai
+	# sidecar con un cookie HttpOnly invece del bearer.
+	# ⛔ `handle_path` toglie `/bff`: il servizio ragiona su `/pdf/...`, non su
+	# `/bff/pdf/...`. Inoltrare il prefisso darebbe 404 su tutto.
+	# ⚠️ Inerte finche' il frontend non e' costruito con `WEB_BFF_ENABLED=true`:
+	# oggi nessuno chiama questo percorso.
+	handle_path /bff/* {
+		# I corpi qui dentro sono foto cliniche e audio della visita: il tetto
+		# deve reggerli, o il guasto sembra «la foto non si carica».
+		request_body {
+			max_size 60MB
+		}
+		reverse_proxy 127.0.0.1:8210
+	}
+
 	# ── L'applicazione vera e propria ─────────────────────────────────────
 	# nginx dentro il container gestisce gia' il fallback su index.html
 	# (e' una SPA: ogni percorso deve tornare l'index o un ricaricamento su
