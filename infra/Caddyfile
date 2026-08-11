@@ -15,7 +15,17 @@ fibonaccimedica.com, www.fibonaccimedica.com {
 	redir https://fibonaccimedica.it{uri} permanent
 }
 
-fibonaccimedica.it, www.fibonaccimedica.it {
+# Stessa regola gia' applicata al `.com`, ora anche al `www` del `.it`: un solo
+# indirizzo canonico. C'era un `<link rel=canonical>` a mitigare, ma e' un
+# suggerimento che i motori possono ignorare; un 301 no. E chi copia un link
+# dalla barra si porta dietro l'indirizzo giusto.
+# ⚠️ Il certificato di `www` serve LO STESSO, per poter servire il rimando in
+# HTTPS: e' quello ottenuto l'11 agosto alle 14:20, non si tocca.
+www.fibonaccimedica.it {
+	redir https://fibonaccimedica.it{uri} permanent
+}
+
+fibonaccimedica.it {
 	root * /var/www/fibonaccimedica
 	encode gzip zstd
 
