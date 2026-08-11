@@ -7,6 +7,14 @@
 # NON riesce a emettere il certificato: e' atteso, riprova da solo, e il sito
 # resta raggiungibile su GitHub Pages nel frattempo.
 
+# Il `.com` esiste per difendere il marchio, non per essere un secondo sito: due
+# indirizzi con lo stesso contenuto si dividono il posizionamento e confondono
+# chi linka. Quindi rimanda al `.it`, che e' il canonico deciso.
+# `{uri}` conserva il percorso: /prezzi/ sul .com arriva su /prezzi/ del .it.
+fibonaccimedica.com, www.fibonaccimedica.com {
+	redir https://fibonaccimedica.it{uri} permanent
+}
+
 fibonaccimedica.it, www.fibonaccimedica.it {
 	root * /var/www/fibonaccimedica
 	encode gzip zstd
