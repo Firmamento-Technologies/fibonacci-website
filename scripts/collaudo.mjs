@@ -22,6 +22,7 @@ import { paritaMappaViso } from './parita-viso.mjs'
 import { paritaCatalogo } from './parita-catalogo.mjs'
 import { paritaFarmaci } from './parita-farmaci.mjs'
 import { paritaProdotto } from './parita-prodotto.mjs'
+import { classiEsistono } from './classi-esistono.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -649,6 +650,7 @@ async function main() {
   paritaCatalogo(problemi, (m) => console.log(giallo('\n' + m)))
   paritaFarmaci(problemi, (m) => console.log(giallo('\n' + m)))
   paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
+  classiEsistono(problemi)
 
   if (problemi.length) {
     console.log(rosso(`\n${problemi.length} problemi:`))

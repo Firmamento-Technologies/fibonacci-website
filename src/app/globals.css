@@ -83,7 +83,16 @@
    * tornate una volta. */
   --display-1: clamp(2.1rem, 5.2vw, 3.4rem);   /* apertura della home */
   --display-2: clamp(1.6rem, 4.2vw, 2.1rem);   /* titolo di pagina, sezione grande */
-  --display-3: clamp(1.15rem, 2.4vw, 1.3rem);  /* sezione piccola, prosa h2 */
+  /* ⚠️ Il fondo del clamp era `1.15rem` = 18,4px, e su telefono ci si fermava
+   * lì (2,4vw a 375px vale 9px). Il corpo è 17px ⇒ lo stacco era **+8,2 %**,
+   * mentre la scala del testo di questo sito dichiara **ogni salto ≥13 %** —
+   * la riga qui sopra lo scrive, e questa la violava. A occhio si vedeva
+   * esattamente così: «un titolo che non sembra un titolo» (rilievo
+   * dell'utente sulle quattro capacità in home, 2026-08-11).
+   * 1,25rem = 20px ⇒ **+17,6 %**, dentro la regola. Sopra i 1024px il clamp
+   * arriva comunque a 1,3rem come prima: cambia solo il telefono, che era il
+   * caso rotto. */
+  --display-3: clamp(1.25rem, 2.4vw, 1.3rem);  /* sezione piccola, prosa h2 */
 
   /* ── Misure di colonna ─────────────────────────────────────────────── */
   --measure:      34rem;   /* ~66 caratteri: dentro i 45-90 di Butterick  */
@@ -685,7 +694,15 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 .prova-viso__nome { display: block; font-size: 13px; color: var(--fg); }
 /* Il codice è il punto di tutto: senza, è un disegno. Monospazio perché è un
    dato, non una parola. */
-.prova-viso__codice {
+/* Il codice come dato: monospazio, piccolo, spezzabile ovunque.
+ * ⚠️ Due selettori e non due regole. `ProvaComplicanze` era stato scritto con
+ * una classe che **non esisteva** (`prova-catalogo__codice`), e una classe
+ * inesistente non dà nessun errore: il `<code>` restava senza stile, cioè a
+ * 17px su quattro righe, e a occhio sembrava una scelta. Misurato il
+ * 2026-08-11. ⛔ Se serve un terzo posto, si aggiunge QUI un selettore, non
+ * una regola nuova. */
+.prova-viso__codice,
+.prova-compl__codice {
   display: block;
   font-family: var(--font-mono);
   font-size: 11px;
@@ -821,6 +838,26 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 }
 /* Sei pillole non stanno su una riga sola su telefono. */
 .prova-sezioni__pillole { flex-wrap: wrap; }
+
+/* ── Complicanze: le due scelte del medico, e la riga che ne esce ─────── */
+.prova-compl__scelte { display: flex; flex-wrap: wrap; gap: var(--s-13); margin-bottom: var(--s-13); }
+.prova-compl__scelte label { display: grid; gap: var(--s-3); font-size: 12px; color: var(--fg-faint); }
+.prova-compl__scelte select {
+  min-height: 44px;               /* TD-12: bersaglio tattile */
+  padding: 0 var(--s-8);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r);
+  background: var(--paper);
+  color: var(--fg);
+  font-size: 16px;                /* sotto i 16px iOS ingrandisce al fuoco */
+  font-family: var(--font-sans);
+}
+.prova-compl__riga {
+  border-top: 1px solid var(--rule);
+  padding-top: var(--s-13);
+}
+.prova-compl__nome { display: block; font-size: 15px; font-weight: 600; color: var(--fg); }
+.prova-compl__meta { display: block; font-size: 13px; color: var(--fg-muted); margin-top: var(--s-3); }
 
 .prova-viso__didascalia {
   margin-top: var(--s-13);

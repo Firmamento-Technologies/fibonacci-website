@@ -60,17 +60,45 @@ const sezioni = ordine
   .filter((id) => titoli[id] && dentro[id]?.length)
   .map((id) => ({ id, titolo: titoli[id], dentro: dentro[id] }))
 
-if (!durate.length || !sezioni.length) {
-  console.error(`✗ lettura fallita (durate ${durate.length}, sezioni ${sezioni.length}): i sorgenti sono cambiati`)
+/* ── Esiti e complicanze ────────────────────────────────────────────────────
+ * ⚠️ L'elenco è **chiuso** nel prodotto, e il commento del modulo dice perché:
+ * «proprio perché nessuno lo inferisca: si sceglie». Portarlo qui aperto o
+ * abbreviato tradirebbe la cosa che lo rende difendibile. Si prendono tutti e
+ * tre gli assi — complicanza, gravità, esito — perché è la terna che compone
+ * l'`AdverseEvent`, e mostrarne due su tre darebbe l'idea di un campo libero. */
+const compSrc = readFileSync(join(LIB, 'complicanze.ts'), 'utf8')
+const listaDa = (nome) => {
+  const i = compSrc.indexOf(`export const ${nome}`)
+  if (i < 0) return []
+  const blocco = compSrc.slice(i, compSrc.indexOf('] as const', i))
+  return [...blocco.matchAll(/codice:\s*'([^']+)',\s*etichetta:\s*'([^']+)'/g)].map((m) => ({
+    codice: m[1],
+    etichetta: m[2],
+  }))
+}
+const complicanze = listaDa('COMPLICANZE')
+const gravita = listaDa('GRAVITA')
+const esiti = listaDa('ESITI')
+
+if (!durate.length || !sezioni.length || !complicanze.length || !gravita.length || !esiti.length) {
+  console.error(
+    `✗ lettura fallita (durate ${durate.length}, sezioni ${sezioni.length}, ` +
+      `complicanze ${complicanze.length}, gravità ${gravita.length}, esiti ${esiti.length}): i sorgenti sono cambiati`,
+  )
   process.exit(1)
 }
 
 writeFileSync(
   USCITA,
-  JSON.stringify({ generato: 'node scripts/prodotto.mjs', durate, sezioni }, null, 1) + '\n',
+  JSON.stringify(
+    { generato: 'node scripts/prodotto.mjs', durate, sezioni, complicanze, gravita, esiti },
+    null,
+    1,
+  ) + '\n',
   'utf8',
 )
 console.log(
   `prodotto: ${durate.length} durate (con la frase di consenso) · ` +
-    `${sezioni.length} sezioni della cartella, ${sezioni.reduce((n, s) => n + s.dentro.length, 0)} tab → src/lib/prodotto.json`,
+    `${sezioni.length} sezioni della cartella, ${sezioni.reduce((n, s) => n + s.dentro.length, 0)} tab · ` +
+    `${complicanze.length} complicanze, ${gravita.length} gravità, ${esiti.length} esiti → src/lib/prodotto.json`,
 )

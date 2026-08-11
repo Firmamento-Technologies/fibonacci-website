@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { Reveal, RevealGruppo, RevealFiglio } from '@/components/ui/Reveal'
-import { Occhiello, Foto, Schermata, TestaSezione, Freccia } from '@/components/ui/elementi'
+import { Occhiello, Foto, TestaSezione, Freccia } from '@/components/ui/elementi'
 import { ProvaCatalogoConsensi } from '@/components/home/ProvaCatalogoConsensi'
+import { ProvaComplicanze } from '@/components/home/ProvaComplicanze'
 
 /* ══════════════════════════════════════════════════════════════════════════
    IL PROBLEMA, DETTO COME LO VIVE LUI
@@ -172,14 +173,24 @@ const CAPACITA = [
     alt: 'Trattamento iniettivo al mento eseguito con guanti, la paziente distesa con gli occhi chiusi.',
   },
   {
-    occhiello: 'Registro accessi',
-    titolo: 'Chi ha aperto quella cartella',
+    /* 🔄 Qui c'era «Registro accessi · Chi ha aperto quella cartella», con la
+       schermata del registro. Tolta il 2026-08-11 su rilievo dell'utente, e il
+       rilievo è giusto: il registro accessi è il primo motivo di sanzione nei
+       provvedimenti del Garante — cioè è valore per CHI VENDE. Nessun medico
+       sceglie un gestionale perché registra chi apre le cartelle.
+       Al suo posto la metà mancante della promessa del sito: il consenso
+       elenca i rischi, e quando uno si avvera **c'è dove scriverlo**. È anche
+       la frase con cui si apre `complicanze.ts` nell'applicazione.
+       ⚠️ Il registro accessi non sparisce dal prodotto né dal sito: resta
+       raccontato in /sicurezza-e-dati, dove chi lo cerca lo cerca davvero. */
+    occhiello: 'Esiti e complicanze',
+    titolo: 'Se succede, c’è dove scriverlo',
     testo:
-      'Ogni lettura finisce in un registro, e un controllo automatico segnala gli accessi anomali: fuori orario, da utenze disattivate, senza una cura in corso.',
+      'Ecchimosi, nodulo, occlusione vascolare: dodici voci codificate, con gravità ed esito. Legate alla seduta che le ha originate, non a una nota libera.',
     aCosaServe:
-      'I provvedimenti del Garante sanzionano quasi sempre questo: accessi non giustificati, e nessuno che se ne accorga.',
-    immagine: { tipo: 'schermata', file: '/schermate/registro-accessi.png' },
-    alt: 'Il registro accessi di Fibonacci con i filtri per data, azione ed esito, e tre righe evidenziate in rosso che segnalano accessi anomali.',
+      'Un consenso elenca i rischi; se poi si avvera e non è scritto da nessuna parte, in una contestazione manca proprio la seconda metà.',
+    immagine: { tipo: 'prova', file: 'complicanze' },
+    alt: '',
   },
   {
     occhiello: 'Studio',
@@ -232,15 +243,16 @@ export function Capacita() {
                   /* Un pezzo di prodotto in pagina, non una sua fotografia.
                      Vedi `ProvaCatalogoConsensi.tsx` per il perché. */
                   <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
-                    <ProvaCatalogoConsensi />
+                    {c.immagine.file === 'complicanze' ? <ProvaComplicanze /> : <ProvaCatalogoConsensi />}
                   </div>
-                ) : c.immagine.tipo === 'schermata' ? (
-                  <Schermata
-                    file={c.immagine.file}
-                    alt={c.alt}
-                    className={i % 2 === 1 ? 'lg:order-1' : ''}
-                  />
                 ) : (
+                  /* ⚠️ Il ramo `schermata` è stato tolto il 2026-08-11 e NON è
+                     una svista: in questa sezione non resta nessuna figura
+                     dell'applicazione, e il compilatore l'ha detto da sé
+                     («'foto' e 'schermata' non hanno sovrapposizione»). Se un
+                     domani ne torna una, il tipo si riapre e il ramo va
+                     rimesso — non aggiungere una schermata lasciando questo
+                     codice a indovinare. */
                   <Foto
                     nome={c.immagine.file}
                     alt={c.alt}

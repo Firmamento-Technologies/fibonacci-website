@@ -73,5 +73,83 @@
     "equipe"
    ]
   }
+ ],
+ "complicanze": [
+  {
+   "codice": "ecchimosi",
+   "etichetta": "Ecchimosi"
+  },
+  {
+   "codice": "edema",
+   "etichetta": "Edema"
+  },
+  {
+   "codice": "eritema-persistente",
+   "etichetta": "Eritema persistente"
+  },
+  {
+   "codice": "nodulo",
+   "etichetta": "Nodulo"
+  },
+  {
+   "codice": "granuloma",
+   "etichetta": "Granuloma"
+  },
+  {
+   "codice": "infezione",
+   "etichetta": "Infezione"
+  },
+  {
+   "codice": "necrosi-cutanea",
+   "etichetta": "Necrosi cutanea"
+  },
+  {
+   "codice": "occlusione-vascolare",
+   "etichetta": "Occlusione vascolare"
+  },
+  {
+   "codice": "ptosi-palpebrale",
+   "etichetta": "Ptosi palpebrale"
+  },
+  {
+   "codice": "asimmetria",
+   "etichetta": "Asimmetria"
+  },
+  {
+   "codice": "reazione-allergica",
+   "etichetta": "Reazione allergica"
+  },
+  {
+   "codice": "altro",
+   "etichetta": "Altro (descritto nelle note)"
+  }
+ ],
+ "gravita": [
+  {
+   "codice": "mild",
+   "etichetta": "Lieve"
+  },
+  {
+   "codice": "moderate",
+   "etichetta": "Moderata"
+  },
+  {
+   "codice": "severe",
+   "etichetta": "Grave"
+  }
+ ],
+ "esiti": [
+  {
+   "codice": "resolved",
+   "etichetta": "Risolto"
+  },
+  {
+   "codice": "ongoing",
+   "etichetta": "In corso"
+  },
+  {
+   "codice": "resolvedWithSequelae",
+   "etichetta": "Esito permanente"
+  }
  ]
 }

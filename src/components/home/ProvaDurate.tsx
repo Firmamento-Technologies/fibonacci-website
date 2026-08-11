@@ -69,7 +69,7 @@ export function ProvaDurate() {
         )}
 
         {d && (
-          <div className="prova-durate__esito">
+          <div>
             <p className="prova-durate__quando">
               Richiamo fra <strong>{d.meseMin}-{d.meseMax} mesi</strong>
               <span> — cioè fra {fra(d.meseMin)} e {fra(d.meseMax)}</span>

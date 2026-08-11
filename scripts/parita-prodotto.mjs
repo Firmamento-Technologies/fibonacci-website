@@ -74,6 +74,40 @@ export function paritaProdotto(problemi, avvisa = console.log) {
     )
   }
 
+  /* ── Esiti e complicanze ─────────────────────────────────────────────────
+   * ⚠️ Qui il rischio è di OMISSIONE, non di divergenza. L'elenco è chiuso nel
+   * prodotto proprio perché nessuno inferisca una complicanza; se la vetrina ne
+   * mostrasse dieci su dodici, chi guarda dedurrebbe un elenco più corto di
+   * quello vero — e per un medico «la mia complicanza non c'è» è una ragione
+   * per non comprare. Si confronta l'insieme INTERO, in ordine. */
+  const compSrc = readFileSync(join(LIB, 'complicanze.ts'), 'utf8')
+  const listaDa = (nome) => {
+    const i = compSrc.indexOf(`export const ${nome}`)
+    if (i < 0) return []
+    const blocco = compSrc.slice(i, compSrc.indexOf('] as const', i))
+    return [...blocco.matchAll(/codice:\s*'([^']+)',\s*etichetta:\s*'([^']+)'/g)].map(
+      (m) => `${m[1]}=${m[2]}`,
+    )
+  }
+  for (const [nome, chiave] of [['COMPLICANZE', 'complicanze'], ['GRAVITA', 'gravita'], ['ESITI', 'esiti']]) {
+    const vere = listaDa(nome)
+    if (!vere.length) {
+      problemi.push(`prodotto: non riesco a leggere \`${nome}\` dall’EMR — il confronto NON è stato fatto`)
+      continue
+    }
+    const nostre = (copia[chiave] ?? []).map((x) => `${x.codice}=${x.etichetta}`)
+    if (vere.join('|') !== nostre.join('|')) {
+      const manca = vere.filter((v) => !nostre.includes(v))
+      const extra = nostre.filter((v) => !vere.includes(v))
+      problemi.push(
+        `prodotto: ${chiave} divergono — ` +
+          (manca.length ? `mancano nel sito: ${manca.slice(0, 3).join(', ')}` : 'stesso insieme, ORDINE diverso') +
+          (extra.length ? ` | in più nel sito: ${extra.slice(0, 3).join(', ')}` : '') +
+          ' — rigenera con `node scripts/prodotto.mjs`',
+      )
+    }
+  }
+
   // ── Le sezioni della cartella ────────────────────────────────────────────
   const sezSrc = readFileSync(join(LIB, 'sezioni-cartella.ts'), 'utf8')
   const veri = new Map()
