@@ -45,9 +45,21 @@ export const SOCIETA = {
  * ⚠️ L'art. 7 c. 1 lett. c) D.Lgs. 70/2003 impone un recapito di posta
  * elettronica fra le informazioni obbligatorie. Vanno riempiti insieme
  * all'anagrafica societaria, non dopo. */
-export const CONTACT_EMAIL = ''
-export const SUPPORT_EMAIL = ''
-export const PRIVACY_EMAIL = ''
+/* 2026-08-11: dominio `fibonaccimedica.it` registrato e casella creata.
+ *
+ * ⚠️ Esiste UNA casella sola, `info@`, e tutti e tre i campi puntano lì. Non è
+ * una svista ed è meglio dell'alternativa: lasciandoli vuoti, il ripiego
+ * scriveva dentro la privacy policy la frase «Il DPA è disponibile su richiesta
+ * all'indirizzo il modulo di contatto del sito» — grammatica rotta in un
+ * documento legale, e nessun canale per esercitare un diritto.
+ *
+ * Per una società di una persona una casella unica è la norma. ⛔ Ma quando
+ * `privacy@` e `supporto@` esisteranno davvero, questi campi vanno separati:
+ * una richiesta ex artt. 15-22 GDPR e una domanda commerciale non hanno né gli
+ * stessi tempi né gli stessi obblighi. */
+export const CONTACT_EMAIL = 'info@fibonaccimedica.it'
+export const SUPPORT_EMAIL = 'info@fibonaccimedica.it'
+export const PRIVACY_EMAIL = 'info@fibonaccimedica.it'
 
 /* ── Indirizzi del prodotto ────────────────────────────────────────────
  * ⚠️ Il dominio `fibonacci.it` è di terzi dal 2003 e non si può usare.
