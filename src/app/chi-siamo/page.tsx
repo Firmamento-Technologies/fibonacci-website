@@ -114,10 +114,12 @@ export default function ChiSiamo() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
-          <Occhiello>A che punto siamo</Occhiello>
-          <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-            In pilota, non in scala
-          </h2>
+          <div className="passo">
+            <Occhiello>A che punto siamo</Occhiello>
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
+              In pilota, non in scala
+            </h2>
+          </div>
           <div className="passo prosa mt-[var(--s-21)]">
             <p>
               Il software gira in produzione presso uno studio pilota. Le prime attivazioni sono

@@ -137,7 +137,7 @@ export function SchedePiani() {
       {/* ⚠️ Margine s-21 e non s-34: qui ogni pixel sposta i pulsanti sotto
           la piega. Misurato su /prezzi a 1440×900 — i tre prezzi si vedono da
           502px, ma i pulsanti finivano a 976 contro una schermata di 900. */}
-      <div className="mb-[var(--s-21)] text-center">
+      <div className="interruttore-riga mb-[var(--s-21)] text-center">
         <Interruttore valore={ricorrenza} onChange={setRicorrenza} />
       </div>
 
@@ -220,7 +220,10 @@ export function ListinoSintesi() {
         {/* `passo`: sul telefono l'insegna prende una schermata sua invece di
             stare sopra il primo piano (erano 438px orfani, cioè la prima
             schermata mostrava titolo + un pezzo del primo piano). */}
-        <Reveal className="passo">
+        {/* `--coda-passo`: questa insegna divide la schermata con
+            l'interruttore mensile/annuale che le sta subito sotto e che non
+            può entrare in nessun piano — deve valere per tutti e tre. */}
+        <Reveal className="passo passo--con-interruttore">
           <div className="text-center" style={{ maxWidth: '40rem', marginInline: 'auto' }}>
             <p className="occhiello" style={{ justifyContent: 'center' }}>Prezzi</p>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]">

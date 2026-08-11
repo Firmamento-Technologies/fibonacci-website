@@ -120,7 +120,7 @@ export default function PerLeSocietaScientifiche() {
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
-          <Reveal>
+          <Reveal className="passo">
             <Occhiello>Che cosa offriamo</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               Quattro cose, in ordine di quanto ci crediamo

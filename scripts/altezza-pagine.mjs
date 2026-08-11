@@ -171,12 +171,25 @@ for (const u of PAGINE) {
       oltre += alte.filter((h) => h > utile * 1.02).length
       if (passi.length) {
         const v = t.querySelector(':scope > .freccia-avanti')
+        /* ⚠️ `--coda-passo` va scalato: è il modo in cui il sito DICHIARA
+           che quei pixel stanno fuori dal passo ma dentro la sua schermata
+           (l'interruttore del listino sopra i tre piani). Senza, verrebbero
+           contati come slittamento pur essendo già a bilancio. */
+        const coda = passi.reduce(
+          (a, x) => a + (parseFloat(getComputedStyle(x).getPropertyValue('--coda-passo')) || 0),
+          0,
+        )
         const fuori = Math.round(
           t.getBoundingClientRect().height -
             alte.reduce((a, b) => a + b, 0) -
+            coda -
             (v ? v.getBoundingClientRect().height : 0),
         )
-        if (fuori > 200) slitta.push({ id: t.id, fuori })
+        /* ⚠️ 100px, non 200: la soglia era larga perché il ritmo slittava
+           dappertutto e serviva vedere solo i casi grossi. Ora che i passi
+           reggono, la soglia stringe — un ottavo di schermata è il punto in
+           cui lo scarto si comincia a vedere. */
+        if (fuori > 100) slitta.push({ id: t.id, fuori })
       }
     }
     return { oltre, slitta }

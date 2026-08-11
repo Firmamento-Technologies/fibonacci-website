@@ -31,7 +31,9 @@ export default function AutovalutazionePagina() {
         </>
       }
     >
-      <section style={{ paddingBottom: 'var(--s-55)' }}>
+      {/* La coda da 55px cadeva fuori da ogni passo: dentro una tappa lo
+          spazio lo dà già l'altezza dei passi. */}
+      <section style={{ paddingBottom: 'var(--s-8)' }}>
         <div className="gabbia gabbia-stretta">
           <Autovalutazione />
         </div>

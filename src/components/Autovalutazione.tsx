@@ -229,7 +229,11 @@ export function Autovalutazione() {
         </p>
       )}
 
-      <div className="mt-[var(--s-34)] flex flex-wrap items-center gap-[var(--s-13)]">
+      {/* ⚠️ `passo`: sul telefono il pulsante è la schermata finale del
+          questionario, non una coda sotto l'ottava domanda. Prima erano 145px
+          fuori da ogni passo, cioè l'ultima domanda si leggeva insieme a un
+          pezzo di pulsante e il ritmo si rompeva proprio dove si decide. */}
+      <div className="passo mt-[var(--s-34)] flex flex-wrap items-center gap-[var(--s-13)]">
         <button type="button" onClick={calcola} className="btn btn-primario">
           Vedi l&apos;esito
         </button>

@@ -1112,13 +1112,29 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
   /* Chi contiene passi non mette spazio fra loro: ogni passo è già alto una
      schermata, e un `gap` da 21-34px lo fa slittare — al terzo passo sei
      mezzo schermo fuori sincrono, e il ritmo «una cosa per volta» si perde
-     senza che niente sembri rotto. */
+     senza che niente sembri rotto. Stessa ragione per i margini di chi sta
+     ACCANTO a un passo: sono spazio fra due schermate, cioè spazio che non
+     si vede mai e che sposta tutto quello che viene dopo. */
   .tappa :has(> .passo) { gap: 0; }
+  .tappa :has(> .passo) > *:not(.passo) { margin-block: 0; }
+  /* L'interruttore mensile/annuale sta FRA l'insegna e il primo piano, e non
+     è figlio dello stesso contenitore dei passi: il margine va tolto qui. */
+  .tappa .interruttore-riga { margin-bottom: 0; }
+  /* L'insegna del listino divide la schermata con l'interruttore. ⛔ Il
+     valore è l'altezza misurata di `.interruttore-riga`: sono una coppia. */
+  .tappa .passo--con-interruttore { --coda-passo: 48px; }
 
   .tappa .aurea > *:not(:has(.passo)),
   .tappa .passo:not(:has(.passo)) {
     --passo: 1;
-    min-height: calc(100dvh - var(--h-intestazione));
+    /* `--coda-passo`: quanto della schermata è occupato da qualcosa che sta
+       FUORI dal passo ma sopra/sotto di esso e non può stare altrove — per
+       ora solo l'interruttore mensile/annuale del listino, che deve stare
+       sopra tutti e tre i piani e quindi non può entrare in nessuno.
+       Dichiararlo è meglio che lasciare che spinga giù tutto il resto: senza,
+       il primo piano cominciava 48px più in basso e il terzo era mezzo
+       schermo fuori sincrono. */
+    min-height: calc(100dvh - var(--h-intestazione) - var(--coda-passo, 0px));
     /* ⚠️ La V agganciata galleggia SOPRA il passo: senza questo spazio gli
        ultimi 46px del contenuto le finiscono sotto — misurato su /prezzi, il
        pulsante «Richiedi una demo» di ogni piano era tagliato a metà, cioè
