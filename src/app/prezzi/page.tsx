@@ -51,7 +51,11 @@ export default function Prezzi() {
       sommario="Prezzi per studio, IVA esclusa. Nessun costo di attivazione, nessun vincolo di durata, nessun aumento a sorpresa al secondo anno."
       larga
     >
-      <section style={{ paddingBottom: 'var(--s-55)' }}>
+      {/* ⚠️ Padding ridotto (era s-55): l'intro pesava 327px e insieme alle
+          schede portava la decisione sul prezzo a 1350px, cioè fuori dalla
+          prima schermata. Su una pagina di listino la cosa che deve stare
+          sopra la piega sono i tre prezzi, non il titolo. */}
+      <section style={{ paddingBottom: 'var(--s-21)' }}>
         <div className="gabbia" style={{ maxWidth: '52rem' }}>
           <SchedePiani />
         </div>

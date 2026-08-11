@@ -26,7 +26,14 @@ export function Pagina({
     <>
       <Header />
       <main id="contenuto" className="flex-1">
-        <section style={{ paddingTop: 'var(--s-55)', paddingBottom: 'var(--s-34)' }}>
+        {/* ⚠️ Padding ridotto il 2026-08-11 (era 55/34), e vale per TUTTE le
+            pagine: questa intestazione è condivisa, quindi i suoi 327px erano
+            la ragione sistematica per cui «diverse pagine non stanno in una
+            schermata». Misurato su /prezzi: 327px di sola intestazione prima
+            del primo contenuto utile.
+            34/21 tiene il respiro senza mangiare mezza schermata. ⛔ Non
+            rialzarli senza rimisurare `node scripts/altezza-pagine.mjs`. */}
+        <section style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-21)' }}>
           <div className={`gabbia ${larga ? '' : 'gabbia-stretta'}`}>
             <Occhiello>{occhiello}</Occhiello>
             <h1 className="mt-[var(--s-21)] text-[length:var(--display-1)]" style={{ maxWidth: '20ch' }}>

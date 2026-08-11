@@ -171,7 +171,7 @@ export function SchedePiani() {
               </p>
 
               <ul
-                className="mt-[var(--s-21)] flex-1 space-y-[var(--s-13)]"
+                className="mt-[var(--s-21)] flex-1 space-y-[var(--s-8)]"
                 style={{ borderTop: `1px solid ${p.consigliato ? 'var(--rule-ink)' : 'var(--rule)'}`, paddingTop: 'var(--s-21)' }}
               >
                 {p.incluso.map((voce) => (

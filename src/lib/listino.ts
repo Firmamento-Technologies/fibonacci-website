@@ -45,6 +45,13 @@ export interface Piano {
   consigliato?: boolean
 }
 
+/* ⚠️ Le voci sono CORTE di proposito, e la misura è il motivo.
+ * Con i testi lunghi ogni riga andava a capo: la lista faceva **551px per 7
+ * voci** (~79px l'una) e la scheda 885px, cioè la decisione sul prezzo non
+ * stava in una schermata. Una scheda di listino si **scorre** per confrontare,
+ * non si legge: il dettaglio sta nella sezione «Compreso nel prezzo» sotto, e
+ * lì ha lo spazio per essere completo.
+ * ⛔ Prima di allungarne una, rimisurare l'altezza della scheda. */
 export const PIANI: readonly Piano[] = [
   {
     chiave: 'solo-pro',
@@ -52,13 +59,13 @@ export const PIANI: readonly Piano[] = [
     prezzo: 99,
     perChi: 'Un medico, uno studio',
     incluso: [
-      'Cartella clinica completa, pazienti illimitati',
-      'Catalogo dei consensi per la medicina estetica',
-      'Firma del paziente su tablet, in studio',
-      'Mappa del viso e del corpo per le sedute',
-      'Foto cliniche cifrate, separate dal telefono',
-      'Registro accessi con catena di impronte',
-      'Agenda e promemoria di richiamo',
+      'Cartella completa, pazienti illimitati',
+      'Catalogo dei consensi estetici',
+      'Firma della paziente in studio',
+      'Mappa del viso e del corpo',
+      'Foto cliniche cifrate',
+      'Catena di impronte sugli accessi',
+      'Agenda e richiami',
     ],
   },
   {
@@ -69,11 +76,11 @@ export const PIANI: readonly Piano[] = [
     consigliato: true,
     incluso: [
       'Tutto quello che c’è in Solo',
-      'Dettatura dell’anamnesi durante la visita',
-      'Agenda condivisa fra gli operatori',
-      'Permessi differenziati per ruolo',
-      'Sorveglianza automatica degli accessi anomali',
-      'Assistenza via chat con risposta in giornata',
+      'Anamnesi dettata mentre visiti',
+      'Agenda condivisa',
+      'Permessi per ruolo',
+      'Allerta sugli accessi anomali',
+      'Assistenza in giornata',
     ],
   },
   {
@@ -86,10 +93,10 @@ export const PIANI: readonly Piano[] = [
     perChi: 'Più sedi, o oltre cinque operatori',
     incluso: [
       'Tutto quello che c’è in Studio',
-      'Più sedi con anagrafiche separate e agenda unica',
-      'Ruoli e permessi definiti sede per sede',
-      'Esportazione periodica programmata',
-      'Referente dedicato per l’avvio e la migrazione',
+      'Più sedi, agenda unica',
+      'Permessi sede per sede',
+      'Esportazioni programmate',
+      'Referente per avvio e migrazione',
     ],
   },
 ] as const

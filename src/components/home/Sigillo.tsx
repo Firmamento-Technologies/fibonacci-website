@@ -91,20 +91,42 @@ export function Sigillo() {
               {ANELLI.map((a, i) => (
                 <li
                   key={a.hash}
-                  className="rivela rivela-su relative grid gap-[var(--s-13)] sm:grid-cols-[1.6rem_1fr]"
+                  /* ⚠️ `grid-cols` SENZA `sm:`, ed è la seconda metà della
+                     correzione. Con `sm:grid-cols-[...]` sotto i 640px la
+                     griglia collassava a una colonna sola: il pallino finiva
+                     SOPRA il testo e il filo verticale gli passava attraverso —
+                     misurato, pallino e testo entrambi a x=22 e il filo a x=29.
+                     Cioè su telefono il grafico della catena non era una catena.
+                     La colonna dei marcatori è 1,6rem = 25,6px: ci sta anche a
+                     375px, e non c'era nessun motivo per toglierla. */
+                  className="rivela rivela-su relative grid gap-[var(--s-13)] grid-cols-[1.6rem_1fr]"
                   style={{ paddingBottom: i === ANELLI.length - 1 ? 0 : 'var(--s-21)' }}
                 >
-                  {/* filo verticale che unisce l'anello al successivo */}
+                  {/* Il filo che unisce l'anello al successivo.
+                      🔴 CORRETTO il 2026-08-11: **non arrivava**. Misurato —
+                      finiva a 595px mentre il pallino dopo cominciava a 607:
+                      **12px di vuoto**, e la catena appariva spezzata fra un
+                      anello e l'altro. Su un grafico il cui unico messaggio è
+                      «ogni anello DIPENDE dal precedente», una linea interrotta
+                      dice il contrario di quello che la sezione afferma.
+                      I due estremi ora sono i CENTRI dei due pallini: il
+                      pallino è alto 15px con 5px di margine sopra ⇒ centro a
+                      12,5px dal bordo dell'elemento; `bottom: -13px` porta il
+                      filo esattamente sul centro di quello dopo.
+                      ⛔ Se cambia l'altezza del pallino o il suo margine,
+                      questi due numeri vanno rifatti insieme — sono una coppia,
+                      non due costanti indipendenti. */}
                   {i < ANELLI.length - 1 && (
                     <span
                       aria-hidden="true"
                       className="absolute"
                       style={{
                         left: 7,
-                        top: 18,
-                        bottom: 4,
+                        top: 12,
+                        bottom: -13,
                         width: 1,
-                        background: 'var(--rule-ink)',
+                        background: 'var(--accent-onink)',
+                        opacity: 0.45,
                       }}
                     />
                   )}
