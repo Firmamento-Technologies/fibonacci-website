@@ -145,7 +145,39 @@ export function DocumentoCheSiCompone() {
     () => false,
   )
 
-  if (menoMovimento || !interattivo) return <VersioneStatica />
+  /* 🔴 IL CANCELLO SULLA LARGHEZZA, e perché senza si rompeva la pagina.
+   *
+   * Il pannello qui sotto è `sticky top-0` alto **100vh** con `flex
+   * items-center`. Sotto i 1024 px il contenuto **non sta in 100vh**: le due
+   * colonne si impilano (`lg:grid-cols-[1fr_1.1fr]`) e diventano ~1400 px di
+   * altezza. E `align-items: center` fa traboccare l'eccedenza **da entrambi i
+   * lati** — quindi anche **verso l'alto**, sopra il primo schermo.
+   *
+   * Misurato sul sito pubblicato, a pagina ferma in cima:
+   *     sezione #il-documento  1350 → 5410
+   *     pannello bloccato      1350 → 2162   (corretto)
+   *     testo della scheda      1049 → 1132   ← 301 px SOPRA il contenitore
+   * Risultato a schermo: il testo di questa sezione disegnato sopra la fascia
+   * di verità dell'hero, illeggibile. Solo su telefono, perché su desktop le
+   * due colonne stanno affiancate e ci stanno.
+   *
+   * ⇒ Sotto `lg` si usa `VersioneStatica`, che esisteva già e racconta la
+   * stessa storia impaginata come un documento. La soglia è **la stessa** del
+   * layout a due colonne, non un numero nuovo: se cambia quella, cambia questa.
+   * ⛔ Non «aggiustare» con `overflow:hidden` sul pannello — taglierebbe il
+   * testo invece di spostarlo. E non con `items-start`: l'eccedenza andrebbe
+   * tutta in basso, a coprire la sezione seguente. */
+  const abbastanzaLargo = useSyncExternalStore(
+    (avvisa) => {
+      const mq = window.matchMedia('(min-width: 1024px)')
+      mq.addEventListener('change', avvisa)
+      return () => mq.removeEventListener('change', avvisa)
+    },
+    () => window.matchMedia('(min-width: 1024px)').matches,
+    () => false,
+  )
+
+  if (menoMovimento || !interattivo || !abbastanzaLargo) return <VersioneStatica />
 
   return (
     <section
