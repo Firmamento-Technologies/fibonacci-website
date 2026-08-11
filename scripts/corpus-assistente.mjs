@@ -7,6 +7,9 @@
  *
  * ── PERCHÉ ESISTE, E PERCHÉ NON È UN PROMPT SCRITTO A MANO ──────────────────
  * C'era già un assistente per il sito (`/website-chat` nel transcriber) con i
+ * fatti scritti a mano. ✅ È stato **rimosso il 2026-08-12** (TD-99), proprio
+ * perché questo script esiste: i fatti ora si estraggono dal sito costruito e
+ * non possono divergere in silenzio. Quel che segue è la misura che lo motivò.
  * fatti **scritti a mano** nel prompt di sistema. Misurati l'11 agosto 2026,
  * quei fatti erano diventati falsi:
  *
@@ -91,7 +94,51 @@ const ESCLUSE = [...paginaLegali(), '/404', '/_not-found', '/index.txt']
  */
 function contenutoPrincipale(html) {
   const m = html.match(/<main[^>]*>([\s\S]*?)<\/main>/i)
-  return m ? m[1] : html
+  return rimuoviFuoriCorpus(m ? m[1] : html)
+}
+
+/**
+ * Via i pezzi di **interfaccia** che stanno dentro `<main>`.
+ *
+ * 🔴 **Misurato il 2026-08-12: l'assistente leggeva sé stesso.** Il suo widget
+ * vive dentro `<main>`, quindi le sue etichette e le sue domande di esempio
+ * finivano nel corpus: **520 caratteri** dentro `/domande/`, e **una delle tre
+ * occorrenze di «costa»** su quella pagina era la scritta del pulsante
+ * *«Quanto costa?»* — non una risposta, un bottone. Con il widget anche sulla
+ * home il conto raddoppiava, e su una domanda di prezzo avrebbe spinto in alto
+ * due pagine che il prezzo non lo dicono.
+ *
+ * ⇒ È lo stesso principio per cui si prende solo `<main>`: **ciò che serve a
+ * usare il sito non è ciò che il sito dice**. La navigazione stava fuori per
+ * costruzione, questi pezzi vanno marcati a mano — `data-fuori-corpus` — perché
+ * sono dentro il contenuto.
+ *
+ * ⚠️ Non si usa una regex sola: `<div>…</div>` annidati la ingannerebbero
+ * tagliando al primo `</div>` e lasciando dentro metà widget. Qui si conta la
+ * profondità, che è l'unico modo corretto senza un parser vero.
+ */
+export function rimuoviFuoriCorpus(html) {
+  const apertura = /<([a-z][a-z0-9]*)\b[^>]*\sdata-fuori-corpus[\s=>]/i
+  let fuori = html
+  for (let giro = 0; giro < 50; giro++) {
+    const m = fuori.match(apertura)
+    if (!m) return fuori
+    const tag = m[1]
+    const dentro = new RegExp(`</?${tag}\\b[^>]*>`, 'gi')
+    dentro.lastIndex = m.index
+    let profondita = 0
+    let fine = -1
+    for (let t = dentro.exec(fuori); t; t = dentro.exec(fuori)) {
+      profondita += t[0][1] === '/' ? -1 : 1
+      if (profondita === 0) {
+        fine = t.index + t[0].length
+        break
+      }
+    }
+    // Tag non chiuso: si taglia fino in fondo, che è meglio che lasciarlo entrare.
+    fuori = fuori.slice(0, m.index) + ' ' + (fine === -1 ? '' : fuori.slice(fine))
+  }
+  return fuori
 }
 
 /* Le entità con un nome. Poche, perché sono le uniche che una regola numerica
