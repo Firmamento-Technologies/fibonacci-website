@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
+import { Assistente } from '@/components/Assistente'
 import { DOMANDE, CATEGORIE, type Domanda } from '@/lib/domande'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
@@ -102,6 +103,18 @@ export default function DomandeFrequenti() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta text-center">
           <h2 className="text-[length:var(--display-2)]">Manca la tua?</h2>
+          <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+            Chiedila qui: l&apos;assistente legge le pagine di questo sito e ti dice quali ha usato.
+          </p>
+          <div className="mt-[var(--s-34)]">
+            <Assistente />
+          </div>
+        </div>
+      </section>
+
+      <section className="fascia">
+        <div className="gabbia gabbia-stretta text-center">
+          <h2 className="text-[length:var(--display-2)]">Preferisci una persona?</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             {CONTACT_EMAIL ? (
               <>

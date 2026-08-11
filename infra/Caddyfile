@@ -34,6 +34,26 @@ fibonaccimedica.it {
 	try_files {path} {path}/index.html {path}.html
 	file_server
 
+	# ── L'assistente pubblico (TD-90) ────────────────────────────────────
+	# ⚠️ Sta QUI, sul dominio del sito, e non su `app.` — di proposito. Il
+	# widget e' una pagina statica che chiama `/assistente/domanda`: se il
+	# servizio stesse sull'altro host sarebbe una chiamata **cross-origin**,
+	# e servirebbe aprire CORS su un endpoint pubblico non autenticato. Con
+	# lo stesso host non serve aprire niente.
+	#
+	# ⛔ `handle_path` toglie il prefisso: il servizio ragiona su `/domanda`
+	# e `/salute`, non sa di stare sotto `/assistente`. Stessa scelta del
+	# BFF piu' sotto, e per la stessa ragione — un servizio che conosce il
+	# proprio prefisso e' un servizio che si rompe quando lo si sposta.
+	handle_path /assistente/* {
+		# Una domanda e' testo: 8 KB sono gia' abbondanti, e il limite qui
+		# costa zero mentre a valle costerebbe token.
+		request_body {
+			max_size 8KB
+		}
+		reverse_proxy 127.0.0.1:8212
+	}
+
 	# Pagina 404 del sito invece di quella nuda di Caddy.
 	handle_errors {
 		@notfound expression {err.status_code} == 404
