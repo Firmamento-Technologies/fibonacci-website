@@ -49,6 +49,29 @@ const ESEMPI = [
 
 type Esito = { risposta: string; fonti: string[] }
 
+/**
+ * Il grassetto del modello, reso davvero grassetto.
+ *
+ * 🔴 **Visto in una schermata del sito in rete, il 2026-08-12**: la risposta
+ * sul listino compariva come *«Il piano \*\*Studio\*\* (279 €/mese)»* — gli
+ * asterischi a video. Il modello risponde in markdown e qui si stampava il
+ * testo grezzo.
+ *
+ * ⛔ **Non si usa un interprete markdown e non si tocca `innerHTML`.** Questo è
+ * testo generato da un modello su una pagina pubblica: farlo diventare HTML
+ * aprirebbe una via che non ha nessun motivo di esistere per ottenere due
+ * parole in neretto. Qui si spezza sulle coppie di `**` e si emettono elementi
+ * React — che il browser non può interpretare come marcatura, per costruzione.
+ *
+ * Le forme non gestite (elenchi, corsivo, titoli) restano testo: il prompt
+ * chiede prosa, e se il modello disobbedisce si legge comunque.
+ */
+function conGrassetto(testo: string) {
+  return testo.split(/\*\*(.+?)\*\*/g).map((pezzo, i) =>
+    i % 2 === 1 ? <strong key={i}>{pezzo}</strong> : pezzo,
+  )
+}
+
 export function Assistente() {
   const [domanda, setDomanda] = useState('')
   const [esito, setEsito] = useState<Esito | null>(null)
@@ -216,7 +239,7 @@ export function Assistente() {
             style={{ background: 'var(--paper)', border: '1px solid var(--rule)' }}
           >
             <p className="text-[1.0625rem] whitespace-pre-line" style={{ color: 'var(--fg)' }}>
-              {esito.risposta}
+              {conGrassetto(esito.risposta)}
             </p>
             {esito.fonti.length > 0 && (
               <p className="mt-[var(--s-13)] text-[0.875rem]" style={{ color: 'var(--fg-muted)' }}>
