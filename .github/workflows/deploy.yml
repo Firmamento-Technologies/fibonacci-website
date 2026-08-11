@@ -24,6 +24,31 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # ⛔ PER PUBBLICARE SUL DOMINIO PROPRIO NON BASTA SCOMMENTARE QUI SOTTO.
+      #
+      # `NEXT_PUBLIC_DOMINIO_SITO` fa tre cose insieme: toglie il prefisso
+      # /fibonacci-website dai link e dagli asset, porta SITE_URL sul dominio, e
+      # scrive `out/CNAME` — che e' come GitHub Pages sa quale dominio servire.
+      #
+      # ⚠️ Da quel momento Pages **reindirizza github.io al dominio**. Se il DNS
+      # non punta ancora a Pages, il risultato non e' «il sito e' ancora su
+      # github.io»: e' **il sito non e' piu' raggiungibile da nessuna parte**.
+      #
+      # Misurato il 2026-08-11: `fibonaccimedica.it` e `.com` risolvono a
+      # 2.57.91.91 (Hostinger) e servono una pagina di **dominio parcheggiato**.
+      # GitHub Pages sta su 185.199.108-111.153.
+      #
+      # ORDINE CORRETTO — il DNS PRIMA, questa riga DOPO:
+      #   1. su Hostinger, per fibonaccimedica.it: sostituire il record A con i
+      #      quattro di Pages (185.199.108.153, .109.153, .110.153, .111.153) e
+      #      mettere `www` come CNAME -> firmamento-technologies.github.io
+      #   2. verificare: `dig +short fibonaccimedica.it` deve dare i 185.199.*
+      #   3. solo allora scommentare la riga `env:` qui sotto e rilasciare
+      #   4. attendere che Pages emetta il certificato TLS per il dominio
+      #
+      # - run: npm run build
+      #   env:
+      #     NEXT_PUBLIC_DOMINIO_SITO: fibonaccimedica.it
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
