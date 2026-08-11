@@ -21,6 +21,31 @@
  * altrimenti la pagina non si posiziona — che è l'unica ragione per cui
  * esiste. Vedi [[piano-canale-paziente-implementazione]] §P4.2.
  *
+ * ── ⛔ DA QUI NON SI LEGGE MAI IL CRM ───────────────────────────────────────
+ * Esiste un secondo registro di medici — il **CRM** (Atomic CRM self-hosted,
+ * [[decisione-crm-atomic-selfhosted]]), dove stanno i contatti, le trattative
+ * e le note commerciali. ⛔ **Non è questa la sua strada**, e la tentazione di
+ * collegarlo è forte proprio perché «i medici ci sono già».
+ *
+ * Sono **due popolazioni con due status giuridici diversi**:
+ *   · nel CRM ci sono i **prospect** — medici contattati e mai diventati
+ *     clienti. Pubblicarne uno significa trattare i suoi dati senza base
+ *     giuridica, e farlo scoprire a lui (o al suo fornitore attuale);
+ *   · qui devono arrivare **solo** gli studi che sono clienti **e** hanno
+ *     acceso il consenso (TD-93).
+ *
+ * E c'è un secondo motivo, più silenzioso: **l'ordine e il numero
+ * d'iscrizione**. Sono il pezzo di valore della scheda, l'unico che nessuno
+ * degli altri portali mette in evidenza. Se venissero dal CRM sarebbero un
+ * dato che abbiamo trascritto noi, e divergerebbero da quello che il medico
+ * mantiene nel suo gestionale ⇒ la pagina pubblicherebbe un numero vecchio,
+ * ⚠️ e davanti all'Ordine risponde **lui**, non noi.
+ *
+ * 🔑 **Il collegamento fra i due mondi è un campo solo, e sta dall'altra
+ * parte**: quando un prospect diventa cliente, nel CRM si scrive l'id
+ * dell'`Organization`. Il CRM sa **chi è cliente**; ⛔ non sa **com'è fatto lo
+ * studio**, e non deve saperlo.
+ *
  * ── COSA NON ENTRA MAI QUI ─────────────────────────────────────────────────
  * ⛔ Nessun listino, sconto, «prima visita gratuita», foto prima/dopo,
  *    superlativo o classifica: L. 145/2018 art. 1 c. 525 esclude «qualsiasi
