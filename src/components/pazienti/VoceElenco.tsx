@@ -96,14 +96,17 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
            punirebbe il medico per una configurazione mancante e mentirebbe al
            paziente sulla disponibilità reale. Si dice cosa fare adesso. */
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Nessun orario pubblicato: per un appuntamento si chiama lo studio.
+          Nessun orario pubblicato.
         </p>
       )}
 
-      <p className="mt-[var(--s-21)]" style={{ display: 'flex', gap: 'var(--s-8)', flexWrap: 'wrap' }}>
-        <Link href={percorsoMedico(m.slug)} className="btn btn-secondario">
-          Vedi la scheda
-        </Link>
+      {/* 🔎 **Un pulsante solo, e la ragione si è vista solo a elenco pieno.**
+          Con due voci due pulsanti sembravano giusti; con diciotto diventano
+          **trentasei rettangoli pieni** che competono fra loro e appesantiscono
+          la pagina. Il nome del medico, in cima, **è già il collegamento alla
+          scheda**: «Vedi la scheda» era una seconda porta per la stessa stanza.
+          Resta l'unica azione che oggi funziona davvero — chiamare. */}
+      <p className="mt-[var(--s-21)]">
         <a href={`tel:${telefono}`} className="btn btn-primario">
           Chiama lo studio
         </a>

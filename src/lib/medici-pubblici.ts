@@ -204,8 +204,74 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
  * ([[piano-canale-paziente-implementazione]] §P6). */
 export const SOGLIA_ELENCO = 15
 
+/* Esempi in quantità, **solo per guardare l'elenco pieno**.
+ *
+ * ⚠️ Serve a esercitare un ramo che altrimenti non guarderebbe mai nessuno:
+ * quello **sopra `SOGLIA_ELENCO`**, dove compaiono il conteggio e (in futuro)
+ * ricerca e filtri. Senza, quella parte di UI nascerebbe non vista — lo stesso
+ * errore già evitato per «nessun orario» e per «l'elenco ha voci».
+ *
+ *     PAZIENTI_ESEMPI=true npm run build    ⇒ i 2 esempi scritti a mano
+ *     PAZIENTI_ESEMPI=18   npm run build    ⇒ 18, per superare la soglia
+ *
+ * ⛔ **Mai in un rilascio**: la variabile è assente per difetto e questi studi
+ * sono dichiaratamente finti — nome numerato, `esempio: true`, quindi `noindex`
+ * e fuori dal sitemap. */
+const COMUNI_ESEMPIO = [
+  'Milano (MI)', 'Roma (RM)', 'Torino (TO)', 'Padova (PD)', 'Lecce (LE)',
+  'Bergamo (BG)', 'Pescara (PE)', 'Carrara (MS)', 'Bologna (BO)', 'Firenze (FI)',
+  'Napoli (NA)', 'Verona (VR)', 'Bari (BA)', 'Genova (GE)', 'Cagliari (CA)',
+  'Trieste (TS)',
+] as const
+
+/* Lettere greche: danno nomi **evidentemente finti** e **iniziali diverse**,
+ * così in anteprima i ritratti non sono tutti uguali. */
+const LETTERE_ESEMPIO = [
+  'Alfa', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta',
+  'Iota', 'Kappa', 'Lambda', 'Mi', 'Ni', 'Xi', 'Omicron', 'Pi',
+] as const
+
+function esempiGenerati(quanti: number): SchedaMedicoPubblica[] {
+  return Array.from({ length: Math.max(0, quanti - MEDICI_ESEMPIO.length) }, (_, i) => {
+    const n = i + 3
+    const comune = COMUNI_ESEMPIO[i % COMUNI_ESEMPIO.length]
+    return {
+      slug: `studio-dimostrativo-${n}`,
+      esempio: true,
+      studio: {
+        nome: `Studio Dimostrativo ${n}`,
+        indirizzo: `Via di Esempio ${n}`,
+        comune,
+        telefono: `+39 000 000000${n % 10}`,
+        email: `esempio${n}@fibonaccimedica.it`,
+      },
+      medico: {
+        /* 🔎 **Corretto il 2026-08-12**: qui c'era il **nome dello studio** al
+         * posto di quello del medico, e in elenco si leggeva «Studio
+         * Dimostrativo 10» come se fosse una persona — con le iniziali tutte
+         * uguali («SD»), che appiattivano i ritratti e rendevano l'anteprima
+         * meno leggibile proprio dove serviva guardarla.
+         * ⛔ I nomi restano **dichiaratamente finti**: mai un nome plausibile
+         * su una scheda sanitaria, nemmeno in anteprima. */
+        nome: `Esempio ${LETTERE_ESEMPIO[i % LETTERE_ESEMPIO.length]}`,
+        titolo: 'Medico chirurgo',
+        ordineProvinciale: comune.replace(/\s*\(.*\)$/, ''),
+        numeroIscrizione: String(10000 + n),
+      },
+      prestazioni: ['Prima visita di medicina estetica', 'Tossina botulinica', 'Biostimolazione'],
+      /* Metà con orari e metà senza: **entrambi i rami** devono comparire
+       * nello stesso elenco, altrimenti si guarda solo quello fortunato. */
+      slot: i % 2 === 0 ? slotDiEsempio() : [],
+    }
+  })
+}
+
 /** Gli studi da pubblicare. Oggi: solo gli esempi. */
 export function mediciPubblicati(): readonly SchedaMedicoPubblica[] {
+  const richiesti = Number(process.env.PAZIENTI_ESEMPI)
+  if (Number.isFinite(richiesti) && richiesti > MEDICI_ESEMPIO.length) {
+    return [...MEDICI_ESEMPIO, ...esempiGenerati(richiesti)]
+  }
   return MEDICI_ESEMPIO
 }
 
