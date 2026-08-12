@@ -36,6 +36,41 @@ import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
 
 type Stato = 'fermo' | 'invio' | 'inviata' | 'urgenza' | 'errore'
 
+/** Risolve la prova di lavoro: cerca il primo `n` per cui
+ *  `sha256(seme + n)` ha almeno `difficolta` bit iniziali a zero.
+ *
+ * ⛔ **Nessuna dipendenza e nessuna chiamata a terzi**: `crypto.subtle` è nel
+ * browser. È la ragione per cui questo sito non ha il banner dei cookie, e
+ * vale anche qui — anzi soprattutto qui, dove il paziente sta per scrivere il
+ * motivo della visita.
+ *
+ * ⚠️ **`crypto.subtle.digest` è asincrono**, quindi il costo per tentativo è
+ * dominato dalla promessa, non dall'hash: è il motivo per cui la difficoltà
+ * lato server è **14** e non 18. Il commento in `sfida_pow.py` dice cosa
+ * servirebbe per alzarla, e ⛔ non è «provare un numero più grande». */
+async function risolviSfida(seme: string, difficolta: number): Promise<string> {
+  const codifica = new TextEncoder()
+  for (let n = 0; n < 5_000_000; n++) {
+    const digest = new Uint8Array(
+      await crypto.subtle.digest('SHA-256', codifica.encode(`${seme}${n}`)),
+    )
+    let zeri = 0
+    for (const byte of digest) {
+      if (byte === 0) {
+        zeri += 8
+        continue
+      }
+      zeri += 8 - (32 - Math.clz32(byte))
+      break
+    }
+    if (zeri >= difficolta) return String(n)
+  }
+  /* Non dovrebbe succedere con le difficoltà che usiamo. Se succede, ⛔ non si
+     spedisce una soluzione finta: si lascia fallire il server, che risponde
+     403 e dice al paziente di ricaricare. */
+  throw new Error('sfida non risolta')
+}
+
 export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
   const [slot, setSlot] = useState<SlotPubblico | null>(null)
   const [dati, setDati] = useState({ nome: '', telefono: '', motivo: '' })
@@ -63,7 +98,19 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
     if (!slot) return
     setStato('invio')
     try {
-      const r = await fetch(`${PRENOTA_API_URL.replace(/\/$/, '')}/pubblico/prenota`, {
+      /* ⚠️ **La sfida si chiede al momento dell'invio, non al caricamento**:
+         vive dieci minuti e vale **una volta sola**, quindi prenderla mentre
+         la pagina si apre significherebbe consegnarne una già scaduta a chi
+         compila con calma — che è il caso normale su un modulo sanitario. */
+      const base = PRENOTA_API_URL.replace(/\/$/, '')
+      const sfida = (await (await fetch(`${base}/pubblico/sfida`)).json()) as {
+        id: string
+        seme: string
+        difficolta: number
+      }
+      const soluzione = await risolviSfida(sfida.seme, sfida.difficolta)
+
+      const r = await fetch(`${base}/pubblico/prenota`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -72,6 +119,8 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
           nome: dati.nome,
           telefono: dati.telefono,
           motivo: dati.motivo,
+          sfidaId: sfida.id,
+          soluzione,
         }),
       })
       const corpo = (await r.json().catch(() => ({}))) as {
