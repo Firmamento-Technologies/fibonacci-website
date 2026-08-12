@@ -58,6 +58,26 @@ fibonaccimedica.it {
 		reverse_proxy 127.0.0.1:8212
 	}
 
+	# I contatti dal modulo «Richiedi una demo» — TD-108.
+	#
+	# 🔴 Prima di questa riga il modulo NON aveva un canale: `LEAD_API_URL` era
+	# vuoto, `fetch('')` mandava la POST alla pagina stessa, il sito statico
+	# rispondeva 200 e il modulo dichiarava «ti scriviamo» mentre il contatto
+	# spariva. Almeno uno e' andato perso davvero.
+	#
+	# ⛔ `handle_path` toglie il prefisso: il sidecar espone `/lead` e non sa di
+	# stare sotto `/contatto`. Stessa ragione dell'assistente qui sopra.
+	# ✅ Stesso dominio del sito ⇒ **nessun CORS da configurare**: e' il motivo
+	# per cui il percorso sta qui e non su `app.fibonaccimedica.it`.
+	handle_path /contatto/* {
+		# Quattro campi di testo. Un modulo pubblico e' un imbuto: il tetto qui
+		# costa zero e ferma il rumore prima che tocchi il servizio.
+		request_body {
+			max_size 8KB
+		}
+		reverse_proxy 127.0.0.1:8201
+	}
+
 	# Pagina 404 del sito invece di quella nuda di Caddy.
 	handle_errors {
 		@notfound expression {err.status_code} == 404

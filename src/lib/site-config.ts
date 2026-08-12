@@ -133,7 +133,20 @@ export const BILLING_URL: string = ''
  * dice che il canale non è attivo invece di far perdere tempo a chi scrive.
  * ✅ PER RIACCENDERLO: basta **una riga** — o questo indirizzo, o `CONTACT_EMAIL`
  * qui sopra. Il modulo torna da sé, senza toccare nessun componente. */
-export const LEAD_API_URL: string = ''
+/* Il canale dei contatti — TD-108.
+ *
+ * 🔴 Era la **stringa vuota**, e non era innocuo: `fetch('')` non fallisce,
+ * manda la POST alla **pagina corrente**, e un sito statico risponde **200**
+ * ⇒ il modulo dichiarava «Ti scriviamo entro un giorno lavorativo» mentre il
+ * contatto non andava da nessuna parte. Almeno uno e' andato perso davvero
+ * (segnalato dall'utente il 2026-08-12).
+ *
+ * ✅ Ora punta al sidecar, che **scrive il contatto su disco prima** di
+ * provare a mandare l'email — l'ordine non e' negoziabile. Percorso
+ * **relativo**: stesso dominio del sito, quindi nessun CORS; e dove il
+ * backend non c'e' (anteprima locale, `out/` servito a mano) la richiesta
+ * fallisce e il modulo apre il programma di posta, dicendolo. */
+export const LEAD_API_URL: string = '/contatto/lead'
 
 /* La base del sidecar che riceve le richieste di appuntamento dal lato
  * paziente (`POST /pubblico/prenota`).
