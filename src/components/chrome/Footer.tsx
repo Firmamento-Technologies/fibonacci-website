@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
-import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL } from '@/lib/site-config'
+import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, SIGNUP_URL } from '@/lib/site-config'
 
 const COLONNE = [
   {
@@ -57,6 +57,16 @@ export function Footer() {
                 style={{ color: 'var(--accent-onink)' }}
               >
                 Accedi
+              </a>
+            )}
+            {SIGNUP_URL && (
+              <a
+                href={SIGNUP_URL}
+                rel="noopener"
+                className="link-avanti mt-[var(--s-13)] inline-flex"
+                style={{ color: 'var(--accent-onink)' }}
+              >
+                Registrati
               </a>
             )}
           </div>

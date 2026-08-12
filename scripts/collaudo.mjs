@@ -23,6 +23,7 @@ import { paritaMappaViso } from './parita-viso.mjs'
 import { paritaCatalogo } from './parita-catalogo.mjs'
 import { paritaFarmaci } from './parita-farmaci.mjs'
 import { paritaProdotto } from './parita-prodotto.mjs'
+import { paritaListino } from './parita-listino.mjs'
 import { classiEsistono } from './classi-esistono.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -236,6 +237,38 @@ async function main() {
     for (const img of struttura.immaginiSenzaAlt) problemi.push(`${percorso}: immagine senza alt (${img})`)
     for (const img of struttura.immaginiRotte) problemi.push(`${percorso}: immagine ROTTA, il file non esiste (${img})`)
 
+    // ── Il manuale: l'indice porta dove dice ───────────────────────────
+    /* ⚠️ QUESTO CONTROLLO ESISTE PERCHÉ IL DIFETTO NON SI VEDE. Le ancore
+     * dei titoli sono calcolate DUE volte: `indiceDaMarkdown()` le ricava
+     * dal sorgente `.md` per l'indice «In questa pagina», e
+     * `MarkdownRenderer` le mette sui titoli resi. Se le due regole
+     * divergono — un titolo con del codice dentro, una lettera accentata
+     * trattata diversamente — l'indice resta bello e pieno, i link non
+     * danno errore, e semplicemente non portano da nessuna parte. Nessuna
+     * build fallisce, nessuna console si lamenta.
+     * ⛔ Non basta contare i link: un indice VUOTO passerebbe. Si pretende
+     * che ce ne sia almeno uno e che ognuno trovi il suo titolo. */
+    if (percorso.startsWith('/documentazione/')) {
+      const manuale = await page.evaluate(() => {
+        const voci = [...document.querySelectorAll('.manuale__contesto a')]
+        return {
+          voci: voci.length,
+          rotte: voci
+            .map((a) => a.getAttribute('href') ?? '')
+            .filter((h) => h.startsWith('#'))
+            .filter((h) => !document.getElementById(decodeURIComponent(h.slice(1)))),
+          capitoli: document.querySelectorAll('.manuale__voce').length,
+          corrente: document.querySelectorAll('.manuale__voce[aria-current="page"]').length,
+        }
+      })
+      if (manuale.voci === 0) problemi.push(`${percorso}: «In questa pagina» è vuoto`)
+      for (const h of manuale.rotte) problemi.push(`${percorso}: l'indice punta a ${h}, che nella pagina non esiste`)
+      if (manuale.capitoli === 0) problemi.push(`${percorso}: nessun indice dei capitoli a lato`)
+      if (manuale.corrente !== 1) {
+        problemi.push(`${percorso}: nell'indice i capitoli marcati come corrente sono ${manuale.corrente}, non 1`)
+      }
+    }
+
     // ── Claim ──────────────────────────────────────────────────────────
     /* I documenti legali sono bozze da far validare: se un'intestazione
      * societaria ricompare va segnalata a parte, non mescolata ai problemi. */
@@ -267,6 +300,69 @@ async function main() {
     for (const v of gravi) {
       problemi.push(`${percorso}: a11y ${v.impact} · ${v.id} · ${v.nodes.length} nodi · ${v.help}`)
     }
+  }
+
+  /* ── Il manuale, esercitato davvero ─────────────────────────────────────
+   *
+   * Il giro qui sopra guarda l'indice fermo. Le tre cose che lo rendono un
+   * manuale invece di un elenco — il filtro, l'evidenziazione della sezione
+   * in lettura, il cassetto sul telefono — non esistono finché non le si usa,
+   * ed è esattamente il genere di cosa che si rompe senza che nessuno lo
+   * sappia: la pagina resta bella, e smette solo di aiutare. */
+  {
+    const p = GUIDE[0]
+    await page.goto(BASE + p, { waitUntil: 'networkidle', timeout: 45000 })
+    await page.waitForTimeout(400)
+
+    // Il filtro restringe l'indice, e quando non trova niente lo dice.
+    const campo = page.locator('.manuale__cerca input')
+    await campo.fill('consensi')
+    await page.waitForTimeout(200)
+    const dopoFiltro = await page.locator('.manuale__voce').count()
+    const tutti = GUIDE.length
+    if (dopoFiltro === 0 || dopoFiltro >= tutti) {
+      problemi.push(`${p}: il filtro dell'indice non restringe niente (${dopoFiltro} capitoli su ${tutti})`)
+    }
+    await campo.fill('zzzz-non-esiste')
+    await page.waitForTimeout(200)
+    if (await page.locator('.manuale__nessuno').count() === 0) {
+      problemi.push(`${p}: filtro senza risultati, e la pagina non dice niente`)
+    }
+    await campo.fill('')
+    await page.waitForTimeout(200)
+
+    /* L'evidenziazione della sezione in lettura. ⚠️ È guidata da
+       `requestAnimationFrame`, che in una scheda NASCOSTA non gira: qui la
+       scheda è quella attiva del contesto, quindi gira. Se un giorno questo
+       controllo diventasse rosso «a caso», guardare prima lì. */
+    const titoli = await page.locator('.prosa-manuale h2').all()
+    if (titoli.length >= 3) {
+      await titoli[2].scrollIntoViewIfNeeded()
+      await page.waitForTimeout(500)
+      const acceso = await page.locator('.manuale__contesto a[data-corrente="si"]').count()
+      if (acceso !== 1) {
+        problemi.push(`${p}: scorrendo, le voci accese in «In questa pagina» sono ${acceso}, non 1`)
+      }
+    }
+
+    // Sul telefono l'indice sta dietro un pulsante, e il pulsante deve aprirlo.
+    await page.setViewportSize({ width: 390, height: 844 })
+    await page.goto(BASE + p, { waitUntil: 'networkidle', timeout: 45000 })
+    await page.waitForTimeout(400)
+    const bottone = page.locator('.manuale__apri')
+    if (!(await bottone.isVisible())) {
+      problemi.push(`${p}: su telefono manca il pulsante che apre l'indice`)
+    } else {
+      if (await page.locator('.manuale__voce').first().isVisible()) {
+        problemi.push(`${p}: su telefono l'indice è aperto di suo e spinge il testo in basso`)
+      }
+      await bottone.click()
+      await page.waitForTimeout(300)
+      if (!(await page.locator('.manuale__voce').first().isVisible())) {
+        problemi.push(`${p}: su telefono il pulsante non apre l'indice`)
+      }
+    }
+    await page.setViewportSize({ width: 1280, height: 900 })
   }
 
   /* ── L'autovalutazione, esercitata davvero ──────────────────────────────

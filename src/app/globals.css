@@ -1399,3 +1399,330 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 @media (prefers-reduced-motion: reduce) {
   .assistente-fisso__pulsante { transition: none; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   IL MANUALE — indice a sinistra, testo al centro, sezioni a destra
+   ═══════════════════════════════════════════════════════════════════════
+
+   ⚠️ PERCHÉ NON SEGUE LE ALTRE PAGINE. Il resto del sito è un PERCORSO: una
+   schermata per sezione, la V per proseguire (`.tappa`). La documentazione
+   stava in quel guscio e ne ereditava il difetto peggiore per un manuale —
+   `/documentazione` apriva su una schermata con il solo titolo, e l'elenco
+   dei capitoli cominciava sotto il bordo. Qui l'unità non è la schermata, è
+   il capitolo: l'indice sta sempre a video e il testo scorre.
+
+   ⛔ NIENTE `.tappa`, `.schermo-pieno` né `min-height` a schermata dentro
+   questo blocco. Se qualcuno ce li rimette, il manuale torna un percorso. */
+
+.manuale {
+  flex: 1;                       /* il piè di pagina resta in fondo */
+  display: grid;
+  gap: var(--s-34);
+  align-items: start;            /* ⛔ serve allo `sticky`: con `stretch` la
+                                    colonna è alta quanto la griglia e non
+                                    resta mai attaccata a niente */
+  padding-block: var(--s-21) var(--s-89);
+}
+
+@media (min-width: 1024px) {
+  .manuale {
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: var(--s-55);
+    padding-block: var(--s-34) var(--s-144);
+  }
+  /* La terza colonna solo quando c'è davvero spazio: sotto i 1280px
+     toglierebbe al testo più di quanto renda, e l'indice della pagina è
+     comunque raggiungibile scorrendo. */
+  .manuale--con-contesto { grid-template-columns: 15rem minmax(0, 1fr); }
+}
+@media (min-width: 1280px) {
+  .manuale--con-contesto { grid-template-columns: 15rem minmax(0, 1fr) 12rem; }
+}
+
+/* ── La colonna dell'indice ─────────────────────────────────────────────── */
+
+.manuale__lato { min-width: 0; }
+
+@media (min-width: 1024px) {
+  .manuale__lato {
+    position: sticky;
+    /* L'intestazione è `sticky` e copre i primi 91px: l'indice comincia
+       sotto, non dietro. Stesso numero di `--h-intestazione`. */
+    top: calc(var(--h-intestazione) + var(--s-21));
+    max-height: calc(100dvh - var(--h-intestazione) - var(--s-55));
+    overflow-y: auto;
+    /* Arrivato in fondo all'indice, la rotellina non deve far ripartire la
+       pagina sotto: chi cerca un capitolo perde il segno. */
+    overscroll-behavior: contain;
+    padding-right: var(--s-8);
+  }
+}
+
+/* Il pulsante che apre l'indice sul telefono. Su schermo largo non esiste:
+   lì l'indice è sempre a video. */
+.manuale__apri {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-13);
+  width: 100%;
+  min-height: 48px;              /* WCAG 2.2 SC 2.5.8, come `.btn` */
+  padding-inline: var(--s-13);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r);
+  background: var(--paper);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  text-align: left;
+}
+.manuale__apri-segno { font-family: var(--font-mono); color: var(--accent); font-size: 18px; }
+.manuale__apri:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.manuale__indice[data-aperto='no'] { display: none; }
+.manuale__indice[data-aperto='si'] { margin-top: var(--s-13); }
+
+@media (min-width: 1024px) {
+  .manuale__apri { display: none; }
+  /* ⚠️ Su schermo largo l'indice si vede SEMPRE, anche a script spenti: lo
+     stato del pulsante non deve poterlo nascondere. */
+  .manuale__indice[data-aperto='no'],
+  .manuale__indice[data-aperto='si'] { display: block; margin-top: 0; }
+}
+
+.manuale__cerca input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 var(--s-13);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r);
+  background: var(--bg-sunk);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 16px;               /* ⛔ non meno: sotto i 16px iOS ingrandisce
+                                    la pagina al fuoco, e non torna indietro */
+}
+.manuale__cerca input::placeholder { color: var(--fg-faint); }
+.manuale__cerca input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  background: var(--paper);
+}
+
+.manuale__parte { margin-top: var(--s-21); }
+.manuale__parte-titolo {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  /* ⛔ non `--fg-faint`: il token stesso dice «solo ≥16px», e qui siamo a 11. */
+  color: var(--fg-muted);
+  padding-bottom: var(--s-5);
+  border-bottom: 1px solid var(--rule);
+}
+.manuale__parte ul { list-style: none; margin: 0; padding: 0; }
+
+.manuale__voce {
+  display: flex;
+  gap: var(--s-8);
+  padding: var(--s-8) var(--s-8) var(--s-8) var(--s-5);
+  border-left: 2px solid transparent;
+  color: var(--fg-muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+.manuale__voce:hover { color: var(--accent-deep); background: var(--bg-sunk); }
+.manuale__voce:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.manuale__voce[data-corrente='si'] {
+  border-left-color: var(--accent);
+  color: var(--accent-deep);
+  font-weight: 600;
+  background: var(--accent-wash);
+}
+.manuale__numero {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-faint);
+  font-variant-numeric: tabular-nums;
+  padding-top: 3px;
+  min-width: 1.4em;
+}
+.manuale__voce[data-corrente='si'] .manuale__numero { color: var(--accent); }
+
+.manuale__nessuno {
+  margin-top: var(--s-21);
+  font-size: 14px;
+  color: var(--fg-muted);
+}
+.manuale__nessuno a { color: var(--accent-deep); border-bottom: 1px solid var(--rule-strong); }
+
+/* ── La colonna del testo ───────────────────────────────────────────────── */
+
+.manuale__colonna { min-width: 0; }
+
+.manuale__briciole {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-8);
+  font-size: 13px;
+  color: var(--fg-muted);
+}
+.manuale__briciole a { color: var(--accent); }
+.manuale__briciole a:hover { color: var(--accent-deep); text-decoration: underline; }
+
+.manuale__capitolo {
+  margin-top: var(--s-21);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.manuale__testata { margin-top: var(--s-21); }
+.manuale__testata h1 { font-size: var(--display-2); }
+.manuale__testata p {
+  margin-top: var(--s-13);
+  max-width: var(--measure);
+  color: var(--fg-muted);
+  font-size: 1.0625rem;
+}
+
+.manuale__sezione { margin-top: var(--s-55); }
+.manuale__sezione h2 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.manuale__elenco { list-style: none; margin: var(--s-13) 0 0; padding: 0; }
+.manuale__elenco li { border-top: 1px solid var(--rule); }
+.manuale__elenco a {
+  display: flex;
+  gap: var(--s-13);
+  padding-block: var(--s-13);
+}
+.manuale__elenco a:hover .manuale__elenco-titolo { color: var(--accent-deep); }
+.manuale__elenco a:hover .manuale__elenco-freccia { transform: translateX(3px); }
+.manuale__elenco-numero {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-faint);
+  font-variant-numeric: tabular-nums;
+  padding-top: 6px;
+  min-width: 1.6em;
+}
+.manuale__elenco-testo { min-width: 0; }
+.manuale__elenco-titolo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  color: var(--fg);
+}
+.manuale__elenco-freccia {
+  color: var(--accent);
+  transition: transform var(--t-fast) var(--ease);
+}
+.manuale__elenco-riga {
+  display: block;
+  margin-top: var(--s-3);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--fg-muted);
+  max-width: var(--measure);
+}
+
+/* Il testo della guida. `.prosa` porta già la tipografia; qui si aggiunge
+   solo quello che vale per il manuale e non per i legali. */
+.prosa-manuale { margin-top: var(--s-21); }
+.prosa-manuale h1 { font-size: var(--display-2); }
+.prosa-manuale h2 { scroll-margin-top: calc(var(--h-intestazione) + var(--s-13)); }
+.prosa-manuale h3 { scroll-margin-top: calc(var(--h-intestazione) + var(--s-13)); }
+
+/* Il «#» accanto al titolo: serve a mandare a qualcuno IL PASSO, non la
+   guida. Si vede al passaggio del mouse e sempre quando prende il fuoco da
+   tastiera — ⛔ non `opacity: 0` e basta, che lo renderebbe irraggiungibile
+   a chi naviga con il Tab. */
+.ancora {
+  margin-left: var(--s-8);
+  color: var(--accent);
+  border-bottom: 0;
+  opacity: 0;
+  font-weight: 400;
+  transition: opacity var(--t-fast) var(--ease);
+}
+h2:hover > .ancora,
+h3:hover > .ancora,
+.ancora:focus-visible { opacity: 1; }
+.ancora:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (hover: none) {
+  /* Sul telefono non esiste il passaggio del mouse: o si vede sempre o non
+     esiste. Si vede sempre, tenue. */
+  .ancora { opacity: 0.45; }
+}
+
+.manuale__vicine {
+  display: grid;
+  gap: var(--s-21);
+  margin-top: var(--s-89);
+  padding-top: var(--s-21);
+  border-top: 1px solid var(--rule);
+}
+@media (min-width: 640px) {
+  .manuale__vicine { grid-template-columns: 1fr 1fr; }
+  .manuale__vicine--avanti { text-align: right; }
+}
+.manuale__vicine-titolo {
+  display: block;
+  margin-top: var(--s-5);
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  color: var(--fg);
+}
+.manuale__vicine a:hover .manuale__vicine-titolo { color: var(--accent-deep); }
+
+.manuale__coda { margin-top: var(--s-34); }
+
+/* ── La colonna «In questa pagina» ──────────────────────────────────────── */
+
+.manuale__contesto { display: none; }
+
+@media (min-width: 1280px) {
+  .manuale__contesto {
+    display: block;
+    position: sticky;
+    top: calc(var(--h-intestazione) + var(--s-21));
+    max-height: calc(100dvh - var(--h-intestazione) - var(--s-55));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-left: 1px solid var(--rule);
+    padding-left: var(--s-13);
+  }
+}
+.manuale__contesto-titolo {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+.manuale__contesto ul { list-style: none; margin: var(--s-8) 0 0; padding: 0; }
+.manuale__contesto li[data-livello='3'] { padding-left: var(--s-13); }
+.manuale__contesto a {
+  display: block;
+  padding-block: var(--s-5);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--fg-muted);
+}
+.manuale__contesto a:hover { color: var(--accent-deep); }
+.manuale__contesto a[data-corrente='si'] { color: var(--accent-deep); font-weight: 600; }
+.manuale__contesto a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

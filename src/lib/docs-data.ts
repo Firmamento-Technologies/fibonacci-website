@@ -1,6 +1,12 @@
-import { readFile } from 'node:fs/promises'
-import { join } from 'node:path'
-import { risolviSegnaposto } from './segnaposto'
+/* L'ANAGRAFE delle guide: solo dati, nessuna lettura da disco.
+ *
+ * ⚠️ `loadDoc()` stava qui e ha smesso di poterci stare il 2026-08-12, quando
+ * l'indice del manuale è diventato un componente client: importare `DOCS` da
+ * lì tirava dentro `node:fs/promises` e la build si fermava
+ * («the chunking context does not support external modules»). Il lettore dei
+ * file sta ora in `docs-file.ts`, che è di solo server.
+ * ⛔ Non rimettere qui un `import` da `node:*`: romperebbe di nuovo l'indice,
+ * e l'errore arriva in fase di build, lontano dal file che l'ha causato. */
 
 export interface DocMeta {
   slug: string
@@ -225,9 +231,3 @@ export function getDocMeta(slug: string): DocMeta | undefined {
   return DOCS.find((d) => d.slug === slug)
 }
 
-export async function loadDoc(slug: string): Promise<string> {
-  const filePath = join(process.cwd(), 'src', 'content', 'docs', `${slug}.md`)
-  // Stessa risoluzione dei legali: una copia parziale qui aveva gia' lasciato
-  // un {URL_APP} non risolto in una guida (vedi segnaposto.ts).
-  return risolviSegnaposto(await readFile(filePath, 'utf-8'), slug)
-}

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { motion, useScroll, useSpring, useReducedMotion } from 'framer-motion'
-import { APP_URL, DEMO_URL } from '@/lib/site-config'
+import { APP_URL, SIGNUP_URL, DEMO_URL } from '@/lib/site-config'
 import { Logo } from '@/components/Logo'
 
 /* Cinque voci, non undici.
@@ -88,6 +88,23 @@ export function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-[var(--s-21)]">
+            {/* 🔴 **Segnalato dall'utente il 2026-08-12, e nessun presidio lo
+                vedeva**: sul sito non c'era modo di capire ne' dove accedere ne'
+                dove registrarsi. «Accedi» esisteva ma non veniva disegnato,
+                perche' `APP_URL` era vuoto dal 9 agosto; e un collegamento alla
+                registrazione **non esisteva affatto**, in nessuna pagina.
+                ⚠️ Un prodotto in abbonamento che non dice dove ci si iscrive
+                perde chi era gia' convinto — il punto piu' caro in cui perderlo. */}
+            {SIGNUP_URL && (
+              <a
+                href={SIGNUP_URL}
+                className="text-[15px]"
+                style={{ color: 'var(--fg-muted)' }}
+                rel="noopener"
+              >
+                Registrati
+              </a>
+            )}
             {APP_URL && (
               <a
                 href={APP_URL}
@@ -224,6 +241,11 @@ export function Header() {
               <Link href="/richiedi-una-demo" className="btn btn-primario" onClick={() => setMenuAperto(false)}>
                 Richiedi una demo
               </Link>
+              {SIGNUP_URL && (
+                <a href={SIGNUP_URL} className="btn btn-secondario" rel="noopener">
+                  Registrati
+                </a>
+              )}
               {APP_URL && (
                 <a href={APP_URL} className="btn btn-secondario" rel="noopener">
                   Accedi

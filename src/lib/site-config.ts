@@ -75,8 +75,30 @@ export const PRIVACY_EMAIL = 'info@fibonaccimedica.it'
  * non esiste resta un **vuoto dichiarato**, mai un indirizzo inventato. Ogni
  * componente che li usa non disegna il pulsante quando sono vuoti.
  * ✅ PER RIMETTERLI: si riscrive l'URL qui, e basta — nient'altro da toccare. */
-export const APP_URL: string = ''
+/* ✅ **APP_URL RIMESSO il 2026-08-12**, seguendo l'istruzione qui sopra: la
+ * condizione che lo aveva svuotato — «la macchina non esiste più» — non vale
+ * più. Verificato prima di riscriverlo, non dedotto: `https://app.
+ * fibonaccimedica.it/` risponde **200**, e `/signup` pure.
+ *
+ * 🔴 **E il vuoto costava caro**: senza, l'intestazione e il piè di pagina non
+ * disegnavano «Accedi» — quindi chi arrivava sul sito **non trovava né dove
+ * accedere né dove registrarsi**, e non c'era modo di scoprirlo dal sito
+ * stesso. È stato l'utente a segnalarlo, non un presidio.
+ *
+ * ⛔ **DEMO_URL resta vuoto, e non è una dimenticanza**: `/demo` sul server
+ * risponde 200 ma **reindirizza a `/login`** — la demo pubblica è spenta.
+ * Riaccendere il pulsante manderebbe chi cerca «l'unica cosa che puoi
+ * verificare da solo in trenta secondi» su un modulo di accesso: esattamente
+ * il difetto che ha svuotato queste due righe il 9 agosto. Torna quando torna
+ * `WEB_DEMO`. */
+export const APP_URL: string = 'https://app.fibonaccimedica.it'
 export const DEMO_URL: string = ''
+
+/* Dove ci si registra. ⚠️ Non c'era **nessun** collegamento alla registrazione
+ * sul sito: `APP_URL` porta all'accesso, che a chi non ha ancora un account non
+ * serve. Un prodotto che si vende in abbonamento e non dice dove iscriversi
+ * perde chi era già convinto. */
+export const SIGNUP_URL: string = APP_URL ? `${APP_URL}/signup` : ''
 
 /* Dove risponde il servizio dei pagamenti, per aprire il checkout dal listino.
  * Serve da quando il self-service è la strada scelta (D5, utente 2026-08-10).
