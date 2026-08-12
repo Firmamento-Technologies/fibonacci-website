@@ -129,7 +129,9 @@ app.fibonaccimedica.it {
 	# sidecar con un cookie HttpOnly invece del bearer.
 	# ⛔ `handle_path` toglie `/bff`: il servizio ragiona su `/pdf/...`, non su
 	# `/bff/pdf/...`. Inoltrare il prefisso darebbe 404 su tutto.
-	# ⚠️ Inerte finche' il frontend non e' costruito con `WEB_BFF_ENABLED=true`:
+	# ⚠️ Inerte finche' il frontend non e' costruito con `VITE_BFF_ENABLED=true`:
+	# (⚠️ VITE_, non WEB_: `WEB_BFF_ENABLED` non esiste nel codice, e chi lo
+	# impostasse non otterrebbe niente — senza nessun errore.)
 	# oggi nessuno chiama questo percorso.
 	handle_path /bff/* {
 		# I corpi qui dentro sono foto cliniche e audio della visita: il tetto
