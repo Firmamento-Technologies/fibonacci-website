@@ -149,7 +149,21 @@ function slotDiEsempio(): SlotPubblico[] {
 export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
   {
     slug: 'studio-dimostrativo',
-    organizationId: 'esempio-org-1',
+    /* ⚠️ **Manopola di PROVA, spenta di default.** Il modulo di prenotazione
+     * manda `studioId: organizationId` al sidecar: con un valore inventato la
+     * richiesta viene rifiutata, quindi il percorso completo non si può provare.
+     * Con `NEXT_PUBLIC_PAZIENTI_ORG_DEMO=<id di una Organization vera>` questa scheda punta
+     * a uno studio che esiste davvero, e la catena elenco → scheda → orari →
+     * prenotazione si prova fino in fondo.
+     * ⛔ Confronto stretto e valore letto una volta sola: è la lezione di
+     * `PAZIENTI_ESEMPI`, dove `=0` finiva per accendere. Qui basta che sia
+     * non vuoto, e se non c'è resta il segnaposto — che il sidecar rifiuta. */
+    /* ⚠️ `NEXT_PUBLIC_`: questo modulo finisce **anche nel bundle client**
+     * (`ModuloPrenotazione` ne importa le funzioni di formato), e senza il
+     * prefisso il valore sarebbe `undefined` di là ⇒ server e browser
+     * userebbero due `organizationId` diversi, e la prenotazione partirebbe
+     * verso uno studio che non esiste. */
+    organizationId: (process.env.NEXT_PUBLIC_PAZIENTI_ORG_DEMO ?? '').trim() || 'esempio-org-1',
     esempio: true,
     studio: {
       nome: 'Studio Dimostrativo',

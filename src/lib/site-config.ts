@@ -124,7 +124,22 @@ export const LEAD_API_URL: string = ''
  * ⛔ **Non riempirla prima di TD-92**: il CAPTCHA all'edge è il requisito
  * dichiarato *hard* prima di aprire il canale pubblico, e il tetto per numero
  * di telefono nel sidecar ferma l'abuso ripetuto, **non mille numeri diversi**. */
-export const PRENOTA_API_URL: string = ''
+export const PRENOTA_API_URL: string =
+  /* ⚠️ **Vuoto di default, e deve restarlo**: un modulo che spedisce nel vuoto è
+   * peggio di un modulo assente, perché il paziente crede di aver prenotato.
+   * Si accende **solo** passando l'indirizzo alla costruzione:
+   *
+   *     NEXT_PUBLIC_PRENOTA_API_URL=http://localhost:8099 npm run build
+   *
+   * ⛔ Confronto stretto sul vuoto, niente valori «quasi veri»: è la lezione di
+   * `PAZIENTI_ESEMPI`, dove un valore non capito finiva per accendere. */
+  /* 🔴 **`NEXT_PUBLIC_`, e non è pedanteria**: il modulo di prenotazione è un
+   * componente **client**, e Next inlinea nel bundle del browser solo le
+   * variabili con quel prefisso. Con il nome nudo la costante restava vuota
+   * **senza nessun errore** e il modulo diceva «prenotazione non attiva» pur
+   * avendo passato l'indirizzo alla build — misurato il 2026-08-12 cercando
+   * l'indirizzo nel costruito e non trovandolo. */
+  (process.env.NEXT_PUBLIC_PRENOTA_API_URL ?? '').trim()
 
 /** Dove è pubblicata la vetrina. Da spostare sul dominio proprio. */
 /* L'indirizzo canonico del sito. Segue `NEXT_PUBLIC_DOMINIO_SITO` — la STESSA

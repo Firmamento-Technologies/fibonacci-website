@@ -10,7 +10,22 @@ export interface DocMeta {
   icon: string
 }
 
+/* ⚠️ L'ORDINE DI QUESTO ARRAY È L'ORDINE DI LETTURA DEL MANUALE, e da qui
+ * escono tre cose insieme: l'indice a sinistra, la numerazione dei capitoli e
+ * il «precedente/successiva» in fondo a ogni guida. Prima ne usciva solo
+ * l'ultimo, e infatti «Primo accesso e configurazione iniziale» era il sesto
+ * elemento: chi apriva il manuale dall'inizio arrivava alla configurazione
+ * dello studio dopo aver letto la dashboard, l'atlante e la ricerca in
+ * letteratura. Dentro ogni categoria l'ordine è quello in cui le cose si
+ * fanno; le categorie si susseguono come in `CAPITOLI`. */
 export const DOCS: DocMeta[] = [
+  {
+    slug: 'installazione',
+    title: 'Primo accesso e configurazione iniziale',
+    description: 'Login, MFA, configurazione studio, inviti operatori.',
+    category: 'inizio',
+    icon: 'LogIn',
+  },
   {
     slug: 'dashboard',
     title: 'La dashboard: cosa guardare la mattina',
@@ -45,13 +60,6 @@ export const DOCS: DocMeta[] = [
     description: 'Stato dell\'importazione AIFA, perché «forza sync» è disabilitato, cosa fare se fallisce.',
     category: 'compliance',
     icon: 'Database',
-  },
-  {
-    slug: 'installazione',
-    title: 'Primo accesso e configurazione iniziale',
-    description: 'Login, MFA, configurazione studio, inviti operatori.',
-    category: 'inizio',
-    icon: 'LogIn',
   },
   {
     slug: 'anagrafica-paziente',
@@ -158,10 +166,59 @@ export const DOCS: DocMeta[] = [
   },
 ]
 
+/* I nomi delle tre parti del manuale.
+ *
+ * ⚠️ Erano DUE elenchi e dicevano cose diverse: questo (`Per iniziare` ·
+ * `Utilizzo quotidiano` · `Compliance e sicurezza`) non era importato da
+ * nessuno, mentre la pagina indice ne teneva una copia propria con le parole
+ * che si vedevano davvero. Chi cambiava questo file non cambiava il sito, e
+ * viceversa — la solita seconda copia destinata a divergere, già divergente.
+ * Restano le parole che erano a video; l'elenco morto è stato tolto. */
 export const DOC_CATEGORIES: Record<DocMeta['category'], string> = {
-  inizio: 'Per iniziare',
-  utilizzo: 'Utilizzo quotidiano',
-  compliance: 'Compliance e sicurezza',
+  inizio: 'Per cominciare',
+  utilizzo: 'Nel lavoro di tutti i giorni',
+  compliance: 'Adempimenti',
+}
+
+export interface Capitolo {
+  chiave: DocMeta['category']
+  titolo: string
+  guide: DocMeta[]
+}
+
+/** Le tre parti, nell'ordine in cui si leggono. */
+export const CAPITOLI: Capitolo[] = (
+  Object.keys(DOC_CATEGORIES) as DocMeta['category'][]
+).map((chiave) => ({
+  chiave,
+  titolo: DOC_CATEGORIES[chiave],
+  guide: DOCS.filter((d) => d.category === chiave),
+}))
+
+/**
+ * Le guide nell'ordine dell'indice: prima le tre parti, dentro ognuna
+ * l'ordine di `DOCS`.
+ *
+ * ⚠️ È QUESTO l'ordine di «precedente/successiva», non quello grezzo di
+ * `DOCS`. Prima erano la stessa cosa, e la coda di ogni guida proponeva un
+ * salto che l'indice non mostrava: da «Questionari al paziente» si andava a
+ * «Catalogo farmaci», cioè da una guida d'uso quotidiano a un adempimento,
+ * scavalcando metà della propria sezione.
+ */
+export const DOCS_IN_ORDINE: DocMeta[] = CAPITOLI.flatMap((c) => c.guide)
+
+/** Il numero di capitolo (1-based) come compare nell'indice. */
+export function numeroCapitolo(slug: string): number {
+  return DOCS_IN_ORDINE.findIndex((d) => d.slug === slug) + 1
+}
+
+/** La guida prima e quella dopo, nell'ordine dell'indice. */
+export function guideVicine(slug: string): { precedente: DocMeta | null; successiva: DocMeta | null } {
+  const i = DOCS_IN_ORDINE.findIndex((d) => d.slug === slug)
+  return {
+    precedente: i > 0 ? DOCS_IN_ORDINE[i - 1] : null,
+    successiva: i >= 0 && i < DOCS_IN_ORDINE.length - 1 ? DOCS_IN_ORDINE[i + 1] : null,
+  }
 }
 
 export function getDocMeta(slug: string): DocMeta | undefined {

@@ -8,7 +8,7 @@ import { mediciPubblicati, mostraEsempi, SOGLIA_ELENCO } from '@/lib/medici-pubb
 export const metadata: Metadata = {
   title: 'Trova il tuo medico estetico e prenota',
   description:
-    'Le pagine pubbliche dei medici che usano Fibonacci: chi sono, il numero d’iscrizione all’Ordine, dove ricevono e quando sono liberi. Nessuna classifica, nessuna recensione, nessun listino.',
+    'Tre controlli gratuiti prima di un trattamento estetico: se il medico è iscritto all’Ordine, le nove domande da fargli, che cos’è il consenso informato. E le pagine pubbliche degli studi che usano Fibonacci: nessuna classifica, nessuna recensione, nessun listino.',
   alternates: { canonical: '/pazienti' },
 }
 
@@ -60,22 +60,72 @@ export default function Page() {
       >
         <header style={{ maxWidth: 'var(--measure)' }}>
           <h1 className="text-[length:var(--display-2)]">
-            I medici che usano Fibonacci, e i loro orari veri
+            Prima di affidarti a un medico estetico
           </h1>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Fibonacci è la cartella clinica che alcuni medici estetici usano nel loro studio.
-            Da qui puoi vedere chi sono, controllare che siano iscritti all’Ordine e chiedere
-            un appuntamento sugli orari che hanno davvero liberi.
+            Tre controlli che puoi fare da solo, gratis, in pochi minuti: se è davvero
+            iscritto all’Ordine, che cosa hai diritto di chiedergli, e che cos’è il foglio
+            che ti fanno firmare. Più in basso trovi gli studi che usano Fibonacci e hanno
+            scelto di pubblicare qui i loro orari.
           </p>
         </header>
 
         <div style={{ maxWidth: 'var(--measure)' }}>
+          {/* ⚠️ **Va PRIMA dell'elenco, ed è una correzione su rilievo dell'utente
+              (2026-08-12): «non dice nulla».** Aveva ragione — la pagina apriva
+              con un elenco vuoto, cioè col nostro problema invece che con
+              qualcosa di utile. ⛔ Con zero medici pubblicati, l'unica cosa che
+              questa pagina può davvero dare a chi arriva **oggi** sono i tre
+              controlli: sono gratis, si fanno da soli, e valgono anche per un
+              medico che Fibonacci non lo usa. L'elenco resta, sotto, onesto. */}
+          <Sezione id="fiducia" titolo="Tre controlli che puoi fare da solo">
+            <ol style={{ listStyle: 'none', padding: 0 }}>
+              <li style={{ paddingBottom: 'var(--s-21)' }}>
+                <h3 className="text-[1.0625rem] font-medium">
+                  <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
+                    1. Controlla che sia iscritto all’Ordine
+                  </Link>
+                </h3>
+                <p className="mt-[var(--s-5)]" style={{ color: 'var(--fg-muted)' }}>
+                  La Federazione degli Ordini dei Medici pubblica l’albo nazionale: cerchi
+                  nome, cognome e città, e vedi se risulta iscritto. È gratis, è pubblico,
+                  e si fa in un minuto dal telefono.
+                </p>
+              </li>
+              <li style={{ paddingBottom: 'var(--s-21)' }}>
+                <h3 className="text-[1.0625rem] font-medium">
+                  <Link href="/pazienti/prima-di-un-trattamento" style={COLLEGAMENTO}>
+                    2. Fai le nove domande, prima di dire sì
+                  </Link>
+                </h3>
+                <p className="mt-[var(--s-5)]" style={{ color: 'var(--fg-muted)' }}>
+                  Che prodotto mi mettete e quanto dura, quali sono le alternative, che cosa
+                  succede se non lo faccio, chi lo esegue materialmente, e che cosa si fa se
+                  va storto. Sono domande a cui il medico è tenuto a rispondere.
+                </p>
+              </li>
+              <li>
+                <h3 className="text-[1.0625rem] font-medium">
+                  <Link href="/pazienti/consenso-informato" style={COLLEGAMENTO}>
+                    3. Capisci che cosa firmi
+                  </Link>
+                </h3>
+                <p className="mt-[var(--s-5)]" style={{ color: 'var(--fg-muted)' }}>
+                  Nessun trattamento può iniziare senza il tuo consenso libero e informato,
+                  e non è una liberatoria che scarica il medico: puoi revocarlo in qualsiasi
+                  momento, anche dopo averlo firmato.
+                </p>
+              </li>
+            </ol>
+          </Sezione>
+
           <Sezione id="elenco" titolo="Gli studi che hanno pubblicato la loro pagina">
             {pubblicati.length === 0 ? (
               <p>
                 <strong>Per ora nessuno.</strong> Le pagine si accendono una a una, quando è
-                lo studio a volerlo: appena ce ne sarà una, comparirà qui. Se il tuo medico
-                usa Fibonacci, l’indirizzo della sua pagina te lo può dare lui.
+                lo studio a volerlo. Se il tuo medico usa Fibonacci, l’indirizzo della sua
+                pagina te lo può dare lui: lì trovi il numero d’iscrizione all’Ordine, dove
+                riceve, e gli orari che ha davvero liberi.
               </p>
             ) : (
               <>
@@ -121,29 +171,6 @@ export default function Page() {
               medici le comunicazioni con elementi «attrattivi e suggestivi», offerte e sconti
               compresi. Gli onorari te li dice lo studio.
             </p>
-          </Sezione>
-
-          <Sezione id="fiducia" titolo="Tre cose utili prima di prenotare">
-            <ul>
-              <li style={{ padding: 'var(--s-8) 0' }}>
-                <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
-                  Come verificare che un medico è iscritto all’Ordine
-                </Link>:
-                 si fa in un minuto, sul registro pubblico.
-              </li>
-              <li style={{ padding: 'var(--s-8) 0' }}>
-                <Link href="/pazienti/prima-di-un-trattamento" style={COLLEGAMENTO}>
-                  Nove domande da fare prima di un trattamento
-                </Link>:
-                 quelle a cui il medico è tenuto a rispondere.
-              </li>
-              <li style={{ padding: 'var(--s-8) 0' }}>
-                <Link href="/pazienti/consenso-informato" style={COLLEGAMENTO}>
-                  Che cos’è il consenso informato
-                </Link>:
-                 e perché non è una liberatoria.
-              </li>
-            </ul>
           </Sezione>
 
           <Sezione id="dati" titolo="I tuoi dati">

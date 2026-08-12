@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 import type { SchedaMedicoPubblica, SlotPubblico } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
@@ -72,10 +72,49 @@ async function risolviSfida(seme: string, difficolta: number): Promise<string> {
 }
 
 export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
+  /* ⚠️ **Gli orari veri arrivano dal sidecar, non dalla pagina.**
+   *
+   * Il sito è statico (`output: 'export'`): gli orari cotti nel bundle sarebbero
+   * quelli del momento della build, e su una pagina che promette *«quando è
+   * libero davvero»* sarebbe la bugia più facile da fare. Peggio: il modulo
+   * spedisce `slotId`, e uno slot inventato al momento della build **non
+   * esiste** per chi lo riceve ⇒ la prenotazione fallirebbe dopo che il
+   * paziente ha compilato tutto.
+   *
+   * ⛔ Quelli di `m.slot` restano solo come **indizio di build** («questo studio
+   * ha disponibilità»): non si prenota mai su quelli. */
+  const [orari, setOrari] = useState<readonly SlotPubblico[]>([])
+  const [caricando, setCaricando] = useState(true)
   const [slot, setSlot] = useState<SlotPubblico | null>(null)
   const [dati, setDati] = useState({ nome: '', telefono: '', motivo: '' })
   const [stato, setStato] = useState<Stato>('fermo')
   const [messaggio, setMessaggio] = useState('')
+
+  useEffect(() => {
+    if (!PRENOTA_API_URL) return
+    let vivo = true
+    const base = PRENOTA_API_URL.replace(/\/$/, '')
+    fetch(`${base}/pubblico/prenota/slot?organization_id=${encodeURIComponent(m.organizationId)}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((d: { slot?: { id: string; start: string; end: string }[] }) => {
+        /* 🔴 **I nomi NON combaciavano, e il commento del tipo diceva di sì.**
+         * `SlotPubblico` dichiara *«stessa forma di GET /pubblico/prenota/slot»*
+         * con `inizio`/`fine`, ma l'endpoint risponde `start`/`end` — trovato
+         * cablandolo davvero, il 2026-08-12: senza questa conversione gli orari
+         * arrivavano e la pagina mostrava «Invalid Date». ⚠️ È il motivo per cui
+         * «stessa forma» scritto in un commento non è un contratto. */
+        if (vivo) {
+          setOrari((d.slot ?? []).map((s) => ({ id: s.id, inizio: s.start, fine: s.end })))
+        }
+      })
+      // ⛔ Fail-closed: se non si sa quali orari sono liberi non se ne offre
+      // nessuno. Offrirne uno a caso vorrebbe dire far prenotare nel vuoto.
+      .catch(() => vivo && setOrari([]))
+      .finally(() => vivo && setCaricando(false))
+    return () => {
+      vivo = false
+    }
+  }, [m.organizationId])
 
   const aggiorna = (campo: keyof typeof dati) => (e: { target: { value: string } }) =>
     setDati((d) => ({ ...d, [campo]: e.target.value }))
@@ -193,16 +232,37 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
     )
   }
 
+  /* ⚠️ Prima di disegnare il selettore: gli orari **veri** possono non esserci,
+     e `orari[0]` su una lista vuota è un errore in faccia al paziente. */
+  if (caricando) {
+    return (
+      <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }} role="status">
+        Cerco gli orari liberi…
+      </p>
+    )
+  }
+
+  if (orari.length === 0) {
+    /* ⛔ Non si scrive «non ci sono orari»: non lo sappiamo. Sappiamo che **non
+       ne abbiamo ricevuti**, e le due cose si distinguono per il paziente. */
+    return (
+      <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+        Al momento non risultano orari prenotabili da questa pagina: per un appuntamento si
+        chiama lo studio.
+      </p>
+    )
+  }
+
   return (
     <form onSubmit={invia} style={{ marginTop: 'var(--s-21)' }}>
       <fieldset style={{ border: 0, padding: 0, margin: 0 }}>
         <legend className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Scegli un orario · {giornoInItaliano(m.slot[0].inizio)}
+          Scegli un orario · {giornoInItaliano(orari[0].inizio)}
         </legend>
         <ul
           style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8)', marginTop: 'var(--s-8)' }}
         >
-          {m.slot.map((s) => {
+          {orari.map((s) => {
             const scelto = slot?.id === s.id
             return (
               <li key={s.id} style={{ listStyle: 'none' }}>

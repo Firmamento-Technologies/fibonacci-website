@@ -153,7 +153,15 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           Quando è libero
         </h2>
 
-        {m.slot.length > 0 && PRENOTA_API_URL ? (
+        {/* 🔴 **Corretto il 2026-08-12 cablando il percorso vero**: qui c'era
+            `m.slot.length > 0 && PRENOTA_API_URL`, cioè si decideva **in
+            costruzione** se lo studio ha orari — un fatto che cambia ogni
+            giorno. Con il canale acceso gli orari li chiede il modulo al
+            sidecar, e sa dire da sé «sto cercando» e «non ne risultano»; la
+            lista statica resta solo per quando il canale è spento. ⚠️ Il
+            sintomo era muto: lo studio d'esempio senza slot mostrava «non ha
+            pubblicato i suoi orari» **anche con il sidecar acceso e pieno**. */}
+        {PRENOTA_API_URL ? (
           /* Canale aperto: **il modulo possiede gli orari**, che diventano
              selezionabili. ⛔ Non si mostrano due volte — una lista in sola
              lettura sopra un selettore identico è rumore, e la seconda invita a
