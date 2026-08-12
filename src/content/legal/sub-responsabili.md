@@ -40,17 +40,17 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 - **DPA del fornitore**: [https://www.hetzner.com/legal/order-processing/](https://www.hetzner.com/legal/order-processing/)
 - **Note operative**: il fornitore opera in qualità di mero infrastructure provider; non ha accesso applicativo né logico ai dati clinici, che risiedono in volumi cifrati la cui chiave è esclusivamente nella disponibilità del Responsabile
 
-### 2.2. Brevo SAS (già Sendinblue)
+### 2.2. Hostinger International Ltd
 
-- **Denominazione legale**: Brevo SAS (denominazione precedente: Sendinblue SAS)
-- **Sede legale**: 106 Boulevard Haussmann, 75008 Parigi, Francia
-- **Categoria di servizio**: invio di email transazionali, ivi incluse conferme e promemoria di appuntamento, notifiche di sistema, comunicazioni di recupero password e fatturazione
-- **Tipologia di dati trattati**: indirizzo email del destinatario, nominativo del destinatario, contenuto testuale del messaggio email, log tecnici di invio e di recapito. **Non riceve dati sanitari di dettaglio clinico**; i messaggi sono limitati a informazioni operative (data, ora, sede dell'appuntamento) e a comunicazioni di servizio
-- **Localizzazione del trattamento**: server ubicati nell'Unione Europea (Francia e Germania)
-- **Base giuridica del trasferimento**: trattamento integralmente svolto all'interno del territorio dell'Unione Europea
-- **Privacy policy del fornitore**: [https://www.brevo.com/legal/privacypolicy/](https://www.brevo.com/legal/privacypolicy/)
-- **DPA del fornitore**: [https://www.brevo.com/legal/termsofuse/#dpa](https://www.brevo.com/legal/termsofuse/#dpa)
-- **Note operative**: il contenuto dei messaggi è strutturato in modo da non veicolare informazioni cliniche identificative; il riferimento alla prestazione sanitaria è mantenuto generico
+- **Denominazione legale**: Hostinger International Ltd
+- **Sede legale**: 61 Lordou Vironos str., 6023 Larnaca, Cipro
+- **Categoria di servizio**: recapito di email transazionali tramite server SMTP autenticato, ivi incluse conferme e promemoria di appuntamento, notifiche di sistema, consegna di documenti in allegato e comunicazioni relative al primo accesso
+- **Tipologia di dati trattati**: indirizzo email del destinatario, nominativo del destinatario, contenuto testuale del messaggio, eventuali documenti allegati, log tecnici di invio. **Non riceve dati sanitari di dettaglio clinico nel corpo del messaggio**; i testi sono limitati a informazioni operative (data, ora, sede dell'appuntamento) e a comunicazioni di servizio
+- **Localizzazione del trattamento**: fornitore stabilito nell'Unione Europea (Cipro). L'ubicazione dei server di posta dipende dal piano sottoscritto e va verificata nel pannello del fornitore
+- **Base giuridica del trasferimento**: per eventuali trattamenti al di fuori dello Spazio economico europeo si applicano le Clausole contrattuali tipo richiamate dal Data Processing Addendum del fornitore, che è parte integrante dei termini di servizio accettati
+- **Privacy policy del fornitore**: [https://www.hostinger.com/legal/privacy-policy](https://www.hostinger.com/legal/privacy-policy)
+- **DPA del fornitore**: [https://www.hostinger.com/legal/dpa](https://www.hostinger.com/legal/dpa)
+- **Note operative**: il contenuto dei messaggi è strutturato in modo da non veicolare informazioni cliniche identificative; il riferimento alla prestazione sanitaria è mantenuto generico. ⚠️ Fa eccezione la consegna di documenti in allegato (consensi informati, foglio di visita), richiesta esplicitamente dall'utente del servizio: in quel caso l'allegato transita per il server di posta del fornitore
 
 ### 2.3. Mistral AI SAS
 
@@ -112,7 +112,8 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 
 | Versione | Data | Modifica |
 | --- | --- | --- |
-| 1.0 | {ULTIMA_REVISIONE} | Prima pubblicazione dell'elenco nominativo dei sub-responsabili del trattamento, comprensivo di Hetzner Online GmbH, Brevo SAS, Mistral AI SAS, Stripe Payments Europe Limited e Cloudflare, Inc. |
+| 1.0 | {ULTIMA_REVISIONE} | Prima pubblicazione dell'elenco nominativo dei sub-responsabili del trattamento, comprensivo di Hetzner Online GmbH, Hostinger International Ltd, Mistral AI SAS, Stripe Payments Europe Limited e Cloudflare, Inc. |
+| 1.1 | {ULTIMA_REVISIONE} | Sostituzione di Brevo SAS con Hostinger International Ltd quale sub-responsabile per il recapito delle email transazionali: il servizio non si avvale più di una piattaforma di email marketing esterna e recapita tramite il server SMTP autenticato del fornitore della casella di posta. |
 
 ---
 
