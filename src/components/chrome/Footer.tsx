@@ -14,7 +14,6 @@ const COLONNE = [
       { href: '/verifica', testo: 'Verifica un documento' },
       { href: '/integrazioni', testo: 'Integrazioni' },
       { href: '/prezzi', testo: 'Prezzi' },
-      { href: '/documentazione', testo: 'Documentazione' },
     ],
   },
   {

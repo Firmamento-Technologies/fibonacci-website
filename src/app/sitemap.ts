@@ -3,7 +3,6 @@ import type { MetadataRoute } from 'next'
 // `output: export` esige che queste rotte siano statiche in modo esplicito.
 export const dynamic = 'force-static'
 import { SITE_URL } from '@/lib/site-config'
-import { DOCS } from '@/lib/docs-data'
 import { LEGAL_DOCS } from '@/lib/legal-docs'
 
 /* La mappa del sito.
@@ -45,7 +44,6 @@ const REVISIONE: Record<string, string> = {
   '/domande': '2026-08-07',
   '/intelligenza-artificiale': '2026-08-07',
   '/chi-siamo': '2026-08-07',
-  '/documentazione': '2026-08-07',
   /* Il lato paziente (TD-95). ⚠️ Le schede dei medici NON stanno qui: la loro
      data è `Organization.meta.lastUpdated`, che è una data vera, e gli esempi
      restano fuori dal sitemap perché sono `noindex`. */
@@ -87,7 +85,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     pagina('/domande', 0.7),
     pagina('/intelligenza-artificiale', 0.6),
     pagina('/chi-siamo', 0.6),
-    pagina('/documentazione', 0.5),
     /* Lato paziente. `/pazienti` sta a 0.8 e non a 1: la pagina che deve
        posizionarsi è **quella del medico**, non l'indice. Le tre pagine di
        fiducia stanno alte perché sono l'unico contenuto che possiamo
@@ -97,7 +94,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     pagina('/pazienti/prima-di-un-trattamento', 0.7),
     pagina('/pazienti/consenso-informato', 0.7),
     pagina('/pazienti/privacy', 0.3),
-    ...DOCS.map((d) => pagina(`/documentazione/${d.slug}`, 0.4)),
     ...LEGAL_DOCS.map((d) => pagina(`/${d.slug}`, 0.3)),
   ]
 }

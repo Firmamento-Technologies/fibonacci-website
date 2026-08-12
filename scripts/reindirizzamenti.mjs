@@ -32,7 +32,6 @@ const BASE = dominioProprio ? '' : (process.env.NEXT_PUBLIC_BASE_PATH ?? '/fibon
 const MAPPA = {
   '/faq': '/domande',
   '/verify': '/verifica',
-  '/docs': '/documentazione',
   '/prova-demo': '/richiedi-una-demo',
   // Pagine tolte con il rifacimento: /specialita vendeva sei prodotti di cui
   // cinque non esistono; /segreteria è un prodotto di un'altra società;

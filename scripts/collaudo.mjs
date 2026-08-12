@@ -90,12 +90,14 @@ const LEGALI = ['/privacy', '/cookie', '/dpa', '/termini', '/sub-responsabili', 
 
 /* Le guide della documentazione, lette dal sorgente invece che ricopiate.
  *
- * ⚠️ Qui l'elenco scritto a mano aveva già fallito, e in silenzio. Il sitemap
- * le pubblica tutte perché le prende da `DOCS`; questo elenco no, e il
- * 2026-08-09 le guide sono passate da 7 a 14 senza che una sola delle nuove
- * venisse mai aperta da niente. Non erano rotte — semplicemente, se lo fossero
- * state, non l'avrebbe saputo nessuno. È lo stesso difetto che il commento in
- * fondo a PAGINE descrive, ripetuto su una rotta dinamica.
+ * ⚠️ **SERVIVANO A VISITARLE, ORA SERVONO A PRETENDERE CHE NON RISPONDANO.**
+ * Fino al 2026-08-12 questo elenco alimentava `PAGINE`; l'utente ha poi chiesto
+ * di togliere il manuale dal sito pubblico, e lo stesso elenco è diventato la
+ * lista degli indirizzi che **devono dare 404**. Il modo di leggerlo non
+ * cambia, e il motivo per cui si legge dal sorgente nemmeno: un elenco scritto
+ * a mano qui aveva già fallito in silenzio (2026-08-09, le guide passarono da
+ * 7 a 14 e le nuove non venivano aperte da niente). Se domani nasce una guida
+ * nuova, questo presidio verifica **anche lei**.
  *
  * Due elenchi da tenere allineati a mano sono un difetto che torna: si legge
  * quello vero. La tecnica è quella di `demoUrlDelSito()` — questo script è
@@ -113,6 +115,17 @@ function guideDelSito() {
 }
 
 const GUIDE = guideDelSito()
+
+/* I titoli delle guide: servono a cercare il manuale **per contenuto** dentro
+ * il corpus pubblico, non solo per indirizzo. Una guida può rientrare senza il
+ * suo percorso — basta che qualcuno ne incolli un pezzo in una pagina — e in
+ * quel caso il controllo sugli indirizzi resterebbe verde. */
+function titoliDelleGuide() {
+  const sorgente = readFileSync(join(QUI, '..', 'src', 'lib', 'docs-data.ts'), 'utf8')
+  const daDocsInPoi = sorgente.slice(sorgente.indexOf('export const DOCS'))
+  const RE = /slug:\s*'[a-z0-9-]+',\s*(?:\/\/[^\n]*\n\s*)*title:\s*'((?:[^'\\]|\\.)*)'/g
+  return [...daDocsInPoi.matchAll(RE)].map((m) => m[1].replace(/\\'/g, "'"))
+}
 
 /* Leggere il sorgente con una regex ha un modo di fallire che non si vede:
  * se qualcuno riscrive `docs-data.ts` con le virgolette doppie, o rinomina
@@ -132,7 +145,7 @@ if (GUIDE.length === 0) {
 const PAGINE = [
   '/', '/come-funziona', '/consensi-informati', '/prezzi', '/sicurezza-e-dati',
   '/richiedi-una-demo', '/verifica', '/domande', '/intelligenza-artificiale',
-  '/chi-siamo', '/documentazione', '/privacy', '/cookie', '/dpa', '/termini',
+  '/chi-siamo', '/privacy', '/cookie', '/dpa', '/termini',
   '/sub-responsabili', '/sicurezza',
   /* Le tre dell'8 agosto. Una pagina che non è in questo elenco non viene
      controllata da niente: non è un dettaglio di manutenzione, è il motivo
@@ -146,7 +159,6 @@ const PAGINE = [
   '/pazienti/medico/studio-dimostrativo',
   '/pazienti', '/pazienti/verificare-un-medico', '/pazienti/prima-di-un-trattamento',
   '/pazienti/consenso-informato', '/pazienti/privacy',
-  ...GUIDE,
 ]
 
 /* Affermazioni che oggi il prodotto non regge. Se una compare in una pagina
@@ -267,38 +279,6 @@ async function main() {
     for (const img of struttura.immaginiSenzaAlt) problemi.push(`${percorso}: immagine senza alt (${img})`)
     for (const img of struttura.immaginiRotte) problemi.push(`${percorso}: immagine ROTTA, il file non esiste (${img})`)
 
-    // ── Il manuale: l'indice porta dove dice ───────────────────────────
-    /* ⚠️ QUESTO CONTROLLO ESISTE PERCHÉ IL DIFETTO NON SI VEDE. Le ancore
-     * dei titoli sono calcolate DUE volte: `indiceDaMarkdown()` le ricava
-     * dal sorgente `.md` per l'indice «In questa pagina», e
-     * `MarkdownRenderer` le mette sui titoli resi. Se le due regole
-     * divergono — un titolo con del codice dentro, una lettera accentata
-     * trattata diversamente — l'indice resta bello e pieno, i link non
-     * danno errore, e semplicemente non portano da nessuna parte. Nessuna
-     * build fallisce, nessuna console si lamenta.
-     * ⛔ Non basta contare i link: un indice VUOTO passerebbe. Si pretende
-     * che ce ne sia almeno uno e che ognuno trovi il suo titolo. */
-    if (percorso.startsWith('/documentazione/')) {
-      const manuale = await page.evaluate(() => {
-        const voci = [...document.querySelectorAll('.manuale__contesto a')]
-        return {
-          voci: voci.length,
-          rotte: voci
-            .map((a) => a.getAttribute('href') ?? '')
-            .filter((h) => h.startsWith('#'))
-            .filter((h) => !document.getElementById(decodeURIComponent(h.slice(1)))),
-          capitoli: document.querySelectorAll('.manuale__voce').length,
-          corrente: document.querySelectorAll('.manuale__voce[aria-current="page"]').length,
-        }
-      })
-      if (manuale.voci === 0) problemi.push(`${percorso}: «In questa pagina» è vuoto`)
-      for (const h of manuale.rotte) problemi.push(`${percorso}: l'indice punta a ${h}, che nella pagina non esiste`)
-      if (manuale.capitoli === 0) problemi.push(`${percorso}: nessun indice dei capitoli a lato`)
-      if (manuale.corrente !== 1) {
-        problemi.push(`${percorso}: nell'indice i capitoli marcati come corrente sono ${manuale.corrente}, non 1`)
-      }
-    }
-
     // ── Claim ──────────────────────────────────────────────────────────
     /* I documenti legali sono bozze da far validare: se un'intestazione
      * societaria ricompare va segnalata a parte, non mescolata ai problemi. */
@@ -332,67 +312,76 @@ async function main() {
     }
   }
 
-  /* ── Il manuale, esercitato davvero ─────────────────────────────────────
+  /* ── ⛔ IL MANUALE NON DEVE ESSERE PUBBLICO ──────────────────────────────
    *
-   * Il giro qui sopra guarda l'indice fermo. Le tre cose che lo rendono un
-   * manuale invece di un elenco — il filtro, l'evidenziazione della sezione
-   * in lettura, il cassetto sul telefono — non esistono finché non le si usa,
-   * ed è esattamente il genere di cosa che si rompe senza che nessuno lo
-   * sappia: la pagina resta bella, e smette solo di aiutare. */
+   * Richiesta dell'utente, 2026-08-12: *«non deve essere online sul sito
+   * altrimenti diciamo alla concorrenza tutto quello che abbiamo e ci possono
+   * copiare»*. Le guide restano e si leggono dalla dashboard, a sessione
+   * autenticata.
+   *
+   * ⚠️ I CANALI ERANO DUE, e il secondo non si vede guardando il sito:
+   *   1. le pagine `/documentazione/*`;
+   *   2. **`assistente-corpus.json`**, che il sito pubblica di proposito (per
+   *      rendere verificabile che l'assistente non sa niente di privato) e che
+   *      conteneva **il testo integrale delle 19 guide**. Chiunque poteva
+   *      scaricarlo senza aprire nemmeno una pagina.
+   * Chiudere solo il primo avrebbe dato l'impressione di aver chiuso, ed è
+   * esattamente il genere di mezza correzione che questo presidio esiste per
+   * impedire.
+   *
+   * ⛔ Non si controlla «il link non c'è più»: si controlla che l'indirizzo
+   * **non risponda** e che il testo **non ci sia**. Un link tolto e una pagina
+   * ancora servita è lo stato peggiore: invisibile a noi, raggiungibile da chi
+   * la cerca. */
   {
-    const p = GUIDE[0]
-    await page.goto(BASE + p, { waitUntil: 'networkidle', timeout: 45000 })
-    await page.waitForTimeout(400)
-
-    // Il filtro restringe l'indice, e quando non trova niente lo dice.
-    const campo = page.locator('.manuale__cerca input')
-    await campo.fill('consensi')
-    await page.waitForTimeout(200)
-    const dopoFiltro = await page.locator('.manuale__voce').count()
-    const tutti = GUIDE.length
-    if (dopoFiltro === 0 || dopoFiltro >= tutti) {
-      problemi.push(`${p}: il filtro dell'indice non restringe niente (${dopoFiltro} capitoli su ${tutti})`)
-    }
-    await campo.fill('zzzz-non-esiste')
-    await page.waitForTimeout(200)
-    if (await page.locator('.manuale__nessuno').count() === 0) {
-      problemi.push(`${p}: filtro senza risultati, e la pagina non dice niente`)
-    }
-    await campo.fill('')
-    await page.waitForTimeout(200)
-
-    /* L'evidenziazione della sezione in lettura. ⚠️ È guidata da
-       `requestAnimationFrame`, che in una scheda NASCOSTA non gira: qui la
-       scheda è quella attiva del contesto, quindi gira. Se un giorno questo
-       controllo diventasse rosso «a caso», guardare prima lì. */
-    const titoli = await page.locator('.prosa-manuale h2').all()
-    if (titoli.length >= 3) {
-      await titoli[2].scrollIntoViewIfNeeded()
-      await page.waitForTimeout(500)
-      const acceso = await page.locator('.manuale__contesto a[data-corrente="si"]').count()
-      if (acceso !== 1) {
-        problemi.push(`${p}: scorrendo, le voci accese in «In questa pagina» sono ${acceso}, non 1`)
+    const nonDovrebbero = ['/documentazione', ...GUIDE]
+    for (const percorso of nonDovrebbero) {
+      const r = await page.goto(BASE + percorso, { waitUntil: 'domcontentloaded', timeout: 45000 })
+      const stato = r?.status() ?? 0
+      if (stato < 400) {
+        problemi.push(`${percorso}: risponde ${stato} ed è pubblica — il manuale non deve stare sul sito`)
       }
     }
 
-    // Sul telefono l'indice sta dietro un pulsante, e il pulsante deve aprirlo.
-    await page.setViewportSize({ width: 390, height: 844 })
-    await page.goto(BASE + p, { waitUntil: 'networkidle', timeout: 45000 })
-    await page.waitForTimeout(400)
-    const bottone = page.locator('.manuale__apri')
-    if (!(await bottone.isVisible())) {
-      problemi.push(`${p}: su telefono manca il pulsante che apre l'indice`)
+    /* Il corpus: si scarica come lo scaricherebbe un estraneo, e ci si cerca
+       dentro il manuale — per indirizzo E per titolo. */
+    const corpus = await page.evaluate(async (base) => {
+      const r = await fetch(`${base}/assistente-corpus.json`)
+      if (!r.ok) return { errore: r.status }
+      const d = await r.json()
+      return { pagine: (d.pagine ?? []).map((v) => ({ percorso: v.percorso, titolo: v.titolo, testo: v.testo })) }
+    }, BASE)
+
+    if (corpus.errore) {
+      problemi.push(`assistente-corpus.json: HTTP ${corpus.errore} — il presidio non può dire niente`)
     } else {
-      if (await page.locator('.manuale__voce').first().isVisible()) {
-        problemi.push(`${p}: su telefono l'indice è aperto di suo e spinge il testo in basso`)
+      const perIndirizzo = corpus.pagine.filter((v) => v.percorso.startsWith('/documentazione'))
+      if (perIndirizzo.length) {
+        problemi.push(
+          `assistente-corpus.json: ${perIndirizzo.length} pagine del manuale nel corpus PUBBLICO`,
+        )
       }
-      await bottone.click()
-      await page.waitForTimeout(300)
-      if (!(await page.locator('.manuale__voce').first().isVisible())) {
-        problemi.push(`${p}: su telefono il pulsante non apre l'indice`)
+      const tutto = corpus.pagine.map((v) => `${v.titolo} ${v.testo}`).join(' \n ')
+      const titoli = titoliDelleGuide()
+      const dentro = titoli.filter((t) => tutto.includes(t))
+      if (dentro.length) {
+        problemi.push(
+          `assistente-corpus.json: il testo di ${dentro.length} guide è nel corpus pubblico (${dentro[0]}…)`,
+        )
+      }
+      if (titoli.length === 0) {
+        problemi.push('presidio rotto: non ho letto nessun titolo di guida da docs-data.ts')
       }
     }
-    await page.setViewportSize({ width: 1280, height: 900 })
+
+    /* E il sitemap non deve invitare nessuno a cercarle. */
+    const sitemap = await page.evaluate(async (base) => {
+      const r = await fetch(`${base}/sitemap.xml`)
+      return r.ok ? await r.text() : ''
+    }, BASE)
+    if (sitemap.includes('/documentazione')) {
+      problemi.push('sitemap.xml: contiene ancora /documentazione — lo stiamo dicendo ai motori')
+    }
   }
 
   /* ── L'autovalutazione, esercitata davvero ──────────────────────────────

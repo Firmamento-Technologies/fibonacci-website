@@ -237,28 +237,47 @@ export function daEscludere(percorso, escluse = ESCLUSE) {
 
 /* Pavimento, non bersaglio: serve a intercettare un corpus **crollato** (un
  * `out/` mezzo costruito, uno spoglio che smette di trovare il contenuto), non
- * a fissare quante pagine debba avere il sito. Il controllo esatto è quello
- * sulle guide qui sotto. Il 2026-08-12 le pagine erano 37. */
-const MINIMO_PAGINE = 25
+ * a fissare quante pagine debba avere il sito.
+ * ⚠️ Sceso da 25 a 15 il 2026-08-12: il manuale è uscito dal sito pubblico
+ * (20 pagine su 41), e un pavimento tarato su un corpus che comprendeva le
+ * guide sarebbe rosso per costruzione — cioè spento al primo giorno. */
+const MINIMO_PAGINE = 15
 
 /**
- * Le guide che DEVONO essere nel corpus.
+ * Le guide che ⛔ NON devono stare nel corpus pubblico.
  *
- * La verità su quali esistono sta in `src/lib/docs-data.ts`, non nella cartella
- * dei `.md`: una guida senza voce in `DOCS` non viene costruita, e confrontare
- * col disco darebbe un rosso falso.
+ * ⚠️ **QUESTA REGOLA È STATA ROVESCIATA IL 2026-08-12**, e il perché conta più
+ * della regola: fino a quel giorno qui si pretendeva che le 19 guide **ci
+ * fossero**, perché l'assistente del sito doveva saper rispondere sul prodotto.
+ * L'utente ha poi chiesto di togliere il manuale dal sito — *«diciamo alla
+ * concorrenza tutto quello che abbiamo e ci possono copiare»* — e allora quel
+ * controllo stava garantendo esattamente la fuga: `assistente-corpus.json` è
+ * **pubblicato**, quindi chiunque poteva scaricarsi le 19 guide per intero
+ * senza nemmeno aprire una pagina.
+ *
+ * Ora il manuale vive in `manuale/manuale-corpus.json` (fuori da `out/`, vedi
+ * `scripts/manuale-privato.mjs`) e lo leggono solo i servizi autenticati.
+ *
+ * La verità su quali guide esistono sta in `src/lib/docs-data.ts`, non nella
+ * cartella dei `.md`: una guida senza voce in `DOCS` non viene costruita.
  */
 function guideAttese() {
   const sorgente = readFileSync(join(RADICE, 'src', 'lib', 'docs-data.ts'), 'utf-8')
-  const slug = [...sorgente.matchAll(/slug: '([a-z0-9-]+)'/g)].map((m) => m[1])
-  // ⛔ Zero slug letti NON vuol dire «non ci sono guide»: vuol dire che la
+  /* Slug **e titolo**: il titolo serve al controllo per contenuto, che è
+     l'unico che prende una guida rientrata senza il suo indirizzo. */
+  const RE = /slug:\s*'([a-z0-9-]+)',\s*(?:\/\/[^\n]*\n\s*)*title:\s*'((?:[^'\\]|\\.)*)'/g
+  const guide = [...sorgente.matchAll(RE)].map((m) => ({
+    slug: m[1],
+    titolo: m[2].replace(/\\'/g, "'"),
+  }))
+  // ⛔ Zero guide lette NON vuol dire «non ci sono guide»: vuol dire che la
   // lettura è fallita — file rinominato, formato cambiato. Un presidio che in
-  // quel caso dicesse «tutte presenti» sarebbe l'ennesimo controllo che misura
-  // una tabella vuota e per questo non può fallire.
-  if (slug.length === 0) {
-    throw new Error('`docs-data.ts` non espone nessuno slug: il presidio non può dire niente.')
+  // quel caso dicesse «nessuna trapelata» sarebbe l'ennesimo controllo che
+  // misura una tabella vuota e per questo non può fallire.
+  if (guide.length === 0) {
+    throw new Error('`docs-data.ts` non espone nessuna guida: il presidio non può dire niente.')
   }
-  return slug
+  return guide
 }
 
 /**
@@ -276,12 +295,30 @@ export function problemiDelCorpus(voci, guide = guideAttese()) {
     problemi.push(`solo ${voci.length} pagine nel corpus (minimo ${MINIMO_PAGINE}): è crollato.`)
   }
 
-  const presenti = new Set(voci.map((v) => v.percorso))
-  const mancanti = guide.filter((s) => !presenti.has(`/documentazione/${s}/`))
-  if (mancanti.length) {
+  /* ⛔ Il manuale NON deve entrare qui. Due modi di rientrare, e vanno chiusi
+     tutti e due: una pagina sotto `/documentazione/` (se qualcuno rimette la
+     rotta pubblica) e un pezzo di guida finito dentro un'altra pagina. */
+  const trapelate = voci.filter((v) => v.percorso.startsWith('/documentazione'))
+  if (trapelate.length) {
     problemi.push(
-      `${mancanti.length} guide su ${guide.length} non sono nel corpus: ${mancanti.join(', ')}. ` +
-        "È il manuale: senza, l'assistente non sa rispondere sul prodotto.",
+      `${trapelate.length} pagine del manuale sono nel corpus PUBBLICO ` +
+        `(${trapelate.slice(0, 3).map((v) => v.percorso).join(', ')}…). ` +
+        'Il corpus è servito su https://fibonaccimedica.it/assistente-corpus.json: ' +
+        'metterci il manuale vuol dire pubblicarlo.',
+    )
+  }
+
+  /* La prova per CONTENUTO, non per indirizzo: una guida può rientrare anche
+     senza il suo percorso — per esempio se qualcuno ne incolla un pezzo in una
+     pagina di vendita. Si cerca il titolo di ogni guida nel testo pubblico. */
+  const testoPubblico = voci.map((v) => `${v.titolo} ${v.testo}`).join(' \n ')
+  const titoliTrapelati = guide
+    .filter((g) => g.titolo && testoPubblico.includes(g.titolo))
+    .map((g) => g.slug)
+  if (titoliTrapelati.length) {
+    problemi.push(
+      `il testo di ${titoliTrapelati.length} guide compare nel corpus pubblico: ` +
+        `${titoliTrapelati.join(', ')}.`,
     )
   }
 
