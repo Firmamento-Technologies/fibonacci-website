@@ -1,118 +1,237 @@
 'use client'
 
-import { useCallback, useEffect, useId, useRef, useState } from 'react'
-import { Assistente } from '@/components/Assistente'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
+import { CONTACT_EMAIL } from '@/lib/site-config'
 
 /**
- * L'assistente, raggiungibile da OGNI pagina.
+ * Il pallino in basso a destra che apre l'assistente in un pannello laterale.
  *
- * Prima stava in due punti soli — in fondo a `/domande` e dentro `/prezzi` —
- * e chi non scorreva fin laggiù non sapeva che esistesse. Qui c'è un pulsante
- * fisso che apre lo stesso identico componente: ⛔ nessuna seconda
- * implementazione, nessun secondo prompt, nessuna seconda garanzia da tenere
- * allineata. Se cambia `Assistente.tsx`, cambia anche questo.
+ * Chiede allo stesso servizio del widget nel testo (`/assistente/domanda`) e
+ * mantiene le stesse garanzie: le fonti sono sempre mostrate e sono link,
+ * niente esce di qui se non la domanda, niente viene salvato nel browser.
  *
- * ── TRE COSE DECISE, E IL PERCHÉ ──────────────────────────────────────────
+ * ⚠️ **Le risposte non si costruiscono l'una sull'altra.** In pannello i turni
+ * si vedono impilati, ma ogni domanda parte pulita: il servizio non riceve i
+ * turni precedenti, per scelta (`Assistente.tsx`, punto 1). Chi scrive «e per
+ * i prezzi?» dopo un'altra domanda deve nominare l'argomento.
  *
- * 1. ⚠️ **NON in basso a destra su telefono.** Sotto i 768px il sito ha già
- *    un elemento agganciato al fondo: `.freccia-avanti`, la barra che porta
- *    alla tappa successiva (`position: sticky; bottom: 0; z-index: 2`, in
- *    `globals.css`). Un pulsante flottante lì sopra coprirebbe **il comando
- *    principale di navigazione del sito**. Perciò su schermo stretto il
- *    pulsante sale sopra quella barra, e sta comunque a `z-index` maggiore.
- *    (È lo stesso difetto che nell'applicazione copre un contenuto — lì è un
- *    badge, qui sarebbe la freccia: peggio.)
- *
- * 2. **Le due collocazioni nel testo RESTANO.** In `/domande` il campo è
- *    dentro «Manca la tua?» e in `/prezzi` risponde alle domande sul listino:
- *    sono contenuto della pagina, con un titolo che le introduce. Toglierle
- *    per «non duplicare» lascerebbe due sezioni vuote. Il pulsante è una
- *    porta sempre aperta, non una copia di quel contenuto.
- *
- * 3. **Non si apre da solo.** Nessun invito automatico dopo N secondi:
- *    è un pannello che si apre quando qualcuno lo chiede, e si chiude con
- *    Esc o cliccando fuori. Chi sta leggendo non viene interrotto.
- *
- * Accessibilità: il pulsante dichiara `aria-expanded`; il pannello è un
- * `role="dialog"` con `aria-modal`, riceve il fuoco all'apertura e lo
- * restituisce al pulsante alla chiusura — altrimenti chi naviga da tastiera
- * si ritrova all'inizio della pagina.
+ * ⚠️ Sotto i 768px il pannello va a tutto schermo: a lato non ci sta, e il
+ * fondo dello schermo e' gia' occupato da `.freccia-avanti` (la barra che
+ * porta alla tappa successiva). Il pallino sale sopra quella barra.
  */
+
+interface Turno {
+  domanda: string
+  risposta?: string
+  fonti?: string[]
+  errore?: string
+}
+
 export function AssistenteFisso() {
   const [aperto, setAperto] = useState(false)
-  const idPannello = useId()
-  const pulsante = useRef<HTMLButtonElement>(null)
-  const pannello = useRef<HTMLDivElement>(null)
+  const [testo, setTesto] = useState('')
+  const [inCorso, setInCorso] = useState(false)
+  const [turni, setTurni] = useState<Turno[]>([])
+  const pallino = useRef<HTMLButtonElement>(null)
+  const campo = useRef<HTMLTextAreaElement>(null)
+  const fondo = useRef<HTMLDivElement>(null)
 
   const chiudi = useCallback(() => {
     setAperto(false)
-    // Il fuoco torna da dove è partito: senza, si riparte dal <body>.
-    pulsante.current?.focus()
+    pallino.current?.focus()
   }, [])
 
   useEffect(() => {
     if (!aperto) return
-    // Il fuoco entra nel pannello: il campo è il primo elemento utile.
-    const campo = pannello.current?.querySelector<HTMLElement>('textarea, input, button')
-    campo?.focus()
-
+    campo.current?.focus()
     const daTastiera = (e: KeyboardEvent) => {
       if (e.key === 'Escape') chiudi()
     }
-    const fuori = (e: MouseEvent) => {
-      const bersaglio = e.target as Node
-      if (
-        pannello.current &&
-        !pannello.current.contains(bersaglio) &&
-        !pulsante.current?.contains(bersaglio)
-      ) {
-        setAperto(false)
-      }
-    }
     document.addEventListener('keydown', daTastiera)
-    document.addEventListener('mousedown', fuori)
-    return () => {
-      document.removeEventListener('keydown', daTastiera)
-      document.removeEventListener('mousedown', fuori)
-    }
+    return () => document.removeEventListener('keydown', daTastiera)
   }, [aperto, chiudi])
 
+  useEffect(() => {
+    fondo.current?.scrollIntoView({ block: 'end' })
+  }, [turni, inCorso])
+
+  async function invia(e: React.FormEvent) {
+    e.preventDefault()
+    const domanda = testo.trim()
+    if (!domanda || inCorso) return
+    setTesto('')
+    setTurni((t) => [...t, { domanda }])
+    setInCorso(true)
+    try {
+      const r = await fetch('/assistente/domanda', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        // `pagina`: l'indirizzo pubblico che chi chiede ha sotto gli occhi.
+        // Non e' un identificativo — il server lo accetta solo se combacia
+        // con una pagina del corpus. Stesso contratto del widget nel testo.
+        body: JSON.stringify({ domanda, pagina: window.location.pathname }),
+      })
+      const dati = (await r.json()) as { risposta?: string; fonti?: string[] }
+      setTurni((t) =>
+        t.map((turno, i) =>
+          i === t.length - 1
+            ? {
+                ...turno,
+                risposta: dati.risposta ?? 'Non ho una risposta da darti.',
+                fonti: dati.fonti ?? [],
+              }
+            : turno,
+        ),
+      )
+    } catch {
+      setTurni((t) =>
+        t.map((turno, i) =>
+          i === t.length - 1
+            ? {
+                ...turno,
+                errore: CONTACT_EMAIL
+                  ? `Non riesco a raggiungere l’assistente. Scrivi a ${CONTACT_EMAIL} e ti risponde una persona.`
+                  : 'Non riesco a raggiungere l’assistente. Riprova fra poco.',
+              }
+            : turno,
+        ),
+      )
+    } finally {
+      setInCorso(false)
+    }
+  }
+
   return (
-    <div className="assistente-fisso">
+    /* ⛔ `data-fuori-corpus`: questo blocco NON entra nella conoscenza
+       dell'assistente — altrimenti le sue etichette si leggerebbero da sole.
+       Vedi `scripts/corpus-assistente.mjs`. */
+    <div data-fuori-corpus>
       {aperto && (
-        <div
-          ref={pannello}
-          id={idPannello}
+        <aside
           role="dialog"
-          aria-modal="true"
-          aria-label="Chiedi all’assistente"
-          className="assistente-fisso__pannello"
+          aria-modal="false"
+          aria-label="Assistente di Fibonacci"
+          className="chat-assistente"
         >
-          <div className="assistente-fisso__testa">
-            <strong>Chiedi all’assistente</strong>
+          <header className="chat-assistente__testa">
+            <span className="chat-assistente__titolo">
+              <Faccina piccola /> Assistente
+            </span>
             <button
               type="button"
               onClick={chiudi}
-              className="assistente-fisso__chiudi"
               aria-label="Chiudi l’assistente"
+              className="chat-assistente__chiudi"
             >
               ✕
             </button>
+          </header>
+
+          <div className="chat-assistente__corpo">
+            {turni.length === 0 && (
+              <p className="chat-assistente__benvenuto">
+                Chiedimi di Fibonacci: prezzi, funzioni, dove stanno i dati.
+                <br />
+                Rispondo solo da queste pagine, e ti dico da quali.
+              </p>
+            )}
+
+            {turni.map((t, i) => (
+              <div key={i}>
+                <p className="chat-assistente__domanda">{t.domanda}</p>
+                {t.risposta && (
+                  <div className="chat-assistente__risposta">
+                    <p>{t.risposta}</p>
+                    {!!t.fonti?.length && (
+                      <p className="chat-assistente__fonti">
+                        Da:{' '}
+                        {t.fonti.map((f, k) => (
+                          <span key={f}>
+                            {k > 0 && ' · '}
+                            <Link href={f} onClick={chiudi}>
+                              {f}
+                            </Link>
+                          </span>
+                        ))}
+                      </p>
+                    )}
+                  </div>
+                )}
+                {t.errore && <p className="chat-assistente__errore">{t.errore}</p>}
+              </div>
+            ))}
+
+            {inCorso && (
+              <p className="chat-assistente__risposta chat-assistente__attesa" role="status">
+                sto leggendo le pagine…
+              </p>
+            )}
+            <div ref={fondo} />
           </div>
-          <Assistente />
-        </div>
+
+          <form onSubmit={invia} className="chat-assistente__piede">
+            <label htmlFor="chat-assistente-campo" className="sr-only">
+              Scrivi la tua domanda
+            </label>
+            <textarea
+              id="chat-assistente-campo"
+              ref={campo}
+              rows={1}
+              value={testo}
+              onChange={(e) => setTesto(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && !e.shiftKey) invia(e)
+              }}
+              placeholder="Scrivi una domanda…"
+            />
+            <button type="submit" disabled={inCorso} aria-label="Invia la domanda">
+              ↑
+            </button>
+          </form>
+        </aside>
       )}
 
       <button
-        ref={pulsante}
+        ref={pallino}
         type="button"
         onClick={() => (aperto ? chiudi() : setAperto(true))}
         aria-expanded={aperto}
-        aria-controls={aperto ? idPannello : undefined}
-        className="assistente-fisso__pulsante"
+        aria-label={aperto ? 'Chiudi l’assistente' : 'Apri l’assistente'}
+        className="pallino-assistente"
       >
-        {aperto ? 'Chiudi' : 'Chiedi all’assistente'}
+        {aperto ? <span aria-hidden="true">✕</span> : <Faccina />}
       </button>
     </div>
+  )
+}
+
+/**
+ * La faccina. Gli occhi sbattono ogni pochi secondi — ⚠️ l'animazione e'
+ * spenta da `prefers-reduced-motion` (vedi `globals.css`), non e' decorazione
+ * che si impone.
+ */
+function Faccina({ piccola = false }: { piccola?: boolean }) {
+  const lato = piccola ? 18 : 28
+  return (
+    <svg
+      width={lato}
+      height={lato}
+      viewBox="0 0 32 32"
+      aria-hidden="true"
+      className="faccina"
+    >
+      <circle cx="16" cy="16" r="15" className="faccina__testa" />
+      <g className="faccina__occhi">
+        <circle cx="11" cy="13" r="2.2" />
+        <circle cx="21" cy="13" r="2.2" />
+      </g>
+      <path
+        d="M10.5 20c1.6 2 3.4 3 5.5 3s3.9-1 5.5-3"
+        className="faccina__bocca"
+        fill="none"
+        strokeLinecap="round"
+      />
+    </svg>
   )
 }

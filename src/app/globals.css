@@ -1303,78 +1303,83 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 }
 .salta-al-contenuto:focus { transform: translateY(0); }
 
-
 /* ══════════════════════════════════════════════════════════════════════════
-   L'ASSISTENTE, RAGGIUNGIBILE DA OGNI PAGINA (2026-08-12)
-   Componente: `components/AssistenteFisso.tsx`, che avvolge `Assistente.tsx`
-   senza duplicarlo.
+   IL PALLINO DELL'ASSISTENTE + LA CHAT A LATO (2026-08-12)
+   Componente: `components/AssistenteFisso.tsx`.
 
-   ⚠️ LA REGOLA CHE DECIDE LA POSIZIONE: sotto i 768px il fondo dello schermo
-   e' gia' occupato da `.freccia-avanti` — la barra agganciata che porta alla
-   tappa successiva (`sticky; bottom: 0; z-index: 2`). Un pulsante flottante
-   in basso a destra coprirebbe **il comando principale di navigazione**.
-   Percio' su schermo stretto il pulsante sale sopra quella barra; su schermo
-   largo, dove la barra non e' agganciata, torna nell'angolo.
+   ⚠️ POSIZIONE: sotto i 768px il fondo dello schermo è già occupato da
+   `.freccia-avanti` — la barra agganciata che porta alla tappa successiva
+   (`sticky; bottom: 0; z-index: 2`). Il pallino lì sopra coprirebbe **il
+   comando principale di navigazione**: su schermo stretto sale, e il pannello
+   va a tutto schermo perché a lato non ci sta.
    ═══════════════════════════════════════════════════════════════════════ */
 
-.assistente-fisso {
+.pallino-assistente {
   position: fixed;
   right: var(--s-21);
   bottom: var(--s-21);
-  z-index: 3; /* sopra `.freccia-avanti`, che sta a 2 */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: var(--s-13);
-  /* Il contenitore non deve intercettare i clic sulla pagina sotto: solo i
-     suoi figli sono cliccabili. */
-  pointer-events: none;
-}
-
-.assistente-fisso > * { pointer-events: auto; }
-
-.assistente-fisso__pulsante {
-  border: 1px solid var(--accent-deep);
+  z-index: 40;
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 999px;
   background-color: var(--accent);
   color: #fff;
-  border-radius: 999px;
-  padding: var(--s-13) var(--s-21);
-  font-size: 0.9375rem;
-  font-weight: 600;
-  line-height: 1.2;
-  box-shadow: 0 2px 10px rgb(16 31 46 / 18%);
+  box-shadow: 0 4px 16px rgb(16 31 46 / 28%);
   cursor: pointer;
-  /* ⚠️ 44px di lato minimo: e' la regola dei bersagli tattili gia' decisa
-     per il sito (vedi `decisione-bersagli-tattili`). */
-  min-height: 44px;
+  transition: transform 140ms ease, background-color 140ms ease;
 }
 
-.assistente-fisso__pulsante:hover { background-color: var(--accent-deep); }
+.pallino-assistente:hover { background-color: var(--accent-deep); transform: scale(1.05); }
+.pallino-assistente:active { transform: scale(0.97); }
 
-.assistente-fisso__pannello {
-  width: min(28rem, calc(100vw - var(--s-34)));
-  max-height: min(32rem, calc(100vh - 8rem));
-  overflow-y: auto;
+.faccina__testa { fill: rgb(255 255 255 / 16%); }
+.faccina__occhi circle { fill: #fff; }
+.faccina__occhi { transform-origin: 16px 13px; }
+.faccina__bocca { stroke: #fff; stroke-width: 2.2; }
+
+/* Sbattere le palpebre: un impulso ogni 4 s, non un movimento continuo. */
+.faccina__occhi { animation: faccina-occhi 4.2s infinite; }
+
+@keyframes faccina-occhi {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95%           { transform: scaleY(0.1); }
+}
+
+.chat-assistente {
+  position: fixed;
+  right: var(--s-21);
+  bottom: calc(56px + var(--s-21) * 2);
+  z-index: 41;
+  width: min(23rem, calc(100vw - var(--s-34)));
+  max-height: min(34rem, calc(100vh - 8rem));
+  display: flex;
+  flex-direction: column;
   background-color: var(--paper);
   border: 1px solid var(--rule-strong);
   border-radius: var(--s-13);
-  padding: var(--s-21);
-  box-shadow: 0 8px 30px rgb(16 31 46 / 22%);
-  text-align: left;
+  box-shadow: 0 12px 40px rgb(16 31 46 / 26%);
+  overflow: hidden;
 }
 
-.assistente-fisso__testa {
+.chat-assistente__testa {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--s-13);
-  margin-bottom: var(--s-13);
+  padding: var(--s-13) var(--s-13) var(--s-13) var(--s-21);
+  background-color: var(--accent);
+  color: #fff;
 }
 
-.assistente-fisso__chiudi {
+.chat-assistente__titolo { display: flex; align-items: center; gap: var(--s-8); font-weight: 600; }
+.chat-assistente__titolo .faccina__testa { fill: rgb(255 255 255 / 22%); }
+
+.chat-assistente__chiudi {
   border: 0;
   background: none;
-  color: var(--fg-muted);
+  color: #fff;
   font-size: 1.125rem;
   line-height: 1;
   cursor: pointer;
@@ -1382,22 +1387,110 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
   min-height: 44px;
 }
 
-.assistente-fisso__chiudi:hover { color: var(--fg); }
+.chat-assistente__corpo {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--s-21);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-13);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.chat-assistente__benvenuto { color: var(--fg-muted); }
+
+/* ⚠️ La <label> del campo esiste per chi usa uno screen reader, ma a schermo
+   il pannello non ha spazio per una riga in più: si nasconde alla vista
+   SENZA toglierla dall'albero di accessibilità (`display: none` la
+   toglierebbe anche da lì). Il sito non aveva ancora questo aiuto. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.chat-assistente__domanda {
+  align-self: flex-end;
+  max-width: 85%;
+  background-color: var(--accent-wash);
+  border-radius: var(--s-13);
+  padding: var(--s-8) var(--s-13);
+}
+
+.chat-assistente__risposta {
+  align-self: flex-start;
+  max-width: 92%;
+  background-color: var(--bg-sunk);
+  border-radius: var(--s-13);
+  padding: var(--s-8) var(--s-13);
+}
+
+.chat-assistente__attesa { color: var(--fg-muted); font-style: italic; }
+
+.chat-assistente__fonti {
+  margin-top: var(--s-8);
+  font-size: 0.8125rem;
+  color: var(--fg-muted);
+}
+
+.chat-assistente__errore { align-self: flex-start; color: var(--fg-muted); }
+
+.chat-assistente__piede {
+  display: flex;
+  gap: var(--s-8);
+  padding: var(--s-13);
+  border-top: 1px solid var(--rule);
+}
+
+.chat-assistente__piede textarea {
+  flex: 1;
+  resize: none;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--s-8);
+  padding: var(--s-8) var(--s-13);
+  font: inherit;
+  font-size: 0.9375rem;
+  background-color: var(--bg);
+}
+
+.chat-assistente__piede button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  border-radius: var(--s-8);
+  background-color: var(--accent);
+  color: #fff;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.chat-assistente__piede button:disabled { opacity: 0.55; cursor: default; }
 
 @media (max-width: 767px) {
-  /* Sopra la barra della tappa successiva, non sopra i suoi comandi. */
-  .assistente-fisso {
-    right: var(--s-13);
-    bottom: 5.5rem;
-  }
-  .assistente-fisso__pannello {
-    width: calc(100vw - var(--s-21) * 2);
-    max-height: calc(100vh - 12rem);
+  /* Sopra la barra della tappa successiva, mai sopra i suoi comandi. */
+  .pallino-assistente { right: var(--s-13); bottom: 5.5rem; }
+  /* A lato non ci sta: il pannello prende lo schermo. */
+  .chat-assistente {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 82vh;
+    border-radius: var(--s-13) var(--s-13) 0 0;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .assistente-fisso__pulsante { transition: none; }
+  .faccina__occhi { animation: none; }
+  .pallino-assistente { transition: none; }
+  .pallino-assistente:hover { transform: none; }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
