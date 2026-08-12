@@ -41,6 +41,30 @@ function* walkSrc(dir = join(QUI, '..', 'src')) {
 }
 const BASE = process.argv[2] ?? 'http://localhost:3210'
 
+/* 🔴 **Il modulo di contatto non deve poter dire «inviato» senza endpoint.**
+ * Misurato dal vivo il 2026-08-12, e costato un contatto vero: `LEAD_API_URL`
+ * era `''`, e `fetch('')` **non fallisce** — manda la POST alla pagina
+ * corrente, che su un sito statico risponde **200**. Quindi `risposta.ok` era
+ * vero, il ripiego via posta non scattava mai, e a chi compilava il modulo
+ * usciva *«Ti scriviamo entro un giorno lavorativo»* mentre il messaggio non
+ * era andato da nessuna parte.
+ *
+ * ⚠️ Il ripiego esisteva ed era scritto bene: copriva «l'endpoint non
+ * risponde», non «l'endpoint non c'è». Un controllo sul comportamento a
+ * schermo non lo avrebbe preso — il modulo si comportava «bene». Si prende
+ * solo guardando che la chiamata sia **protetta prima di partire**. */
+function moduloProtettoSenzaEndpoint() {
+  const src = readFileSync(join(QUI, '..', 'src', 'components', 'ModuloDemo.tsx'), 'utf-8')
+  const i = src.indexOf('await fetch(LEAD_API_URL')
+  if (i === -1) return 'ModuloDemo non chiama piu fetch(LEAD_API_URL): controllo da riscrivere'
+  const prima = src.slice(0, i)
+  if (!/if\s*\(!LEAD_API_URL\)\s*throw/.test(prima)) {
+    return 'ModuloDemo chiama fetch(LEAD_API_URL) SENZA aver prima escluso il valore vuoto: '
+      + 'con URL vuoto la POST va alla pagina, risponde 200 e il modulo dichiara «inviato»'
+  }
+  return null
+}
+
 /* La demo pubblica sta su un'altra macchina e il sito la promuove: va
  * controllata anche lei. Tenuta qui e non importata da `src/lib/site-config.ts`
  * perché questo script è JavaScript semplice e quello è un modulo TypeScript
@@ -199,6 +223,12 @@ async function main() {
   const page = await ctx.newPage()
 
   const problemi = []
+  /* Controllo di SORGENTE, prima ancora di aprire una pagina: il difetto che
+   * chiude non si vede navigando, perche' a schermo il modulo si comporta
+   * «bene» — dichiara inviato. Vedi `moduloProtettoSenzaEndpoint`. */
+  const guasto = moduloProtettoSenzaEndpoint()
+  if (guasto) problemi.push(`MODULO DI CONTATTO: ${guasto}`)
+
   const daRiscrivere = new Set()
   const pagineConUrlDiPubblicazione = new Set()
   const erroriConsole = []

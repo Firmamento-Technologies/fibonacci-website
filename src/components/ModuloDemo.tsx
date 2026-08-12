@@ -80,6 +80,20 @@ export function ModuloDemo({
     }
 
     try {
+      /* 🔴 **SENZA ENDPOINT NON SI CHIAMA `fetch`, e il motivo è costato un
+         contatto vero.** `LEAD_API_URL` è `''`, e `fetch('')` **non fallisce**:
+         manda la POST alla **pagina corrente**, che su un sito statico risponde
+         **200** — misurato dal vivo il 2026-08-12 su `/richiedi-una-demo/` e
+         sulla home. ⇒ `risposta.ok` era vero, il ripiego non scattava mai, e il
+         modulo diceva *«Ti scriviamo entro un giorno lavorativo»* mentre il
+         messaggio non era andato **da nessuna parte**.
+
+         ⚠️ Il ripiego qui sotto era stato scritto proprio per non fallire in
+         silenzio, ma copriva il caso «l'endpoint non risponde». Non copriva
+         quello in cui **l'endpoint non c'è**: lì la richiesta *riesce*, contro
+         sé stessa. ⇒ Un ripiego che si attiva solo sull'errore non protegge
+         dalla configurazione mancante — quella va guardata **prima**. */
+      if (!LEAD_API_URL) throw new Error('nessun endpoint configurato')
       const risposta = await fetch(LEAD_API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
