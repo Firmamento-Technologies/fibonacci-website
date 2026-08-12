@@ -66,7 +66,7 @@ type Esito = { risposta: string; fonti: string[] }
  * Le forme non gestite (elenchi, corsivo, titoli) restano testo: il prompt
  * chiede prosa, e se il modello disobbedisce si legge comunque.
  */
-function conGrassetto(testo: string) {
+export function conGrassetto(testo: string) {
   return testo.split(/\*\*(.+?)\*\*/g).map((pezzo, i) =>
     i % 2 === 1 ? <strong key={i}>{pezzo}</strong> : pezzo,
   )

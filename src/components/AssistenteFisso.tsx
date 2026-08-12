@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
+import { conGrassetto } from '@/components/Assistente'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
 /**
@@ -142,7 +143,10 @@ export function AssistenteFisso() {
                 <p className="chat-assistente__domanda">{t.domanda}</p>
                 {t.risposta && (
                   <div className="chat-assistente__risposta">
-                    <p>{t.risposta}</p>
+                    {/* Il modello risponde in markdown: senza questo a
+                        schermo si leggono gli asterischi. ⛔ Non riscrivo il
+                        formattatore — e' gia' in `Assistente.tsx`. */}
+                    <p>{conGrassetto(t.risposta)}</p>
                     {!!t.fonti?.length && (
                       <p className="chat-assistente__fonti">
                         Da:{' '}
