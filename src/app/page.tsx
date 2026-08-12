@@ -7,6 +7,7 @@ import { DocumentoCheSiCompone } from '@/components/home/DocumentoCheSiCompone'
 import { Problema, Procedure, tappeCapacita, FotoCliniche, Prove, Obiezioni } from '@/components/home/sezioni'
 import { Sigillo, Chiusura } from '@/components/home/Sigillo'
 import { Chiedi } from '@/components/home/Chiedi'
+import { OrganizationSchema, SoftwareApplicationSchema } from '@/components/StructuredData'
 import { ListinoSintesi } from '@/components/Listino'
 
 export const metadata: Metadata = {
@@ -32,6 +33,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      {/* I due schemi stavano nel layout di radice e uscivano su 65 pagine su
+          74 (TD-96): l'`Organization` sta convenzionalmente sulla pagina
+          iniziale, e il prodotto lo descrive la home. */}
+      <OrganizationSchema />
+      <SoftwareApplicationSchema />
       <Header />
       <main id="contenuto" className="flex-1">
         {/* ⚠️ Undici sezioni = **17,2 schermate** misurate a 1440×900: la home

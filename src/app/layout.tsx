@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono, Newsreader } from 'next/font/google'
-import { OrganizationSchema, SoftwareApplicationSchema } from '@/components/StructuredData'
 import { SITE_URL } from '@/lib/site-config'
 import './globals.css'
 
@@ -105,8 +104,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             La stessa condizione si esprime in CSS con `@media (scripting:
             enabled)` — vedi `globals.css`. Nessuno script, nessuna idratazione
             da far combaciare, nessuna estensione che possa rompere niente. */}
-        <OrganizationSchema />
-        <SoftwareApplicationSchema />
+        {/* 🔴 **Qui c'erano `<OrganizationSchema />` e `<SoftwareApplicationSchema />`,
+            e da qui uscivano su OGNI pagina — 65 su 74, misurate nel costruito
+            il 2026-08-12** (TD-96). Comprese quelle dove dicono il falso:
+
+              · `/404` e `/_not-found`, che non sono un prodotto;
+              · **la pagina pubblica di un medico**, che finiva per dichiarare a
+                Google di essere «Fibonacci», *un'applicazione software con
+                offerte a 129, 279 e 549 €* — e senza nessuno schema `Physician`
+                accanto. Su una pagina il cui unico scopo è **posizionare quel
+                medico**, è una semantica che lavora contro sé stessa.
+
+            ⇒ Gli schemi stanno ora sulle pagine che descrivono davvero: vedi
+            `app/page.tsx` (Organization + SoftwareApplication) e
+            `app/prezzi/page.tsx` (SoftwareApplication, dove le offerte sono il
+            contenuto della pagina).
+
+            ⚠️ `/prezzi` **li tiene di proposito**: i suoi risultati arricchiti
+            oggi funzionano, e questa correzione non doveva toglierli. */}
       </head>
       <body className="min-h-screen flex flex-col">
         <a href="#contenuto" className="salta-al-contenuto">Salta al contenuto</a>

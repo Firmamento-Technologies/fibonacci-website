@@ -4,6 +4,7 @@ import { Pagina } from '@/components/chrome/Pagina'
 import { SchedePiani } from '@/components/Listino'
 import { Reveal } from '@/components/ui/Reveal'
 import { Assistente } from '@/components/Assistente'
+import { SoftwareApplicationSchema } from '@/components/StructuredData'
 import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 
@@ -53,6 +54,10 @@ export default function Prezzi() {
       sommario="Prezzi per studio, IVA esclusa. Nessun costo di attivazione, nessun vincolo di durata, nessun aumento a sorpresa al secondo anno."
       larga
     >
+      {/* ⚠️ Tenuto QUI di proposito: i risultati arricchiti di /prezzi oggi
+          funzionano, e la correzione di TD-96 non doveva toglierli — le offerte
+          sono il contenuto di questa pagina, non una dichiarazione di sfondo. */}
+      <SoftwareApplicationSchema />
       {/* ⚠️ Padding ridotto (era s-55): l'intro pesava 327px e insieme alle
           schede portava la decisione sul prezzo a 1350px, cioè fuori dalla
           prima schermata. Su una pagina di listino la cosa che deve stare
