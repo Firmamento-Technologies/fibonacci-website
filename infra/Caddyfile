@@ -142,6 +142,26 @@ app.fibonaccimedica.it {
 		reverse_proxy 127.0.0.1:8210
 	}
 
+	# ── Il webhook di Stripe, e SOLO quello ───────────────────────────────
+	# ⛔ **Non `handle_path /billing/*`.** Il servizio `billing` espone sei
+	# rotte e **nessuna e' autenticata**: `/checkout/create-session`,
+	# `/portal/create-session`, `/ambassador/onboard` e `/ambassador/payout`.
+	# L'ultima oggi e' uno scaffold che risponde 501 — il codice del bonifico
+	# Stripe e' commentato — ma e' una rotta che un giorno spostera' denaro, e
+	# aprirla adesso significherebbe lasciarla aperta anche allora.
+	# ⇒ Si espone **un percorso esatto**, non un prefisso.
+	#
+	# ⚠️ `rewrite` e non `handle_path`: il servizio si aspetta `/webhook/stripe`,
+	# e qui il prefisso `/billing` c'e' solo per non occupare la radice.
+	#
+	# 🔒 Chi puo' chiamarlo e' Stripe e basta, ma non per via di Caddy: il
+	# servizio **verifica la firma** dell'evento con `STRIPE_WEBHOOK_SECRET`.
+	# Senza firma valida risponde 400. Il filtro vero e' quello.
+	handle /billing/webhook/stripe {
+		rewrite * /webhook/stripe
+		reverse_proxy 127.0.0.1:8205
+	}
+
 	# ── L'applicazione vera e propria ─────────────────────────────────────
 	# nginx dentro il container gestisce gia' il fallback su index.html
 	# (e' una SPA: ogni percorso deve tornare l'index o un ricaricamento su
