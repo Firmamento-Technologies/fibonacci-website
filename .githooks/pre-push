@@ -41,18 +41,48 @@ PORTA=3211
 python3 -m http.server "$PORTA" --bind 127.0.0.1 --directory out >/dev/null 2>&1 &
 SERVER=$!
 trap 'kill $SERVER 2>/dev/null || true' EXIT
-sleep 2
+
+# ⚠️ Si aspetta che il server RISPONDA, non due secondi. Un'attesa a tempo fisso
+# misura la macchina, non il server: il 2026-08-12 con la macchina carica non
+# bastavano, il collaudo moriva su `ERR_CONNECTION_REFUSED` e — vedi sotto —
+# l'hook lo leggeva come «zero problemi».
+for _ in $(seq 1 40); do
+  curl -s -o /dev/null --max-time 2 "http://127.0.0.1:$PORTA/" && break
+  sleep 1
+done
 
 # ── La cricca ───────────────────────────────────────────────────────────────
 # ⛔ NON si pretende zero: il collaudo ha problemi preesistenti, e un presidio
 # rosso dal primo giorno viene spento — in questo repo è già successo due volte
 # (sta scritto in `scripts/tappe-alte.json`). Qui passa se il numero non SALE.
 echo "🔎 collaudo del sito…"
-USCITA=$(node scripts/collaudo.mjs "http://127.0.0.1:$PORTA" 2>&1) || true
+USCITA=$(node scripts/collaudo.mjs "http://127.0.0.1:$PORTA" 2>&1)
+CODICE=$?
 echo "$USCITA"
 
 TETTO=$(node -e "process.stdout.write(String(require('./scripts/collaudo-cricca.json').massimo))")
-TROVATI=$(printf '%s' "$USCITA" | sed 's/\x1b\[[0-9;]*m//g' | grep -oE '^[0-9]+ problemi:' | grep -oE '^[0-9]+' || echo 0)
+PULITA=$(printf '%s' "$USCITA" | sed 's/\x1b\[[0-9;]*m//g')
+
+# 🔴 **Il difetto che questo blocco chiude, trovato il 2026-08-12 su me stesso.**
+# Prima si faceva `|| true` sul comando e si contava con `|| echo 0`. Quando il
+# collaudo **moriva** (server non ancora pronto), l'uscita non conteneva nessuna
+# riga «N problemi», il conteggio cadeva a **0**, e l'hook stampava
+# «✅ 0 problemi, come la cricca» — cioè **verde perché non aveva misurato
+# niente**. E' lo schema che questo progetto ha gia' preso piu' volte: un
+# presidio che guarda una tabella vuota e dice che va tutto bene.
+# ⇒ Si pretende una PROVA che il collaudo sia arrivato in fondo.
+if ! printf '%s' "$PULITA" | grep -qE '^[0-9]+ problemi:|Nessun problema'; then
+  echo ""
+  echo "⛔ Il collaudo non e' arrivato in fondo (uscita $CODICE): niente conteggio da"
+  echo "   confrontare. NON e' «zero problemi» — e' una misura che non c'e'."
+  exit 1
+fi
+
+if printf '%s' "$PULITA" | grep -q 'Nessun problema'; then
+  TROVATI=0
+else
+  TROVATI=$(printf '%s' "$PULITA" | grep -oE '^[0-9]+ problemi:' | grep -oE '^[0-9]+')
+fi
 
 if [ "$TROVATI" -gt "$TETTO" ]; then
   echo ""
