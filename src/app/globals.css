@@ -1855,3 +1855,26 @@ h3:hover > .ancora,
 @media (min-width: 48rem) {
   .ricerca-pazienti { grid-template-columns: 1.5fr 1fr auto; align-items: end; }
 }
+
+
+/* ── La scheda del medico: due colonne (TD-95) ───────────────────────────
+   ⚖️ E' la forma della pagina-profilo di MioDottore e Doctolib: a sinistra chi
+   e' e dove, a destra **quando** — l'unica cosa su cui si agisce.
+   🔴 Prima era una colonna sola: gli orari finivano dopo ~1.200px di lettura,
+   con un vuoto sotto, cioe' l'azione **fuori dallo schermo** di chi arriva.
+   ⚠️ Sotto i 60rem torna in colonna, e il pannello va **sotto** le
+   informazioni: su un telefono si legge chi e' prima di scegliere l'ora. */
+.scheda-medico-corpo { display: grid; gap: var(--s-34); }
+@media (min-width: 60rem) {
+  .scheda-medico-corpo { grid-template-columns: minmax(0, 1fr) 22rem; align-items: start; }
+  .pannello-prenota {
+    position: sticky;
+    top: var(--s-21);
+    margin-top: 0 !important;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: var(--r-lg);
+    box-shadow: 0 1px 2px rgba(16, 31, 46, 0.04);
+    padding: var(--s-21);
+  }
+}

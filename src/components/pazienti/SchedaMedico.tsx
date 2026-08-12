@@ -74,7 +74,13 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           <p className="text-[13px] uppercase tracking-[.08em]" style={{ color: 'var(--fg-faint)' }}>
             {m.medico.titolo}
           </p>
-          <h1 className="mt-[var(--s-8)] text-[length:var(--display-2)]">{m.medico.nome}</h1>
+          {/* ⚠️ Sans anche qui: nell'elenco era gia' cosi', e due caratteri
+              diversi per lo stesso nome nelle due viste si notano. */}
+          <h1
+            className="titolo-servizio mt-[var(--s-8)] text-[length:var(--display-3)]"
+          >
+            {m.medico.nome}
+          </h1>
           <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             {m.studio.nome} · {m.studio.comune}
           </p>
@@ -87,6 +93,8 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           un numero d'iscrizione, che il paziente può controllare da solo sul
           sito dell'Ordine, è l'unica informazione di fiducia che non si può
           millantare — e ce l'abbiamo già nel dato. */}
+      <div className="scheda-medico-corpo">
+      <div>
       <section
         aria-labelledby="albo"
         style={{
@@ -148,7 +156,18 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         </p>
       </section>
 
-      <section aria-labelledby="quando" style={{ marginTop: 'var(--s-34)' }}>
+      </div>
+      {/* 🔑 **Il pannello di prenotazione sta a DESTRA, e non e' vezzo.** E' la
+          forma della pagina-profilo di MioDottore e Doctolib: a sinistra chi e'
+          e dove, a destra **quando**, che e' l'unica cosa su cui si agisce. Su
+          una colonna sola gli orari finivano dopo 1.200px di lettura, con un
+          vuoto sotto — cioe' l'azione fuori dallo schermo di chi arriva.
+          ⚠️ Su telefono torna sotto, in colonna, che li' e' l'ordine giusto. */}
+      <section
+        aria-labelledby="quando"
+        className="pannello-prenota"
+        style={{ marginTop: 'var(--s-34)' }}
+      >
         <h2 id="quando" className="text-[length:var(--display-3)]">
           Quando è libero
         </h2>
@@ -242,6 +261,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           </>
         )}
       </section>
+      </div>
     </article>
   )
 }
