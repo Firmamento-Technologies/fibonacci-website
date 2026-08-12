@@ -113,6 +113,19 @@ export const BILLING_URL: string = ''
  * qui sopra. Il modulo torna da sé, senza toccare nessun componente. */
 export const LEAD_API_URL: string = ''
 
+/* La base del sidecar che riceve le richieste di appuntamento dal lato
+ * paziente (`POST /pubblico/prenota`).
+ *
+ * ⚠️ **Vuota per difetto, e non è una dimenticanza**: è la stessa postura di
+ * `LEAD_API_URL`, `APP_URL` e `DEMO_URL` — un indirizzo che non risponde è
+ * peggio di un indirizzo assente, perché il modulo *sembra* funzionare. Con
+ * questa vuota il modulo di prenotazione **si dichiara spento**, non fallisce.
+ *
+ * ⛔ **Non riempirla prima di TD-92**: il CAPTCHA all'edge è il requisito
+ * dichiarato *hard* prima di aprire il canale pubblico, e il tetto per numero
+ * di telefono nel sidecar ferma l'abuso ripetuto, **non mille numeri diversi**. */
+export const PRENOTA_API_URL: string = ''
+
 /** Dove è pubblicata la vetrina. Da spostare sul dominio proprio. */
 /* L'indirizzo canonico del sito. Segue `NEXT_PUBLIC_DOMINIO_SITO` — la STESSA
  * variabile che in `next.config.ts` toglie il prefisso `/fibonacci-website` e

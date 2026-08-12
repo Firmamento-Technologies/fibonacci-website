@@ -2,6 +2,8 @@ import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
 import { Ritratto } from '@/components/pazienti/VoceElenco'
+import { ModuloPrenotazione } from '@/components/pazienti/ModuloPrenotazione'
+import { PRENOTA_API_URL } from '@/lib/site-config'
 
 /* La scheda di un medico, lato paziente.
  *
@@ -151,7 +153,13 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           Quando è libero
         </h2>
 
-        {m.slot.length > 0 ? (
+        {m.slot.length > 0 && PRENOTA_API_URL ? (
+          /* Canale aperto: **il modulo possiede gli orari**, che diventano
+             selezionabili. ⛔ Non si mostrano due volte — una lista in sola
+             lettura sopra un selettore identico è rumore, e la seconda invita a
+             cliccare la prima. */
+          <ModuloPrenotazione m={m} />
+        ) : m.slot.length > 0 ? (
           <>
             {/* Il giorno **una volta**, poi gli orari in fila. Stessa correzione
                 fatta nella voce di elenco: la data ripetuta a ogni riga si

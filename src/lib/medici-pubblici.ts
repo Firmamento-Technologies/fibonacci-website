@@ -72,6 +72,12 @@ export interface SchedaMedicoPubblica {
    *  pubblicazione — cambiarla rompe i collegamenti che il medico ha dato ai
    *  suoi pazienti, ed è il tipo di rottura che non si vede da qui. */
   slug: string
+  /** L'id dell'`Organization` su Medplum. ⚠️ **Serve al server, non alla
+   *  pagina**: è il `studioId` del `POST /pubblico/prenota`, e senza di lui il
+   *  modulo non può spedire. Non è un dato riservato — gli endpoint pubblici lo
+   *  prendono già dall'URL (`/pubblico/studio/{id}`) e dalla query degli slot —
+   *  ⛔ ma non si mostra in pagina: non dice niente al paziente. */
+  organizationId: string
   /** ⛔ `true` solo per gli esempi: la pagina esce con `noindex` e resta fuori
    *  dal sitemap. Un profilo inventato che si posiziona come se fosse un
    *  medico vero sarebbe un danno, non un segnaposto. */
@@ -143,6 +149,7 @@ function slotDiEsempio(): SlotPubblico[] {
 export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
   {
     slug: 'studio-dimostrativo',
+    organizationId: 'esempio-org-1',
     esempio: true,
     studio: {
       nome: 'Studio Dimostrativo',
@@ -175,6 +182,7 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
      * voce**, e il ramo «questo studio ha orari liberi». Con un esempio solo,
      * metà della UI non sarebbe mai stata guardata. */
     slug: 'studio-dimostrativo-due',
+    organizationId: 'esempio-org-2',
     esempio: true,
     studio: {
       nome: 'Secondo Studio Dimostrativo',
@@ -237,6 +245,7 @@ function esempiGenerati(quanti: number): SchedaMedicoPubblica[] {
     const comune = COMUNI_ESEMPIO[i % COMUNI_ESEMPIO.length]
     return {
       slug: `studio-dimostrativo-${n}`,
+      organizationId: `esempio-org-${n}`,
       esempio: true,
       studio: {
         nome: `Studio Dimostrativo ${n}`,
