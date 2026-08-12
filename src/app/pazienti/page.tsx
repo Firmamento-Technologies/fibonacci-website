@@ -30,7 +30,7 @@ export const metadata: Metadata = {
  * ramo «nessun orario». Perciò: interruttore, **default spento**, come
  * `semina-dati-vetrina.mjs` che si rifiuta di girare fuori da localhost.
  *
- *     PAZIENTI_ESEMPI=true npm run build   ⇒ l'elenco mostra quelli scritti a mano
+ *     NEXT_PUBLIC_PAZIENTI_ESEMPI=true npm run build   ⇒ l'elenco mostra quelli scritti a mano
  *     PAZIENTI_ESEMPI=20   npm run build   ⇒ venti, per guardare l'elenco pieno
  *
  * ⛔ In un rilascio normale resta spento e in pagina non compare un medico che
@@ -54,37 +54,29 @@ export default function Page() {
 
   return (
     <GuscioPaziente>
-      <article
-        className="gabbia"
-        style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-55)' }}
-      >
-        {/* ⚠️ Intestazione **compatta**: su una pagina di risultati l'aria in
-            cima è spazio tolto ai risultati. `display-3` e non `display-2`. */}
-        <header style={{ maxWidth: 'var(--measure)' }}>
-          <h1 className="text-[length:var(--display-3)]">
-            Trova il tuo medico estetico, e prenota quando è libero
-          </h1>
-          <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Chi è il medico, il suo numero d’iscrizione all’Ordine, dove riceve e gli orari
-            che ha davvero liberi. Premi un orario per chiedere quell’appuntamento.
-          </p>
-        </header>
+      {/* ── L'EROE: l'azione, sopra la piega ─────────────────────────────
+          ⚖️ Designers Italia, componente **Hero** (tier 1): sezione a tutta
+          larghezza, una sola per pagina, con la call to action dentro. E NN/g,
+          *Scrolling and Attention*: «keep major CTAs above the fold».
+          🔴 Prima qui c'erano **tre blocchi di testo** prima del campo — titolo,
+          paragrafo, e perfino un'intestazione «Gli studi che hanno pubblicato la
+          loro pagina» messa SOPRA la ricerca, dove non vuol dire niente. */}
+      <RicercaMedici
+        medici={pubblicati}
+        intestazione={
+          <header style={{ maxWidth: '46rem' }}>
+            <h1 className="titolo-servizio text-[length:var(--display-3)]">
+              Trova un medico estetico e prenota
+            </h1>
+            <p className="mt-[var(--s-8)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+              Chi è, il suo numero d’iscrizione all’Ordine, dove riceve, e gli orari che ha
+              davvero liberi.
+            </p>
+          </header>
+        }
+      />
 
-        {/* ⚠️ **L'elenco esce dalla colonna di lettura.** `--measure` (34rem) è
-            la misura giusta per la PROSA, e infatti la teniamo per le sezioni di
-            testo qui sotto. Una pagina di risultati non è prosa: dentro ogni
-            scheda ci sono nome, albo, prestazioni e una fila di orari, e a 34rem
-            gli orari andavano a capo. */}
-        <div style={{ maxWidth: '52rem' }}>
-          <Sezione id="elenco" titolo="Gli studi che hanno pubblicato la loro pagina">
-            {/* 🔑 La ricerca **e** i risultati stanno insieme: separarli
-                vorrebbe dire un campo che non si vede mentre si scorre, cioè il
-                difetto che loro risolvono con l'intestazione persistente (§3.1
-                del piano). */}
-            <RicercaMedici medici={pubblicati} />
-          </Sezione>
-        </div>
-
+      <article className="gabbia" style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-55)' }}>
         <div style={{ maxWidth: 'var(--measure)' }}>
           <Sezione id="cosa-non" titolo="Che cosa non troverai qui, e perché">
             <p>

@@ -62,7 +62,14 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
       <div style={{ display: 'flex', gap: 'var(--s-13)', alignItems: 'flex-start' }}>
         <Ritratto m={m} />
         <div style={{ minWidth: 0, flex: 1 }}>
-          <h3 className="text-[1.0625rem]" style={{ fontWeight: 500 }}>
+          {/* ⚠️ **Sans, non il serif del sito.** In una scheda di risultati il
+              nome si scansiona: il display serif lo fa leggere come il titolo di
+              un articolo, ed è metà del motivo per cui questa pagina sembrava un
+              documento. */}
+          <h3
+            className="text-[1.0625rem]"
+            style={{ fontWeight: 600, fontFamily: 'var(--font-sans)' }}
+          >
             <Link href={percorsoMedico(m.slug)} style={{ color: 'var(--accent)' }}>
               {m.medico.nome}
             </Link>
@@ -130,10 +137,11 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
                       alignItems: 'center',
                       minHeight: '44px',
                       padding: '0 var(--s-13)',
-                      background: 'var(--bg-sunk)',
-                      border: '1px solid var(--rule)',
+                      background: 'var(--accent)',
+                      border: '1px solid var(--accent)',
                       borderRadius: 'var(--r-sm)',
-                      color: 'var(--accent)',
+                      color: '#fff',
+                      fontWeight: 500,
                       fontVariantNumeric: 'tabular-nums',
                     }}
                   >
@@ -159,8 +167,26 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
           la pagina. Il nome del medico, in cima, **è già il collegamento alla
           scheda**: «Vedi la scheda» era una seconda porta per la stessa stanza.
           Resta l'unica azione che oggi funziona davvero — chiamare. */}
-      <p className="mt-[var(--s-21)]">
-        <a href={`tel:${telefono}`} className="btn btn-primario">
+      {/* 🔑 **«Chiama» è SECONDARIO, e la gerarchia era rovesciata.** Un blocco
+          blu pieno in fondo alla scheda pesava più degli orari — cioè l'azione
+          che questa pagina esiste per rendere possibile. Ora il pieno ce l'hanno
+          i chip, e il telefono è un'alternativa dichiarata: ⛔ non sparisce,
+          perché per chi non ha orari pubblicati è **l'unica** strada. */}
+      <p className="mt-[var(--s-13)]">
+        <a
+          href={`tel:${telefono}`}
+          className="text-[15px]"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            minHeight: '44px',
+            padding: '0 var(--s-13)',
+            border: '1px solid var(--rule-strong)',
+            borderRadius: 'var(--r-sm)',
+            color: 'var(--fg)',
+            background: '#fff',
+          }}
+        >
           Chiama lo studio
         </a>
       </p>

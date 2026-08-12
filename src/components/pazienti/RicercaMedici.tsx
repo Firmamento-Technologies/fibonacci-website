@@ -23,7 +23,7 @@
  * ⛔ Nessun prezzo: gli onorari li dice lo studio.
  */
 
-import { useMemo, useState } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import { VoceElenco } from '@/components/pazienti/VoceElenco'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 
@@ -47,7 +47,17 @@ function normalizza(s: string): string {
     .trim()
 }
 
-export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblica[] }) {
+export function RicercaMedici({
+  medici,
+  intestazione,
+}: {
+  medici: readonly SchedaMedicoPubblica[]
+  /** Il titolo della pagina, reso **dentro la fascia**: eroe e ricerca sono un
+   *  blocco solo, e lo stato della ricerca vive qui. ⚠️ Separarli avrebbe
+   *  significato o due componenti che si passano lo stato, o i risultati dentro
+   *  la fascia — che è l'errore che avevo appena fatto. */
+  intestazione: ReactNode
+}) {
   const [cosa, setCosa] = useState('')
   const [dove, setDove] = useState('')
 
@@ -71,10 +81,17 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
 
   return (
     <>
+      <div className="eroe-pazienti">
+        <div className="gabbia">
+          {intestazione}
+          <div style={{ maxWidth: '52rem', marginTop: 'var(--s-21)' }}>
       {/* ── L'azione, sopra tutto ──────────────────────────────────────── */}
       <form
         role="search"
-        onSubmit={(e) => e.preventDefault()}
+        onSubmit={(e) => {
+          e.preventDefault()
+          document.getElementById('risultati')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }}
         style={{
           background: '#fff',
           border: '1px solid var(--rule)',
@@ -113,6 +130,14 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
             style={CAMPO}
           />
         </label>
+        {/* 🔴 **Il pulsante serve anche se la ricerca è istantanea.** Senza, due
+            campi affiancati non si leggono come una ricerca: sembrano un modulo
+            a metà, e nessuno capisce che si può scrivere e basta. Qui non
+            «invia» — mette a fuoco i risultati e chiude la tastiera sul
+            telefono, che è la cosa che serve davvero lì. */}
+        <button type="submit" className="btn btn-primario" style={{ minHeight: '48px' }}>
+          Cerca
+        </button>
       </form>
 
       {/* ── Le scorciatoie, come le loro nuvole di chip ────────────────── */}
@@ -151,10 +176,21 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
         })}
       </ul>
 
+          </div>
+        </div>
+      </div>
+
+      {/* ⚠️ `gabbia` **centra** il contenuto: annidarci dentro un `maxWidth`
+          più stretto lo centrava di nuovo, e i risultati rientravano di ~230px
+          rispetto alla fascia sopra. Due blocchi della stessa pagina allineati
+          a due margini diversi si leggono come due pagine. */}
+      <div className="gabbia" style={{ paddingTop: 'var(--s-21)' }}>
+        <div style={{ maxWidth: '52rem' }}>
       {/* ── Il conteggio: dice sempre la verità, anche quando è zero ───── */}
       <p
+        id="risultati"
         className="text-[15px]"
-        style={{ color: 'var(--fg-muted)', marginTop: 'var(--s-21)' }}
+        style={{ color: 'var(--fg-muted)', marginTop: 'var(--s-21)', scrollMarginTop: 'var(--s-21)' }}
         role="status"
       >
         {risultati.length === 0
@@ -181,6 +217,8 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
           ))}
         </ul>
       )}
+        </div>
+      </div>
     </>
   )
 }

@@ -1820,13 +1820,38 @@ h3:hover > .ancora,
    Doctolib: il «cosa» e il «dove» sono una domanda sola, e spezzarli in due
    righe li fa sembrare due passi. Su telefono tornano impilati, perché in
    fila sarebbero due campi da 40px in cui non si scrive. */
+
+
+/* ── L'eroe del lato paziente (TD-95) ────────────────────────────────────
+   ⚖️ Designers Italia, componente **Hero** (tier 1): «sezione a **tutta
+   larghezza**», una sola per pagina, con la call to action dentro. E NN/g,
+   *Scrolling and Attention*: «reserve the top of the page for high-priority
+   content — keep major CTAs above the fold».
+
+   🔴 **Perché serviva.** La pagina apriva con titolo serif, paragrafo, e per
+   giunta un'INTESTAZIONE messa sopra il campo di ricerca: tre blocchi di testo
+   prima dell'azione, tutti sullo stesso fondo. Rilievo dell'utente
+   (2026-08-12): «è una pagina di testo, non una UI dove trovare medici».
+   La fascia dà il contrasto che separa **dove si cerca** da **cosa si è
+   trovato** — che è l'unica gerarchia che conta qui. */
+.eroe-pazienti {
+  background: var(--bg-sunk);
+  border-bottom: 1px solid var(--rule);
+  padding-block: var(--s-34) var(--s-34);
+}
+/* ⚠️ Il titolo di questa pagina è in **sans**, non nel serif del resto del
+   sito: è una pagina di SERVIZIO, si scansiona invece di leggersi, ed è la
+   scelta che fanno anche MioDottore e Doctolib. */
+.titolo-servizio {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
 .ricerca-pazienti {
   display: grid;
   grid-template-columns: 1fr;
+  gap: var(--s-8);
 }
-@media (min-width: 40rem) {
-  .ricerca-pazienti {
-    grid-template-columns: 1.4fr 1fr;
-    align-items: end;
-  }
+@media (min-width: 48rem) {
+  .ricerca-pazienti { grid-template-columns: 1.5fr 1fr auto; align-items: end; }
 }

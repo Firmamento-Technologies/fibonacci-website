@@ -233,8 +233,8 @@ export const SOGLIA_ELENCO = 15
  * ricerca e filtri. Senza, quella parte di UI nascerebbe non vista — lo stesso
  * errore già evitato per «nessun orario» e per «l'elenco ha voci».
  *
- *     PAZIENTI_ESEMPI=true npm run build    ⇒ i 2 esempi scritti a mano
- *     PAZIENTI_ESEMPI=18   npm run build    ⇒ 18, per superare la soglia
+ *     NEXT_PUBLIC_PAZIENTI_ESEMPI=true npm run build    ⇒ i 2 esempi scritti a mano
+ *     NEXT_PUBLIC_PAZIENTI_ESEMPI=18   npm run build    ⇒ 18, per superare la soglia
  *
  * ⛔ **Mai in un rilascio**: la variabile è assente per difetto e questi studi
  * sono dichiaratamente finti — nome numerato, `esempio: true`, quindi `noindex`
@@ -312,7 +312,12 @@ function esempiGenerati(quanti: number): SchedaMedicoPubblica[] {
  * viene cotto dentro le pagine al momento del `next build`, non deciso a
  * runtime. Cambiarlo richiede ricostruire. */
 export function esempiRichiesti(): number {
-  const grezzo = (process.env.PAZIENTI_ESEMPI ?? '').trim().toLowerCase()
+  /* ⚠️ `NEXT_PUBLIC_`, come per l'id dello studio: da quando `VoceElenco` e
+   * `RicercaMedici` sono componenti **client**, questo modulo finisce anche nel
+   * bundle del browser, e senza prefisso il valore sarebbe `undefined` di là ⇒
+   * server e browser conterebbero due elenchi diversi. Misurato il 2026-08-13:
+   * l'elenco usciva **vuoto** pur avendo passato la variabile alla build. */
+  const grezzo = (process.env.NEXT_PUBLIC_PAZIENTI_ESEMPI ?? '').trim().toLowerCase()
   // `true` resta l'uso documentato: «accendi quelli scritti a mano», senza
   // dover sapere quanti sono.
   if (grezzo === 'true') return MEDICI_ESEMPIO.length
