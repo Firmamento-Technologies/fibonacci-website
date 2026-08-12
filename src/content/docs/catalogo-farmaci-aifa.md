@@ -8,7 +8,7 @@ l'ultima importazione. È riservata al ruolo di amministratore.
 
 ## Cosa dice la pagina
 
-- **Stato dell'ultima esecuzione** — conclusa, in corso, oppure fallita.
+- **Stato dell'ultima esecuzione**: conclusa, in corso, oppure fallita.
 - **Quando è avvenuta** e **quanto è durata**.
 - **Quante voci** sono state lette, aggiunte o aggiornate.
 - **L'errore**, se c'è stato, con il motivo.
@@ -27,7 +27,7 @@ sincronizzazione è programmata, e si forza dal server quando serve davvero.
 ## Cosa fare se l'importazione fallisce
 
 Il catalogo **resta quello dell'ultima importazione riuscita**: nessun farmaco
-sparisce e la prescrizione continua a funzionare. Un fallimento non è un'emergenza —
+sparisce e la prescrizione continua a funzionare. Un fallimento non è un'emergenza:
 significa che il catalogo invecchia, non che si svuota.
 
 Se lo stato resta fallito per più giorni, segnalalo: la causa è quasi sempre a monte

@@ -26,7 +26,7 @@ Su questi campi il sistema **registra e non calcola**: la diluizione dichiarata 
 
 La mappa del viso e del corpo permette di indicare i punti con pallini numerati, associando a ciascuno la quantità. Le coordinate sono distinte per uomo e donna, perché le proporzioni del volto differiscono e un pallino nel punto sbagliato è documentazione sbagliata.
 
-⚠️ **Per i ritocchi, le aree non si ridisegnano da zero: si importano.** Il pulsante `Importa da visita precedente` copia i pallini della seduta passata con prodotto, area e tecnica. ⛔ **Non è automatico** — va premuto — e due campi non arrivano com'erano: il **lotto** resta marcato per revisione (la fiala di oggi ha tipicamente un lotto diverso) e la **quantità viene azzerata**, perché va reinserita per questa visita. Come funziona, e come si esporta in PDF la visita, sta in [Body map 2D](/documentazione/body-map).
+⚠️ **Per i ritocchi, le aree non si ridisegnano da zero: si importano.** Il pulsante `Importa da visita precedente` copia i pallini della seduta passata con prodotto, area e tecnica. ⛔ **Non è automatico** (va premuto), e due campi non arrivano com'erano: il **lotto** resta marcato per revisione (la fiala di oggi ha tipicamente un lotto diverso) e la **quantità viene azzerata**, perché va reinserita per questa visita. Come funziona, e come si esporta in PDF la visita, sta in [Body map 2D](/documentazione/body-map).
 
 ## Passo 4, uso off-label
 

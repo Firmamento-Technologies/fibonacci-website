@@ -9,7 +9,7 @@ se non la vedi in navigazione, il tuo studio non ha quel verticale attivo.
 ## Come si usa
 
 Il modello si apre sul corpo intero. Dal pannello laterale si accendono i **sistemi**
-anatomici — scheletrico, muscolare, vascolare, nervoso e gli altri.
+anatomici: scheletrico, muscolare, vascolare, nervoso e gli altri.
 
 - **Più sistemi insieme.** Si possono tenere accesi contemporaneamente, per esempio
   scheletro e muscolatura, quando serve mostrare un rapporto fra piani.
@@ -24,7 +24,7 @@ Il modello si ruota trascinando, si avvicina con la rotella o con due dita.
 - **Prima del consenso**, per far vedere al paziente la zona di cui si sta parlando.
   Un'immagine condivisa riduce i fraintendimenti che poi ricompaiono nei contenziosi.
 - **Durante la spiegazione di un rischio**, quando il rischio dipende da un rapporto
-  anatomico — un vaso, un nervo, un piano di scollamento.
+  anatomico: un vaso, un nervo, un piano di scollamento.
 
 ## Limiti dichiarati
 

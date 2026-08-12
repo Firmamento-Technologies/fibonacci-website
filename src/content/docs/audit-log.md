@@ -18,10 +18,10 @@ dalle impostazioni.
 Una tabella, con la riga più recente in alto. Per ognuna:
 
 - **quando** è successo;
-- **chi** l'ha fatto — il nome dell'operatore, oppure *Sistema* per le operazioni
+- **chi** l'ha fatto: il nome dell'operatore, oppure *Sistema* per le operazioni
   automatiche;
 - **che cosa** è stato fatto: creazione, lettura, aggiornamento, cancellazione;
-- **su cosa** — la scheda o il documento toccato;
+- **su cosa**: la scheda o il documento toccato;
 - **com'è andata**: riuscita, avviso, errore.
 
 ## I filtri
@@ -29,7 +29,7 @@ Una tabella, con la riga più recente in alto. Per ognuna:
 Sopra la tabella si restringe la ricerca.
 
 - **Attività clinica** oppure **attività di sistema.** La prima è quello che fanno le
-  persone sulle cartelle; la seconda è quello che il programma fa da solo — importazioni,
+  persone sulle cartelle; la seconda è quello che il programma fa da solo: importazioni,
   processi automatici. Tenerle separate serve davvero, perché le seconde sono tante e
   coprirebbero le prime.
 - **L'azione**: solo le letture, solo le modifiche, solo le cancellazioni.
@@ -44,7 +44,7 @@ per rispondere.
 2. Scegli l'intervallo di date.
 3. Premi **Esporta**.
 
-Si ottiene un file CSV — si apre con qualunque foglio di calcolo — con esattamente le
+Si ottiene un file CSV (si apre con qualunque foglio di calcolo) con esattamente le
 righe che hai a schermo. È la forma in cui la risposta si consegna.
 
 ## L'integrità: perché il registro non si corregge
@@ -62,14 +62,14 @@ una segnalazione ordinaria: è un incidente di sicurezza, e va comunicato subito
 
 Quanto la documentazione clinica a cui si riferiscono. Restano **anche dopo** che un
 paziente è stato cancellato: senza più il suo nome, ma con la traccia che l'operazione è
-avvenuta. È voluto — un registro che sparisce insieme ai dati non dimostrerebbe più
+avvenuta. È voluto: un registro che sparisce insieme ai dati non dimostrerebbe più
 niente.
 
 ## Cosa NON c'è in questa pagina
 
 Detto per non farti cercare quello che non esiste:
 
-- **nessuna esportazione in PDF firmato** — l'esportazione è in CSV;
+- **nessuna esportazione in PDF firmato**: l'esportazione è in CSV;
 - **nessun pulsante di verifica dell'integrità** (vedi sopra: si fa sul server);
 - **nessuna linea del tempo grafica** delle operazioni su un paziente;
 - **nessun filtro salvabile fra i preferiti**, né ricerca per indirizzo di rete.

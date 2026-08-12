@@ -101,7 +101,7 @@ L'archiviazione e la modalita conforme all'articolo 17 del GDPR (diritto all'obl
 
 La cancellazione fisica dei dati e ammessa solo nei casi previsti dalla normativa, ad esempio per pazienti registrati per errore o con consenso revocato prima dell'inizio della prestazione.
 
-La cancellazione definitiva non si avvia dall'interfaccia: si chiede all'assistenza, ed è deliberato — è un'operazione irreversibile su dati clinici. Approvazione di un secondo operatore con ruolo `admin studio`. La cancellazione effettiva avviene dopo trenta giorni di periodo di ripensamento, con avviso preventivo via email all'operatore richiedente. Tutte le fasi della procedura sono registrate in audit log.
+La cancellazione definitiva non si avvia dall'interfaccia: si chiede all'assistenza, ed è deliberato: è un'operazione irreversibile su dati clinici. Approvazione di un secondo operatore con ruolo `admin studio`. La cancellazione effettiva avviene dopo trenta giorni di periodo di ripensamento, con avviso preventivo via email all'operatore richiedente. Tutte le fasi della procedura sono registrate in audit log.
 
 ## Consegnare al paziente i suoi dati
 

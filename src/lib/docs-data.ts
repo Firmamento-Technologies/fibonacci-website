@@ -14,7 +14,7 @@ export const DOCS: DocMeta[] = [
   {
     slug: 'dashboard',
     title: 'La dashboard: cosa guardare la mattina',
-    description: 'Indicatori, la giornata, i richiami aperti — e cosa governa il selettore di periodo.',
+    description: 'Indicatori, la giornata, i richiami aperti, e cosa governa il selettore di periodo.',
     category: 'inizio',
     icon: 'LayoutDashboard',
   },

@@ -5,7 +5,7 @@
 
 
 La dashboard è la pagina su cui si atterra dopo l'accesso. Non è un cruscotto di
-statistiche: è pensata per rispondere a una domanda sola — *cosa mi aspetta oggi*.
+statistiche: è pensata per rispondere a una domanda sola: *cosa mi aspetta oggi*.
 
 ## Com'è fatta
 
@@ -18,7 +18,7 @@ Dall'alto verso il basso:
 2. **Appuntamenti di oggi.** In ordine di orario, in ordine di orario. È la ragione
    vera per cui si apre una dashboard la mattina, ed è per questo che sta sopra
    tutto il resto tranne i numeri.
-3. **Da fare.** I richiami e i promemoria ancora aperti — i pazienti che il
+3. **Da fare.** I richiami e i promemoria ancora aperti: i pazienti che il
    sistema ha segnato come da ricontattare e che nessuno ha ancora chiuso.
 
 ## Il selettore di periodo
@@ -27,8 +27,8 @@ Le quattro scelte sono **Oggi · 7 giorni · 30 giorni · Sempre**.
 
 ⚠️ **Non governa tutta la pagina**: agisce sui tre indicatori che dichiarano «nel
 periodo scelto», mentre *Pazienti in cartella* è il totale dello studio, *gli
-appuntamenti di oggi* mostrano sempre oggi — cambiarli in base a un filtro non
-avrebbe senso — e le voci *da fare* restano quelle aperte, indipendentemente da
+appuntamenti di oggi* mostrano sempre oggi (cambiarli in base a un filtro non
+avrebbe senso), e le voci *da fare* restano quelle aperte, indipendentemente da
 quando sono nate.
 
 Se un numero non cambia muovendo il periodo, non è un difetto: sotto c'è scritto

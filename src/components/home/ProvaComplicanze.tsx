@@ -111,7 +111,7 @@ export function ProvaComplicanze() {
       <p className="prova-viso__didascalia">
         Diventa un <code>AdverseEvent</code> FHIR legato alla seduta che l’ha originata.
         ⛔ La gravità la scegli tu: il software non la deduce. E la segnalazione di
-        farmacovigilanza resta un tuo atto — qui si prepara il contenuto, non si trasmette
+        farmacovigilanza resta un tuo atto: qui si prepara il contenuto, non si trasmette
         niente.
       </p>
     </div>

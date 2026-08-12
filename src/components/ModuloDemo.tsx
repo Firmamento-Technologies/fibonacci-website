@@ -205,7 +205,7 @@ export function ModuloDemo({
         style={{ color: 'var(--fg-muted)' }}
         data-misura="niente-dati-pazienti"
       >
-        ⛔ <strong>Non scrivere qui dati di pazienti</strong> — né nomi, né date di nascita,
+        ⛔ <strong>Non scrivere qui dati di pazienti</strong>: né nomi, né date di nascita,
         né schermate della cartella. Per capire un problema ci basta il{' '}
         <strong>codice di riferimento</strong> che l&apos;applicazione mostra quando qualcosa
         va storto.

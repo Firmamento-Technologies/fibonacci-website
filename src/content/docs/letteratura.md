@@ -10,17 +10,17 @@ esiste un archivio nostro di articoli, e non conserviamo la cronologia delle ric
 
 I filtri per **tipo di pubblicazione** restringono i risultati:
 
-- **Studi randomizzati controllati** — l'evidenza sperimentale.
-- **Meta-analisi** — sintesi quantitative di più studi.
-- **Revisioni** — inquadramenti di un tema.
-- **Linee guida pratiche** — raccomandazioni operative delle società scientifiche.
-- **Case report** — singoli casi, utili per le complicanze rare.
+- **Studi randomizzati controllati**: l'evidenza sperimentale.
+- **Meta-analisi**: sintesi quantitative di più studi.
+- **Revisioni**: inquadramenti di un tema.
+- **Linee guida pratiche**: raccomandazioni operative delle società scientifiche.
+- **Case report**: singoli casi, utili per le complicanze rare.
 
 Senza filtro si vede tutto, ordinato come li restituisce PubMed.
 
 ## Cosa si vede di ogni risultato
 
-Titolo, autori, rivista, anno e — quando PubMed lo espone — l'**abstract**. Se
+Titolo, autori, rivista, anno e, quando PubMed lo espone, l'**abstract**. Se
 l'abstract non c'è, la scheda lo dice invece di lasciare uno spazio bianco.
 
 Quando l'articolo è disponibile ad accesso aperto compare **Apri PDF full-text**. Per
@@ -29,8 +29,8 @@ e non li simuliamo.
 
 ## Quando la ricerca non risponde
 
-- **«Inserisci almeno un termine di ricerca»** — il campo è vuoto.
-- **Errore di ricerca** — PubMed non ha risposto. Il servizio è pubblico e gratuito
+- **«Inserisci almeno un termine di ricerca»**: il campo è vuoto.
+- **Errore di ricerca**: PubMed non ha risposto. Il servizio è pubblico e gratuito
   entro poche richieste al secondo: se stai cercando molto rapidamente, attendi
   qualche istante e riprova.
 

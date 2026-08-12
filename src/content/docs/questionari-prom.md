@@ -1,6 +1,6 @@
 # Questionari al paziente (PROM)
 
-I **PROM** — *Patient-Reported Outcome Measures* — sono i questionari con cui è il
+I **PROM** (*Patient-Reported Outcome Measures*) sono i questionari con cui è il
 paziente a dire com'è andata: soddisfazione, percezione del risultato, disturbi
 riferiti. Servono a documentare l'esito con la voce di chi l'ha ricevuto, non solo
 con quella di chi l'ha eseguito.
@@ -14,7 +14,7 @@ questionari è dietro un interruttore, spento di suo.
 Dalla cartella del paziente, scheda **Questionari**:
 
 1. si sceglie il questionario dall'elenco disponibile;
-2. lo si compila — le domande e le regole sono definite nel questionario stesso, non
+2. lo si compila: le domande e le regole sono definite nel questionario stesso, non
    scritte nel programma: aggiungerne uno nuovo non richiede una nuova versione
    dell'applicazione;
 3. si salva.

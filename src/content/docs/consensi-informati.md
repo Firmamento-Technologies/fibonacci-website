@@ -115,7 +115,7 @@ Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'
 
 - **Ristampa**: dal consenso firmato si può sempre riscaricare il PDF originale, identico a quello sigillato. Utile per portarlo in cartella cartacea o consegnarlo nuovamente al paziente.
 
-⚠️ **Revocare un consenso non è cancellare dei dati.** Il PDF revocato resta archiviato — è ciò che dimostra che il consenso c'era nel momento in cui la prestazione è stata fatta — e la revoca non tocca la cartella. Se invece il paziente chiede l'accesso, la portabilità o la cancellazione dei propri dati, la guida è un'altra: [Esportazioni e diritti del paziente](/documentazione/esportazioni-e-diritti).
+⚠️ **Revocare un consenso non è cancellare dei dati.** Il PDF revocato resta archiviato: è ciò che dimostra che il consenso c'era nel momento in cui la prestazione è stata fatta, e la revoca non tocca la cartella. Se invece il paziente chiede l'accesso, la portabilità o la cancellazione dei propri dati, la guida è un'altra: [Esportazioni e diritti del paziente](/documentazione/esportazioni-e-diritti).
 
 ## Note importanti
 
