@@ -4,6 +4,7 @@ import { giornoInItaliano, oraInItaliano, mappaStudio } from '@/lib/medici-pubbl
 import { Ritratto } from '@/components/pazienti/VoceElenco'
 import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
 import { ModuloPrenotazione } from '@/components/pazienti/ModuloPrenotazione'
+import { MappaStudio } from '@/components/pazienti/MappaStudio'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 
 /* La scheda di un medico, lato paziente.
@@ -176,6 +177,17 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
             {m.studio.telefono}
           </a>
         </p>
+
+        {/* La mappa, **su richiesta**: a pagina ferma non parte niente. Il
+            perché per esteso sta in `MappaStudio.tsx`, e non è un dettaglio —
+            è la ragione per cui questo sito non ha il banner dei cookie. */}
+        <div className="mt-[var(--s-21)]" style={{ maxWidth: 'var(--measure)' }}>
+          <MappaStudio
+            indirizzo={m.studio.indirizzo}
+            comune={m.studio.comune}
+            mappaEsterna={mappaStudio(m.studio)}
+          />
+        </div>
       </section>
 
       <section aria-labelledby="prestazioni" style={{ marginTop: 'var(--s-34)' }}>

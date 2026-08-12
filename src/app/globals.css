@@ -2086,6 +2086,97 @@ h3:hover > .ancora,
   font-size: 15px;
   font-variant-numeric: tabular-nums;
 }
+/* ── Il primo appuntamento libero, nella scheda di risultato ─────────────
+   🔴 Al posto di sei orari di una giornata sola: la domanda del paziente che
+   scorre l'elenco è *«quando è il primo posto?»*, ⛔ non *«è libero venerdì
+   alle 12?»*. Un bersaglio solo, grande, con giorno e ora insieme. */
+.primo-appuntamento {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: var(--s-8);
+  padding: var(--s-8) var(--s-13);
+  border-radius: var(--r-sm);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+.primo-appuntamento:hover { background: var(--accent-deep); border-color: var(--accent-deep); }
+.primo-appuntamento-giorno { font-size: 14px; opacity: .92; }
+.primo-appuntamento-ora { font-size: 1.25rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+/* Canale spento: stessa forma, nessuna promessa di premibilità. */
+.primo-appuntamento-morto {
+  background: var(--bg-sunk);
+  border-color: var(--rule);
+  color: var(--fg-muted);
+}
+.etichetta-quando {
+  display: flex;
+  align-items: center;
+  gap: var(--s-5);
+  font-size: 13px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+/* ── Il calendario, nella scheda del medico ──────────────────────────────
+   Una testata per giornata: la data non può più riferirsi agli orari di
+   un'altra, che è il difetto che questa struttura corregge. */
+.calendario-giorno { margin-top: var(--s-13); }
+.calendario-giorno-testata {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--fg);
+  padding-bottom: var(--s-5);
+  margin-bottom: var(--s-8);
+  border-bottom: 1px solid var(--rule);
+}
+/* ⚠️ `capitalize` maiuscolava **ogni** parola — «Venerdì 14 Agosto» — e in
+   italiano i mesi sono minuscoli. Si alza solo la prima lettera. */
+.calendario-giorno-testata::first-letter { text-transform: uppercase; }
+/* Orario **selezionabile** (non ancora scelto): riquadro, non pieno — il pieno
+   nel pannello ce l'ha solo quello scelto, e «Invia la richiesta». */
+.orario-scelta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 44px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--rule-strong);
+  background: #fff;
+  color: var(--fg);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+.orario-scelta:hover { border-color: var(--accent); color: var(--accent-deep); }
+
+/* ── La mappa, che si carica su richiesta ────────────────────────────────
+   ⛔ Il segnaposto **non** è uno scheletro grigio in attesa: è un blocco che
+   dice l'indirizzo e cosa succede premendo. Una finta mappa sfocata inviterebbe
+   a premere senza spiegare — cioè un consenso raccolto al buio. */
+.mappa-segnaposto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-8);
+  padding: var(--s-21);
+  background: var(--bg-sunk);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  color: var(--fg-muted);
+}
+.mappa-riquadro {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+}
+
 .bottone-telefono {
   display: inline-flex;
   align-items: center;

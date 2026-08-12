@@ -384,6 +384,44 @@ export function mappaStudio(studio: { indirizzo: string; comune: string }): stri
   return `https://www.google.com/maps/search/?api=1&query=${q}`
 }
 
+/** Gli orari liberi, raggruppati per giornata e in ordine.
+ *
+ * 🔴 **Nasce da un difetto vero, non da un'esigenza estetica.** Sia la voce di
+ * elenco sia il modulo di prenotazione scrivevano **un solo giorno** —
+ * `giornoInItaliano(orari[0].inizio)` — e sotto ci mettevano **tutti** gli
+ * orari. Finché il sidecar restituisce slot di una giornata sola la bugia non
+ * si vede; il giorno in cui ne restituisce due, la pagina dichiara *«venerdì
+ * 14 agosto»* sopra un orario che è di **sabato**. ⇒ un paziente si presenta
+ * il giorno sbagliato. Il difetto era invisibile ai dati d'esempio, ed è
+ * esattamente il tipo che questo progetto ha già pagato più volte.
+ *
+ * 🔑 Raggruppare **è** la correzione: se ogni giorno porta la sua intestazione,
+ * la data non può più riferirsi all'orario sbagliato — non per disciplina di
+ * chi scrive, ma perché la struttura non lo consente.
+ *
+ * ⚠️ Le giornate si tagliano sul fuso di **Roma**, non su UTC: uno slot delle
+ * 00:30 italiane è `23:30Z` del giorno prima, e un raggruppamento fatto sulla
+ * stringa ISO lo metterebbe **nel giorno sbagliato**. */
+export function perGiornata(
+  orari: readonly SlotPubblico[],
+): { giorno: string; chiave: string; orari: SlotPubblico[] }[] {
+  const chiaveDi = new Intl.DateTimeFormat('en-CA', {
+    year: 'numeric', month: '2-digit', day: '2-digit', timeZone: 'Europe/Rome',
+  })
+  const gruppi = new Map<string, SlotPubblico[]>()
+  for (const s of [...orari].sort((a, b) => a.inizio.localeCompare(b.inizio))) {
+    const k = chiaveDi.format(new Date(s.inizio))
+    const g = gruppi.get(k)
+    if (g) g.push(s)
+    else gruppi.set(k, [s])
+  }
+  return [...gruppi.entries()].map(([chiave, lista]) => ({
+    chiave,
+    giorno: giornoInItaliano(lista[0].inizio),
+    orari: lista,
+  }))
+}
+
 /** Solo il giorno («venerdì 14 agosto»). Serve a scriverlo **una volta sola**
  *  sopra una fila di orari, invece di ripeterlo per ogni orario: tre righe che
  *  dicono lo stesso giorno sono tre righe da leggere per un'informazione sola.

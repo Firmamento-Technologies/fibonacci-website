@@ -3,7 +3,13 @@
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { useOrariLiberi } from '@/lib/orari-liberi'
-import { percorsoMedico, giornoInItaliano, oraInItaliano, mappaStudio } from '@/lib/medici-pubblici'
+import {
+  percorsoMedico,
+  giornoInItaliano,
+  oraInItaliano,
+  mappaStudio,
+  perGiornata,
+} from '@/lib/medici-pubblici'
 import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
 
 /* La voce di elenco: l'unità che risponde alla domanda del paziente.
@@ -61,6 +67,10 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
   const telefono = m.studio.telefono.replace(/\s/g, '')
   const prime = m.prestazioni.slice(0, 3)
   const altre = m.prestazioni.length - prime.length
+  /* ⚠️ `perGiornata` **ordina**: il «primo» è davvero il primo, ⛔ non il primo
+     che il sidecar ha restituito. Sono due cose diverse e sembrano la stessa. */
+  const giornate = perGiornata(daMostrare)
+  const primo = giornate[0]?.orari[0]
 
   return (
     <li style={{ listStyle: 'none', marginBottom: 'var(--s-13)' }}>
@@ -149,42 +159,75 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
             paziente e ora ha un posto suo. È anche la forma della pagina
             risultati di Doctolib, dove le disponibilità stanno in un pannello
             separato a destra. */}
+        {/* 🔴 **Rifatta il 2026-08-13 su rilievo dell'utente**: *«con la scheda
+            piccola del dottore non ha senso mettere una data precisa con gli
+            orari … bisogna segnalare il primo appuntamento che ha libero dal
+            calendario e la possibilità di cliccare per consultare il
+            calendario»*. Aveva ragione, e per una ragione di **mestiere della
+            scheda**: sei orari di un giorno solo rispondono a *«è libero
+            venerdì alle 12?»* — che nessuno si sta chiedendo. La domanda vera
+            è *«quando è il primo posto?»*, ed era l'unica informazione che la
+            scheda **non dava in evidenza**, pur avendola in mano. */}
         <div className="scheda-risultato-quando">
-          <p
-            className="text-[13px] uppercase tracking-[.06em]"
-            style={{
-              color: 'var(--fg-muted)',
-              display: 'flex',
-              alignItems: 'center',
-              gap: 'var(--s-5)',
-            }}
-          >
+          <p className="etichetta-quando">
             <IconaCalendario lato={14} />
-            {daMostrare.length > 0 ? giornoInItaliano(daMostrare[0].inizio) : 'Orari liberi'}
+            Primo appuntamento
           </p>
 
-          {daMostrare.length > 0 ? (
-            <ul className="griglia-orari mt-[var(--s-8)]">
-              {daMostrare.slice(0, 6).map((s) => (
-                <li key={s.id} style={{ listStyle: 'none' }}>
-                  {statoOrari === 'spento' ? (
-                    /* Canale spento: restano etichette. ⛔ Un orario che
-                       *sembra* premibile e non lo è è il difetto dei
-                       collegamenti invisibili, girato al contrario. */
-                    <span className="orario-morto">{oraInItaliano(s.inizio)}</span>
-                  ) : (
-                    /* ⚠️ Altezza 44px e non meno: è un bersaglio da pollice, e
-                       questi chip sono l'azione principale della pagina. */
-                    <Link
-                      href={`${percorsoMedico(m.slug)}?slot=${encodeURIComponent(s.id)}`}
-                      className="orario-vivo"
-                    >
-                      {oraInItaliano(s.inizio)}
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </ul>
+          {primo ? (
+            <>
+              {/* 🔑 Un bersaglio solo, grande, con **giorno e ora insieme**:
+                  porta alla scheda con quell'orario già scelto (`?slot=`), che
+                  è il meccanismo di §5.4 del piano — ⛔ non si apre il profilo
+                  per poi ricominciare da capo. */}
+              {statoOrari === 'spento' ? (
+                /* Canale spento: resta un'etichetta. ⛔ Un orario che *sembra*
+                   premibile e non lo è è il difetto dei collegamenti
+                   invisibili, girato al contrario. */
+                <span className="primo-appuntamento primo-appuntamento-morto">
+                  <span className="primo-appuntamento-giorno">
+                    {giornoInItaliano(primo.inizio)}
+                  </span>
+                  <span className="primo-appuntamento-ora">{oraInItaliano(primo.inizio)}</span>
+                </span>
+              ) : (
+                <Link
+                  href={`${percorsoMedico(m.slug)}?slot=${encodeURIComponent(primo.id)}`}
+                  className="primo-appuntamento"
+                >
+                  <span className="primo-appuntamento-giorno">
+                    {giornoInItaliano(primo.inizio)}
+                  </span>
+                  <span className="primo-appuntamento-ora">{oraInItaliano(primo.inizio)}</span>
+                </Link>
+              )}
+
+              {/* ⚠️ **«Giorni con posti liberi», non «orari di apertura».**
+                  L'utente ha chiesto anche *«i giorni della settimana e gli
+                  orari in cui è disponibile»*: ⛔ quel dato **non ce l'abbiamo**
+                  — la proiezione pubblica del sidecar non porta gli orari di
+                  apertura dello studio, porta gli **slot liberi**. Dedurre
+                  l'apertura dagli slot sarebbe inventarla (uno studio aperto
+                  tutti i giorni ma pieno risulterebbe «chiuso»). Qui si dice
+                  **esattamente** ciò che si sa. Il dato mancante è **TD-112**. */}
+              {giornate.length > 1 && (
+                <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                  Posti liberi anche{' '}
+                  {giornate
+                    .slice(1, 4)
+                    .map((g) => g.giorno.replace(/^(\w+)\s.*/, '$1'))
+                    .join(', ')}
+                  {giornate.length > 4 && ` e altri ${giornate.length - 4} giorni`}
+                </p>
+              )}
+
+              <p className="mt-[var(--s-8)]">
+                <Link href={percorsoMedico(m.slug)} className="collegamento-testo text-[15px]">
+                  Vedi il calendario ({daMostrare.length}{' '}
+                  {daMostrare.length === 1 ? 'orario' : 'orari'})
+                </Link>
+              </p>
+            </>
           ) : (
             /* ⚠️ Chi non ha orari **non sparisce dall'elenco**: nasconderlo
                punirebbe il medico per una configurazione mancante e mentirebbe

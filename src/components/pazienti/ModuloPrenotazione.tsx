@@ -4,7 +4,7 @@ import { useEffect, useState, type FormEvent } from 'react'
 import { useOrariLiberi } from '@/lib/orari-liberi'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 import type { SchedaMedicoPubblica, SlotPubblico } from '@/lib/medici-pubblici'
-import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
+import { giornoInItaliano, oraInItaliano, perGiornata } from '@/lib/medici-pubblici'
 
 /* Il modulo di prenotazione, lato paziente — l'ultimo pezzo di TD-95.
  *
@@ -241,29 +241,46 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
 
   return (
     <form onSubmit={invia} style={{ marginTop: 'var(--s-21)' }}>
+      {/* ── IL CALENDARIO ───────────────────────────────────────────────────
+          🔴 **Qui c'era un difetto vero, non solo una forma povera.** La
+          legenda diceva *«Scegli un orario · {giorno di `orari[0]`}»* e sotto
+          elencava **tutti** gli orari, di qualunque giornata: con gli slot di
+          un giorno solo — i dati d'esempio — la bugia non si vede; al secondo
+          giorno la pagina scrive **venerdì** sopra un orario di **sabato**, e
+          un paziente si presenta il giorno sbagliato.
+          🔑 Raggruppare per giornata **è** la correzione: ogni data porta i
+          suoi orari e non può più riferirsi a quelli di un'altra. Non è
+          disciplina di chi scrive, è la struttura che non lo consente.
+          ⚖️ Richiesta dell'utente (2026-08-13): *«nella pagina dedicata al
+          medico deve esserci il calendario completo con le disponibilità in
+          cui il paziente si può prenotare»*. ⚠️ È il calendario **degli slot
+          liberi**, ⛔ non l'agenda dello studio: quella non esce, e non deve. */}
       <fieldset style={{ border: 0, padding: 0, margin: 0 }}>
         <legend className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Scegli un orario · {giornoInItaliano(orari[0].inizio)}
+          Scegli un orario
         </legend>
-        <ul
-          style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8)', marginTop: 'var(--s-8)' }}
-        >
-          {orari.map((s) => {
-            const scelto = slot?.id === s.id
-            return (
-              <li key={s.id} style={{ listStyle: 'none' }}>
-                <button
-                  type="button"
-                  onClick={() => setSlot(s)}
-                  aria-pressed={scelto}
-                  className={`btn ${scelto ? 'btn-primario' : 'btn-secondario'}`}
-                >
-                  {oraInItaliano(s.inizio)}
-                </button>
-              </li>
-            )
-          })}
-        </ul>
+        {perGiornata(orari).map((g) => (
+          <div key={g.chiave} className="calendario-giorno">
+            <p className="calendario-giorno-testata">{g.giorno}</p>
+            <ul className="griglia-orari">
+              {g.orari.map((s) => {
+                const scelto = slot?.id === s.id
+                return (
+                  <li key={s.id} style={{ listStyle: 'none' }}>
+                    <button
+                      type="button"
+                      onClick={() => setSlot(s)}
+                      aria-pressed={scelto}
+                      className={scelto ? 'orario-vivo' : 'orario-scelta'}
+                    >
+                      {oraInItaliano(s.inizio)}
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        ))}
       </fieldset>
 
       {slot && (
