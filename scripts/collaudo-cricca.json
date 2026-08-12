@@ -1,0 +1,6 @@
+{
+  "_perche": "Quanti problemi il collaudo trova oggi. È una CRICCA, come scripts/tappe-alte.json e come lint-produzione.py nel knowledge: da qui il numero può solo SCENDERE. ⛔ Un presidio che pretende zero al primo giorno è rosso dal primo giorno, e un presidio sempre rosso viene spento — in questo progetto è già successo due volte, ed è scritto in tappe-alte.json. Così invece un difetto NUOVO fa fallire il push, mentre quelli già presenti restano da chiudere senza bloccare nessuno.",
+  "_come_si_aggiorna": "Quando ne chiudi qualcuno, ABBASSA il numero e scrivi quali qui sotto. ⛔ Alzarlo è vietato: è precisamente il gesto con cui i presidi si perdono.",
+  "_cosa_resta_dentro": "Al 2026-08-12, 15: tredici «lineetta lunga spaziata» (i sorgenti ne hanno 85 righe, il collaudo ne segnala una per pagina) — testo rientrato da copia-incolla, va riscritto a mano, non con una sostituzione; le schermate scadute rispetto al frontend EMR, che si rigenerano con lo script apposta; e la riga delle tappe.",
+  "massimo": 15
+}

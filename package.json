@@ -7,7 +7,9 @@
     "build": "next build",
     "postbuild": "node scripts/fix-og-image-mime.mjs && node scripts/reindirizzamenti.mjs && node scripts/cname.mjs && node scripts/corpus-assistente.mjs",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "collaudo": "node scripts/collaudo.mjs",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

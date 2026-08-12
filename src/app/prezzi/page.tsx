@@ -254,8 +254,12 @@ export default function Prezzi() {
             className="mt-[var(--s-21)] text-[1.0625rem]"
             style={{ color: 'var(--fg-muted)', maxWidth: '52ch', marginInline: 'auto' }}
           >
-            Due sedi ma un medico solo, una segretaria che non visita, un periodo di prova.
-            Chiedi pure: se la risposta non c&apos;è, lo dice invece di inventarla.
+            {/* ⚠️ Corta di una riga rispetto alla prima stesura, e non per gusto:
+                su 375px la sezione arrivava a **783px contro i 770** di una
+                schermata utile, e `altezza-pagine.mjs` la contava come passo
+                alto. Due esempi su tre bastano, e il resto lo dice il widget. */}
+            Due sedi ma un medico solo, una segretaria che non visita. Chiedi pure: se la
+            risposta non c&apos;è, lo dice.
           </p>
           <div className="mt-[var(--s-34)]">
             <Assistente />

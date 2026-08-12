@@ -1,5 +1,6 @@
 {
   "_perche": "Le tappe che oggi superano una schermata, con la ragione. È una CRICCA come `lint-produzione.py` nel knowledge: da qui il numero può solo SCENDERE. Un'assoluta «tutte sotto il 108%» sarebbe rossa dal primo giorno per casi legittimi (il questionario è una cosa sola), e un presidio sempre rosso viene spento — è già successo due volte in questo progetto. Così invece una tappa NUOVA che sfora fa diventare rosso il collaudo.",
+  "_fragilita_nota": "\u26a0\ufe0f Le tolleranze sono indicizzate per POSIZIONE (`tappa-N`), e i numeri li genera `Tappe` contando i figli: inserire una sezione a met\u00e0 pagina rinumera tutte quelle dopo. Successo il 2026-08-12 aggiungendo la sezione dell'assistente sulla home: la stessa `Chiusura` \u00e8 passata da `tappa-15` a `tappa-16`, e il collaudo ha detto insieme \u00abla tolleranza 15 non serve pi\u00f9\u00bb e \u00abla 16 \u00e8 nuova e sfora\u00bb \u2014 due righe per una sezione che non era cambiata di un pixel. \u26d4 Il rischio vero non \u00e8 il rumore: \u00e8 che una tolleranza scritta per UNA sezione finisca a coprirne un'ALTRA in silenzio. \u21d2 Se questo file va toccato di nuovo per una rinumerazione, conviene indicizzarlo sull'`id` della sezione (`#parliamone`, `#chiedi`) invece che sulla posizione.",
   "_come_si_aggiorna": "Quando ne accorci una, TOGLI la sua riga da qui. Aggiungerne una è vietato: `node scripts/altezza-pagine.mjs` lo rifiuta e dice quale. Se una tappa sfora per una ragione legittima nuova, discutine prima — non incollarla qui.",
   "tollerate": [
     {
@@ -34,7 +35,7 @@
     },
     {
       "pagina": "/",
-      "tappa": "tappa-15",
+      "tappa": "tappa-16",
       "px": 861,
       "perche": "La chiusura con i quattro campi del modulo. Il modulo non si spezza."
     }

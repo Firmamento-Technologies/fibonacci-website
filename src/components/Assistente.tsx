@@ -190,7 +190,14 @@ export function Assistente() {
           >
             {inCorso ? 'Sto leggendo il sito…' : 'Chiedi'}
           </button>
-          <span className="text-[0.875rem]" style={{ color: 'var(--fg-faint)' }}>
+          {/* ⚠️ `--fg-muted` e non `--fg-faint`, e il motivo è scritto accanto al
+              token in `globals.css`: **«terziario, solo ≥16px — 4.6:1 su --bg»**.
+              Qui il testo è a **14px** e il fondo è `--bg-sunk`, più scuro di
+              `--bg` ⇒ misurato dal collaudo: **4,41 contro 4,5 richiesti**,
+              violazione WCAG *serious* su tutte e tre le pagine che montano il
+              widget. Il vincolo del token era scritto e l'ho rotto in entrambe
+              le metà. */}
+          <span className="text-[0.875rem]" style={{ color: 'var(--fg-muted)' }}>
             {domanda.length}/500
           </span>
         </div>
@@ -205,7 +212,7 @@ export function Assistente() {
       {/* Gli esempi non sono decorazione: dicono in un colpo d'occhio di che
           cosa si può parlare, che è più chiaro di una regola scritta. */}
       <div className="mt-[var(--s-21)] flex flex-wrap gap-[var(--s-8)]">
-        {ESEMPI.map((e) => (
+        {ESEMPI.map((e, i) => (
           <button
             key={e}
             type="button"
@@ -213,7 +220,17 @@ export function Assistente() {
               setDomanda(e)
               void chiedi(e)
             }}
-            className="rounded-[var(--s-21)] px-[var(--s-13)] py-[var(--s-5)] text-[0.875rem]"
+            /* ⚠️ Il quarto esempio sparisce sotto i 640px, e non è un ritocco
+               estetico: è il più lungo e su 375px occupa una riga da solo.
+               Misurato dal collaudo — la sezione arrivava a **778px sulla home e
+               802 sul listino** contro i **771** di una schermata utile, e
+               `altezza-pagine.mjs` contava due passi alti in più (4 contro i 2
+               della cricca). Una riga di pastiglie vale ~40px: bastava quella.
+               ⛔ Non si comprime il contenitore, si toglie contenuto — è
+               scritto nel presidio stesso. */
+            className={`rounded-[var(--s-21)] px-[var(--s-13)] py-[var(--s-5)] text-[0.875rem]${
+              i === ESEMPI.length - 1 ? ' hidden sm:inline-block' : ''
+            }`}
             style={{
               background: 'var(--accent-wash)',
               color: 'var(--accent-ink)',
