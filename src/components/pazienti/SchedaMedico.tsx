@@ -183,8 +183,11 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
             </ul>
             {/* 🔴 **Corretto il 2026-08-12 guardando la pagina.** Qui c'era
                 scritto *«Scegliere un orario invia una richiesta»* — ma gli
-                orari **non sono selezionabili**: il modulo di prenotazione è
-                fermo finché il gate d'emergenza non sta lato server (TD-104).
+                orari **non sono selezionabili**: il modulo di prenotazione non
+                è ancora scritto. ✅ **AGGIORNATO il 2026-08-12**: non è più
+                *bloccato* — **TD-104 è chiusa**, il gate d'emergenza sta nel
+                sidecar — è semplicemente **da fare**, ed è l'ultimo pezzo di
+                TD-95.
                 Era una promessa scritta di un'interazione inesistente, cioè lo
                 stesso difetto del pulsante finto, in forma di prosa.
                 ⚖️ Quando il modulo esisterà, la riga torna — e resterà

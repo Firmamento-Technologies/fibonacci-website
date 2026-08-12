@@ -70,10 +70,15 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
             Prossimi orari liberi · {giornoInItaliano(m.slot[0].inizio)}
           </p>
           {/* ⚠️ **Etichette, non pulsanti — e la differenza è deliberata.**
-              La prenotazione dal sito è ferma finché il gate d'emergenza non
-              sta lato server (TD-104): un orario che *sembra* premibile e non
-              lo è è lo stesso difetto dei collegamenti invisibili, girato al
-              contrario. Diventano collegamenti quando il modulo esiste. */}
+              Un orario che *sembra* premibile e non lo è è lo stesso difetto
+              dei collegamenti invisibili, girato al contrario.
+              ✅ **AGGIORNATO il 2026-08-12**: la ragione **non è più un
+              blocco**. **TD-104 è chiusa** (EMR `7084078`): il gate
+              d'emergenza è uscito dal browser, sta nel sidecar, risponde 409
+              e le copie della REGOLA-118 sono passate **da tre a una**. ⇒ il
+              modulo di prenotazione **si può fare**, e resta l'ultimo pezzo di
+              **TD-95** — che la chiusura di TD-104 ha lasciato fuori di
+              proposito. Diventano collegamenti quando quel modulo esiste. */}
           <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8)', marginTop: 'var(--s-8)' }}>
             {m.slot.slice(0, 3).map((s) => (
               <li
