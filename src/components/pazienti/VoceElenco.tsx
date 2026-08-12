@@ -1,5 +1,8 @@
+'use client'
+
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
+import { useOrariLiberi } from '@/lib/orari-liberi'
 import { percorsoMedico, giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
 
 /* La voce di elenco: l'unità che risponde alla domanda del paziente.
@@ -26,16 +29,34 @@ import { percorsoMedico, giornoInItaliano, oraInItaliano } from '@/lib/medici-pu
  * prezzo per averla). Vedi [[piano-ui-canale-paziente]] §4.
  */
 export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
+  /* 🔑 **Gli orari veri, e premibili.** §5.4 del piano: *«si prenota dalla
+   * lista, non dal profilo»* — è il meccanismo che regge le pagine risultati di
+   * MioDottore e Doctolib, misurato prima di copiarlo. Qui erano **etichette
+   * morte e statiche**: il commento diceva «diventano collegamenti quando quel
+   * modulo esiste», e il modulo adesso esiste. */
+  const { orari, stato: statoOrari } = useOrariLiberi(m.organizationId)
+  const daMostrare = statoOrari === 'spento' ? m.slot : orari
   const telefono = m.studio.telefono.replace(/\s/g, '')
   const prime = m.prestazioni.slice(0, 3)
   const altre = m.prestazioni.length - prime.length
 
   return (
+    /* 🔑 **Card, non riga.** Su MioDottore e Doctolib (anatomia misurata in
+       [[piano-ui-canale-paziente]] §3) l'unità della pagina risultati è una
+       **scheda staccata**: fondo proprio, bordo, e dentro tutto ciò che serve a
+       decidere senza aprire il profilo. Qui erano righe divise da un filetto —
+       che è la forma di un **articolo**, non di un elenco di risultati, ed è
+       esattamente il rilievo dell'utente («non c'entra nulla con un sito dove i
+       pazienti cercano i medici»). */
     <li
       style={{
         listStyle: 'none',
-        padding: 'var(--s-21) 0',
-        borderBottom: '1px solid var(--rule)',
+        padding: 'var(--s-21)',
+        marginBottom: 'var(--s-13)',
+        background: '#fff',
+        border: '1px solid var(--rule)',
+        borderRadius: 'var(--r-lg)',
+        boxShadow: '0 1px 2px rgba(16, 31, 46, 0.04)',
       }}
     >
       <div style={{ display: 'flex', gap: 'var(--s-13)', alignItems: 'flex-start' }}>
@@ -62,12 +83,12 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
         {altre > 0 && <span style={{ color: 'var(--fg-muted)' }}> e altre {altre}</span>}
       </p>
 
-      {m.slot.length > 0 ? (
+      {daMostrare.length > 0 ? (
         <div className="mt-[var(--s-13)]">
           {/* Il giorno **una volta**, poi solo gli orari: era ripetuto per
               ogni riga e si leggevano tre volte le stesse parole. */}
           <p className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-            Prossimi orari liberi · {giornoInItaliano(m.slot[0].inizio)}
+            Prossimi orari liberi · {giornoInItaliano(daMostrare[0].inizio)}
           </p>
           {/* ⚠️ **Etichette, non pulsanti — e la differenza è deliberata.**
               Un orario che *sembra* premibile e non lo è è lo stesso difetto
@@ -80,18 +101,45 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
               **TD-95** — che la chiusura di TD-104 ha lasciato fuori di
               proposito. Diventano collegamenti quando quel modulo esiste. */}
           <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8)', marginTop: 'var(--s-8)' }}>
-            {m.slot.slice(0, 3).map((s) => (
-              <li
-                key={s.id}
-                className="text-[15px]"
-                style={{
-                  listStyle: 'none',
-                  padding: 'var(--s-5) var(--s-13)',
-                  background: 'var(--bg-sunk)',
-                  borderRadius: 'var(--r-sm)',
-                }}
-              >
-                {oraInItaliano(s.inizio)}
+            {daMostrare.slice(0, 4).map((s) => (
+              <li key={s.id} style={{ listStyle: 'none' }}>
+                {statoOrari === 'spento' ? (
+                  /* Canale spento: restano etichette. ⛔ Un orario che *sembra*
+                     premibile e non lo è è il difetto dei collegamenti
+                     invisibili, girato al contrario. */
+                  <span
+                    className="text-[15px]"
+                    style={{
+                      display: 'inline-block',
+                      padding: 'var(--s-8) var(--s-13)',
+                      background: 'var(--bg-sunk)',
+                      borderRadius: 'var(--r-sm)',
+                    }}
+                  >
+                    {oraInItaliano(s.inizio)}
+                  </span>
+                ) : (
+                  /* ⚠️ Altezza 44px e non meno: è un bersaglio da pollice su un
+                     telefono, e questi chip sono l'azione principale della
+                     pagina. */
+                  <Link
+                    href={`${percorsoMedico(m.slug)}?slot=${encodeURIComponent(s.id)}`}
+                    className="text-[15px]"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      minHeight: '44px',
+                      padding: '0 var(--s-13)',
+                      background: 'var(--bg-sunk)',
+                      border: '1px solid var(--rule)',
+                      borderRadius: 'var(--r-sm)',
+                      color: 'var(--accent)',
+                      fontVariantNumeric: 'tabular-nums',
+                    }}
+                  >
+                    {oraInItaliano(s.inizio)}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
@@ -101,7 +149,7 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
            punirebbe il medico per una configurazione mancante e mentirebbe al
            paziente sulla disponibilità reale. Si dice cosa fare adesso. */
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Nessun orario pubblicato.
+          {statoOrari === 'cerco' ? 'Cerco gli orari liberi…' : 'Nessun orario pubblicato.'}
         </p>
       )}
 

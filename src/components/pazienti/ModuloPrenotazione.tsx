@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState, type FormEvent } from 'react'
+import { useOrariLiberi } from '@/lib/orari-liberi'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 import type { SchedaMedicoPubblica, SlotPubblico } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
@@ -83,38 +84,23 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
    *
    * ⛔ Quelli di `m.slot` restano solo come **indizio di build** («questo studio
    * ha disponibilità»): non si prenota mai su quelli. */
-  const [orari, setOrari] = useState<readonly SlotPubblico[]>([])
-  const [caricando, setCaricando] = useState(true)
+  const { orari, stato: statoOrari } = useOrariLiberi(m.organizationId)
   const [slot, setSlot] = useState<SlotPubblico | null>(null)
+
+  /* 🔑 **Lo slot scelto dall'elenco arriva nell'indirizzo** (`?slot=<id>`), e si
+   * seleziona da solo. È il punto di §5.4 del piano: *«il chip orario nella voce
+   * di elenco porta direttamente al modulo con lo slot già scelto — non apri la
+   * scheda, poi trova gli orari, poi prenota: tre passi dove ne bastano due»*.
+   * ⚠️ Si applica **quando gli orari arrivano**, non al montaggio: prima non
+   * esistono ancora, e cercarlo darebbe sempre niente. */
+  useEffect(() => {
+    if (slot || orari.length === 0) return
+    const cercato = new URLSearchParams(window.location.search).get('slot')
+    if (cercato) setSlot(orari.find((s) => s.id === cercato) ?? null)
+  }, [orari, slot])
   const [dati, setDati] = useState({ nome: '', telefono: '', motivo: '' })
   const [stato, setStato] = useState<Stato>('fermo')
   const [messaggio, setMessaggio] = useState('')
-
-  useEffect(() => {
-    if (!PRENOTA_API_URL) return
-    let vivo = true
-    const base = PRENOTA_API_URL.replace(/\/$/, '')
-    fetch(`${base}/pubblico/prenota/slot?organization_id=${encodeURIComponent(m.organizationId)}`)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then((d: { slot?: { id: string; start: string; end: string }[] }) => {
-        /* 🔴 **I nomi NON combaciavano, e il commento del tipo diceva di sì.**
-         * `SlotPubblico` dichiara *«stessa forma di GET /pubblico/prenota/slot»*
-         * con `inizio`/`fine`, ma l'endpoint risponde `start`/`end` — trovato
-         * cablandolo davvero, il 2026-08-12: senza questa conversione gli orari
-         * arrivavano e la pagina mostrava «Invalid Date». ⚠️ È il motivo per cui
-         * «stessa forma» scritto in un commento non è un contratto. */
-        if (vivo) {
-          setOrari((d.slot ?? []).map((s) => ({ id: s.id, inizio: s.start, fine: s.end })))
-        }
-      })
-      // ⛔ Fail-closed: se non si sa quali orari sono liberi non se ne offre
-      // nessuno. Offrirne uno a caso vorrebbe dire far prenotare nel vuoto.
-      .catch(() => vivo && setOrari([]))
-      .finally(() => vivo && setCaricando(false))
-    return () => {
-      vivo = false
-    }
-  }, [m.organizationId])
 
   const aggiorna = (campo: keyof typeof dati) => (e: { target: { value: string } }) =>
     setDati((d) => ({ ...d, [campo]: e.target.value }))
@@ -234,7 +220,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
 
   /* ⚠️ Prima di disegnare il selettore: gli orari **veri** possono non esserci,
      e `orari[0]` su una lista vuota è un errore in faccia al paziente. */
-  if (caricando) {
+  if (statoOrari === 'cerco') {
     return (
       <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }} role="status">
         Cerco gli orari liberi…
@@ -242,7 +228,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
     )
   }
 
-  if (orari.length === 0) {
+  if (statoOrari === 'nessuno') {
     /* ⛔ Non si scrive «non ci sono orari»: non lo sappiamo. Sappiamo che **non
        ne abbiamo ricevuti**, e le due cose si distinguono per il paziente. */
     return (

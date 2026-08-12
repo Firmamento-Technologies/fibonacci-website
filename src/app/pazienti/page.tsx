@@ -58,26 +58,89 @@ export default function Page() {
         className="gabbia"
         style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-55)' }}
       >
+        {/* ⚠️ Intestazione **compatta**: su una pagina di risultati l'aria in
+            cima è spazio tolto ai risultati. `display-3` e non `display-2`. */}
         <header style={{ maxWidth: 'var(--measure)' }}>
-          <h1 className="text-[length:var(--display-2)]">
-            Prima di affidarti a un medico estetico
+          <h1 className="text-[length:var(--display-3)]">
+            Trova il tuo medico estetico, e prenota quando è libero
           </h1>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Tre controlli che puoi fare da solo, gratis, in pochi minuti: se è davvero
-            iscritto all’Ordine, che cosa hai diritto di chiedergli, e che cos’è il foglio
-            che ti fanno firmare. Più in basso trovi gli studi che usano Fibonacci e hanno
-            scelto di pubblicare qui i loro orari.
+            Gli studi che usano Fibonacci e hanno scelto di pubblicare la loro pagina:
+            chi è il medico, il suo numero d’iscrizione all’Ordine, dove riceve, e gli orari
+            che ha davvero liberi. Premi un orario per chiedere quell’appuntamento.
           </p>
         </header>
 
+        {/* ⚠️ **L'elenco esce dalla colonna di lettura.** `--measure` (34rem) è
+            la misura giusta per la PROSA, e infatti la teniamo per le sezioni di
+            testo qui sotto. Una pagina di risultati non è prosa: dentro ogni
+            scheda ci sono nome, albo, prestazioni e una fila di orari, e a 34rem
+            gli orari andavano a capo. */}
+        <div style={{ maxWidth: '52rem' }}>
+          <Sezione id="elenco" titolo="Gli studi che hanno pubblicato la loro pagina">
+            {pubblicati.length === 0 ? (
+              <p>
+                <strong>Per ora nessuno.</strong> Le pagine si accendono una a una, quando è
+                lo studio a volerlo. Se il tuo medico usa Fibonacci, l’indirizzo della sua
+                pagina te lo può dare lui: lì trovi il numero d’iscrizione all’Ordine, dove
+                riceve, e gli orari che ha davvero liberi.
+              </p>
+            ) : (
+              <>
+                {/* ⛔ **Niente ricerca né filtri sotto i 15 studi**
+                    (`SOGLIA_ELENCO`, decisione dell'utente 2026-08-12): filtrare
+                    tre risultati è teatro, e una ricerca che ne restituisce due
+                    dice «qui non c'è nessuno» meglio dell'elenco stesso.
+                    Sopra la soglia entrano — NN/g mette le sotto-categorie
+                    **sopra** l'elenco, separate dai filtri. */}
+                {pubblicati.length >= SOGLIA_ELENCO && (
+                  <p className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                    {pubblicati.length} studi.
+                  </p>
+                )}
+                <ul style={{ marginTop: 'var(--s-8)' }}>
+                  {pubblicati.map((m) => (
+                    <VoceElenco key={m.slug} m={m} />
+                  ))}
+                </ul>
+                {/* ⚖️ L'ordine si dichiara **sempre**, anche quando è banale: è
+                    il contrario esatto del badge «In evidenza», che è posizione
+                    in vendita. Qui non lo è, e va detto in pagina. */}
+                <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
+                  In ordine alfabetico. Nessuno può pagare per comparire più in alto.
+                </p>
+              </>
+            )}
+          </Sezione>
+
+        </div>
+
         <div style={{ maxWidth: 'var(--measure)' }}>
-          {/* ⚠️ **Va PRIMA dell'elenco, ed è una correzione su rilievo dell'utente
-              (2026-08-12): «non dice nulla».** Aveva ragione — la pagina apriva
-              con un elenco vuoto, cioè col nostro problema invece che con
-              qualcosa di utile. ⛔ Con zero medici pubblicati, l'unica cosa che
-              questa pagina può davvero dare a chi arriva **oggi** sono i tre
-              controlli: sono gratis, si fanno da soli, e valgono anche per un
-              medico che Fibonacci non lo usa. L'elenco resta, sotto, onesto. */}
+          <Sezione id="cosa-non" titolo="Che cosa non troverai qui, e perché">
+            <p>
+              <strong>Nessuna classifica.</strong> Nessuno può pagare per comparire più in
+              alto: quando gli studi saranno abbastanza da fare un elenco, l’ordine sarà
+              dichiarato in pagina e non sarà in vendita a nessuno.
+            </p>
+            <p className="mt-[var(--s-13)]">
+              <strong>Nessuna recensione.</strong> Per garantire che vengano da pazienti veri
+              dovremmo collegare chi scrive alla sua cartella clinica, cioè rivelare che
+              quella persona è stata paziente di quel medico. Non lo facciamo.
+            </p>
+            <p className="mt-[var(--s-13)]">
+              <strong>Nessun prezzo e nessuna promozione.</strong> La legge italiana vieta ai
+              medici le comunicazioni con elementi «attrattivi e suggestivi», offerte e sconti
+              compresi. Gli onorari te li dice lo studio.
+            </p>
+          </Sezione>
+
+          {/* ⚠️ **Sta SOTTO l'elenco, e ci è tornato dopo un giro sbagliato.**
+              Il 2026-08-12 l'avevo messo in cima perché la pagina «non diceva
+              nulla» — vero, ma la cura era un'altra: il piano
+              [[piano-ui-canale-paziente]] §5.1 dice **«l'elenco è la home»**, e
+              una pagina dove i pazienti cercano medici apre con i medici, non
+              con un articolo. I tre controlli restano, e sono il nostro pezzo
+              distintivo: ⛔ ma non sono il mestiere di questa pagina. */}
           <Sezione id="fiducia" titolo="Tre controlli che puoi fare da solo">
             <ol style={{ listStyle: 'none', padding: 0 }}>
               <li style={{ paddingBottom: 'var(--s-21)' }}>
@@ -117,60 +180,6 @@ export default function Page() {
                 </p>
               </li>
             </ol>
-          </Sezione>
-
-          <Sezione id="elenco" titolo="Gli studi che hanno pubblicato la loro pagina">
-            {pubblicati.length === 0 ? (
-              <p>
-                <strong>Per ora nessuno.</strong> Le pagine si accendono una a una, quando è
-                lo studio a volerlo. Se il tuo medico usa Fibonacci, l’indirizzo della sua
-                pagina te lo può dare lui: lì trovi il numero d’iscrizione all’Ordine, dove
-                riceve, e gli orari che ha davvero liberi.
-              </p>
-            ) : (
-              <>
-                {/* ⛔ **Niente ricerca né filtri sotto i 15 studi**
-                    (`SOGLIA_ELENCO`, decisione dell'utente 2026-08-12): filtrare
-                    tre risultati è teatro, e una ricerca che ne restituisce due
-                    dice «qui non c'è nessuno» meglio dell'elenco stesso.
-                    Sopra la soglia entrano — NN/g mette le sotto-categorie
-                    **sopra** l'elenco, separate dai filtri. */}
-                {pubblicati.length >= SOGLIA_ELENCO && (
-                  <p className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                    {pubblicati.length} studi.
-                  </p>
-                )}
-                <ul style={{ marginTop: 'var(--s-8)' }}>
-                  {pubblicati.map((m) => (
-                    <VoceElenco key={m.slug} m={m} />
-                  ))}
-                </ul>
-                {/* ⚖️ L'ordine si dichiara **sempre**, anche quando è banale: è
-                    il contrario esatto del badge «In evidenza», che è posizione
-                    in vendita. Qui non lo è, e va detto in pagina. */}
-                <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
-                  In ordine alfabetico. Nessuno può pagare per comparire più in alto.
-                </p>
-              </>
-            )}
-          </Sezione>
-
-          <Sezione id="cosa-non" titolo="Che cosa non troverai qui, e perché">
-            <p>
-              <strong>Nessuna classifica.</strong> Nessuno può pagare per comparire più in
-              alto: quando gli studi saranno abbastanza da fare un elenco, l’ordine sarà
-              dichiarato in pagina e non sarà in vendita a nessuno.
-            </p>
-            <p className="mt-[var(--s-13)]">
-              <strong>Nessuna recensione.</strong> Per garantire che vengano da pazienti veri
-              dovremmo collegare chi scrive alla sua cartella clinica, cioè rivelare che
-              quella persona è stata paziente di quel medico. Non lo facciamo.
-            </p>
-            <p className="mt-[var(--s-13)]">
-              <strong>Nessun prezzo e nessuna promozione.</strong> La legge italiana vieta ai
-              medici le comunicazioni con elementi «attrattivi e suggestivi», offerte e sconti
-              compresi. Gli onorari te li dice lo studio.
-            </p>
           </Sezione>
 
           <Sezione id="dati" titolo="I tuoi dati">
