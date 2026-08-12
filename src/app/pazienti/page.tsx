@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
-import { VoceElenco } from '@/components/pazienti/VoceElenco'
-import { mediciPubblicati, mostraEsempi, SOGLIA_ELENCO } from '@/lib/medici-pubblici'
+import { RicercaMedici } from '@/components/pazienti/RicercaMedici'
+import { mediciPubblicati, mostraEsempi } from '@/lib/medici-pubblici'
 
 export const metadata: Metadata = {
   title: 'Trova il tuo medico estetico e prenota',
@@ -65,8 +65,7 @@ export default function Page() {
             Trova il tuo medico estetico, e prenota quando è libero
           </h1>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Gli studi che usano Fibonacci e hanno scelto di pubblicare la loro pagina:
-            chi è il medico, il suo numero d’iscrizione all’Ordine, dove riceve, e gli orari
+            Chi è il medico, il suo numero d’iscrizione all’Ordine, dove riceve e gli orari
             che ha davvero liberi. Premi un orario per chiedere quell’appuntamento.
           </p>
         </header>
@@ -78,41 +77,12 @@ export default function Page() {
             gli orari andavano a capo. */}
         <div style={{ maxWidth: '52rem' }}>
           <Sezione id="elenco" titolo="Gli studi che hanno pubblicato la loro pagina">
-            {pubblicati.length === 0 ? (
-              <p>
-                <strong>Per ora nessuno.</strong> Le pagine si accendono una a una, quando è
-                lo studio a volerlo. Se il tuo medico usa Fibonacci, l’indirizzo della sua
-                pagina te lo può dare lui: lì trovi il numero d’iscrizione all’Ordine, dove
-                riceve, e gli orari che ha davvero liberi.
-              </p>
-            ) : (
-              <>
-                {/* ⛔ **Niente ricerca né filtri sotto i 15 studi**
-                    (`SOGLIA_ELENCO`, decisione dell'utente 2026-08-12): filtrare
-                    tre risultati è teatro, e una ricerca che ne restituisce due
-                    dice «qui non c'è nessuno» meglio dell'elenco stesso.
-                    Sopra la soglia entrano — NN/g mette le sotto-categorie
-                    **sopra** l'elenco, separate dai filtri. */}
-                {pubblicati.length >= SOGLIA_ELENCO && (
-                  <p className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                    {pubblicati.length} studi.
-                  </p>
-                )}
-                <ul style={{ marginTop: 'var(--s-8)' }}>
-                  {pubblicati.map((m) => (
-                    <VoceElenco key={m.slug} m={m} />
-                  ))}
-                </ul>
-                {/* ⚖️ L'ordine si dichiara **sempre**, anche quando è banale: è
-                    il contrario esatto del badge «In evidenza», che è posizione
-                    in vendita. Qui non lo è, e va detto in pagina. */}
-                <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
-                  In ordine alfabetico. Nessuno può pagare per comparire più in alto.
-                </p>
-              </>
-            )}
+            {/* 🔑 La ricerca **e** i risultati stanno insieme: separarli
+                vorrebbe dire un campo che non si vede mentre si scorre, cioè il
+                difetto che loro risolvono con l'intestazione persistente (§3.1
+                del piano). */}
+            <RicercaMedici medici={pubblicati} />
           </Sezione>
-
         </div>
 
         <div style={{ maxWidth: 'var(--measure)' }}>

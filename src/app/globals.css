@@ -1819,3 +1819,20 @@ h3:hover > .ancora,
 .manuale__contesto a:hover { color: var(--accent-deep); }
 .manuale__contesto a[data-corrente='si'] { color: var(--accent-deep); font-weight: 600; }
 .manuale__contesto a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+
+/* ── La ricerca del lato paziente (TD-95) ────────────────────────────────
+   Su schermo largo i due campi stanno **in fila**, come su MioDottore e
+   Doctolib: il «cosa» e il «dove» sono una domanda sola, e spezzarli in due
+   righe li fa sembrare due passi. Su telefono tornano impilati, perché in
+   fila sarebbero due campi da 40px in cui non si scrive. */
+.ricerca-pazienti {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 40rem) {
+  .ricerca-pazienti {
+    grid-template-columns: 1.4fr 1fr;
+    align-items: end;
+  }
+}
