@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import { AssistenteFisso } from '@/components/AssistenteFisso'
 import { Geist, Geist_Mono, Newsreader } from 'next/font/google'
 import { SITE_URL } from '@/lib/site-config'
 import './globals.css'
@@ -126,6 +127,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col">
         <a href="#contenuto" className="salta-al-contenuto">Salta al contenuto</a>
         {children}
+        {/* L'assistente, da ogni pagina. ⚠️ DOPO {children}: cosi' e' l'ultimo
+            nell'ordine di lettura e non si mette davanti al contenuto per chi
+            naviga da tastiera o con uno screen reader. La posizione a schermo
+            la decide il CSS. */}
+        <AssistenteFisso />
       </body>
     </html>
   )
