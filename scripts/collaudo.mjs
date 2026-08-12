@@ -655,6 +655,33 @@ async function main() {
     const leggi = (nome) =>
       cfg.match(new RegExp(`export const ${nome}(?::\\s*\\w+)?\\s*=\\s*['"]([^'"]*)['"]`))?.[1]
 
+    /* ── L'origine su cui il sito è PUBBLICATO ────────────────────────────
+     *
+     * Serve solo ai valori **relativi**: un percorso come `/contatto/lead` non
+     * ha un host suo, e va risolto sull'origine che il browser di chi compila
+     * il modulo sta già usando.
+     *
+     * ⛔ Quell'origine NON si scrive qui a mano. Sarebbe un secondo posto da
+     * aggiornare al prossimo cambio di dominio, cioè la stessa trappola che il
+     * commento di `demoUrlDelSito()` descrive: un controllo che misura un
+     * indirizzo che il sito non usa più. Si ricava dal recapito pubblico —
+     * l'unico dominio che il sito dichiara come proprio — e **si verifica che
+     * serva davvero il sito** prima di fidarsene. Se non risponde, la domanda
+     * resta senza risposta e lo si dice: non si inventa un rosso. */
+    let origineNota
+    const origineDelSitoPubblicato = async () => {
+      if (origineNota !== undefined) return origineNota
+      const dominio = (leggi('CONTACT_EMAIL') ?? '').split('@')[1]?.trim()
+      if (!dominio) return (origineNota = null)
+      const origine = `https://${dominio}`
+      try {
+        const r = await fetch(`${origine}/`, { method: 'HEAD', signal: AbortSignal.timeout(15000) })
+        return (origineNota = r.ok ? origine : null)
+      } catch {
+        return (origineNota = null)
+      }
+    }
+
     for (const [nome, atteso] of [['APP_URL', 'accesso'], ['LEAD_API_URL', 'contatti']]) {
       const url = leggi(nome)
       /* ⚠️ TRE stati, non due, e confonderli e' costato un rosso su una cosa
@@ -673,15 +700,53 @@ async function main() {
         continue
       }
       if (url === '') continue  // assenza dichiarata: gia' verificata altrove
+
+      /* ⚠️ E il QUARTO stato, che è costato un rosso su una cosa sana il
+         2026-08-13: il valore può essere un **percorso relativo**.
+         `LEAD_API_URL` vale `/contatto/lead`, e in Node `fetch('/contatto/lead')`
+         non è una richiesta che fallisce — è un `TypeError: Failed to parse
+         URL`, che il `catch` qui sotto raccontava come «l'indirizzo non
+         risponde». Misurato: quell'endpoint risponde **405 a HEAD e 400 a POST
+         `{}`**, cioè è vivo e valida pure il corpo. Il presidio dichiarava
+         morto il canale dei contatti mentre funzionava, ed è stato scavalcato
+         con `--no-verify` **due volte in un giorno**: è esattamente così che un
+         presidio smette di esistere — la terza volta nessuno lo rilegge più. */
+      let assoluto = url
+      const relativo = !/^[a-z][a-z0-9+.-]*:/i.test(url)
+      if (relativo) {
+        const origine = await origineDelSitoPubblicato()
+        if (!origine) {
+          console.log(
+            giallo(
+              `\n${nome} (${atteso}) è un percorso relativo (${url}) e il sito pubblicato non è raggiungibile da qui:\n` +
+                '  non misurabile in questo giro — non è un difetto del sito, è una domanda rimasta senza risposta.',
+            ),
+          )
+          continue
+        }
+        assoluto = new URL(url, origine).href
+      }
+
       try {
         // HEAD basta: qui si chiede «questo host esiste?», non «cosa risponde».
-        const r = await fetch(url, { method: 'HEAD', redirect: 'manual', signal: AbortSignal.timeout(15000) })
+        const r = await fetch(assoluto, { method: 'HEAD', redirect: 'manual', signal: AbortSignal.timeout(15000) })
         if (r.status >= 500) {
-          problemi.push(`${nome} (${atteso}): ${url} risponde HTTP ${r.status}, e il sito lo promuove`)
+          problemi.push(`${nome} (${atteso}): ${assoluto} risponde HTTP ${r.status}, e il sito lo promuove`)
+        } else if (relativo && r.status === 404) {
+          /* ⚠️ Sul percorso relativo il 404 è il difetto vero, e va distinto
+             dal 405: l'host c'è per costruzione — è il sito stesso — quindi
+             «l'host risponde» non dimostra niente. L'unica cosa che questo
+             controllo può ancora dimostrare è che quel percorso sia
+             **instradato** a qualcosa. Un 405 (metodo non ammesso) o un 400
+             (corpo rifiutato) sono risposte di chi c'è; un 404 vuol dire che
+             il modulo consegna i contatti a nessuno. */
+          problemi.push(
+            `${nome} (${atteso}): ${assoluto} risponde 404 — il sito manda i ${atteso} a un percorso che nessuno instrada`,
+          )
         }
       } catch (e) {
         problemi.push(
-          `${nome} (${atteso}): ${url} non risponde (${String(e).slice(0, 60)}) — il sito offre un canale che non esiste`,
+          `${nome} (${atteso}): ${assoluto} non risponde (${String(e).slice(0, 60)}) — il sito offre un canale che non esiste`,
         )
       }
     }
