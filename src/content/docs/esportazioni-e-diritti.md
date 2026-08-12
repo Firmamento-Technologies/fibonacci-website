@@ -12,6 +12,15 @@ Il titolare del trattamento è **lo studio**: le richieste dei pazienti arrivano
 | «Voglio i miei dati in un formato che posso portare altrove» | art. 20 (portabilità) | esportazione strutturata |
 | «Correggete questo dato» | art. 16 (rettifica) | modifica in cartella, con storico |
 | «Cancellate i miei dati» | art. 17 (cancellazione) | ⚠️ vedi sotto: non è automatica |
+| «Revoco il consenso» | L. 219/2017 art. 1 c. 5 | ⛔ **non è questa guida** → [Consensi informati](/documentazione/consensi-informati) |
+
+⚠️ **«Revoca» vuol dire due cose diverse, e confonderle porta a fare la cosa sbagliata.**
+Revocare il **consenso a una prestazione** — il documento che il paziente ha firmato prima del
+trattamento — si fa dalla guida [Consensi informati](/documentazione/consensi-informati), e la
+conseguenza è clinica: interruzione del trattamento. **Non è** una richiesta di cancellazione dei
+dati, e infatti il PDF revocato **resta archiviato**: serve a dimostrare che il consenso c'era
+quando la prestazione è stata fatta. Le richieste della tabella qui sopra riguardano invece i
+dati, e per la documentazione clinica valgono i limiti dell'art. 17 spiegati più sotto.
 
 ## Passo 1, esportare la scheda di un paziente
 

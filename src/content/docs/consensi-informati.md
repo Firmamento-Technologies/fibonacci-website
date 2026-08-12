@@ -115,6 +115,8 @@ Il paziente riceve copia del PDF firmato via email. Lo studio mantiene sempre l'
 
 - **Ristampa**: dal consenso firmato si può sempre riscaricare il PDF originale, identico a quello sigillato. Utile per portarlo in cartella cartacea o consegnarlo nuovamente al paziente.
 
+⚠️ **Revocare un consenso non è cancellare dei dati.** Il PDF revocato resta archiviato — è ciò che dimostra che il consenso c'era nel momento in cui la prestazione è stata fatta — e la revoca non tocca la cartella. Se invece il paziente chiede l'accesso, la portabilità o la cancellazione dei propri dati, la guida è un'altra: [Esportazioni e diritti del paziente](/documentazione/esportazioni-e-diritti).
+
 ## Note importanti
 
 - Gli oltre 100 modelli proprietari Fibonacci sono in **versione 0.1 (bozza interna)**. Coprono la struttura legale prevista (8 sezioni L. 219/2017 + 5 elementi Cassazione 26104/2022 + GDPR + eIDAS + PDF/A-3b) ma il **contenuto clinico non è stato ancora validato da avvocato sanitario né da medico specialista** della disciplina. Prima dell'uso con pazienti reali devi: (1) far rivedere ogni modello dal legale del tuo studio, (2) verificare rischi/percentuali con le linee guida societarie aggiornate (SICPRE/ISAPS, SIDeMaST, SIME/AIME), (3) personalizzare il consenso sul singolo paziente (allergie, terapie in atto, comorbilità · il wizard ti obbliga a farlo allo Step 2), (4) controfirmare il documento dopo la firma del paziente. Fibonacci fornisce l'infrastruttura tecnica, non sostituisce il parere legale dell'avvocato sanitario né la responsabilità clinica del medico curante.

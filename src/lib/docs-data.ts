@@ -77,7 +77,11 @@ export const DOCS: DocMeta[] = [
   {
     slug: 'consensi-informati',
     title: 'Consensi informati',
-    description: 'Generare e firmare consensi informati in PDF.',
+    // ⚠️ «revocare» non è aggiunto per compiacere un modello: la guida ha un
+    // «Passo 6, revoca, modifica, ristampa» e la descrizione non lo diceva —
+    // era **incompleta rispetto alla propria pagina**, e un medico che scorre
+    // l'indice della documentazione cercando «revoca» non la trovava.
+    description: 'Generare, firmare e revocare i consensi informati in PDF.',
     category: 'utilizzo',
     icon: 'FileSignature',
   },
