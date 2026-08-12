@@ -1,16 +1,21 @@
 'use client'
 
 import { useCallback, useEffect, useRef, useState } from 'react'
-import Link from 'next/link'
 import { conGrassetto } from '@/components/Assistente'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
 /**
  * Il pallino in basso a destra che apre l'assistente in un pannello laterale.
  *
- * Chiede allo stesso servizio del widget nel testo (`/assistente/domanda`) e
- * mantiene le stesse garanzie: le fonti sono sempre mostrate e sono link,
+ * Chiede allo stesso servizio del widget nel testo (`/assistente/domanda`):
  * niente esce di qui se non la domanda, niente viene salvato nel browser.
+ *
+ * ⚠️ **Le fonti NON si mostrano in questo pannello** — decisione dell'utente
+ * del 2026-08-12: la riga «Da: …» in fondo a ogni risposta appesantiva la
+ * chat. Il servizio continua a mandarle e il widget nel testo continua a
+ * mostrarle («Letto da: …» in `/domande` e `/prezzi`), quindi la verifica
+ * resta possibile: qui e' una scelta di forma, non la rimozione di una
+ * garanzia.
  *
  * ⚠️ **Le risposte non si costruiscono l'una sull'altra.** In pannello i turni
  * si vedono impilati, ma ogni domanda parte pulita: il servizio non riceve i
@@ -25,7 +30,6 @@ import { CONTACT_EMAIL } from '@/lib/site-config'
 interface Turno {
   domanda: string
   risposta?: string
-  fonti?: string[]
   errore?: string
 }
 
@@ -80,7 +84,6 @@ export function AssistenteFisso() {
             ? {
                 ...turno,
                 risposta: dati.risposta ?? 'Non ho una risposta da darti.',
-                fonti: dati.fonti ?? [],
               }
             : turno,
         ),
@@ -147,19 +150,6 @@ export function AssistenteFisso() {
                         schermo si leggono gli asterischi. ⛔ Non riscrivo il
                         formattatore — e' gia' in `Assistente.tsx`. */}
                     <p>{conGrassetto(t.risposta)}</p>
-                    {!!t.fonti?.length && (
-                      <p className="chat-assistente__fonti">
-                        Da:{' '}
-                        {t.fonti.map((f, k) => (
-                          <span key={f}>
-                            {k > 0 && ' · '}
-                            <Link href={f} onClick={chiudi}>
-                              {f}
-                            </Link>
-                          </span>
-                        ))}
-                      </p>
-                    )}
                   </div>
                 )}
                 {t.errore && <p className="chat-assistente__errore">{t.errore}</p>}

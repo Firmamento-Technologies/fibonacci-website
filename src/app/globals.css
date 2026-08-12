@@ -1434,12 +1434,6 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 
 .chat-assistente__attesa { color: var(--fg-muted); font-style: italic; }
 
-.chat-assistente__fonti {
-  margin-top: var(--s-8);
-  font-size: 0.8125rem;
-  color: var(--fg-muted);
-}
-
 .chat-assistente__errore { align-self: flex-start; color: var(--fg-muted); }
 
 .chat-assistente__piede {
