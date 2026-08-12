@@ -48,10 +48,13 @@ const SCHERMATE = [
   {
     nome: 'agenda',
     vai: async (p) => { await p.goto(`${EMR}/appuntamenti`); await p.waitForTimeout(2500) },
+    // Almeno un appuntamento nella griglia: un'agenda vuota non illustra niente.
+    pieno: async (p) => (await p.locator('.rbc-event, [data-appuntamento]').count()) > 0,
   },
   {
     nome: 'cartella-paziente',
     vai: async (p) => { await apriPaziente(p); await p.waitForTimeout(1500) },
+    pieno: async (p) => !(await p.getByText(/nessun|0 trattamenti|caricamento/i).first().isVisible().catch(() => false)),
   },
   {
     // ⚠️ La schermata che PRIMA era un duplicato: qui si apre davvero la
@@ -69,14 +72,19 @@ const SCHERMATE = [
       })
       await p.waitForTimeout(900)
     },
+    // ⛔ Questa è LA schermata che promette «Dove, quanto, con che lotto»: se
+    // dice «0 trattamenti registrati» sta promettendo il contrario.
+    pieno: async (p) => !(await p.getByText(/0 trattamenti registrati/i).first().isVisible().catch(() => false)),
   },
   {
     nome: 'catalogo-consensi',
     vai: async (p) => { await p.goto(`${EMR}/consensi`); await p.waitForTimeout(2000) },
+    pieno: async (p) => !(await p.getByText(/nessun consenso|0 consensi/i).first().isVisible().catch(() => false)),
   },
   {
     nome: 'registro-accessi',
     vai: async (p) => { await p.goto(`${EMR}/audit`); await p.waitForTimeout(2000) },
+    pieno: async (p) => (await p.locator('tbody tr').count()) > 0,
   },
 ]
 
@@ -118,8 +126,36 @@ await entra(page)
 mkdirSync(USCITA, { recursive: true })
 const manifesto = { generato: new Date().toISOString(), commitFrontendEmr: commitFrontendEmr([join(RADICE, '../EMR'), process.env.EMR_REPO]), larghezze: LARGHEZZE, schermate: {} }
 
+/* 🔴 **Perché esiste questo controllo, misurato il 2026-08-12.**
+ * Le schermate si possono rigenerare servendo la `dist/` con `vite preview`,
+ * **senza** il resto dello stack. Girano, non danno errore, e il manifesto
+ * viene stampato col commit giusto ⇒ `collaudo.mjs` diventa **verde**.
+ * Ma le immagini mostrano un prodotto **vuoto**: l'agenda senza un solo
+ * appuntamento, i trattamenti con scritto *«0 trattamenti registrati»* e i
+ * riquadri di caricamento al posto dei dati. Pubblicate sotto la didascalia
+ * «Schermata dall'applicazione, non un disegno», sono peggio di una scaduta.
+ *
+ * ⇒ Il manifesto prova la **provenienza**, non la **correttezza**: dice da
+ * quale commit vengono, non che mostrino qualcosa. Senza questo controllo il
+ * presidio si può soddisfare con immagini peggiori — che è il modo più
+ * silenzioso di perderlo. */
+/* ⚠️ **La soglia in byte è il controllo che regge davvero.** Le condizioni
+ * `pieno` scritte pagina per pagina cercano le parole giuste, e il 2026-08-12
+ * ne hanno prese **2 su 5**: `catalogo-consensi` è passata pur essendo **1 KB**
+ * di AVIF contro i 24 abituali, cioè un rettangolo quasi bianco. Un'immagine
+ * senza informazione **si comprime a niente**, e quello non dipende da come è
+ * scritta l'interfaccia: è la misura che non invecchia. Le due cose si sommano.
+ * ⇒ 1400px sotto 6 KB = non c'è dentro niente. Le vere stanno fra 16 e 34 KB. */
+const MINIMO_AVIF_1400 = 6 * 1024
+
+const vuote = []
+const daScrivere = []
 for (const s of SCHERMATE) {
   await s.vai(page)
+  if (s.pieno && !(await s.pieno(page))) {
+    vuote.push(`${s.nome} (la pagina dice che è vuota)`)
+    continue
+  }
   const grezza = await page.screenshot()
   const meta = await sharp(grezza).metadata()
   const varianti = []
@@ -131,16 +167,40 @@ for (const s of SCHERMATE) {
     // solo PNG per schermata, come ripiego finale.
     const webp = await base.clone().webp({ quality: 82 }).toBuffer()
     const avif = await base.clone().avif({ quality: 55 }).toBuffer()
-    writeFileSync(join(USCITA, `${s.nome}-${w}.webp`), webp)
-    writeFileSync(join(USCITA, `${s.nome}-${w}.avif`), avif)
+    /* ⛔ NON si scrive qui. Prima si controlla tutto, poi si scrive tutto: la
+     * prima stesura scriveva dentro il ciclo e, quando il controllo bocciava
+     * alla terza schermata, le prime due erano **già finite su disco** — cioè
+     * il presidio lasciava il repository in uno stato peggiore di quello da cui
+     * era partito. */
+    daScrivere.push({ file: `${s.nome}-${w}.webp`, dato: webp })
+    daScrivere.push({ file: `${s.nome}-${w}.avif`, dato: avif })
     varianti.push({ w, webp: webp.length, avif: avif.length })
   }
+  const grande = varianti.at(-1)
+  if (grande.avif < MINIMO_AVIF_1400) {
+    vuote.push(`${s.nome} (${Math.round(grande.avif / 1024)} KB di AVIF: non c'è dentro niente)`)
+    continue
+  }
   // Il PNG storico resta, come ripiego per chi non ha nessuno dei due formati.
-  writeFileSync(join(USCITA, `${s.nome}.png`), await sharp(grezza).resize({ width: LARGHEZZE.at(-1) }).png({ compressionLevel: 9 }).toBuffer())
+  daScrivere.push({
+    file: `${s.nome}.png`,
+    dato: await sharp(grezza).resize({ width: LARGHEZZE.at(-1) }).png({ compressionLevel: 9 }).toBuffer(),
+  })
   manifesto.schermate[s.nome] = { sorgente: `${meta.width}×${meta.height}`, varianti }
   const kb = (n) => Math.round(n / 1024) + ' KB'
   console.log(`  ✓ ${s.nome.padEnd(20)} ${varianti.map((v) => `${v.w}px avif ${kb(v.avif)}`).join(' · ')}`)
 }
+
+if (vuote.length) {
+  console.error(`\n⛔ ${vuote.length} schermate su ${SCHERMATE.length} sono VUOTE: ${vuote.join(', ')}`)
+  console.error('   Serve lo stack completo, non solo `vite preview` sulla dist:')
+  console.error('   senza il backend le pagine si disegnano ma non hanno dati.')
+  console.error('   ⛔ Niente è stato scritto: una schermata vuota è peggio di una scaduta.')
+  process.exit(1)
+}
+
+// ⇒ Solo ora si tocca il disco: o tutte, o nessuna.
+for (const { file, dato } of daScrivere) writeFileSync(join(USCITA, file), dato)
 
 writeFileSync(join(USCITA, 'manifesto.json'), JSON.stringify(manifesto, null, 2) + '\n')
 // Le vecchie varianti non più prodotte non restano a occupare posto.
