@@ -74,6 +74,38 @@ export function GuscioPaziente({
         }}
       >
         <div className="gabbia" style={{ color: 'var(--fg-muted)', fontSize: '14px' }}>
+          {/* ── Le guide ────────────────────────────────────────────────────
+              🔴 **Stavano sulla pagina dei risultati, come tre schede numerate
+              intitolate «Tre controlli che puoi fare da solo». Sono state
+              tolte da lì il 2026-08-13, su rilievo dell'utente**: *«non creano
+              sfiducia nei medici e nel portale stesso?»*. Sì — un elenco di
+              medici che si apre invitando a controllarli dice al lettore che
+              noi non l'abbiamo fatto, e lo dice anche al medico che dovrebbe
+              pubblicare qui la sua pagina.
+              🔑 **I contenuti però sono buoni e restano**: consenso informato e
+              domande da fare prima di un trattamento sono informazione di
+              servizio, e su queste ricerche il terreno è vuoto. Cambia il
+              posto: **il piè di pagina è dove le guide si cercano**, non dove
+              si mettono in mano a chi non le ha chieste.
+              ⚠️ `verificare-un-medico` è ancora scritta come *«controllalo
+              tu»*: la riscrittura è dentro TD-111, non si può fare qui. */}
+          <nav aria-label="Guide per il paziente" style={{ marginBottom: 'var(--s-34)' }}>
+            <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8) var(--s-21)', padding: 0 }}>
+              {[
+                ['/pazienti/prima-di-un-trattamento', 'Le domande da fare prima di un trattamento'],
+                ['/pazienti/consenso-informato', 'Che cos’è il consenso informato'],
+                ['/pazienti/verificare-un-medico', 'L’albo dei medici, come si consulta'],
+                ['/pazienti/privacy', 'I tuoi dati'],
+              ].map(([href, testo]) => (
+                <li key={href} style={{ listStyle: 'none' }}>
+                  <Link href={href} className="collegamento-testo">
+                    {testo}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
           <p style={{ maxWidth: 'var(--measure)' }}>
             Questa pagina è pubblicata dallo studio che vi compare, attraverso Fibonacci.
             Le informazioni cliniche restano di sua responsabilità.{' '}

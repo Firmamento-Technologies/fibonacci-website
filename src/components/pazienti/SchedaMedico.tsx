@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
-import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
+import { giornoInItaliano, oraInItaliano, mappaStudio } from '@/lib/medici-pubblici'
 import { Ritratto } from '@/components/pazienti/VoceElenco'
 import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
 import { ModuloPrenotazione } from '@/components/pazienti/ModuloPrenotazione'
@@ -46,9 +46,9 @@ const COLLEGAMENTO = {
 
 export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
   const telefonoComponibile = m.studio.telefono.replace(/\s/g, '')
-  const mappa = `https://www.openstreetmap.org/search?query=${encodeURIComponent(
-    `${m.studio.indirizzo}, ${m.studio.comune}`,
-  )}`
+  /* ⚠️ La URL della mappa **era costruita qui**, e la voce di elenco non ne
+     aveva nessuna: due viste, un dato, una copia sola — che è il modo in cui
+     nasce la seconda. Ora sta in `mappaStudio()`, accanto ai dati. */
 
   return (
     <article className="gabbia" style={{ paddingTop: 'var(--s-34)', paddingBottom: 'var(--s-55)' }}>
@@ -126,14 +126,21 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           Ordine di <strong>{m.medico.ordineProvinciale}</strong>, numero{' '}
           <strong>{m.medico.numeroIscrizione}</strong>.
         </p>
+        {/* 🔴 **Qui c'era scritto «Puoi verificarlo tu, senza passare da noi»,
+            più un collegamento «Come si controlla, in un minuto».** Suonava
+            trasparente ed era **il difetto centrale del canale**, scritto per
+            esteso: scaricava sul paziente un controllo che tocca a noi, e nel
+            farlo lasciava intendere che noi non l'avessimo fatto — su una
+            pagina che è, letteralmente, la vetrina di quel medico.
+            🔑 Il soggetto si ribalta: l'iscrizione è **la condizione per stare
+            qui**; il numero resta scritto perché la nostra parola sia
+            **controllabile**, non perché il controllo lo faccia il lettore.
+            ⚠️ La verifica vera è **TD-111** e ⛔ non esiste ancora: finché non
+            esiste, qui ⛔ non compare nessuna spunta, nessun «verificato», e
+            nessuna data. [[decisione-verifica-albo]] */}
         <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Puoi verificarlo tu, senza passare da noi: gli Ordini provinciali pubblicano l’albo
-          degli iscritti.
-        </p>
-        <p className="mt-[var(--s-13)] text-[15px]">
-          <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
-            Come si controlla, in un minuto
-          </Link>
+          L’iscrizione all’albo è la condizione per pubblicare una pagina su Fibonacci. Il
+          numero resta scritto qui perché sia sempre riscontrabile sull’albo pubblico.
         </p>
       </section>
 
@@ -141,12 +148,24 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         <h2 id="dove" className="titolo-servizio text-[length:var(--display-3)]">
           Dove
         </h2>
+        {/* 🔑 **L'indirizzo È il collegamento** (richiesta dell'utente,
+            2026-08-13). Prima era testo morto con sotto una riga separata
+            «Apri l'indirizzo in una mappa»: due elementi per una cosa sola, e
+            quello che si legge per primo — l'indirizzo — era l'unico non
+            premibile. ⛔ Non una mappa incorporata: vedi `mappaStudio()`. */}
         <p
           className="mt-[var(--s-13)]"
           style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--s-8)' }}
         >
           <IconaLuogo className="icona-riga" />
-          {m.studio.indirizzo}, {m.studio.comune}
+          <a
+            href={mappaStudio(m.studio)}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={COLLEGAMENTO}
+          >
+            {m.studio.indirizzo}, {m.studio.comune}
+          </a>
         </p>
         <p
           className="mt-[var(--s-8)]"
@@ -155,12 +174,6 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           <IconaTelefono />
           <a href={`tel:${telefonoComponibile}`} style={COLLEGAMENTO}>
             {m.studio.telefono}
-          </a>
-        </p>
-        {/* ⛔ Un collegamento, non una mappa incorporata: vedi la nota in cima. */}
-        <p className="mt-[var(--s-8)] text-[15px]">
-          <a href={mappa} rel="noopener noreferrer" target="_blank" style={COLLEGAMENTO}>
-            Apri l’indirizzo in una mappa
           </a>
         </p>
       </section>

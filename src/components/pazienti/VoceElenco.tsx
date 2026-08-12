@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { useOrariLiberi } from '@/lib/orari-liberi'
-import { percorsoMedico, giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
+import { percorsoMedico, giornoInItaliano, oraInItaliano, mappaStudio } from '@/lib/medici-pubblici'
 import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
 
 /* La voce di elenco: l'unità che risponde alla domanda del paziente.
@@ -84,6 +84,11 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
               <p className="mt-[var(--s-3)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                 {m.medico.titolo} · {m.studio.nome}
               </p>
+              {/* 🔑 **L'indirizzo è un collegamento alla mappa** (richiesta
+                  dell'utente, 2026-08-13). Era testo morto: su un telefono
+                  l'indirizzo di uno studio è **una cosa che si preme**, e
+                  lasciarlo inerte costringeva a selezionarlo e incollarlo
+                  altrove. ⛔ Non una mappa incorporata — vedi `mappaStudio()`. */}
               <p
                 className="mt-[var(--s-5)] text-[15px]"
                 style={{
@@ -97,7 +102,14 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
                 }}
               >
                 <IconaLuogo className="icona-riga" />
-                {m.studio.indirizzo}, {m.studio.comune}
+                <a
+                  href={mappaStudio(m.studio)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="collegamento-mappa"
+                >
+                  {m.studio.indirizzo}, {m.studio.comune}
+                </a>
               </p>
             </div>
           </div>

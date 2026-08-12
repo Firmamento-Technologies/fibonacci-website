@@ -66,7 +66,13 @@ const SCORCIATOIE = [
  * pagamento» è un fatto nostro; «a differenza degli altri portali» sarebbe una
  * comparazione, cioè il terreno del c. 525. */
 const PASTIGLIE = [
-  'Ordine e numero d’iscrizione in chiaro',
+  /* 🔴 **Era «Ordine e numero d'iscrizione in chiaro», e diceva la cosa giusta
+   * col soggetto sbagliato.** Rilievo dell'utente (2026-08-13): *«perché
+   * dovrebbero controllare che il medico sia iscritto all'Ordine quando
+   * possiamo farlo noi?»*. È **una regola di ammissione**, non un compito del
+   * paziente: si scrive come promessa nostra. Il numero resta in pagina, ⛔ ma
+   * come **prova**, non come istruzione. Vedi [[decisione-verifica-albo]]. */
+  'Solo medici iscritti all’Ordine',
   'Nessuna classifica a pagamento',
   'Nessun cookie, nessun account',
 ] as const
@@ -107,23 +113,25 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
         <div className="gabbia eroe-pazienti-griglia">
           <div>
             <header>
+              {/* 🔴 **«…e controlla che sia un medico» è durato mezza giornata,
+                  e l'utente ha fatto bene a bocciarlo.** Era pensato come la
+                  nostra differenza — il numero d'albo che nessun portale mette
+                  in prima pagina — ma detto così **scarica il controllo sul
+                  paziente e insinua il dubbio sui medici che elenchiamo**: se
+                  devo controllare io, vuol dire che voi non l'avete fatto.
+                  🔑 Il fatto non cambia, cambia **il soggetto**: la verifica è
+                  un nostro dovere di ammissione, e il numero in pagina è la
+                  **prova**, non il compito. [[decisione-verifica-albo]] */}
               <h1 className="titolo-servizio text-[length:var(--display-2)]">
-                Trova un medico estetico,
+                Trova il tuo medico estetico
                 {/* ⚠️ L'a capo è **solo su schermo largo**: su un telefono
-                    forzava una terza riga e il titolo si prendeva mezzo primo
+                    forzava una riga in più e il titolo si prendeva mezzo primo
                     schermo da solo. Misurato a 375px il 2026-08-13. */}
-                <br className="a-capo-largo" /> e controlla che sia un medico.
+                <br className="a-capo-largo" /> e prenota.
               </h1>
-              {/* Il beneficio, in una riga: cosa ottieni e in quanto tempo.
-                  ⚠️ «in un minuto» non è un'iperbole di vendita: la pagina
-                  [[verificare-un-medico]] descrive esattamente quel minuto.
-                  🔴 Era lungo il doppio («…sull'albo nazionale… che lo studio
-                  ha davvero liberi»): su un telefono faceva **quattro righe**
-                  fra il titolo e il campo di ricerca, cioè spingeva l'azione
-                  fuori dal primo schermo. */}
               <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                L’Ordine e il numero d’iscrizione in ogni scheda: li verifichi tu, in un
-                minuto. Poi prenoti sugli orari davvero liberi.
+                Solo medici iscritti all’Ordine, con il numero d’iscrizione su ogni scheda.
+                E gli orari che lo studio ha davvero liberi.
               </p>
             </header>
 
@@ -218,8 +226,6 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
               parola del titolo. Qui il camice e i guanti dicono *atto medico*
               in mezzo secondo, ed è la stessa cosa che dice la pagina. */}
           <div className="eroe-pazienti-foto">
-            {/* eslint-disable-next-line @next/next/no-img-element -- export
-                statico: nessun ottimizzatore a runtime. */}
             {/* 🔴 **`alt=""` + `aria-hidden` è stato un errore, e l'ha preso il
                 collaudo** (non la build, non `lint`): *«/pazienti: immagine
                 senza alt»*. Avevo ragionato «è decorativa, quindi si nasconde»,
@@ -227,6 +233,11 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                 `ui/elementi.tsx`: *«queste foto raccontano una scena e chi usa
                 uno screen reader ha diritto alla scena»*. Una foto che porta il
                 messaggio del titolo — *è un atto medico* — non è decorazione. */}
+            {/* ⚠️ Il `disable` va **attaccato al tag**: infilarci in mezzo un
+                commento lo stacca dalla riga che deve coprire, e `lint` lo
+                segnala come direttiva inutile. Successo qui, subito. */}
+            {/* eslint-disable-next-line @next/next/no-img-element -- export
+                statico: nessun ottimizzatore a runtime. */}
             <img
               src={assetPath('/photos/cura-pelle-viso.jpg')}
               alt="Una paziente distesa in ambulatorio: un medico con camice e guanti le tratta il viso con uno strumento."

@@ -357,6 +357,33 @@ export function percorsoMedico(slug: string): string {
   return `/pazienti/medico/${slug}`
 }
 
+/** L'indirizzo dello studio, aperto in una mappa.
+ *
+ * ── PERCHE' UN COLLEGAMENTO E NON UNA MAPPA ────────────────────────────────
+ * ⛔ **Nessuna mappa incorporata**, mai: un `iframe` di terzi butterebbe via da
+ * sola la ragione per cui questo sito **non ha il banner dei cookie** (non
+ * chiama nessuno). Un collegamento invece non chiama niente finché non lo
+ * premi, ed è una navigazione **decisa dal visitatore**.
+ *
+ * 🔴 **Google e non più OpenStreetMap** (richiesta dell'utente, 2026-08-13:
+ * *«servirebbe che fosse cliccabile e mandasse alla mappa tipo google maps»*).
+ * Il motivo pratico batte la preferenza: su Android questo indirizzo **apre
+ * l'app Maps**, che è il gesto che il paziente si aspetta dopo aver scelto uno
+ * studio; il collegamento OSM apriva una pagina web da cui bisogna ripartire.
+ * ⚠️ **`rel="noreferrer"` non è cosmesi**: senza, il browser manderebbe a
+ * Google l'indirizzo **della pagina di partenza** — cioè *quale medico* stava
+ * guardando quella persona. È esattamente il dato che questo canale esiste per
+ * non far uscire. Chi usa questa funzione deve mettere
+ * `rel="noopener noreferrer"`.
+ *
+ * 🔑 Sta qui, accanto ai dati, perché la usano **due** viste (la voce di elenco
+ * e la scheda) e due copie di una URL costruita a mano divergono alla prima
+ * occasione — in questo progetto è la regola, non l'eccezione. */
+export function mappaStudio(studio: { indirizzo: string; comune: string }): string {
+  const q = encodeURIComponent(`${studio.indirizzo}, ${studio.comune}`)
+  return `https://www.google.com/maps/search/?api=1&query=${q}`
+}
+
 /** Solo il giorno («venerdì 14 agosto»). Serve a scriverlo **una volta sola**
  *  sopra una fila di orari, invece di ripeterlo per ogni orario: tre righe che
  *  dicono lo stesso giorno sono tre righe da leggere per un'informazione sola.

@@ -2,13 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { RicercaMedici } from '@/components/pazienti/RicercaMedici'
-import { IconaFreccia } from '@/components/pazienti/Icone'
 import { mediciPubblicati, mostraEsempi } from '@/lib/medici-pubblici'
 
 export const metadata: Metadata = {
   title: 'Trova il tuo medico estetico e prenota',
   description:
-    'Trova un medico estetico e controlla che sia iscritto all’Ordine: in ogni scheda l’albo e il numero d’iscrizione, in chiaro. Poi prenoti sugli orari che lo studio ha davvero liberi. Nessuna classifica, nessuna recensione, nessun listino.',
+    'Trova un medico estetico e prenota: solo medici iscritti all’Ordine, con il numero d’iscrizione su ogni scheda, e gli orari che lo studio ha davvero liberi. Nessuna classifica, nessuna recensione, nessun listino.',
   alternates: { canonical: '/pazienti' },
 }
 
@@ -26,26 +25,35 @@ export const metadata: Metadata = {
  *
  * 🔑 **La risposta, e vale la pena scriverla perché è la diagnosi del difetto.**
  * MioDottore non ne ha bisogno perché ha **l'inventario**: apri la pagina e ci
- * sono trenta medici: il prodotto *è* il contenuto, e si spiega da solo. Noi
+ * sono trenta medici, il prodotto *è* il contenuto e si spiega da solo. Noi
  * abbiamo due studi d'esempio, e il vuoto l'ho riempito **spiegando i nostri
  * principi**. Cioè: un saggio al posto di un catalogo. Non era una sezione in
- * più, era **un pezzo di prodotto mancante travestito da testo** — e il
- * visitatore non arriva qui per leggere la nostra linea editoriale, arriva per
- * trovare un medico.
+ * più, era **un pezzo di prodotto mancante travestito da testo**.
  *
- * E c'è un secondo motivo, di tempi: «nessuna classifica / nessuna recensione /
- * nessun prezzo» risponde a una domanda che il paziente **non si è ancora
- * posto**. Un'assenza si nota solo dove la si cercava. Perciò quei tre fatti
- * ora vivono dove servono davvero:
- *   · «nessuna classifica» → **la didascalia del conteggio dei risultati**,
- *     accanto all'ordinamento, dove uno si chiede perché quel medico è primo;
- *   · gli altri due → **le tre pastiglie sotto la ricerca** (`RicercaMedici`);
- *   · «nessun prezzo» → **la scheda del medico**, dove c'era da sempre.
+ * ── 🔴 E POI SONO SPARITI ANCHE I TRE CONTROLLI, LO STESSO GIORNO ───────────
+ * Li avevo tenuti, «perché sono il nostro pezzo distintivo», e li avevo resi
+ * più belli: tre schede numerate. L'utente ha guardato le schede e ha chiesto
+ * la cosa giusta:
  *
- * ⛔ Restano i **tre controlli**, che sono il nostro pezzo distintivo e sono
- * tre pagine vere — ma come **fila di schede**, non come articolo: 60 parole al
- * posto di 260, e sotto l'elenco, perché §5.1 del piano dice «l'elenco è la
- * home».
+ *   *«non creano sfiducia nei medici e nel portale stesso? perché dovrebbero
+ *   controllare che il medico sia iscritto all'ordine quando possiamo farlo
+ *   noi?»*
+ *
+ * Sì, e sono **due difetti diversi in un blocco solo**:
+ *  1. **Scaricano su di lui un lavoro nostro.** «Controlla che sia iscritto
+ *     all'Ordine» è una **regola di ammissione**, non un compito del paziente:
+ *     l'albo è pubblico e consultabile — se è verificabile da chiunque, è
+ *     verificabile da noi, **una volta**, invece che da ogni visitatore, ogni
+ *     volta.
+ *  2. **Insinuano il dubbio su ciò che stiamo mostrando.** Un elenco di medici
+ *     che si apre con «verifica che siano medici» dice al lettore che noi non
+ *     l'abbiamo fatto — e lo dice **anche al medico** che dovrebbe pubblicare
+ *     qui la sua pagina. Nessun portale danneggia così la propria offerta.
+ *
+ * ⇒ La verifica diventa **nostra** ([[decisione-verifica-albo]], TD-111), il
+ * numero resta in pagina come **prova** e non come istruzione, e le tre guide
+ * — che restano contenuti veri e utili — vivono nel **piè di pagina**, dove si
+ * cercano, ⛔ non come pilastro della pagina dei risultati.
  *
  * ⚠️ **E oggi l'elenco è quasi vuoto.** Si dichiara, come il sito dichiara che
  * la società non è ancora costituita. ⛔ Non si scrive «presto disponibile»,
@@ -70,33 +78,6 @@ export const metadata: Metadata = {
  * perché per esteso, e la regola del fail-closed, stanno in
  * `lib/medici-pubblici.ts`. */
 
-/* I tre controlli, in forma di dati: la fila di schede li rende, e ⛔ non si
- * riscrivono a mano tre volte in tre `<li>` con lo stesso markup copiato. */
-const CONTROLLI = [
-  {
-    href: '/pazienti/verificare-un-medico',
-    titolo: 'Controlla che sia iscritto all’Ordine',
-    testo:
-      'La Federazione degli Ordini pubblica l’albo nazionale: cerchi nome, cognome e città. È gratis e si fa dal telefono.',
-  },
-  {
-    href: '/pazienti/prima-di-un-trattamento',
-    /* ⚠️ Titolo accorciato: «Fai le nove domande, prima di dire sì» andava a
-       capo e disallineava le tre schede. In una fila, i titoli sono la riga che
-       si scansiona per prima — se uno è alto il doppio, la fila si legge come
-       tre blocchi scoordinati. */
-    titolo: 'Fai le nove domande',
-    testo:
-      'Che prodotto mi mettete, quali sono le alternative, chi lo esegue materialmente, che cosa si fa se va storto.',
-  },
-  {
-    href: '/pazienti/consenso-informato',
-    titolo: 'Capisci che cosa firmi',
-    testo:
-      'Nessun trattamento può iniziare senza il tuo consenso. Non è una liberatoria, e puoi revocarlo quando vuoi.',
-  },
-] as const
-
 export default function Page() {
   /* ⚠️ L'ordinamento è **davvero** alfabetico perché la pagina lo dichiara in
    * fondo: una riga che promette un criterio e un elenco che ne segue un altro
@@ -114,56 +95,24 @@ export default function Page() {
           *Scrolling and Attention*: «keep major CTAs above the fold». */}
       <RicercaMedici medici={pubblicati} />
 
-      {/* ── I tre controlli ──────────────────────────────────────────────
-          🔑 **Sono il nostro pezzo distintivo, e per questo NON sono un
-          articolo.** Erano un `<ol>` di tre paragrafi lunghi: la stessa
-          informazione in tre schede si scansiona in tre secondi. NN/g,
-          *Layer-Cake Pattern*: «determine like content and place it together
-          […] visually distinguish content chunks».
-          ⚠️ Stanno **sotto** l'elenco: una pagina dove i pazienti cercano
-          medici apre con i medici. Ci sono già finite sopra una volta. */}
-      <section
-        aria-labelledby="fiducia"
-        className="gabbia"
-        style={{ paddingTop: 'var(--s-55)', paddingBottom: 'var(--s-55)' }}
-      >
-        <div className="colonna-risultati">
-          <h2 id="fiducia" className="titolo-servizio text-[length:var(--display-3)]">
-            Tre controlli che puoi fare da solo
-          </h2>
-          <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-            Non servono noi: sono pubblici, gratuiti e valgono per qualsiasi medico.
-          </p>
-
-          <ol className="guide-paziente mt-[var(--s-21)]">
-            {CONTROLLI.map((c, i) => (
-              <li key={c.href} style={{ listStyle: 'none' }}>
-                <Link href={c.href} className="carta-guida">
-                  <span className="carta-guida-numero" aria-hidden="true">
-                    {i + 1}
-                  </span>
-                  <span className="carta-guida-titolo">{c.titolo}</span>
-                  <span className="carta-guida-testo">{c.testo}</span>
-                  <span className="carta-guida-piede" aria-hidden="true">
-                    Leggi <IconaFreccia lato={15} />
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ol>
-
-          {/* «I tuoi dati» era una sezione con titolo per **due righe**: un
-              titolo che pesa quanto il testo che introduce è un titolo di
-              troppo. Resta il fatto, resta il collegamento. */}
-          <p className="mt-[var(--s-34)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-            Questo sito non usa cookie di tracciamento, non ha account e non ti profila.
-            Quando chiedi un appuntamento, i dati vanno allo studio che hai scelto.{' '}
-            <Link href="/pazienti/privacy" className="collegamento-testo">
-              Come funziona, per esteso
-            </Link>
-            .
-          </p>
-        </div>
+      {/* ⛔ **Sotto l'elenco non c'è più niente, ed è deliberato.** Qui sono
+          passati, e sono stati tolti, prima ~450 parole di principi e poi tre
+          schede «controlla tu». Una pagina dove i pazienti cercano medici
+          finisce **con i medici**: quello che resta è una riga sui dati, che è
+          un fatto operativo e non un manifesto. Le guide sono nel piè di
+          pagina (`GuscioPaziente`). */}
+      <section className="gabbia" style={{ paddingTop: 'var(--s-34)' }}>
+        <p
+          className="text-[15px]"
+          style={{ color: 'var(--fg-muted)', maxWidth: 'var(--measure)' }}
+        >
+          Questo sito non usa cookie di tracciamento, non ha account e non ti profila.
+          Quando chiedi un appuntamento, i dati vanno allo studio che hai scelto.{' '}
+          <Link href="/pazienti/privacy" className="collegamento-testo">
+            Come funziona, per esteso
+          </Link>
+          .
+        </p>
       </section>
     </GuscioPaziente>
   )

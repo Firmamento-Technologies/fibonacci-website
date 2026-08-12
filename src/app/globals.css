@@ -2023,6 +2023,16 @@ h3:hover > .ancora,
 .collegamento-scheda { color: var(--fg); text-decoration: none; }
 .collegamento-scheda:hover { color: var(--accent-deep); text-decoration: underline; text-underline-offset: 3px; }
 .collegamento-testo { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+/* L'indirizzo dello studio: **premibile**, ma non un collegamento sgargiante —
+   nella scheda l'accento ce l'hanno il nome e gli orari, e un terzo elemento
+   blu si prenderebbe attenzione che non gli spetta. Resta grigio come il testo
+   che lo circonda, e la sottolineatura tratteggiata dice che si può premere. */
+.collegamento-mappa {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+.collegamento-mappa:hover { color: var(--accent-deep); text-decoration: underline; }
 
 /* 🔑 **La pastiglia dell'albo: l'unico elemento tinto della scheda.**
    Gli altri portali mettono qui cinque stelle; noi mettiamo un numero che il
