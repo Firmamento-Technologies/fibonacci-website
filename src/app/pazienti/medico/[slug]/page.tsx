@@ -63,7 +63,33 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     '@context': 'https://schema.org',
     '@type': 'Physician',
     name: m.medico.nome,
-    medicalSpecialty: 'https://schema.org/PlasticSurgery',
+    /* ⛔ **Nessuna `medicalSpecialty`, ed è deliberato (TD-108).**
+     *
+     * Qui c'era `https://schema.org/PlasticSurgery`, **scritto fisso, uguale per
+     * chiunque**. ⚠️ La medicina estetica **non è** chirurgia plastica: sono
+     * percorsi formativi diversi, e la maggior parte di chi fa tossina e filler
+     * non è chirurgo plastico. ⇒ dichiaravamo su una pagina indicizzata una
+     * **qualifica che quel medico non ha**, per giunta in dati strutturati, cioè
+     * nel formato che i motori trattano come un'asserzione del titolare del sito.
+     *
+     * ⚖️ È la categoria che questo prodotto presidia ovunque — la disciplina
+     * ricade **sul medico** (L. 145/2018 art. 1 c. 525, FNOMCeO artt. 55-57) —
+     * e su una pagina che esiste **per essere verificabile** una specialità
+     * inventata è il difetto peggiore possibile.
+     *
+     * 🔎 Verificato alla fonte (schema.org/MedicalSpecialty, 2026-08-12):
+     * è un'**enumerazione chiusa di 43 valori** e **non ne esiste uno per la
+     * medicina estetica**. Non c'è quindi un valore giusto da mettere: `Dermatology`
+     * sarebbe un'altra specialità altrui, `PlasticSurgery` è quella di prima.
+     * ⇒ **tacere è l'unica cosa certamente vera.**
+     *
+     * ✅ Quello che il medico fa **è già dichiarato**, e con un dato che
+     * possediamo davvero: `availableService` qui sotto, dalle sue prestazioni.
+     * Il titolo (`m.medico.titolo`) resta testo libero e ⛔ non si traduce in un
+     * valore dell'enumerazione tirando a indovinare.
+     *
+     * 🔜 Si potrà dichiarare quando la specialità sarà **un dato del medico**,
+     * scelto da lui: oggi `SchedaMedicoPubblica` non ce l'ha. */
     url: `${SITE_URL}${percorsoMedico(m.slug)}`,
     telephone: m.studio.telefono,
     address: {

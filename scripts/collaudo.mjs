@@ -474,6 +474,45 @@ async function main() {
     }
   }
 
+  /* ── Nessuna specialità medica scritta fissa nei dati strutturati (TD-108) ──
+   *
+   * 🔴 La scheda di ogni medico dichiarava a Google
+   * `medicalSpecialty: PlasticSurgery`, **uguale per chiunque**: una qualifica
+   * che quel medico può benissimo non avere — la medicina estetica non è
+   * chirurgia plastica — asserita nel formato che i motori trattano come parola
+   * del titolare del sito, su una pagina che esiste **per essere verificabile**.
+   *
+   * ⚠️ **Perché il controllo è statico e non sulla pagina resa**: i dati
+   * strutturati escono **solo** per un medico non-di-esempio, e finché non
+   * esiste un medico vero **nessuna pagina costruita li contiene** ⇒ un
+   * controllo sull'HTML sarebbe verde per assenza, cioè non guarderebbe niente.
+   * Questo invece diventa rosso il giorno in cui qualcuno riscrive il valore,
+   * anche se in rete non si vede ancora nulla.
+   *
+   * ⛔ Non si sostituisce con un altro valore: schema.org/MedicalSpecialty è
+   * un'enumerazione chiusa di 43 voci e **non ne ha una per la medicina
+   * estetica** (verificato alla fonte il 2026-08-12). Si dichiara quando sarà un
+   * dato del medico, scelto da lui. */
+  {
+    const colpevoli = []
+    for (const f of [...walkSrc()]) {
+      const testo = readFileSync(f, 'utf8')
+      // Solo le righe di CODICE: un commento che spiega perché non si mette
+      // dev'essere permesso, altrimenti il presidio vieta la propria spiegazione.
+      for (const riga of testo.split('\n')) {
+        const pulita = riga.trim()
+        if (pulita.startsWith('*') || pulita.startsWith('//')) continue
+        if (/medicalSpecialty\s*:/.test(pulita)) colpevoli.push(`${f.split('/src/')[1]}: ${pulita.slice(0, 60)}`)
+      }
+    }
+    if (colpevoli.length) {
+      problemi.push(
+        `dati strutturati: specialità medica scritta fissa (${colpevoli.length}) — ` +
+          `una qualifica che il medico può non avere: ${colpevoli.join(' · ')}`,
+      )
+    }
+  }
+
   /* ── Gli ALTRI due canali che il sito promette ────────────────────────
    *
    * Il controllo qui sopra copriva la demo e basta, e per due mesi e' bastato
