@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
 import { VoceElenco } from '@/components/pazienti/VoceElenco'
-import { mediciPubblicati, SOGLIA_ELENCO } from '@/lib/medici-pubblici'
+import { mediciPubblicati, mostraEsempi, SOGLIA_ELENCO } from '@/lib/medici-pubblici'
 
 export const metadata: Metadata = {
   title: 'Trova il tuo medico estetico e prenota',
@@ -30,18 +30,25 @@ export const metadata: Metadata = {
  * ramo «nessun orario». Perciò: interruttore, **default spento**, come
  * `semina-dati-vetrina.mjs` che si rifiuta di girare fuori da localhost.
  *
- *     PAZIENTI_ESEMPI=true npm run build   ⇒ l'elenco mostra gli esempi
+ *     PAZIENTI_ESEMPI=true npm run build   ⇒ l'elenco mostra quelli scritti a mano
+ *     PAZIENTI_ESEMPI=20   npm run build   ⇒ venti, per guardare l'elenco pieno
  *
  * ⛔ In un rilascio normale resta spento e in pagina non compare un medico che
- * non esiste. */
-const MOSTRA_ESEMPI = process.env.PAZIENTI_ESEMPI === 'true'
+ * non esiste.
+ *
+ * 🔑 **Qui la variabile non si legge**: la risposta la dà `mostraEsempi()`, che
+ * sta accanto ai dati. La pagina l'ha letta per conto suo per un po', con un
+ * significato diverso da quello della libreria, e le due letture divergevano —
+ * fra l'altro `PAZIENTI_ESEMPI=0` finiva per **accendere** gli esempi. Il
+ * perché per esteso, e la regola del fail-closed, stanno in
+ * `lib/medici-pubblici.ts`. */
 
 export default function Page() {
   /* ⚠️ L'ordinamento è **davvero** alfabetico perché la pagina lo dichiara in
    * fondo: una riga che promette un criterio e un elenco che ne segue un altro
    * è una bugia piccola e gratuita. `localeCompare('it')` per le accentate. */
   const pubblicati = mediciPubblicati()
-    .filter((m) => MOSTRA_ESEMPI || !m.esempio)
+    .filter((m) => mostraEsempi() || !m.esempio)
     .slice()
     .sort((a, b) => a.medico.nome.localeCompare(b.medico.nome, 'it'))
 

@@ -275,10 +275,54 @@ function esempiGenerati(quanti: number): SchedaMedicoPubblica[] {
   })
 }
 
-/** Gli studi da pubblicare. Oggi: solo gli esempi. */
+/* ── L'interruttore degli esempi: UN SOLO POSTO CHE LO LEGGE ────────────────
+ *
+ * 🔴 **Perché sta qui e non anche nella pagina.** `PAZIENTI_ESEMPI` è stato
+ * letto per un po' in **due punti con due significati**: qui come *quanti*
+ * (`Number(...)`), e in `app/pazienti/page.tsx` come *sì/no*. Due letture della
+ * stessa variabile possono solo divergere, e infatti divergevano in **entrambe**
+ * le direzioni:
+ *   · `PAZIENTI_ESEMPI=20` → la pagina non mostrava niente (non era la stringa
+ *     `'true'`) mentre questa funzione era pronta a generarne venti;
+ *   · e correggendo quello con `Boolean(v) && v !== 'false'`, **`=0` accendeva
+ *     gli esempi** — perché `Boolean('0')` è vero: la stringa non è vuota.
+ * Su una pagina pubblica il cui scopo dichiarato è che *«non compaia un medico
+ * che non esiste»*, `=0` che vuol dire «accendi» è un innesco silenzioso.
+ *
+ * ⛔ **Fail-closed per costruzione**: si accende **solo** con un valore che
+ * questa funzione capisce. Tutto il resto — `0`, `false`, `no`, `off`, `-1`,
+ * `2.5`, vuoto, non impostata — vale **spento**. Non c'è nessun ramo che dica
+ * «non ho capito, quindi sì».
+ *
+ * ⚠️ È un flag di **build**: il sito è `output: 'export'`, quindi il valore
+ * viene cotto dentro le pagine al momento del `next build`, non deciso a
+ * runtime. Cambiarlo richiede ricostruire. */
+export function esempiRichiesti(): number {
+  const grezzo = (process.env.PAZIENTI_ESEMPI ?? '').trim().toLowerCase()
+  // `true` resta l'uso documentato: «accendi quelli scritti a mano», senza
+  // dover sapere quanti sono.
+  if (grezzo === 'true') return MEDICI_ESEMPIO.length
+  const quanti = Number(grezzo)
+  return grezzo !== '' && Number.isInteger(quanti) && quanti > 0 ? quanti : 0
+}
+
+/** Se l'elenco pubblico deve mostrare gli studi di esempio. */
+export function mostraEsempi(): boolean {
+  return esempiRichiesti() > 0
+}
+
+/** Gli studi da pubblicare. Oggi: solo gli esempi.
+ *
+ * ⚠️ Torna gli esempi **anche a interruttore spento**, ed è voluto: le loro
+ * schede devono continuare a essere costruite, perché `scripts/collaudo.mjs`
+ * ne esercita una (`/pazienti/medico/studio-dimostrativo`) a ogni `pre-push`,
+ * su una build senza flag. A nasconderli è **l'elenco**, che è l'unico posto
+ * dove un visitatore li conterebbe come medici veri; le schede portano già
+ * `noindex`, il riquadro «questo studio non esiste» e nessun dato strutturato,
+ * e non stanno nella sitemap. */
 export function mediciPubblicati(): readonly SchedaMedicoPubblica[] {
-  const richiesti = Number(process.env.PAZIENTI_ESEMPI)
-  if (Number.isFinite(richiesti) && richiesti > MEDICI_ESEMPIO.length) {
+  const richiesti = esempiRichiesti()
+  if (richiesti > MEDICI_ESEMPIO.length) {
     return [...MEDICI_ESEMPIO, ...esempiGenerati(richiesti)]
   }
   return MEDICI_ESEMPIO
