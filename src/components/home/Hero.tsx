@@ -67,8 +67,20 @@ export function Hero() {
               className="entra-primo-schermo ritardo-2 mt-[var(--s-34)] text-[1.0625rem]"
               style={{ color: 'var(--fg-muted)', maxWidth: 'var(--misura-corta)' }}
             >
-              Anamnesi, sedute con prodotto e lotto, consensi firmati in studio, fotografie
-              cifrate. In un posto solo, e con ogni scrittura tracciata.
+              {/* 🔑 **Diceva cosa c'è dentro; ora dice a cosa serve.** Misurato il
+                  2026-08-12: la posta in gioco — il contenzioso — era **già** sulla home,
+                  scritta bene, nella tappa `Sigillo` («Una cartella si contesta dicendo che è
+                  stata riscritta», «l'argomento più semplice che un avvocato possa usare»).
+                  Ma è la **tappa 7 su 16**: chi leggeva solo il primo schermo non la trovava,
+                  e la parola «contenzioso» sulla home compariva **zero volte**.
+                  ⚠️ Ogni pezzo di questa frase corrisponde a una funzione che esiste: la
+                  versione del consenso al momento della firma, il lotto, le foto, la catena di
+                  impronte. ⛔ E si ferma lì — **non si promette un esito legale**, che non
+                  dipende da noi. Si dice cosa si riesce a dimostrare, che è quello che il
+                  prodotto fa davvero. */}
+              Quando una seduta viene contestata, conta cosa riesci a dimostrare: il consenso
+              nella versione firmata quel giorno, il lotto, le foto, e un registro che non si può
+              riscrivere.
             </p>
 
             {/* La demo pubblica passa in prima fila.
