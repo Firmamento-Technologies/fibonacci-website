@@ -141,7 +141,24 @@ export const ATTIVAZIONE = [
   'Migrazione dell’anagrafica e dello storico dal gestionale che usi oggi',
   'Configurazione dello studio, degli operatori e dei permessi',
   'Formazione iniziale, in videochiamata o di persona',
-  'Nessun costo di attivazione, nessun vincolo di durata',
+  /* 🔴 **Diceva solo «nessun vincolo di durata», e non bastava.** Misurato il
+   * 2026-08-12 con l'assistente del sito: *«Posso disdire quando voglio?»*
+   * veniva **respinta** — la parola «disdire» sul sito non c'era da nessuna
+   * parte, quindi la domanda non trovava appiglio e non arrivava nemmeno al
+   * recupero. La risposta però esisteva già, in `domande.ts`: *«Si paga
+   * mensilmente e si disdice quando si vuole. Alla disdetta esporti i dati»*.
+   *
+   * ⇒ Non è una condizione nuova: è **la stessa cosa scritta con la parola che
+   * la gente usa**. Le due forme — `disdire` e `disdetta` — ci sono entrambe di
+   * proposito, perché la domanda si fa in tutti e due i modi e il confronto è
+   * lessicale (nessuno stemming: `disdire` ≠ `disdice`).
+   *
+   * ⛔ Il rimedio alternativo — far combaciare le parole per **prefisso** — è
+   * stato provato e scartato con la misura: recuperava questa domanda ma
+   * faceva passare **sei domande fuori tema su otto** («qual è la capitale
+   * della Francia» entrava da `capitale`). Si scrive la parola sul sito, non
+   * si allenta la guardia. */
+  'Nessun costo di attivazione e nessun vincolo di durata: puoi disdire quando vuoi, e alla disdetta esporti i dati',
 ] as const
 
 /**
