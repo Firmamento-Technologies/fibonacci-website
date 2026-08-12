@@ -1,7 +1,6 @@
 'use client'
 
 import { useId, useRef, useState } from 'react'
-import Link from 'next/link'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
 /**
@@ -15,9 +14,12 @@ import { CONTACT_EMAIL } from '@/lib/site-config'
  *    è esattamente l'uso che non deve avere. Senza memoria del giro
  *    precedente, ogni domanda viene giudicata da sola.
  *
- * 2. LE FONTI SONO SEMPRE MOSTRATE, E SONO LINK. Chi legge deve poter andare
- *    a controllare sulla pagina vera. È la stessa idea del verificatore di
- *    documenti: la risposta non chiede di essere creduta.
+ * 2. ⚠️ LE FONTI NON SI MOSTRANO PIÙ (decisione dell'utente, 2026-08-13).
+ *    Fino a oggi ogni risposta portava sotto «Letto da: …» con i link alle
+ *    pagine, e la ragione era che la risposta non dovesse chiedere di essere
+ *    creduta. È stato tolto qui e nel pannello del pallino perché appesantiva
+ *    la lettura. ⛔ Il servizio continua a **mandarle** (`fonti` nella
+ *    risposta): tornano visibili cambiando questo file, non il backend.
  *
  * 3. IL RIFIUTO NON È UN ERRORE. Quando la domanda è fuori tema il servizio
  *    risponde 200 con una spiegazione: qui si mostra come una risposta
@@ -258,19 +260,6 @@ export function Assistente() {
             <p className="text-[1.0625rem] whitespace-pre-line" style={{ color: 'var(--fg)' }}>
               {conGrassetto(esito.risposta)}
             </p>
-            {esito.fonti.length > 0 && (
-              <p className="mt-[var(--s-13)] text-[0.875rem]" style={{ color: 'var(--fg-muted)' }}>
-                Letto da:{' '}
-                {esito.fonti.map((f, i) => (
-                  <span key={f}>
-                    {i > 0 && ', '}
-                    <Link href={f} style={{ color: 'var(--accent-deep)' }}>
-                      {f}
-                    </Link>
-                  </span>
-                ))}
-              </p>
-            )}
           </div>
         )}
       </div>

@@ -10,12 +10,10 @@ import { CONTACT_EMAIL } from '@/lib/site-config'
  * Chiede allo stesso servizio del widget nel testo (`/assistente/domanda`):
  * niente esce di qui se non la domanda, niente viene salvato nel browser.
  *
- * ⚠️ **Le fonti NON si mostrano in questo pannello** — decisione dell'utente
- * del 2026-08-12: la riga «Da: …» in fondo a ogni risposta appesantiva la
- * chat. Il servizio continua a mandarle e il widget nel testo continua a
- * mostrarle («Letto da: …» in `/domande` e `/prezzi`), quindi la verifica
- * resta possibile: qui e' una scelta di forma, non la rimozione di una
- * garanzia.
+ * ⚠️ **Le fonti NON si mostrano** — decisione dell'utente (12-13 agosto 2026):
+ * prima qui, poi anche nel widget dentro `/domande` e `/prezzi`. Il servizio
+ * continua a mandarle nella risposta: tornano visibili cambiando i componenti,
+ * non il backend.
  *
  * ⚠️ **Le risposte non si costruiscono l'una sull'altra.** In pannello i turni
  * si vedono impilati, ma ogni domanda parte pulita: il servizio non riceve i
