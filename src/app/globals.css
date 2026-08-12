@@ -1834,11 +1834,52 @@ h3:hover > .ancora,
    (2026-08-12): «è una pagina di testo, non una UI dove trovare medici».
    La fascia dà il contrasto che separa **dove si cerca** da **cosa si è
    trovato** — che è l'unica gerarchia che conta qui. */
+/* 🔴 **Terzo giro, 2026-08-13.** Era `background: var(--bg-sunk)` e basta: un
+   rettangolo grigio con dentro del testo nero, cioè il difetto che l'utente ha
+   chiamato «tutto piatto e uniforme». Ora la fascia ha una **profondità** (velo
+   azzurro in alto a destra, dove sta la foto) e ospita una fotografia. */
 .eroe-pazienti {
-  background: var(--bg-sunk);
+  background:
+    radial-gradient(60rem 30rem at 85% 0%, var(--accent-wash), transparent 70%),
+    var(--bg-sunk);
   border-bottom: 1px solid var(--rule);
   padding-block: var(--s-34) var(--s-34);
 }
+@media (min-width: 62rem) {
+  .eroe-pazienti { padding-block: var(--s-34) var(--s-55); }
+}
+/* La griglia dell'eroe: testo+ricerca a sinistra, fotografia a destra.
+   ⚠️ `.gabbia` porta già il centraggio e i margini: qui si aggiunge **solo** il
+   comportamento a griglia, ⛔ non un secondo `max-width` (annidarne uno dentro
+   `.gabbia` ricentra e disallinea rispetto ai risultati sotto — è già successo). */
+.eroe-pazienti-griglia { display: grid; gap: var(--s-34); }
+.eroe-pazienti-foto { display: none; }
+@media (min-width: 62rem) {
+  .eroe-pazienti-griglia {
+    grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+    align-items: center;
+    gap: var(--s-55);
+  }
+  /* 🖼️ La foto compare **solo da 62rem in su**: sotto, starebbe fra il titolo e
+     il campo di ricerca e spingerebbe l'azione sotto la piega. */
+  .eroe-pazienti-foto { display: block; }
+}
+/* ⚠️ **Quadrata e con un tetto, non 4/5.** A 4/5 la foto era alta 537px e
+   dettava l'altezza dell'eroe: la fascia arrivava a ~900px e **il primo
+   risultato finiva sotto la piega** — cioè l'immagine, messa lì per far capire
+   in un colpo d'occhio dove sei, spingeva fuori schermo la cosa che sei venuto
+   a cercare. NN/g, *Scrolling and Attention*: sopra la piega va il contenuto
+   ad alta priorità, e qui la priorità sono i medici. */
+.eroe-pazienti-foto img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 24rem;
+  object-fit: cover;
+  border-radius: var(--r-lg);
+  box-shadow: 0 8px 28px rgba(16, 31, 46, 0.14);
+}
+
 /* ⚠️ Il titolo di questa pagina è in **sans**, non nel serif del resto del
    sito: è una pagina di SERVIZIO, si scansiona invece di leggersi, ed è la
    scelta che fanno anche MioDottore e Doctolib. */
@@ -1846,14 +1887,252 @@ h3:hover > .ancora,
   font-family: var(--font-sans);
   font-weight: 600;
   letter-spacing: -0.01em;
+  line-height: 1.15;
 }
+/* Un a capo che esiste solo dove serve: su schermo stretto il testo si spezza
+   da sé, e un `<br>` in più significa una riga in più fra titolo e azione. */
+.a-capo-largo { display: none; }
+@media (min-width: 48rem) { .a-capo-largo { display: inline; } }
+
+/* Un'icona in testa a una riga di testo che può andare a capo: si allinea alla
+   **prima riga**, non al centro del blocco. */
+.icona-riga { margin-top: 3px; }
+
+/* ── Il riquadro di ricerca ─────────────────────────────────────────────
+   ⚠️ **Lo stile sta QUI, non in `style={{}}`**: uno stile inline batte la
+   classe, e `gridTemplateColumns` scritto inline rendeva muta la media query —
+   i due campi restavano impilati anche su schermo largo (misurato 2026-08-12). */
 .ricerca-pazienti {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--s-8);
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  box-shadow: 0 2px 10px rgba(16, 31, 46, 0.08);
+  padding: var(--s-13);
 }
 @media (min-width: 48rem) {
   .ricerca-pazienti { grid-template-columns: 1.5fr 1fr auto; align-items: end; }
+}
+.campo-ricerca {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 2px;
+  padding-inline: var(--s-13);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-sm);
+  background: var(--bg);
+  font: inherit;
+  color: var(--fg);
+}
+.bottone-cerca {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-8);
+}
+
+/* ── Chip: scorciatoie di ricerca e prestazioni ─────────────────────────── */
+.fila-chip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-8);
+  padding: 0;
+}
+.chip-scorciatoia {
+  min-height: 40px;
+  padding-inline: var(--s-13);
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  background: #fff;
+  color: var(--fg);
+  font-size: 15px;
+  cursor: pointer;
+}
+.chip-scorciatoia:hover { border-color: var(--accent); color: var(--accent-deep); }
+.chip-scorciatoia-attiva {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+/* Le prestazioni: etichette **piatte e piccole**, mai premibili. ⛔ Se avessero
+   bordo e altezza dei chip di ricerca sembrerebbero filtri, e non lo sono. */
+.chip-prestazione {
+  list-style: none;
+  font-size: 14px;
+  padding: 4px var(--s-8);
+  border-radius: var(--r-sm);
+  background: var(--bg-sunk);
+  color: var(--fg-muted);
+}
+
+/* ── Le tre pastiglie sotto la ricerca ──────────────────────────────────── */
+.fila-pastiglie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-8) var(--s-21);
+  padding: 0;
+  font-size: 15px;
+  color: var(--accent-ink);
+}
+.fila-pastiglie li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: var(--s-5);
+}
+
+/* ── I risultati ────────────────────────────────────────────────────────
+   🔴 Erano larghi 52rem su una finestra da 1280px: **metà schermo vuoto**, con
+   le schede strette e altissime. `--measure` (34rem) governa la PROSA; una
+   scheda di risultati non è prosa. */
+.colonna-risultati { max-width: 64rem; }
+
+/* ── La scheda di un risultato: due zone, CHI e QUANDO ───────────────────
+   ⚖️ NN/g, *Layer-Cake Pattern of Scanning*: i blocchi si distinguono «with a
+   grid […] borders or colored backgrounds […] a suitable amount of space».
+   ⚠️ Sotto i 56rem tornano in colonna e il filetto passa da sinistra a sopra:
+   su un telefono si legge chi è, poi quando è libero. */
+.scheda-risultato {
+  display: grid;
+  gap: var(--s-21);
+  padding: var(--s-21);
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  box-shadow: 0 1px 2px rgba(16, 31, 46, 0.04);
+}
+.scheda-risultato-quando {
+  border-top: 1px solid var(--rule);
+  padding-top: var(--s-13);
+}
+@media (min-width: 56rem) {
+  .scheda-risultato { grid-template-columns: minmax(0, 1fr) 15rem; }
+  .scheda-risultato-quando {
+    border-top: 0;
+    padding-top: 0;
+    border-left: 1px solid var(--rule);
+    padding-left: var(--s-21);
+  }
+}
+/* Il nome del medico. `globals.css` azzera i collegamenti di proposito, quindi
+   ogni `<a>` va vestito dove compare. */
+.collegamento-scheda { color: var(--fg); text-decoration: none; }
+.collegamento-scheda:hover { color: var(--accent-deep); text-decoration: underline; text-underline-offset: 3px; }
+.collegamento-testo { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+/* 🔑 **La pastiglia dell'albo: l'unico elemento tinto della scheda.**
+   Gli altri portali mettono qui cinque stelle; noi mettiamo un numero che il
+   paziente può controllare da solo. Era la terza riga grigia di tre righe
+   grigie — cioè un fatto verificabile sprecato. */
+.pillola-albo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  padding: var(--s-8) var(--s-13);
+  border-radius: 999px;
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ── Gli orari liberi ───────────────────────────────────────────────────── */
+.griglia-orari {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4.5rem, 1fr));
+  gap: var(--s-8);
+  padding: 0;
+}
+/* ⚠️ 44px di altezza: bersaglio da pollice. Questi sono l'azione principale
+   della pagina, e sono gli unici elementi pieni della scheda. */
+.orario-vivo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: var(--r-sm);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.orario-vivo:hover { background: var(--accent-deep); border-color: var(--accent-deep); }
+/* Canale spento: etichette. ⛔ Un orario che *sembra* premibile e non lo è è il
+   difetto dei collegamenti invisibili, girato al contrario. */
+.orario-morto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: var(--r-sm);
+  background: var(--bg-sunk);
+  color: var(--fg-muted);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+.bottone-telefono {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  min-height: 44px;
+  padding-inline: var(--s-13);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-sm);
+  background: #fff;
+  color: var(--fg);
+  font-size: 15px;
+}
+.bottone-telefono:hover { border-color: var(--accent); color: var(--accent-deep); }
+
+/* ── I tre controlli, in fila ───────────────────────────────────────────
+   🔴 Erano un `<ol>` di tre paragrafi lunghi sotto due schede: ~260 parole che
+   nessuno legge. La stessa informazione in tre schede si scansiona in tre
+   secondi — ed è ciò che resta del saggio tolto il 2026-08-13. */
+.guide-paziente { display: grid; gap: var(--s-13); padding: 0; }
+@media (min-width: 52rem) {
+  .guide-paziente { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+.carta-guida {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-8);
+  height: 100%;
+  padding: var(--s-21);
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  color: var(--fg);
+  text-decoration: none;
+}
+.carta-guida:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(16, 31, 46, 0.08); }
+.carta-guida-numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--s-34);
+  height: var(--s-34);
+  border-radius: 50%;
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+  font-weight: 600;
+}
+.carta-guida-titolo { font-weight: 600; font-size: 1.0625rem; line-height: 1.3; }
+.carta-guida-testo { font-size: 15px; color: var(--fg-muted); }
+.carta-guida-piede {
+  margin-top: auto;
+  padding-top: var(--s-8);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-5);
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 500;
 }
 
 

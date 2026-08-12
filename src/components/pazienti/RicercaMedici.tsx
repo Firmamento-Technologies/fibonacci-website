@@ -8,13 +8,28 @@
  * sola azione, sopra la piega, due campi e un pulsante* — poi le scorciatoie
  * per la coda lunga, poi i risultati.
  *
- * ⚠️ **Correzione su rilievo dell'utente (2026-08-12, due volte).** Il piano
- * diceva *«il riquadro di ricerca arriva con l'elenco, non prima»*, e io l'avevo
- * preso alla lettera: con due studi niente ricerca ⇒ la pagina restava un
- * documento di testo. L'utente ha ragione: **una pagina dove i pazienti cercano
- * i medici deve avere l'aspetto di quello**, anche mentre i medici sono pochi.
- * La ricerca c'è, e ⛔ non finge: dice quanti risultati mostra, e quando non
- * trova niente lo dice senza svuotare la pagina.
+ * ── 🔴 IL TERZO GIRO, 2026-08-13: «MANCANO IMMAGINI, È TUTTO PIATTO» ────────
+ * L'eroe era **un rettangolo grigio con dentro del testo nero**. Tre correzioni,
+ * ognuna con la sua ragione misurata:
+ *
+ *  1. **Una fotografia.** Unbounce, *Elements of a high-converting landing
+ *     page*: «what does your hero image say about you? Are you merely showing
+ *     your product […] or the **experience** someone will get from it?». Qui
+ *     l'esperienza è **un consulto uno-a-uno**, non un ago: `consulto-studio`
+ *     è esattamente la scena, ed è già nel set curato di `public/photos`
+ *     (criteri di scelta in `CREDITS.md` — ⛔ niente camici e stetoscopi, che
+ *     sono il repertorio del medico di base).
+ *  2. **Un titolo che dice al paziente perché è qui.** CXL: la proposta di
+ *     valore deve rendere evidenti *rilevanza*, *beneficio* e *differenza*.
+ *     «Trova un medico estetico e prenota» diceva solo cosa fa la pagina —
+ *     lo stesso di chiunque altro. La differenza vera ce l'abbiamo nel dato e
+ *     non la stavamo dicendo: **il numero d'iscrizione all'albo, in chiaro**.
+ *     In una specialità dove esercita anche chi non dovrebbe, è la paura del
+ *     paziente, ed è l'unica cosa che nessun concorrente mette in prima
+ *     pagina. ⚖️ È una frase sul **nostro** servizio e sull'azione del
+ *     paziente: ⛔ non un superlativo su un medico, non un confronto con
+ *     nessuno — il c. 525 resta fuori dalla porta.
+ *  3. **Tre pastiglie al posto di un saggio.** ⇒ vedi la nota in `page.tsx`.
  *
  * ── COSA NON C'È, E RESTA FUORI ─────────────────────────────────────────────
  * ⛔ Nessuna classifica, nessun voto, nessuna «In evidenza» a pagamento —
@@ -23,8 +38,10 @@
  * ⛔ Nessun prezzo: gli onorari li dice lo studio.
  */
 
-import { useMemo, useState, type ReactNode } from 'react'
+import { useMemo, useState } from 'react'
 import { VoceElenco } from '@/components/pazienti/VoceElenco'
+import { IconaCerca, IconaSpunta } from '@/components/pazienti/Icone'
+import { assetPath } from '@/lib/asset-path'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 
 /** Le scorciatoie: sono le prestazioni vere del catalogo, non parole d'ordine.
@@ -39,6 +56,21 @@ const SCORCIATOIE = [
   'Prima visita',
 ] as const
 
+/* 🔑 **Il saggio, compresso in tre fatti.**
+ * L'utente: *«non ho ancora capito il senso di sta roba e perché mio dottore
+ * non ne ha bisogno»*. La risposta sta in `page.tsx`; qui sta la conseguenza:
+ * ciò che restava di vero in quei tre paragrafi sono **tre affermazioni sul
+ * nostro servizio**, e stanno sotto la ricerca dove chiunque le vede, non in
+ * fondo dove nessuno arriva.
+ * ⚖️ Sono formulate **su di noi**, mai sugli altri: «nessuna classifica a
+ * pagamento» è un fatto nostro; «a differenza degli altri portali» sarebbe una
+ * comparazione, cioè il terreno del c. 525. */
+const PASTIGLIE = [
+  'Ordine e numero d’iscrizione in chiaro',
+  'Nessuna classifica a pagamento',
+  'Nessun cookie, nessun account',
+] as const
+
 function normalizza(s: string): string {
   return s
     .toLowerCase()
@@ -47,17 +79,7 @@ function normalizza(s: string): string {
     .trim()
 }
 
-export function RicercaMedici({
-  medici,
-  intestazione,
-}: {
-  medici: readonly SchedaMedicoPubblica[]
-  /** Il titolo della pagina, reso **dentro la fascia**: eroe e ricerca sono un
-   *  blocco solo, e lo stato della ricerca vive qui. ⚠️ Separarli avrebbe
-   *  significato o due componenti che si passano lo stato, o i risultati dentro
-   *  la fascia — che è l'errore che avevo appena fatto. */
-  intestazione: ReactNode
-}) {
+export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblica[] }) {
   const [cosa, setCosa] = useState('')
   const [dove, setDove] = useState('')
 
@@ -82,100 +104,136 @@ export function RicercaMedici({
   return (
     <>
       <div className="eroe-pazienti">
-        <div className="gabbia">
-          {intestazione}
-          <div style={{ maxWidth: '52rem', marginTop: 'var(--s-21)' }}>
-      {/* ── L'azione, sopra tutto ──────────────────────────────────────── */}
-      <form
-        role="search"
-        onSubmit={(e) => {
-          e.preventDefault()
-          document.getElementById('risultati')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }}
-        style={{
-          background: '#fff',
-          border: '1px solid var(--rule)',
-          borderRadius: 'var(--r-lg)',
-          boxShadow: '0 2px 8px rgba(16, 31, 46, 0.06)',
-          padding: 'var(--s-13)',
-          /* ⚠️ La griglia sta **nel CSS**, non qui: uno stile inline batte la
-             classe, quindi `gridTemplateColumns` scritto qui rendeva la media
-             query muta e i due campi restavano impilati anche su schermo largo.
-             Misurato a video il 2026-08-12. */
-          gap: 'var(--s-8)',
-        }}
-        className="ricerca-pazienti"
-      >
-        <label style={{ display: 'block' }}>
-          <span className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
-            Che cosa cerchi
-          </span>
-          <input
-            value={cosa}
-            onChange={(e) => setCosa(e.target.value)}
-            placeholder="es. tossina botulinica, o il nome del medico"
-            autoComplete="off"
-            style={CAMPO}
-          />
-        </label>
-        <label style={{ display: 'block' }}>
-          <span className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
-            Dove
-          </span>
-          <input
-            value={dove}
-            onChange={(e) => setDove(e.target.value)}
-            placeholder="es. Milano"
-            autoComplete="address-level2"
-            style={CAMPO}
-          />
-        </label>
-        {/* 🔴 **Il pulsante serve anche se la ricerca è istantanea.** Senza, due
-            campi affiancati non si leggono come una ricerca: sembrano un modulo
-            a metà, e nessuno capisce che si può scrivere e basta. Qui non
-            «invia» — mette a fuoco i risultati e chiude la tastiera sul
-            telefono, che è la cosa che serve davvero lì. */}
-        <button type="submit" className="btn btn-primario" style={{ minHeight: '48px' }}>
-          Cerca
-        </button>
-      </form>
+        <div className="gabbia eroe-pazienti-griglia">
+          <div>
+            <header>
+              <h1 className="titolo-servizio text-[length:var(--display-2)]">
+                Trova un medico estetico,
+                {/* ⚠️ L'a capo è **solo su schermo largo**: su un telefono
+                    forzava una terza riga e il titolo si prendeva mezzo primo
+                    schermo da solo. Misurato a 375px il 2026-08-13. */}
+                <br className="a-capo-largo" /> e controlla che sia un medico.
+              </h1>
+              {/* Il beneficio, in una riga: cosa ottieni e in quanto tempo.
+                  ⚠️ «in un minuto» non è un'iperbole di vendita: la pagina
+                  [[verificare-un-medico]] descrive esattamente quel minuto.
+                  🔴 Era lungo il doppio («…sull'albo nazionale… che lo studio
+                  ha davvero liberi»): su un telefono faceva **quattro righe**
+                  fra il titolo e il campo di ricerca, cioè spingeva l'azione
+                  fuori dal primo schermo. */}
+              <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
+                L’Ordine e il numero d’iscrizione in ogni scheda: li verifichi tu, in un
+                minuto. Poi prenoti sugli orari davvero liberi.
+              </p>
+            </header>
 
-      {/* ── Le scorciatoie, come le loro nuvole di chip ────────────────── */}
-      <ul
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: 'var(--s-8)',
-          marginTop: 'var(--s-13)',
-          padding: 0,
-        }}
-      >
-        {SCORCIATOIE.map((s) => {
-          const attiva = normalizza(cosa) === normalizza(s)
-          return (
-            <li key={s} style={{ listStyle: 'none' }}>
-              <button
-                type="button"
-                onClick={() => setCosa(attiva ? '' : s)}
-                aria-pressed={attiva}
-                className="text-[15px]"
-                style={{
-                  minHeight: '44px',
-                  padding: '0 var(--s-13)',
-                  borderRadius: '999px',
-                  border: `1px solid ${attiva ? 'var(--accent)' : 'var(--rule)'}`,
-                  background: attiva ? 'var(--accent)' : '#fff',
-                  color: attiva ? '#fff' : 'var(--fg)',
-                  cursor: 'pointer',
-                }}
-              >
-                {s}
+            {/* ── L'azione, sopra tutto ─────────────────────────────────── */}
+            <form
+              role="search"
+              onSubmit={(e) => {
+                e.preventDefault()
+                document
+                  .getElementById('risultati')
+                  ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }}
+              className="ricerca-pazienti mt-[var(--s-21)]"
+            >
+              <label style={{ display: 'block' }}>
+                <span className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
+                  Che cosa cerchi
+                </span>
+                <input
+                  value={cosa}
+                  onChange={(e) => setCosa(e.target.value)}
+                  placeholder="es. tossina botulinica, o il nome del medico"
+                  autoComplete="off"
+                  className="campo-ricerca"
+                />
+              </label>
+              <label style={{ display: 'block' }}>
+                <span className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
+                  Dove
+                </span>
+                <input
+                  value={dove}
+                  onChange={(e) => setDove(e.target.value)}
+                  placeholder="es. Milano"
+                  autoComplete="address-level2"
+                  className="campo-ricerca"
+                />
+              </label>
+              {/* 🔴 **Il pulsante serve anche se la ricerca è istantanea.**
+                  Senza, due campi affiancati non si leggono come una ricerca:
+                  sembrano un modulo a metà. Qui non «invia» — mette a fuoco i
+                  risultati e chiude la tastiera sul telefono, che è la cosa
+                  che serve davvero lì. */}
+              <button type="submit" className="btn btn-primario bottone-cerca">
+                <IconaCerca lato={18} />
+                Cerca
               </button>
-            </li>
-          )
-        })}
-      </ul>
+            </form>
 
+            {/* Le scorciatoie, come le loro nuvole di chip. */}
+            <ul className="fila-chip mt-[var(--s-13)]">
+              {SCORCIATOIE.map((s) => {
+                const attiva = normalizza(cosa) === normalizza(s)
+                return (
+                  <li key={s} style={{ listStyle: 'none' }}>
+                    <button
+                      type="button"
+                      onClick={() => setCosa(attiva ? '' : s)}
+                      aria-pressed={attiva}
+                      className={attiva ? 'chip-scorciatoia chip-scorciatoia-attiva' : 'chip-scorciatoia'}
+                    >
+                      {s}
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+
+            <ul className="fila-pastiglie mt-[var(--s-21)]">
+              {PASTIGLIE.map((p) => (
+                <li key={p}>
+                  <IconaSpunta lato={15} />
+                  {p}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* 🖼️ **La fotografia.** ⚠️ Sotto i 62rem sparisce: su un telefono
+              starebbe fra il titolo e il campo di ricerca, cioè spingerebbe
+              l'azione sotto la piega — l'errore che NN/g (*Scrolling and
+              Attention*) chiede di non fare, e che questa pagina ha già fatto
+              una volta con tre blocchi di testo.
+              ⛔ Non è un ritratto e non è un medico: è una **scena**, e non
+              viene spacciata per nessuno degli studi in elenco.
+
+              🔎 **Perché questa e non `consulto-studio`**, che era la prima
+              scelta e va guardata prima di rimetterla: quella foto ritrae una
+              paziente **visibilmente perplessa** in un cardigan blu elettrico
+              che litiga con la tavolozza del sito, e l'operatrice è in casacca
+              nera — cioè l'immagine non dice «medico», che è esattamente la
+              parola del titolo. Qui il camice e i guanti dicono *atto medico*
+              in mezzo secondo, ed è la stessa cosa che dice la pagina. */}
+          <div className="eroe-pazienti-foto">
+            {/* eslint-disable-next-line @next/next/no-img-element -- export
+                statico: nessun ottimizzatore a runtime. */}
+            {/* 🔴 **`alt=""` + `aria-hidden` è stato un errore, e l'ha preso il
+                collaudo** (non la build, non `lint`): *«/pazienti: immagine
+                senza alt»*. Avevo ragionato «è decorativa, quindi si nasconde»,
+                ⛔ ma la regola di questo sito è l'opposto ed è scritta in
+                `ui/elementi.tsx`: *«queste foto raccontano una scena e chi usa
+                uno screen reader ha diritto alla scena»*. Una foto che porta il
+                messaggio del titolo — *è un atto medico* — non è decorazione. */}
+            <img
+              src={assetPath('/photos/cura-pelle-viso.jpg')}
+              alt="Una paziente distesa in ambulatorio: un medico con camice e guanti le tratta il viso con uno strumento."
+              loading="eager"
+              decoding="sync"
+              fetchPriority="high"
+            />
           </div>
         </div>
       </div>
@@ -184,54 +242,47 @@ export function RicercaMedici({
           più stretto lo centrava di nuovo, e i risultati rientravano di ~230px
           rispetto alla fascia sopra. Due blocchi della stessa pagina allineati
           a due margini diversi si leggono come due pagine. */}
-      <div className="gabbia" style={{ paddingTop: 'var(--s-21)' }}>
-        <div style={{ maxWidth: '52rem' }}>
-      {/* ── Il conteggio: dice sempre la verità, anche quando è zero ───── */}
-      <p
-        id="risultati"
-        className="text-[15px]"
-        style={{ color: 'var(--fg-muted)', marginTop: 'var(--s-21)', scrollMarginTop: 'var(--s-21)' }}
-        role="status"
-      >
-        {risultati.length === 0
-          ? 'Nessuno studio corrisponde.'
-          : `${risultati.length} ${
-              risultati.length === 1
-                ? `studio${filtrata ? ' trovato' : ''}`
-                : `studi${filtrata ? ' trovati' : ''}`
-            }. In ordine alfabetico: nessuno può pagare per comparire più in alto.`}
-      </p>
+      <div className="gabbia" style={{ paddingTop: 'var(--s-34)' }}>
+        <div className="colonna-risultati">
+          {/* ── Il conteggio: dice sempre la verità, anche quando è zero ──
+              🔑 **La riga sull'ordinamento è tornata a essere una nota.** Era
+              incollata al conteggio, in corpo pieno: la politica editoriale
+              scritta con lo stesso peso del dato di prodotto. Ora il numero è
+              un titolo e il criterio è la sua didascalia. */}
+          <div id="risultati" style={{ scrollMarginTop: 'var(--s-21)' }} role="status">
+            <h2 className="titolo-servizio text-[length:var(--display-3)]">
+              {risultati.length === 0
+                ? 'Nessuno studio corrisponde'
+                : `${risultati.length} ${
+                    risultati.length === 1
+                      ? `studio${filtrata ? ' trovato' : ''}`
+                      : `studi${filtrata ? ' trovati' : ''}`
+                  }`}
+            </h2>
+            {risultati.length > 0 && (
+              <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                In ordine alfabetico. Nessuno può pagare per comparire più in alto.
+              </p>
+            )}
+          </div>
 
-      {risultati.length === 0 ? (
-        <p className="mt-[var(--s-13)]">
-          {/* ⛔ Non si svuota la pagina: si dice **cosa fare adesso**. NN/g,
-              information scent — un vicolo cieco senza uscita fa uscire dal
-              sito, non riformulare. */}
-          Prova con meno parole, o togli il luogo. Se il tuo medico usa Fibonacci
-          e non compare qui, la sua pagina te la può dare lui.
-        </p>
-      ) : (
-        <ul style={{ padding: 0, marginTop: 'var(--s-13)' }}>
-          {risultati.map((m) => (
-            <VoceElenco key={m.slug} m={m} />
-          ))}
-        </ul>
-      )}
+          {risultati.length === 0 ? (
+            <p className="mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
+              {/* ⛔ Non si svuota la pagina: si dice **cosa fare adesso**. NN/g,
+                  information scent — un vicolo cieco senza uscita fa uscire dal
+                  sito, non riformulare. */}
+              Prova con meno parole, o togli il luogo. Se il tuo medico usa Fibonacci
+              e non compare qui, la sua pagina te la può dare lui.
+            </p>
+          ) : (
+            <ul style={{ padding: 0, marginTop: 'var(--s-21)' }}>
+              {risultati.map((m) => (
+                <VoceElenco key={m.slug} m={m} />
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </>
   )
 }
-
-const CAMPO = {
-  display: 'block',
-  width: '100%',
-  minHeight: '48px',
-  marginTop: '2px',
-  padding: '0 var(--s-13)',
-  border: '1px solid var(--rule)',
-  borderRadius: 'var(--r-sm)',
-  background: 'var(--bg)',
-  font: 'inherit',
-  color: 'var(--fg)',
-} as const

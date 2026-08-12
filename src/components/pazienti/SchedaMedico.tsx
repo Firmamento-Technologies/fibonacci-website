@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano } from '@/lib/medici-pubblici'
 import { Ritratto } from '@/components/pazienti/VoceElenco'
+import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
 import { ModuloPrenotazione } from '@/components/pazienti/ModuloPrenotazione'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 
@@ -95,17 +96,30 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           millantare — e ce l'abbiamo già nel dato. */}
       <div className="scheda-medico-corpo">
       <div>
+      {/* ⚠️ **Fondo `--accent-wash`, non `--bg-sunk`**: è lo stesso azzurro
+          della pastiglia dell'albo nell'elenco. Le due viste parlavano dello
+          stesso fatto con due colori diversi — grigio qui, azzurro là — e il
+          grigio è la tavolozza delle cose spente. */}
       <section
         aria-labelledby="albo"
         style={{
           marginTop: 'var(--s-34)',
           padding: 'var(--s-21)',
-          background: 'var(--bg-sunk)',
+          background: 'var(--accent-wash)',
           borderRadius: 'var(--r-lg)',
           maxWidth: 'var(--measure)',
         }}
       >
-        <h2 id="albo" className="text-[length:var(--display-3)]">
+        {/* ⚠️ Sans anche nei titoli di sezione: erano nel serif del sito, cioè
+            **il carattere degli articoli**, mentre l'elenco da cui si arriva è
+            già tutto in sans. Due caratteri per la stessa gerarchia nelle due
+            viste è la stessa incoerenza già corretta sul nome del medico. */}
+        <h2
+          id="albo"
+          className="titolo-servizio text-[length:var(--display-3)]"
+          style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)' }}
+        >
+          <IconaAlbo lato={20} />
           Iscrizione all’Ordine dei Medici
         </h2>
         <p className="mt-[var(--s-13)]">
@@ -116,16 +130,29 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           Puoi verificarlo tu, senza passare da noi: gli Ordini provinciali pubblicano l’albo
           degli iscritti.
         </p>
+        <p className="mt-[var(--s-13)] text-[15px]">
+          <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
+            Come si controlla, in un minuto
+          </Link>
+        </p>
       </section>
 
       <section aria-labelledby="dove" style={{ marginTop: 'var(--s-34)' }}>
-        <h2 id="dove" className="text-[length:var(--display-3)]">
+        <h2 id="dove" className="titolo-servizio text-[length:var(--display-3)]">
           Dove
         </h2>
-        <p className="mt-[var(--s-13)]">
+        <p
+          className="mt-[var(--s-13)]"
+          style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--s-8)' }}
+        >
+          <IconaLuogo className="icona-riga" />
           {m.studio.indirizzo}, {m.studio.comune}
         </p>
-        <p className="mt-[var(--s-8)]">
+        <p
+          className="mt-[var(--s-8)]"
+          style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)' }}
+        >
+          <IconaTelefono />
           <a href={`tel:${telefonoComponibile}`} style={COLLEGAMENTO}>
             {m.studio.telefono}
           </a>
@@ -139,12 +166,14 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
       </section>
 
       <section aria-labelledby="prestazioni" style={{ marginTop: 'var(--s-34)' }}>
-        <h2 id="prestazioni" className="text-[length:var(--display-3)]">
+        <h2 id="prestazioni" className="titolo-servizio text-[length:var(--display-3)]">
           Prestazioni
         </h2>
-        <ul className="mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
+        {/* Chip, come nell'elenco: erano un elenco puntato di righe, cioè la
+            forma di una lista della spesa. ⛔ Non premibili — sono etichette. */}
+        <ul className="fila-chip mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
           {m.prestazioni.map((p) => (
-            <li key={p} style={{ padding: 'var(--s-5) 0' }}>
+            <li key={p} className="chip-prestazione">
               {p}
             </li>
           ))}
@@ -168,7 +197,12 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         className="pannello-prenota"
         style={{ marginTop: 'var(--s-34)' }}
       >
-        <h2 id="quando" className="text-[length:var(--display-3)]">
+        <h2
+          id="quando"
+          className="titolo-servizio text-[length:var(--display-3)]"
+          style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)' }}
+        >
+          <IconaCalendario lato={20} />
           Quando è libero
         </h2>
 
