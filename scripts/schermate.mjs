@@ -47,7 +47,22 @@ const LARGHEZZE = [720, 1120, 1400]
 const SCHERMATE = [
   {
     nome: 'agenda',
-    vai: async (p) => { await p.goto(`${EMR}/appuntamenti`); await p.waitForTimeout(2500) },
+    /* 🔴 **Non basta aprire l'agenda: bisogna trovare una settimana con dentro
+     * qualcosa.** Misurato il 2026-08-12: la settimana corrente aveva **0**
+     * appuntamenti e quella precedente **11** — i dati della demo sono del 3-9
+     * agosto. Lo script fotografava sempre «questa settimana», quindi pubblicava
+     * una griglia vuota sotto la didascalia «Schermata dall'applicazione».
+     * ⇒ Si torna indietro finché non si trova una settimana piena. Cosi' regge
+     * anche fra sei mesi, quando i dati saranno ancora piu' vecchi: si cerca il
+     * contenuto, non una data. Se non lo trova, `pieno` boccia e non si scrive. */
+    vai: async (p) => {
+      await p.goto(`${EMR}/appuntamenti`)
+      await p.waitForTimeout(2500)
+      for (let i = 0; i < 10 && (await p.locator('.rbc-event').count()) === 0; i++) {
+        await p.getByRole('button', { name: 'Indietro', exact: true }).click().catch(() => {})
+        await p.waitForTimeout(1200)
+      }
+    },
     // Almeno un appuntamento nella griglia: un'agenda vuota non illustra niente.
     pieno: async (p) => (await p.locator('.rbc-event, [data-appuntamento]').count()) > 0,
   },
@@ -83,7 +98,14 @@ const SCHERMATE = [
   },
   {
     nome: 'registro-accessi',
-    vai: async (p) => { await p.goto(`${EMR}/audit`); await p.waitForTimeout(2000) },
+    /* ⚠️ Si aspetta la PRIMA RIGA, non un tempo fisso: con la macchina carica
+     * 2 secondi non bastavano e la schermata usciva vuota pur essendoci **20**
+     * righe. Un'attesa a tempo misura la macchina, non la pagina. */
+    vai: async (p) => {
+      await p.goto(`${EMR}/audit`)
+      await p.locator('tbody tr').first().waitFor({ timeout: 20000 }).catch(() => {})
+      await p.waitForTimeout(800)
+    },
     pieno: async (p) => (await p.locator('tbody tr').count()) > 0,
   },
 ]
@@ -156,6 +178,12 @@ for (const s of SCHERMATE) {
     vuote.push(`${s.nome} (la pagina dice che è vuota)`)
     continue
   }
+  /* ⚠️ Via il fuoco prima di scattare: lo script naviga **cliccando**, e
+   * l'anello di messa a fuoco resta sull'ultimo pulsante premuto. Sull'agenda
+   * si vedeva «Indietro» evidenziato — un dettaglio che nella pagina pubblicata
+   * racconta che qualcuno ha frugato, non come si presenta il prodotto. */
+  await page.evaluate(() => (document.activeElement)?.blur?.())
+  await page.waitForTimeout(200)
   const grezza = await page.screenshot()
   const meta = await sharp(grezza).metadata()
   const varianti = []
