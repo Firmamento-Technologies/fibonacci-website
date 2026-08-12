@@ -70,7 +70,15 @@ export const DOCS: DocMeta[] = [
   {
     slug: 'body-map',
     title: 'Body map 2D',
-    description: 'Documentare aree trattate con pallini numerati.',
+    // ⚠️ Diceva solo «Documentare aree trattate con pallini numerati», ed era
+    // **incompleta rispetto alla propria pagina**: questa guida ha anche il
+    // «Passo 5, copia da visita precedente» e il «Passo 6, esportazione PDF
+    // della visita». Chi scorreva l'indice cercando come importare le aree o
+    // come esportare la visita **non aveva modo di sapere che stavano qui** —
+    // e infatti finiva su `trattamenti` e su `esportazioni-e-diritti`, che
+    // quelle cose non le spiegano.
+    description:
+      'Documentare le aree trattate con pallini numerati, importarle dalla visita precedente ed esportare la visita in PDF.',
     category: 'utilizzo',
     icon: 'MapPin',
   },
