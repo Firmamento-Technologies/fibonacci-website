@@ -209,7 +209,7 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
                   apertura dello studio, porta gli **slot liberi**. Dedurre
                   l'apertura dagli slot sarebbe inventarla (uno studio aperto
                   tutti i giorni ma pieno risulterebbe «chiuso»). Qui si dice
-                  **esattamente** ciò che si sa. Il dato mancante è **TD-112**. */}
+                  **esattamente** ciò che si sa. Il dato mancante è **TD-116**. */}
               {giornate.length > 1 && (
                 <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                   Posti liberi anche{' '}

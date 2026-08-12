@@ -50,7 +50,7 @@ export const metadata: Metadata = {
  *     l'abbiamo fatto — e lo dice **anche al medico** che dovrebbe pubblicare
  *     qui la sua pagina. Nessun portale danneggia così la propria offerta.
  *
- * ⇒ La verifica diventa **nostra** ([[decisione-verifica-albo]], TD-111), il
+ * ⇒ La verifica diventa **nostra** ([[decisione-verifica-albo]], TD-115), il
  * numero resta in pagina come **prova** e non come istruzione, e le tre guide
  * — che restano contenuti veri e utili — vivono nel **piè di pagina**, dove si
  * cercano, ⛔ non come pilastro della pagina dei risultati.

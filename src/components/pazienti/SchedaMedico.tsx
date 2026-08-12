@@ -136,7 +136,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
             🔑 Il soggetto si ribalta: l'iscrizione è **la condizione per stare
             qui**; il numero resta scritto perché la nostra parola sia
             **controllabile**, non perché il controllo lo faccia il lettore.
-            ⚠️ La verifica vera è **TD-111** e ⛔ non esiste ancora: finché non
+            ⚠️ La verifica vera è **TD-115** e ⛔ non esiste ancora: finché non
             esiste, qui ⛔ non compare nessuna spunta, nessun «verificato», e
             nessuna data. [[decisione-verifica-albo]] */}
         <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>

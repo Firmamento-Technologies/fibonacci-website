@@ -88,7 +88,7 @@ export function GuscioPaziente({
               posto: **il piè di pagina è dove le guide si cercano**, non dove
               si mettono in mano a chi non le ha chieste.
               ⚠️ `verificare-un-medico` è ancora scritta come *«controllalo
-              tu»*: la riscrittura è dentro TD-111, non si può fare qui. */}
+              tu»*: la riscrittura è dentro TD-115, non si può fare qui. */}
           <nav aria-label="Guide per il paziente" style={{ marginBottom: 'var(--s-34)' }}>
             <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8) var(--s-21)', padding: 0 }}>
               {[
