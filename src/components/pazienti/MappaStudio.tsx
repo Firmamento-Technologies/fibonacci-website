@@ -11,7 +11,7 @@ import { IconaLuogo } from '@/components/pazienti/Icone'
  * Da adesso **questa pagina contatta un terzo al caricamento**. È un fatto, non
  * un'obiezione: cambia due cose che vanno tenute allineate, ⛔ non ignorate.
  *  1. La **pagina privacy** dice che il sito non chiama nessuno. Ora la scheda
- *     del medico lo fa, e la pagina va aggiornata — **TD-117**.
+ *     del medico lo fa, e la pagina va aggiornata — **TD-122**.
  *  2. La proprietà «niente banner dei cookie» dipende da cosa il riquadro
  *     deposita nel browser. 🔎 **Misurato**, non supposto: vedi la nota in
  *     `log.md` del 2026-08-13.
