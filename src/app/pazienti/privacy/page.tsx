@@ -21,10 +21,21 @@ export const metadata: Metadata = {
  * anche quelli che la rivelano *indirettamente*, «compresa la prestazione di
  * servizi di assistenza sanitaria»). Perché il titolare resti **lo studio** e
  * non noi, questo sito deve restare **muto**: ⛔ nessun account, ⛔ nessuna
- * statistica, ⛔ nessun cookie, ⛔ nessuna chiamata a terzi.
- * Se un giorno qualcuno aggiunge un contatore di visite, questa pagina diventa
- * falsa e il titolare diventiamo noi — con DPIA e responsabile della protezione
- * dei dati al seguito. Vedi [[sintesi-canale-paziente-2026-08-11]] §5.1. */
+ * statistica, ⛔ nessun cookie.
+ *
+ * ⚠️ **«Nessuna chiamata a terzi» non è più vero alla lettera** (2026-08-13,
+ * TD-122): la scheda del medico incorpora una mappa di OpenStreetMap, per
+ * decisione dell'utente. La riga sopra regge lo stesso, e la distinzione va
+ * capita invece che nascosta: la mappa **non ci rende titolari di dati
+ * sanitari** — non riceve nome, telefono né motivo della visita, non lascia
+ * cookie, e con `no-referrer` ⛔ non sa nemmeno quale pagina la stia mostrando.
+ * Riceve **l'IP**, come qualunque server a cui il browser si collega. ⇒ va
+ * **dichiarata**, ⛔ non fatta sparire dal testo.
+ * 🔴 **Quello che invece romperebbe davvero questa pagina** resta quello di
+ * prima: un contatore di visite, uno strumento di statistica, un carattere
+ * remoto — qualcosa che osserva **il comportamento** del visitatore. Lì il
+ * titolare diventiamo noi, con DPIA e responsabile della protezione dei dati al
+ * seguito. Vedi [[sintesi-canale-paziente-2026-08-11]] §5.1. */
 export default function Page() {
   return (
     <GuscioPaziente>
@@ -38,12 +49,33 @@ export default function Page() {
           </>
         }
       >
+        {/* 🔴 **TD-122 — questa sezione diceva una cosa che dal 2026-08-13 non
+            è più vera**: *«in queste pagine non ci sono mappe incorporate»*. La
+            scheda del medico adesso ne ha una (richiesta dell'utente: la mappa
+            dentro la UI, non come collegamento).
+            🔑 **Il rischio non era il banner, era la frase falsa**: *«non
+            contattiamo nessuno»* è il primo argomento di fiducia di questo
+            canale, e una promessa smentita dai fatti vale meno di una promessa
+            non fatta. Si scrive l'eccezione, ⛔ non si toglie la promessa.
+            🔎 Misurato prima di scrivere: il riquadro di OpenStreetMap ⛔ non
+            manda `Set-Cookie`, e la pagina gli passa `referrerPolicy` a
+            `no-referrer` così ⛔ non riceve l'indirizzo della pagina — cioè
+            *quale medico* stavi guardando. Resta vero che **il tuo indirizzo IP
+            arriva a loro**, ed è esattamente ciò che va detto. */}
         <Sezione id="mentre-leggi" titolo="Mentre leggi">
           <p>
             <strong>Nessun cookie di tracciamento, nessun account, nessuna profilazione.</strong>{' '}
             Non c’è un banner dei cookie perché non c’è niente da farti accettare: i caratteri
             tipografici sono ospitati qui, non su un servizio esterno, e in queste pagine non
-            ci sono mappe incorporate, video incorporati o contatori di visite.
+            ci sono video incorporati né contatori di visite.
+          </p>
+          <p className="mt-[var(--s-13)]">
+            <strong>Con un’eccezione, ed è la mappa.</strong> Sulla pagina di uno studio c’è
+            una mappa di <em>OpenStreetMap</em> che mostra dove si trova: quando apri quella
+            pagina, il tuo browser si collega a loro e il tuo indirizzo IP arriva lì. Non
+            lasciano cookie, e abbiamo fatto in modo che <strong>non ricevano l’indirizzo
+            della pagina</strong>: non possono sapere quale medico stavi guardando.
+            È l’unico collegamento a un servizio esterno in tutto questo sito.
           </p>
           <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
             Se apri un collegamento verso un sito esterno (il registro degli Ordini, una

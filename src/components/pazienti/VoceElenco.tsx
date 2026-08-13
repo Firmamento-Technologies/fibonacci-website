@@ -272,7 +272,17 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
  * riconosce.
  */
 export function Ritratto({ m, grande = false }: { m: SchedaMedicoPubblica; grande?: boolean }) {
-  const lato = grande ? 96 : 64
+  /* 🔴 **64 → 96 nell'elenco, 96 → 128 nella scheda** (decisione dell'utente,
+     2026-08-13: *«dai maggiore spazio alla foto profilo del dottore nella lista
+     medici perché fa tanto»*). Ha ragione, e il corpus lo dice due volte: NN/g
+     chiede immagini *«large enough to identify a known item»* — e a 64px un
+     volto **non si riconosce**, che è l'unico mestiere di questa foto; e Studio
+     Samo, sulla fiducia in pagina: *«il nostro cervello processa le immagini
+     molto più velocemente dei testi»*. In una scheda dove tutto il resto è
+     testo, la foto è **l'unico punto d'ingresso non verbale**: piccola, era
+     sprecata. ⚠️ 96 e non di più: oltre, in un elenco di venti studi, la
+     colonna delle facce diventa la pagina e il nome smette di guidare. */
+  const lato = grande ? 128 : 96
   const iniziali = m.medico.nome
     .split(/\s+/)
     .filter(Boolean)
@@ -313,7 +323,7 @@ export function Ritratto({ m, grande = false }: { m: SchedaMedicoPubblica; grand
         alignItems: 'center',
         justifyContent: 'center',
         fontWeight: 600,
-        fontSize: grande ? '1.75rem' : '1.125rem',
+        fontSize: grande ? '2.25rem' : '1.5rem',
         letterSpacing: '.02em',
       }}
     >
