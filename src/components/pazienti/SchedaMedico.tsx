@@ -47,6 +47,13 @@ const COLLEGAMENTO = {
 
 export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
   const telefonoComponibile = m.studio.telefono.replace(/\s/g, '')
+  /* ⚠️ Possono mancare: sullo studio vero il sidecar torna stringhe vuote
+     (misurato il 2026-08-13). Vedi la nota in `mappaStudio()`. */
+  const mappa = mappaStudio(m.studio)
+  const indirizzoScritto = [m.studio.indirizzo, m.studio.comune]
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .join(', ')
   /* ⚠️ La URL della mappa **era costruita qui**, e la voce di elenco non ne
      aveva nessuna: due viste, un dato, una copia sola — che è il modo in cui
      nasce la seconda. Ora sta in `mappaStudio()`, accanto ai dati. */
@@ -159,14 +166,13 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--s-8)' }}
         >
           <IconaLuogo className="icona-riga" />
-          <a
-            href={mappaStudio(m.studio)}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={COLLEGAMENTO}
-          >
-            {m.studio.indirizzo}, {m.studio.comune}
-          </a>
+          {mappa ? (
+            <a href={mappa} target="_blank" rel="noopener noreferrer" style={COLLEGAMENTO}>
+              {indirizzoScritto}
+            </a>
+          ) : (
+            <span>Indirizzo non pubblicato</span>
+          )}
         </p>
         <p
           className="mt-[var(--s-8)]"
@@ -182,12 +188,14 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
             perché per esteso sta in `MappaStudio.tsx`, e non è un dettaglio —
             è la ragione per cui questo sito non ha il banner dei cookie. */}
         <div className="mt-[var(--s-21)]" style={{ maxWidth: 'var(--measure)' }}>
-          <MappaStudio
-            indirizzo={m.studio.indirizzo}
-            comune={m.studio.comune}
-            coordinate={m.studio.coordinate}
-            mappaEsterna={mappaStudio(m.studio)}
-          />
+          {mappa && (
+            <MappaStudio
+              indirizzo={m.studio.indirizzo}
+              comune={m.studio.comune}
+              coordinate={m.studio.coordinate}
+              mappaEsterna={mappa}
+            />
+          )}
         </div>
       </section>
 

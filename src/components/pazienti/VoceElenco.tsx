@@ -72,7 +72,18 @@ export function VoceElenco({
    * MioDottore e Doctolib, misurato prima di copiarlo. */
   const { orari, stato: statoOrari } = useOrariLiberi(m.organizationId)
   const daMostrare = statoOrari === 'spento' ? m.slot : orari
+  /* ⚠️ **Possono mancare, e ⛔ non è un caso di scuola.** 🔎 Misurato il
+     2026-08-13 sul sidecar con lo studio vero: `indirizzo`, `telefono` ed
+     `email` tornano **stringhe vuote**. Finora invisibile perché in pagina ci
+     sono due esempi scritti a mano, che ce li hanno tutti. ⇒ senza questi
+     guardiani il primo studio vero avrebbe mostrato «, » come indirizzo e un
+     `tel:` che ⛔ non chiama nessuno. */
   const telefono = m.studio.telefono.replace(/\s/g, '')
+  const mappa = mappaStudio(m.studio)
+  const indirizzoScritto = [m.studio.indirizzo, m.studio.comune]
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .join(', ')
   const prime = m.prestazioni.slice(0, 3)
   const altre = m.prestazioni.length - prime.length
   /* ⚠️ `perGiornata` **ordina**: il «primo» è davvero il primo, ⛔ non il primo
@@ -121,14 +132,21 @@ export function VoceElenco({
               >
                 <IconaLuogo className="icona-riga" />
                 <span>
-                  <a
-                    href={mappaStudio(m.studio)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="collegamento-mappa"
-                  >
-                    {m.studio.indirizzo}, {m.studio.comune}
-                  </a>
+                  {/* ⛔ Senza indirizzo ⛔ non si disegna un collegamento morto:
+                      si dice che il dato manca. Un `<a>` che porta in mezzo al
+                      nulla ha **l'aria di funzionare**, ed è peggio. */}
+                  {mappa ? (
+                    <a
+                      href={mappa}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="collegamento-mappa"
+                    >
+                      {indirizzoScritto}
+                    </a>
+                  ) : (
+                    <span>Indirizzo non pubblicato</span>
+                  )}
                   {/* 🔑 **La distanza sta accanto all'indirizzo, non altrove**:
                       è la stessa informazione — *dove* — vista da chi guarda.
                       ⚠️ Compare solo se il paziente ha dato la posizione, e
@@ -264,12 +282,16 @@ export function VoceElenco({
               l'azione che questa pagina esiste per rendere possibile. ⛔ Non
               sparisce, perché per chi non ha orari pubblicati è **l'unica**
               strada. */}
-          <p className="mt-[var(--s-13)]">
-            <a href={`tel:${telefono}`} className="bottone-telefono">
-              <IconaTelefono />
-              {m.studio.telefono}
-            </a>
-          </p>
+          {/* ⛔ Stessa regola del telefono: senza numero ⛔ non si mostra un
+              pulsante «chiama» che ⛔ non chiama. */}
+          {telefono && (
+            <p className="mt-[var(--s-13)]">
+              <a href={`tel:${telefono}`} className="bottone-telefono">
+                <IconaTelefono />
+                {m.studio.telefono}
+              </a>
+            </p>
+          )}
         </div>
       </div>
     </li>

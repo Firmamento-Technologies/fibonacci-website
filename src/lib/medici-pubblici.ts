@@ -409,9 +409,19 @@ export function percorsoMedico(slug: string): string {
  * 🔑 Sta qui, accanto ai dati, perché la usano **due** viste (la voce di elenco
  * e la scheda) e due copie di una URL costruita a mano divergono alla prima
  * occasione — in questo progetto è la regola, non l'eccezione. */
-export function mappaStudio(studio: { indirizzo: string; comune: string }): string {
-  const q = encodeURIComponent(`${studio.indirizzo}, ${studio.comune}`)
-  return `https://www.google.com/maps/search/?api=1&query=${q}`
+export function mappaStudio(studio: { indirizzo: string; comune: string }): string | undefined {
+  /* 🔴 **Torna `undefined` se non c'è un indirizzo, e ⛔ non è pignoleria.**
+   * 🔎 Misurato il 2026-08-13 chiamando il sidecar sullo studio vero
+   * (`GET /pubblico/studio/<id>`): `indirizzo`, `telefono`, `email` e
+   * `partitaIva` tornano **stringhe vuote** — l'`Organization` di Medplum ⛔ non
+   * li ha compilati. Finora non se n'era accorto nessuno perché in pagina ci
+   * sono **due studi d'esempio scritti a mano**, che ce li hanno tutti.
+   * ⇒ al primo studio vero questa funzione avrebbe prodotto una ricerca su
+   * `", "` — cioè un collegamento che porta **in mezzo al nulla**, con l'aria
+   * di funzionare. Chi lo chiama deve poter **non disegnare il collegamento**. */
+  const pezzi = [studio.indirizzo, studio.comune].map((s) => s.trim()).filter(Boolean)
+  if (pezzi.length === 0) return undefined
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(pezzi.join(', '))}`
 }
 
 /** Gli orari liberi, raggruppati per giornata e in ordine.
