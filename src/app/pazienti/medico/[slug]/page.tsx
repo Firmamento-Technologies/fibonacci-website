@@ -100,6 +100,29 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     },
     parentOrganization: { '@type': 'MedicalBusiness', name: m.studio.nome },
     availableService: m.prestazioni.map((p) => ({ '@type': 'MedicalProcedure', name: p })),
+    /* 🗺️ **`geo` solo se le coordinate sono del CIVICO** — TD-114.
+     *
+     * ⚠️ Il campo esiste da oggi (`studio.coordinate`, aggiunto per la mappa in
+     * pagina), ⛔ ma `esatta: false` significa che il punto è il **comune**: e
+     * un centroide pubblicato come `geo` non è un'approssimazione, è
+     * **un'affermazione falsa** — dice a Google che lo studio sta in quel punto,
+     * e Google la usa per «vicino a me» e per il riquadro locale. In pagina
+     * l'approssimazione si può dichiarare a parole; in un dato strutturato ⛔ no.
+     * È la stessa regola di [[piano-ui-canale-paziente]] §7 sui centroidi di
+     * provincia, applicata al posto dove fa più danno. */
+    ...(m.studio.coordinate?.esatta
+      ? {
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: m.studio.coordinate.lat,
+            longitude: m.studio.coordinate.lon,
+          },
+        }
+      : {}),
+    /* La foto, **se il medico l'ha data**: Google la usa nel riquadro del
+       profilo, e ⛔ non se ne inventa una di repertorio (stessa regola del
+       `Ritratto`). */
+    ...(m.foto ? { image: `${SITE_URL}${m.foto.src}` } : {}),
   }
 
   return (

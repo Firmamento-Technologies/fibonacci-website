@@ -4,9 +4,9 @@ import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { TestoPaziente, Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
 
 export const metadata: Metadata = {
-  title: 'Come verificare che un medico è iscritto all’Ordine',
+  title: 'L’albo dei medici, e come si consulta',
   description:
-    'La Federazione degli Ordini dei Medici pubblica l’albo nazionale: cerchi nome, cognome e città e vedi se è iscritto. Si fa in un minuto, gratis, senza passare da nessun portale.',
+    'La Federazione degli Ordini dei Medici pubblica l’albo nazionale: chiunque può cercare nome, cognome e città e vedere se un professionista è iscritto. È pubblico, è gratuito, e si fa in un minuto.',
   alternates: { canonical: '/pazienti/verificare-un-medico' },
 }
 
@@ -26,11 +26,12 @@ export default function Page() {
     <GuscioPaziente>
       <TestoPaziente
         occhiello="Prima di decidere"
-        titolo="Come verificare che un medico è iscritto all’Ordine"
+        titolo="L’albo dei medici, e come si consulta"
         sommario={
           <>
-            Si fa in un minuto, è gratis, e non serve fidarsi di noi: il registro è pubblico
-            e lo tiene la Federazione degli Ordini dei Medici.
+            Il registro degli iscritti è pubblico e lo tiene la Federazione degli Ordini dei
+            Medici. Chiunque può consultarlo, in un minuto e gratis: è la ragione per cui su
+            queste pagine il numero d’iscrizione è scritto in chiaro.
           </>
         }
       >
@@ -87,12 +88,34 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="noi" titolo="Che cosa facciamo noi">
+        {/* 🔴 **RISCRITTA IL 2026-08-13 — TD-115.** Diceva: *«resta un dato che
+            il medico dichiara: il controllo che vale è quello che fai tu»*.
+            Era il difetto centrale del canale, scritto per esteso: scaricava
+            sul paziente un lavoro nostro, e insinuava il dubbio su ciò che
+            stavamo mostrando. Vedi [[decisione-verifica-albo]].
+            ⚠️ **Ma la sostituzione ⛔ non può essere «lo verifichiamo noi»**,
+            perché oggi **non lo verifichiamo**: il controllo esiste come regola
+            di ammissione, non ancora come procedura eseguita. ⇒ si scrive la
+            **regola**, e si dice **cosa non copre** — che è la parte che quasi
+            nessun portale scrive. */}
+        <Sezione id="noi" titolo="Il nostro impegno, e il suo limite">
           <p>
-            Sulle schede pubblicate qui, ordine di appartenenza e numero d’iscrizione sono{' '}
-            <strong>in pagina</strong>, non nascosti in fondo. Ma resta un dato che il
-            medico dichiara: il controllo che vale è quello che fai tu, sul registro
-            pubblico.
+            <strong>L’iscrizione all’Ordine è la condizione per pubblicare una pagina su
+            Fibonacci.</strong> Ordine e numero stanno <strong>in pagina</strong>, non
+            nascosti in fondo: non perché tocchi a te controllarli, ma perché quello che
+            diciamo resti <strong>riscontrabile</strong> da chiunque, te compreso.
+          </p>
+          <p className="mt-[var(--s-13)]">
+            Il limite, detto chiaro: l’albo è pubblico, quindi nome e numero di un medico
+            vero <strong>sono alla portata di chiunque</strong>. Confrontarli con il registro
+            dimostra che quel numero esiste, ⛔ non che chi lo ha scritto sia quella persona.
+            Sono due controlli diversi, e li stiamo tenendo distinti invece di confonderli in
+            un bollino.
+          </p>
+          <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
+            Per questo su queste pagine ⛔ non troverai nessuna spunta di «profilo
+            verificato»: un simbolo che promette più di quanto il controllo dimostri è peggio
+            di nessun simbolo.
           </p>
         </Sezione>
 
