@@ -119,6 +119,16 @@ export default function Page() {
             </Link>:
              le stesse cose, girate in domande che puoi porre in visita.
           </p>
+          {/* ⚠️ **L'unica maglia che mancava fra le tre guide** (misurato il
+              2026-08-13): le altre due si citavano già a vicenda, questa ⛔ no.
+              È anche l'ordine giusto per chi legge: prima *chi* firma il
+              consenso deve essere un medico, poi *cosa* firmi. */}
+          <p className="mt-[var(--s-13)]">
+            <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
+              L’albo dei medici, e come si consulta
+            </Link>
+            : il consenso vale se chi te lo chiede è il medico che eseguirà il trattamento.
+          </p>
         </Sezione>
       </TestoPaziente>
     </GuscioPaziente>
