@@ -2124,6 +2124,62 @@ h3:hover > .ancora,
 /* ── Il calendario, nella scheda del medico ──────────────────────────────
    Una testata per giornata: la data non può più riferirsi agli orari di
    un'altra, che è il difetto che questa struttura corregge. */
+/* ── Il calendario a settimana ───────────────────────────────────────────
+   ⚖️ Sette colonne, **comprese quelle senza orari**: un calendario che salta i
+   giorni pieni non è un calendario, è un elenco che sembra dire «non riceve»
+   mentre sta dicendo «non so». ⚠️ Scorre in orizzontale invece di stringersi:
+   sette colonne da 40px non si premono col pollice, e il pannello a destra
+   della scheda è largo 22rem. */
+.calendario-settimana {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(4.25rem, 1fr);
+  gap: var(--s-5);
+  margin-top: var(--s-13);
+  overflow-x: auto;
+  padding-bottom: var(--s-5);
+  /* 🔴 **Senza questi due, la griglia esce dal pannello invece di scorrere.**
+     `overflow-x: auto` da solo non basta: il calendario sta dentro un
+     `<fieldset>`, e il `min-width: auto` implicito dei fieldset lo fa crescere
+     fino a contenere tutte e sette le colonne — che a 22rem di pannello
+     significa **sbordare sul resto della pagina**. Misurato a video il
+     2026-08-13: la colonna di lunedì finiva fuori dalla scheda. */
+  min-width: 0;
+  max-width: 100%;
+}
+/* La stessa ragione, sull'antenato che la causa. */
+.pannello-prenota fieldset { min-width: 0; }
+.calendario-colonna-testata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: var(--s-5);
+  margin-bottom: var(--s-8);
+  border-bottom: 1px solid var(--rule);
+}
+.calendario-colonna-giorno {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--fg-muted);
+}
+.calendario-colonna-data { font-size: 14px; font-weight: 600; }
+/* Il giorno senza orari: una **barra grigia**, non un carattere. ⛔ Non una
+   casella rossa e non «chiuso» — la riga sotto la griglia spiega cosa vuol
+   dire, e chi usa uno screen reader riceve la frase intera. */
+.calendario-vuoto {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--s-13);
+}
+.calendario-vuoto-barra {
+  display: block;
+  width: 1.5rem;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--rule-strong);
+}
+
 .calendario-giorno { margin-top: var(--s-13); }
 .calendario-giorno-testata {
   font-size: 14px;
@@ -2246,7 +2302,10 @@ h3:hover > .ancora,
    informazioni: su un telefono si legge chi e' prima di scegliere l'ora. */
 .scheda-medico-corpo { display: grid; gap: var(--s-34); }
 @media (min-width: 60rem) {
-  .scheda-medico-corpo { grid-template-columns: minmax(0, 1fr) 22rem; align-items: start; }
+  /* ⚠️ 22rem → **25rem**: il pannello ora ospita un calendario a sette giorni,
+     e a 22 le colonne restavano da scorrere anche su uno schermo largo — cioè
+     si nascondeva l'informazione proprio dove c'era spazio per mostrarla. */
+  .scheda-medico-corpo { grid-template-columns: minmax(0, 1fr) 25rem; align-items: start; }
   .pannello-prenota {
     position: sticky;
     top: var(--s-21);

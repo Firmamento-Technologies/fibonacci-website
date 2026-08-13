@@ -1,93 +1,93 @@
-'use client'
-
-import { useState } from 'react'
 import { IconaLuogo } from '@/components/pazienti/Icone'
 
-/* La mappa dello studio, nella scheda del medico. — TD-95
+/* La mappa dello studio, **dentro la pagina**. — TD-95
  *
- * ⚖️ **Richiesta dell'utente (2026-08-13)**: *«bisogna aggiungere la mappa che
- * sia maps o altro in allegato all'interno della pagina del dottore mostrando
- * dove si trova»*. Legittima e ovvia: dopo aver scelto uno studio, «dov'è» è
- * la domanda successiva, e un indirizzo scritto non la risponde a colpo
- * d'occhio.
+ * ⚖️ **Decisione dell'utente, 2026-08-13, ribadita**: *«voglio vedere la mappa
+ * dentro la UI non come link»*. Prima c'era un caricamento su richiesta (un
+ * riquadro con l'indirizzo e un pulsante «Mostra la mappa»); l'utente l'ha
+ * guardato e ha chiesto la mappa vera. Fatto.
  *
- * ── 🔴 PERCHE' NON E' UN `<iframe>` E BASTA, E PERCHE' NON E' UN CAPRICCIO ───
- * Questo sito **non ha il banner dei cookie**, e non è una scelta di gusto: è
- * una **proprietà tecnica** — non chiama nessun terzo, quindi non c'è nulla da
- * far consentire. È scritto nella pagina privacy **già pubblicata**, ed è il
- * primo argomento di fiducia del canale paziente («non ti profiliamo»).
+ * ── ⚠️ COSA CAMBIA, DETTO UNA VOLTA E NON RIPETUTO ─────────────────────────
+ * Da adesso **questa pagina contatta un terzo al caricamento**. È un fatto, non
+ * un'obiezione: cambia due cose che vanno tenute allineate, ⛔ non ignorate.
+ *  1. La **pagina privacy** dice che il sito non chiama nessuno. Ora la scheda
+ *     del medico lo fa, e la pagina va aggiornata — **TD-117**.
+ *  2. La proprietà «niente banner dei cookie» dipende da cosa il riquadro
+ *     deposita nel browser. 🔎 **Misurato**, non supposto: vedi la nota in
+ *     `log.md` del 2026-08-13.
  *
- * Una mappa incorporata la butta via **da sola**: l'`iframe` parte al
- * caricamento, manda a un terzo **l'IP del visitatore** e — cosa peggiore —
- * **l'indirizzo della pagina**, cioè *quale medico* sta guardando quella
- * persona. È un dato sanitario per inferenza, su un canale nato per non farlo
- * uscire. ⇒ la pagina privacy diventerebbe **falsa** e servirebbe il banner.
- * Vedi [[piano-ui-canale-paziente]] §7, dove la mappa interattiva era stata
- * scartata per queste ragioni.
+ * 🔑 **OpenStreetMap e non Google**, e qui la scelta pesa più di prima: la
+ * differenza fra i due non è la mappa, è cosa si portano dietro. Il riquadro di
+ * Google Maps appartiene a un impianto pubblicitario; quello di OSM no.
+ * ⛔ Il **collegamento** dell'indirizzo resta su Google Maps, perché su Android
+ * apre l'app: uscire dal sito è una navigazione del visitatore, incorporare è
+ * una nostra decisione — e su quella si sceglie il meno invasivo.
  *
- * ── 🔑 LA FORMA CHE TIENE INSIEME LE DUE COSE: SI CARICA SU RICHIESTA ───────
- * A pagina ferma **non parte niente**: c'è un riquadro con l'indirizzo e un
- * pulsante. La mappa arriva **solo se il paziente la chiede**, e quel gesto
- * *è* il consenso — esplicito, informato (il riquadro dice cosa succede) e
- * revocabile non facendolo. È il modello «click-to-load», lo stesso che i
- * garanti europei indicano per i contenuti di terzi.
+ * ⚠️ `referrerPolicy="no-referrer"`: senza, il terzo riceverebbe **l'indirizzo
+ * della pagina**, cioè *quale medico* sta guardando quella persona. È il dato
+ * che questo canale esiste per non far uscire, e costa un attributo.
  *
- * ⚠️ **OpenStreetMap e non Google**, qui: l'embed di OSM non porta l'impianto
- * pubblicitario, e ⛔ la scelta è diversa da quella del **collegamento**
- * dell'indirizzo (che va su Google Maps, perché su Android apre l'app). Sono
- * due gesti diversi: uscire dal sito è una navigazione del visitatore;
- * incorporare è una nostra decisione, e su quella si sceglie il meno invasivo.
- *
- * ⛔ **Non aggiungere `geo`/coordinate finte**: gli studi d'esempio non
- * esistono e i centroidi di provincia direbbero che lo studio sta al centro
- * della provincia. La mappa cerca l'**indirizzo**, che è il dato che abbiamo.
+ * ── 🔴 IL PREREQUISITO CHE NON AVEVO ───────────────────────────────────────
+ * Un riquadro OSM si centra su un **bbox di coordinate**, ⛔ non su una stringa
+ * d'indirizzo (un collegamento accetta il testo, una mappa no). Da qui il campo
+ * `studio.coordinate`, e la regola: se il punto viene dal **comune** e non dal
+ * civico, la pagina **lo dichiara** invece di fingere precisione.
  */
 export function MappaStudio({
   indirizzo,
   comune,
+  coordinate,
   mappaEsterna,
 }: {
   indirizzo: string
   comune: string
+  coordinate?: { lat: number; lon: number; esatta: boolean }
   /** L'indirizzo aperto nell'app di mappe: viene da `mappaStudio()`. */
   mappaEsterna: string
 }) {
-  const [accesa, setAccesa] = useState(false)
-  const query = encodeURIComponent(`${indirizzo}, ${comune}`)
-
-  if (!accesa) {
+  /* ⛔ Senza coordinate ⛔ non si disegna una mappa a caso: si mostra ciò che si
+     ha. Un riquadro centrato sul nulla è peggio di nessun riquadro. */
+  if (!coordinate) {
     return (
       <div className="mappa-segnaposto">
         <IconaLuogo lato={24} />
         <p style={{ fontWeight: 500 }}>
           {indirizzo}, {comune}
         </p>
-        <button type="button" className="btn btn-secondario" onClick={() => setAccesa(true)}>
-          Mostra la mappa
-        </button>
-        {/* 🔑 **Si dice cosa succede premendo, prima di premere.** Un
-            «click-to-load» che non spiega cosa carica è un consenso raccolto
-            al buio: la forma sarebbe rispettata e la sostanza no. */}
-        <p className="text-[13px]" style={{ color: 'var(--fg-muted)', maxWidth: '30rem' }}>
-          La mappa arriva da OpenStreetMap: premendo, il tuo browser si collega a un sito
-          esterno. Finché non lo fai, questa pagina non contatta nessuno.
-        </p>
+        <a href={mappaEsterna} target="_blank" rel="noopener noreferrer" className="btn btn-secondario">
+          Apri in Google Maps
+        </a>
       </div>
     )
   }
+
+  /* Il riquadro attorno al punto: ~600 m di lato, che su una via mostra
+     l'isolato e i riferimenti attorno senza perdere il contesto del quartiere. */
+  const d = 0.004
+  const bbox = [coordinate.lon - d, coordinate.lat - d, coordinate.lon + d, coordinate.lat + d]
+    .map((n) => n.toFixed(5))
+    .join('%2C')
 
   return (
     <figure style={{ margin: 0 }}>
       <iframe
         title={`Mappa di ${indirizzo}, ${comune}`}
-        src={`https://www.openstreetmap.org/export/embed.html?bbox=&layer=mapnik&query=${query}`}
+        src={`https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${coordinate.lat}%2C${coordinate.lon}`}
         loading="lazy"
         referrerPolicy="no-referrer"
         className="mappa-riquadro"
       />
-      <figcaption className="mt-[var(--s-8)] text-[15px]">
+      <figcaption className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+        {/* 🔑 **La riga dell'approssimazione, quando serve.** Una mappa dichiara
+            precisione per come è fatta: se il punto è il comune, il puntino
+            mente in silenzio a meno che la pagina non lo dica. */}
+        {!coordinate.esatta && (
+          <>
+            Posizione approssimata al comune: questo studio d’esempio non ha un indirizzo reale.{' '}
+          </>
+        )}
         <a href={mappaEsterna} target="_blank" rel="noopener noreferrer" className="collegamento-testo">
-          Apri in Google Maps e ottieni le indicazioni
+          Apri in Google Maps per le indicazioni
         </a>
       </figcaption>
     </figure>

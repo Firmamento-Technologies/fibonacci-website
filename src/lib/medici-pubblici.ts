@@ -89,6 +89,29 @@ export interface SchedaMedicoPubblica {
     comune: string
     telefono: string
     email: string
+    /** Dove sta lo studio, per la mappa in pagina.
+     *
+     * 🔴 **Prerequisito scoperto provando a incorporare la mappa** (richiesta
+     * dell'utente, 2026-08-13: *«voglio vedere la mappa dentro la UI non come
+     * link»*): un riquadro di OpenStreetMap si centra su un **riquadro di
+     * coordinate**, ⛔ non su una stringa d'indirizzo. Un collegamento accetta
+     * il testo, una mappa incorporata no — e la differenza non si vede finché
+     * non si prova.
+     *
+     * ⚠️ **`esatta` non è un dettaglio burocratico.** Un puntino disegnato
+     * dove lo studio **non è** è peggio di nessun puntino: manda una persona
+     * all'indirizzo sbagliato. Quando le coordinate vengono dal **comune** e
+     * non dal civico, la pagina **lo dice** invece di fingere precisione.
+     * ⛔ Vale la regola di [[piano-ui-canale-paziente]] §7: i centroidi di
+     * provincia ⛔ non si pubblicano come `geo` — direbbero che lo studio sta
+     * al centro della provincia.
+     *
+     * 🔑 Per gli studi **veri** questo campo va riempito **in costruzione**,
+     * geocodificando l'indirizzo una volta sola (⛔ mai dal browser del
+     * visitatore: sarebbe una chiamata a terzi per ogni visita). È il pezzo
+     * che serve anche a **TD-113** (il più vicino) e a **TD-114** (`geo` nei
+     * dati strutturati). */
+    coordinate?: { lat: number; lon: number; esatta: boolean }
   }
 
   /** 🔑 Il pezzo che nessuno degli otto portali mette in evidenza, e che noi
@@ -171,6 +194,11 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
       comune: 'Carrara (MS)',
       telefono: '+39 000 0000000',
       email: 'esempio@fibonaccimedica.it',
+      /* ⚠️ **Il comune, non il civico, e la pagina lo dichiara.** «Via di
+         Esempio 1» ⛔ non esiste: geocodificarla darebbe un punto inventato, e
+         un puntino dove lo studio non è manda una persona nel posto sbagliato.
+         `esatta: false` accende in pagina la riga che lo dice. */
+      coordinate: { lat: 44.0793, lon: 10.0977, esatta: false },
     },
     medico: {
       nome: 'Nome Cognome',
@@ -204,6 +232,8 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
       comune: 'Milano (MI)',
       telefono: '+39 000 0000001',
       email: 'esempio2@fibonaccimedica.it',
+      /* Comune, come l'altro esempio: l'indirizzo non esiste. */
+      coordinate: { lat: 45.4642, lon: 9.19, esatta: false },
     },
     medico: {
       nome: 'Altro Nome Cognome',
@@ -420,6 +450,59 @@ export function perGiornata(
     giorno: giornoInItaliano(lista[0].inizio),
     orari: lista,
   }))
+}
+
+/** Il calendario: **N giornate consecutive da oggi**, ognuna con i suoi orari
+ *  liberi — comprese quelle che non ne hanno.
+ *
+ * ⚖️ **Richiesta dell'utente (2026-08-13)**: *«voglio vedere il calendario
+ * delle disponibilità e delle date e orari non disponibili»*. La differenza con
+ * `perGiornata()` è tutta qui: quella mostra **solo i giorni che hanno slot**,
+ * e un calendario che salta i giorni pieni ⛔ non è un calendario — è un elenco
+ * che *sembra* dire «lunedì non riceve» mentre sta dicendo «di lunedì non so
+ * niente».
+ *
+ * 🔑 **Le giornate vuote hanno un significato preciso e limitato**: *«da questa
+ * pagina non risultano orari prenotabili»*. ⛔ **Non** «lo studio è chiuso» e
+ * ⛔ **non** «il medico è occupato»: gli orari di apertura ⛔ non ce li ha
+ * nessuno da questa parte (**TD-116**), e il sidecar restituisce **solo gli
+ * Slot liberi** — di proposito, perché leggere gli `Appointment` da un canale
+ * anonimo vorrebbe dire far scaricare a chiunque nomi e telefoni dei pazienti.
+ * ⇒ chi rende questa struttura **deve** scrivere la distinzione in pagina.
+ *
+ * ⚠️ «Oggi» è **oggi a Roma**, e il primo giorno è quello: un calendario che
+ * parte da domani nasconde gli orari di stasera. */
+export function calendario(
+  orari: readonly SlotPubblico[],
+  giorni = 7,
+): { chiave: string; etichetta: string; giornoSettimana: string; orari: SlotPubblico[] }[] {
+  const perChiave = new Map(perGiornata(orari).map((g) => [g.chiave, g.orari]))
+  const chiaveDi = new Intl.DateTimeFormat('en-CA', {
+    year: 'numeric', month: '2-digit', day: '2-digit', timeZone: 'Europe/Rome',
+  })
+  const etichettaDi = new Intl.DateTimeFormat('it-IT', {
+    day: 'numeric', month: 'short', timeZone: 'Europe/Rome',
+  })
+  const settimanaDi = new Intl.DateTimeFormat('it-IT', {
+    weekday: 'short', timeZone: 'Europe/Rome',
+  })
+
+  /* ⚠️ Si avanza di **24 ore in millisecondi**, ⛔ non impostando il giorno del
+     mese: attorno al cambio dell'ora legale una giornata dura 23 o 25 ore, e
+     `setDate(+1)` sull'ora locale salta o ripete una data. Qui la chiave la
+     calcola comunque `Intl` sul fuso di Roma, quindi il passo grezzo va bene e
+     il raggruppamento resta corretto. */
+  const oggi = new Date()
+  return Array.from({ length: giorni }, (_, i) => {
+    const d = new Date(oggi.getTime() + i * 86_400_000)
+    const chiave = chiaveDi.format(d)
+    return {
+      chiave,
+      etichetta: etichettaDi.format(d),
+      giornoSettimana: settimanaDi.format(d).replace('.', ''),
+      orari: perChiave.get(chiave) ?? [],
+    }
+  })
 }
 
 /** Solo il giorno («venerdì 14 agosto»). Serve a scriverlo **una volta sola**

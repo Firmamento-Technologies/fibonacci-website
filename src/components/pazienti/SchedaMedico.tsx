@@ -185,6 +185,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           <MappaStudio
             indirizzo={m.studio.indirizzo}
             comune={m.studio.comune}
+            coordinate={m.studio.coordinate}
             mappaEsterna={mappaStudio(m.studio)}
           />
         </div>

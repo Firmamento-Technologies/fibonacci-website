@@ -4,7 +4,7 @@ import { useEffect, useState, type FormEvent } from 'react'
 import { useOrariLiberi } from '@/lib/orari-liberi'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 import type { SchedaMedicoPubblica, SlotPubblico } from '@/lib/medici-pubblici'
-import { giornoInItaliano, oraInItaliano, perGiornata } from '@/lib/medici-pubblici'
+import { giornoInItaliano, oraInItaliano, calendario } from '@/lib/medici-pubblici'
 
 /* Il modulo di prenotazione, lato paziente — l'ultimo pezzo di TD-95.
  *
@@ -259,28 +259,64 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
         <legend className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
           Scegli un orario
         </legend>
-        {perGiornata(orari).map((g) => (
-          <div key={g.chiave} className="calendario-giorno">
-            <p className="calendario-giorno-testata">{g.giorno}</p>
-            <ul className="griglia-orari">
-              {g.orari.map((s) => {
-                const scelto = slot?.id === s.id
-                return (
-                  <li key={s.id} style={{ listStyle: 'none' }}>
-                    <button
-                      type="button"
-                      onClick={() => setSlot(s)}
-                      aria-pressed={scelto}
-                      className={scelto ? 'orario-vivo' : 'orario-scelta'}
-                    >
-                      {oraInItaliano(s.inizio)}
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        ))}
+        {/* 🔑 **Sette colonne, comprese quelle vuote.** Richiesta dell'utente:
+            *«il calendario delle disponibilità e delle date e orari non
+            disponibili»*. `perGiornata()` mostrava **solo i giorni con slot**,
+            e un calendario che salta i giorni pieni non è un calendario: è un
+            elenco che *sembra* dire «lunedì non riceve» mentre sta dicendo
+            «di lunedì non so niente». */}
+        <div className="calendario-settimana">
+          {calendario(orari, 7).map((g) => (
+            <div key={g.chiave} className="calendario-colonna">
+              <p className="calendario-colonna-testata">
+                <span className="calendario-colonna-giorno">{g.giornoSettimana}</span>
+                <span className="calendario-colonna-data">{g.etichetta}</span>
+              </p>
+              {g.orari.length > 0 ? (
+                <ul style={{ display: 'grid', gap: 'var(--s-5)', padding: 0 }}>
+                  {g.orari.map((s) => {
+                    const scelto = slot?.id === s.id
+                    return (
+                      <li key={s.id} style={{ listStyle: 'none' }}>
+                        <button
+                          type="button"
+                          onClick={() => setSlot(s)}
+                          aria-pressed={scelto}
+                          className={scelto ? 'orario-vivo' : 'orario-scelta'}
+                        >
+                          {oraInItaliano(s.inizio)}
+                        </button>
+                      </li>
+                    )
+                  })}
+                </ul>
+              ) : (
+                /* 🔎 **Una barra, non un carattere**, e la ragione è doppia.
+                   (1) Il collaudo del sito rifiuta la lineetta lunga spaziata
+                   e me l'ha presa qui — il presidio ha fatto il suo lavoro.
+                   (2) Ed è meglio così: una barra grigia si legge come «niente
+                   qui» senza chiedere di interpretare un segno tipografico, e
+                   uno screen reader riceve la frase intera invece di un
+                   trattino. ⛔ Non dice «chiuso»: la riga sotto la griglia
+                   spiega una volta cosa vuol dire davvero. */
+                <p className="calendario-vuoto">
+                  <span aria-hidden="true" className="calendario-vuoto-barra" />
+                  <span className="sr-only">Nessun orario prenotabile</span>
+                </p>
+              )}
+            </div>
+          ))}
+        </div>
+        {/* ⚠️ **La riga che impedisce alla griglia di mentire.** Una colonna
+            vuota si legge naturalmente come «chiuso»: qui si dice cosa vuol
+            dire davvero. Gli orari di apertura ⛔ non li abbiamo (TD-116), e il
+            sidecar restituisce **solo gli Slot liberi** — di proposito, perché
+            leggere gli `Appointment` da un canale anonimo farebbe scaricare a
+            chiunque nomi e telefoni dei pazienti. */}
+        <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-muted)' }}>
+          Una barra grigia vuol dire che da questa pagina non risultano orari prenotabili in
+          quel giorno, non che lo studio sia chiuso. Per gli altri orari si chiama lo studio.
+        </p>
       </fieldset>
 
       {slot && (
