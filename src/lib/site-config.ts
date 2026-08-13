@@ -195,3 +195,20 @@ export const OSPITALITA = {
   luogo: 'Falkenstein, Germania',
   area: 'Spazio economico europeo',
 } as const
+
+/** La pre-anamnesi facoltativa nel modulo di prenotazione. — TD-123
+ *
+ * ⚖️ **Spenta di default, per decisione dell'utente** (*«fai tutto ma non
+ * collegarlo all'EMR per ora»*), e la forma dell'interruttore non è neutra:
+ * da spenta la sezione ⛔ **non esiste in pagina**. ⛔ Non «c'è ma non
+ * spedisce»: un paziente che scrive allergie e farmaci credendo che arrivino a
+ * qualcuno, e non arrivano, è il difetto di `LEAD_API_URL` applicato a dati
+ * sanitari.
+ *
+ *     NEXT_PUBLIC_PREANAMNESI=true npm run build
+ *
+ * ⛔ **Non accenderla prima** che il sidecar accetti e conservi le risposte e
+ * che il rifiuto del medico le **cancelli**. Vedi
+ * [[piano-pre-anamnesi-prenotazione]]. */
+export const PREANAMNESI_ATTIVA: boolean =
+  (process.env.NEXT_PUBLIC_PREANAMNESI ?? '').trim().toLowerCase() === 'true'

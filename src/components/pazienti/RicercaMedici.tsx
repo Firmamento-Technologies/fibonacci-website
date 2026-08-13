@@ -40,7 +40,8 @@
 
 import { useMemo, useState } from 'react'
 import { VoceElenco } from '@/components/pazienti/VoceElenco'
-import { IconaCerca, IconaSpunta } from '@/components/pazienti/Icone'
+import { IconaCerca, IconaSpunta, IconaLuogo } from '@/components/pazienti/Icone'
+import { useVicinoAMe, distanzaKm } from '@/lib/vicinanza'
 import { assetPath } from '@/lib/asset-path'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 
@@ -88,6 +89,13 @@ function normalizza(s: string): string {
 export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblica[] }) {
   const [cosa, setCosa] = useState('')
   const [dove, setDove] = useState('')
+  const { posizione, stato: statoPosizione, chiedi, dimentica } = useVicinoAMe()
+
+  /* ⚠️ **Il pulsante compare solo se c'è qualcosa da ordinare.** Con un solo
+     studio geolocalizzato «il più vicino» è una parola vuota, e un comando che
+     non cambia niente insegna a non premerlo. ⛔ Non si mostra e basta. */
+  const ordinabilePerDistanza =
+    medici.filter((m) => m.studio.coordinate).length >= 2
 
   const risultati = useMemo(() => {
     const c = normalizza(cosa)
@@ -104,6 +112,23 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
       return (!c || testo.includes(c)) && (!d || luogo.includes(d))
     })
   }, [medici, cosa, dove])
+
+  /* 🔑 **La distanza si calcola una volta e viaggia con il risultato**: la
+     scheda la mostra, l'ordinamento la usa. Calcolarla due volte sarebbe due
+     posti dove può divergere. ⚠️ Uno studio **senza coordinate ⛔ non sparisce**
+     e ⛔ non finisce in fondo per punizione: resta dov'era, senza distanza. */
+  const conDistanza = useMemo(() => {
+    if (!posizione) return risultati.map((m) => ({ m, km: undefined as number | undefined }))
+    const misurati = risultati.map((m) => ({
+      m,
+      km: m.studio.coordinate ? distanzaKm(posizione, m.studio.coordinate) : undefined,
+    }))
+    return [...misurati].sort((a, b) => {
+      if (a.km === undefined) return 1
+      if (b.km === undefined) return -1
+      return a.km - b.km
+    })
+  }, [risultati, posizione])
 
   const filtrata = cosa.trim() !== '' || dove.trim() !== ''
 
@@ -200,6 +225,55 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
               })}
             </ul>
 
+            {/* ── «Vicino a me» — TD-113 ─────────────────────────────────
+                ⚠️ **È un pulsante, ⛔ non un automatismo**, e la differenza è
+                tutta nel permesso: l'utente aveva chiesto *«in automatico in
+                base alla posizione»*, ⛔ ma l'unico modo davvero automatico —
+                la geolocalizzazione via IP — chiama un terzo a ogni visita e
+                gli manda l'IP del paziente. Qui la posizione ⛔ **non esce dal
+                browser**: le coordinate degli studi sono nel pacchetto e il
+                confronto avviene in memoria. */}
+            {ordinabilePerDistanza && (
+              <div className="mt-[var(--s-13)]">
+                {statoPosizione === 'trovata' ? (
+                  <p className="text-[15px]" style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)', flexWrap: 'wrap' }}>
+                    <span style={{ color: 'var(--accent-ink)', display: 'inline-flex', alignItems: 'center', gap: 'var(--s-5)' }}>
+                      <IconaLuogo lato={15} />
+                      Ordinati dal più vicino a te
+                    </span>
+                    <button type="button" onClick={dimentica} className="collegamento-testo" style={{ background: 'none', border: 0, cursor: 'pointer', font: 'inherit' }}>
+                      Torna all’ordine alfabetico
+                    </button>
+                  </p>
+                ) : (
+                  <>
+                    <button
+                      type="button"
+                      onClick={chiedi}
+                      className="chip-scorciatoia"
+                      disabled={statoPosizione === 'chiedo'}
+                      style={{ display: 'inline-flex', alignItems: 'center', gap: 'var(--s-5)' }}
+                    >
+                      <IconaLuogo lato={15} />
+                      {statoPosizione === 'chiedo' ? 'Cerco la tua posizione…' : 'Vicino a me'}
+                    </button>
+                    {/* ⛔ Un rifiuto non si nasconde e ⛔ non si richiede: si
+                        dice cosa sta guardando adesso. */}
+                    {statoPosizione === 'negata' && (
+                      <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                        Non hai dato il permesso: l’elenco resta in ordine alfabetico.
+                      </p>
+                    )}
+                    {statoPosizione === 'assente' && (
+                      <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
+                        Il tuo browser non sa dire dove sei: l’elenco resta in ordine alfabetico.
+                      </p>
+                    )}
+                  </>
+                )}
+              </div>
+            )}
+
             <ul className="fila-pastiglie mt-[var(--s-21)]">
               {PASTIGLIE.map((p) => (
                 <li key={p}>
@@ -270,9 +344,15 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                       : `studi${filtrata ? ' trovati' : ''}`
                   }`}
             </h2>
+            {/* ⚠️ **La riga deve dire l'ordine VERO.** Con la posizione attiva
+                l'elenco ⛔ non è più alfabetico, e lasciare la vecchia frase
+                sarebbe la bugia più facile: una pagina che dichiara un criterio
+                e ne segue un altro. La seconda metà (nessuno paga) resta vera
+                in entrambi i casi, ed è quella che conta. */}
             {risultati.length > 0 && (
               <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                In ordine alfabetico. Nessuno può pagare per comparire più in alto.
+                {posizione ? 'Dal più vicino a te.' : 'In ordine alfabetico.'} Nessuno può
+                pagare per comparire più in alto.
               </p>
             )}
           </div>
@@ -287,8 +367,8 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
             </p>
           ) : (
             <ul style={{ padding: 0, marginTop: 'var(--s-21)' }}>
-              {risultati.map((m) => (
-                <VoceElenco key={m.slug} m={m} />
+              {conDistanza.map(({ m, km }) => (
+                <VoceElenco key={m.slug} m={m} distanzaKm={km} />
               ))}
             </ul>
           )}

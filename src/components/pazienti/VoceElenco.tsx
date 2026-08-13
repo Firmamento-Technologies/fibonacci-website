@@ -11,6 +11,7 @@ import {
   perGiornata,
 } from '@/lib/medici-pubblici'
 import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
+import { distanzaInItaliano } from '@/lib/vicinanza'
 
 /* La voce di elenco: l'unità che risponde alla domanda del paziente.
  *
@@ -58,7 +59,14 @@ import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/compone
  * badge «in evidenza» (nemmeno gratuiti: appena esiste la casella esiste il
  * prezzo per averla). Vedi [[piano-ui-canale-paziente]] §4.
  */
-export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
+export function VoceElenco({
+  m,
+  distanzaKm: km,
+}: {
+  m: SchedaMedicoPubblica
+  /** Quanto dista da chi guarda, se ha dato il permesso. — TD-113 */
+  distanzaKm?: number
+}) {
   /* 🔑 **Gli orari veri, e premibili.** §5.4 del piano: *«si prenota dalla
    * lista, non dal profilo»* — è il meccanismo che regge le pagine risultati di
    * MioDottore e Doctolib, misurato prima di copiarlo. */
@@ -112,14 +120,29 @@ export function VoceElenco({ m }: { m: SchedaMedicoPubblica }) {
                 }}
               >
                 <IconaLuogo className="icona-riga" />
-                <a
-                  href={mappaStudio(m.studio)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="collegamento-mappa"
-                >
-                  {m.studio.indirizzo}, {m.studio.comune}
-                </a>
+                <span>
+                  <a
+                    href={mappaStudio(m.studio)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="collegamento-mappa"
+                  >
+                    {m.studio.indirizzo}, {m.studio.comune}
+                  </a>
+                  {/* 🔑 **La distanza sta accanto all'indirizzo, non altrove**:
+                      è la stessa informazione — *dove* — vista da chi guarda.
+                      ⚠️ Compare solo se il paziente ha dato la posizione, e
+                      ⛔ senza decimali: la posizione del browser ha un margine
+                      di decine di metri e le coordinate dello studio vengono da
+                      una geocodifica ⇒ «3,7 km» dichiarerebbe una precisione
+                      che non abbiamo. */}
+                  {km !== undefined && (
+                    <span style={{ color: 'var(--accent-ink)', fontWeight: 500 }}>
+                      {' · '}
+                      {distanzaInItaliano(km)}
+                    </span>
+                  )}
+                </span>
               </p>
             </div>
           </div>

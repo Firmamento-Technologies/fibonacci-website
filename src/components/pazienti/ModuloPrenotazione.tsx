@@ -5,6 +5,12 @@ import { useOrariLiberi } from '@/lib/orari-liberi'
 import { PRENOTA_API_URL } from '@/lib/site-config'
 import type { SchedaMedicoPubblica, SlotPubblico } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano, calendario } from '@/lib/medici-pubblici'
+import {
+  PreAnamnesi,
+  PRE_ANAMNESI_VUOTA,
+  preAnamnesiDaInviare,
+  type DatiPreAnamnesi,
+} from '@/components/pazienti/PreAnamnesi'
 
 /* Il modulo di prenotazione, lato paziente — l'ultimo pezzo di TD-95.
  *
@@ -99,6 +105,9 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
     if (cercato) setSlot(orari.find((s) => s.id === cercato) ?? null)
   }, [orari, slot])
   const [dati, setDati] = useState({ nome: '', telefono: '', motivo: '' })
+  /* TD-123: facoltativa e spenta di default. `preAnamnesiDaInviare` decide se
+     c'è qualcosa da spedire — ⛔ qui non si rilegge il flag. */
+  const [preAnamnesi, setPreAnamnesi] = useState<DatiPreAnamnesi>(PRE_ANAMNESI_VUOTA)
   const [stato, setStato] = useState<Stato>('fermo')
   const [messaggio, setMessaggio] = useState('')
 
@@ -144,6 +153,10 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
           nome: dati.nome,
           telefono: dati.telefono,
           motivo: dati.motivo,
+          /* ⚠️ Si spedisce **solo se c'è consenso e qualcosa dentro**: un campo
+             `preAnamnesi: {}` vuoto nel corpo insegnerebbe al server ad
+             aspettarselo sempre. */
+          preAnamnesi: preAnamnesiDaInviare(preAnamnesi),
           sfidaId: sfida.id,
           soluzione,
         }),
@@ -345,6 +358,15 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
             onChange={aggiorna('motivo')}
             completamento="off"
           />
+
+          {/* ── TD-123: la pre-anamnesi facoltativa ──────────────────────
+              🔑 **Sta DOPO nome e telefono, e prima dell'invio.** Prima
+              sarebbe un muro fra il paziente e l'appuntamento; dopo l'invio non
+              esisterebbe. Qui è quello che è: un'aggiunta che si può saltare.
+              ⚠️ **Spenta di default** (`NEXT_PUBLIC_PREANAMNESI`): da spenta la
+              sezione ⛔ non esiste — ⛔ non «c'è ma non spedisce», che
+              raccoglierebbe dati sanitari in un vuoto. */}
+          <PreAnamnesi dati={preAnamnesi} onChange={setPreAnamnesi} />
 
           {/* ⚖️ Chi tratta i dati si dice **prima** di raccoglierli, non dopo. */}
           <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>

@@ -2317,3 +2317,34 @@ h3:hover > .ancora,
     padding: var(--s-21);
   }
 }
+
+/* ── La pre-anamnesi facoltativa nel modulo di prenotazione (TD-123) ──────
+   ⚠️ **Riquadro staccato, non un blocco di campi in più.** Chi guarda deve
+   vedere a colpo d'occhio che è **un'altra cosa** rispetto a nome e telefono:
+   quelli servono a prenotare, questi no. Un bordo e un fondo dicono «puoi
+   saltarlo» meglio della parola «facoltativo» ripetuta. */
+.pre-anamnesi {
+  margin-top: var(--s-21);
+  padding: var(--s-13);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  background: var(--bg-sunk);
+  min-width: 0;
+}
+.pre-anamnesi-titolo { font-weight: 600; font-size: 1.0625rem; padding-inline: 0; }
+.pre-anamnesi-consenso {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-8);
+  margin-top: var(--s-13);
+  cursor: pointer;
+}
+/* ⚠️ 20px e non il default: la casella del consenso è **il** bersaglio di
+   questo riquadro, e su un telefono una casella da 13px non si preme. */
+.pre-anamnesi-consenso input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+.pre-anamnesi-campi { margin-top: var(--s-8); }
