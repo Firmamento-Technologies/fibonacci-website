@@ -229,7 +229,10 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)' }}
         >
           <IconaCalendario lato={20} />
-          Quando è libero
+          {/* ⚠️ Era «Quando è libero» (decisione dell'utente, 2026-08-13).
+              Una domanda in forma di titolo si legge come una conversazione;
+              qui sopra un calendario serve **l'etichetta della cosa**. */}
+          Disponibilità
         </h2>
 
         {/* 🔴 **Corretto il 2026-08-12 cablando il percorso vero**: qui c'era
