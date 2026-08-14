@@ -41,6 +41,36 @@ export function OrganizationSchema() {
   )
 }
 
+export function WebSiteSchema() {
+  /* Il **nome del sito** che Google mostra nei risultati, sopra il titolo.
+   *
+   * Fonte primaria — Google Search Central, «Site Names in Google Search»
+   * (https://developers.google.com/search/docs/appearance/site-names):
+   * il nome è generato in automatico dalla home, ma *«per indicare la tua
+   * preferenza, aggiungi i dati strutturati `WebSite` alla home page. Il
+   * sistema considera anche `og:site_name`, `<title>` e le intestazioni, ma
+   * **`WebSite` è il più importante** se vuoi specificare una preferenza»*.
+   *
+   * ⚠️ Qui NON c'è anagrafica societaria, ed è deliberato: `Organization`
+   * resta silenzioso finché la S.r.l. non è costituita (vedi il commento in
+   * testa a questo file). `WebSite` dichiara il **sito**, non l'editore —
+   * niente che non sia già vero e verificabile sulla pagina.
+   *
+   * ⛔ Nessuna `SearchAction`: il sito non ha una ricerca interna, e
+   * dichiararla farebbe comparire un riquadro di ricerca che non funziona. */
+  return (
+    <Json
+      dati={{
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Fibonacci',
+        url: SITE_URL,
+        inLanguage: 'it-IT',
+      }}
+    />
+  )
+}
+
 export function SoftwareApplicationSchema() {
   return (
     <Json

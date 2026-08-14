@@ -85,7 +85,29 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large' },
   },
-  icons: { icon: [{ url: '/icon.svg', type: 'image/svg+xml' }] },
+  /* Le icone, dichiarate TUTTE ed esplicitamente.
+   *
+   * ⚠️ Prima c'era solo l'SVG, e i file `favicon.ico` / `apple-touch-icon.png`
+   * — pur esistendo — **non comparivano nel `<head>`**. Conta perché Google
+   * legge proprio quel `<link>`: fonte primaria, Google Search Central,
+   * «Define a favicon to show in search results»
+   * (https://developers.google.com/search/docs/appearance/favicon-in-search):
+   * *«Add a `<link>` tag to the header of your home page»*, e i valori di `rel`
+   * accettati sono `icon`, `apple-touch-icon`, `apple-touch-icon-precomposed`.
+   *
+   * L'ordine è quello che serve: `favicon.ico` con `sizes: 'any'` per chi non
+   * capisce l'SVG (e per la convenzione `/favicon.ico` che mezzo mondo chiede
+   * comunque), poi l'SVG che i browser moderni preferiscono perché scala.
+   *
+   * 📏 Google raccomanda **oltre 48×48**: il `.ico` ne contiene sei misure,
+   * da 16 a 256, generate dalla stessa sorgente vettoriale delle altre. */
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+  },
   formatDetection: { email: false, address: false, telephone: false },
 }
 
