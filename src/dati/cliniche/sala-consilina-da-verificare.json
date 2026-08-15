@@ -1,0 +1,36 @@
+[
+ {
+  "dominio": "chirurgomaxillofacciale.it",
+  "nome": "Chirurgo Maxillo Facciale Salerno Dr.Francesco Sacco Gnatologo Estetic",
+  "formaSocietaria": "",
+  "partitaIva": "02589460654",
+  "telefono": "",
+  "email": "info@studiodentisticosacco.it",
+  "sitoUrl": "https://www.chirurgomaxillofacciale.it/",
+  "indirizzo": "Via Rocco Galdieri, 18",
+  "cap": "84129",
+  "comune": "Salerno",
+  "provincia": "sala-consilina",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgomaxillofacciale.it/",
+   "https://www.chirurgomaxillofacciale.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

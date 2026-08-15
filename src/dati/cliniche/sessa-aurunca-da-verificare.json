@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "ditoraemarcellodentisti.it",
+  "nome": "DI TORA e MARCELLO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ditoraemarcellodentisti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sessa-aurunca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ditoraemarcellodentisti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

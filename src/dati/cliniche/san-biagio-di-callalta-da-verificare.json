@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "bodyrelax.biz",
+  "nome": "Tagli di capelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390422892359",
+  "email": "",
+  "sitoUrl": "https://www.bodyrelax.biz/",
+  "indirizzo": "Piazza Conciliazione 13",
+  "cap": "31048",
+  "comune": "San",
+  "provincia": "san-biagio-di-callalta",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bodyrelax.biz/",
+   "https://www.bodyrelax.biz/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "emiliaromagna.synlab.it",
+  "nome": "SYNLAB",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00577680176",
+  "telefono": "+390510924422",
+  "email": "info.bologna@synlab.it",
+  "sitoUrl": "https://emiliaromagna.synlab.it/",
+  "indirizzo": "Via del Lavoro 40",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "san-biagio-di-callalta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://emiliaromagna.synlab.it/",
+   "https://emiliaromagna.synlab.it/sedi-a-bologna",
+   "https://emiliaromagna.synlab.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ilgazzettino.it",
+  "nome": "Il Gazzettino",
+  "formaSocietaria": "",
+  "partitaIva": "02742610278",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ilgazzettino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-biagio-di-callalta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilgazzettino.it/",
+   "https://www.ilgazzettino.it/video/primopiano/cisgiordania_israele_assedio_coloni_palestinesi-9708092.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

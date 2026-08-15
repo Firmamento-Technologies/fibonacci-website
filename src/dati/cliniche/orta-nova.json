@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "clinicanovalux.it",
+  "nome": "clinicanovalux.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10169310967",
+  "telefono": "+390362687851",
+  "email": "",
+  "sitoUrl": "https://clinicanovalux.it/",
+  "indirizzo": "Via Valtellina 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "orta-nova",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicanovalux.it/",
+   "https://clinicanovalux.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicoesteticoannalisaporcelli.com",
+  "nome": "Dott.ssa Annalisa Porcelli",
+  "formaSocietaria": "",
+  "partitaIva": "04486850714",
+  "telefono": "+390885835167",
+  "email": "",
+  "sitoUrl": "https://www.medicoesteticoannalisaporcelli.com/",
+  "indirizzo": "Corso Vittorio Emanuele 203",
+  "cap": "84123",
+  "comune": "Salerno",
+  "provincia": "orta-nova",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Annalisa Porcelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicoesteticoannalisaporcelli.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Porcelli, cognome dentro il dominio"
+ }
+]

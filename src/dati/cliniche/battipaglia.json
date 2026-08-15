@@ -1,5 +1,88 @@
 [
  {
+  "dominio": "centrobiomedical.it",
+  "nome": "Centro Biomedical: dermatologia clinica, tricologica, chirurgica ed es",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02913770653",
+  "telefono": "+390828344191",
+  "email": "info@centrobiomedical.it",
+  "sitoUrl": "https://www.centrobiomedical.it/",
+  "indirizzo": "Via Verona, 2",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrobiomedical.it/",
+   "https://www.centrobiomedical.it/patologie/dermatite-da-contatto/",
+   "https://www.centrobiomedical.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrodiagnosticobattipagliese.it",
+  "nome": "Centro Diagnostico Battipagliese",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02880020652",
+  "telefono": "",
+  "email": "info@centrodiagnosticobattipagliese.it",
+  "sitoUrl": "https://centrodiagnosticobattipagliese.it/",
+  "indirizzo": "Via Strauss, 36",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centrodiagnosticobattipagliese.it/",
+   "https://centrodiagnosticobattipagliese.it/dove-siamo-e-recapiti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centropromedical.it",
+  "nome": "CentroProMedical Battipaglia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03593330651",
+  "telefono": "",
+  "email": "info@centropromedical.it",
+  "sitoUrl": "https://www.centropromedical.it/",
+  "indirizzo": "",
+  "cap": "84091",
+  "comune": "BATTIPAGLIA",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centropromedical.it/",
+   "https://www.centropromedical.it/contatti",
+   "https://www.centropromedical.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "federicalaganaestetica.com",
   "nome": "Centro estetico avanzato a Battipaglia",
   "formaSocietaria": "",

@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "aurapura.it",
+  "nome": "Centro Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02807240987",
+  "telefono": "+390308901412",
+  "email": "info@aurapura.it",
+  "sitoUrl": "https://www.aurapura.it/",
+  "indirizzo": "Piazzale Europa, 67",
+  "cap": "25068",
+  "comune": "Sarezzo",
+  "provincia": "sarezzo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aurapura.it/",
+   "https://www.aurapura.it/contatti/",
+   "https://www.aurapura.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticosarezzo.it",
+  "nome": "Clara Beauty Lab",
+  "formaSocietaria": "",
+  "partitaIva": "04022930988",
+  "telefono": "+390308901323",
+  "email": "info@clarabeautylab.it",
+  "sitoUrl": "https://www.centroesteticosarezzo.it/",
+  "indirizzo": "Via della Repubblica, 189",
+  "cap": "25068",
+  "comune": "Sarezzo",
+  "provincia": "sarezzo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticosarezzo.it/",
+   "https://www.centroesteticosarezzo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fisioterapiasangiorgio.it",
+  "nome": "fisioterapiasangiorgio.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fisioterapiasangiorgio.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sarezzo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisioterapiasangiorgio.it/it"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

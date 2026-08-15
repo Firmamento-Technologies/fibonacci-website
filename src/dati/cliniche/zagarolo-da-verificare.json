@@ -1,0 +1,90 @@
+[
+ {
+  "dominio": "esteticabodysolution.it",
+  "nome": "Centro Estetico,epilazione laser-Zagarolo,Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393408633671",
+  "email": "",
+  "sitoUrl": "https://www.esteticabodysolution.it/",
+  "indirizzo": "Viale Ungheria, 84",
+  "cap": "00039",
+  "comune": "Zagarolo",
+  "provincia": "zagarolo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticabodysolution.it/",
+   "https://www.esteticabodysolution.it/Contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "farmaciagenovese.it",
+  "nome": "Farmacia Genovese",
+  "formaSocietaria": "",
+  "partitaIva": "09063261003",
+  "telefono": "+39069575377",
+  "email": "info@farmaciagenovese.it",
+  "sitoUrl": "https://www.farmaciagenovese.it/",
+  "indirizzo": "Via Antonio Fabrini, 1",
+  "cap": "00039",
+  "comune": "Zagarolo",
+  "provincia": "zagarolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.farmaciagenovese.it/",
+   "https://www.farmaciagenovese.it/contatti/",
+   "https://www.farmaciagenovese.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiomedicosalus.it",
+  "nome": "Studio Medico Salus",
+  "formaSocietaria": "",
+  "partitaIva": "09063261003",
+  "telefono": "+390644209281",
+  "email": "info@studiomedicosalus.it",
+  "sitoUrl": "https://www.studiomedicosalus.it/",
+  "indirizzo": "Via Maremmana III, 41",
+  "cap": "00030",
+  "comune": "San",
+  "provincia": "zagarolo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicosalus.it/",
+   "https://www.studiomedicosalus.it/contatti/",
+   "https://www.studiomedicosalus.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "lasirenettaestetica.it",
+  "nome": "lasirenettaestetica.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lasirenettaestetica.it",
+  "sitoUrl": "https://www.lasirenettaestetica.it/",
+  "indirizzo": "Via Giacomo Galli 1",
+  "cap": "21049",
+  "comune": "Tradate",
+  "provincia": "tradate",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lasirenettaestetica.it/",
+   "https://www.lasirenettaestetica.it/chi-siamo/",
+   "https://www.lasirenettaestetica.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

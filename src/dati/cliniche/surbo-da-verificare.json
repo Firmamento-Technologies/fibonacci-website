@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "esteticametamorfosi.it",
+  "nome": "Estetica Metamorfosi",
+  "formaSocietaria": "",
+  "partitaIva": "03303750750",
+  "telefono": "+390832364531",
+  "email": "info@esteticametamorfosi.it",
+  "sitoUrl": "https://www.esteticametamorfosi.it/",
+  "indirizzo": "Via Ofanto, 3",
+  "cap": "73010",
+  "comune": "Surbo",
+  "provincia": "surbo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticametamorfosi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "studioodontoiatricoedestetico.it",
+  "nome": "Studio Dentistico a Surbo",
+  "formaSocietaria": "",
+  "partitaIva": "03952390759",
+  "telefono": "+390832362801",
+  "email": "",
+  "sitoUrl": "https://studioodontoiatricoedestetico.it/",
+  "indirizzo": "",
+  "cap": "73010",
+  "comune": "Surbo",
+  "provincia": "surbo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studioodontoiatricoedestetico.it/",
+   "https://studioodontoiatricoedestetico.it/chi-siamo/",
+   "https://studioodontoiatricoedestetico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

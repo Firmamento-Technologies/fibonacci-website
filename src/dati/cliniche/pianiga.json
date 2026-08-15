@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "palazzofiuggi.com",
+  "nome": "Palazzo Fiuggi for a longer life, better lived",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03827230925",
+  "telefono": "+3907757661",
+  "email": "",
+  "sitoUrl": "https://www.palazzofiuggi.com/",
+  "indirizzo": "Via Goldoni, 1",
+  "cap": "03014",
+  "comune": "Fiuggi",
+  "provincia": "pianiga",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.palazzofiuggi.com/",
+   "https://www.palazzofiuggi.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "violastudiodentistico.it",
+  "nome": "Studio Dentistico Dolo",
+  "formaSocietaria": "",
+  "partitaIva": "02926160272",
+  "telefono": "+390414196144",
+  "email": "",
+  "sitoUrl": "https://violastudiodentistico.it/",
+  "indirizzo": "Via Monte Verena, 2",
+  "cap": "30030",
+  "comune": "Cazzago",
+  "provincia": "pianiga",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://violastudiodentistico.it/",
+   "https://violastudiodentistico.it/contatti/",
+   "https://violastudiodentistico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,52 @@
+[
+ {
+  "dominio": "clinicasanatrix.com",
+  "nome": "Clinica Sanatrix",
+  "formaSocietaria": "SAS",
+  "partitaIva": "00904531001",
+  "telefono": "+390686321981",
+  "email": "info@clinicasanatrix.com",
+  "sitoUrl": "https://clinicasanatrix.com/",
+  "indirizzo": "",
+  "cap": "00199",
+  "comune": "Roma",
+  "provincia": "villaricca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicasanatrix.com/",
+   "https://clinicasanatrix.com/chi-siamo/",
+   "https://clinicasanatrix.com/contatti-clinica-sanatrix-roma/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "napoli.corriere.it",
+  "nome": "Corriere Napoli: le ultime news della città",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://napoli.corriere.it/",
+  "indirizzo": "via Angelo Rizzoli, 8",
+  "cap": "20132",
+  "comune": "Milano",
+  "provincia": "villaricca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://napoli.corriere.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

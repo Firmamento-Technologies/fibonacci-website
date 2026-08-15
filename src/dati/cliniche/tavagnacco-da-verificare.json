@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "mdm-medical.it",
+  "nome": "Studio medico a Udine: MdM Medical",
+  "formaSocietaria": "",
+  "partitaIva": "02619820307",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.mdm-medical.it/",
+  "indirizzo": "Via Tavagnacco, 83",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "tavagnacco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.mdm-medical.it/",
+   "https://www.mdm-medical.it/contatti/",
+   "http://www.mdm-medical.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

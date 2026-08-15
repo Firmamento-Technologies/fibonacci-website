@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "aflabcentromedico.com",
+  "nome": "AFlab Centro Medico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://aflabcentromedico.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sorso",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://aflabcentromedico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "samedicinaestetica.it",
+  "nome": "Centro Estetico di Melzo",
+  "formaSocietaria": "",
+  "partitaIva": "04037670967",
+  "telefono": "+390295732242",
+  "email": "info@clinicamacchi.it",
+  "sitoUrl": "https://www.samedicinaestetica.it/",
+  "indirizzo": "Via Trento, 12",
+  "cap": "20066",
+  "comune": "Melzo",
+  "provincia": "sorso",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.samedicinaestetica.it/",
+   "https://www.samedicinaestetica.it/contatti/",
+   "https://www.samedicinaestetica.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "comune.spilimbergo.pn.it",
+  "nome": "comune.spilimbergo.pn.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://comune.spilimbergo.pn.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "spilimbergo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://comune.spilimbergo.pn.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "estetica-sandra.it",
+  "nome": "Salone di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.estetica-sandra.it/",
+  "indirizzo": "Via Cinta di Sopra 2",
+  "cap": "33097",
+  "comune": "Spilimbergo",
+  "provincia": "spilimbergo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.estetica-sandra.it/",
+   "https://www.estetica-sandra.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticagiulia2011.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "poliambulatoriocentrosmile.com",
+  "nome": "Poliambulatorio Centro Smile",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390427926341",
+  "email": "info@poliambulatoriocentrosmile.com",
+  "sitoUrl": "https://poliambulatoriocentrosmile.com/",
+  "indirizzo": "Via Cairoli, 4",
+  "cap": "33097",
+  "comune": "Spilimbergo",
+  "provincia": "spilimbergo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://poliambulatoriocentrosmile.com/",
+   "https://poliambulatoriocentrosmile.com/chi-siamo",
+   "https://poliambulatoriocentrosmile.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,119 @@
+[
+ {
+  "dominio": "eosrecanati.com",
+  "nome": "EOS Centro Servizi Medici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01214780437",
+  "telefono": "",
+  "email": "info@eosrecanati.com",
+  "sitoUrl": "https://www.eosrecanati.com/",
+  "indirizzo": "Viale Moro, 16",
+  "cap": "62019",
+  "comune": "Recanati",
+  "provincia": "recanati",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.eosrecanati.com/",
+   "https://www.eosrecanati.com/chi-siamo/",
+   "https://www.eosrecanati.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "langolodelledonne.com",
+  "nome": "L'Angolo delle Donne",
+  "formaSocietaria": "SNC",
+  "partitaIva": "01431890431",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.langolodelledonne.com/",
+  "indirizzo": "",
+  "cap": "62019",
+  "comune": "Recanati",
+  "provincia": "recanati",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.langolodelledonne.com/",
+   "https://www.langolodelledonne.com/privacy-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticavelardi.com",
+  "nome": "Dott.ssa Anna Elisa Velardi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390719605656",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticavelardi.com/",
+  "indirizzo": "Piazza Brancondi 9",
+  "cap": "60025",
+  "comune": "Porto",
+  "provincia": "recanati",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Velardi Piazza, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicinaesteticavelardi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Velardi Piazza, cognome dentro il dominio"
+ },
+ {
+  "dominio": "studiomedicenter.it",
+  "nome": "Medi Center Recanati",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390717573340",
+  "email": "info@studiomedicenter.it",
+  "sitoUrl": "https://www.studiomedicenter.it/",
+  "indirizzo": "Piazzale Europa, 11",
+  "cap": "62019",
+  "comune": "Recanati",
+  "provincia": "recanati",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studiomedicenter.it/",
+   "https://www.studiomedicenter.it/chi-siamo/",
+   "https://www.studiomedicenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

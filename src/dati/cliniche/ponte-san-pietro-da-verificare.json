@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "centromedicopontenuovo.it",
+  "nome": "Centro Medico Fisioterapico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04077161208",
+  "telefono": "+390516861170",
+  "email": "info@centromedicopontenuovo.it",
+  "sitoUrl": "https://www.centromedicopontenuovo.it/",
+  "indirizzo": "Via Ponte Nuovo, 42",
+  "cap": "40066",
+  "comune": "Pieve",
+  "provincia": "ponte-san-pietro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicopontenuovo.it/",
+   "https://www.centromedicopontenuovo.it/contatti-ponte-nuovo-medical-center/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

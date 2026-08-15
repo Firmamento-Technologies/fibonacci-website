@@ -1,0 +1,35 @@
+[
+ {
+  "dominio": "raffaelebianco.com",
+  "nome": "Dr. Raffaele Bianco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://raffaelebianco.com/",
+  "indirizzo": "Via Sant'Antonio, 71",
+  "cap": "80040",
+  "comune": "Terzigno",
+  "provincia": "terzigno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Raffaele Bianco, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://raffaelebianco.com/",
+   "https://raffaelebianco.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Bianco, e il dominio lo ripete"
+ }
+]

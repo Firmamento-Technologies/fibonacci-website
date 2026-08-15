@@ -69,7 +69,7 @@ import html
 import json, os, re, sys, threading, time, unicodedata
 import urllib.error, urllib.parse, urllib.request
 import urllib.robotparser
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 QUI = os.path.dirname(os.path.abspath(__file__))
 RADICE = os.path.dirname(QUI)
@@ -1214,12 +1214,56 @@ def leggi_dallo_stato(solo_nuovi=True, per_giro=None):
     tot = sum(len(per_zona[z]) for z in zone)
     print(f"━━━ lettura di {tot} domini nuovi in {len(zone)} zone "
           f"({len(fatti)} già letti) ━━━", flush=True)
+    # 🔴 **Un pool solo su TUTTI i domini, ⛔ non un pool per zona.**
+    # Prima si chiamava `raccogli()` **zona per zona**, e ognuna apriva il
+    # proprio `ThreadPoolExecutor(6)`: il codice *sembrava* parallelo ⛔ ma le
+    # zone giravano **in fila**, e una zona con 4 domini teneva occupati **4
+    # thread su 6**. Misurato il 2026-08-15 su un giro vero: **mediana 6 domini
+    # per zona**, e **13 zone su 44 sotto i 6** ⇒ il parallelismo dichiarato
+    # ⛔ non c'era quasi mai.
+    # ⇒ si appiattisce il lavoro in **un elenco solo** e lo si dà a un pool
+    # unico; lo smistamento per zona si fa **dopo**, sui risultati.
+    # ⚠️ Resta gentile verso i siti **per costruzione**: i domini sono **host
+    # diversi**, e le 3 pagine di ciascuno restano in sequenza dentro
+    # `analizza`. ⛔ Alzare i thread ⛔ non aumenta le richieste **per sito**.
+    quanti = int(os.environ.get("LETTORE_PARALLELI", "16"))
+    # ⚠️ Il filtro degli esclusi va **rifatto qui**: lo faceva `raccogli()`, che
+    # ⛔ non passa più di mezzo. Un dominio può essere entrato nello stato
+    # **prima** che finisse nella lista di esclusione, e lo stato ⛔ non si
+    # ripulisce da solo.
+    lavoro = [(d, z) for z in zone for d in per_zona[z]
+              if not da_escludere(f"https://{d}/")]
+    saltati = sum(len(v) for v in per_zona.values()) - len(lavoro)
+    print(f"  {len(lavoro)} domini in un pool unico da {quanti} "
+          f"(erano {len(zone)} pool da 6, in fila)"
+          + (f" · {saltati} esclusi" if saltati else ""), flush=True)
+    # 🔴 **Si scrive appena una zona è completa, ⛔ non alla fine di tutto.**
+    # La prima versione usava `ex.map`, che restituisce **solo quando ha finito
+    # l'ultimo**: con 991 domini in un pool solo, ⛔ nulla sarebbe finito su
+    # disco per l'intera corsa, e **un'interruzione avrebbe buttato via tutto**.
+    # ⚠️ Il difetto ⛔ non esisteva prima — la versione a pool-per-zona salvava
+    # ad ogni zona — ⇒ è **un difetto introdotto dalla riparazione**, e lo si
+    # vede solo pensando a cosa succede se il processo muore a metà.
     b_tot = i_tot = p_tot = 0
-    for z in zone:
-        b, i, p = raccogli(z, slug(z), elenco=per_zona[z])
-        b_tot += len(b); i_tot += len(i); p_tot += len(p)
-        print(f"  {z:24} {len(per_zona[z]):3} letti → {len(b):3} imprese · "
-              f"{len(p):2} professionisti · {len(i):3} da verificare", flush=True)
+    attesi = {}
+    for _, z in lavoro:
+        attesi[z] = attesi.get(z, 0) + 1
+    raccolte = {}
+    with ThreadPoolExecutor(max_workers=quanti) as ex:
+        futuri = {ex.submit(analizza, d, slug(z)): z for d, z in lavoro}
+        for f in as_completed(futuri):
+            z = futuri[f]
+            try:
+                scheda = f.result()
+            except Exception as e:
+                conta("falliti")
+                scheda = {"dominio": "?", "escluso": True, "motivoEsclusione": f"errore: {e}"}
+            raccolte.setdefault(z, []).append(scheda)
+            if len(raccolte[z]) == attesi[z]:      # zona completa ⇒ si scrive
+                b, i, p = smista(raccolte.pop(z), slug(z))
+                b_tot += len(b); i_tot += len(i); p_tot += len(p)
+                print(f"  {z:24} {attesi[z]:3} letti → {len(b):3} imprese · "
+                      f"{len(p):2} professionisti · {len(i):3} da verificare", flush=True)
     print(f"\n═══ {b_tot} imprese · {p_tot} professionisti · {i_tot} da verificare ═══")
     print(f"    pagine {CONTI['pagine']} · dalla cache {CONTI['da_cache']} · "
           f"falliti {CONTI['falliti']} · robots {CONTI['robots_no']} · costo $0")
@@ -1435,15 +1479,102 @@ def smista(schede, sigla):
     incerte = [s for s in schede if s.get("tipoSoggetto") in ("incerto", "non_medico", "non_pertinente") or
                (s.get("escluso") and not s.get("tipoSoggetto"))]
     os.makedirs(USCITA, exist_ok=True)
-    scrivi = lambda nome, dati: json.dump(
-        dati, open(os.path.join(USCITA, nome), "w", encoding="utf-8"),
-        ensure_ascii=False, indent=1)
-    scrivi(f"{sigla.lower()}.json",
-           sorted(imprese + professionisti, key=lambda s: s["dominio"]))
-    scrivi(f"{sigla.lower()}-da-verificare.json", sorted(incerte, key=lambda s: s["dominio"]))
+
+    def scrivi(nome, dati, togli=frozenset()):
+        """🔴 **Si FONDE col file esistente, ⛔ non lo si sovrascrive.**
+
+        Difetto misurato il 2026-08-15, e stava **perdendo dati in silenzio**:
+        `leggi_dallo_stato()` passa **solo i domini nuovi** (`solo_nuovi=True`),
+        quindi un giro che trovava 5 nuovi siti a Roma riscriveva `rm.json`
+        **con 5 schede**, buttando le altre. ⇒ **165 schede sparite da 51 file**
+        nel solo pomeriggio, confrontando col commit del mattino.
+        ⚠️ **Nessun errore, nessun log**: i totali continuavano a **salire**,
+        perché le zone nuove aggiungevano più di quanto le vecchie perdessero.
+        È il motivo per cui ⛔ non l'ha visto nessuno.
+        🔑 Le schede nuove **vincono** su quelle vecchie con lo stesso dominio
+        (sono una rilettura più fresca); le altre restano. ⇒ l'operazione è
+        **idempotente** e ⛔ non dipende più da quanti domini arrivano in un giro.
+        """
+        percorso = os.path.join(USCITA, nome)
+        unite = {}
+        if os.path.exists(percorso):
+            try:
+                for x in json.load(open(percorso, encoding="utf-8")):
+                    if isinstance(x, dict) and x.get("dominio"):
+                        unite[x["dominio"]] = x
+            except Exception:
+                pass  # ⚠️ un file illeggibile ⛔ non deve fermare la raccolta
+        for x in dati:
+            if isinstance(x, dict) and x.get("dominio"):
+                unite[x["dominio"]] = x
+        # ⚠️ **`togli` è il rovescio necessario della fusione.** Le due pile
+        # sono **esclusive**: se una scheda passa da «incerto» a «persona»,
+        # fondere senza togliere la lascerebbe in **entrambi** i file, e
+        # comparirebbe due volte — un difetto **creato** dalla riparazione.
+        for d in togli:
+            unite.pop(d, None)
+        json.dump(sorted(unite.values(), key=lambda s: s["dominio"]),
+                  open(percorso, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    pubblicate = sorted(imprese + professionisti, key=lambda s: s["dominio"])
+    da_verificare = sorted(incerte, key=lambda s: s["dominio"])
+    scrivi(f"{sigla.lower()}.json", pubblicate,
+           togli={s["dominio"] for s in da_verificare})
+    scrivi(f"{sigla.lower()}-da-verificare.json", da_verificare,
+           togli={s["dominio"] for s in pubblicate})
     # ⚠️ Si restituiscono **tutte e tre** le pile: il riepilogo che ne contava
     # due dava «45 + 14» su 67 letti, e le 8 persone sparivano senza una riga.
     return imprese, incerte, professionisti
+
+def un_dominio_un_file(prova=True):
+    """Fa valere l'invariante **«un dominio, una scheda sola»** su tutta l'uscita.
+
+    🔑 **Serve perché i modi di violarlo sono due, e ⛔ nessuno dà errore:**
+    **(1)** una scheda promossa da «incerto» a «persona» resta nel file
+    `-da-verificare` se qualcuno la reinserisce (è successo **recuperando da
+    git** le 165 schede perse: la copia vecchia era «incerto», quella viva era
+    già stata promossa); **(2)** lo **stesso studio trovato sotto due province**
+    — `galenosalute.it` sta in `marsala` e in `trapani`, ed è normale, perché la
+    sigla la decide **chi lo trova per primo**, ⛔ non l'indirizzo.
+    ⇒ nel sito lo stesso studio comparirebbe **due volte**.
+
+    Vince la scheda **letta più di recente**; a parità, quella nel file
+    **coerente col proprio `tipoSoggetto`** (pubblicabile ⇒ file principale).
+    """
+    import glob
+    from collections import defaultdict
+    dove = defaultdict(list)
+    for p in sorted(glob.glob(os.path.join(USCITA, "*.json"))):
+        if os.path.basename(p).startswith("_"):
+            continue
+        try:
+            for x in json.load(open(p, encoding="utf-8")):
+                if isinstance(x, dict) and x.get("dominio"):
+                    dove[x["dominio"]].append((p, x))
+        except Exception:
+            continue
+    doppi = {d: v for d, v in dove.items() if len(v) > 1}
+    print(f"━━━ {len(dove)} domini · {len(doppi)} presenti in più file ━━━")
+    da_togliere = defaultdict(set)
+    for d, copie in doppi.items():
+        def punteggio(pv):
+            p, x = pv
+            verificare = p.endswith("-da-verificare.json")
+            pubblicabile = x.get("tipoSoggetto") in ("impresa", "persona")
+            return (x.get("lettoIl", ""), pubblicabile != verificare)
+        tiene = max(copie, key=punteggio)[0]
+        for p, x in copie:
+            if p != tiene:
+                da_togliere[p].add(d)
+        print(f"  {d:38} tiene {os.path.basename(tiene)}")
+    if prova:
+        print("\n⚠️ PROVA: niente è stato scritto. Rilancia con `--un-file --scrivi`.")
+        return
+    for p, domini in da_togliere.items():
+        dati = [x for x in json.load(open(p, encoding="utf-8"))
+                if not (isinstance(x, dict) and x.get("dominio") in domini)]
+        json.dump(dati, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"\n✅ ripulite {sum(len(v) for v in da_togliere.values())} copie in {len(da_togliere)} file")
+
 
 def riclassifica(prova=True):
     """Ripassa le schede **già raccolte** col classificatore aggiornato,
@@ -1573,6 +1704,9 @@ if __name__ == "__main__":
         n = [a for a in arg if a.isdigit()]
         prov = prov[:int(n[0])] if n else prov
         scoperta_nazionale([(c, s) for c, s in prov])
+        sys.exit(0)
+    if "--un-file" in arg:
+        un_dominio_un_file(prova="--scrivi" not in arg)
         sys.exit(0)
     if "--riclassifica" in arg:
         riclassifica(prova="--scrivi" not in arg)

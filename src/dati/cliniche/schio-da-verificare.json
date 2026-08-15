@@ -1,5 +1,84 @@
 [
  {
+  "dominio": "centrofeniceschio.it",
+  "nome": "Centro Fenice Schio (Vicenza)",
+  "formaSocietaria": "",
+  "partitaIva": "03677610242",
+  "telefono": "",
+  "email": "info@centrofeniceschio.it",
+  "sitoUrl": "https://centrofeniceschio.it/",
+  "indirizzo": "",
+  "cap": "36015",
+  "comune": "Schio",
+  "provincia": "schio",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centrofeniceschio.it/",
+   "https://centrofeniceschio.it/chi-siamo/",
+   "https://centrofeniceschio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticaelysium.it",
+  "nome": "Centro Estetico Elysium",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticaelysium.it/",
+  "indirizzo": "Vicolo della Campana 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "schio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticaelysium.it/",
+   "https://www.esteticaelysium.it/contatti/",
+   "https://www.esteticaelysium.it/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pharosmedici.altervista.org",
+  "nome": "pharosmedici.altervista.org",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://pharosmedici.altervista.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "schio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://pharosmedici.altervista.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "poliambulatorioschio.it",
   "nome": "Poliambulatorio SS. Trinità",
   "formaSocietaria": "",
@@ -21,7 +100,56 @@
    "https://www.poliambulatorioschio.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "soniaestetica.it",
+  "nome": "SwiteFrontendNg",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.soniaestetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "schio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.soniaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "stelladechino.net",
+  "nome": "Dott.ssa Stella De Chino",
+  "formaSocietaria": "",
+  "partitaIva": "02968940243",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://stelladechino.net/",
+  "indirizzo": "Via Righi, 32",
+  "cap": "36015",
+  "comune": "Schio",
+  "provincia": "schio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://stelladechino.net/",
+   "https://stelladechino.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

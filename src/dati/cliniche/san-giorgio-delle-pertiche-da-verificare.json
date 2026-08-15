@@ -1,0 +1,89 @@
+[
+ {
+  "dominio": "centrodelsole.it",
+  "nome": "Estetica,Benessere e Solarium, Centro del Sole, S.Giorgio delle Pertic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390499330232",
+  "email": "",
+  "sitoUrl": "https://www.centrodelsole.it/",
+  "indirizzo": "Via G. Verdi 3",
+  "cap": "35010",
+  "comune": "San",
+  "provincia": "san-giorgio-delle-pertiche",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centrodelsole.it/",
+   "https://www.centrodelsole.it/contatti/",
+   "https://www.centrodelsole.it/contatti/come-arrivare/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticakarima.it",
+  "nome": "Estetiste",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticakarima.it/",
+  "indirizzo": "Via Piovego 81",
+  "cap": "35010",
+  "comune": "San",
+  "provincia": "san-giorgio-delle-pertiche",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticakarima.it/",
+   "https://www.esteticakarima.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticosarto.it",
+  "nome": "Studio Dentistico Sarto Renata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studiodentisticosarto.it/",
+  "indirizzo": "Via Margarise, 13",
+  "cap": "35010",
+  "comune": "San",
+  "provincia": "san-giorgio-delle-pertiche",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticosarto.it/",
+   "https://studiodentisticosarto.it/index.php/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

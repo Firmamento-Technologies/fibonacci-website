@@ -1,0 +1,81 @@
+[
+ {
+  "dominio": "centromedicorozzano.it",
+  "nome": "Centro Medico Rozzano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centromedicorozzano.it",
+  "sitoUrl": "https://www.centromedicorozzano.it/",
+  "indirizzo": "Viale Lombardia 17",
+  "cap": "20089",
+  "comune": "Rozzano",
+  "provincia": "rozzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicorozzano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cmsanmarco.com",
+  "nome": "Centro Medico San Marco Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390284174409",
+  "email": "prenotazioni@cmsanmarco.com",
+  "sitoUrl": "https://www.cmsanmarco.com/",
+  "indirizzo": "via Simone Martini 22",
+  "cap": "20143",
+  "comune": "Milano",
+  "provincia": "rozzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.cmsanmarco.com/",
+   "https://www.cmsanmarco.com/chi-siamo/",
+   "https://www.cmsanmarco.com/chi-siamo/il-nostro-staff/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "jorgecardenasmedicoestetico.com",
+  "nome": "Dott. Jorge Cardenas",
+  "formaSocietaria": "",
+  "partitaIva": "06417020960",
+  "telefono": "+390289732793",
+  "email": "",
+  "sitoUrl": "https://www.jorgecardenasmedicoestetico.com/",
+  "indirizzo": "Piazza Alboreto Michele 68",
+  "cap": "20900",
+  "comune": "Rozzano",
+  "provincia": "rozzano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Jorge Cardenas, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.jorgecardenasmedicoestetico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Jorge Cardenas, cognome dentro il dominio"
+ }
+]

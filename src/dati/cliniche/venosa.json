@@ -1,0 +1,217 @@
+[
+ {
+  "dominio": "dermakos.it",
+  "nome": "Dermakos",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07106000966",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dermakos.it/",
+  "indirizzo": "Via Eritrea, 21",
+  "cap": "20157",
+  "comune": "",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.dermakos.it/",
+   "https://www.dermakos.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "federicotosato.it",
+  "nome": "Problemi di circolazione alle gambe",
+  "formaSocietaria": "",
+  "partitaIva": "04555770249",
+  "telefono": "+393317908011",
+  "email": "",
+  "sitoUrl": "https://www.federicotosato.it/",
+  "indirizzo": "Via Legione Gallieno, 31",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federico Tosato, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.federicotosato.it/",
+   "https://www.federicotosato.it/dott-tosato-contatti/",
+   "https://www.federicotosato.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Tosato, e il dominio lo ripete"
+ },
+ {
+  "dominio": "fioravantioculista.it",
+  "nome": "Centro Oculistico Chirurgico Fioravanti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@fioravantioculista.it",
+  "sitoUrl": "https://www.fioravantioculista.it/",
+  "indirizzo": "P.zza Trento e Trieste, 2",
+  "cap": "40137",
+  "comune": "Bologna",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.fioravantioculista.it/",
+   "https://www.fioravantioculista.it/chi-siamo/",
+   "https://www.fioravantioculista.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "istitutoflebologico.it",
+  "nome": "Istituto Flebologico Italiano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05147230287",
+  "telefono": "+390492271355",
+  "email": "segreteria@istitutoflebologico.it",
+  "sitoUrl": "https://www.istitutoflebologico.it/",
+  "indirizzo": "Via Niccolò Tommaseo, 50",
+  "cap": "35131",
+  "comune": "Padova",
+  "provincia": "venosa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.istitutoflebologico.it/",
+   "https://www.istitutoflebologico.it/contatti/",
+   "https://www.istitutoflebologico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticareggiolo.it",
+  "nome": "Medicina Estetica Reggiolo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02889810350",
+  "telefono": "+393317494998",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticareggiolo.it/",
+  "indirizzo": "Piazzale Lidio Artioli 18",
+  "cap": "42046",
+  "comune": "Reggiolo",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicinaesteticareggiolo.it/",
+   "https://medicinaesteticareggiolo.it/contatti/",
+   "https://medicinaesteticareggiolo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "newgen.clinic",
+  "nome": "Medicina Estetica: Scopri i Trattamenti più innovativi e sicuri",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12394940964",
+  "telefono": "",
+  "email": "info@newgen.clinic",
+  "sitoUrl": "https://www.newgen.clinic/",
+  "indirizzo": "Corso Vercelli) MI3",
+  "cap": "20121",
+  "comune": "Milano",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.newgen.clinic/",
+   "https://www.newgen.clinic/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicocavedon.it",
+  "nome": "Home < Studio Medico Cavedon",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39048160023",
+  "email": "",
+  "sitoUrl": "https://studiomedicocavedon.it/",
+  "indirizzo": "via San Quirino, 4",
+  "cap": "60023",
+  "comune": "Cormons",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Emanuele Cavedon, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomedicocavedon.it/",
+   "https://studiomedicocavedon.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuele Cavedon, cognome dentro il dominio"
+ }
+]

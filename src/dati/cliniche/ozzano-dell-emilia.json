@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "aemiliamedicalcenter.it",
+  "nome": "Aemilia Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02287141200",
+  "telefono": "+39051731101",
+  "email": "segreteria@aemiliamedicalcenter.it",
+  "sitoUrl": "https://www.aemiliamedicalcenter.it/",
+  "indirizzo": "Via Lunga, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "ozzano-dell-emilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.aemiliamedicalcenter.it/",
+   "https://www.aemiliamedicalcenter.it/contatti/",
+   "https://www.aemiliamedicalcenter.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrolemuse.net",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01657351209",
+  "telefono": "+393385084016",
+  "email": "",
+  "sitoUrl": "https://centrolemuse.net/",
+  "indirizzo": "Via P.C.S. Nasica, 101",
+  "cap": "40055",
+  "comune": "Castenaso",
+  "provincia": "ozzano-dell-emilia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centrolemuse.net/",
+   "https://centrolemuse.net/about/",
+   "https://centrolemuse.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

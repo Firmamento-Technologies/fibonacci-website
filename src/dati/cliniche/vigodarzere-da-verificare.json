@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "medicinaesteticalacertosa.it",
+  "nome": "Studio di Medicina Estetica La Certosa a Vigodarzere, a 15 min da Pado",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medicinaesteticalacertosa.it",
+  "sitoUrl": "https://www.medicinaesteticalacertosa.it/",
+  "indirizzo": "Via Guglielmo Marconi, 64",
+  "cap": "",
+  "comune": "",
+  "provincia": "vigodarzere",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticalacertosa.it/",
+   "https://www.medicinaesteticalacertosa.it/contatti/",
+   "http://www.medicinaesteticalacertosa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "spazioestetica.altervista.org",
+  "nome": "Spazio Estetica di Alice Schiavo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390498874366",
+  "email": "",
+  "sitoUrl": "https://spazioestetica.altervista.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vigodarzere",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://spazioestetica.altervista.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vetrinevenete.it",
+  "nome": "Vetrine Venete",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vetrinevenete.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vigodarzere",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vetrinevenete.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

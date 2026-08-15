@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "valerianovinci.it",
+  "nome": "Chirurgia plastica ed estetica su misura",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390282243838",
+  "email": "info@valerianovinci.it",
+  "sitoUrl": "https://valerianovinci.it/",
+  "indirizzo": "Via Fratelli Recchi 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "vinci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valeriano Vinci, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://valerianovinci.it/",
+   "https://valerianovinci.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeriano Vinci, e il dominio lo ripete"
+ }
+]

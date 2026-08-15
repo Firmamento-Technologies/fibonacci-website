@@ -1,0 +1,155 @@
+[
+ {
+  "dominio": "drantoniorusso.com",
+  "nome": "Dr. Antonio Russo",
+  "formaSocietaria": "",
+  "partitaIva": "12463151006",
+  "telefono": "+390697633638",
+  "email": "",
+  "sitoUrl": "https://www.drantoniorusso.com/",
+  "indirizzo": "Via della Camilluccia 313",
+  "cap": "00135",
+  "comune": "Roma",
+  "provincia": "russi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Russo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drantoniorusso.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Russo, cognome dentro il dominio"
+ },
+ {
+  "dominio": "labmedit.it",
+  "nome": "Medit",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01174991008",
+  "telefono": "+390687181812",
+  "email": "info@labmedit.it",
+  "sitoUrl": "https://www.labmedit.it/",
+  "indirizzo": "via Whatsapp il 329",
+  "cap": "00141",
+  "comune": "Roma",
+  "provincia": "russi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.labmedit.it/",
+   "https://www.labmedit.it/chi-siamo/",
+   "https://www.labmedit.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "logatto.it",
+  "nome": "Dr. Logatto",
+  "formaSocietaria": "",
+  "partitaIva": "04548500877",
+  "telefono": "+39095377753",
+  "email": "",
+  "sitoUrl": "https://www.logatto.it/",
+  "indirizzo": "via Martino Cilestri 41",
+  "cap": "95129",
+  "comune": "Catania",
+  "provincia": "russi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Logatto Vai, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.logatto.it/",
+   "https://www.logatto.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Logatto Vai, cognome dentro il dominio"
+ },
+ {
+  "dominio": "mariagabrielladirusso.it",
+  "nome": "Maria Gabriella di Russo - Medico Estetico - Formia, Milano",
+  "formaSocietaria": "",
+  "partitaIva": "01685600593",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.mariagabrielladirusso.it/",
+  "indirizzo": "Via Rubino 66",
+  "cap": "15777",
+  "comune": "Si",
+  "provincia": "russi",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maria Gabriella, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.mariagabrielladirusso.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Gabriella, cognome dentro il dominio"
+ },
+ {
+  "dominio": "rubiniarusso.it",
+  "nome": "Medicina estetica naturale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393774463044",
+  "email": "info@rubiniarusso.it",
+  "sitoUrl": "https://rubiniarusso.it/",
+  "indirizzo": "Via D. G. M. Russolillo 14",
+  "cap": "00138",
+  "comune": "Roma",
+  "provincia": "russi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rubinia Russo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://rubiniarusso.it/",
+   "https://rubiniarusso.it/contatti/",
+   "https://rubiniarusso.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rubinia Russo, e il dominio lo ripete"
+ }
+]

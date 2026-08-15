@@ -1,35 +1,5 @@
 [
  {
-  "dominio": "andreasalerno.net",
-  "nome": "La medicina estetica",
-  "formaSocietaria": "",
-  "partitaIva": "",
-  "telefono": "",
-  "email": "",
-  "sitoUrl": "https://andreasalerno.net/",
-  "indirizzo": "Via Amadeo Bordiga 13",
-  "cap": "",
-  "comune": "",
-  "provincia": "salerno",
-  "prestazioni": [
-   "Filler",
-   "Tossina botulinica",
-   "Biostimolazione",
-   "Peeling chimico"
-  ],
-  "dichiaraDirettoreSanitario": false,
-  "dichiaraAutorizzazioneSanitaria": false,
-  "tipoSoggetto": "persona",
-  "ragioneClassificazione": "studio di un professionista: dott. Andrea Salerno, e il dominio lo ripete",
-  "fonteUrl": [
-   "https://andreasalerno.net/",
-   "https://andreasalerno.net/dove-siamo/"
-  ],
-  "lettoIl": "2026-08-15",
-  "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Salerno, e il dominio lo ripete"
- },
- {
   "dominio": "studiodentisticocirodagostino.it",
   "nome": "Studio Dentistico Pontecagnano",
   "formaSocietaria": "",
@@ -55,7 +25,7 @@
    "https://www.studiodentisticocirodagostino.it/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ciro D'agostino, cognome dentro il dominio"
  }
 ]

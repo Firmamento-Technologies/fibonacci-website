@@ -1,0 +1,106 @@
+[
+ {
+  "dominio": "centrimedicidentistici.it",
+  "nome": "CentriMediciDentistici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03057640124",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centrimedicidentistici.it/",
+  "indirizzo": "Via San Martino 21",
+  "cap": "21040",
+  "comune": "Uboldo",
+  "provincia": "uboldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centrimedicidentistici.it/",
+   "https://centrimedicidentistici.it/contatti/",
+   "http://centrimedicidentistici.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinichevigano.it",
+  "nome": "Cliniche Viganò: Il Tuo Dentista A Milano Niguarda",
+  "formaSocietaria": "",
+  "partitaIva": "02334250996",
+  "telefono": "+390266100772",
+  "email": "",
+  "sitoUrl": "https://clinichevigano.it/",
+  "indirizzo": "Via Passerini. Gerenzano : percorri la SP233",
+  "cap": "16121",
+  "comune": "GENOVA",
+  "provincia": "uboldo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://clinichevigano.it/",
+   "https://clinichevigano.it/privacy-policy-form-di-contatto/",
+   "https://clinichevigano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "csdcodontoiatriauboldo.it",
+  "nome": "CSDC Odontoiatria Uboldo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03421760137",
+  "telefono": "+393756771092",
+  "email": "info@csdcodontoiatria.it",
+  "sitoUrl": "https://www.csdcodontoiatriauboldo.it/",
+  "indirizzo": "Via IV Novembre, 79",
+  "cap": "21040",
+  "comune": "Uboldo",
+  "provincia": "uboldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.csdcodontoiatriauboldo.it/",
+   "https://www.csdcodontoiatriauboldo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "datadeo.it",
+  "nome": "Datadeo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://datadeo.it/",
+  "indirizzo": "Via Delle Ande 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "uboldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://datadeo.it/",
+   "https://www.datadeo.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

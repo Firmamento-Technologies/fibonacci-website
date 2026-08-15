@@ -1,0 +1,79 @@
+[
+ {
+  "dominio": "ausl.bologna.it",
+  "nome": "ausl.bologna.it",
+  "formaSocietaria": "",
+  "partitaIva": "02406911202",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ausl.bologna.it/",
+  "indirizzo": "Via Castiglione, 29",
+  "cap": "40124",
+  "comune": "Bologna",
+  "provincia": "san-pietro-in-casale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ausl.bologna.it/",
+   "https://www.ausl.bologna.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticobanzi.it",
+  "nome": "Studio Dentistico Banzi: Il Tuo Dentista A Cento",
+  "formaSocietaria": "",
+  "partitaIva": "02996431207",
+  "telefono": "+39051974600",
+  "email": "info@studiodentisticobanzi.it",
+  "sitoUrl": "https://www.studiodentisticobanzi.it/",
+  "indirizzo": "Via Asia, 19",
+  "cap": "40066",
+  "comune": "Pieve",
+  "provincia": "san-pietro-in-casale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticobanzi.it/",
+   "https://www.studiodentisticobanzi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodermatologo-dr-rossi.it",
+  "nome": "Mappatura nei",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39051811008",
+  "email": "",
+  "sitoUrl": "https://www.studiodermatologo-dr-rossi.it/",
+  "indirizzo": "via Marconi 31",
+  "cap": "40018",
+  "comune": "San",
+  "provincia": "san-pietro-in-casale",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Dermatologo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodermatologo-dr-rossi.it/",
+   "https://www.studiodermatologo-dr-rossi.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Dermatologo, cognome dentro il dominio"
+ }
+]

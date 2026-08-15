@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "centrofisiofit.com",
+  "nome": "Fisiofit",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393401465838",
+  "email": "",
+  "sitoUrl": "https://centrofisiofit.com/",
+  "indirizzo": "Via Monte Ortigara, 97",
+  "cap": "36073",
+  "comune": "Cornedo",
+  "provincia": "valdagno",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centrofisiofit.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

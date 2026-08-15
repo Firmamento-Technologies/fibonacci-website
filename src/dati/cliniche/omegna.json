@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "studiodentisticopezzanaetogno.com",
+  "nome": "Dentista a Omegna estetica e implantologia Passione e ricerca dal 1983",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studiodentisticopezzanaetogno.com/",
+  "indirizzo": "Via Lungo Lago Buozzi 6",
+  "cap": "28887",
+  "comune": "VB",
+  "provincia": "omegna",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Pezzana, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiodentisticopezzanaetogno.com/",
+   "https://studiodentisticopezzanaetogno.com/chi-siamo-dentista-omegna-estetica-ed-implantologia/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Pezzana, cognome dentro il dominio"
+ }
+]

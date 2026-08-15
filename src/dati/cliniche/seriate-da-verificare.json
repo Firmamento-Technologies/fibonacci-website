@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "politerapicaclinic.it",
+  "nome": "Politerapica Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "04842560163",
+  "telefono": "+390350900344",
+  "email": "segreteria@politerapicaclinic.it",
+  "sitoUrl": "https://politerapicaclinic.it/",
+  "indirizzo": "via Nazionale 93",
+  "cap": "24068",
+  "comune": "Seriate",
+  "provincia": "seriate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://politerapicaclinic.it/",
+   "https://politerapicaclinic.it/contatti-seriate/",
+   "https://politerapicaclinic.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "kimonoestetica.it",
+  "nome": "Centro Estetico Massaggi Sansepolcro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://kimonoestetica.it/",
+  "indirizzo": "Via Malatesta, 21",
+  "cap": "52037",
+  "comune": "Sansepolcro",
+  "provincia": "sansepolcro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://kimonoestetica.it/",
+   "https://kimonoestetica.it/chi-siamo/",
+   "https://kimonoestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

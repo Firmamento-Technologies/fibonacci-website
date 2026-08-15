@@ -1,0 +1,162 @@
+[
+ {
+  "dominio": "arsbiomedica.it",
+  "nome": "Ars Biomedica",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01388411009",
+  "telefono": "+39063614941",
+  "email": "info@arsbiomedica.it",
+  "sitoUrl": "https://www.arsbiomedica.it/",
+  "indirizzo": "Via Luigi Bodio 58",
+  "cap": "",
+  "comune": "",
+  "provincia": "vinci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.arsbiomedica.it/",
+   "https://www.arsbiomedica.it/contatti/",
+   "https://www.arsbiomedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "davinci.al",
+  "nome": "Klinika DaVINCI",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@davinci.al",
+  "sitoUrl": "https://davinci.al/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vinci",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://davinci.al/",
+   "https://davinci.al/davinci/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "humanitas.it",
+  "nome": "Humanitas Research Hospital",
+  "formaSocietaria": "",
+  "partitaIva": "10982360967",
+  "telefono": "+390282248224",
+  "email": "",
+  "sitoUrl": "https://www.humanitas.it/",
+  "indirizzo": "Via Manzoni 56",
+  "cap": "20089",
+  "comune": "Rozzano",
+  "provincia": "vinci",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.humanitas.it/",
+   "https://www.humanitas.it/info/contatti/",
+   "https://www.humanitas.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "humanitasalute.it",
+  "nome": "Humanitas Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.humanitasalute.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vinci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.humanitasalute.it/",
+   "https://www.humanitasalute.it/wp-content/uploads/2024/10/Privacy-Policy_Newsletter-Humanitas-Salute.pdf",
+   "https://www.humanitasalute.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sicpre.it",
+  "nome": "Sicpre",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@sicpre.it",
+  "sitoUrl": "https://www.sicpre.it/",
+  "indirizzo": "Viale Pasteur, 65",
+  "cap": "00144",
+  "comune": "ROMA",
+  "provincia": "vinci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sicpre.it/",
+   "https://www.sicpre.it/chi-siamo/",
+   "https://www.sicpre.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "termemargherita.it",
+  "nome": "Terme Margherita di Savoia",
+  "formaSocietaria": "",
+  "partitaIva": "00123640716",
+  "telefono": "+390883655402",
+  "email": "info@termemargherita.it",
+  "sitoUrl": "https://termemargherita.it/",
+  "indirizzo": "Piazza Libertà 1",
+  "cap": "76016",
+  "comune": "Margherita",
+  "provincia": "vinci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://termemargherita.it/",
+   "https://termemargherita.it/contatti/",
+   "https://termemargherita.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

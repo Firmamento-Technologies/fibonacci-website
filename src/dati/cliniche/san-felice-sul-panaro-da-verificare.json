@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "cercatrovaonline.it",
+  "nome": "Cercatrova Online",
+  "formaSocietaria": "",
+  "partitaIva": "02846170369",
+  "telefono": "+393271699397",
+  "email": "",
+  "sitoUrl": "https://www.cercatrovaonline.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-felice-sul-panaro",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cercatrovaonline.it/",
+   "https://www.cercatrovaonline.it/category/contattologia/",
+   "https://www.cercatrovaonline.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticamanuelamatis.it",
+  "nome": "Centro Bellezza Manuela",
+  "formaSocietaria": "",
+  "partitaIva": "02282850367",
+  "telefono": "+39053585204",
+  "email": "info@esteticamanuelamatis.it",
+  "sitoUrl": "https://esteticamanuelamatis.it/",
+  "indirizzo": "",
+  "cap": "41038",
+  "comune": "San",
+  "provincia": "san-felice-sul-panaro",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamanuelamatis.it/",
+   "https://esteticamanuelamatis.it/contatti/",
+   "https://esteticamanuelamatis.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicolugli.it",
+  "nome": "Studio Medico Marzia Lugli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393394307637",
+  "email": "info@studiomedicolugli.it",
+  "sitoUrl": "https://studiomedicolugli.it/",
+  "indirizzo": "Via G. Mazzini, 112",
+  "cap": "41038",
+  "comune": "San",
+  "provincia": "san-felice-sul-panaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicolugli.it/",
+   "https://studiomedicolugli.it/contatti/",
+   "https://studiomedicolugli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

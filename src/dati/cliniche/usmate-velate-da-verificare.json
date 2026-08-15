@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "medicinaessere.it",
+  "nome": "home |Essere Salute e Benessere Srl",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10294220966",
+  "telefono": "+39039672634",
+  "email": "info@medicinaessere.it",
+  "sitoUrl": "https://medicinaessere.it/",
+  "indirizzo": "Via Cavour 17",
+  "cap": "20865",
+  "comune": "Codice",
+  "provincia": "usmate-velate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://medicinaessere.it/",
+   "https://medicinaessere.it/it/contatti",
+   "https://medicinaessere.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "esteticamoser.it",
+  "nome": "Centro Estetica Moser",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390461532612",
+  "email": "info@esteticamoser.it",
+  "sitoUrl": "https://esteticamoser.it/",
+  "indirizzo": "Via Pennella, 94",
+  "cap": "38057",
+  "comune": "Pergine",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://esteticamoser.it/",
+   "https://esteticamoser.it/contatti-centro-estetico-moser-pergine/",
+   "https://esteticamoser.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticaoltrelimmagine.net",
+  "nome": "Trattamenti corpo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390461530404",
+  "email": "",
+  "sitoUrl": "https://www.esteticaoltrelimmagine.net/",
+  "indirizzo": "Via Maier 23",
+  "cap": "38057",
+  "comune": "Pergine",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticaoltrelimmagine.net/",
+   "https://www.esteticaoltrelimmagine.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

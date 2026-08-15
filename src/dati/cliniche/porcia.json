@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "centromedicoesperia.it",
+  "nome": "Centro Medico Esperia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390434590222",
+  "email": "",
+  "sitoUrl": "https://www.centromedicoesperia.it/",
+  "indirizzo": "Via Correr, 25",
+  "cap": "40000",
+  "comune": "ACCESSI",
+  "provincia": "porcia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicoesperia.it/",
+   "https://www.centromedicoesperia.it/contatti-1",
+   "https://www.centromedicoesperia.it/contatti-2"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

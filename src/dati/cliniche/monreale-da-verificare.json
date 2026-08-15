@@ -1,5 +1,39 @@
 [
  {
+  "dominio": "centroesteticocarialorena.com",
+  "nome": "Centro Estetico Lorena Caria",
+  "formaSocietaria": "",
+  "partitaIva": "02331450920",
+  "telefono": "+393463674954",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticocarialorena.com/",
+  "indirizzo": "Via Primo Maggio, 72",
+  "cap": "09037",
+  "comune": "SAN",
+  "provincia": "monreale",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticocarialorena.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "codoctor.ch",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "monrealecenter.it",
   "nome": "Centro estetico Cagliari",
   "formaSocietaria": "",

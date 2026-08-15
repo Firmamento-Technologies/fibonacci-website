@@ -28,6 +28,32 @@
    "https://armoniaemedicina.com/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "medicalcentermolfetta.com",
+  "nome": "Medical Center Molfetta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medicalcentermolfetta.com",
+  "sitoUrl": "https://www.medicalcentermolfetta.com/",
+  "indirizzo": "Via Leonardo Azzarita n. 75",
+  "cap": "76011",
+  "comune": "BISCEGLIE",
+  "provincia": "molfetta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalcentermolfetta.com/",
+   "https://www.medicalcentermolfetta.com/privacy-policy/",
+   "https://www.medicalcentermolfetta.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
  },

@@ -1,0 +1,108 @@
+[
+ {
+  "dominio": "ambulatoriobiomedica.it",
+  "nome": "Biomedica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390734994228",
+  "email": "",
+  "sitoUrl": "https://www.ambulatoriobiomedica.it/",
+  "indirizzo": "Via Monte Vettore, 21",
+  "cap": "63821",
+  "comune": "Porto Sant’",
+  "provincia": "sant-elpidio-a-mare",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ambulatoriobiomedica.it/",
+   "https://www.ambulatoriobiomedica.it/chi-siamo/",
+   "https://www.ambulatoriobiomedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrodiagnosticolafenice.it",
+  "nome": "Centro medico diagnostico e fisioterapico provincia di Fermo",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02055330449",
+  "telefono": "+390734904711",
+  "email": "info.centrodiagnosticolafenice@ergeagroup.com",
+  "sitoUrl": "https://www.centrodiagnosticolafenice.it/",
+  "indirizzo": "Via Giuseppe Mazzini, 18",
+  "cap": "63821",
+  "comune": "Porto Sant'",
+  "provincia": "sant-elpidio-a-mare",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrodiagnosticolafenice.it/",
+   "https://www.centrodiagnosticolafenice.it/centro-diagnostico-e-fisioterapico-la-fenice/le-sedi.html",
+   "https://www.centrodiagnosticolafenice.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicosanfrancesco.com",
+  "nome": "Centro Medico San Francesco",
+  "formaSocietaria": "",
+  "partitaIva": "02184450446",
+  "telefono": "+390734301218",
+  "email": "info@centromedicosanfrancesco.com",
+  "sitoUrl": "https://www.centromedicosanfrancesco.com/",
+  "indirizzo": "Via G. Rossini 6",
+  "cap": "63821",
+  "comune": "Porto Sant'",
+  "provincia": "sant-elpidio-a-mare",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicosanfrancesco.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "luigimarziali.it",
+  "nome": "Luigi Marziali - Dermatologo, Dietologo, Omeopata",
+  "formaSocietaria": "",
+  "partitaIva": "01172040444",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://luigimarziali.it/",
+  "indirizzo": "Via Giacomo Brodolini 2",
+  "cap": "63821",
+  "comune": "Porto",
+  "provincia": "sant-elpidio-a-mare",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luigi Marziali, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://luigimarziali.it/",
+   "https://luigimarziali.it/contatti/",
+   "https://luigimarziali.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Marziali, e il dominio lo ripete"
+ }
+]

@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "dermatologo-salemi.com",
+  "nome": "Dott.ssa Desirée Salemi",
+  "formaSocietaria": "",
+  "partitaIva": "01103580328",
+  "telefono": "+390409835501",
+  "email": "",
+  "sitoUrl": "https://www.dermatologo-salemi.com/",
+  "indirizzo": "Piazza del Ponterosso 6",
+  "cap": "34121",
+  "comune": "Trieste",
+  "provincia": "salemi",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologo-salemi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mariateresasaliani.it",
+  "nome": "Studio Saliani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390802020742",
+  "email": "studio@mariateresasaliani.it",
+  "sitoUrl": "https://www.mariateresasaliani.it/",
+  "indirizzo": "Via Cesare Battisti, 46",
+  "cap": "",
+  "comune": "",
+  "provincia": "salemi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mariateresasaliani.it/",
+   "https://www.mariateresasaliani.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "professionisti.quotidianosanitaclub.it",
+  "nome": "Professionisti Sanitari.AI: directory AI di professionisti sanitari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://professionisti.quotidianosanitaclub.it/",
+  "indirizzo": "Via G.Motta 6",
+  "cap": "",
+  "comune": "",
+  "provincia": "salemi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://professionisti.quotidianosanitaclub.it/",
+   "https://professionisti.quotidianosanitaclub.it/images/amplia-contatti.png"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

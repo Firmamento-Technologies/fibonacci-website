@@ -1,0 +1,111 @@
+[
+ {
+  "dominio": "armoniaebenessereuboldo.com",
+  "nome": "Centro Estetico a Uboldo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393926438533",
+  "email": "",
+  "sitoUrl": "https://www.armoniaebenessereuboldo.com/",
+  "indirizzo": "Via Italia, 4",
+  "cap": "21040",
+  "comune": "Uboldo",
+  "provincia": "uboldo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.armoniaebenessereuboldo.com/",
+   "https://www.armoniaebenessereuboldo.com/chi-siamo/",
+   "https://www.armoniaebenessereuboldo.com/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fisioellebi.it",
+  "nome": "Centro fisioterapico ad Uboldo altamente specializzato",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "09924780969",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://fisioellebi.it/",
+  "indirizzo": "Via Muratori 60",
+  "cap": "24036",
+  "comune": "Ponte San",
+  "provincia": "uboldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://fisioellebi.it/",
+   "https://fisioellebi.it/prenotazioni-e-contatti/",
+   "https://fisioellebi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "onlybeauty-uboldo.com",
+  "nome": "Centro estetico a Uboldo",
+  "formaSocietaria": "",
+  "partitaIva": "04175710138",
+  "telefono": "+390209979021",
+  "email": "",
+  "sitoUrl": "https://www.onlybeauty-uboldo.com/",
+  "indirizzo": "",
+  "cap": "21040",
+  "comune": "Uboldo",
+  "provincia": "uboldo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.onlybeauty-uboldo.com/",
+   "https://www.onlybeauty-uboldo.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vbconsulentedibellezza.it",
+  "nome": "Centro Estetico Uboldo di Valentina Bianchi",
+  "formaSocietaria": "",
+  "partitaIva": "08874540969",
+  "telefono": "+393203831958",
+  "email": "info@vbconsulentedibellezza.it",
+  "sitoUrl": "https://vbconsulentedibellezza.it/",
+  "indirizzo": "Via Magenta 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "uboldo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vbconsulentedibellezza.it/",
+   "https://vbconsulentedibellezza.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,117 @@
+[
+ {
+  "dominio": "amedix.it",
+  "nome": "amedix.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390305357221",
+  "email": "",
+  "sitoUrl": "https://www.amedix.it/",
+  "indirizzo": "Via Flero 36",
+  "cap": "25124",
+  "comune": "Brescia",
+  "provincia": "ospitaletto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.amedix.it/",
+   "https://www.amedix.it/contatti",
+   "https://www.amedix.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drprandelli.com",
+  "nome": "Dr. Emiliano Prandelli",
+  "formaSocietaria": "",
+  "partitaIva": "03408380982",
+  "telefono": "",
+  "email": "info@drprandelli.com",
+  "sitoUrl": "https://www.drprandelli.com/it",
+  "indirizzo": "via Martiri delle Foibe 42",
+  "cap": "25035",
+  "comune": "Ospitaletto",
+  "provincia": "ospitaletto",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Emiliano Prandelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drprandelli.com/it",
+   "https://www.drprandelli.com/it/a8-chi-siamo",
+   "https://www.drprandelli.com/it/a9-contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emiliano Prandelli, cognome dentro il dominio"
+ },
+ {
+  "dominio": "restartmedicalcenter.it",
+  "nome": "Restart Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "04040320980",
+  "telefono": "+390302383160",
+  "email": "info@restartmedicalcenter.it",
+  "sitoUrl": "https://restartmedicalcenter.it/",
+  "indirizzo": "Via Padana Superiore 5",
+  "cap": "25035",
+  "comune": "Ospitaletto",
+  "provincia": "ospitaletto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://restartmedicalcenter.it/",
+   "https://restartmedicalcenter.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "silviaestetic.it",
+  "nome": "Silvia Estetic",
+  "formaSocietaria": "",
+  "partitaIva": "03244150987",
+  "telefono": "+393453547886",
+  "email": "",
+  "sitoUrl": "https://www.silviaestetic.it/",
+  "indirizzo": "Via Monsignor Girolamo Rizzi, 35",
+  "cap": "25035",
+  "comune": "Ospitaletto",
+  "provincia": "ospitaletto",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.silviaestetic.it/",
+   "https://www.silviaestetic.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

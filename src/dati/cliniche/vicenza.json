@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "dominio": "studiodentisticoinnocenti.it",
+  "nome": "Studio Dentistico Innocenti / SDI",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiodentisticoinnocenti.it",
+  "sitoUrl": "https://www.studiodentisticoinnocenti.it/",
+  "indirizzo": "Viale Italia, 129",
+  "cap": "36051",
+  "comune": "Creazzo",
+  "provincia": "vicenza",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Susanne Innocenti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticoinnocenti.it/",
+   "https://www.studiodentisticoinnocenti.it/chi-siamo/",
+   "https://www.studiodentisticoinnocenti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Susanne Innocenti, cognome dentro il dominio"
+ }
+]

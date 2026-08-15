@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "dominio": "asptrapani.it",
+  "nome": "ASPTrapani.it",
+  "formaSocietaria": "",
+  "partitaIva": "02363280815",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asptrapani.it/servizi/notizie/notizie_homepage.aspx",
+  "indirizzo": "Via Mazzini, 1",
+  "cap": "91100",
+  "comune": "Trapani",
+  "provincia": "marsala",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.asptrapani.it/servizi/notizie/notizie_homepage.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiosaladino.com",
+  "nome": "STUDIO MEDICO SALADINO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiosaladino.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "marsala",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiosaladino.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

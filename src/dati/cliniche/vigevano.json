@@ -57,8 +57,8 @@
    "https://dentistagiorgiofava.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fava Dentista, cognome dentro il dominio"
  },
  {
   "dominio": "emotionsdebeaute.it",

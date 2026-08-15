@@ -33,6 +33,61 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "mariateresasantarelli.it",
+  "nome": "Dott.ssa Maria Teresa Santarelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@mariateresasantarelli.it",
+  "sitoUrl": "https://www.mariateresasantarelli.it/",
+  "indirizzo": "Via A. Piola Caselli 112",
+  "cap": "00122",
+  "comune": "Ostia",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mariateresasantarelli.it/",
+   "https://www.mariateresasantarelli.it/contatti/",
+   "https://www.mariateresasantarelli.it/copyright-e-note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "marilab.it",
+  "nome": "Marilab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01233441003",
+  "telefono": "+3906561951",
+  "email": "",
+  "sitoUrl": "https://marilab.it/",
+  "indirizzo": "Viale Alfredo Zambrini 14",
+  "cap": "00121",
+  "comune": "Ostia",
+  "provincia": "ostia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://marilab.it/",
+   "https://marilab.it/contatti/",
+   "https://marilab.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "prenota.medicinaesteticaostia.it",
   "nome": "Medicina Estetica ad Ostia",
   "formaSocietaria": "",

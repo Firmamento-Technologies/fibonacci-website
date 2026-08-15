@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "beautyenails.it",
+  "nome": "Centro estetico a Bagheria Beauty e Nails",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393492922574",
+  "email": "info@beautyenails.it",
+  "sitoUrl": "https://www.beautyenails.it/",
+  "indirizzo": "Via Mortillaro 45",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "villabate",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautyenails.it/",
+   "https://www.beautyenails.it/content/chi-siamo-beauty-nails-bagheria",
+   "https://www.beautyenails.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

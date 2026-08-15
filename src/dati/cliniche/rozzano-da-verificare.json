@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "jorgecardenas.it",
+  "nome": "Medico Estetico Rozzano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://jorgecardenas.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rozzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://jorgecardenas.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

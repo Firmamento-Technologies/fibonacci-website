@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "8medica.it",
+  "nome": "Poliambulatorio a Silea Treviso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3904221924010",
+  "email": "",
+  "sitoUrl": "https://www.8medica.it/",
+  "indirizzo": "Strada della Serenissima, 3",
+  "cap": "31057",
+  "comune": "Silea",
+  "provincia": "silea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.8medica.it/",
+   "https://www.8medica.it/chi-siamo/",
+   "https://www.8medica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "bloombeautycenter.it",
+  "nome": "Bloom Beauty Center Silea",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@bloombeautycenter.com",
+  "sitoUrl": "https://bloombeautycenter.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "silea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://bloombeautycenter.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "dentalfeel.it",
+  "nome": "Dental Feel",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13318580019",
+  "telefono": "",
+  "email": "info@dentalfeel.it",
+  "sitoUrl": "https://dentalfeel.it/",
+  "indirizzo": "corso Galileo Ferraris, 71",
+  "cap": "10128",
+  "comune": "Torino",
+  "provincia": "silea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://dentalfeel.it/",
+   "https://dentalfeel.it/chi-siamo/",
+   "https://dentalfeel.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

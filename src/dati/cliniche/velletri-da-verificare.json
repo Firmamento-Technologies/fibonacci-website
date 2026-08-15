@@ -27,5 +27,83 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "medicinaestetica.dentalhousevelletri.it",
+  "nome": "Filler Labbra",
+  "formaSocietaria": "",
+  "partitaIva": "15357941002",
+  "telefono": "+393923652218",
+  "email": "info@dentalhousevelletri.it",
+  "sitoUrl": "https://medicinaestetica.dentalhousevelletri.it/",
+  "indirizzo": "Via Orti Ginnetti, 2",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaestetica.dentalhousevelletri.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nuovaesteticamedica.com",
+  "nome": "Nuova Estetica Medica Velletri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39069638020",
+  "email": "",
+  "sitoUrl": "https://www.nuovaesteticamedica.com/",
+  "indirizzo": "Viale Bruno Buozzi, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.nuovaesteticamedica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sapadental.it",
+  "nome": "Studio Dentistico a Velletri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390683435252",
+  "email": "info@sapadental.it",
+  "sitoUrl": "https://www.sapadental.it/",
+  "indirizzo": "V.le Regina Margherita 7",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sapadental.it/",
+   "https://www.sapadental.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

@@ -1,0 +1,92 @@
+[
+ {
+  "dominio": "chirurgiaplasticaestetica360.it",
+  "nome": "Dott. Luca Spaziante",
+  "formaSocietaria": "",
+  "partitaIva": "01729570760",
+  "telefono": "+393333528125",
+  "email": "info@chirurgiaplasticaestetica360.it",
+  "sitoUrl": "https://www.chirurgiaplasticaestetica360.it/",
+  "indirizzo": "Via Villa della Regina, 19",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "vecchiano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.chirurgiaplasticaestetica360.it/",
+   "https://www.chirurgiaplasticaestetica360.it/contatti/",
+   "https://www.chirurgiaplasticaestetica360.it/privacy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiomedfiorenzuola.it",
+  "nome": "Poliambulatorio Fisiomed Fiorenzuola - Un nuovo sito targato WordPress",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01237970338",
+  "telefono": "+390523983899",
+  "email": "info@fisiomedfiorenzuola.it",
+  "sitoUrl": "https://www.fisiomedfiorenzuola.it/",
+  "indirizzo": "Via Calestani, 9",
+  "cap": "29017",
+  "comune": "Fiorenzuola",
+  "provincia": "vecchiano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.fisiomedfiorenzuola.it/",
+   "https://www.fisiomedfiorenzuola.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "globelife.com",
+  "nome": "GLOBElife ❤️ Hairstylist Notizie Novità",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09161130969",
+  "telefono": "+3903311706328",
+  "email": "info@globelife.com",
+  "sitoUrl": "https://globelife.com/",
+  "indirizzo": "",
+  "cap": "20028",
+  "comune": "San",
+  "provincia": "vecchiano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://globelife.com/",
+   "https://globelife.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

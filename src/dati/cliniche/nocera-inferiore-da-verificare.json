@@ -1,1 +1,82 @@
-[]
+[
+ {
+  "dominio": "crtfradiologiaeterapiafisica.com",
+  "nome": "Centro radiologico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://crtfradiologiaeterapiafisica.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "nocera-inferiore",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://crtfradiologiaeterapiafisica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodentisticomonnalisa.it",
+  "nome": "Dentista",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390815179940",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticomonnalisa.it/",
+  "indirizzo": "Via Eduardo Astuti, 121",
+  "cap": "84014",
+  "comune": "Nocera",
+  "provincia": "nocera-inferiore",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticomonnalisa.it/",
+   "https://www.studiodentisticomonnalisa.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicodimartino.it",
+  "nome": "Medicina Estetica Nocera",
+  "formaSocietaria": "",
+  "partitaIva": "94095710656",
+  "telefono": "+393271862005",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicodimartino.it/",
+  "indirizzo": "Via Gabola Isaia, 29",
+  "cap": "84014",
+  "comune": "Nocera",
+  "provincia": "nocera-inferiore",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicodimartino.it/",
+   "https://www.studiomedicodimartino.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

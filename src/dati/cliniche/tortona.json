@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "poliambulatoriorevita.it",
+  "nome": "ReVita salute e longevità",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02779310065",
+  "telefono": "+3901311800155",
+  "email": "segreteria@poliambulatoriorevita.it",
+  "sitoUrl": "https://www.poliambulatoriorevita.it/",
+  "indirizzo": "Via G. Pernigotti, 13",
+  "cap": "15057",
+  "comune": "Tortona",
+  "provincia": "tortona",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.poliambulatoriorevita.it/",
+   "https://www.poliambulatoriorevita.it/contatti-e-prenotazioni/",
+   "https://www.poliambulatoriorevita.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticoraffaghello.it",
+  "nome": "Studio dentistico Dr. Giulio Raffaghello",
+  "formaSocietaria": "",
+  "partitaIva": "02579430063",
+  "telefono": "+393339731389",
+  "email": "info@studiodentisticoraffaghello.it",
+  "sitoUrl": "https://studiodentisticoraffaghello.it/",
+  "indirizzo": "Vicolo Pocasale Ghisolfo 2",
+  "cap": "15057",
+  "comune": "Tortona",
+  "provincia": "tortona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulio Raffaghello, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiodentisticoraffaghello.it/",
+   "https://studiodentisticoraffaghello.it/chi-siamo/",
+   "https://studiodentisticoraffaghello.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulio Raffaghello, cognome dentro il dominio"
+ }
+]

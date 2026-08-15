@@ -1,0 +1,88 @@
+[
+ {
+  "dominio": "esteticamoreinpiu.it",
+  "nome": "Estetica Amore In PIù",
+  "formaSocietaria": "",
+  "partitaIva": "01706160932",
+  "telefono": "+393892403088",
+  "email": "info@esteticamoreinpiu.it",
+  "sitoUrl": "https://esteticamoreinpiu.it/",
+  "indirizzo": "Via Della Chiesa, 19",
+  "cap": "33080",
+  "comune": "Porcia",
+  "provincia": "porcia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamoreinpiu.it/",
+   "https://esteticamoreinpiu.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "farmaciadelucca.it",
+  "nome": "Farmacia De Lucca Dr. Gianpaolo / Pordenone",
+  "formaSocietaria": "",
+  "partitaIva": "02491510265",
+  "telefono": "",
+  "email": "info@farmaciadelucca.it",
+  "sitoUrl": "https://farmaciadelucca.it/",
+  "indirizzo": "Corso Italia 2",
+  "cap": "33080",
+  "comune": "Porcia",
+  "provincia": "porcia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://farmaciadelucca.it/",
+   "https://farmaciadelucca.it/privacy-policy/",
+   "https://farmaciadelucca.it/privacy-cookies-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "officinas.it",
+  "nome": "Centro Estetico a Porcia (Pordenone)",
+  "formaSocietaria": "",
+  "partitaIva": "01717070930",
+  "telefono": "+3938040172",
+  "email": "",
+  "sitoUrl": "https://www.officinas.it/",
+  "indirizzo": "Via Colombera, 41",
+  "cap": "33080",
+  "comune": "Porcia",
+  "provincia": "porcia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.officinas.it/",
+   "https://www.officinas.it/chi-siamo/",
+   "https://www.officinas.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

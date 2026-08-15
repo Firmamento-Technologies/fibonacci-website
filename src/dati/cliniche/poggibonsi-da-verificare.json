@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "beautysfera.it",
+  "nome": "Estetiste a Poggibonsi (Siena)",
+  "formaSocietaria": "",
+  "partitaIva": "06263810480",
+  "telefono": "+390577934951",
+  "email": "",
+  "sitoUrl": "https://www.beautysfera.it/",
+  "indirizzo": "",
+  "cap": "53036",
+  "comune": "POGGIBONSI",
+  "provincia": "poggibonsi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.beautysfera.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "kiribenesserecolori.it",
+  "nome": "Centro Estetico Kiri: Trattamenti di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3905771653420",
+  "email": "",
+  "sitoUrl": "https://kiribenesserecolori.it/",
+  "indirizzo": "Via Pisana, 88",
+  "cap": "",
+  "comune": "",
+  "provincia": "poggibonsi",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://kiribenesserecolori.it/",
+   "https://kiribenesserecolori.it/chi-siamo/",
+   "https://kiribenesserecolori.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

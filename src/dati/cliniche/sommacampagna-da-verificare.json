@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "lpg-group.com",
+  "nome": "LPG®",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lpgitalia.com",
+  "sitoUrl": "https://www.lpg-group.com/it",
+  "indirizzo": "Via Paolo Lomazzo, 19",
+  "cap": "20154",
+  "comune": "Milano",
+  "provincia": "sommacampagna",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lpg-group.com/it",
+   "https://www.lpg-group.com/it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vanitage.it",
+  "nome": "Centro estetico Sommacampagna Verona",
+  "formaSocietaria": "",
+  "partitaIva": "04201440239",
+  "telefono": "+393484462344",
+  "email": "",
+  "sitoUrl": "https://www.vanitage.it/",
+  "indirizzo": "Via Dossobuono 46",
+  "cap": "",
+  "comune": "",
+  "provincia": "sommacampagna",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.vanitage.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

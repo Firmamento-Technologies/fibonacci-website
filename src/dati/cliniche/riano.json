@@ -1,0 +1,95 @@
+[
+ {
+  "dominio": "beautymanagement.it",
+  "nome": "Beauty Management Medical Institute: Medicina Estetica Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39066792389",
+  "email": "info@beautymanagement.it",
+  "sitoUrl": "https://www.beautymanagement.it/it/",
+  "indirizzo": "Via Frattina 48",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "riano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.beautymanagement.it/it/",
+   "https://www.beautymanagement.it/it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisionetroma.com",
+  "nome": "Fisionet è il Poliambulatorio Medico per la tua Salute!",
+  "formaSocietaria": "SRL",
+  "partitaIva": "16840411009",
+  "telefono": "+390689572011",
+  "email": "info@fisionetservizi.it",
+  "sitoUrl": "https://fisionetroma.com/",
+  "indirizzo": "Via Flaminia 493",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "riano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://fisionetroma.com/",
+   "https://fisionetroma.com/contatti/",
+   "https://fisionetroma.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodontoiatricirastellimeyer.it",
+  "nome": "Home: Studi Odontoatrici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "16895251003",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiodontoiatricirastellimeyer.it/",
+  "indirizzo": "via Flaminia km 24",
+  "cap": "00060",
+  "comune": "Riano",
+  "provincia": "riano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Claudio Rastelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodontoiatricirastellimeyer.it/",
+   "https://www.studiodontoiatricirastellimeyer.it/chi-siamo/",
+   "https://www.studiodontoiatricirastellimeyer.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Rastelli, cognome dentro il dominio"
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "dominio": "danielcataldo.com",
+  "nome": "Chirurgo plastico ricostruttivo a Milano",
+  "formaSocietaria": "",
+  "partitaIva": "02179800988",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.danielcataldo.com/it_IT/home",
+  "indirizzo": "Piazzale Giulio Cesare, 6",
+  "cap": "20145",
+  "comune": "Milano",
+  "provincia": "san-cataldo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Daniel Cataldo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.danielcataldo.com/it_IT/home",
+   "https://www.danielcataldo.com/it_IT/contatti",
+   "https://www.danielcataldo.com/it_IT/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniel Cataldo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "farmaciaguadagnino.it",
+  "nome": "Farmacia del Corso Dottori Guadagnino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390934571335",
+  "email": "info@farmaciaguadagnino.it",
+  "sitoUrl": "https://www.farmaciaguadagnino.it/",
+  "indirizzo": "Corso Sicilia 120",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-cataldo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.farmaciaguadagnino.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "hmedispa.com",
+  "nome": "Health Medispa",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02764950354",
+  "telefono": "+390522563694",
+  "email": "info@hmedispa.com",
+  "sitoUrl": "https://www.hmedispa.com/",
+  "indirizzo": "Via G. Borri 1",
+  "cap": "42011",
+  "comune": "Bagnolo",
+  "provincia": "san-cataldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.hmedispa.com/",
+   "https://www.hmedispa.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "milanomedica.it",
+  "nome": "Milano Medica Centro Medico Polispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10277160965",
+  "telefono": "+390239292900",
+  "email": "info@milanomedica.it",
+  "sitoUrl": "https://www.milanomedica.it/",
+  "indirizzo": "Via Filippo Turati 29",
+  "cap": "20121",
+  "comune": "Milano",
+  "provincia": "san-cataldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.milanomedica.it/",
+   "https://www.milanomedica.it/chi-siamo/",
+   "https://www.milanomedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "venuslab.it",
+  "nome": "VenusLab",
+  "formaSocietaria": "",
+  "partitaIva": "02610700805",
+  "telefono": "+390917838642",
+  "email": "info@venuslab.it",
+  "sitoUrl": "https://www.venuslab.it/new/",
+  "indirizzo": "Via Mario Rutelli 7c",
+  "cap": "93017",
+  "comune": "San",
+  "provincia": "san-cataldo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.venuslab.it/new/",
+   "https://www.venuslab.it/new/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

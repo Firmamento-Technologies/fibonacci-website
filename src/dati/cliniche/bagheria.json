@@ -1,5 +1,63 @@
 [
  {
+  "dominio": "bellomoesteticabagheria.it",
+  "nome": "Centro di Estetica olistica a Bagheria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://bellomoesteticabagheria.it/",
+  "indirizzo": "Via Falcone e Morvillo 78",
+  "cap": "",
+  "comune": "",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://bellomoesteticabagheria.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticofedericadifazio.it",
+  "nome": "Federica Di Fazio",
+  "formaSocietaria": "",
+  "partitaIva": "06789920821",
+  "telefono": "+390915614651",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticofedericadifazio.it/",
+  "indirizzo": "Via Petronio SNC 90011",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticofedericadifazio.it/",
+   "https://www.centroesteticofedericadifazio.it/contatti/",
+   "https://www.centroesteticofedericadifazio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroesteticoiconica.it",
   "nome": "ICONICA",
   "formaSocietaria": "SAS",
@@ -52,8 +110,8 @@
    "https://www.chirurgiaplasticatomasello.com/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Flavia Tomasello, cognome dentro il dominio"
  },
  {
   "dominio": "medicliniccenter.it",

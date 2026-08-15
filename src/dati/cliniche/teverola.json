@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "anvermedica.com",
+  "nome": "Anver Ambulatorio Polispecialistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39064070789",
+  "email": "info@anvermedica.com",
+  "sitoUrl": "https://www.anvermedica.com/",
+  "indirizzo": "Via del Forte Tiburtino, 98",
+  "cap": "00159",
+  "comune": "Anver",
+  "provincia": "teverola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.anvermedica.com/",
+   "https://www.anvermedica.com/contatti/",
+   "https://www.anvermedica.com/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicosannicolo.it",
+  "nome": "Centro Medico Polispecialistico e Riabilitativo San Nicolò",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03664610130",
+  "telefono": "+39019489815",
+  "email": "info@centromedicosannicolo.it",
+  "sitoUrl": "https://www.centromedicosannicolo.it/",
+  "indirizzo": "Corso Giuseppe Mazzini, 43",
+  "cap": "17011",
+  "comune": "Albisola",
+  "provincia": "teverola",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicosannicolo.it/",
+   "https://www.centromedicosannicolo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiomedpriverno.it",
+  "nome": "Fisiomed Priverno Ambulatorio Polispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02120420597",
+  "telefono": "+390773904549",
+  "email": "info@fisiomedpriverno.it",
+  "sitoUrl": "https://www.fisiomedpriverno.it/",
+  "indirizzo": "Via XXV Aprile 04015",
+  "cap": "04015",
+  "comune": "Priverno",
+  "provincia": "teverola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.fisiomedpriverno.it/",
+   "https://www.fisiomedpriverno.it/contatti/",
+   "https://www.fisiomedpriverno.it/contatti-polilab/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

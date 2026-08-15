@@ -141,6 +141,38 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "chirurgiaplastica-info.com",
+  "nome": "Dr. Stefano Pau - Dr.ssa Luisella Benzo",
+  "formaSocietaria": "",
+  "partitaIva": "11935570017",
+  "telefono": "+390110897575",
+  "email": "info@chirurgiaplastica-info.com",
+  "sitoUrl": "https://www.chirurgiaplastica-info.com/",
+  "indirizzo": "C.so Galileo Ferraris, 78",
+  "cap": "10129",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaplastica-info.com/",
+   "https://www.chirurgiaplastica-info.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "chirurgiaplastica-torino.it",
   "nome": "chirurgiaplastica-torino.it",
   "formaSocietaria": "",
@@ -815,6 +847,30 @@
   "fonteUrl": [
    "https://medicinaestetica-torino.it/",
    "https://medicinaestetica-torino.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticadelvisotorino.it",
+  "nome": "home",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticadelvisotorino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticadelvisotorino.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

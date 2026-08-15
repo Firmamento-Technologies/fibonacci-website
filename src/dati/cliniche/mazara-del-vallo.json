@@ -1,5 +1,35 @@
 [
  {
+  "dominio": "corpoementenews.it",
+  "nome": "News su Salute, Benessere e Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@servizioclientiusb.it",
+  "sitoUrl": "https://corpoementenews.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mazara-del-vallo",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://corpoementenews.it/",
+   "https://corpoementenews.it/chi-siamo/",
+   "https://corpoementenews.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "gasparereina.it",
   "nome": "Dr Gaspare Reina Chirurgia Estetica",
   "formaSocietaria": "",
@@ -30,6 +60,36 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gaspare Reina, e il dominio lo ripete"
+ },
+ {
+  "dominio": "natur-belle.it",
+  "nome": "Natur Belle",
+  "formaSocietaria": "SRL",
+  "partitaIva": "14894271007",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://natur-belle.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mazara-del-vallo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://natur-belle.it/",
+   "https://natur-belle.it/chi-siamo/",
+   "https://natur-belle.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "peressere.it",
@@ -76,7 +136,7 @@
   "dichiaraDirettoreSanitario": false,
   "dichiaraAutorizzazioneSanitaria": false,
   "tipoSoggetto": "impresa",
-  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "ragioneClassificazione": "forma societaria nel dominio",
   "fonteUrl": [
    "https://www.terzomillenniosrl.com/",
    "https://www.terzomillenniosrl.com/chi-siamo/",

@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "cortedelsolesestu.it",
+  "nome": "Polo Commerciale La Corte del Sole",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39070229050",
+  "email": "info@cortedelsolesestu.it",
+  "sitoUrl": "https://cortedelsolesestu.it/",
+  "indirizzo": "",
+  "cap": "09028",
+  "comune": "Sestu",
+  "provincia": "sestu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cortedelsolesestu.it/",
+   "https://cortedelsolesestu.it/contatti/",
+   "https://cortedelsolesestu.it/pdf/INFORMATIVA-PRIVACY-LA-CORTE-DEL-SOLE-Sardinia-Outlet.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologogrande.com",
+  "nome": "Dermatologo Dr. Grande Sestu (CA)",
+  "formaSocietaria": "",
+  "partitaIva": "02429240928",
+  "telefono": "+393336474126",
+  "email": "",
+  "sitoUrl": "https://www.dermatologogrande.com/",
+  "indirizzo": "",
+  "cap": "09028",
+  "comune": "SESTU",
+  "provincia": "sestu",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologogrande.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rbestetica.it",
+  "nome": "RB Estetica di Roberta Piras",
+  "formaSocietaria": "",
+  "partitaIva": "03450020924",
+  "telefono": "+3939702312750",
+  "email": "info@rbestetica.it",
+  "sitoUrl": "https://www.rbestetica.it/",
+  "indirizzo": "Via Roma 22",
+  "cap": "09028",
+  "comune": "Sestu",
+  "provincia": "sestu",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.rbestetica.it/",
+   "https://www.rbestetica.it/contatti/",
+   "https://www.rbestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

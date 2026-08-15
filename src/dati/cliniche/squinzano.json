@@ -1,0 +1,33 @@
+[
+ {
+  "dominio": "giancarlovolpes.it",
+  "nome": "Dott. Giancarlo Volpes",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.giancarlovolpes.it/",
+  "indirizzo": "Via G.B. Tiepolo 21",
+  "cap": "",
+  "comune": "",
+  "provincia": "squinzano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giancarlo Volpes, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giancarlovolpes.it/",
+   "https://www.giancarlovolpes.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giancarlo Volpes, e il dominio lo ripete"
+ }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "studiomedico109.it",
+  "nome": "Studio Medico 109",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390516167101",
+  "email": "info@studiomedico109.it",
+  "sitoUrl": "https://www.studiomedico109.it/",
+  "indirizzo": "Via Roma, 2",
+  "cap": "40069",
+  "comune": "Zola",
+  "provincia": "zola-predosa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedico109.it/",
+   "https://www.studiomedico109.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "dominio": "beautylifecenter.it",
+  "nome": "Beauty Life",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05406380286",
+  "telefono": "+390499385303",
+  "email": "info@beautylifecenter.it",
+  "sitoUrl": "https://www.beautylifecenter.it/",
+  "indirizzo": "via Silvio Pellico 2",
+  "cap": "35010",
+  "comune": "Indirizzo",
+  "provincia": "trebaseleghe",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.beautylifecenter.it/",
+   "https://www.beautylifecenter.it/chi-siamo/",
+   "https://www.beautylifecenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticaessenzatrebaseleghe.it",
+  "nome": "Centro Estetico a Trebaseleghe",
+  "formaSocietaria": "",
+  "partitaIva": "04135550285",
+  "telefono": "+390499378563",
+  "email": "",
+  "sitoUrl": "https://www.esteticaessenzatrebaseleghe.it/",
+  "indirizzo": "Via Sant’Ambrogio, 49",
+  "cap": "35010",
+  "comune": "Trebaseleghe",
+  "provincia": "trebaseleghe",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticaessenzatrebaseleghe.it/",
+   "https://www.esteticaessenzatrebaseleghe.it/privacy-policy/",
+   "https://www.esteticaessenzatrebaseleghe.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

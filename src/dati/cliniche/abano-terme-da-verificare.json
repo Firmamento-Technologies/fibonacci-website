@@ -1,12 +1,5 @@
 [
  {
-  "dominio": "abano.it",
-  "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoSoggetto": "incerto",
-  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
- },
- {
   "dominio": "policlinicoabano.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -34,7 +27,7 @@
    "https://www.software-medico.it/privacy-policy-website/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "dentistimassetti.it",
+  "nome": "Dentista specializzato bambini Invisalign Brescia Apparecchio Bambini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390307301118",
+  "email": "prenotazioni@dentistimassetti.it",
+  "sitoUrl": "https://www.dentistimassetti.it/",
+  "indirizzo": "Via Guglielmo Marconi, 88",
+  "cap": "25036",
+  "comune": "Palazzolo",
+  "provincia": "palazzolo-sull-oglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dentistimassetti.it/",
+   "https://www.dentistimassetti.it/chi-siamo/",
+   "https://www.dentistimassetti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

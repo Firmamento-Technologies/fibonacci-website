@@ -136,7 +136,7 @@
    "https://emmebivigevano.com/contatti/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
@@ -190,7 +190,7 @@
    "https://www.studiocornalba.it/privacy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

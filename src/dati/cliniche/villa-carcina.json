@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "ambulatoriovillachiara.it",
+  "nome": "Villa Chiara Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "01026131001",
+  "telefono": "",
+  "email": "info@ambulatoriovillachiara.it",
+  "sitoUrl": "https://www.ambulatoriovillachiara.it/",
+  "indirizzo": "",
+  "cap": "00168",
+  "comune": "Roma",
+  "provincia": "villa-carcina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ambulatoriovillachiara.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "euroservice.it",
+  "nome": "Creazione Siti Internet Assistenza Computer Software Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@euroservice.it",
+  "sitoUrl": "https://euroservice.it/",
+  "indirizzo": "Via Luigi Cadorna 8",
+  "cap": "25121",
+  "comune": "Brescia",
+  "provincia": "villa-carcina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://euroservice.it/",
+   "https://www.euroservice.it/contatti.php",
+   "https://euroservice.it/privacy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villamafaldablog.it",
+  "nome": "Villa Mafalda Clinica Privata Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.villamafaldablog.it/",
+  "indirizzo": "Via Monte delle Gioie 5",
+  "cap": "00199",
+  "comune": "Roma",
+  "provincia": "villa-carcina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.villamafaldablog.it/",
+   "https://www.villamafaldablog.it/casa-di-cura-villa-mafalda-chi-siamo/",
+   "https://www.villamafaldablog.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "laboratorionomentano.it",
+  "nome": "Laboratorio Nomentano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01081071001",
+  "telefono": "+390690625576",
+  "email": "amministrazione@redpine.it",
+  "sitoUrl": "https://www.laboratorionomentano.it/",
+  "indirizzo": "",
+  "cap": "00015",
+  "comune": "Monterotondo",
+  "provincia": "umbertide",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.laboratorionomentano.it/",
+   "https://www.laboratorionomentano.it/contattaci/",
+   "https://www.laboratorionomentano.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "salusangiorgio.it",
+  "nome": "Centro Medico Bologna Ferrara Modena",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03161811207",
+  "telefono": "+39051892108",
+  "email": "",
+  "sitoUrl": "https://www.salusangiorgio.it/",
+  "indirizzo": "Via Fariselli, 1",
+  "cap": "40016",
+  "comune": "San",
+  "provincia": "umbertide",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.salusangiorgio.it/",
+   "https://www.salusangiorgio.it/contatti-e-informazioni/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

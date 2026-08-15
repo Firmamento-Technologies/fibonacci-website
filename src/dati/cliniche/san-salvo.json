@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "centrotfm.it",
+  "nome": "Centro TFM",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01417390695",
+  "telefono": "+390873549816",
+  "email": "info@centrotfm.it",
+  "sitoUrl": "https://www.centrotfm.it/",
+  "indirizzo": "",
+  "cap": "66050",
+  "comune": "SAN",
+  "provincia": "san-salvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrotfm.it/",
+   "https://www.centrotfm.it/chi-siamo/",
+   "https://www.centrotfm.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "laboratoriogram.it",
+  "nome": "allergologia biaonalisi, allergologia vasto, allergologia abruzzo, all",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02694130697",
+  "telefono": "+390873547743",
+  "email": "",
+  "sitoUrl": "https://www.laboratoriogram.it/",
+  "indirizzo": "Viale ALDO MORO 1",
+  "cap": "66054",
+  "comune": "VASTO",
+  "provincia": "san-salvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.laboratoriogram.it/",
+   "https://www.laboratoriogram.it/contatti-laboratorio-analisi-a-san-salvo.html",
+   "https://www.laboratoriogram.it/dove-siamo.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pianetasaluteebellezza.it",
+  "nome": "Poliambulatorio a San Salvo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02779170691",
+  "telefono": "+390873540280",
+  "email": "",
+  "sitoUrl": "https://pianetasaluteebellezza.it/",
+  "indirizzo": "Corso Garibaldi, 91",
+  "cap": "66050",
+  "comune": "San",
+  "provincia": "san-salvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://pianetasaluteebellezza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -87,7 +87,37 @@
    "https://www.drdodaromedicinaestetica.com/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "stellamalavenda.com",
+  "nome": "Dott.ssa Stella Malavenda",
+  "formaSocietaria": "",
+  "partitaIva": "11830101009",
+  "telefono": "+390685872476",
+  "email": "",
+  "sitoUrl": "https://www.stellamalavenda.com/",
+  "indirizzo": "Viale Calabria, 74l",
+  "cap": "89133",
+  "comune": "Reggio",
+  "provincia": "rende",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stella Malavenda, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.stellamalavenda.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stella Malavenda, e il dominio lo ripete"
  }
 ]

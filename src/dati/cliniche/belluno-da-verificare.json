@@ -1,1 +1,132 @@
-[]
+[
+ {
+  "dominio": "esteticanarciso.com",
+  "nome": "Estetica Narciso",
+  "formaSocietaria": "",
+  "partitaIva": "01074830256",
+  "telefono": "+390437937167",
+  "email": "",
+  "sitoUrl": "https://www.esteticanarciso.com/",
+  "indirizzo": "Via Pellegrini, 156",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "belluno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticanarciso.com/",
+   "https://www.esteticanarciso.com/chi-siamo/",
+   "https://www.esteticanarciso.com/contatti-e-orari/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lestetikabelluno.it",
+  "nome": "L'Estetika Belluno",
+  "formaSocietaria": "",
+  "partitaIva": "01274510252",
+  "telefono": "+390437948361",
+  "email": "",
+  "sitoUrl": "https://www.lestetikabelluno.it/",
+  "indirizzo": "Via Feltre, 246",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "belluno",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lestetikabelluno.it/",
+   "https://www.lestetikabelluno.it/chi-siamo",
+   "https://www.lestetikabelluno.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicibellunodolomiti.it",
+  "nome": "Medicina di Gruppo Integrata Belluno-Dolomiti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390437358157",
+  "email": "info@medicibellunodolomiti.it",
+  "sitoUrl": "https://medicibellunodolomiti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "belluno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicibellunodolomiti.it/",
+   "https://medicibellunodolomiti.it/it/privacy-policy.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "omceo-to.it",
+  "nome": "OMCEO Ordine Provinciale Medici Chirurghi e Odontoiatri di Torino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria.amministrativa@omceo.to.it",
+  "sitoUrl": "https://omceo-to.it/",
+  "indirizzo": "Corso Francia 8",
+  "cap": "10143",
+  "comune": "Torino",
+  "provincia": "belluno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omceo-to.it/",
+   "https://omceo-to.it/sede-e-contatti/",
+   "https://omceo-to.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodentisticofavero.it",
+  "nome": "studio dentistico FAVERO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticofavero.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "belluno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiodentisticofavero.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

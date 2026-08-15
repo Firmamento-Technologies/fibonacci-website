@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "centroesteticolineadue.it",
+  "nome": "Centro estetico e benessere viso e corpo a Como",
+  "formaSocietaria": "",
+  "partitaIva": "01971010135",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticolineadue.it/",
+  "indirizzo": "Via Monte Generoso, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "olgiate-comasco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticolineadue.it/",
+   "https://www.centroesteticolineadue.it/chi-siamo/",
+   "https://www.centroesteticolineadue.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicoolgiatese.it",
+  "nome": "Centro Medico Olgiatese",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04237680139",
+  "telefono": "+390314489351",
+  "email": "info@centromedicoolgiatese.it",
+  "sitoUrl": "https://centromedicoolgiatese.it/",
+  "indirizzo": "Via Boscone 18",
+  "cap": "22077",
+  "comune": "Olgiate",
+  "provincia": "olgiate-comasco",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centromedicoolgiatese.it/",
+   "https://centromedicoolgiatese.it/contatti/",
+   "https://centromedicoolgiatese.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "aeffevetralla.it",
+  "nome": "Studio Aeffe: Dentista per Adulti e Bambini a Vetralla dal 1988",
+  "formaSocietaria": "",
+  "partitaIva": "01806560569",
+  "telefono": "+390761478281",
+  "email": "info@aeffevetralla.it",
+  "sitoUrl": "https://www.aeffevetralla.it/",
+  "indirizzo": "Via Roma 3",
+  "cap": "01019",
+  "comune": "Vetralla",
+  "provincia": "vetralla",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.aeffevetralla.it/",
+   "https://www.aeffevetralla.it/contatti/",
+   "https://www.aeffevetralla.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "e-choose.it",
+  "nome": "SCOPRI LA TUSCIA: Le Meraviglie della Tuscia a portata di un click",
+  "formaSocietaria": "",
+  "partitaIva": "02099370567",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.e-choose.it/",
+  "indirizzo": "",
+  "cap": "15303",
+  "comune": "",
+  "provincia": "vetralla",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.e-choose.it/",
+   "https://www.e-choose.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "privatassistenza.it",
+  "nome": "PrivatAssistenza",
+  "formaSocietaria": "",
+  "partitaIva": "01546770353",
+  "telefono": "",
+  "email": "info@italiassistenza.it",
+  "sitoUrl": "https://www.privatassistenza.it/",
+  "indirizzo": "Viale Monte San Michele, 9",
+  "cap": "42121",
+  "comune": "Reggio",
+  "provincia": "vetralla",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.privatassistenza.it/",
+   "https://www.privatassistenza.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

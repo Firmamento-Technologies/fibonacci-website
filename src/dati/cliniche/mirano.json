@@ -1,5 +1,35 @@
 [
  {
+  "dominio": "centroesteticoisola.it",
+  "nome": "Centro Estetico L'isola",
+  "formaSocietaria": "",
+  "partitaIva": "04680830272",
+  "telefono": "+39041430377",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoisola.it/",
+  "indirizzo": "Via Castellantico, 31",
+  "cap": "30035",
+  "comune": "Mirano",
+  "provincia": "mirano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticoisola.it/",
+   "https://www.centroesteticoisola.it/contatti/",
+   "https://www.centroesteticoisola.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "clinicazarian.it",
   "nome": "Clinica Zarian",
   "formaSocietaria": "",
@@ -62,6 +92,31 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "gapclinics.com",
+  "nome": "GAPCLINICS",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@gapclinics.com",
+  "sitoUrl": "https://gapclinics.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mirano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://gapclinics.com/",
+   "https://gapclinics.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "haikzarian.com",
   "nome": "Dermatologo a Mirano",
   "formaSocietaria": "",
@@ -82,6 +137,63 @@
   "ragioneClassificazione": "il nome dichiara una struttura",
   "fonteUrl": [
    "https://www.haikzarian.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "naturalface.it",
+  "nome": "Natural Face Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://naturalface.it/",
+  "indirizzo": "Via Giovanni Pierluigi da Palestrina, 19",
+  "cap": "00193",
+  "comune": "",
+  "provincia": "mirano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://naturalface.it/",
+   "https://naturalface.it/contatti/",
+   "https://naturalface.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "trendsmedica.net",
+  "nome": "Trends Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02859070241",
+  "telefono": "+39041437865",
+  "email": "info@trendsmedica.com",
+  "sitoUrl": "https://www.trendsmedica.net/",
+  "indirizzo": "Via Silvio Pellico, 6",
+  "cap": "30030",
+  "comune": "Salzano",
+  "provincia": "mirano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.trendsmedica.net/",
+   "https://www.trendsmedica.net/contatti/",
+   "https://www.trendsmedica.net/privacy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

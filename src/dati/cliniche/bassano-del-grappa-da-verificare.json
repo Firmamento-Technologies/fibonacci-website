@@ -1,1 +1,100 @@
-[]
+[
+ {
+  "dominio": "clynic.com",
+  "nome": "clynic.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clynic.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://clynic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "noidonne.org",
+  "nome": "NoiDonne",
+  "formaSocietaria": "",
+  "partitaIva": "00878931005",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://noidonne.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://noidonne.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicomaggetti.it",
+  "nome": "Dottoressa Maddalena Maggetti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicomaggetti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicomaggetti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicovigentino.it",
+  "nome": "Studio Medico Vigentino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393666567006",
+  "email": "segreteria@studiomedicovigentino.it",
+  "sitoUrl": "https://www.studiomedicovigentino.it/",
+  "indirizzo": "Via Ripamonti 114",
+  "cap": "20141",
+  "comune": "Citofono",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiomedicovigentino.it/",
+   "https://www.studiomedicovigentino.it/centro-privacy/",
+   "https://www.studiomedicovigentino.it/centro-privacy/informativa-sui-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

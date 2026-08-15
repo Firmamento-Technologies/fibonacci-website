@@ -1,0 +1,51 @@
+[
+ {
+  "dominio": "ciociariaoggi.it",
+  "nome": "CiociariaOggi.it",
+  "formaSocietaria": "",
+  "partitaIva": "02864170606",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ciociariaoggi.it:443/",
+  "indirizzo": "via Roma Dal 18",
+  "cap": "03100",
+  "comune": "Frosinone",
+  "provincia": "pontecorvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ciociariaoggi.it:443/",
+   "https://www.ciociariaoggi.it/userUpload/ciociariaoggiitprivacypolicy20261051.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ilmessaggero.it",
+  "nome": "Il Messaggero",
+  "formaSocietaria": "",
+  "partitaIva": "05629251009",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ilmessaggero.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pontecorvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilmessaggero.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

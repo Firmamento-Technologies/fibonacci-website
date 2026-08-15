@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "cmvillarosa.it",
+  "nome": "Villa Rosa",
+  "formaSocietaria": "",
+  "partitaIva": "01456280674",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.cmvillarosa.it/",
+  "indirizzo": "Via Nazionale Adriatica, 60",
+  "cap": "64018",
+  "comune": "Tortoreto",
+  "provincia": "tortoreto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.cmvillarosa.it/",
+   "https://www.cmvillarosa.it/contatti/",
+   "https://www.cmvillarosa.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalcentertortoreto.it",
+  "nome": "Medical Center Tortoreto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908611751396",
+  "email": "info@medicalcentertortoreto.it",
+  "sitoUrl": "https://medicalcentertortoreto.it/",
+  "indirizzo": "Via Nazionale, 60",
+  "cap": "64018",
+  "comune": "Tortoreto",
+  "provincia": "tortoreto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://medicalcentertortoreto.it/",
+   "https://medicalcentertortoreto.it/chi-siamo/",
+   "https://medicalcentertortoreto.it/contatti-medical-center-tortoreto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticomariyakunta.it",
+  "nome": "Studio Odontoiatrico",
+  "formaSocietaria": "",
+  "partitaIva": "02151550676",
+  "telefono": "+3908611863372",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticomariyakunta.it/",
+  "indirizzo": "Via Capri 6",
+  "cap": "64018",
+  "comune": "Tortoreto",
+  "provincia": "tortoreto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticomariyakunta.it/",
+   "https://www.studiodentisticomariyakunta.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "studiomedicodeiuliis.it",
+  "nome": "Poliambulatorio Medico De Iuliis",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01991860683",
+  "telefono": "+39085414331",
+  "email": "info@studiomedicodeiuliis.it",
+  "sitoUrl": "https://studiomedicodeiuliis.it/",
+  "indirizzo": "Viale Europa 132",
+  "cap": "65010",
+  "comune": "Spoltore",
+  "provincia": "tortoreto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiomedicodeiuliis.it/",
+   "https://studiomedicodeiuliis.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

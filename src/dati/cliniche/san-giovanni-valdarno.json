@@ -1,0 +1,101 @@
+[
+ {
+  "dominio": "ambulatorivaldarno.it",
+  "nome": "Ambulatori Valdarno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390555134112",
+  "email": "info@ambulatorivaldarno.it",
+  "sitoUrl": "https://www.ambulatorivaldarno.it/",
+  "indirizzo": "",
+  "cap": "52027",
+  "comune": "San Giovanni",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ambulatorivaldarno.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cosmeticstudiocentroestetico.myadj.it",
+  "nome": "Cosmetic Studio",
+  "formaSocietaria": "SNC",
+  "partitaIva": "00367390515",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cosmeticstudiocentroestetico.myadj.it/",
+  "indirizzo": "Viale Giotto, 1",
+  "cap": "52027",
+  "comune": "San Giovanni",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://cosmeticstudiocentroestetico.myadj.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "novaclinic.it",
+  "nome": "Nova Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "04670700402",
+  "telefono": "+390549963613",
+  "email": "info@novaclinic.it",
+  "sitoUrl": "https://novaclinic.it/",
+  "indirizzo": "Via Togliatti 32",
+  "cap": "47822",
+  "comune": "Santarcangelo",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://novaclinic.it/",
+   "https://novaclinic.it/contatti/",
+   "https://novaclinic.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticoprosperi.com",
+  "nome": "Dentista",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39055943392",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticoprosperi.com/",
+  "indirizzo": "Via Aretina, 6",
+  "cap": "52010",
+  "comune": "Subbiano",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Prosperi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticoprosperi.com/",
+   "https://www.studiodentisticoprosperi.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Prosperi, cognome dentro il dominio"
+ }
+]

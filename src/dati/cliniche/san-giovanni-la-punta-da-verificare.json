@@ -1,0 +1,89 @@
+[
+ {
+  "dominio": "ilgirasolebeautycenter.it",
+  "nome": "Centro estetico San Giovanni La Punta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393315695387",
+  "email": "info@ilgirasolebeautycenter.it",
+  "sitoUrl": "https://www.ilgirasolebeautycenter.it/",
+  "indirizzo": "Via Galileo Galilei, 18",
+  "cap": "95037",
+  "comune": "Facebook-f",
+  "provincia": "san-giovanni-la-punta",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilgirasolebeautycenter.it/",
+   "https://www.ilgirasolebeautycenter.it/chi-siamo-il-girasole-beauty-center/",
+   "https://www.ilgirasolebeautycenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lesteticasangiovannilapunta.com",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390957411414",
+  "email": "",
+  "sitoUrl": "https://www.lesteticasangiovannilapunta.com/",
+  "indirizzo": "Via Etna 83",
+  "cap": "95037",
+  "comune": "San Giovanni",
+  "provincia": "san-giovanni-la-punta",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lesteticasangiovannilapunta.com/",
+   "https://www.lesteticasangiovannilapunta.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "oasidelbenessere.net",
+  "nome": "Centro Benessere Catania Dimagrimento Massaggi",
+  "formaSocietaria": "",
+  "partitaIva": "04148540877",
+  "telefono": "",
+  "email": "info@oasidelbenessere.net",
+  "sitoUrl": "https://www.oasidelbenessere.net/",
+  "indirizzo": "Via Taranto, 90",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-giovanni-la-punta",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.oasidelbenessere.net/",
+   "https://www.oasidelbenessere.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

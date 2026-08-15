@@ -23,5 +23,154 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "crystalestetica.it",
+  "nome": "Crystal Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "16227251002",
+  "telefono": "+390689910268",
+  "email": "",
+  "sitoUrl": "https://www.crystalestetica.it/",
+  "indirizzo": "Via Ovidio, 44",
+  "cap": "00071",
+  "comune": "Pomezia",
+  "provincia": "pomezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.crystalestetica.it/",
+   "https://www.crystalestetica.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticamirage.com",
+  "nome": "Mirage Estetica",
+  "formaSocietaria": "SAS",
+  "partitaIva": "09581591006",
+  "telefono": "",
+  "email": "info@esteticamirage.com",
+  "sitoUrl": "https://www.esteticamirage.com/",
+  "indirizzo": "Via Salvo D`Acquisto 4",
+  "cap": "00071",
+  "comune": "POMEZIA",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticamirage.com/",
+   "https://www.esteticamirage.com/Privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fillhome.it",
+  "nome": "FillHome",
+  "formaSocietaria": "SRL",
+  "partitaIva": "11296470963",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://fillhome.it/",
+  "indirizzo": "Piazzale Luigi Cadorna 13",
+  "cap": "20123",
+  "comune": "Milano",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://fillhome.it/",
+   "https://fillhome.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalregenerationinstitute.it",
+  "nome": "Medical Regeneration Institute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medicalregenerationinstitute.it",
+  "sitoUrl": "https://www.medicalregenerationinstitute.it/",
+  "indirizzo": "Via Cavour 8",
+  "cap": "00071",
+  "comune": "Pomezia",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalregenerationinstitute.it/",
+   "https://www.medicalregenerationinstitute.it/home/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticaboscarino.it",
+  "nome": "DR.SSA BARBARA BOSCARINO",
+  "formaSocietaria": "",
+  "partitaIva": "13191771008",
+  "telefono": "+393452975212",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticaboscarino.it/",
+  "indirizzo": "Piazza San Benedetto Da Norcia 33",
+  "cap": "00071",
+  "comune": "Roma",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticaboscarino.it/",
+   "https://www.medicinaesteticaboscarino.it/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  }
 ]

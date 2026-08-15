@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "luciamagnanihealthclinic.it",
+  "nome": "Sito Ufficiale Lucia Magnani Health Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "02363180403",
+  "telefono": "+390543412800",
+  "email": "info@termedicastrocaro.it",
+  "sitoUrl": "https://www.luciamagnanihealthclinic.it/",
+  "indirizzo": "Via Guglielmo Marconi 14",
+  "cap": "47011",
+  "comune": "Castrocaro Terme",
+  "provincia": "verucchio",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.luciamagnanihealthclinic.it/",
+   "https://www.luciamagnanihealthclinic.it/it/contatti",
+   "https://www.luciamagnanihealthclinic.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "shop.dermophisiologique.it",
+  "nome": "Crema viso e crema corpo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02130890128",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://shop.dermophisiologique.it/",
+  "indirizzo": "via IV Novembre, 92",
+  "cap": "",
+  "comune": "",
+  "provincia": "verucchio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://shop.dermophisiologique.it/",
+   "https://shop.dermophisiologique.it/it/contatti.asp",
+   "https://shop.dermophisiologique.it/it/privacy-policy.asp"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

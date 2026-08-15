@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "confestetica.it",
+  "nome": "Confestetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.confestetica.it/",
+  "indirizzo": "via Pitagora n. 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "zero-branco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.confestetica.it/",
+   "https://www.confestetica.it/chi-siamo",
+   "https://www.confestetica.it/chi-siamo/atto-costitutivo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticalatualuce.it",
+  "nome": "La Tua Luce Estetica e Benessere a Zero Branco Treviso",
+  "formaSocietaria": "",
+  "partitaIva": "04433640275",
+  "telefono": "+393485915409",
+  "email": "",
+  "sitoUrl": "https://esteticalatualuce.it/",
+  "indirizzo": "Via Monte Piana 49",
+  "cap": "31059",
+  "comune": "Zero",
+  "provincia": "zero-branco",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticalatualuce.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

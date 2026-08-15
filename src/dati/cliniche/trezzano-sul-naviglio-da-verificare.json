@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "olisticzone.it",
+  "nome": "Olisticzone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39024455874",
+  "email": "info@olisticzone.it",
+  "sitoUrl": "https://www.olisticzone.it/",
+  "indirizzo": "Via L. Da Vinci 168",
+  "cap": "20090",
+  "comune": "",
+  "provincia": "trezzano-sul-naviglio",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.olisticzone.it/",
+   "https://www.olisticzone.it/chi-siamo",
+   "https://www.olisticzone.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

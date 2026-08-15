@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "depascalechirurgoplastico.com",
+  "nome": "Dott.ssa Aurelia De Pascale",
+  "formaSocietaria": "",
+  "partitaIva": "08843630727",
+  "telefono": "+39333333333",
+  "email": "",
+  "sitoUrl": "https://www.depascalechirurgoplastico.com/",
+  "indirizzo": "Via Vito Cosimo Basile 59",
+  "cap": "70124",
+  "comune": "Bari",
+  "provincia": "polignano-a-mare",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.depascalechirurgoplastico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "docmedcare.it",
+  "nome": "Poliambulatorio San Luca",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08628860721",
+  "telefono": "+390804035158",
+  "email": "info@docmedcare.it",
+  "sitoUrl": "https://www.docmedcare.it/",
+  "indirizzo": "Via Cosimo Basile 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "polignano-a-mare",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.docmedcare.it/",
+   "https://www.docmedcare.it/chi-siamo/",
+   "https://www.docmedcare.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticagiustina.it",
+  "nome": "Centro estetico Giustina a Polignano a Mare, Bari",
+  "formaSocietaria": "",
+  "partitaIva": "07202830720",
+  "telefono": "",
+  "email": "info@esteticagiustina.it",
+  "sitoUrl": "https://www.esteticagiustina.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "polignano-a-mare",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticagiustina.it/",
+   "https://www.esteticagiustina.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

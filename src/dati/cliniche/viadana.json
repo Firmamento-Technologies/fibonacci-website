@@ -1,0 +1,81 @@
+[
+ {
+  "dominio": "atelierdelviso.it",
+  "nome": "Atelier del Viso",
+  "formaSocietaria": "",
+  "partitaIva": "02491010209",
+  "telefono": "+390375782106",
+  "email": "",
+  "sitoUrl": "https://www.atelierdelviso.it/",
+  "indirizzo": "Via Vitellio 37",
+  "cap": "46019",
+  "comune": "",
+  "provincia": "viadana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.atelierdelviso.it/",
+   "https://www.atelierdelviso.it/contatti/",
+   "https://www.atelierdelviso.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "beautydreamsviadana.it",
+  "nome": "Beauty Dreams Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393423695503",
+  "email": "",
+  "sitoUrl": "https://beautydreamsviadana.it/",
+  "indirizzo": "Via C. A. Dalla Chiesa,10",
+  "cap": "46019",
+  "comune": "Cogozzo",
+  "provincia": "viadana",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://beautydreamsviadana.it/",
+   "https://beautydreamsviadana.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicaltea.it",
+  "nome": "Clinica Altea - Studio Dentistico e Centro Medico a Viadana",
+  "formaSocietaria": "",
+  "partitaIva": "02347810208",
+  "telefono": "",
+  "email": "info@clinicaltea.it",
+  "sitoUrl": "https://clinicaltea.it/",
+  "indirizzo": "via Lodovico Grossi, 41",
+  "cap": "46019",
+  "comune": "Viadana",
+  "provincia": "viadana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicaltea.it/",
+   "https://clinicaltea.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

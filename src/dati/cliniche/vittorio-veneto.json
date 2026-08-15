@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "tadiottocicogna.it",
+  "nome": "Dott.ssa Giulia Tadiotto Cicogna",
+  "formaSocietaria": "",
+  "partitaIva": "05293470265",
+  "telefono": "",
+  "email": "info@tadiottocicogna.it",
+  "sitoUrl": "https://www.tadiottocicogna.it/",
+  "indirizzo": "Via della Provvidenza, 10",
+  "cap": "35030",
+  "comune": "Rubano",
+  "provincia": "vittorio-veneto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulia Tadiotto, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.tadiottocicogna.it/",
+   "https://www.tadiottocicogna.it/contatti/",
+   "https://www.tadiottocicogna.it/contatti-padova/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Tadiotto, cognome dentro il dominio"
+ }
+]

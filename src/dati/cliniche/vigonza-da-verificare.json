@@ -1,0 +1,33 @@
+[
+ {
+  "dominio": "sunlinebeauty.it",
+  "nome": "Centro estetico a Vigonza",
+  "formaSocietaria": "",
+  "partitaIva": "04570510281",
+  "telefono": "+39049626132",
+  "email": "",
+  "sitoUrl": "https://sunlinebeauty.it/",
+  "indirizzo": "Via Regia, 69",
+  "cap": "35010",
+  "comune": "Vigonza",
+  "provincia": "vigonza",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sunlinebeauty.it/",
+   "https://sunlinebeauty.it/chi-siamo/",
+   "https://sunlinebeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

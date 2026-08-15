@@ -23,8 +23,35 @@
    "https://www.centroesteticoenee.it/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "egoesteticaebenessere.it",
+  "nome": "Ego' Centro Estetico e Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "04363320757",
+  "telefono": "+393200359907",
+  "email": "",
+  "sitoUrl": "https://egoesteticaebenessere.it/",
+  "indirizzo": "Via Tommaseo 26",
+  "cap": "73048",
+  "comune": "Nardò",
+  "provincia": "nardo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://egoesteticaebenessere.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "egovitality.it",
@@ -51,14 +78,12 @@
    "https://egovitality.it/chi-siamo/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "esteticaeuma.wixsite.com",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoSoggetto": "incerto",
-  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

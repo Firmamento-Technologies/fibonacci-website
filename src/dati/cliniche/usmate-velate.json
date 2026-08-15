@@ -1,0 +1,54 @@
+[
+ {
+  "dominio": "lemagiediella.it",
+  "nome": "Le magie di Ella",
+  "formaSocietaria": "",
+  "partitaIva": "10001700961",
+  "telefono": "+393287773079",
+  "email": "info@lemagiediella.it",
+  "sitoUrl": "https://lemagiediella.it/",
+  "indirizzo": "Via Grazia Deledda, 1",
+  "cap": "20865",
+  "comune": "Usmate",
+  "provincia": "usmate-velate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://lemagiediella.it/",
+   "https://lemagiediella.it/chi-siamo/",
+   "https://lemagiediella.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "smilenow.it",
+  "nome": "Smile Now",
+  "formaSocietaria": "SRL",
+  "partitaIva": "11223340966",
+  "telefono": "+390396079538",
+  "email": "info@smilenow.it",
+  "sitoUrl": "https://www.smilenow.it/",
+  "indirizzo": "Viale Lombardia, 46",
+  "cap": "20865",
+  "comune": "Usmate",
+  "provincia": "usmate-velate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.smilenow.it/",
+   "https://www.smilenow.it/chi-siamo/",
+   "https://www.smilenow.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

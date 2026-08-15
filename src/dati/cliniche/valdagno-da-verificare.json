@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "deniseestetica.it",
+  "nome": "Estetista a Vicenza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393280114086",
+  "email": "",
+  "sitoUrl": "https://www.deniseestetica.it/",
+  "indirizzo": "Via Cesare Battisti, 103",
+  "cap": "36078",
+  "comune": "Valdagno",
+  "provincia": "valdagno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.deniseestetica.it/",
+   "https://www.deniseestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studioguadagno.com",
+  "nome": "Studio Guadagno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studioguadagno.com",
+  "sitoUrl": "https://www.studioguadagno.com/",
+  "indirizzo": "Via Nazionale, 5",
+  "cap": "00184",
+  "comune": "Roma",
+  "provincia": "valdagno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioguadagno.com/",
+   "https://www.studioguadagno.com/chi-siamo/",
+   "https://www.studioguadagno.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

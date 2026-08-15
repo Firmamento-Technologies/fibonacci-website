@@ -57,8 +57,8 @@
    "https://www.drssavittoriarampino.com/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vittoria Rampino, cognome dentro il dominio"
  },
  {
   "dominio": "mazzarelladrgiuseppe.it",
@@ -91,7 +91,7 @@
    "https://www.mazzarelladrgiuseppe.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mazzarella Giuseppe, cognome dentro il dominio"
  }
 ]

@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "biverso.it",
+  "nome": "Bi.Verso: Home",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05275030269",
+  "telefono": "+393343734763",
+  "email": "info@biverso.it.",
+  "sitoUrl": "https://www.biverso.it/",
+  "indirizzo": "Viale della Repubblica 22",
+  "cap": "31020",
+  "comune": "Villorba",
+  "provincia": "villorba",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.biverso.it/",
+   "https://www.biverso.it/chi-siamo/",
+   "https://www.biverso.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dev.centrodimedicina.com",
+  "nome": "Centro di Medicina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39051313705",
+  "email": "",
+  "sitoUrl": "https://dev.centrodimedicina.com/",
+  "indirizzo": "Viale della Repubblica 10",
+  "cap": "31020",
+  "comune": "Villorba",
+  "provincia": "villorba",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dev.centrodimedicina.com/",
+   "https://dev.centrodimedicina.com/sedi/",
+   "https://dev.centrodimedicina.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

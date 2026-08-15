@@ -1,0 +1,90 @@
+[
+ {
+  "dominio": "corrieredelleconomia.it",
+  "nome": "Corriere dell'Economia",
+  "formaSocietaria": "",
+  "partitaIva": "01220990558",
+  "telefono": "",
+  "email": "info@corrieredelleconomia.it",
+  "sitoUrl": "https://www.corrieredelleconomia.it/",
+  "indirizzo": "Piazza San Giovanni Decollato 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.corrieredelleconomia.it/",
+   "https://www.corrieredelleconomia.it/2026/08/14/paulaner-oktoberfest-torino-2026-torna-alla-pellerina-con-sedici-giorni-di-festa/",
+   "https://www.corrieredelleconomia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "depilstop.com",
+  "nome": "Home Depilstop",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://depilstop.com/",
+  "indirizzo": "Corso Benedetto Croce, 34",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosarno",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://depilstop.com/",
+   "https://depilstop.com/sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticacalabria.it",
+  "nome": "Studio Pisano",
+  "formaSocietaria": "",
+  "partitaIva": "00252470802",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticacalabria.it/",
+  "indirizzo": "Via Tommaso Campanella, 12",
+  "cap": "89022",
+  "comune": "Cittanova",
+  "provincia": "rosarno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticacalabria.it/",
+   "https://www.medicinaesteticacalabria.it/chi-siamo/feed/",
+   "https://www.medicinaesteticacalabria.it/chi-siamo/dr-gianluca-pisano/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ }
+]

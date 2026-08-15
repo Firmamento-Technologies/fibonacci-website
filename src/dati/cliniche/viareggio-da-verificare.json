@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "ciessepavia.it",
+  "nome": "Ciesse Pavia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ciessepavia.it",
+  "sitoUrl": "https://www.ciessepavia.it/",
+  "indirizzo": "Via Riviera 103",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ciessepavia.it/",
+   "https://www.ciessepavia.it/chi-siamo/",
+   "https://www.ciessepavia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "margheritaestetica.it",
   "nome": "Margherita Estetica",
   "formaSocietaria": "",
@@ -27,6 +56,32 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ordmedlu.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Luc",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390583467276",
+  "email": "segreteria@ordmedlu.it",
+  "sitoUrl": "https://www.ordmedlu.it/",
+  "indirizzo": "via Guinigi 40",
+  "cap": "55100",
+  "comune": "Lucca",
+  "provincia": "viareggio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordmedlu.it/",
+   "https://www.ordmedlu.it/ordine/segreteria/contatti",
+   "https://www.ordmedlu.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "parrocchiamadonnadipompei.it",

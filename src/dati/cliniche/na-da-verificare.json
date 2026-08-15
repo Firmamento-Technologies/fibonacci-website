@@ -1,5 +1,40 @@
 [
  {
+  "dominio": "albinadalessandro.it",
+  "nome": "Dr.Albina D’Alessandro Dr. Albina D'Alessandro",
+  "formaSocietaria": "",
+  "partitaIva": "00301661211",
+  "telefono": "",
+  "email": "info@albinadalessandro.it",
+  "sitoUrl": "https://www.albinadalessandro.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.albinadalessandro.it/",
+   "https://www.albinadalessandro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "carminemele.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "centro-keiron.com",
   "nome": "Centro Keiron",
   "formaSocietaria": "",
@@ -24,6 +59,35 @@
   "fonteUrl": [
    "https://centro-keiron.com/",
    "https://centro-keiron.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticonapoli.com",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centroesteticonapoli.com",
+  "sitoUrl": "https://centroesteticonapoli.com/",
+  "indirizzo": "Via Giacinto Gigante, 20",
+  "cap": "80136",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticonapoli.com/",
+   "https://centroesteticonapoli.com/contatta-il-nostro-centro-benessere-a-napoli/",
+   "https://centroesteticonapoli.com/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -56,6 +120,60 @@
    "https://www.centrosmiledental.it/",
    "https://www.centrosmiledental.it/chi-siamo-centro-smile-dental-dentista-napoli/",
    "https://www.centrosmiledental.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "damapoint.it",
+  "nome": "Estetica Avanzata Napoli e Campania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@damapoint.it",
+  "sitoUrl": "https://damapoint.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://damapoint.it/",
+   "https://damapoint.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermahair.it",
+  "nome": "DERMAHAIR",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dermahair.it/",
+  "indirizzo": "",
+  "cap": "80143",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermahair.it/",
+   "https://www.dermahair.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -201,6 +319,112 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "esteticasicura.com",
+  "nome": "EsteticaSicura.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticasicura.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticasicura.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fabiodiblasimedicoestetico.com",
+  "nome": "Dr. Fabio Di Blasi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390909486496",
+  "email": "",
+  "sitoUrl": "https://www.fabiodiblasimedicoestetico.com/",
+  "indirizzo": "Via Alessandro Manzoni 46",
+  "cap": "80123",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fabiodiblasimedicoestetico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "francescolongo.it",
+  "nome": "Francesco Longo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://francescolongo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://francescolongo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gianpaolotartaro.it",
+  "nome": "Medico Chirurgo Plastico Maxillo-Facciale",
+  "formaSocietaria": "",
+  "partitaIva": "08764901214",
+  "telefono": "+39081412143",
+  "email": "info@gianpaolotartaro.it",
+  "sitoUrl": "https://gianpaolotartaro.it/",
+  "indirizzo": "Via Mergellina 32",
+  "cap": "80122",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gianpaolotartaro.it/",
+   "https://gianpaolotartaro.it/contatti/",
+   "https://gianpaolotartaro.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "gifran.it",
   "nome": "Studio Medico",
   "formaSocietaria": "",
@@ -249,11 +473,253 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "laboutiquedelbenesserenapoli.it",
+  "nome": "Centro estetico a Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "10023971210",
+  "telefono": "+390817562833",
+  "email": "",
+  "sitoUrl": "https://www.laboutiquedelbenesserenapoli.it/",
+  "indirizzo": "Via Mario Pagano, 2",
+  "cap": "80137",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.laboutiquedelbenesserenapoli.it/",
+   "https://www.laboutiquedelbenesserenapoli.it/",
+   "https://www.laboutiquedelbenesserenapoli.it/feed/rss2"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lacurasalonedibellezza.it",
+  "nome": "La Cura Salone di Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908119214697",
+  "email": "info@lacurasalonedibellezza.it",
+  "sitoUrl": "https://www.lacurasalonedibellezza.it/",
+  "indirizzo": "Via Giovanni Pascoli 84",
+  "cap": "80123",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.lacurasalonedibellezza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "landing.medicinaesteticatartaglia.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://landing.medicinaesteticatartaglia.it/",
+  "indirizzo": "Via Riviera di Chiaia, 33",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://landing.medicinaesteticatartaglia.it/",
+   "https://landing.medicinaesteticatartaglia.it/privacy-policy/",
+   "https://landing.medicinaesteticatartaglia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lazershine.it",
+  "nome": "Lazer Shine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lazershine.it/",
+  "indirizzo": "Via Eduardo Nicolardi 174",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lazershine.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "localitybiz.it",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoSoggetto": "incerto",
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "masterinmedicinaestetica.com",
+  "nome": "MASTER UNIVERSITARIO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://masterinmedicinaestetica.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://masterinmedicinaestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mcannunziata.it",
+  "nome": "Dottoressa Maria Carmela Annunziata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mcannunziata.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mcannunziata.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicina365.it",
+  "nome": "Medicina365",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicina365.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicina365.it/",
+   "https://medicina365.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "paradiseofbeauty.it",
+  "nome": "AMATI. SCEGLITI. RINASCI",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393317403122",
+  "email": "",
+  "sitoUrl": "https://paradiseofbeauty.it/",
+  "indirizzo": "Corso Arnaldo Lucci, 137",
+  "cap": "80142",
+  "comune": "IT",
+  "provincia": "na",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://paradiseofbeauty.it/",
+   "https://paradiseofbeauty.it/policies/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pierluigicanta.it",
+  "nome": "Home Pier Luigi Canta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@pierluigicanta.it",
+  "sitoUrl": "https://www.pierluigicanta.it/",
+  "indirizzo": "Via Riviera di Chiaia, 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pierluigicanta.it/",
+   "https://www.pierluigicanta.it/contatti-2/",
+   "https://www.pierluigicanta.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "rigenerativa.com",
@@ -285,6 +751,68 @@
    "https://www.rigenerativa.com/",
    "https://www.rigenerativa.com/contatti/",
    "https://www.rigenerativa.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studioaceto.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiobelsito.it",
+  "nome": "Salute della pelle",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390817691020",
+  "email": "",
+  "sitoUrl": "https://www.studiobelsito.it/",
+  "indirizzo": "via Posillipo 149",
+  "cap": "80123",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiobelsito.it/",
+   "https://www.studiobelsito.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicopetrarca.it",
+  "nome": "Studio Medico Polispecialistico Petrarca Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicopetrarca.it",
+  "sitoUrl": "https://studiomedicopetrarca.it/",
+  "indirizzo": "via F. Petrarca 101",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicopetrarca.it/",
+   "https://studiomedicopetrarca.it/chi-siamo/",
+   "https://studiomedicopetrarca.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -354,6 +882,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "tizianavitagliano.it",
+  "nome": "Tiziana Vitagliano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tizianavitagliano.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tizianavitagliano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "umbertoderosa.it",
   "nome": "Dott. Umberto De Rosa",
   "formaSocietaria": "",
@@ -379,5 +935,34 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "umbertonapolichirurgoplastico.it",
+  "nome": "Umberto Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://umbertonapolichirurgoplastico.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://umbertonapolichirurgoplastico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "zigomaprimenapoli.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

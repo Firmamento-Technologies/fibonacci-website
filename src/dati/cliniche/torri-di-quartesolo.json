@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "oticlinic.it",
+  "nome": "OTI CLINIC",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03993290240",
+  "telefono": "",
+  "email": "info@oticlinic.it",
+  "sitoUrl": "https://oticlinic.it/",
+  "indirizzo": "",
+  "cap": "36040",
+  "comune": "Torri",
+  "provincia": "torri-di-quartesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://oticlinic.it/",
+   "https://oticlinic.it/politica-sulla-privacy.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "usi.it",
+  "nome": "USI",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01066621002",
+  "telefono": "+3906328681",
+  "email": "info@usi.it",
+  "sitoUrl": "https://www.usi.it:443/",
+  "indirizzo": "Via Eschilo, 191",
+  "cap": "00125",
+  "comune": "Roma",
+  "provincia": "torri-di-quartesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.usi.it:443/",
+   "https://www.usi.it/le-sedi",
+   "https://www.usi.it:443/le-sedi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

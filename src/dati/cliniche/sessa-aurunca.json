@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "apolloniabeautylab.com",
+  "nome": "Istituto di bellezza a Sessa Aurunca",
+  "formaSocietaria": "SNC",
+  "partitaIva": "04175580614",
+  "telefono": "+393808608982",
+  "email": "",
+  "sitoUrl": "https://www.apolloniabeautylab.com/",
+  "indirizzo": "Via Pietrabianca 78",
+  "cap": "81037",
+  "comune": "Sessa",
+  "provincia": "sessa-aurunca",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.apolloniabeautylab.com/",
+   "https://www.apolloniabeautylab.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "btmed.it",
+  "nome": "BTMED.IT",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@btmed.it",
+  "sitoUrl": "https://www.btmed.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sessa-aurunca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.btmed.it/",
+   "https://www.btmed.it/contattaci/",
+   "https://www.btmed.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticline.it",
+  "nome": "Estetic Line by Pina",
+  "formaSocietaria": "SNC",
+  "partitaIva": "02316040613",
+  "telefono": "+390823937198",
+  "email": "",
+  "sitoUrl": "https://www.esteticline.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sessa-aurunca",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticline.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

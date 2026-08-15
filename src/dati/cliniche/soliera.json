@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "centroesteticobamboo.it",
+  "nome": "Centro Estetico Bamboo, Massaggi Solarium Trattamenti, Pasta di zucche",
+  "formaSocietaria": "",
+  "partitaIva": "04723691210",
+  "telefono": "",
+  "email": "info@centroesteticobamboo.it",
+  "sitoUrl": "https://www.centroesteticobamboo.it/",
+  "indirizzo": "Via Caduti, 268",
+  "cap": "41019",
+  "comune": "Soliera",
+  "provincia": "soliera",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticobamboo.it/",
+   "https://www.centroesteticobamboo.it/page/contatti.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "marcoiera.it",
+  "nome": "Marco Iera",
+  "formaSocietaria": "",
+  "partitaIva": "09212260963",
+  "telefono": "+390235954212",
+  "email": "",
+  "sitoUrl": "https://marcoiera.it/",
+  "indirizzo": "Via Fatebenefratelli, 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "soliera",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Iera, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marcoiera.it/",
+   "https://marcoiera.it/contatti/",
+   "https://marcoiera.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Iera, e il dominio lo ripete"
+ },
+ {
+  "dominio": "med-era.com",
+  "nome": "Med Era",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@mysite.com",
+  "sitoUrl": "https://www.med-era.com/",
+  "indirizzo": "Via Iseo 2",
+  "cap": "25030",
+  "comune": "Erbusco",
+  "provincia": "soliera",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.med-era.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

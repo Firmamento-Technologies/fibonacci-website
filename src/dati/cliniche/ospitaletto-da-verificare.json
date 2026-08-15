@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "esteticabeautyhouse.it",
+  "nome": "Centro estetico e dimagrimento",
+  "formaSocietaria": "",
+  "partitaIva": "03943210983",
+  "telefono": "+390300971478",
+  "email": "info@esteticabeautyhouse.it",
+  "sitoUrl": "https://esteticabeautyhouse.it/",
+  "indirizzo": "Via Padana Superiore, 232",
+  "cap": "25035",
+  "comune": "Ospitaletto",
+  "provincia": "ospitaletto",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticabeautyhouse.it/",
+   "https://esteticabeautyhouse.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

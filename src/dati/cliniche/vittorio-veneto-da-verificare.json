@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "esteticstudio.net",
+  "nome": "Centro Estetico a Vittorio Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390438940297",
+  "email": "",
+  "sitoUrl": "https://www.esteticstudio.net/",
+  "indirizzo": "Via Pastore Giulio 16",
+  "cap": "31029",
+  "comune": "Vittorio",
+  "provincia": "vittorio-veneto",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticstudio.net/",
+   "https://www.esteticstudio.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "asprc.it",
+  "nome": "Azienda Sanitaria Provinciale di Reggio Calabria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asprc.it/",
+  "indirizzo": "Via Diana 3",
+  "cap": "89125",
+  "comune": "Reggio",
+  "provincia": "rosarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asprc.it/",
+   "https://www.asprc.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dynamicmedicalcenter.it",
+  "nome": "Dynamic Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "01447300805",
+  "telefono": "+390966711907",
+  "email": "",
+  "sitoUrl": "https://www.dynamicmedicalcenter.it/",
+  "indirizzo": "Via Stazione, 30",
+  "cap": "89025",
+  "comune": "Rosarno",
+  "provincia": "rosarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.dynamicmedicalcenter.it/",
+   "https://www.dynamicmedicalcenter.it/chi-siamo/",
+   "https://www.dynamicmedicalcenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "fisiomedical.eu",
+  "nome": "Fisioterapia a Rosarno, Reggio Calabria e Arona, Novara",
+  "formaSocietaria": "",
+  "partitaIva": "02573520802",
+  "telefono": "+390966780654",
+  "email": "info@fisiomedical.biz",
+  "sitoUrl": "https://www.fisiomedical.eu/",
+  "indirizzo": "Via Spinoza, 3",
+  "cap": "89025",
+  "comune": "Rosarno",
+  "provincia": "rosarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisiomedical.eu/",
+   "https://www.fisiomedical.eu/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medicalsmile.axeleroweb.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

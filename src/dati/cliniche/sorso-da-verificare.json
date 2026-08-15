@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "aulss7.veneto.it",
+  "nome": "Homepage ULSS 7 Pedemontana",
+  "formaSocietaria": "",
+  "partitaIva": "00913430245",
+  "telefono": "+390424888111",
+  "email": "",
+  "sitoUrl": "https://www.aulss7.veneto.it/",
+  "indirizzo": "corso Tipo contenuto: Eventi 29",
+  "cap": "36061",
+  "comune": "Bassano",
+  "provincia": "sorso",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aulss7.veneto.it/",
+   "https://www.aulss7.veneto.it/informativa-privacy",
+   "https://www.aulss7.veneto.it/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sassarisalute.it",
+  "nome": "SassariSalute",
+  "formaSocietaria": "",
+  "partitaIva": "02623660905",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.sassarisalute.it/",
+  "indirizzo": "",
+  "cap": "07100",
+  "comune": "SASSARI",
+  "provincia": "sorso",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sassarisalute.it/",
+   "https://www.sassarisalute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

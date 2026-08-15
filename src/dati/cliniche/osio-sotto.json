@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "comfortsun.it",
+  "nome": "Comfort Sun",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390354823794",
+  "email": "",
+  "sitoUrl": "https://www.comfortsun.it/",
+  "indirizzo": "Via Gaetano Donizetti, 10",
+  "cap": "24046",
+  "comune": "Osio Sotto",
+  "provincia": "osio-sotto",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.comfortsun.it/",
+   "https://www.comfortsun.it/chi-siamo",
+   "https://www.comfortsun.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiberruti.it",
+  "nome": "Studi Berruti dal 1979",
+  "formaSocietaria": "",
+  "partitaIva": "16284901002",
+  "telefono": "+390636303141",
+  "email": "info@studiberruti.it",
+  "sitoUrl": "https://studiberruti.it/",
+  "indirizzo": "Via Di Vigna Stelluti n.150",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "osio-sotto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Berruti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiberruti.it/",
+   "https://studiberruti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Berruti, cognome dentro il dominio"
+ }
+]

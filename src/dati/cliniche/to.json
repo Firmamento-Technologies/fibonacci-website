@@ -26,6 +26,41 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "albertosciarrillo.com",
+  "nome": "Alberto Sciarrillo",
+  "formaSocietaria": "",
+  "partitaIva": "13167360018",
+  "telefono": "+393209741181",
+  "email": "info@albertosciarrillo.com",
+  "sitoUrl": "https://albertosciarrillo.com/",
+  "indirizzo": "Corso Re Umberto, 149",
+  "cap": "10128",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alberto Sciarrillo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://albertosciarrillo.com/",
+   "https://albertosciarrillo.com/contatti",
+   "https://albertosciarrillo.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Sciarrillo, e il dominio lo ripete"
+ },
+ {
   "dominio": "almalaserepilazionetorino.it",
   "nome": "Epilazione Alma laser a Torino",
   "formaSocietaria": "SRL",
@@ -1138,6 +1173,30 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Malan, e il dominio lo ripete"
  },
  {
+  "dominio": "fabriziotomassetti.it",
+  "nome": "Fabrizio Tomassetti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fabriziotomassetti.it/",
+  "indirizzo": "Via San Francesco da Paola 13",
+  "cap": "",
+  "comune": "",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Fabrizio Tomassetti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.fabriziotomassetti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Tomassetti, e il dominio lo ripete"
+ },
+ {
   "dominio": "farmaciasantamarta.it",
   "nome": "Farmacia Santa Marta",
   "formaSocietaria": "",
@@ -1696,6 +1755,35 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "nicolakefalas.it",
+  "nome": "Chirurgo estetico plastico e ricostruttivo a Torino",
+  "formaSocietaria": "",
+  "partitaIva": "08894330011",
+  "telefono": "+39011501607",
+  "email": "",
+  "sitoUrl": "https://www.nicolakefalas.it/",
+  "indirizzo": "Corso Stati Uniti 53",
+  "cap": "10129",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nicola Kefalas, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.nicolakefalas.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Kefalas, e il dominio lo ripete"
+ },
+ {
   "dominio": "obbialerofabrizio.com",
   "nome": "Chirurgo Estetico Torino",
   "formaSocietaria": "",
@@ -2106,6 +2194,32 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "riccardocarnino.it",
+  "nome": "Dott. Carnino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39011538236",
+  "email": "info@riccardocarnino.it",
+  "sitoUrl": "https://www.riccardocarnino.it/",
+  "indirizzo": "Via Curtatone, 18",
+  "cap": "10131",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carnino Vai, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.riccardocarnino.it/",
+   "https://www.riccardocarnino.it/contatti/",
+   "https://www.riccardocarnino.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carnino Vai, cognome dentro il dominio"
  },
  {
   "dominio": "riccardomarsili.com",

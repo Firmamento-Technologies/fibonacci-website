@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "cloud.municipiumapp.it",
+  "nome": "Municipium",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cloud.municipiumapp.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "trani",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cloud.municipiumapp.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "ditraniodontoiatria.it",
   "nome": "Di Trani odontoiatria e medicina estetica",
   "formaSocietaria": "",
@@ -50,6 +74,32 @@
    "https://esteticamestudio.it/",
    "https://esteticamestudio.it/chi-siamo/",
    "https://esteticamestudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticamigliorini.it",
+  "nome": "Autotrapianto di Capelli FUE e FUT",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393355217055",
+  "email": "info@medicinaesteticamigliorini.it",
+  "sitoUrl": "https://www.medicinaesteticamigliorini.it/",
+  "indirizzo": "Via Abruzzo 24",
+  "cap": "06062",
+  "comune": "Città",
+  "provincia": "trani",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticamigliorini.it/",
+   "https://www.medicinaesteticamigliorini.it/chi-siamo/",
+   "https://www.medicinaesteticamigliorini.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

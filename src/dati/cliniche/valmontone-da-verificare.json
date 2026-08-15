@@ -1,0 +1,51 @@
+[
+ {
+  "dominio": "fisioterapiavalmontone.com",
+  "nome": "Centro Fisioterapico Alfa: fisioterapia a Valmontone, Roma",
+  "formaSocietaria": "",
+  "partitaIva": "05561701003",
+  "telefono": "+390695994013",
+  "email": "",
+  "sitoUrl": "https://www.fisioterapiavalmontone.com/",
+  "indirizzo": "Via della Pace 00038",
+  "cap": "00038",
+  "comune": "Valmontone",
+  "provincia": "valmontone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisioterapiavalmontone.com/",
+   "https://www.fisioterapiavalmontone.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "immaginedonna.online",
+  "nome": "immaginedonna.online",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.immaginedonna.online/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "valmontone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.immaginedonna.online/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

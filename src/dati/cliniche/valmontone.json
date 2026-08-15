@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "ecomedicaonline.it",
+  "nome": "Ecomedica centro diagnostico presso Valmontone",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07359731002",
+  "telefono": "+39069596478",
+  "email": "info@gmail.com",
+  "sitoUrl": "https://www.ecomedicaonline.it/",
+  "indirizzo": "Largo Fantozzi, 7",
+  "cap": "00038",
+  "comune": "Valmontone",
+  "provincia": "valmontone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ecomedicaonline.it/",
+   "https://www.ecomedicaonline.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -7,7 +7,7 @@
 cd "$(dirname "$0")/.." || exit 1
 while true; do
   if ! pgrep -f "raccolta-cliniche.py --leggi-stato" > /dev/null; then
-    nice -n 10 python3 scripts/raccolta-cliniche.py --leggi-stato >> scripts/lettura.log 2>&1
+    LETTORE_PARALLELI=${LETTORE_PARALLELI:-16} nice -n 10 python3 scripts/raccolta-cliniche.py --leggi-stato >> scripts/lettura.log 2>&1
   fi
   sleep 600
 done

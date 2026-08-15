@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "sferamedica.it",
+  "nome": "Sferamedica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390541678065",
+  "email": "info@sferamedica.it",
+  "sitoUrl": "https://www.sferamedica.it/",
+  "indirizzo": "Via Statale Marecchia, 8",
+  "cap": "47826",
+  "comune": "Verucchio",
+  "provincia": "verucchio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.sferamedica.it/",
+   "https://www.sferamedica.it/chi-siamo/",
+   "https://www.sferamedica.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

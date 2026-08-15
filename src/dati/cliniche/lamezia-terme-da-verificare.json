@@ -1,1 +1,140 @@
-[]
+[
+ {
+  "dominio": "beautycenterlamezia.it",
+  "nome": "Centro estetico per la bellezza, la cura e il benessere",
+  "formaSocietaria": "",
+  "partitaIva": "03144120791",
+  "telefono": "",
+  "email": "info@beautycenterlamezia.it",
+  "sitoUrl": "https://www.beautycenterlamezia.it/",
+  "indirizzo": "Via Garibaldi 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "lamezia-terme",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.beautycenterlamezia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticadiamondsbeauty.com",
+  "nome": "Centro Estetico Lamezia Terme",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticadiamondsbeauty.com/",
+  "indirizzo": "Via Gioacchino Murat 84",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticadiamondsbeauty.com/",
+   "https://www.esteticadiamondsbeauty.com/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "invitalab.it",
+  "nome": "InVitaLab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03869270797",
+  "telefono": "+390968036773",
+  "email": "info@invitalab.it",
+  "sitoUrl": "https://www.invitalab.it/",
+  "indirizzo": "Via Enrico Toti, 83",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.invitalab.it/",
+   "https://www.invitalab.it/contatti/",
+   "https://www.invitalab.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "matrioskasalon.it",
+  "nome": "Matrioska Salòn",
+  "formaSocietaria": "",
+  "partitaIva": "03958200796",
+  "telefono": "+393495400343",
+  "email": "info@matrioskasalon.it",
+  "sitoUrl": "https://www.matrioskasalon.it/",
+  "indirizzo": "Via Salvatore Aversa e Lucia Precenzano, 30",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.matrioskasalon.it/",
+   "https://www.matrioskasalon.it/contatti/",
+   "https://www.matrioskasalon.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "mcvicarstudio.it",
+  "nome": "Scopri il Benessere e la Bellezza a Lamezia Terme",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393939048962",
+  "email": "info@mcvicarstudio.it",
+  "sitoUrl": "https://www.mcvicarstudio.it/",
+  "indirizzo": "Via Filippo Corridoni, 4",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mcvicarstudio.it/",
+   "https://www.mcvicarstudio.it/chi-siamo/",
+   "https://www.mcvicarstudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

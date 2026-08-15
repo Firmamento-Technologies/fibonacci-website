@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "medicalabsantangelo.it",
+  "nome": "Fisioterapista a Sant'angelo Lodigiano (LO)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3903711903358",
+  "email": "",
+  "sitoUrl": "https://www.medicalabsantangelo.it/",
+  "indirizzo": "Piazzale Caduti di Nassiriya, 12",
+  "cap": "26866",
+  "comune": "Sant'Angelo Lodigiano",
+  "provincia": "sant-angelo-lodigiano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicalabsantangelo.it/",
+   "https://www.medicalabsantangelo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "notedibellezza.com",
+  "nome": "Note di Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39037192150",
+  "email": "info@notedibellezza.com",
+  "sitoUrl": "https://notedibellezza.com/",
+  "indirizzo": "Via Puccini 81",
+  "cap": "26866",
+  "comune": "Natale In",
+  "provincia": "sant-angelo-lodigiano",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://notedibellezza.com/",
+   "https://notedibellezza.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

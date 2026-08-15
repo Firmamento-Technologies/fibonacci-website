@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "centrobellezzataormina.it",
+  "nome": "Centro bellezza taormina",
+  "formaSocietaria": "",
+  "partitaIva": "02928420831",
+  "telefono": "+390942620030",
+  "email": "",
+  "sitoUrl": "https://centrobellezzataormina.it/",
+  "indirizzo": "Viale San Pancrazio, 56",
+  "cap": "",
+  "comune": "",
+  "provincia": "taormina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrobellezzataormina.it/",
+   "https://centrobellezzataormina.it/contattaci/",
+   "https://centrobellezzataormina.it/privacycookiespolicy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "marcocalapai.it",
+  "nome": "Marco Calapai - Specialista in Chirurgia Plastica, Ricostruttiva ed Es",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://marcocalapai.it/",
+  "indirizzo": "Via Porto Salvo, 4",
+  "cap": "98121",
+  "comune": "Messina",
+  "provincia": "taormina",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Calapai, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marcocalapai.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Calapai, e il dominio lo ripete"
+ },
+ {
+  "dominio": "taorminamedicalcenter.it",
+  "nome": "Taormina Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02874970839",
+  "telefono": "+390942625582",
+  "email": "info@tarominamedicalcenter.it",
+  "sitoUrl": "https://www.taorminamedicalcenter.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "taormina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.taorminamedicalcenter.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

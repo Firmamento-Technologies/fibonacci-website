@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "naturaliasansalvo.it",
+  "nome": "Centro Estetico Naturalia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393202927039",
+  "email": "",
+  "sitoUrl": "https://naturaliasansalvo.it/",
+  "indirizzo": "Via Liquirizia 63",
+  "cap": "66050",
+  "comune": "San",
+  "provincia": "san-salvo",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://naturaliasansalvo.it/",
+   "https://naturaliasansalvo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

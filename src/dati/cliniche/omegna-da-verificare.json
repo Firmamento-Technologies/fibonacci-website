@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "centro-salus.it",
+  "nome": "Centro Salus Omegna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centro-salus.it",
+  "sitoUrl": "https://www.centro-salus.it/",
+  "indirizzo": "Piazza Martiri della Libertà 16",
+  "cap": "28887",
+  "comune": "Omegna",
+  "provincia": "omegna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centro-salus.it/",
+   "https://www.centro-salus.it/it/contatti",
+   "https://www.centro-salus.it/phpifapp/info_privacy.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "enaip.piemonte.it",
+  "nome": "En.A.I.P. Piemonte ETS",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@formalberghiera.org",
+  "sitoUrl": "https://www.enaip.piemonte.it//",
+  "indirizzo": "Corso Vigevano 46",
+  "cap": "10155",
+  "comune": "Torino",
+  "provincia": "omegna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.enaip.piemonte.it//",
+   "https://www.enaip.piemonte.it/myblock/src/Themes/enaipnext/Modules/Sedi_atlantis/it/css/sedi_atlantis.css",
+   "https://www.enaip.piemonte.it/page/sedi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "verdino.eu",
+  "nome": "Studio Dentistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://verdino.eu/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "omegna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://verdino.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

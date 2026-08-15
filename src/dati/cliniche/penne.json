@@ -1,0 +1,224 @@
+[
+ {
+  "dominio": "blife.it",
+  "nome": "B Life",
+  "formaSocietaria": "",
+  "partitaIva": "00497850313",
+  "telefono": "+3939800912950",
+  "email": "info@blife.it",
+  "sitoUrl": "https://www.blife.it/",
+  "indirizzo": "Via A. Pacinotti, 48",
+  "cap": "31032",
+  "comune": "Casale",
+  "provincia": "penne",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.blife.it/",
+   "https://www.blife.it/sezione-catalogo/arredamento/sedute/sedie/",
+   "https://www.blife.it/sezione-catalogo/ausili/mobilita/sedia-a-rotelle/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "borgopilotti.it",
+  "nome": "Chirurgia estetica / Borgo Pilotti Beauty Clinic Hotel & SPA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01998850430",
+  "telefono": "",
+  "email": "info@borgopilotti.it",
+  "sitoUrl": "https://borgopilotti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://borgopilotti.it/",
+   "https://borgopilotti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drfillermast.it",
+  "nome": "Dr. Fillermast",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10865581002",
+  "telefono": "+39069342642",
+  "email": "info@mastindustriaitaliana.it",
+  "sitoUrl": "https://www.drfillermast.it/",
+  "indirizzo": "Via Variante di Cancelliera snc 00072",
+  "cap": "00072",
+  "comune": "Ariccia",
+  "provincia": "penne",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Fillermast Vai, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drfillermast.it/",
+   "https://www.drfillermast.it/contatti/",
+   "https://www.drfillermast.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fillermast Vai, cognome dentro il dominio"
+ },
+ {
+  "dominio": "marcojovane.com",
+  "nome": "Dr. Marco Jovane • Medico e Chirurgo estetico",
+  "formaSocietaria": "",
+  "partitaIva": "05639220655",
+  "telefono": "+393515591619",
+  "email": "",
+  "sitoUrl": "https://marcojovane.com/",
+  "indirizzo": "Piazzale Maciachini, 10",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "penne",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Jovane, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marcojovane.com/",
+   "https://marcojovane.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Jovane, e il dominio lo ripete"
+ },
+ {
+  "dominio": "medvetsrl.it",
+  "nome": "Vendita online Articoli ed Apparecchi Medicali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medvetsrl.it/",
+  "indirizzo": "Piazza G.B. Tedesco, 23",
+  "cap": "74123",
+  "comune": "Taranto",
+  "provincia": "penne",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://medvetsrl.it/",
+   "https://medvetsrl.it/140-sedie-e-sgabelli-per-studio-medico",
+   "https://medvetsrl.it/385-barelle-autocaricanti-e-a-sedia"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "quotidianosanita.it",
+  "nome": "Quotidiano Sanità: il quotidiano online di informazione sanitaria",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13026241003",
+  "telefono": "",
+  "email": "info@homnya.com",
+  "sitoUrl": "https://www.quotidianosanita.it/",
+  "indirizzo": "Via della Stelletta, 23",
+  "cap": "00186",
+  "comune": "Roma",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.quotidianosanita.it/",
+   "https://www.quotidianosanita.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "trovaprezzi.it",
+  "nome": "Il motore di ricerca per risparmiare sui tuoi acquisti",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03386810968",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.trovaprezzi.it/",
+  "indirizzo": "Via Casati, 1",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "penne",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.trovaprezzi.it/",
+   "https://www.trovaprezzi.it/privacy",
+   "https://www.trovaprezzi.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ufficiodiscount.it",
+  "nome": "Vendita cancelleria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390289124361",
+  "email": "",
+  "sitoUrl": "https://www.ufficiodiscount.it/",
+  "indirizzo": "via Modica 15",
+  "cap": "20143",
+  "comune": "Milano",
+  "provincia": "penne",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ufficiodiscount.it/",
+   "https://www.ufficiodiscount.it/contatto.jsp",
+   "https://www.ufficiodiscount.it/arredamento-per-ufficio/s/sedie-poltrone-e-sgabelli/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

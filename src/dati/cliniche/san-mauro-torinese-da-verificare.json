@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "farmaciapragranda.it",
+  "nome": "Farmacia Pragranda, San Mauro Torinese",
+  "formaSocietaria": "",
+  "partitaIva": "11389730018",
+  "telefono": "+390118973656",
+  "email": "info@farmaciapragranda.it",
+  "sitoUrl": "https://www.farmaciapragranda.it/",
+  "indirizzo": "Via Aosta 16",
+  "cap": "10099",
+  "comune": "San",
+  "provincia": "san-mauro-torinese",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.farmaciapragranda.it/",
+   "https://www.farmaciapragranda.it/conferma-privacy/",
+   "https://www.farmaciapragranda.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "iltempiodellesteticasanmauro.it",
+  "nome": "centro estetico San Mauro Torinese",
+  "formaSocietaria": "",
+  "partitaIva": "12208950019",
+  "telefono": "+393921335221",
+  "email": "",
+  "sitoUrl": "https://iltempiodellesteticasanmauro.it/",
+  "indirizzo": "Via Roma, 79",
+  "cap": "10099",
+  "comune": "San",
+  "provincia": "san-mauro-torinese",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://iltempiodellesteticasanmauro.it/",
+   "https://iltempiodellesteticasanmauro.it/contatti/",
+   "https://iltempiodellesteticasanmauro.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

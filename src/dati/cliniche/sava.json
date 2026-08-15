@@ -1,0 +1,113 @@
+[
+ {
+  "dominio": "diagnosticasangiuseppe.it",
+  "nome": "Poliambulatorio San Giuseppe",
+  "formaSocietaria": "",
+  "partitaIva": "03092540735",
+  "telefono": "",
+  "email": "info@diagnosticasangiuseppe.it",
+  "sitoUrl": "https://www.diagnosticasangiuseppe.it/",
+  "indirizzo": "Corso Francia, 38",
+  "cap": "74028",
+  "comune": "Sava",
+  "provincia": "sava",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.diagnosticasangiuseppe.it/",
+   "https://www.diagnosticasangiuseppe.it/contatti-prenotazioni/",
+   "https://www.diagnosticasangiuseppe.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "paolorosati.it",
+  "nome": "Paolo Rosati | Medico Chirurgo",
+  "formaSocietaria": "",
+  "partitaIva": "02866890789",
+  "telefono": "",
+  "email": "info@paolorosati.it",
+  "sitoUrl": "https://www.paolorosati.it/",
+  "indirizzo": "",
+  "cap": "87011",
+  "comune": "",
+  "provincia": "sava",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.paolorosati.it/",
+   "https://www.paolorosati.it/contatti/",
+   "https://www.paolorosati.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sabamedica.com",
+  "nome": "Sabamedica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39065757308",
+  "email": "info@sabamedica.com",
+  "sitoUrl": "https://www.sabamedica.com/",
+  "indirizzo": "Via della Piramide Cestia, 1",
+  "cap": "00153",
+  "comune": "Roma",
+  "provincia": "sava",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.sabamedica.com/",
+   "https://www.sabamedica.com/chi-siamo/",
+   "https://www.sabamedica.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vincenzoperchinunno.com",
+  "nome": "Dr. Vincenzo Perchinunno",
+  "formaSocietaria": "",
+  "partitaIva": "07537130721",
+  "telefono": "+390994003172",
+  "email": "",
+  "sitoUrl": "https://www.vincenzoperchinunno.com/",
+  "indirizzo": "Corso Umberto Ⅰ 103",
+  "cap": "74028",
+  "comune": "Sava",
+  "provincia": "sava",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Vincenzo Perchinunno, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.vincenzoperchinunno.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Perchinunno, e il dominio lo ripete"
+ }
+]

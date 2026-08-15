@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "drgiulio.com",
+  "nome": "Dr Giulio Giammarioli",
+  "formaSocietaria": "",
+  "partitaIva": "03470350541",
+  "telefono": "+39355763771",
+  "email": "",
+  "sitoUrl": "https://drgiulio.com/",
+  "indirizzo": "Via Piemonte 39",
+  "cap": "00187",
+  "comune": "Mostra",
+  "provincia": "umbertide",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://drgiulio.com/",
+   "https://drgiulio.com/contatti",
+   "https://drgiulio.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fisiomedical.it",
+  "nome": "Fisiomedical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01965700543",
+  "telefono": "+390759411078",
+  "email": "info@fisiomedical.it",
+  "sitoUrl": "https://www.fisiomedical.it/",
+  "indirizzo": "Via Della Repubblica, 4",
+  "cap": "06019",
+  "comune": "Umbertide",
+  "provincia": "umbertide",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisiomedical.it/",
+   "https://www.fisiomedical.it/chi-siamo.php",
+   "https://www.fisiomedical.it/sedi/perugia.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ospedale.perugia.it",
+  "nome": "Azienda Ospedaliera di Perugia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ospedale.perugia.it/",
+  "indirizzo": "",
+  "cap": "06156",
+  "comune": "Perugia",
+  "provincia": "umbertide",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ospedale.perugia.it/",
+   "https://ospedale.perugia.it/pagine/dove-siamo-003",
+   "https://ospedale.perugia.it/pagine/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "visagestudioestetico.it",
+  "nome": "Visage",
+  "formaSocietaria": "",
+  "partitaIva": "03632870543",
+  "telefono": "+390758421006",
+  "email": "",
+  "sitoUrl": "https://visagestudioestetico.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "umbertide",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://visagestudioestetico.it/",
+   "https://visagestudioestetico.it/chi-siamo/",
+   "https://visagestudioestetico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

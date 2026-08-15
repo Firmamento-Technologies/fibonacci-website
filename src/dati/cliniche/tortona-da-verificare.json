@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "biomedicatortonese.it",
+  "nome": "Poliambulatorio Tortona",
+  "formaSocietaria": "",
+  "partitaIva": "02744580065",
+  "telefono": "",
+  "email": "info@biomedicatortonese.it",
+  "sitoUrl": "https://www.biomedicatortonese.it/",
+  "indirizzo": "Corso Giuseppe Romita, 44",
+  "cap": "15057",
+  "comune": "Tortona",
+  "provincia": "tortona",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.biomedicatortonese.it/",
+   "https://www.biomedicatortonese.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studihevo.it",
+  "nome": "Studi Hevo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390131813584",
+  "email": "info@studihevo.it",
+  "sitoUrl": "https://studihevo.it/",
+  "indirizzo": "Strada Statale 10",
+  "cap": "15057",
+  "comune": "Coordinate",
+  "provincia": "tortona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studihevo.it/",
+   "https://studihevo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiobotto.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

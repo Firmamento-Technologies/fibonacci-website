@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "kosmeoreb.com",
+  "nome": "Centro estetico a Sant’Agata de’ Goti",
+  "formaSocietaria": "",
+  "partitaIva": "01569620626",
+  "telefono": "+390823953889",
+  "email": "",
+  "sitoUrl": "https://www.kosmeoreb.com/",
+  "indirizzo": "Via Caudina, 13",
+  "cap": "82019",
+  "comune": "Sant'Agata",
+  "provincia": "sant-agata-de-goti",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.kosmeoreb.com/",
+   "https://www.kosmeoreb.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "polimedicisanpio.it",
+  "nome": "polimedicisanpio.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390823455906",
+  "email": "",
+  "sitoUrl": "https://polimedicisanpio.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sant-agata-de-goti",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://polimedicisanpio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

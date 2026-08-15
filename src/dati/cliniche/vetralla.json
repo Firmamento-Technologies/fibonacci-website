@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "cdsabatino.it",
+  "nome": "Centro Diagnostico Sabatino",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01062261001",
+  "telefono": "+39069968758",
+  "email": "info@cdsabatino.it",
+  "sitoUrl": "https://www.cdsabatino.it/",
+  "indirizzo": "Via Romana, 10",
+  "cap": "00061",
+  "comune": "Anguillara",
+  "provincia": "vetralla",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cdsabatino.it/",
+   "https://www.cdsabatino.it/chi-siamo",
+   "https://www.cdsabatino.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "etruriamedical.it",
+  "nome": "Etruria Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02181330560",
+  "telefono": "+393342514420",
+  "email": "info@etruriamedical.it",
+  "sitoUrl": "https://etruriamedical.it/",
+  "indirizzo": "",
+  "cap": "01754",
+  "comune": "Data",
+  "provincia": "vetralla",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://etruriamedical.it/",
+   "https://etruriamedical.it/contatti-etruria-medical-center/",
+   "https://etruriamedical.it/contatti-etruria-medical-center/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

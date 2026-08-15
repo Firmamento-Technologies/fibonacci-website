@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "clinicmedicalcenter.it",
+  "nome": "Medicina e Chirurigia estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390651844787",
+  "email": "",
+  "sitoUrl": "https://www.clinicmedicalcenter.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicmedicalcenter.it/",
+   "https://www.clinicmedicalcenter.it/chi-siamo/",
+   "https://www.clinicmedicalcenter.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "estesia.it",
   "nome": "Estesìa",
   "formaSocietaria": "",
@@ -54,6 +82,63 @@
   "fonteUrl": [
    "https://www.esteticamarzia.com/",
    "https://www.esteticamarzia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "spazio-medico.it",
+  "nome": "Poliambulatorio e Centro Chirurgico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13479991005",
+  "telefono": "+390683525846",
+  "email": "info@spazio-medico.it",
+  "sitoUrl": "https://www.spazio-medico.it/",
+  "indirizzo": "via delle Bermude, 12",
+  "cap": "00121",
+  "comune": "LIDO",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.spazio-medico.it/",
+   "https://www.spazio-medico.it/contattaci/",
+   "https://www.spazio-medico.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioreginamariapia.it",
+  "nome": "Studio Regina Maria Pia",
+  "formaSocietaria": "",
+  "partitaIva": "14608851003",
+  "telefono": "+390656304297",
+  "email": "info@studioreginamariapia.it",
+  "sitoUrl": "https://www.studioreginamariapia.it/",
+  "indirizzo": "Corso Regina Maria Pia, 5",
+  "cap": "00122",
+  "comune": "Ostia",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studioreginamariapia.it/",
+   "https://www.studioreginamariapia.it/index.php/chi-siamo/",
+   "https://www.studioreginamariapia.it/index.php/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

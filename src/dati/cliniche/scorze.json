@@ -1,0 +1,38 @@
+[
+ {
+  "dominio": "carlogiacomin.it",
+  "nome": "Dr. Carlo Giacomin",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@carlogiacomin.it",
+  "sitoUrl": "https://www.carlogiacomin.it/",
+  "indirizzo": "Via Cercarionlo n. 11",
+  "cap": "30037",
+  "comune": "Scorzè",
+  "provincia": "scorze",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carlo Giacomin, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.carlogiacomin.it/",
+   "https://www.carlogiacomin.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Giacomin, e il dominio lo ripete"
+ }
+]

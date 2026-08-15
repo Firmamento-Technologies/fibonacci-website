@@ -1,0 +1,114 @@
+[
+ {
+  "dominio": "absuite.eu",
+  "nome": "Ringiovanimento viso con AB Suite a Valdobbiadene",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393519895907",
+  "email": "",
+  "sitoUrl": "https://absuite.eu/",
+  "indirizzo": "Via Centro La Filanda 13",
+  "cap": "31049",
+  "comune": "Valdobbiadene",
+  "provincia": "valdobbiadene",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://absuite.eu/",
+   "https://absuite.eu/chi-siamo/",
+   "https://absuite.eu/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "digebeau.net",
+  "nome": "Medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@digebeau.it",
+  "sitoUrl": "https://www.digebeau.net/",
+  "indirizzo": "Via Ferrante Aporti, 13",
+  "cap": "56028",
+  "comune": "San",
+  "provincia": "valdobbiadene",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.digebeau.net/",
+   "https://www.digebeau.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticalucianavaldobbiadene.it",
+  "nome": "esteticaluciana",
+  "formaSocietaria": "",
+  "partitaIva": "03848780262",
+  "telefono": "+390423973567",
+  "email": "",
+  "sitoUrl": "https://esteticalucianavaldobbiadene.it/",
+  "indirizzo": "Via Erizzo, 85",
+  "cap": "31049",
+  "comune": "",
+  "provincia": "valdobbiadene",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticalucianavaldobbiadene.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticatreviso.com",
+  "nome": "Trattamenti estetici viso e corpo- Valdobbiadene, Montebelluna, Conegl",
+  "formaSocietaria": "",
+  "partitaIva": "03147050268",
+  "telefono": "+390423972446",
+  "email": "",
+  "sitoUrl": "https://www.esteticatreviso.com/",
+  "indirizzo": "Via Sotto Il Mur Di Brolo, 24",
+  "cap": "31049",
+  "comune": "Valdobbiadene",
+  "provincia": "valdobbiadene",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticatreviso.com/",
+   "https://www.esteticatreviso.com/chi-siamo/",
+   "https://www.esteticatreviso.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

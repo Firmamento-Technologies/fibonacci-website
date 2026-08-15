@@ -1,0 +1,131 @@
+[
+ {
+  "dominio": "bergamo.corriere.it",
+  "nome": "Corriere Bergamo: le ultime news dalla città",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://bergamo.corriere.it/",
+  "indirizzo": "via Einstein. Il Comune dispone di 987",
+  "cap": "20132",
+  "comune": "Milano",
+  "provincia": "seriate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://bergamo.corriere.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticosuite.it",
+  "nome": "Epilazione definitiva e modellamento corpo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03276400169",
+  "telefono": "+39035297164",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticosuite.it/",
+  "indirizzo": "via XX settembre 18",
+  "cap": "",
+  "comune": "",
+  "provincia": "seriate",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centroesteticosuite.it/",
+   "https://www.centroesteticosuite.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicaprivatachirone.com",
+  "nome": "ChirOne day Clinic srl",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02947250169",
+  "telefono": "+39035300330",
+  "email": "info@clinicachirone.it",
+  "sitoUrl": "https://www.clinicaprivatachirone.com/",
+  "indirizzo": "Via Da Giussano, 14",
+  "cap": "24068",
+  "comune": "SERIATE",
+  "provincia": "seriate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.clinicaprivatachirone.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ecodibergamo.it",
+  "nome": "L'Eco di Bergamo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ecodibergamo.it/",
+  "indirizzo": "Viale Papa Giovanni XXIII, 118",
+  "cap": "24121",
+  "comune": "Bergamo",
+  "provincia": "seriate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ecodibergamo.it/",
+   "https://www.ecodibergamo.it/stories/ogni-vita-un-racconto/viaggio-nei-piccoli-cimiteri-storie-e-persone-che-raccontano-chi-siamo-o_3733412_11/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalspaceseriate.it",
+  "nome": "Medical Space",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03069670168",
+  "telefono": "+390354523848",
+  "email": "",
+  "sitoUrl": "https://medicalspaceseriate.it/",
+  "indirizzo": "Via Nazionale 34",
+  "cap": "24068",
+  "comune": "Seriate",
+  "provincia": "seriate",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicalspaceseriate.it/",
+   "https://medicalspaceseriate.it/contatti/",
+   "https://medicalspaceseriate.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

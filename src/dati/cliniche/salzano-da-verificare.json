@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "stream24.ilsole24ore.com",
+  "nome": "Video e approfondimenti su cronaca, politica, economia, finanza, merca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://stream24.ilsole24ore.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "salzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://stream24.ilsole24ore.com/",
+   "https://stream24.ilsole24ore.com/serie/privacy/AIJLAlT"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiosalzanotirone.it",
+  "nome": "Dentista Cuneo: prenota ora da Salzano e Tirone",
+  "formaSocietaria": "",
+  "partitaIva": "03301160044",
+  "telefono": "+390171619210",
+  "email": "info@studiosalzanotirone.it",
+  "sitoUrl": "https://www.studiosalzanotirone.it/",
+  "indirizzo": "Via Cascina Colombaro, 37",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "salzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiosalzanotirone.it/",
+   "https://www.studiosalzanotirone.it/contatti/",
+   "https://www.studiosalzanotirone.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

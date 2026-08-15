@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "alessandronube.it",
+  "nome": "Alessandro dr.nube",
+  "formaSocietaria": "",
+  "partitaIva": "03318320276",
+  "telefono": "+393664621512",
+  "email": "info@alessandronube.it",
+  "sitoUrl": "https://www.alessandronube.it/",
+  "indirizzo": "via Battaglia 71",
+  "cap": "35020",
+  "comune": "Albignasego",
+  "provincia": "mestre",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Nube, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessandronube.it/",
+   "https://www.alessandronube.it/contatti/",
+   "https://www.alessandronube.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Nube, e il dominio lo ripete"
+ },
+ {
   "dominio": "antoniocorezzola.it",
   "nome": "antoniocorezzola.it",
   "formaSocietaria": "",

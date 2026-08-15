@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "centromedicoest.it",
+  "nome": "Centro Medico Est",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04122350236",
+  "telefono": "+390456931461",
+  "email": "info@centromedicoest.it",
+  "sitoUrl": "https://www.centromedicoest.it/",
+  "indirizzo": "Piazza Costituzione 14",
+  "cap": "37047",
+  "comune": "San",
+  "provincia": "san-bonifacio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicoest.it/",
+   "https://www.centromedicoest.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicopromed.it",
+  "nome": "Centro Medico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04875330237",
+  "telefono": "+393482688990",
+  "email": "info@centromedicopromed.it",
+  "sitoUrl": "https://www.centromedicopromed.it/",
+  "indirizzo": "Piazza S. Benedetto, 2",
+  "cap": "37047",
+  "comune": "SAN",
+  "provincia": "san-bonifacio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicopromed.it/",
+   "https://www.centromedicopromed.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorioigea.com",
+  "nome": "IGEA Poliambulatorio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04366240234",
+  "telefono": "",
+  "email": "info@poliambulatorioigea.com",
+  "sitoUrl": "https://www.poliambulatorioigea.com/",
+  "indirizzo": "Via Sorte 48",
+  "cap": "37047",
+  "comune": "San",
+  "provincia": "san-bonifacio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.poliambulatorioigea.com/",
+   "https://www.poliambulatorioigea.com/contatti/",
+   "https://www.poliambulatorioigea.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "soavedentalstudio.it",
+  "nome": "Studio Dentista Medicina Estetica San Bonifacio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04408770230",
+  "telefono": "+390458943297",
+  "email": "info@soavedentalstudio.it",
+  "sitoUrl": "https://soavedentalstudio.it/",
+  "indirizzo": "Viale della Vittoria, 116",
+  "cap": "37038",
+  "comune": "Soave",
+  "provincia": "san-bonifacio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://soavedentalstudio.it/",
+   "https://soavedentalstudio.it/chi-siamo/",
+   "https://soavedentalstudio.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

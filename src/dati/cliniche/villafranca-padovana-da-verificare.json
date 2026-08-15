@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "farmacomvillafranca.it",
+  "nome": "Farmacia Comunale di Villafranca",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03853390288",
+  "telefono": "+390499075088",
+  "email": "info@farmacomvillafranca.it",
+  "sitoUrl": "https://www.farmacomvillafranca.it/",
+  "indirizzo": "Via Firenze, 74",
+  "cap": "35010",
+  "comune": "Villafranca",
+  "provincia": "villafranca-padovana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.farmacomvillafranca.it/",
+   "https://www.farmacomvillafranca.it/chi-siamo.aspx",
+   "https://www.farmacomvillafranca.it/contatti.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

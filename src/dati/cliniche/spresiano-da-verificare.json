@@ -1,0 +1,63 @@
+[
+ {
+  "dominio": "cristianobiagi.it",
+  "nome": "Cristiano Biagi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393420562349",
+  "email": "info@cristianobiagi.it",
+  "sitoUrl": "https://www.cristianobiagi.it/",
+  "indirizzo": "Viale San Concordio n.665",
+  "cap": "56017",
+  "comune": "San",
+  "provincia": "spresiano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cristianobiagi.it/",
+   "https://www.cristianobiagi.it/contatti/",
+   "https://www.cristianobiagi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticadeborah.it",
+  "nome": "Estetica Deborah - Centro estetico e Solarium",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@esteticadeborah.it",
+  "sitoUrl": "https://esteticadeborah.it/",
+  "indirizzo": "Via G.B. Tiepolo 2",
+  "cap": "31027",
+  "comune": "Spresiano",
+  "provincia": "spresiano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticadeborah.it/",
+   "https://esteticadeborah.it/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

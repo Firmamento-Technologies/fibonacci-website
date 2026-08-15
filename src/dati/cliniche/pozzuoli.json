@@ -81,6 +81,91 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "farmaciasolfatara.it",
+  "nome": "Farmacia La Marca Solfatara",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07827921219",
+  "telefono": "+390815269023",
+  "email": "info@farmaciasolfatara.it.",
+  "sitoUrl": "https://www.farmaciasolfatara.it/",
+  "indirizzo": "Via Solfatara 119",
+  "cap": "80078",
+  "comune": "Na",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.farmaciasolfatara.it/",
+   "https://www.farmaciasolfatara.it/chi-siamo/",
+   "https://www.farmaciasolfatara.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mlpmedicalspa.com",
+  "nome": "MLP Medicalspa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393453105694",
+  "email": "info@dottoressapozzuoli.com",
+  "sitoUrl": "https://mlpmedicalspa.com/",
+  "indirizzo": "Via Santa Teresa 23",
+  "cap": "10121",
+  "comune": "Torino",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://mlpmedicalspa.com/",
+   "https://mlpmedicalspa.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "neacentromedico.it",
+  "nome": "Nea",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10607051215",
+  "telefono": "",
+  "email": "info@neacentromedico.it",
+  "sitoUrl": "https://www.neacentromedico.it/",
+  "indirizzo": "Via Campi Flegrei 34",
+  "cap": "80078",
+  "comune": "Pozzuoli",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.neacentromedico.it/",
+   "https://www.neacentromedico.it/info-e-contatti/",
+   "https://www.neacentromedico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "ritualbeautyesteticaavanzata.it",
   "nome": "Ritual Beauty Estetica Avanzata",
   "formaSocietaria": "",

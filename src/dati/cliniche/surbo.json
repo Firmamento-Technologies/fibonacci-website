@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "medsurbo.it",
+  "nome": "Med Surbo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390832365376",
+  "email": "info@medsurbo.it",
+  "sitoUrl": "https://www.medsurbo.it/",
+  "indirizzo": "Via Lecce, 104",
+  "cap": "73010",
+  "comune": "Surbo",
+  "provincia": "surbo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medsurbo.it/",
+   "https://www.medsurbo.it/contatti/",
+   "https://www.medsurbo.it/privacy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

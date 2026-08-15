@@ -1,5 +1,55 @@
 [
  {
+  "dominio": "claudiotabarini.it",
+  "nome": "Dott. Claudio Tabarini",
+  "formaSocietaria": "",
+  "partitaIva": "03955340587",
+  "telefono": "+393386338843",
+  "email": "",
+  "sitoUrl": "https://www.claudiotabarini.it/",
+  "indirizzo": "Via Sassello 26",
+  "cap": "00054",
+  "comune": "Roma",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Claudio Tabarini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.claudiotabarini.it/",
+   "https://www.claudiotabarini.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Tabarini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "ecomedicaaranova.it",
+  "nome": "Ecomedica Aranova (Fiumicino)",
+  "formaSocietaria": "SRL",
+  "partitaIva": "15419821002",
+  "telefono": "+390699336261",
+  "email": "info@ecomedicaaranova.it",
+  "sitoUrl": "https://www.ecomedicaaranova.it/",
+  "indirizzo": "Via Michele Rosi 236",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ecomedicaaranova.it/",
+   "https://www.ecomedicaaranova.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "esteticamaska.com",
   "nome": "Estetica Maska Fiumicino",
   "formaSocietaria": "",
@@ -22,6 +72,55 @@
   "ragioneClassificazione": "forma societaria dichiarata nel sito",
   "fonteUrl": [
    "https://www.esteticamaska.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiomedicafregene.it",
+  "nome": "Fisiomedica Fregene",
+  "formaSocietaria": "SRL",
+  "partitaIva": "16923411009",
+  "telefono": "+390666565042",
+  "email": "",
+  "sitoUrl": "https://www.fisiomedicafregene.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.fisiomedicafregene.it/",
+   "https://www.fisiomedicafregene.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ldbmedicalcenter.it",
+  "nome": "Analisi e Visite Mediche a Fiumicino",
+  "formaSocietaria": "SRL",
+  "partitaIva": "15872481005",
+  "telefono": "+390686874199",
+  "email": "info@medicalcenterldb.it",
+  "sitoUrl": "https://www.ldbmedicalcenter.it/",
+  "indirizzo": "Via Giulio Romano, 77",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ldbmedicalcenter.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

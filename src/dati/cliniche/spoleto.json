@@ -1,0 +1,114 @@
+[
+ {
+  "dominio": "alessiabartoli.it",
+  "nome": "BMI",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02914310541",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alessiabartoli.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "spoleto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.alessiabartoli.it/",
+   "https://www.alessiabartoli.it/privacy-policy/index.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ambulatorioflaminia.com",
+  "nome": "Ambulatorio Polispecialistico Flaminia",
+  "formaSocietaria": "",
+  "partitaIva": "02045520547",
+  "telefono": "+390743220217",
+  "email": "info@ambulatorioflaminia.it",
+  "sitoUrl": "https://www.ambulatorioflaminia.com/",
+  "indirizzo": "Via Flaminia 94",
+  "cap": "06049",
+  "comune": "Spoleto",
+  "provincia": "spoleto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ambulatorioflaminia.com/",
+   "https://www.ambulatorioflaminia.com/contatti/",
+   "https://www.ambulatorioflaminia.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "checkupsrl.com",
+  "nome": "Checkup",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39074343685",
+  "email": "info@checkupsrl.com",
+  "sitoUrl": "https://www.checkupsrl.com/",
+  "indirizzo": "Corso Giuseppe Garibaldi, 26",
+  "cap": "43685",
+  "comune": "",
+  "provincia": "spoleto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.checkupsrl.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "isalobeauty.it",
+  "nome": "I Salò Beauty: i migliori trattamenti estetici a Spoleto",
+  "formaSocietaria": "SAS",
+  "partitaIva": "03679620546",
+  "telefono": "+39074345508",
+  "email": "",
+  "sitoUrl": "https://www.isalobeauty.it/",
+  "indirizzo": "Via delle Lettere 32",
+  "cap": "06049",
+  "comune": "Spoleto",
+  "provincia": "spoleto",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.isalobeauty.it/",
+   "https://www.isalobeauty.it/contatti-i-salo-beauty-spoleto/",
+   "https://www.isalobeauty.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

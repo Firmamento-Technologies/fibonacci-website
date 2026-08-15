@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "colorifreddi.it",
+  "nome": "Industria Colori Freddi S. Giorgio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00682590203",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://colorifreddi.it/",
+  "indirizzo": "Via U. Barbieri 12",
+  "cap": "46100",
+  "comune": "Mantova",
+  "provincia": "parete",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://colorifreddi.it/",
+   "https://colorifreddi.it/chi-siamo/",
+   "https://colorifreddi.it/privacy-clienti-fornitori/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fimulticare.it",
+  "nome": "Fi Multicare",
+  "formaSocietaria": "",
+  "partitaIva": "08090790968",
+  "telefono": "",
+  "email": "info@fimulticare.it",
+  "sitoUrl": "https://www.fimulticare.it/",
+  "indirizzo": "",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "parete",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.fimulticare.it/",
+   "https://www.fimulticare.it/chi-siamo/",
+   "https://www.fimulticare.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "manomano.it",
+  "nome": "ManoMano.it: Tutto per il fai da te, la ristrutturazione e il giardina",
+  "formaSocietaria": "",
+  "partitaIva": "19752979930",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.manomano.it:443/",
+  "indirizzo": "",
+  "cap": "75017",
+  "comune": "Paris",
+  "provincia": "parete",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.manomano.it:443/",
+   "https://www.manomano.it:443/sedie-4588",
+   "https://www.manomano.it:443/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

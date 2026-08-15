@@ -27,6 +27,38 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dralbertoliberti.it",
+  "nome": "Dr. Alberto Liberti",
+  "formaSocietaria": "",
+  "partitaIva": "05898630651",
+  "telefono": "",
+  "email": "info@dralbertoliberti.it",
+  "sitoUrl": "https://www.dralbertoliberti.it/",
+  "indirizzo": "Via Carmine 53",
+  "cap": "",
+  "comune": "",
+  "provincia": "nocera-inferiore",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alberto Liberti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dralbertoliberti.it/",
+   "https://www.dralbertoliberti.it/contatti/",
+   "https://www.dralbertoliberti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Liberti, cognome dentro il dominio"
+ },
+ {
   "dominio": "irinapoleva.it",
   "nome": "irinapoleva.it",
   "formaSocietaria": "",

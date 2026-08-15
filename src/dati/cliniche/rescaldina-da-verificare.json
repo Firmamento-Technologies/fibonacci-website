@@ -1,0 +1,110 @@
+[
+ {
+  "dominio": "centroesteticorescaldina.it",
+  "nome": "Dermatop",
+  "formaSocietaria": "",
+  "partitaIva": "12236150962",
+  "telefono": "+393755179311",
+  "email": "info@centroesteticorescaldina.it",
+  "sitoUrl": "https://centroesteticorescaldina.it/",
+  "indirizzo": "",
+  "cap": "20027",
+  "comune": "Orario",
+  "provincia": "rescaldina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticorescaldina.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticaoltrelimmagine.it",
+  "nome": "Estetica Oltre Immagine",
+  "formaSocietaria": "",
+  "partitaIva": "08075420961",
+  "telefono": "+390331464591",
+  "email": "",
+  "sitoUrl": "https://esteticaoltrelimmagine.it/",
+  "indirizzo": "Via Dante Alighieri, 17",
+  "cap": "20027",
+  "comune": "Rescaldina",
+  "provincia": "rescaldina",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaoltrelimmagine.it/",
+   "https://esteticaoltrelimmagine.it/chi-siamo/",
+   "https://esteticaoltrelimmagine.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "negozi.centrorescaldina.it",
+  "nome": "Mappa dei Negozi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "centro.rescaldina@ceetrus.com",
+  "sitoUrl": "https://negozi.centrorescaldina.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rescaldina",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://negozi.centrorescaldina.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "skinlab-studioestetico.it",
+  "nome": "Skinlab-StudioEstetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393792463233",
+  "email": "info@skinlab-studioestetico.it",
+  "sitoUrl": "https://www.skinlab-studioestetico.it/",
+  "indirizzo": "Via Silvio Pellico, 5",
+  "cap": "20027",
+  "comune": "Instagram",
+  "provincia": "rescaldina",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.skinlab-studioestetico.it/",
+   "https://www.skinlab-studioestetico.it/chi-siamo/",
+   "https://www.skinlab-studioestetico.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

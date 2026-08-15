@@ -1,0 +1,63 @@
+[
+ {
+  "dominio": "laplagebeautyrelax.com",
+  "nome": "La Plage Beauty & Relax",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05006160237",
+  "telefono": "",
+  "email": "info@laplagebeautyrelax.com",
+  "sitoUrl": "https://laplagebeautyrelax.com/",
+  "indirizzo": "Via Coraine, 7",
+  "cap": "37010",
+  "comune": "",
+  "provincia": "san-giorgio-bigarello",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://laplagebeautyrelax.com/",
+   "https://laplagebeautyrelax.com/chi-siamo/",
+   "https://laplagebeautyrelax.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mybblo.com",
+  "nome": "mybblo.com",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13890110961",
+  "telefono": "+393888585150",
+  "email": "info@mybblo.com",
+  "sitoUrl": "https://www.mybblo.com/",
+  "indirizzo": "Via Milite Ignoto, 5",
+  "cap": "20084",
+  "comune": "Lacchiarella",
+  "provincia": "san-giorgio-bigarello",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.mybblo.com/",
+   "https://www.mybblo.com/contatti",
+   "https://www.mybblo.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

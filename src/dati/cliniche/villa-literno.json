@@ -1,0 +1,66 @@
+[
+ {
+  "dominio": "clinicavillaantonella.it",
+  "nome": "Unità Operativa ORL",
+  "formaSocietaria": "",
+  "partitaIva": "05998210966",
+  "telefono": "+393313386696",
+  "email": "info@clinicavillaantonella.it",
+  "sitoUrl": "https://www.clinicavillaantonella.it/",
+  "indirizzo": "Viale Buonarroti N °68",
+  "cap": "26845",
+  "comune": "Codogno",
+  "provincia": "villa-literno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicavillaantonella.it/",
+   "https://www.clinicavillaantonella.it/contatti",
+   "https://www.clinicavillaantonella.it/privacy-e-cookies"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "martiniginetta.it",
+  "nome": "Dott.ssa Martini Ginetta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390464517525",
+  "email": "info@reginaarco.it",
+  "sitoUrl": "https://martiniginetta.it/",
+  "indirizzo": "Via Pomerio, 3",
+  "cap": "38062",
+  "comune": "Arco",
+  "provincia": "villa-literno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Martini Ginetta, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://martiniginetta.it/",
+   "https://martiniginetta.it/sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Martini Ginetta, e il dominio lo ripete"
+ }
+]

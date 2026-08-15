@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "analisiclinilab.it",
+  "nome": "Laboratorio analisi cliniche e microbiologiche",
+  "formaSocietaria": "",
+  "partitaIva": "00117120675",
+  "telefono": "+390858930415",
+  "email": "info@analisiclinilab.it",
+  "sitoUrl": "https://www.analisiclinilab.it/",
+  "indirizzo": "Via Adriatica, 50",
+  "cap": "64026",
+  "comune": "Roseto",
+  "provincia": "roseto-degli-abruzzi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.analisiclinilab.it/",
+   "https://www.analisiclinilab.it/contatti.html",
+   "https://www.analisiclinilab.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "didonatocentroestetico.it",
+  "nome": "Trattamenti estetici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01840440679",
+  "telefono": "+390858941103",
+  "email": "info@didonatocentroestetico.it",
+  "sitoUrl": "https://www.didonatocentroestetico.it/",
+  "indirizzo": "Via Nazionale, 127",
+  "cap": "64026",
+  "comune": "Roseto",
+  "provincia": "roseto-degli-abruzzi",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.didonatocentroestetico.it/",
+   "https://www.didonatocentroestetico.it/contatti-centro-estetico-di-donato/",
+   "https://www.didonatocentroestetico.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

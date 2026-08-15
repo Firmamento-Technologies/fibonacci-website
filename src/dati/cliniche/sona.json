@@ -1,0 +1,109 @@
+[
+ {
+  "dominio": "amatomedicalinstitute.com",
+  "nome": "Clinica Estetica Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "09958381213",
+  "telefono": "+390818432722",
+  "email": "info@amatomedicalinstitute.com",
+  "sitoUrl": "https://www.amatomedicalinstitute.com/",
+  "indirizzo": "Via Giuseppe Fiorelli 12",
+  "cap": "80121",
+  "comune": "Napoli",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.amatomedicalinstitute.com/",
+   "https://www.amatomedicalinstitute.com/chi-siamo/",
+   "https://www.amatomedicalinstitute.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicaeziocosta.it",
+  "nome": "Clinica Ezio Costa",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03865690238",
+  "telefono": "+390458680233",
+  "email": "info@clinicaeziocosta.it",
+  "sitoUrl": "https://clinicaeziocosta.it/",
+  "indirizzo": "Via Friuli, 5",
+  "cap": "37060",
+  "comune": "Sona",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicaeziocosta.it/",
+   "https://clinicaeziocosta.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "smilemedicalcenter.it",
+  "nome": "Smile Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39035541698",
+  "email": "info@smilemedicalcenter.it",
+  "sitoUrl": "https://www.smilemedicalcenter.it/",
+  "indirizzo": "Viale Italia, 54",
+  "cap": "24011",
+  "comune": "Almè",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.smilemedicalcenter.it/",
+   "https://www.smilemedicalcenter.it/contatti/",
+   "https://www.smilemedicalcenter.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sonamedspa.com",
+  "nome": "Sōna MedSpa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.sonamedspa.com/",
+  "indirizzo": "",
+  "cap": "14330",
+  "comune": "Oakhill",
+  "provincia": "sona",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.sonamedspa.com/",
+   "https://www.sonamedspa.com/about-us/",
+   "https://www.sonamedspa.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "dominio": "avenirgroup.it",
+  "nome": "Avenir Group",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09819920969",
+  "telefono": "+393470816521",
+  "email": "info@avenirgroup.it",
+  "sitoUrl": "https://avenirgroup.it/",
+  "indirizzo": "Via Piero Gobetti, 2",
+  "cap": "20090",
+  "comune": "Buccinasco",
+  "provincia": "trezzano-sul-naviglio",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://avenirgroup.it/",
+   "https://avenirgroup.it/contatti/",
+   "https://avenirgroup.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "b-suite.it",
+  "nome": "B-Suite",
+  "formaSocietaria": "",
+  "partitaIva": "11859080969",
+  "telefono": "",
+  "email": "prenotazioni@b-suite.it",
+  "sitoUrl": "https://b-suite.it/",
+  "indirizzo": "Piazza San Lorenzo 13",
+  "cap": "20090",
+  "comune": "",
+  "provincia": "trezzano-sul-naviglio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://b-suite.it/",
+   "https://b-suite.it/contatti/",
+   "https://b-suite.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dentalnarco.com",
+  "nome": "Centro Odontoiatrico Dentalnarco: Il Tuo Dentista A Trezzano Sul Navig",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04500200961",
+  "telefono": "+393487357609",
+  "email": "info@dentalnarco.com",
+  "sitoUrl": "https://www.dentalnarco.com/",
+  "indirizzo": "Viale Leonardo da Vinci . Dopo circa 11",
+  "cap": "04185",
+  "comune": "Dir",
+  "provincia": "trezzano-sul-naviglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.dentalnarco.com/",
+   "https://www.dentalnarco.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "narcisoestetica.com",
+  "nome": "Centro Estetico Trezzano Sul Naviglio",
+  "formaSocietaria": "",
+  "partitaIva": "08365520967",
+  "telefono": "",
+  "email": "info@narcisoestetica.com",
+  "sitoUrl": "https://www.narcisoestetica.com/",
+  "indirizzo": "Viale Indipendenza 20",
+  "cap": "20090",
+  "comune": "Trezzano",
+  "provincia": "trezzano-sul-naviglio",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.narcisoestetica.com/",
+   "https://www.narcisoestetica.com/contatti",
+   "https://www.narcisoestetica.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

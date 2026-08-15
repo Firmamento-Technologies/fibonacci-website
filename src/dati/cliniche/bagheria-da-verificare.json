@@ -1,5 +1,65 @@
 [
  {
+  "dominio": "centroesteticomari.it",
+  "nome": "Centro Estetico Mari Bagheria",
+  "formaSocietaria": "",
+  "partitaIva": "05532730826",
+  "telefono": "+39091961084",
+  "email": "info@centroesteticomari.it",
+  "sitoUrl": "https://www.centroesteticomari.it/",
+  "indirizzo": "Via Alcide de Gasperi, 46",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticomari.it/",
+   "https://www.centroesteticomari.it/contatti-centro-estetico-mari-bagheria/",
+   "https://www.centroesteticomari.it/privacy-policy-centro-estetico-mari-bagheria/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mediciscurtilopiparo.it",
+  "nome": "Medici Scurti - Lo Piparo",
+  "formaSocietaria": "",
+  "partitaIva": "03242110827",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mediciscurtilopiparo.it/",
+  "indirizzo": "Via Maggiacomo, 11",
+  "cap": "90011",
+  "comune": "",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mediciscurtilopiparo.it/",
+   "https://mediciscurtilopiparo.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiominutella.it",
   "nome": "Studio Dentistico Nicola Minutella",
   "formaSocietaria": "",

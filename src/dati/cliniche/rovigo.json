@@ -1,5 +1,59 @@
 [
  {
+  "dominio": "alessiaberti.com",
+  "nome": "Dentista ad Adria e Rosolina (RO)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@alessiaberti.com",
+  "sitoUrl": "https://www.alessiaberti.com/",
+  "indirizzo": "Via Alberto Mario 10",
+  "cap": "",
+  "comune": "",
+  "provincia": "rovigo",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessia Berti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessiaberti.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Berti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "carlogasperoni.com",
+  "nome": "Prof. Carlo Gasperoni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39068088513",
+  "email": "info@carlogasperoni.com",
+  "sitoUrl": "https://carlogasperoni.com/",
+  "indirizzo": "Via San Gottardo, 77",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "rovigo",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carlo Gasperoni, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://carlogasperoni.com/",
+   "https://carlogasperoni.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Gasperoni, e il dominio lo ripete"
+ },
+ {
   "dominio": "clinicadrm.it",
   "nome": "Clinica Odontoiatrica DRM",
   "formaSocietaria": "",
@@ -23,6 +77,31 @@
    "https://www.clinicadrm.it/",
    "https://www.clinicadrm.it/chi-siamo/",
    "https://www.clinicadrm.it/sedi-cliniche-drm/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "italsalute.com",
+  "nome": "Studi medici per pazienti e dottori",
+  "formaSocietaria": "",
+  "partitaIva": "10472180966",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://italsalute.com/",
+  "indirizzo": "Largo Augusto 8",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://italsalute.com/",
+   "https://italsalute.com/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -54,6 +133,108 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "ordinemedicifc.it",
+  "nome": "Ordine dei Medici Chirurghi e Odontoiatri di Forlì-Cesena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ordinemedicifc.it",
+  "sitoUrl": "https://www.ordinemedicifc.it/",
+  "indirizzo": "Viale Italia, 153",
+  "cap": "47122",
+  "comune": "Forlì",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.ordinemedicifc.it/",
+   "https://www.ordinemedicifc.it/contatti/",
+   "https://www.ordinemedicifc.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "pietrogentile.it",
+  "nome": "Pietro Gentile",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://pietrogentile.it/",
+  "indirizzo": "Via del Pantheon 45",
+  "cap": "00192",
+  "comune": "Roma",
+  "provincia": "rovigo",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Gentile, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://pietrogentile.it/",
+   "https://pietrogentile.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Gentile, e il dominio lo ripete"
+ },
+ {
+  "dominio": "rocchetta.it",
+  "nome": "Acqua minerale naturale Rocchetta, acqua della salute.",
+  "formaSocietaria": "SPA",
+  "partitaIva": "05615361002",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.rocchetta.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.rocchetta.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "secretssm.com",
+  "nome": "Secret SSM: corsi, manuali, simulazioni per il test SSM 2026",
+  "formaSocietaria": "SRL",
+  "partitaIva": "17362981007",
+  "telefono": "",
+  "email": "info@secretssm.com",
+  "sitoUrl": "https://www.secretssm.com/",
+  "indirizzo": "Corso SSM 2027",
+  "cap": "00143",
+  "comune": "Roma",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.secretssm.com/",
+   "https://www.secretssm.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiodentisticobertolini.com",
   "nome": "Studio Bertolini STP",
   "formaSocietaria": "",
@@ -73,6 +254,32 @@
   "fonteUrl": [
    "https://www.studiodentisticobertolini.com/",
    "https://www.studiodentisticobertolini.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "unicusano.it",
+  "nome": "Università Telematica Unicusano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria.sociologia@unicusano.it",
+  "sitoUrl": "https://www.unicusano.it/",
+  "indirizzo": "Via Don Carlo Gnocchi, 3",
+  "cap": "00166",
+  "comune": "Roma",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.unicusano.it/",
+   "https://www.unicusano.it/universita/chi-siamo",
+   "https://www.unicusano.it/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

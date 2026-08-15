@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "centrobaroncini.it",
+  "nome": "Centro Medico Baroncini",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02272390036",
+  "telefono": "+390331958570",
+  "email": "segreteria@centrobaroncini.it",
+  "sitoUrl": "https://www.centrobaroncini.it/",
+  "indirizzo": "Via Carlo Cattaneo, 3",
+  "cap": "21018",
+  "comune": "Sesto",
+  "provincia": "sesto-calende",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Davide Baroncini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.centrobaroncini.it/",
+   "https://www.centrobaroncini.it/chi-siamo/",
+   "https://www.centrobaroncini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Davide Baroncini, cognome dentro il dominio"
+ },
+ {
+  "dominio": "sandrigomedica.it",
+  "nome": "SandrigoMedica Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@sandrigomedica.it",
+  "sitoUrl": "https://www.sandrigomedica.it/",
+  "indirizzo": "Piazza Santi Filippo e Giacomo, 16",
+  "cap": "36066",
+  "comune": "Sandrigo",
+  "provincia": "sesto-calende",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.sandrigomedica.it/",
+   "https://www.sandrigomedica.it/contatti/",
+   "https://www.sandrigomedica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "curesmed.it",
+  "nome": "Cures Centro Medico",
+  "formaSocietaria": "",
+  "partitaIva": "04026670044",
+  "telefono": "",
+  "email": "info@curesmed.it",
+  "sitoUrl": "https://curesmed.it/",
+  "indirizzo": "Via XX Settembre 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "sezze",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://curesmed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "gloriamisasimedicinaestetica.it",
+  "nome": "Gloria Misasi Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "11265221009",
+  "telefono": "+390694010646",
+  "email": "",
+  "sitoUrl": "https://gloriamisasimedicinaestetica.it/",
+  "indirizzo": "Via Mentana, 4",
+  "cap": "00444",
+  "comune": "Frascati",
+  "provincia": "sezze",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gloriamisasimedicinaestetica.it/",
+   "https://gloriamisasimedicinaestetica.it/about/",
+   "https://gloriamisasimedicinaestetica.it/contatti-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "silviacentroestetico.it",
+  "nome": "Silvia Fashion",
+  "formaSocietaria": "",
+  "partitaIva": "02794080594",
+  "telefono": "+393297347036",
+  "email": "",
+  "sitoUrl": "https://www.silviacentroestetico.it/",
+  "indirizzo": "Via Veneto, 22",
+  "cap": "04010",
+  "comune": "Sezze",
+  "provincia": "sezze",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.silviacentroestetico.it/",
+   "https://www.silviacentroestetico.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

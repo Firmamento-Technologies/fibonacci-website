@@ -1,0 +1,79 @@
+[
+ {
+  "dominio": "dolomitimedica.it",
+  "nome": "Dolomiti Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390423377695",
+  "email": "info@dolomitimedica.it",
+  "sitoUrl": "https://dolomitimedica.it/",
+  "indirizzo": "Via Spagna 70",
+  "cap": "31033",
+  "comune": "Castelfranco",
+  "provincia": "san-giorgio-delle-pertiche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://dolomitimedica.it/",
+   "https://dolomitimedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriosangiorgio.com",
+  "nome": "Poliambulatorio San Giorgio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39029103846",
+  "email": "info@poliambulatoriosangiorgio.com",
+  "sitoUrl": "https://poliambulatoriosangiorgio.com/",
+  "indirizzo": "Via Piave 16",
+  "cap": "20812",
+  "comune": "Limbiate",
+  "provincia": "san-giorgio-delle-pertiche",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://poliambulatoriosangiorgio.com/",
+   "https://poliambulatoriosangiorgio.com/chi-siamo/",
+   "https://poliambulatoriosangiorgio.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sangiorgiodentista.it",
+  "nome": "Dentista San Giorgio delle Pertiche",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05613850287",
+  "telefono": "+3939495747715",
+  "email": "info@sangiorgiodentista.it",
+  "sitoUrl": "https://www.sangiorgiodentista.it/",
+  "indirizzo": "Via Roma 132",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-giorgio-delle-pertiche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.sangiorgiodentista.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

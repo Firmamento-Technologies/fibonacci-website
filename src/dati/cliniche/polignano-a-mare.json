@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "studiomedicomontanaro.it",
+  "nome": "Studio Medico Montanaro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390804240140",
+  "email": "info@studiomedicomontanaro.it",
+  "sitoUrl": "https://studiomedicomontanaro.it/",
+  "indirizzo": "Viale delle Rimembranze, 20",
+  "cap": "70044",
+  "comune": "Polignano",
+  "provincia": "polignano-a-mare",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Annalisa Montanaro, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomedicomontanaro.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Montanaro, cognome dentro il dominio"
+ }
+]

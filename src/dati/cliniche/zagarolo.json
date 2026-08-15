@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "francescapapa.com",
+  "nome": "Dott.ssa Francesca Papa",
+  "formaSocietaria": "",
+  "partitaIva": "17476181007",
+  "telefono": "",
+  "email": "info@yoursite.com",
+  "sitoUrl": "https://www.francescapapa.com/",
+  "indirizzo": "Via Beethoven 11",
+  "cap": "00039",
+  "comune": "Zagarolo",
+  "provincia": "zagarolo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesca Papa, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.francescapapa.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Papa, e il dominio lo ripete"
+ },
+ {
+  "dominio": "ladeabendata.info",
+  "nome": "La Dea Bendata",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13794551005",
+  "telefono": "",
+  "email": "info@ladeabendata.info",
+  "sitoUrl": "https://www.ladeabendata.info/",
+  "indirizzo": "Via Prenestina Nuova, 307",
+  "cap": "00036",
+  "comune": "Palestrina",
+  "provincia": "zagarolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ladeabendata.info/",
+   "https://www.ladeabendata.info/chi-siamo/",
+   "https://www.ladeabendata.info/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicoaloe.it",
+  "nome": "Studio Medico Aloè",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "14065951007",
+  "telefono": "+3906164162184",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicoaloe.it/",
+  "indirizzo": "",
+  "cap": "00172",
+  "comune": "Roma",
+  "provincia": "zagarolo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.studiomedicoaloe.it/",
+   "https://www.studiomedicoaloe.it/contatti",
+   "https://www.studiomedicoaloe.it/policy-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

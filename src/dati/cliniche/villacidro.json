@@ -1,0 +1,90 @@
+[
+ {
+  "dominio": "amaticentroesteticovalentina.it",
+  "nome": "Amati centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "03779470925",
+  "telefono": "+393401937476",
+  "email": "",
+  "sitoUrl": "https://amaticentroesteticovalentina.it/",
+  "indirizzo": "Via S. Lucifero, 30",
+  "cap": "09125",
+  "comune": "Cagliari",
+  "provincia": "villacidro",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://amaticentroesteticovalentina.it/",
+   "https://amaticentroesteticovalentina.it/privacy-policy/",
+   "https://amaticentroesteticovalentina.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "doctorloveskin.it",
+  "nome": "Doctor Loveskin",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03530980923",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://doctorloveskin.it/",
+  "indirizzo": "Via Mandrolisai GUSPINI- 370",
+  "cap": "",
+  "comune": "",
+  "provincia": "villacidro",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://doctorloveskin.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gruppocid.it",
+  "nome": "CID",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00949341002",
+  "telefono": "+39064402087",
+  "email": "segreteria@gruppocid.it",
+  "sitoUrl": "https://gruppocid.it/",
+  "indirizzo": "via Morgagni, 30",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "villacidro",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://gruppocid.it/",
+   "https://gruppocid.it/privacy-policy/",
+   "https://gruppocid.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

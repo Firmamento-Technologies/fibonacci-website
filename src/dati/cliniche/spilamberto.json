@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "clinicalucchi.it",
+  "nome": "Clinica Lucchi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03813140369",
+  "telefono": "+39059781895",
+  "email": "info@clinicalucchi.it",
+  "sitoUrl": "https://clinicalucchi.it/",
+  "indirizzo": "Via Matteotti 27",
+  "cap": "",
+  "comune": "",
+  "provincia": "spilamberto",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicalucchi.it/",
+   "https://clinicalucchi.it/contatti-poliambulatorio-spilamberto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

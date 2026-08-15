@@ -1,0 +1,108 @@
+[
+ {
+  "dominio": "esthea.it",
+  "nome": "Centro estetico Specializzato Vigasio Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04705860239",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esthea.it/",
+  "indirizzo": "Via Verona 92",
+  "cap": "37068",
+  "comune": "Vigasio",
+  "provincia": "vigasio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esthea.it/",
+   "https://www.esthea.it/chi-siamo",
+   "https://www.esthea.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "teoxane.it",
+  "nome": "teoxane.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.teoxane.it/",
+  "indirizzo": "",
+  "cap": "40121",
+  "comune": "Bologna",
+  "provincia": "vigasio",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.teoxane.it/",
+   "https://www.teoxane.it/it/privacy-policy",
+   "https://www.teoxane.it/it/page/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tusciamedicalcenter.it",
+  "nome": "Tuscia Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "02287350561",
+  "telefono": "+390766092013",
+  "email": "info@tusciamedicalcenter.it",
+  "sitoUrl": "https://www.tusciamedicalcenter.it/",
+  "indirizzo": "Via Giuseppe Tassoni 9",
+  "cap": "01016",
+  "comune": "Tarquinia",
+  "provincia": "vigasio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.tusciamedicalcenter.it/",
+   "https://www.tusciamedicalcenter.it/contatti/",
+   "https://www.tusciamedicalcenter.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "welfarecare.org",
+  "nome": "WelfareCare",
+  "formaSocietaria": "",
+  "partitaIva": "04081960264",
+  "telefono": "+390423721000",
+  "email": "info@welfarecare.org",
+  "sitoUrl": "https://www.welfarecare.org/",
+  "indirizzo": "Via del Lavoro, 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "vigasio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.welfarecare.org/",
+   "https://www.welfarecare.org/about-us-welfarecare/",
+   "https://www.welfarecare.org/wp-content/uploads/2022/05/PRIVACY-POLICY.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "brindisireport.it",
+  "nome": "BrindisiReport",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10786801000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.brindisireport.it/",
+  "indirizzo": "Viale Stelvio 70",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "san-vito-dei-normanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.brindisireport.it/",
+   "https://www.brindisireport.it/video/brindisi-cantiere-rione-casale-nubi-terra-assediano-abitazioni-impresa-interviene.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "friulmedica.it",
+  "nome": "Poliambulatori Specialistici a Codroipo e San Vito",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01437300328",
+  "telefono": "+390432905679",
+  "email": "info@friulmedica.it",
+  "sitoUrl": "https://www.friulmedica.it/",
+  "indirizzo": "Viale Venezia 121",
+  "cap": "80283",
+  "comune": "Servizi",
+  "provincia": "san-vito-dei-normanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.friulmedica.it/",
+   "https://www.friulmedica.it/contatti",
+   "https://www.friulmedica.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "dominio": "magiaebellezza.it",
+  "nome": "Centro estetico a Olgiate Comasco (Como)",
+  "formaSocietaria": "",
+  "partitaIva": "03779900137",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://magiaebellezza.it/",
+  "indirizzo": "Via del Costone 1",
+  "cap": "22077",
+  "comune": "Olgiate",
+  "provincia": "olgiate-comasco",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://magiaebellezza.it/",
+   "https://magiaebellezza.it/assets/css/privacy.css",
+   "https://magiaebellezza.it/privacy-policy.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "paolobeautycenter.com",
+  "nome": "Paolo Beauty Center",
+  "formaSocietaria": "",
+  "partitaIva": "01582210132",
+  "telefono": "",
+  "email": "info@paolobeautycenter.com",
+  "sitoUrl": "https://www.paolobeautycenter.com/",
+  "indirizzo": "via Roma 70",
+  "cap": "22077",
+  "comune": "Olgiate",
+  "provincia": "olgiate-comasco",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.paolobeautycenter.com/",
+   "https://www.paolobeautycenter.com/informativa-privacy-e-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "dermamele.com",
+  "nome": "Studio di dermatologia: visite e trattamenti avanzati",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390803387809",
+  "email": "",
+  "sitoUrl": "https://www.dermamele.com/",
+  "indirizzo": "Viale Papa Giovanni Paolo II, 29",
+  "cap": "70056",
+  "comune": "Molfetta",
+  "provincia": "molfetta",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermamele.com/",
+   "https://www.dermamele.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "elisirnailsbeautymakeup.com",
   "nome": "Centro Estetico a Molfetta (BA)",
   "formaSocietaria": "",
@@ -47,6 +76,35 @@
   "fonteUrl": [
    "https://esprit3.it/",
    "https://esprit3.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fabiopappagallo.it",
+  "nome": "medicina estetica Molfetta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393922949269",
+  "email": "",
+  "sitoUrl": "https://www.fabiopappagallo.it/",
+  "indirizzo": "Via Luciano Manara, 18",
+  "cap": "70056",
+  "comune": "Molfetta",
+  "provincia": "molfetta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fabiopappagallo.it/",
+   "https://www.fabiopappagallo.it/contatti/",
+   "https://www.fabiopappagallo.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

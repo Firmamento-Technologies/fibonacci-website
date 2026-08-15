@@ -1,0 +1,116 @@
+[
+ {
+  "dominio": "alinaderosa-dermatologa.com",
+  "nome": "Dott.ssa Alina De Rosa",
+  "formaSocietaria": "",
+  "partitaIva": "05873170657",
+  "telefono": "+3908119296387",
+  "email": "",
+  "sitoUrl": "https://www.alinaderosa-dermatologa.com/",
+  "indirizzo": "Via Giovanni XXIII 62",
+  "cap": "84018",
+  "comune": "Scafati",
+  "provincia": "scafati",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.alinaderosa-dermatologa.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "grupposemm.it",
+  "nome": "Gruppo Sem",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05138940654",
+  "telefono": "+390818506197",
+  "email": "info@grupposemm.it",
+  "sitoUrl": "https://www.grupposemm.it/",
+  "indirizzo": "Via Martiri D'Ungheria, 39",
+  "cap": "84018",
+  "comune": "Scafati",
+  "provincia": "scafati",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.grupposemm.it/",
+   "https://www.grupposemm.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "labeauteleclub.com",
+  "nome": "Centro Estetico La Beauté Le Club",
+  "formaSocietaria": "SNC",
+  "partitaIva": "06995951214",
+  "telefono": "+390810665848",
+  "email": "info@labeauteleclub.com",
+  "sitoUrl": "https://www.labeauteleclub.com/",
+  "indirizzo": "",
+  "cap": "84018",
+  "comune": "SCAFATI",
+  "provincia": "scafati",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.labeauteleclub.com/",
+   "https://www.labeauteleclub.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioverrusio.com",
+  "nome": "Studio Verrusio Centro Dentistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studioverrusio.com",
+  "sitoUrl": "https://studioverrusio.com/",
+  "indirizzo": "Corso Nazionale 31",
+  "cap": "",
+  "comune": "",
+  "provincia": "scafati",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carmine Verrusio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studioverrusio.com/",
+   "https://studioverrusio.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmine Verrusio, cognome dentro il dominio"
+ }
+]

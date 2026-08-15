@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "centroclinicofogliense.it",
+  "nome": "Centro Medico polispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02518880410",
+  "telefono": "+390721478093",
+  "email": "info@centroclinicofogliense.it",
+  "sitoUrl": "https://www.centroclinicofogliense.it/",
+  "indirizzo": "Via Pian Mauro 10",
+  "cap": "61010",
+  "comune": "Tavullia",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centroclinicofogliense.it/",
+   "https://www.centroclinicofogliense.it/contatti/",
+   "https://www.centroclinicofogliense.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "poliambulatorioairone.com",
+  "nome": "Poliambulatorio Airone :: Poliambulatorio multispecialistico e Presidi",
+  "formaSocietaria": "",
+  "partitaIva": "02971330341",
+  "telefono": "",
+  "email": "info@poliambulatorioairone.com",
+  "sitoUrl": "https://poliambulatorioairone.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://poliambulatorioairone.com/",
+   "https://www.poliambulatorioairone.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioodontoiatricocupola.com",
+  "nome": "Studio dentistico Dr Roberto Cupola",
+  "formaSocietaria": "",
+  "partitaIva": "01721060349",
+  "telefono": "+390524574109",
+  "email": "",
+  "sitoUrl": "https://www.studioodontoiatricocupola.com/",
+  "indirizzo": "Via Parma, 35",
+  "cap": "43039",
+  "comune": "SALSOMAGGIORE",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studioodontoiatricocupola.com/",
+   "https://www.studioodontoiatricocupola.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

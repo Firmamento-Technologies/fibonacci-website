@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "polimedicalgamma.it",
+  "nome": "Poliambulatorio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03708660968",
+  "telefono": "+390377431761",
+  "email": "info@polimedicalgamma.it",
+  "sitoUrl": "https://polimedicalgamma.it/",
+  "indirizzo": "Via E. Groppi 11",
+  "cap": "26845",
+  "comune": "Codogno",
+  "provincia": "sezze",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://polimedicalgamma.it/",
+   "https://polimedicalgamma.it/informative_privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "polospecialistico.it",
+  "nome": "polospecialistico.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02460670595",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.polospecialistico.it/",
+  "indirizzo": "via Urbino, 1",
+  "cap": "04010",
+  "comune": "Loc",
+  "provincia": "sezze",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.polospecialistico.it/",
+   "https://www.polospecialistico.it/contatti",
+   "https://www.polospecialistico.it/contatti/poliambulatorio-polo-specialistico-setino-dove-siamo-sezze-latina"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

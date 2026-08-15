@@ -49,8 +49,8 @@
    "https://www.dralessandromicai.com/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Micai, cognome dentro il dominio"
  },
  {
   "dominio": "poliambulatorio-sanfrancesco.it",
@@ -78,32 +78,6 @@
   "motivoEsclusione": ""
  },
  {
-  "dominio": "puntosalutelegnago.it",
-  "nome": "Punto Salute Legnago",
-  "formaSocietaria": "",
-  "partitaIva": "04386200234",
-  "telefono": "+39044228793",
-  "email": "info@puntosalutelegnago.it",
-  "sitoUrl": "https://www.puntosalutelegnago.it/",
-  "indirizzo": "",
-  "cap": "28793",
-  "comune": "Piazzetta",
-  "provincia": "legnago",
-  "prestazioni": [],
-  "dichiaraDirettoreSanitario": false,
-  "dichiaraAutorizzazioneSanitaria": false,
-  "tipoSoggetto": "impresa",
-  "ragioneClassificazione": "il nome dichiara una struttura",
-  "fonteUrl": [
-   "https://www.puntosalutelegnago.it/",
-   "https://www.puntosalutelegnago.it/chi-siamo/",
-   "https://www.puntosalutelegnago.it/contatti/"
-  ],
-  "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
- },
- {
   "dominio": "studiogardinale.it",
   "nome": "Studiogardinale.it",
   "formaSocietaria": "",
@@ -118,15 +92,15 @@
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
   "dichiaraAutorizzazioneSanitaria": false,
-  "tipoSoggetto": "impresa",
-  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gardinale Katia, cognome dentro il dominio",
   "fonteUrl": [
    "https://www.studiogardinale.it/",
    "https://www.studiogardinale.it/contatti/",
    "https://www.studiogardinale.it/informativa-privacy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardinale Katia, cognome dentro il dominio"
  }
 ]

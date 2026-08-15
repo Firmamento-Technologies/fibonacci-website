@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "bottegaestetica.it",
+  "nome": "Centro Estetico Tolentino",
+  "formaSocietaria": "",
+  "partitaIva": "01982760439",
+  "telefono": "+393492699359",
+  "email": "info@bottegaestetica.it",
+  "sitoUrl": "https://bottegaestetica.it/",
+  "indirizzo": "Piazza della Battaglia di Tolentino n. 41",
+  "cap": "",
+  "comune": "",
+  "provincia": "tolentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://bottegaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rimozione-macchie.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

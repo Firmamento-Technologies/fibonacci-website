@@ -1,5 +1,60 @@
 [
  {
+  "dominio": "helprc.it",
+  "nome": "HelpRC",
+  "formaSocietaria": "SNC",
+  "partitaIva": "02907300806",
+  "telefono": "+390965028929",
+  "email": "info@helprc.it",
+  "sitoUrl": "https://www.helprc.it/",
+  "indirizzo": "Corso Operatore Amministrativo Contabile +1",
+  "cap": "89135",
+  "comune": "Gallico",
+  "provincia": "villafranca-di-verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.helprc.it/",
+   "https://www.helprc.it/chi-siamo/",
+   "https://www.helprc.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "marcopignatti.it",
+  "nome": "Marco Pignatti Chirurgo Plastico e Chirurgo Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390452455677",
+  "email": "info@marcopignatti.it",
+  "sitoUrl": "https://marcopignatti.it/it/",
+  "indirizzo": "Piazzale Aristide Stefani, 1",
+  "cap": "37126",
+  "comune": "Verona",
+  "provincia": "villafranca-di-verona",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Pignatti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marcopignatti.it/it/",
+   "https://marcopignatti.it/it/privacy-policy/",
+   "https://marcopignatti.it/it/eu-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Pignatti, e il dominio lo ripete"
+ },
+ {
   "dominio": "oxilab.it",
   "nome": "Oxi Lab",
   "formaSocietaria": "",
@@ -19,6 +74,32 @@
   "fonteUrl": [
    "https://www.oxilab.it/",
    "https://www.oxilab.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rcmedici.eu",
+  "nome": "Assicurazione Medici",
+  "formaSocietaria": "SNC",
+  "partitaIva": "02031240068",
+  "telefono": "+393452683315",
+  "email": "info@rcmedici.eu",
+  "sitoUrl": "https://rcmedici.eu/",
+  "indirizzo": "Via V. Alfieri 34",
+  "cap": "15011",
+  "comune": "Acqui Terme",
+  "provincia": "villafranca-di-verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://rcmedici.eu/",
+   "https://rcmedici.eu/chi-siamo/",
+   "https://rcmedici.eu/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

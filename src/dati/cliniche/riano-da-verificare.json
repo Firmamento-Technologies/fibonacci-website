@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "farmacianappo.it",
+  "nome": "Farmacia Nappo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393770931176",
+  "email": "info@farmacianappo.it",
+  "sitoUrl": "https://www.farmacianappo.it/",
+  "indirizzo": "Viale Parigi, 2",
+  "cap": "19732",
+  "comune": "Whatsapp",
+  "provincia": "riano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.farmacianappo.it/",
+   "https://www.farmacianappo.it/contatti/",
+   "https://www.farmacianappo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

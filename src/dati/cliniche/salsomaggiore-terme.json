@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "esteticalilly.it",
+  "nome": "Centro estetico Salsomaggiore Terme",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02922390345",
+  "telefono": "+390524332628",
+  "email": "info@esteticalilly.it",
+  "sitoUrl": "https://esteticalilly.it/",
+  "indirizzo": "Piazza Borsellino e Falcone, 4",
+  "cap": "43039",
+  "comune": "Salsomaggiore Terme",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://esteticalilly.it/",
+   "https://esteticalilly.it/chi-siamo/",
+   "https://esteticalilly.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "farmaciavialegiuliocesare.com",
+  "nome": "Farmacia Viale Giulio Cesare Fanchiotti Novara",
+  "formaSocietaria": "SNC",
+  "partitaIva": "01827440031",
+  "telefono": "",
+  "email": "info@farmaciavialegiuliocesare.it",
+  "sitoUrl": "https://farmaciavialegiuliocesare.com/",
+  "indirizzo": "Viale Giulio Cesare Fanchiotti Novara 0",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://farmaciavialegiuliocesare.com/",
+   "https://farmaciavialegiuliocesare.com/contatti/",
+   "https://farmaciavialegiuliocesare.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "shop.termest.it",
+  "nome": "Terme di salsomaggiore e Tabiano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01690800337",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://shop.termest.it/",
+  "indirizzo": "Via F. Cassoli, 07",
+  "cap": "29122",
+  "comune": "Piacenza",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://shop.termest.it/",
+   "https://shop.termest.it/salsomaggiore/it-IT/Contatti.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

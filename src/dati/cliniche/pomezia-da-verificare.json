@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "dominio": "altheabiomedica.it",
+  "nome": "Althea Biomedica: Il Tuo Dentista A Pomezia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39069100090",
+  "email": "",
+  "sitoUrl": "https://altheabiomedica.it/",
+  "indirizzo": "Via Roma, 212",
+  "cap": "00071",
+  "comune": "Pomezia",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://altheabiomedica.it/",
+   "https://altheabiomedica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "maisonesthetiquemc.it",
+  "nome": "centro estetico e parrucchiere Pomezia",
+  "formaSocietaria": "",
+  "partitaIva": "12849801001",
+  "telefono": "+390645501473",
+  "email": "",
+  "sitoUrl": "https://maisonesthetiquemc.it/",
+  "indirizzo": "Via Tito Speri, 3",
+  "cap": "00071",
+  "comune": "Pomezia",
+  "provincia": "pomezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://maisonesthetiquemc.it/",
+   "https://maisonesthetiquemc.it/chi-siamo/",
+   "https://maisonesthetiquemc.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

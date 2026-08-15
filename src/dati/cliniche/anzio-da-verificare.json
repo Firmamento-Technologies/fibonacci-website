@@ -56,6 +56,61 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "esteticanefertari.com",
+  "nome": "Centro Estetico Nefertari Anzio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390698610628",
+  "email": "",
+  "sitoUrl": "https://www.esteticanefertari.com/",
+  "indirizzo": "Via delle Palme, 1",
+  "cap": "00042",
+  "comune": "Anzio",
+  "provincia": "anzio",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticanefertari.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicalsangallo.it",
+  "nome": "Centro di Riabilitazione Polispecialistico Fisioterapia Osteopatia| Me",
+  "formaSocietaria": "",
+  "partitaIva": "05224141001",
+  "telefono": "+39069808080",
+  "email": "info@medicalsangallo.it",
+  "sitoUrl": "https://www.medicalsangallo.it/",
+  "indirizzo": "Via Belvedere 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "anzio",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicalsangallo.it/",
+   "https://www.medicalsangallo.it/chi-siamo/",
+   "https://www.medicalsangallo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "youritaly.it",
   "nome": "Youritaly.it",
   "formaSocietaria": "",

@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "espevia.it",
+  "nome": "Coupon Estetica, Benessere, Tempo Libero",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.espevia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "tavagnacco",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.espevia.it/",
+   "https://www.espevia.it/chi-siamo",
+   "https://www.espevia.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "salusalpeadria.it",
+  "nome": "Salus Alpe Adria",
+  "formaSocietaria": "",
+  "partitaIva": "02726460302",
+  "telefono": "+390432574163",
+  "email": "info@salusalpeadria.it",
+  "sitoUrl": "https://www.salusalpeadria.it/",
+  "indirizzo": "Via G.D'Annunzio, 29",
+  "cap": "33010",
+  "comune": "Branco",
+  "provincia": "tavagnacco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.salusalpeadria.it/",
+   "https://www.salusalpeadria.it/contatti/",
+   "https://www.salusalpeadria.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

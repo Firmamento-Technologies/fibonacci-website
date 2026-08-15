@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "linea-azzurra.it",
+  "nome": "Linea Azzurra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390119953789",
+  "email": "",
+  "sitoUrl": "https://www.linea-azzurra.it/",
+  "indirizzo": "Via Trento, 105",
+  "cap": "10088",
+  "comune": "Volpiano",
+  "provincia": "volpiano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.linea-azzurra.it/",
+   "https://www.linea-azzurra.it/informativa-sulla-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,76 @@
+[
+ {
+  "dominio": "dentista.sona.vr.it",
+  "nome": "Prof. e Dott. Makarati| Studio dentistico a Sona",
+  "formaSocietaria": "",
+  "partitaIva": "02211680216",
+  "telefono": "+39081407282",
+  "email": "",
+  "sitoUrl": "https://www.dentista.sona.vr.it/",
+  "indirizzo": "Via IV Novembre 57",
+  "cap": "37060",
+  "comune": "Sona",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.dentista.sona.vr.it/",
+   "https://www.dentista.sona.vr.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sinapolispecialistico.it",
+  "nome": "SINA POLISPECIALISTICO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@sinapolispecialistico.it",
+  "sitoUrl": "https://sinapolispecialistico.it/",
+  "indirizzo": "Via Nazario Sauro 12",
+  "cap": "20090",
+  "comune": "Cesano",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sinapolispecialistico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomacaluso.eu",
+  "nome": "Studio di Odontoiatria Specialista",
+  "formaSocietaria": "",
+  "partitaIva": "09766930961",
+  "telefono": "+390229521972",
+  "email": "segreteria@studiomacaluso.eu",
+  "sitoUrl": "https://www.studiomacaluso.eu/",
+  "indirizzo": "Piazza Lima, 1",
+  "cap": "20144",
+  "comune": "MI",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomacaluso.eu/",
+   "https://www.studiomacaluso.eu/contatti-milano/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

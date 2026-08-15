@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "crisalidebeauty.it",
+  "nome": "Parrucchiere Trinitapoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390883256557",
+  "email": "",
+  "sitoUrl": "https://crisalidebeauty.it/",
+  "indirizzo": "Via Martino Cuocci n°3",
+  "cap": "76015",
+  "comune": "Trinitapoli",
+  "provincia": "trinitapoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://crisalidebeauty.it/",
+   "https://crisalidebeauty.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,88 @@
+[
+ {
+  "dominio": "jolifill.de",
+  "nome": "Jolifill.de Hyaluronfiller & Faltenprodukte",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@jolifill.de",
+  "sitoUrl": "https://jolifill.de/",
+  "indirizzo": "",
+  "cap": "96047",
+  "comune": "Raps",
+  "provincia": "opera",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://jolifill.de/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "petroneonline.com",
+  "nome": "PetroneOnline Farmacia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01211040637",
+  "telefono": "+3908119303015",
+  "email": "",
+  "sitoUrl": "https://www.petroneonline.com/",
+  "indirizzo": "Via Portamedina 8",
+  "cap": "80134",
+  "comune": "Napoli",
+  "provincia": "opera",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.petroneonline.com/",
+   "https://www.petroneonline.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "silviabeautylab.it",
+  "nome": "Silvia Beauty Lab",
+  "formaSocietaria": "",
+  "partitaIva": "11798510969",
+  "telefono": "+393519952184",
+  "email": "info@silviabeautylab.it",
+  "sitoUrl": "https://www.silviabeautylab.it/",
+  "indirizzo": "Via Emilia, 36",
+  "cap": "20073",
+  "comune": "Opera",
+  "provincia": "opera",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.silviabeautylab.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

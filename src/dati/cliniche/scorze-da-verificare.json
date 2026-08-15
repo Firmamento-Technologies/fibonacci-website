@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "affidea.it",
+  "nome": "affidea.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://affidea.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "scorze",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://affidea.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticanaturalmenteve.it",
+  "nome": "Estetica Naturalmente",
+  "formaSocietaria": "",
+  "partitaIva": "04121700274",
+  "telefono": "+39041446587",
+  "email": "",
+  "sitoUrl": "https://esteticanaturalmenteve.it/",
+  "indirizzo": "Via Moglianese C. 31",
+  "cap": "30037",
+  "comune": "Cappella",
+  "provincia": "scorze",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticanaturalmenteve.it/",
+   "https://esteticanaturalmenteve.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "oksygenstudioestetico.it",
+  "nome": "Oksygen Studio Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393464120228",
+  "email": "",
+  "sitoUrl": "https://www.oksygenstudioestetico.it/",
+  "indirizzo": "Piazza S. Martino, 7",
+  "cap": "30037",
+  "comune": "Rio San",
+  "provincia": "scorze",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.oksygenstudioestetico.it/",
+   "https://www.oksygenstudioestetico.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

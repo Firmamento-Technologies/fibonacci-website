@@ -1,5 +1,15 @@
 [
  {
+  "dominio": "it.jooble.org",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "mbbeauty.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ },
+ {
   "dominio": "studimedicivillafrancaverona.it",
   "nome": "Studi Medici Villafranca",
   "formaSocietaria": "SAS",
@@ -23,6 +33,32 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "valedent.net",
+  "nome": "Studio Odontoiatrico ValeDent",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393358099484",
+  "email": "amministrazione@redentsrl.it",
+  "sitoUrl": "https://valedent.net/",
+  "indirizzo": "Via Monte Baldo 8",
+  "cap": "37069",
+  "comune": "Dossobuono",
+  "provincia": "villafranca-di-verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://valedent.net/",
+   "https://valedent.net/chi-siamo/",
+   "https://valedent.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "centroesteticocastorina.com",
+  "nome": "Centro Estetico a Taormina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393921713577",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticocastorina.com/",
+  "indirizzo": "Via S. Pancrazio, 15",
+  "cap": "98039",
+  "comune": "TAORMINA",
+  "provincia": "taormina",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticocastorina.com/",
+   "https://www.centroesteticocastorina.com/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

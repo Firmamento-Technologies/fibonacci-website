@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "centromedicoviola.it",
+  "nome": "Centro Medico Viola",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04407430273",
+  "telefono": "+390414196144",
+  "email": "info@centromedicoviola.it",
+  "sitoUrl": "https://centromedicoviola.it/",
+  "indirizzo": "Via Monte Verena 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "pianiga",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedicoviola.it/",
+   "http://centromedicoviola.it/contatti/",
+   "https://centromedicoviola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticatlantide.it",
+  "nome": "Estetica e benessere Atlantide Pianiga- Home",
+  "formaSocietaria": "",
+  "partitaIva": "03313790275",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticatlantide.it/",
+  "indirizzo": "Via Roma 117",
+  "cap": "30030",
+  "comune": "Pianiga",
+  "provincia": "pianiga",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticatlantide.it/",
+   "https://www.esteticatlantide.it/contatti/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

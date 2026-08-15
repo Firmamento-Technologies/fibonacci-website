@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "dominio": "fisiolabtorredelgreco.it",
+  "nome": "Fisiolab Torre del Greco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393285550942",
+  "email": "",
+  "sitoUrl": "https://fisiolabtorredelgreco.it/",
+  "indirizzo": "Via Nuova Trecase, 109",
+  "cap": "80059",
+  "comune": "Torre",
+  "provincia": "torre-del-greco",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://fisiolabtorredelgreco.it/",
+   "https://fisiolabtorredelgreco.it/contatti/",
+   "https://fisiolabtorredelgreco.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "luigiscognamiglio.it",
+  "nome": "Dentista Torre del Greco (Napoli)",
+  "formaSocietaria": "",
+  "partitaIva": "06402351214",
+  "telefono": "+390818817816",
+  "email": "info@luigiscognamiglio.it",
+  "sitoUrl": "https://luigiscognamiglio.it/",
+  "indirizzo": "",
+  "cap": "80059",
+  "comune": "Torre",
+  "provincia": "torre-del-greco",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://luigiscognamiglio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

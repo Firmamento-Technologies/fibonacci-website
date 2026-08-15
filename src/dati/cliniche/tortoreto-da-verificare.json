@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "renatorasicci.it",
+  "nome": "Dott. Renato Rasicci",
+  "formaSocietaria": "",
+  "partitaIva": "00315640672",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.renatorasicci.it/",
+  "indirizzo": "Viale Mazzini, 22",
+  "cap": "",
+  "comune": "",
+  "provincia": "tortoreto",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.renatorasicci.it/",
+   "http://www.renatorasicci.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

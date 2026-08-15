@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "clinicadentale.net",
+  "nome": "Clinica Dentale: dentisti a Vicenza, Bologna e provincia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03407630247",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinicadentale.net/",
+  "indirizzo": "Via Brescia, 10",
+  "cap": "36040",
+  "comune": "Torri",
+  "provincia": "torri-di-quartesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://clinicadentale.net/",
+   "https://clinicadentale.net/chi-siamo/",
+   "https://clinicadentale.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

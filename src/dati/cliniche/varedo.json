@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "bovisiopolimedica.it",
+  "nome": "Bovisio Polimedica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13249660963",
+  "telefono": "+393518189737",
+  "email": "info@bovisiopolimedica.it",
+  "sitoUrl": "https://www.bovisiopolimedica.it/",
+  "indirizzo": "Via Bertacciola 65",
+  "cap": "20813",
+  "comune": "Bovisio",
+  "provincia": "varedo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bovisiopolimedica.it/",
+   "https://www.bovisiopolimedica.it/contatti",
+   "https://www.bovisiopolimedica.it/privacy-policy-bovisio-polimedica"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicosangiorgio.com",
+  "nome": "Centro Medico San Giorgio",
+  "formaSocietaria": "",
+  "partitaIva": "08427030963",
+  "telefono": "+390364435893",
+  "email": "info@sangiorgiomedical.it",
+  "sitoUrl": "https://www.centromedicosangiorgio.com/",
+  "indirizzo": "Via Badetto 16",
+  "cap": "25040",
+  "comune": "Ceto",
+  "provincia": "varedo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicosangiorgio.com/",
+   "https://www.centromedicosangiorgio.com/le-nostre-sedi/",
+   "https://www.centromedicosangiorgio.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "smartclinic.it",
+  "nome": "smartclinic.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390221117585",
+  "email": "prenotazioni.ccfm@grupposandonato.it",
+  "sitoUrl": "https://www.smartclinic.it/",
+  "indirizzo": "Via Filippo Palizzi, 69",
+  "cap": "16145",
+  "comune": "Genova",
+  "provincia": "varedo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.smartclinic.it/",
+   "https://www.smartclinic.it/chi-siamo-smart-clinic",
+   "https://www.smartclinic.it/contatti-smart-clinic"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

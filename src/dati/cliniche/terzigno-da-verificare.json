@@ -1,0 +1,52 @@
+[
+ {
+  "dominio": "centromedicosubiaco.it",
+  "nome": "Centro Medico Subiaco Visite Specialistiche e Diagnostica Strumentale",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09137141009",
+  "telefono": "",
+  "email": "info@centromedicosubiaco.it",
+  "sitoUrl": "https://www.centromedicosubiaco.it/",
+  "indirizzo": "Largo Martiri di Cicchetti, 2",
+  "cap": "00028",
+  "comune": "Subiaco",
+  "provincia": "terzigno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicosubiaco.it/",
+   "https://www.centromedicosubiaco.it/chi-siamo/",
+   "https://www.centromedicosubiaco.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "fisio432.com",
+  "nome": "Fisio432",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://fisio432.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "terzigno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://fisio432.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

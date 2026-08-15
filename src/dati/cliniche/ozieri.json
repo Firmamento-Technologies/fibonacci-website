@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "cmconsulenze.it",
+  "nome": "CM Consulenze",
+  "formaSocietaria": "SAS",
+  "partitaIva": "03190910921",
+  "telefono": "",
+  "email": "info@cmconsulenze.it",
+  "sitoUrl": "https://www.cmconsulenze.it/",
+  "indirizzo": "Piazza Tristani 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "ozieri",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cmconsulenze.it/",
+   "https://www.cmconsulenze.it/privacy.php",
+   "https://www.cmconsulenze.it/contatti.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "makeme-smile.com",
+  "nome": "Make Me Smile",
+  "formaSocietaria": "SRL",
+  "partitaIva": "16879561005",
+  "telefono": "+393487846693",
+  "email": "info@makeme-smile.com",
+  "sitoUrl": "https://www.makeme-smile.com/",
+  "indirizzo": "Corso ALL IN ONE 3",
+  "cap": "00139",
+  "comune": "Roma",
+  "provincia": "ozieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.makeme-smile.com/",
+   "https://www.makeme-smile.com/make-me-smile/privacy-sanita-studio-dentistico/",
+   "https://www.makeme-smile.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

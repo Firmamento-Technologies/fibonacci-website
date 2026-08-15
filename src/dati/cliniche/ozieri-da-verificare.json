@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "centromedicooristanese.it",
+  "nome": "Home CMO",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "01246660953",
+  "telefono": "+390783466604",
+  "email": "",
+  "sitoUrl": "https://centromedicooristanese.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ozieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedicooristanese.it/",
+   "https://centromedicooristanese.it/contatti-prenotazioni/",
+   "https://centromedicooristanese.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "estetica.studiocuna.it",
+  "nome": "Medicina Estetica Ozieri",
+  "formaSocietaria": "",
+  "partitaIva": "02288550904",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://estetica.studiocuna.it/",
+  "indirizzo": "Via Porrino, 2",
+  "cap": "07014",
+  "comune": "Ozieri",
+  "provincia": "ozieri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://estetica.studiocuna.it/",
+   "https://estetica.studiocuna.it/chi-siamo/",
+   "https://estetica.studiocuna.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiocuna.it",
+  "nome": "Studio Cuna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studiocuna.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ozieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiocuna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

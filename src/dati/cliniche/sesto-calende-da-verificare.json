@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "medicalcentersrl.it",
+  "nome": "Medicalcenter",
+  "formaSocietaria": "",
+  "partitaIva": "02679760963",
+  "telefono": "+390331958095",
+  "email": "info.sestocalende@bianalisi.it",
+  "sitoUrl": "https://medicalcentersrl.it/",
+  "indirizzo": "Via IV Novembre, 1",
+  "cap": "20841",
+  "comune": "Carate Brianza",
+  "provincia": "sesto-calende",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://medicalcentersrl.it/",
+   "https://medicalcentersrl.it/contatti/",
+   "https://medicalcentersrl.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "poliambulatoriocittadimedicina.it",
+  "nome": "Poliambulatorio Città di Medicina (BO)",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03645701206",
+  "telefono": "+390510110132",
+  "email": "info@poliambulatoriocittadimedicina.it",
+  "sitoUrl": "https://poliambulatoriocittadimedicina.it/",
+  "indirizzo": "Via del Canale, 32",
+  "cap": "40059",
+  "comune": "Medicina",
+  "provincia": "sesto-calende",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://poliambulatoriocittadimedicina.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

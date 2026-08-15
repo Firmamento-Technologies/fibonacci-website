@@ -1,1 +1,120 @@
-[]
+[
+ {
+  "dominio": "medicoestetico-cavallini.com",
+  "nome": "Dr. Alvise Cavallini",
+  "formaSocietaria": "",
+  "partitaIva": "03680590233",
+  "telefono": "+390458446600",
+  "email": "",
+  "sitoUrl": "https://www.medicoestetico-cavallini.com/",
+  "indirizzo": "Via San Giovanni Bosco 24",
+  "cap": "36015",
+  "comune": "Schio",
+  "provincia": "verona",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alvise Cavallini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicoestetico-cavallini.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alvise Cavallini, cognome dentro il dominio"
+ },
+ {
+  "dominio": "poliambulatorioiucopilla.it",
+  "nome": "Visite Specialistiche: Ecografie, Visite Sportive| San Martino Buon Al",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04589770231",
+  "telefono": "+390452426477",
+  "email": "info@poliambulatorioiucopilla.it",
+  "sitoUrl": "https://poliambulatorioiucopilla.it/",
+  "indirizzo": "Via Archimede 10",
+  "cap": "37036",
+  "comune": "San",
+  "provincia": "verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatorioiucopilla.it/",
+   "https://poliambulatorioiucopilla.it/contatti",
+   "https://poliambulatorioiucopilla.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodaloja.it",
+  "nome": "Poliambulatorio a Negrar",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03472660236",
+  "telefono": "+390457501263",
+  "email": "info@studiodaloja.it",
+  "sitoUrl": "https://studiodaloja.it/",
+  "indirizzo": "Via Torino, 30",
+  "cap": "37024",
+  "comune": "Negrar",
+  "provincia": "verona",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiodaloja.it/",
+   "https://studiodaloja.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "victoriamedicalcenters.com",
+  "nome": "Victoriaacademyclinic",
+  "formaSocietaria": "",
+  "partitaIva": "04841070230",
+  "telefono": "",
+  "email": "info@victoriamedicalcenters.com",
+  "sitoUrl": "https://www.victoriaacademyclinic.com/",
+  "indirizzo": "Via Germania 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "verona",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.victoriaacademyclinic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

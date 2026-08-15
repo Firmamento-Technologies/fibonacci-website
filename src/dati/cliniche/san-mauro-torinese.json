@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "cms-genesi.com",
+  "nome": "Centro Medico Specialistico a San Mauro Torinese",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12005740019",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cms-genesi.com/",
+  "indirizzo": "Via Domodossola 10",
+  "cap": "10099",
+  "comune": "San",
+  "provincia": "san-mauro-torinese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://cms-genesi.com/",
+   "https://cms-genesi.com/contatti/",
+   "https://cms-genesi.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gliangelidelsole.it",
+  "nome": "Centro estetico Gli Angeli del Sole",
+  "formaSocietaria": "SNC",
+  "partitaIva": "10302590012",
+  "telefono": "+390113742651",
+  "email": "",
+  "sitoUrl": "https://www.gliangelidelsole.it/",
+  "indirizzo": "Via Martiri della Libertà 145",
+  "cap": "10099",
+  "comune": "San",
+  "provincia": "san-mauro-torinese",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.gliangelidelsole.it/",
+   "https://www.gliangelidelsole.it/contatti/",
+   "https://www.gliangelidelsole.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

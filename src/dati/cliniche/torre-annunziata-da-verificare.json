@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "andreamammola.it",
+  "nome": "Studio Dentistico Dott. Andrea Mammola",
+  "formaSocietaria": "",
+  "partitaIva": "07969881213",
+  "telefono": "",
+  "email": "info@andreamammola.it",
+  "sitoUrl": "https://www.andreamammola.it/",
+  "indirizzo": "",
+  "cap": "80058",
+  "comune": "Torre",
+  "provincia": "torre-annunziata",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.andreamammola.it/",
+   "https://www.andreamammola.it/contatti/",
+   "https://www.andreamammola.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

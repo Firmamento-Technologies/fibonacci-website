@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "drsaracalabrese.com",
+  "nome": "Dott.ssa Sara Calabrese",
+  "formaSocietaria": "",
+  "partitaIva": "03230810800",
+  "telefono": "+390550938589",
+  "email": "",
+  "sitoUrl": "https://www.drsaracalabrese.com/",
+  "indirizzo": "Via Alessandro Stradella 14",
+  "cap": "50127",
+  "comune": "Firenze",
+  "provincia": "pontassieve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Sara Calabrese, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drsaracalabrese.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sara Calabrese, cognome dentro il dominio"
+ }
+]

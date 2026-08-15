@@ -26,5 +26,30 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiepion.it",
+  "nome": "Studi medici Epion centro cefalee, elettromiografia, agopuntura, Neuro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393668787007",
+  "email": "info@studiepion.it",
+  "sitoUrl": "https://www.studiepion.it/",
+  "indirizzo": "Strada Provinciale 45",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiepion.it/",
+   "https://www.studiepion.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

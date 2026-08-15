@@ -1,5 +1,60 @@
 [
  {
+  "dominio": "accademialilianapaduano.it",
+  "nome": "Scuola Estetica Napoli",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06980361213",
+  "telefono": "+3908119090513",
+  "email": "info@accademialilianapaduano.it",
+  "sitoUrl": "https://www.accademialilianapaduano.it/",
+  "indirizzo": "C.so Arnaldo Lucci, 156",
+  "cap": "80142",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.accademialilianapaduano.it/",
+   "https://www.accademialilianapaduano.it/contatti/",
+   "https://www.accademialilianapaduano.it/contatta-il-nostro-ufficio-di-collocamento/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "accadiomed.it",
+  "nome": "Accadiomed Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "08984901218",
+  "telefono": "+393270011178",
+  "email": "",
+  "sitoUrl": "https://accadiomed.it/",
+  "indirizzo": "Piazza Amedeo, 8",
+  "cap": "80121",
+  "comune": "Accademia",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://accadiomed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "adrianosantorelli.it",
   "nome": "Chirurgo Plastico a Napoli",
   "formaSocietaria": "SRL",
@@ -120,6 +175,36 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Borriello, e il dominio lo ripete"
  },
  {
+  "dominio": "alfredofonzone.org",
+  "nome": "Alfredo Fonzone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alfredofonzone.org/",
+  "indirizzo": "Via Vannella Gaetani 22",
+  "cap": "80121",
+  "comune": "NAPOLI",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alfredo Fonzone, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alfredofonzone.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Fonzone, e il dominio lo ripete"
+ },
+ {
   "dominio": "allavioletta.it",
   "nome": "Alla Violetta",
   "formaSocietaria": "SRL",
@@ -145,6 +230,35 @@
    "https://www.allavioletta.it/",
    "https://www.allavioletta.it/contattaci",
    "https://www.allavioletta.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "altaformazioneaims.it",
+  "nome": "Alta Formazione AIMS",
+  "formaSocietaria": "",
+  "partitaIva": "07625410720",
+  "telefono": "",
+  "email": "segreteria@altaformazioneaims.it",
+  "sitoUrl": "https://www.altaformazioneaims.it/",
+  "indirizzo": "Via Ettore Carafa n. 57",
+  "cap": "70124",
+  "comune": "Bari",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.altaformazioneaims.it/",
+   "https://www.altaformazioneaims.it/chi-siamo/",
+   "https://www.altaformazioneaims.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -209,6 +323,33 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ambrosanio Rosa, e il dominio lo ripete"
  },
  {
+  "dominio": "amohaviaomodeo.it",
+  "nome": "Amoha",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39327938999",
+  "email": "",
+  "sitoUrl": "https://www.amohaviaomodeo.it/",
+  "indirizzo": "Via Adolfo Omodeo 28",
+  "cap": "80128",
+  "comune": "NAPOLI",
+  "provincia": "na",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.amohaviaomodeo.it/",
+   "https://www.amohaviaomodeo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "angelagroger.it",
   "nome": "Prof.ssa Angela Groger",
   "formaSocietaria": "",
@@ -235,6 +376,40 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angela Groger, e il dominio lo ripete"
+ },
+ {
+  "dominio": "armandoscimone.it",
+  "nome": "Dott. Armando Scimone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@armandoscimone.it",
+  "sitoUrl": "https://www.armandoscimone.it/",
+  "indirizzo": "Via Giambattista Marino 7",
+  "cap": "80125",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Armando Scimone, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.armandoscimone.it/",
+   "https://www.armandoscimone.it/about/",
+   "https://www.armandoscimone.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Armando Scimone, e il dominio lo ripete"
  },
  {
   "dominio": "arturoamoroso.it",
@@ -299,6 +474,64 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "beautylifeandspa.com",
+  "nome": "Beautylife Estetica Avanzata",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "09877240961",
+  "telefono": "+39031483481",
+  "email": "",
+  "sitoUrl": "https://www.beautylifeandspa.com/",
+  "indirizzo": "Via Tevere Snc Interno piscine Sport+ T. 031",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.beautylifeandspa.com/",
+   "https://www.beautylifeandspa.com/contatti",
+   "https://www.beautylifeandspa.com/informativa-sulla-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cartagineclinic.it",
+  "nome": "Cartagine Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@cartagineclinic.it",
+  "sitoUrl": "https://www.cartagineclinic.it/",
+  "indirizzo": "Viale Antonio Gramsci, 24",
+  "cap": "80122",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.cartagineclinic.it/",
+   "https://www.cartagineclinic.it/about-us/",
+   "https://www.cartagineclinic.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroathenanapoli.it",
   "nome": "Centro Medico ed Estetico",
   "formaSocietaria": "",
@@ -322,6 +555,35 @@
    "https://www.centroathenanapoli.it/",
    "https://www.centroathenanapoli.it/chi-siamo/",
    "https://www.centroathenanapoli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrodep.com",
+  "nome": "Centro DEP",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10071941214",
+  "telefono": "+393518112572",
+  "email": "info@centrodep.com",
+  "sitoUrl": "https://www.centrodep.com/",
+  "indirizzo": "Via G. L. Bernini 76",
+  "cap": "80129",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrodep.com/",
+   "https://www.centrodep.com/contatti",
+   "https://www.centrodep.com/28-informativa_privacy"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -415,6 +677,63 @@
    "https://www.dermatologianapoli.it/",
    "https://www.dermatologianapoli.it/contatti/",
    "https://www.dermatologianapoli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottenricocalabrese.it",
+  "nome": "Dottor Enrico Calabrese Specialista Chirurgia Plastica e Medicina Este",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390243981352",
+  "email": "info@enka.it",
+  "sitoUrl": "https://www.dottenricocalabrese.it/",
+  "indirizzo": "Piazza De Angeli, 1",
+  "cap": "20146",
+  "comune": "Galleria",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Enrico Calabrese, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottenricocalabrese.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrico Calabrese, cognome dentro il dominio"
+ },
+ {
+  "dominio": "dottfrancescadeangelis.com",
+  "nome": "dottfrancescadeangelis.com",
+  "formaSocietaria": "",
+  "partitaIva": "07126371215",
+  "telefono": "+390812296074",
+  "email": "",
+  "sitoUrl": "https://www.dottfrancescadeangelis.com/",
+  "indirizzo": "Via Antonino D’Antona 20",
+  "cap": "80131",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dottfrancescadeangelis.com/",
+   "https://www.dottfrancescadeangelis.com/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -650,6 +969,37 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "elitemedical.it",
+  "nome": "Elite Medical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10164491218",
+  "telefono": "+393791125466",
+  "email": "info@elitemedical.it",
+  "sitoUrl": "https://www.elitemedical.it/",
+  "indirizzo": "Corso Umberto I, 381",
+  "cap": "80138",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.elitemedical.it/",
+   "https://www.elitemedical.it/contatti/",
+   "https://www.elitemedical.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "facebioma.com",
   "nome": "Facebioma",
   "formaSocietaria": "",
@@ -827,6 +1177,36 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "kimage.it",
+  "nome": "Kimage",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10096251219",
+  "telefono": "+390810422461",
+  "email": "info@kimage.it",
+  "sitoUrl": "https://kimage.it/",
+  "indirizzo": "Via Fratelli Rosselli, 25",
+  "cap": "80144",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://kimage.it/",
+   "https://kimage.it/contatti/",
+   "https://kimage.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "luigirugge.com",
   "nome": "Dr Luigi Rugge",
   "formaSocietaria": "",
@@ -853,6 +1233,34 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Rugge, e il dominio lo ripete"
+ },
+ {
+  "dominio": "madamestetica.com",
+  "nome": "Madame Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "16884101003",
+  "telefono": "+393334660660",
+  "email": "",
+  "sitoUrl": "https://www.madamestetica.com/",
+  "indirizzo": "Piazza Enrico Fermi 36",
+  "cap": "00146",
+  "comune": "Roma",
+  "provincia": "na",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.madamestetica.com/",
+   "https://www.madamestetica.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "marcomoraci.it",
@@ -917,6 +1325,32 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Monarca, e il dominio lo ripete"
+ },
+ {
+  "dominio": "massimo.delmese.net",
+  "nome": "POLITICAdeMENTE - Il blog di Massimo Del Mese",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ilrotoversi.com",
+  "sitoUrl": "https://www.massimo.delmese.net/",
+  "indirizzo": "Via Cavone, 23",
+  "cap": "84025",
+  "comune": "Eboli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.massimo.delmese.net/",
+   "https://www.massimo.delmese.net/contatti/",
+   "https://www.massimo.delmese.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "maurizioamato.com",
@@ -1141,6 +1575,30 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "napoli.bakeca.it",
+  "nome": "Bakeca a Napoli: la bacheca di annunci gratuiti, pubblica il tuo annun",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09239540017",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://napoli.bakeca.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://napoli.bakeca.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "ninaglowbeauty.skin",
   "nome": "Nina Glow Beauty Skin",
   "formaSocietaria": "",
@@ -1199,6 +1657,32 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ordinemedicinapoli.it",
+  "nome": "OMCeO Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ordinemedicinapoli.it/",
+  "indirizzo": "Via Riviera di Chiaia, 9",
+  "cap": "80122",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://ordinemedicinapoli.it/",
+   "https://ordinemedicinapoli.it/dove-siamo/",
+   "https://ordinemedicinapoli.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  },
  {
   "dominio": "pasqualeverolino.it",
@@ -1334,6 +1818,31 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Rauso, e il dominio lo ripete"
  },
  {
+  "dominio": "raffaellaannunziata.it",
+  "nome": "raffaellaannunziata.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@raffaellaannunziata.it",
+  "sitoUrl": "https://raffaellaannunziata.it/",
+  "indirizzo": "Via Petrarca 129",
+  "cap": "80122",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Raffaella Annunziata, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://raffaellaannunziata.it/",
+   "https://raffaellaannunziata.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaella Annunziata, e il dominio lo ripete"
+ },
+ {
   "dominio": "ragoclinic.it",
   "nome": "Rago Clinic",
   "formaSocietaria": "",
@@ -1359,6 +1868,62 @@
    "https://ragoclinic.it/",
    "https://ragoclinic.it/chi-siamo/",
    "https://ragoclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "reflowcenter.com",
+  "nome": "Reflow Center",
+  "formaSocietaria": "SAS",
+  "partitaIva": "07273851217",
+  "telefono": "+3908119108218",
+  "email": "info@reflowcenter.com",
+  "sitoUrl": "https://www.reflowcenter.com/",
+  "indirizzo": "Piazza Vittoria 10",
+  "cap": "80121",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.reflowcenter.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "regaclinic.it",
+  "nome": "Rega Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.regaclinic.it/",
+  "indirizzo": "Via Galileo Ferraris, 45",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.regaclinic.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -1393,6 +1958,97 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rosagiannatiempo.it",
+  "nome": "Rosagiannatiempo",
+  "formaSocietaria": "",
+  "partitaIva": "03775420650",
+  "telefono": "+393895253725",
+  "email": "",
+  "sitoUrl": "https://rosagiannatiempo.it/",
+  "indirizzo": "Via Barbarulo 111",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rosa Giannatiempo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://rosagiannatiempo.it/",
+   "https://rosagiannatiempo.it/contatti/",
+   "https://rosagiannatiempo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosa Giannatiempo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "santafarma.it",
+  "nome": "Santafarma",
+  "formaSocietaria": "",
+  "partitaIva": "08440610726",
+  "telefono": "+390000000000",
+  "email": "info@santafarma.it",
+  "sitoUrl": "https://www.santafarma.it/",
+  "indirizzo": "Corso Vittorio Emanuele II , 52",
+  "cap": "70122",
+  "comune": "Bari",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.santafarma.it/",
+   "https://www.santafarma.it/chi-siamo",
+   "https://www.santafarma.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "santorellibeautyhouse.it",
+  "nome": "Santorelli Beauty House",
+  "formaSocietaria": "",
+  "partitaIva": "06832501214",
+  "telefono": "+3908119138469",
+  "email": "segreteria@santorellibeautyhouse.it",
+  "sitoUrl": "https://www.santorellibeautyhouse.it/",
+  "indirizzo": "Via Morghen 88",
+  "cap": "80129",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Adriano Santorelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.santorellibeautyhouse.it/",
+   "https://www.santorellibeautyhouse.it/contatti/",
+   "https://www.santorellibeautyhouse.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriano Santorelli, cognome dentro il dominio"
  },
  {
   "dominio": "sergiomarlino.it",
@@ -1459,6 +2115,37 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "smeasnc.it",
+  "nome": "Smea Snc",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@smeasnc.it",
+  "sitoUrl": "https://www.smeasnc.it/",
+  "indirizzo": "",
+  "cap": "80127",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.smeasnc.it/",
+   "https://www.smeasnc.it/contatti-smea/",
+   "https://www.smeasnc.it/contatti-smea/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiodentisticocozzolino.it",
   "nome": "Dentista, parodontologo, implantologo",
   "formaSocietaria": "SRL",
@@ -1511,6 +2198,40 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicopolverino.it",
+  "nome": "Studio Polverino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393311517423",
+  "email": "info@studiomedicopolverino.it",
+  "sitoUrl": "https://www.studiomedicopolverino.it/",
+  "indirizzo": "Via Luca Giordano n.92",
+  "cap": "80129",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Walter Polverino, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiomedicopolverino.it/",
+   "https://www.studiomedicopolverino.it/chi-siamo/",
+   "https://www.studiomedicopolverino.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Polverino, cognome dentro il dominio"
  },
  {
   "dominio": "treatwell.it",
@@ -1599,6 +2320,36 @@
    "https://veresis.it/",
    "https://veresis.it/privacy-policy/",
    "https://veresis.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "whitebeautyclinic.com",
+  "nome": "Chirurgia Plastica, Estetica e Medicina ⋆ White Beauty Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390810117590",
+  "email": "info@whitebeautyclinic.com",
+  "sitoUrl": "https://www.whitebeautyclinic.com/",
+  "indirizzo": "Via Santa Lucia n°34",
+  "cap": "80132",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.whitebeautyclinic.com/",
+   "https://www.whitebeautyclinic.com/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

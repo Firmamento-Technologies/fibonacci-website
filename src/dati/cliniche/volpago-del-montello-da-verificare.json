@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "naturaestetica.it",
+  "nome": "Estetica Natura",
+  "formaSocietaria": "",
+  "partitaIva": "03464450265",
+  "telefono": "+390423622074",
+  "email": "",
+  "sitoUrl": "https://naturaestetica.it/",
+  "indirizzo": "Via Montello 6",
+  "cap": "31040",
+  "comune": "Venegazzù",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://naturaestetica.it/",
+   "https://naturaestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "villasalaria.com",
+  "nome": "Casa di Cura Privata Villa Salaria Hospital",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@villasalaria.com",
+  "sitoUrl": "https://villasalaria.com/",
+  "indirizzo": "Via Filippo Antonio Gualterio, 127",
+  "cap": "00139",
+  "comune": "Roma",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://villasalaria.com/",
+   "https://villasalaria.com/chi-siamo/",
+   "https://villasalaria.com/contatti-e-recapiti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

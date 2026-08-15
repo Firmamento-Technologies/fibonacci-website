@@ -53,6 +53,31 @@
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  },
  {
+  "dominio": "darsenamed.it",
+  "nome": "Darsenamed",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@darsenamed.it",
+  "sitoUrl": "https://darsenamed.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://darsenamed.it/",
+   "https://darsenamed.it/Contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticabebeauty.it",
   "nome": "Estetista Fiumicino",
   "formaSocietaria": "",
@@ -75,6 +100,36 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "ldbmedicinaestetica.com",
+  "nome": "Medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390686874199",
+  "email": "info@medicalcenterldb.it",
+  "sitoUrl": "https://www.ldbmedicinaestetica.com/",
+  "indirizzo": "Via Giulio Romano, 77",
+  "cap": "00054",
+  "comune": "Fiumicino",
+  "provincia": "fiumicino",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ldbmedicinaestetica.com/",
+   "https://www.ldbmedicinaestetica.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "obstudio.it",

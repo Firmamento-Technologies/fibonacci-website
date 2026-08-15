@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "studiomedicorosatese.it",
+  "nome": "Studio Medico Rosatese",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "10320790966",
+  "telefono": "+390290849387",
+  "email": "info@studiomedicorosatese.it",
+  "sitoUrl": "https://studiomedicorosatese.it/",
+  "indirizzo": "Vicolo Costa 2",
+  "cap": "32597",
+  "comune": "",
+  "provincia": "rosa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiomedicorosatese.it/",
+   "https://studiomedicorosatese.it/studio-medico-rosatese-dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

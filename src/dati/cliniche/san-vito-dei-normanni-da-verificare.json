@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "centrosalutedonnaebambino.it",
+  "nome": "Studio medico san vito al tagliamento​",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03108710306",
+  "telefono": "+390434043883",
+  "email": "info@csdeb.it",
+  "sitoUrl": "https://centrosalutedonnaebambino.it/",
+  "indirizzo": "via Pantaleoni 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-vito-dei-normanni",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centrosalutedonnaebambino.it/",
+   "https://centrosalutedonnaebambino.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esamedica.com",
+  "nome": "Esamedica: Studio medico a tua disposizione",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393341920208",
+  "email": "",
+  "sitoUrl": "https://www.esamedica.com/",
+  "indirizzo": "Via Fra' Giacomo 22",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-vito-dei-normanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esamedica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriocerea.it",
+  "nome": "Ambulatorio visite mediche cerea San Vito",
+  "formaSocietaria": "",
+  "partitaIva": "04394870234",
+  "telefono": "",
+  "email": "info@poliambulatoriocerea.it",
+  "sitoUrl": "https://www.poliambulatoriocerea.it/",
+  "indirizzo": "Via Alfieri 3",
+  "cap": "37053",
+  "comune": "Cerea",
+  "provincia": "san-vito-dei-normanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriocerea.it/",
+   "https://www.poliambulatoriocerea.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

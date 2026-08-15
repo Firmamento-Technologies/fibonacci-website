@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "centrodellasalute.it",
+  "nome": "Centro della Salute di Spilamberto",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02475740367",
+  "telefono": "+39059785522",
+  "email": "info@centrodellasalute.it",
+  "sitoUrl": "https://www.centrodellasalute.it/",
+  "indirizzo": "via De Gasperi 7",
+  "cap": "41057",
+  "comune": "Spilamberto",
+  "provincia": "spilamberto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centrodellasalute.it/",
+   "https://www.centrodellasalute.it/chi-siamo/",
+   "https://www.centrodellasalute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticamarias.it",
+  "nome": "esteticamarias.it",
+  "formaSocietaria": "",
+  "partitaIva": "01553680362",
+  "telefono": "",
+  "email": "info@esteticamarias.it",
+  "sitoUrl": "https://esteticamarias.it/",
+  "indirizzo": "Via Vignolese, 9",
+  "cap": "41057",
+  "comune": "Spilamberto",
+  "provincia": "spilamberto",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamarias.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rebeccalaserbeauty.it",
+  "nome": "Centro Estetico e Salone di Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "03902980360",
+  "telefono": "+393667389806",
+  "email": "info@rebeccalaserbeauty.it",
+  "sitoUrl": "https://www.rebeccalaserbeauty.it/",
+  "indirizzo": "Via Modenese, 240",
+  "cap": "",
+  "comune": "",
+  "provincia": "spilamberto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.rebeccalaserbeauty.it/",
+   "https://www.rebeccalaserbeauty.it/chi-siamo/",
+   "https://www.rebeccalaserbeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "larosedelabeaute.it",
+  "nome": "Centro Estetico Villaricca La Rose de la Beautè",
+  "formaSocietaria": "",
+  "partitaIva": "06877231214",
+  "telefono": "",
+  "email": "info@larosedelabeaute.it",
+  "sitoUrl": "https://larosedelabeaute.it/",
+  "indirizzo": "Via Enrico Fermi 30",
+  "cap": "80010",
+  "comune": "Villaricca",
+  "provincia": "villaricca",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://larosedelabeaute.it/",
+   "https://larosedelabeaute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

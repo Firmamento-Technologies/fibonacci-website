@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "fabiodontoiatria.it",
+  "nome": "Fabi Odontoiatria: Il Tuo Dentista A Sora",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390776814980",
+  "email": "",
+  "sitoUrl": "https://www.fabiodontoiatria.it/",
+  "indirizzo": "Via Carpine 18",
+  "cap": "03039",
+  "comune": "Sora",
+  "provincia": "sora",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fabiodontoiatria.it/",
+   "https://www.fabiodontoiatria.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "reddit.com",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ }
+]

@@ -1,0 +1,105 @@
+[
+ {
+  "dominio": "centroesteticocurella.it",
+  "nome": "Lina Curella",
+  "formaSocietaria": "",
+  "partitaIva": "01519130841",
+  "telefono": "+390922635533",
+  "email": "",
+  "sitoUrl": "https://centroesteticocurella.it/",
+  "indirizzo": "Via Palermo 3",
+  "cap": "92014",
+  "comune": "Porto",
+  "provincia": "porto-empedocle",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticocurella.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centrofisioterapicoempedocle.it",
+  "nome": "Centro Fisioterapico Empedocle",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390922633703",
+  "email": "prenotazioni@centrofisioterapicoempedocle.it",
+  "sitoUrl": "https://centrofisioterapicoempedocle.it/",
+  "indirizzo": "",
+  "cap": "92014",
+  "comune": "Porto",
+  "provincia": "porto-empedocle",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centrofisioterapicoempedocle.it/",
+   "https://centrofisioterapicoempedocle.it/contatti/",
+   "https://centrofisioterapicoempedocle.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "porto-empedocle.guidasicilia.it",
+  "nome": "L'isola attorno a te",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06159150827",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://porto-empedocle.guidasicilia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "porto-empedocle",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://porto-empedocle.guidasicilia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiocarmelorizzo.it",
+  "nome": "Chirurgia orale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390922637310",
+  "email": "",
+  "sitoUrl": "https://www.studiocarmelorizzo.it/",
+  "indirizzo": "via F.sco Crispi 54",
+  "cap": "92014",
+  "comune": "Porto",
+  "provincia": "porto-empedocle",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiocarmelorizzo.it/",
+   "https://www.studiocarmelorizzo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

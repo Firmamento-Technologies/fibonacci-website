@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "afolmet.it",
+  "nome": "Afol Metropolitana - Colleghiamo il lavoro",
+  "formaSocietaria": "",
+  "partitaIva": "08928300964",
+  "telefono": "",
+  "email": "segreteria@afolmet.it",
+  "sitoUrl": "https://afolmet.it/",
+  "indirizzo": "Via Luigi Soderini, 24",
+  "cap": "",
+  "comune": "",
+  "provincia": "paullo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://afolmet.it/",
+   "https://www.afolmet.it/contatti/",
+   "https://www.afolmet.it/contatti-formazione/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "laperlacentrobenessere.it",
+  "nome": "La Perla Centro Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393273249468",
+  "email": "info@laperlacentrobenessere.it",
+  "sitoUrl": "https://laperlacentrobenessere.it/",
+  "indirizzo": "Via G.Verdi, 22",
+  "cap": "20067",
+  "comune": "Paullo",
+  "provincia": "paullo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://laperlacentrobenessere.it/",
+   "https://laperlacentrobenessere.it/chi-siamo/",
+   "https://laperlacentrobenessere.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

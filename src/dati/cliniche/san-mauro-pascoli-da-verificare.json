@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "lesteticainprimopiano.it",
+  "nome": "Estetista San Mauro Pascoli",
+  "formaSocietaria": "",
+  "partitaIva": "04094880400",
+  "telefono": "+390541932131",
+  "email": "",
+  "sitoUrl": "https://www.lesteticainprimopiano.it/",
+  "indirizzo": "Via Giovanni Pascoli 34",
+  "cap": "47030",
+  "comune": "San",
+  "provincia": "san-mauro-pascoli",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lesteticainprimopiano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriobenessere.com",
+  "nome": "Poliambulatorio Obiettivo Benessere - San Mauro Pascoli",
+  "formaSocietaria": "",
+  "partitaIva": "03443580406",
+  "telefono": "+390541931312",
+  "email": "info@poliambulatoriobenessere.com",
+  "sitoUrl": "https://www.poliambulatoriobenessere.com/",
+  "indirizzo": "Via del Mulino, 12",
+  "cap": "47030",
+  "comune": "S",
+  "provincia": "san-mauro-pascoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriobenessere.com/",
+   "https://www.poliambulatoriobenessere.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "visitsanmauromare.it",
+  "nome": "San Mauro Mare: un mare di famiglia nella Riviera",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390541346392",
+  "email": "info@sanmauromare.net",
+  "sitoUrl": "https://visitsanmauromare.it/",
+  "indirizzo": "Via della Libertà,6",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-mauro-pascoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://visitsanmauromare.it/",
+   "https://visitsanmauromare.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

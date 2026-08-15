@@ -28,6 +28,62 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "centromedicocittadinardo.it",
+  "nome": "CENTRO MEDICO CITTA' DI NARDO'",
+  "formaSocietaria": "",
+  "partitaIva": "04828140758",
+  "telefono": "+390833872107",
+  "email": "info@effemmeweb.it",
+  "sitoUrl": "https://www.centromedicocittadinardo.it/",
+  "indirizzo": "Via Aldo Moro 21",
+  "cap": "73048",
+  "comune": "Nardò",
+  "provincia": "nardo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicocittadinardo.it/",
+   "https://www.centromedicocittadinardo.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mgmedica.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "05132340752",
+  "telefono": "+393762571565",
+  "email": "",
+  "sitoUrl": "https://www.mgmedica.it/",
+  "indirizzo": "Via Duca degli Abruzzi 61",
+  "cap": "",
+  "comune": "",
+  "provincia": "nardo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.mgmedica.it/",
+   "https://www.mgmedica.it/informativa-sulla-privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
   "dominio": "mormilemedical.it",
   "nome": "Medicina Estetica e Medicina del Lavoro a Lecce",
   "formaSocietaria": "",

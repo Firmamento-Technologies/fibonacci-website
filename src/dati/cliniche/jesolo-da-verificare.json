@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "cronoshare.it",
+  "nome": "Trova Professionisti di Fiducia e Confronta i Preventivi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.cronoshare.it/",
+  "indirizzo": "",
+  "cap": "46007",
+  "comune": "Valencia",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cronoshare.it/",
+   "https://www.cronoshare.it/chi-siamo",
+   "https://www.cronoshare.it/politica-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "farmaciainternazionalejesolo.it",
   "nome": "Farmacia Internazionale di Jesolo (Venezia)",
   "formaSocietaria": "",
@@ -21,7 +50,58 @@
    "https://farmaciainternazionalejesolo.it/contatti"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "infobel.com",
+  "nome": "Annuaire mondial des entreprises",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.infobel.com/fr/world",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "jesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.infobel.com/fr/world",
+   "https://www.infobel.com/Landing/About"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "salute.regione.veneto.it",
+  "nome": "Regione del Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "02392630279",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://salute.regione.veneto.it/",
+  "indirizzo": "Piazza Venezia n. 11",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "jesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://salute.regione.veneto.it/",
+   "https://salute.regione.veneto.it/fse-e-servizi-online/fascicolo-sanitario-elettronico-regionale/fse-informativa-privacy",
+   "https://salute.regione.veneto.it/informativa-privacy-0"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

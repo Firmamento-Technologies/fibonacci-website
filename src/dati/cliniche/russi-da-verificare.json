@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "centromedicocesarea.it",
+  "nome": "Centro medico polispecialistico a Genova",
+  "formaSocietaria": "",
+  "partitaIva": "02859030997",
+  "telefono": "+390108050026",
+  "email": "",
+  "sitoUrl": "https://centromedicocesarea.it/",
+  "indirizzo": "Via Ippolito d’Aste, 3",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "russi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedicocesarea.it/",
+   "https://centromedicocesarea.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "russianstyle.it",
+  "nome": "Russian Style Centro Estetico Legnano",
+  "formaSocietaria": "",
+  "partitaIva": "10467330964",
+  "telefono": "",
+  "email": "info.typecodedesign@gmail.com",
+  "sitoUrl": "https://russianstyle.it/",
+  "indirizzo": "via Emilia 15",
+  "cap": "",
+  "comune": "",
+  "provincia": "russi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://russianstyle.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "tippest.it",
+  "nome": "Coupon in Emilia Romagna, Marche e Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@tippest.it.",
+  "sitoUrl": "https://www.tippest.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "russi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.tippest.it/",
+   "https://www.tippest.it/chi-siamo",
+   "https://www.tippest.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "menu-digitale.org",
+  "nome": "Menù Digitale Personalizzato per Ristoranti e Bar",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393894347568",
+  "email": "",
+  "sitoUrl": "https://www.menu-digitale.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosolini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.menu-digitale.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

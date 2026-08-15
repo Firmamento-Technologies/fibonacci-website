@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "beautiq.it",
+  "nome": "Beautiq parrucchiere estetista Valenzano e Modugno, hairstyle centro e",
+  "formaSocietaria": "",
+  "partitaIva": "08331260722",
+  "telefono": "+393515226996",
+  "email": "info@beautiq.it",
+  "sitoUrl": "https://beautiq.it/",
+  "indirizzo": "via Sacharov 27",
+  "cap": "70010",
+  "comune": "",
+  "provincia": "valenzano",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://beautiq.it/",
+   "https://beautiq.it/dove-siamo-e-contatti/",
+   "https://beautiq.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticavalenzano.it",
+  "nome": "Home -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390114371175",
+  "email": "",
+  "sitoUrl": "https://www.esteticavalenzano.it/",
+  "indirizzo": "Via Cibrario, 62",
+  "cap": "",
+  "comune": "",
+  "provincia": "valenzano",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticavalenzano.it/",
+   "https://www.esteticavalenzano.it/chi-siamo/",
+   "https://www.esteticavalenzano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

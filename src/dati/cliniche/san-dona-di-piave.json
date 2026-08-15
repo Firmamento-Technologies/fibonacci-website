@@ -31,8 +31,8 @@
    "https://www.dermatologiamarconi.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Marconi, cognome dentro il dominio"
  },
  {
   "dominio": "metodostudio.com",

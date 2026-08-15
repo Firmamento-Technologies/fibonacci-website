@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "dmcbeauty.it",
+  "nome": "DMC Beauty Estetista Mantova",
+  "formaSocietaria": "",
+  "partitaIva": "02607190200",
+  "telefono": "+393467949911",
+  "email": "",
+  "sitoUrl": "https://www.dmcbeauty.it/",
+  "indirizzo": "via Bonomi, 28",
+  "cap": "46030",
+  "comune": "San",
+  "provincia": "san-giorgio-bigarello",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dmcbeauty.it/",
+   "https://www.dmcbeauty.it/contatti/",
+   "https://www.dmcbeauty.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sangiorgioservizi.mn.it",
+  "nome": "San Giorgio Servizi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@sangiorgioservizi.mn.it",
+  "sitoUrl": "https://sangiorgioservizi.mn.it/",
+  "indirizzo": "Piazza Madre Teresa di Calcutta, 6",
+  "cap": "46051",
+  "comune": "San",
+  "provincia": "san-giorgio-bigarello",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://sangiorgioservizi.mn.it/",
+   "https://sangiorgioservizi.mn.it/chi-siamo-mission/",
+   "https://sangiorgioservizi.mn.it/farmacia/contatti-farmacia/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

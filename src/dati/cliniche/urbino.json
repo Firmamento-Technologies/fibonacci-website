@@ -1,0 +1,111 @@
+[
+ {
+  "dominio": "colleverde-urbino.it",
+  "nome": "Hotel con SPA a Urbino · Colleverde Country House",
+  "formaSocietaria": "",
+  "partitaIva": "02705160410",
+  "telefono": "+390722339213",
+  "email": "info@colleverde-urbino.it",
+  "sitoUrl": "https://www.colleverde-urbino.it/",
+  "indirizzo": "Via Bocca Trabaria Ovest, 96",
+  "cap": "61029",
+  "comune": "Urbino",
+  "provincia": "urbino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.colleverde-urbino.it/",
+   "https://www.colleverde-urbino.it/colleverde-urbino/chi-siamo-dove-siamo-eco",
+   "https://www.colleverde-urbino.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticadany.it",
+  "nome": "Centro di benessere estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02008540417",
+  "telefono": "+3907224138",
+  "email": "",
+  "sitoUrl": "https://www.esteticadany.it/",
+  "indirizzo": "Via Francesco di Giorgio Martini, 42",
+  "cap": "61029",
+  "comune": "URBINO",
+  "provincia": "urbino",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticadany.it/",
+   "https://www.esteticadany.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "laboclinic.it",
+  "nome": "Laboclinic.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02541740060",
+  "telefono": "+39014381300",
+  "email": "prenotazioni@laboclinic.it",
+  "sitoUrl": "https://www.laboclinic.it/",
+  "indirizzo": "Via Carducci 13",
+  "cap": "15076",
+  "comune": "Ovada",
+  "provincia": "urbino",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.laboclinic.it/",
+   "https://www.laboclinic.it/chi-siamo/",
+   "https://www.laboclinic.it/visite-specialistiche/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medmontefeltro.it",
+  "nome": "Med Montefeltro, poliambulatorio medico Urbino",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02813860414",
+  "telefono": "+390722040430",
+  "email": "info@medmontefeltro.it",
+  "sitoUrl": "https://www.medmontefeltro.it/it",
+  "indirizzo": "via Giovan Battista Nini, 1",
+  "cap": "61029",
+  "comune": "Urbino",
+  "provincia": "urbino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medmontefeltro.it/it",
+   "https://www.medmontefeltro.it/it/contatti/",
+   "https://www.medmontefeltro.it/it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

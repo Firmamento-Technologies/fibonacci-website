@@ -52,8 +52,8 @@
    "https://www.dentistamenoni.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  },
  {
   "dominio": "paololisi.it",
@@ -83,8 +83,8 @@
    "https://www.paololisi.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  },
  {
   "dominio": "studiodentisticostoffella.it",
@@ -108,8 +108,8 @@
    "https://studiodentisticostoffella.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
-  "motivoEsclusione": ""
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Stoffella, cognome dentro il dominio"
  },
  {
   "dominio": "tecnomedcentridiagnostici.it",

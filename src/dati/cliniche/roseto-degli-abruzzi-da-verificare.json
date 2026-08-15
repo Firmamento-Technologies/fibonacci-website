@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "biorigeneralacademy.com",
+  "nome": "Corsi online di Medicina e Chirurgia estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390858943217",
+  "email": "",
+  "sitoUrl": "https://www.biorigeneralacademy.com/",
+  "indirizzo": "Via Salara 2",
+  "cap": "64026",
+  "comune": "Roseto",
+  "provincia": "roseto-degli-abruzzi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.biorigeneralacademy.com/",
+   "https://www.biorigeneralacademy.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottbiagiodigiuseppe.it",
+  "nome": "Dott. Biagio di Giuseppe",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dottbiagiodigiuseppe.it",
+  "sitoUrl": "https://www.dottbiagiodigiuseppe.it/",
+  "indirizzo": "Via Nazionale, 54",
+  "cap": "",
+  "comune": "",
+  "provincia": "roseto-degli-abruzzi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottbiagiodigiuseppe.it/",
+   "https://www.dottbiagiodigiuseppe.it/lo-studio/chi-siamo/",
+   "https://www.dottbiagiodigiuseppe.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

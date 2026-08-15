@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "polimedicaonline.it",
+  "nome": "• Poliambulatorio Medicina Integrata Specializzato Polimedica Trebasel",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00121080287",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.polimedicaonline.it/",
+  "indirizzo": "Via Enrico Fermi, 7",
+  "cap": "35010",
+  "comune": "Trebaseleghe",
+  "provincia": "trebaseleghe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.polimedicaonline.it/",
+   "https://www.polimedicaonline.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

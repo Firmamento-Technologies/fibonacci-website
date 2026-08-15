@@ -1,5 +1,88 @@
 [
  {
+  "dominio": "ambulatorio-pharma-medical.com",
+  "nome": "Pharma Medical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05844851005",
+  "telefono": "+39069640001",
+  "email": "",
+  "sitoUrl": "https://www.ambulatorio-pharma-medical.com/",
+  "indirizzo": "Via Lata, 251",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ambulatorio-pharma-medical.com/",
+   "https://www.ambulatorio-pharma-medical.com/contatti",
+   "https://www.ambulatorio-pharma-medical.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "artemisialabmedicinaestetica.it",
+  "nome": "Artemisia Lab Medicina Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10223111005",
+  "telefono": "+390644291367",
+  "email": "amministrazione@artemisialab.it",
+  "sitoUrl": "https://www.artemisialabmedicinaestetica.it/",
+  "indirizzo": "Via Velletri 10",
+  "cap": "06611",
+  "comune": "Instagram",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.artemisialabmedicinaestetica.it/",
+   "https://www.artemisialabmedicinaestetica.it/chi-siamo/",
+   "https://www.artemisialabmedicinaestetica.it/sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrodiagnosticoartemisio.it",
+  "nome": "Centro Diagnostico Artemisio",
+  "formaSocietaria": "",
+  "partitaIva": "12331271002",
+  "telefono": "+39069636106",
+  "email": "info@centrodiagnosticoartemisio.it",
+  "sitoUrl": "https://www.centrodiagnosticoartemisio.it/",
+  "indirizzo": "Piazza Giovanni Falcone, 2",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centrodiagnosticoartemisio.it/",
+   "https://www.centrodiagnosticoartemisio.it/contatti-centro-diagnostico-velletri/",
+   "https://www.centrodiagnosticoartemisio.it/contatti-centro-diagnostico-velletri/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroesteticovelletri.it",
   "nome": "Centro Estetico Beauty Lab Velletri",
   "formaSocietaria": "",
@@ -21,6 +104,32 @@
   "fonteUrl": [
    "https://centroesteticovelletri.it/",
    "https://centroesteticovelletri.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicamadonnadellegrazie.it",
+  "nome": "Casa di Cura Madonna delle Grazie",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02155411008",
+  "telefono": "+390696441655",
+  "email": "prenotazioni@clinicamdg.com",
+  "sitoUrl": "https://clinicamadonnadellegrazie.it/",
+  "indirizzo": "Viale Salvo d'Acquisto, 67",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicamadonnadellegrazie.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -54,6 +163,145 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fabriziosassi.it",
+  "nome": "Fabrizio Sassi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@fabriziosassi.it",
+  "sitoUrl": "https://fabriziosassi.it/",
+  "indirizzo": "Via Lata, 217",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Fabrizio Sassi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://fabriziosassi.it/",
+   "https://fabriziosassi.it/contatti",
+   "https://fabriziosassi.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Sassi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "poliambulatorioleonardovelletri.it",
+  "nome": "Poliambulatorio Leonardo",
+  "formaSocietaria": "",
+  "partitaIva": "17531671000",
+  "telefono": "+39069633862",
+  "email": "segreteria@poliambulatorioleonardovelletri.it",
+  "sitoUrl": "https://www.poliambulatorioleonardovelletri.it/",
+  "indirizzo": "Corso della Repubblica, 165",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatorioleonardovelletri.it/",
+   "https://www.poliambulatorioleonardovelletri.it/chi-siamo/",
+   "https://www.poliambulatorioleonardovelletri.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriomedicovelletri.it",
+  "nome": "Poliambulatorio Velletri",
+  "formaSocietaria": "SRL",
+  "partitaIva": "15318401006",
+  "telefono": "+390696155084",
+  "email": "prenotazioni@poliambulatoriosantamariavelletri.it",
+  "sitoUrl": "https://poliambulatoriomedicovelletri.it/",
+  "indirizzo": "Corso della Repubblica n. 125",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatoriomedicovelletri.it/",
+   "https://poliambulatoriomedicovelletri.it/privacy-policy/",
+   "https://poliambulatoriomedicovelletri.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriominerva.com",
+  "nome": "Poliambulatorio Specialistico Minerva Velletri",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03556341000",
+  "telefono": "+39069635554",
+  "email": "",
+  "sitoUrl": "https://poliambulatoriominerva.com/",
+  "indirizzo": "Piazza Metabo 8",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatoriominerva.com/",
+   "https://poliambulatoriominerva.com/it/contatti/",
+   "https://poliambulatoriominerva.com/it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicodottoressalucchesi.it",
+  "nome": "Trattamenti corpo, medicina e chirurgia estetica Velletri",
+  "formaSocietaria": "",
+  "partitaIva": "11326541007",
+  "telefono": "+393287109014",
+  "email": "",
+  "sitoUrl": "https://studiomedicodottoressalucchesi.it/",
+  "indirizzo": "",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Christiana Lucchesi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomedicodottoressalucchesi.it/",
+   "https://studiomedicodottoressalucchesi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Christiana Lucchesi, cognome dentro il dominio"
  },
  {
   "dominio": "vetrinelaziali.it",

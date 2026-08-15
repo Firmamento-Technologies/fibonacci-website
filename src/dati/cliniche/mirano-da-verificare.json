@@ -1,5 +1,64 @@
 [
  {
+  "dominio": "biomedichc.com",
+  "nome": "Apparecchi per Magnetoterapia",
+  "formaSocietaria": "",
+  "partitaIva": "04182830275",
+  "telefono": "+393921369577",
+  "email": "info@biomedichc.com",
+  "sitoUrl": "https://www.biomedichc.com/",
+  "indirizzo": "Via Scaltenigo, 20",
+  "cap": "30035",
+  "comune": "Mirano",
+  "provincia": "mirano",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.biomedichc.com/",
+   "https://www.biomedichc.com/chi-siamo/",
+   "https://www.biomedichc.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromodellamirano.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "estensi33.it",
+  "nome": "Poliambulatorio Comacchio • Estensi 33",
+  "formaSocietaria": "",
+  "partitaIva": "01979380381",
+  "telefono": "+390533761001",
+  "email": "segreteria@estensi33.it",
+  "sitoUrl": "https://www.estensi33.it/",
+  "indirizzo": "Via Don Mario Gipponi, 9",
+  "cap": "44022",
+  "comune": "Comacchio",
+  "provincia": "mirano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.estensi33.it/",
+   "https://www.estensi33.it/contatti/",
+   "https://www.estensi33.it/centro-privacy-gdpr/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "waze.com",
   "nome": "Driving directions, live traffic & road conditions updates",
   "formaSocietaria": "",

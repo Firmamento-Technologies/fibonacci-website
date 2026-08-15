@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "centromedex.it",
+  "nome": "Centro Medex",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390832781806",
+  "email": "info@centromedex.it",
+  "sitoUrl": "https://www.centromedex.it/",
+  "indirizzo": "Via Campi, 168",
+  "cap": "73018",
+  "comune": "Squinzano",
+  "provincia": "squinzano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedex.it/",
+   "https://centromedex.it/contatti/",
+   "https://centromedex.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "tdfbenessere.it",
+  "nome": "TDF Benessere Squinzano (LE)",
+  "formaSocietaria": "",
+  "partitaIva": "05157750752",
+  "telefono": "+393928529796",
+  "email": "",
+  "sitoUrl": "https://www.tdfbenessere.it/",
+  "indirizzo": "",
+  "cap": "73018",
+  "comune": "SQUINZANO",
+  "provincia": "squinzano",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tdfbenessere.it/",
+   "https://www.tdfbenessere.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

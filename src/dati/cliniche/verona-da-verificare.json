@@ -22,5 +22,63 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sarazecchetto.it",
+  "nome": "Trattamenti estetici, depilazione laser e interventi anti-aging Verona",
+  "formaSocietaria": "",
+  "partitaIva": "04770030239",
+  "telefono": "+393404663103",
+  "email": "",
+  "sitoUrl": "https://www.sarazecchetto.it/",
+  "indirizzo": "Piazza del Popolo n° 16",
+  "cap": "37132",
+  "comune": "Verona",
+  "provincia": "verona",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sarazecchetto.it/",
+   "https://www.sarazecchetto.it/privacy-policy/",
+   "https://www.sarazecchetto.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticodonev.it",
+  "nome": "Dentista a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticodonev.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticodonev.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

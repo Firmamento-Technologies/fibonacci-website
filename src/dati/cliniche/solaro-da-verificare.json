@@ -1,0 +1,7 @@
+[
+ {
+  "dominio": "comune.solaro.mi.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ }
+]

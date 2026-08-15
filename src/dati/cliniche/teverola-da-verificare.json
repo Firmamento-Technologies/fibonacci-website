@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "tuttoperlestetica.com",
+  "nome": "Prodotti online per estetiste centri estetici parrucchieri",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08513071210",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tuttoperlestetica.com/",
+  "indirizzo": "",
+  "cap": "81032",
+  "comune": "Carinaro",
+  "provincia": "teverola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.tuttoperlestetica.com/",
+   "https://www.tuttoperlestetica.com/categoria/sedie-da-taglio-bambino/",
+   "https://www.tuttoperlestetica.com/prodotto/sedia-per-estetista/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

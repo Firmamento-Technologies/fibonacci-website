@@ -25,5 +25,97 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgoplastico-bufanoloredana.com",
+  "nome": "Dott.ssa Loredana Bufano",
+  "formaSocietaria": "",
+  "partitaIva": "08108580724",
+  "telefono": "+390809996694",
+  "email": "",
+  "sitoUrl": "https://www.chirurgoplastico-bufanoloredana.com/",
+  "indirizzo": "Via Santa Lucia Filippini 11",
+  "cap": "70032",
+  "comune": "Bitonto",
+  "provincia": "bitonto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Loredana Bufano, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.chirurgoplastico-bufanoloredana.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Loredana Bufano, cognome dentro il dominio"
+ },
+ {
+  "dominio": "loredanabufano.it",
+  "nome": "Chirurgia e medicina estetica a Bitonto (Bari)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390809996694",
+  "email": "",
+  "sitoUrl": "https://www.loredanabufano.it/",
+  "indirizzo": "Via Santa Lucia Filippini, 11",
+  "cap": "70032",
+  "comune": "Bitonto",
+  "provincia": "bitonto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Loredana Bufano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.loredanabufano.it/",
+   "https://www.loredanabufano.it/chi-siamo/",
+   "https://www.loredanabufano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Loredana Bufano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "therapia.it",
+  "nome": "Therapia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07409920720",
+  "telefono": "+390803718708",
+  "email": "",
+  "sitoUrl": "https://therapia.it/",
+  "indirizzo": "Via Rodolfo Redi, 3",
+  "cap": "70032",
+  "comune": "BITONTO",
+  "provincia": "bitonto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://therapia.it/",
+   "https://therapia.it/contatti/",
+   "https://therapia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

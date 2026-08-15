@@ -1,0 +1,50 @@
+[
+ {
+  "dominio": "gallinepadovane.it",
+  "nome": "Galline Padovane: il primo blog padovano al femminile. Di Cristina Pap",
+  "formaSocietaria": "",
+  "partitaIva": "05032550286",
+  "telefono": "",
+  "email": "info@gallinepadovane.it",
+  "sitoUrl": "https://www.gallinepadovane.it/",
+  "indirizzo": "via Acquapendente, 59",
+  "cap": "",
+  "comune": "",
+  "provincia": "piazzola-sul-brenta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.gallinepadovane.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "moovitapp.com",
+  "nome": "moovitapp.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://moovitapp.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "piazzola-sul-brenta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://moovitapp.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

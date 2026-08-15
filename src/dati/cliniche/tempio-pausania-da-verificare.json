@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "aslolbia.it",
+  "nome": "ASL Gallura",
+  "formaSocietaria": "",
+  "partitaIva": "02891650901",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aslgallura.it:443/",
+  "indirizzo": "Via Bazzoni Sircana n. 2",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "tempio-pausania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aslgallura.it:443/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

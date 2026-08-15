@@ -1,0 +1,110 @@
+[
+ {
+  "dominio": "brunobassetto.com",
+  "nome": "Dott. Bruno Bassetto",
+  "formaSocietaria": "",
+  "partitaIva": "01491830244",
+  "telefono": "+393388430807",
+  "email": "info@brunobassetto.com",
+  "sitoUrl": "https://www.brunobassetto.com/",
+  "indirizzo": "Piazza S. Rocco, 22",
+  "cap": "38057",
+  "comune": "Pergine",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Bruno Bassetto, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.brunobassetto.com/",
+   "https://www.brunobassetto.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bruno Bassetto, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centrodiesteticamedica.wordpress.com",
+  "nome": "Centro di Estetica Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centrodiesteticamedica.wordpress.com/",
+  "indirizzo": "via Rossi 7",
+  "cap": "37057",
+  "comune": "Pergine",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrodiesteticamedica.wordpress.com/",
+   "https://centrodiesteticamedica.wordpress.com/contatti-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticaessenzadelbenessere.it",
+  "nome": "Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390461534625",
+  "email": "",
+  "sitoUrl": "https://esteticaessenzadelbenessere.it/",
+  "indirizzo": "Via Regensburger, 102",
+  "cap": "38057",
+  "comune": "Pergine",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://esteticaessenzadelbenessere.it/",
+   "https://esteticaessenzadelbenessere.it/contatti/",
+   "https://esteticaessenzadelbenessere.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicosmeabiomed.it",
+  "nome": "SMEA Biomed",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393773102724",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicosmeabiomed.it/",
+  "indirizzo": "Piazza Municipio 4",
+  "cap": "38057",
+  "comune": "Pergine",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiomedicosmeabiomed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

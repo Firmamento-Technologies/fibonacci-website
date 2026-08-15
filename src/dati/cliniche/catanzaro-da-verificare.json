@@ -29,5 +29,33 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "patriziascerbocentroestetico.it",
+  "nome": "Cure estetiche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393391020460",
+  "email": "",
+  "sitoUrl": "https://www.patriziascerbocentroestetico.it/",
+  "indirizzo": "Via Lungomare 171",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.patriziascerbocentroestetico.it/",
+   "https://www.patriziascerbocentroestetico.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

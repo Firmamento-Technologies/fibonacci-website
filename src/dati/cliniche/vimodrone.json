@@ -1,0 +1,88 @@
+[
+ {
+  "dominio": "diagnosticamartesana.com",
+  "nome": "VMedical",
+  "formaSocietaria": "",
+  "partitaIva": "10362860966",
+  "telefono": "",
+  "email": "info@diagnosticamartesana.com",
+  "sitoUrl": "https://www.diagnosticamartesana.com/",
+  "indirizzo": "Strada Padana Superiore, 317",
+  "cap": "20055",
+  "comune": "Vimodrone",
+  "provincia": "vimodrone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.diagnosticamartesana.com/",
+   "https://www.diagnosticamartesana.com/privacy-policy-2022/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ethically.it",
+  "nome": "Centro medico polispecialistico a Vimodrone",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08827420962",
+  "telefono": "+39022500856",
+  "email": "",
+  "sitoUrl": "https://ethically.it/?doing_wp_cron=1786813907.9275789260864257812500",
+  "indirizzo": "Via XI Febbraio, 25",
+  "cap": "20055",
+  "comune": "Vimodrone",
+  "provincia": "vimodrone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ethically.it/?doing_wp_cron=1786813907.9275789260864257812500",
+   "https://ethically.it/privacy/?doing_wp_cron=1786813909.6035180091857910156250",
+   "https://ethically.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ilariachiaranda.it",
+  "nome": "Dott.ssa Ilaria Chiaranda: Medicina e Chirurgia Estetica Vimodrone Mil",
+  "formaSocietaria": "",
+  "partitaIva": "08613590960",
+  "telefono": "+393356873432",
+  "email": "",
+  "sitoUrl": "https://www.ilariachiaranda.it/",
+  "indirizzo": "",
+  "cap": "20090",
+  "comune": "VIMODRONE",
+  "provincia": "vimodrone",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ilaria Chiaranda, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.ilariachiaranda.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Chiaranda, e il dominio lo ripete"
+ }
+]

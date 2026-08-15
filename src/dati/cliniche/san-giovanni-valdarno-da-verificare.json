@@ -1,0 +1,62 @@
+[
+ {
+  "dominio": "estetiqmed.it",
+  "nome": "Dr.ssa Cornelia Florea",
+  "formaSocietaria": "",
+  "partitaIva": "05212000482",
+  "telefono": "+39055952501",
+  "email": "",
+  "sitoUrl": "https://estetiqmed.it/",
+  "indirizzo": "Via Petrarca 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://estetiqmed.it/",
+   "https://estetiqmed.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "tricodramma.com",
+  "nome": "Dermatologia Tricologia e Medicina Estatica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390553984005",
+  "email": "",
+  "sitoUrl": "https://www.tricodramma.com/",
+  "indirizzo": "piazza Pasteur 35",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tricodramma.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

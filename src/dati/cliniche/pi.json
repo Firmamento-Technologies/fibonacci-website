@@ -117,6 +117,36 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "clinicasanminiato.com",
+  "nome": "Trattamenti odontoiatrici Firenze e Pisa",
+  "formaSocietaria": "",
+  "partitaIva": "02085880504",
+  "telefono": "+390571419072",
+  "email": "",
+  "sitoUrl": "https://www.clinicasanminiato.com/",
+  "indirizzo": "Via Ilaria Alpi, 2",
+  "cap": "56028",
+  "comune": "San",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicasanminiato.com/",
+   "https://www.clinicasanminiato.com/contatti/",
+   "https://www.clinicasanminiato.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dermacademy.it",
   "nome": "Dermacademy",
   "formaSocietaria": "SRL",
@@ -177,6 +207,39 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "drdanihanna.com",
+  "nome": "Dr. Dani HANNA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@drdanihanna.com",
+  "sitoUrl": "https://www.drdanihanna.com/it/",
+  "indirizzo": "Viale delle Cascine 152",
+  "cap": "56122",
+  "comune": "Pisa",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.drdanihanna.com/it/",
+   "https://www.drdanihanna.com/it/pisa/contatto"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "esculapiopisa.com",
   "nome": "Clinica Medica a Pisa",
   "formaSocietaria": "",
@@ -231,6 +294,65 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franca Tantussi, e il dominio lo ripete"
  },
  {
+  "dominio": "gianfrancoromeo.it",
+  "nome": "Dott. Gianfranco Romeo",
+  "formaSocietaria": "",
+  "partitaIva": "01905670509",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.gianfrancoromeo.it/",
+  "indirizzo": "Via Barsotti, 4",
+  "cap": "56017",
+  "comune": "San",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianfranco Romeo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.gianfrancoromeo.it/",
+   "https://www.gianfrancoromeo.it/policy-and-cookie-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianfranco Romeo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "moniafazzari.it",
+  "nome": "Studio dentistico a Roccastrada e Pisa: dentista Fazzari",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02251330508",
+  "telefono": "",
+  "email": "info@moniafazzari.it",
+  "sitoUrl": "https://www.moniafazzari.it/",
+  "indirizzo": "Via Massimo D'Azeglio, 20",
+  "cap": "",
+  "comune": "",
+  "provincia": "pi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Monia Fazzari, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.moniafazzari.it/",
+   "https://www.moniafazzari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Monia Fazzari, e il dominio lo ripete"
+ },
+ {
   "dominio": "mybeautyclinic.it",
   "nome": "My Beauty Clinic Pisa",
   "formaSocietaria": "",
@@ -259,5 +381,67 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "stefanosansevero.it",
+  "nome": "Chirurgo Plastico ed Estetico a Pisa, Lucca, Firenze",
+  "formaSocietaria": "",
+  "partitaIva": "01903060505",
+  "telefono": "+393298798601",
+  "email": "",
+  "sitoUrl": "https://www.stefanosansevero.it/",
+  "indirizzo": "Via Tosco Romagnola est 239",
+  "cap": "",
+  "comune": "",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Sansevero, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.stefanosansevero.it/",
+   "https://www.stefanosansevero.it/contatti",
+   "https://www.stefanosansevero.it/informativa-sulla-privacy-2"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Sansevero, e il dominio lo ripete"
+ },
+ {
+  "dominio": "studiomedicopisapia.it",
+  "nome": "Studio Medico Pisapia",
+  "formaSocietaria": "",
+  "partitaIva": "05757630586",
+  "telefono": "",
+  "email": "info@studiomedicopisapia.it",
+  "sitoUrl": "https://studiomedicopisapia.it/",
+  "indirizzo": "Via Giacomo Boni, 20",
+  "cap": "00162",
+  "comune": "Roma",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimo Pisapia, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomedicopisapia.it/",
+   "https://studiomedicopisapia.it/contatti/",
+   "https://studiomedicopisapia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Pisapia, cognome dentro il dominio"
  }
 ]

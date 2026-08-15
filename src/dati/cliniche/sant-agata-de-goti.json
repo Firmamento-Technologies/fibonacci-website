@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "centromedicomm.com",
+  "nome": "Centro Medico M&M",
+  "formaSocietaria": "",
+  "partitaIva": "03471940837",
+  "telefono": "+390941706085",
+  "email": "prenotazioni@centromedicomm.com",
+  "sitoUrl": "https://www.centromedicomm.com/",
+  "indirizzo": "Via Cernaia 23",
+  "cap": "",
+  "comune": "",
+  "provincia": "sant-agata-de-goti",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicomm.com/",
+   "https://www.centromedicomm.com/chi-siamo/",
+   "https://www.centromedicomm.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriosantagata.it",
+  "nome": "Poliambulatorio Sant'Agata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390303377339",
+  "email": "info@poliambulatoriosantagata.it",
+  "sitoUrl": "https://poliambulatoriosantagata.it/",
+  "indirizzo": "Largo Zanardelli, 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "sant-agata-de-goti",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://poliambulatoriosantagata.it/",
+   "https://poliambulatoriosantagata.it/chi-siamo/",
+   "https://poliambulatoriosantagata.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

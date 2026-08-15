@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "dermatologomattozzi.it",
+  "nome": "Dr. Carlo Mattozzi",
+  "formaSocietaria": "",
+  "partitaIva": "02448860813",
+  "telefono": "+393283435497",
+  "email": "info@dermatologomattozzi.it",
+  "sitoUrl": "https://www.dermatologomattozzi.it/",
+  "indirizzo": "Via Leonardo Centonze, 5",
+  "cap": "91022",
+  "comune": "Castelvetrano",
+  "provincia": "marsala",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carlo Mattozzi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologomattozzi.it/",
+   "https://www.dermatologomattozzi.it/contatti/",
+   "https://www.dermatologomattozzi.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Mattozzi, cognome dentro il dominio"
+ },
+ {
   "dominio": "galenosalute.it",
   "nome": "Galeno Salute - Ci prendiamo cura di te - Marsala (Trapani)",
   "formaSocietaria": "SRL",
@@ -48,6 +79,58 @@
    "https://www.medicalcentermarsala.it/",
    "https://www.medicalcentermarsala.it/chi-siamo/",
    "https://www.medicalcentermarsala.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "moranasalus.it",
+  "nome": "Poliambulatorio a Marsala (TP)",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02572390819",
+  "telefono": "+390923196135",
+  "email": "info@moranasalus.it",
+  "sitoUrl": "https://www.moranasalus.it/",
+  "indirizzo": "",
+  "cap": "91025",
+  "comune": "Marsala",
+  "provincia": "marsala",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.moranasalus.it/",
+   "https://www.moranasalus.it/dove-siamo",
+   "https://www.moranasalus.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "nicecosmetics.it",
+  "nome": "Nice Cosmetics Marsala",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393204566129",
+  "email": "",
+  "sitoUrl": "https://www.nicecosmetics.it/",
+  "indirizzo": "Via Giuseppe Verdi, 10",
+  "cap": "91025",
+  "comune": "Marsala",
+  "provincia": "marsala",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.nicecosmetics.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

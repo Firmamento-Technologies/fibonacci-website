@@ -1,0 +1,52 @@
+[
+ {
+  "dominio": "guidaservizi.fascicolo-sanitario.it",
+  "nome": "guidaservizi.fascicolo-sanitario.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://guidaservizi.fascicolo-sanitario.it/",
+  "indirizzo": "Viale Aldo Moro 52",
+  "cap": "40127",
+  "comune": "Bologna",
+  "provincia": "san-pietro-in-casale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://guidaservizi.fascicolo-sanitario.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ospedalesanpietro.it",
+  "nome": "Fatebenefratelli - Ospedale San Pietro",
+  "formaSocietaria": "",
+  "partitaIva": "00894591007",
+  "telefono": "+39064540182",
+  "email": "info@ospedalesanpietro.it",
+  "sitoUrl": "https://www.ospedalesanpietro.it/",
+  "indirizzo": "Via Cassia 600",
+  "cap": "00189",
+  "comune": "Roma",
+  "provincia": "san-pietro-in-casale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ospedalesanpietro.it/",
+   "https://www.ospedalesanpietro.it/chi-siamo/",
+   "https://www.ospedalesanpietro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

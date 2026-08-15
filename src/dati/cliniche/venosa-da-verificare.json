@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "centroesteticomeribell.it",
+  "nome": "Trattamenti antiage",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393391446013",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticomeribell.it/",
+  "indirizzo": "Via Turati Filippo, 27",
+  "cap": "85029",
+  "comune": "Venosa",
+  "provincia": "venosa",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticomeribell.it/",
+   "https://www.centroesteticomeribell.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lavidamedical.com",
+  "nome": "La Vida Medical",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lavidamedical.it",
+  "sitoUrl": "https://www.lavidamedical.com/",
+  "indirizzo": "",
+  "cap": "86039",
+  "comune": "Facebook-f",
+  "provincia": "venosa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.lavidamedical.com/",
+   "https://www.lavidamedical.com/chi-siamo/",
+   "https://www.lavidamedical.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

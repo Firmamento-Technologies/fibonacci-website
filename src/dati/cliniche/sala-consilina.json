@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "psalute.it",
+  "nome": "Punto Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@psalute.it",
+  "sitoUrl": "https://psalute.it/",
+  "indirizzo": "Via Trinità, 97",
+  "cap": "84036",
+  "comune": "Sala",
+  "provincia": "sala-consilina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://psalute.it/",
+   "https://psalute.it/chi-siamo/",
+   "https://psalute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "the-whitestudio.it",
+  "nome": "The White Studio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390975318180",
+  "email": "info@the-whitestudio.it",
+  "sitoUrl": "https://the-whitestudio.it/",
+  "indirizzo": "Via Trinità, 729",
+  "cap": "84036",
+  "comune": "Sala",
+  "provincia": "sala-consilina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://the-whitestudio.it/",
+   "https://www.the-whitestudio.it/about-us/",
+   "https://www.the-whitestudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vallopiu.it",
+  "nome": "Vallo Più",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "12722561003",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vallopiu.it/",
+  "indirizzo": "Via San Tommaso D'Aquino, 75",
+  "cap": "00136",
+  "comune": "Roma",
+  "provincia": "sala-consilina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://vallopiu.it/",
+   "https://vallopiu.it/privacy-policy/",
+   "https://vallopiu.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "centrodimedicinaesteticavesuviano.it",
+  "nome": "centrodimedicinaesteticavesuviano.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393333561925",
+  "email": "info@centrodimedicinaesteticavesuviano.it",
+  "sitoUrl": "https://www.centrodimedicinaesteticavesuviano.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "portici",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrodimedicinaesteticavesuviano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

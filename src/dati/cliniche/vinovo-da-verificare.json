@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "cmvinovo.it",
+  "nome": "CMV | Centro Medico Vinovo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05851050012",
+  "telefono": "+390119654064",
+  "email": "",
+  "sitoUrl": "https://www.cmvinovo.it/",
+  "indirizzo": "Via Cottolengo 135",
+  "cap": "10048",
+  "comune": "Chiamaci",
+  "provincia": "vinovo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cmvinovo.it/",
+   "https://www.cmvinovo.it/chi-siamo/",
+   "https://www.cmvinovo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticarosadeiventi.it",
+  "nome": "Centro Estetico Vinovo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticarosadeiventi.it/",
+  "indirizzo": "Via Guglielmo Marconi, 15",
+  "cap": "10048",
+  "comune": "Vinovo",
+  "provincia": "vinovo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticarosadeiventi.it/",
+   "https://esteticarosadeiventi.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lessenzaestetica.it",
+  "nome": "Essenza Estetica Vinovo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390110863316",
+  "email": "",
+  "sitoUrl": "https://www.lessenzaestetica.it/",
+  "indirizzo": "Corso Belgio, 7",
+  "cap": "10048",
+  "comune": "Vinovo",
+  "provincia": "vinovo",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lessenzaestetica.it/",
+   "https://www.lessenzaestetica.it/contatti/",
+   "https://www.lessenzaestetica.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

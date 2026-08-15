@@ -1,0 +1,106 @@
+[
+ {
+  "dominio": "canevari.it",
+  "nome": "Antinfortunistica online dal 1999",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02293630188",
+  "telefono": "",
+  "email": "info@canevari.it",
+  "sitoUrl": "https://www.canevari.it/",
+  "indirizzo": "Via Indipendenza, 4",
+  "cap": "27055",
+  "comune": "Rivanazzano Terme",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.canevari.it/",
+   "https://www.canevari.it/pagine/contattaci",
+   "https://www.canevari.it/sedie-da-lavoro/6327"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "celmade.co",
+  "nome": "Celmade",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://celmade.co/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "penne",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://celmade.co/",
+   "https://celmade.co/policies/privacy-policy",
+   "https://celmade.co/pages/about-celmade"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "informatore.info",
+  "nome": "L'Informatore giornale",
+  "formaSocietaria": "",
+  "partitaIva": "09783250963",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.informatore.info/",
+  "indirizzo": "Via Pompeo Cambiasi, 3",
+  "cap": "32013",
+  "comune": "Milano",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.informatore.info/",
+   "https://www.informatore.info/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mondoffice.com",
+  "nome": "Radware Bot Manager Captcha",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://validate.perfdrive.com/c47f386ea6df1cb108fc16f64f980fbc/?ssa=e155286d-e72c-40d4-9982-72365d4a192b&ssb=57304263965&ssc=https%3A%2F%2Fmondoffice.com%2F&ssi=e865251f-c69j-4369-99ef-c33429f23a6f&ssk=botmanager_support@radware.com&ssm=10851493384998948103182665437251&ssn=6bcace4e7c4b209c6c2fa23c294166b71632b2cf55c0-d692-435c-8f1497&sso=8d3d113c-befd3193cccc253b1468673600247fac5a754b24bc9899ef&ssp=60756361151786881968178688705165878&ssq=89634811577663934021915776946056360882225&ssr=MTA5LjExMy4xNTEuMTcz&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/140.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBiMmNmNTVjMC1kNjkyLTQzNWMtODEzYy1iZWZkMzE5M2NjY2MxLTE3ODY4MTU3NzY4NTcwLTAwNGViMmVlY2Y5YzQ2MzI0OTQxMCIsInJkIjoibW9uZG9mZmljZS5jb20iLCJ1em14IjoiN2ZjMDAwZmIwZDgzM2UtNDQ2Ni00MDNkLWJmZmQtNjc1ZTYxYWJjYTJiMS0xNzg2ODE1Nzc2ODU3MC0wMDA5YTY3MDE5YzljZjZlM2NjMTAifQ==",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://validate.perfdrive.com/c47f386ea6df1cb108fc16f64f980fbc/?ssa=e155286d-e72c-40d4-9982-72365d4a192b&ssb=57304263965&ssc=https%3A%2F%2Fmondoffice.com%2F&ssi=e865251f-c69j-4369-99ef-c33429f23a6f&ssk=botmanager_support@radware.com&ssm=10851493384998948103182665437251&ssn=6bcace4e7c4b209c6c2fa23c294166b71632b2cf55c0-d692-435c-8f1497&sso=8d3d113c-befd3193cccc253b1468673600247fac5a754b24bc9899ef&ssp=60756361151786881968178688705165878&ssq=89634811577663934021915776946056360882225&ssr=MTA5LjExMy4xNTEuMTcz&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/140.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBiMmNmNTVjMC1kNjkyLTQzNWMtODEzYy1iZWZkMzE5M2NjY2MxLTE3ODY4MTU3NzY4NTcwLTAwNGViMmVlY2Y5YzQ2MzI0OTQxMCIsInJkIjoibW9uZG9mZmljZS5jb20iLCJ1em14IjoiN2ZjMDAwZmIwZDgzM2UtNDQ2Ni00MDNkLWJmZmQtNjc1ZTYxYWJjYTJiMS0xNzg2ODE1Nzc2ODU3MC0wMDA5YTY3MDE5YzljZjZlM2NjMTAifQ=="
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

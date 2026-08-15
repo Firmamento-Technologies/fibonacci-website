@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "topphysio.it",
+  "nome": "Il miglior Fisioterapista, Fisiatra e Ortopedico per te!",
+  "formaSocietaria": "SRL",
+  "partitaIva": "17764941005",
+  "telefono": "+390636773677",
+  "email": "",
+  "sitoUrl": "https://www.topphysio.it/",
+  "indirizzo": "Via Francesco Saverio Nitti 11",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "villa-literno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.topphysio.it/",
+   "https://www.topphysio.it/chi-siamo/",
+   "https://www.topphysio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

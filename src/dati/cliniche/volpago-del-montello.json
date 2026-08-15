@@ -1,0 +1,105 @@
+[
+ {
+  "dominio": "geamedica.it",
+  "nome": "Poliambulatorio Gea Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390423603379",
+  "email": "segreteria@geamedica.it",
+  "sitoUrl": "https://geamedica.it/",
+  "indirizzo": "Via Montello 57",
+  "cap": "31044",
+  "comune": "Montebelluna",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://geamedica.it/",
+   "https://geamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gruppogolgi.it",
+  "nome": "Synlab Golgi Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "00577680176",
+  "telefono": "+390364532740",
+  "email": "info.boario@synlab.it",
+  "sitoUrl": "https://www.gruppogolgi.it/",
+  "indirizzo": "via A. De Gasperi 2b",
+  "cap": "25041",
+  "comune": "Darfo",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.gruppogolgi.it/",
+   "https://www.gruppogolgi.it/chi-siamo/about/",
+   "https://www.gruppogolgi.it/chi-siamo/i-progetti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriobenesseresrl.it",
+  "nome": "Poliambulatorio Benessere SRL a Darfo Boario Terme",
+  "formaSocietaria": "",
+  "partitaIva": "04162470985",
+  "telefono": "+390364536801",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriobenesseresrl.it/",
+  "indirizzo": "Via Manifattura, 29",
+  "cap": "25050",
+  "comune": "Darfo",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.poliambulatoriobenesseresrl.it/",
+   "https://www.poliambulatoriobenesseresrl.it/chi-siamo/",
+   "https://www.poliambulatoriobenesseresrl.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioradiologicoformello.it",
+  "nome": "Studio Radiologico e Polispecialistico Formello",
+  "formaSocietaria": "",
+  "partitaIva": "02917580587",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studioradiologicoformello.it/",
+  "indirizzo": "Via Castelli 1",
+  "cap": "00060",
+  "comune": "RM",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studioradiologicoformello.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

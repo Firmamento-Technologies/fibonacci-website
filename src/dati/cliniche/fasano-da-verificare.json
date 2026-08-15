@@ -25,5 +25,57 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "plasticaricostruttiva.com",
+  "nome": "Chirurgo plastico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39051555447",
+  "email": "",
+  "sitoUrl": "https://www.plasticaricostruttiva.com/",
+  "indirizzo": "Via Brugnoli, 5",
+  "cap": "40122",
+  "comune": "BOLOGNA",
+  "provincia": "fasano",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.plasticaricostruttiva.com/",
+   "https://www.plasticaricostruttiva.com/contatti",
+   "https://www.plasticaricostruttiva.com/contattifa69909f"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "polimedicafirst.com",
+  "nome": "NuovoSito",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://polimedicafirst.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fasano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://polimedicafirst.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "alliancemedical.it",
+  "nome": "Alliance Medical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12817841005",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alliancemedical.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "castelfranco-veneto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.alliancemedical.it/",
+   "https://www.alliancemedical.it/chi-siamo",
+   "https://www.alliancemedical.it/tutela-della-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "antoniodivincenzo.it",
   "nome": "Antonio di Vincenzo",
   "formaSocietaria": "",
@@ -20,6 +46,65 @@
    "https://antoniodivincenzo.it/",
    "https://antoniodivincenzo.it/contatti/",
    "https://antoniodivincenzo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medilive.net",
+  "nome": "MediLive.net",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medilive.net",
+  "sitoUrl": "https://medilive.net/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "castelfranco-veneto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://medilive.net/",
+   "https://medilive.net/about-medilive/",
+   "https://medilive.net/venezia-celebra-la-salute-femminile-allexcelsior-tre-giorni-di-confronto-con-i-grandi-esperti-di-about-the-woman/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "omedical.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiodentisticosimeoni.it",
+  "nome": "Studio Dentistico Simeoni",
+  "formaSocietaria": "",
+  "partitaIva": "02265910261",
+  "telefono": "+390423495112",
+  "email": "segreteria@studiodentisticosimeoni.it",
+  "sitoUrl": "https://studiodentisticosimeoni.it/",
+  "indirizzo": "Via Spagna 30",
+  "cap": "31033",
+  "comune": "Castelfranco",
+  "provincia": "castelfranco-veneto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticosimeoni.it/",
+   "https://studiodentisticosimeoni.it/contatti/",
+   "https://studiodentisticosimeoni.it/dichiarazione-sulla-privacy-ue/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

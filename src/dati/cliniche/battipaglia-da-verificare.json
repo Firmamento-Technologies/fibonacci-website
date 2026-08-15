@@ -1,1 +1,119 @@
-[]
+[
+ {
+  "dominio": "biosanitaslab.it",
+  "nome": "BioSanitas Lab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390828307915",
+  "email": "",
+  "sitoUrl": "https://www.biosanitaslab.it/",
+  "indirizzo": "Via Plava, 28",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.biosanitaslab.it/",
+   "https://www.biosanitaslab.it/about-us/",
+   "https://www.biosanitaslab.it/about-us/mission/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "emmedicinaestetica.com",
+  "nome": "EM Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393318421272",
+  "email": "info@emmedicinaestetica.com",
+  "sitoUrl": "https://www.emmedicinaestetica.com/",
+  "indirizzo": "Viale Brodolini 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.emmedicinaestetica.com/",
+   "https://www.emmedicinaestetica.com/contatti/",
+   "https://www.emmedicinaestetica.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiobattipaglia.com",
+  "nome": "Studio Battipaglia",
+  "formaSocietaria": "",
+  "partitaIva": "01185960620",
+  "telefono": "+393356677836",
+  "email": "info@studiobattipaglia.com",
+  "sitoUrl": "https://studiobattipaglia.com/",
+  "indirizzo": "Via Riviera di Chiaia 255",
+  "cap": "80121",
+  "comune": "Napoli",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiobattipaglia.com/",
+   "https://studiobattipaglia.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticosacco.it",
+  "nome": "Studio Dentistico Sacco Odontoiatria Chirurgia Maxillo-Facciale Salern",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiodentisticosacco.it",
+  "sitoUrl": "https://www.studiodentisticosacco.it/",
+  "indirizzo": "",
+  "cap": "20125",
+  "comune": "COMMENT",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticosacco.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

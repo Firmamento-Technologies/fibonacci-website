@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "ilfilo.net",
+  "nome": "Il Filo",
+  "formaSocietaria": "",
+  "partitaIva": "05160370481",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ilfilo.net/",
+  "indirizzo": "Corso Matteotti 231",
+  "cap": "50032",
+  "comune": "Borgo San",
+  "provincia": "scarperia-e-san-piero",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilfilo.net/",
+   "https://www.ilfilo.net/chi-siamo/",
+   "https://www.ilfilo.net/cookie-privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "misericordiasanpiero.it",
+  "nome": "Misericordia di San Piero a Sieve",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390558486613",
+  "email": "",
+  "sitoUrl": "https://www.misericordiasanpiero.it/",
+  "indirizzo": "Largo Antonio Frilli 1",
+  "cap": "50038",
+  "comune": "Scarperia",
+  "provincia": "scarperia-e-san-piero",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.misericordiasanpiero.it/",
+   "https://www.misericordiasanpiero.it/chi-siamo/",
+   "https://www.misericordiasanpiero.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "regione.toscana.it",
+  "nome": "Regione Toscana",
+  "formaSocietaria": "",
+  "partitaIva": "01386030488",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.regione.toscana.it/",
+  "indirizzo": "Piazza Duomo 10",
+  "cap": "50122",
+  "comune": "Firenze",
+  "provincia": "scarperia-e-san-piero",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.regione.toscana.it/",
+   "https://www.regione.toscana.it/note-legali",
+   "https://www.regione.toscana.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

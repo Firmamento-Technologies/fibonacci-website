@@ -1,0 +1,79 @@
+[
+ {
+  "dominio": "centromedicomartesana.it",
+  "nome": "Centro Medico Martesana, Medicina Generale e Specialistica.",
+  "formaSocietaria": "",
+  "partitaIva": "11549480967",
+  "telefono": "+393715290323",
+  "email": "info@centromedicomartesana.it",
+  "sitoUrl": "https://centromedicomartesana.it/",
+  "indirizzo": "via Cosmi, 2",
+  "cap": "20060",
+  "comune": "Basiano",
+  "provincia": "volpiano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centromedicomartesana.it/",
+   "https://centromedicomartesana.it/chi-siamo/",
+   "https://centromedicomartesana.it/chi-siamo/dottssa-silvia-marcuccitti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicoregis.it",
+  "nome": "Medici specialisti a Volpiano, TO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390119881383",
+  "email": "info@centromedicoregis.it",
+  "sitoUrl": "https://www.centromedicoregis.it/",
+  "indirizzo": "Via San Benigno 3",
+  "cap": "10088",
+  "comune": "Volpiano",
+  "provincia": "volpiano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicoregis.it/",
+   "https://www.centromedicoregis.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinica-santanna.it",
+  "nome": "Clinica Sant'Anna e CAM",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39012249177",
+  "email": "info@clinica-santanna.it",
+  "sitoUrl": "https://clinica-santanna.it/",
+  "indirizzo": "Via Walter Fontan, 115",
+  "cap": "10053",
+  "comune": "BUSSOLENO",
+  "provincia": "volpiano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinica-santanna.it/",
+   "https://clinica-santanna.it/chi-siamo/",
+   "https://clinica-santanna.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -32,6 +32,40 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "drnicolazingaretti.com",
+  "nome": "Dr. Nicola Zingaretti",
+  "formaSocietaria": "",
+  "partitaIva": "02953600307",
+  "telefono": "+393391190024",
+  "email": "",
+  "sitoUrl": "https://www.drnicolazingaretti.com/",
+  "indirizzo": "Via del Cotonificio, 129",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "udine",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nicola Zingaretti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drnicolazingaretti.com/",
+   "https://www.drnicolazingaretti.com/contatti",
+   "https://www.drnicolazingaretti.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Zingaretti, cognome dentro il dominio"
+ },
+ {
   "dominio": "enricazorzan.it",
   "nome": "Dott.ssa Zorzan: medico chirurgo specializzata in maxillo",
   "formaSocietaria": "",
@@ -92,5 +126,34 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rivilli.it",
+  "nome": "Dott. Marco Rivilli, chirurgo estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02791900307",
+  "telefono": "+393338382474",
+  "email": "info@rivilli.it",
+  "sitoUrl": "https://www.rivilli.it/",
+  "indirizzo": "via delle Ferriere 9",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "udine",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Rivilli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.rivilli.it/",
+   "https://www.rivilli.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Rivilli, cognome dentro il dominio"
  }
 ]

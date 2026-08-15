@@ -1,10 +1,57 @@
 [
  {
+  "dominio": "cupmedico.it",
+  "nome": "CupMedico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.cupmedico.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ostuni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cupmedico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "dorianaapruzzi.wixsite.com",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoSoggetto": "incerto",
-  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "educaweb.it",
+  "nome": "Educaweb.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.educaweb.it/",
+  "indirizzo": "",
+  "cap": "08029",
+  "comune": "Barcellona",
+  "provincia": "ostuni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.educaweb.it/",
+   "https://www.educaweb.it/sezioni/informazioni-generali/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "laperlabianca.it",
@@ -29,6 +76,30 @@
   "fonteUrl": [
    "https://laperlabianca.it/",
    "https://laperlabianca.it/CONTATTI"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "raicultura.it",
+  "nome": "Rai Cultura",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.raicultura.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ostuni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.raicultura.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

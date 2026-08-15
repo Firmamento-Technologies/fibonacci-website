@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "esteticamoretti.it",
+  "nome": "Estetica Moretti",
+  "formaSocietaria": "",
+  "partitaIva": "01809680430",
+  "telefono": "+393886078291",
+  "email": "info@esteticamoretti.com",
+  "sitoUrl": "https://www.esteticamoretti.it/",
+  "indirizzo": "Viale Giuseppe Mazzini 28",
+  "cap": "62027",
+  "comune": "San",
+  "provincia": "san-severino-marche",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticamoretti.it/",
+   "https://www.esteticamoretti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticaserenazagaglia.it",
+  "nome": "estetica serena zagaglia",
+  "formaSocietaria": "",
+  "partitaIva": "02100600432",
+  "telefono": "+393716435721",
+  "email": "",
+  "sitoUrl": "https://esteticaserenazagaglia.it/",
+  "indirizzo": "Viale della Resistenza, 63",
+  "cap": "62027",
+  "comune": "San",
+  "provincia": "san-severino-marche",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaserenazagaglia.it/",
+   "https://esteticaserenazagaglia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

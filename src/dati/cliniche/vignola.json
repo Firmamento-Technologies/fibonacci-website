@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "san-tommaso.it",
+  "nome": "Poliambulatorio Vignola e Modena provincia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39059774491",
+  "email": "segreteria@san-tommaso.it",
+  "sitoUrl": "https://www.san-tommaso.it/",
+  "indirizzo": "Via Bontempelli, 192",
+  "cap": "41058",
+  "comune": "VIGNOLA",
+  "provincia": "vignola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.san-tommaso.it/",
+   "https://www.san-tommaso.it/poliambulatorio-privato-vignola-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "semprepiulight.it",
+  "nome": "Centro Estetico e Medicina Estetica a Vignola",
+  "formaSocietaria": "SAS",
+  "partitaIva": "03531170367",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.semprepiulight.it/",
+  "indirizzo": "Via Enrico Caruso, 65",
+  "cap": "41058",
+  "comune": "Vignola",
+  "provincia": "vignola",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.semprepiulight.it/",
+   "https://www.semprepiulight.it/dove-siamo/",
+   "https://www.semprepiulight.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

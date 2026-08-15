@@ -1,0 +1,116 @@
+[
+ {
+  "dominio": "carlofidanza.com",
+  "nome": "Carlo Fidanza Chirurgo plastico a Monza, Lecco, Milano e Varese",
+  "formaSocietaria": "",
+  "partitaIva": "03011330127",
+  "telefono": "+390399194790",
+  "email": "info@carlofidanza.com",
+  "sitoUrl": "https://www.carlofidanza.com/",
+  "indirizzo": "Via Palladio 10",
+  "cap": "",
+  "comune": "",
+  "provincia": "villasanta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.carlofidanza.com/",
+   "https://www.carlofidanza.com/contatti/",
+   "https://www.carlofidanza.com/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrosaluteebellezza.com",
+  "nome": "Centro Salute e Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390392051748",
+  "email": "info@centrosaluteebellezza.com",
+  "sitoUrl": "https://centrosaluteebellezza.com/",
+  "indirizzo": "Via Tiziano Vecellio, 29",
+  "cap": "20852",
+  "comune": "Villasanta",
+  "provincia": "villasanta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrosaluteebellezza.com/",
+   "https://centrosaluteebellezza.com/chi-siamo/",
+   "https://centrosaluteebellezza.com/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "docsmile.it",
+  "nome": "DocSmile Studio medico dentistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02488170966",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.docsmile.it/",
+  "indirizzo": "Via Matteotti 19",
+  "cap": "20852",
+  "comune": "Villasanta",
+  "provincia": "villasanta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.docsmile.it/",
+   "https://www.docsmile.it/contatta-docsmile/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiomedicasrl.it",
+  "nome": "Fisiomedica Villasanta",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06815150963",
+  "telefono": "",
+  "email": "info@fisiomedicasrl.it",
+  "sitoUrl": "https://www.fisiomedicasrl.it/",
+  "indirizzo": "Via Matteotti, 19",
+  "cap": "20852",
+  "comune": "Villasanta",
+  "provincia": "villasanta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.fisiomedicasrl.it/",
+   "https://www.fisiomedicasrl.it/privacy/",
+   "https://www.fisiomedicasrl.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "leroymerlin.it",
+  "nome": "Giardinaggio, ristrutturazione, fai da te",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.leroymerlin.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "parete",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.leroymerlin.it/",
+   "https://www.leroymerlin.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

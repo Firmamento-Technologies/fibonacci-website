@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "brainybyte.it",
+  "nome": "BrainyByte",
+  "formaSocietaria": "",
+  "partitaIva": "05697390481",
+  "telefono": "+393357749731",
+  "email": "info@brainybyte.it.",
+  "sitoUrl": "https://www.brainybyte.it/",
+  "indirizzo": "Piazza della Libertà, 1",
+  "cap": "50065",
+  "comune": "Pontassieve",
+  "provincia": "pontassieve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.brainybyte.it/",
+   "https://www.brainybyte.it/contattaci/",
+   "https://www.brainybyte.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "crisalide-centroestetico.it",
+  "nome": "Centro Estetico Pontassieve",
+  "formaSocietaria": "",
+  "partitaIva": "06037730485",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://crisalide-centroestetico.it/",
+  "indirizzo": "Via G. Di Vittorio 27e",
+  "cap": "",
+  "comune": "",
+  "provincia": "pontassieve",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://crisalide-centroestetico.it/",
+   "https://crisalide-centroestetico.it/chi-siamo/",
+   "https://crisalide-centroestetico.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticagiuliachisci.it",
+  "nome": "Estetica Giulia di Chisci Giulia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390559337035",
+  "email": "info@esteticagiuliachisci.it",
+  "sitoUrl": "https://www.esteticagiuliachisci.it/",
+  "indirizzo": "Piazza Cesare Pavese, 43",
+  "cap": "50065",
+  "comune": "Pontassieve",
+  "provincia": "pontassieve",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticagiuliachisci.it/",
+   "https://www.esteticagiuliachisci.it/chi-siamo/",
+   "https://www.esteticagiuliachisci.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

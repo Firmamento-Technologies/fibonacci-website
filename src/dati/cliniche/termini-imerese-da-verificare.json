@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "loredanagatto.it",
+  "nome": "Chirurgia Plastica ed Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "05877630821",
+  "telefono": "+393714389692",
+  "email": "info@loredanagatto.it",
+  "sitoUrl": "https://www.loredanagatto.it/",
+  "indirizzo": "Via Gaetano Donizetti, 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "termini-imerese",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.loredanagatto.it/",
+   "https://www.loredanagatto.it/contatti/",
+   "https://www.loredanagatto.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

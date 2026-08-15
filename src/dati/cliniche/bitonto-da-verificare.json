@@ -28,6 +28,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "centroesteticoballabene.com",
+  "nome": "Trattamenti viso e corpo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390803717811",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoballabene.com/",
+  "indirizzo": "Via Pasquale Martucci Zecca 13",
+  "cap": "70032",
+  "comune": "Bitonto",
+  "provincia": "bitonto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticoballabene.com/",
+   "https://www.centroesteticoballabene.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
   "dominio": "centromedicosms.it",
   "nome": "Centro Medico SMS",
   "formaSocietaria": "SRL",
@@ -52,5 +80,33 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "relaxiabitonto.com",
+  "nome": "Relaxia",
+  "formaSocietaria": "",
+  "partitaIva": "07158570726",
+  "telefono": "+390803718475",
+  "email": "info@relaxiabitonto.it",
+  "sitoUrl": "https://relaxiabitonto.com/",
+  "indirizzo": "Via Alessandro Manzoni 6",
+  "cap": "70032",
+  "comune": "Bitonto",
+  "provincia": "bitonto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://relaxiabitonto.com/",
+   "https://relaxiabitonto.com/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

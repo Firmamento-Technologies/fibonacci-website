@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "ilmondodilara.it",
+  "nome": "Il Mondo di Lara Centro Estetico Sedico BL",
+  "formaSocietaria": "",
+  "partitaIva": "01089280257",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ilmondodilara.it/",
+  "indirizzo": "Piazza Martiri 23",
+  "cap": "32036",
+  "comune": "Sedico",
+  "provincia": "sedico",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilmondodilara.it/",
+   "https://www.ilmondodilara.it/contatti",
+   "https://www.ilmondodilara.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

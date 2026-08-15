@@ -17,15 +17,15 @@
   ],
   "dichiaraDirettoreSanitario": false,
   "dichiaraAutorizzazioneSanitaria": false,
-  "tipoSoggetto": "non_medico",
-  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://www.alteaestetica.it/",
    "https://www.alteaestetica.it/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "maps24.it",
@@ -48,7 +48,7 @@
    "https://maps24.it/"
   ],
   "lettoIl": "2026-08-15",
-  "escluso": false,
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {

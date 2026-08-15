@@ -1,0 +1,89 @@
+[
+ {
+  "dominio": "esteticaaliemm.it",
+  "nome": "Estetica Aliemm",
+  "formaSocietaria": "",
+  "partitaIva": "03073460275",
+  "telefono": "",
+  "email": "info@esteticaaliemm.it",
+  "sitoUrl": "https://www.esteticaaliemm.it/",
+  "indirizzo": "via Roma 150",
+  "cap": "30030",
+  "comune": "SALZANO",
+  "provincia": "salzano",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticaaliemm.it/",
+   "https://www.esteticaaliemm.it/Privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticacheri.100botteghe.it",
+  "nome": "Estetica Chèri",
+  "formaSocietaria": "",
+  "partitaIva": "04523910273",
+  "telefono": "+393515190621",
+  "email": "",
+  "sitoUrl": "https://www.esteticacheri.100botteghe.it/",
+  "indirizzo": "via A. Diaz, 1",
+  "cap": "30030",
+  "comune": "Salzano",
+  "provincia": "salzano",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticacheri.100botteghe.it/",
+   "https://www.esteticacheri.100botteghe.it/contatti/",
+   "https://www.esteticacheri.100botteghe.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "luciagiuliano.com",
+  "nome": "Ortodonzia e Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01706810700",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.luciagiuliano.com/",
+  "indirizzo": "Viale Paolo Galeati 28",
+  "cap": "",
+  "comune": "",
+  "provincia": "salzano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Lucia Giuliano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.luciagiuliano.com/",
+   "https://www.luciagiuliano.com/contatti/",
+   "https://www.luciagiuliano.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lucia Giuliano, e il dominio lo ripete"
+ }
+]

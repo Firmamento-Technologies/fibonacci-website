@@ -1,0 +1,79 @@
+[
+ {
+  "dominio": "carlacingolani.com",
+  "nome": "Home -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393297467614",
+  "email": "",
+  "sitoUrl": "https://carlacingolani.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-severino-marche",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Cingolani Carla, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://carlacingolani.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cingolani Carla, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centromedicoblugallery.it",
+  "nome": "Centro Medico BluGallery a San Severino Marche",
+  "formaSocietaria": "",
+  "partitaIva": "01723630438",
+  "telefono": "+390733639051",
+  "email": "info@centromedicoblugallery.it",
+  "sitoUrl": "https://centromedicoblugallery.it/",
+  "indirizzo": "Via F. Ferranti, 41",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-severino-marche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centromedicoblugallery.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "radiogold.tv",
+  "nome": "Radio Gold",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3907325541",
+  "email": "",
+  "sitoUrl": "https://www.radiogold.tv/",
+  "indirizzo": "via Berti 14",
+  "cap": "60044",
+  "comune": "FABRIANO",
+  "provincia": "san-severino-marche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.radiogold.tv/",
+   "https://www.radiogold.tv/chi-siamo/",
+   "https://www.radiogold.tv/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

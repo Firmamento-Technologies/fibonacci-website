@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "lelisirdellabellezza.it",
+  "nome": "Estetista",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390187622811",
+  "email": "",
+  "sitoUrl": "https://www.lelisirdellabellezza.it/",
+  "indirizzo": "Via Variante Aurelia, 66",
+  "cap": "19038",
+  "comune": "Sarzana",
+  "provincia": "sarzana",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lelisirdellabellezza.it/",
+   "https://www.lelisirdellabellezza.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

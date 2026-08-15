@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "fisiomedicalopera.it",
+  "nome": "Fisiomedical Opera",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fisiomedicalopera.it/",
+  "indirizzo": "Via Fratelli Bandiera,5",
+  "cap": "20073",
+  "comune": "Opera",
+  "provincia": "opera",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fisiomedicalopera.it/",
+   "https://www.fisiomedicalopera.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "umbra.it",
+  "nome": "Forniture per studi dentistici di qualità",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01713610549",
+  "telefono": "+39075506901",
+  "email": "info@umbra.it",
+  "sitoUrl": "https://umbra.it/",
+  "indirizzo": "Via Madonna Alta, 138",
+  "cap": "06128",
+  "comune": "Perugia",
+  "provincia": "opera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://umbra.it/",
+   "https://umbra.it/chi-siamo",
+   "https://umbra.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

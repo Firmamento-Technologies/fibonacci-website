@@ -1,1 +1,91 @@
-[]
+[
+ {
+  "dominio": "danieledandria.it",
+  "nome": "Daniele D'Andria",
+  "formaSocietaria": "",
+  "partitaIva": "12345678901",
+  "telefono": "+390664532961",
+  "email": "info@danieledandria.it",
+  "sitoUrl": "https://www.danieledandria.it/",
+  "indirizzo": "Via San Candido 68",
+  "cap": "00124",
+  "comune": "Roma",
+  "provincia": "andria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.danieledandria.it/",
+   "https://www.danieledandria.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalebeauty.it",
+  "nome": "medicalebeauty",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393929430218",
+  "email": "info@medicalebeauty.it",
+  "sitoUrl": "https://medicalebeauty.it/",
+  "indirizzo": "via Isonzo, 87",
+  "cap": "",
+  "comune": "",
+  "provincia": "andria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://medicalebeauty.it/",
+   "https://medicalebeauty.it/dove-siamo/",
+   "https://medicalebeauty.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalppm.it",
+  "nome": "Clinica di medicina estetica avanzata",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03942240924",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicalppm.it/",
+  "indirizzo": "Via Sabotino, 8",
+  "cap": "76123",
+  "comune": "Andria",
+  "provincia": "andria",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicalppm.it/",
+   "https://medicalppm.it/contatti/",
+   "https://medicalppm.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

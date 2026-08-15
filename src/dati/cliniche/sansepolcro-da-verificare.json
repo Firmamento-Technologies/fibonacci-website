@@ -1,0 +1,102 @@
+[
+ {
+  "dominio": "amatiprogettobellezza.it",
+  "nome": "Centro Estetico Sansepolcro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393517177412",
+  "email": "",
+  "sitoUrl": "https://www.amatiprogettobellezza.it/",
+  "indirizzo": "Viale Vittorio Veneto, 34",
+  "cap": "52037",
+  "comune": "Sansepolcro",
+  "provincia": "sansepolcro",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.amatiprogettobellezza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticagiuly.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390575742746",
+  "email": "",
+  "sitoUrl": "https://www.esteticagiuly.it/",
+  "indirizzo": "via XX Settembre 2",
+  "cap": "52037",
+  "comune": "SANSEPOLCRO",
+  "provincia": "sansepolcro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticagiuly.it/",
+   "https://www.esteticagiuly.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticaqueen.com",
+  "nome": "Estetica Queen",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393343349229",
+  "email": "",
+  "sitoUrl": "https://www.esteticaqueen.com/",
+  "indirizzo": "Via Alessandro Goracci, 9",
+  "cap": "52037",
+  "comune": "Sansepolcro",
+  "provincia": "sansepolcro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticaqueen.com/",
+   "https://www.esteticaqueen.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "tibermedica.it",
+  "nome": "TiberMedica",
+  "formaSocietaria": "",
+  "partitaIva": "01630570511",
+  "telefono": "+393286172233",
+  "email": "info@tibermedica.it",
+  "sitoUrl": "https://www.tibermedica.it/",
+  "indirizzo": "Via Montefeltro, 1",
+  "cap": "52037",
+  "comune": "SANSEPOLCRO",
+  "provincia": "sansepolcro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tibermedica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

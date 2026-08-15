@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "dominio": "asugi.sanita.fvg.it",
+  "nome": "Azienda sanitaria universitaria Giuliano Isontina (ASU GI)",
+  "formaSocietaria": "",
+  "partitaIva": "01337320327",
+  "telefono": "+390434223522",
+  "email": "",
+  "sitoUrl": "https://asugi.sanita.fvg.it/it/",
+  "indirizzo": "Via Costantino Costantinides, 2",
+  "cap": "34128",
+  "comune": "TRIESTE",
+  "provincia": "trieste",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://asugi.sanita.fvg.it/it/",
+   "https://asugi.sanita.fvg.it/it/schede/menu_azienda/vedi_anche/info_privacy.html",
+   "https://asugi.sanita.fvg.it/it/schede/menu_azienda/azienda_informa/contatti_principali.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

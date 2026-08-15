@@ -1,0 +1,109 @@
+[
+ {
+  "dominio": "centromedicomonterosa.it",
+  "nome": "Centro Medico Monterosa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390248001155",
+  "email": "info@centromedicomonterosa.it",
+  "sitoUrl": "https://centromedicomonterosa.it/",
+  "indirizzo": "Via Monte Rosa, 3",
+  "cap": "20149",
+  "comune": "MILANO",
+  "provincia": "rosa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedicomonterosa.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticagoldline.it",
+  "nome": "Estetica GoldLine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390424861239",
+  "email": "segreteria@esteticagoldline.it",
+  "sitoUrl": "https://esteticagoldline.it/",
+  "indirizzo": "Via Pasubio, 16",
+  "cap": "36027",
+  "comune": "Rosà",
+  "provincia": "rosa",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticagoldline.it/",
+   "https://esteticagoldline.it/contatti/",
+   "https://esteticagoldline.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "itamedpoliambulatorio.it",
+  "nome": "Poliambulatorio Itamed",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04535660247",
+  "telefono": "+390424236673",
+  "email": "info@itamedpoliambulatorio.it",
+  "sitoUrl": "http://www.itamedpoliambulatorio.it/",
+  "indirizzo": "Via San Pio X 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "http://www.itamedpoliambulatorio.it/",
+   "http://www.itamedpoliambulatorio.it/contatti/",
+   "https://www.itamedpoliambulatorio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiomedicorosa.it",
+  "nome": "Studio medico Rosa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicorosa.it/",
+  "indirizzo": "Viale Mellusi,134",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosa",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicorosa.it/",
+   "https://www.studiomedicorosa.it/chi-siamo/",
+   "https://www.studiomedicorosa.it/contatti-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

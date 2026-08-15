@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "drniccolomastandreabonaviri.com",
+  "nome": "Home -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.drniccolomastandreabonaviri.com/",
+  "indirizzo": "",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "pontecorvo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Niccolò Mastandea, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drniccolomastandreabonaviri.com/",
+   "https://www.drniccolomastandreabonaviri.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Niccolò Mastandea, cognome dentro il dominio"
+ },
+ {
+  "dominio": "frosinonetoday.it",
+  "nome": "FrosinoneToday",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10786801000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.frosinonetoday.it/",
+  "indirizzo": "viale Spagna. Una 44e",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "pontecorvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.frosinonetoday.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalcenterresearch.it",
+  "nome": "Medical Center Research",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicalcenterresearch.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pontecorvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalcenterresearch.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

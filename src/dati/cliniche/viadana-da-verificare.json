@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "cmfviadana.it",
+  "nome": "C.M.F. Centro Medico Fisioterapico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02051740344",
+  "telefono": "+390375833159",
+  "email": "info@cmfviadana.it",
+  "sitoUrl": "https://www.cmfviadana.it/",
+  "indirizzo": "Via Ospedale Vecchio, 10",
+  "cap": "46019",
+  "comune": "Viadana",
+  "provincia": "viadana",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cmfviadana.it/",
+   "https://www.cmfviadana.it/chi-siamo/",
+   "https://www.cmfviadana.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dentistaloridentalviadana.it",
+  "nome": "Dentista a Viadana: studio odontoiatrico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390375889961",
+  "email": "info@loridental.it",
+  "sitoUrl": "https://www.dentistaloridentalviadana.it/",
+  "indirizzo": "Via Milano, 115",
+  "cap": "46019",
+  "comune": "Viadana",
+  "provincia": "viadana",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dentistaloridentalviadana.it/",
+   "https://www.dentistaloridentalviadana.it/chi-siamo",
+   "https://www.dentistaloridentalviadana.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

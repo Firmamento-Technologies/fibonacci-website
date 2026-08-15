@@ -27,5 +27,94 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pagnimedicinaestetica.it",
+  "nome": "Dott. Gino Luca Pagni",
+  "formaSocietaria": "",
+  "partitaIva": "01642210460",
+  "telefono": "+390583216123",
+  "email": "",
+  "sitoUrl": "https://pagnimedicinaestetica.it/",
+  "indirizzo": "Via Cavour, 25",
+  "cap": "",
+  "comune": "",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://pagnimedicinaestetica.it/",
+   "https://pagnimedicinaestetica.it/about/",
+   "https://pagnimedicinaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pierreservice.it",
+  "nome": "PiErre Service il tuo partner formativo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390508054968",
+  "email": "info@pierreservice.it",
+  "sitoUrl": "https://www.pierreservice.it/it/",
+  "indirizzo": "Corso ECM Sicurezza (81",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "pi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.pierreservice.it/it/",
+   "https://www.pierreservice.it/it/Contatti/",
+   "https://www.pierreservice.it/it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sanpieroodontoiatria.it",
+  "nome": "San Piero Odontoiatria, struttura sanitaria di nuova generazione a Pis",
+  "formaSocietaria": "",
+  "partitaIva": "02416570501",
+  "telefono": "+390508053093",
+  "email": "info@sanpieroodontoiatria.it",
+  "sitoUrl": "https://www.sanpieroodontoiatria.it/",
+  "indirizzo": "Largo Nicola Ciardelli 56122",
+  "cap": "56122",
+  "comune": "Pisa",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sanpieroodontoiatria.it/",
+   "https://www.sanpieroodontoiatria.it/contatti.asp",
+   "https://www.sanpieroodontoiatria.it/privacy.asp"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

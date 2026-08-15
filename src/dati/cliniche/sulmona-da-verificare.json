@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "confindustria.aq.it",
+  "nome": "Confindustria L'Aquila",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.confindustria.aq.it/",
+  "indirizzo": "corso ITS Meccatronica 2026",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "sulmona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.confindustria.aq.it/",
+   "https://www.confindustria.aq.it/contatti",
+   "https://www.confindustria.aq.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "newmedicalcentersulmona.it",
+  "nome": "New Medical Center - Sulmona - Studi medici e servizi sanitari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390864204820",
+  "email": "",
+  "sitoUrl": "https://newmedicalcentersulmona.it/",
+  "indirizzo": "Via Buco della Grotta . 0864",
+  "cap": "67039",
+  "comune": "Sulmona",
+  "provincia": "sulmona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://newmedicalcentersulmona.it/",
+   "https://newmedicalcentersulmona.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "youdermoestetica.it",
+  "nome": "YOU Dermoestetica Sulmona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://youdermoestetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sulmona",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://youdermoestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

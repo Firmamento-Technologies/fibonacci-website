@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "68356bd117807.site123.me",
+  "nome": "68356bd117807.site123.me",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://68356bd117807.site123.me/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosignano-marittimo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://68356bd117807.site123.me/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticoemy.it",
+  "nome": "esteica lei",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390586799033",
+  "email": "",
+  "sitoUrl": "https://centroesteticoemy.it/",
+  "indirizzo": "",
+  "cap": "57016",
+  "comune": "Rosignano",
+  "provincia": "rosignano-marittimo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://centroesteticoemy.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "centrolaser-chirurgia.it",
+  "nome": "Dermo Micro Chirurgia Laser Castiglioncello Toscana",
+  "formaSocietaria": "",
+  "partitaIva": "00909220493",
+  "telefono": "+393332952432",
+  "email": "info@studimedicislenzi.it",
+  "sitoUrl": "https://www.centrolaser-chirurgia.it/",
+  "indirizzo": "Via Aurelia, 759",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosignano-marittimo",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrolaser-chirurgia.it/",
+   "https://www.centrolaser-chirurgia.it/contatti/",
+   "https://www.centrolaser-chirurgia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "upmc.it",
+  "nome": "UPMC",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390912192133",
+  "email": "info@upmc.it",
+  "sitoUrl": "https://upmc.it/it",
+  "indirizzo": "Via Ernesto Tricomi, 5",
+  "cap": "90127",
+  "comune": "Palermo",
+  "provincia": "rosignano-marittimo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://upmc.it/it",
+   "https://upmc.it/it/chi-siamo/whistleblowing",
+   "https://upmc.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

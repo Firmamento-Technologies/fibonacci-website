@@ -1,5 +1,37 @@
 [
  {
+  "dominio": "dottoressapozzuoli.com",
+  "nome": "Chirurgia e medicina estetica a Torino",
+  "formaSocietaria": "",
+  "partitaIva": "12182700018",
+  "telefono": "+3901119378219",
+  "email": "info@dottoressapozzuoli.com",
+  "sitoUrl": "https://www.dottoressapozzuoli.com/",
+  "indirizzo": "Via Santa Teresa 23",
+  "cap": "10121",
+  "comune": "Torino",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressapozzuoli.com/",
+   "https://www.dottoressapozzuoli.com/contatti/",
+   "https://www.dottoressapozzuoli.com/cookie-e-privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "salondebeauteofficial.it",
   "nome": "Centro Estetico Pozzuoli e Arco Felice",
   "formaSocietaria": "",
@@ -27,5 +59,29 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "tiktok.com",
+  "nome": "Log in",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2F&lang=en&enter_method=mandatory",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pozzuoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2F&lang=en&enter_method=mandatory"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]
