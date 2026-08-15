@@ -1,0 +1,168 @@
+[
+ {
+  "dominio": "asl1sassari.it",
+  "nome": "ASL Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "02884000908",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asl1sassari.it/",
+  "indirizzo": "via Enrico Costa n. 57",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asl1sassari.it/",
+   "https://www.asl1sassari.it/privacy/",
+   "https://www.asl1sassari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticomarialaura.it",
+  "nome": "Centro Estetico Maria Laura",
+  "formaSocietaria": "",
+  "partitaIva": "01599550900",
+  "telefono": "",
+  "email": "info@centroesteticomarialaura.it",
+  "sitoUrl": "https://www.centroesteticomarialaura.it/",
+  "indirizzo": "Viale Umberto I, 14",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticomarialaura.it/",
+   "https://www.centroesteticomarialaura.it/dove-siamo/",
+   "https://www.centroesteticomarialaura.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "delitalaestetica.it",
+  "nome": "Delitala Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01521590917",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.delitalaestetica.it/",
+  "indirizzo": "Viale Dante Alighieri 49",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.delitalaestetica.it/",
+   "https://www.delitalaestetica.it/chi-siamo/",
+   "https://www.delitalaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fiorelladeriu.com",
+  "nome": "medicina estetica sassari olbia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://fiorelladeriu.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fiorelladeriu.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticalubellisassari.it",
+  "nome": "Medicina Estetica Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393473362445",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticalubellisassari.it/",
+  "indirizzo": "Via Principessa Jolanda, 95",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticalubellisassari.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodermatologicoamadu.it",
+  "nome": "Studio Dermatologico Dottoressa Valentina Amadu",
+  "formaSocietaria": "",
+  "partitaIva": "02595020906",
+  "telefono": "+393339717334",
+  "email": "",
+  "sitoUrl": "https://studiodermatologicoamadu.it/",
+  "indirizzo": "Via Monte Grappa, 22",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodermatologicoamadu.it/",
+   "https://studiodermatologicoamadu.it/privacy-policy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,115 @@
+[
+ {
+  "dominio": "centroesteticonewbody.it",
+  "nome": "Centro Estetico a Rho",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393890166583",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticonewbody.it/",
+  "indirizzo": "Corso Garibaldi 76",
+  "cap": "20017",
+  "comune": "Rho",
+  "provincia": "rho",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticonewbody.it/",
+   "https://www.centroesteticonewbody.it/chi-siamo/",
+   "https://www.centroesteticonewbody.it/info-e-contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "dentalcenterrho.com",
+  "nome": "Dentista a Rho: Studio Dentistico Dr Bosotti",
+  "formaSocietaria": "",
+  "partitaIva": "10992200153",
+  "telefono": "+39029303598",
+  "email": "info@studiodentisticobosotti.it",
+  "sitoUrl": "https://www.dentalcenterrho.com/",
+  "indirizzo": "Via Madonna 107",
+  "cap": "",
+  "comune": "",
+  "provincia": "rho",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dentalcenterrho.com/",
+   "https://www.dentalcenterrho.com/chi-siamo",
+   "https://www.dentalcenterrho.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriorho.it",
+  "nome": "POLIAMBULATORIO RHO ⭐ con personale altamente qualificato!",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390238592669",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriorho.it/",
+  "indirizzo": "Via Milano, 8",
+  "cap": "20017",
+  "comune": "Rho",
+  "provincia": "rho",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriorho.it/",
+   "https://www.poliambulatoriorho.it/dove-siamo-2/",
+   "https://www.poliambulatoriorho.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "santagostinorho.it",
+  "nome": "Santagostino Rho: il centro medico vicino a te",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03740811207",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santagostinorho.it/",
+  "indirizzo": "via Temperanza 6",
+  "cap": "20127",
+  "comune": "Milano",
+  "provincia": "rho",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.santagostinorho.it/",
+   "https://www.santagostinorho.it/chi-siamo/",
+   "https://www.santagostinorho.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

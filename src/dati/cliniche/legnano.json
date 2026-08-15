@@ -1,0 +1,253 @@
+[
+ {
+  "dominio": "centromedicosanmagno.it",
+  "nome": "Centro Medico San Magno",
+  "formaSocietaria": "",
+  "partitaIva": "03141290126",
+  "telefono": "+390331028338",
+  "email": "info@centromedicosanmagno.it",
+  "sitoUrl": "https://centromedicosanmagno.it/",
+  "indirizzo": "Via San Domenico, 1",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centromedicosanmagno.it/",
+   "https://centromedicosanmagno.it/contatti-dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dalilavergani.it",
+  "nome": "Medicina e Chirurgia Estetica Combinata",
+  "formaSocietaria": "",
+  "partitaIva": "08174640964",
+  "telefono": "+393489986975",
+  "email": "",
+  "sitoUrl": "https://www.dalilavergani.it/",
+  "indirizzo": "Via Serlio 24",
+  "cap": "40128",
+  "comune": "",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Dalila Vergani, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.dalilavergani.it/",
+   "https://www.dalilavergani.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dalila Vergani, e il dominio lo ripete"
+ },
+ {
+  "dominio": "esteticabenesserelegnano.it",
+  "nome": "Centro estetico e centro benessere Legnano",
+  "formaSocietaria": "SAS",
+  "partitaIva": "12975580155",
+  "telefono": "+390331407060",
+  "email": "",
+  "sitoUrl": "https://www.esteticabenesserelegnano.it/",
+  "indirizzo": "Via San Michele del Carso, 23",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticabenesserelegnano.it/",
+   "https://www.esteticabenesserelegnano.it/chi-siamo/",
+   "https://www.esteticabenesserelegnano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "galdermaaesthetics.com",
+  "nome": "Aesthetic Solutions & Treatments",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.galdermaaesthetics.com/",
+  "indirizzo": "",
+  "cap": "56724",
+  "comune": "X-strain",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.galdermaaesthetics.com/",
+   "https://www.galdermaaesthetics.com/about-us/the-innovation-and-science-behind",
+   "https://www.galdermaaesthetics.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "humanclinic.it",
+  "nome": "HUMAN CLINIC-Studio HC",
+  "formaSocietaria": "SAS",
+  "partitaIva": "10610460965",
+  "telefono": "+3903311588592",
+  "email": "info@humanclinic.it",
+  "sitoUrl": "https://www.humanclinic.it/",
+  "indirizzo": "Via S. Gaetano, 7",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.humanclinic.it/",
+   "https://www.humanclinic.it/chi-siamo/",
+   "https://www.humanclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "landing.dottrobertolualdi.it",
+  "nome": "Centro Medico Estetico Dott. Lualdi Roberto",
+  "formaSocietaria": "",
+  "partitaIva": "09165880155",
+  "telefono": "+390382472049",
+  "email": "",
+  "sitoUrl": "https://landing.dottrobertolualdi.it/",
+  "indirizzo": "Via Padre Secchi, 29",
+  "cap": "26368",
+  "comune": "Milano",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://landing.dottrobertolualdi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lapegaia.net",
+  "nome": "Poliambulatorio L'Ape Gaia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3903311222207",
+  "email": "info@lapegaia.net",
+  "sitoUrl": "https://www.lapegaia.net/",
+  "indirizzo": "Via Dei Salici 28",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.lapegaia.net/",
+   "https://www.lapegaia.net/contatti/",
+   "https://www.lapegaia.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "settimosensobeauty.com",
+  "nome": "SETTIMOSENSO Beauty Gallery",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@settimosensobeauty.com",
+  "sitoUrl": "https://settimosensobeauty.com/",
+  "indirizzo": "piazza Maggiolini) al civico 29",
+  "cap": "20015",
+  "comune": "Entrare",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://settimosensobeauty.com/",
+   "https://settimosensobeauty.com/chi-siamo/",
+   "https://settimosensobeauty.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiohclegnano.it",
+  "nome": "HUMAN CLINIC-Studio HC",
+  "formaSocietaria": "SAS",
+  "partitaIva": "10610460965",
+  "telefono": "+3903311588592",
+  "email": "info@studiohclegnano.it",
+  "sitoUrl": "https://www.studiohclegnano.it/",
+  "indirizzo": "Via S. Gaetano, 7",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.studiohclegnano.it/",
+   "https://www.studiohclegnano.it/chi-siamo/",
+   "https://www.studiohclegnano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

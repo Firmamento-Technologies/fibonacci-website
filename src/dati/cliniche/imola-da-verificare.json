@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "centroesteticoavantgarde.it",
+  "nome": "Trattamenti estetici",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3905421903629",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoavantgarde.it/",
+  "indirizzo": "Via Andrea Ercolani 13",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticoavantgarde.it/",
+   "https://www.centroesteticoavantgarde.it/chi-siamo-gallery",
+   "https://www.centroesteticoavantgarde.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nelmabeauty.it",
+  "nome": "NELMA Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "03519181204",
+  "telefono": "+393389518486",
+  "email": "",
+  "sitoUrl": "https://www.nelmabeauty.it/",
+  "indirizzo": "Viale Guerrazzi, 13",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nelmabeauty.it/",
+   "https://www.nelmabeauty.it/chi-siamo/",
+   "https://www.nelmabeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiolipariderobertis.it",
+  "nome": "Studio Lipari De Robertis",
+  "formaSocietaria": "",
+  "partitaIva": "03796341208",
+  "telefono": "+39051473983",
+  "email": "",
+  "sitoUrl": "https://studiolipariderobertis.it/",
+  "indirizzo": "Via Domenico Scarlatti, 2",
+  "cap": "40141",
+  "comune": "Bologna",
+  "provincia": "imola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiolipariderobertis.it/",
+   "https://studiolipariderobertis.it/chi-siamo/",
+   "https://studiolipariderobertis.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,199 @@
+[
+ {
+  "dominio": "beldent.it",
+  "nome": "Beldent Studio Odontoiatrico: Il Tuo Dentista Ad Alessandria",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02789410061",
+  "telefono": "+390131264621",
+  "email": "info@beldent.it",
+  "sitoUrl": "https://www.beldent.it/",
+  "indirizzo": "Via Galileo Galilei, 66",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.beldent.it/",
+   "https://www.beldent.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cassanochiara.com",
+  "nome": "Dott.ssa Chiara Cassano",
+  "formaSocietaria": "",
+  "partitaIva": "02049610062",
+  "telefono": "+393349485767",
+  "email": "",
+  "sitoUrl": "https://www.cassanochiara.com/",
+  "indirizzo": "Via Luigi Galvani, 18",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Chiara Cassano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.cassanochiara.com/",
+   "https://www.cassanochiara.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Cassano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "dot41.it",
+  "nome": "Poliambulatorio Medico in Alessandria",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02562830063",
+  "telefono": "+3901311710984",
+  "email": "info@dot41.it",
+  "sitoUrl": "https://www.dot41.it/",
+  "indirizzo": "Piazza della Libertà, 41",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.dot41.it/",
+   "https://www.dot41.it/chi-siamo",
+   "https://www.dot41.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "kairosambulatorio.it",
+  "nome": "Kairos",
+  "formaSocietaria": "",
+  "partitaIva": "01572200622",
+  "telefono": "+393402900664",
+  "email": "info@kairosambulatorio.it",
+  "sitoUrl": "https://kairosambulatorio.it/",
+  "indirizzo": "Via Urbano Rattazzi 31",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://kairosambulatorio.it/",
+   "https://kairosambulatorio.it/contatti/",
+   "https://kairosambulatorio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "michelinimarco.com",
+  "nome": "Dermatologo Alessandria e La Spezia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390131225116",
+  "email": "",
+  "sitoUrl": "https://www.michelinimarco.com/",
+  "indirizzo": "Via del Prione, 58",
+  "cap": "19121",
+  "comune": "",
+  "provincia": "al",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Michelini Marco, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.michelinimarco.com/",
+   "https://www.michelinimarco.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michelini Marco, e il dominio lo ripete"
+ },
+ {
+  "dominio": "skinmedicalessandria.it",
+  "nome": "SkinMedic Alessandria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393757467378",
+  "email": "info@skinmedicalessandria.it",
+  "sitoUrl": "https://www.skinmedicalessandria.it/",
+  "indirizzo": "Via Giovanni Migliara, 39",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.skinmedicalessandria.it/",
+   "https://www.skinmedicalessandria.it/contatti/",
+   "https://www.skinmedicalessandria.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicopacto.it",
+  "nome": "Studio Medico Pacto di Alessandria offre visite specialistiche",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02639830062",
+  "telefono": "+390131227393",
+  "email": "",
+  "sitoUrl": "https://studiomedicopacto.it/",
+  "indirizzo": "",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiomedicopacto.it/",
+   "https://studiomedicopacto.it/chi-siamo/",
+   "https://studiomedicopacto.it/contatti-studio-medico/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "campisichirurgiaestetica.com",
+  "nome": "Chirurgia estetica Rimini, San Marino, Bologna, Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "02254380401",
+  "telefono": "+393358357780",
+  "email": "info@campisichirurgiaestetica.com",
+  "sitoUrl": "https://www.campisichirurgiaestetica.com/",
+  "indirizzo": "via Gambalunga 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "rimini",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.campisichirurgiaestetica.com/",
+   "https://www.campisichirurgiaestetica.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "soletsalus.it",
+  "nome": "Sol et Salus",
+  "formaSocietaria": "",
+  "partitaIva": "00432390409",
+  "telefono": "+390541725111",
+  "email": "info@soletsalus.com",
+  "sitoUrl": "https://soletsalus.it/",
+  "indirizzo": "Viale San Salvador, 204",
+  "cap": "47922",
+  "comune": "Torre",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://soletsalus.it/",
+   "https://soletsalus.it/dove-siamo",
+   "https://soletsalus.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

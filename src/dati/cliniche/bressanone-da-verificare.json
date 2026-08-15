@@ -1,0 +1,50 @@
+[
+ {
+  "dominio": "asdaa.it",
+  "nome": "Südtiroler Sanitätsbetrieb",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asdaa.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bressanone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asdaa.it/it"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "brixsana.it",
+  "nome": "Brixsana",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390472824800",
+  "email": "info@brixsana.it",
+  "sitoUrl": "https://www.brixsana.it/de/",
+  "indirizzo": "",
+  "cap": "39042",
+  "comune": "Brixen",
+  "provincia": "bressanone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.brixsana.it/de/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

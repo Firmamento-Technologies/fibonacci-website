@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "centropromater.it",
+  "nome": "Promater",
+  "formaSocietaria": "",
+  "partitaIva": "02226830038",
+  "telefono": "+39330595111",
+  "email": "segreteria@centropromater.it",
+  "sitoUrl": "https://www.centropromater.it/",
+  "indirizzo": "Via Bonaventura Cavalieri, 16",
+  "cap": "28925",
+  "comune": "Verbania",
+  "provincia": "verbania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centropromater.it/",
+   "https://www.centropromater.it/contatti/",
+   "https://www.centropromater.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

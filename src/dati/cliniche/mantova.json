@@ -1,0 +1,36 @@
+[
+ {
+  "dominio": "studiospecialisticocalamari.it",
+  "nome": "Studio Specialistico Calamari",
+  "formaSocietaria": "",
+  "partitaIva": "02300340201",
+  "telefono": "+393428359220",
+  "email": "",
+  "sitoUrl": "https://studiospecialisticocalamari.it/",
+  "indirizzo": "Piazza Madre Teresa di Calcutta n. 6",
+  "cap": "46051",
+  "comune": "San",
+  "provincia": "mantova",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://studiospecialisticocalamari.it/",
+   "https://studiospecialisticocalamari.it/contatti/",
+   "https://studiospecialisticocalamari.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

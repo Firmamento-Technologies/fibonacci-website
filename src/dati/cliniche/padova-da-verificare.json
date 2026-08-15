@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "drmatteostocco.com",
+  "nome": "Dr. Matteo Stocco",
+  "formaSocietaria": "",
+  "partitaIva": "04474370261",
+  "telefono": "",
+  "email": "info@drmatteostocco.com",
+  "sitoUrl": "https://drmatteostocco.com/",
+  "indirizzo": "via San Marco 106",
+  "cap": "",
+  "comune": "",
+  "provincia": "padova",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://drmatteostocco.com/",
+   "https://drmatteostocco.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

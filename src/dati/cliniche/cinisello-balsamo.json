@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "amf-cinisello.it",
+  "nome": "AZIENDA MULTISERVIZI FARMACIE",
+  "formaSocietaria": "",
+  "partitaIva": "07945280969",
+  "telefono": "+39026175179",
+  "email": "info@amf-cinisello.it",
+  "sitoUrl": "https://www.amf-cinisello.it/",
+  "indirizzo": "Via Verga, 113",
+  "cap": "20092",
+  "comune": "Cinisello Balsamo",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.amf-cinisello.it/",
+   "https://www.amf-cinisello.it/chi-siamo/azienda.aspx",
+   "https://www.amf-cinisello.it/chi-siamo/carta-fedelta.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centropolisalute.it",
+  "nome": "Centro Polisalute",
+  "formaSocietaria": "",
+  "partitaIva": "10411880965",
+  "telefono": "+390236704424",
+  "email": "info@centropolisalute.it",
+  "sitoUrl": "https://www.centropolisalute.it/",
+  "indirizzo": "Via Edmondo de Amicis 67",
+  "cap": "20092",
+  "comune": "Cinisello Balsamo",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centropolisalute.it/",
+   "https://www.centropolisalute.it/contatti/",
+   "https://www.centropolisalute.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorisole.it",
+  "nome": "Poliambulatori Il Sole",
+  "formaSocietaria": "",
+  "partitaIva": "01758780025",
+  "telefono": "+39026111116",
+  "email": "info@poliambulatorisole.it",
+  "sitoUrl": "https://poliambulatorisole.it/",
+  "indirizzo": "Via XXV Aprile, 24",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://poliambulatorisole.it/",
+   "https://poliambulatorisole.it/chi-siamo/",
+   "https://poliambulatorisole.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

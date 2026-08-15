@@ -1,0 +1,54 @@
+[
+ {
+  "dominio": "3csalute.it",
+  "nome": "3C Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3905221753010",
+  "email": "info@3csalute.it",
+  "sitoUrl": "https://www.3csalute.it/",
+  "indirizzo": "Largo Marco Gerra n°2",
+  "cap": "42124",
+  "comune": "Reggio",
+  "provincia": "re",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.3csalute.it/",
+   "https://www.3csalute.it/contatti/",
+   "https://www.3csalute.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ausl.re.it",
+  "nome": "AUSL RE",
+  "formaSocietaria": "",
+  "partitaIva": "01598570354",
+  "telefono": "",
+  "email": "info@pec.ausl.re.it",
+  "sitoUrl": "https://ausl.re.it/",
+  "indirizzo": "via Amendola 2",
+  "cap": "42122",
+  "comune": "Reggio",
+  "provincia": "re",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ausl.re.it/",
+   "https://ausl.re.it/contatti",
+   "https://ausl.re.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

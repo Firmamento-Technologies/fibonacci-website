@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "centroesteticolemeraviglie.it",
+  "nome": "Centro Estetico Le Meraviglie",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393384679859",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticolemeraviglie.it/",
+  "indirizzo": "Via Valle, 66",
+  "cap": "20851",
+  "comune": "Lissone",
+  "provincia": "lissone",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticolemeraviglie.it/",
+   "https://www.centroesteticolemeraviglie.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticabeautique.it",
+  "nome": "esteticabeautique.it",
+  "formaSocietaria": "",
+  "partitaIva": "09452390967",
+  "telefono": "+390394669246",
+  "email": "info@esteticabeautique.it",
+  "sitoUrl": "https://esteticabeautique.it/",
+  "indirizzo": "Via Monza, 77",
+  "cap": "20851",
+  "comune": "Lissone",
+  "provincia": "lissone",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticabeautique.it/",
+   "https://esteticabeautique.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

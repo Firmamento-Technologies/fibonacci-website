@@ -1,0 +1,87 @@
+[
+ {
+  "dominio": "aslroma4.it",
+  "nome": "Azienda sanitaria locale",
+  "formaSocietaria": "",
+  "partitaIva": "04743741003",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aslroma4.it/",
+  "indirizzo": "Via Terme di Traiano, 39",
+  "cap": "00053",
+  "comune": "Civitavecchia",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aslroma4.it/",
+   "https://www.aslroma4.it/contatti",
+   "https://www.aslroma4.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drpesci.com",
+  "nome": "Dott. Lorenzo Pesci",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393515664968",
+  "email": "segreteria@drpesci.com",
+  "sitoUrl": "https://www.drpesci.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "civitavecchia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drpesci.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticabarbaracivitavecchia.it",
+  "nome": "Centro Estetico a Civitavecchia",
+  "formaSocietaria": "",
+  "partitaIva": "12298541009",
+  "telefono": "+393930975631",
+  "email": "",
+  "sitoUrl": "https://esteticabarbaracivitavecchia.it/",
+  "indirizzo": "via Achille Montanucci, 40",
+  "cap": "00053",
+  "comune": "Civitavecchia",
+  "provincia": "civitavecchia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticabarbaracivitavecchia.it/",
+   "https://esteticabarbaracivitavecchia.it/chi-siamo/",
+   "https://esteticabarbaracivitavecchia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,127 @@
+[
+ {
+  "dominio": "dermatologoferro.it",
+  "nome": "Centro Dermatologico Ferro",
+  "formaSocietaria": "",
+  "partitaIva": "02395440841",
+  "telefono": "+390922473282",
+  "email": "",
+  "sitoUrl": "https://www.dermatologoferro.it/",
+  "indirizzo": "Via F6 nr. 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "fm",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dermatologoferro.it/",
+   "https://www.dermatologoferro.it/chi-siamo/",
+   "https://www.dermatologoferro.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottfabriziofantini.it",
+  "nome": "Dott. Fabrizio Fantini",
+  "formaSocietaria": "",
+  "partitaIva": "03669321204",
+  "telefono": "+390341286722",
+  "email": "",
+  "sitoUrl": "https://dottfabriziofantini.it/",
+  "indirizzo": "Via Cavour 50",
+  "cap": "23900",
+  "comune": "Lecco",
+  "provincia": "fm",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Fabrizio Fantini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottfabriziofantini.it/",
+   "https://dottfabriziofantini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottorvaleriani.it",
+  "nome": "Dr. Crispino Valeriani",
+  "formaSocietaria": "",
+  "partitaIva": "00478490444",
+  "telefono": "",
+  "email": "info@dottorvaleriani.it",
+  "sitoUrl": "https://www.dottorvaleriani.it/",
+  "indirizzo": "Via Gioacchino Rossini, 1",
+  "cap": "63833",
+  "comune": "Montegiorgio",
+  "provincia": "fm",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Crispino Valeriani, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottorvaleriani.it/",
+   "https://www.dottorvaleriani.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ilmondodiamelie.it",
+  "nome": "Il Mondo di Amelie",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390734073521",
+  "email": "info@ilmondodiamelie.it",
+  "sitoUrl": "https://www.ilmondodiamelie.it/",
+  "indirizzo": "via Magellano, 8",
+  "cap": "63900",
+  "comune": "Fermo",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ilmondodiamelie.it/",
+   "https://www.ilmondodiamelie.it/contatti",
+   "https://www.ilmondodiamelie.it/content/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

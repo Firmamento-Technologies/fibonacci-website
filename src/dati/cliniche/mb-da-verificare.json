@@ -1,0 +1,94 @@
+[
+ {
+  "dominio": "dottormanola.com",
+  "nome": "Dott. Mirko Manola - Monza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393938711648",
+  "email": "info@dottormanola.com",
+  "sitoUrl": "https://www.dottormanola.com/",
+  "indirizzo": "Via Francesco Baracca, 5",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottormanola.com/",
+   "https://www.dottormanola.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "irccs-sangerardo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "medicalprimemonza.it",
+  "nome": "Medicalprime",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393760012277",
+  "email": "info@medicalprimemonza.it",
+  "sitoUrl": "https://www.medicalprimemonza.it/",
+  "indirizzo": "Via Marsala 3",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicalprimemonza.it/",
+   "https://www.medicalprimemonza.it/chi-siamo/",
+   "https://www.medicalprimemonza.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ritocchini.it",
+  "nome": "Ritocchini",
+  "formaSocietaria": "",
+  "partitaIva": "12105700962",
+  "telefono": "+393514197863",
+  "email": "info@ritocchini.it",
+  "sitoUrl": "https://www.ritocchini.it/",
+  "indirizzo": "Via A. Manzoni, 20",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ritocchini.it/",
+   "https://www.ritocchini.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

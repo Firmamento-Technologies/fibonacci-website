@@ -1,0 +1,298 @@
+[
+ {
+  "dominio": "annalisacolantonio.it",
+  "nome": "Dott.ssa Annalisa Colantonio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393496412819",
+  "email": "",
+  "sitoUrl": "https://www.annalisacolantonio.it/",
+  "indirizzo": "Via Colle Pretara, 92",
+  "cap": "67100",
+  "comune": "",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Annalisa Colantonio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.annalisacolantonio.it/",
+   "https://www.annalisacolantonio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Colantonio, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centroippocrate.eu",
+  "nome": "Centro Estetico Ippocrate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39086222598",
+  "email": "",
+  "sitoUrl": "https://centroippocrate.eu/",
+  "indirizzo": "Viale Francesco crispi, 35",
+  "cap": "67100",
+  "comune": "L’Aquila",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centroippocrate.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "donatozizi.com",
+  "nome": "Trapianto capelli, Medicina e Chirugia Estetica in Abruzzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390858943217",
+  "email": "",
+  "sitoUrl": "https://www.donatozizi.com/",
+  "indirizzo": "Via Salara 2",
+  "cap": "64026",
+  "comune": "Roseto",
+  "provincia": "aq",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Donato Zizi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.donatozizi.com/",
+   "https://www.donatozizi.com/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Donato Zizi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "drquatela.it",
+  "nome": "Dr. Massimiliano Quatela",
+  "formaSocietaria": "",
+  "partitaIva": "12678490157",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.drquatela.it/",
+  "indirizzo": "via Giovanni Boccaccio, 37",
+  "cap": "20123",
+  "comune": "",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimiliano Quatela, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drquatela.it/",
+   "https://www.drquatela.it/contatti",
+   "https://www.drquatela.it/policy-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "evimeria.it",
+  "nome": "Evimeria Medical Lab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@evimeria.it",
+  "sitoUrl": "https://www.evimeria.it/",
+  "indirizzo": "Via Garibaldi 85",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.evimeria.it/",
+   "https://www.evimeria.it/about-us"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "implantologialaquila.it",
+  "nome": "implantologialaquila.it",
+  "formaSocietaria": "",
+  "partitaIva": "01977840667",
+  "telefono": "+3908631886714",
+  "email": "info@implantologialaquila.it",
+  "sitoUrl": "https://implantologialaquila.it/",
+  "indirizzo": "Via XXII Maggio 1944",
+  "cap": "67100",
+  "comune": "AQ",
+  "provincia": "aq",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://implantologialaquila.it/",
+   "https://implantologialaquila.it/contatti",
+   "https://implantologialaquila.it/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "marziabernardi.it",
+  "nome": "Dott.ssa Marzia Bernardi",
+  "formaSocietaria": "",
+  "partitaIva": "02122380666",
+  "telefono": "+390736343892",
+  "email": "",
+  "sitoUrl": "https://marziabernardi.it/",
+  "indirizzo": "Via Portici di San Bernardino 2",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "aq",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marzia Bernardi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marziabernardi.it/",
+   "https://marziabernardi.it/about/",
+   "https://marziabernardi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marzia Bernardi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "mediclinica.it",
+  "nome": "Mediclinica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12586261005",
+  "telefono": "+39086336174",
+  "email": "info@italiaonline.it",
+  "sitoUrl": "https://www.mediclinica.it/",
+  "indirizzo": "Via Latina, 30",
+  "cap": "36174",
+  "comune": "Dir",
+  "provincia": "aq",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.mediclinica.it/",
+   "https://www.mediclinica.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "nuovocentromedico.com",
+  "nome": "Centro medico dermatologico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393290240564",
+  "email": "",
+  "sitoUrl": "https://www.nuovocentromedico.com/",
+  "indirizzo": "viale Aldo Ballarin, 142",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "aq",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.nuovocentromedico.com/",
+   "https://www.nuovocentromedico.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skincenters.it",
+  "nome": "Novea Skin Center - Dermatologia medica chirurgica oncologica, medicin",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@skincenters.it",
+  "sitoUrl": "https://www.skincenters.it/",
+  "indirizzo": "Via F. Galiani, 39",
+  "cap": "65121",
+  "comune": "Pescara",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.skincenters.it/",
+   "https://www.skincenters.it/chi-siamo/",
+   "https://www.skincenters.it/le-sedi-skin-center/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

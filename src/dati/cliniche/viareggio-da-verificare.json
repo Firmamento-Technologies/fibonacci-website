@@ -1,0 +1,69 @@
+[
+ {
+  "dominio": "margheritaestetica.it",
+  "nome": "Margherita Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "02469640466",
+  "telefono": "+393381248035",
+  "email": "info@margheritaestetica.it",
+  "sitoUrl": "https://www.margheritaestetica.it/",
+  "indirizzo": "Viale Ugo Foscolo, 86",
+  "cap": "55049",
+  "comune": "Viareggio",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.margheritaestetica.it/",
+   "https://www.margheritaestetica.it/chi-siamo",
+   "https://www.margheritaestetica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "parrocchiamadonnadipompei.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vdermastudio.it",
+  "nome": "VDerma Studio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390584361360",
+  "email": "",
+  "sitoUrl": "https://vdermastudio.it/",
+  "indirizzo": "Via della Vetraia, 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vdermastudio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

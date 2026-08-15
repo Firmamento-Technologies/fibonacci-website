@@ -1,0 +1,40 @@
+[
+ {
+  "dominio": "abano.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "policlinicoabano.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "software-medico.it",
+  "nome": "Software medico gestionale Studio Ambulatorio Poliambulatorio ArzaMed",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04392080406",
+  "telefono": "+390541081788",
+  "email": "info@arzamed.com",
+  "sitoUrl": "https://www.software-medico.it/",
+  "indirizzo": "Viale Roberto Valturio 7",
+  "cap": "47923",
+  "comune": "Rimini",
+  "provincia": "abano-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.software-medico.it/",
+   "https://www.software-medico.it/privacy-e-sicurezza-dei-dati/",
+   "https://www.software-medico.it/privacy-policy-website/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

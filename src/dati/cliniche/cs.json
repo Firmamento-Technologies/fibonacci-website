@@ -1,0 +1,118 @@
+[
+ {
+  "dominio": "alaricoclinicebeauty.it",
+  "nome": "Chirurgia estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393922955971",
+  "email": "",
+  "sitoUrl": "https://www.alaricoclinicebeauty.it/",
+  "indirizzo": "Via Giuseppe Sisca 16",
+  "cap": "87100",
+  "comune": "Cosenza",
+  "provincia": "cs",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.alaricoclinicebeauty.it/",
+   "https://www.alaricoclinicebeauty.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "amebeautyclinic.it",
+  "nome": "Ame Beauty Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39098474806",
+  "email": "",
+  "sitoUrl": "https://amebeautyclinic.it/",
+  "indirizzo": "Corso Mazzini, 92",
+  "cap": "74806",
+  "comune": "Interno",
+  "provincia": "cs",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://amebeautyclinic.it/",
+   "https://amebeautyclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dv-clinic.com",
+  "nome": "DV Clinic è un centro medico polispecialistico a Spezzano Albanese",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393792793073",
+  "email": "info@dv-clinic.com",
+  "sitoUrl": "https://www.dv-clinic.com/",
+  "indirizzo": "Via Vittorio V. Vattimo, 1",
+  "cap": "87019",
+  "comune": "Spezzano",
+  "provincia": "cs",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dv-clinic.com/",
+   "https://www.dv-clinic.com/contatti/",
+   "https://www.dv-clinic.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "trattamentiesteticicosenza.it",
+  "nome": "Centro Laser Metropolis medicina Estetica Rende",
+  "formaSocietaria": "",
+  "partitaIva": "01476520786",
+  "telefono": "+390984468520",
+  "email": "",
+  "sitoUrl": "https://www.trattamentiesteticicosenza.it/",
+  "indirizzo": "Piazza Martin Luther King – 87036",
+  "cap": "87036",
+  "comune": "Rende",
+  "provincia": "cs",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.trattamentiesteticicosenza.it/",
+   "https://www.trattamentiesteticicosenza.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

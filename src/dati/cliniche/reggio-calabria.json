@@ -1,0 +1,63 @@
+[
+ {
+  "dominio": "abamed.net",
+  "nome": "Abamed",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02794590808",
+  "telefono": "",
+  "email": "info@abamed.net",
+  "sitoUrl": "https://www.abamed.net/",
+  "indirizzo": "Via Primerano 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "reggio-calabria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.abamed.net/",
+   "https://www.abamed.net/contattaci/",
+   "https://www.abamed.net/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioecorad.it",
+  "nome": "Ecorad",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02069460802",
+  "telefono": "+390965758156",
+  "email": "info@studioecorad.it",
+  "sitoUrl": "https://studioecorad.it/",
+  "indirizzo": "via Guglielmo Marconi al civico numero 38",
+  "cap": "89018",
+  "comune": "Villa San Giovanni",
+  "provincia": "reggio-calabria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studioecorad.it/",
+   "https://studioecorad.it/note-legali/",
+   "https://studioecorad.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "esteticalessia.it",
+  "nome": "Estetica Alessia",
+  "formaSocietaria": "",
+  "partitaIva": "15814201008",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticalessia.it/",
+  "indirizzo": "Via Edoardo de Filippo, 31",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://esteticalessia.it/",
+   "https://esteticalessia.it/contatti/",
+   "https://esteticalessia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

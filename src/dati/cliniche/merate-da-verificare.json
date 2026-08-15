@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "samuelacentroestetico.com",
+  "nome": "Centro Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02225800131",
+  "telefono": "+390399902081",
+  "email": "",
+  "sitoUrl": "https://www.samuelacentroestetico.com/",
+  "indirizzo": "Piazza Faverzani, 3",
+  "cap": "23807",
+  "comune": "IT",
+  "provincia": "merate",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.samuelacentroestetico.com/",
+   "https://www.samuelacentroestetico.com/chi-siamo",
+   "https://www.samuelacentroestetico.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "smilemerate.it",
+  "nome": "Studio Dentistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390399908923",
+  "email": "info@smilemerate.it",
+  "sitoUrl": "https://www.smilemerate.it/",
+  "indirizzo": "Via Ceppo, 2",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.smilemerate.it/",
+   "https://www.smilemerate.it/chi-siamo/",
+   "https://www.smilemerate.it/studio-dentistico-smile-merate-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

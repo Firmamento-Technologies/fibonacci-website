@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "centroesteticoanid.it",
+  "nome": "ANID: Centro estetico Viterbo: trattamenti corpo, viso, mani, piscina,",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centroesteticoanid.it",
+  "sitoUrl": "https://centroesteticoanid.it/",
+  "indirizzo": "Via C. Monteverdi - Loc. Groticella - 01100",
+  "cap": "01100",
+  "comune": "Viterbo",
+  "provincia": "viterbo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://centroesteticoanid.it/",
+   "https://centroesteticoanid.it/index.php/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

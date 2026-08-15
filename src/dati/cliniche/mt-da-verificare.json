@@ -1,0 +1,87 @@
+[
+ {
+  "dominio": "asmbasilicata.it",
+  "nome": "ASM Matera",
+  "formaSocietaria": "",
+  "partitaIva": "01178540777",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asmbasilicata.it/",
+  "indirizzo": "corso Infermiere di Famiglia o Comunità Notizie 06",
+  "cap": "75100",
+  "comune": "Matera",
+  "provincia": "mt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asmbasilicata.it/",
+   "https://www.asmbasilicata.it/servizio/contattare-gli-uffici/",
+   "https://www.asmbasilicata.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologiaestetica.com",
+  "nome": "Dermatologia Estetica Genova e Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390645550031",
+  "email": "info@dermatologiaestetica.com.",
+  "sitoUrl": "https://www.dermatologiaestetica.com/",
+  "indirizzo": "Via Matera 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "mt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologiaestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "farmaciamottaantonietta.it",
+  "nome": "Vendita prodotti farmaceutici",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390835330751",
+  "email": "info@farmaciamottaantonietta.it",
+  "sitoUrl": "https://www.farmaciamottaantonietta.it/",
+  "indirizzo": "Via Dante 33",
+  "cap": "75100",
+  "comune": "Matera",
+  "provincia": "mt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.farmaciamottaantonietta.it/",
+   "https://www.farmaciamottaantonietta.it/Contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

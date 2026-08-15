@@ -1,0 +1,167 @@
+[
+ {
+  "dominio": "biomedicalcarpi.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "centroesteticocarpi.com",
+  "nome": "Centro Estetico Carpi",
+  "formaSocietaria": "",
+  "partitaIva": "03686580360",
+  "telefono": "+393385495874",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticocarpi.com/",
+  "indirizzo": "Via Trento Trie​ste, 12",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticocarpi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticalarimar.it",
+  "nome": "Larimar",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390598300498",
+  "email": "",
+  "sitoUrl": "https://esteticalarimar.it/",
+  "indirizzo": "Via F. Petrarca, 14",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticalarimar.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lisabioestetica.it",
+  "nome": "Estetica Lisa - Centro Estetico a Carpi",
+  "formaSocietaria": "",
+  "partitaIva": "02214320364",
+  "telefono": "+39059642092",
+  "email": "",
+  "sitoUrl": "https://www.lisabioestetica.it/",
+  "indirizzo": "Via G.B. Vico, 7",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.lisabioestetica.it/",
+   "https://www.lisabioestetica.it/chi-siamo/",
+   "https://www.lisabioestetica.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "mamasuncarpi.it",
+  "nome": "Mamasun Carpi",
+  "formaSocietaria": "",
+  "partitaIva": "02586120368",
+  "telefono": "+39059654843",
+  "email": "",
+  "sitoUrl": "https://www.mamasuncarpi.it/",
+  "indirizzo": "Viale Manzoni, 62",
+  "cap": "",
+  "comune": "",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mamasuncarpi.it/",
+   "https://www.mamasuncarpi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nubramedica.it",
+  "nome": "Poliambulatorio Nubra Medica",
+  "formaSocietaria": "",
+  "partitaIva": "03518830363",
+  "telefono": "+39059681198",
+  "email": "info@nubramedica.it",
+  "sitoUrl": "https://nubramedica.it/",
+  "indirizzo": "Via Pezzana 62",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://nubramedica.it/",
+   "https://nubramedica.it/chi-siamo/",
+   "https://nubramedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiorosatobeatrice.it",
+  "nome": "Dentista Carpi",
+  "formaSocietaria": "",
+  "partitaIva": "02808790345",
+  "telefono": "+39059687063",
+  "email": "info@studiorosatobeatrice.it",
+  "sitoUrl": "https://www.studiorosatobeatrice.it/",
+  "indirizzo": "Via Firenze 4",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiorosatobeatrice.it/",
+   "https://www.studiorosatobeatrice.it/chi-siamo/",
+   "https://www.studiorosatobeatrice.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

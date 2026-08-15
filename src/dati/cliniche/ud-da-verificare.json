@@ -1,0 +1,206 @@
+[
+ {
+  "dominio": "chirurgestetica.com",
+  "nome": "Nicola Pittoni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390432505760",
+  "email": "info@chirurgestetica.com",
+  "sitoUrl": "https://chirurgestetica.com/",
+  "indirizzo": "Piazza Garibaldi, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "ud",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://chirurgestetica.com/",
+   "https://chirurgestetica.com/contattaci/",
+   "https://chirurgestetica.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "clinicheblanc.com",
+  "nome": "Cliniche Blanc",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04829380288",
+  "telefono": "+3939800508965",
+  "email": "",
+  "sitoUrl": "https://clinicheblanc.com/",
+  "indirizzo": "Via Nazionale 130",
+  "cap": "33010",
+  "comune": "Tavagnacco",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://clinicheblanc.com/",
+   "https://clinicheblanc.com/chi-siamo/",
+   "https://clinicheblanc.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "darinbetta.it",
+  "nome": "Studio Da Rin Betta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390432280773",
+  "email": "info@company.com",
+  "sitoUrl": "https://www.darinbetta.it/",
+  "indirizzo": "Via Tiberio Deciani, 15",
+  "cap": "33100",
+  "comune": "UDINE",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.darinbetta.it/",
+   "https://www.darinbetta.it/contatti/",
+   "https://www.darinbetta.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottoressacesari.it",
+  "nome": "Dermatologo e venereologo| Udine (UD)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390432507928",
+  "email": "",
+  "sitoUrl": "https://www.dottoressacesari.it/",
+  "indirizzo": "Piazzale Osoppo, 1",
+  "cap": "33100",
+  "comune": "UDINE",
+  "provincia": "ud",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressacesari.it/",
+   "https://www.dottoressacesari.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fabriziodebiasio.it",
+  "nome": "Dott. Fabrizio De Biasio",
+  "formaSocietaria": "",
+  "partitaIva": "02388890309",
+  "telefono": "+390432280080",
+  "email": "info@fabriziodebiasio.it",
+  "sitoUrl": "https://fabriziodebiasio.it/",
+  "indirizzo": "Via Puintat, 2",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "ud",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fabriziodebiasio.it/",
+   "https://fabriziodebiasio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiocesari.com",
+  "nome": "Studio Dott.ssa Cesari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiocesari.com",
+  "sitoUrl": "https://studiocesari.com/",
+  "indirizzo": "Piazzale Osoppo, 1",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiocesari.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoalbierodeganutti.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiomedicotomat.it",
+  "nome": "Studio Medico Tomat Udine, UD",
+  "formaSocietaria": "",
+  "partitaIva": "01949130304",
+  "telefono": "",
+  "email": "info@studiomedicotomat.it",
+  "sitoUrl": "https://www.studiomedicotomat.it/",
+  "indirizzo": "",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "ud",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicotomat.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

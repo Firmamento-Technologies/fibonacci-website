@@ -1,0 +1,87 @@
+[
+ {
+  "dominio": "acleaestetica.it",
+  "nome": "Aclea - Una dolce scoperta",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03177520602",
+  "telefono": "+390775326814",
+  "email": "",
+  "sitoUrl": "https://www.acleaestetica.it/",
+  "indirizzo": "Via Cesare Terranova n. 82",
+  "cap": "03100",
+  "comune": "FROSINONE",
+  "provincia": "frosinone",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.acleaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "aemmemedica.it",
+  "nome": "Centro Medico Aemme Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03250840604",
+  "telefono": "+390775728391",
+  "email": "info@aemmemedica.it",
+  "sitoUrl": "https://www.aemmemedica.it/",
+  "indirizzo": "Via Giovanni Giminiani,17",
+  "cap": "03012",
+  "comune": "Anagni",
+  "provincia": "frosinone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.aemmemedica.it/",
+   "https://www.aemmemedica.it/chi-siamo/",
+   "https://www.aemmemedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "qidoc.it",
+  "nome": "QiDoc: trova il medico estetico o chirurgo plastico per te",
+  "formaSocietaria": "SRL",
+  "partitaIva": "17953331000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://qidoc.it/",
+  "indirizzo": "Via Antonio Bertoloni 14",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "frosinone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://qidoc.it/",
+   "https://qidoc.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

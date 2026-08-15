@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "beautylifecentroestetico.it",
+  "nome": "Trattamenti estetici",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390833282477",
+  "email": "",
+  "sitoUrl": "https://www.beautylifecentroestetico.it/",
+  "indirizzo": "Via Rimembranze, 8",
+  "cap": "73011",
+  "comune": "Alezio",
+  "provincia": "gallipoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautylifecentroestetico.it/",
+   "https://www.beautylifecentroestetico.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

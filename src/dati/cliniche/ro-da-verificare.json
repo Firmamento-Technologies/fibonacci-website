@@ -1,0 +1,88 @@
+[
+ {
+  "dominio": "lauraarduin.it",
+  "nome": "Laura Arduin Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lauraarduin.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ro",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lauraarduin.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicocinziapolo.it",
+  "nome": "Ginecologia, Ostetricia, Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01886511201",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicocinziapolo.it/",
+  "indirizzo": "Corso del Popolo 209",
+  "cap": "45100",
+  "comune": "Rovigo",
+  "provincia": "ro",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicocinziapolo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "venetamed.it",
+  "nome": "VenetaMed",
+  "formaSocietaria": "",
+  "partitaIva": "01099160291",
+  "telefono": "",
+  "email": "info@venetamed.it",
+  "sitoUrl": "https://venetamed.it/",
+  "indirizzo": "Via Mazzini 48",
+  "cap": "45014",
+  "comune": "Porto",
+  "provincia": "ro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://venetamed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

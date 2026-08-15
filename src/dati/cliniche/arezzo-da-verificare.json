@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "fisioterapiarossi.com",
+  "nome": "Trattamenti di medicina estetica Arezzo » Studio Fisioterapico Rossi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390575410158",
+  "email": "info@beclinic.com",
+  "sitoUrl": "https://fisioterapiarossi.com/",
+  "indirizzo": "Via Sirio, 2",
+  "cap": "52041",
+  "comune": "Pieve",
+  "provincia": "arezzo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fisioterapiarossi.com/",
+   "https://fisioterapiarossi.com/chi-siamo/",
+   "https://fisioterapiarossi.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "skin-beauty.it",
+  "nome": "Skin Beauty estetica avanzata ad Arezzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393382289189",
+  "email": "",
+  "sitoUrl": "https://www.skin-beauty.it/",
+  "indirizzo": "Via G. Garibaldi 91",
+  "cap": "",
+  "comune": "",
+  "provincia": "arezzo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.skin-beauty.it/",
+   "https://www.skin-beauty.it/chi-siamo/",
+   "https://www.skin-beauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

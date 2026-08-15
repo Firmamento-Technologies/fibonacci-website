@@ -1,0 +1,65 @@
+[
+ {
+  "dominio": "chirurgiadeodato.it",
+  "nome": "Chirurgo Plastico a Catania e Siracusa",
+  "formaSocietaria": "",
+  "partitaIva": "01089090896",
+  "telefono": "",
+  "email": "info@chirurgiadeodato.it",
+  "sitoUrl": "https://www.chirurgiadeodato.it/",
+  "indirizzo": "Viale O. Da Pordenone 25",
+  "cap": "96100",
+  "comune": "Siracusa",
+  "provincia": "siracusa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Vincenzo Deodato, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.chirurgiadeodato.it/",
+   "https://www.chirurgiadeodato.it/privacy-e-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "doraintagliata.it",
+  "nome": "Dott.ssa Dora Intagliata",
+  "formaSocietaria": "",
+  "partitaIva": "01626590895",
+  "telefono": "",
+  "email": "info@doraintagliata.it",
+  "sitoUrl": "https://www.doraintagliata.it/",
+  "indirizzo": "Via Alcide De Gasperi 66",
+  "cap": "",
+  "comune": "",
+  "provincia": "siracusa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Dora Intagliata, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.doraintagliata.it/",
+   "https://www.doraintagliata.it/contatti/",
+   "https://www.doraintagliata.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dora Intagliata, e il dominio lo ripete"
+ }
+]

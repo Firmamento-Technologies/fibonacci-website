@@ -1,0 +1,137 @@
+[
+ {
+  "dominio": "medicalcentermerano.it",
+  "nome": "Medical Center Merano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473233689",
+  "email": "info@medicalcentermerano.it",
+  "sitoUrl": "https://www.medicalcentermerano.it/it/",
+  "indirizzo": "Via Luis Zuegg, 24",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalcentermerano.it/it/",
+   "https://www.medicalcentermerano.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalquellenhof.com",
+  "nome": "Gesundheitszentrum bei Meran: Medical Center Quellenhof",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473445500",
+  "email": "info@medicalquellenhof.com",
+  "sitoUrl": "https://www.medicalquellenhof.com/",
+  "indirizzo": "",
+  "cap": "39010",
+  "comune": "St",
+  "provincia": "merano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalquellenhof.com/",
+   "https://www.medicalquellenhof.com/credits/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "palace.it",
+  "nome": "Sito Ufficiale di Palace Merano",
+  "formaSocietaria": "",
+  "partitaIva": "01513520211",
+  "telefono": "+390473271000",
+  "email": "info@palace.it",
+  "sitoUrl": "https://www.palace.it/",
+  "indirizzo": "Via Cavour 2",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.palace.it/",
+   "https://www.palace.it/medical-spa-italia/dove-siamo",
+   "https://www.palace.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "saltclinic.it",
+  "nome": "SaltClinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@saltclinic.it",
+  "sitoUrl": "https://saltclinic.it/",
+  "indirizzo": "Via Weingartner, 41",
+  "cap": "39022",
+  "comune": "Lagundo",
+  "provincia": "merano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://saltclinic.it/",
+   "https://saltclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villa-santanna.eu",
+  "nome": "Casa di Cura Sant’Anna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "clinica@villa-santanna.eu",
+  "sitoUrl": "https://villa-santanna.eu/",
+  "indirizzo": "Via Cavour 58",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://villa-santanna.eu/",
+   "https://villa-santanna.eu/chi-siamo/",
+   "https://villa-santanna.eu/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

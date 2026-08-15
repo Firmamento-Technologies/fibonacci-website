@@ -1,0 +1,34 @@
+[
+ {
+  "dominio": "aslcaserta.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "beautystudiobydeangelis.it",
+  "nome": "Centro bellezza a Caserta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390823344357",
+  "email": "",
+  "sitoUrl": "https://www.beautystudiobydeangelis.it/",
+  "indirizzo": "Via Renato Iaselli, 15",
+  "cap": "81100",
+  "comune": "IT",
+  "provincia": "caserta",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautystudiobydeangelis.it/",
+   "https://www.beautystudiobydeangelis.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

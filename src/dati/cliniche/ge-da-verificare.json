@@ -1,0 +1,266 @@
+[
+ {
+  "dominio": "centrocolombo.it",
+  "nome": "Centro Colombo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393489133084",
+  "email": "info@centrocolombo.it",
+  "sitoUrl": "https://www.centrocolombo.it/",
+  "indirizzo": "Viale Sauli 39",
+  "cap": "16121",
+  "comune": "Mappa",
+  "provincia": "ge",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrocolombo.it/",
+   "https://www.centrocolombo.it/chi-siamo-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottoressabihoi.it",
+  "nome": "Dottoressa Simona Bihoi",
+  "formaSocietaria": "",
+  "partitaIva": "02028220990",
+  "telefono": "+393403447060",
+  "email": "",
+  "sitoUrl": "https://dottoressabihoi.it/",
+  "indirizzo": "Via San Rufino 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottoressabihoi.it/",
+   "https://dottoressabihoi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottoressaisabellamarro.com",
+  "nome": "Medico dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393475427651",
+  "email": "",
+  "sitoUrl": "https://www.dottoressaisabellamarro.com/",
+  "indirizzo": "Via Fausto Beretta, 3",
+  "cap": "16146",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressaisabellamarro.com/",
+   "https://www.dottoressaisabellamarro.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottoressapensa.com",
+  "nome": "Dottoressa Pensa -",
+  "formaSocietaria": "",
+  "partitaIva": "01446690115",
+  "telefono": "+393404864833",
+  "email": "",
+  "sitoUrl": "https://www.dottoressapensa.com/",
+  "indirizzo": "Via Granello 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressapensa.com/",
+   "https://www.dottoressapensa.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottsirito.it",
+  "nome": "Medico Estetico a Genova",
+  "formaSocietaria": "",
+  "partitaIva": "03137230102",
+  "telefono": "+393939009909",
+  "email": "",
+  "sitoUrl": "https://dottsirito.it/",
+  "indirizzo": "Via Zara, 9",
+  "cap": "16145",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottsirito.it/",
+   "https://dottsirito.it/contatti/",
+   "https://dottsirito.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaestetica-genova.it",
+  "nome": "MEDICINA ESTETICA GENOVA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393334940072",
+  "email": "",
+  "sitoUrl": "https://www.medicinaestetica-genova.it/",
+  "indirizzo": "",
+  "cap": "16128",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaestetica-genova.it/",
+   "https://www.medicinaestetica-genova.it/contatti/",
+   "https://www.medicinaestetica-genova.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticagenova.com",
+  "nome": "Medicina Estetica Genova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393471835300",
+  "email": "info@medicinaesteticagenova.com",
+  "sitoUrl": "https://www.medicinaesteticagenova.com/",
+  "indirizzo": "Via Antonello Da Messina, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticagenova.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "santagostinogenova.it",
+  "nome": "Santagostino Genova: il centro medico vicino a te",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03740811207",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santagostinogenova.it/",
+  "indirizzo": "via delle Casacce 1",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.santagostinogenova.it/",
+   "https://www.santagostinogenova.it/chi-siamo/",
+   "https://www.santagostinogenova.it/contatti-e-orari/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiogioana.it",
+  "nome": "Studio Medico Gioana",
+  "formaSocietaria": "",
+  "partitaIva": "02905040990",
+  "telefono": "+393351928532",
+  "email": "info@studiogioana.it",
+  "sitoUrl": "https://www.studiogioana.it/",
+  "indirizzo": "Largo San Giuseppe 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiogioana.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

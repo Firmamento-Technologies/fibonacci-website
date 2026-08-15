@@ -1,0 +1,271 @@
+[
+ {
+  "dominio": "annamariaveronesi.it",
+  "nome": "Dr. ssa Anna Maria Veronesi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39038233487",
+  "email": "info@annamariaveronesi.it",
+  "sitoUrl": "https://www.annamariaveronesi.it/",
+  "indirizzo": "Via Porta Damiani, 18",
+  "cap": "",
+  "comune": "",
+  "provincia": "pv",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.annamariaveronesi.it/",
+   "https://www.annamariaveronesi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "estetica2000pavia.it",
+  "nome": "Estetica 2000",
+  "formaSocietaria": "",
+  "partitaIva": "01691890188",
+  "telefono": "",
+  "email": "info@estetica2000pavia.it",
+  "sitoUrl": "https://www.estetica2000pavia.it/",
+  "indirizzo": "Via Bernardino Da Feltre 35",
+  "cap": "27100",
+  "comune": "PAVIA",
+  "provincia": "pv",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.estetica2000pavia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticasicura.it",
+  "nome": "Studio Chirurgia Plastica ed Estetica a Pavia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393356144290",
+  "email": "",
+  "sitoUrl": "https://www.esteticasicura.it/",
+  "indirizzo": "Viale della Libertà, 89",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticasicura.it/",
+   "https://www.esteticasicura.it/chi-siamo",
+   "https://www.esteticasicura.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticabarak.it",
+  "nome": "MEDICINA ESTETICA AVANZATA",
+  "formaSocietaria": "",
+  "partitaIva": "02639240189",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticabarak.it/",
+  "indirizzo": "via Carlo Crivelli, 20",
+  "cap": "27370",
+  "comune": "MILANO",
+  "provincia": "pv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticabarak.it/",
+   "https://www.medicinaesteticabarak.it/contatti/",
+   "https://www.medicinaesteticabarak.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticapavia.eu",
+  "nome": "Medicina Estetica Pavia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticapavia.eu/",
+  "indirizzo": "",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticapavia.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "moodbeautylab.it",
+  "nome": "Centro Estetico Pavia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393487582333",
+  "email": "info@moodbeautylab.it",
+  "sitoUrl": "https://www.moodbeautylab.it/",
+  "indirizzo": "Via San Paolo 5g",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.moodbeautylab.it/",
+   "https://www.moodbeautylab.it/chi-siamo/",
+   "https://www.moodbeautylab.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nuovaesteticapavia.it",
+  "nome": "Nuova Estetica Pavia",
+  "formaSocietaria": "",
+  "partitaIva": "02975300183",
+  "telefono": "",
+  "email": "info@nuovaesteticapavia.it",
+  "sitoUrl": "https://nuovaesteticapavia.it/",
+  "indirizzo": "Viale Indipendenza 9",
+  "cap": "23570",
+  "comune": "WhatsApp",
+  "provincia": "pv",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://nuovaesteticapavia.it/",
+   "https://nuovaesteticapavia.it/chi-siamo/",
+   "https://nuovaesteticapavia.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "paviamedicinaestetica.it",
+  "nome": "Dr Carenzio Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393337985156",
+  "email": "info@paviamedicinaestetica.it",
+  "sitoUrl": "https://www.paviamedicinaestetica.it/",
+  "indirizzo": "Via Maffi, 6",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.paviamedicinaestetica.it/",
+   "https://www.paviamedicinaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomoscamarisa.com",
+  "nome": "Dermatologo Pavia e Lodi",
+  "formaSocietaria": "",
+  "partitaIva": "00525270187",
+  "telefono": "+393338664262",
+  "email": "",
+  "sitoUrl": "https://studiomoscamarisa.com/",
+  "indirizzo": "Via Franchi 15",
+  "cap": "27100",
+  "comune": "",
+  "provincia": "pv",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomoscamarisa.com/",
+   "https://studiomoscamarisa.com/note-legali",
+   "https://studiomoscamarisa.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

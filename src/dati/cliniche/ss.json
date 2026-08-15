@@ -1,0 +1,287 @@
+[
+ {
+  "dominio": "centrocuraesalute.com",
+  "nome": "Centro Cura e Salute Platamona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390793120071",
+  "email": "info@centrocurasalute.com",
+  "sitoUrl": "https://centrocuraesalute.com/",
+  "indirizzo": "Via Della Torre, 7",
+  "cap": "07100",
+  "comune": "Platamona",
+  "provincia": "ss",
+  "prestazioni": [
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrocuraesalute.com/",
+   "https://centrocuraesalute.com/chi-siamo/",
+   "https://centrocuraesalute.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cinziabarberis.it",
+  "nome": "Medicina Estetica Torino",
+  "formaSocietaria": "",
+  "partitaIva": "07264480018",
+  "telefono": "+393385801510",
+  "email": "",
+  "sitoUrl": "https://www.cinziabarberis.it/",
+  "indirizzo": "Corso Francia 238",
+  "cap": "14633",
+  "comune": "Membro",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Cinzia Barberis, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.cinziabarberis.it/",
+   "https://www.cinziabarberis.it/contatti/",
+   "https://www.cinziabarberis.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cinzia Barberis, e il dominio lo ripete"
+ },
+ {
+  "dominio": "dermatologiamarongiusassari.it",
+  "nome": "Specialista medicina chirurgia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393492286567",
+  "email": "",
+  "sitoUrl": "https://www.dermatologiamarongiusassari.it/",
+  "indirizzo": "Via Palmiro Togliatti, 6",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Paola Marongiu, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologiamarongiusassari.it/",
+   "https://www.dermatologiamarongiusassari.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "kalosmg.it",
+  "nome": "KalosMG Medicina Estetica Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "01866130907",
+  "telefono": "+39079290864",
+  "email": "",
+  "sitoUrl": "https://kalosmg.it/",
+  "indirizzo": "via Salvatore Marras 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://kalosmg.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "minnitimoro.it",
+  "nome": "Studio Dentistico Minniti Moro: Il Tuo Dentista A Sassari",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02767130905",
+  "telefono": "+39079237648",
+  "email": "info@minnitimoro.it",
+  "sitoUrl": "https://minnitimoro.it/",
+  "indirizzo": "Largo Budapest, 9",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Minniti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://minnitimoro.it/",
+   "https://minnitimoro.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "myclinicmed.it",
+  "nome": "My Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "02979430903",
+  "telefono": "+393286464565",
+  "email": "info@myclinicmed.it",
+  "sitoUrl": "https://myclinicmed.it/",
+  "indirizzo": "Via Carlo Felice 56",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://myclinicmed.it/",
+   "https://myclinicmed.it/privacy-statement-eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pro-clinic.eu",
+  "nome": "PRO-CLINIC + Centro Medico Polispecialistico, Chirurgico e Radiodiagno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@pro-clinic.eu",
+  "sitoUrl": "https://www.pro-clinic.eu/index.html",
+  "indirizzo": "Viale Italia, 55",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.pro-clinic.eu/index.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sassarisurgeryclinic.com",
+  "nome": "Sassari Surgery Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390793120071",
+  "email": "info@centrocurasalute.com",
+  "sitoUrl": "https://sassarisurgeryclinic.com/",
+  "indirizzo": "Via della Torre 7",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://sassarisurgeryclinic.com/",
+   "https://sassarisurgeryclinic.com/chi-siamo",
+   "https://sassarisurgeryclinic.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticozara.it",
+  "nome": "Studio odontoiatrico Zara",
+  "formaSocietaria": "",
+  "partitaIva": "02690340902",
+  "telefono": "+39079278271",
+  "email": "info@studiodentisticozara.it",
+  "sitoUrl": "https://www.studiodentisticozara.it/",
+  "indirizzo": "Via Carlo Felice, 33c",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticozara.it/",
+   "https://www.studiodentisticozara.it/chi-siamo/",
+   "https://www.studiodentisticozara.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodonguesoggia.it",
+  "nome": "Studio Dongu & Soggia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02973440908",
+  "telefono": "+393500258028",
+  "email": "info@studiodonguesoggia.it",
+  "sitoUrl": "https://studiodonguesoggia.it/",
+  "indirizzo": "Via Luna e Sole, 46",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiodonguesoggia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

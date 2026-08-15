@@ -1,0 +1,159 @@
+[
+ {
+  "dominio": "asst-rhodense.it",
+  "nome": "asst-rhodense.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asst-rhodense.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bollate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asst-rhodense.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "barbarafabiobeauty.com",
+  "nome": "Barbara Fabio Beauty Studio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://barbarafabiobeauty.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bollate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://barbarafabiobeauty.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "chirurgiaemedicinaestetica.net",
+  "nome": "Chirurgia e Medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390297137199",
+  "email": "",
+  "sitoUrl": "https://chirurgiaemedicinaestetica.net/",
+  "indirizzo": "Via Mario Pagano 42",
+  "cap": "22100",
+  "comune": "Como",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://chirurgiaemedicinaestetica.net/",
+   "https://chirurgiaemedicinaestetica.net/chi-siamo/",
+   "https://chirurgiaemedicinaestetica.net/privacy-policy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lcbeautystudio.it",
+  "nome": "Letizia Clerici Beauty Studio",
+  "formaSocietaria": "",
+  "partitaIva": "11848660962",
+  "telefono": "+393517401048",
+  "email": "info@lcbeautystudio.it",
+  "sitoUrl": "https://lcbeautystudio.it/",
+  "indirizzo": "Via Ospitaletto 47",
+  "cap": "20021",
+  "comune": "Bollate",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lcbeautystudio.it/",
+   "https://lcbeautystudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "venusbollate.it",
+  "nome": "Centro Estetico Venus Bollate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390233300042",
+  "email": "",
+  "sitoUrl": "https://venusbollate.it/",
+  "indirizzo": "Via Magenta, 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://venusbollate.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vizididonna.it",
+  "nome": "Vizi di Donna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vizididonna.it/",
+  "indirizzo": "Via Madonna, 15",
+  "cap": "20021",
+  "comune": "Cassina",
+  "provincia": "bollate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://vizididonna.it/",
+   "https://vizididonna.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

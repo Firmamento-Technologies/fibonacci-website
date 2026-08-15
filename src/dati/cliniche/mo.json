@@ -1,0 +1,370 @@
+[
+ {
+  "dominio": "annacristinamazzinimedicinaestetica.it",
+  "nome": "Trattamenti Medicina Estetica e Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "01828010361",
+  "telefono": "+393206017859",
+  "email": "",
+  "sitoUrl": "https://annacristinamazzinimedicinaestetica.it/",
+  "indirizzo": "Viale Monte San Michele, 5",
+  "cap": "41126",
+  "comune": "MODENA",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Mazzini Trattamenti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://annacristinamazzinimedicinaestetica.it/",
+   "https://annacristinamazzinimedicinaestetica.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicatarabini.it",
+  "nome": "Clinica Tarabini-Centro Medico e Chirurgico a Carpi (Modena)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39059696113",
+  "email": "info@clinicatarabini.it",
+  "sitoUrl": "https://www.clinicatarabini.it/",
+  "indirizzo": "Via Lenin 7",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "mo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicatarabini.it/",
+   "https://www.clinicatarabini.it/contatti/",
+   "https://www.clinicatarabini.it/informativa-contatti-e-newsletter/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "elisabenati.it",
+  "nome": "Elisa Benati",
+  "formaSocietaria": "",
+  "partitaIva": "03638210363",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.elisabenati.it/",
+  "indirizzo": "Via L. Vanvitelli 1",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Elisa Benati, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.elisabenati.it/",
+   "https://www.elisabenati.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Benati, e il dominio lo ripete"
+ },
+ {
+  "dominio": "giuliaboscaini.it",
+  "nome": "Dott.ssa Giulia Boscaini",
+  "formaSocietaria": "",
+  "partitaIva": "03714380361",
+  "telefono": "+393922370596",
+  "email": "info@giuliaboscaini.it",
+  "sitoUrl": "https://giuliaboscaini.it/",
+  "indirizzo": "Via Cosmé Tura, 34",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulia Boscaini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://giuliaboscaini.it/",
+   "https://giuliaboscaini.it/sedi/",
+   "https://giuliaboscaini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boscaini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "medicaplus.it",
+  "nome": "Medica Plus",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03527070365",
+  "telefono": "+390598396644",
+  "email": "info@medicaplus.it",
+  "sitoUrl": "https://www.medicaplus.it/",
+  "indirizzo": "Via Caduti in Guerra 101",
+  "cap": "41121",
+  "comune": "Modena",
+  "provincia": "mo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medicaplus.it/",
+   "https://www.medicaplus.it/contatti/",
+   "https://www.medicaplus.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticagrendene.com",
+  "nome": "Medicina estetica Modena Dott.ssa Silvia Grendene",
+  "formaSocietaria": "",
+  "partitaIva": "03831200286",
+  "telefono": "+393479754283",
+  "email": "info@medicinaesteticagrendene.com",
+  "sitoUrl": "https://www.medicinaesteticagrendene.com/",
+  "indirizzo": "Strada Scaglia Est, 17",
+  "cap": "41126",
+  "comune": "Modena",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Silvia Grendene, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicinaesteticagrendene.com/",
+   "https://www.medicinaesteticagrendene.com/dove-siamo/",
+   "https://www.medicinaesteticagrendene.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "molinarismilelife.it",
+  "nome": "Dott.ssa Camilla Molinari",
+  "formaSocietaria": "",
+  "partitaIva": "03375830365",
+  "telefono": "+393458864802",
+  "email": "",
+  "sitoUrl": "https://molinarismilelife.it/",
+  "indirizzo": "via P.Giardini, 45",
+  "cap": "22022",
+  "comune": "BONDENO",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Camilla Molinari, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://molinarismilelife.it/",
+   "https://molinarismilelife.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "paolamolinari.it",
+  "nome": "Medicina Estetica Modena",
+  "formaSocietaria": "",
+  "partitaIva": "01784820365",
+  "telefono": "+39059218866",
+  "email": "",
+  "sitoUrl": "https://www.paolamolinari.it/",
+  "indirizzo": "Via Pietro Giardini, 45",
+  "cap": "41124",
+  "comune": "Casella",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Paola Molinari, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.paolamolinari.it/",
+   "https://www.paolamolinari.it/contatti-medicina-estetica-modena.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Molinari, e il dominio lo ripete"
+ },
+ {
+  "dominio": "polestemed.com",
+  "nome": "Poliambulatorio Estemed Medicina Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03952990368",
+  "telefono": "+39059372030",
+  "email": "info@polestemed.com",
+  "sitoUrl": "https://www.polestemed.com/",
+  "indirizzo": "Strada Saliceto Panaro 123",
+  "cap": "41122",
+  "comune": "Modena",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.polestemed.com/",
+   "https://www.polestemed.com/contatti-estemed/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorio-minerva.it",
+  "nome": "Poliambulatorio Minerva Srl",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01384050520",
+  "telefono": "",
+  "email": "info@poliambulatorio-minerva.it",
+  "sitoUrl": "https://poliambulatorio-minerva.it/",
+  "indirizzo": "Via Giardini Nord, 446",
+  "cap": "32904",
+  "comune": "Phone",
+  "provincia": "mo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatorio-minerva.it/",
+   "https://poliambulatorio-minerva.it/contatti/",
+   "https://poliambulatorio-minerva.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriopcm.it",
+  "nome": "Poliambulatorio PCM",
+  "formaSocietaria": "",
+  "partitaIva": "14365250969",
+  "telefono": "+39059306196",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriopcm.it/",
+  "indirizzo": "Via Arquà, 5",
+  "cap": "41125",
+  "comune": "Modena",
+  "provincia": "mo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliambulatoriopcm.it/",
+   "https://www.poliambulatoriopcm.it/contatti/",
+   "https://www.poliambulatoriopcm.it/contatti/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sarabertoncelli.it",
+  "nome": "Medico Estetico a Modena",
+  "formaSocietaria": "",
+  "partitaIva": "03145231209",
+  "telefono": "+393703779623",
+  "email": "info@sarabertoncelli.it",
+  "sitoUrl": "https://sarabertoncelli.it/",
+  "indirizzo": "Via Radici in Piano, 46",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Sara Bertoncelli, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://sarabertoncelli.it/",
+   "https://sarabertoncelli.it/contatta-la-dottoressa-sara-bertoncelli/",
+   "https://sarabertoncelli.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sara Bertoncelli, e il dominio lo ripete"
+ }
+]

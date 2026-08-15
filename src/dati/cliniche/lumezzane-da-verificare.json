@@ -1,0 +1,81 @@
+[
+ {
+  "dominio": "beautyplanet-bs.it",
+  "nome": "Il centro",
+  "formaSocietaria": "",
+  "partitaIva": "01991420983",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.beautyplanet-bs.it/",
+  "indirizzo": "Via San Nicola Da Tolentino - 25065",
+  "cap": "25065",
+  "comune": "Lumezzane",
+  "provincia": "lumezzane",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautyplanet-bs.it/",
+   "https://www.beautyplanet-bs.it/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "e-bus.it",
+  "nome": "E-bus",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.e-bus.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lumezzane",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.e-bus.it/",
+   "https://www.e-bus.it/nastro-adesivo-personalizzato-identita-visiva-e-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "iczanica.it",
+  "nome": "Iczanica",
+  "formaSocietaria": "",
+  "partitaIva": "04468170289",
+  "telefono": "",
+  "email": "info@sltservice.it",
+  "sitoUrl": "https://www.iczanica.it/",
+  "indirizzo": "Via L. Barbo, 8",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "lumezzane",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.iczanica.it/",
+   "https://www.iczanica.it/emergenza-dentista-napoli-cosa-fare-e-chi-contattare-subito/",
+   "https://www.iczanica.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,306 @@
+[
+ {
+  "dominio": "alessandracardis.it",
+  "nome": "AlessandraCardis",
+  "formaSocietaria": "",
+  "partitaIva": "01483110332",
+  "telefono": "+393924470314",
+  "email": "info@alessandracardis.it",
+  "sitoUrl": "https://alessandracardis.it/",
+  "indirizzo": "Piazza Cittadella, 15",
+  "cap": "",
+  "comune": "",
+  "provincia": "pc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandra Cardis, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://alessandracardis.it/",
+   "https://alessandracardis.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Cardis, e il dominio lo ripete"
+ },
+ {
+  "dominio": "benessereesteticaavanzata.it",
+  "nome": "BenEssere",
+  "formaSocietaria": "",
+  "partitaIva": "01413250331",
+  "telefono": "+390523498559",
+  "email": "",
+  "sitoUrl": "https://www.benessereesteticaavanzata.it/",
+  "indirizzo": "Via Tortona, 31",
+  "cap": "29121",
+  "comune": "PIACENZA",
+  "provincia": "pc",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.benessereesteticaavanzata.it/",
+   "https://www.benessereesteticaavanzata.it/Privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "casadicura.pc.it",
+  "nome": "Casa di Cura Piacenza",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00203950332",
+  "telefono": "+390523711340",
+  "email": "info@casadicura.pc.it",
+  "sitoUrl": "https://casadicura.pc.it/",
+  "indirizzo": "Via Morigi, 41",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://casadicura.pc.it/",
+   "https://casadicura.pc.it/chi-siamo/",
+   "https://casadicura.pc.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaesteticagasparini.it",
+  "nome": "Prof. Gerardo Gasparini Chirurgo Plastico Piacenza",
+  "formaSocietaria": "",
+  "partitaIva": "02018670345",
+  "telefono": "+390521234181",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticagasparini.it/",
+  "indirizzo": "Via Verdi 27",
+  "cap": "43121",
+  "comune": "Parma",
+  "provincia": "pc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gerardo Gasparini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticagasparini.it/",
+   "https://www.chirurgiaesteticagasparini.it/contatti-gasparini-chirurgo-plastico-piacenza/",
+   "https://www.chirurgiaesteticagasparini.it/contatti-gasparini-chirurgo-plastico-piacenza/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "guicciardini.pc.it",
+  "nome": "POLIAMBULATORIO GUICCIARDINI",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01907140337",
+  "telefono": "+3905231860707",
+  "email": "prenotazioni@guicciardini.pc.it",
+  "sitoUrl": "https://guicciardini.pc.it/",
+  "indirizzo": "Via Vittime di Rio Boffalora 3",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://guicciardini.pc.it/",
+   "https://guicciardini.pc.it/chi-siamo/",
+   "https://guicciardini.pc.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticapiacenza.it",
+  "nome": "Beatrice Antognellini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393351487564",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticapiacenza.it/",
+  "indirizzo": "Via Filippo Turati, 2",
+  "cap": "29122",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticapiacenza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medirocca.it",
+  "nome": "Medicina estetica e odontoiatrica a Piacenza",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13857930963",
+  "telefono": "+393920880992",
+  "email": "",
+  "sitoUrl": "https://medirocca.it/",
+  "indirizzo": "Via Genova 5",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medirocca.it/",
+   "https://medirocca.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medoracentromedico.it",
+  "nome": "Medora Centro Medico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01624170336",
+  "telefono": "+3905231730557",
+  "email": "info@medoracentromedico.it",
+  "sitoUrl": "https://medoracentromedico.it/",
+  "indirizzo": "via S.Siro 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "pc",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medoracentromedico.it/",
+   "https://medoracentromedico.it/chi-siamo.html",
+   "https://medoracentromedico.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliluretta.it",
+  "nome": "Poliluretta Poliambulatorio Piacenza (Gragnano Trebbiense)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393923008820",
+  "email": "info@poliluretta.it",
+  "sitoUrl": "https://www.poliluretta.it/",
+  "indirizzo": "Via Guerralunga, 6",
+  "cap": "29010",
+  "comune": "Gragnano",
+  "provincia": "pc",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliluretta.it/",
+   "https://www.poliluretta.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiobaruffaldi.it",
+  "nome": "Studio Dentistico Baruffaldi",
+  "formaSocietaria": "",
+  "partitaIva": "00900690330",
+  "telefono": "+390523337616",
+  "email": "info@studiobaruffaldi.it",
+  "sitoUrl": "https://www.studiobaruffaldi.it/",
+  "indirizzo": "Strada Val Nure 16",
+  "cap": "29122",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alfonso Baruffaldi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiobaruffaldi.it/",
+   "https://www.studiobaruffaldi.it/privacy-policy/",
+   "https://www.studiobaruffaldi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "valentinasalotti.com",
+  "nome": "Dott.ssa Valentina Salotti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393389055929",
+  "email": "info@valentinasalotti.com",
+  "sitoUrl": "https://valentinasalotti.com/",
+  "indirizzo": "via XXIV Maggio, 24",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valentina Salotti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://valentinasalotti.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valentina Salotti, e il dominio lo ripete"
+ }
+]

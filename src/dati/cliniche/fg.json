@@ -1,0 +1,258 @@
+[
+ {
+  "dominio": "antoniofabrizio.it",
+  "nome": "Dottor Antonio Fabrizio",
+  "formaSocietaria": "",
+  "partitaIva": "03894780711",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.antoniofabrizio.it/",
+  "indirizzo": "via Ospedale Orsini 3",
+  "cap": "71040",
+  "comune": "Manfredonia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Fabrizio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.antoniofabrizio.it/",
+   "https://www.antoniofabrizio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Fabrizio, e il dominio lo ripete"
+ },
+ {
+  "dominio": "arborvitaefoggia.it",
+  "nome": "Arbor Vitae Foggia | Ambulatorio polispecialistico ginecologia, ostetr",
+  "formaSocietaria": "",
+  "partitaIva": "03688500713",
+  "telefono": "+390881743507",
+  "email": "info@arborvitaefoggia.it",
+  "sitoUrl": "https://www.arborvitaefoggia.it/",
+  "indirizzo": "Via Pietro Nenni , 19",
+  "cap": "71121",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.arborvitaefoggia.it/",
+   "https://www.arborvitaefoggia.it/contatti/",
+   "https://www.arborvitaefoggia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrogiovannipaolo.it",
+  "nome": "Centro Salute Giovanni Paolo II",
+  "formaSocietaria": "",
+  "partitaIva": "00419680715",
+  "telefono": "+390881716654",
+  "email": "info@centrogiovannipaolo.it",
+  "sitoUrl": "https://www.centrogiovannipaolo.it/",
+  "indirizzo": "Via Vittime Civili, 114",
+  "cap": "71121",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centrogiovannipaolo.it/",
+   "https://www.centrogiovannipaolo.it/chi-siamo",
+   "https://www.centrogiovannipaolo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressaoccultoanna.it",
+  "nome": "Home 2",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393406836519",
+  "email": "info@studiomedicofoggia.it",
+  "sitoUrl": "https://www.dottoressaoccultoanna.it/",
+  "indirizzo": "Via Gramsci 107",
+  "cap": "71100",
+  "comune": "FOGGIA",
+  "provincia": "fg",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Anna Occulto, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoressaoccultoanna.it/",
+   "https://www.dottoressaoccultoanna.it/contatti/",
+   "https://www.dottoressaoccultoanna.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "liberatocecchino.it",
+  "nome": "Dr. Roberto Cecchino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390881028802",
+  "email": "",
+  "sitoUrl": "https://liberatocecchino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Roberto Cecchino, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://liberatocecchino.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medigit.it",
+  "nome": "Medigit",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390881311164",
+  "email": "info@medigit.it",
+  "sitoUrl": "https://medigit.it/",
+  "indirizzo": "Via Napoli, 6",
+  "cap": "71121",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://medigit.it/",
+   "https://medigit.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "renovebeauty.it",
+  "nome": "La Clinica della Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "17432111007",
+  "telefono": "",
+  "email": "info@renovebeauty.it",
+  "sitoUrl": "https://renovebeauty.it/",
+  "indirizzo": "Via Marchese De Rosa, 49",
+  "cap": "71121",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://renovebeauty.it/",
+   "https://renovebeauty.it/renove-beauty-chi-siamo/",
+   "https://renovebeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sanita.puglia.it",
+  "nome": "PugliaSalute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sanita.puglia.it/",
+  "indirizzo": "Via Fornaci n. 201",
+  "cap": "76123",
+  "comune": "Andria",
+  "provincia": "fg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://sanita.puglia.it/",
+   "https://sanita.puglia.it/web/guest/informativa-privacy",
+   "https://sanita.puglia.it/web/guest/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticobevilacqua.com",
+  "nome": "Dentista a Foggia",
+  "formaSocietaria": "",
+  "partitaIva": "04320360714",
+  "telefono": "+393714349985",
+  "email": "info.studiobevilacqua@gmail.com",
+  "sitoUrl": "https://studiodentisticobevilacqua.com/",
+  "indirizzo": "via Monsignor Luigi Giussani 2",
+  "cap": "71122",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ornella Bevilacqua, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiodentisticobevilacqua.com/",
+   "https://studiodentisticobevilacqua.com/chi-siamo/",
+   "https://studiodentisticobevilacqua.com/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

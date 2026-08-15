@@ -1,0 +1,266 @@
+[
+ {
+  "dominio": "campilichirurgiaestetica.it",
+  "nome": "Chirurgo Estetico Plastico a Terni",
+  "formaSocietaria": "",
+  "partitaIva": "00606310555",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.campilichirurgiaestetica.it/",
+  "indirizzo": "V.le Cesare Battisti 36",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luca Campili, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.campilichirurgiaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicobellessere.it",
+  "nome": "Centro medico Bellessere",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01482730551",
+  "telefono": "+390744221075",
+  "email": "info@centromedicobellessere.it",
+  "sitoUrl": "https://www.centromedicobellessere.it/",
+  "indirizzo": "Via Mentana, 8",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicobellessere.it/",
+   "https://www.centromedicobellessere.it/contatti/",
+   "https://www.centromedicobellessere.it/privacy-police/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicoterni.it",
+  "nome": "Bianchimed: Centro Medico Polispecialistico a Terni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centromedicoterni.it/",
+  "indirizzo": "Via Baracca 5a",
+  "cap": "",
+  "comune": "",
+  "provincia": "tr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoterni.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicstudimedici.it",
+  "nome": "Clinic Studi Medici",
+  "formaSocietaria": "",
+  "partitaIva": "01414840551",
+  "telefono": "+390744226375",
+  "email": "info@clinicstudimedici.it",
+  "sitoUrl": "https://www.clinicstudimedici.it/",
+  "indirizzo": "Via Magenta, 19",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicstudimedici.it/",
+   "https://www.clinicstudimedici.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "italia-servizi.org",
+  "nome": "Italia Servizi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://italia-servizi.org/",
+  "indirizzo": "corso Valparaíso 30",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "tr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://italia-servizi.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "micaelagiovannetti.it",
+  "nome": "Dott.ssa Micaela Giovannetti",
+  "formaSocietaria": "",
+  "partitaIva": "01333750550",
+  "telefono": "+393337037258",
+  "email": "info@micaelagiovannetti.it",
+  "sitoUrl": "https://www.micaelagiovannetti.it/",
+  "indirizzo": "Via Campomicciolo 21",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Micaela Giovannetti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.micaelagiovannetti.it/",
+   "https://www.micaelagiovannetti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Micaela Giovannetti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "stefanochiummariello.it",
+  "nome": "Dott. Stefano Chiummariello M.D., Ph.D. ┊ Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.stefanochiummariello.it/",
+  "indirizzo": "Via Linda Malnati 15",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Chiummariello, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.stefanochiummariello.it/",
+   "https://www.stefanochiummariello.it/contatti/",
+   "https://www.stefanochiummariello.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Chiummariello, e il dominio lo ripete"
+ },
+ {
+  "dominio": "studiocapaldi.it",
+  "nome": "Studio Capaldi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390744405187",
+  "email": "studio.capaldi@virgilio.it",
+  "sitoUrl": "https://studiocapaldi.it/",
+  "indirizzo": "Via I° Maggio, 400",
+  "cap": "",
+  "comune": "",
+  "provincia": "tr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://studiocapaldi.it/",
+   "https://studiocapaldi.it/chi-siamo/",
+   "https://studiocapaldi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiosaniratini.com",
+  "nome": "Studio dentistico a Terni e Fabrica di Roma",
+  "formaSocietaria": "",
+  "partitaIva": "00554810556",
+  "telefono": "+390744424677",
+  "email": "info@studiosaniratini.it",
+  "sitoUrl": "https://www.studiosaniratini.com/",
+  "indirizzo": "Viale Guglielmi, 29",
+  "cap": "05100",
+  "comune": "TERNI",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiosaniratini.com/",
+   "https://www.studiosaniratini.com/chi-siamo",
+   "https://www.studiosaniratini.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

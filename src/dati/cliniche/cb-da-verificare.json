@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "colibrimagazine.it",
+  "nome": "Il Colibrì",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390874484550",
+  "email": "",
+  "sitoUrl": "https://colibrimagazine.it/",
+  "indirizzo": "Via Monte Grappa, 50",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://colibrimagazine.it/",
+   "https://colibrimagazine.it/contatti/",
+   "https://colibrimagazine.it/cookie-privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drmaurobarone.it",
+  "nome": "Dr. Mauro Barone",
+  "formaSocietaria": "",
+  "partitaIva": "14857471008",
+  "telefono": "+393490548553",
+  "email": "info@drmaurobarone.it",
+  "sitoUrl": "https://www.drmaurobarone.it/",
+  "indirizzo": "Via Tirso, 38",
+  "cap": "83803",
+  "comune": "Avezzano",
+  "provincia": "cb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drmaurobarone.it/",
+   "https://www.drmaurobarone.it/contatti/",
+   "https://www.drmaurobarone.it/contatti/newsletter/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

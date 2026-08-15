@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "farmaciainternazionalejesolo.it",
+  "nome": "Farmacia Internazionale di Jesolo (Venezia)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390421350377",
+  "email": "info@farmaciainternazionalejesolo.it",
+  "sitoUrl": "https://farmaciainternazionalejesolo.it/",
+  "indirizzo": "via Ugo Foscolo 86",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "jesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://farmaciainternazionalejesolo.it/",
+   "https://farmaciainternazionalejesolo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

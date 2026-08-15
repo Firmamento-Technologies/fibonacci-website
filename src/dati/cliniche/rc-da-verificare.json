@@ -1,0 +1,40 @@
+[
+ {
+  "dominio": "cylex-italia.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "drnunziata-chirurgiaplastica.it",
+  "nome": "Vincenzo Nunziata",
+  "formaSocietaria": "",
+  "partitaIva": "03048440782",
+  "telefono": "+393517649090",
+  "email": "",
+  "sitoUrl": "https://www.drnunziata-chirurgiaplastica.it/",
+  "indirizzo": "Via Roma, 20",
+  "cap": "87038",
+  "comune": "San",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drnunziata-chirurgiaplastica.it/",
+   "https://www.drnunziata-chirurgiaplastica.it/contatti/",
+   "https://www.drnunziata-chirurgiaplastica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

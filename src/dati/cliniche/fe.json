@@ -1,0 +1,278 @@
+[
+ {
+  "dominio": "aesthemedica.it",
+  "nome": "AEsthe Medica Ferrara, Dott. Laura Mazzotta",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02036260384",
+  "telefono": "+3905321771571",
+  "email": "info@aesthemedica.it",
+  "sitoUrl": "https://www.aesthemedica.it/",
+  "indirizzo": "Via Briosi 80",
+  "cap": "44123",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.aesthemedica.it/",
+   "https://www.aesthemedica.it/contatti/",
+   "https://www.aesthemedica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressacutrera.it",
+  "nome": "Elisabetta Cutrera",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottoressacutrera.it/",
+  "indirizzo": "Via Gobetti Piero 11",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Elisabetta Cutrera, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottoressacutrera.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressadanielatartarini.it",
+  "nome": "Chirurgia Generale, Medicina Estetica e Rigenerativa a Ferrara",
+  "formaSocietaria": "",
+  "partitaIva": "02112170382",
+  "telefono": "+393284813287",
+  "email": "",
+  "sitoUrl": "https://dottoressadanielatartarini.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Daniela Tartarini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottoressadanielatartarini.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressalindabui.it",
+  "nome": "Chirurgia Estetica e Medicina Estetica Ferrara",
+  "formaSocietaria": "",
+  "partitaIva": "01899030389",
+  "telefono": "+390532212056",
+  "email": "info@dottoressalindabui.it",
+  "sitoUrl": "https://www.dottoressalindabui.it/",
+  "indirizzo": "Via Montebello, 26",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dottoressalindabui.it/",
+   "https://www.dottoressalindabui.it/contatti-e-sedi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "enjoyderma.it",
+  "nome": "EnjoyDerma",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02154450387",
+  "telefono": "+3905321924401",
+  "email": "info@enjoyderma.it",
+  "sitoUrl": "https://www.enjoyderma.it/",
+  "indirizzo": "Via Giovanni Falcone 22",
+  "cap": "04967",
+  "comune": "Autorizzazione",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.enjoyderma.it/",
+   "https://www.enjoyderma.it/chi-siamo/",
+   "https://www.enjoyderma.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticaferrara.it",
+  "nome": "Centro Estetica Ferrara, dal 2012, per il tuo benessere.",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01854170386",
+  "telefono": "+390532242844",
+  "email": "",
+  "sitoUrl": "https://esteticaferrara.it/",
+  "indirizzo": "Via Della Luna 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://esteticaferrara.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ferraramedica.it",
+  "nome": "Ferrara Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390532761272",
+  "email": "info@ferraramedica.it",
+  "sitoUrl": "https://ferraramedica.it/",
+  "indirizzo": "Via Bologna 85",
+  "cap": "20000",
+  "comune": "Pazienti",
+  "provincia": "fe",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://ferraramedica.it/",
+   "https://ferraramedica.it/dove-siamo/",
+   "https://ferraramedica.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriodermalaser.com",
+  "nome": "DERMALASER",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriodermalaser.com/",
+  "indirizzo": "Via Don Giovanni Bosco 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriodermalaser.com/",
+   "https://www.poliambulatoriodermalaser.com/contatti",
+   "https://www.poliambulatoriodermalaser.com/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vilmalamalfa.com",
+  "nome": "Vilma La Malfa Dermatologia e Medicina Estetica ferrara",
+  "formaSocietaria": "",
+  "partitaIva": "01422540383",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.vilmalamalfa.com/",
+  "indirizzo": "Via Don Giovanni Bosco 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.vilmalamalfa.com/",
+   "https://www.vilmalamalfa.com/chi-siamo-c1d1v",
+   "https://www.vilmalamalfa.com/chi-siamo-cr8h"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

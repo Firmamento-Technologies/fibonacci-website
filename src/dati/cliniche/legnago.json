@@ -1,0 +1,132 @@
+[
+ {
+  "dominio": "casadicuradomussalutis.it",
+  "nome": "Domus Salutis Città di Legnago Casa di cura Ambulatori",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390442602688",
+  "email": "segreteria@casadicuradomussalutis.it",
+  "sitoUrl": "https://casadicuradomussalutis.it/",
+  "indirizzo": "",
+  "cap": "37045",
+  "comune": "Legnago",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://casadicuradomussalutis.it/",
+   "https://casadicuradomussalutis.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dralessandromicai.com",
+  "nome": "DrMicai",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393518393053",
+  "email": "",
+  "sitoUrl": "https://www.dralessandromicai.com/",
+  "indirizzo": "Via Calabria 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "legnago",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Micai, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dralessandromicai.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorio-sanfrancesco.it",
+  "nome": "Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "04581540236",
+  "telefono": "+3904421908004",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatorio-sanfrancesco.it/",
+  "indirizzo": "Via Monte di Pietà n° 1",
+  "cap": "37045",
+  "comune": "Legnago",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatorio-sanfrancesco.it/",
+   "https://www.poliambulatorio-sanfrancesco.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "puntosalutelegnago.it",
+  "nome": "Punto Salute Legnago",
+  "formaSocietaria": "",
+  "partitaIva": "04386200234",
+  "telefono": "+39044228793",
+  "email": "info@puntosalutelegnago.it",
+  "sitoUrl": "https://www.puntosalutelegnago.it/",
+  "indirizzo": "",
+  "cap": "28793",
+  "comune": "Piazzetta",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.puntosalutelegnago.it/",
+   "https://www.puntosalutelegnago.it/chi-siamo/",
+   "https://www.puntosalutelegnago.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiogardinale.it",
+  "nome": "Studiogardinale.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3904421720081",
+  "email": "",
+  "sitoUrl": "https://www.studiogardinale.it/",
+  "indirizzo": "Via Niccolò Copernico, 2",
+  "cap": "37045",
+  "comune": "Legnago",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiogardinale.it/",
+   "https://www.studiogardinale.it/contatti/",
+   "https://www.studiogardinale.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

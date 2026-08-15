@@ -1,0 +1,239 @@
+[
+ {
+  "dominio": "bertistefano.it",
+  "nome": "Ambulatorio medicina e laser terapia a Imola",
+  "formaSocietaria": "",
+  "partitaIva": "00055061204",
+  "telefono": "+39054234833",
+  "email": "",
+  "sitoUrl": "https://www.bertistefano.it/",
+  "indirizzo": "via Vico Garbesi 2",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Berti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.bertistefano.it/",
+   "https://www.bertistefano.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Berti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centromedicobeb.it",
+  "nome": "Centro Medico B&B",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39054225534",
+  "email": "info@centromedicobeb.it",
+  "sitoUrl": "https://www.centromedicobeb.it/",
+  "indirizzo": "Via Selice, 77",
+  "cap": "25534",
+  "comune": "Lunedì",
+  "provincia": "imola",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicobeb.it/",
+   "https://www.centromedicobeb.it/chi-siamo.php",
+   "https://www.centromedicobeb.it/contatti.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrosalusonline.com",
+  "nome": "Nuovo Centro Salus by Poliambulatorio Selice 102 Imola",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00685671208",
+  "telefono": "+39054232527",
+  "email": "info@centrosalusonline.com",
+  "sitoUrl": "https://centrosalusonline.com/",
+  "indirizzo": "Piazzale Ragazzi del '99",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centrosalusonline.com/",
+   "https://centrosalusonline.com/nuovo-centro-salus-imola-contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "essenthia.it",
+  "nome": "Essenthia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39054244669",
+  "email": "",
+  "sitoUrl": "https://www.essenthia.it/",
+  "indirizzo": "Via Cardinale Enea Sbarretti, 36",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.essenthia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticandoimola.it",
+  "nome": "Esteticando",
+  "formaSocietaria": "SNC",
+  "partitaIva": "03548131204",
+  "telefono": "+39054222110",
+  "email": "",
+  "sitoUrl": "https://esteticandoimola.it/",
+  "indirizzo": "Viale Carlo Pisacane, 49",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://esteticandoimola.it/",
+   "https://esteticandoimola.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lesteticaimola.it",
+  "nome": "Centro estetico Imola, trattamenti corpo e viso",
+  "formaSocietaria": "",
+  "partitaIva": "04251561207",
+  "telefono": "+393206288447",
+  "email": "info@lesteticaimola.it",
+  "sitoUrl": "https://www.lesteticaimola.it/",
+  "indirizzo": "Corso Cosmetic Master di Rhea 21",
+  "cap": "40641",
+  "comune": "Privacy",
+  "provincia": "imola",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.lesteticaimola.it/",
+   "https://www.lesteticaimola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriolavela.com",
+  "nome": "Poliambulatorio con chirurgo estetico e ginecologia Imola",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03728391206",
+  "telefono": "+393487823396",
+  "email": "",
+  "sitoUrl": "https://poliambulatoriolavela.com/",
+  "indirizzo": "Via Marconi 16",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatoriolavela.com/",
+   "https://poliambulatoriolavela.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriolavela.it",
+  "nome": "UN TEAM DI ESPERTI AL SERVIZIO DELLA tua SALUTE Il Poliambulatorio La ",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriolavela.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "imola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriolavela.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ps102imola.it",
+  "nome": "Poliambulatorio Selice 102 Imola (Bologna)",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03432861205",
+  "telefono": "+390542643832",
+  "email": "info@ps102imola.it",
+  "sitoUrl": "https://ps102imola.it/",
+  "indirizzo": "via G.Saragat, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "imola",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ps102imola.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

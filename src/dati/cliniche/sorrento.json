@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "tuttocitta.it",
+  "nome": "TuttoCittà: Mappe, Percorsi, Ristoranti, Farmacie, Hotel e Negozi",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03970540963",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tuttocitta.it/",
+  "indirizzo": "Corso Mortara 22",
+  "cap": "10149",
+  "comune": "Torino",
+  "provincia": "sorrento",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.tuttocitta.it/",
+   "https://www.tuttocitta.it/legal/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

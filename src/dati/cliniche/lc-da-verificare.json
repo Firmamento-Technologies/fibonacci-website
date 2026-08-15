@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "esteticagentile.com",
+  "nome": "Centro Estetico Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "04122630132",
+  "telefono": "+3903411841099",
+  "email": "",
+  "sitoUrl": "https://www.esteticagentile.com/",
+  "indirizzo": "Corso Bergamo 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "lc",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticagentile.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

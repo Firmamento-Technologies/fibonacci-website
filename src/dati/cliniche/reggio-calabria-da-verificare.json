@@ -1,0 +1,26 @@
+[
+ {
+  "dominio": "villasanna.it",
+  "nome": "Casa di Cura Villa S. Anna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.villasanna.it/",
+  "indirizzo": "Via Crocefisso 25",
+  "cap": "89128",
+  "comune": "Reggio",
+  "provincia": "reggio-calabria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villasanna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

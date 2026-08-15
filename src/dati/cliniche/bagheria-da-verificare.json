@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "studiominutella.it",
+  "nome": "Studio Dentistico Nicola Minutella",
+  "formaSocietaria": "",
+  "partitaIva": "05775880825",
+  "telefono": "+39091905990",
+  "email": "info@nicolaminutella.it",
+  "sitoUrl": "https://studiominutella.it/",
+  "indirizzo": "Via Mattarella, 93",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "bagheria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiominutella.it/",
+   "https://studiominutella.it/contatti-dello-studio-minutella.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

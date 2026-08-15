@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "centriideal.it",
+  "nome": "Centri Ideal",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centriideal.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "nichelino",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centriideal.it/",
+   "https://www.centriideal.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "manidiluce.it",
+  "nome": "Estetica Nichelino",
+  "formaSocietaria": "",
+  "partitaIva": "11188130014",
+  "telefono": "+393317357597",
+  "email": "",
+  "sitoUrl": "https://www.manidiluce.it/",
+  "indirizzo": "Via Alfieri 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "nichelino",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.manidiluce.it/",
+   "https://www.manidiluce.it/chi-siamo/",
+   "https://www.manidiluce.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

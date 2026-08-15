@@ -1,0 +1,179 @@
+[
+ {
+  "dominio": "aldoreale.it",
+  "nome": "Dott. Aldo Reale",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00926070707",
+  "telefono": "+39087492796",
+  "email": "",
+  "sitoUrl": "https://www.aldoreale.it/",
+  "indirizzo": "Via Conte Verde 8",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Aldo Reale, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.aldoreale.it/",
+   "https://www.aldoreale.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Reale, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centroartemisiacampobasso.it",
+  "nome": "Centro Medico Chirurgico Artemisia Campobasso",
+  "formaSocietaria": "SNC",
+  "partitaIva": "01601050709",
+  "telefono": "+39087492027",
+  "email": "info@centroartemisiacampobasso.it",
+  "sitoUrl": "https://www.centroartemisiacampobasso.it/",
+  "indirizzo": "Via Insorti d'Ungheria snc 86100",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centroartemisiacampobasso.it/",
+   "https://www.centroartemisiacampobasso.it/index.php/contatti",
+   "https://www.centroartemisiacampobasso.it/index.php/privacy-cookie-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticamente.com",
+  "nome": "Centro Esteticamete",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centroesteticamente.com",
+  "sitoUrl": "https://www.centroesteticamente.com/",
+  "indirizzo": "Via Piave 111",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticamente.com/",
+   "https://www.centroesteticamente.com/contatti/",
+   "https://www.centroesteticamente.com/policy-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giulianiro.com",
+  "nome": "Dott.ssa Giulia Niro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393286032960",
+  "email": "info@giulianiro.it",
+  "sitoUrl": "https://www.giulianiro.com/",
+  "indirizzo": "Via Insorti d'Ungheria, 26",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulia Niro, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giulianiro.com/",
+   "https://www.giulianiro.com/contatti",
+   "https://www.giulianiro.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Niro, e il dominio lo ripete"
+ },
+ {
+  "dominio": "lacuramedicalspa.com",
+  "nome": "La Cura Medical SPA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lacuramedicalspa.com",
+  "sitoUrl": "https://www.lacuramedicalspa.com/",
+  "indirizzo": "Via Conte Verde n°8",
+  "cap": "92796",
+  "comune": "Home",
+  "provincia": "cb",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.lacuramedicalspa.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticapolzi.it",
+  "nome": "Estetica Polzi",
+  "formaSocietaria": "",
+  "partitaIva": "00984720706",
+  "telefono": "",
+  "email": "info@enzapolzi.com",
+  "sitoUrl": "https://medicinaesteticapolzi.it/",
+  "indirizzo": "Via Carducci, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "cb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://medicinaesteticapolzi.it/",
+   "https://medicinaesteticapolzi.it/wp-content/uploads/2020/02/GDPR-Privacy-Policy-Cookies-Policy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

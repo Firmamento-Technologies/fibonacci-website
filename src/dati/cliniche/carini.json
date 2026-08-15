@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "centroesteticowonderland.it",
+  "nome": "Estetista a Carini",
+  "formaSocietaria": "",
+  "partitaIva": "07043900823",
+  "telefono": "+393890085231",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticowonderland.it/",
+  "indirizzo": "Via Rimembranza, 7",
+  "cap": "90044",
+  "comune": "Carini",
+  "provincia": "carini",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticowonderland.it/",
+   "https://www.centroesteticowonderland.it/chi-siamo/",
+   "https://www.centroesteticowonderland.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vivaestetica.it",
+  "nome": "Istituto di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393315374794",
+  "email": "",
+  "sitoUrl": "https://www.vivaestetica.it/",
+  "indirizzo": "Via Don Luigi Sturzo, 19",
+  "cap": "90044",
+  "comune": "Carini",
+  "provincia": "carini",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.vivaestetica.it/",
+   "https://www.vivaestetica.it/contatti",
+   "https://www.vivaestetica.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

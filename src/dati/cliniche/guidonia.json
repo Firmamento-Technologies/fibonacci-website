@@ -1,0 +1,118 @@
+[
+ {
+  "dominio": "centroesteticovillanovaguidonia.it",
+  "nome": "Centro DLD Estetica di Daniela Tossici Guidonia",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "15086351002",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticovillanovaguidonia.it/",
+  "indirizzo": "Via Rosolino Pilo 6",
+  "cap": "00012",
+  "comune": "Villanova",
+  "provincia": "guidonia",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centroesteticovillanovaguidonia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticaguidonia.it",
+  "nome": "Centro Benessere a Guidonia",
+  "formaSocietaria": "SNC",
+  "partitaIva": "13430711005",
+  "telefono": "+393917947150",
+  "email": "",
+  "sitoUrl": "https://www.esteticaguidonia.it/",
+  "indirizzo": "Via Visintini SNC – 00012",
+  "cap": "95647",
+  "comune": "Safari",
+  "provincia": "guidonia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticaguidonia.it/",
+   "https://www.esteticaguidonia.it/contatti/",
+   "https://www.esteticaguidonia.it/web-policy-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gruppoeuromed.it",
+  "nome": "Gruppo Euromed Guidonia-Roma centro polispecialistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390774300401",
+  "email": "info@gruppoeuromed.it",
+  "sitoUrl": "https://gruppoeuromed.it/",
+  "indirizzo": "Viale Roma 192",
+  "cap": "00012",
+  "comune": "Guidonia",
+  "provincia": "guidonia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://gruppoeuromed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lmbeautyspecialist.it",
+  "nome": "Centro estetico Guidonia: estetica e benessere a Guidonia",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "17503511002",
+  "telefono": "+390774013807",
+  "email": "info@lmbeautyspecialist.it",
+  "sitoUrl": "https://lmbeautyspecialist.it/",
+  "indirizzo": "Via Angelo Brunetti, 22",
+  "cap": "00012",
+  "comune": "Guidonia",
+  "provincia": "guidonia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://lmbeautyspecialist.it/",
+   "https://lmbeautyspecialist.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

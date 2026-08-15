@@ -1,0 +1,868 @@
+[
+ {
+  "dominio": "angelalazar.com",
+  "nome": "Dott.ssa Angela Lazar",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@angelalazar.com",
+  "sitoUrl": "https://www.angelalazar.com/",
+  "indirizzo": "Via Euclide, 15",
+  "cap": "37138",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Angela Lazar, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.angelalazar.com/",
+   "https://www.angelalazar.com/contatti/",
+   "https://www.angelalazar.com/privacy-policy-dott-ssa-angela-lazar/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angela Lazar, e il dominio lo ripete"
+ },
+ {
+  "dominio": "annakachalkina.com",
+  "nome": "Medico Chirurgo Estetico Verona e Parma: Chirurgia estetica Verona",
+  "formaSocietaria": "",
+  "partitaIva": "03003030347",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://annakachalkina.com/",
+  "indirizzo": "Via Caselle, 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "vr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Anna Kachalkina, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://annakachalkina.com/",
+   "https://annakachalkina.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Kachalkina, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centroatlanteverona.it",
+  "nome": "Centro Medico Atlante Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03970160234",
+  "telefono": "+390452061676",
+  "email": "segreteria@centroatlanteverona.it",
+  "sitoUrl": "https://www.centroatlanteverona.it/",
+  "indirizzo": "Strada Bresciana, 14",
+  "cap": "37139",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centroatlanteverona.it/",
+   "https://www.centroatlanteverona.it/contatti",
+   "https://www.centroatlanteverona.it/informative/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "criolipolisi-verona-dr-sapuppo.com",
+  "nome": "Criolipolisi e Mesoterapia a Verona, Milano, Trento, Merano e Bolzano ",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.criolipolisi-verona-dr-sapuppo.com/",
+  "indirizzo": "via Bonincontro 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ignazio Sapuppo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.criolipolisi-verona-dr-sapuppo.com/",
+   "https://www.criolipolisi-verona-dr-sapuppo.com/sedi-degli-studi-medici/",
+   "https://www.criolipolisi-verona-dr-sapuppo.com/contatti-per-prenotare-appuntamento/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dieffepoliambulatorio.it",
+  "nome": "Poliambulatorio Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04318260231",
+  "telefono": "+390458732463",
+  "email": "info@dieffepoliambulatorio.it",
+  "sitoUrl": "https://dieffepoliambulatorio.it/",
+  "indirizzo": "Via Monte Pastello, 14c",
+  "cap": "",
+  "comune": "",
+  "provincia": "vr",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://dieffepoliambulatorio.it/",
+   "https://dieffepoliambulatorio.it/chi-siamo/",
+   "https://dieffepoliambulatorio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottmichelemanzini.it",
+  "nome": "Chirurgia vascolare e medicina estetica a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "03373830235",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottmichelemanzini.it/",
+  "indirizzo": "Via Sant'Antonio, 7",
+  "cap": "37122",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Manzini Michele, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottmichelemanzini.it/",
+   "https://dottmichelemanzini.it/contatti",
+   "https://dottmichelemanzini.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoralvisecavallini.it",
+  "nome": "Dottor Alvise Cavallini e la medicina del benessere",
+  "formaSocietaria": "",
+  "partitaIva": "03680590233",
+  "telefono": "+390458303026",
+  "email": "info@dottoralvisecavallini.it",
+  "sitoUrl": "https://www.dottoralvisecavallini.it/",
+  "indirizzo": "Viale del Lavoro, 25",
+  "cap": "36015",
+  "comune": "Schio",
+  "provincia": "vr",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alvise Cavallini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoralvisecavallini.it/",
+   "https://www.dottoralvisecavallini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottorstefanocostanzo.it",
+  "nome": "Studio di odontoiatria e medicina estetica a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "01560430231",
+  "telefono": "+390458104480",
+  "email": "",
+  "sitoUrl": "https://www.dottorstefanocostanzo.it/",
+  "indirizzo": "Via Leone Pancaldo 68",
+  "cap": "37138",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Costanzo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottorstefanocostanzo.it/",
+   "https://www.dottorstefanocostanzo.it/contatti/",
+   "https://www.dottorstefanocostanzo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drcamillaforlin.it",
+  "nome": "Dr. Camilla Forlin",
+  "formaSocietaria": "",
+  "partitaIva": "13771410969",
+  "telefono": "",
+  "email": "info@drcamillaforlin.it",
+  "sitoUrl": "https://www.drcamillaforlin.it/",
+  "indirizzo": "Via Roma, 6",
+  "cap": "32038",
+  "comune": "BL",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Camilla Forlin, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drcamillaforlin.it/",
+   "https://www.drcamillaforlin.it/contatti/",
+   "https://www.drcamillaforlin.it/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drvannifailla.it",
+  "nome": "Medico estetico filler viso e mesoterapia a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "00770140234",
+  "telefono": "+393483134238",
+  "email": "",
+  "sitoUrl": "https://drvannifailla.it/",
+  "indirizzo": "Via Tonale, 14",
+  "cap": "37126",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://drvannifailla.it/",
+   "https://drvannifailla.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "edonise.it",
+  "nome": "Laser Medical Remove Edonise",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10740061212",
+  "telefono": "+3939800952092",
+  "email": "info@edonise.it",
+  "sitoUrl": "https://edonise.it/",
+  "indirizzo": "Via Leone Pancaldo, 72",
+  "cap": "80143",
+  "comune": "Napoli",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://edonise.it/",
+   "https://edonise.it/chi-siamo/",
+   "https://edonise.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giorgiarebonato.com",
+  "nome": "Dott.ssa Giorgia Rebonato",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.giorgiarebonato.com/",
+  "indirizzo": "Via Leone Pancaldo, 68",
+  "cap": "",
+  "comune": "",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giorgia Rebonato, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giorgiarebonato.com/",
+   "https://www.giorgiarebonato.com/about",
+   "https://www.giorgiarebonato.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgia Rebonato, e il dominio lo ripete"
+ },
+ {
+  "dominio": "giuliaboschiero.it",
+  "nome": "Dr. Giulia Boschiero",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@auraclinique.it",
+  "sitoUrl": "https://www.giuliaboschiero.it/",
+  "indirizzo": "Via Roma, 6",
+  "cap": "32032",
+  "comune": "Feltre",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulia Boschiero, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giuliaboschiero.it/",
+   "https://www.giuliaboschiero.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boschiero, e il dominio lo ripete"
+ },
+ {
+  "dominio": "horizonmed.it",
+  "nome": "Centro Medico Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05032730235",
+  "telefono": "+390452250501",
+  "email": "info@horizonmed.it",
+  "sitoUrl": "https://www.horizonmed.it/",
+  "indirizzo": "Via delle Compagnie, 3",
+  "cap": "37060",
+  "comune": "Nogarole",
+  "provincia": "vr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.horizonmed.it/",
+   "https://www.horizonmed.it/contattaci/",
+   "https://www.horizonmed.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "hsgrp.it",
+  "nome": "Medicina del Lavoro Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04498920232",
+  "telefono": "+390459990060",
+  "email": "",
+  "sitoUrl": "https://www.hsgrp.it/",
+  "indirizzo": "Via Staffali 44",
+  "cap": "37062",
+  "comune": "Dossobuono",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.hsgrp.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "info.centrodimedicina.com",
+  "nome": "Centro di Medicina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://info.centrodimedicina.com/",
+  "indirizzo": "Viale della Repubblica 10",
+  "cap": "31050",
+  "comune": "Villorba",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://info.centrodimedicina.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "luigimazzi.it",
+  "nome": "Chirurgo plastico Verona",
+  "formaSocietaria": "",
+  "partitaIva": "02371190238",
+  "telefono": "",
+  "email": "info@luigimazzi.it",
+  "sitoUrl": "https://www.luigimazzi.it/",
+  "indirizzo": "Via Della Valverde 5",
+  "cap": "37122",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luigi Mazzi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.luigimazzi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Mazzi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "mariateresagrecchi.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "11252990962",
+  "telefono": "+393667491663",
+  "email": "info@mariateresagrecchi.it",
+  "sitoUrl": "https://www.mariateresagrecchi.it/it/",
+  "indirizzo": "Via Rigaste San Zeno 25",
+  "cap": "37123",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Mariateresa Grecchi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.mariateresagrecchi.it/it/",
+   "https://www.mariateresagrecchi.it/it/dove-siamo",
+   "https://www.mariateresagrecchi.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "massimocorso.it",
+  "nome": "Chirurgia plastica ed estetica Verona",
+  "formaSocietaria": "",
+  "partitaIva": "03469510238",
+  "telefono": "+393428842143",
+  "email": "info@massimocorso.it",
+  "sitoUrl": "https://www.massimocorso.it/",
+  "indirizzo": "Corso Chiama il numero (+39",
+  "cap": "37047",
+  "comune": "San",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimo Corso, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.massimocorso.it/",
+   "https://www.massimocorso.it/contatti/",
+   "https://www.massimocorso.it/privacy-e-cookies/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Corso, e il dominio lo ripete"
+ },
+ {
+  "dominio": "medicallaserclinic.it",
+  "nome": "Centro di Medicina Estetica e Laser a Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04268200237",
+  "telefono": "+39045990465",
+  "email": "info@medicallaserclinic.it",
+  "sitoUrl": "https://medicallaserclinic.it/",
+  "indirizzo": "via Archimede, 10",
+  "cap": "37036",
+  "comune": "San",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicallaserclinic.it/",
+   "https://medicallaserclinic.it/contatti/",
+   "https://www.iubenda.com/privacy-policy/71276052"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "omniclinics.it",
+  "nome": "Centro Medico Multispecialistico Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3905119909090",
+  "email": "info@omniclinics.it",
+  "sitoUrl": "https://omniclinics.it/",
+  "indirizzo": "Via Cremona, 8",
+  "cap": "40137",
+  "comune": "Bologna",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://omniclinics.it/",
+   "https://omniclinics.it/chi-siamo/",
+   "https://omniclinics.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pasqualemarone.it",
+  "nome": "Chirurgo Plastico a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "02457740237",
+  "telefono": "+390458350707",
+  "email": "info@pasqualemarone.it",
+  "sitoUrl": "https://www.pasqualemarone.it/",
+  "indirizzo": "Via Tomaso da Vico, 14",
+  "cap": "37123",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pasquale Marone, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.pasqualemarone.it/",
+   "https://www.pasqualemarone.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Marone, e il dominio lo ripete"
+ },
+ {
+  "dominio": "polispecialisticoverona.it",
+  "nome": "Poliambulatorio Specialistico Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03504300231",
+  "telefono": "+390458303026",
+  "email": "info@polispecialisticoverona.it",
+  "sitoUrl": "https://polispecialisticoverona.it/",
+  "indirizzo": "Viale del Lavoro 25",
+  "cap": "37135",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://polispecialisticoverona.it/",
+   "https://polispecialisticoverona.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rakhshan.it",
+  "nome": "Medicina Estetica Verona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.rakhshan.it/",
+  "indirizzo": "Via Brennero 2",
+  "cap": "37015",
+  "comune": "Sant’Ambrogio",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rakhshan Alireza, cognome nel dominio",
+  "fonteUrl": [
+   "https://www.rakhshan.it/",
+   "https://www.rakhshan.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rakhshan Alireza, cognome nel dominio"
+ },
+ {
+  "dominio": "smilegallery.it",
+  "nome": "Dentista a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390459810389",
+  "email": "info@smilegallery.it",
+  "sitoUrl": "https://smilegallery.it/",
+  "indirizzo": "Via A. Saffi, 2",
+  "cap": "37123",
+  "comune": "Direttore",
+  "provincia": "vr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://smilegallery.it/",
+   "https://smilegallery.it/privacy-policy/",
+   "https://smilegallery.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "stefanogigliotti.it",
+  "nome": "Chirurgo plastico Roma ,mastoplastica additiva Roma",
+  "formaSocietaria": "",
+  "partitaIva": "02588470597",
+  "telefono": "",
+  "email": "info@stefanogigliotti.it",
+  "sitoUrl": "https://www.stefanogigliotti.it/",
+  "indirizzo": "Via Tucci 40",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Gigliotti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.stefanogigliotti.it/",
+   "https://www.stefanogigliotti.it/privacy-cookies-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Gigliotti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "studiocampanella.com",
+  "nome": "Clinica Estetica Verona",
+  "formaSocietaria": "",
+  "partitaIva": "04274200239",
+  "telefono": "+390454576329",
+  "email": "",
+  "sitoUrl": "https://www.studiocampanella.com/it/clinica-estetica-verona",
+  "indirizzo": "Via Antonio Pelacane, 16",
+  "cap": "37060",
+  "comune": "Lugagnano",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Campanella, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiocampanella.com/it/clinica-estetica-verona",
+   "https://www.studiocampanella.com/it/contatti",
+   "https://www.studiocampanella.com/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticocanton.it",
+  "nome": "Studio Dentistico Canton",
+  "formaSocietaria": "",
+  "partitaIva": "03918530233",
+  "telefono": "+39045568985",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticocanton.it/",
+  "indirizzo": "Via Franchetti, 4",
+  "cap": "37138",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticocanton.it/",
+   "https://www.studiodentisticocanton.it/chi-siamo",
+   "https://www.studiodentisticocanton.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vnmedical.it",
+  "nome": "VN Medical Clinic",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04094340363",
+  "telefono": "+390594341134",
+  "email": "info@vnmedical.it",
+  "sitoUrl": "https://vnmedical.it/",
+  "indirizzo": "Via Placido Rizzotto, 50",
+  "cap": "41126",
+  "comune": "Modena",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://vnmedical.it/",
+   "https://vnmedical.it/contatti/",
+   "https://vnmedical.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "zetamedica.it",
+  "nome": "ZetaMedica Verona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04936970237",
+  "telefono": "+390458350707",
+  "email": "info@zetamedica.it",
+  "sitoUrl": "https://www.zetamedica.it/",
+  "indirizzo": "via Tomaso da Vico, 14",
+  "cap": "37123",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.zetamedica.it/",
+   "https://www.zetamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

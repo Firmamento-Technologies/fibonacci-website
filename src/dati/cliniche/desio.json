@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "sphera-lab.it",
+  "nome": "SpheraLab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12203520965",
+  "telefono": "",
+  "email": "info@sphera-lab.it",
+  "sitoUrl": "https://www.sphera-lab.it/",
+  "indirizzo": "Via Dante 34",
+  "cap": "20814",
+  "comune": "Varedo",
+  "provincia": "desio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.sphera-lab.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studio-dentistico-schiatti.it",
+  "nome": "Studio Dentistico Schiatti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@gerardoschiatti.it",
+  "sitoUrl": "https://www.studio-dentistico-schiatti.it/",
+  "indirizzo": "via Conciliazione, 10",
+  "cap": "",
+  "comune": "",
+  "provincia": "desio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studio-dentistico-schiatti.it/",
+   "https://www.studio-dentistico-schiatti.it/contatti/",
+   "https://www.studio-dentistico-schiatti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

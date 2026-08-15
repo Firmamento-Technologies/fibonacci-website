@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "ditraniodontoiatria.it",
+  "nome": "Di Trani odontoiatria e medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "17522561004",
+  "telefono": "+390669424724",
+  "email": "",
+  "sitoUrl": "https://www.ditraniodontoiatria.it/",
+  "indirizzo": "Via Evandro, 5",
+  "cap": "00181",
+  "comune": "ROMA",
+  "provincia": "trani",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ditraniodontoiatria.it/",
+   "https://www.ditraniodontoiatria.it/contatti/",
+   "https://www.ditraniodontoiatria.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticamestudio.it",
+  "nome": "Centro Estetico a Trani",
+  "formaSocietaria": "",
+  "partitaIva": "08850280721",
+  "telefono": "+393407820340",
+  "email": "",
+  "sitoUrl": "https://esteticamestudio.it/",
+  "indirizzo": "Via Superga, 105",
+  "cap": "76125",
+  "comune": "Trani",
+  "provincia": "trani",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamestudio.it/",
+   "https://esteticamestudio.it/chi-siamo/",
+   "https://esteticamestudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

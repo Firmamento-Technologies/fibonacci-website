@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "neuromed.it",
+  "nome": "Neuromed",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00068310945",
+  "telefono": "",
+  "email": "info@neuromed.it",
+  "sitoUrl": "https://neuromed.it/",
+  "indirizzo": "Via Atinense, 18",
+  "cap": "86077",
+  "comune": "Pozzilli",
+  "provincia": "isernia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://neuromed.it/",
+   "https://neuromed.it/contatti/",
+   "https://neuromed.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vitanovaesthetic.it",
+  "nome": "Vita Nova  - Medical Beauty Concept",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908651956752",
+  "email": "info@vitanovaesthetic.it",
+  "sitoUrl": "https://www.vitanovaesthetic.it/",
+  "indirizzo": "Via Le Piane 71",
+  "cap": "86170",
+  "comune": "Isernia",
+  "provincia": "isernia",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.vitanovaesthetic.it/",
+   "https://www.vitanovaesthetic.it/chi-siamo/",
+   "https://www.vitanovaesthetic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "centroesteticomati.it",
+  "nome": "Centro estetico a Perugia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390755149970",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticomati.it/",
+  "indirizzo": "Via Gerardo Dottori 62",
+  "cap": "06132",
+  "comune": "Perugia",
+  "provincia": "perugia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticomati.it/",
+   "https://www.centroesteticomati.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,77 @@
+[
+ {
+  "dominio": "drcarboni.com",
+  "nome": "Chirurgo Estetico a Roma",
+  "formaSocietaria": "",
+  "partitaIva": "15265401008",
+  "telefono": "+393917028784",
+  "email": "",
+  "sitoUrl": "https://www.drcarboni.com/",
+  "indirizzo": "Via Alessandro Torlonia, 19",
+  "cap": "47892",
+  "comune": "",
+  "provincia": "viterbo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Carboni, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drcarboni.com/",
+   "https://www.drcarboni.com/contatti-chirurgo-dott-andrea-carboni"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "peruginimedicoesteticoviterbo.com",
+  "nome": "Dr. Maurizio Perugini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3907611695574",
+  "email": "",
+  "sitoUrl": "https://www.peruginimedicoesteticoviterbo.com/",
+  "indirizzo": "Via Felice Giordano 8",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "viterbo",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maurizio Perugini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.peruginimedicoesteticoviterbo.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tommasoagostini.com",
+  "nome": "Chirurgia Estetica, Chirurgia Plastica Dott. Tommaso Agostini",
+  "formaSocietaria": "",
+  "partitaIva": "01513880474",
+  "telefono": "+393498208812",
+  "email": "",
+  "sitoUrl": "https://www.tommasoagostini.com/",
+  "indirizzo": "Via San Camillo de Lellis, 6",
+  "cap": "01100",
+  "comune": "Viterbo",
+  "provincia": "viterbo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Tommaso Agostini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.tommasoagostini.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tommaso Agostini, e il dominio lo ripete"
+ }
+]

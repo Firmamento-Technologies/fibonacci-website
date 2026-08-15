@@ -1,0 +1,306 @@
+[
+ {
+  "dominio": "centroabax.com",
+  "nome": "VISITE, ESAMI E CHIRURGIA IN CUNEO",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03948420041",
+  "telefono": "",
+  "email": "info@centroabax.com",
+  "sitoUrl": "https://centroabax.com/",
+  "indirizzo": "Via G.B. Bongioanni 25",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "cn",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centroabax.com/",
+   "https://centroabax.com/chi-siamo/",
+   "https://centroabax.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticoeos.it",
+  "nome": "Centro estetico EOS a Cuneo: tecnologie e trattamenti all'avanguardia ",
+  "formaSocietaria": "",
+  "partitaIva": "03061480046",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroesteticoeos.it/",
+  "indirizzo": "Via Michele Tonello 12",
+  "cap": "12100",
+  "comune": "Madonna Delle",
+  "provincia": "cn",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centroesteticoeos.it/",
+   "https://centroesteticoeos.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicoeuropeo.it",
+  "nome": "Centro Medico Europeo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02666360041",
+  "telefono": "+39017164416",
+  "email": "info@centromedicoeuropeo.it",
+  "sitoUrl": "https://www.centromedicoeuropeo.it/",
+  "indirizzo": "Corso IV Novembre 12100",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "cn",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicoeuropeo.it/",
+   "https://www.centromedicoeuropeo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cuneocronaca.it",
+  "nome": "Cuneocronaca.it",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02774780049",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.cuneocronaca.it/",
+  "indirizzo": "via Cascina Colombaro 35",
+  "cap": "16892",
+  "comune": "",
+  "provincia": "cn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cuneocronaca.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "estetica.cuneo.it",
+  "nome": "Centro Estetico Estetista Cuneo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04007660048",
+  "telefono": "+393407370259",
+  "email": "",
+  "sitoUrl": "https://www.estetica.cuneo.it/",
+  "indirizzo": "Viale Degli Angeli Cuneo 340",
+  "cap": "",
+  "comune": "",
+  "provincia": "cn",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.estetica.cuneo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicage.it",
+  "nome": "MEDICAGE®",
+  "formaSocietaria": "",
+  "partitaIva": "02372810040",
+  "telefono": "",
+  "email": "info@medicage.it",
+  "sitoUrl": "https://www.medicage.it/",
+  "indirizzo": "Via Torino, 91",
+  "cap": "12038",
+  "comune": "Savigliano",
+  "provincia": "cn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.medicage.it/",
+   "https://www.medicage.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalcenter.cn.it",
+  "nome": "Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "03678790043",
+  "telefono": "+3901721915244",
+  "email": "info@medicalcenter.cn.it",
+  "sitoUrl": "https://medicalcenter.cn.it/",
+  "indirizzo": "Via Isonzo, 9",
+  "cap": "12042",
+  "comune": "Bra",
+  "provincia": "cn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://medicalcenter.cn.it/",
+   "https://medicalcenter.cn.it/aboutus.aspx",
+   "https://medicalcenter.cn.it/documents/Informativa_privacy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mgodontoiatria.it",
+  "nome": "MGO Marco Gallo Odontoiatria: Il Tuo Dentista A Busca Cuneo",
+  "formaSocietaria": "",
+  "partitaIva": "04003980044",
+  "telefono": "+390171944286",
+  "email": "info@mgodontoiatria.it",
+  "sitoUrl": "https://mgodontoiatria.it/",
+  "indirizzo": "Corso Papa Giovanni XXIII, 87",
+  "cap": "12022",
+  "comune": "Busca",
+  "provincia": "cn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://mgodontoiatria.it/",
+   "https://mgodontoiatria.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorisangaetano.it",
+  "nome": "Poliambulatori San Gaetano",
+  "formaSocietaria": "",
+  "partitaIva": "03207300249",
+  "telefono": "+390445372205",
+  "email": "",
+  "sitoUrl": "https://poliambulatorisangaetano.it/",
+  "indirizzo": "Via Milano, 2",
+  "cap": "36016",
+  "comune": "Thiene",
+  "provincia": "cn",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://poliambulatorisangaetano.it/",
+   "https://poliambulatorisangaetano.it/poliambulatorio/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "spazioessenza.it",
+  "nome": "Centro Estetico Cuneo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393806395684",
+  "email": "info@spazioessenza.it",
+  "sitoUrl": "https://spazioessenza.it/",
+  "indirizzo": "Via Roma 62",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "cn",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://spazioessenza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "spaziomedico-lilium.it",
+  "nome": "Spazio medico Lilium, poliambulatorio Cuneo, visite specialistiche",
+  "formaSocietaria": "",
+  "partitaIva": "04022560041",
+  "telefono": "",
+  "email": "segreteria@spaziomedico-lilium.it",
+  "sitoUrl": "https://spaziomedico-lilium.it/",
+  "indirizzo": "Via Roma 62",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "cn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://spaziomedico-lilium.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

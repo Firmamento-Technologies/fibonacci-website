@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "medesteticadamato.it",
+  "nome": "Medico estetico Catania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medesteticadamato.it/",
+  "indirizzo": "Via Agostino de Cosmi, 6",
+  "cap": "95123",
+  "comune": "Catania",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medesteticadamato.it/",
+   "https://www.medesteticadamato.it/studio-e-contatti/",
+   "https://www.medesteticadamato.it/privacy-policy-and-cookies/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

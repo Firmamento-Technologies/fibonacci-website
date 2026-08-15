@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "esteticanaima.it",
+  "nome": "Estetica Naima di Cabassi Valentina, Reggio Emilia",
+  "formaSocietaria": "",
+  "partitaIva": "02444840355",
+  "telefono": "+393337035675",
+  "email": "",
+  "sitoUrl": "https://www.esteticanaima.it/",
+  "indirizzo": "",
+  "cap": "42124",
+  "comune": "REGGIO",
+  "provincia": "reggio-emilia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticanaima.it/",
+   "https://www.esteticanaima.it/contatto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

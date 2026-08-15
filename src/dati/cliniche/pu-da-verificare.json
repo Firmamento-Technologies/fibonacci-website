@@ -1,0 +1,106 @@
+[
+ {
+  "dominio": "estetikapesaro.it",
+  "nome": "Centro Estetico a Pesaro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393914715978",
+  "email": "",
+  "sitoUrl": "https://www.estetikapesaro.it/",
+  "indirizzo": "Via Recanati, 21",
+  "cap": "",
+  "comune": "",
+  "provincia": "pu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.estetikapesaro.it/",
+   "https://www.estetikapesaro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "maisonmedical.it",
+  "nome": "maisonmedical.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://maisonmedical.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://maisonmedical.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "simonasilvestri.it",
+  "nome": "Simona Silvestri Studio Dentistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02741320416",
+  "telefono": "+390721498473",
+  "email": "info@simonasilvestri.it",
+  "sitoUrl": "https://simonasilvestri.it/",
+  "indirizzo": "Via A. Giacometti, 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "pu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://simonasilvestri.it/",
+   "https://simonasilvestri.it/contatti/",
+   "https://simonasilvestri.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "terramadrecentroestetico.it",
+  "nome": "Centro Estetico TerraMadre Pesaro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390721451971",
+  "email": "info@terramadrecentroestetico.it",
+  "sitoUrl": "https://terramadrecentroestetico.it/",
+  "indirizzo": "Via Vincenzo Rossi 115",
+  "cap": "61122",
+  "comune": "Pesaro",
+  "provincia": "pu",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://terramadrecentroestetico.it/",
+   "https://terramadrecentroestetico.it/chi-siamo/",
+   "https://terramadrecentroestetico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

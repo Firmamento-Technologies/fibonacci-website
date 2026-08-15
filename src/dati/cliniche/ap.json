@@ -1,0 +1,61 @@
+[
+ {
+  "dominio": "centromedicometamorfosys.it",
+  "nome": "Centro medico Metamorfosys",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393804945011",
+  "email": "",
+  "sitoUrl": "https://centromedicometamorfosys.it/",
+  "indirizzo": "Via Salaria Inferiore, 25",
+  "cap": "63100",
+  "comune": "Ascoli",
+  "provincia": "ap",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centromedicometamorfosys.it/",
+   "https://centromedicometamorfosys.it/chi-siamo/",
+   "https://centromedicometamorfosys.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dalibioestetica.it",
+  "nome": "Dalì Bio Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01259750444",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dalibioestetica.it/",
+  "indirizzo": "Via Piceno Aprutina, 23",
+  "cap": "",
+  "comune": "",
+  "provincia": "ap",
+  "prestazioni": [
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dalibioestetica.it/",
+   "https://www.dalibioestetica.it/about-us/",
+   "https://www.dalibioestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

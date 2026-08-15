@@ -1,0 +1,52 @@
+[
+ {
+  "dominio": "drluciani.it",
+  "nome": "Dott.ssa Luciani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.drluciani.it/",
+  "indirizzo": "Via Ludovico Ariosto, 47",
+  "cap": "63822",
+  "comune": "Porto San",
+  "provincia": "fermo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luciani Dott, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drluciani.it/",
+   "https://www.drluciani.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "palmatea.it",
+  "nome": "Istituto Medico Palmatea",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@palmatea.it",
+  "sitoUrl": "https://www.palmatea.it/",
+  "indirizzo": "",
+  "cap": "53627",
+  "comune": "Toggle",
+  "provincia": "fermo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.palmatea.it/",
+   "https://www.palmatea.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

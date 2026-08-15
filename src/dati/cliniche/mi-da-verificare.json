@@ -1,0 +1,157 @@
+[
+ {
+  "dominio": "fillerlabbra-milano.com",
+  "nome": "Filler labbra Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393516070086",
+  "email": "",
+  "sitoUrl": "https://www.fillerlabbra-milano.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fillerlabbra-milano.com/",
+   "https://www.fillerlabbra-milano.com/contatti/",
+   "https://www.fillerlabbra-milano.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicalbeautymilano.com",
+  "nome": "Chirurgia Estetica, Trattamenti",
+  "formaSocietaria": "",
+  "partitaIva": "04044290163",
+  "telefono": "+390283417114",
+  "email": "info@medicalbeautymilano.com",
+  "sitoUrl": "https://www.medicalbeautymilano.com/",
+  "indirizzo": "corso Lodi 50",
+  "cap": "20139",
+  "comune": "Milano",
+  "provincia": "mi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicalbeautymilano.com/",
+   "https://www.medicalbeautymilano.com/chi-siamo/",
+   "https://www.medicalbeautymilano.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicina-estetica-milano.it",
+  "nome": "MEDICINA ESTETICA MILANO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39026700485",
+  "email": "",
+  "sitoUrl": "https://www.medicina-estetica-milano.it/",
+  "indirizzo": "Via Venini 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "mi",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicina-estetica-milano.it/",
+   "https://www.medicina-estetica-milano.it/dove-siamo/",
+   "https://www.medicina-estetica-milano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticamilano.com",
+  "nome": "Medicina Estetica Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393471835300",
+  "email": "info@medicinaesteticamilano.com",
+  "sitoUrl": "https://www.medicinaesteticamilano.com/",
+  "indirizzo": "Via Antonello Da Messina, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "mi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticamilano.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoeos.it",
+  "nome": "Studio EOS Milano medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicoeos.it",
+  "sitoUrl": "https://studiomedicoeos.it/",
+  "indirizzo": "",
+  "cap": "20123",
+  "comune": "Milano",
+  "provincia": "mi",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicoeos.it/",
+   "https://studiomedicoeos.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

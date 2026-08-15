@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "centroesteticatreviso.it",
+  "nome": "Centro Estetica Treviso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390422363071",
+  "email": "info@evoluzioneestetica.com",
+  "sitoUrl": "https://www.centroesteticatreviso.it/",
+  "indirizzo": "Via Antonio Borin, 48",
+  "cap": "31100",
+  "comune": "Treviso",
+  "provincia": "tv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticatreviso.it/",
+   "https://www.centroesteticatreviso.it/contatti/",
+   "https://www.centroesteticatreviso.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medipiu.it",
+  "nome": "Studio medico specialistico e poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "05104680268",
+  "telefono": "+3904221520955",
+  "email": "info@medipiu.it",
+  "sitoUrl": "https://medipiu.it/",
+  "indirizzo": "",
+  "cap": "31100",
+  "comune": "Treviso",
+  "provincia": "tv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://medipiu.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiomedas.it",
+  "nome": "STUDIO MEDAS",
+  "formaSocietaria": "",
+  "partitaIva": "04538140262",
+  "telefono": "+393296769592",
+  "email": "studio@grucciadesign.it",
+  "sitoUrl": "https://studiomedas.it/",
+  "indirizzo": "Via Ugo Foscolo 17",
+  "cap": "31100",
+  "comune": "Treviso",
+  "provincia": "tv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedas.it/",
+   "https://studiomedas.it/contatti/",
+   "https://studiomedas.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

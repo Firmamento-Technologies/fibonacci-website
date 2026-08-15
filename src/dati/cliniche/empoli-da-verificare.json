@@ -1,0 +1,134 @@
+[
+ {
+  "dominio": "alessiabaroni.it",
+  "nome": "alessiabaroni.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393456392125",
+  "email": "info@alessiabaroni.it",
+  "sitoUrl": "https://www.alessiabaroni.it/",
+  "indirizzo": "Via Basilicata 13",
+  "cap": "50053",
+  "comune": "EMPOLI",
+  "provincia": "empoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.alessiabaroni.it/",
+   "https://www.alessiabaroni.it/contatti",
+   "https://www.alessiabaroni.it/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "beautypassport.it",
+  "nome": "Beauty Passport",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://beautypassport.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "empoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://beautypassport.it/",
+   "https://beautypassport.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroempoli.it",
+  "nome": "CENTRO*EMPOLI",
+  "formaSocietaria": "",
+  "partitaIva": "05783950487",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroempoli.it/",
+  "indirizzo": "Via Raffaello Sanzio, 199",
+  "cap": "50053",
+  "comune": "Empoli",
+  "provincia": "empoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroempoli.it/",
+   "https://centroempoli.it/contatti/",
+   "https://www.centroempoli.it/privacy/privacy-empoli-v10.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "estetistaelena.it",
+  "nome": "Estetista Elena",
+  "formaSocietaria": "",
+  "partitaIva": "07345520485",
+  "telefono": "+393534668287",
+  "email": "",
+  "sitoUrl": "https://estetistaelena.it/",
+  "indirizzo": "Via Ponzano, 51",
+  "cap": "50053",
+  "comune": "Empoli",
+  "provincia": "empoli",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://estetistaelena.it/",
+   "https://estetistaelena.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "metamorphosisempoli.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39057176000",
+  "email": "",
+  "sitoUrl": "https://www.metamorphosisempoli.it/",
+  "indirizzo": "via Fucini 53",
+  "cap": "76000",
+  "comune": "Home",
+  "provincia": "empoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.metamorphosisempoli.it/",
+   "https://www.metamorphosisempoli.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,118 @@
+[
+ {
+  "dominio": "giuseppespinelli.it",
+  "nome": "Chirurgia Maxillo Facciale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39335464824",
+  "email": "info@giuseppespinelli.it",
+  "sitoUrl": "https://giuseppespinelli.it/",
+  "indirizzo": "Largo Palagi 1",
+  "cap": "50121",
+  "comune": "Firenze",
+  "provincia": "caltanissetta",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Spinelli, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://giuseppespinelli.it/",
+   "https://giuseppespinelli.it/contatti/",
+   "https://giuseppespinelli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Spinelli, e il dominio lo ripete"
+ },
+ {
+  "dominio": "normaamico.com",
+  "nome": "Dott.ssa Norma Amico",
+  "formaSocietaria": "",
+  "partitaIva": "02069210850",
+  "telefono": "+3909341965872",
+  "email": "",
+  "sitoUrl": "https://www.normaamico.com/",
+  "indirizzo": "Via Adua 4",
+  "cap": "21009",
+  "comune": "Desenzano",
+  "provincia": "caltanissetta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Norma Amico, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.normaamico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Norma Amico, e il dominio lo ripete"
+ },
+ {
+  "dominio": "policologna.it",
+  "nome": "Policologna a Cologna Veneta",
+  "formaSocietaria": "",
+  "partitaIva": "05088450233",
+  "telefono": "+393492474912",
+  "email": "info@policologna.it",
+  "sitoUrl": "https://www.policologna.it/",
+  "indirizzo": "Via Guglielmo Marconi 4",
+  "cap": "37044",
+  "comune": "Cologna",
+  "provincia": "caltanissetta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.policologna.it/",
+   "https://www.policologna.it/contatti",
+   "https://www.policologna.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomilamilia.it",
+  "nome": "Studio Dentistico Mila Milia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@studiomilamilia.it",
+  "sitoUrl": "https://www.studiomilamilia.it/",
+  "indirizzo": "Via Pietro Nenni,57",
+  "cap": "",
+  "comune": "",
+  "provincia": "caltanissetta",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiomilamilia.it/",
+   "https://www.studiomilamilia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

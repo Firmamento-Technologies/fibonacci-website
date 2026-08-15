@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "studiodentisticotognon.com",
+  "nome": "Studio dentistico odontoiatrico a Venezia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390417241186",
+  "email": "",
+  "sitoUrl": "https://studiodentisticotognon.com/",
+  "indirizzo": "",
+  "cap": "30121",
+  "comune": "Venezia",
+  "provincia": "venezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticotognon.com/",
+   "https://studiodentisticotognon.com/contatti/",
+   "https://studiodentisticotognon.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

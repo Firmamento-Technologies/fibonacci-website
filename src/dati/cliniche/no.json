@@ -1,0 +1,225 @@
+[
+ {
+  "dominio": "altheaclinic.it",
+  "nome": "Althea Clinic",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02821090038",
+  "telefono": "+390321629605",
+  "email": "",
+  "sitoUrl": "https://www.altheaclinic.it/",
+  "indirizzo": "Via Galileo Ferraris 4",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.altheaclinic.it/",
+   "https://www.altheaclinic.it/privacy-policy",
+   "https://www.altheaclinic.it/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicosantambrogio.com",
+  "nome": "Centro Medico Sant’Ambrogio",
+  "formaSocietaria": "",
+  "partitaIva": "01997020035",
+  "telefono": "",
+  "email": "info@centromedicosantambrogio.com",
+  "sitoUrl": "https://www.centromedicosantambrogio.com/",
+  "indirizzo": "Via XX Settembre, 16",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicosantambrogio.com/",
+   "https://www.centromedicosantambrogio.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicamedicaboschi.com",
+  "nome": "Il tuo Dentista e Poliambulatorio a Novara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@clinicamedicaboschi.com",
+  "sitoUrl": "https://clinicamedicaboschi.com/",
+  "indirizzo": "Via San Pietro, 32",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicamedicaboschi.com/",
+   "https://clinicamedicaboschi.com/contatti/",
+   "https://clinicamedicaboschi.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "corinnamantegazza.com",
+  "nome": "Medico Nutrizionista",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393501101880",
+  "email": "info@corinnamantegazza.com",
+  "sitoUrl": "https://www.corinnamantegazza.com/",
+  "indirizzo": "via Tadini 5",
+  "cap": "28047",
+  "comune": "Oleggio",
+  "provincia": "no",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.corinnamantegazza.com/",
+   "https://www.corinnamantegazza.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dinozilio.it",
+  "nome": "Dott. Dino Zilio",
+  "formaSocietaria": "",
+  "partitaIva": "02333880033",
+  "telefono": "+393454847156",
+  "email": "",
+  "sitoUrl": "https://www.dinozilio.it/",
+  "indirizzo": "Corso Garibaldi, 17",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "no",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Dino Zilio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.dinozilio.it/",
+   "https://www.dinozilio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dino Zilio, e il dominio lo ripete"
+ },
+ {
+  "dominio": "dottoressa-stelian.it",
+  "nome": "Chirurgia plastica ed Estetica Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393518729815",
+  "email": "info@dottoressa-stelian.it",
+  "sitoUrl": "https://www.dottoressa-stelian.it/",
+  "indirizzo": "Via XX settembre 38",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gabriela Stelian, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoressa-stelian.it/",
+   "https://www.dottoressa-stelian.it/contattare-dottoressa-stelian/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressamichelasqueo.it",
+  "nome": "Medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393394744058",
+  "email": "",
+  "sitoUrl": "https://www.dottoressamichelasqueo.it/",
+  "indirizzo": "Via Perazzi Costantino 49",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Michela Squeo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoressamichelasqueo.it/",
+   "https://www.dottoressamichelasqueo.it/Contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "polispecialisticoleonardo.it",
+  "nome": "Polispecialistico Leonardo Novara",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02480100037",
+  "telefono": "+3903211820701",
+  "email": "segreteria@polispecialisticoleonardo.it",
+  "sitoUrl": "https://www.polispecialisticoleonardo.it/",
+  "indirizzo": "Via Corte dei Calderai, 1",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.polispecialisticoleonardo.it/",
+   "https://www.polispecialisticoleonardo.it/contatti/",
+   "https://www.polispecialisticoleonardo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

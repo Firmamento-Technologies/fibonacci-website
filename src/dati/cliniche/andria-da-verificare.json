@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "fridavisoemakeup.com",
+  "nome": "Estetista specializzata ad Andria (BT)",
+  "formaSocietaria": "",
+  "partitaIva": "08776290721",
+  "telefono": "+393470542160",
+  "email": "",
+  "sitoUrl": "https://www.fridavisoemakeup.com/",
+  "indirizzo": "Via Genova 23",
+  "cap": "76123",
+  "comune": "Andria",
+  "provincia": "andria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fridavisoemakeup.com/",
+   "https://www.fridavisoemakeup.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

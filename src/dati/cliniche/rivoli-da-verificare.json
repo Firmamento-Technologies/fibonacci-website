@@ -1,0 +1,109 @@
+[
+ {
+  "dominio": "centroesteticoamarsi.it",
+  "nome": "Centro Estetico Amarsi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393336920926",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoamarsi.it/",
+  "indirizzo": "Via Giovanni Giolitti, 6",
+  "cap": "",
+  "comune": "",
+  "provincia": "rivoli",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticoamarsi.it/",
+   "https://www.centroesteticoamarsi.it/homepage/privacy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "crisalix.com",
+  "nome": "Crisalix",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.crisalix.com/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.crisalix.com/it",
+   "https://www.crisalix.com/it/about-us",
+   "https://www.crisalix.com/it/legal/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eleganceesteticarivoli.it",
+  "nome": "eleganceesteticarivoli.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3901119902847",
+  "email": "info@eleganceesteticarivoli.it",
+  "sitoUrl": "https://www.eleganceesteticarivoli.it/",
+  "indirizzo": "Corso Susa, 165",
+  "cap": "10098",
+  "comune": "Rivoli",
+  "provincia": "rivoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.eleganceesteticarivoli.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodanielacastello.it",
+  "nome": "Studio Dentistico Daniela Castello Rivoli",
+  "formaSocietaria": "",
+  "partitaIva": "12960570013",
+  "telefono": "+390119530406",
+  "email": "info@studiodanielacastello.it",
+  "sitoUrl": "https://www.studiodanielacastello.it/",
+  "indirizzo": "Via Rita Levi Montalcini 3",
+  "cap": "10098",
+  "comune": "Rivoli",
+  "provincia": "rivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodanielacastello.it/",
+   "https://www.studiodanielacastello.it/chi-siamo/",
+   "https://www.studiodanielacastello.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,34 @@
+[
+ {
+  "dominio": "chirurgiaplasticaonline.it",
+  "nome": "Dott. Dario D'Angelo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@chirurgiaplasticaonline.it",
+  "sitoUrl": "https://www.chirurgiaplasticaonline.it/",
+  "indirizzo": "Via Andrea d'Isernia, 59",
+  "cap": "80122",
+  "comune": "Napoli",
+  "provincia": "vasto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaplasticaonline.it/",
+   "https://www.chirurgiaplasticaonline.it/contatti/",
+   "https://www.chirurgiaplasticaonline.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

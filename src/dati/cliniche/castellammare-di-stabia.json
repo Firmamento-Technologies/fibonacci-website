@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "tinadonnarumma.it",
+  "nome": "Tina Donnarumma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393520455935",
+  "email": "",
+  "sitoUrl": "https://tinadonnarumma.it/",
+  "indirizzo": "Corso Vittorio Emanuele 33",
+  "cap": "",
+  "comune": "",
+  "provincia": "castellammare-di-stabia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://tinadonnarumma.it/",
+   "https://tinadonnarumma.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,196 @@
+[
+ {
+  "dominio": "centroesteticogerry.it",
+  "nome": "Centro Estetico Vigevano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39038140291",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticogerry.it/",
+  "indirizzo": "Corso Ugo La Malfa, 78",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticogerry.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticomaristella.it",
+  "nome": "Centro Estetico a Vigevano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroesteticomaristella.it/",
+  "indirizzo": "",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://centroesteticomaristella.it/",
+   "https://centroesteticomaristella.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "centrosalutevigevano.it",
+  "nome": "Centro Salute Vigevano",
+  "formaSocietaria": "",
+  "partitaIva": "02220470187",
+  "telefono": "+390381326972",
+  "email": "",
+  "sitoUrl": "https://centrosalutevigevano.it/",
+  "indirizzo": "",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centrosalutevigevano.it/",
+   "https://centrosalutevigevano.it/homepage/dove-siamo.html",
+   "https://centrosalutevigevano.it/contattaci.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirurgiaestetica.it",
+  "nome": "Edoardo Garassino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaestetica.it/",
+  "indirizzo": "Via Poerio 5",
+  "cap": "27029",
+  "comune": "",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaestetica.it/",
+   "https://www.chirurgiaestetica.it/contatti/",
+   "https://www.chirurgiaestetica.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "emmebivigevano.com",
+  "nome": "Emmebivigevano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@emmebiservizi.it",
+  "sitoUrl": "https://emmebivigevano.com/",
+  "indirizzo": "via Mascagni, 41",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://emmebivigevano.com/",
+   "https://emmebivigevano.com/chi-siamo/",
+   "https://emmebivigevano.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "evicentrodellessere.com",
+  "nome": "Centro estetica avanzata a Vigevano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393897825110",
+  "email": "",
+  "sitoUrl": "https://www.evicentrodellessere.com/",
+  "indirizzo": "Via Marzabotto, 27",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.evicentrodellessere.com/",
+   "https://www.evicentrodellessere.com/chi-siamo/",
+   "https://www.evicentrodellessere.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "studiocornalba.it",
+  "nome": "Dentista a Vigevano",
+  "formaSocietaria": "",
+  "partitaIva": "01992870186",
+  "telefono": "+39038178961",
+  "email": "",
+  "sitoUrl": "https://www.studiocornalba.it/",
+  "indirizzo": "Via Vallere, 18",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiocornalba.it/",
+   "https://www.studiocornalba.it/dentista-vigevano-contatti/",
+   "https://www.studiocornalba.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

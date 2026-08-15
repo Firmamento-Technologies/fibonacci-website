@@ -1,0 +1,115 @@
+[
+ {
+  "dominio": "bellebastacentroestetico.it",
+  "nome": "Estetista Pescara Centro Estetico BelleBasta Massaggi e Trattamenti",
+  "formaSocietaria": "",
+  "partitaIva": "02320430685",
+  "telefono": "+393883451009",
+  "email": "",
+  "sitoUrl": "https://bellebastacentroestetico.it/",
+  "indirizzo": "Via Cetteo Ciglia, 56",
+  "cap": "65128",
+  "comune": "Pescara",
+  "provincia": "pescara",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://bellebastacentroestetico.it/",
+   "https://bellebastacentroestetico.it/chi-siamo/",
+   "https://bellebastacentroestetico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticoimage.it",
+  "nome": "centroesteticoimage",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroesteticoimage.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pescara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticoimage.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromedicolifecare.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "oasibenesserebellezza.it",
+  "nome": "Oasi Benessere Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39085299156",
+  "email": "info@oasibenesserebellezza.it",
+  "sitoUrl": "https://www.oasibenesserebellezza.it/",
+  "indirizzo": "Via Ancona 57",
+  "cap": "65122",
+  "comune": "Pescara",
+  "provincia": "pescara",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.oasibenesserebellezza.it/",
+   "https://www.oasibenesserebellezza.it/contatti/",
+   "https://www.oasibenesserebellezza.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pescaramedica.it",
+  "nome": "PescaraMedica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393756260362",
+  "email": "",
+  "sitoUrl": "https://pescaramedica.it/home/",
+  "indirizzo": "Via Tiburtina Valeria 75",
+  "cap": "",
+  "comune": "",
+  "provincia": "pescara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://pescaramedica.it/home/",
+   "https://pescaramedica.it/home/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

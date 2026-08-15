@@ -1,0 +1,139 @@
+[
+ {
+  "dominio": "aestheticroom.it",
+  "nome": "Startseite ⋆ Aesthetic Room • Algund (Meran",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393761288030",
+  "email": "info@aestheticroom.it",
+  "sitoUrl": "https://aestheticroom.it/",
+  "indirizzo": "",
+  "cap": "39022",
+  "comune": "Algund",
+  "provincia": "bz",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aestheticroom.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "healthycent.com",
+  "nome": "Healthy'Cent Dr. Deetjen",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390471400227",
+  "email": "info@healthycent.com",
+  "sitoUrl": "https://healthycent.com/",
+  "indirizzo": "",
+  "cap": "39057",
+  "comune": "Frangart",
+  "provincia": "bz",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://healthycent.com/",
+   "https://healthycent.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mes.bz.it",
+  "nome": "MES",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390471053437",
+  "email": "",
+  "sitoUrl": "https://www.mes.bz.it/",
+  "indirizzo": "Via Luigi Negrelli, 4",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mes.bz.it/",
+   "https://www.mes.bz.it/contatti-booking/",
+   "https://www.mes.bz.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "reviderm-skinmedics.bz.it",
+  "nome": "Kosmetikstudio Bozen",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390471976311",
+  "email": "info@reviderm-skinmedics.bz.it",
+  "sitoUrl": "https://www.reviderm-skinmedics.bz.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bz",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.reviderm-skinmedics.bz.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticobolzano.it",
+  "nome": "Zahnarzt Bozen",
+  "formaSocietaria": "",
+  "partitaIva": "03058830211",
+  "telefono": "+390471260118",
+  "email": "segreteria@dib.dental",
+  "sitoUrl": "https://studiodentisticobolzano.it/",
+  "indirizzo": "",
+  "cap": "39100",
+  "comune": "Bozen",
+  "provincia": "bz",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticobolzano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

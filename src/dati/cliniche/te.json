@@ -1,0 +1,96 @@
+[
+ {
+  "dominio": "alcamed.it",
+  "nome": "Poliambulatorio a Teramo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390861250545",
+  "email": "info@alcamed.it",
+  "sitoUrl": "https://www.alcamed.it/",
+  "indirizzo": "Via Aeroporto n.58",
+  "cap": "64100",
+  "comune": "Teramo",
+  "provincia": "te",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.alcamed.it/",
+   "https://www.alcamed.it/chi-siamo/",
+   "https://www.alcamed.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giorgiagarofano.it",
+  "nome": "dottoressa Giorgia Garofano - medicina e chirurgia estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390861250545",
+  "email": "info@giorgiagarofano.it",
+  "sitoUrl": "https://www.giorgiagarofano.it/",
+  "indirizzo": "Via Aeroporto n.58",
+  "cap": "",
+  "comune": "",
+  "provincia": "te",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giorgia Garofano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giorgiagarofano.it/",
+   "https://www.giorgiagarofano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgia Garofano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "poliambulatoriodannunzio23.it",
+  "nome": "Poliambulatorio D'Annunzio 23 Teramo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02181630670",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://poliambulatoriodannunzio23.it/",
+  "indirizzo": "Via Gabriele D’Annunzio, 23",
+  "cap": "64100",
+  "comune": "Teramo",
+  "provincia": "te",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatoriodannunzio23.it/",
+   "https://poliambulatoriodannunzio23.it/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

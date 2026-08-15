@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "casadicurasanpaolo.it",
+  "nome": "Clinica San Paolo",
+  "formaSocietaria": "SOCIETÀPERAZIONI",
+  "partitaIva": "06640750482",
+  "telefono": "",
+  "email": "info@casadicurasanpaolo.it",
+  "sitoUrl": "https://www.casadicurasanpaolo.it/",
+  "indirizzo": "Via Bonellina 199",
+  "cap": "51100",
+  "comune": "Pistoia",
+  "provincia": "pistoia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.casadicurasanpaolo.it/",
+   "https://www.casadicurasanpaolo.it/contatti-orari-e-come-raggiungerci/",
+   "https://www.casadicurasanpaolo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

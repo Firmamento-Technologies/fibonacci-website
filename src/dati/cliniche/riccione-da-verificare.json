@@ -1,0 +1,144 @@
+[
+ {
+  "dominio": "centrobenessereempatyriccione.com",
+  "nome": "Centro estetico a Riccione",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393889797828",
+  "email": "",
+  "sitoUrl": "https://www.centrobenessereempatyriccione.com/",
+  "indirizzo": "Viale Aurelio Saffi 5",
+  "cap": "47838",
+  "comune": "RICCIONE",
+  "provincia": "riccione",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centrobenessereempatyriccione.com/",
+   "https://www.centrobenessereempatyriccione.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "centroesteticolerosericcione.it",
+  "nome": "Centro estetico Le Rose dimagrimento a Riccione",
+  "formaSocietaria": "",
+  "partitaIva": "02487540409",
+  "telefono": "+393204962493",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticolerosericcione.it/",
+  "indirizzo": "Via Catullo, 16",
+  "cap": "47838",
+  "comune": "Riccione",
+  "provincia": "riccione",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticolerosericcione.it/",
+   "https://www.centroesteticolerosericcione.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticoriccione.it",
+  "nome": "Centro Estetico Riccione Kalipè",
+  "formaSocietaria": "",
+  "partitaIva": "04686120405",
+  "telefono": "+393298130822",
+  "email": "info@centroesteticoriccione.it",
+  "sitoUrl": "https://www.centroesteticoriccione.it/",
+  "indirizzo": "viale Reno 10",
+  "cap": "47838",
+  "comune": "Riccione",
+  "provincia": "riccione",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticoriccione.it/",
+   "https://www.centroesteticoriccione.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drmanuelacarratta.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "exisriccione.it",
+  "nome": "Exis Riccione",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03509100404",
+  "telefono": "+390541607761",
+  "email": "",
+  "sitoUrl": "https://www.exisriccione.it/",
+  "indirizzo": "via Carpi, 18",
+  "cap": "",
+  "comune": "",
+  "provincia": "riccione",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.exisriccione.it/",
+   "https://www.exisriccione.it/contatti/",
+   "https://www.exisriccione.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "solelunaesteticaebenessere.com",
+  "nome": "Centro estetico a Riccione",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390541697737",
+  "email": "",
+  "sitoUrl": "https://www.solelunaesteticaebenessere.com/",
+  "indirizzo": "Viale Ceccarini, 49",
+  "cap": "47838",
+  "comune": "Riccione",
+  "provincia": "riccione",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.solelunaesteticaebenessere.com/",
+   "https://www.solelunaesteticaebenessere.com/chi-siamo/",
+   "https://www.solelunaesteticaebenessere.com/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,51 @@
+[
+ {
+  "dominio": "medicinaintegratamoscati.it",
+  "nome": "Centro Medicina Integrata San Giuseppe Moscati",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05211650758",
+  "telefono": "+390832269620",
+  "email": "info@medicinaintegratamoscati.it",
+  "sitoUrl": "https://www.medicinaintegratamoscati.it/",
+  "indirizzo": "",
+  "cap": "73019",
+  "comune": "Trepuzzi",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medicinaintegratamoscati.it/",
+   "https://www.medicinaintegratamoscati.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "unicamillus.org",
+  "nome": "UniCamillus",
+  "formaSocietaria": "",
+  "partitaIva": "15031161001",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://unicamillus.org/",
+  "indirizzo": "",
+  "cap": "00131",
+  "comune": "Roma",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://unicamillus.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

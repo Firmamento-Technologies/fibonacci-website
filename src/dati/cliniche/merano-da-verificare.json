@@ -1,0 +1,79 @@
+[
+ {
+  "dominio": "chipra.it",
+  "nome": "Spezialisten Praxis Bozen Meran Bruneck Latsch Südtirol › CHIPRA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@chipra.it",
+  "sitoUrl": "https://www.chipra.it/de/home-de/",
+  "indirizzo": "",
+  "cap": "39100",
+  "comune": "Bozen",
+  "provincia": "merano",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chipra.it/de/home-de/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dr-bolze.com",
+  "nome": "Dr. med. Sandra Bolze Plastische Chirurgie in Meran",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@clinic-belsit.com",
+  "sitoUrl": "https://www.dr-bolze.com/",
+  "indirizzo": "",
+  "cap": "39012",
+  "comune": "Meran",
+  "provincia": "merano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dr-bolze.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "stjosef.it",
+  "nome": "Gesundheitszentrum, Bar, Mensa, Parking",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473864333",
+  "email": "",
+  "sitoUrl": "https://www.stjosef.it/",
+  "indirizzo": "",
+  "cap": "39011",
+  "comune": "Lana",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.stjosef.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

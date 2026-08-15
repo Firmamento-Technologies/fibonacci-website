@@ -1,0 +1,89 @@
+[
+ {
+  "dominio": "dermatologia-medicinaestetica.it",
+  "nome": "dr. Patrizio Bertola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393356827734",
+  "email": "info@dermatologia-medicinaestetica.it",
+  "sitoUrl": "https://www.dermatologia-medicinaestetica.it/",
+  "indirizzo": "via A. Borgogna 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "vc",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologia-medicinaestetica.it/",
+   "https://www.dermatologia-medicinaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticasognidibellezza.it",
+  "nome": "Centro Benessere e Estetico Vercelli",
+  "formaSocietaria": "",
+  "partitaIva": "02624220022",
+  "telefono": "+393485760453",
+  "email": "",
+  "sitoUrl": "https://esteticasognidibellezza.it/",
+  "indirizzo": "Via Benadir, 71",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticasognidibellezza.it/",
+   "https://esteticasognidibellezza.it/contatti/",
+   "https://esteticasognidibellezza.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticapiemonte.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390121396464",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticapiemonte.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticapiemonte.it/",
+   "https://www.medicinaesteticapiemonte.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

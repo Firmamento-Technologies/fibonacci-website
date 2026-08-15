@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "clinicasancarlo.it",
+  "nome": "Clinica Polispecialistica San Carlo",
+  "formaSocietaria": "",
+  "partitaIva": "02061970964",
+  "telefono": "+3902990381",
+  "email": "",
+  "sitoUrl": "https://www.clinicasancarlo.it/",
+  "indirizzo": "Via Ospedale 21",
+  "cap": "20037",
+  "comune": "Paderno",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicasancarlo.it/",
+   "https://www.clinicasancarlo.it/chi-siamo/storia-mission-e-valori/",
+   "https://www.clinicasancarlo.it/chi-siamo/ospedale/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "paderno.centrometica.it",
+  "nome": "Centro Medico Metica Paderno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centrometica.it",
+  "sitoUrl": "https://paderno.centrometica.it/",
+  "indirizzo": "Via Castelletto 40",
+  "cap": "20037",
+  "comune": "Paderno",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://paderno.centrometica.it/",
+   "https://paderno.centrometica.it/contatti",
+   "https://paderno.centrometica.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

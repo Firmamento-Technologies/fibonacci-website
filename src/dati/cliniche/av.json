@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "agmedica.it",
+  "nome": "Centro Medico Atripalda",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908251646797",
+  "email": "",
+  "sitoUrl": "https://agmedica.it/",
+  "indirizzo": "Via Santi Sabino e Romolo 9",
+  "cap": "83042",
+  "comune": "Atripalda",
+  "provincia": "av",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://agmedica.it/",
+   "https://agmedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticomiro.it",
+  "nome": "Studio dentista Avellino: studio odontoiatrico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiodentisticomiro.it",
+  "sitoUrl": "https://www.studiodentisticomiro.it/",
+  "indirizzo": "Via Capozzi 4",
+  "cap": "25093",
+  "comune": "Facebook",
+  "provincia": "av",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiodentisticomiro.it/",
+   "https://www.studiodentisticomiro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiosiragusafinellimedicinaestetica.it",
+  "nome": "Studio Siragusa Finelli Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiosiragusafinellimedicinaestetica.it",
+  "sitoUrl": "https://www.studiosiragusafinellimedicinaestetica.it/",
+  "indirizzo": "",
+  "cap": "83100",
+  "comune": "Avellino",
+  "provincia": "av",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studiosiragusafinellimedicinaestetica.it/",
+   "https://www.studiosiragusafinellimedicinaestetica.it/contatti/",
+   "https://www.studiosiragusafinellimedicinaestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

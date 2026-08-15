@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "gruppoperformance.it",
+  "nome": "Gruppo Performance: centri medici a Siena e Poggibonsi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39057745500",
+  "email": "",
+  "sitoUrl": "https://gruppoperformance.it/",
+  "indirizzo": "Strada Massetana Romana, 58",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "siena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://gruppoperformance.it/",
+   "https://gruppoperformance.it/contatti/",
+   "https://gruppoperformance.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sienaesthetic.com",
+  "nome": "Medicina estética",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sienaesthetic.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "siena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sienaesthetic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "unisi.it",
+  "nome": "Università degli Studi di Siena",
+  "formaSocietaria": "",
+  "partitaIva": "00273530527",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unisi.it/",
+  "indirizzo": "via Ginori, 41",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "siena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unisi.it/",
+   "https://www.unisi.it/come-fare-per/informazioni-immatricolazioni-e-contatti-segreterie",
+   "https://www.unisi.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

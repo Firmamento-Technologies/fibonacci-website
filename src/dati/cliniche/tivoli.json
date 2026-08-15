@@ -1,0 +1,146 @@
+[
+ {
+  "dominio": "aslroma5.it",
+  "nome": "ASL ROMA 5",
+  "formaSocietaria": "",
+  "partitaIva": "04733471009",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aslroma5.it/",
+  "indirizzo": "",
+  "cap": "00019",
+  "comune": "Tivoli",
+  "provincia": "tivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.aslroma5.it/",
+   "https://www.aslroma5.it/asl-roma-5-note-legali/",
+   "https://www.aslroma5.it/asl-roma-5-privacy-e-gdpr/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaesteticadelviso.it",
+  "nome": "Chirurgia Estetica Del Viso Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticadelviso.it/",
+  "indirizzo": "Via Don Lorenzo Miani, 38",
+  "cap": "64100",
+  "comune": "TE",
+  "provincia": "tivoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticadelviso.it/",
+   "https://www.chirurgiaesteticadelviso.it/contatti/",
+   "https://www.chirurgiaesteticadelviso.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermoesteticativoli.com",
+  "nome": "Dermoestetica Tivoli",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "13660601009",
+  "telefono": "+390774015604",
+  "email": "",
+  "sitoUrl": "https://dermoesteticativoli.com/",
+  "indirizzo": "Viale Tomei 88",
+  "cap": "00019",
+  "comune": "Tivoli",
+  "provincia": "tivoli",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://dermoesteticativoli.com/",
+   "https://dermoesteticativoli.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisioterapiativoli.it",
+  "nome": "Fisioterapia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393495075672",
+  "email": "",
+  "sitoUrl": "https://www.fisioterapiativoli.it/",
+  "indirizzo": "Via Strada degli Orti 96",
+  "cap": "00019",
+  "comune": "Villa",
+  "provincia": "tivoli",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.fisioterapiativoli.it/",
+   "https://www.fisioterapiativoli.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "unimedgroup.it",
+  "nome": "Poliambulatorio e diagnostica per immagini e Check-Up a Tivoli",
+  "formaSocietaria": "",
+  "partitaIva": "14488241002",
+  "telefono": "+390774331833",
+  "email": "",
+  "sitoUrl": "https://www.unimedgroup.it/",
+  "indirizzo": "Piazzale delle Nazioni Unite, 8",
+  "cap": "00019",
+  "comune": "Tivoli",
+  "provincia": "tivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.unimedgroup.it/",
+   "https://www.unimedgroup.it/contatti-unimed-group-srl/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,81 @@
+[
+ {
+  "dominio": "drmonacorenato.com",
+  "nome": "Filler labbra e trattamento adiposità localizzata ad Anzio",
+  "formaSocietaria": "",
+  "partitaIva": "13980891009",
+  "telefono": "+393274438363",
+  "email": "",
+  "sitoUrl": "https://drmonacorenato.com/",
+  "indirizzo": "Corso del Popolo, 34",
+  "cap": "00042",
+  "comune": "Anzio",
+  "provincia": "anzio",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://drmonacorenato.com/",
+   "https://drmonacorenato.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lazioshopping.it",
+  "nome": "Lazio Shopping",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lazioshopping.it/",
+  "indirizzo": "Corso del Popolo, 34",
+  "cap": "00042",
+  "comune": "Anzio",
+  "provincia": "anzio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://lazioshopping.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "venerespa.it",
+  "nome": "Venere SPA Centro Estetico Nettuno",
+  "formaSocietaria": "SRL",
+  "partitaIva": "17430311005",
+  "telefono": "+393351806070",
+  "email": "segreteria@venerespa.it",
+  "sitoUrl": "https://www.venerespa.it/",
+  "indirizzo": "Via Vittorio Veneto, 24",
+  "cap": "00048",
+  "comune": "Nettuno",
+  "provincia": "anzio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.venerespa.it/",
+   "https://www.venerespa.it/contatti/",
+   "https://www.venerespa.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

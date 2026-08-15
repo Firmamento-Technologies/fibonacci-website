@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "beautyspecialistlodi.it",
+  "nome": "| Beauty Specialist Lodi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393913532580",
+  "email": "info@beautyspecialistlodi.it",
+  "sitoUrl": "https://www.beautyspecialistlodi.it/",
+  "indirizzo": "Viale Piacenza, 77",
+  "cap": "26900",
+  "comune": "Lodi",
+  "provincia": "lodi",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautyspecialistlodi.it/",
+   "https://www.beautyspecialistlodi.it/dove-siamo",
+   "https://www.beautyspecialistlodi.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

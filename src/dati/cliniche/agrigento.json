@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "centromediestelaser.it",
+  "nome": "Chirurgia Estetica in Sicilia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390922857622",
+  "email": "info@centromediestelaser.it",
+  "sitoUrl": "https://centromediestelaser.it/",
+  "indirizzo": "Via Pablo Picasso 8",
+  "cap": "92024",
+  "comune": "Canicattì",
+  "provincia": "agrigento",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centromediestelaser.it/",
+   "https://centromediestelaser.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lunanuovarealmonte.it",
+  "nome": "Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393282066172",
+  "email": "",
+  "sitoUrl": "https://www.lunanuovarealmonte.it/",
+  "indirizzo": "",
+  "cap": "92010",
+  "comune": "Realmonte",
+  "provincia": "agrigento",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.lunanuovarealmonte.it/",
+   "https://www.lunanuovarealmonte.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "umanis.it",
+  "nome": "UMANIS Polymedical Clinic - UMANIS - Poliambulatorio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06677180827",
+  "telefono": "+390917379414",
+  "email": "",
+  "sitoUrl": "https://www.umanis.it/",
+  "indirizzo": "Via Agrigento 25",
+  "cap": "",
+  "comune": "",
+  "provincia": "agrigento",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.umanis.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

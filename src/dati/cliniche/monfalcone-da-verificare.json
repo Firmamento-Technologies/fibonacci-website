@@ -1,0 +1,108 @@
+[
+ {
+  "dominio": "andreadrdoria.com",
+  "nome": "Dott. Andrea Doria specialista in dermatologia e venerologia",
+  "formaSocietaria": "",
+  "partitaIva": "01001970316",
+  "telefono": "+390481413624",
+  "email": "",
+  "sitoUrl": "https://andreadrdoria.com/",
+  "indirizzo": "Via G. Garibaldi, 59",
+  "cap": "34074",
+  "comune": "MONFALCONE",
+  "provincia": "monfalcone",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://andreadrdoria.com/",
+   "https://andreadrdoria.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromedicus.it",
+  "nome": "Centro Medico Medicus",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centromedicus.it",
+  "sitoUrl": "https://www.centromedicus.it/",
+  "indirizzo": "Via Cotonificio 92",
+  "cap": "33037",
+  "comune": "Pasian",
+  "provincia": "monfalcone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicus.it/",
+   "https://www.centromedicus.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "lpestetica.com",
+  "nome": "LP ESTETICA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lpestetica.com/",
+  "indirizzo": "Via Iº Maggio 58",
+  "cap": "34074",
+  "comune": "Monfalcone",
+  "provincia": "monfalcone",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lpestetica.com/",
+   "https://lpestetica.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicentercliniche.it",
+  "nome": "Medicenter",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medicentercliniche.it",
+  "sitoUrl": "https://medicentercliniche.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "monfalcone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://medicentercliniche.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

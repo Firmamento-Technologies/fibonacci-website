@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "ambulatoriomaremis.it",
+  "nome": "Ambulatorio polispecialistico Maremis",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03872220276",
+  "telefono": "",
+  "email": "info@ambulatoriomaremis.it",
+  "sitoUrl": "https://www.ambulatoriomaremis.it/",
+  "indirizzo": "Via Ca' Silis, 10",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ambulatoriomaremis.it/",
+   "https://www.ambulatoriomaremis.it/contatti/",
+   "https://www.ambulatoriomaremis.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicahebe.it",
+  "nome": "Clinica Hebe",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390422857970",
+  "email": "info@clinicahebe.it",
+  "sitoUrl": "https://www.clinicahebe.it/",
+  "indirizzo": "Via Postumia 103",
+  "cap": "31047",
+  "comune": "Ponte",
+  "provincia": "jesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicahebe.it/",
+   "https://www.clinicahebe.it/clinica/sedi/",
+   "https://www.clinicahebe.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "jesolosalus.it",
+  "nome": "Jesolosalus",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04898420270",
+  "telefono": "",
+  "email": "info@jesolosalus.it",
+  "sitoUrl": "https://www.jesolosalus.it/",
+  "indirizzo": "via Cà Gamba 4",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.jesolosalus.it/",
+   "https://www.jesolosalus.it/about/",
+   "https://www.jesolosalus.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioperazzolo.it",
+  "nome": "Studio Dentistico Eraclea, Dentista Dr Perazzolo San Donà di Piave",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390421316550",
+  "email": "info@studioperazzolo.it",
+  "sitoUrl": "https://studioperazzolo.it/",
+  "indirizzo": "Via Cadorna, 35",
+  "cap": "30020",
+  "comune": "Stretti",
+  "provincia": "jesolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Perazzolo San, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studioperazzolo.it/",
+   "https://studioperazzolo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

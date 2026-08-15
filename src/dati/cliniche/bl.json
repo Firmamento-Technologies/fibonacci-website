@@ -1,0 +1,138 @@
+[
+ {
+  "dominio": "alfamedicabelluno.it",
+  "nome": "Alfa Medica Belluno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@alfamedicabelluno.it",
+  "sitoUrl": "https://www.alfamedicabelluno.it/",
+  "indirizzo": "Via Caduti 14",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "bl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.alfamedicabelluno.it/",
+   "https://www.alfamedicabelluno.it/contatti/",
+   "https://www.alfamedicabelluno.it/informativa-privacy-e-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "bellunomedica.it",
+  "nome": "Poliambulatorio Belluno Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03220330208",
+  "telefono": "+39043731248",
+  "email": "info.bellunomedica@synlab.it",
+  "sitoUrl": "https://bellunomedica.it/",
+  "indirizzo": "Via G. Vaccari 3",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "bl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://bellunomedica.it/",
+   "https://bellunomedica.it/chi-siamo",
+   "https://bellunomedica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrosferabelluno.it",
+  "nome": "Centro Sfera",
+  "formaSocietaria": "",
+  "partitaIva": "01003070255",
+  "telefono": "+390437927266",
+  "email": "",
+  "sitoUrl": "https://centrosferabelluno.it/",
+  "indirizzo": "Via Meassa, 91",
+  "cap": "",
+  "comune": "",
+  "provincia": "bl",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrosferabelluno.it/",
+   "https://centrosferabelluno.it/chi-siamo/",
+   "https://centrosferabelluno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicadalpont.it",
+  "nome": "Studio Dentistico a Belluno",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04880210283",
+  "telefono": "+390437940821",
+  "email": "info@clinicadalpont.it",
+  "sitoUrl": "https://clinicadalpont.it/",
+  "indirizzo": "Piazza Castello 6",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "bl",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicadalpont.it/",
+   "https://clinicadalpont.it/clinica/chi-siamo/",
+   "https://clinicadalpont.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriolocarno.it",
+  "nome": "Poliambulatorio Locarno Montebelluna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390423764925",
+  "email": "info@poliambulatoriolocarno.it",
+  "sitoUrl": "https://www.poliambulatoriolocarno.it/",
+  "indirizzo": "Corso Mazzini 82",
+  "cap": "31044",
+  "comune": "Montebelluna",
+  "provincia": "bl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliambulatoriolocarno.it/",
+   "https://www.poliambulatoriolocarno.it/chi-siamo/",
+   "https://www.poliambulatoriolocarno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

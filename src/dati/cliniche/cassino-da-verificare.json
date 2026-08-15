@@ -1,0 +1,115 @@
+[
+ {
+  "dominio": "carmendeluca.it",
+  "nome": "Medicina Estetica a Cassino",
+  "formaSocietaria": "",
+  "partitaIva": "02934990603",
+  "telefono": "+393899464192",
+  "email": "studio@carmendeluca.it",
+  "sitoUrl": "https://carmendeluca.it/",
+  "indirizzo": "Via Marcello Mastroianni, 5",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://carmendeluca.it/",
+   "https://carmendeluca.it/contatti/",
+   "https://carmendeluca.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticolefragole.it",
+  "nome": "Le Fragole",
+  "formaSocietaria": "",
+  "partitaIva": "02824680603",
+  "telefono": "+393497719063",
+  "email": "info@centroesteticolefragole.it",
+  "sitoUrl": "https://centroesteticolefragole.it/",
+  "indirizzo": "Via Sferracavalli, 20",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticolefragole.it/",
+   "https://centroesteticolefragole.it/chi-siamo/",
+   "https://centroesteticolefragole.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "floraesteticaavanzata.it",
+  "nome": "Flora Estetica Avanzata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://floraesteticaavanzata.it/",
+  "indirizzo": "Via Enrico de Nicola 108",
+  "cap": "",
+  "comune": "",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://floraesteticaavanzata.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "valeriocervelli.it",
+  "nome": "Saloni di Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://valeriocervelli.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cassino",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://valeriocervelli.it/",
+   "https://valeriocervelli.it/contatto/",
+   "https://valeriocervelli.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

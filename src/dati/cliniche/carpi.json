@@ -1,0 +1,216 @@
+[
+ {
+  "dominio": "antoniotrichini.net",
+  "nome": "Otorinolaringoiatra a Carpi, Roma, Milano, Bologna e Catania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393807578640",
+  "email": "",
+  "sitoUrl": "https://antoniotrichini.net/",
+  "indirizzo": "Via Antonio Stoppani 36",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Trichini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://antoniotrichini.net/",
+   "https://antoniotrichini.net/contatti/",
+   "https://antoniotrichini.net/privacy-e-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Trichini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "barbaracassese.com",
+  "nome": "Dott.ssa Barbara Cassese",
+  "formaSocietaria": "",
+  "partitaIva": "07143240633",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.barbaracassese.com/",
+  "indirizzo": "Via Meloni di Quartirolo, 6",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Barbara Cassese, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.barbaracassese.com/",
+   "https://www.barbaracassese.com/contattami",
+   "https://www.barbaracassese.com/copy-of-privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Cassese, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centroesteticoelisircarpi.it",
+  "nome": "Centro estetico per trattamenti viso e anticellulite a Carpi",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "03894520364",
+  "telefono": "+393929736432",
+  "email": "",
+  "sitoUrl": "https://centroesteticoelisircarpi.it/",
+  "indirizzo": "Via Cuneo, 11",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centroesteticoelisircarpi.it/",
+   "https://centroesteticoelisircarpi.it/privacy-policy/",
+   "https://centroesteticoelisircarpi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "federicocampedellidentista.it",
+  "nome": "Estetica dentale a Carpi",
+  "formaSocietaria": "",
+  "partitaIva": "03502960366",
+  "telefono": "+393338902325",
+  "email": "info@federicocampedellidentista.it",
+  "sitoUrl": "https://federicocampedellidentista.it/",
+  "indirizzo": "Via Guido Fassi, 43",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federico Campedelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://federicocampedellidentista.it/",
+   "https://federicocampedellidentista.it/contatti/",
+   "https://federicocampedellidentista.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "latuaimmagine.net",
+  "nome": "Centro estetico La Tua Immagine",
+  "formaSocietaria": "SNC",
+  "partitaIva": "04125110363",
+  "telefono": "+393922881116",
+  "email": "info@latuaimmagine.net",
+  "sitoUrl": "https://latuaimmagine.net/",
+  "indirizzo": "Via Tintoretto, 37",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://latuaimmagine.net/",
+   "https://latuaimmagine.net/chi-siamo/",
+   "https://latuaimmagine.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tbeauty.it",
+  "nome": "T · Beauty",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "03888790361",
+  "telefono": "+390596228334",
+  "email": "info@tbeauty.it",
+  "sitoUrl": "https://tbeauty.it/",
+  "indirizzo": "Via Graziosi, 18",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://tbeauty.it/",
+   "https://tbeauty.it/contatti/",
+   "https://tbeauty.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villaricheldi.it",
+  "nome": "Villa Richeldi: Poliambulatorio Carpi",
+  "formaSocietaria": "",
+  "partitaIva": "03474180365",
+  "telefono": "+39059660918",
+  "email": "",
+  "sitoUrl": "https://www.villaricheldi.it/",
+  "indirizzo": "Via G. Fassi, 16",
+  "cap": "41012",
+  "comune": "Carpi",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.villaricheldi.it/",
+   "https://www.villaricheldi.it/chi-siamo/",
+   "https://www.villaricheldi.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

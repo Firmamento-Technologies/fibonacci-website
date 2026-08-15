@@ -1,0 +1,302 @@
+[
+ {
+  "dominio": "alessandrobucci.eu",
+  "nome": "Dr. Alessandro Bucci",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393463625321",
+  "email": "",
+  "sitoUrl": "https://www.alessandrobucci.eu/",
+  "indirizzo": "Via F.lli Bandiera 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Bucci, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessandrobucci.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Bucci, e il dominio lo ripete"
+ },
+ {
+  "dominio": "claudiabarucca.it",
+  "nome": "Claudia Barucca",
+  "formaSocietaria": "",
+  "partitaIva": "02347940427",
+  "telefono": "+393890248441",
+  "email": "",
+  "sitoUrl": "https://claudiabarucca.it/",
+  "indirizzo": "Via Mantegna, 1",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Claudia Barucca, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://claudiabarucca.it/",
+   "https://claudiabarucca.it/privacy-policy/",
+   "https://claudiabarucca.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudia Barucca, e il dominio lo ripete"
+ },
+ {
+  "dominio": "diviedivine.net",
+  "nome": "Divi e Divine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://diviedivine.net/",
+  "indirizzo": "Via Verdi, 97",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://diviedivine.net/",
+   "https://diviedivine.net/chi-siamo/",
+   "https://diviedivine.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "espositochirurgoplastico.it",
+  "nome": "Dr. Stefano Esposito",
+  "formaSocietaria": "",
+  "partitaIva": "08924330585",
+  "telefono": "+390686321981",
+  "email": "info@espositochirurgoplastico.it",
+  "sitoUrl": "https://www.espositochirurgoplastico.it/",
+  "indirizzo": "Via Flaminia, 495",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Esposito, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.espositochirurgoplastico.it/",
+   "https://www.espositochirurgoplastico.it/contatti/",
+   "https://www.espositochirurgoplastico.it/cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "laroccamedicalcenter.it",
+  "nome": "Larocca Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393357046939",
+  "email": "info@laroccamedicalcenter.it",
+  "sitoUrl": "https://laroccamedicalcenter.it/",
+  "indirizzo": "Via Marchetti 110",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://laroccamedicalcenter.it/",
+   "https://laroccamedicalcenter.it/contatti/",
+   "https://laroccamedicalcenter.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "margheritamancini.it",
+  "nome": "Dr.ssa Margherita Mancini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.margheritamancini.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Margherita Mancini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.margheritamancini.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Margherita Mancini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "myaestetica.it",
+  "nome": "Mya Estetica",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02445640424",
+  "telefono": "+3907163154",
+  "email": "info@myaestetica.it",
+  "sitoUrl": "https://www.myaestetica.it/",
+  "indirizzo": "Via Piave, 27",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.myaestetica.it/",
+   "https://www.myaestetica.it/privacy-policy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "senasport.it",
+  "nome": "Senasport Senigallia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39071659797",
+  "email": "info@senasport.it",
+  "sitoUrl": "https://senasport.it/",
+  "indirizzo": "Via Nicola Abbagnano, 10",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://senasport.it/",
+   "https://senasport.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skincentersenigallia.it",
+  "nome": "Dermatologia Senigallia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@skincentersenigallia.it",
+  "sitoUrl": "https://www.skincentersenigallia.it/",
+  "indirizzo": "Via Marchetti, 110",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.skincentersenigallia.it/",
+   "https://www.skincentersenigallia.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "spamarine.it",
+  "nome": "SpaMarine",
+  "formaSocietaria": "",
+  "partitaIva": "02661410429",
+  "telefono": "+390717931421",
+  "email": "info@spamarine.it",
+  "sitoUrl": "https://www.spamarine.it/",
+  "indirizzo": "",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.spamarine.it/",
+   "https://www.spamarine.it/privacy-e-cookies/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villasorrisosrl.it",
+  "nome": "Villa Sorriso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39071659255",
+  "email": "",
+  "sitoUrl": "https://www.villasorrisosrl.it/",
+  "indirizzo": "Via Armellini, 29",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.villasorrisosrl.it/",
+   "https://www.villasorrisosrl.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

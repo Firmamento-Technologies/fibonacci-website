@@ -1,0 +1,245 @@
+[
+ {
+  "dominio": "diagnosticasanmartino.it",
+  "nome": "Centro Diagnostico San Martino Treviglio: la Tua Salute al Centro",
+  "formaSocietaria": "",
+  "partitaIva": "04713870162",
+  "telefono": "+3903631742068",
+  "email": "info@diagnosticasanmartino.it",
+  "sitoUrl": "https://diagnosticasanmartino.it/",
+  "indirizzo": "Via G. Pascoli, 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "treviglio",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://diagnosticasanmartino.it/",
+   "https://diagnosticasanmartino.it/chi-siamo/",
+   "https://diagnosticasanmartino.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottorbertoli.com",
+  "nome": "Dr Bertoli I FILLER LABBRA Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottorbertoli.com/",
+  "indirizzo": "Via Cucca 6",
+  "cap": "25127",
+  "comune": "Brescia",
+  "provincia": "treviglio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Bertoli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottorbertoli.com/",
+   "https://www.dottorbertoli.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "etiambeauty.it",
+  "nome": "Etiam Beyond Beauty, Estetista Treviglio-Esperienza Bellezza",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04721340166",
+  "telefono": "+390363705293",
+  "email": "",
+  "sitoUrl": "https://www.etiambeauty.it/",
+  "indirizzo": "Via Roma, 5",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.etiambeauty.it/",
+   "https://www.etiambeauty.it/about",
+   "https://www.etiambeauty.it/about-old"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "hintimebeautyspatreviglio.it",
+  "nome": "Centro Estetico Polispecialistico a Treviglio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04822130169",
+  "telefono": "+393755744253",
+  "email": "",
+  "sitoUrl": "https://www.hintimebeautyspatreviglio.it/",
+  "indirizzo": "Viale Col Di Lana, 19",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.hintimebeautyspatreviglio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lightandbeauty.it",
+  "nome": "Estetica Avanzata a Treviglio: Trattamenti per Corpo e Viso",
+  "formaSocietaria": "",
+  "partitaIva": "04493500161",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lightandbeauty.it/",
+  "indirizzo": "Via Roggia Vignola 18",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lightandbeauty.it/",
+   "https://lightandbeauty.it/chi-siamo",
+   "https://lightandbeauty.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "misterimprese.it",
+  "nome": "Elenco di Imprese, Aziende, Negozi, Ditte, Srl, Snc, Studi in Tutti i ",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02531310346",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.misterimprese.it/",
+  "indirizzo": "Via Ticinello 22",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "treviglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.misterimprese.it/",
+   "https://www.misterimprese.it/content/chi-siamo",
+   "https://www.misterimprese.it/content/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiocostasrl.it",
+  "nome": "Studio Costa medicina del lavoro, Poliambulatorio medico Treviglio",
+  "formaSocietaria": "",
+  "partitaIva": "03636020160",
+  "telefono": "+390363301705",
+  "email": "info@studicosta.it",
+  "sitoUrl": "https://studiocostasrl.it/",
+  "indirizzo": "Via A. Diaz, 1",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://studiocostasrl.it/",
+   "https://studiocostasrl.it/contatti/",
+   "https://studiocostasrl.it/chi-siamo-studio-costa/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "syscentromedico.it",
+  "nome": "SYS Centro medico polifunzionale",
+  "formaSocietaria": "",
+  "partitaIva": "04138200169",
+  "telefono": "+39036343823",
+  "email": "info@syscentromedico.it",
+  "sitoUrl": "https://www.syscentromedico.it/",
+  "indirizzo": "Via Pontirolo 18",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.syscentromedico.it/",
+   "https://www.syscentromedico.it/contatti-dove-siamo/",
+   "https://www.syscentromedico.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "trevigliodaysurgery.com",
+  "nome": "Ambulatorio Medico Treviglio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://trevigliodaysurgery.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "treviglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://trevigliodaysurgery.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

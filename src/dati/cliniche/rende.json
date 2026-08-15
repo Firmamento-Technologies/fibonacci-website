@@ -1,0 +1,93 @@
+[
+ {
+  "dominio": "americancenter.it",
+  "nome": "American Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02330390788",
+  "telefono": "",
+  "email": "info@americancenter.it",
+  "sitoUrl": "https://americancenter.it/",
+  "indirizzo": "Via Gioacchino Rossini 1",
+  "cap": "87036",
+  "comune": "Rende",
+  "provincia": "rende",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://americancenter.it/",
+   "https://americancenter.it/contatti/",
+   "https://americancenter.it/norme-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cryomedicina.com",
+  "nome": "Benessere e Bellezza a Rende",
+  "formaSocietaria": "",
+  "partitaIva": "03818100780",
+  "telefono": "+393887874799",
+  "email": "",
+  "sitoUrl": "https://www.cryomedicina.com/",
+  "indirizzo": "Via Martin Luther King, 5",
+  "cap": "87036",
+  "comune": "Roges",
+  "provincia": "rende",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.cryomedicina.com/",
+   "https://www.cryomedicina.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drdodaromedicinaestetica.com",
+  "nome": "Dott.ssa Giuseppina Dodaro",
+  "formaSocietaria": "",
+  "partitaIva": "03662450786",
+  "telefono": "+3909841765801",
+  "email": "",
+  "sitoUrl": "https://www.drdodaromedicinaestetica.com/",
+  "indirizzo": "Via Arnaldo de Filippis 36",
+  "cap": "87100",
+  "comune": "Cosenza",
+  "provincia": "rende",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.drdodaromedicinaestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

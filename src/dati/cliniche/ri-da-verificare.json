@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "medicinaesteticabg.it",
+  "nome": "Barbara Gunnella",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393895141713",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticabg.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticabg.it/",
+   "https://www.medicinaesteticabg.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

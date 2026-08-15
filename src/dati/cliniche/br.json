@@ -1,0 +1,186 @@
+[
+ {
+  "dominio": "drfaldetta.it",
+  "nome": "Studio Dentistico Faldetta",
+  "formaSocietaria": "",
+  "partitaIva": "02044280747",
+  "telefono": "+390831516941",
+  "email": "",
+  "sitoUrl": "https://www.drfaldetta.it/",
+  "indirizzo": "Via Verona 17",
+  "cap": "",
+  "comune": "",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Silvio Faldetta, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drfaldetta.it/",
+   "https://www.drfaldetta.it/contatti/",
+   "https://www.drfaldetta.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mbcbrindisi.it",
+  "nome": "Medical Beauty Clinic Brindisi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02672160740",
+  "telefono": "+393755787740",
+  "email": "info@mbcbrindisi.it",
+  "sitoUrl": "https://www.mbcbrindisi.it/",
+  "indirizzo": "Via Cristoforo Colombo, 92",
+  "cap": "",
+  "comune": "",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.mbcbrindisi.it/",
+   "https://www.mbcbrindisi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "optimumestetica.it",
+  "nome": "Medicina Estetica e Laserterapia Brindisi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12488380960",
+  "telefono": "+3908311528801",
+  "email": "info@optimumestetica.it",
+  "sitoUrl": "https://www.optimumestetica.it/",
+  "indirizzo": "Viale Belgio, 42",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.optimumestetica.it/",
+   "https://www.optimumestetica.it/centro-medicina-estetica-laserterapia-brindisi-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rinaldimedica.it",
+  "nome": "Rinaldi Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390831529032",
+  "email": "studio@rinaldimedica.it",
+  "sitoUrl": "https://www.rinaldimedica.it/",
+  "indirizzo": "Via Duomo 1",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Rinaldi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.rinaldimedica.it/",
+   "https://www.rinaldimedica.it/le-sedi/",
+   "https://www.rinaldimedica.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sferamedicalgroup.it",
+  "nome": "Centro medico Brindisi, Centro diagnostico e Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393489206400",
+  "email": "info@sferamedicalgroup.it",
+  "sitoUrl": "https://www.sferamedicalgroup.it/",
+  "indirizzo": "Via Saponea, 60",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "br",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.sferamedicalgroup.it/",
+   "https://www.sferamedicalgroup.it/contatti/",
+   "https://www.sferamedicalgroup.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sublimestetica.it",
+  "nome": "centro estetico Brindisi",
+  "formaSocietaria": "",
+  "partitaIva": "02584430744",
+  "telefono": "+393925299930",
+  "email": "",
+  "sitoUrl": "https://sublimestetica.it/",
+  "indirizzo": "Viale Aldo Moro 129",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "br",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://sublimestetica.it/",
+   "https://sublimestetica.it/chi-siamo/",
+   "https://sublimestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

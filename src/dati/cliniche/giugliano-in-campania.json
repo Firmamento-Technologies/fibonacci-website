@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "1896cosmetics.eu",
+  "nome": "Bellezza1896",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://1896cosmetics.eu/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "giugliano-in-campania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://1896cosmetics.eu/",
+   "https://1896cosmetics.eu/contatto/",
+   "https://1896cosmetics.eu/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "istitutoesteticoambrosia.it",
+  "nome": "Istituto Estetico Ambrosia",
+  "formaSocietaria": "",
+  "partitaIva": "09345521216",
+  "telefono": "",
+  "email": "info@istitutoesteticoambrosia.it",
+  "sitoUrl": "https://istitutoesteticoambrosia.it/",
+  "indirizzo": "Via Santa Rita da Cascia, 53",
+  "cap": "80014",
+  "comune": "Giugliano",
+  "provincia": "giugliano-in-campania",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://istitutoesteticoambrosia.it/",
+   "https://istitutoesteticoambrosia.it/contatti/",
+   "https://istitutoesteticoambrosia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,220 @@
+[
+ {
+  "dominio": "agliattamedicaldesign.com",
+  "nome": "Il tuo dentista a Biella e Cossato",
+  "formaSocietaria": "",
+  "partitaIva": "01831940026",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.agliattamedicaldesign.com/",
+  "indirizzo": "Via Matteotti 64",
+  "cap": "13836",
+  "comune": "Cossato",
+  "provincia": "bi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Agliatta Staff, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.agliattamedicaldesign.com/",
+   "https://www.agliattamedicaldesign.com/contatti/",
+   "https://www.agliattamedicaldesign.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "amiciperlapellebiella.it",
+  "nome": "Amici per la pelle",
+  "formaSocietaria": "",
+  "partitaIva": "02042170023",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.amiciperlapellebiella.it/",
+  "indirizzo": "Via Gobetti, 2",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.amiciperlapellebiella.it/",
+   "https://www.amiciperlapellebiella.it/contatti/",
+   "https://www.amiciperlapellebiella.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "domenicoparis.com",
+  "nome": "Medicina Estetica e Dietologia a Biella",
+  "formaSocietaria": "",
+  "partitaIva": "09312800585",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.domenicoparis.com/",
+  "indirizzo": "Via della Vittoria 31",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Domenico Paris, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.domenicoparis.com/",
+   "https://www.domenicoparis.com/contatti/",
+   "https://www.domenicoparis.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Domenico Paris, e il dominio lo ripete"
+ },
+ {
+  "dominio": "estetispa.beauty",
+  "nome": "Centro Estetico a Biella",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02804110027",
+  "telefono": "+393465784855",
+  "email": "",
+  "sitoUrl": "https://estetispa.beauty/",
+  "indirizzo": "Via San Giuseppe Cottolengo, 14",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://estetispa.beauty/",
+   "https://estetispa.beauty/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gianmarcourbino.it",
+  "nome": "Gianmarco Urbino • Medicina estetica del viso e filler labbra a Biella",
+  "formaSocietaria": "",
+  "partitaIva": "03567340835",
+  "telefono": "+393470147011",
+  "email": "",
+  "sitoUrl": "https://gianmarcourbino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianmarco Urbino, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://gianmarcourbino.it/",
+   "https://gianmarcourbino.it/contatti/",
+   "https://gianmarcourbino.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianmarco Urbino, e il dominio lo ripete"
+ },
+ {
+  "dominio": "lapetiteesthetique.it",
+  "nome": "La Petite Esthetique",
+  "formaSocietaria": "",
+  "partitaIva": "02676180025",
+  "telefono": "+393479238102",
+  "email": "",
+  "sitoUrl": "https://lapetiteesthetique.it/",
+  "indirizzo": "Via Tripoli, 29",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lapetiteesthetique.it/",
+   "https://lapetiteesthetique.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lasertherapycenter.org",
+  "nome": "Laser Therapy Center",
+  "formaSocietaria": "",
+  "partitaIva": "02462110020",
+  "telefono": "+393664047708",
+  "email": "info@lasertherapycenter.org",
+  "sitoUrl": "https://lasertherapycenter.org/",
+  "indirizzo": "Piazza Primo Maggio 10",
+  "cap": "",
+  "comune": "",
+  "provincia": "bi",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lasertherapycenter.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

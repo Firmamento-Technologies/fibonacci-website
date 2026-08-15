@@ -1,0 +1,87 @@
+[
+ {
+  "dominio": "bcomebenessere.it",
+  "nome": "B come Benessere",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05813190658",
+  "telefono": "+39089341587",
+  "email": "info@bcomebenessere.it",
+  "sitoUrl": "https://www.bcomebenessere.it/",
+  "indirizzo": "Via Raffaele Ragone, 67",
+  "cap": "",
+  "comune": "",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bcomebenessere.it/",
+   "https://www.bcomebenessere.it/chi-siamo/",
+   "https://www.bcomebenessere.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "exedradermatology.it",
+  "nome": "Exedra dermatology laser center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39089468625",
+  "email": "",
+  "sitoUrl": "https://exedradermatology.it/",
+  "indirizzo": "Via Corradino Biagi, 18",
+  "cap": "84013",
+  "comune": "Cava",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://exedradermatology.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vitaestetica.it",
+  "nome": "ReVita Start",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@vitaestetica.it",
+  "sitoUrl": "https://www.vitaestetica.it/",
+  "indirizzo": "Via A. Guerritore 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.vitaestetica.it/",
+   "https://www.vitaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

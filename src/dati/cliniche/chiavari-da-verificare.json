@@ -1,0 +1,87 @@
+[
+ {
+  "dominio": "centrobenessere-cesoleesole.it",
+  "nome": "Centro estetico a Chiavari",
+  "formaSocietaria": "",
+  "partitaIva": "02003090996",
+  "telefono": "+390185301662",
+  "email": "",
+  "sitoUrl": "https://centrobenessere-cesoleesole.it/",
+  "indirizzo": "Via Martiri Della Liberazione, 96",
+  "cap": "16043",
+  "comune": "Chiavari",
+  "provincia": "chiavari",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centrobenessere-cesoleesole.it/",
+   "https://centrobenessere-cesoleesole.it/chi-siamo/",
+   "https://centrobenessere-cesoleesole.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "personalbeautyspace.com",
+  "nome": "Personal Beauty Space",
+  "formaSocietaria": "",
+  "partitaIva": "02758410993",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.personalbeautyspace.com/",
+  "indirizzo": "Via Ravaschieri, 97",
+  "cap": "",
+  "comune": "",
+  "provincia": "chiavari",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.personalbeautyspace.com/",
+   "https://www.personalbeautyspace.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studio93chiavari.it",
+  "nome": "centro estetico Chiavari",
+  "formaSocietaria": "",
+  "partitaIva": "02844260998",
+  "telefono": "+3901851898816",
+  "email": "",
+  "sitoUrl": "https://studio93chiavari.it/",
+  "indirizzo": "Via Francesco Bancalari, 31",
+  "cap": "16043",
+  "comune": "Chiavari",
+  "provincia": "chiavari",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://studio93chiavari.it/",
+   "https://studio93chiavari.it/chi-siamo/",
+   "https://studio93chiavari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

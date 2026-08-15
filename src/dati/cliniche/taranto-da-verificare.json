@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "dottmicheleferrante.it",
+  "nome": "Michele Ferrante",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393389564230",
+  "email": "",
+  "sitoUrl": "https://www.dottmicheleferrante.it/",
+  "indirizzo": "Via Sardegna 2",
+  "cap": "74121",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottmicheleferrante.it/",
+   "https://www.dottmicheleferrante.it/contatti",
+   "https://www.dottmicheleferrante.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

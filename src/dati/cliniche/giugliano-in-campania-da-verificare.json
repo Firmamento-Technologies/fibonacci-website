@@ -1,0 +1,35 @@
+[
+ {
+  "dominio": "guida-delle-societa.cybo.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiopassariello.it",
+  "nome": "Studio Passariello",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393519619004",
+  "email": "info@studiopassariello.it",
+  "sitoUrl": "https://www.studiopassariello.it/",
+  "indirizzo": "Via Aviere Mario Pirozzi 81",
+  "cap": "80014",
+  "comune": "Giugliano",
+  "provincia": "giugliano-in-campania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiopassariello.it/",
+   "https://www.studiopassariello.it/contatti/",
+   "https://www.studiopassariello.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

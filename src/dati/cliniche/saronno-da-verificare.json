@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "amicodentista.com",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "health.italy724.info",
+  "nome": "Local Search",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://health.italy724.info/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://health.italy724.info/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ilsaronno.it",
+  "nome": "Tutta Saronno online. Tutti i giorni",
+  "formaSocietaria": "",
+  "partitaIva": "10169810966",
+  "telefono": "+393496068062",
+  "email": "info@ilsaronno.it",
+  "sitoUrl": "https://ilsaronno.it/",
+  "indirizzo": "Piazza Prealpi, 1",
+  "cap": "20020",
+  "comune": "Solaro",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ilsaronno.it/",
+   "https://ilsaronno.it/chi-siamo/",
+   "https://ilsaronno.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "infinityrelaxsaronno.com",
+  "nome": "INFINITY RELAX",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.infinityrelaxsaronno.com/",
+  "indirizzo": "Via Dante Alighieri, 39",
+  "cap": "21047",
+  "comune": "Saronno",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.infinityrelaxsaronno.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "punturine.it",
+  "nome": "Punturine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://punturine.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://punturine.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

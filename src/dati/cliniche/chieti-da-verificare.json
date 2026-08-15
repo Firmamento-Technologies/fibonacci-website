@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "unich.it",
+  "nome": "Università degli Studi \"G. d'Annunzio\" Chieti – Pescara",
+  "formaSocietaria": "",
+  "partitaIva": "01335970693",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unich.it/",
+  "indirizzo": "Viale Pindaro,42",
+  "cap": "66100",
+  "comune": "CHIETI",
+  "provincia": "chieti",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unich.it/",
+   "https://www.unich.it/ateneo/sedi-centri-e-strutture",
+   "https://www.unich.it/international/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

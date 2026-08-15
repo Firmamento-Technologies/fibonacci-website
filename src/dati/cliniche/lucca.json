@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "dottgiannini.com",
+  "nome": "Chirurgia estetica e funzionale",
+  "formaSocietaria": "",
+  "partitaIva": "01077560462",
+  "telefono": "+393485583669",
+  "email": "",
+  "sitoUrl": "https://www.dottgiannini.com/",
+  "indirizzo": "Viale Montegrappa, 243",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "lucca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Giannini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottgiannini.com/",
+   "https://www.dottgiannini.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pietromassei.it",
+  "nome": "Chirurgia estetica Lucca, chirurgo plastico a Lucca in Toscana",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393482241562",
+  "email": "info@pietromassei.it",
+  "sitoUrl": "https://www.pietromassei.it/",
+  "indirizzo": "Via Torelli, 57",
+  "cap": "19020",
+  "comune": "Bolano",
+  "provincia": "lucca",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Massei, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.pietromassei.it/",
+   "https://www.pietromassei.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Massei, e il dominio lo ripete"
+ }
+]

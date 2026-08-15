@@ -1,0 +1,273 @@
+[
+ {
+  "dominio": "cmsangiuseppe.com",
+  "nome": "Centro Medico San Giuseppe Viadana Mantova",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02302320201",
+  "telefono": "",
+  "email": "segreteria@cmsangiuseppe.com",
+  "sitoUrl": "https://cmsangiuseppe.com/",
+  "indirizzo": "Via Villa Scassa 78",
+  "cap": "46019",
+  "comune": "Viadana",
+  "provincia": "mn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://cmsangiuseppe.com/",
+   "https://cmsangiuseppe.com/chi-siamo/",
+   "https://cmsangiuseppe.com/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "identita.net",
+  "nome": "Identità",
+  "formaSocietaria": "",
+  "partitaIva": "02539560207",
+  "telefono": "+3903761591585",
+  "email": "info@identita.net",
+  "sitoUrl": "https://www.identita.net/",
+  "indirizzo": "Via F.lli Kenney 18",
+  "cap": "",
+  "comune": "",
+  "provincia": "mn",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.identita.net/",
+   "https://www.identita.net/chi-siamo/",
+   "https://www.identita.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lineisclinique.it",
+  "nome": "Lineis Clinique",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02753830203",
+  "telefono": "+390376752452",
+  "email": "info@lineisclinique.it",
+  "sitoUrl": "https://lineisclinique.it/",
+  "indirizzo": "Via Giuseppe Mazzini, 55",
+  "cap": "46043",
+  "comune": "Castiglione",
+  "provincia": "mn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://lineisclinique.it/",
+   "https://lineisclinique.it/chi-siamo/",
+   "https://lineisclinique.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "manuinimedicinaestetica.it",
+  "nome": "Chirurgia e Medicina Estetica Mantova",
+  "formaSocietaria": "",
+  "partitaIva": "02378150201",
+  "telefono": "",
+  "email": "info@manuinimedicinaestetica.it",
+  "sitoUrl": "https://www.manuinimedicinaestetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Manuini Nicolò, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.manuinimedicinaestetica.it/",
+   "https://www.manuinimedicinaestetica.it/chi-siamo/cv/",
+   "https://www.manuinimedicinaestetica.it/chi-siamo/filosofia-vision/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalexperiencemantova.com",
+  "nome": "medicalexperiencemantova.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicalexperiencemantova.com/",
+  "indirizzo": "Via Renzo Zanellini 15",
+  "cap": "46100",
+  "comune": "Mantova",
+  "provincia": "mn",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.medicalexperiencemantova.com/",
+   "https://www.medicalexperiencemantova.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriobelfiore.it",
+  "nome": "poliambulatoriobelfiore.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02526210204",
+  "telefono": "+390376262884",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriobelfiore.it/",
+  "indirizzo": "Via Carlo Pisacane 1",
+  "cap": "46100",
+  "comune": "Mantova",
+  "provincia": "mn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.poliambulatoriobelfiore.it/",
+   "https://www.poliambulatoriobelfiore.it/chi-siamo/",
+   "https://www.poliambulatoriobelfiore.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriomater.com",
+  "nome": "Giovanni Mauro",
+  "formaSocietaria": "",
+  "partitaIva": "02053390205",
+  "telefono": "+390376221810",
+  "email": "info@giovannimauro.com",
+  "sitoUrl": "https://www.poliambulatoriomater.com/",
+  "indirizzo": "Viale Col di Lana Mantova 46100",
+  "cap": "46100",
+  "comune": "Mantova",
+  "provincia": "mn",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriomater.com/",
+   "https://www.poliambulatoriomater.com/contatti",
+   "https://www.poliambulatoriomater.com/privacy-cookie-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticorestori.it",
+  "nome": "Studio Restori - Studio Dentistico a Mantova",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02508960206",
+  "telefono": "",
+  "email": "info@studiodentisticorestori.it",
+  "sitoUrl": "https://studiodentisticorestori.it/",
+  "indirizzo": "Via Europa Unita 23",
+  "cap": "46040",
+  "comune": "Casaloldo",
+  "provincia": "mn",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiodentisticorestori.it/",
+   "https://studiodentisticorestori.it/contatti",
+   "https://studiodentisticorestori.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomastromarino.com",
+  "nome": "Dentista a Mantova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390376222256",
+  "email": "info@studiomastromarino.com",
+  "sitoUrl": "https://studiomastromarino.com/",
+  "indirizzo": "Via Porto, 26",
+  "cap": "46100",
+  "comune": "Mantova",
+  "provincia": "mn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Tiziana Mastromarino, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomastromarino.com/",
+   "https://studiomastromarino.com/contatti/",
+   "https://studiomastromarino.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

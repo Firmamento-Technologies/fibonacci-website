@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "bonelliodontoiatrisrl.it",
+  "nome": "Cure dentistiche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39016543939",
+  "email": "",
+  "sitoUrl": "https://www.bonelliodontoiatrisrl.it/",
+  "indirizzo": "via Jean De La Pierre 3",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "aosta",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.bonelliodontoiatrisrl.it/",
+   "https://www.bonelliodontoiatrisrl.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

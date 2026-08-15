@@ -1,0 +1,117 @@
+[
+ {
+  "dominio": "blefaroplasticagenova.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "identistraffadali.com",
+  "nome": "IDentist: Il Tuo Dentista A Raffadali Agrigento",
+  "formaSocietaria": "",
+  "partitaIva": "02436630848",
+  "telefono": "+3909221881268",
+  "email": "",
+  "sitoUrl": "https://identistraffadali.com/",
+  "indirizzo": "Via Algeria n. 14",
+  "cap": "92015",
+  "comune": "Raffadali",
+  "provincia": "ag",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://identistraffadali.com/",
+   "https://identistraffadali.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "korestudiodiestetica.it",
+  "nome": "Kore",
+  "formaSocietaria": "",
+  "partitaIva": "02005540840",
+  "telefono": "+39092224760",
+  "email": "info@korestudiodiestetica.it",
+  "sitoUrl": "https://www.korestudiodiestetica.it/",
+  "indirizzo": "via Esseneto 74",
+  "cap": "92100",
+  "comune": "Agrigento",
+  "provincia": "ag",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.korestudiodiestetica.it/",
+   "https://www.korestudiodiestetica.it/chi-siamo/",
+   "https://www.korestudiodiestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medestcenter.it",
+  "nome": "Medest Center Agrigento",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medestcenter.it",
+  "sitoUrl": "https://medestcenter.it/",
+  "indirizzo": "Viale Cannatello 34",
+  "cap": "92100",
+  "comune": "Agrigento",
+  "provincia": "ag",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medestcenter.it/",
+   "https://medestcenter.it/contatti/",
+   "https://medestcenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "universitaagrigento.it",
+  "nome": "Unipegaso Favara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@universitaagrigento.it",
+  "sitoUrl": "https://universitaagrigento.it/",
+  "indirizzo": "Viale Aldo Moro, 201",
+  "cap": "92100",
+  "comune": "Agrigento",
+  "provincia": "ag",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://universitaagrigento.it/",
+   "https://universitaagrigento.it/contatti/",
+   "https://universitaagrigento.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

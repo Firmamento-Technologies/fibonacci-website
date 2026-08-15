@@ -1,0 +1,116 @@
+[
+ {
+  "dominio": "centroesteticamariella.it",
+  "nome": "Centro Estetico Enna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39093524100",
+  "email": "info@centroesteticamariella.it",
+  "sitoUrl": "https://centroesteticamariella.it/",
+  "indirizzo": "Via Trieste, 13",
+  "cap": "94100",
+  "comune": "Enna",
+  "provincia": "en",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centroesteticamariella.it/",
+   "https://centroesteticamariella.it/chi-siamo/",
+   "https://centroesteticamariella.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticoaesthetic.it",
+  "nome": "AESTHETIC DI AMARADIO CARMELA |",
+  "formaSocietaria": "",
+  "partitaIva": "01290370863",
+  "telefono": "+393277981322",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoaesthetic.it/",
+  "indirizzo": "Piazza Piersanti Mattarella 46",
+  "cap": "94100",
+  "comune": "Enna",
+  "provincia": "en",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticoaesthetic.it/",
+   "https://www.centroesteticoaesthetic.it/contatti/",
+   "https://www.centroesteticoaesthetic.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicocavallo.it",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura"
+ },
+ {
+  "dominio": "polimedsalus.it",
+  "nome": "Polimedsalus",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01330210863",
+  "telefono": "+393332303081",
+  "email": "info@polimedsalus.it",
+  "sitoUrl": "https://polimedsalus.it/",
+  "indirizzo": "Via Galileo Galilei, 4c",
+  "cap": "94014",
+  "comune": "Nicosia",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://polimedsalus.it/",
+   "https://polimedsalus.it/chi-siamo/",
+   "https://polimedsalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiopronto24.it",
+  "nome": "Elenco Medici",
+  "formaSocietaria": "",
+  "partitaIva": "01610040196",
+  "telefono": "",
+  "email": "info@studiopronto24.it",
+  "sitoUrl": "https://www.studiopronto24.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiopronto24.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

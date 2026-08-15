@@ -1,0 +1,120 @@
+[
+ {
+  "dominio": "antoniocorezzola.it",
+  "nome": "antoniocorezzola.it",
+  "formaSocietaria": "",
+  "partitaIva": "02986560270",
+  "telefono": "",
+  "email": "info@antoniocorezzola.it",
+  "sitoUrl": "https://www.antoniocorezzola.it/",
+  "indirizzo": "Via Torino,151",
+  "cap": "30172",
+  "comune": "Mestre",
+  "provincia": "mestre",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Corezzola, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.antoniocorezzola.it/",
+   "https://www.antoniocorezzola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Corezzola, e il dominio lo ripete"
+ },
+ {
+  "dominio": "bissuolamedica.it",
+  "nome": "Bissuola Medica Poliambulatorio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03859620274",
+  "telefono": "",
+  "email": "info@bissuolamedica.it",
+  "sitoUrl": "https://www.bissuolamedica.it/",
+  "indirizzo": "Via Enrico Caviglia n. 1",
+  "cap": "30173",
+  "comune": "Mestre",
+  "provincia": "mestre",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bissuolamedica.it/",
+   "https://www.bissuolamedica.it/chi-siamo/",
+   "https://www.bissuolamedica.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "salusmedicatrinity.com",
+  "nome": "Poliambulatorio e Fisioterapia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390415020875",
+  "email": "info@salusmedicatrinity.it",
+  "sitoUrl": "https://salusmedicatrinity.com/",
+  "indirizzo": "Via G. Saragat, 1",
+  "cap": "30172",
+  "comune": "Mestre",
+  "provincia": "mestre",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://salusmedicatrinity.com/",
+   "https://salusmedicatrinity.com/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sanmarcomedika.it",
+  "nome": "Poliambulatorio specialistico a Marcon",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04207480270",
+  "telefono": "+390419349195",
+  "email": "info@sanmarcomedika.it",
+  "sitoUrl": "https://sanmarcomedika.it/",
+  "indirizzo": "",
+  "cap": "07253",
+  "comune": "",
+  "provincia": "mestre",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://sanmarcomedika.it/",
+   "https://sanmarcomedika.it/chi-siamo/",
+   "https://sanmarcomedika.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

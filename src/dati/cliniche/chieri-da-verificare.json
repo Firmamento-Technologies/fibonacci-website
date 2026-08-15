@@ -1,0 +1,101 @@
+[
+ {
+  "dominio": "esteticachieri.it",
+  "nome": "Coccole Centro Estetico a Chieri",
+  "formaSocietaria": "",
+  "partitaIva": "01752510055",
+  "telefono": "+390119424085",
+  "email": "",
+  "sitoUrl": "https://www.esteticachieri.it/",
+  "indirizzo": "Via Tana 44",
+  "cap": "",
+  "comune": "",
+  "provincia": "chieri",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticachieri.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticamentegisella.it",
+  "nome": "esteticamentegisella",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticamentegisella.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "chieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamentegisella.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gravita-zero.org",
+  "nome": "Gravità Zero",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.gravita-zero.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "chieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.gravita-zero.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiogregoricerutti.com",
+  "nome": "Dentista Chieri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390119423123",
+  "email": "",
+  "sitoUrl": "https://www.studiogregoricerutti.com/",
+  "indirizzo": "Via Vittorio Emanuele II 31",
+  "cap": "10023",
+  "comune": "SOCIAL",
+  "provincia": "chieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiogregoricerutti.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

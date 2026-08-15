@@ -1,0 +1,78 @@
+[
+ {
+  "dominio": "aestheticdoctors.it",
+  "nome": "Aesthetic Doctors",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aestheticdoctors.it/",
+  "indirizzo": "Via Vecchia Ferriera,57",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aestheticdoctors.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriobclinic.it",
+  "nome": "B-Clinic Poliambulatorio Medico Specialistico a Vicenza",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04269390243",
+  "telefono": "+393462273341",
+  "email": "info@bclinicsrl.it",
+  "sitoUrl": "https://www.poliambulatoriobclinic.it/",
+  "indirizzo": "",
+  "cap": "36048",
+  "comune": "Barbarano",
+  "provincia": "vi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriobclinic.it/",
+   "https://www.poliambulatoriobclinic.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodentisticomarchesin.it",
+  "nome": "Studio Dentistico Marchesin: Il Tuo Dentista A Vicenza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390444566611",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticomarchesin.it/",
+  "indirizzo": "Via Maganza, 57",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vi",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticomarchesin.it/",
+   "https://www.studiodentisticomarchesin.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

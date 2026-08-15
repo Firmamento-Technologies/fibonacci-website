@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "antoniodivincenzo.it",
+  "nome": "Antonio di Vincenzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393668973477",
+  "email": "",
+  "sitoUrl": "https://antoniodivincenzo.it/",
+  "indirizzo": "Via della Borsa, 1",
+  "cap": "31033",
+  "comune": "Castelfranco",
+  "provincia": "castelfranco-veneto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://antoniodivincenzo.it/",
+   "https://antoniodivincenzo.it/contatti/",
+   "https://antoniodivincenzo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

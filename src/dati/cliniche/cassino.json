@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "vderma.it",
+  "nome": "VDERMA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03268670605",
+  "telefono": "+3907761540904",
+  "email": "info@vderma.it",
+  "sitoUrl": "https://www.vderma.it/",
+  "indirizzo": "Via Varrone 27",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.vderma.it/",
+   "https://www.vderma.it/chi-siamo/",
+   "https://www.vderma.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villaserenacassino.it",
+  "nome": "Casa di Cura Villa Serena",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00250370608",
+  "telefono": "",
+  "email": "prenotazioni@villaserenacassino.it",
+  "sitoUrl": "https://www.villaserenacassino.it/",
+  "indirizzo": "Corso della Repubblica,204",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.villaserenacassino.it/",
+   "https://www.villaserenacassino.it/chi-siamo/",
+   "https://www.villaserenacassino.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

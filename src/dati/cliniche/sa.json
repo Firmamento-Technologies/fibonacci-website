@@ -1,0 +1,354 @@
+[
+ {
+  "dominio": "alessandrapascale.com",
+  "nome": "Dott.ssa Alessandra Pascale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393453303161",
+  "email": "info@alessandrapascale.com",
+  "sitoUrl": "https://alessandrapascale.com/",
+  "indirizzo": "Via Luigi Cagnola, 3",
+  "cap": "84030",
+  "comune": "Torraca",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandra Pascale, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://alessandrapascale.com/",
+   "https://alessandrapascale.com/about/",
+   "https://alessandrapascale.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Pascale, e il dominio lo ripete"
+ },
+ {
+  "dominio": "alessiamaiorino.com",
+  "nome": "Dottoressa Alessia Maiorino dermatologa medicina estetica Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908005552211",
+  "email": "",
+  "sitoUrl": "https://www.alessiamaiorino.com/",
+  "indirizzo": "Via Vincenzo Schiavo, 7",
+  "cap": "84128",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessia Maiorino, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessiamaiorino.com/",
+   "https://www.alessiamaiorino.com/contatti/",
+   "https://www.alessiamaiorino.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Maiorino, e il dominio lo ripete"
+ },
+ {
+  "dominio": "almericoprinzo.it",
+  "nome": "Medico chirurgo estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390892580062",
+  "email": "",
+  "sitoUrl": "https://www.almericoprinzo.it/",
+  "indirizzo": "Via Dalmazia, 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Almerico Prinzo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.almericoprinzo.it/",
+   "https://www.almericoprinzo.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Almerico Prinzo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "clinicamesalerno.it",
+  "nome": "CLINICA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390899358116",
+  "email": "info@medicinaesteticame.it",
+  "sitoUrl": "https://www.clinicamesalerno.it/",
+  "indirizzo": "Piazza XXIV Maggio, 26",
+  "cap": "84122",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicamesalerno.it/",
+   "https://www.clinicamesalerno.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottormerola.it",
+  "nome": "Dietologo Roma Prati",
+  "formaSocietaria": "",
+  "partitaIva": "13660321004",
+  "telefono": "+393203605142",
+  "email": "",
+  "sitoUrl": "https://www.dottormerola.it/",
+  "indirizzo": "Via Paolo De Granita, 15",
+  "cap": "84124",
+  "comune": "",
+  "provincia": "sa",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dottormerola.it/",
+   "https://www.dottormerola.it/contatti/",
+   "https://www.dottormerola.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giampaoloflora.it",
+  "nome": "Chirurgia plastica ed estetica Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "02777930658",
+  "telefono": "+393296219415",
+  "email": "",
+  "sitoUrl": "https://www.giampaoloflora.it/",
+  "indirizzo": "Via Torrione, 161",
+  "cap": "84127",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Flora Giampaolo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giampaoloflora.it/",
+   "https://www.giampaoloflora.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Flora Giampaolo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "goldclinic.it",
+  "nome": "Goldclinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://goldclinic.it/",
+  "indirizzo": "Via Giacinto Vicinanza, 11",
+  "cap": "84123",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://goldclinic.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lasersalerno.it",
+  "nome": "LaserSalerno.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393384387054",
+  "email": "",
+  "sitoUrl": "https://lasersalerno.it/",
+  "indirizzo": "Via Giacomo Matteotti,19",
+  "cap": "84014",
+  "comune": "Nocera",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lasersalerno.it/",
+   "https://lasersalerno.it/contatti/",
+   "https://lasersalerno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticame.it",
+  "nome": "ME Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390899358116",
+  "email": "info@medicinaesteticame.it",
+  "sitoUrl": "https://medicinaesteticame.it/",
+  "indirizzo": "Piazza XXIV Maggio, 26",
+  "cap": "84122",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://medicinaesteticame.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pierfrancescobove.it",
+  "nome": "Chirurgia Estetica Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "05151580650",
+  "telefono": "+393756046764",
+  "email": "",
+  "sitoUrl": "https://www.pierfrancescobove.it/",
+  "indirizzo": "Corso Sempione, 8",
+  "cap": "20154",
+  "comune": "Milano",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pierfrancesco Bove, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.pierfrancescobove.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pierfrancesco Bove, e il dominio lo ripete"
+ },
+ {
+  "dominio": "secoloditalia.it",
+  "nome": "Secolo d'Italia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.secoloditalia.it/",
+  "indirizzo": "Via della Scrofa, 39",
+  "cap": "00186",
+  "comune": "Roma",
+  "provincia": "sa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.secoloditalia.it/",
+   "https://www.secoloditalia.it/chi-siamo/",
+   "https://www.secoloditalia.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "valeria-salerno.com",
+  "nome": "Dott.ssa Valeria Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.valeria-salerno.com/",
+  "indirizzo": "Piazza Vittorio alfieri 61",
+  "cap": "",
+  "comune": "",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valeria Salerno, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.valeria-salerno.com/",
+   "https://www.valeria-salerno.com/about-8"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Salerno, e il dominio lo ripete"
+ }
+]

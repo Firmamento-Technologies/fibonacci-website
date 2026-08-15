@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "alfonsoecristinaguariniello.it",
+  "nome": "Alfonso & Cristina Guariniello",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alfonsoecristinaguariniello.it/",
+  "indirizzo": "via M. Garzia,24",
+  "cap": "",
+  "comune": "",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.alfonsoecristinaguariniello.it/",
+   "https://www.alfonsoecristinaguariniello.it/chi-siamo/",
+   "https://www.alfonsoecristinaguariniello.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "essenzabeautysalon.it",
+  "nome": "centro estetico Cava de’ Tirreni",
+  "formaSocietaria": "",
+  "partitaIva": "05957420655",
+  "telefono": "+390899762372",
+  "email": "",
+  "sitoUrl": "https://essenzabeautysalon.it/",
+  "indirizzo": "Via Edoardo de Filippis, 113",
+  "cap": "84013",
+  "comune": "Cava",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://essenzabeautysalon.it/",
+   "https://essenzabeautysalon.it/chi-siamo/",
+   "https://essenzabeautysalon.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

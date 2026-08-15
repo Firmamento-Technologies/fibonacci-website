@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "f-medicalgroup.it",
+  "nome": "Home Page F-Medical Group di Frosinone",
+  "formaSocietaria": "",
+  "partitaIva": "03000950604",
+  "telefono": "+390775487906",
+  "email": "prenotazioni@f-medical.it",
+  "sitoUrl": "https://f-medicalgroup.it/",
+  "indirizzo": "Via Armando Fabi n°41",
+  "cap": "00839",
+  "comune": "Dir",
+  "provincia": "fr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://f-medicalgroup.it/",
+   "https://f-medicalgroup.it/chi-siamo-f-medical-group/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisioterapiacavoni.it",
+  "nome": "Fisioterapia Cavoni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@fisioterapiacavoni.it",
+  "sitoUrl": "https://fisioterapiacavoni.it/",
+  "indirizzo": "Viale Madrid 8",
+  "cap": "03100",
+  "comune": "Frosinone",
+  "provincia": "fr",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://fisioterapiacavoni.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriodp.it",
+  "nome": "Ambulatorio Polispecialistico DP",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://poliambulatoriodp.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://poliambulatoriodp.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioberrino.com",
+  "nome": "Studio Berrino",
+  "formaSocietaria": "",
+  "partitaIva": "02348610102",
+  "telefono": "+390105958318",
+  "email": "info@studioberrino.com",
+  "sitoUrl": "https://studioberrino.com/",
+  "indirizzo": "Via A.M. Maragliano 2",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "fr",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Berrino, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studioberrino.com/",
+   "https://studioberrino.com/chi-siamo/",
+   "https://studioberrino.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

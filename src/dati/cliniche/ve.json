@@ -1,0 +1,780 @@
+[
+ {
+  "dominio": "adilardi.it",
+  "nome": "Dr. Adilardi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://adilardi.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Adilardi Pasquale, cognome nel dominio",
+  "fonteUrl": [
+   "https://adilardi.it/",
+   "https://adilardi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adilardi Pasquale, cognome nel dominio"
+ },
+ {
+  "dominio": "alessandrocasadei.eu",
+  "nome": "Chirurgia estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39041959388",
+  "email": "studio.casadei@hotmail.it",
+  "sitoUrl": "https://www.alessandrocasadei.eu/",
+  "indirizzo": "Via Bruno Maderna 7",
+  "cap": "30172",
+  "comune": "Mestre",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Casadei, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessandrocasadei.eu/",
+   "https://www.alessandrocasadei.eu/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Casadei, e il dominio lo ripete"
+ },
+ {
+  "dominio": "alessandromorellicoghi.it",
+  "nome": "Chirurgo Ricostruttivo ed Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "03664520966",
+  "telefono": "+393402326977",
+  "email": "info@flaplight.net",
+  "sitoUrl": "https://www.alessandromorellicoghi.it/",
+  "indirizzo": "Via Bruno Maderna 7",
+  "cap": "30174",
+  "comune": "Mestre",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Morelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.alessandromorellicoghi.it/",
+   "https://www.alessandromorellicoghi.it/contatti/",
+   "https://www.alessandromorellicoghi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "bielohub.it",
+  "nome": "Poliambulatorio e Analisi a Venezia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390415237870",
+  "email": "info@bielohub.it",
+  "sitoUrl": "https://www.bielohub.it/",
+  "indirizzo": "",
+  "cap": "30135",
+  "comune": "Venezia",
+  "provincia": "ve",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.bielohub.it/",
+   "https://www.bielohub.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "circuitodellasalute.it",
+  "nome": "Visite mediche, terapia fisica, riabilitazione e medicina estetica nel",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04045610377",
+  "telefono": "+390514210046",
+  "email": "info@circuitodellasalute.it",
+  "sitoUrl": "https://circuitodellasalute.it/",
+  "indirizzo": "Via Irnerio 12",
+  "cap": "40126",
+  "comune": "Bologna",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://circuitodellasalute.it/",
+   "https://circuitodellasalute.it/chi-siamo",
+   "https://circuitodellasalute.it/mare-termale-bologna-benessere-salute-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottfrancescocarducci.it",
+  "nome": "Dottor Francesco Carducci",
+  "formaSocietaria": "",
+  "partitaIva": "02417440449",
+  "telefono": "+393791143366",
+  "email": "info@dottfrancescocarducci.it",
+  "sitoUrl": "https://dottfrancescocarducci.it/",
+  "indirizzo": "Via Pasubio, 57",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Carducci, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottfrancescocarducci.it/",
+   "https://dottfrancescocarducci.it/contatti/",
+   "https://dottfrancescocarducci.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "farmaciaesteticaportapia.com",
+  "nome": "farmaciaesteticaportapia.com",
+  "formaSocietaria": "SAS",
+  "partitaIva": "14787481002",
+  "telefono": "+390644250294",
+  "email": "info@farmaciaesteticaportapia.com",
+  "sitoUrl": "https://www.farmaciaesteticaportapia.com/",
+  "indirizzo": "Via Nomentana 25",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.farmaciaesteticaportapia.com/",
+   "https://www.farmaciaesteticaportapia.com/privacy-policy/",
+   "https://www.farmaciaesteticaportapia.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "favaromarina.it",
+  "nome": "Studio di Dermatologia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39041413845",
+  "email": "info@favaromarina.it",
+  "sitoUrl": "https://favaromarina.it/",
+  "indirizzo": "Piazza Brusaura, 51",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Favaro Marina, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://favaromarina.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Favaro Marina, e il dominio lo ripete"
+ },
+ {
+  "dominio": "fondazionevillasalus.it",
+  "nome": "Fondazione Villa Salus",
+  "formaSocietaria": "",
+  "partitaIva": "04549420273",
+  "telefono": "+390412906022",
+  "email": "info.smsmarina@gmail.com",
+  "sitoUrl": "https://fondazionevillasalus.it/",
+  "indirizzo": "Via Terraglio, 114",
+  "cap": "30174",
+  "comune": "Venezia-Mestre",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://fondazionevillasalus.it/",
+   "https://fondazionevillasalus.it/le-strutture/ospedale-villa-salus/privacy-ospedale-villa-salus/",
+   "https://fondazionevillasalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "franzysonline.it",
+  "nome": "Prodotti per la casa al Miglior Prezzo, Shop Online Franzy's",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01746110889",
+  "telefono": "+3909321620079",
+  "email": "info@franzysonline.it",
+  "sitoUrl": "https://www.franzysonline.it/",
+  "indirizzo": "",
+  "cap": "97015",
+  "comune": "Modica",
+  "provincia": "ve",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.franzysonline.it/",
+   "https://www.franzysonline.it/mondo-casa/complementi-e-arredo-salotto/coprisedie.html",
+   "https://www.franzysonline.it/mondo-casa/complementi-e-arredo-salotto/pouf-sedie-sgabelli.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "galeotadangelo.it",
+  "nome": "Galeota D’Angelo Clinica Polispecialistica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3907183360",
+  "email": "",
+  "sitoUrl": "https://www.galeotadangelo.it/",
+  "indirizzo": "via Achille Barilatti,7",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.galeotadangelo.it/",
+   "https://www.galeotadangelo.it/chi-siamo/",
+   "https://www.galeotadangelo.it/chi-siamo/l-equipe/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "idaesposito.it",
+  "nome": "Dr.ssa Ida Esposito",
+  "formaSocietaria": "",
+  "partitaIva": "04741860276",
+  "telefono": "",
+  "email": "info@idaesposito.it",
+  "sitoUrl": "https://idaesposito.it/",
+  "indirizzo": "Viale Trieste 38",
+  "cap": "30026",
+  "comune": "Portogruaro",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ida Esposito, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://idaesposito.it/",
+   "https://idaesposito.it/privacy-policy/",
+   "https://idaesposito.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ida Esposito, e il dominio lo ripete"
+ },
+ {
+  "dominio": "ippocrateparma.it",
+  "nome": "Vein Clinic a Parma",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02377260340",
+  "telefono": "+390521986049",
+  "email": "segreteria@ippocrateparma.it",
+  "sitoUrl": "https://www.ippocrateparma.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ippocrateparma.it/",
+   "https://www.ippocrateparma.it/chi-siamo/",
+   "https://www.ippocrateparma.it/chi-siamo/prof-paolo-casoni/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "labottegadellabellezzave.it",
+  "nome": "La Bottega della Bellezza",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01702480276",
+  "telefono": "+390415222112",
+  "email": "",
+  "sitoUrl": "https://labottegadellabellezzave.it/",
+  "indirizzo": "",
+  "cap": "30121",
+  "comune": "Venezia",
+  "provincia": "ve",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://labottegadellabellezzave.it/",
+   "https://labottegadellabellezzave.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ladyveneziashop.it",
+  "nome": "Lady Venezia Cosmetici, Benessere e Cura della persona Made in Italy",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01423110806",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ladyveneziashop.it/",
+  "indirizzo": "Via A. Volta, 2",
+  "cap": "36050",
+  "comune": "Bolzano",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ladyveneziashop.it/",
+   "https://www.ladyveneziashop.it/pages/contattaci",
+   "https://www.ladyveneziashop.it/pages/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lucagrassetti.it",
+  "nome": "Dr. Luca Grassetti: Chirurgo Plastico, Estetico e Ricostruttivo",
+  "formaSocietaria": "",
+  "partitaIva": "02760990420",
+  "telefono": "",
+  "email": "info@ialuclinic.it",
+  "sitoUrl": "https://www.lucagrassetti.it/",
+  "indirizzo": "Via Misa 6",
+  "cap": "60126",
+  "comune": "ANCONA",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luca Grassetti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.lucagrassetti.it/",
+   "https://www.lucagrassetti.it/contatti/",
+   "https://www.lucagrassetti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Grassetti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "rivieramedicalsalus.it",
+  "nome": "rivieramedicalsalus.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04079690279",
+  "telefono": "+393703724783",
+  "email": "info@rivieramedicalsalus.it",
+  "sitoUrl": "https://www.rivieramedicalsalus.it/",
+  "indirizzo": "Via F.lli Bandiera 2",
+  "cap": "30032",
+  "comune": "Fiesso",
+  "provincia": "ve",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.rivieramedicalsalus.it/",
+   "https://www.rivieramedicalsalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skinfarmmedicalcenter.it",
+  "nome": "Skinfarm Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01498660529",
+  "telefono": "+393427950356",
+  "email": "info@skinfarmmedicalcenter.it",
+  "sitoUrl": "https://skinfarmmedicalcenter.it/",
+  "indirizzo": "Viale Federigo Tozzi 7",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://skinfarmmedicalcenter.it/",
+   "https://skinfarmmedicalcenter.it/chi-siamo",
+   "https://skinfarmmedicalcenter.it/sedi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticocentra.it",
+  "nome": "Studio Dentistico a Mestre Venezia",
+  "formaSocietaria": "SAS",
+  "partitaIva": "04388930275",
+  "telefono": "+390415348077",
+  "email": "info@studiodentisticocentra.it",
+  "sitoUrl": "https://studiodentisticocentra.it/",
+  "indirizzo": "Via C. Colombo 40",
+  "cap": "30173",
+  "comune": "Mestre",
+  "provincia": "ve",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiodentisticocentra.it/",
+   "https://studiodentisticocentra.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedestetica.it",
+  "nome": "StudioMed",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393772693349",
+  "email": "segreteria@studiomed.it",
+  "sitoUrl": "https://www.studiomedestetica.it/",
+  "indirizzo": "Piazza Alfieri 61",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiomedestetica.it/",
+   "https://www.studiomedestetica.it/chi-siamo/",
+   "https://www.studiomedestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tuame.it",
+  "nome": "Tuame.it: Medicina Estetica e Chirurgia, Medici e Trattamenti Estetici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13004340967",
+  "telefono": "",
+  "email": "info@tuame.it",
+  "sitoUrl": "https://www.tuame.it/",
+  "indirizzo": "Via F. Filzi 25",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.tuame.it/",
+   "https://www.tuame.it/chi-siamo",
+   "https://www.tuame.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ultherapy.it",
+  "nome": "Ultherapy PRIME® lifting non invasivo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@merz.it",
+  "sitoUrl": "https://www.ultherapy.it/",
+  "indirizzo": "Via F.Filzi 25",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ultherapy.it/",
+   "https://www.ultherapy.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "venececlinic.com",
+  "nome": "فينيسيا كلينك",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@veneclinic.com",
+  "sitoUrl": "https://venececlinic.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://venececlinic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vianellochirurgoplastico.myadj.it",
+  "nome": "Dr. Vianello Alessandro",
+  "formaSocietaria": "",
+  "partitaIva": "03290730278",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vianellochirurgoplastico.myadj.it/",
+  "indirizzo": "",
+  "cap": "30121",
+  "comune": "VENEZIA",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Vianello Alessandro, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://vianellochirurgoplastico.myadj.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "viaveneto.clinic",
+  "nome": "Chirurgia Plastica e Medicina Estetica Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390640075127",
+  "email": "info@viavenetoclinic.com",
+  "sitoUrl": "https://viaveneto.clinic/",
+  "indirizzo": "Via Veneto Clinic via Sardegna 38",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://viaveneto.clinic/",
+   "https://viaveneto.clinic/chi-siamo/",
+   "https://viaveneto.clinic/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villavenus.it",
+  "nome": "Villa Venus Medicina e Chirurgia Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02388170546",
+  "telefono": "+393923503738",
+  "email": "info@villavenus.it",
+  "sitoUrl": "https://villavenus.it/",
+  "indirizzo": "Via Pontevecchio, 78",
+  "cap": "05183",
+  "comune": "Codice",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://villavenus.it/",
+   "https://villavenus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "visan.it",
+  "nome": "Vi.SAN Medical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08226141003",
+  "telefono": "+390698342072",
+  "email": "contatti@visan.it",
+  "sitoUrl": "https://visan.it/",
+  "indirizzo": "",
+  "cap": "00042",
+  "comune": "Anzio",
+  "provincia": "ve",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://visan.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

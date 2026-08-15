@@ -1,0 +1,65 @@
+[
+ {
+  "dominio": "asp.cl.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticaebenesserekatiusciamulara.com",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02120540857",
+  "telefono": "+393286511130",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticaebenesserekatiusciamulara.com/",
+  "indirizzo": "Via Pisacane Carlo, 20",
+  "cap": "93100",
+  "comune": "CALTANISSETTA",
+  "provincia": "cl",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticaebenesserekatiusciamulara.com/",
+   "https://www.centroesteticaebenesserekatiusciamulara.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "estetica-elisir.it",
+  "nome": "Centro Estetico Caltanissetta",
+  "formaSocietaria": "",
+  "partitaIva": "01986040853",
+  "telefono": "",
+  "email": "info@estetica-elisir.it",
+  "sitoUrl": "https://www.estetica-elisir.it/",
+  "indirizzo": "via Cittadella, 108",
+  "cap": "",
+  "comune": "",
+  "provincia": "cl",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.estetica-elisir.it/",
+   "https://www.estetica-elisir.it/pages/chi-siamo",
+   "https://www.estetica-elisir.it/pages/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

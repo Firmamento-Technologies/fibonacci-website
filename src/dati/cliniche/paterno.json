@@ -1,0 +1,61 @@
+[
+ {
+  "dominio": "dermatologorandazzofrancesco.it",
+  "nome": "Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39095326334",
+  "email": "",
+  "sitoUrl": "https://www.dermatologorandazzofrancesco.it/",
+  "indirizzo": "via Androne 39",
+  "cap": "95124",
+  "comune": "Catania",
+  "provincia": "paterno",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Randazzo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologorandazzofrancesco.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "francescocianciochirurgoplastico.com",
+  "nome": "Dott. Francesco Ciancio",
+  "formaSocietaria": "",
+  "partitaIva": "05830560875",
+  "telefono": "+390959517974",
+  "email": "",
+  "sitoUrl": "https://www.francescocianciochirurgoplastico.com/",
+  "indirizzo": "Via Gian Battista Nicolosi, 57",
+  "cap": "95047",
+  "comune": "Paternò",
+  "provincia": "paterno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Ciancio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.francescocianciochirurgoplastico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

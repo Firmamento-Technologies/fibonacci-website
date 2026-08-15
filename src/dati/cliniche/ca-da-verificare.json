@@ -1,0 +1,276 @@
+[
+ {
+  "dominio": "aoucagliari.it",
+  "nome": "Azienda Ospedaliero-Universitaria di Cagliari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aoucagliari.it/home/",
+  "indirizzo": "via Ospedale, 54",
+  "cap": "09124",
+  "comune": "Cagliari",
+  "provincia": "ca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aoucagliari.it/home/",
+   "https://www.aoucagliari.it/home/it/privacy.page"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ariannamilia.it",
+  "nome": "Arianna Milia Chirurgo Plastico a Cagliari",
+  "formaSocietaria": "",
+  "partitaIva": "03523440927",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ariannamilia.it/",
+  "indirizzo": "Via Catania (PALAZZO ARIETE) tel: 351",
+  "cap": "09013",
+  "comune": "",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ariannamilia.it/",
+   "https://ariannamilia.it/contatti/",
+   "https://ariannamilia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "beautymedicals.it",
+  "nome": "Endocrinologia Nuoro Cagliari Arzachena Medicina estetica Sardegna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393348442117",
+  "email": "info@endocrinologia.eu",
+  "sitoUrl": "https://beautymedicals.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ca",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://beautymedicals.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirurgiaesteticacagliari.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "dettaglimedicinaestetica.setmore.com",
+  "nome": "Dettagli Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393921406784",
+  "email": "info@dettaglimedicinaestetica.com",
+  "sitoUrl": "https://dettaglimedicinaestetica.setmore.com/",
+  "indirizzo": "",
+  "cap": "09129",
+  "comune": "Trattamenti",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dettaglimedicinaestetica.setmore.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottornicolamonni.it",
+  "nome": "Dott. Nicola Monni Chirurgo Plastico Cagliari",
+  "formaSocietaria": "",
+  "partitaIva": "04036620922",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottornicolamonni.it/",
+  "indirizzo": "Via Zagabria 41",
+  "cap": "09129",
+  "comune": "Cagliari",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottornicolamonni.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eccellenzesanitarie.com",
+  "nome": "Eccellenze Sanitarie Italiane",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://eccellenzesanitarie.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://eccellenzesanitarie.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "otorinocagliari.it",
+  "nome": "Dott Thomas Manca Specialista Otorino e Medico Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393471711176",
+  "email": "",
+  "sitoUrl": "https://www.otorinocagliari.it/",
+  "indirizzo": "Via MESSINA 7",
+  "cap": "09126",
+  "comune": "Cagliari",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.otorinocagliari.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "saramei.it",
+  "nome": "Sara Mei",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39070660097",
+  "email": "info@saramei.it",
+  "sitoUrl": "https://www.saramei.it/",
+  "indirizzo": "Via Nuoro, 35",
+  "cap": "09125",
+  "comune": "Cagliari",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.saramei.it/",
+   "https://www.saramei.it/contatti/",
+   "https://www.saramei.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoestetico.it",
+  "nome": "Studio Medico Estetico AeDERMA, Aesthetic, Medicine, Plastic, Medicina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicoestetico.it/",
+  "indirizzo": "Via Messina N� 5",
+  "cap": "09126",
+  "comune": "Cagliari",
+  "provincia": "ca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicoestetico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

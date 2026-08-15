@@ -1,0 +1,89 @@
+[
+ {
+  "dominio": "centrimedicibelotero.it",
+  "nome": "Centri Medici Belotero",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13004340967",
+  "telefono": "",
+  "email": "info@merz.it",
+  "sitoUrl": "https://www.centrimedicibelotero.it/",
+  "indirizzo": "Via Fabio Filzi 25",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "nardo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrimedicibelotero.it/",
+   "https://www.centrimedicibelotero.it/privacy-policy/",
+   "https://www.centrimedicibelotero.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mormilemedical.it",
+  "nome": "Medicina Estetica e Medicina del Lavoro a Lecce",
+  "formaSocietaria": "",
+  "partitaIva": "05187260756",
+  "telefono": "+393927532086",
+  "email": "info@effemmeweb.it",
+  "sitoUrl": "https://mormilemedical.it/",
+  "indirizzo": "Via Alcide de Gasperi, 105",
+  "cap": "73047",
+  "comune": "Monteroni",
+  "provincia": "nardo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://mormilemedical.it/",
+   "https://mormilemedical.it/contatti-mormile-medical/",
+   "https://mormilemedical.it/mormile-medical-center-lecce/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomaryen.com",
+  "nome": "Studio Maryen",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "05065760752",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studiomaryen.com/",
+  "indirizzo": "",
+  "cap": "73048",
+  "comune": "NARDÒ",
+  "provincia": "nardo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiomaryen.com/",
+   "https://studiomaryen.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "laboratoriobiolab.it",
+  "nome": "Biolab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02083900445",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.laboratoriobiolab.it/",
+  "indirizzo": "Via G. Galilei c/o Centro Medico Sant’Anna +39",
+  "cap": "63100",
+  "comune": "Ascoli",
+  "provincia": "ascoli-piceno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.laboratoriobiolab.it/",
+   "https://www.laboratoriobiolab.it/chi-siamo/",
+   "https://www.laboratoriobiolab.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "nazzarenobassetti.it",
+  "nome": "Nazzareno Bassetti: Il tuo dentista ad Ascoli Piceno",
+  "formaSocietaria": "",
+  "partitaIva": "01207040443",
+  "telefono": "+390736342096",
+  "email": "info@nazzarenobassetti.it",
+  "sitoUrl": "https://nazzarenobassetti.it/",
+  "indirizzo": "Via Piceno Aprutina 47",
+  "cap": "63100",
+  "comune": "Ascoli",
+  "provincia": "ascoli-piceno",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://nazzarenobassetti.it/",
+   "https://nazzarenobassetti.it/privacy-policy/",
+   "https://nazzarenobassetti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villasanmarco.it",
+  "nome": "Benvenuti a Villa San Marco",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00210190443",
+  "telefono": "",
+  "email": "clinica@villasanmarco.it",
+  "sitoUrl": "https://www.villasanmarco.it/",
+  "indirizzo": "",
+  "cap": "63100",
+  "comune": "Ascoli",
+  "provincia": "ascoli-piceno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.villasanmarco.it/",
+   "https://www.villasanmarco.it/contatti/",
+   "https://www.villasanmarco.it/privacy-policy-del-sito-www-villasanmarco-it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

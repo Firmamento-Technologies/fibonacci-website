@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "dolomitenmedicalclinic.it",
+  "nome": "Dolomiten Medical Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "02040080224",
+  "telefono": "+390463636236",
+  "email": "amministrazione@dolomitenmedicalclinic.com",
+  "sitoUrl": "https://www.dolomitenmedicalclinic.it/",
+  "indirizzo": "Via Campiglio, 138",
+  "cap": "38025",
+  "comune": "Dimaro",
+  "provincia": "bressanone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dolomitenmedicalclinic.it/",
+   "https://www.dolomitenmedicalclinic.it/sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gardetto.it",
+  "nome": "Chirurgo Prof. A. Gardetto a Bressanone-Alto Adige",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390472824855",
+  "email": "",
+  "sitoUrl": "https://www.gardetto.it/it",
+  "indirizzo": "Via Julius-Durst 28",
+  "cap": "39042",
+  "comune": "Bressanone",
+  "provincia": "bressanone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gardetto Prof, cognome nel dominio",
+  "fonteUrl": [
+   "https://www.gardetto.it/it",
+   "https://www.gardetto.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardetto Prof, cognome nel dominio"
+ },
+ {
+  "dominio": "lorenzlarcher.com",
+  "nome": "Dr. Lorenz Larcher",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393923334444",
+  "email": "info@lorenzlarcher.com",
+  "sitoUrl": "https://lorenzlarcher.com/de/",
+  "indirizzo": "",
+  "cap": "39100",
+  "comune": "Bozen",
+  "provincia": "bressanone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Lorenz Larcher, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://lorenzlarcher.com/de/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenz Larcher, e il dominio lo ripete"
+ }
+]

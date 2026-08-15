@@ -1,0 +1,146 @@
+[
+ {
+  "dominio": "dentistaroma.net",
+  "nome": "Dentista Roma",
+  "formaSocietaria": "",
+  "partitaIva": "02970140600",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dentistaroma.net/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "collegno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.dentistaroma.net/",
+   "https://www.dentistaroma.net/chi-siamo.html",
+   "https://www.dentistaroma.net/index.php/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "lovelybt.com",
+  "nome": "Lovely Beauty Therapist",
+  "formaSocietaria": "",
+  "partitaIva": "11785000016",
+  "telefono": "+39011857767",
+  "email": "info@lovelybeautytherapist.com",
+  "sitoUrl": "https://www.lovelybt.com/",
+  "indirizzo": "Via N. Tommaseo 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "collegno",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lovelybt.com/",
+   "https://www.lovelybt.com/chi-siamo",
+   "https://www.lovelybt.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mdbeautylounge.it",
+  "nome": "mdbeautylounge.it",
+  "formaSocietaria": "",
+  "partitaIva": "12923310010",
+  "telefono": "+393347418170",
+  "email": "info.mdbeautylounge@gmail.com",
+  "sitoUrl": "https://mdbeautylounge.it/",
+  "indirizzo": "Corso Francia, 46",
+  "cap": "10093",
+  "comune": "Collegno",
+  "provincia": "collegno",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mdbeautylounge.it/",
+   "https://mdbeautylounge.it/contatti/",
+   "https://mdbeautylounge.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticamaxim.com",
+  "nome": "Dott.ssa Tatiana Maxim",
+  "formaSocietaria": "",
+  "partitaIva": "12413910014",
+  "telefono": "+3901119802189",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticamaxim.com/",
+  "indirizzo": "Corso Francia 157",
+  "cap": "10093",
+  "comune": "Collegno",
+  "provincia": "collegno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticamaxim.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "starbeautynails.it",
+  "nome": "Centro Estetico Collegno",
+  "formaSocietaria": "",
+  "partitaIva": "12235590010",
+  "telefono": "+390117804138",
+  "email": "",
+  "sitoUrl": "https://starbeautynails.it/",
+  "indirizzo": "Via Vacchieri 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "collegno",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://starbeautynails.it/",
+   "https://starbeautynails.it/chi-siamo/",
+   "https://starbeautynails.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,33 @@
+[
+ {
+  "dominio": "brdental.it",
+  "nome": "Dentista a Paterno'",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393485126555",
+  "email": "",
+  "sitoUrl": "https://brdental.it/",
+  "indirizzo": "Via Vittorio Emanuele, 434",
+  "cap": "95047",
+  "comune": "Paternò",
+  "provincia": "paterno",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://brdental.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "matrimonio.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

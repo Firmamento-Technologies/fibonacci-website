@@ -1,0 +1,176 @@
+[
+ {
+  "dominio": "gividental.com",
+  "nome": "Dentista Monza e Seregno",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06372650967",
+  "telefono": "+39039748434",
+  "email": "amministrazione@gividental.com",
+  "sitoUrl": "https://www.gividental.com/",
+  "indirizzo": "Via Carlo Meda 63",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.gividental.com/",
+   "https://www.gividental.com/privacy-policy-monza-seregno/",
+   "https://www.gividental.com/privacy-policy-monza-seregno/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "lechicseregno.it",
+  "nome": "Le Chic Seregno",
+  "formaSocietaria": "",
+  "partitaIva": "08767960969",
+  "telefono": "",
+  "email": "info@lechicseregno.it",
+  "sitoUrl": "https://lechicseregno.it/",
+  "indirizzo": "Via Rossini, 16",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lechicseregno.it/",
+   "https://lechicseregno.it/contatti/",
+   "https://lechicseregno.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "odontoiatraseregno.it",
+  "nome": "Dentista a Seregno",
+  "formaSocietaria": "",
+  "partitaIva": "09649670966",
+  "telefono": "+390362328244",
+  "email": "",
+  "sitoUrl": "https://www.odontoiatraseregno.it/",
+  "indirizzo": "Via Tagliamento, 7",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.odontoiatraseregno.it/",
+   "https://www.odontoiatraseregno.it/chi-siamo.html",
+   "https://www.odontoiatraseregno.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "seven-suite.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studioesteticodiva.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390362312043",
+  "email": "",
+  "sitoUrl": "https://www.studioesteticodiva.it/",
+  "indirizzo": "Via Valassina, 81",
+  "cap": "20831",
+  "comune": "SEREGNO",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioesteticodiva.it/",
+   "https://www.studioesteticodiva.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoetherea.it",
+  "nome": "Medicina Estetica a Seregno",
+  "formaSocietaria": "",
+  "partitaIva": "03623870130",
+  "telefono": "",
+  "email": "info@studiomedicoetherea.it",
+  "sitoUrl": "https://www.studiomedicoetherea.it/",
+  "indirizzo": "Via Vignoli 15",
+  "cap": "20832",
+  "comune": "Desio",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicoetherea.it/",
+   "https://www.studiomedicoetherea.it/contatti",
+   "https://www.studiomedicoetherea.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "tuttoseregno.it",
+  "nome": "Vivi la città di Seregno",
+  "formaSocietaria": "",
+  "partitaIva": "09451510961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tuttoseregno.it/",
+  "indirizzo": "Via Giuseppe Garibaldi 71",
+  "cap": "",
+  "comune": "",
+  "provincia": "seregno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.tuttoseregno.it/",
+   "https://www.tuttoseregno.it/info/chi-siamo",
+   "https://www.tuttoseregno.it/policies/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

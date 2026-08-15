@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "monrealecenter.it",
+  "nome": "Centro estetico Cagliari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393270719007",
+  "email": "",
+  "sitoUrl": "https://monrealecenter.it/",
+  "indirizzo": "Via Anassagora, 2",
+  "cap": "09134",
+  "comune": "Cagliari",
+  "provincia": "monreale",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://monrealecenter.it/",
+   "https://monrealecenter.it/chi-siamo/",
+   "https://monrealecenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "monrealenews.it",
+  "nome": "Prima pagina",
+  "formaSocietaria": "",
+  "partitaIva": "05946540829",
+  "telefono": "",
+  "email": "info@monrealenews.it",
+  "sitoUrl": "https://monrealenews.it/",
+  "indirizzo": "via D’Amelio 30",
+  "cap": "",
+  "comune": "",
+  "provincia": "monreale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://monrealenews.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

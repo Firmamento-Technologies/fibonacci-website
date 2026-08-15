@@ -1,0 +1,77 @@
+[
+ {
+  "dominio": "dentistaancona.com",
+  "nome": "Dentista Ancona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393338812177",
+  "email": "info@dentistaancona.com",
+  "sitoUrl": "https://dentistaancona.com/",
+  "indirizzo": "via Bartolo da Sassoferrato 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "ancona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://dentistaancona.com/",
+   "https://dentistaancona.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "salutebenessereitaly.it",
+  "nome": "Salute & Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "02908770429",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.salutebenessereitaly.it/",
+  "indirizzo": "Via Bruno Buozzi 47",
+  "cap": "60131",
+  "comune": "Ancona",
+  "provincia": "ancona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.salutebenessereitaly.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studimedicipietralacroce.it",
+  "nome": "Studi Medici Pietralacroce",
+  "formaSocietaria": "",
+  "partitaIva": "02787200423",
+  "telefono": "+393518771661",
+  "email": "info@studimedicipietralacroce.it",
+  "sitoUrl": "https://www.studimedicipietralacroce.it/",
+  "indirizzo": "via del Conero, 20h",
+  "cap": "60129",
+  "comune": "Ancona",
+  "provincia": "ancona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studimedicipietralacroce.it/",
+   "https://www.studimedicipietralacroce.it/contatti/",
+   "https://www.studimedicipietralacroce.it/wp-content/uploads/2021/11/CONTATTI-guidi.jpeg"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

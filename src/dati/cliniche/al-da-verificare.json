@@ -1,0 +1,120 @@
+[
+ {
+  "dominio": "borsalino17.com",
+  "nome": "Medicina estetica in Alessandria: Dott. Piercarlo Masolini, Master in ",
+  "formaSocietaria": "",
+  "partitaIva": "01306730068",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.borsalino17.com/",
+  "indirizzo": "Corso Borsalino, 17",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.borsalino17.com/",
+   "https://www.borsalino17.com/contatti/",
+   "https://www.borsalino17.com/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "botulino.com",
+  "nome": "Botulino Alessandria",
+  "formaSocietaria": "",
+  "partitaIva": "01306730068",
+  "telefono": "+39013140036",
+  "email": "info@borsalino17.com",
+  "sitoUrl": "https://www.botulino.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "al",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.botulino.com/",
+   "https://www.botulino.com/about-us"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medermal.it",
+  "nome": "Medermal",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medermal.it",
+  "sitoUrl": "https://www.medermal.it/",
+  "indirizzo": "Via Cavour, 75",
+  "cap": "15121",
+  "comune": "ALESSANDRIA",
+  "provincia": "al",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medermal.it/",
+   "https://www.medermal.it/chi-siamo",
+   "https://www.medermal.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medmaiora.it",
+  "nome": "BdueB",
+  "formaSocietaria": "",
+  "partitaIva": "01572200622",
+  "telefono": "+390131232595",
+  "email": "info@medmaiora.it",
+  "sitoUrl": "https://medmaiora.it/",
+  "indirizzo": "Via Giuseppe Antonio Chenna, 25",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medmaiora.it/",
+   "https://medmaiora.it/contatti/",
+   "https://medmaiora.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

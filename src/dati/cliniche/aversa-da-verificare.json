@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "comfortzona.it",
+  "nome": "Comfort Zona",
+  "formaSocietaria": "",
+  "partitaIva": "04577080619",
+  "telefono": "",
+  "email": "info@comfortzona.it",
+  "sitoUrl": "https://www.comfortzona.it/",
+  "indirizzo": "Via Filippo Saporito 56",
+  "cap": "81031",
+  "comune": "Aversa",
+  "provincia": "aversa",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.comfortzona.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "francymorais.it",
+  "nome": "Francy Morais",
+  "formaSocietaria": "",
+  "partitaIva": "04498430612",
+  "telefono": "+393773775124",
+  "email": "info@francymorais.it",
+  "sitoUrl": "https://francymorais.it/",
+  "indirizzo": "Via Vito Di Jasi 83",
+  "cap": "81031",
+  "comune": "Aversa",
+  "provincia": "aversa",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://francymorais.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "portalesalute.aslcaserta.it",
+  "nome": "Portale della Salute - ASL di Caserta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://portalesalute.aslcaserta.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "aversa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://portalesalute.aslcaserta.it/",
+   "https://portalesalute.aslcaserta.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

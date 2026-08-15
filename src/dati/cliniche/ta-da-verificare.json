@@ -1,0 +1,122 @@
+[
+ {
+  "dominio": "ghineabeautylab.it",
+  "nome": "Ghinea Beauty Lab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ghineabeautylab.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ghineabeautylab.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticaalagni.com",
+  "nome": "Dott. Mario Loris Alagni",
+  "formaSocietaria": "",
+  "partitaIva": "02837060736",
+  "telefono": "+390999915653",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticaalagni.com/",
+  "indirizzo": "Via Brigantini 6",
+  "cap": "74122",
+  "comune": "Taranto",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticaalagni.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticabattaglia.it",
+  "nome": "Medicina Estetica Battaglia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393519445761",
+  "email": "info@medicinaesteticabattaglia.it",
+  "sitoUrl": "https://www.medicinaesteticabattaglia.it/",
+  "indirizzo": "Via Brigantini 6",
+  "cap": "74122",
+  "comune": "Taranto",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticabattaglia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticataranto.it",
+  "nome": "Medicina estetica a Grottaglie e Taranto",
+  "formaSocietaria": "",
+  "partitaIva": "02953270739",
+  "telefono": "+393519277784",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticataranto.it/",
+  "indirizzo": "Via Rodari 1",
+  "cap": "74023",
+  "comune": "Grottaglie",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticataranto.it/",
+   "https://medicinaesteticataranto.it/privacy-policy/",
+   "https://medicinaesteticataranto.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "bachiorri.com",
+  "nome": "Chirurgia Estetica a Perugia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390755007094",
+  "email": "info@bachiorri.com",
+  "sitoUrl": "https://bachiorri.com/",
+  "indirizzo": "Via Magno Magnini, 18",
+  "cap": "06127",
+  "comune": "Perugia",
+  "provincia": "perugia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://bachiorri.com/",
+   "https://bachiorri.com/contatti/",
+   "https://bachiorri.com/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "flexorlab.it",
+  "nome": "Studio medico di riabilitazione a Perugia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39075393964",
+  "email": "info@flexorlab.it",
+  "sitoUrl": "https://www.flexorlab.it/",
+  "indirizzo": "Via delle Fascine, 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.flexorlab.it/",
+   "https://www.flexorlab.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medisportcenter.it",
+  "nome": "Medisport Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03995890542",
+  "telefono": "+390755271725",
+  "email": "amministrazione@medisportcenter.it",
+  "sitoUrl": "https://medisportcenter.it/",
+  "indirizzo": "Strada Pievaiola 207",
+  "cap": "06132",
+  "comune": "Perugia",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medisportcenter.it/",
+   "https://medisportcenter.it/chi-siamo/",
+   "https://medisportcenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villa-salus.it",
+  "nome": "Dermatologia e medicina estetica Perugia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@villa-salus.it",
+  "sitoUrl": "https://www.villa-salus.it/",
+  "indirizzo": "Via A. Volta, 18",
+  "cap": "06083",
+  "comune": "Bastia",
+  "provincia": "perugia",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.villa-salus.it/",
+   "https://www.villa-salus.it/pagine/privacy-policy",
+   "https://www.villa-salus.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

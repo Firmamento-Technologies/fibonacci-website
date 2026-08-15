@@ -1,0 +1,64 @@
+[
+ {
+  "dominio": "capriccioestetica.it",
+  "nome": "Centro estetico Teramo",
+  "formaSocietaria": "",
+  "partitaIva": "00578820672",
+  "telefono": "+390861415486",
+  "email": "",
+  "sitoUrl": "https://www.capriccioestetica.it/",
+  "indirizzo": "Via Flaiani 29",
+  "cap": "64100",
+  "comune": "Teramo",
+  "provincia": "te",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.capriccioestetica.it/",
+   "https://www.capriccioestetica.it/about/feed/",
+   "https://www.capriccioestetica.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medeaestetica.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "pierpaoloferretti-chirurgoplastico.com",
+  "nome": "Dr. Pier Paolo Ferretti",
+  "formaSocietaria": "",
+  "partitaIva": "18282921008",
+  "telefono": "+390697633048",
+  "email": "",
+  "sitoUrl": "https://www.pierpaoloferretti-chirurgoplastico.com/",
+  "indirizzo": "Via del Baluardo, 19",
+  "cap": "64100",
+  "comune": "Teramo",
+  "provincia": "te",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pierpaoloferretti-chirurgoplastico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

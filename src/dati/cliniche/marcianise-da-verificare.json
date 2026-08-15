@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "cefir.it",
+  "nome": "Cefir Marcianise -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390823831172",
+  "email": "info@cefir.it",
+  "sitoUrl": "https://cefir.it/",
+  "indirizzo": "Corso Matteotti, 76",
+  "cap": "81025",
+  "comune": "Marcianise",
+  "provincia": "marcianise",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cefir.it/",
+   "https://cefir.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioodontoiatriconegro.it",
+  "nome": "Studio Dentistico Alberto Negro",
+  "formaSocietaria": "",
+  "partitaIva": "03411620614",
+  "telefono": "+393475283456",
+  "email": "",
+  "sitoUrl": "https://www.studioodontoiatriconegro.it/",
+  "indirizzo": "Via Pascoli Giovanni, 4",
+  "cap": "81025",
+  "comune": "Marcianise",
+  "provincia": "marcianise",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioodontoiatriconegro.it/",
+   "https://www.studioodontoiatriconegro.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

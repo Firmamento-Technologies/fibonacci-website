@@ -1,0 +1,266 @@
+[
+ {
+  "dominio": "angelinistudiodentistico.it",
+  "nome": "Dentista a Grosseto",
+  "formaSocietaria": "",
+  "partitaIva": "01525350532",
+  "telefono": "+39056423279",
+  "email": "",
+  "sitoUrl": "https://www.angelinistudiodentistico.it/",
+  "indirizzo": "Via Derna, 4",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "gr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.angelinistudiodentistico.it/",
+   "https://www.angelinistudiodentistico.it/contatti/",
+   "https://www.angelinistudiodentistico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centropegaso.it",
+  "nome": "Centro Pegaso & Care",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390564462045",
+  "email": "info@centropegaso.it",
+  "sitoUrl": "https://www.centropegaso.it/",
+  "indirizzo": "Via Birmania, 72",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "gr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centropegaso.it/",
+   "https://www.centropegaso.it/chi-siamo/",
+   "https://www.centropegaso.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ecodoppler-a-grosseto.it",
+  "nome": "Studio medico San Carlo Dr Vagheggini",
+  "formaSocietaria": "",
+  "partitaIva": "01480810538",
+  "telefono": "+393402382008",
+  "email": "",
+  "sitoUrl": "https://ecodoppler-a-grosseto.it/",
+  "indirizzo": "Viale Ximenes 53",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "gr",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ecodoppler-a-grosseto.it/",
+   "https://ecodoppler-a-grosseto.it/contatti/",
+   "https://ecodoppler-a-grosseto.it/contatti/faq-domande-frequenti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "labellebleu.eu",
+  "nome": "Centro Estetico Grosseto",
+  "formaSocietaria": "",
+  "partitaIva": "01614250536",
+  "telefono": "+39056423135",
+  "email": "",
+  "sitoUrl": "https://labellebleu.eu/",
+  "indirizzo": "Via Monfalcone 13",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "gr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://labellebleu.eu/",
+   "https://labellebleu.eu/chi-siamo/",
+   "https://labellebleu.eu/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticagrosseto.it",
+  "nome": "Medicina estetica Roma e Grosseto",
+  "formaSocietaria": "",
+  "partitaIva": "00964090534",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticagrosseto.it/",
+  "indirizzo": "Via Giuseppe Donati 58",
+  "cap": "",
+  "comune": "",
+  "provincia": "gr",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticagrosseto.it/",
+   "https://www.medicinaesteticagrosseto.it/chi-siamo",
+   "https://www.medicinaesteticagrosseto.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticagrosseto.net",
+  "nome": "medicinaesteticagrosseto.net",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393402382008",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticagrosseto.net/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "gr",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticagrosseto.net/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticazullo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "oddo-estetica.it",
+  "nome": "Dott. Alberto Oddo is under maintenance",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.oddo-estetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "gr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.oddo-estetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "salusesteticagrosseto.it",
+  "nome": "Centro Estetico a Grosseto",
+  "formaSocietaria": "",
+  "partitaIva": "01541760532",
+  "telefono": "+393458404898",
+  "email": "",
+  "sitoUrl": "https://www.salusesteticagrosseto.it/",
+  "indirizzo": "Via Saturnia 18",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "gr",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.salusesteticagrosseto.it/",
+   "https://www.salusesteticagrosseto.it/chi-siamo/",
+   "https://www.salusesteticagrosseto.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticozullo.it",
+  "nome": "Centro Odontoiatrico a Grosseto",
+  "formaSocietaria": "",
+  "partitaIva": "00991870536",
+  "telefono": "+393299048552",
+  "email": "info@studiodentisticozullo.it",
+  "sitoUrl": "https://studiodentisticozullo.it/",
+  "indirizzo": "Piazza Ponchielli 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "gr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticozullo.it/",
+   "https://studiodentisticozullo.it/chi-siamo/",
+   "https://studiodentisticozullo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoafrodite.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

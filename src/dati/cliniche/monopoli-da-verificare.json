@@ -1,0 +1,64 @@
+[
+ {
+  "dominio": "animabeautyexperience.it",
+  "nome": "Anima Beauty Experience",
+  "formaSocietaria": "",
+  "partitaIva": "02750820744",
+  "telefono": "",
+  "email": "info@animabeautyexperience.it",
+  "sitoUrl": "https://animabeautyexperience.it/",
+  "indirizzo": "Via Fracanzano, 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "monopoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://animabeautyexperience.it/",
+   "https://animabeautyexperience.it/chi-siamo/",
+   "https://animabeautyexperience.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dentes.it",
+  "nome": "Dentes",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06818650720",
+  "telefono": "+390804107329",
+  "email": "info@dentes.it",
+  "sitoUrl": "https://dentes.it/",
+  "indirizzo": "Via Arenazza, 85",
+  "cap": "70043",
+  "comune": "Monopoli",
+  "provincia": "monopoli",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://dentes.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "giuseppecolantuono.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ }
+]

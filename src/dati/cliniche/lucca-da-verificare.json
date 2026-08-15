@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "martinicentromedico.it",
+  "nome": "Martini Centro Medico Lucca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390583491406",
+  "email": "info@martinicentromedico.it",
+  "sitoUrl": "https://www.martinicentromedico.it/",
+  "indirizzo": "Via Romana n° 231",
+  "cap": "55100",
+  "comune": "Arancio",
+  "provincia": "lucca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.martinicentromedico.it/",
+   "https://www.martinicentromedico.it/contatti/",
+   "https://www.martinicentromedico.it/area-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioodontoiatricofagnani.it",
+  "nome": "Odontoiatria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390583342457",
+  "email": "",
+  "sitoUrl": "https://www.studioodontoiatricofagnani.it/",
+  "indirizzo": "Via Del Brennero 344",
+  "cap": "55100",
+  "comune": "Lucca",
+  "provincia": "lucca",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studioodontoiatricofagnani.it/",
+   "https://www.studioodontoiatricofagnani.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

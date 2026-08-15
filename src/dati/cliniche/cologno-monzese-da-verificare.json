@@ -1,0 +1,175 @@
+[
+ {
+  "dominio": "centrodabruzzo.com",
+  "nome": "Centro d'Abruzzo - Chieti",
+  "formaSocietaria": "",
+  "partitaIva": "02262820695",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centrodabruzzo.com/",
+  "indirizzo": "Via Po San Giovanni Teatino 66020",
+  "cap": "",
+  "comune": "",
+  "provincia": "cologno-monzese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrodabruzzo.com/",
+   "https://www.centrodabruzzo.com/contatti/",
+   "https://www.centrodabruzzo.com/privacy-3/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "charmebeautycenter.it",
+  "nome": "Charme Beauty Center",
+  "formaSocietaria": "",
+  "partitaIva": "13443820967",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.charmebeautycenter.it/",
+  "indirizzo": "Via Sormani 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "cologno-monzese",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.charmebeautycenter.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "dottoressacinziapoli.it",
+  "nome": "Dottoressa Cinzia Poli Dottoressa Cinzia Poli",
+  "formaSocietaria": "",
+  "partitaIva": "13565370965",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottoressacinziapoli.it/",
+  "indirizzo": "Via Petrarca Francesco, 35",
+  "cap": "20093",
+  "comune": "Cologno Monzese",
+  "provincia": "cologno-monzese",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottoressacinziapoli.it/",
+   "https://dottoressacinziapoli.it/contatti/",
+   "https://dottoressacinziapoli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticafiorediloto.it",
+  "nome": "Centro Estetico Fiore di Loto",
+  "formaSocietaria": "",
+  "partitaIva": "09011600963",
+  "telefono": "+390291663518",
+  "email": "",
+  "sitoUrl": "https://www.esteticafiorediloto.it/",
+  "indirizzo": "Via Michelangelo Buonarroti, 12",
+  "cap": "20093",
+  "comune": "Cologno Monzese",
+  "provincia": "cologno-monzese",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticafiorediloto.it/",
+   "https://www.esteticafiorediloto.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "politerapico.it",
+  "nome": "Radiologia",
+  "formaSocietaria": "",
+  "partitaIva": "00809530967",
+  "telefono": "+390392103560",
+  "email": "info@politerapico.it",
+  "sitoUrl": "https://politerapico.it/",
+  "indirizzo": "via Borgazzi 87",
+  "cap": "",
+  "comune": "",
+  "provincia": "cologno-monzese",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://politerapico.it/",
+   "https://politerapico.it/chi-siamo/",
+   "https://politerapico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticozunica.it",
+  "nome": "Studio dentistico Zunica a Cologno Monzese",
+  "formaSocietaria": "",
+  "partitaIva": "05557920963",
+  "telefono": "+390227300088",
+  "email": "segreteria@studiodentisticozunica.it",
+  "sitoUrl": "https://www.studiodentisticozunica.it/",
+  "indirizzo": "Viale Marche, 40",
+  "cap": "20093",
+  "comune": "Cologno Monzese",
+  "provincia": "cologno-monzese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticozunica.it/",
+   "https://www.studiodentisticozunica.it/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

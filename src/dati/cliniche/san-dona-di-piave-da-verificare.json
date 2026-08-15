@@ -1,0 +1,161 @@
+[
+ {
+  "dominio": "it.wikipedia.org",
+  "nome": "Wikipedia, l'enciclopedia libera",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://it.wikipedia.org/wiki/Pagina_principale",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://it.wikipedia.org/wiki/Pagina_principale",
+   "https://it.wikipedia.org/wiki/Wikipedia:Contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sistemi.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studioarchitettiad.it",
+  "nome": "Studio Architetti AD Torino",
+  "formaSocietaria": "",
+  "partitaIva": "08300780015",
+  "telefono": "+390116696920",
+  "email": "info@studioarchitettiad.it",
+  "sitoUrl": "https://www.studioarchitettiad.it/",
+  "indirizzo": "",
+  "cap": "10129",
+  "comune": "TORINO",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioarchitettiad.it/",
+   "https://www.studioarchitettiad.it/chi-siamo/",
+   "https://www.studioarchitettiad.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studioelementare.it",
+  "nome": "studioelementare",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390297370391",
+  "email": "info@studioelementare.it",
+  "sitoUrl": "https://www.studioelementare.it/",
+  "indirizzo": "Via Giuseppe Revere, 11",
+  "cap": "20123",
+  "comune": "Milano",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioelementare.it/",
+   "https://www.studioelementare.it/contatti/",
+   "https://www.studioelementare.it/privacy-statement-eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiofmmilano.com",
+  "nome": "studio FM milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiofmmilano.it",
+  "sitoUrl": "https://studiofmmilano.com/",
+  "indirizzo": "Via Aristotile Fioravanti 30",
+  "cap": "20154",
+  "comune": "Milan",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiofmmilano.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicodontoiatricobasso.it",
+  "nome": "dentista a san dona di piave",
+  "formaSocietaria": "",
+  "partitaIva": "04693080279",
+  "telefono": "+39042142231",
+  "email": "info@studioassociatorossibasso.it",
+  "sitoUrl": "https://www.studiomedicodontoiatricobasso.it/",
+  "indirizzo": "Via Carlo Vizzotto, 79",
+  "cap": "30027",
+  "comune": "San",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicodontoiatricobasso.it/",
+   "https://www.studiomedicodontoiatricobasso.it/chi-siamo/",
+   "https://www.studiomedicodontoiatricobasso.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "synolon.it",
+  "nome": "Synolon Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3902079460160",
+  "email": "segreteria@synolon.it",
+  "sitoUrl": "https://synolon.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://synolon.it/",
+   "https://synolon.it/about-us/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

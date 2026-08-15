@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "centroodontoiatricorizzuto.it",
+  "nome": "Dentista a Cosenza",
+  "formaSocietaria": "",
+  "partitaIva": "02971820788",
+  "telefono": "+39098437917",
+  "email": "info@centroodontoiatricorizzuto.it",
+  "sitoUrl": "https://centroodontoiatricorizzuto.it/",
+  "indirizzo": "Via Gregorio Caloprese, 104",
+  "cap": "87100",
+  "comune": "Cosenza",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroodontoiatricorizzuto.it/",
+   "https://centroodontoiatricorizzuto.it/studio-dentistico-a-cosenza/",
+   "https://centroodontoiatricorizzuto.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

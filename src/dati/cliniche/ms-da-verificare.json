@@ -1,0 +1,67 @@
+[
+ {
+  "dominio": "aphroditeestetica.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "centrolaser-medical.it",
+  "nome": "Centro Laser",
+  "formaSocietaria": "",
+  "partitaIva": "00355070459",
+  "telefono": "+39058541255",
+  "email": "info@centrolaser-medical.it",
+  "sitoUrl": "https://centrolaser-medical.it/",
+  "indirizzo": "Via Marina Vecchia, 175",
+  "cap": "",
+  "comune": "",
+  "provincia": "ms",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centrolaser-medical.it/",
+   "https://centrolaser-medical.it/chi-siamo/",
+   "https://centrolaser-medical.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eucerin.it",
+  "nome": "EUCERIN",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.eucerin.it/",
+  "indirizzo": "Via Numero Civico Cap Città GG 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "ms",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.eucerin.it/",
+   "https://www.eucerin.it/about-eucerin/storia-di-eucerin",
+   "https://www.eucerin.it/meta-pages/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

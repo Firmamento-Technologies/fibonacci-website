@@ -1,0 +1,103 @@
+[
+ {
+  "dominio": "asst-bgovest.it",
+  "nome": "ASST di Bergamo Ovest",
+  "formaSocietaria": "",
+  "partitaIva": "04114450168",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://asst-bgovest.it/",
+  "indirizzo": "Piazzale Ospedale L. Meneguzzo 1",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "dalmine",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://asst-bgovest.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "comune.dalmine.bg.it",
+  "nome": "Comune di Dalmine",
+  "formaSocietaria": "",
+  "partitaIva": "00232910166",
+  "telefono": "+390356224711",
+  "email": "",
+  "sitoUrl": "https://comune.dalmine.bg.it/it",
+  "indirizzo": "Piazza della Libertà, 1",
+  "cap": "24044",
+  "comune": "Codice",
+  "provincia": "dalmine",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://comune.dalmine.bg.it/it",
+   "https://comune.dalmine.bg.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dalmine.boutiquedellabellezza.com",
+  "nome": "Boutique della Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393481114658",
+  "email": "info@boutiquedellabellezza.com",
+  "sitoUrl": "https://www.dalmine.boutiquedellabellezza.com/",
+  "indirizzo": "Via A. Manzoni, 14",
+  "cap": "24044",
+  "comune": "Dalmine",
+  "provincia": "dalmine",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dalmine.boutiquedellabellezza.com/",
+   "https://www.dalmine.boutiquedellabellezza.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "santalessandro.eu",
+  "nome": "Istituto Medico Polispecialistico Sant'Alessandro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santalessandro.eu/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "dalmine",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.santalessandro.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

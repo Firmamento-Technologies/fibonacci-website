@@ -1,0 +1,143 @@
+[
+ {
+  "dominio": "attimobeauty.it",
+  "nome": "Attimo Beauty Segrate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393513507400",
+  "email": "",
+  "sitoUrl": "https://www.attimobeauty.it/",
+  "indirizzo": "Via Modigliani, 45",
+  "cap": "",
+  "comune": "",
+  "provincia": "segrate",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.attimobeauty.it/",
+   "https://www.attimobeauty.it/contattaci",
+   "https://www.attimobeauty.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "bioesteticasegrate.it",
+  "nome": "Bio Estetica Segrate",
+  "formaSocietaria": "",
+  "partitaIva": "09922160966",
+  "telefono": "+393332889860",
+  "email": "",
+  "sitoUrl": "https://bioesteticasegrate.it/",
+  "indirizzo": "Via Trieste 20",
+  "cap": "",
+  "comune": "",
+  "provincia": "segrate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://bioesteticasegrate.it/",
+   "https://bioesteticasegrate.it/contatti/",
+   "https://bioesteticasegrate.it/privacy-e-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticosegrate.com",
+  "nome": "Scintylla Beauty Feeling",
+  "formaSocietaria": "",
+  "partitaIva": "02371250909",
+  "telefono": "+390284934643",
+  "email": "info@scintylla.it",
+  "sitoUrl": "https://www.centroesteticosegrate.com/",
+  "indirizzo": "Via Roma, 23",
+  "cap": "20054",
+  "comune": "Segrate",
+  "provincia": "segrate",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticosegrate.com/",
+   "https://www.centroesteticosegrate.com/chi-siamo/",
+   "https://www.centroesteticosegrate.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ctfsegrate.it",
+  "nome": "CTF Segrate",
+  "formaSocietaria": "",
+  "partitaIva": "04188720967",
+  "telefono": "+39022134069",
+  "email": "info@ctfsegrate.it",
+  "sitoUrl": "https://ctfsegrate.it/",
+  "indirizzo": "Via Della Pace, 6",
+  "cap": "20090",
+  "comune": "Segrate",
+  "provincia": "segrate",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ctfsegrate.it/",
+   "https://ctfsegrate.it/contattaci.html",
+   "https://ctfsegrate.it/index.php/contattaci.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticoporroartusa.it",
+  "nome": "Trattamenti odontoiatrici e salute dentale",
+  "formaSocietaria": "",
+  "partitaIva": "10343210158",
+  "telefono": "+390226920710",
+  "email": "info@studiodentisticoporroartusa.it",
+  "sitoUrl": "https://studiodentisticoporroartusa.it/",
+  "indirizzo": "Via Carlo Alberto Radaelli, 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "segrate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiodentisticoporroartusa.it/",
+   "https://studiodentisticoporroartusa.it/contatti-studio-dentistico-segrate/",
+   "https://studiodentisticoporroartusa.it/contatti-studio-dentistico-segrate/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

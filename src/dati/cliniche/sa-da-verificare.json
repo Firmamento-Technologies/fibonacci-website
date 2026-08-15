@@ -1,0 +1,120 @@
+[
+ {
+  "dominio": "dietologosalerno.com",
+  "nome": "Specialisti filler botox Salerno-Medicina estetica Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393334476244",
+  "email": "",
+  "sitoUrl": "https://www.dietologosalerno.com/",
+  "indirizzo": "via Arce 37",
+  "cap": "84125",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dietologosalerno.com/",
+   "https://www.dietologosalerno.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticasalerno.com",
+  "nome": "Dott.ssa Raffaella Galdieri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393334476244",
+  "email": "info@medicinaesteticasalerno.com",
+  "sitoUrl": "https://medicinaesteticasalerno.com/",
+  "indirizzo": "Via Arce 37",
+  "cap": "",
+  "comune": "",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticasalerno.com/",
+   "https://medicinaesteticasalerno.com/contatti/",
+   "https://medicinaesteticasalerno.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticasalerno.it",
+  "nome": "Studio di Dietologia e Medicina estetica della Dott.ssa Galdieri Raffa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticasalerno.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticasalerno.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vincenzopadovano.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393803617342",
+  "email": "info@padovanomd.it",
+  "sitoUrl": "https://www.vincenzopadovano.it/",
+  "indirizzo": "via Matteo Della Corte, 4",
+  "cap": "84013",
+  "comune": "Cava",
+  "provincia": "sa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.vincenzopadovano.it/",
+   "https://www.vincenzopadovano.it/about"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

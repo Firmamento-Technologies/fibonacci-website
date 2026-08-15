@@ -1,0 +1,9 @@
+[
+ {
+  "dominio": "asti-pi.italia-info.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ }
+]

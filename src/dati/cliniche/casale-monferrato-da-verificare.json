@@ -1,0 +1,102 @@
+[
+ {
+  "dominio": "dottoressanicoleabate.com",
+  "nome": "Dottoressa Nicole Abate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottoressanicoleabate.com/",
+  "indirizzo": "Corso Valentino, 167",
+  "cap": "",
+  "comune": "",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressanicoleabate.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottornume.it",
+  "nome": "Dottor Nume",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottornume.it/",
+  "indirizzo": "Via Alessandria, 7",
+  "cap": "15033",
+  "comune": "Casale",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottornume.it/",
+   "https://dottornume.it/chi-siamo/",
+   "https://dottornume.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicartsrl.it",
+  "nome": "MedicArt centri medici Valenza, Tortona, Casale Monferrato e Elba",
+  "formaSocietaria": "",
+  "partitaIva": "02017780061",
+  "telefono": "+390131920706",
+  "email": "info@medicartsrl.it",
+  "sitoUrl": "https://www.medicartsrl.it/",
+  "indirizzo": "Via del Castagnone, 28",
+  "cap": "15048",
+  "comune": "",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicartsrl.it/",
+   "https://www.medicartsrl.it/18/chi-siamo",
+   "https://www.medicartsrl.it/2/prenotazioni-e-contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioesteticoaeb.it",
+  "nome": "Studio Estetico A&B",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studioesteticoaeb.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://studioesteticoaeb.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

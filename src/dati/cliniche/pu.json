@@ -1,0 +1,121 @@
+[
+ {
+  "dominio": "gfmedical.it",
+  "nome": "Centro Medico • GF Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02652140415",
+  "telefono": "+390721415228",
+  "email": "info@gfmedical.it",
+  "sitoUrl": "https://gfmedical.it/",
+  "indirizzo": "",
+  "cap": "61121",
+  "comune": "Pesaro",
+  "provincia": "pu",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://gfmedical.it/",
+   "https://gfmedical.it/chi-siamo/",
+   "https://gfmedical.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "salusmedica.com",
+  "nome": "Chirurgia estetica e trattamenti estetici in Italia Salus Medica",
+  "formaSocietaria": "",
+  "partitaIva": "02246030411",
+  "telefono": "+39335270753",
+  "email": "",
+  "sitoUrl": "https://www.salusmedica.com/",
+  "indirizzo": "",
+  "cap": "61122",
+  "comune": "Pesaro",
+  "provincia": "pu",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.salusmedica.com/",
+   "https://www.salusmedica.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skinmedpesaro.it",
+  "nome": "SkinMed Pesaro",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02805540412",
+  "telefono": "",
+  "email": "info@skinmedpesaro.it",
+  "sitoUrl": "https://www.skinmedpesaro.it/",
+  "indirizzo": "Via Liuti 2",
+  "cap": "61122",
+  "comune": "",
+  "provincia": "pu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.skinmedpesaro.it/",
+   "https://www.skinmedpesaro.it/chi-siamo/",
+   "https://www.skinmedpesaro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "spaziosalutesandecenzio.it",
+  "nome": "Centro Medico, Studio Odontoiatrico e Parafarmacia a Pesaro",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02517820417",
+  "telefono": "+39072165905",
+  "email": "",
+  "sitoUrl": "https://www.spaziosalutesandecenzio.it/",
+  "indirizzo": "Via SanDecenzio 6",
+  "cap": "61121",
+  "comune": "Pesaro",
+  "provincia": "pu",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.spaziosalutesandecenzio.it/",
+   "https://www.spaziosalutesandecenzio.it/contatti/",
+   "https://www.spaziosalutesandecenzio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

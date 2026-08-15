@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "antiageinstitute.it",
+  "nome": "Dott Giuseppe Cassibba",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottgiuseppecassibba.it/",
+  "indirizzo": "Viale Teracati 51",
+  "cap": "96100",
+  "comune": "Siracusa",
+  "provincia": "sr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottgiuseppecassibba.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bodylabsiracusa.it",
+  "nome": "Bodylab Siracusa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393397355698",
+  "email": "info@bodylabsiracusa.it",
+  "sitoUrl": "https://www.bodylabsiracusa.it/",
+  "indirizzo": "via Damone 4",
+  "cap": "96100",
+  "comune": "Siracusa",
+  "provincia": "sr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bodylabsiracusa.it/",
+   "https://www.bodylabsiracusa.it/chi-siamo/",
+   "https://www.bodylabsiracusa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rigenya.it",
+  "nome": "Rigenya",
+  "formaSocietaria": "",
+  "partitaIva": "02056640895",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.rigenya.it/",
+  "indirizzo": "Viale Scala Greca 305",
+  "cap": "96100",
+  "comune": "Siracusa",
+  "provincia": "sr",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.rigenya.it/",
+   "https://www.rigenya.it/chi-siamo/",
+   "https://www.rigenya.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

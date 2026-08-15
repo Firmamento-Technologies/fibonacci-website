@@ -1,0 +1,194 @@
+[
+ {
+  "dominio": "botulinofirenze.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "doctorbeautyfirenze.it",
+  "nome": "Doctor Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "07108860482",
+  "telefono": "+390553893302",
+  "email": "",
+  "sitoUrl": "https://www.doctorbeautyfirenze.it/",
+  "indirizzo": "Viale Rosselli Fratelli, 27",
+  "cap": "50144",
+  "comune": "FIRENZE",
+  "provincia": "fi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.doctorbeautyfirenze.it/",
+   "https://www.doctorbeautyfirenze.it/chi-siamo",
+   "https://www.doctorbeautyfirenze.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dremiliareider.com",
+  "nome": "Dott.ssa EMILIA REIDER",
+  "formaSocietaria": "",
+  "partitaIva": "07022850486",
+  "telefono": "+390550937836",
+  "email": "",
+  "sitoUrl": "https://www.dremiliareider.com/",
+  "indirizzo": "Via Giotto 5",
+  "cap": "50121",
+  "comune": "Firenze",
+  "provincia": "fi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dremiliareider.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ialuronicofirenze.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "luccioli.it",
+  "nome": "Chirurgia plastica estetica Toscana chirurgo plastico estetico Firenze",
+  "formaSocietaria": "",
+  "partitaIva": "04969980483",
+  "telefono": "+39055294847",
+  "email": "",
+  "sitoUrl": "https://www.luccioli.it/",
+  "indirizzo": "Via Ciro Menotti 2",
+  "cap": "50136",
+  "comune": "Firenze",
+  "provincia": "fi",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.luccioli.it/",
+   "https://www.luccioli.it/contatti/",
+   "https://www.luccioli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaestetica-mb.com",
+  "nome": "Dott.ssa Mirela Bodoj",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393294090978",
+  "email": "",
+  "sitoUrl": "https://medicinaestetica-mb.com/",
+  "indirizzo": "Via Carlo Alfieri di Sostegno 9",
+  "cap": "50127",
+  "comune": "Firenze",
+  "provincia": "fi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaestetica-mb.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nikadimeo.it",
+  "nome": "Dottoressa Nika Di Meo",
+  "formaSocietaria": "",
+  "partitaIva": "02996590341",
+  "telefono": "+393385450708",
+  "email": "",
+  "sitoUrl": "https://nikadimeo.it/",
+  "indirizzo": "Piazza Giacomo Puccini, 4",
+  "cap": "50144",
+  "comune": "Firenze",
+  "provincia": "fi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://nikadimeo.it/",
+   "https://nikadimeo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "retepas.com",
+  "nome": "Rete PAS, ambulatori del no-profit",
+  "formaSocietaria": "",
+  "partitaIva": "06261980483",
+  "telefono": "+39055711111",
+  "email": "",
+  "sitoUrl": "https://retepas.com/",
+  "indirizzo": "Via Raffaello Caverni 20",
+  "cap": "50018",
+  "comune": "Scandicci",
+  "provincia": "fi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://retepas.com/",
+   "https://retepas.com/elenco-delle-sedi/",
+   "https://retepas.com/sedi/ambulatori-e-fisioterapia-pas-gavinana/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rinofillerfirenze.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "dominio": "asp.cosenza.it",
+  "nome": "ASP Cosenza",
+  "formaSocietaria": "",
+  "partitaIva": "02853720783",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asp.cosenza.it/",
+  "indirizzo": "via Tocci 24",
+  "cap": "",
+  "comune": "",
+  "provincia": "cs",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asp.cosenza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirurgiaesteticacalabria.com",
+  "nome": "Chirurgia Estetica Calabria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393499090287",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticacalabria.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cs",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticacalabria.com/",
+   "https://www.chirurgiaesteticacalabria.com/contatti/",
+   "https://www.chirurgiaesteticacalabria.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rdamedicinaestetica.it",
+  "nome": "Rda medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393408089103",
+  "email": "",
+  "sitoUrl": "https://rdamedicinaestetica.it/",
+  "indirizzo": "Via Suor Elena Aiello 21",
+  "cap": "",
+  "comune": "",
+  "provincia": "cs",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://rdamedicinaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodiponti.com",
+  "nome": "studio di ponti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiodiponti.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cs",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodiponti.com/",
+   "https://www.studiodiponti.com/contatti",
+   "https://www.studiodiponti.com/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

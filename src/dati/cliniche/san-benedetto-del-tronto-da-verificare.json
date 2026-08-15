@@ -1,0 +1,162 @@
+[
+ {
+  "dominio": "canovainstitute.it",
+  "nome": "Interventi di chirurgia estetica San Benedetto del Tronto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393285438452",
+  "email": "info@canovainstitute.it",
+  "sitoUrl": "https://canovainstitute.it/",
+  "indirizzo": "Via Pasubio, 57",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://canovainstitute.it/",
+   "https://canovainstitute.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticoony.it",
+  "nome": "Centro estetico a San Benedetto Del Tronto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393428352460",
+  "email": "info@onycentroestetico.it",
+  "sitoUrl": "https://www.centroesteticoony.it/",
+  "indirizzo": "Via Umbria, 35",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticoony.it/",
+   "https://www.centroesteticoony.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centrolepalme.com",
+  "nome": "Poliambulatorio Centro Medico le Palme",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centrolepalme.com",
+  "sitoUrl": "https://www.centrolepalme.com/",
+  "indirizzo": "Via Palmiro Togliatti 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centrolepalme.com/",
+   "https://www.centrolepalme.com/chi-siamo/",
+   "https://www.centrolepalme.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticakalos.it",
+  "nome": "Estetica Kalos",
+  "formaSocietaria": "",
+  "partitaIva": "02092750443",
+  "telefono": "",
+  "email": "info@esteticakalos.it",
+  "sitoUrl": "https://esteticakalos.it/",
+  "indirizzo": "Via Alberto Da Giussano, 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticakalos.it/",
+   "https://esteticakalos.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "galateaesteticainnovativa.it",
+  "nome": "Trattamenti viso e corpo a San Benedetto del Tronto",
+  "formaSocietaria": "",
+  "partitaIva": "02192630677",
+  "telefono": "+393792971241",
+  "email": "",
+  "sitoUrl": "https://galateaesteticainnovativa.it/",
+  "indirizzo": "Via Pasubio 36",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://galateaesteticainnovativa.it/",
+   "https://galateaesteticainnovativa.it/chi-siamo/",
+   "https://galateaesteticainnovativa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicocaselli.it",
+  "nome": "Studio Medico Caselli Chirurgia Generale, Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01852150448",
+  "telefono": "+39073584426",
+  "email": "info@studiomedicocaselli.it",
+  "sitoUrl": "https://studiomedicocaselli.it/",
+  "indirizzo": "via Toscana 96",
+  "cap": "84426",
+  "comune": "",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicocaselli.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

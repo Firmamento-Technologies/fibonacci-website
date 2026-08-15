@@ -1,0 +1,33 @@
+[
+ {
+  "dominio": "studiomedicomennella.it",
+  "nome": "Studio Medico Dott. Mauro Mennella",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicomennella.it",
+  "sitoUrl": "https://studiomedicomennella.it/",
+  "indirizzo": "Via Diego Colamarino n° 81",
+  "cap": "80059",
+  "comune": "Torre",
+  "provincia": "torre-del-greco",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Mauro Mennella, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomedicomennella.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,135 @@
+[
+ {
+  "dominio": "asticlinic.it",
+  "nome": "Dentisti e Medici ad Asti",
+  "formaSocietaria": "",
+  "partitaIva": "01583340052",
+  "telefono": "+390141531091",
+  "email": "info@asticlinic.it",
+  "sitoUrl": "https://www.asticlinic.it/",
+  "indirizzo": "Corso Vittorio Alfieri 80",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "at",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.asticlinic.it/",
+   "https://www.asticlinic.it/dove-siamo-dentista-asti/",
+   "https://www.asticlinic.it/contattaci-asti-clinic-dentista/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "claudioligresti.it",
+  "nome": "Dott. Claudio Ligresti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.claudioligresti.it/",
+  "indirizzo": "Via Timone Martini, 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "at",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Claudio Ligresti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.claudioligresti.it/",
+   "https://www.claudioligresti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Ligresti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "infonutrizionista.it",
+  "nome": "Il più grande elenco di nutrizionisti e dietologi in Italia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://infonutrizionista.it/",
+  "indirizzo": "Via Angelantonio Lippolis, 10",
+  "cap": "70011",
+  "comune": "Alberobello",
+  "provincia": "at",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://infonutrizionista.it/",
+   "https://infonutrizionista.it/it-it/chi-siamo/",
+   "https://infonutrizionista.it/it-it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lostudiodentistico.it",
+  "nome": "Studio Medico Il Mulino",
+  "formaSocietaria": "",
+  "partitaIva": "01510010059",
+  "telefono": "",
+  "email": "info@lostudiodentistico.it",
+  "sitoUrl": "https://www.lostudiodentistico.it/",
+  "indirizzo": "C.so Alessandria 4",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "at",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.lostudiodentistico.it/",
+   "https://www.lostudiodentistico.it/contatti/",
+   "https://www.lostudiodentistico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rimedipoliambulatorio.it",
+  "nome": "Poliambulatorio Ri.Me.Di",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01738020054",
+  "telefono": "+3901411808910",
+  "email": "info@rimedipoliambulatorio.it",
+  "sitoUrl": "https://rimedipoliambulatorio.it/",
+  "indirizzo": "Via Asti 9",
+  "cap": "14026",
+  "comune": "",
+  "provincia": "at",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://rimedipoliambulatorio.it/",
+   "https://rimedipoliambulatorio.it/dove-siamo/",
+   "https://rimedipoliambulatorio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

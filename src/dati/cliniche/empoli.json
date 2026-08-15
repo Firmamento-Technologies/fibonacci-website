@@ -1,0 +1,139 @@
+[
+ {
+  "dominio": "caldarellavalentinachirurgoplastico.it",
+  "nome": "Filler labbra",
+  "formaSocietaria": "",
+  "partitaIva": "01869810893",
+  "telefono": "+393294483085",
+  "email": "",
+  "sitoUrl": "https://caldarellavalentinachirurgoplastico.it/",
+  "indirizzo": "Via Bisarnella, 69",
+  "cap": "50053",
+  "comune": "Empoli",
+  "provincia": "empoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Caldarella Vai, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://caldarellavalentinachirurgoplastico.it/",
+   "https://caldarellavalentinachirurgoplastico.it/privacy-policy/",
+   "https://caldarellavalentinachirurgoplastico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaesteticaeumedica.it",
+  "nome": "Medicina Estetica Empoli",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05121680481",
+  "telefono": "",
+  "email": "info@chirurgiaesteticaeumedica.it",
+  "sitoUrl": "https://chirurgiaesteticaeumedica.it/",
+  "indirizzo": "Via Raffaello Sanzio, 199",
+  "cap": "50053",
+  "comune": "Empoli",
+  "provincia": "empoli",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://chirurgiaesteticaeumedica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ergeacentrimedici.it",
+  "nome": "Servizi sanitari e diagnostica per immagini",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01790611204",
+  "telefono": "+390513780794",
+  "email": "info.ecomedica@ergeagroup.com",
+  "sitoUrl": "https://ergeacentrimedici.it/",
+  "indirizzo": "Via Irnerio, 12",
+  "cap": "40126",
+  "comune": "Bologna",
+  "provincia": "empoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ergeacentrimedici.it/",
+   "https://ergeacentrimedici.it/sedi/",
+   "https://ergeacentrimedici.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "istitutosantandrea.org",
+  "nome": "istitutosantandrea.org",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390571537064",
+  "email": "info@istitutosantandrea.org",
+  "sitoUrl": "https://istitutosantandrea.org/",
+  "indirizzo": "Via Pievano Rolando, 8",
+  "cap": "50053",
+  "comune": "Empoli",
+  "provincia": "empoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://istitutosantandrea.org/",
+   "https://istitutosantandrea.org/dove-siamo.html",
+   "https://istitutosantandrea.org/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticoborgioli.it",
+  "nome": "Studio dentistico Borgioli",
+  "formaSocietaria": "",
+  "partitaIva": "05350030481",
+  "telefono": "+390571508823",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticoborgioli.it/",
+  "indirizzo": "via Caduti sul Lavoro n. 5",
+  "cap": "50059",
+  "comune": "Sovigliana",
+  "provincia": "empoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Borgioli Alberto, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticoborgioli.it/",
+   "https://www.studiodentisticoborgioli.it/chi-siamo/",
+   "https://www.studiodentisticoborgioli.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

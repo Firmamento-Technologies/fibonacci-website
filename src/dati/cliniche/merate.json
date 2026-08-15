@@ -1,0 +1,196 @@
+[
+ {
+  "dominio": "cabpolidiagnostico.it",
+  "nome": "CAB Polidiagnostico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03929470130",
+  "telefono": "+390399210202",
+  "email": "",
+  "sitoUrl": "https://www.cabpolidiagnostico.it/",
+  "indirizzo": "via Bergamo, 16",
+  "cap": "20862",
+  "comune": "Arcore",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cabpolidiagnostico.it/",
+   "https://www.cabpolidiagnostico.it/chi-siamo/",
+   "https://www.cabpolidiagnostico.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "elysiesuitebeauty.it",
+  "nome": "Elysiè Suite",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03455620132",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.elysiesuitebeauty.it/",
+  "indirizzo": "Via G. Parini, 11",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.elysiesuitebeauty.it/",
+   "https://www.elysiesuitebeauty.it/contattaci",
+   "https://www.elysiesuitebeauty.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticadelviso.com",
+  "nome": "Estetica del Viso",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03870330135",
+  "telefono": "+390399900400",
+  "email": "info@esteticadelviso.com",
+  "sitoUrl": "https://esteticadelviso.com/",
+  "indirizzo": "Via Turati 4",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://esteticadelviso.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "estetiquecare.it",
+  "nome": "Estetica tradizionale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393249922144",
+  "email": "",
+  "sitoUrl": "https://www.estetiquecare.it/",
+  "indirizzo": "Via Momolo Bonfanti Palazzi 3",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.estetiquecare.it/",
+   "https://www.estetiquecare.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "labohemesalon.it",
+  "nome": "La Bohème Salon",
+  "formaSocietaria": "SNC",
+  "partitaIva": "11446060961",
+  "telefono": "+390399285681",
+  "email": "",
+  "sitoUrl": "https://labohemesalon.it/",
+  "indirizzo": "Via Ceppo, 2",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://labohemesalon.it/",
+   "https://labohemesalon.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomeratese.it",
+  "nome": "Centro dentistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03870330135",
+  "telefono": "+390399900400",
+  "email": "info@studiomeratese.it",
+  "sitoUrl": "https://www.studiomeratese.it/",
+  "indirizzo": "Via Turati 4",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.studiomeratese.it/",
+   "https://www.studiomeratese.it/chi-siamo/",
+   "https://www.studiomeratese.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vimedis.it",
+  "nome": "Vimedis",
+  "formaSocietaria": "",
+  "partitaIva": "03455620132",
+  "telefono": "+390392262799",
+  "email": "info@vimedis.it",
+  "sitoUrl": "https://www.vimedis.it/",
+  "indirizzo": "Via Parini 14",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.vimedis.it/",
+   "https://www.vimedis.it/chi-siamo",
+   "https://www.vimedis.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

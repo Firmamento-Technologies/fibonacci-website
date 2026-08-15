@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "akosestetica.com",
+  "nome": "Akos Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "02175510441",
+  "telefono": "+390736344806",
+  "email": "info@akosestetica.com",
+  "sitoUrl": "https://akosestetica.com/",
+  "indirizzo": "Via della Conca, 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "ap",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://akosestetica.com/",
+   "https://akosestetica.com/chi-siamo-2/",
+   "https://akosestetica.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromedicoascoli.it",
+  "nome": "Centro Medico Ascoli Piceno",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02368060444",
+  "telefono": "+393517496181",
+  "email": "info@centromedicoascoli.it",
+  "sitoUrl": "https://centromedicoascoli.it/",
+  "indirizzo": "Viale Vellei Sinibaldo, 16",
+  "cap": "63100",
+  "comune": "Ascoli",
+  "provincia": "ap",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedicoascoli.it/",
+   "https://centromedicoascoli.it/medical-center-ascoli-piceno-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

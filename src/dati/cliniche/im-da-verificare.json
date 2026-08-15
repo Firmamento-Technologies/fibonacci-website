@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "bordigherasalute.it",
+  "nome": "BORDIGHERA SALUTE - Studio Polispecialistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://bordigherasalute.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "im",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://bordigherasalute.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cesoleesolemax.it",
+  "nome": "C'è Sole e Sole Max",
+  "formaSocietaria": "",
+  "partitaIva": "01258860087",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cesoleesolemax.it/",
+  "indirizzo": "",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "im",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cesoleesolemax.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "paoloscappaticci.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

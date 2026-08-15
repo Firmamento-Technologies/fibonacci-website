@@ -1,0 +1,145 @@
+[
+ {
+  "dominio": "armonia-asti.it",
+  "nome": "Centro Estetico ad Asti",
+  "formaSocietaria": "",
+  "partitaIva": "01538790054",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://armonia-asti.it/",
+  "indirizzo": "Via Atleti Azzurri Astigiani 12",
+  "cap": "14100",
+  "comune": "Estetica",
+  "provincia": "at",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://armonia-asti.it/",
+   "https://armonia-asti.it/contatti/",
+   "https://armonia-asti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticastudiomarello.com",
+  "nome": "Centro estetico e Medicina estetica Asti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390141352487",
+  "email": "",
+  "sitoUrl": "https://esteticastudiomarello.com/",
+  "indirizzo": "Via Pascoli, 17",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "at",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticastudiomarello.com/",
+   "https://esteticastudiomarello.com/contatti/",
+   "https://esteticastudiomarello.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "falconelli.it",
+  "nome": "Dottoressa Falconelli",
+  "formaSocietaria": "",
+  "partitaIva": "01794110039",
+  "telefono": "+393355486334",
+  "email": "",
+  "sitoUrl": "https://www.falconelli.it/",
+  "indirizzo": "Via Ranzoni 1",
+  "cap": "90048",
+  "comune": "Facebook",
+  "provincia": "at",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.falconelli.it/",
+   "https://www.falconelli.it/chi-siamo/",
+   "https://www.falconelli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicina-estetica-asti.it",
+  "nome": "Medicina Estetica Asti",
+  "formaSocietaria": "",
+  "partitaIva": "01510010059",
+  "telefono": "",
+  "email": "info@lostudiodentistico.it",
+  "sitoUrl": "https://medicina-estetica-asti.it/",
+  "indirizzo": "Corso Alessandria 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "at",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicina-estetica-asti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "meriskinperfect.com",
+  "nome": "Meri SkinPerfect",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.meriskinperfect.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "at",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.meriskinperfect.com/",
+   "https://www.meriskinperfect.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

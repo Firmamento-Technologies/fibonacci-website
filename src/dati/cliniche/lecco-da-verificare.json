@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "esteticamentedebora.com",
+  "nome": "Centro Estetico e Cosmeticheria Naturale a Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticamentedebora.com/",
+  "indirizzo": "Via Fabio Filzi 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "lecco",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamentedebora.com/",
+   "https://esteticamentedebora.com/dove-siamo",
+   "https://esteticamentedebora.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medinmove.it",
+  "nome": "Fisioterapia e Osteopatia Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3903411960501",
+  "email": "info@medinmove.it",
+  "sitoUrl": "https://www.medinmove.it/",
+  "indirizzo": "Via Balicco 109",
+  "cap": "",
+  "comune": "",
+  "provincia": "lecco",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medinmove.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiomedicoisolago.it",
+  "nome": "Studio Medico Isolago \"De Micheli\"",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studiomedicoisolago.it/",
+  "indirizzo": "Via Cavour 50",
+  "cap": "23900",
+  "comune": "Lecco",
+  "provincia": "lecco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicoisolago.it/",
+   "https://studiomedicoisolago.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

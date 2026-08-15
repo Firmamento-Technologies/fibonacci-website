@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "duomo13.it",
+  "nome": "Epilazione laser diodo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390266040471",
+  "email": "info@duomo13.it",
+  "sitoUrl": "https://www.duomo13.it/",
+  "indirizzo": "viale Rinascita 13",
+  "cap": "20092",
+  "comune": "Cinisello Balsamo",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.duomo13.it/",
+   "https://www.duomo13.it/about-us",
+   "https://www.duomo13.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "poliambulatorioicom.it",
+  "nome": "POLIAMBULATORIO ICOM",
+  "formaSocietaria": "",
+  "partitaIva": "05749520960",
+  "telefono": "+390261291582",
+  "email": "prenotazioni@icomedicine.com",
+  "sitoUrl": "https://www.poliambulatorioicom.it/",
+  "indirizzo": "Via Matteotti, 62",
+  "cap": "20092",
+  "comune": "Cinisello Balsamo",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatorioicom.it/",
+   "https://www.poliambulatorioicom.it/chi-siamo/",
+   "https://www.poliambulatorioicom.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sitri.it",
+  "nome": "Home Sitri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@sitri.it",
+  "sitoUrl": "https://www.sitri.it/",
+  "indirizzo": "Corso Pratico è diviso in 2",
+  "cap": "50133",
+  "comune": "Firenze",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sitri.it/",
+   "https://www.sitri.it/chi-siamo/",
+   "https://www.sitri.it/contatti-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

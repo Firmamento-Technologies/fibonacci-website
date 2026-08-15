@@ -1,0 +1,169 @@
+[
+ {
+  "dominio": "artisclinic.it",
+  "nome": "Artis Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://artisclinic.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lissone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://artisclinic.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "deltastudiolissone.it",
+  "nome": "Idrocolonterapia Metodo HydrOs a Lissone",
+  "formaSocietaria": "SRL",
+  "partitaIva": "11443340960",
+  "telefono": "+393402380604",
+  "email": "info@deltastudiolissone.it",
+  "sitoUrl": "https://www.deltastudiolissone.it/",
+  "indirizzo": "Via General Guidoni 9",
+  "cap": "20851",
+  "comune": "Adiacente",
+  "provincia": "lissone",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.deltastudiolissone.it/",
+   "https://www.deltastudiolissone.it/chi-siamo/",
+   "https://www.deltastudiolissone.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "massimilianogioco.it",
+  "nome": "Dott. Gioco Massimiliano",
+  "formaSocietaria": "",
+  "partitaIva": "12590840968",
+  "telefono": "+393469427955",
+  "email": "info@milano.bclinic.it",
+  "sitoUrl": "https://massimilianogioco.it/",
+  "indirizzo": "Via Bruno Buozzi, 2",
+  "cap": "20851",
+  "comune": "Lissone",
+  "provincia": "lissone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gioco Massimiliano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://massimilianogioco.it/",
+   "https://massimilianogioco.it/contatti/",
+   "http://massimilianogioco.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gioco Massimiliano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "medical-pro.it",
+  "nome": "MedicalPro: Trattamenti di riabilitazione e medicina estetica",
+  "formaSocietaria": "SPA",
+  "partitaIva": "12580770969",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medical-pro.it/",
+  "indirizzo": "Via Montecuccoli n. 32",
+  "cap": "20147",
+  "comune": "Milano",
+  "provincia": "lissone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medical-pro.it/",
+   "https://www.medical-pro.it/chi-siamo/",
+   "https://www.medical-pro.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "momacentrodiagnostico.it",
+  "nome": "M.O.M.A. Centro Diagnostico e Polispecialistico Lissone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390395964968",
+  "email": "info@momacentrodiagnostico.it",
+  "sitoUrl": "https://www.momacentrodiagnostico.it/",
+  "indirizzo": "via Origo 32",
+  "cap": "20851",
+  "comune": "Lissone",
+  "provincia": "lissone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.momacentrodiagnostico.it/",
+   "https://www.momacentrodiagnostico.it/contatti/",
+   "https://www.momacentrodiagnostico.it/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "perlacura.it",
+  "nome": "PerLa Cura",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08736890966",
+  "telefono": "+390392916250",
+  "email": "info.brugherio@perlacura.it",
+  "sitoUrl": "https://www.perlacura.it/",
+  "indirizzo": "Via Camillo Benso di Cavour, 19",
+  "cap": "20861",
+  "comune": "Brugherio",
+  "provincia": "lissone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.perlacura.it/",
+   "https://www.perlacura.it/chi-siamo/",
+   "https://www.perlacura.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

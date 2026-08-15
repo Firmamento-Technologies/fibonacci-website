@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "centromedicopalazzoristori.it",
+  "nome": "Centro Medico Palazzo Ristori",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3905321864641",
+  "email": "info@centromedicopalazzoristori.it",
+  "sitoUrl": "https://centromedicopalazzoristori.it/",
+  "indirizzo": "Via del Turco, 12",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedicopalazzoristori.it/",
+   "https://centromedicopalazzoristori.it/about-us/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dermatologia-ferrara.it",
+  "nome": "Dott.ssa Maria Rosaria Zampino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dermatologia-ferrara.it/",
+  "indirizzo": "Via Zucchini 63",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologia-ferrara.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fmedicalpoliambulatorio.it",
+  "nome": "Il tuo Poliambulatorio di fiducia a Ferrara",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02006630384",
+  "telefono": "+3905321863876",
+  "email": "info@fmedicalpoliambulatorio.it",
+  "sitoUrl": "https://fmedicalpoliambulatorio.it/",
+  "indirizzo": "Via Darsena 84",
+  "cap": "44122",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://fmedicalpoliambulatorio.it/",
+   "https://fmedicalpoliambulatorio.it/contatti/",
+   "https://fmedicalpoliambulatorio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "visitamedica.it",
+  "nome": "visitamedica.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://visitamedica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://visitamedica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

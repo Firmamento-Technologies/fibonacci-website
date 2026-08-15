@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "medicinaesteticativoli.com",
+  "nome": "Medicina Estetica Tivoli",
+  "formaSocietaria": "",
+  "partitaIva": "09527130588",
+  "telefono": "+393247873370",
+  "email": "info@imedicinaesteticativoli.com",
+  "sitoUrl": "https://medicinaesteticativoli.com/",
+  "indirizzo": "Via Giuseppe Di Vittorio 2a",
+  "cap": "00012",
+  "comune": "Villanova",
+  "provincia": "tivoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticativoli.com/",
+   "https://medicinaesteticativoli.com/chi-siamo/",
+   "https://medicinaesteticativoli.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pagantattoo.it",
+  "nome": "Arte e Inchiostro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://pagantattoo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "tivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://pagantattoo.it/",
+   "https://pagantattoo.it/contatto/",
+   "https://pagantattoo.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticodreamsmile.it",
+  "nome": "Studio Dentistico Dreamsmile |Dott. Pellegrino e Dott.ssa Monnanni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39064440065",
+  "email": "",
+  "sitoUrl": "https://studiodentisticodreamsmile.it/",
+  "indirizzo": "Viale Ippocrate, 73",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "tivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiodentisticodreamsmile.it/",
+   "https://studiodentisticodreamsmile.it/contatti-dream-smile-roma-piazza-bologna/",
+   "https://studiodentisticodreamsmile.it/contatti-dream-smile-tivoli/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

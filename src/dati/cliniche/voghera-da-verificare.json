@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "centroesteticovoghera.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390383366407",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticovoghera.it/",
+  "indirizzo": "piazza Castello al n. 10",
+  "cap": "27058",
+  "comune": "",
+  "provincia": "voghera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticovoghera.it/",
+   "https://www.centroesteticovoghera.it/dove-siamo",
+   "https://www.centroesteticovoghera.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sangiorgioclinic.com",
+  "nome": "San Giorgio Clinic",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13767560967",
+  "telefono": "",
+  "email": "segreteria@sangiorgioclinic.com",
+  "sitoUrl": "https://sangiorgioclinic.com/",
+  "indirizzo": "Via Matteotti 38",
+  "cap": "27058",
+  "comune": "Voghera",
+  "provincia": "voghera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://sangiorgioclinic.com/",
+   "https://sangiorgioclinic.com/orari-e-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

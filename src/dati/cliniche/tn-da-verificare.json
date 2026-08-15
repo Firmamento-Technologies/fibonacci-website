@@ -1,0 +1,222 @@
+[
+ {
+  "dominio": "cds.it",
+  "nome": "Poliambulatori specialistici e odontoiatrici",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02193240997",
+  "telefono": "+390109641083",
+  "email": "",
+  "sitoUrl": "https://cds.it/",
+  "indirizzo": "Via Giuseppe Verdi 6",
+  "cap": "17021",
+  "comune": "Vedi",
+  "provincia": "tn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cds.it/",
+   "https://cds.it/contatti/",
+   "https://cds.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "epilaserstudio.com",
+  "nome": "Epilaser Studio Trento",
+  "formaSocietaria": "",
+  "partitaIva": "02741030221",
+  "telefono": "",
+  "email": "info@epilaserstudio.com",
+  "sitoUrl": "https://epilaserstudio.com/",
+  "indirizzo": "Via Gorizia 46",
+  "cap": "38122",
+  "comune": "TRENTO",
+  "provincia": "tn",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://epilaserstudio.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticaavanzatatrento.it",
+  "nome": "Beauty&Mind Studio Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02726240225",
+  "telefono": "+393200637775",
+  "email": "",
+  "sitoUrl": "https://esteticaavanzatatrento.it/",
+  "indirizzo": "Via Bassa, 42",
+  "cap": "38121",
+  "comune": "Trento",
+  "provincia": "tn",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://esteticaavanzatatrento.it/",
+   "https://esteticaavanzatatrento.it/chi-siamo/",
+   "https://esteticaavanzatatrento.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticaloren.it",
+  "nome": "Centro Estetico Loren: la tua estetista a Trento da più di 20 anni!",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticaloren.it/",
+  "indirizzo": "",
+  "cap": "38122",
+  "comune": "Trento",
+  "provincia": "tn",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaloren.it/",
+   "https://esteticaloren.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticamaia.com",
+  "nome": "Estetica MAIA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@esteticamaia.com",
+  "sitoUrl": "https://esteticamaia.com/",
+  "indirizzo": "Via San Pio X, 3",
+  "cap": "38100",
+  "comune": "Trento",
+  "provincia": "tn",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamaia.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "hintimepointtrento.it",
+  "nome": "Centro Estetico Polispecialistico Hintime Point Beauty Bos",
+  "formaSocietaria": "",
+  "partitaIva": "02623800220",
+  "telefono": "+390461529765",
+  "email": "",
+  "sitoUrl": "https://hintimepointtrento.it/",
+  "indirizzo": "Via Giambattista Unterveger 24",
+  "cap": "38123",
+  "comune": "Trento",
+  "provincia": "tn",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://hintimepointtrento.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "iltrentinoshopping.it",
+  "nome": "Trentino Shopping",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://iltrentinoshopping.it/",
+  "indirizzo": "Via Cismon 10",
+  "cap": "38068",
+  "comune": "ROVERETO",
+  "provincia": "tn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://iltrentinoshopping.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "trattamentivisotrento.it",
+  "nome": "Trattamenti Viso Trento Mattia Malpaga",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390461983416",
+  "email": "",
+  "sitoUrl": "https://trattamentivisotrento.it/",
+  "indirizzo": "Via del Brennero 190",
+  "cap": "38121",
+  "comune": "Trento",
+  "provincia": "tn",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://trattamentivisotrento.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

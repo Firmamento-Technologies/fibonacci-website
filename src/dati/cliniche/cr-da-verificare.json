@@ -1,0 +1,51 @@
+[
+ {
+  "dominio": "centrodea.net",
+  "nome": "Centro DeA Cremona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393289369491",
+  "email": "segreteria@centrodea.net",
+  "sitoUrl": "https://www.centrodea.net/",
+  "indirizzo": "Piazza Castello 1",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "cr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrodea.net/",
+   "https://www.centrodea.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mariomariotti.it",
+  "nome": "Mario Mariotti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mariomariotti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mariomariotti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

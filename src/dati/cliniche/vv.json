@@ -1,0 +1,168 @@
+[
+ {
+  "dominio": "clinicindex.net",
+  "nome": "Directory di cliniche per il turismo medico · ClinicIndex.Net",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinicindex.net/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicindex.net/it/",
+   "https://clinicindex.net/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giovannizoccali.com",
+  "nome": "Dottor Giovanni Zoccali Chirurgo Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "03216570808",
+  "telefono": "",
+  "email": "info@giovannizoccali.com",
+  "sitoUrl": "https://www.giovannizoccali.com/",
+  "indirizzo": "Via Domenico Muratori 10",
+  "cap": "",
+  "comune": "",
+  "provincia": "vv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Zoccali, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giovannizoccali.com/",
+   "https://www.giovannizoccali.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Zoccali, e il dominio lo ripete"
+ },
+ {
+  "dominio": "irenemegaleadvancedbeauty.com",
+  "nome": "Irene Megale Advanced Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "03643590791",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.irenemegaleadvancedbeauty.com/",
+  "indirizzo": "Via Francesco Petrarca, 35",
+  "cap": "89851",
+  "comune": "VIBO",
+  "provincia": "vv",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.irenemegaleadvancedbeauty.com/",
+   "https://www.irenemegaleadvancedbeauty.com/Privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "nuovaopinione.it",
+  "nome": "Negozi, Imprese e Servizi: pro, contro e opinioni reali",
+  "formaSocietaria": "",
+  "partitaIva": "09451510961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.nuovaopinione.it/",
+  "indirizzo": "Via Prima Villaggio Badia, 80",
+  "cap": "",
+  "comune": "",
+  "provincia": "vv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.nuovaopinione.it/",
+   "https://www.nuovaopinione.it/info/chi-siamo",
+   "https://www.nuovaopinione.it/info/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriovibo.it",
+  "nome": "Poliambulatorio Specialistico Vibonese",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01255200790",
+  "telefono": "+393996345689",
+  "email": "segreteria@poliambulatoriovibo.it",
+  "sitoUrl": "https://www.poliambulatoriovibo.it/",
+  "indirizzo": "Via Mons. O. Brindisi, 4",
+  "cap": "89900",
+  "comune": "Vibo",
+  "provincia": "vv",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.poliambulatoriovibo.it/",
+   "https://www.poliambulatoriovibo.it/index.php/privacy-policy-web/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicogrillo.it",
+  "nome": "Studio Medico Grillo Studio Medico Grillo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicogrillo.it",
+  "sitoUrl": "https://www.studiomedicogrillo.it/",
+  "indirizzo": "via Kennedy 104",
+  "cap": "89852",
+  "comune": "",
+  "provincia": "vv",
+  "prestazioni": [
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiomedicogrillo.it/",
+   "https://www.studiomedicogrillo.it/contatti/",
+   "https://www.studiomedicogrillo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

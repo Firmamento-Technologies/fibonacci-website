@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "esteticaalbachiara.it",
+  "nome": "Estetica AlbaChiara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393519463117",
+  "email": "",
+  "sitoUrl": "https://esteticaalbachiara.it/",
+  "indirizzo": "Corso Matuzia, 187",
+  "cap": "18038",
+  "comune": "Sanremo",
+  "provincia": "sanremo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaalbachiara.it/",
+   "https://esteticaalbachiara.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticasanremo.it",
+  "nome": "Dottoressa Cavallero",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticasanremo.it/",
+  "indirizzo": "Via Roma, 70",
+  "cap": "18038",
+  "comune": "Sanremo",
+  "provincia": "sanremo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticasanremo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomarcocamerino.com",
+  "nome": "studiomarcocamerino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomarcocamerino.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sanremo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomarcocamerino.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

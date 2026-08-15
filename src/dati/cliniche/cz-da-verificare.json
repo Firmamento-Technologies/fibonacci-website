@@ -1,0 +1,97 @@
+[
+ {
+  "dominio": "contactagroup.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gioiacentroestetico.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "lacalabriashopping.it",
+  "nome": "Calabria Shopping",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lacalabriashopping.it/",
+  "indirizzo": "Via Santa Caterina 171",
+  "cap": "89122",
+  "comune": "Reggio",
+  "provincia": "cz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://lacalabriashopping.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medicoesteticomariaaiello.com",
+  "nome": "Dott.ssa Maria Aiello",
+  "formaSocietaria": "",
+  "partitaIva": "02658720798",
+  "telefono": "+390961525281",
+  "email": "",
+  "sitoUrl": "https://www.medicoesteticomariaaiello.com/",
+  "indirizzo": "Via Nazionale 64",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "cz",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicoesteticomariaaiello.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "naturbellecatanzaro.it",
+  "nome": "Centro Estetico a Catanzaro (CZ)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393401519182",
+  "email": "",
+  "sitoUrl": "https://www.naturbellecatanzaro.it/",
+  "indirizzo": "Via XX Settembre, 73",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "cz",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.naturbellecatanzaro.it/",
+   "https://www.naturbellecatanzaro.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

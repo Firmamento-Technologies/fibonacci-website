@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "lepetiteedienne.it",
+  "nome": "Le Petite Ediénne",
+  "formaSocietaria": "",
+  "partitaIva": "01197450313",
+  "telefono": "+393899319979",
+  "email": "info@lepetiteedienne.it",
+  "sitoUrl": "https://www.lepetiteedienne.it/",
+  "indirizzo": "Via Galilei, 5",
+  "cap": "34170",
+  "comune": "Gorizia",
+  "provincia": "go",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.lepetiteedienne.it/",
+   "https://www.lepetiteedienne.it/contatti/",
+   "https://www.lepetiteedienne.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "studiogorizia.it",
+  "nome": "Studio Gorizia - Professionisti del Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393425062511",
+  "email": "",
+  "sitoUrl": "https://www.studiogorizia.it/",
+  "indirizzo": "Via Gorizia 19",
+  "cap": "20021",
+  "comune": "Baranzate",
+  "provincia": "go",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiogorizia.it/",
+   "https://www.studiogorizia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

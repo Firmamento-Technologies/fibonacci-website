@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "anastasiarizzi.com",
+  "nome": "Centro estetico e Dermopigmentazione a Bitonto e Bari",
+  "formaSocietaria": "",
+  "partitaIva": "08218690728",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://anastasiarizzi.com/",
+  "indirizzo": "Via Gen. Francesco Planelli, 36",
+  "cap": "",
+  "comune": "",
+  "provincia": "bitonto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://anastasiarizzi.com/",
+   "https://anastasiarizzi.com/policies/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromedicosms.it",
+  "nome": "Centro Medico SMS",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07548000723",
+  "telefono": "+390803735652",
+  "email": "info@centromedicosms.it",
+  "sitoUrl": "https://www.centromedicosms.it/",
+  "indirizzo": "Via Amm. Vacca 111",
+  "cap": "70032",
+  "comune": "",
+  "provincia": "bitonto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicosms.it/",
+   "https://www.centromedicosms.it/contatti/",
+   "https://www.centromedicosms.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

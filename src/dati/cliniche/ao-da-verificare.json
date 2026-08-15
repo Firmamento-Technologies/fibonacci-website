@@ -1,0 +1,122 @@
+[
+ {
+  "dominio": "aosta.bakeca.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "beautymedaosta.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticakace.com",
+  "nome": "Centro estetica avanzata ad Aosta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393756575885",
+  "email": "",
+  "sitoUrl": "https://www.esteticakace.com/",
+  "indirizzo": "Via Losanna, 7",
+  "cap": "11100",
+  "comune": "AOSTA",
+  "provincia": "ao",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticakace.com/",
+   "https://www.esteticakace.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticarosanna.com",
+  "nome": "Estetica Rosanna",
+  "formaSocietaria": "",
+  "partitaIva": "00458130077",
+  "telefono": "+390165361314",
+  "email": "info@esteticarosanna.com",
+  "sitoUrl": "https://www.esteticarosanna.com/",
+  "indirizzo": "Via Vevey, 19",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "ao",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticarosanna.com/",
+   "https://www.esteticarosanna.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "europesays.com",
+  "nome": "EUROPE SAYS",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.europesays.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ao",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.europesays.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "maisondecharmeaosta.it",
+  "nome": "Maison De Charme",
+  "formaSocietaria": "",
+  "partitaIva": "11132990018",
+  "telefono": "+393406175882",
+  "email": "",
+  "sitoUrl": "https://www.maisondecharmeaosta.it/",
+  "indirizzo": "",
+  "cap": "11020",
+  "comune": "Charvensod",
+  "provincia": "ao",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.maisondecharmeaosta.it/",
+   "https://www.maisondecharmeaosta.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

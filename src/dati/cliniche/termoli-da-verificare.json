@@ -1,0 +1,167 @@
+[
+ {
+  "dominio": "beautechic.it",
+  "nome": "Beautè Chic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://beautechic.it/",
+  "indirizzo": "Via Inghilterra, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "termoli",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://beautechic.it/",
+   "https://beautechic.it/index.php/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bodyharmonyestetica.it",
+  "nome": "Body Harmony",
+  "formaSocietaria": "",
+  "partitaIva": "00737140707",
+  "telefono": "+390875705355",
+  "email": "",
+  "sitoUrl": "https://www.bodyharmonyestetica.it/",
+  "indirizzo": "Via Martiri della Resistenza, 61",
+  "cap": "86039",
+  "comune": "Termoli",
+  "provincia": "termoli",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bodyharmonyestetica.it/",
+   "https://www.bodyharmonyestetica.it/contatti.html",
+   "https://www.bodyharmonyestetica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticosilmar.com",
+  "nome": "Centro Estetico Silmar",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroesteticosilmar.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "termoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://centroesteticosilmar.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "dentista-termoli.it",
+  "nome": "Studio Dentistico del dott. William Susi",
+  "formaSocietaria": "",
+  "partitaIva": "01449110707",
+  "telefono": "+390875701351",
+  "email": "",
+  "sitoUrl": "https://www.dentista-termoli.it/",
+  "indirizzo": "Via Alcide De Gasperi 59",
+  "cap": "86039",
+  "comune": "Termoli",
+  "provincia": "termoli",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dentista-termoli.it/",
+   "https://www.dentista-termoli.it/chi-siamo/",
+   "https://www.dentista-termoli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottdeltorto.com",
+  "nome": "Dr. Giuseppe Del Torto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390875865164",
+  "email": "",
+  "sitoUrl": "https://www.dottdeltorto.com/",
+  "indirizzo": "Via Corsica 40",
+  "cap": "86039",
+  "comune": "Termoli",
+  "provincia": "termoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottdeltorto.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ke-estetica.it",
+  "nome": "Ke Estetica is under construction",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ke-estetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "termoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ke-estetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

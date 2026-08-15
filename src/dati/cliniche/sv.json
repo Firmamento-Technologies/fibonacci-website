@@ -1,0 +1,140 @@
+[
+ {
+  "dominio": "centroesteticosavona.it",
+  "nome": "Centro Estetico Savona",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01795720083",
+  "telefono": "+390192042540",
+  "email": "",
+  "sitoUrl": "https://centroesteticosavona.it/",
+  "indirizzo": "Largo delle Coffe 5",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "sv",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centroesteticosavona.it/",
+   "https://centroesteticosavona.it/contatti/",
+   "https://centroesteticosavona.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicominerva.it",
+  "nome": "Centro medico minerva",
+  "formaSocietaria": "",
+  "partitaIva": "01635710096",
+  "telefono": "+390199388003",
+  "email": "info@centromedicominerva.it",
+  "sitoUrl": "https://centromedicominerva.it/",
+  "indirizzo": "Piazza Ilaria Alpi 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "sv",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centromedicominerva.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gekoestetica.com",
+  "nome": "GEKO Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02767130996",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gekoestetica.com/it/",
+  "indirizzo": "Via Alessandro Volta 15",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "sv",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://gekoestetica.com/it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "igeasavona.it",
+  "nome": "IGEA Savona",
+  "formaSocietaria": "",
+  "partitaIva": "01556860094",
+  "telefono": "",
+  "email": "info@igeasavona.it",
+  "sitoUrl": "https://www.igeasavona.it/",
+  "indirizzo": "via Ratti 2",
+  "cap": "17100",
+  "comune": "Savona",
+  "provincia": "sv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.igeasavona.it/",
+   "https://www.igeasavona.it/dove-siamo/",
+   "https://www.igeasavona.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rossidottpaolo.com",
+  "nome": "Estetica Trattamenti Corpo e Viso",
+  "formaSocietaria": "",
+  "partitaIva": "01214060095",
+  "telefono": "",
+  "email": "info@rossidottpaolo.com",
+  "sitoUrl": "https://rossidottpaolo.com/",
+  "indirizzo": "Via Giovanni Servettaz, 6",
+  "cap": "17100",
+  "comune": "Savona",
+  "provincia": "sv",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://rossidottpaolo.com/",
+   "https://rossidottpaolo.com/contatti",
+   "https://rossidottpaolo.com/index.php/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

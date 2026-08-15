@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "centromedicogalileiavola.it",
+  "nome": "Centro Medico: prestazioni specialistiche e diagnosi ad Avola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390931832994",
+  "email": "",
+  "sitoUrl": "https://www.centromedicogalileiavola.it/",
+  "indirizzo": "Via Galileo Galilei 118",
+  "cap": "96012",
+  "comune": "Avola",
+  "provincia": "avola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicogalileiavola.it/",
+   "https://www.centromedicogalileiavola.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermatologo-gangemi.com",
+  "nome": "Dr. Giovanni Gangemi",
+  "formaSocietaria": "",
+  "partitaIva": "01148350893",
+  "telefono": "+390931832994",
+  "email": "",
+  "sitoUrl": "https://www.dermatologo-gangemi.com/",
+  "indirizzo": "Via Galileo Galilei 118",
+  "cap": "96012",
+  "comune": "Avola",
+  "provincia": "avola",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Gangemi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologo-gangemi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gianfrancocancemi.com",
+  "nome": "Dr. Gianfranco Cancemi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gianfrancocancemi.com/",
+  "indirizzo": "Via Roma 54",
+  "cap": "",
+  "comune": "",
+  "provincia": "avola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianfranco Cancemi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://gianfrancocancemi.com/",
+   "https://gianfrancocancemi.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianfranco Cancemi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "ilsognodimary.it",
+  "nome": "Il Sogno di Mary",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390931562127",
+  "email": "",
+  "sitoUrl": "https://www.ilsognodimary.it/",
+  "indirizzo": "",
+  "cap": "96012",
+  "comune": "Avola",
+  "provincia": "avola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ilsognodimary.it/",
+   "https://www.ilsognodimary.it/chi-siamo/",
+   "https://www.ilsognodimary.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

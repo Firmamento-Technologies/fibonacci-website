@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "dottoressa-agataborsella.it",
+  "nome": "Dottoressa Agata Borsella",
+  "formaSocietaria": "",
+  "partitaIva": "01833890195",
+  "telefono": "+393497166855",
+  "email": "",
+  "sitoUrl": "https://www.dottoressa-agataborsella.it/",
+  "indirizzo": "Via Giovanni Cadolini 15",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "cremona",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Agata Borsella, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoressa-agataborsella.it/",
+   "https://www.dottoressa-agataborsella.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ghcspa.com",
+  "nome": "Garofalo Health Care",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03831150366",
+  "telefono": "",
+  "email": "info@garofalohealthcare.com",
+  "sitoUrl": "https://www.ghcspa.com/garofalohealthcare",
+  "indirizzo": "Piazzale Belle Arti, 6",
+  "cap": "00196",
+  "comune": "Roma",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ghcspa.com/garofalohealthcare",
+   "https://www.ghcspa.com/garofalohealthcare/chi-siamo",
+   "https://www.ghcspa.com/garofalohealthcare/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "riccardolucchesi.it",
+  "nome": "Dott. Riccardo Lucchesi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393394554080",
+  "email": "",
+  "sitoUrl": "https://www.riccardolucchesi.it/",
+  "indirizzo": "Viale Regina Margherita 28",
+  "cap": "",
+  "comune": "",
+  "provincia": "cremona",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Riccardo Lucchesi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.riccardolucchesi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Riccardo Lucchesi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "stomatologicocremonese.com",
+  "nome": "Poliambulatorio Stomatologico di Cremona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00913630190",
+  "telefono": "",
+  "email": "info@stomatologicocremonese.it",
+  "sitoUrl": "https://www.stomatologicocremonese.com/",
+  "indirizzo": "P.zza Libertà, 24",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.stomatologicocremonese.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

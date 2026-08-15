@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "aldamartini.it",
+  "nome": "Specialista in Medicina Estetica Pisa",
+  "formaSocietaria": "",
+  "partitaIva": "01741730137",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://aldamartini.it/",
+  "indirizzo": "Via Tosco Romagnola, 927",
+  "cap": "56021",
+  "comune": "San",
+  "provincia": "pisa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alda Martini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://aldamartini.it/",
+   "https://aldamartini.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alda Martini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "dentistibandettini.it",
+  "nome": "Studio Odontoiatrico Bandettini: Il Tuo Dentista A Pisa",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02551380500",
+  "telefono": "+3905042235",
+  "email": "",
+  "sitoUrl": "https://dentistibandettini.it/",
+  "indirizzo": "Corso Italia, 178",
+  "cap": "56125",
+  "comune": "Pisa",
+  "provincia": "pisa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Bandettini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dentistibandettini.it/",
+   "https://dentistibandettini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottorlicata.it",
+  "nome": "Dottor Giovanni Licata",
+  "formaSocietaria": "",
+  "partitaIva": "02203700501",
+  "telefono": "+393926587507",
+  "email": "info@dottorlicata.it",
+  "sitoUrl": "https://dottorlicata.it/",
+  "indirizzo": "Via Antonio Gramsci, 29",
+  "cap": "45125",
+  "comune": "NOTE",
+  "provincia": "pisa",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://dottorlicata.it/",
+   "https://dottorlicata.it/contattami/",
+   "https://dottorlicata.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "unipegasopisa.com",
+  "nome": "Unipegaso Pisa",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02956140848",
+  "telefono": "",
+  "email": "info@toniolouniversity.it",
+  "sitoUrl": "https://unipegasopisa.com/",
+  "indirizzo": "Via Filippo Turati, 36",
+  "cap": "56125",
+  "comune": "Pisa",
+  "provincia": "pisa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://unipegasopisa.com/",
+   "https://unipegasopisa.com/chi-siamo/",
+   "https://unipegasopisa.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

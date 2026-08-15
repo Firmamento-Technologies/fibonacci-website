@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "fridaestetica.it",
+  "nome": "Frida Estetica e Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@fridaestetica.it",
+  "sitoUrl": "https://www.fridaestetica.it/",
+  "indirizzo": "Via Egidio Gorra, 15",
+  "cap": "29122",
+  "comune": "Piacenza",
+  "provincia": "piacenza",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fridaestetica.it/",
+   "https://www.fridaestetica.it/privacy-policy/",
+   "https://www.fridaestetica.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "cmmbari.it",
+  "nome": "CMM",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07285550724",
+  "telefono": "+390805794921",
+  "email": "segreteria@cmmbari.it",
+  "sitoUrl": "https://www.cmmbari.it/",
+  "indirizzo": "Via Melo da Bari, 159",
+  "cap": "70121",
+  "comune": "Bari",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cmmbari.it/",
+   "https://www.cmmbari.it/chi-siamo/",
+   "https://www.cmmbari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "safemedicalcenter.it",
+  "nome": "Safe Medical Center Bari",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08279880721",
+  "telefono": "",
+  "email": "info@safemedicalcenter.it",
+  "sitoUrl": "https://www.safemedicalcenter.it/",
+  "indirizzo": "Viale Japigia 143",
+  "cap": "70126",
+  "comune": "Bari",
+  "provincia": "bari",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.safemedicalcenter.it/",
+   "https://www.safemedicalcenter.it/prenotazioni-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

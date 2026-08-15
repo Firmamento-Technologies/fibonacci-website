@@ -1,0 +1,241 @@
+[
+ {
+  "dominio": "aldal.it",
+  "nome": "Aldal.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05408000288",
+  "telefono": "",
+  "email": "info@toplocalpro.it",
+  "sitoUrl": "https://www.aldal.it/",
+  "indirizzo": "",
+  "cap": "35129",
+  "comune": "PADOVA",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.aldal.it/",
+   "https://www.aldal.it/2026/05/28/hotel-desenzano-privacy-spa-e-romanticismo-vicino-al-lago/",
+   "https://www.iubenda.com/privacy-policy/81424940"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "altraopinione.org",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "armonismed.it",
+  "nome": "ArmonisMed Arezzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390575299358",
+  "email": "",
+  "sitoUrl": "https://armonismed.it/",
+  "indirizzo": "Via Crispi 33",
+  "cap": "52100",
+  "comune": "Arezzo",
+  "provincia": "ar",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://armonismed.it/",
+   "https://armonismed.it/contatti-armonismed/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroequipedentale.it",
+  "nome": "centroequipedentale.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroequipedentale.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroequipedentale.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticaarezzo.it",
+  "nome": "Centro di Est-ETICA",
+  "formaSocietaria": "",
+  "partitaIva": "01789220512",
+  "telefono": "+390575355980",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticaarezzo.it/",
+  "indirizzo": "Via Frà Guittone, 18",
+  "cap": "52100",
+  "comune": "Arezzo",
+  "provincia": "ar",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centroesteticaarezzo.it/",
+   "https://www.centroesteticaarezzo.it/chi-siamo",
+   "https://www.centroesteticaarezzo.it/dove-siamo-contatti-1"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dottorlaurentiandrea.it",
+  "nome": "Dentista Arezzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393488110448",
+  "email": "info@dottorlaurentiandrea.it",
+  "sitoUrl": "https://dottorlaurentiandrea.it/",
+  "indirizzo": "Viale Michelangelo 100",
+  "cap": "52100",
+  "comune": "Indirizzo",
+  "provincia": "ar",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottorlaurentiandrea.it/",
+   "https://dottorlaurentiandrea.it/contatti/",
+   "https://dottorlaurentiandrea.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "earpower.it",
+  "nome": "Earpower.it -",
+  "formaSocietaria": "",
+  "partitaIva": "04468170289",
+  "telefono": "",
+  "email": "info@sltservice.it",
+  "sitoUrl": "https://www.earpower.it/",
+  "indirizzo": "Piazza Bologna: percorso clinico e digitale 2",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "ar",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.earpower.it/",
+   "https://www.earpower.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "italy.worldplaces.me",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticacaroni.com",
+  "nome": "Dott. Matteo Caroni",
+  "formaSocietaria": "",
+  "partitaIva": "01485910523",
+  "telefono": "+3905771645560",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticacaroni.com/",
+  "indirizzo": "Via Andrea della Robbia 46",
+  "cap": "52100",
+  "comune": "Arezzo",
+  "provincia": "ar",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticacaroni.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiocuciti.it",
+  "nome": "Studio Medico Cuciti",
+  "formaSocietaria": "",
+  "partitaIva": "02221910512",
+  "telefono": "",
+  "email": "info@studiocuciti.it",
+  "sitoUrl": "https://www.studiocuciti.it/",
+  "indirizzo": "Via Campo di Marte 11",
+  "cap": "52100",
+  "comune": "Arezzo",
+  "provincia": "ar",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiocuciti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

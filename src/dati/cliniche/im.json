@@ -1,0 +1,262 @@
+[
+ {
+  "dominio": "andreacorbo.it",
+  "nome": "Andrea Corbo Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "06536971002",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.andreacorbo.it/",
+  "indirizzo": "Via Cassia 1840",
+  "cap": "",
+  "comune": "",
+  "provincia": "im",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Corbo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.andreacorbo.it/",
+   "https://www.andreacorbo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Corbo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centroesteticoimperia.it",
+  "nome": "Centro Estetico Imperia",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01795720083",
+  "telefono": "+3901831970110",
+  "email": "",
+  "sitoUrl": "https://centroesteticoimperia.it/",
+  "indirizzo": "Via Foce 31",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "im",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centroesteticoimperia.it/",
+   "https://centroesteticoimperia.it/contatti/",
+   "https://centroesteticoimperia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaesteticaimperia.it",
+  "nome": "Dottor Fabio Sasso",
+  "formaSocietaria": "",
+  "partitaIva": "10811570018",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticaimperia.it/",
+  "indirizzo": "Via Carlo Imbonati, 18",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "im",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticaimperia.it/",
+   "https://www.chirurgiaesteticaimperia.it/contatti/",
+   "https://www.chirurgiaesteticaimperia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "duerrecentromedico.it",
+  "nome": "DUERRE",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01677760082",
+  "telefono": "",
+  "email": "info@duerrecentromedico.it",
+  "sitoUrl": "https://www.duerrecentromedico.it/",
+  "indirizzo": "Piazza Rossini, 4",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "im",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.duerrecentromedico.it/",
+   "https://www.duerrecentromedico.it/chi-siamo/",
+   "https://www.duerrecentromedico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticablueden.it",
+  "nome": "Estetica Blu Eden Imperia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01840750085",
+  "telefono": "+390183767993",
+  "email": "amministrazione@esteticablueden.it",
+  "sitoUrl": "https://www.esteticablueden.it/",
+  "indirizzo": "Via Argine Destro, 307",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "im",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticablueden.it/",
+   "https://www.esteticablueden.it/chi-siamo",
+   "https://www.esteticablueden.it/policy-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fabiolamartucci.com",
+  "nome": "Istituto di Benessere a Imperia",
+  "formaSocietaria": "",
+  "partitaIva": "01572230082",
+  "telefono": "+393807514507",
+  "email": "info@fabiolamartucci.com",
+  "sitoUrl": "https://www.fabiolamartucci.com/",
+  "indirizzo": "Viale Matteotti,66",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "im",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.fabiolamartucci.com/",
+   "https://www.fabiolamartucci.com/chi-siamo/",
+   "https://www.fabiolamartucci.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "imperiaclinica.com",
+  "nome": "imperiaclinica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://imperiaclinica.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "im",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://imperiaclinica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "obiettivoforma.it",
+  "nome": "Obiettivo Forma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@obiettivoforma.it",
+  "sitoUrl": "https://obiettivoforma.it/",
+  "indirizzo": "Via Manzoni, 37",
+  "cap": "18100",
+  "comune": "Imperia",
+  "provincia": "im",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://obiettivoforma.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "prontopro.it",
+  "nome": "ProntoPro: Trova professionisti e confronta preventivi",
+  "formaSocietaria": "",
+  "partitaIva": "09004310968",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://prontopro.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "im",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://prontopro.it/",
+   "https://prontopro.it/about-us",
+   "https://prontopro.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

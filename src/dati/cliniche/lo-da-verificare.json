@@ -1,0 +1,105 @@
+[
+ {
+  "dominio": "amame.it",
+  "nome": "Centro Estetico Lodi - WordPress Description",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.amame.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.amame.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticasmartlodi.it",
+  "nome": "esteticasmartlodi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticasmartlodi.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticasmartlodi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "estetistavisavis.it",
+  "nome": "Centro estetico a Lodi (LO)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393314654573",
+  "email": "",
+  "sitoUrl": "https://www.estetistavisavis.it/",
+  "indirizzo": "Piazzale Fiume, 17",
+  "cap": "26900",
+  "comune": "IT",
+  "provincia": "lo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.estetistavisavis.it/",
+   "https://www.estetistavisavis.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicodivino.it",
+  "nome": "Studio Medico Divino",
+  "formaSocietaria": "",
+  "partitaIva": "04459340966",
+  "telefono": "",
+  "email": "segreteria.smdivino@gmail.com",
+  "sitoUrl": "https://www.studiomedicodivino.it/",
+  "indirizzo": "Via D. Codazzi, 13",
+  "cap": "26900",
+  "comune": "Lodi",
+  "provincia": "lo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicodivino.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

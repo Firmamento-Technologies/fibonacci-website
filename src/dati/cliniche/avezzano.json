@@ -1,0 +1,172 @@
+[
+ {
+  "dominio": "centromedicoavezzano.it",
+  "nome": "Centro Medico Avezzano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390863411858",
+  "email": "info@centromedicoavezzano.it",
+  "sitoUrl": "https://www.centromedicoavezzano.it/",
+  "indirizzo": "Via Ezio Tarantelli, 1",
+  "cap": "67051",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoavezzano.it/",
+   "https://www.centromedicoavezzano.it/contatti/",
+   "https://www.centromedicoavezzano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "domenicopiccolodermatologo.it",
+  "nome": "Benvenuti da Domenico Piccolo Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "01527680662",
+  "telefono": "",
+  "email": "info@skincenters.it",
+  "sitoUrl": "https://www.domenicopiccolodermatologo.it/",
+  "indirizzo": "Via Saragat 51",
+  "cap": "67051",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Domenico Piccolo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.domenicopiccolodermatologo.it/",
+   "https://www.domenicopiccolodermatologo.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisioterapiaavezzano.it",
+  "nome": "Fisioterapia Poliambulatorio Avezzano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fisioterapiaavezzano.it/",
+  "indirizzo": "Via Avezzano 148",
+  "cap": "",
+  "comune": "",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.fisioterapiaavezzano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "marianettimed.it",
+  "nome": "Marianetti Med",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908631825269",
+  "email": "info@website.com",
+  "sitoUrl": "https://www.marianettimed.it/",
+  "indirizzo": "Via S. Pertini 26",
+  "cap": "50041",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.marianettimed.it/",
+   "https://www.marianettimed.it/chi-siamo/",
+   "https://www.marianettimed.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "newdermavezzano.it",
+  "nome": "New Derm Beauty Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "02179180662",
+  "telefono": "+393514715310",
+  "email": "",
+  "sitoUrl": "https://www.newdermavezzano.it/",
+  "indirizzo": "Via Fratelli Rosselli 12",
+  "cap": "67051",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.newdermavezzano.it/",
+   "https://www.newdermavezzano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ninofavoriti.it",
+  "nome": "Dott. Nino Favorti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393341502910",
+  "email": "",
+  "sitoUrl": "https://www.ninofavoriti.it/",
+  "indirizzo": "Via Giovanni Pierluigi da Palestrina 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nino Favoriti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.ninofavoriti.it/",
+   "https://www.ninofavoriti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nino Favoriti, e il dominio lo ripete"
+ }
+]

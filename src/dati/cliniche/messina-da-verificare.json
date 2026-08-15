@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "centridentisticidandrea.it",
+  "nome": "Dentista a Messina e Milazzo",
+  "formaSocietaria": "",
+  "partitaIva": "03498370836",
+  "telefono": "+390902923734",
+  "email": "info@centridentisticidandrea.it",
+  "sitoUrl": "https://www.centridentisticidandrea.it/",
+  "indirizzo": "Piazza Ludovico Fulci, 283",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centridentisticidandrea.it/",
+   "https://www.centridentisticidandrea.it/contatti/",
+   "https://www.centridentisticidandrea.it/normativa-privacy-privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "ennalive.it",
+  "nome": "Enna Live",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ennalive.it/",
+  "indirizzo": "",
+  "cap": "42964",
+  "comune": "Utilizziamo",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ennalive.it/",
+   "https://www.ennalive.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "med-hub.it",
+  "nome": "MedHub",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01049040866",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://med-hub.it/",
+  "indirizzo": "Strada Comunale 89",
+  "cap": "55255",
+  "comune": "Capitale",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://med-hub.it/",
+   "https://med-hub.it/contatti/",
+   "https://med-hub.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

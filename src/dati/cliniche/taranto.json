@@ -1,0 +1,150 @@
+[
+ {
+  "dominio": "facestetiq.it",
+  "nome": "Facestetiq",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03397900733",
+  "telefono": "+393884636468",
+  "email": "",
+  "sitoUrl": "https://www.facestetiq.it/",
+  "indirizzo": "Via Dante Alighieri, 448",
+  "cap": "91025",
+  "comune": "Marsala",
+  "provincia": "taranto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.facestetiq.it/",
+   "https://www.facestetiq.it/chi-siamo/",
+   "https://www.facestetiq.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalchic.it",
+  "nome": "Medicalchic",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03515070733",
+  "telefono": "+390994004698",
+  "email": "info@medicalchic.it",
+  "sitoUrl": "https://www.medicalchic.it/",
+  "indirizzo": "Via Umbria 136",
+  "cap": "",
+  "comune": "",
+  "provincia": "taranto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medicalchic.it/",
+   "https://www.medicalchic.it/chi-siamo/",
+   "https://www.medicalchic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "nurservicetaranto.com",
+  "nome": "Nurservice Taranto",
+  "formaSocietaria": "",
+  "partitaIva": "02861990733",
+  "telefono": "+393442006885",
+  "email": "info@nurservicetaranto.com",
+  "sitoUrl": "https://www.nurservicetaranto.com/",
+  "indirizzo": "Via Campania, 62",
+  "cap": "74121",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.nurservicetaranto.com/",
+   "https://www.nurservicetaranto.com/chi-siamo/",
+   "https://www.nurservicetaranto.com/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sosmedico.org",
+  "nome": "Poliambulatorio Multispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "10713970969",
+  "telefono": "",
+  "email": "info@sosmedico.org",
+  "sitoUrl": "https://www.sosmedico.org/",
+  "indirizzo": "Via Calamandrei, 7",
+  "cap": "74121",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.sosmedico.org/",
+   "https://www.sosmedico.org/contatti/",
+   "https://www.sosmedico.org/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticovozza.it",
+  "nome": "Dentista a Taranto",
+  "formaSocietaria": "",
+  "partitaIva": "03222800736",
+  "telefono": "+390994526281",
+  "email": "",
+  "sitoUrl": "https://studiodentisticovozza.it/",
+  "indirizzo": "Via Pitagora, 67",
+  "cap": "74123",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://studiodentisticovozza.it/",
+   "https://studiodentisticovozza.it/chi-siamo/",
+   "https://studiodentisticovozza.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

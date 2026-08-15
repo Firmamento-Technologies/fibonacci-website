@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "aureusanzio.it",
+  "nome": "aureusanzio.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393939796213",
+  "email": "",
+  "sitoUrl": "https://www.aureusanzio.it/",
+  "indirizzo": "Via Ardeatina, 373",
+  "cap": "00042",
+  "comune": "",
+  "provincia": "anzio",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aureusanzio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eleonoracasilli.it",
+  "nome": "Eleonora Casilli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393515754267",
+  "email": "info@raffaellacasilli.com",
+  "sitoUrl": "https://eleonoracasilli.it/",
+  "indirizzo": "Piazza Lavinia, 15",
+  "cap": "00042",
+  "comune": "Anzio",
+  "provincia": "anzio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://eleonoracasilli.it/",
+   "https://eleonoracasilli.it/contatti/",
+   "https://eleonoracasilli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "youritaly.it",
+  "nome": "Youritaly.it",
+  "formaSocietaria": "",
+  "partitaIva": "14479891005",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.youritaly.it/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "anzio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.youritaly.it/it/",
+   "https://www.youritaly.it/it/about/inserisci-attivita",
+   "https://www.youritaly.it/it/about/logo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

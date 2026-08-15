@@ -1,0 +1,360 @@
+[
+ {
+  "dominio": "boninomedicinaestetica.it",
+  "nome": "Home ⋆ Bonino Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01553170059",
+  "telefono": "+393248963319",
+  "email": "segreteria@boninomedicinaestetica.it",
+  "sitoUrl": "https://boninomedicinaestetica.it/",
+  "indirizzo": "Corso V. Alfieri, 209",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "fc",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://boninomedicinaestetica.it/",
+   "https://boninomedicinaestetica.it/cookie-e-privacy/",
+   "https://boninomedicinaestetica.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cocooncentroestetico.it",
+  "nome": "Cocoon Center Centro estetico Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "04089700407",
+  "telefono": "+39054362599",
+  "email": "info@cocooncentroestetico.it",
+  "sitoUrl": "https://cocooncentroestetico.it/",
+  "indirizzo": "V.le Roma, 35",
+  "cap": "47122",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://cocooncentroestetico.it/",
+   "https://cocooncentroestetico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressafrancescalolli.com",
+  "nome": "Dott.ssa Francesca Lolli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393338083157",
+  "email": "",
+  "sitoUrl": "https://www.dottoressafrancescalolli.com/",
+  "indirizzo": "Viale Lodovico Antonio Muratori 61",
+  "cap": "41124",
+  "comune": "Modena",
+  "provincia": "fc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesca Lolli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoressafrancescalolli.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "hemediclinic.com",
+  "nome": "He mediclinic&beauty",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.hemediclinic.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.hemediclinic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "kimeya.it",
+  "nome": "Kimeya",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03462890405",
+  "telefono": "+390547610024",
+  "email": "info.cesena@kimeya.it",
+  "sitoUrl": "https://www.kimeya.it/",
+  "indirizzo": "Via Giordano Bruno, 160",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "fc",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.kimeya.it/",
+   "https://www.kimeya.it/contatti/",
+   "https://www.kimeya.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "news.ospedaliprivatiforli.it",
+  "nome": "News",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ospedaliprivatiforli.it",
+  "sitoUrl": "https://news.ospedaliprivatiforli.it/",
+  "indirizzo": "Via Felice Luigi Balassi 6",
+  "cap": "47122",
+  "comune": "Direttore",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://news.ospedaliprivatiforli.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ospedaliprivatiforli.it",
+  "nome": "Ospedali Privati Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ospedaliprivatiforli.it",
+  "sitoUrl": "https://www.ospedaliprivatiforli.it/",
+  "indirizzo": "Via del Camaldolino 8",
+  "cap": "47121",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ospedaliprivatiforli.it/",
+   "https://www.ospedaliprivatiforli.it/gruppo/privacy-e-informative/",
+   "https://www.ospedaliprivatiforli.it/sedi/villa-serena/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriokripton.it",
+  "nome": "Poliambulatorio plurispecialistico e fisioterapico Kripton Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "03198560405",
+  "telefono": "+39054332044",
+  "email": "info@poliambulatoriokripton.it",
+  "sitoUrl": "https://www.poliambulatoriokripton.it/",
+  "indirizzo": "Via Palazzola, 11",
+  "cap": "47121",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliambulatoriokripton.it/",
+   "https://www.poliambulatoriokripton.it/chi-siamo/",
+   "https://www.poliambulatoriokripton.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "puntosalutedavi.it",
+  "nome": "Poliambulatorio a Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "04335750404",
+  "telefono": "+390543370026",
+  "email": "",
+  "sitoUrl": "https://www.puntosalutedavi.it/",
+  "indirizzo": "Via Alfredo Oriani, 1",
+  "cap": "47122",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.puntosalutedavi.it/",
+   "https://www.puntosalutedavi.it/contatti/",
+   "https://www.puntosalutedavi.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "raffaellaramenghi.com",
+  "nome": "| Dott.ssa Raffaella Ramenghi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.raffaellaramenghi.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Raffaella Ramenghi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.raffaellaramenghi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaella Ramenghi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "skinclinic-italia.eu",
+  "nome": "Skin Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390543490895",
+  "email": "info@centropolispecialisticoiris.it",
+  "sitoUrl": "https://www.skinclinic-italia.eu/",
+  "indirizzo": "Via Ciro Menotti 9",
+  "cap": "47014",
+  "comune": "Meldola",
+  "provincia": "fc",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.skinclinic-italia.eu/",
+   "https://www.skinclinic-italia.eu/informazioni-e-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "spiiky.com",
+  "nome": "I coupon delle migliori Offerte",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.spiiky.com/shopping-card",
+  "indirizzo": "Via Natale Battaglia 12",
+  "cap": "20127",
+  "comune": "Milano",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.spiiky.com/shopping-card",
+   "https://www.spiiky.com/about/privati",
+   "https://www.spiiky.com/about/utilizzo-coupon"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioodontoiatricogrilli.it",
+  "nome": "Studio Odontoiatrico Grilli a Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "04759430400",
+  "telefono": "+39054334246",
+  "email": "info@studioodontoiatricogrilli.it",
+  "sitoUrl": "https://www.studioodontoiatricogrilli.it/",
+  "indirizzo": "Viale Italia 153",
+  "cap": "47121",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studioodontoiatricogrilli.it/",
+   "https://www.studioodontoiatricogrilli.it/contatti-dentista-forli/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

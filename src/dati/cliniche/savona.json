@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "andreasasso.it",
+  "nome": "Dr. Andrea Sasso",
+  "formaSocietaria": "",
+  "partitaIva": "01678150093",
+  "telefono": "",
+  "email": "info@andreasasso.it",
+  "sitoUrl": "https://www.andreasasso.it/",
+  "indirizzo": "Via Giordano, 1",
+  "cap": "17025",
+  "comune": "Loano",
+  "provincia": "savona",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Sasso, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.andreasasso.it/",
+   "https://www.andreasasso.it/contatti/",
+   "https://www.andreasasso.it/informativa-privacy-gdpr/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Sasso, e il dominio lo ripete"
+ }
+]

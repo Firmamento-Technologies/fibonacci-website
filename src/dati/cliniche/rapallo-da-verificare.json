@@ -1,0 +1,50 @@
+[
+ {
+  "dominio": "asl4.liguria.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "centrolinea.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottorannaolivari.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "fabiomichelinichirurgia.com",
+  "nome": "Chirurgo Plastico ed Estetico ⋆ Fabio Michelini Chirurgia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393356771545",
+  "email": "info@fabiomichelinichirurgia.com",
+  "sitoUrl": "https://fabiomichelinichirurgia.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rapallo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fabiomichelinichirurgia.com/",
+   "https://fabiomichelinichirurgia.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

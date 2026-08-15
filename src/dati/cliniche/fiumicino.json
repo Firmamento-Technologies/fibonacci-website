@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "esteticamaska.com",
+  "nome": "Estetica Maska Fiumicino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@esteticamaska.com",
+  "sitoUrl": "https://www.esteticamaska.com/",
+  "indirizzo": "via Murici 8",
+  "cap": "00054",
+  "comune": "Fiumicino",
+  "provincia": "fiumicino",
+  "prestazioni": [
+   "Filler",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticamaska.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

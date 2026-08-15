@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "esteticagallarate.it",
+  "nome": "Esteticagallarate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticagallarate.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "gallarate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticagallarate.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "istitutomedicosantachiara.eu",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "life-clinique.com",
+  "nome": "Centro Estetico Trattamenti Gallarate",
+  "formaSocietaria": "",
+  "partitaIva": "03699650127",
+  "telefono": "+393494412381",
+  "email": "reception@life-clinique.com",
+  "sitoUrl": "https://life-clinique.com/",
+  "indirizzo": "Via XX Settembre, 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "gallarate",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://life-clinique.com/",
+   "https://life-clinique.com/about-us/",
+   "https://life-clinique.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "stephi.it",
+  "nome": "Stephi",
+  "formaSocietaria": "",
+  "partitaIva": "03899810125",
+  "telefono": "+393802661127",
+  "email": "info@stephi.it",
+  "sitoUrl": "https://www.stephi.it/",
+  "indirizzo": "Via Marsala 36",
+  "cap": "21013",
+  "comune": "Gallarate",
+  "provincia": "gallarate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.stephi.it/",
+   "https://www.stephi.it/contatti/",
+   "https://www.stephi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,156 @@
+[
+ {
+  "dominio": "dottoressataniashemet.it",
+  "nome": "Dott.ssa Tania Shemet",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393291797602",
+  "email": "info@dottoressataniashemet.it",
+  "sitoUrl": "https://dottoressataniashemet.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "no",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottoressataniashemet.it/",
+   "https://dottoressataniashemet.it/privacy-policy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottorlucamarini.it",
+  "nome": "Dott. Luca Marini",
+  "formaSocietaria": "",
+  "partitaIva": "10901171008",
+  "telefono": "+393314232407",
+  "email": "",
+  "sitoUrl": "https://www.dottorlucamarini.it/",
+  "indirizzo": "Via Galileo Ferraris 4",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottorlucamarini.it/",
+   "https://www.dottorlucamarini.it/contatti/",
+   "https://www.dottorlucamarini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "maggioreosp.novara.it",
+  "nome": "Ospedale Maggiore della Carità di Novara",
+  "formaSocietaria": "",
+  "partitaIva": "01521330033",
+  "telefono": "+3903213731",
+  "email": "",
+  "sitoUrl": "https://www.maggioreosp.novara.it/",
+  "indirizzo": "Corso Mazzini n.18",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.maggioreosp.novara.it/",
+   "https://www.maggioreosp.novara.it/raggiungere-le-sedi-ospedaliere-di-novara-e-galliate/",
+   "https://www.maggioreosp.novara.it/lospedale-maggiore/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "michelemagni.it",
+  "nome": "Dottor Michele Magni",
+  "formaSocietaria": "",
+  "partitaIva": "10544890154",
+  "telefono": "+39029794759",
+  "email": "",
+  "sitoUrl": "https://www.michelemagni.it/",
+  "indirizzo": "Via Fornaroli 41",
+  "cap": "20013",
+  "comune": "",
+  "provincia": "no",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.michelemagni.it/",
+   "https://www.michelemagni.it/privacy-policy/",
+   "https://www.michelemagni.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodermatologiconovarese.it",
+  "nome": "Studio Dermatologico Novarese: dermatologi a Novara",
+  "formaSocietaria": "",
+  "partitaIva": "02625270034",
+  "telefono": "+390321455838",
+  "email": "info@studiodermatologiconovarese.it",
+  "sitoUrl": "https://www.studiodermatologiconovarese.it/",
+  "indirizzo": "Via Tadini, 5",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodermatologiconovarese.it/",
+   "https://www.studiodermatologiconovarese.it/chi-siamo/",
+   "https://www.studiodermatologiconovarese.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

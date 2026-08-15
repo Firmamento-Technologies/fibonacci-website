@@ -1,0 +1,61 @@
+[
+ {
+  "dominio": "chirurgiaparise.com",
+  "nome": "Chirurgo Vicenza",
+  "formaSocietaria": "",
+  "partitaIva": "02670460241",
+  "telefono": "+393358452068",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaparise.com/",
+  "indirizzo": "Via Vecchia Ferriera, 57",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vicenza",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaparise.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "skinberica.it",
+  "nome": "Skin Berica",
+  "formaSocietaria": "",
+  "partitaIva": "02502970242",
+  "telefono": "+390444239590",
+  "email": "info@skinberica.it",
+  "sitoUrl": "https://skinberica.it/",
+  "indirizzo": "via Zamenhof 803",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vicenza",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://skinberica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

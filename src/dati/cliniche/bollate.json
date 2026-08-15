@@ -1,0 +1,196 @@
+[
+ {
+  "dominio": "centromedicocasalini.it",
+  "nome": "Centro Medico Fisioterapico Casalini",
+  "formaSocietaria": "",
+  "partitaIva": "08193620963",
+  "telefono": "",
+  "email": "info@centromedicocasalini.it",
+  "sitoUrl": "https://www.centromedicocasalini.it/",
+  "indirizzo": "via Silvio Pellico 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicocasalini.it/",
+   "https://www.centromedicocasalini.it/chi-siamo/",
+   "https://www.centromedicocasalini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centropolispecialisticoitaca.com",
+  "nome": "Centro Medico e Dentistico a Bollate (MI)",
+  "formaSocietaria": "",
+  "partitaIva": "11026260965",
+  "telefono": "+39023505947",
+  "email": "",
+  "sitoUrl": "https://www.centropolispecialisticoitaca.com/",
+  "indirizzo": "Via Silvio Pellico, 11",
+  "cap": "20021",
+  "comune": "BOLLATE",
+  "provincia": "bollate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centropolispecialisticoitaca.com/",
+   "https://www.centropolispecialisticoitaca.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ceobollate.it",
+  "nome": "C.E.O. Ambulatorio Odontoiatrico Città di Bollate",
+  "formaSocietaria": "",
+  "partitaIva": "13384610153",
+  "telefono": "+39023506005",
+  "email": "",
+  "sitoUrl": "https://ceobollate.it/",
+  "indirizzo": "Via Magenta, 14",
+  "cap": "20021",
+  "comune": "Bollate",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://ceobollate.it/",
+   "https://ceobollate.it/chi-siamo/",
+   "https://ceobollate.it/chi-siamo/qualita/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgoesteticomilano.info",
+  "nome": "CHIRURGO ESTETICO MILANO",
+  "formaSocietaria": "",
+  "partitaIva": "06882370155",
+  "telefono": "+390258300455",
+  "email": "",
+  "sitoUrl": "https://www.chirurgoesteticomilano.info/",
+  "indirizzo": "Via Carlo Crivelli 15",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.chirurgoesteticomilano.info/",
+   "https://www.chirurgoesteticomilano.info/contatti/",
+   "https://www.chirurgoesteticomilano.info/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "itacacentromedico.com",
+  "nome": "Centro Medico Dentistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09720850966",
+  "telefono": "",
+  "email": "info@itacacentromedico.com",
+  "sitoUrl": "https://www.itacacentromedico.com/",
+  "indirizzo": "Via Silvio Pellico, 11",
+  "cap": "20021",
+  "comune": "",
+  "provincia": "bollate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.itacacentromedico.com/",
+   "https://www.itacacentromedico.com/index.php/chi-siamo",
+   "https://www.itacacentromedico.com/index.php/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "melarossa.it",
+  "nome": "Melarossa: la tua dieta personalizzata",
+  "formaSocietaria": "",
+  "partitaIva": "01147141004",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.melarossa.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.melarossa.it/",
+   "https://www.melarossa.it/chi-siamo/",
+   "https://www.melarossa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriocortedellasalute.com",
+  "nome": "Corte della salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39023501312",
+  "email": "info@poliambulatoriocortedellasalute.com",
+  "sitoUrl": "https://www.poliambulatoriocortedellasalute.com/",
+  "indirizzo": "Via Magenta 61",
+  "cap": "20021",
+  "comune": "Bollate",
+  "provincia": "bollate",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriocortedellasalute.com/",
+   "https://www.poliambulatoriocortedellasalute.com/chi-siamo/",
+   "https://www.poliambulatoriocortedellasalute.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

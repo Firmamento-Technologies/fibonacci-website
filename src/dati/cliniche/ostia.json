@@ -1,0 +1,62 @@
+[
+ {
+  "dominio": "estesia.it",
+  "nome": "Estesìa",
+  "formaSocietaria": "",
+  "partitaIva": "17322651005",
+  "telefono": "+39065623973",
+  "email": "info@estesia.it",
+  "sitoUrl": "https://www.estesia.it/",
+  "indirizzo": "Via Ferdinando Acton 59",
+  "cap": "",
+  "comune": "",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.estesia.it/",
+   "https://www.estesia.it/chi-siamo",
+   "https://www.estesia.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticamarzia.com",
+  "nome": "Estetica Marzia: Centro Estetico DIBI Milano a Ostia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39065681380",
+  "email": "",
+  "sitoUrl": "https://www.esteticamarzia.com/",
+  "indirizzo": "Via Fiamme Gialle 37",
+  "cap": "",
+  "comune": "",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticamarzia.com/",
+   "https://www.esteticamarzia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

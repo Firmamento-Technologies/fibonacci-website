@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "centroesteticocaprice.it",
+  "nome": "Centro Estetico e Profumeria Pozzuoli Caprice",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticocaprice.it/",
+  "indirizzo": "C.so Terraciano, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticocaprice.it/",
+   "https://www.centroesteticocaprice.it/chi-siamo/",
+   "https://www.centroesteticocaprice.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticopozzuoli.it",
+  "nome": "Anti-age",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390815264071",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticopozzuoli.it/",
+  "indirizzo": "Via Goffredo Mameli, 9",
+  "cap": "80078",
+  "comune": "Pozzuoli",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centroesteticopozzuoli.it/",
+   "https://www.centroesteticopozzuoli.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "elisirpozzuoli.it",
+  "nome": "ELISIR",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08328141216",
+  "telefono": "+390818531681",
+  "email": "info@elisirpozzuoli.it",
+  "sitoUrl": "https://www.elisirpozzuoli.it/",
+  "indirizzo": "Piazza della Repubblica, 136",
+  "cap": "",
+  "comune": "",
+  "provincia": "pozzuoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.elisirpozzuoli.it/",
+   "https://www.elisirpozzuoli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ritualbeautyesteticaavanzata.it",
+  "nome": "Ritual Beauty Estetica Avanzata",
+  "formaSocietaria": "",
+  "partitaIva": "04714040617",
+  "telefono": "+390813447092",
+  "email": "",
+  "sitoUrl": "https://www.ritualbeautyesteticaavanzata.it/",
+  "indirizzo": "",
+  "cap": "80078",
+  "comune": "POZZUOLI",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ritualbeautyesteticaavanzata.it/",
+   "https://www.ritualbeautyesteticaavanzata.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

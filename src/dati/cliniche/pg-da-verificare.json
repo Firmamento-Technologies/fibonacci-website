@@ -1,0 +1,91 @@
+[
+ {
+  "dominio": "carlomuggeri.it",
+  "nome": "carlomuggeri.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://carlomuggeri.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://carlomuggeri.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centrolaserperugia.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "dermatologiazeppa.com",
+  "nome": "| Studio medico Zeppa Perugia dermatologia venereologia cura delle pat",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390755000751",
+  "email": "",
+  "sitoUrl": "https://www.dermatologiazeppa.com/",
+  "indirizzo": "Via Vittorio Emanuele Orlando, 8",
+  "cap": "06128",
+  "comune": "Perugia",
+  "provincia": "pg",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologiazeppa.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ringiovanimento-medico.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "uslumbria1.it",
+  "nome": "USL Umbria 1",
+  "formaSocietaria": "",
+  "partitaIva": "03301860544",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.uslumbria1.it/",
+  "indirizzo": "Via G. Guerra 21",
+  "cap": "06127",
+  "comune": "Perugia",
+  "provincia": "pg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.uslumbria1.it/",
+   "https://www.uslumbria1.it/azienda/per-il-cittadino/privacy/",
+   "https://www.uslumbria1.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

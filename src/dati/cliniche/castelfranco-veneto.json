@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "medica-line.it",
+  "nome": "Medica Line",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05430740265",
+  "telefono": "+390423493372",
+  "email": "info@medica-line.it",
+  "sitoUrl": "https://www.medica-line.it/",
+  "indirizzo": "via Regno Unito 8",
+  "cap": "31033",
+  "comune": "Castelfranco",
+  "provincia": "castelfranco-veneto",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medica-line.it/",
+   "https://www.medica-line.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

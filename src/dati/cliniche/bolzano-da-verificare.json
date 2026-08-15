@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "cityclinic.it",
+  "nome": "Cityclinic",
+  "formaSocietaria": "",
+  "partitaIva": "02922000217",
+  "telefono": "+3904711551010",
+  "email": "info@cityclinic.it",
+  "sitoUrl": "https://www.cityclinic.it/",
+  "indirizzo": "Via Waltraud-Gebert-Deeg 3",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "bolzano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cityclinic.it/",
+   "https://www.cityclinic.it/it/900-contatti",
+   "https://www.cityclinic.it/it/30-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

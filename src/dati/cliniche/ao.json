@@ -1,0 +1,177 @@
+[
+ {
+  "dominio": "aldomagliano.it",
+  "nome": "Medicina estetica ed ozonoterapia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393383276643",
+  "email": "",
+  "sitoUrl": "https://www.aldomagliano.it/",
+  "indirizzo": "Via Croce di Città, 17",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "ao",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Aldo Magliano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.aldomagliano.it/",
+   "https://www.aldomagliano.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Magliano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "amatomarco.it",
+  "nome": "Marco Amato",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393403828100",
+  "email": "",
+  "sitoUrl": "https://www.amatomarco.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ao",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Amato, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.amatomarco.it/",
+   "https://www.amatomarco.it/about-us.html",
+   "https://www.amatomarco.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Amato, e il dominio lo ripete"
+ },
+ {
+  "dominio": "aostasera.it",
+  "nome": "AostaSera -",
+  "formaSocietaria": "",
+  "partitaIva": "01022690075",
+  "telefono": "+3939461802808",
+  "email": "info@piupress.it",
+  "sitoUrl": "https://aostasera.it/",
+  "indirizzo": "",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "ao",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://aostasera.it/",
+   "https://aostasera.it/chi-siamo/",
+   "https://aostasera.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "irenealbini.it",
+  "nome": "Medicina estetica ad Aosta e Voghera",
+  "formaSocietaria": "",
+  "partitaIva": "02436810184",
+  "telefono": "",
+  "email": "info@irenealbini.it",
+  "sitoUrl": "https://www.irenealbini.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ao",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Irene Albini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.irenealbini.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Irene Albini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "stefanoveglio.com",
+  "nome": "Stefano Veglio Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393355734986",
+  "email": "",
+  "sitoUrl": "https://www.stefanoveglio.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ao",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Veglio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.stefanoveglio.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Veglio, e il dominio lo ripete"
+ },
+ {
+  "dominio": "studiocanonicocorrado.it",
+  "nome": "Studio Corrado",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390165364248",
+  "email": "",
+  "sitoUrl": "https://www.studiocanonicocorrado.it/",
+  "indirizzo": "",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "ao",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Canonico, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiocanonicocorrado.it/",
+   "https://www.studiocanonicocorrado.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

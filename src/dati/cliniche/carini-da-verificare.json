@@ -1,0 +1,35 @@
+[
+ {
+  "dominio": "studiolabomed.it",
+  "nome": "LABOMED",
+  "formaSocietaria": "",
+  "partitaIva": "09627110589",
+  "telefono": "+39065896258",
+  "email": "",
+  "sitoUrl": "https://www.studiolabomed.it/",
+  "indirizzo": "Via Giacinto Carini, 12",
+  "cap": "00152",
+  "comune": "Roma",
+  "provincia": "carini",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiolabomed.it/",
+   "https://www.studiolabomed.it/chi-siamo/",
+   "https://www.studiolabomed.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

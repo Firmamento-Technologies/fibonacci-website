@@ -1,0 +1,123 @@
+[
+ {
+  "dominio": "centroesteticomoderno.it",
+  "nome": "Centro estetico L'Aquila",
+  "formaSocietaria": "",
+  "partitaIva": "00246540660",
+  "telefono": "+390862413436",
+  "email": "",
+  "sitoUrl": "https://centroesteticomoderno.it/",
+  "indirizzo": "",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "aq",
+  "prestazioni": [
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticomoderno.it/",
+   "https://centroesteticomoderno.it/chi-siamo/",
+   "https://centroesteticomoderno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fibeautylab.it",
+  "nome": "Fi Beauty Lab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://fibeautylab.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "aq",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://fibeautylab.it/",
+   "https://fibeautylab.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "lasermillennium.com",
+  "nome": "Osteopatia, Medicina Estetica a L'Aquila",
+  "formaSocietaria": "",
+  "partitaIva": "01299590669",
+  "telefono": "",
+  "email": "info@lasermillennium.com",
+  "sitoUrl": "https://www.lasermillennium.com/",
+  "indirizzo": "viale della Croce Rossa 237",
+  "cap": "67100",
+  "comune": "L’Aquila",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lasermillennium.com/",
+   "https://www.lasermillennium.com/chi-siamo/",
+   "https://www.lasermillennium.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodeangelis.dental",
+  "nome": "Studio Dentistico L'Aquila",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393286179933",
+  "email": "info@studiodeangelis.dental",
+  "sitoUrl": "https://studiodeangelis.dental/",
+  "indirizzo": "Via del Beato Cesidio, 49",
+  "cap": "67100",
+  "comune": "L’Aquila",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodeangelis.dental/",
+   "https://studiodeangelis.dental/chi-siamo/",
+   "https://studiodeangelis.dental/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

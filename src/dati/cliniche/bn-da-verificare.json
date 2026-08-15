@@ -1,0 +1,64 @@
+[
+ {
+  "dominio": "medicinaesteticabenevento.it",
+  "nome": "Centro di Medicina Estetica Prof. Ido Sarracco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticabenevento.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticabenevento.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiobenedent.it",
+  "nome": "Studio Benedent",
+  "formaSocietaria": "",
+  "partitaIva": "01854690623",
+  "telefono": "+393939292921",
+  "email": "info@studiobenedent.it",
+  "sitoUrl": "https://studiobenedent.it/",
+  "indirizzo": "Via Giuseppe Cassella, 23",
+  "cap": "82100",
+  "comune": "Benevento",
+  "provincia": "bn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiobenedent.it/",
+   "https://studiobenedent.it/contatti/",
+   "https://studiobenedent.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

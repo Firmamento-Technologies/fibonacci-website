@@ -1,0 +1,88 @@
+[
+ {
+  "dominio": "centroesteticoalberodellavita.com",
+  "nome": "Albero Della Vita",
+  "formaSocietaria": "",
+  "partitaIva": "01999250663",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centroesteticoalberodellavita.com/",
+  "indirizzo": "Via Domenico Cimarosa 21",
+  "cap": "",
+  "comune": "",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticoalberodellavita.com/",
+   "https://centroesteticoalberodellavita.com/contatti/",
+   "https://centroesteticoalberodellavita.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "polimedavezzano.it",
+  "nome": "POLIMED Srl Avezzano :: poliambulatorio medico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.polimedavezzano.it/home",
+  "indirizzo": "Via Kolbe 23",
+  "cap": "67051",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.polimedavezzano.it/home",
+   "https://www.polimedavezzano.it/chi-siamo",
+   "https://www.polimedavezzano.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "serenagarganonutrizionista.it",
+  "nome": "Serena Gargano",
+  "formaSocietaria": "",
+  "partitaIva": "09781461000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://serenagarganonutrizionista.it/",
+  "indirizzo": "Via Matera 21",
+  "cap": "00182",
+  "comune": "Roma",
+  "provincia": "avezzano",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://serenagarganonutrizionista.it/",
+   "https://serenagarganonutrizionista.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

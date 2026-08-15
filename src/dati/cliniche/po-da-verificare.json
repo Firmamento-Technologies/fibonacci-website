@@ -1,0 +1,141 @@
+[
+ {
+  "dominio": "andreameonimedicoestetico.com",
+  "nome": "Dr. Andrea Meoni",
+  "formaSocietaria": "",
+  "partitaIva": "02196980979",
+  "telefono": "+3905741795873",
+  "email": "",
+  "sitoUrl": "https://www.andreameonimedicoestetico.com/",
+  "indirizzo": "Via Mozza, 31",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "po",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.andreameonimedicoestetico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottluciapremdacostucci.com",
+  "nome": "Medicina estetica e antiage a Prato| Zona viale galilei",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studimediciama.it",
+  "sitoUrl": "https://www.dottluciapremdacostucci.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "po",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottluciapremdacostucci.com/",
+   "https://www.dottluciapremdacostucci.com/dicono-di-noi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticadenise.it",
+  "nome": "Estetica Denise",
+  "formaSocietaria": "",
+  "partitaIva": "04483580488",
+  "telefono": "+390574606160",
+  "email": "info@esteticadenise.it",
+  "sitoUrl": "https://www.esteticadenise.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "po",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticadenise.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studimediciamc.it",
+  "nome": "Aesthetic Medical Care",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390574611029",
+  "email": "info@studimediciamc.it",
+  "sitoUrl": "https://studimediciamc.it/",
+  "indirizzo": "Via Udine 56",
+  "cap": "59100",
+  "comune": "Località",
+  "provincia": "po",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studimediciamc.it/",
+   "https://studimediciamc.it/contatti/",
+   "https://studimediciamc.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicodrgiuliapoggi.it",
+  "nome": "Studio Medico Dr. Giulia Poggi",
+  "formaSocietaria": "",
+  "partitaIva": "01814700975",
+  "telefono": "+39057438531",
+  "email": "",
+  "sitoUrl": "https://studiomedicodrgiuliapoggi.it/",
+  "indirizzo": "Via Tiziano 9",
+  "cap": "59100",
+  "comune": "IT",
+  "provincia": "po",
+  "prestazioni": [
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicodrgiuliapoggi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

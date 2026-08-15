@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "alessandromastromarino.com",
+  "nome": "Alessandro Mastromarino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alessandromastromarino.com/",
+  "indirizzo": "Via Vetoio, 60",
+  "cap": "",
+  "comune": "",
+  "provincia": "l-aquila",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Mastromarino, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessandromastromarino.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Mastromarino, e il dominio lo ripete"
+ },
+ {
+  "dominio": "miriamestetica.com",
+  "nome": "Miriam Estetica L'Aquila",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393284995639",
+  "email": "info@miriamestetica.com",
+  "sitoUrl": "https://www.miriamestetica.com/",
+  "indirizzo": "Corso Unghie Nails 29",
+  "cap": "67100",
+  "comune": "AQ",
+  "provincia": "l-aquila",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.miriamestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "simonemichelini.it",
+  "nome": "Specialista in Dermatologia e Venereologia l'Aquila",
+  "formaSocietaria": "",
+  "partitaIva": "01940530668",
+  "telefono": "+393518890107",
+  "email": "info@simonemichelini.it",
+  "sitoUrl": "https://simonemichelini.it/",
+  "indirizzo": "Via Pescara, 2",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "l-aquila",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Simone Michelini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://simonemichelini.it/",
+   "https://simonemichelini.it/contatti/",
+   "https://simonemichelini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simone Michelini, e il dominio lo ripete"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "dominio": "centromedicoaltea.com",
+  "nome": "Centro Medico Altea",
+  "formaSocietaria": "",
+  "partitaIva": "02795100185",
+  "telefono": "+390381091233",
+  "email": "studio@centromedicoaltea.com",
+  "sitoUrl": "https://www.centromedicoaltea.com/",
+  "indirizzo": "Corso Novara 49",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoaltea.com/",
+   "https://www.centromedicoaltea.com/contatti/",
+   "https://www.centromedicoaltea.com/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dentistagiorgiofava.it",
+  "nome": "Dentista Dott. Fava",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01088440183",
+  "telefono": "+39038174562",
+  "email": "info@studiogiorgiofava.it",
+  "sitoUrl": "https://dentistagiorgiofava.it/",
+  "indirizzo": "Corso G. di Vittorio, 38",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Fava Dentista, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dentistagiorgiofava.it/",
+   "https://dentistagiorgiofava.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "emotionsdebeaute.it",
+  "nome": "Emotions de Beauté, il centro estetico nel cuore di Vigevano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.emotionsdebeaute.it/",
+  "indirizzo": "Via Diaz 4",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.emotionsdebeaute.it/",
+   "https://www.emotionsdebeaute.it/contatti-emotions-de-beaute-spa-vigevano/",
+   "https://www.emotionsdebeaute.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mediperson.it",
+  "nome": "mediperson.it",
+  "formaSocietaria": "",
+  "partitaIva": "02819580180",
+  "telefono": "+3903821540864",
+  "email": "",
+  "sitoUrl": "https://mediperson.it/",
+  "indirizzo": "Via Turati 38",
+  "cap": "27028",
+  "comune": "Provincia",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://mediperson.it/",
+   "https://mediperson.it/chi-siamo",
+   "https://mediperson.it/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

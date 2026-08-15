@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "essenzamedica.it",
+  "nome": "Poliambulatorio a Rimini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390541670521",
+  "email": "segreteria@essenzamedica.it",
+  "sitoUrl": "https://www.essenzamedica.it/",
+  "indirizzo": "via Ariete 18",
+  "cap": "47923",
+  "comune": "Rimini",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.essenzamedica.it/",
+   "https://www.essenzamedica.it/chi-siamo/",
+   "https://www.essenzamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "montanarisalute.it",
+  "nome": "Montanari Salute Home",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390541607761",
+  "email": "info@exisriccione.it",
+  "sitoUrl": "https://montanarisalute.it/",
+  "indirizzo": "via Carpi 18",
+  "cap": "47838",
+  "comune": "",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ernesto Montanari, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://montanarisalute.it/",
+   "https://montanarisalute.it/contatti/",
+   "https://montanarisalute.it/le-sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "riminiterme.com",
+  "nome": "Riminiterme",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02666500406",
+  "telefono": "",
+  "email": "info@riminiterme.com",
+  "sitoUrl": "https://riminiterme.com/",
+  "indirizzo": "Via Principe di Piemonte, 56",
+  "cap": "47924",
+  "comune": "Miramare",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://riminiterme.com/",
+   "https://riminiterme.com/info-utili-contatti-orari-come-arrivare-informazioni/",
+   "https://riminiterme.com/privacy-policy-newsletter/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

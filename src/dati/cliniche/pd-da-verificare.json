@@ -1,0 +1,179 @@
+[
+ {
+  "dominio": "cdcvillamaria.it",
+  "nome": "Casa di Cura Villa Maria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.cdcvillamaria.it/",
+  "indirizzo": "Via delle Melette 20",
+  "cap": "35138",
+  "comune": "Padova",
+  "provincia": "pd",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cdcvillamaria.it/",
+   "https://www.cdcvillamaria.it/chi-siamo/",
+   "https://www.cdcvillamaria.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "deasalusestetica.com",
+  "nome": "Dea Salus Center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393249088998",
+  "email": "info@deasalusestetica.com",
+  "sitoUrl": "https://www.deasalusestetica.com/",
+  "indirizzo": "Via Goito, 138",
+  "cap": "35142",
+  "comune": "Padova",
+  "provincia": "pd",
+  "prestazioni": [
+   "Filler",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.deasalusestetica.com/",
+   "https://www.deasalusestetica.com/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "dermacarepadova.it",
+  "nome": "Dermacare: Dermatologia e Medicina Estetica di Qualità",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dermacarepadova.it",
+  "sitoUrl": "https://dermacarepadova.it/",
+  "indirizzo": "Via Pasquale Paoli 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "pd",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermacarepadova.it/",
+   "https://dermacarepadova.it/about",
+   "https://dermacarepadova.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticaaccordi.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "microeyelaser.com",
+  "nome": "Micro Eye Laser Centro Oculistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390497380773",
+  "email": "",
+  "sitoUrl": "https://microeyelaser.com/",
+  "indirizzo": "Via L. Pellizzo, 3",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "pd",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://microeyelaser.com/",
+   "https://microeyelaser.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriolunardon.it",
+  "nome": "Poliambulatorio Lunardon a Padova",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04046920288",
+  "telefono": "+39049850336",
+  "email": "info@poliambulatoriolunardon.it",
+  "sitoUrl": "https://poliambulatoriolunardon.it/",
+  "indirizzo": "Via Gattamelata 2",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "pd",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://poliambulatoriolunardon.it/",
+   "https://poliambulatoriolunardon.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "skinmedicpadova.it",
+  "nome": "SkinMedic Padova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393757383295",
+  "email": "info@skinmedicpadova.it",
+  "sitoUrl": "https://www.skinmedicpadova.it/",
+  "indirizzo": "Via Marin 19",
+  "cap": "35121",
+  "comune": "Padova",
+  "provincia": "pd",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.skinmedicpadova.it/",
+   "https://www.skinmedicpadova.it/chi-siamo/",
+   "https://www.skinmedicpadova.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

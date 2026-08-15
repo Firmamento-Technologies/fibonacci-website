@@ -1,0 +1,197 @@
+[
+ {
+  "dominio": "centromedicoarcadia.it",
+  "nome": "Centro Medico Arcadia Fano",
+  "formaSocietaria": "",
+  "partitaIva": "01454960418",
+  "telefono": "+390721830756",
+  "email": "info@centromedicoarcadia.it",
+  "sitoUrl": "https://www.centromedicoarcadia.it/",
+  "indirizzo": "Via della Giustizia, 6",
+  "cap": "61032",
+  "comune": "Fano",
+  "provincia": "fano",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoarcadia.it/",
+   "https://www.centromedicoarcadia.it/chi-siamo",
+   "https://www.centromedicoarcadia.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaplastica.pro",
+  "nome": "chirurgiaplastica.pro",
+  "formaSocietaria": "",
+  "partitaIva": "02525030413",
+  "telefono": "",
+  "email": "info@chirurgiaplastica.pro",
+  "sitoUrl": "https://www.chirurgiaplastica.pro/",
+  "indirizzo": "Viale Gramsci 43",
+  "cap": "",
+  "comune": "",
+  "provincia": "fano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.chirurgiaplastica.pro/",
+   "https://www.chirurgiaplastica.pro/contatti/",
+   "https://www.chirurgiaplastica.pro/crediti-note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottormarcellogarozzo.it",
+  "nome": "Dott. Marcello Garozzo",
+  "formaSocietaria": "",
+  "partitaIva": "02410680413",
+  "telefono": "+393393391145",
+  "email": "",
+  "sitoUrl": "https://www.dottormarcellogarozzo.it/",
+  "indirizzo": "Via del Fiume, 53",
+  "cap": "61032",
+  "comune": "Fano",
+  "provincia": "fano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marcello Garozzo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottormarcellogarozzo.it/",
+   "https://www.dottormarcellogarozzo.it/settings/privacy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiolabfano.com",
+  "nome": "FISIOLAB",
+  "formaSocietaria": "",
+  "partitaIva": "02811200415",
+  "telefono": "+3907211705212",
+  "email": "info@fisiolabfano.com",
+  "sitoUrl": "https://www.fisiolabfano.com/",
+  "indirizzo": "Via Tomassoni 17",
+  "cap": "",
+  "comune": "",
+  "provincia": "fano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.fisiolabfano.com/",
+   "https://www.fisiolabfano.com/chi-siamo/",
+   "https://www.fisiolabfano.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mgesteticafano.it",
+  "nome": "MG Estetica Fano",
+  "formaSocietaria": "",
+  "partitaIva": "02816000414",
+  "telefono": "+393272593303",
+  "email": "info@hcgitaly.com",
+  "sitoUrl": "https://mgesteticafano.it/",
+  "indirizzo": "Viale Dante Alighieri 152",
+  "cap": "61032",
+  "comune": "Pesaro",
+  "provincia": "fano",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://mgesteticafano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "orianamaschio.it",
+  "nome": "Oriana Maschio",
+  "formaSocietaria": "",
+  "partitaIva": "02005870262",
+  "telefono": "",
+  "email": "info@orianamaschio.it",
+  "sitoUrl": "https://orianamaschio.it/",
+  "indirizzo": "Via Piccinini, 23",
+  "cap": "",
+  "comune": "",
+  "provincia": "fano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Oriana Maschio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://orianamaschio.it/",
+   "https://orianamaschio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Oriana Maschio, e il dominio lo ripete"
+ },
+ {
+  "dominio": "salusmetauro.com",
+  "nome": "Salus Metauro",
+  "formaSocietaria": "",
+  "partitaIva": "02163310416",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://salusmetauro.com/",
+  "indirizzo": "Via del Ponte, 62",
+  "cap": "61032",
+  "comune": "Fano",
+  "provincia": "fano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://salusmetauro.com/",
+   "https://salusmetauro.com/index.php/chi-siamo/",
+   "https://salusmetauro.com/index.php/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

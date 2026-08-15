@@ -1,0 +1,142 @@
+[
+ {
+  "dominio": "ipazia-dcc.it",
+  "nome": "Poliambulatorio di chirurgia, cardiologia, dermatologia, medicina ed a",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390961954021",
+  "email": "info@ipazia-dcc.it",
+  "sitoUrl": "https://www.ipazia-dcc.it/",
+  "indirizzo": "Via Bari, 8",
+  "cap": "80050",
+  "comune": "Caraffa",
+  "provincia": "cz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ipazia-dcc.it/",
+   "https://www.ipazia-dcc.it/chi-siamo/",
+   "https://www.ipazia-dcc.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "luigisala.it",
+  "nome": "Chirurgia Plastica Catanzaro",
+  "formaSocietaria": "",
+  "partitaIva": "09246100151",
+  "telefono": "+393382254610",
+  "email": "",
+  "sitoUrl": "https://www.luigisala.it/",
+  "indirizzo": "Via Magna Grecia,36",
+  "cap": "88056",
+  "comune": "Tiriolo",
+  "provincia": "cz",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luigi Sala, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.luigisala.it/",
+   "https://www.luigisala.it/dove-siamo.html",
+   "https://www.luigisala.it/contatti-studio-medico-catanzaro.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Sala, e il dominio lo ripete"
+ },
+ {
+  "dominio": "oculistarechichi.it",
+  "nome": "Correzione laser miopia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393886597614",
+  "email": "",
+  "sitoUrl": "https://www.oculistarechichi.it/",
+  "indirizzo": "Via Sirleto Cardinale Guglielmo 35",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "cz",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.oculistarechichi.it/",
+   "https://www.oculistarechichi.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorioigea.it",
+  "nome": "Poliambulatorio IGEA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390961728344",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatorioigea.it/",
+  "indirizzo": "Via Antonio Daniele, 19",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "cz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliambulatorioigea.it/",
+   "https://www.poliambulatorioigea.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "visibilando.it",
+  "nome": "Visibilando",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@servizioclientiusb.it",
+  "sitoUrl": "https://visibilando.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cz",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://visibilando.it/",
+   "https://visibilando.it/privacy-policy/",
+   "https://visibilando.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

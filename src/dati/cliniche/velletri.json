@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "centroesteticovelletri.it",
+  "nome": "Centro Estetico Beauty Lab Velletri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393881709232",
+  "email": "info@centroesteticovelletri.it",
+  "sitoUrl": "https://centroesteticovelletri.it/",
+  "indirizzo": "Via Luigi Novelli 20",
+  "cap": "00049",
+  "comune": "Numero",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centroesteticovelletri.it/",
+   "https://centroesteticovelletri.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dentistaammendolia.it",
+  "nome": "Dentista Velletri",
+  "formaSocietaria": "",
+  "partitaIva": "09182411000",
+  "telefono": "+390696430724",
+  "email": "info@dentistaammendolia.it",
+  "sitoUrl": "https://www.dentistaammendolia.it/",
+  "indirizzo": "",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Agostino Ammendolia, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dentistaammendolia.it/",
+   "https://www.dentistaammendolia.it/privacy-policy/",
+   "https://www.dentistaammendolia.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "vetrinelaziali.it",
+  "nome": "Vetrine Laziali; trova informazioni sulle aziende del Lazio",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01709290595",
+  "telefono": "+393355724024",
+  "email": "info@vetrinelaziali.it",
+  "sitoUrl": "https://www.vetrinelaziali.it/",
+  "indirizzo": "Viale XVIII Dicembre n. 27",
+  "cap": "04100",
+  "comune": "B",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.vetrinelaziali.it/",
+   "https://www.vetrinelaziali.it/home-page/chi-siamo/",
+   "https://www.vetrinelaziali.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

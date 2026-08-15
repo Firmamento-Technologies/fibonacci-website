@@ -1,0 +1,170 @@
+[
+ {
+  "dominio": "adcuram.net",
+  "nome": "Ad Curam Poliambulatorio Medico Specialistico",
+  "formaSocietaria": "",
+  "partitaIva": "03951660129",
+  "telefono": "",
+  "email": "info@adcuram.net",
+  "sitoUrl": "https://www.adcuram.net/",
+  "indirizzo": "Viale Europa 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.adcuram.net/",
+   "https://www.adcuram.net/contatti/",
+   "https://www.adcuram.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ambulatoriomedicalspa.com",
+  "nome": "Ambulatorio Medical Spa",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02671060123",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ambulatoriomedicalspa.com/",
+  "indirizzo": "Via San Giuseppe 137",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ambulatoriomedicalspa.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ambulatoriomedicalspa.it",
+  "nome": "Ambulatorio Medical SPA",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02655490122",
+  "telefono": "",
+  "email": "info@ambulatoriomedicalspa.it",
+  "sitoUrl": "https://www.ambulatoriomedicalspa.it/",
+  "indirizzo": "Via San Giuseppe 137",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ambulatoriomedicalspa.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "irisbeautydianna.it",
+  "nome": "Iris Beauty di Anna",
+  "formaSocietaria": "",
+  "partitaIva": "03846670135",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.irisbeautydianna.it/",
+  "indirizzo": "Via Guglielmo Marconi, 69",
+  "cap": "21047",
+  "comune": "SARONNO",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.irisbeautydianna.it/",
+   "https://www.irisbeautydianna.it/Privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "specchiodacqua.it",
+  "nome": "Specchio D'Acqua",
+  "formaSocietaria": "SNC",
+  "partitaIva": "03585620127",
+  "telefono": "+393296932327",
+  "email": "info@digitalwit.it",
+  "sitoUrl": "https://specchiodacqua.it/",
+  "indirizzo": "Via Genova, 28",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://specchiodacqua.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiocavagna.it",
+  "nome": "Dentista a Saronno",
+  "formaSocietaria": "",
+  "partitaIva": "11387290155",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studiocavagna.it/",
+  "indirizzo": "Via General Cantore, 13",
+  "cap": "21047",
+  "comune": "Saronno",
+  "provincia": "saronno",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulia Cavagna, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiocavagna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

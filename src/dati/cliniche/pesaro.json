@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "centrosanpellegrino.it",
+  "nome": "Centro San Pellegrino, Pesaro: Visite specialistiche e cardiologiche",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02771500416",
+  "telefono": "",
+  "email": "info@centrosanpellegrino.it",
+  "sitoUrl": "https://www.centrosanpellegrino.it/",
+  "indirizzo": "via del Cinema Via del Cinema, 5",
+  "cap": "61122",
+  "comune": "Pesaro",
+  "provincia": "pesaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrosanpellegrino.it/",
+   "https://www.centrosanpellegrino.it/chi-siamo/",
+   "https://www.centrosanpellegrino.it/policy-privacy-centro-san-pellegrino/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisioradi.it",
+  "nome": "Fisioradi Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02090480415",
+  "telefono": "+39072133958",
+  "email": "segreteria@fisioradi.it",
+  "sitoUrl": "https://fisioradi.it/",
+  "indirizzo": "Via Lambro, 15",
+  "cap": "61121",
+  "comune": "Pesaro",
+  "provincia": "pesaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://fisioradi.it/",
+   "https://fisioradi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

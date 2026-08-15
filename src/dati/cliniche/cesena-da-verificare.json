@@ -1,0 +1,91 @@
+[
+ {
+  "dominio": "esteticafederica.it",
+  "nome": "Centro estetico Federica Cesena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390547385344",
+  "email": "",
+  "sitoUrl": "https://www.esteticafederica.it/",
+  "indirizzo": "Viale Marconi, 626",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticafederica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "kura-cesena.it",
+  "nome": "Kura Cesena",
+  "formaSocietaria": "",
+  "partitaIva": "02130010404",
+  "telefono": "+390547300677",
+  "email": "info@sportrauma.it",
+  "sitoUrl": "https://www.kura-cesena.it/",
+  "indirizzo": "Via Leopoldo Lucchi n. 115",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.kura-cesena.it/",
+   "https://www.kura-cesena.it/contatti/",
+   "https://www.kura-cesena.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "overplace.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "progettokinesia.it",
+  "nome": "Kinesia Cesena: Sport e Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@progettokinesia.it",
+  "sitoUrl": "https://www.progettokinesia.it/",
+  "indirizzo": "Via Ravennate 5080",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.progettokinesia.it/",
+   "https://www.progettokinesia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

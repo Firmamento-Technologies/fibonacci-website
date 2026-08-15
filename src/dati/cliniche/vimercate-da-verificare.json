@@ -1,0 +1,166 @@
+[
+ {
+  "dominio": "animamedica.it",
+  "nome": "Poliambulatorio Anima Medica",
+  "formaSocietaria": "",
+  "partitaIva": "13857990967",
+  "telefono": "+390392163993",
+  "email": "",
+  "sitoUrl": "https://www.animamedica.it/",
+  "indirizzo": "Via Vittorio Emanuele, 35",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.animamedica.it/",
+   "https://www.animamedica.it/chi-siamo",
+   "https://www.animamedica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticadesiderio.it",
+  "nome": "Estetica Desiderio Vimercate",
+  "formaSocietaria": "",
+  "partitaIva": "00892910969",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticadesiderio.it/",
+  "indirizzo": "Via Passirano 20",
+  "cap": "",
+  "comune": "",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticadesiderio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ghivasy.it",
+  "nome": "Centro Estetico Vimercate",
+  "formaSocietaria": "",
+  "partitaIva": "03968110134",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ghivasy.it/",
+  "indirizzo": "Piazzale Guglielmo Marconi 7d",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ghivasy.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "labbellezzaedimagrimento.it",
+  "nome": "LAB Bellezzza e Dimagrimento",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393892603816",
+  "email": "",
+  "sitoUrl": "https://labbellezzaedimagrimento.it/",
+  "indirizzo": "Piazzale Guglielmo Marconi, 7d",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://labbellezzaedimagrimento.it/",
+   "https://labbellezzaedimagrimento.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ladolcevitabenessere.it",
+  "nome": "Centro benessere Vimercate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390396081416",
+  "email": "info@ladolcevitabenessere.it",
+  "sitoUrl": "https://www.ladolcevitabenessere.it/",
+  "indirizzo": "Via Galbussera, 24",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ladolcevitabenessere.it/",
+   "https://www.ladolcevitabenessere.it/dove-siamo/",
+   "https://www.ladolcevitabenessere.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mibobeautycenter.it",
+  "nome": "MiBo Beauty Center",
+  "formaSocietaria": "",
+  "partitaIva": "10899370968",
+  "telefono": "+393331799959",
+  "email": "info@mibobeautycenter.it",
+  "sitoUrl": "https://mibobeautycenter.it/",
+  "indirizzo": "Piazza del Linificio 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://mibobeautycenter.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

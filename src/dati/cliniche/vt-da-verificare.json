@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "medicinaesteticaks.it",
+  "nome": "medicinaesteticaks.it",
+  "formaSocietaria": "",
+  "partitaIva": "01615810296",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticaks.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticaks.it/",
+   "https://medicinaesteticaks.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "paolapasquini.it",
+  "nome": "Paola Pasquini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://paolapasquini.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://paolapasquini.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "raffaellaperello.com",
+  "nome": "Raffaella Perello Chirurgia Estetica e Plastica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.raffaellaperello.com/",
+  "indirizzo": "Via San Camillo de Lellis 6",
+  "cap": "01100",
+  "comune": "Viterbo",
+  "provincia": "vt",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.raffaellaperello.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticoleonardi.com",
+  "nome": "Studio Dentistico Leonardi, a Roma e Montefiascone",
+  "formaSocietaria": "",
+  "partitaIva": "01649710561",
+  "telefono": "+3938673330",
+  "email": "info@www.studiodent",
+  "sitoUrl": "https://www.studiodentisticoleonardi.com/",
+  "indirizzo": "Via Vittoria Colonna 40",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "vt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticoleonardi.com/",
+   "https://www.studiodentisticoleonardi.com/dove-siamo-e-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

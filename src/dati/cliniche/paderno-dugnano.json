@@ -1,0 +1,129 @@
+[
+ {
+  "dominio": "centrobrianza.com",
+  "nome": "Brianza",
+  "formaSocietaria": "",
+  "partitaIva": "02459410961",
+  "telefono": "+390299040430",
+  "email": "amministrazione@romiagency.com",
+  "sitoUrl": "https://www.centrobrianza.com/",
+  "indirizzo": "Strada Statale 35",
+  "cap": "20037",
+  "comune": "Paderno",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centrobrianza.com/",
+   "https://www.centrobrianza.com/contatti/",
+   "https://www.centrobrianza.com/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrometica.it",
+  "nome": "Centro Medico Metica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centrometica.it/",
+  "indirizzo": "Via Roma 77",
+  "cap": "",
+  "comune": "",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centrometica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "heliantoestetica.it",
+  "nome": "Helianto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://heliantoestetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://heliantoestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriomedico.com",
+  "nome": "Poliambulatorio medico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://poliambulatoriomedico.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://poliambulatoriomedico.com/",
+   "https://poliambulatoriomedico.com/privacy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "temaestetica.it",
+  "nome": "Tema Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390299043199",
+  "email": "info@temaestetica.it",
+  "sitoUrl": "https://temaestetica.it/",
+  "indirizzo": "Via Giuseppe Pogliani. Al numero 18",
+  "cap": "20037",
+  "comune": "Paderno",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://temaestetica.it/",
+   "https://temaestetica.it/chi-siamo/",
+   "https://temaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

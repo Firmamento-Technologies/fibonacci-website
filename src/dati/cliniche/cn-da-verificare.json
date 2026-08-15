@@ -1,0 +1,138 @@
+[
+ {
+  "dominio": "7link.it",
+  "nome": "Realizzazione Siti Web",
+  "formaSocietaria": "",
+  "partitaIva": "02285610990",
+  "telefono": "+390100992440",
+  "email": "",
+  "sitoUrl": "https://portfolio.settimolink.it/",
+  "indirizzo": "Via Papigliano 2",
+  "cap": "16131",
+  "comune": "Genova",
+  "provincia": "cn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://portfolio.settimolink.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "lazioeventi.com",
+  "nome": "Eventi nel Lazio: Sagre, Concerti e Cosa Fare",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lazioeventi.com",
+  "sitoUrl": "https://lazioeventi.com/",
+  "indirizzo": "Via Monticelli, 9",
+  "cap": "04026",
+  "comune": "Minturno",
+  "provincia": "cn",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lazioeventi.com/",
+   "https://lazioeventi.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mybeautytips.it",
+  "nome": "Estetista a Cuneo",
+  "formaSocietaria": "",
+  "partitaIva": "03866190048",
+  "telefono": "+393668741897",
+  "email": "",
+  "sitoUrl": "https://mybeautytips.it/",
+  "indirizzo": "Via Antonio Carle, 9",
+  "cap": "12100",
+  "comune": "",
+  "provincia": "cn",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mybeautytips.it/",
+   "https://mybeautytips.it/contatti/",
+   "https://mybeautytips.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "semplicementeanna.com",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393426961533",
+  "email": "",
+  "sitoUrl": "https://www.semplicementeanna.com/",
+  "indirizzo": "Corso Nizza, 69",
+  "cap": "12100",
+  "comune": "IT",
+  "provincia": "cn",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.semplicementeanna.com/",
+   "https://www.semplicementeanna.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "spicaeorsini.it",
+  "nome": "Dott. Spica & Orsini - Dermatologia - Medicina Estetica - Chirurgi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@spicaeorsini.it",
+  "sitoUrl": "https://www.spicaeorsini.it/",
+  "indirizzo": "Via Barca S. Domenico, 42",
+  "cap": "03039",
+  "comune": "Sora",
+  "provincia": "cn",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.spicaeorsini.it/",
+   "https://www.spicaeorsini.it/chi-siamo/",
+   "https://www.spicaeorsini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

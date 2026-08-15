@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "magmedica.it",
+  "nome": "Mag Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01088150089",
+  "telefono": "+390183299130",
+  "email": "",
+  "sitoUrl": "https://www.magmedica.it/",
+  "indirizzo": "Via Armelio Augusto, 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "imperia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.magmedica.it/",
+   "https://www.magmedica.it/dove-siamo/",
+   "https://www.magmedica.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

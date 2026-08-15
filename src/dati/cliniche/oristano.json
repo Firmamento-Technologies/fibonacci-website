@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "ginecologasammarco.com",
+  "nome": "Specialista in ginecologia ed ostetricia",
+  "formaSocietaria": "",
+  "partitaIva": "01144890959",
+  "telefono": "+390783467437",
+  "email": "",
+  "sitoUrl": "https://ginecologasammarco.com/",
+  "indirizzo": "Via Luigi Manconi Passino, 32",
+  "cap": "09170",
+  "comune": "ORISTANO",
+  "provincia": "oristano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Magda Sammarco, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://ginecologasammarco.com/",
+   "https://ginecologasammarco.com/dove-siamo",
+   "https://ginecologasammarco.com/privacy-policy-e-cookie-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,278 @@
+[
+ {
+  "dominio": "annaritacostantino.com",
+  "nome": "Dott.ssa Annarita Costantino",
+  "formaSocietaria": "",
+  "partitaIva": "02945840599",
+  "telefono": "+3907731706266",
+  "email": "",
+  "sitoUrl": "https://www.annaritacostantino.com/",
+  "indirizzo": "Corso Nazionale 2013",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Annarita Costantino, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.annaritacostantino.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annarita Costantino, e il dominio lo ripete"
+ },
+ {
+  "dominio": "covellimedicinaesteticalatina.com",
+  "nome": "Covelli Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393397929739",
+  "email": "",
+  "sitoUrl": "https://www.covellimedicinaesteticalatina.com/",
+  "indirizzo": "",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.covellimedicinaesteticalatina.com/",
+   "https://www.covellimedicinaesteticalatina.com/contatti/",
+   "https://www.covellimedicinaesteticalatina.com/wpautoterms/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "feleppamedgroup.it",
+  "nome": "Feleppa Med Group",
+  "formaSocietaria": "",
+  "partitaIva": "00000012689",
+  "telefono": "",
+  "email": "info@esteticafeleppa.it",
+  "sitoUrl": "https://feleppamedgroup.it/",
+  "indirizzo": "Viale Pier Luigi Nervi, 56",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://feleppamedgroup.it/",
+   "https://feleppamedgroup.it/contatti/",
+   "https://feleppamedgroup.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lumamed.it",
+  "nome": "Centro medico ozonoterapia e flebo vitamine",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13903621004",
+  "telefono": "+390773403626",
+  "email": "info@lumamed.it",
+  "sitoUrl": "https://www.lumamed.it/",
+  "indirizzo": "Via Carrara, 38",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.lumamed.it/",
+   "https://www.lumamed.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalatina.it",
+  "nome": "Studio Associato Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3907731510073",
+  "email": "studio@medicalatina.it",
+  "sitoUrl": "https://medicalatina.it/",
+  "indirizzo": "",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://medicalatina.it/",
+   "https://medicalatina.it/contatti/",
+   "https://medicalatina.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalsi.it",
+  "nome": "Poliambulatorio a Cisterna di Latina",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03117110597",
+  "telefono": "+390624406810",
+  "email": "info@medicalsi.it",
+  "sitoUrl": "https://medicalsi.it/",
+  "indirizzo": "Viale Donatori d’Organi 4",
+  "cap": "04012",
+  "comune": "Cisterna",
+  "provincia": "lt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicalsi.it/",
+   "https://medicalsi.it/contatti",
+   "https://medicalsi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "miradesign.it",
+  "nome": "Mira Design",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02423540596",
+  "telefono": "+390123456789",
+  "email": "info@miradesign.it",
+  "sitoUrl": "https://miradesign.it/",
+  "indirizzo": "Via Carlo Luigi Farini, 2",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://miradesign.it/",
+   "https://miradesign.it/contatti/",
+   "https://miradesign.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pulsinellimedicalcenter.com",
+  "nome": "Pulsinelli Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02237320599",
+  "telefono": "+390773611219",
+  "email": "",
+  "sitoUrl": "https://www.pulsinellimedicalcenter.com/",
+  "indirizzo": "Via Don Carlo Torello 85",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.pulsinellimedicalcenter.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "veronicadiemma.it",
+  "nome": "Veronica Di Emma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393349261225",
+  "email": "info@veronicadiemma.it",
+  "sitoUrl": "https://veronicadiemma.it/",
+  "indirizzo": "Via Ufente 20",
+  "cap": "04100",
+  "comune": "",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://veronicadiemma.it/",
+   "https://veronicadiemma.it/contatti/",
+   "https://veronicadiemma.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

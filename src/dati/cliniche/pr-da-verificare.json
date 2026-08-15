@@ -1,0 +1,111 @@
+[
+ {
+  "dominio": "centromedicodiblasio.it",
+  "nome": "Centro Medico Di Blasio",
+  "formaSocietaria": "",
+  "partitaIva": "02375100340",
+  "telefono": "+390521286161",
+  "email": "info@centromedicodiblasio.it",
+  "sitoUrl": "https://www.centromedicodiblasio.it/",
+  "indirizzo": "Piazzale Arrigo Boito, 5",
+  "cap": "43121",
+  "comune": "Parma",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicodiblasio.it/",
+   "https://www.centromedicodiblasio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dermatologoparma.com",
+  "nome": "DERMATOLOGO PARMA dott. Antonaccio",
+  "formaSocietaria": "",
+  "partitaIva": "01906940349",
+  "telefono": "+393494769884",
+  "email": "",
+  "sitoUrl": "https://www.dermatologoparma.com/",
+  "indirizzo": "via Emilia Ovest 8",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "pr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologoparma.com/",
+   "https://www.dermatologoparma.com/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pfhospital.it",
+  "nome": "Piccole Figlie Hospital: il Centro Ospedaliero a Parma",
+  "formaSocietaria": "",
+  "partitaIva": "14365250969",
+  "telefono": "+390521917711",
+  "email": "info@pfhospital.it",
+  "sitoUrl": "https://www.pfhospital.it/",
+  "indirizzo": "Via Emilia Ovest, 42",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.pfhospital.it/",
+   "https://www.pfhospital.it/chi-siamo/",
+   "https://www.pfhospital.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioaimiparma.it",
+  "nome": "Studio Aimi",
+  "formaSocietaria": "",
+  "partitaIva": "02583420340",
+  "telefono": "+393477556886",
+  "email": "info@studioaimiparma.it",
+  "sitoUrl": "https://www.studioaimiparma.it/it",
+  "indirizzo": "Viale Italo e Cleofonte Campanini, 7",
+  "cap": "43121",
+  "comune": "Parma",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioaimiparma.it/it",
+   "https://www.studioaimiparma.it/it/contatti",
+   "https://www.studioaimiparma.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

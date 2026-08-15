@@ -1,0 +1,209 @@
+[
+ {
+  "dominio": "aesteticamed.it",
+  "nome": "AESTETICAMED",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@aesteticamed.it",
+  "sitoUrl": "https://www.aesteticamed.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aesteticamed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "annamariamarini.it",
+  "nome": "Dott.ssa Anna Maria Marini: Medicina Estetica a Pordenone",
+  "formaSocietaria": "",
+  "partitaIva": "01550140931",
+  "telefono": "+393392790005",
+  "email": "",
+  "sitoUrl": "https://www.annamariamarini.it/",
+  "indirizzo": "Viale Grigoletti, 72",
+  "cap": "33170",
+  "comune": "Pordenone",
+  "provincia": "pn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.annamariamarini.it/",
+   "https://www.annamariamarini.it/contatti/",
+   "https://www.annamariamarini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "beautemedical.it",
+  "nome": "Beautè Medical. Centro di Medicina Estetica Dottor Placido Strano",
+  "formaSocietaria": "",
+  "partitaIva": "00379320930",
+  "telefono": "",
+  "email": "studio.strano@gmail.com",
+  "sitoUrl": "https://www.beautemedical.it/",
+  "indirizzo": "Viale Grigoletti 17",
+  "cap": "",
+  "comune": "",
+  "provincia": "pn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautemedical.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "derecamilot.it",
+  "nome": "Dott. Marcello De Re Camilot",
+  "formaSocietaria": "",
+  "partitaIva": "01535880932",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.derecamilot.it/",
+  "indirizzo": "Via Flaminia Nuova 280",
+  "cap": "64733",
+  "comune": "",
+  "provincia": "pn",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.derecamilot.it/",
+   "https://www.derecamilot.it/sedi-e-ambulatori/",
+   "https://www.derecamilot.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gmaesthetic.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01807980931",
+  "telefono": "+39043426269",
+  "email": "info@latinotype.com",
+  "sitoUrl": "https://gmaesthetic.it/",
+  "indirizzo": "Viale Franco Martelli 36",
+  "cap": "33170",
+  "comune": "Pordenone",
+  "provincia": "pn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gmaesthetic.it/",
+   "https://gmaesthetic.it/contatti",
+   "https://gmaesthetic.it/cookie-e-privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticagranieri.it",
+  "nome": "Studio Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01737300937",
+  "telefono": "+393348380885",
+  "email": "info@medicinaesteticagranieri.it",
+  "sitoUrl": "https://www.medicinaesteticagranieri.it/",
+  "indirizzo": "Via Umberto I°, 35",
+  "cap": "33085",
+  "comune": "IT",
+  "provincia": "pn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticagranieri.it/",
+   "https://www.medicinaesteticagranieri.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticamariomarano.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiomedicomele.it",
+  "nome": "Studio Medico Mele - Dentista a Pordenone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicomele.it/",
+  "indirizzo": "Via Damiano Chiesa, 4",
+  "cap": "33170",
+  "comune": "Pordenone",
+  "provincia": "pn",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicomele.it/",
+   "https://www.studiomedicomele.it/contatti/",
+   "https://www.studiomedicomele.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

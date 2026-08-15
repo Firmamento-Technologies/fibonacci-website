@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "esteticapiuaq.it",
+  "nome": "Estetica Più di Simona Paolucci",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393385493619",
+  "email": "info@esteticapiuaq.it",
+  "sitoUrl": "https://www.esteticapiuaq.it/",
+  "indirizzo": "Via Mausonia, 60",
+  "cap": "67100",
+  "comune": "L'AQUILA",
+  "provincia": "l-aquila",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticapiuaq.it/",
+   "https://www.esteticapiuaq.it/contatti",
+   "https://www.esteticapiuaq.it/informativa-sulla-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sensazionidibenessere.it",
+  "nome": "Sensazioni di Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393463087845",
+  "email": "",
+  "sitoUrl": "https://sensazionidibenessere.it/",
+  "indirizzo": "Via Enrico De Nicola, 2b",
+  "cap": "67100",
+  "comune": "L'Aquila",
+  "provincia": "l-aquila",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://sensazionidibenessere.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

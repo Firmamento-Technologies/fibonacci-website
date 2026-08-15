@@ -1,0 +1,36 @@
+[
+ {
+  "dominio": "dottssachiaragradia.it",
+  "nome": "Dott.ssa Chiara Gradia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393665094124",
+  "email": "",
+  "sitoUrl": "https://www.dottssachiaragradia.it/",
+  "indirizzo": "",
+  "cap": "89853",
+  "comune": "Strada",
+  "provincia": "vv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottssachiaragradia.it/",
+   "https://www.dottssachiaragradia.it/about"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

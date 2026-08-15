@@ -1,0 +1,174 @@
+[
+ {
+  "dominio": "alessiacirino.com",
+  "nome": "Dott.ssa Alessia Cirino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alessiacirino.com/",
+  "indirizzo": "Viale Della Vittoria, 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "an",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessia Cirino, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessiacirino.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Cirino, e il dominio lo ripete"
+ },
+ {
+  "dominio": "antonellacapponi.it",
+  "nome": "Antonella Capponi",
+  "formaSocietaria": "",
+  "partitaIva": "02291920425",
+  "telefono": "+393391321182",
+  "email": "",
+  "sitoUrl": "https://antonellacapponi.it/",
+  "indirizzo": "via Flaminia 526",
+  "cap": "60015",
+  "comune": "Falconara Marittima",
+  "provincia": "an",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonella Capponi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://antonellacapponi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonella Capponi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "clinicacg.it",
+  "nome": "Clinica CG ad Ancona",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02761470422",
+  "telefono": "+390719208002",
+  "email": "segreteria@clinicacg.it",
+  "sitoUrl": "https://www.clinicacg.it/",
+  "indirizzo": "Via C. Simeoni 15",
+  "cap": "60122",
+  "comune": "Ancona",
+  "provincia": "an",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.clinicacg.it/",
+   "https://www.clinicacg.it/chi-siamo/",
+   "https://www.clinicacg.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicaunica.it",
+  "nome": "Unica Medical Center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinicaunica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "an",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicaunica.it/",
+   "https://clinicaunica.it/_astro/chi-siamo.e7S8EUvV.css"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressapatriziasacchi.it",
+  "nome": "Medicina Estetica Ancona e Jesi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02416510424",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottoressapatriziasacchi.it/",
+  "indirizzo": "Via Villafranca, 4",
+  "cap": "60122",
+  "comune": "Ancona",
+  "provincia": "an",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Patrizia Sacchi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottoressapatriziasacchi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "veronicaconsales.it",
+  "nome": "Dott.ssa Veronica Consales",
+  "formaSocietaria": "",
+  "partitaIva": "02739590426",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.veronicaconsales.it/",
+  "indirizzo": "Via Simeoni 15",
+  "cap": "60123",
+  "comune": "Ancona",
+  "provincia": "an",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Veronica Consales, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.veronicaconsales.it/",
+   "https://www.veronicaconsales.it/contatti/",
+   "https://www.veronicaconsales.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Veronica Consales, e il dominio lo ripete"
+ }
+]

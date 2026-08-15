@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "elisirnailsbeautymakeup.com",
+  "nome": "Centro Estetico a Molfetta (BA)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393482663482",
+  "email": "info@elisirnailsbeautymakeup.com",
+  "sitoUrl": "https://www.elisirnailsbeautymakeup.com/",
+  "indirizzo": "Via S. Francesco D'Assisi, 46",
+  "cap": "70056",
+  "comune": "Molfetta",
+  "provincia": "molfetta",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.elisirnailsbeautymakeup.com/",
+   "https://www.elisirnailsbeautymakeup.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esprit3.it",
+  "nome": "Esprit3.it -",
+  "formaSocietaria": "",
+  "partitaIva": "04468170289",
+  "telefono": "",
+  "email": "info@sltservice.it",
+  "sitoUrl": "https://esprit3.it/",
+  "indirizzo": "Via L. Barbo, 8",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "molfetta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esprit3.it/",
+   "https://esprit3.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

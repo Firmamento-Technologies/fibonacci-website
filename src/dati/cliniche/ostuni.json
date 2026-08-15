@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "centromedicocaroli.com",
+  "nome": "centro medico caroli",
+  "formaSocietaria": "",
+  "partitaIva": "01625960743",
+  "telefono": "+393923591005",
+  "email": "",
+  "sitoUrl": "https://www.centromedicocaroli.com/",
+  "indirizzo": "Via Ravenna, 34",
+  "cap": "",
+  "comune": "",
+  "provincia": "ostuni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicocaroli.com/",
+   "https://www.centromedicocaroli.com/contatti",
+   "https://www.centromedicocaroli.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "localshop24.com",
+  "nome": "LocalShop24",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02634090225",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.localshop24.com/it/",
+  "indirizzo": "Piazza Libertà 14",
+  "cap": "38121",
+  "comune": "Trento",
+  "provincia": "ostuni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.localshop24.com/it/",
+   "https://www.localshop24.com/it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "scaleradermochirurgo.it",
+  "nome": "Dott. AGOSTINO SCALERA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393332073845",
+  "email": "",
+  "sitoUrl": "https://scaleradermochirurgo.it/",
+  "indirizzo": "Via Assennato, 6",
+  "cap": "72012",
+  "comune": "Carovigno",
+  "provincia": "ostuni",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Agostino Scalera, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://scaleradermochirurgo.it/",
+   "https://scaleradermochirurgo.it/contatti/",
+   "https://scaleradermochirurgo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

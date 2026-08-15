@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "centrobenesserefavola.com",
+  "nome": "centrobenesserefavola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centrobenesserefavola.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "nichelino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centrobenesserefavola.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cleopatracentroestetico.it",
+  "nome": "Cleopatra Centro Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393384082145",
+  "email": "info@cleopatracentroestetico.it",
+  "sitoUrl": "https://cleopatracentroestetico.it/",
+  "indirizzo": "Via San Francesco D'Assisi, 59",
+  "cap": "",
+  "comune": "",
+  "provincia": "nichelino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://cleopatracentroestetico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticaoltre.it",
+  "nome": "Benvenuti su Estetica Oltre l",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticaoltre.it/",
+  "indirizzo": "Via XXV Aprile 10042",
+  "cap": "10042",
+  "comune": "Nichelino",
+  "provincia": "nichelino",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticaoltre.it/",
+   "https://www.esteticaoltre.it/contatti/",
+   "https://www.esteticaoltre.it/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "nailsandbeautylab.com",
+  "nome": "Nails and Beauty LAB",
+  "formaSocietaria": "",
+  "partitaIva": "12640250010",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.nailsandbeautylab.com/",
+  "indirizzo": "Via Torino 46",
+  "cap": "10042",
+  "comune": "",
+  "provincia": "nichelino",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nailsandbeautylab.com/",
+   "https://www.nailsandbeautylab.com/chi-siamo",
+   "https://www.nailsandbeautylab.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

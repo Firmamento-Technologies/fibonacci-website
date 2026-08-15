@@ -1,0 +1,52 @@
+[
+ {
+  "dominio": "clinicasrita.it",
+  "nome": "Clinica Santa Rita di Vercelli",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11514130159",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.clinicasrita.it/",
+  "indirizzo": "via Passalacqua 10",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "vercelli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicasrita.it/",
+   "https://www.clinicasrita.it/contatti/",
+   "https://www.clinicasrita.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "vercelli42.com",
+  "nome": "Studio Odontoiatrico Vercelli 42 Milano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06111270960",
+  "telefono": "+390243911335",
+  "email": "info@vercelli42.it",
+  "sitoUrl": "https://vercelli42.com/",
+  "indirizzo": "Corso Vercelli 42",
+  "cap": "20145",
+  "comune": "Milano",
+  "provincia": "vercelli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://vercelli42.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

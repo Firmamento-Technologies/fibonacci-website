@@ -1,0 +1,33 @@
+[
+ {
+  "dominio": "policura.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiocanaliivan.it",
+  "nome": "Studio odontoiatrico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390464434996",
+  "email": "info@studiocanali.eu",
+  "sitoUrl": "https://www.studiocanaliivan.it/",
+  "indirizzo": "Via Manzoni 15",
+  "cap": "38068",
+  "comune": "Rovereto",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiocanaliivan.it/",
+   "https://www.studiocanaliivan.it/about-me",
+   "https://www.studiocanaliivan.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

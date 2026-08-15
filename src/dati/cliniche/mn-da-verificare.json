@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "armoniamantova.it",
+  "nome": "Armonia: Centro medico Polispecialistico a Mantova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3903761608500",
+  "email": "info@armoniamantova.it",
+  "sitoUrl": "https://www.armoniamantova.it/",
+  "indirizzo": "Via F.lli Kennedy 73",
+  "cap": "46047",
+  "comune": "Porto",
+  "provincia": "mn",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.armoniamantova.it/",
+   "https://www.armoniamantova.it/dove-siamo/",
+   "https://www.armoniamantova.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "meacliniq.com",
+  "nome": "MEA CLINIQ",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3903761411518",
+  "email": "info@meacliniq.com",
+  "sitoUrl": "https://meacliniq.com/",
+  "indirizzo": "Via Principe Amedeo 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "mn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://meacliniq.com/",
+   "https://meacliniq.com/chi-siamo/",
+   "https://meacliniq.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicouau.it",
+  "nome": "Studio Medico UAU",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390376643916",
+  "email": "",
+  "sitoUrl": "https://studiomedicouau.it/",
+  "indirizzo": "Piazzale Mozzarelli, 10",
+  "cap": "46100",
+  "comune": "Mantova",
+  "provincia": "mn",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicouau.it/",
+   "https://studiomedicouau.it/contatti/",
+   "https://studiomedicouau.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

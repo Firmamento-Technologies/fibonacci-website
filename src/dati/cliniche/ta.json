@@ -1,0 +1,278 @@
+[
+ {
+  "dominio": "centro-di-medicinaplastica-ed-estetica-drmazzeiantonio.it",
+  "nome": "CENTRO DI CHIRURGIA PLASTICA ED ESTETICA MAZZEI",
+  "formaSocietaria": "",
+  "partitaIva": "00214190738",
+  "telefono": "+390997792323",
+  "email": "",
+  "sitoUrl": "https://www.centro-di-medicinaplastica-ed-estetica-drmazzeiantonio.it/",
+  "indirizzo": "Via Fiume 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Mazzei, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.centro-di-medicinaplastica-ed-estetica-drmazzeiantonio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drbegionimedicinaestetica.com",
+  "nome": "Dr  Begioni Medicina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.drbegionimedicinaestetica.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Begioni Nicolò, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drbegionimedicinaestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drfrancescorusso.com",
+  "nome": "Chirurgo Plastico Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://drfrancescorusso.com/",
+  "indirizzo": "Via Salvio Giuliano, 5",
+  "cap": "20146",
+  "comune": "Milano",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Russo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://drfrancescorusso.com/",
+   "https://drfrancescorusso.com/contattami/",
+   "https://drfrancescorusso.com/en/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "obiettivosalutetaranto.it",
+  "nome": "Obiettivo Salute",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "03214260733",
+  "telefono": "+390999468220",
+  "email": "info@obiettivosalutetaranto.it",
+  "sitoUrl": "https://www.obiettivosalutetaranto.it/",
+  "indirizzo": "Via Gen. U. Monteduro, 9",
+  "cap": "74121",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.obiettivosalutetaranto.it/",
+   "https://www.obiettivosalutetaranto.it/contatti/",
+   "https://www.obiettivosalutetaranto.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "oralmedica.it",
+  "nome": "Dentista a Taranto, Lecce e Polignano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02950110730",
+  "telefono": "+390997721371",
+  "email": "info@oralmedica.it",
+  "sitoUrl": "https://oralmedica.it/",
+  "indirizzo": "Viale Unità d'Italia 107",
+  "cap": "",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://oralmedica.it/",
+   "https://oralmedica.it/chi-siamo/",
+   "https://oralmedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "prontosalutetaranto.it",
+  "nome": "Prontosalute",
+  "formaSocietaria": "",
+  "partitaIva": "03310880731",
+  "telefono": "+390996621595",
+  "email": "info@prontosalutetaranto.it",
+  "sitoUrl": "https://www.prontosalutetaranto.it/",
+  "indirizzo": "Via Sardegna 2c",
+  "cap": "",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.prontosalutetaranto.it/",
+   "https://www.prontosalutetaranto.it/chi-siamo/",
+   "https://www.prontosalutetaranto.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "rosasalutari.com",
+  "nome": "Dott.ssa Rosa Salutari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393509448356",
+  "email": "info@rosasalutari.com",
+  "sitoUrl": "https://www.rosasalutari.com/",
+  "indirizzo": "Via Alberico Albricci, 9",
+  "cap": "20122",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rosa Salutari, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.rosasalutari.com/",
+   "https://www.rosasalutari.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosa Salutari, e il dominio lo ripete"
+ },
+ {
+  "dominio": "saluteservizi.it",
+  "nome": "Salute & Servizi Srl",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03410100733",
+  "telefono": "+393758185656",
+  "email": "info@saluteservizi.it",
+  "sitoUrl": "https://saluteservizi.it/",
+  "indirizzo": "Via Leonida, 57",
+  "cap": "",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://saluteservizi.it/",
+   "https://saluteservizi.it/chi-siamo/",
+   "https://saluteservizi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "smedclinic.it",
+  "nome": "SMED Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390999880273",
+  "email": "",
+  "sitoUrl": "https://smedclinic.it/",
+  "indirizzo": "Via Lago D'Arvo, 10",
+  "cap": "74121",
+  "comune": "",
+  "provincia": "ta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://smedclinic.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodegiovanni.com",
+  "nome": "Studio De Giovanni",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03357900731",
+  "telefono": "+393343803494",
+  "email": "",
+  "sitoUrl": "https://studiodegiovanni.com/",
+  "indirizzo": "Piazza Alda Merini 23",
+  "cap": "74121",
+  "comune": "Taranto",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiodegiovanni.com/",
+   "https://studiodegiovanni.com/about-us/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

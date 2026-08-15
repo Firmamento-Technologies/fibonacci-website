@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "polimedmilazzo.com",
+  "nome": "Polimed Milazzo",
+  "formaSocietaria": "",
+  "partitaIva": "03781450832",
+  "telefono": "+390909140140",
+  "email": "info@polimedmilazzo.com",
+  "sitoUrl": "https://polimedmilazzo.com/",
+  "indirizzo": "Via Manzoni, 37",
+  "cap": "98057",
+  "comune": "MILAZZO",
+  "provincia": "milazzo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://polimedmilazzo.com/",
+   "https://polimedmilazzo.com/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

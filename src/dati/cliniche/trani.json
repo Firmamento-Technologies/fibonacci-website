@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "studiodentisticocarmenparadiso.it",
+  "nome": "Studio Dentistico Carmen Paradiso",
+  "formaSocietaria": "",
+  "partitaIva": "06682790727",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticocarmenparadiso.it/",
+  "indirizzo": "Via Malcangi, 64",
+  "cap": "76125",
+  "comune": "Trani",
+  "provincia": "trani",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carmen Paradiso, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticocarmenparadiso.it/",
+   "https://www.studiodentisticocarmenparadiso.it/chi-siamo/",
+   "https://www.studiodentisticocarmenparadiso.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

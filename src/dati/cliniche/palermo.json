@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "myasalute.it",
+  "nome": "Mya Salute S.r.l.",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06779690822",
+  "telefono": "",
+  "email": "info@myasalute.it",
+  "sitoUrl": "https://myasalute.it/",
+  "indirizzo": "Viale Strasburgo, 422",
+  "cap": "90146",
+  "comune": "Palermo",
+  "provincia": "palermo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://myasalute.it/",
+   "https://myasalute.it/chi-siamo/",
+   "https://myasalute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

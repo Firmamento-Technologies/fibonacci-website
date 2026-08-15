@@ -1,0 +1,98 @@
+[
+ {
+  "dominio": "giadastudio.it",
+  "nome": "Capelli e Trucco Semipermanente",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393928016880",
+  "email": "",
+  "sitoUrl": "https://www.giadastudio.it/",
+  "indirizzo": "Via Bruno Besozzi, 15",
+  "cap": "",
+  "comune": "",
+  "provincia": "vb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.giadastudio.it/",
+   "https://www.giadastudio.it/contattami-per-appuntamento/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gruppocdc.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "massimomacridelgiudice.com",
+  "nome": "Medicina Estetica Verbania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393451725067",
+  "email": "",
+  "sitoUrl": "https://massimomacridelgiudice.com/",
+  "indirizzo": "Via Volturno, 21",
+  "cap": "28921",
+  "comune": "Pallanza",
+  "provincia": "vb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://massimomacridelgiudice.com/",
+   "https://massimomacridelgiudice.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nova-estetica.it",
+  "nome": "Nova Estetica Specialistica",
+  "formaSocietaria": "",
+  "partitaIva": "11513050010",
+  "telefono": "",
+  "email": "info@novacosmeticshop.com",
+  "sitoUrl": "https://www.nova-estetica.it/",
+  "indirizzo": "Via Rombò 40",
+  "cap": "",
+  "comune": "",
+  "provincia": "vb",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nova-estetica.it/",
+   "https://www.nova-estetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

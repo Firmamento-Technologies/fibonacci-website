@@ -1,0 +1,287 @@
+[
+ {
+  "dominio": "ambulatoriprivati.it",
+  "nome": "Ambulatoriprivati.it",
+  "formaSocietaria": "",
+  "partitaIva": "01709640674",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ambulatoriprivati.it/",
+  "indirizzo": "Largo Volontari del Sangue, 10",
+  "cap": "20097",
+  "comune": "San",
+  "provincia": "rc",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ambulatoriprivati.it/",
+   "https://www.ambulatoriprivati.it/contatti-con-la-redazione/segnala-abusi.html",
+   "https://www.ambulatoriprivati.it/info/informativa-sulla-privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cassonegiovannisrl.it",
+  "nome": "Poliambulatorio Specialistico Cassone Giovanni Srl",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@cassonegiovannisrl.it",
+  "sitoUrl": "https://www.cassonegiovannisrl.it/",
+  "indirizzo": "Viale U. Boccioni 12",
+  "cap": "89123",
+  "comune": "Reggio",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.cassonegiovannisrl.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicoelisir.it",
+  "nome": "Centro di medicina estetica, dermatologia, dietologia e laserterapia",
+  "formaSocietaria": "",
+  "partitaIva": "02418160806",
+  "telefono": "+390965630288",
+  "email": "info@centromedicoelisir.it",
+  "sitoUrl": "https://centromedicoelisir.it/",
+  "indirizzo": "Via SS Jonica 106",
+  "cap": "89131",
+  "comune": "Reggio",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centromedicoelisir.it/",
+   "https://centromedicoelisir.it/contatti",
+   "https://centromedicoelisir.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermaclinic-studiomazzeo.com",
+  "nome": "Derma Clinic-Studio Dermatologico e laserterapia Mazzeo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dermaclinic-studiomazzeo.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dermaclinic-studiomazzeo.com/",
+   "https://www.dermaclinic-studiomazzeo.com/chi-siamo",
+   "https://www.dermaclinic-studiomazzeo.com/copia-di-contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticainmentesrl.it",
+  "nome": "Centro Estetico Reggio Calabria",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03147640803",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticainmentesrl.it/",
+  "indirizzo": "Piazza Sant'Anna 49",
+  "cap": "89128",
+  "comune": "Reggio",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://esteticainmentesrl.it/",
+   "https://esteticainmentesrl.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giuseppepavone.it",
+  "nome": "Medico Chirurgo Reggio Calabria ⋆ Dr. Giuseppe Pavone",
+  "formaSocietaria": "",
+  "partitaIva": "02723330805",
+  "telefono": "+393287445782",
+  "email": "info@giuseppepavone.it",
+  "sitoUrl": "https://www.giuseppepavone.it/",
+  "indirizzo": "via del Soccorso al mare, 6",
+  "cap": "",
+  "comune": "",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Pavone, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giuseppepavone.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Pavone, e il dominio lo ripete"
+ },
+ {
+  "dominio": "leonardoioppolo.com",
+  "nome": "Dr. Leonardo Ioppolo: chirurgo plastico calabria",
+  "formaSocietaria": "",
+  "partitaIva": "03162380806",
+  "telefono": "+393492899140",
+  "email": "",
+  "sitoUrl": "https://www.leonardoioppolo.com/",
+  "indirizzo": "Via Bari, 6",
+  "cap": "88050",
+  "comune": "Caraffa",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Leonardo Ioppolo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.leonardoioppolo.com/",
+   "https://www.leonardoioppolo.com/contatti-chirurgo-plastico-in-calabria/",
+   "https://www.leonardoioppolo.com/contatti-chirurgo-plastico-in-calabria/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Leonardo Ioppolo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "marcobiricotti.it",
+  "nome": "Dott. Marco Biricotti",
+  "formaSocietaria": "",
+  "partitaIva": "01774140493",
+  "telefono": "",
+  "email": "info@marcobiricotti.it",
+  "sitoUrl": "https://marcobiricotti.it/",
+  "indirizzo": "Via Borgognini, 41",
+  "cap": "55049",
+  "comune": "Viareggio",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marco Biricotti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marcobiricotti.it/",
+   "https://marcobiricotti.it/contatti/",
+   "https://marcobiricotti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Biricotti, e il dominio lo ripete"
+ },
+ {
+  "dominio": "stimolacollagene.it",
+  "nome": "Collagene: benefici,trattamenti e consigli medici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12980441005",
+  "telefono": "+393474408924",
+  "email": "info@stimolacollagene.it",
+  "sitoUrl": "https://stimolacollagene.it/",
+  "indirizzo": "via Monte Giberto, 33",
+  "cap": "00138",
+  "comune": "Roma",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://stimolacollagene.it/",
+   "https://stimolacollagene.it/dott-ssa-renga/",
+   "https://stimolacollagene.it/dott-ssa-renga/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

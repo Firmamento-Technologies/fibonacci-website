@@ -1,0 +1,279 @@
+[
+ {
+  "dominio": "brighettiplast.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "chirurgiaplasticamarra.it",
+  "nome": "Dott. Mario Marra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@chirurgiapasticamarra.it",
+  "sitoUrl": "https://www.chirurgiaplasticamarra.it/",
+  "indirizzo": "Via Arienti, 33",
+  "cap": "48122",
+  "comune": "RA",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaplasticamarra.it/",
+   "https://www.chirurgiaplasticamarra.it/about/",
+   "https://www.chirurgiaplasticamarra.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottoressatonelli.it",
+  "nome": "Tonelli Dott.ssa Sandra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39051269131",
+  "email": "",
+  "sitoUrl": "https://dottoressatonelli.it/",
+  "indirizzo": "Piazza San Francesco 2",
+  "cap": "40122",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottoressatonelli.it/",
+   "https://dottoressatonelli.it/le-sedi/",
+   "https://dottoressatonelli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drssairenepistis.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393493303041",
+  "email": "",
+  "sitoUrl": "https://www.drssairenepistis.it/",
+  "indirizzo": "Via Salvatore Quasimodo 46",
+  "cap": "",
+  "comune": "",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drssairenepistis.it/",
+   "https://www.drssairenepistis.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lipostamina.com",
+  "nome": "Protocollo LipoStamina",
+  "formaSocietaria": "",
+  "partitaIva": "11185040018",
+  "telefono": "+393459045838",
+  "email": "info@lipostamina.com",
+  "sitoUrl": "https://lipostamina.com/",
+  "indirizzo": "Via Bruno Buozzi, 7",
+  "cap": "40065",
+  "comune": "Pianoro",
+  "provincia": "bo",
+  "prestazioni": [
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lipostamina.com/",
+   "https://lipostamina.com/dr-giovanni-benfenati-liposcultura-lipofilling-bologna-contatti",
+   "https://lipostamina.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicina-estetica-bologna.it",
+  "nome": "Piero Notarrigo Home",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39051453288",
+  "email": "info@pieronotarrigo.it",
+  "sitoUrl": "https://www.medicina-estetica-bologna.it/",
+  "indirizzo": "Via Venezia, 10",
+  "cap": "40068",
+  "comune": "San",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicina-estetica-bologna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "santagostinobologna.it",
+  "nome": "Santagostino Bologna: la salute a portata di mano",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03740811207",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santagostinobologna.it/",
+  "indirizzo": "Via Massarenti 46",
+  "cap": "40138",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.santagostinobologna.it/",
+   "https://www.santagostinobologna.it/chi-siamo/",
+   "https://www.santagostinobologna.it/contatti-e-orari/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "skinlaserbologna.it",
+  "nome": "Laser epilazione e trattamenti estetici a Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "03287651206",
+  "telefono": "+39051551365",
+  "email": "info@skinlaserbologna.it",
+  "sitoUrl": "https://www.skinlaserbologna.it/",
+  "indirizzo": "Via Zanardi, 6",
+  "cap": "40131",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.skinlaserbologna.it/",
+   "https://www.skinlaserbologna.it/chi-siamo/",
+   "https://www.skinlaserbologna.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicofrattini.it",
+  "nome": "Agopuntura omeopatia e trattamenti di medicina estetica a Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "03750220372",
+  "telefono": "+39051348800",
+  "email": "info@studiomedicofrattini.it",
+  "sitoUrl": "https://www.studiomedicofrattini.it/",
+  "indirizzo": "Via Pizzardi 63",
+  "cap": "40138",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicofrattini.it/",
+   "https://www.studiomedicofrattini.it/contatti/",
+   "https://www.studiomedicofrattini.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vivianaparis.it",
+  "nome": "Medicina Estetica a Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "02465761209",
+  "telefono": "+393478783614",
+  "email": "info@vivianaparis.it",
+  "sitoUrl": "https://www.vivianaparis.it/",
+  "indirizzo": "Via Savigno n° 3",
+  "cap": "40141",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.vivianaparis.it/",
+   "https://www.vivianaparis.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

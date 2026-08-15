@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "esteticastudiogiovanna.it",
+  "nome": "Estetica Studio Giovanna",
+  "formaSocietaria": "",
+  "partitaIva": "01526460033",
+  "telefono": "",
+  "email": "info@esteticastudiogiovanna.it",
+  "sitoUrl": "https://www.esteticastudiogiovanna.it/",
+  "indirizzo": "Via C. Colombo, 24",
+  "cap": "28921",
+  "comune": "Verbania",
+  "provincia": "verbania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticastudiogiovanna.it/",
+   "https://www.esteticastudiogiovanna.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

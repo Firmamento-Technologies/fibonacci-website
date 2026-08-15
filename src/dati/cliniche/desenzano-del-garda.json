@@ -1,0 +1,163 @@
+[
+ {
+  "dominio": "alionamuratov.com",
+  "nome": "Medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "02714050982",
+  "telefono": "+393407473015",
+  "email": "",
+  "sitoUrl": "https://alionamuratov.com/",
+  "indirizzo": "Via Adua, 4",
+  "cap": "25015",
+  "comune": "Desenzano",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Aliona Muratov, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://alionamuratov.com/",
+   "https://alionamuratov.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aliona Muratov, e il dominio lo ripete"
+ },
+ {
+  "dominio": "alionamuratov.it",
+  "nome": "Centro di medicina estetica a Desenzano del Garda-Aliona Muratov",
+  "formaSocietaria": "",
+  "partitaIva": "02714050982",
+  "telefono": "",
+  "email": "info@alionamuratov.it",
+  "sitoUrl": "https://alionamuratov.it/",
+  "indirizzo": "Via Adua, 4",
+  "cap": "25015",
+  "comune": "Desenzano",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Aliona Muratov, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://alionamuratov.it/",
+   "https://alionamuratov.it/contatti/",
+   "https://alionamuratov.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicosantangela.com",
+  "nome": "Centro medico specialistico Desenzano del Garda",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390302330232",
+  "email": "info@centromedicosantangela.com",
+  "sitoUrl": "https://www.centromedicosantangela.com/",
+  "indirizzo": "Via Adua n.1",
+  "cap": "25015",
+  "comune": "Desenzano",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicosantangela.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressakorol.it",
+  "nome": "HP new",
+  "formaSocietaria": "",
+  "partitaIva": "03464990989",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottoressakorol.it/",
+  "indirizzo": "Via Nikolajewka, 10",
+  "cap": "25015",
+  "comune": "Desenzano",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://dottoressakorol.it/",
+   "https://dottoressakorol.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mancusomedicalstudio.it",
+  "nome": "STUDIO DOTT. MANCUSO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.mancusomedicalstudio.it/",
+  "indirizzo": "Via Adua 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Mancuso, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.mancusomedicalstudio.it/",
+   "https://www.mancusomedicalstudio.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "neoclinic.it",
+  "nome": "NeoClinic Desenzano del Garda",
+  "formaSocietaria": "",
+  "partitaIva": "04290410234",
+  "telefono": "+390300973439",
+  "email": "info@neoclinic.it",
+  "sitoUrl": "https://neoclinic.it/",
+  "indirizzo": "Via Monte Sparavieri, 4",
+  "cap": "37142",
+  "comune": "",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://neoclinic.it/",
+   "https://neoclinic.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

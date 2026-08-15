@@ -1,0 +1,105 @@
+[
+ {
+  "dominio": "2026.ptcbrescia.it",
+  "nome": "Centro di Riabilitazione e Chirurgia",
+  "formaSocietaria": "",
+  "partitaIva": "03736190988",
+  "telefono": "+39030280248",
+  "email": "info@ptcbrescia.it",
+  "sitoUrl": "https://2026.ptcbrescia.it/",
+  "indirizzo": "Via F.lli Ugoni, 4",
+  "cap": "25126",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://2026.ptcbrescia.it/",
+   "https://2026.ptcbrescia.it/le-sedi/",
+   "https://2026.ptcbrescia.it/le-sedi/ptc-ghedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "aurapoliambulatori.it",
+  "nome": "Arphé Poliambulatorio a Brescia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04666490984",
+  "telefono": "+393517238936",
+  "email": "",
+  "sitoUrl": "https://aurapoliambulatori.it/",
+  "indirizzo": "Via Rodi, 49",
+  "cap": "25124",
+  "comune": "BRESCIA",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://aurapoliambulatori.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicovaltrompia.it",
+  "nome": "Centro Medico Valtrompia",
+  "formaSocietaria": "",
+  "partitaIva": "04007700984",
+  "telefono": "+390304193773",
+  "email": "segreteria@centromedicovaltrompia.it",
+  "sitoUrl": "https://www.centromedicovaltrompia.it/",
+  "indirizzo": "Viale Europa, 152",
+  "cap": "",
+  "comune": "",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicovaltrompia.it/",
+   "https://www.centromedicovaltrompia.it/chi-siamo",
+   "https://www.centromedicovaltrompia.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "igeapoliambulatoribrescia.it",
+  "nome": "Poliambulatorio Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "04129430981",
+  "telefono": "+390305285991",
+  "email": "info@igeapoliambulatori.it",
+  "sitoUrl": "https://www.igeapoliambulatoribrescia.it/",
+  "indirizzo": "Via Montello, 75",
+  "cap": "25128",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.igeapoliambulatoribrescia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

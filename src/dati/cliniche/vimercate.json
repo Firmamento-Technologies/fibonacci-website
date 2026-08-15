@@ -1,0 +1,175 @@
+[
+ {
+  "dominio": "dermatologiavimercate.it",
+  "nome": "Dr. Florian C. Heydecker",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393349454703",
+  "email": "",
+  "sitoUrl": "https://dermatologiavimercate.it/",
+  "indirizzo": "Piazza Santo Stefano 6",
+  "cap": "23943",
+  "comune": "Whatsapp",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://dermatologiavimercate.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermolaserclinic.it",
+  "nome": "Dermolaser Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dermolaserclinic.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vimercate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://dermolaserclinic.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticadavidesala.it",
+  "nome": "Dottor Davide Sala",
+  "formaSocietaria": "",
+  "partitaIva": "02682600966",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticadavidesala.it/",
+  "indirizzo": "via Torri Bianche 3",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://medicinaesteticadavidesala.it/",
+   "https://medicinaesteticadavidesala.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mylabitalia.it",
+  "nome": "Poliambulatori MyLab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03929470130",
+  "telefono": "+390399009950",
+  "email": "info@mylabitalia.it",
+  "sitoUrl": "https://mylabitalia.it/",
+  "indirizzo": "via Borgazzi, 7",
+  "cap": "20862",
+  "comune": "Arcore",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://mylabitalia.it/",
+   "https://mylabitalia.it/chi-siamo/",
+   "https://mylabitalia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "portofinovimercate.it",
+  "nome": "Portofino Maison de Beauté di Cristina Micci",
+  "formaSocietaria": "",
+  "partitaIva": "03429010139",
+  "telefono": "+390396085169",
+  "email": "info@portofinovimercate.it",
+  "sitoUrl": "https://portofinovimercate.it/",
+  "indirizzo": "Via I. Rota, 36",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://portofinovimercate.it/",
+   "https://portofinovimercate.it/chi-siamo/",
+   "https://portofinovimercate.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "qifisio.it",
+  "nome": "QiFIsio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393493295401",
+  "email": "info@qifisio.it",
+  "sitoUrl": "https://www.qifisio.it/",
+  "indirizzo": "Viale I. Rota, 26",
+  "cap": "20871",
+  "comune": "Vimercate",
+  "provincia": "vimercate",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.qifisio.it/",
+   "https://www.qifisio.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

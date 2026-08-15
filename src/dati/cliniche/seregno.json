@@ -1,0 +1,286 @@
+[
+ {
+  "dominio": "618medicallab.it",
+  "nome": ".618 Medical Lab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04792250963",
+  "telefono": "+3903621827725",
+  "email": "info@618medicallab.it",
+  "sitoUrl": "https://618medicallab.it/",
+  "indirizzo": "via Odescalchi, 39",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://618medicallab.it/",
+   "https://618medicallab.it/chi-siamo/",
+   "https://618medicallab.it/odontoiatria-chi-siamo-il-team/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "beautyesteeclinique.com",
+  "nome": "Beautyestee' Clinique",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12933700960",
+  "telefono": "",
+  "email": "info@beautyesteebustoarsizio.com",
+  "sitoUrl": "https://www.beautyesteeclinique.com/",
+  "indirizzo": "piazza Italia 4",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.beautyesteeclinique.com/",
+   "https://www.beautyesteeclinique.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "cobmedicina.it",
+  "nome": "COB Medicina e salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390396791643",
+  "email": "",
+  "sitoUrl": "https://www.cobmedicina.it/",
+  "indirizzo": "Via Valassina, 40",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.cobmedicina.it/",
+   "https://www.cobmedicina.it/contatti.php",
+   "https://www.cobmedicina.it/chi-siamo.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dinamicamedica.it",
+  "nome": "Dinamica Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390362328590",
+  "email": "info@dinamicamedica.it",
+  "sitoUrl": "https://dinamicamedica.it/",
+  "indirizzo": "Via Don Longoni 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dinamicamedica.it/",
+   "https://dinamicamedica.it/chi-siamo/",
+   "https://dinamicamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medical-resort.it",
+  "nome": "Medical Resort",
+  "formaSocietaria": "",
+  "partitaIva": "13430280969",
+  "telefono": "+390362245281",
+  "email": "info@website.com",
+  "sitoUrl": "https://www.medical-resort.it/",
+  "indirizzo": "Via Livio Colzani, 137",
+  "cap": "01207",
+  "comune": "Dati",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.medical-resort.it/",
+   "https://www.medical-resort.it/chi-siamo/",
+   "https://www.medical-resort.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mrpclinicseregno.it",
+  "nome": "Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "14088010963",
+  "telefono": "",
+  "email": "info@mrpclinicseregno.it",
+  "sitoUrl": "https://www.mrpclinicseregno.it/",
+  "indirizzo": "Via Cristoforo Colombo 85",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.mrpclinicseregno.it/",
+   "https://www.mrpclinicseregno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriocso.it",
+  "nome": "poliambulatoriocso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriocso.it/",
+  "indirizzo": "Via Raffaello Sanzio, 2",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriocso.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "seven-suite.it",
+  "nome": "Seven Suite",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "13821660969",
+  "telefono": "",
+  "email": "info@seven-suite.it",
+  "sitoUrl": "https://seven-suite.it/",
+  "indirizzo": "Corso Matteotti, 20",
+  "cap": "20831",
+  "comune": "Monza",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://seven-suite.it/",
+   "https://seven-suite.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioquasso.it",
+  "nome": "Studio Quasso",
+  "formaSocietaria": "",
+  "partitaIva": "10395050965",
+  "telefono": "+390362239508",
+  "email": "info@studioquasso.it",
+  "sitoUrl": "https://studioquasso.it/",
+  "indirizzo": "Via Briantina 65",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://studioquasso.it/",
+   "https://studioquasso.it/appuntamenti-e-contatti/",
+   "https://studioquasso.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "visagebeautylab.it",
+  "nome": "Visage Beauty Lab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393317385929",
+  "email": "",
+  "sitoUrl": "https://www.visagebeautylab.it/",
+  "indirizzo": "Via Santino de Nova 34",
+  "cap": "",
+  "comune": "",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.visagebeautylab.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

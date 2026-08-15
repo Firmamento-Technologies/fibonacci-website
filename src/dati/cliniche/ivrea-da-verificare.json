@@ -1,0 +1,81 @@
+[
+ {
+  "dominio": "centroesteticoelle.it",
+  "nome": "Centro Estetico Elle",
+  "formaSocietaria": "",
+  "partitaIva": "10967390013",
+  "telefono": "+393319933323",
+  "email": "",
+  "sitoUrl": "https://centroesteticoelle.it/",
+  "indirizzo": "Via Jervis 22",
+  "cap": "10015",
+  "comune": "Ivrea",
+  "provincia": "ivrea",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticoelle.it/",
+   "https://centroesteticoelle.it/privacy-policy-2/",
+   "https://centroesteticoelle.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticalinearcenter.com",
+  "nome": "Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "05632790019",
+  "telefono": "+393288757180",
+  "email": "",
+  "sitoUrl": "https://www.esteticalinearcenter.com/",
+  "indirizzo": "Via Torino 329",
+  "cap": "10015",
+  "comune": "Ivrea",
+  "provincia": "ivrea",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticalinearcenter.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiosimondi.it",
+  "nome": "Dentisti a Ivrea Canavese",
+  "formaSocietaria": "",
+  "partitaIva": "09977420018",
+  "telefono": "+39012548190",
+  "email": "",
+  "sitoUrl": "https://studiosimondi.it/",
+  "indirizzo": "Via Dora Baltea 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiosimondi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

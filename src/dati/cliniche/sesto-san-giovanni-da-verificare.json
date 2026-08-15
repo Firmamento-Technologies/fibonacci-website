@@ -1,0 +1,138 @@
+[
+ {
+  "dominio": "aestheticlinesesto.it",
+  "nome": "AestheticLine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@aestheticline.it",
+  "sitoUrl": "https://www.aestheticlinesesto.it/",
+  "indirizzo": "via Pisa, 152",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aestheticlinesesto.it/",
+   "https://www.aestheticlinesesto.it/contatti",
+   "https://www.aestheticlinesesto.it/privacy.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "asst-nordmilano.it",
+  "nome": "ASST Nord Milano",
+  "formaSocietaria": "",
+  "partitaIva": "09320420962",
+  "telefono": "+3902999599",
+  "email": "",
+  "sitoUrl": "https://www.asst-nordmilano.it/",
+  "indirizzo": "Viale G. Matteotti, 83",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.asst-nordmilano.it/",
+   "https://www.asst-nordmilano.it/chi-siamo",
+   "https://www.asst-nordmilano.it/le-nostre-sedi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "centroesteticokarisma.it",
+  "nome": "Centro Estetico Karisma a Sesto San Giovanni (MI)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390965675357",
+  "email": "info@centroesteticokarisma.it",
+  "sitoUrl": "https://www.centroesteticokarisma.it/",
+  "indirizzo": "Via XX Settembre, 45",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticokarisma.it/",
+   "https://www.centroesteticokarisma.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "rodental.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "santagostinosesto.it",
+  "nome": "Santagostino Sesto San Giovanni: il centro medico vicino a te",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03740811207",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santagostinosesto.it/",
+  "indirizzo": "Via Gorizia 23",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.santagostinosesto.it/",
+   "https://www.santagostinosesto.it/chi-siamo/",
+   "https://www.santagostinosesto.it/contatti-e-orari/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sestopolimedica.it",
+  "nome": "Sesto Polimedica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09577990964",
+  "telefono": "+390291672592",
+  "email": "info@sestopolimedica.it",
+  "sitoUrl": "https://www.sestopolimedica.it/",
+  "indirizzo": "Via Alberto Falck 16",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.sestopolimedica.it/",
+   "https://www.sestopolimedica.it/contatti/",
+   "https://www.sestopolimedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

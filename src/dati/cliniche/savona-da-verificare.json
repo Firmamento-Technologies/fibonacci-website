@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "centromedicoolos.it",
+  "nome": "Centro Medico Olos",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01926370097",
+  "telefono": "+390102407134",
+  "email": "info.liguria@synlab.it",
+  "sitoUrl": "https://www.centromedicoolos.it/",
+  "indirizzo": "Via Astengo 5",
+  "cap": "17100",
+  "comune": "Savona",
+  "provincia": "savona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicoolos.it/",
+   "https://www.centromedicoolos.it/sedi-e-orari/",
+   "https://www.centromedicoolos.it/privacy-e-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "medicinaesteticaterni.com",
+  "nome": "Chirurgia dermatologica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390744433753",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticaterni.com/",
+  "indirizzo": "Via Pietro Farini 77",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticaterni.com/",
+   "https://www.medicinaesteticaterni.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sihappy.terni.it",
+  "nome": "Sì!Happy Terni: Le Migliori Offerte e Sconti a Terni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@sihappy.terni.it",
+  "sitoUrl": "https://sihappy.terni.it/",
+  "indirizzo": "",
+  "cap": "94109",
+  "comune": "Phone",
+  "provincia": "tr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://sihappy.terni.it/",
+   "https://sihappy.terni.it/contatti/",
+   "https://sihappy.terni.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,175 @@
+[
+ {
+  "dominio": "arteclinic.it",
+  "nome": "Arte clinic",
+  "formaSocietaria": "",
+  "partitaIva": "01432340451",
+  "telefono": "+390585011070",
+  "email": "",
+  "sitoUrl": "https://arteclinic.it/",
+  "indirizzo": "Via Massa Avenza, 38",
+  "cap": "54100",
+  "comune": "Massa",
+  "provincia": "ms",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://arteclinic.it/",
+   "https://arteclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "caterinarondinella.it",
+  "nome": "Medico Estetico specializzato",
+  "formaSocietaria": "",
+  "partitaIva": "01047690454",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://caterinarondinella.it/",
+  "indirizzo": "Via Palestro 23",
+  "cap": "54100",
+  "comune": "Massa",
+  "provincia": "ms",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Caterina Rondinella, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://caterinarondinella.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Rondinella, e il dominio lo ripete"
+ },
+ {
+  "dominio": "centrobeamed.it",
+  "nome": "Clinica del benessere",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03906600923",
+  "telefono": "+393662120211",
+  "email": "info@centrobeamed.it",
+  "sitoUrl": "https://centrobeamed.it/",
+  "indirizzo": "Via Ariosto 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "ms",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centrobeamed.it/",
+   "https://centrobeamed.it/chi-siamo/",
+   "https://centrobeamed.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centropoliambulatorialedicra.it",
+  "nome": "Centro Poliambulatoriale Dicra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390585811897",
+  "email": "segreteria@centropoliambulatorialedicra.it",
+  "sitoUrl": "https://centropoliambulatorialedicra.it/",
+  "indirizzo": "Viale Chiesa Eugenio 2",
+  "cap": "54100",
+  "comune": "Massa",
+  "provincia": "ms",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centropoliambulatorialedicra.it/",
+   "https://centropoliambulatorialedicra.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dossiersalute.com",
+  "nome": "Dossier Salute: medicina, prevenzione e benessere",
+  "formaSocietaria": "SRL",
+  "partitaIva": "11130450965",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dossiersalute.com/",
+  "indirizzo": "",
+  "cap": "20129",
+  "comune": "MILANO",
+  "provincia": "ms",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.dossiersalute.com/",
+   "https://www.dossiersalute.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pietromascolo.it",
+  "nome": "Dott. Pietro Mascolo",
+  "formaSocietaria": "",
+  "partitaIva": "01323980456",
+  "telefono": "+393496392535",
+  "email": "",
+  "sitoUrl": "https://pietromascolo.it/",
+  "indirizzo": "Via Rossini, 9",
+  "cap": "54100",
+  "comune": "Massa",
+  "provincia": "ms",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Mascolo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://pietromascolo.it/",
+   "https://pietromascolo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Mascolo, e il dominio lo ripete"
+ }
+]

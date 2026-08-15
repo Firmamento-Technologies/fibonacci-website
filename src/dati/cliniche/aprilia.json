@@ -1,0 +1,136 @@
+[
+ {
+  "dominio": "aurumesteticaesclusiva.com",
+  "nome": "AURUM Estetica Esclusiva, istituto di estetica nel Cuore di Aprilia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@aurumesteticaesclusiva.ch.",
+  "sitoUrl": "https://aurumesteticaesclusiva.com/",
+  "indirizzo": "Via San Gottardo 20",
+  "cap": "04011",
+  "comune": "Aprilia",
+  "provincia": "aprilia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://aurumesteticaesclusiva.com/",
+   "https://aurumesteticaesclusiva.com/pages/contatti",
+   "https://aurumesteticaesclusiva.com/pages/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "elkalab.com",
+  "nome": "Elkalab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@elkalab.com",
+  "sitoUrl": "https://www.elkalab.com/",
+  "indirizzo": "Via delle Regioni, 20",
+  "cap": "",
+  "comune": "",
+  "provincia": "aprilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.elkalab.com/",
+   "https://www.elkalab.com/chi-siamo/",
+   "https://www.elkalab.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "karibuestetica.it",
+  "nome": "Karibu centro estetico e benessere Aprilia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@karibuestetica.it",
+  "sitoUrl": "https://karibuestetica.it/",
+  "indirizzo": "Via Aldo Moro, 96c",
+  "cap": "04011",
+  "comune": "Aprilia",
+  "provincia": "aprilia",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://karibuestetica.it/",
+   "https://karibuestetica.it/chi-siamo/",
+   "https://karibuestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "oraridiapertura24.it",
+  "nome": "Oraridiapertura24",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.oraridiapertura24.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "aprilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.oraridiapertura24.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sanmichelehospital.it",
+  "nome": "Sanmichelehospital",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02137230591",
+  "telefono": "+39069200114",
+  "email": "",
+  "sitoUrl": "https://www.sanmichelehospital.it/",
+  "indirizzo": "Via Monticello, 6",
+  "cap": "04011",
+  "comune": "Aprilia",
+  "provincia": "aprilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.sanmichelehospital.it/",
+   "https://www.sanmichelehospital.it/privacy-e-cookie"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

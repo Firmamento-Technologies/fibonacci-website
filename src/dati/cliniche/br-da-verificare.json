@@ -1,0 +1,143 @@
+[
+ {
+  "dominio": "dott-ilariabrunamontimedicoestetico.com",
+  "nome": "Dottoressa Ilaria Brunamonti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dott-ilariabrunamontimedicoestetico.com/",
+  "indirizzo": "Via Fieschi 1",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dott-ilariabrunamontimedicoestetico.com/",
+   "https://dott-ilariabrunamontimedicoestetico.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticabrindisi.com",
+  "nome": "Medicina estetica Brindisi dal Dott. Porro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@otorinoporro.it",
+  "sitoUrl": "https://www.medicinaesteticabrindisi.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticabrindisi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicocentroestetico.com",
+  "nome": "Medico estetico a Brindisi: Dott. Giuseppe Porro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@otorinoporro.it",
+  "sitoUrl": "https://www.medicocentroestetico.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "br",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicocentroestetico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicoesteticobrindisi.it",
+  "nome": "medico estetico Brindisi Dott. PORRO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@otorinoporro.it",
+  "sitoUrl": "https://www.medicoesteticobrindisi.it/",
+  "indirizzo": "Viale Michelangelo Merisi Caravaggio 40",
+  "cap": "",
+  "comune": "",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicoesteticobrindisi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticobaldari.it",
+  "nome": "Studio Baldari",
+  "formaSocietaria": "",
+  "partitaIva": "02563680749",
+  "telefono": "+393406953373",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticobaldari.it/",
+  "indirizzo": "Via Enrico Fermi, 4",
+  "cap": "72026",
+  "comune": "",
+  "provincia": "br",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticobaldari.it/",
+   "https://www.studiodentisticobaldari.it/contatti/",
+   "https://www.studiodentisticobaldari.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

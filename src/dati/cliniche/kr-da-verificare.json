@@ -1,0 +1,109 @@
+[
+ {
+  "dominio": "calabriainchieste.it",
+  "nome": "Calabria inchieste",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@calabriainchieste.it",
+  "sitoUrl": "https://www.calabriainchieste.it/",
+  "indirizzo": "Piazza del Popolo celebra... 13",
+  "cap": "39394",
+  "comune": "Direttore",
+  "provincia": "kr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.calabriainchieste.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "erbagilpoliambulatorio.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "estelabcrotone.it",
+  "nome": "EsteLab Crotone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@estelabcrotone.it",
+  "sitoUrl": "https://www.estelabcrotone.it/",
+  "indirizzo": "Via Napoli 25",
+  "cap": "",
+  "comune": "",
+  "provincia": "kr",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.estelabcrotone.it/",
+   "https://www.estelabcrotone.it/contatti/",
+   "http://www.estelabcrotone.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "iocean.it",
+  "nome": "Sito iocean.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.iocean.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "kr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.iocean.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "laboratoriolab.it",
+  "nome": "LAB",
+  "formaSocietaria": "",
+  "partitaIva": "00481770790",
+  "telefono": "",
+  "email": "info@laboratoriolab.it",
+  "sitoUrl": "https://www.laboratoriolab.it/",
+  "indirizzo": "Via M. Nicoletta 31",
+  "cap": "88900",
+  "comune": "Crotone",
+  "provincia": "kr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.laboratoriolab.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

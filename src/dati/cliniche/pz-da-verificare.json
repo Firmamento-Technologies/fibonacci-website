@@ -1,0 +1,186 @@
+[
+ {
+  "dominio": "bruciagrassopotenza.it",
+  "nome": "Brucia Grasso a Potenza",
+  "formaSocietaria": "",
+  "partitaIva": "02084910765",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bruciagrassopotenza.it/",
+  "indirizzo": "Via Parigi, 98",
+  "cap": "85100",
+  "comune": "Potenza",
+  "provincia": "pz",
+  "prestazioni": [
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bruciagrassopotenza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromedicokos.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "chirurgiaesteticagiuzio.it",
+  "nome": "Dottoressa Federica Giuzio",
+  "formaSocietaria": "",
+  "partitaIva": "02021140765",
+  "telefono": "+393510458637",
+  "email": "info@chirurgiaesteticagiuzio.it",
+  "sitoUrl": "https://www.chirurgiaesteticagiuzio.it/",
+  "indirizzo": "Via Isca del Pioppo 92",
+  "cap": "",
+  "comune": "",
+  "provincia": "pz",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticagiuzio.it/",
+   "https://www.chirurgiaesteticagiuzio.it/contatti/",
+   "https://www.chirurgiaesteticagiuzio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticabellezzaebenessere.net",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390971650432",
+  "email": "",
+  "sitoUrl": "https://www.esteticabellezzaebenessere.net/",
+  "indirizzo": "Via Lisbona 43",
+  "cap": "85100",
+  "comune": "Potenza",
+  "provincia": "pz",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticabellezzaebenessere.net/",
+   "https://www.esteticabellezzaebenessere.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ferriaesthetic.com",
+  "nome": "Dott.ssa Erika Sicolo",
+  "formaSocietaria": "",
+  "partitaIva": "02023410760",
+  "telefono": "+39097121511",
+  "email": "info@studioodontoiatricoferri.it",
+  "sitoUrl": "https://ferriaesthetic.com/",
+  "indirizzo": "Via Pretoria, 108",
+  "cap": "85100",
+  "comune": "Potenza",
+  "provincia": "pz",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ferriaesthetic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticapomarico.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "paradisobeautyartists.com",
+  "nome": "Paradiso Beauty Artists Potenza: Bellezza e Benessere Naturale",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02188720763",
+  "telefono": "+3930570578",
+  "email": "info@paradisobeautyartists.com",
+  "sitoUrl": "https://www.paradisobeautyartists.com/",
+  "indirizzo": "",
+  "cap": "85100",
+  "comune": "POTENZA",
+  "provincia": "pz",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.paradisobeautyartists.com/",
+   "https://www.paradisobeautyartists.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "piccin.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiodermatologicoricciuti.it",
+  "nome": "Studio Dermatologico Ricciuti",
+  "formaSocietaria": "",
+  "partitaIva": "01815730765",
+  "telefono": "",
+  "email": "info@studiodermatologicoricciuti.it",
+  "sitoUrl": "https://www.studiodermatologicoricciuti.it/",
+  "indirizzo": "Via Gaetano Michetti 1",
+  "cap": "85100",
+  "comune": "Potenza",
+  "provincia": "pz",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodermatologicoricciuti.it/",
+   "https://www.studiodermatologicoricciuti.it/chi-siamo/",
+   "https://www.studiodermatologicoricciuti.it/chi-siamo/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

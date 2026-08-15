@@ -1,0 +1,383 @@
+[
+ {
+  "dominio": "centro-keiron.com",
+  "nome": "Centro Keiron",
+  "formaSocietaria": "",
+  "partitaIva": "06138250631",
+  "telefono": "+393382547909",
+  "email": "info@www.centro",
+  "sitoUrl": "https://centro-keiron.com/",
+  "indirizzo": "Via Campania 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centro-keiron.com/",
+   "https://centro-keiron.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centrosmiledental.it",
+  "nome": "Centro Smile Dental",
+  "formaSocietaria": "",
+  "partitaIva": "07660630638",
+  "telefono": "+3908119564866",
+  "email": "info@centrosmiledental.it",
+  "sitoUrl": "https://www.centrosmiledental.it/",
+  "indirizzo": "Via Regina Margherita, 95",
+  "cap": "80144",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrosmiledental.it/",
+   "https://www.centrosmiledental.it/chi-siamo-centro-smile-dental-dentista-napoli/",
+   "https://www.centrosmiledental.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermal-aesthetics.it",
+  "nome": "Centro Estetico a Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dermalaesthetics.it",
+  "sitoUrl": "https://dermal-aesthetics.it/",
+  "indirizzo": "Corso Vittorio Emanuele, 725",
+  "cap": "80146",
+  "comune": "IT",
+  "provincia": "na",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermal-aesthetics.it/",
+   "https://dermal-aesthetics.it/policies/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottcarlocarli.it",
+  "nome": "Dott. Carlo Carli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottcarlocarli.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottcarlocarli.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dr-blaas.it",
+  "nome": "Dr Blaas",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473505252",
+  "email": "",
+  "sitoUrl": "https://dr-blaas.it/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dr-blaas.it/it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drstefanodeluca.com",
+  "nome": "Dott. Stefano De Luca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908119968168",
+  "email": "",
+  "sitoUrl": "https://www.drstefanodeluca.com/",
+  "indirizzo": "Via Guglielmo Marconi 103",
+  "cap": "80026",
+  "comune": "NA",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drstefanodeluca.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dsaesthetic.com",
+  "nome": "Dott. Dario Scognamiglio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393923581641",
+  "email": "info@dsaesthetic.com",
+  "sitoUrl": "https://www.dsaesthetic.com/",
+  "indirizzo": "Viale Leonardo da Vinci 137",
+  "cap": "80056",
+  "comune": "Indirizzo",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dsaesthetic.com/",
+   "https://www.dsaesthetic.com/contatti/",
+   "https://www.dsaesthetic.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gifran.it",
+  "nome": "Studio Medico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gifran.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gifran.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "giuseppecapone.it",
+  "nome": "Specialista in Chirurgia Plastica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://giuseppecapone.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://giuseppecapone.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "localitybiz.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rigenerativa.com",
+  "nome": "Medicina Rigenerativa ed Estetica Napoli",
+  "formaSocietaria": "",
+  "partitaIva": "03177840596",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.rigenerativa.com/",
+  "indirizzo": "Via Raffaele Morghen, 88",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.rigenerativa.com/",
+   "https://www.rigenerativa.com/contatti/",
+   "https://www.rigenerativa.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studionice.it",
+  "nome": "Chirurgia Plastica e Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390812393200",
+  "email": "info@studionice.it",
+  "sitoUrl": "https://www.studionice.it/",
+  "indirizzo": "Via S. Veniero, 17",
+  "cap": "80125",
+  "comune": "Napoli",
+  "provincia": "na",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studionice.it/",
+   "https://www.studionice.it/contatti/",
+   "https://www.studionice.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "terapiacellulite.it",
+  "nome": "Medicina estetica e chirurgia estetica della CELLULITE",
+  "formaSocietaria": "",
+  "partitaIva": "01563140464",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://terapiacellulite.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "na",
+  "prestazioni": [
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://terapiacellulite.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "umbertoderosa.it",
+  "nome": "Dott. Umberto De Rosa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@umbertoderosa.it",
+  "sitoUrl": "https://www.umbertoderosa.it/",
+  "indirizzo": "Via Napoli N. 111",
+  "cap": "80022",
+  "comune": "Arzano",
+  "provincia": "na",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.umbertoderosa.it/",
+   "https://www.umbertoderosa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

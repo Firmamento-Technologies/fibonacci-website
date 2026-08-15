@@ -1,0 +1,117 @@
+[
+ {
+  "dominio": "lineamary.it",
+  "nome": "Linea Mary",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03124070792",
+  "telefono": "+39096131619",
+  "email": "info@lineamary.it",
+  "sitoUrl": "https://www.lineamary.it/",
+  "indirizzo": "",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.lineamary.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "oculistacatalano.it",
+  "nome": "Studio oculistico Catanzaro Lido",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02873950790",
+  "telefono": "+393206019689",
+  "email": "",
+  "sitoUrl": "https://www.oculistacatalano.it/",
+  "indirizzo": "Via Guglielmo Papaleo, 11",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carmine Catalano, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.oculistacatalano.it/",
+   "https://www.oculistacatalano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "patriziascerbocentroestetico.it",
+  "nome": "Cure estetiche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393391020460",
+  "email": "",
+  "sitoUrl": "https://www.patriziascerbocentroestetico.it/",
+  "indirizzo": "Via Lungomare 171",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.patriziascerbocentroestetico.it/",
+   "https://www.patriziascerbocentroestetico.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticomatozzo.it",
+  "nome": "Dott. Matozzo Antonio",
+  "formaSocietaria": "",
+  "partitaIva": "00520970799",
+  "telefono": "+390967521549",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticomatozzo.it/",
+  "indirizzo": "Corso Umberto I, 264",
+  "cap": "88068",
+  "comune": "",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Matozzo Antonio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticomatozzo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

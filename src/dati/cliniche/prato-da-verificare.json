@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "uslcentro.toscana.it",
+  "nome": "uslcentro.toscana.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.uslcentro.toscana.it/",
+  "indirizzo": "Piazza Santa Maria Nuova, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "prato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.uslcentro.toscana.it/",
+   "https://www.uslcentro.toscana.it/sedi-territoriali",
+   "https://www.uslcentro.toscana.it/privacy-usltoscanacentro"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

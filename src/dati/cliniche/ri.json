@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "esteticaedone.com",
+  "nome": "Edonè Centro estetico Rieti",
+  "formaSocietaria": "SRL",
+  "partitaIva": "17844211007",
+  "telefono": "+390746201010",
+  "email": "info@esteticaedone.com",
+  "sitoUrl": "https://www.esteticaedone.com/",
+  "indirizzo": "Via Tancia, 8",
+  "cap": "02100",
+  "comune": "Rieti",
+  "provincia": "ri",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticaedone.com/",
+   "https://www.esteticaedone.com/contatti/",
+   "http://www.esteticaedone.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinaesteticacervelli.com",
+  "nome": "Medicina Estetica Cristiano Cervelli",
+  "formaSocietaria": "",
+  "partitaIva": "01175580578",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticacervelli.com/",
+  "indirizzo": "Via Donato Bramante, 10",
+  "cap": "02100",
+  "comune": "Rieti",
+  "provincia": "ri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Cristiano Cervelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicinaesteticacervelli.com/",
+   "https://www.medicinaesteticacervelli.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

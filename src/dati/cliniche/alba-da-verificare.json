@@ -1,0 +1,111 @@
+[
+ {
+  "dominio": "alberosrl.it",
+  "nome": "alberosrl.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03836590046",
+  "telefono": "+393332604482",
+  "email": "segreteria@alberosrl.it",
+  "sitoUrl": "https://www.alberosrl.it/",
+  "indirizzo": "strada Provinciale n° 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "alba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.alberosrl.it/",
+   "https://www.alberosrl.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticamentedimartaponzone.it",
+  "nome": "Centro estetico ad Alba: trattamenti viso e corpo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393775277482",
+  "email": "",
+  "sitoUrl": "https://www.esteticamentedimartaponzone.it/",
+  "indirizzo": "Corso Langhe, 66",
+  "cap": "12051",
+  "comune": "ALBA",
+  "provincia": "alba",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticamentedimartaponzone.it/",
+   "https://www.esteticamentedimartaponzone.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticastilema.it",
+  "nome": "Centro Estetico Alba",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390173363273",
+  "email": "",
+  "sitoUrl": "https://esteticastilema.it/",
+  "indirizzo": "Corso Fratelli Bandiera, 21",
+  "cap": "12051",
+  "comune": "Alba",
+  "provincia": "alba",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticastilema.it/",
+   "https://esteticastilema.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticastudiorem.it",
+  "nome": "Centro Estetico Studio Rem",
+  "formaSocietaria": "",
+  "partitaIva": "03682540046",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticastudiorem.it/",
+  "indirizzo": "Via Paruzza 6",
+  "cap": "12051",
+  "comune": "",
+  "provincia": "alba",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticastudiorem.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,107 @@
+[
+ {
+  "dominio": "ambulatoriodelcastello.it",
+  "nome": "Ambulatorio Polispecialistico del Castello",
+  "formaSocietaria": "",
+  "partitaIva": "01626650186",
+  "telefono": "+39038347944",
+  "email": "",
+  "sitoUrl": "https://www.ambulatoriodelcastello.it/",
+  "indirizzo": "via Cernaia 3",
+  "cap": "47944",
+  "comune": "Riceviamo",
+  "provincia": "voghera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ambulatoriodelcastello.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicoviqueria.it",
+  "nome": "Poliambulatorio medico",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02505190187",
+  "telefono": "+390383212647",
+  "email": "",
+  "sitoUrl": "https://www.centromedicoviqueria.it/",
+  "indirizzo": "via Matteotti n.40",
+  "cap": "27058",
+  "comune": "Voghera",
+  "provincia": "voghera",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicoviqueria.it/",
+   "https://www.centromedicoviqueria.it/chi-siamo",
+   "https://www.centromedicoviqueria.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalcentersangiuseppe.it",
+  "nome": "MedicalCenter San Giuseppe",
+  "formaSocietaria": "",
+  "partitaIva": "02690570185",
+  "telefono": "+3903831751977",
+  "email": "info@medicalcentersangiuseppe.it",
+  "sitoUrl": "https://www.medicalcentersangiuseppe.it/",
+  "indirizzo": "",
+  "cap": "27058",
+  "comune": "Voghera",
+  "provincia": "voghera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalcentersangiuseppe.it/",
+   "https://www.medicalcentersangiuseppe.it/chi-siamo/",
+   "https://www.medicalcentersangiuseppe.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "polidiagnosticairiense.com",
+  "nome": "Polidiagnostica Iriense - Centro Polidiagnostico d’eccellenza a Vogher",
+  "formaSocietaria": "",
+  "partitaIva": "02737870184",
+  "telefono": "+3904444577832",
+  "email": "info@polidiagnosticairiense.com",
+  "sitoUrl": "https://polidiagnosticairiense.com/",
+  "indirizzo": "Via Barenghi 28",
+  "cap": "27058",
+  "comune": "Voghera",
+  "provincia": "voghera",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://polidiagnosticairiense.com/",
+   "https://polidiagnosticairiense.com/wp-content/uploads/2025/09/Informativa-Privacy-PAZIENTI-POLIDIAGNOSTICA-IRIENSE.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

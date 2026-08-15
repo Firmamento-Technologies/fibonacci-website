@@ -1,0 +1,155 @@
+[
+ {
+  "dominio": "centromedicosantagiulia.it",
+  "nome": "Centro Medico Santa Giulia - Livorno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390586997294",
+  "email": "segreteria@centromedicosantagiulia.it",
+  "sitoUrl": "https://www.centromedicosantagiulia.it/",
+  "indirizzo": "Via Santa Giulia, 4",
+  "cap": "57123",
+  "comune": "Livorno",
+  "provincia": "li",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicosantagiulia.it/",
+   "https://www.centromedicosantagiulia.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centropolispecialisticocalvani.it",
+  "nome": "Centro Polispecialistico Calvani",
+  "formaSocietaria": "",
+  "partitaIva": "14048131008",
+  "telefono": "+393496728505",
+  "email": "info@centropolispecialisticocalvani.it",
+  "sitoUrl": "https://www.centropolispecialisticocalvani.it/",
+  "indirizzo": "Via Livorno, 25",
+  "cap": "00162",
+  "comune": "Roma",
+  "provincia": "li",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Calvani, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.centropolispecialisticocalvani.it/",
+   "https://www.centropolispecialisticocalvani.it/contattaci/",
+   "https://www.centropolispecialisticocalvani.it/normativa-privacy-gdpr/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "in-lab.it",
+  "nome": "INLAB | Centro Medico Livorno",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02005790494",
+  "telefono": "+390586408788",
+  "email": "info@in-lab.it",
+  "sitoUrl": "https://www.in-lab.it/",
+  "indirizzo": "Via Provinciale Pisana, 617",
+  "cap": "57121",
+  "comune": "Livorno",
+  "provincia": "li",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.in-lab.it/",
+   "https://www.in-lab.it/contatti/",
+   "http://www.in-lab.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "magistudimedici.it",
+  "nome": "MAGI Dermatologia Clinica ed Estetica • Livorno e Milano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01069110490",
+  "telefono": "+390586896752",
+  "email": "",
+  "sitoUrl": "https://magistudimedici.it/",
+  "indirizzo": "Via M. Grappa 26",
+  "cap": "57123",
+  "comune": "Livorno",
+  "provincia": "li",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://magistudimedici.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "theskinclinic.it",
+  "nome": "The Skin Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393406808124",
+  "email": "info@the-skinclinic.it",
+  "sitoUrl": "https://theskinclinic.it/",
+  "indirizzo": "via Largo 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "li",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://theskinclinic.it/",
+   "https://theskinclinic.it/wpautoterms/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

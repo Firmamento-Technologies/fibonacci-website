@@ -1,0 +1,56 @@
+[
+ {
+  "dominio": "abohikenna.it",
+  "nome": "Ikenna Valentine Aboh",
+  "formaSocietaria": "",
+  "partitaIva": "10751101006",
+  "telefono": "",
+  "email": "info@abohikenna.it",
+  "sitoUrl": "https://abohikenna.it/",
+  "indirizzo": "Via Felice Giordano, 8",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "fr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://abohikenna.it/",
+   "https://abohikenna.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bianalisi.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "qlinicmedicinaestetica.it",
+  "nome": "Medicina Estetica Querqui",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.qlinicmedicinaestetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.qlinicmedicinaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,108 @@
+[
+ {
+  "dominio": "ambranbt.it",
+  "nome": "Ambra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393759893496",
+  "email": "",
+  "sitoUrl": "https://www.ambranbt.it/",
+  "indirizzo": "Via Piave, 41",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.ambranbt.it/",
+   "https://www.ambranbt.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "astancona.marche.it",
+  "nome": "AST ANCONA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.astancona.marche.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.astancona.marche.it/it"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lotositalia.com",
+  "nome": "Estetica Salute Benessere Lotos Senigallia (AN)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lotositalia.com/",
+  "indirizzo": "Via Carlo Pisacane, 14",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lotositalia.com/",
+   "https://www.lotositalia.com/chi-siamo/",
+   "https://www.lotositalia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pulchravenus.it",
+  "nome": "Pulchra Venus",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393385041548",
+  "email": "info@pulchravenus.it",
+  "sitoUrl": "https://www.pulchravenus.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pulchravenus.it/",
+   "https://www.pulchravenus.it/chi-siamo/",
+   "https://www.pulchravenus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,199 @@
+[
+ {
+  "dominio": "beautystudium.it",
+  "nome": "Beautystudium Chirurgia Estetica e Medicina Estetica Venezia",
+  "formaSocietaria": "",
+  "partitaIva": "02466250301",
+  "telefono": "+390413096753",
+  "email": "info@beautystudium.it",
+  "sitoUrl": "https://www.beautystudium.it/",
+  "indirizzo": "Via Matteotti, 44",
+  "cap": "30031",
+  "comune": "Dolo",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautystudium.it/",
+   "https://www.beautystudium.it/contatti",
+   "https://www.beautystudium.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centromedicoveneto.it",
+  "nome": "Centro Medico Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390444760303",
+  "email": "info@centromedicoveneto.it",
+  "sitoUrl": "https://www.centromedicoveneto.it/",
+  "indirizzo": "Via Masotto, 4",
+  "cap": "36025",
+  "comune": "Noventa",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicoveneto.it/",
+   "https://www.centromedicoveneto.it/chi-siamo/",
+   "https://www.centromedicoveneto.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "clinestetica.com",
+  "nome": "Clinestetica Health & Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinestetica.com/",
+  "indirizzo": "Via Bruno Maderna, 7",
+  "cap": "30174",
+  "comune": "Mestre",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://clinestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "evolutionesthetique.it",
+  "nome": "Evolution Esthetique",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://evolutionesthetique.it/consigli/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://evolutionesthetique.it/consigli/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "filiditrazione.eu",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "fisioterapistajesolo.it",
+  "nome": "Fisioterapista Jesolo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393703435231",
+  "email": "",
+  "sitoUrl": "https://www.fisioterapistajesolo.it/",
+  "indirizzo": "Via Grifone 3",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "ve",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisioterapistajesolo.it/",
+   "https://www.fisioterapistajesolo.it/chi-siamo/",
+   "https://www.fisioterapistajesolo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "marilynstudiovenezia.com",
+  "nome": "Centro Estetico Marilyn Studio Venezia",
+  "formaSocietaria": "",
+  "partitaIva": "04369220274",
+  "telefono": "+390414760991",
+  "email": "info@marilynstudiovenezia.com",
+  "sitoUrl": "https://www.marilynstudiovenezia.com/it/",
+  "indirizzo": "",
+  "cap": "30121",
+  "comune": "Cannaregio",
+  "provincia": "ve",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.marilynstudiovenezia.com/it/",
+   "https://www.marilynstudiovenezia.com/it/chi-siamo/",
+   "https://www.marilynstudiovenezia.com/it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "savina-medicinaestetica.it",
+  "nome": "Savina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393357195837",
+  "email": "info@savina-medicinaestetica.it",
+  "sitoUrl": "https://www.savina-medicinaestetica.it/",
+  "indirizzo": "Via Berengario 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.savina-medicinaestetica.it/",
+   "https://www.savina-medicinaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

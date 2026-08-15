@@ -1,0 +1,96 @@
+[
+ {
+  "dominio": "andrealazzarotto.it",
+  "nome": "Dottor Andrea Lazzarotto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393518962939",
+  "email": "info@andrealazzarotto.it",
+  "sitoUrl": "https://www.andrealazzarotto.it/",
+  "indirizzo": "Piazza Luigi Di Savoia, 28",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "udine",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.andrealazzarotto.it/",
+   "https://www.andrealazzarotto.it/contatti",
+   "https://www.andrealazzarotto.it/policy-e-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "enricazorzan.it",
+  "nome": "Dott.ssa Zorzan: medico chirurgo specializzata in maxillo",
+  "formaSocietaria": "",
+  "partitaIva": "02553680303",
+  "telefono": "+393939099003",
+  "email": "",
+  "sitoUrl": "https://enricazorzan.it/",
+  "indirizzo": "Via Rauscedo, 1",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "udine",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Enrica Zorzan, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://enricazorzan.it/",
+   "https://enricazorzan.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrica Zorzan, e il dominio lo ripete"
+ },
+ {
+  "dominio": "gratis-4923929.webadorsite.com",
+  "nome": "gratis-4923929.webadorsite.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gratis-4923929.webadorsite.com/",
+  "indirizzo": "Via Alpe Adria 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "udine",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://gratis-4923929.webadorsite.com/",
+   "https://gratis-4923929.webadorsite.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

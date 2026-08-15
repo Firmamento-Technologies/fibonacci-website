@@ -1,0 +1,234 @@
+[
+ {
+  "dominio": "centromedicosantedoardo.it",
+  "nome": "Centro Medico Sant'Edoardo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03625980127",
+  "telefono": "+390331635542",
+  "email": "info@centromedicosantedoardo.it",
+  "sitoUrl": "https://www.centromedicosantedoardo.it/",
+  "indirizzo": "Viale Boccaccio, 19",
+  "cap": "21052",
+  "comune": "",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicosantedoardo.it/",
+   "https://www.centromedicosantedoardo.it/contatti/",
+   "https://www.centromedicosantedoardo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrosalutebellezza.net",
+  "nome": "Centro Salute & Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "03322470125",
+  "telefono": "+390331627486",
+  "email": "info@centrosalutebellezza.net",
+  "sitoUrl": "https://centrosalutebellezza.net/",
+  "indirizzo": "Via Peschiera 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrosalutebellezza.net/",
+   "https://centrosalutebellezza.net/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticamelaverde.it",
+  "nome": "Centro Estetico La Mela Verde a Busto Arsizio (Varese)",
+  "formaSocietaria": "",
+  "partitaIva": "02085700124",
+  "telefono": "",
+  "email": "info@esteticamelaverde.it",
+  "sitoUrl": "https://esteticamelaverde.it/",
+  "indirizzo": "via Milazzo 16",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://esteticamelaverde.it/",
+   "https://www.esteticamelaverde.it/argomento/privacy.html",
+   "https://www.esteticamelaverde.it/aree/dove-siamo.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fysiolab.it",
+  "nome": "Fysiolab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02879970123",
+  "telefono": "",
+  "email": "info@fysiolab.it",
+  "sitoUrl": "https://www.fysiolab.it/",
+  "indirizzo": "Via S. Michele, 2",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.fysiolab.it/",
+   "https://www.fysiolab.it/contatti.php",
+   "https://www.fysiolab.it/chi-siamo.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriomirelli.it",
+  "nome": "Dr. Mirelli",
+  "formaSocietaria": "",
+  "partitaIva": "01825950122",
+  "telefono": "+393472543054",
+  "email": "info@poliambulatoriomirelli.it",
+  "sitoUrl": "https://www.poliambulatoriomirelli.it/",
+  "indirizzo": "Via Concordia 8",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriomirelli.it/",
+   "https://www.poliambulatoriomirelli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "russogiorgio.it",
+  "nome": "DR. Giorgio Russo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390331635275",
+  "email": "info@russogiorgio.it",
+  "sitoUrl": "https://russogiorgio.it/",
+  "indirizzo": "Via Gavinana n° 2",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giorgio Russo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://russogiorgio.it/",
+   "https://russogiorgio.it/about/",
+   "https://russogiorgio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgio Russo, e il dominio lo ripete"
+ },
+ {
+  "dominio": "sancarloistitutoclinico.it",
+  "nome": "Visite mediche convenzionate e private",
+  "formaSocietaria": "",
+  "partitaIva": "03192740128",
+  "telefono": "+390331685065",
+  "email": "info@sancarloistitutoclinico.it",
+  "sitoUrl": "https://sancarloistitutoclinico.it/",
+  "indirizzo": "Via Castelfidardo 19",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://sancarloistitutoclinico.it/",
+   "http://sancarloistitutoclinico.it/contatti/",
+   "http://sancarloistitutoclinico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticogiani.it",
+  "nome": "Studio Dentistico Giani",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03832620128",
+  "telefono": "+390331635885",
+  "email": "info@studiodentisticogiani.it",
+  "sitoUrl": "https://www.studiodentisticogiani.it/",
+  "indirizzo": "Via S. Gregorio, 6",
+  "cap": "",
+  "comune": "",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.studiodentisticogiani.it/",
+   "https://www.studiodentisticogiani.it/chi-siamo.html",
+   "https://www.studiodentisticogiani.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

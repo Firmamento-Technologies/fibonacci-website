@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "dottssacrmazzarella.com",
+  "nome": "Dr.ssa Claudia Rita Mazzarella",
+  "formaSocietaria": "",
+  "partitaIva": "03465680712",
+  "telefono": "+393298798122",
+  "email": "",
+  "sitoUrl": "https://dottssacrmazzarella.com/",
+  "indirizzo": "Viale Franklin Delano Roosevelt, 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "cerignola",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottssacrmazzarella.com/",
+   "https://dottssacrmazzarella.com/contatti/",
+   "https://dottssacrmazzarella.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

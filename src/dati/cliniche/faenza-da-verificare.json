@@ -1,0 +1,64 @@
+[
+ {
+  "dominio": "andreamezzoli.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "centroesteticokudeta.com",
+  "nome": "Centro Estetico a Faenza",
+  "formaSocietaria": "",
+  "partitaIva": "02506290465",
+  "telefono": "+393791802287",
+  "email": "",
+  "sitoUrl": "https://centroesteticokudeta.com/",
+  "indirizzo": "Piazza Martiri della Libertà, 17",
+  "cap": "48018",
+  "comune": "Faenza",
+  "provincia": "faenza",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticokudeta.com/",
+   "https://centroesteticokudeta.com/chi-siamo/",
+   "https://centroesteticokudeta.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "laviolacentrobenessere.it",
+  "nome": "Elettrostimolazione",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39054631485",
+  "email": "info@benesserelaviola.it",
+  "sitoUrl": "https://www.laviolacentrobenessere.it/",
+  "indirizzo": "Corso Mazzini, 83",
+  "cap": "48018",
+  "comune": "Faenza",
+  "provincia": "faenza",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.laviolacentrobenessere.it/",
+   "https://www.laviolacentrobenessere.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

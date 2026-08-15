@@ -1,0 +1,64 @@
+[
+ {
+  "dominio": "medicinaesteticaaltmann.it",
+  "nome": "Medicina Estetica Altmann - La buona Medicina Estetica è quella che no",
+  "formaSocietaria": "",
+  "partitaIva": "01632340491",
+  "telefono": "",
+  "email": "info@medicinaesteticaaltmann.it",
+  "sitoUrl": "https://www.medicinaesteticaaltmann.it/",
+  "indirizzo": "",
+  "cap": "57123",
+  "comune": "Livorno",
+  "provincia": "li",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticaaltmann.it/",
+   "https://www.medicinaesteticaaltmann.it/contatti/",
+   "https://www.medicinaesteticaaltmann.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticolivorno.it",
+  "nome": "Studio Odontoiatrico Scarpellini",
+  "formaSocietaria": "",
+  "partitaIva": "00625490495",
+  "telefono": "+390586897083",
+  "email": "info.studioscarpellini@gmail.com",
+  "sitoUrl": "https://studiodentisticolivorno.it/",
+  "indirizzo": "Via Cosimo del Fante, 36",
+  "cap": "57123",
+  "comune": "Livorno",
+  "provincia": "li",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticolivorno.it/",
+   "https://studiodentisticolivorno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

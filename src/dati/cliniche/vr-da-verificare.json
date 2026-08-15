@@ -1,0 +1,94 @@
+[
+ {
+  "dominio": "adaesthetics.it",
+  "nome": "Chirurgia Estetica Verona",
+  "formaSocietaria": "",
+  "partitaIva": "03997880236",
+  "telefono": "+390458348902",
+  "email": "info@adaesthetics.it",
+  "sitoUrl": "https://adaesthetics.it/",
+  "indirizzo": "Via Gazzera, 1",
+  "cap": "37128",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://adaesthetics.it/",
+   "https://www.adaesthetics.it/privacy-policy",
+   "https://www.adaesthetics.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gnatos.it",
+  "nome": "Dentista a Verona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393460410340",
+  "email": "",
+  "sitoUrl": "https://www.gnatos.it/",
+  "indirizzo": "Via Del Capitel 1",
+  "cap": "01265",
+  "comune": "Privacy",
+  "provincia": "vr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.gnatos.it/",
+   "https://www.gnatos.it/privacy-policy/",
+   "https://www.gnatos.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medicinaestetica-goglia.com",
+  "nome": "Dr. Antonello Goglia",
+  "formaSocietaria": "",
+  "partitaIva": "01182660314",
+  "telefono": "+393922575353",
+  "email": "",
+  "sitoUrl": "https://www.medicinaestetica-goglia.com/",
+  "indirizzo": "via Giovanni Ceriotto n. 2",
+  "cap": "37126",
+  "comune": "Verona",
+  "provincia": "vr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaestetica-goglia.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

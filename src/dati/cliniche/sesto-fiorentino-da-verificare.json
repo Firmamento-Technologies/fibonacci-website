@@ -1,0 +1,169 @@
+[
+ {
+  "dominio": "comune.sesto-fiorentino.fi.it",
+  "nome": "| Comune di Sesto Fiorentino",
+  "formaSocietaria": "",
+  "partitaIva": "00420010480",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.comune.sesto-fiorentino.fi.it//",
+  "indirizzo": "piazza Bagnolet stagione 2026",
+  "cap": "",
+  "comune": "",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.comune.sesto-fiorentino.fi.it//",
+   "https://www.comune.sesto-fiorentino.fi.it/informativaprivacy",
+   "https://www.comune.sesto-fiorentino.fi.it/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticaeffe.it",
+  "nome": "Estetica Effe",
+  "formaSocietaria": "",
+  "partitaIva": "06916750489",
+  "telefono": "+393713552614",
+  "email": "",
+  "sitoUrl": "https://esteticaeffe.it/",
+  "indirizzo": "Viale Galileo Ferraris, 62",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaeffe.it/",
+   "https://esteticaeffe.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esthena.net",
+  "nome": "Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390554493073",
+  "email": "",
+  "sitoUrl": "https://www.esthena.net/",
+  "indirizzo": "Via Abba 34",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esthena.net/",
+   "https://www.esthena.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esthenaestetica.it",
+  "nome": "Esthena Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393346564766",
+  "email": "info@esthenaestetica.it",
+  "sitoUrl": "https://esthenaestetica.it/",
+  "indirizzo": "Via Abba 34",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esthenaestetica.it/",
+   "https://esthenaestetica.it/privacy-policy/",
+   "https://esthenaestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fillerialuronico.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "misericordia-sesto.it",
+  "nome": "Misericordia di Sesto Fiorentino",
+  "formaSocietaria": "",
+  "partitaIva": "00785780487",
+  "telefono": "+390557950111",
+  "email": "info@misericordia-sesto.it",
+  "sitoUrl": "https://www.misericordia-sesto.it/",
+  "indirizzo": "Piazza San Francesco, 37",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.misericordia-sesto.it/",
+   "https://www.misericordia-sesto.it/chi-siamo",
+   "https://www.misericordia-sesto.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "rbeauty.it",
+  "nome": "RBeauty",
+  "formaSocietaria": "",
+  "partitaIva": "02255010973",
+  "telefono": "+390552654103",
+  "email": "",
+  "sitoUrl": "https://www.rbeauty.it/",
+  "indirizzo": "Viale Pratese 223",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.rbeauty.it/",
+   "https://www.rbeauty.it/privacy-statement-eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

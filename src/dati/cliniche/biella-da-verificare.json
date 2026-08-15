@@ -1,0 +1,90 @@
+[
+ {
+  "dominio": "bemed.it",
+  "nome": "Beauty Med",
+  "formaSocietaria": "",
+  "partitaIva": "09312800585",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bemed.it/",
+  "indirizzo": "Via della Vittoria, 31",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "biella",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bemed.it/",
+   "https://www.bemed.it/chi-siamo/",
+   "https://www.bemed.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottpellapaolo.it",
+  "nome": "Trattamento dermatiti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393388358165",
+  "email": "",
+  "sitoUrl": "https://www.dottpellapaolo.it/",
+  "indirizzo": "Via Circonvallazione 4",
+  "cap": "13875",
+  "comune": "PONDERANO",
+  "provincia": "biella",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottpellapaolo.it/",
+   "https://www.dottpellapaolo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studioesteticoilglicine.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393287618897",
+  "email": "info@studioesteticoilglicine.it",
+  "sitoUrl": "https://studioesteticoilglicine.it/",
+  "indirizzo": "Via Ivrea n.11",
+  "cap": "13900",
+  "comune": "BIELLA",
+  "provincia": "biella",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studioesteticoilglicine.it/",
+   "https://studioesteticoilglicine.it/chi-siamo/",
+   "https://studioesteticoilglicine.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

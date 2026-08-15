@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "loscrignodelbenessere.com",
+  "nome": "Centro Estetico Acireale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390955879320",
+  "email": "",
+  "sitoUrl": "https://loscrignodelbenessere.com/",
+  "indirizzo": "Via John Fitzgerald Kennedy, 51",
+  "cap": "95024",
+  "comune": "Acireale",
+  "provincia": "acireale",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://loscrignodelbenessere.com/",
+   "https://loscrignodelbenessere.com/contattaci/",
+   "https://loscrignodelbenessere.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

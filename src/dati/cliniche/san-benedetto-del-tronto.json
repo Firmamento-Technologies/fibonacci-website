@@ -1,0 +1,209 @@
+[
+ {
+  "dominio": "centroesteticolylium.it",
+  "nome": "Estetista",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390735363428",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticolylium.it/",
+  "indirizzo": "via Motevergine 88",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centroesteticolylium.it/",
+   "https://www.centroesteticolylium.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "danieletrono.it",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02404540441",
+  "telefono": "+393513407872",
+  "email": "info@danieletrono.it",
+  "sitoUrl": "https://www.danieletrono.it/",
+  "indirizzo": "Via Pasubio, 10",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Daniele Trono, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.danieletrono.it/",
+   "https://www.danieletrono.it/contatti",
+   "https://www.danieletrono.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniele Trono, e il dominio lo ripete"
+ },
+ {
+  "dominio": "equilybra.it",
+  "nome": "Équipe medica specializzata, medicina estetica, tecnologie medicali",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01949350449",
+  "telefono": "+390735656100",
+  "email": "info@equilybra.it",
+  "sitoUrl": "https://equilybra.it/",
+  "indirizzo": "Via Pasubio, 57",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://equilybra.it/",
+   "https://equilybra.it/contatti/",
+   "https://equilybra.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "estebeauty.it",
+  "nome": "Esté Beauty Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "02107500445",
+  "telefono": "+393400664282",
+  "email": "",
+  "sitoUrl": "https://www.estebeauty.it/",
+  "indirizzo": "Via Silvio Pellico, 200",
+  "cap": "63074",
+  "comune": "AP",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.estebeauty.it/",
+   "https://www.estebeauty.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticamoderna.eu",
+  "nome": "Estetica Moderna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390735658990",
+  "email": "",
+  "sitoUrl": "https://esteticamoderna.eu/",
+  "indirizzo": "",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://esteticamoderna.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "phitogen.it",
+  "nome": "Phitogen Beauty Labs",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390735762020",
+  "email": "info@phitogenspa.it",
+  "sitoUrl": "https://www.phitogen.it/",
+  "indirizzo": "Via Valtellina, 21",
+  "cap": "63074",
+  "comune": "",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.phitogen.it/",
+   "https://www.phitogen.it/contatti/",
+   "https://www.phitogen.it/wp-content/uploads/2020/12/privacy_policy_per_siti_Web_phitogen.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "venalinfa.eu",
+  "nome": "Poliambulatorio Specialistico a San Benedetto del Tronto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390735500635",
+  "email": "info@venalinfa.eu",
+  "sitoUrl": "https://venalinfa.eu/",
+  "indirizzo": "",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://venalinfa.eu/",
+   "https://venalinfa.eu/chi-siamo",
+   "https://venalinfa.eu/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

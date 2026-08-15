@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "centro-olos.com",
+  "nome": "TAMARA CATONA",
+  "formaSocietaria": "",
+  "partitaIva": "01238980070",
+  "telefono": "+393881440883",
+  "email": "",
+  "sitoUrl": "https://www.centro-olos.com/",
+  "indirizzo": "via Stevenin 11",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "aosta",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centro-olos.com/",
+   "https://www.centro-olos.com/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "gruppoirv.it",
+  "nome": "Gruppo IRV ⋆ Istituto Radiologico Valdostano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00086110079",
+  "telefono": "+390165279800",
+  "email": "info@gruppoirv.it",
+  "sitoUrl": "https://www.gruppoirv.it/",
+  "indirizzo": "Via Lino Binel, 34",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "aosta",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.gruppoirv.it/",
+   "https://www.gruppoirv.it/chi-siamo/",
+   "https://www.gruppoirv.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

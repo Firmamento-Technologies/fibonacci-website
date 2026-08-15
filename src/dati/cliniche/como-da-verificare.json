@@ -1,0 +1,57 @@
+[
+ {
+  "dominio": "centroesteticocomo.it",
+  "nome": "Centro Estetico Como",
+  "formaSocietaria": "",
+  "partitaIva": "02163320134",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticocomo.it/",
+  "indirizzo": "Via Fontana, 1",
+  "cap": "22100",
+  "comune": "Como",
+  "provincia": "como",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticocomo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "iosaluteebellezza.it",
+  "nome": "Centro estetico a Como: Bellezza ed Emozione",
+  "formaSocietaria": "",
+  "partitaIva": "02571430137",
+  "telefono": "+39031523415",
+  "email": "",
+  "sitoUrl": "https://www.iosaluteebellezza.it/",
+  "indirizzo": "Via Canturina 151",
+  "cap": "",
+  "comune": "",
+  "provincia": "como",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.iosaluteebellezza.it/",
+   "https://www.iosaluteebellezza.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

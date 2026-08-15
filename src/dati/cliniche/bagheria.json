@@ -1,0 +1,143 @@
+[
+ {
+  "dominio": "centroesteticoiconica.it",
+  "nome": "ICONICA",
+  "formaSocietaria": "SAS",
+  "partitaIva": "06996920820",
+  "telefono": "+393761220476",
+  "email": "info@centroesteticoiconica.it",
+  "sitoUrl": "https://www.centroesteticoiconica.it/",
+  "indirizzo": "Via Senofonte, 30",
+  "cap": "90011",
+  "comune": "",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centroesteticoiconica.it/",
+   "https://www.centroesteticoiconica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaplasticatomasello.com",
+  "nome": "Dott.ssa Flavia Tomasello",
+  "formaSocietaria": "",
+  "partitaIva": "06654560827",
+  "telefono": "+390919867496",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaplasticatomasello.com/",
+  "indirizzo": "Via Costanza D'Altavilla, 1",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Flavia Tomasello, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.chirurgiaplasticatomasello.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicliniccenter.it",
+  "nome": "Home » www.medicliniccenter.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06827950822",
+  "telefono": "+390917778708",
+  "email": "info@medicliniccenter.it",
+  "sitoUrl": "https://www.medicliniccenter.it/",
+  "indirizzo": "Via Falcone - Morvillo, 64",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "bagheria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medicliniccenter.it/",
+   "https://www.medicliniccenter.it/chi-siamo/",
+   "https://www.medicliniccenter.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medispecialist.it",
+  "nome": "Medispecialist",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07138240820",
+  "telefono": "+39091969522",
+  "email": "info@medispecialist.it",
+  "sitoUrl": "https://www.medispecialist.it/",
+  "indirizzo": "Via Costanza D'Altavilla, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "bagheria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medispecialist.it/",
+   "https://www.medispecialist.it/chi-siamo/",
+   "https://www.medispecialist.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioprestigiacomo.it",
+  "nome": "Prestigiacomo Ambultatorio Odontoiatrico Bagheria (Palermo)",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05509860820",
+  "telefono": "+39091903448",
+  "email": "info@studioprestigiacomo.it",
+  "sitoUrl": "https://www.studioprestigiacomo.it/",
+  "indirizzo": "Via Santa Marina, 10",
+  "cap": "90011",
+  "comune": "Bagheria",
+  "provincia": "bagheria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.studioprestigiacomo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

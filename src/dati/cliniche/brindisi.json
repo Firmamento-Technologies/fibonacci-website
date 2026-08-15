@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "giovanniportaluri.it",
+  "nome": "Dott. Giovanni Portaluri",
+  "formaSocietaria": "",
+  "partitaIva": "02540580749",
+  "telefono": "",
+  "email": "info@giovanniportaluri.it",
+  "sitoUrl": "https://www.giovanniportaluri.it/",
+  "indirizzo": "Via Annunziata 11",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "brindisi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Portaluri, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giovanniportaluri.it/",
+   "https://www.giovanniportaluri.it/contatti-dott-portaluri/",
+   "https://www.giovanniportaluri.it/contatti-dott-portaluri/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Portaluri, e il dominio lo ripete"
+ }
+]

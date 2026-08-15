@@ -1,0 +1,131 @@
+[
+ {
+  "dominio": "centroesteticoimagine.com",
+  "nome": "Scopri il Centro Estetico Imagine » a Macerata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393332813558",
+  "email": "",
+  "sitoUrl": "https://centroesteticoimagine.com/",
+  "indirizzo": "Via Manlio Zincone 34",
+  "cap": "",
+  "comune": "",
+  "provincia": "mc",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticoimagine.com/",
+   "https://centroesteticoimagine.com/privacy-statement-eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ernesto.it",
+  "nome": "ernesto.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ernesto.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ernesto.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fenicepolispecialistica.it",
+  "nome": "Poliambulatorio Macerata",
+  "formaSocietaria": "",
+  "partitaIva": "02154430439",
+  "telefono": "+390733281734",
+  "email": "info@fenicepolispecialistica.it",
+  "sitoUrl": "https://www.fenicepolispecialistica.it/",
+  "indirizzo": "Via Velluti 108",
+  "cap": "62100",
+  "comune": "Macerata",
+  "provincia": "mc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fenicepolispecialistica.it/",
+   "https://www.fenicepolispecialistica.it/contatti",
+   "https://www.fenicepolispecialistica.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medicamarche.it",
+  "nome": "Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02096410432",
+  "telefono": "+3907331897725",
+  "email": "info@medicamarche.it",
+  "sitoUrl": "https://www.medicamarche.it/",
+  "indirizzo": "Via Velluti 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "mc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicamarche.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "nuovaesteticadaniela.it",
+  "nome": "Centro Estetico Macerata",
+  "formaSocietaria": "",
+  "partitaIva": "02011070436",
+  "telefono": "+3905771522005",
+  "email": "",
+  "sitoUrl": "https://nuovaesteticadaniela.it/",
+  "indirizzo": "Via Roma, 381",
+  "cap": "62100",
+  "comune": "Macerata",
+  "provincia": "mc",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://nuovaesteticadaniela.it/",
+   "https://nuovaesteticadaniela.it/chi-siamo/",
+   "https://nuovaesteticadaniela.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

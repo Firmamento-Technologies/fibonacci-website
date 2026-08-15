@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "esteticaglamour.it",
+  "nome": "Centro estetico a Belluno",
+  "formaSocietaria": "",
+  "partitaIva": "00684740251",
+  "telefono": "+390437940506",
+  "email": "info@esteticaglamour.it",
+  "sitoUrl": "https://esteticaglamour.it/",
+  "indirizzo": "Via Luigi Zuppani, 5",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "bl",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaglamour.it/",
+   "https://esteticaglamour.it/chi-siamo/",
+   "https://esteticaglamour.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lifestetica.com",
+  "nome": "Lif Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01272010255",
+  "telefono": "+390437930394",
+  "email": "",
+  "sitoUrl": "https://lifestetica.com/",
+  "indirizzo": "",
+  "cap": "32100",
+  "comune": "BELLUNO",
+  "provincia": "bl",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lifestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medestetiq.it",
+  "nome": "MedestetIQ: studio di eccellenza per la medicina estetica a Belluno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medestetiq.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bl",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medestetiq.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "miraestetica.it",
+  "nome": "centro estetico Belluno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393396924932",
+  "email": "",
+  "sitoUrl": "https://miraestetica.it/",
+  "indirizzo": "Via Pierio Valeriano 7",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "bl",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://miraestetica.it/",
+   "https://miraestetica.it/chi-siamo/",
+   "https://miraestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

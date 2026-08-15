@@ -1,0 +1,143 @@
+[
+ {
+  "dominio": "centropalmer.it",
+  "nome": "Poliambulatorio Privato Centro Palmer",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02553010352",
+  "telefono": "+390522792400",
+  "email": "segreteria@centropalmer.it",
+  "sitoUrl": "https://centropalmer.it/",
+  "indirizzo": "Via Gian Battista Isacchi 8",
+  "cap": "42124",
+  "comune": "Reggio",
+  "provincia": "reggio-emilia",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centropalmer.it/",
+   "https://centropalmer.it/privacy/",
+   "https://centropalmer.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "domenicodefazio.it",
+  "nome": "Dott. Domenico De Fazio",
+  "formaSocietaria": "",
+  "partitaIva": "02402440362",
+  "telefono": "+39340647355",
+  "email": "info@domenicodefazio.it",
+  "sitoUrl": "https://domenicodefazio.it/",
+  "indirizzo": "Viale Buon Pastore 236",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "reggio-emilia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://domenicodefazio.it/",
+   "https://domenicodefazio.it/contatti/",
+   "https://domenicodefazio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiomedilab.com",
+  "nome": "Fisiomedilab",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02738420351",
+  "telefono": "+3905221473766",
+  "email": "info@fisiomedilab.com",
+  "sitoUrl": "https://fisiomedilab.com/",
+  "indirizzo": "Via André-Marie Ampère, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "reggio-emilia",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://fisiomedilab.com/",
+   "https://fisiomedilab.com/chi-siamo/",
+   "https://fisiomedilab.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "progettobellezza.it",
+  "nome": "Progetto Bellezza",
+  "formaSocietaria": "SNC",
+  "partitaIva": "01477610354",
+  "telefono": "",
+  "email": "info@progettobellezza.it",
+  "sitoUrl": "https://www.progettobellezza.it/",
+  "indirizzo": "Via J. F. Kennedy 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "reggio-emilia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.progettobellezza.it/",
+   "https://www.progettobellezza.it/chi-siamo/",
+   "https://www.progettobellezza.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villaverde.it",
+  "nome": "Casa di cura Villaverde a Reggio Emilia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390522328611",
+  "email": "prenotazioni@villaverde.it",
+  "sitoUrl": "https://www.villaverde.it/",
+  "indirizzo": "Viale Lelio Basso, 1",
+  "cap": "42123",
+  "comune": "Reggio",
+  "provincia": "reggio-emilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.villaverde.it/",
+   "https://www.villaverde.it/contatti/",
+   "https://www.villaverde.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

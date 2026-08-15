@@ -1,0 +1,36 @@
+[
+ {
+  "dominio": "pvmedica.it",
+  "nome": "Home 1",
+  "formaSocietaria": "",
+  "partitaIva": "18057261002",
+  "telefono": "+393924109959",
+  "email": "",
+  "sitoUrl": "https://www.pvmedica.it/",
+  "indirizzo": "Via Anco Marzio, 4",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "grosseto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pvmedica.it/",
+   "https://www.pvmedica.it/about-us/",
+   "https://www.pvmedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

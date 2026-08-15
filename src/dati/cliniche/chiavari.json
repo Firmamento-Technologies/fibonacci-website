@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "esteticafunzionalechiavari.it",
+  "nome": "Estetica Funzionale Chiavari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390185302220",
+  "email": "info@esteticafunzionalechiavari.it",
+  "sitoUrl": "https://www.esteticafunzionalechiavari.it/",
+  "indirizzo": "Via Rivarola 12",
+  "cap": "16043",
+  "comune": "Chiavari",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.esteticafunzionalechiavari.it/",
+   "https://www.esteticafunzionalechiavari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "luiginoledi.it",
+  "nome": "Dott. Luigi Noledi",
+  "formaSocietaria": "",
+  "partitaIva": "00104900998",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://luiginoledi.it/",
+  "indirizzo": "Via Nino Bixio,19",
+  "cap": "16043",
+  "comune": "Chiavari",
+  "provincia": "chiavari",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luigi Noledi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://luiginoledi.it/",
+   "https://luiginoledi.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Noledi, e il dominio lo ripete"
+ },
+ {
+  "dominio": "veneremedispa.com",
+  "nome": "Venere Medi Spa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393494055399",
+  "email": "",
+  "sitoUrl": "https://www.veneremedispa.com/",
+  "indirizzo": "Via Entella, 182",
+  "cap": "16043",
+  "comune": "Chiavari",
+  "provincia": "chiavari",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.veneremedispa.com/",
+   "https://www.veneremedispa.com/copia-di-privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

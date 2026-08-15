@@ -1,0 +1,113 @@
+[
+ {
+  "dominio": "beautyecofoggia.it",
+  "nome": "BEAUTY&CO",
+  "formaSocietaria": "",
+  "partitaIva": "03809650710",
+  "telefono": "+390881636746",
+  "email": "",
+  "sitoUrl": "https://beautyecofoggia.it/",
+  "indirizzo": "Via Giuseppe Normanno, 22",
+  "cap": "71122",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://beautyecofoggia.it/",
+   "https://beautyecofoggia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "medicinaesteticamanfredonia.it",
+  "nome": "Medicina Estetica, acido ialuronico, depilazione laser a Manfredonia f",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticamanfredonia.it/",
+  "indirizzo": "Via Gargano 67",
+  "cap": "71043",
+  "comune": "Manfredonia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticamanfredonia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sist.sanita.puglia.it",
+  "nome": "Sistema Informativo Sanitario Territoriale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sist.sanita.puglia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sist.sanita.puglia.it/",
+   "https://sist.sanita.puglia.it/contatti",
+   "https://sist.sanita.puglia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoangiolillo.it",
+  "nome": "Ginecologa Foggia e Studio di Medicina Estetica a Foggia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393286970356",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicoangiolillo.it/",
+  "indirizzo": "Via Luigi Einaudi 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "fg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicoangiolillo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

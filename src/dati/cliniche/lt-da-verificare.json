@@ -1,0 +1,91 @@
+[
+ {
+  "dominio": "dettorremarco.it",
+  "nome": "Marco D'Ettorre Chirurgo Plastico",
+  "formaSocietaria": "",
+  "partitaIva": "02917550598",
+  "telefono": "+393927702452",
+  "email": "info@dettorremarco.it",
+  "sitoUrl": "https://www.dettorremarco.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dettorremarco.it/",
+   "https://www.dettorremarco.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticamassicci.it",
+  "nome": "Medicina Estetica Massicci",
+  "formaSocietaria": "",
+  "partitaIva": "02509290595",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticamassicci.it/",
+  "indirizzo": "Via XXI Aprile 04100",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticamassicci.it/",
+   "https://www.medicinaesteticamassicci.it/contatti/",
+   "https://www.medicinaesteticamassicci.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticovisca.it",
+  "nome": "Servizi Odontoiatrici",
+  "formaSocietaria": "",
+  "partitaIva": "01949120594",
+  "telefono": "+390773692619",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticovisca.it/",
+  "indirizzo": "Corso della Repubblica, 141",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticovisca.it/",
+   "https://www.studiodentisticovisca.it/chi-siamo",
+   "https://www.studiodentisticovisca.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

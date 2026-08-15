@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "mireaesteticaebennesere.com",
+  "nome": "Mirea Estetica e Benessere Potenza (PZ)",
+  "formaSocietaria": "",
+  "partitaIva": "02033470762",
+  "telefono": "+393480964236",
+  "email": "",
+  "sitoUrl": "https://www.mireaesteticaebennesere.com/",
+  "indirizzo": "Via Parigi 66",
+  "cap": "85100",
+  "comune": "POTENZA",
+  "provincia": "potenza",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.mireaesteticaebennesere.com/",
+   "https://www.mireaesteticaebennesere.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

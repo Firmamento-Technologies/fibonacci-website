@@ -1,0 +1,91 @@
+[
+ {
+  "dominio": "centroesteticozen.com",
+  "nome": "Estetica avanzata a Sassuolo (MO)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390536585578",
+  "email": "info@centroesteticozen.com",
+  "sitoUrl": "https://www.centroesteticozen.com/",
+  "indirizzo": "Via Braida, 116",
+  "cap": "41049",
+  "comune": "SASSUOLO",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticozen.com/",
+   "https://www.centroesteticozen.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chiaracuoghi.it",
+  "nome": "Studio Medico Dott.ssa Maria Chiara Cuoghi",
+  "formaSocietaria": "",
+  "partitaIva": "01960220364",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chiaracuoghi.it/",
+  "indirizzo": "Viale XX Settembre 77",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chiaracuoghi.it/",
+   "https://www.chiaracuoghi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticashebeauty.it",
+  "nome": "She Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@esteticashebeauty.it",
+  "sitoUrl": "https://www.esteticashebeauty.it/",
+  "indirizzo": "Via M. Fanti n 48",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticashebeauty.it/",
+   "https://www.esteticashebeauty.it/contatti/",
+   "https://www.esteticashebeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "fulviopanico.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "dominio": "beautyconcept12.it",
+  "nome": "Istituto di estetica a Rovereto (Tn)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@beautyconcept12.it",
+  "sitoUrl": "https://www.beautyconcept12.it/",
+  "indirizzo": "Via Fontana 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "rovereto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.beautyconcept12.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dentistamenoni.it",
+  "nome": "Studio Dentistico Menoni: Il Tuo Dentista A Rovereto",
+  "formaSocietaria": "",
+  "partitaIva": "02488060225",
+  "telefono": "+390464437812",
+  "email": "",
+  "sitoUrl": "https://www.dentistamenoni.it/",
+  "indirizzo": "Via Antonio Balista fino a Via Unione 76",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.dentistamenoni.it/",
+   "https://www.dentistamenoni.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "paololisi.it",
+  "nome": "Studio medico odontoiatrico",
+  "formaSocietaria": "",
+  "partitaIva": "00434970224",
+  "telefono": "+390464480647",
+  "email": "info@paololisi.it",
+  "sitoUrl": "https://www.paololisi.it/",
+  "indirizzo": "C.so Rosmini, 84",
+  "cap": "",
+  "comune": "",
+  "provincia": "rovereto",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.paololisi.it/",
+   "https://www.paololisi.it/contattaci/",
+   "https://www.paololisi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticostoffella.it",
+  "nome": "Studio Dentistico Stoffella: dentista a Rovereto",
+  "formaSocietaria": "",
+  "partitaIva": "02193220221",
+  "telefono": "+390464436689",
+  "email": "info@studiostoffella.it",
+  "sitoUrl": "https://studiodentisticostoffella.it/",
+  "indirizzo": "Piazza Podestà 6",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Paolo Stoffella, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiodentisticostoffella.it/",
+   "https://studiodentisticostoffella.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tecnomedcentridiagnostici.it",
+  "nome": "Tecnomed Centri Diagnostici a Verona, Trento e Rovereto",
+  "formaSocietaria": "",
+  "partitaIva": "01261040222",
+  "telefono": "+390458002248",
+  "email": "info@tecnomed-verona.it",
+  "sitoUrl": "https://tecnomedcentridiagnostici.it/",
+  "indirizzo": "Piazza Isolo - Via Seghe San Tomaso, 17",
+  "cap": "37129",
+  "comune": "Verona",
+  "provincia": "rovereto",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://tecnomedcentridiagnostici.it/",
+   "https://tecnomedcentridiagnostici.it/sedi/",
+   "https://tecnomedcentridiagnostici.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

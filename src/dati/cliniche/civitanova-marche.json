@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "centromedispa.it",
+  "nome": "Medispa: Centro Specializzato in Estetica Civitanova Marche",
+  "formaSocietaria": "",
+  "partitaIva": "01785170430",
+  "telefono": "+390733775509",
+  "email": "info@centromedispa.it",
+  "sitoUrl": "https://www.centromedispa.it/",
+  "indirizzo": "Viale Einaudi, 280",
+  "cap": "62012",
+  "comune": "Civitanova",
+  "provincia": "civitanova-marche",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.centromedispa.it/",
+   "https://www.centromedispa.it/chi-siamo/",
+   "https://www.centromedispa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "hippokrates.it",
+  "nome": "Hippokrates",
+  "formaSocietaria": "",
+  "partitaIva": "01963580434",
+  "telefono": "+390733499557",
+  "email": "",
+  "sitoUrl": "https://www.hippokrates.it/",
+  "indirizzo": "Via Luigi Einaudi, 168",
+  "cap": "62012",
+  "comune": "Civitanova",
+  "provincia": "civitanova-marche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.hippokrates.it/",
+   "https://www.hippokrates.it/chi-siamo/",
+   "https://www.hippokrates.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiocalzonetti.it",
+  "nome": "Centro Odontoiatrico Dr. Calzonetti",
+  "formaSocietaria": "",
+  "partitaIva": "02091760435",
+  "telefono": "+390733771962",
+  "email": "info@studiocalzonetti.it",
+  "sitoUrl": "https://studiocalzonetti.it/",
+  "indirizzo": "Via Giovanni Ruffini 12",
+  "cap": "62012",
+  "comune": "Civitanova",
+  "provincia": "civitanova-marche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Calzonetti Privacy, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiocalzonetti.it/",
+   "https://studiocalzonetti.it/chi-siamo/",
+   "https://studiocalzonetti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "cristianacheccucci.it",
+  "nome": "Dottoressa Checcucci",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393333497065",
+  "email": "info@cristianacheccucci.it",
+  "sitoUrl": "https://www.cristianacheccucci.it/",
+  "indirizzo": "Via Gramsci 62",
+  "cap": "06034",
+  "comune": "Foligno",
+  "provincia": "foligno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cristianacheccucci.it/",
+   "https://www.cristianacheccucci.it/contatti/",
+   "https://www.cristianacheccucci.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dentalmed.group",
+  "nome": "Dental@Med Group",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03267970543",
+  "telefono": "+390742679151",
+  "email": "",
+  "sitoUrl": "https://dentalmed.group/",
+  "indirizzo": "corso ECM del 22",
+  "cap": "06034",
+  "comune": "Foligno",
+  "provincia": "foligno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://dentalmed.group/",
+   "https://dentalmed.group/contatti-dentalmed-group/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "estetimedica.it",
+  "nome": "Estetimedica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390742352013",
+  "email": "info@estetimedica.it",
+  "sitoUrl": "https://estetimedica.it/",
+  "indirizzo": "Via Marche 77",
+  "cap": "06034",
+  "comune": "Foligno",
+  "provincia": "foligno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://estetimedica.it/",
+   "https://estetimedica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

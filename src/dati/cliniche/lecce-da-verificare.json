@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "emaderm.it",
+  "nome": "Centro Estetico Lecce di Emaderm",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390832351655",
+  "email": "info@emaderm.it",
+  "sitoUrl": "https://www.emaderm.it/",
+  "indirizzo": "Via Salvatore Nahi, 37",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "lecce",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.emaderm.it/",
+   "https://www.emaderm.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "fatimadcunha.com",
+  "nome": "Medicina estetica, Bologna, Dott.ssa Fatima D'Cunha",
+  "formaSocietaria": "",
+  "partitaIva": "02202911208",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fatimadcunha.com/",
+  "indirizzo": "Via Siepelunga 40",
+  "cap": "40141",
+  "comune": "Bologna",
+  "provincia": "bologna",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fatimadcunha.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

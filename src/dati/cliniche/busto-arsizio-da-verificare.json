@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "cupidoestetica.it",
+  "nome": "Centro estetico a Busto Arsizio",
+  "formaSocietaria": "",
+  "partitaIva": "04110660125",
+  "telefono": "+393938421418",
+  "email": "",
+  "sitoUrl": "https://www.cupidoestetica.it/",
+  "indirizzo": "Via Genova 20",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cupidoestetica.it/",
+   "https://www.cupidoestetica.it/contatti-orari/",
+   "https://www.cupidoestetica.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "kyronlab.it",
+  "nome": "KyronLab",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393897679039",
+  "email": "prenotazioni@kyronlab.it",
+  "sitoUrl": "https://www.kyronlab.it/",
+  "indirizzo": "Piazza Giuseppe Garibaldi 6",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.kyronlab.it/",
+   "https://www.kyronlab.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicfisiocenter.it",
+  "nome": "MedicFisio Center Centro Polispecialistico e Fisioterapico di Busto Ar",
+  "formaSocietaria": "",
+  "partitaIva": "02988590127",
+  "telefono": "+390331342392",
+  "email": "",
+  "sitoUrl": "https://www.medicfisiocenter.it/",
+  "indirizzo": "Via XXIV Maggio, 4",
+  "cap": "21052",
+  "comune": "Busto",
+  "provincia": "busto-arsizio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicfisiocenter.it/",
+   "https://www.medicfisiocenter.it/contatta-medicfisio-center.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

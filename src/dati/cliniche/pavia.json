@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "caterinamontemartini.it",
+  "nome": "Dott.ssa Caterina Montemartini",
+  "formaSocietaria": "",
+  "partitaIva": "01393510183",
+  "telefono": "+393356252746",
+  "email": "",
+  "sitoUrl": "https://www.caterinamontemartini.it/",
+  "indirizzo": "Via Alvar Aalto 39",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pavia",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Caterina Montemartini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.caterinamontemartini.it/",
+   "https://www.caterinamontemartini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Montemartini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "paviamedicalcenter.it",
+  "nome": "Pavia Medical Center",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08340020968",
+  "telefono": "+3903821850367",
+  "email": "info@paviamedicalcenter.it",
+  "sitoUrl": "https://www.paviamedicalcenter.it/",
+  "indirizzo": "V.le Indipendenza 11",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pavia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.paviamedicalcenter.it/",
+   "https://www.paviamedicalcenter.it/dove-siamo/",
+   "https://www.paviamedicalcenter.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ticinello.it",
+  "nome": "Centro Medico Ticinello",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02620400180",
+  "telefono": "+390382539475",
+  "email": "info@ticinello.it",
+  "sitoUrl": "https://www.ticinello.it/",
+  "indirizzo": "Via Giacomo Franchi 15",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pavia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ticinello.it/",
+   "https://www.ticinello.it/chi-siamo/",
+   "https://www.ticinello.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

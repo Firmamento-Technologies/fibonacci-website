@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "federicalaganaestetica.com",
+  "nome": "Centro estetico avanzato a Battipaglia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393758853289",
+  "email": "",
+  "sitoUrl": "https://www.federicalaganaestetica.com/",
+  "indirizzo": "Via Salerno 11",
+  "cap": "84091",
+  "comune": "BATTIPAGNA",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.federicalaganaestetica.com/",
+   "https://www.federicalaganaestetica.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "nunziosantaniello.com",
+  "nome": "Dentista a Battipaglia",
+  "formaSocietaria": "",
+  "partitaIva": "05967430652",
+  "telefono": "+393931136161",
+  "email": "info@santaniello.it",
+  "sitoUrl": "https://www.nunziosantaniello.com/",
+  "indirizzo": "Via Giuseppe Mazzini, 148",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nunzio Santaniello, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.nunziosantaniello.com/",
+   "https://www.nunziosantaniello.com/chi-siamo/",
+   "https://www.nunziosantaniello.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nunzio Santaniello, e il dominio lo ripete"
+ },
+ {
+  "dominio": "santaniello.improd.it",
+  "nome": "Santaniello",
+  "formaSocietaria": "",
+  "partitaIva": "05967430652",
+  "telefono": "+393931136161",
+  "email": "info@santaniello.it",
+  "sitoUrl": "https://santaniello.improd.it/",
+  "indirizzo": "Via Giuseppe Mazzini, 148",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nunzio Santaniello, cognome nel dominio",
+  "fonteUrl": [
+   "https://santaniello.improd.it/",
+   "https://santaniello.improd.it/chi-siamo/",
+   "https://santaniello.improd.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nunzio Santaniello, cognome nel dominio"
+ }
+]

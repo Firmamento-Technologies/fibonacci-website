@@ -1,0 +1,223 @@
+[
+ {
+  "dominio": "beautyvalviareggio.it",
+  "nome": "BeautyVal di Paulista Valdirene",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.beautyvalviareggio.it/",
+  "indirizzo": "Via Battisti Cesare 273",
+  "cap": "55049",
+  "comune": "VIAREGGIO",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.beautyvalviareggio.it/",
+   "https://www.beautyvalviareggio.it/Privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centroesteticoelleviareggio.it",
+  "nome": "centro estetico Viareggio",
+  "formaSocietaria": "",
+  "partitaIva": "02595270469",
+  "telefono": "+393315672229",
+  "email": "",
+  "sitoUrl": "https://centroesteticoelleviareggio.it/",
+  "indirizzo": "Via S. Martino, 123",
+  "cap": "55049",
+  "comune": "Viareggio",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centroesteticoelleviareggio.it/",
+   "https://centroesteticoelleviareggio.it/chi-siamo/",
+   "https://centroesteticoelleviareggio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicinaestetica.eu",
+  "nome": "Dottoressa Carla Libone",
+  "formaSocietaria": "",
+  "partitaIva": "01826740464",
+  "telefono": "+393275329876",
+  "email": "info@centromedicinaestetica.eu",
+  "sitoUrl": "https://www.centromedicinaestetica.eu/",
+  "indirizzo": "via A. Volta 30",
+  "cap": "55049",
+  "comune": "Viareggio",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicinaestetica.eu/",
+   "https://www.centromedicinaestetica.eu/contattaci/",
+   "https://www.centromedicinaestetica.eu/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "croceverdeviareggiosrl.com",
+  "nome": "Croce Verde Viareggio srl",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39058430885",
+  "email": "info@croceverdeviareggiosrl.it",
+  "sitoUrl": "https://croceverdeviareggiosrl.com/",
+  "indirizzo": "Corso Garibaldi 171",
+  "cap": "55049",
+  "comune": "Viareggio",
+  "provincia": "viareggio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://croceverdeviareggiosrl.com/",
+   "https://croceverdeviareggiosrl.com/chi-siamo/",
+   "https://croceverdeviareggiosrl.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mcbeautycenter.it",
+  "nome": "Mc Beauty Center",
+  "formaSocietaria": "",
+  "partitaIva": "02555150461",
+  "telefono": "",
+  "email": "info@mcbeautycenter.it",
+  "sitoUrl": "https://mcbeautycenter.it/",
+  "indirizzo": "Via Aurelia Sud 596",
+  "cap": "55049",
+  "comune": "Lu",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://mcbeautycenter.it/",
+   "https://mcbeautycenter.it/contatti/",
+   "https://mcbeautycenter.it/about-me/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "miamo.studio",
+  "nome": "Miamo Health and Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393491636792",
+  "email": "info@miamo.studio",
+  "sitoUrl": "https://miamo.studio/",
+  "indirizzo": "Via Vittorio Alfieri, 30",
+  "cap": "00012",
+  "comune": "Setteville",
+  "provincia": "viareggio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://miamo.studio/",
+   "https://miamo.studio/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mybeautytime.it",
+  "nome": "mybeautytime.it",
+  "formaSocietaria": "SNC",
+  "partitaIva": "02015170463",
+  "telefono": "",
+  "email": "info@mybeautytime.it",
+  "sitoUrl": "https://www.mybeautytime.it/",
+  "indirizzo": "Via Antonio Fratti 194",
+  "cap": "55049",
+  "comune": "Viareggio",
+  "provincia": "viareggio",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.mybeautytime.it/",
+   "https://www.mybeautytime.it/contatti/",
+   "https://www.mybeautytime.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "viareggio-52.saviodimatteo.it",
+  "nome": "Servizi alle imprese in Viareggio, Toscana. Orari di apertura, servizi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://viareggio-52.saviodimatteo.it/",
+  "indirizzo": "Via Alessandro Volta, 30",
+  "cap": "42741",
+  "comune": "",
+  "provincia": "viareggio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://viareggio-52.saviodimatteo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

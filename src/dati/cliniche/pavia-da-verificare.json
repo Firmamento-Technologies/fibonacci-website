@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "lecarezzedivenere.it",
+  "nome": "Centro estetico Pavia",
+  "formaSocietaria": "",
+  "partitaIva": "02502260181",
+  "telefono": "+390382061325",
+  "email": "",
+  "sitoUrl": "https://www.lecarezzedivenere.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pavia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.lecarezzedivenere.it/",
+   "https://www.lecarezzedivenere.it/info-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "mastertamerici.unipv.it",
+  "nome": "mastertamerici.unipv.it",
+  "formaSocietaria": "",
+  "partitaIva": "00462870189",
+  "telefono": "",
+  "email": "centro.tamerici@unipv.it",
+  "sitoUrl": "https://mastertamerici.unipv.it/",
+  "indirizzo": "Via Alessandro Brambilla, 74",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pavia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mastertamerici.unipv.it/",
+   "https://mastertamerici.unipv.it/admin/tool/dataprivacy/summary.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "portale.unipv.it",
+  "nome": "Home page IT",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390382989898",
+  "email": "",
+  "sitoUrl": "https://portale.unipv.it/it",
+  "indirizzo": "Corso Strada Nuova, 65",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pavia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://portale.unipv.it/it",
+   "https://portale.unipv.it/it/internazionale/contatti-dellinternazionalizzazione",
+   "https://portale.unipv.it/it/contatti-utili"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,156 @@
+[
+ {
+  "dominio": "aesthetics40.it",
+  "nome": "Aesthetics 4.0",
+  "formaSocietaria": "",
+  "partitaIva": "02333920979",
+  "telefono": "+393475759855",
+  "email": "info@aesthetics40.it",
+  "sitoUrl": "https://aesthetics40.it/",
+  "indirizzo": "Corso Roma, 50",
+  "cap": "",
+  "comune": "",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://aesthetics40.it/",
+   "https://aesthetics40.it/chi-siamo/",
+   "https://aesthetics40.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "cascinanonnamariuccia.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "cfrmoncalieri.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticamagicbeauty.it",
+  "nome": "Estetica Magic Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "13052960013",
+  "telefono": "+393890209566",
+  "email": "info@esteticamagicbeauty.it",
+  "sitoUrl": "https://www.esteticamagicbeauty.it/",
+  "indirizzo": "Corso Dante 15",
+  "cap": "10024",
+  "comune": "",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticamagicbeauty.it/",
+   "https://www.esteticamagicbeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "k2moncalieri.com",
+  "nome": "K2 Moncalieri",
+  "formaSocietaria": "",
+  "partitaIva": "10413720011",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.k2moncalieri.com/",
+  "indirizzo": "C.so Savona 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.k2moncalieri.com/",
+   "https://www.k2moncalieri.com/chi-siamo/",
+   "https://www.k2moncalieri.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "monicabellina.it",
+  "nome": "Monica Bellina",
+  "formaSocietaria": "",
+  "partitaIva": "08468070019",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://monicabellina.it/",
+  "indirizzo": "Strada Genova 200",
+  "cap": "10024",
+  "comune": "",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://monicabellina.it/",
+   "https://monicabellina.it/contatti-e-orari-studio-monica-bellina/",
+   "https://monicabellina.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nuagesteticavanzata.it",
+  "nome": "Centro Estetico a Moncalieri (TO)",
+  "formaSocietaria": "",
+  "partitaIva": "12889080011",
+  "telefono": "+390116820811",
+  "email": "",
+  "sitoUrl": "https://nuagesteticavanzata.it/",
+  "indirizzo": "Via Giacomo Matteotti, 5",
+  "cap": "10042",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://nuagesteticavanzata.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

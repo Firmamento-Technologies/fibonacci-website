@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "cataleyaestetica.it",
+  "nome": "Centro estetico Casoria",
+  "formaSocietaria": "",
+  "partitaIva": "10013961213",
+  "telefono": "+3908119320368",
+  "email": "",
+  "sitoUrl": "https://cataleyaestetica.it/",
+  "indirizzo": "Via Principe di Piemonte, 61",
+  "cap": "80026",
+  "comune": "Casoria",
+  "provincia": "casoria",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cataleyaestetica.it/",
+   "https://cataleyaestetica.it/chi-siamo/",
+   "https://cataleyaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "odontartstudiodentistico.it",
+  "nome": "Studio Dentistico & Medicina Estetica Casoria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.odontartstudiodentistico.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "casoria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.odontartstudiodentistico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "twinsforbeauty.it",
+  "nome": "Twins for Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "10851751213",
+  "telefono": "",
+  "email": "info@twinsforbeauty.it",
+  "sitoUrl": "https://twinsforbeauty.it/",
+  "indirizzo": "Via E.De Nicola, 23",
+  "cap": "80026",
+  "comune": "Casoria",
+  "provincia": "casoria",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://twinsforbeauty.it/",
+   "https://twinsforbeauty.it/about-us/",
+   "https://twinsforbeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,103 @@
+[
+ {
+  "dominio": "aequilibriumestetica.it",
+  "nome": "Aequilibrium Centro Estetica Fiumicino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390694322751",
+  "email": "",
+  "sitoUrl": "https://aequilibriumestetica.it/",
+  "indirizzo": "Via delle Ombrine, 51",
+  "cap": "00054",
+  "comune": "Fiumicino",
+  "provincia": "fiumicino",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aequilibriumestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "avilaglowstudio.shop",
+  "nome": "ÀVILA Glow Studio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://avilaglowstudio.shop/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://avilaglowstudio.shop/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticabebeauty.it",
+  "nome": "Estetista Fiumicino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://esteticabebeauty.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://esteticabebeauty.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "obstudio.it",
+  "nome": "Obiettivo Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@obstudio.it",
+  "sitoUrl": "https://www.obstudio.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fiumicino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.obstudio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

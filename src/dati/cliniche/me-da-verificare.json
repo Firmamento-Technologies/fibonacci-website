@@ -1,0 +1,121 @@
+[
+ {
+  "dominio": "clinimedmessina.it",
+  "nome": "Clinimed Messina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39090639668",
+  "email": "",
+  "sitoUrl": "https://clinimedmessina.it/",
+  "indirizzo": "",
+  "cap": "98131",
+  "comune": "Tremestieri",
+  "provincia": "me",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://clinimedmessina.it/",
+   "https://clinimedmessina.it/pages/chi-siamo",
+   "https://clinimedmessina.it/policies/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticamessina.it",
+  "nome": "Medicina Estetica Messina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39090693590",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticamessina.it/",
+  "indirizzo": "Via Nino Bixio, 33",
+  "cap": "98123",
+  "comune": "",
+  "provincia": "me",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticamessina.it/",
+   "https://www.medicinaesteticamessina.it/chi-siamo/",
+   "https://www.medicinaesteticamessina.it/contattateci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiocontinibali.dental",
+  "nome": "Studio Dentistico Messina e Provincia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390941561462",
+  "email": "",
+  "sitoUrl": "https://studiocontinibali.dental/",
+  "indirizzo": "Via Margi 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "me",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiocontinibali.dental/",
+   "https://studiocontinibali.dental/contatti",
+   "https://studiocontinibali.dental/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodichirurgiaplasticaedestetica.it",
+  "nome": "Studio di chirurgia plastica ed estetica",
+  "formaSocietaria": "",
+  "partitaIva": "02981450832",
+  "telefono": "+390906409578",
+  "email": "",
+  "sitoUrl": "https://studiodichirurgiaplasticaedestetica.it/",
+  "indirizzo": "Strada S. Giacomo, 19",
+  "cap": "98100",
+  "comune": "Messina",
+  "provincia": "me",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodichirurgiaplasticaedestetica.it/",
+   "https://studiodichirurgiaplasticaedestetica.it/privacy.htm",
+   "https://studiodichirurgiaplasticaedestetica.it/dove-siamo/1401673"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

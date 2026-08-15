@@ -1,0 +1,90 @@
+[
+ {
+  "dominio": "centroesteticokarismaalghero.it",
+  "nome": "centro estetico alghero",
+  "formaSocietaria": "",
+  "partitaIva": "02476290909",
+  "telefono": "+393522675230",
+  "email": "info@centroesteticokarismaalghero.it",
+  "sitoUrl": "https://www.centroesteticokarismaalghero.it/",
+  "indirizzo": "Via Brigata Sassari, 35",
+  "cap": "07041",
+  "comune": "Alghero",
+  "provincia": "alghero",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticokarismaalghero.it/",
+   "https://www.centroesteticokarismaalghero.it/chi-siamo/",
+   "https://www.centroesteticokarismaalghero.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticaimmaginedonna.it",
+  "nome": "Estetica Immagine Donna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393318840444",
+  "email": "",
+  "sitoUrl": "https://esteticaimmaginedonna.it/",
+  "indirizzo": "Via Galileo Galilei 12",
+  "cap": "07041",
+  "comune": "Alghero",
+  "provincia": "alghero",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticaimmaginedonna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mec-estetica.it",
+  "nome": "MeC Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@mec-estetica.it",
+  "sitoUrl": "https://www.mec-estetica.it/",
+  "indirizzo": "Via Giuseppe Garibaldi, 59",
+  "cap": "07041",
+  "comune": "Alghero",
+  "provincia": "alghero",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mec-estetica.it/",
+   "https://www.mec-estetica.it/chi-siamo/",
+   "https://www.mec-estetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

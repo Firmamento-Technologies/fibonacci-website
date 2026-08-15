@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "medicinaesteticaconversano.com",
+  "nome": "Medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticaconversano.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "modena",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Sergio Conversano, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicinaesteticaconversano.com/",
+   "https://www.medicinaesteticaconversano.com/contatti-2/",
+   "https://www.medicinaesteticaconversano.com/contatti-2/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "termedellasalvarola.it",
+  "nome": "Spa Centro Benessere a Modena",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00485390363",
+  "telefono": "+390536987511",
+  "email": "info@termesalvarola.it",
+  "sitoUrl": "https://www.termedellasalvarola.it/",
+  "indirizzo": "Via Salvarola, 101",
+  "cap": "41049",
+  "comune": "Salvarola Terme",
+  "provincia": "modena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.termedellasalvarola.it/",
+   "https://www.termedellasalvarola.it/chi-siamo/",
+   "https://www.termedellasalvarola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

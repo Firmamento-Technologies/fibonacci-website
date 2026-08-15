@@ -1,0 +1,142 @@
+[
+ {
+  "dominio": "centrosandonato.it",
+  "nome": "Centro San Donato",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02284730690",
+  "telefono": "+390854919595",
+  "email": "info@centrosandonato.it",
+  "sitoUrl": "https://centrosandonato.it/",
+  "indirizzo": "Via Orientale, 23",
+  "cap": "66023",
+  "comune": "Francavilla Al Mare",
+  "provincia": "ch",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centrosandonato.it/",
+   "https://centrosandonato.it/contatti/",
+   "https://centrosandonato.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicabienvivre.it",
+  "nome": "poliambulatorio chieti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.clinicabienvivre.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ch",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicabienvivre.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicaestetica-nourishyourbeauty.it",
+  "nome": "Clinica medico estetica Chieti",
+  "formaSocietaria": "",
+  "partitaIva": "02761270699",
+  "telefono": "+393517098709",
+  "email": "",
+  "sitoUrl": "https://clinicaestetica-nourishyourbeauty.it/",
+  "indirizzo": "Via del Verde, 85",
+  "cap": "66034",
+  "comune": "Lanciano",
+  "provincia": "ch",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicaestetica-nourishyourbeauty.it/",
+   "https://clinicaestetica-nourishyourbeauty.it/chi-siamo/",
+   "https://clinicaestetica-nourishyourbeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mancinellivalentina.it",
+  "nome": "Studio dentistico Dott.ssa Valentina Mancinelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mancinellivalentina.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ch",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valentina Mancinelli, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://mancinellivalentina.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valentina Mancinelli, e il dominio lo ripete"
+ },
+ {
+  "dominio": "marcodiclemente.it",
+  "nome": "Medico Estetico Città Sant'Angelo",
+  "formaSocietaria": "",
+  "partitaIva": "01751010693",
+  "telefono": "+393205357183",
+  "email": "info@marcodiclemente.it",
+  "sitoUrl": "https://marcodiclemente.it/",
+  "indirizzo": "Via Tiburtina Valeria 85",
+  "cap": "65012",
+  "comune": "Villanova",
+  "provincia": "ch",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://marcodiclemente.it/",
+   "https://marcodiclemente.it/contatti/",
+   "https://marcodiclemente.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

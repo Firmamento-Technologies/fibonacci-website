@@ -1,0 +1,59 @@
+[
+ {
+  "dominio": "costachirurgiaplastica.it",
+  "nome": "Dr. Costa Chirurgia Plastica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390521942536",
+  "email": "",
+  "sitoUrl": "https://www.costachirurgiaplastica.it/",
+  "indirizzo": "Via Sant’Anna 1",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "parma",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.costachirurgiaplastica.it/",
+   "https://www.costachirurgiaplastica.it/about-us/",
+   "https://www.costachirurgiaplastica.it/contatti-parma-chiasso/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "polistudioreabilita.it",
+  "nome": "Polistudio Reabilita Parma",
+  "formaSocietaria": "",
+  "partitaIva": "05211560622",
+  "telefono": "+3905211560622",
+  "email": "segreteria@polistudioreabilita.it",
+  "sitoUrl": "https://www.polistudioreabilita.it/",
+  "indirizzo": "Via Pompilio Tagliaferri 2c",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "parma",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.polistudioreabilita.it/",
+   "https://www.polistudioreabilita.it/chi-siamo/",
+   "https://www.polistudioreabilita.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

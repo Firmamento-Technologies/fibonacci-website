@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "oxilab.it",
+  "nome": "Oxi Lab",
+  "formaSocietaria": "",
+  "partitaIva": "04821270230",
+  "telefono": "+390456574525",
+  "email": "info@oxilab.it",
+  "sitoUrl": "https://www.oxilab.it/",
+  "indirizzo": "Via Virgilio 6",
+  "cap": "37012",
+  "comune": "Bussolengo",
+  "provincia": "villafranca-di-verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.oxilab.it/",
+   "https://www.oxilab.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

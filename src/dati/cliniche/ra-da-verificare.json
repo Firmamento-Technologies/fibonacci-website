@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "iperbaricoravenna.it",
+  "nome": "Centro Iperbarico Ravenna",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01067740397",
+  "telefono": "",
+  "email": "segreteria@iperbaricoravenna.it",
+  "sitoUrl": "https://iperbaricoravenna.it/",
+  "indirizzo": "via A. Torre 3",
+  "cap": "48124",
+  "comune": "Ravenna",
+  "provincia": "ra",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://iperbaricoravenna.it/",
+   "https://iperbaricoravenna.it/note-legali/",
+   "https://iperbaricoravenna.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "skinravenna.it",
+  "nome": "Skin Centro Estetico di Ravenna",
+  "formaSocietaria": "",
+  "partitaIva": "02801060399",
+  "telefono": "",
+  "email": "info@skinravenna.it",
+  "sitoUrl": "https://skinravenna.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ra",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://skinravenna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

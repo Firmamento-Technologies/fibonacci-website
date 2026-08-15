@@ -1,0 +1,117 @@
+[
+ {
+  "dominio": "centromedeticaendless.it",
+  "nome": "Centro medico ed estetico a Foligno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390742359187",
+  "email": "info@centromedeticaendless.it",
+  "sitoUrl": "https://www.centromedeticaendless.it/",
+  "indirizzo": "Via Gentile Da Foligno, 44",
+  "cap": "06034",
+  "comune": "Foligno",
+  "provincia": "foligno",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedeticaendless.it/",
+   "https://www.centromedeticaendless.it/chi-siamo/",
+   "https://www.centromedeticaendless.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermatologodamiani.it",
+  "nome": "Studio dermatologico",
+  "formaSocietaria": "",
+  "partitaIva": "01209980547",
+  "telefono": "+390742350702",
+  "email": "",
+  "sitoUrl": "https://www.dermatologodamiani.it/",
+  "indirizzo": "Via Cesare Battisti 63",
+  "cap": "43685",
+  "comune": "Borgo",
+  "provincia": "foligno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Damiani, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologodamiani.it/",
+   "https://www.dermatologodamiani.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "santaluciacentromedico.it",
+  "nome": "Centro Medico Santa Lucia",
+  "formaSocietaria": "",
+  "partitaIva": "03816420545",
+  "telefono": "+390742710080",
+  "email": "info@santaluciacentromedico.it",
+  "sitoUrl": "https://www.santaluciacentromedico.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "foligno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.santaluciacentromedico.it/",
+   "https://www.santaluciacentromedico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "walterbugiantella.it",
+  "nome": "Medicina e Chirurgia Estetica Foligno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393385011418",
+  "email": "info@walterbugiantella.it",
+  "sitoUrl": "https://walterbugiantella.it/",
+  "indirizzo": "Via Monte Acuto, 49",
+  "cap": "06034",
+  "comune": "Foligno",
+  "provincia": "foligno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Walter Bugiantella, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://walterbugiantella.it/",
+   "https://walterbugiantella.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Bugiantella, e il dominio lo ripete"
+ }
+]

@@ -1,0 +1,33 @@
+[
+ {
+  "dominio": "dentalwellnessgigliotti.com",
+  "nome": "Odontoiatria avanzata e salute orale a Lamezia Terme",
+  "formaSocietaria": "",
+  "partitaIva": "03932990793",
+  "telefono": "+390968448903",
+  "email": "",
+  "sitoUrl": "https://www.dentalwellnessgigliotti.com/",
+  "indirizzo": "Via Guglielmo Marconi, 169",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dentalwellnessgigliotti.com/",
+   "https://www.dentalwellnessgigliotti.com/lo-studio/chi-siamo",
+   "https://www.dentalwellnessgigliotti.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

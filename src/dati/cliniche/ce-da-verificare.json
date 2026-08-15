@@ -1,0 +1,233 @@
+[
+ {
+  "dominio": "albounico.fnomceo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "antonioiodice.it",
+  "nome": "Antonio Iodice",
+  "formaSocietaria": "",
+  "partitaIva": "03956580611",
+  "telefono": "",
+  "email": "info@antonioiodice.it",
+  "sitoUrl": "https://www.antonioiodice.it/",
+  "indirizzo": "Via Domitiana km 30",
+  "cap": "81100",
+  "comune": "Caserta",
+  "provincia": "ce",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.antonioiodice.it/",
+   "https://www.antonioiodice.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drmarcomannucci.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "drmedicalstudio.it",
+  "nome": "Dr Medical Studio",
+  "formaSocietaria": "",
+  "partitaIva": "00996040945",
+  "telefono": "+390823439012",
+  "email": "",
+  "sitoUrl": "https://drmedicalstudio.it/",
+  "indirizzo": "Viale delle Industrie 36",
+  "cap": "",
+  "comune": "",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://drmedicalstudio.it/",
+   "https://drmedicalstudio.it/contatti/",
+   "https://drmedicalstudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fanpage.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "medicinaesteticacaserta.it",
+  "nome": "Neuroasthetics",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticacaserta.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticacaserta.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mioestetista.it",
+  "nome": "MioEstetista",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.mioestetista.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ce",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mioestetista.it/",
+   "https://www.mioestetista.it/privacy-policy",
+   "https://www.mioestetista.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "moscatelli.org",
+  "nome": "moscatelli.org",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.moscatelli.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.moscatelli.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ospedale.caserta.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "rubenscenter.it",
+  "nome": "Ruben's Center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393911191140",
+  "email": "info@rubenscenter.it",
+  "sitoUrl": "https://rubenscenter.it/",
+  "indirizzo": "Largo Giovanni Tescione, 11",
+  "cap": "81100",
+  "comune": "Caserta",
+  "provincia": "ce",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://rubenscenter.it/",
+   "https://rubenscenter.it/chi-siamo/",
+   "https://rubenscenter.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomirra.it",
+  "nome": "Studio Mirra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomirra.it/",
+  "indirizzo": "Via Nazionale Appia, 61",
+  "cap": "81040",
+  "comune": "Curti",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomirra.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "yesdoctor.it",
+  "nome": "Yesdoctor.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@yesdoctor.it",
+  "sitoUrl": "https://yesdoctor.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://yesdoctor.it/",
+   "https://yesdoctor.it/about-us"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

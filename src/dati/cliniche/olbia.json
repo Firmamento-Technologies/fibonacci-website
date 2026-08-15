@@ -1,0 +1,122 @@
+[
+ {
+  "dominio": "clinicazzena.it",
+  "nome": "Chirurgo Plastico Olbia",
+  "formaSocietaria": "",
+  "partitaIva": "02885400909",
+  "telefono": "+393394004020",
+  "email": "info@clinicazzena.it",
+  "sitoUrl": "https://clinicazzena.it/",
+  "indirizzo": "Corso Vittorio Veneto, 108",
+  "cap": "",
+  "comune": "",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicazzena.it/",
+   "https://clinicazzena.it/contatti/",
+   "https://clinicazzena.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "danielamasia.com",
+  "nome": "Chirurgia Ricostruttiva, Chirurgia Plastica e Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "01234567890",
+  "telefono": "+39063234154",
+  "email": "info@estemedica.it",
+  "sitoUrl": "https://www.danielamasia.com/",
+  "indirizzo": "Via Giuseppe Gioacchino Belli, 120",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Daniela Masia, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.danielamasia.com/",
+   "https://www.danielamasia.com/contatti/",
+   "https://www.danielamasia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalcenterchirurgiaplastica.it",
+  "nome": "Interventi di chirurgia estetica a Olbia",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02732730904",
+  "telefono": "+393495731458",
+  "email": "",
+  "sitoUrl": "https://medicalcenterchirurgiaplastica.it/",
+  "indirizzo": "",
+  "cap": "07026",
+  "comune": "OLBIA",
+  "provincia": "olbia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicalcenterchirurgiaplastica.it/",
+   "https://medicalcenterchirurgiaplastica.it/privacy-policy/",
+   "https://medicalcenterchirurgiaplastica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalsuiteolbia.it",
+  "nome": "Medical Suite Olbia",
+  "formaSocietaria": "",
+  "partitaIva": "02963090903",
+  "telefono": "+393421275988",
+  "email": "info@medicalsuiteolbia.it",
+  "sitoUrl": "https://www.medicalsuiteolbia.it/",
+  "indirizzo": "via Pietro Chiesa 10",
+  "cap": "62502",
+  "comune": "Direttore",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicalsuiteolbia.it/",
+   "https://www.medicalsuiteolbia.it/chi-siamo/",
+   "https://www.medicalsuiteolbia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

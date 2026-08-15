@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "beautyzonetreviglio.it",
+  "nome": "Beauty Zone Treviglio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393313323206",
+  "email": "",
+  "sitoUrl": "https://beautyzonetreviglio.it/",
+  "indirizzo": "Piazzale Insurrezione, 1",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://beautyzonetreviglio.it/",
+   "https://beautyzonetreviglio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "iristreviglio.it",
+  "nome": "Centro Estetico a Treviglio (BG)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393402649339",
+  "email": "",
+  "sitoUrl": "https://iristreviglio.it/",
+  "indirizzo": "Viale Oriano, 18",
+  "cap": "24047",
+  "comune": "Treviglio",
+  "provincia": "treviglio",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://iristreviglio.it/",
+   "https://iristreviglio.it/contatti/",
+   "https://iristreviglio.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

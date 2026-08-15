@@ -1,0 +1,118 @@
+[
+ {
+  "dominio": "centrosalutesimonetta.it",
+  "nome": "Estetista",
+  "formaSocietaria": "",
+  "partitaIva": "09385470019",
+  "telefono": "+390118006123",
+  "email": "",
+  "sitoUrl": "https://www.centrosalutesimonetta.it/",
+  "indirizzo": "Via Ferraris, 16",
+  "cap": "10036",
+  "comune": "SETTIMO",
+  "provincia": "settimo-torinese",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrosalutesimonetta.it/",
+   "https://www.centrosalutesimonetta.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticaessenzialmente.it",
+  "nome": "Estetica Essenzialmente",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticaessenzialmente.it/",
+  "indirizzo": "Via Asti, 16",
+  "cap": "10036",
+  "comune": "Settimo",
+  "provincia": "settimo-torinese",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticaessenzialmente.it/",
+   "https://www.esteticaessenzialmente.it/contatti",
+   "https://www.esteticaessenzialmente.it/privacy.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "it.indeed.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicalsettimo.it",
+  "nome": "Medical Settimo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390118006248",
+  "email": "info@medicalsettimo.it",
+  "sitoUrl": "https://medicalsettimo.it/",
+  "indirizzo": "via Mazzini 13",
+  "cap": "10036",
+  "comune": "Settimo",
+  "provincia": "settimo-torinese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicalsettimo.it/",
+   "https://medicalsettimo.it/privacy-cookies-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studioeco.me",
+  "nome": "POLISTUDIO 4E",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studioeco.me",
+  "sitoUrl": "https://www.studioeco.me/",
+  "indirizzo": "Via Roma 4",
+  "cap": "10036",
+  "comune": "Settimo",
+  "provincia": "settimo-torinese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studioeco.me/",
+   "https://www.studioeco.me/chi-siamo",
+   "https://www.studioeco.me/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

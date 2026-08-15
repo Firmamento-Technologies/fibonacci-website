@@ -1,0 +1,161 @@
+[
+ {
+  "dominio": "ausl.mo.it",
+  "nome": "AUSL Modena",
+  "formaSocietaria": "",
+  "partitaIva": "02241850367",
+  "telefono": "+39059435111",
+  "email": "",
+  "sitoUrl": "https://www.ausl.mo.it/",
+  "indirizzo": "viale Fratelli Cairoli, 19",
+  "cap": "41121",
+  "comune": "Modena",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ausl.mo.it/",
+   "https://www.ausl.mo.it/privacy/",
+   "https://www.ausl.mo.it/privacy-policy-web/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "beautyclub.mo.it",
+  "nome": "Beauty Club",
+  "formaSocietaria": "",
+  "partitaIva": "00503380362",
+  "telefono": "+390536803256",
+  "email": "info@beautyclub.mo.it",
+  "sitoUrl": "https://beautyclub.mo.it/",
+  "indirizzo": "Via Braida, 138",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://beautyclub.mo.it/",
+   "https://beautyclub.mo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrokos.it",
+  "nome": "Centro Medico KOS",
+  "formaSocietaria": "",
+  "partitaIva": "01804020368",
+  "telefono": "+390536806370",
+  "email": "info@centrokos.it",
+  "sitoUrl": "https://www.centrokos.it/",
+  "indirizzo": "Via Radici in Piano, 46",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centrokos.it/",
+   "https://www.centrokos.it/chi-siamo/",
+   "https://www.centrokos.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drssainespiumi.com",
+  "nome": "Trattamenti di medicina estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393394994628",
+  "email": "",
+  "sitoUrl": "https://drssainespiumi.com/",
+  "indirizzo": "Via Adda, 71",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://drssainespiumi.com/",
+   "https://drssainespiumi.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "emiliaromagnashopping.it",
+  "nome": "Emilia Romagna Shopping",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://emiliaromagnashopping.it/",
+  "indirizzo": "Via Bassa, 23",
+  "cap": "48012",
+  "comune": "Bagnacavallo",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://emiliaromagnashopping.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ospedalesassuolo.it",
+  "nome": "Ospedale Sassuolo",
+  "formaSocietaria": "",
+  "partitaIva": "02815350364",
+  "telefono": "",
+  "email": "info@ospedalesassuolo.it",
+  "sitoUrl": "https://www.ospedalesassuolo.it/",
+  "indirizzo": "via Ruini 2",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ospedalesassuolo.it/",
+   "https://www.ospedalesassuolo.it/recapiti-e-contatti/",
+   "https://www.ospedalesassuolo.it/recapiti-e-contatti/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

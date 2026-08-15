@@ -1,0 +1,116 @@
+[
+ {
+  "dominio": "anvamed.it",
+  "nome": "Anvamed Poliambulatorio medico chirurgico Matera visite ed esami",
+  "formaSocietaria": "",
+  "partitaIva": "01337860777",
+  "telefono": "",
+  "email": "info@anvamed.it",
+  "sitoUrl": "https://www.anvamed.it/",
+  "indirizzo": "Via Timmari 13",
+  "cap": "",
+  "comune": "",
+  "provincia": "mt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.anvamed.it/",
+   "https://www.anvamed.it/poliambulatorio-specialistico-chi-siamo/",
+   "https://www.anvamed.it/contatti-orari/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centro-medicea.it",
+  "nome": "Medicea",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390973683528",
+  "email": "info@centro-medicea.it",
+  "sitoUrl": "https://centro-medicea.it/",
+  "indirizzo": "Piazza Plebiscito, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "mt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centro-medicea.it/",
+   "https://centro-medicea.it/chi-siamo/",
+   "https://centro-medicea.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "laseremedicinaestetica.it",
+  "nome": "Dr Marco Pisciotta",
+  "formaSocietaria": "SOCIETÀSEMPLICE",
+  "partitaIva": "01242620779",
+  "telefono": "+393492253595",
+  "email": "info@laseremedicinaestetica.it",
+  "sitoUrl": "https://laseremedicinaestetica.it/",
+  "indirizzo": "Via Einaudi 7",
+  "cap": "83600",
+  "comune": "",
+  "provincia": "mt",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://laseremedicinaestetica.it/",
+   "https://laseremedicinaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "paginemail.it",
+  "nome": "Paginemail",
+  "formaSocietaria": "",
+  "partitaIva": "02216470845",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.paginemail.it/",
+  "indirizzo": "Via Tortona, 33",
+  "cap": "20144",
+  "comune": "Milano",
+  "provincia": "mt",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.paginemail.it/",
+   "https://www.paginemail.it/contatti.html",
+   "https://www.paginemail.it/note-legali-e-privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,157 @@
+[
+ {
+  "dominio": "dermomedicalestetica.com",
+  "nome": "Chirurgia Estetica in provincia di Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "02894510136",
+  "telefono": "",
+  "email": "info@dermomedicalestetica.com",
+  "sitoUrl": "https://dermomedicalestetica.com/",
+  "indirizzo": "Corso Europa, 40",
+  "cap": "23801",
+  "comune": "Calolziocorte",
+  "provincia": "lc",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dermomedicalestetica.com/",
+   "https://dermomedicalestetica.com/it/chirurghi-estetici-in-provincia-di-lecco/privacy-e-cookie-policy-72"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drmspreafico.it",
+  "nome": "Dr. Spreafico Marco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393355214956",
+  "email": "",
+  "sitoUrl": "https://www.drmspreafico.it/",
+  "indirizzo": "Via Renzo, 3",
+  "cap": "23900",
+  "comune": "Lecco",
+  "provincia": "lc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Spreafico Marco, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drmspreafico.it/",
+   "https://www.drmspreafico.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "in-salus.it",
+  "nome": "Centro Medico Polispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03412050134",
+  "telefono": "+390341367512",
+  "email": "info@in-salus.it",
+  "sitoUrl": "https://www.in-salus.it/",
+  "indirizzo": "Corso Carlo Alberto, 17",
+  "cap": "23900",
+  "comune": "Lecco",
+  "provincia": "lc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.in-salus.it/",
+   "https://www.in-salus.it/contatti/",
+   "https://www.in-salus.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriotulipano.com",
+  "nome": "Poliambulatorio Tulipano",
+  "formaSocietaria": "",
+  "partitaIva": "01513260131",
+  "telefono": "+393427264134",
+  "email": "info@poliambulatoriotulipano.com",
+  "sitoUrl": "https://poliambulatoriotulipano.com/",
+  "indirizzo": "Via Mazzini 14",
+  "cap": "23843",
+  "comune": "Dolzago",
+  "provincia": "lc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://poliambulatoriotulipano.com/",
+   "https://poliambulatoriotulipano.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "solivo.it",
+  "nome": "Solivo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03827780135",
+  "telefono": "+390399202664",
+  "email": "info@solivo.it",
+  "sitoUrl": "https://www.solivo.it/",
+  "indirizzo": "Via Camillo Benso Conte di Cavour, 12",
+  "cap": "23880",
+  "comune": "Casatenovo",
+  "provincia": "lc",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.solivo.it/",
+   "https://www.solivo.it/contatti/",
+   "https://www.solivo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

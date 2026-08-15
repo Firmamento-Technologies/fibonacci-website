@@ -1,0 +1,62 @@
+[
+ {
+  "dominio": "cecmedicalcare.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "cecmedicalcareostia.com",
+  "nome": "c&c medical care: estetica e benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393513518670",
+  "email": "",
+  "sitoUrl": "https://cecmedicalcareostia.com/",
+  "indirizzo": "Viale Capitan Consalvo, 26",
+  "cap": "00122",
+  "comune": "Lido",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cecmedicalcareostia.com/",
+   "https://cecmedicalcareostia.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "prenota.medicinaesteticaostia.it",
+  "nome": "Medicina Estetica ad Ostia",
+  "formaSocietaria": "",
+  "partitaIva": "15336401003",
+  "telefono": "+390624597919",
+  "email": "",
+  "sitoUrl": "https://prenota.medicinaesteticaostia.it/",
+  "indirizzo": "Via Capitan Consalvo 26",
+  "cap": "00122",
+  "comune": "Lido",
+  "provincia": "ostia",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://prenota.medicinaesteticaostia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

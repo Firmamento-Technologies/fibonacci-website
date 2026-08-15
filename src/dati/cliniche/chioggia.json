@@ -1,0 +1,140 @@
+[
+ {
+  "dominio": "clodiamedica.it",
+  "nome": "Clodia Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03223070271",
+  "telefono": "+390415544341",
+  "email": "info@medicinadellavorochioggia.it",
+  "sitoUrl": "https://clodiamedica.it/",
+  "indirizzo": "Viale Padova, 25",
+  "cap": "30015",
+  "comune": "Chioggia",
+  "provincia": "chioggia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clodiamedica.it/",
+   "https://clodiamedica.it/chi-siamo/",
+   "https://clodiamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "fisiochioggia.it",
+  "nome": "Fisiochioggia Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "03298560271",
+  "telefono": "+390414966542",
+  "email": "",
+  "sitoUrl": "https://fisiochioggia.it/",
+  "indirizzo": "Via P.E. Venturini, 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "chioggia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://fisiochioggia.it/",
+   "https://fisiochioggia.it/chi-siamo/",
+   "https://fisiochioggia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mmbclodiense.it",
+  "nome": "Clodiense Istituto Multidisciplinare",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04580730275",
+  "telefono": "+390413127896",
+  "email": "",
+  "sitoUrl": "https://mmbclodiense.it/",
+  "indirizzo": "",
+  "cap": "30015",
+  "comune": "Chioggia",
+  "provincia": "chioggia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://mmbclodiense.it/",
+   "https://mmbclodiense.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriosalus.it",
+  "nome": "Salus",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03474310277",
+  "telefono": "+39041404041",
+  "email": "info@poliambulatoriosalus.it",
+  "sitoUrl": "https://poliambulatoriosalus.it/",
+  "indirizzo": "Via Campo Marconi 92",
+  "cap": "30015",
+  "comune": "Chioggia",
+  "provincia": "chioggia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://poliambulatoriosalus.it/",
+   "https://poliambulatoriosalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiosangiacomo.com",
+  "nome": "Studio San Giacomo",
+  "formaSocietaria": "",
+  "partitaIva": "01594550285",
+  "telefono": "",
+  "email": "info@studiosangiacomo.com",
+  "sitoUrl": "https://www.studiosangiacomo.com/",
+  "indirizzo": "via Saloni 102",
+  "cap": "",
+  "comune": "",
+  "provincia": "chioggia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiosangiacomo.com/",
+   "https://www.studiosangiacomo.com/chi-siamo/",
+   "https://www.studiosangiacomo.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

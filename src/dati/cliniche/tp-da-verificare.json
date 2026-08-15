@@ -1,0 +1,112 @@
+[
+ {
+  "dominio": "lesteticaditeresa.it",
+  "nome": "L’Estetica di Teresa",
+  "formaSocietaria": "",
+  "partitaIva": "02413540812",
+  "telefono": "+39092321007",
+  "email": "",
+  "sitoUrl": "https://www.lesteticaditeresa.it/",
+  "indirizzo": "Via Santa Maria di Capua, 53",
+  "cap": "91100",
+  "comune": "TRAPANI",
+  "provincia": "tp",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lesteticaditeresa.it/",
+   "https://www.lesteticaditeresa.it/chi-siamo/",
+   "https://www.lesteticaditeresa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ninfeacentroestetico.com",
+  "nome": "Ninfea: centro estetico a Trapani",
+  "formaSocietaria": "",
+  "partitaIva": "02599500812",
+  "telefono": "+393271320081",
+  "email": "",
+  "sitoUrl": "https://www.ninfeacentroestetico.com/",
+  "indirizzo": "Via Colonnello Romey, 29",
+  "cap": "91100",
+  "comune": "TRAPANI",
+  "provincia": "tp",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ninfeacentroestetico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticobuffacusimano.it",
+  "nome": "Dentista a Trapani, Custonaci, San Vito lo capo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393339474528",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticobuffacusimano.it/",
+  "indirizzo": "Via Ugo Foscolo 7",
+  "cap": "91015",
+  "comune": "Custonaci",
+  "provincia": "tp",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticobuffacusimano.it/",
+   "https://www.studiodentisticobuffacusimano.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodentisticoplacenza.it",
+  "nome": "Studio dentistico Placenza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393440218823",
+  "email": "",
+  "sitoUrl": "https://studiodentisticoplacenza.it/",
+  "indirizzo": "Via Trieste 32",
+  "cap": "91100",
+  "comune": "Trapani",
+  "provincia": "tp",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticoplacenza.it/",
+   "https://studiodentisticoplacenza.it/contatti/",
+   "https://studiodentisticoplacenza.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

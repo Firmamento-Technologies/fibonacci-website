@@ -1,0 +1,198 @@
+[
+ {
+  "dominio": "cdpmedical.it",
+  "nome": "CDP Medical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12477820018",
+  "telefono": "+390121332340",
+  "email": "info@cdpmedical.it",
+  "sitoUrl": "https://www.cdpmedical.it/",
+  "indirizzo": "Viale della Rimembranza, 24",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cdpmedical.it/",
+   "https://www.cdpmedical.it/chi-siamo/",
+   "https://www.cdpmedical.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chironsalute-pinerolo.it",
+  "nome": "Chiron Salute Pinerolo",
+  "formaSocietaria": "",
+  "partitaIva": "09196630017",
+  "telefono": "+390121396464",
+  "email": "",
+  "sitoUrl": "https://chironsalute-pinerolo.it/",
+  "indirizzo": "Via Bogliette 3",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://chironsalute-pinerolo.it/",
+   "https://chironsalute-pinerolo.it/chi-siamo/",
+   "https://chironsalute-pinerolo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ethereabenessere.com",
+  "nome": "Centro Estetico Etherea",
+  "formaSocietaria": "",
+  "partitaIva": "09732300018",
+  "telefono": "+390121376565",
+  "email": "info@ethereabenessere.com",
+  "sitoUrl": "https://ethereabenessere.com/",
+  "indirizzo": "Via Silvio Pellico, 13",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://ethereabenessere.com/",
+   "https://ethereabenessere.com/contatti/",
+   "https://ethereabenessere.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "laclaire.it",
+  "nome": "LA CLAIRE",
+  "formaSocietaria": "SAS",
+  "partitaIva": "07083920012",
+  "telefono": "",
+  "email": "info@laclaire.it",
+  "sitoUrl": "https://www.laclaire.it/",
+  "indirizzo": "Via Stefano Fer 52",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.laclaire.it/",
+   "https://www.laclaire.it/privacy-policy/",
+   "http://www.laclaire.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "puntosanlazzaro.it",
+  "nome": "Poliambulatorio Medico Punto San Lazzaro",
+  "formaSocietaria": "",
+  "partitaIva": "12212390012",
+  "telefono": "+390121030435",
+  "email": "",
+  "sitoUrl": "https://www.puntosanlazzaro.it/",
+  "indirizzo": "via Ettore Bignone 38",
+  "cap": "10064",
+  "comune": "",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.puntosanlazzaro.it/",
+   "https://www.puntosanlazzaro.it/poliambulatorio-san-lazzaro-pinerolo-to/chi-siamo-medici-pinerolo/",
+   "https://www.puntosanlazzaro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skinmedicpinerolo.it",
+  "nome": "SkinMedic Pinerolo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393762304225",
+  "email": "info@skinmedicpinerolo.it",
+  "sitoUrl": "https://www.skinmedicpinerolo.it/",
+  "indirizzo": "Piazza Luigi Barbieri, 25",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.skinmedicpinerolo.it/",
+   "https://www.skinmedicpinerolo.it/contatti-skinmedic-pinerolo/",
+   "https://www.skinmedicpinerolo.it/contatti-skinmedic-pinerolo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticogaveglio.it",
+  "nome": "Studio Dentistico Dott. Mauro Gaveglio",
+  "formaSocietaria": "",
+  "partitaIva": "05817580011",
+  "telefono": "+393938790792",
+  "email": "info@studiosciacca.it",
+  "sitoUrl": "https://studiodentisticogaveglio.it/",
+  "indirizzo": "Via G. Leopardi, 2",
+  "cap": "12031",
+  "comune": "Bagnolo",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Mauro Gaveglio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiodentisticogaveglio.it/",
+   "https://studiodentisticogaveglio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

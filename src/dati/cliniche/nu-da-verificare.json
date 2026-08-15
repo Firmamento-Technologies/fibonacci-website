@@ -1,0 +1,66 @@
+[
+ {
+  "dominio": "centroesteticonuoro.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "esteticacleopatra.com",
+  "nome": "Centro Estetico Nuoro",
+  "formaSocietaria": "",
+  "partitaIva": "01610440917",
+  "telefono": "+393792829562",
+  "email": "",
+  "sitoUrl": "https://www.esteticacleopatra.com/",
+  "indirizzo": "Viale della Repubblica, 2",
+  "cap": "08100",
+  "comune": "Nuoro",
+  "provincia": "nu",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticacleopatra.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "monicacongiu.it",
+  "nome": "Dott.ssa Congiu | Medico Estetico Sardegna",
+  "formaSocietaria": "",
+  "partitaIva": "01455940914",
+  "telefono": "",
+  "email": "info@monicacongiu.it",
+  "sitoUrl": "https://www.monicacongiu.it/",
+  "indirizzo": "Via Gramsci 119",
+  "cap": "",
+  "comune": "",
+  "provincia": "nu",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.monicacongiu.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,179 @@
+[
+ {
+  "dominio": "asst-lariana.it",
+  "nome": "ASST Lariana",
+  "formaSocietaria": "",
+  "partitaIva": "03622110132",
+  "telefono": "+3939800638638",
+  "email": "",
+  "sitoUrl": "https://www.asst-lariana.it/",
+  "indirizzo": "Via Napoleona, 60",
+  "cap": "22100",
+  "comune": "Como",
+  "provincia": "co",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asst-lariana.it/",
+   "https://www.asst-lariana.it/informativa-privacy/",
+   "https://www.asst-lariana.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "becos3.it",
+  "nome": "Becos 3",
+  "formaSocietaria": "",
+  "partitaIva": "02163320134",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.becos3.it/",
+  "indirizzo": "Via Fontana, 1",
+  "cap": "22100",
+  "comune": "Como",
+  "provincia": "co",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.becos3.it/",
+   "https://www.becos3.it/chi-siamo/",
+   "https://www.becos3.it/contatti-becos-3-como/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirurgia-plastica-estetica.it",
+  "nome": "Chirurgia Plastica e Chirurgia Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "02365660469",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://chirurgia-plastica-estetica.it/",
+  "indirizzo": "Via Lamarmora, 29",
+  "cap": "50121",
+  "comune": "Firenze",
+  "provincia": "co",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://chirurgia-plastica-estetica.it/",
+   "https://chirurgia-plastica-estetica.it/contatti.asp"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "elioorlacchio.it",
+  "nome": "La riabilitazione su misura per te!",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://elioorlacchio.it/",
+  "indirizzo": "Via Corte Grande 21",
+  "cap": "",
+  "comune": "",
+  "provincia": "co",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://elioorlacchio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "filleracidoialuronico.info",
+  "nome": "Filler Acido Ialuronico Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393518025439",
+  "email": "info@cevamedicalcenter.it",
+  "sitoUrl": "https://www.filleracidoialuronico.info/",
+  "indirizzo": "Via Giotto 15",
+  "cap": "",
+  "comune": "",
+  "provincia": "co",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.filleracidoialuronico.info/",
+   "https://www.filleracidoialuronico.info/dove-siamo/",
+   "https://www.filleracidoialuronico.info/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaestetica.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "polispecialisticalariana.it",
+  "nome": "Polispecialistica Lariana",
+  "formaSocietaria": "",
+  "partitaIva": "03516190133",
+  "telefono": "+39031264939",
+  "email": "contatti@polispecialisticalariana.it",
+  "sitoUrl": "https://www.polispecialisticalariana.it/",
+  "indirizzo": "",
+  "cap": "22100",
+  "comune": "Como",
+  "provincia": "co",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.polispecialisticalariana.it/",
+   "https://www.polispecialisticalariana.it/chi-siamo-2-2/",
+   "https://www.polispecialisticalariana.it/contatti-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

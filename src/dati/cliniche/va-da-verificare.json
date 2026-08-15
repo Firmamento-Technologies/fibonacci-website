@@ -1,0 +1,180 @@
+[
+ {
+  "dominio": "chirurgiaesteticavarese.com",
+  "nome": "Dott.ssa Silvia Magnani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticavarese.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "va",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticavarese.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "drsivanbaker.com",
+  "nome": "Dr. Sivan Baker",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.drsivanbaker.com/",
+  "indirizzo": "Via Milite Ignoto, 383",
+  "cap": "21027",
+  "comune": "Ispra",
+  "provincia": "va",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drsivanbaker.com/",
+   "https://www.drsivanbaker.com/privacy-pli"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fillervarese.it",
+  "nome": "Filler Varese",
+  "formaSocietaria": "",
+  "partitaIva": "03140530126",
+  "telefono": "+390332776437",
+  "email": "info@michelemaineri.it",
+  "sitoUrl": "https://fillervarese.it/",
+  "indirizzo": "Via John Fitzgerald Kennedy, 37",
+  "cap": "21046",
+  "comune": "Malnate",
+  "provincia": "va",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fillervarese.it/",
+   "https://fillervarese.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticasararusso.it",
+  "nome": "medicina estetica Sara Russo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393290217723",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticasararusso.it/",
+  "indirizzo": "Via I° Maggio, 30",
+  "cap": "21044",
+  "comune": "Cavaria",
+  "provincia": "va",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticasararusso.it/",
+   "https://www.medicinaesteticasararusso.it/dove-siamo/",
+   "https://www.medicinaesteticasararusso.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "skinmedicvarese.it",
+  "nome": "SkinMedic Varese",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393493241997",
+  "email": "info@skinmedicvarese.it",
+  "sitoUrl": "https://www.skinmedicvarese.it/",
+  "indirizzo": "Via Carlo Avegno, 12",
+  "cap": "35121",
+  "comune": "Varese",
+  "provincia": "va",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.skinmedicvarese.it/",
+   "https://www.skinmedicvarese.it/chi-siamo/",
+   "https://www.skinmedicvarese.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "smile-atelierdelsorriso.it",
+  "nome": "Studio dentistico a Varese",
+  "formaSocietaria": "",
+  "partitaIva": "03941820122",
+  "telefono": "+393894408136",
+  "email": "",
+  "sitoUrl": "https://www.smile-atelierdelsorriso.it/",
+  "indirizzo": "Piazza della Repubblica, 6",
+  "cap": "21100",
+  "comune": "Varese",
+  "provincia": "va",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.smile-atelierdelsorriso.it/",
+   "https://www.smile-atelierdelsorriso.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

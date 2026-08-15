@@ -1,0 +1,108 @@
+[
+ {
+  "dominio": "dottoressavieira.it",
+  "nome": "Ginecologa Ostetrica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393488580032",
+  "email": "",
+  "sitoUrl": "https://www.dottoressavieira.it/",
+  "indirizzo": "Via Martiri della Resistenza 8",
+  "cap": "29122",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressavieira.it/",
+   "https://www.dottoressavieira.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "healthmedical.it",
+  "nome": "Poliambulatorio Health Piacenza",
+  "formaSocietaria": "",
+  "partitaIva": "01577470337",
+  "telefono": "+393760495760",
+  "email": "info@healthmedical.it",
+  "sitoUrl": "https://healthmedical.it/",
+  "indirizzo": "Via Emilia Pavese, 120",
+  "cap": "29122",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://healthmedical.it/",
+   "https://healthmedical.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medicinaesteticapiacenza.com",
+  "nome": "Renata Bortignon",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@renatabortignon.it",
+  "sitoUrl": "https://www.medicinaesteticapiacenza.com/",
+  "indirizzo": "",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticapiacenza.com/",
+   "https://www.medicinaesteticapiacenza.com/contatti/dove-sono.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomarzolini.it",
+  "nome": "Studio Marzolini",
+  "formaSocietaria": "",
+  "partitaIva": "01646480333",
+  "telefono": "+390523384063",
+  "email": "info@studiomarzolini.it",
+  "sitoUrl": "https://studiomarzolini.it/",
+  "indirizzo": "Via Nova, 38",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "pc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomarzolini.it/",
+   "https://studiomarzolini.it/chi-siamo/",
+   "https://studiomarzolini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

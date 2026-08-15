@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "acidoialuronicotrieste.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "cercafisioterapista.it",
+  "nome": "Trova i migliori centri di fisioterapia nella tua zona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cercafisioterapista.it/",
+  "indirizzo": "Via Massimo D'Azeglio, 15",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "ts",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cercafisioterapista.it/",
+   "https://cercafisioterapista.it/it-it/chi-siamo/",
+   "https://cercafisioterapista.it/it-it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "medicinaesteticatrieste.com",
+  "nome": "Medicina Estetica Trieste",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticatrieste.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ts",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticatrieste.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

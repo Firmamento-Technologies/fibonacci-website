@@ -1,0 +1,83 @@
+[
+ {
+  "dominio": "centroesteticolife.it",
+  "nome": "Centro Estetico Life",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticolife.it/",
+  "indirizzo": "viale America Latina 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "frosinone",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticolife.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "glowesthetic.it",
+  "nome": "Glow Esthetic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info.glowesthetic@gmail.com",
+  "sitoUrl": "https://www.glowesthetic.it/",
+  "indirizzo": "Via Madonna della Neve 83",
+  "cap": "03100",
+  "comune": "Frosinone",
+  "provincia": "frosinone",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.glowesthetic.it/",
+   "https://www.glowesthetic.it/informativa-sulla-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticafrosinone.com",
+  "nome": "medicinaesteticafrosinone.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390775962575",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticafrosinone.com/",
+  "indirizzo": "via ALDO MORO 254",
+  "cap": "03100",
+  "comune": "",
+  "provincia": "frosinone",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticafrosinone.com/",
+   "https://medicinaesteticafrosinone.com/about"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

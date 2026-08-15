@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "charmenchicpisa.it",
+  "nome": "Centro Estetico Pisa",
+  "formaSocietaria": "",
+  "partitaIva": "02175490503",
+  "telefono": "+390506161348",
+  "email": "info@charmenchicpisa.it",
+  "sitoUrl": "https://charmenchicpisa.it/",
+  "indirizzo": "Via Garibaldi, 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "pi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://charmenchicpisa.it/",
+   "https://charmenchicpisa.it/chi-siamo/",
+   "https://charmenchicpisa.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

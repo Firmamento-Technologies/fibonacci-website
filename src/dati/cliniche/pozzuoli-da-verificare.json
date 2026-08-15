@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "salondebeauteofficial.it",
+  "nome": "Centro Estetico Pozzuoli e Arco Felice",
+  "formaSocietaria": "",
+  "partitaIva": "09560161219",
+  "telefono": "+3908118494851",
+  "email": "info@salondebeauteofficial.it",
+  "sitoUrl": "https://salondebeauteofficial.it/",
+  "indirizzo": "Via Raimondo Annecchino 95",
+  "cap": "80078",
+  "comune": "Pozzuoli",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://salondebeauteofficial.it/",
+   "https://salondebeauteofficial.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ }
+]

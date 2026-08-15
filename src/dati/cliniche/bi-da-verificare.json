@@ -1,0 +1,63 @@
+[
+ {
+  "dominio": "istitutoesteticoliriopebiella.com",
+  "nome": "Istituto Liriope",
+  "formaSocietaria": "",
+  "partitaIva": "02725570028",
+  "telefono": "+3901522652",
+  "email": "",
+  "sitoUrl": "https://istitutoesteticoliriopebiella.com/",
+  "indirizzo": "Via Gramsci, 9",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://istitutoesteticoliriopebiella.com/",
+   "https://istitutoesteticoliriopebiella.com/contatti/",
+   "https://istitutoesteticoliriopebiella.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "it.linkedin.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "newsbiella.it",
+  "nome": "Newsbiella.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.newsbiella.it/",
+  "indirizzo": "via Navellana: base d’asta 61",
+  "cap": "",
+  "comune": "",
+  "provincia": "bi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.newsbiella.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

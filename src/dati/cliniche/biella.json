@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "studiomedicodecandia.it",
+  "nome": "Dott.ssa Cinzia De Candia",
+  "formaSocietaria": "",
+  "partitaIva": "01784540021",
+  "telefono": "",
+  "email": "segreteria@studiomedicodecandia.it",
+  "sitoUrl": "https://www.studiomedicodecandia.it/",
+  "indirizzo": "Via Milano 125",
+  "cap": "13856",
+  "comune": "Vigliano",
+  "provincia": "biella",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiomedicodecandia.it/",
+   "https://www.studiomedicodecandia.it/contatti/",
+   "https://www.studiomedicodecandia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,60 @@
+[
+ {
+  "dominio": "clinicatruccolo.it",
+  "nome": "Chirurgia Estetica Treviso",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05425220281",
+  "telefono": "",
+  "email": "info@clinicatruccolo.it",
+  "sitoUrl": "https://www.clinicatruccolo.it/",
+  "indirizzo": "Via Silvio Pellico 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "treviso",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.clinicatruccolo.it/",
+   "https://www.clinicatruccolo.it/contattaci/",
+   "https://www.clinicatruccolo.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "m2clinic.it",
+  "nome": "M2 Clinic Centro Medico Treviso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3904221342402",
+  "email": "segreteria@m2clinic.it",
+  "sitoUrl": "https://m2clinic.it/",
+  "indirizzo": "Via Monfenera 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "treviso",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://m2clinic.it/",
+   "https://m2clinic.it/contatti/",
+   "https://m2clinic.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

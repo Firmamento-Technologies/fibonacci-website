@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "centroesteticocatia.it",
+  "nome": "Centro estetico a dalmine",
+  "formaSocietaria": "",
+  "partitaIva": "01479530162",
+  "telefono": "+39035502655",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticocatia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "dalmine",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticocatia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "svetlaestetica.com",
+  "nome": "Svetla Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393935026350",
+  "email": "",
+  "sitoUrl": "https://www.svetlaestetica.com/",
+  "indirizzo": "Viale Natale Betelli, 51",
+  "cap": "24044",
+  "comune": "Dalmine",
+  "provincia": "dalmine",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.svetlaestetica.com/",
+   "https://www.svetlaestetica.com/chi-siamo",
+   "https://www.svetlaestetica.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

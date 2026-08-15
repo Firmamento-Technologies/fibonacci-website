@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "studimedicivillafrancaverona.it",
+  "nome": "Studi Medici Villafranca",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02808870238",
+  "telefono": "+390456301211",
+  "email": "info@studimedicivillafrancaverona.it",
+  "sitoUrl": "https://studimedicivillafrancaverona.it/",
+  "indirizzo": "Via Trieste 6",
+  "cap": "",
+  "comune": "",
+  "provincia": "villafranca-di-verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studimedicivillafrancaverona.it/",
+   "https://studimedicivillafrancaverona.it/contatti",
+   "https://studimedicivillafrancaverona.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "dominio": "dorianaapruzzi.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "laperlabianca.it",
+  "nome": "Centro Estetico \"La Perla Bianca\"di Ostuni (BR)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908311626649",
+  "email": "info@laperlabianca.it",
+  "sitoUrl": "https://laperlabianca.it/",
+  "indirizzo": "Via Armando Diaz nr. 38",
+  "cap": "72017",
+  "comune": "Ostuni",
+  "provincia": "ostuni",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://laperlabianca.it/",
+   "https://laperlabianca.it/CONTATTI"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

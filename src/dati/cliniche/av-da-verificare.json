@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "medesteticaskinlab.it",
+  "nome": "MedEstetica Avellino",
+  "formaSocietaria": "",
+  "partitaIva": "03243380643",
+  "telefono": "+390825451279",
+  "email": "",
+  "sitoUrl": "https://www.medesteticaskinlab.it/",
+  "indirizzo": "Via Partenio, 31",
+  "cap": "",
+  "comune": "",
+  "provincia": "av",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medesteticaskinlab.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "villaesther.com",
+  "nome": "Villa Esther Avellino -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390825772111",
+  "email": "info@villaesther.com",
+  "sitoUrl": "https://www.villaesther.com/",
+  "indirizzo": "Via Due Principati, 169",
+  "cap": "",
+  "comune": "",
+  "provincia": "av",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villaesther.com/",
+   "https://www.villaesther.com/informazioni-e-contatti-villa-esther-avellino/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

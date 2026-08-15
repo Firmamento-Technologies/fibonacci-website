@@ -1,0 +1,30 @@
+[
+ {
+  "dominio": "antonellarastellobeauty.it",
+  "nome": "Antonella Rastello Beauty",
+  "formaSocietaria": "",
+  "partitaIva": "01377320112",
+  "telefono": "+393428038983",
+  "email": "info@antonellarastellobeauty.it",
+  "sitoUrl": "https://antonellarastellobeauty.it/",
+  "indirizzo": "Via Paverano, 1",
+  "cap": "19123",
+  "comune": "",
+  "provincia": "la-spezia",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://antonellarastellobeauty.it/",
+   "https://antonellarastellobeauty.it/index.php/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,129 @@
+[
+ {
+  "dominio": "centromedicoesteticonarciso.it",
+  "nome": "centromedicoesteticonarciso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centromedicoesteticonarciso.it",
+  "sitoUrl": "https://www.centromedicoesteticonarciso.it/",
+  "indirizzo": "P.zza P. Bona, 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "cerignola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoesteticonarciso.it/",
+   "https://www.centromedicoesteticonarciso.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicovis.it",
+  "nome": "Centro Medico VIS Cerignola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centromedicovis.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cerignola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centromedicovis.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "isidepoliambulatorio.it",
+  "nome": "Poliambulatorio Iside a Cerignola",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04449410713",
+  "telefono": "+390885850934",
+  "email": "",
+  "sitoUrl": "https://www.isidepoliambulatorio.it/",
+  "indirizzo": "P.zza Madre Teresa di Calcutta 8",
+  "cap": "71042",
+  "comune": "Cerignola",
+  "provincia": "cerignola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.isidepoliambulatorio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "saveriofania.it",
+  "nome": "Dott. Saverio Fania",
+  "formaSocietaria": "",
+  "partitaIva": "03806420711",
+  "telefono": "+393519237495",
+  "email": "info@saveriofania.it",
+  "sitoUrl": "https://www.saveriofania.it/",
+  "indirizzo": "Piazza Madre Teresa di Calcutta, 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "cerignola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Saverio Fania, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.saveriofania.it/",
+   "https://www.saveriofania.it/contatti/",
+   "https://www.saveriofania.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Saverio Fania, e il dominio lo ripete"
+ },
+ {
+  "dominio": "spazioestetica.it",
+  "nome": "Spazio Estetica - Gli Specialisti dell'Estetica Risolutiva",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.spazioestetica.it/",
+  "indirizzo": "Via Nocera Umbra, 21",
+  "cap": "00181",
+  "comune": "Roma",
+  "provincia": "cerignola",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.spazioestetica.it/",
+   "https://www.spazioestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "bellezzaesteticaparma.it",
+  "nome": "Bellezza Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393914991896",
+  "email": "",
+  "sitoUrl": "https://www.bellezzaesteticaparma.it/",
+  "indirizzo": "",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "parma",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.bellezzaesteticaparma.it/",
+   "https://www.bellezzaesteticaparma.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drzchirurgiaestetica.it",
+  "nome": "Chirurgia Plastica Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "10137230966",
+  "telefono": "+393498213116",
+  "email": "",
+  "sitoUrl": "https://www.drzchirurgiaestetica.it/",
+  "indirizzo": "Via Cerva 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "parma",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.drzchirurgiaestetica.it/",
+   "https://www.drzchirurgiaestetica.it/contatti",
+   "https://www.drzchirurgiaestetica.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorio.medlavitalia.it",
+  "nome": "Poliambulatorio Medlavitalia",
+  "formaSocietaria": "",
+  "partitaIva": "02513020343",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://poliambulatorio.medlavitalia.it/",
+  "indirizzo": "Via Emilia Ovest 42",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "parma",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://poliambulatorio.medlavitalia.it/",
+   "https://poliambulatorio.medlavitalia.it/contatti/",
+   "https://poliambulatorio.medlavitalia.it/wp-content/uploads/2023/07/informativa_form_contatto-art_13_15062023.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

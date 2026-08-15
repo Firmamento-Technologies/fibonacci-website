@@ -1,0 +1,88 @@
+[
+ {
+  "dominio": "micenter.it",
+  "nome": "micenter.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.micenter.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "an",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.micenter.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiobrunettiferroni.it",
+  "nome": "Studio Dentistico Ancona",
+  "formaSocietaria": "",
+  "partitaIva": "02069950422",
+  "telefono": "+3907157233",
+  "email": "info@studiobrunettiferroni.it",
+  "sitoUrl": "https://studiobrunettiferroni.it/",
+  "indirizzo": "Piazza Roma, 7",
+  "cap": "60121",
+  "comune": "Ancona",
+  "provincia": "an",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiobrunettiferroni.it/",
+   "https://studiobrunettiferroni.it/contatti/",
+   "https://studiobrunettiferroni.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiofracassi.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiotoppetti.it",
+  "nome": "Studio Odontoiatrico Toppetti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiotoppetti.it",
+  "sitoUrl": "https://studiotoppetti.it/",
+  "indirizzo": "Piazza Venezia, 11",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "an",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiotoppetti.it/",
+   "https://studiotoppetti.it/dentista-ancona-dove-siamo/",
+   "https://studiotoppetti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

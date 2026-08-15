@@ -1,0 +1,141 @@
+[
+ {
+  "dominio": "benessereanael.it",
+  "nome": "Centro Estetico Afragola",
+  "formaSocietaria": "",
+  "partitaIva": "08331451214",
+  "telefono": "+393452234839",
+  "email": "",
+  "sitoUrl": "https://benessereanael.it/",
+  "indirizzo": "Via Don Giovanni Bosco, n.10",
+  "cap": "80021",
+  "comune": "Afragola",
+  "provincia": "afragola",
+  "prestazioni": [
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://benessereanael.it/",
+   "https://benessereanael.it/chi-siamo/",
+   "https://benessereanael.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "larampa.news",
+  "nome": "LaRampa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.larampa.news/",
+  "indirizzo": "via Berlinguer: blitz della Polizia Locale 14",
+  "cap": "81031",
+  "comune": "Tipologia",
+  "provincia": "afragola",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.larampa.news/",
+   "https://www.larampa.news/contatti/",
+   "https://www.larampa.news/privacy-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mamicle.it",
+  "nome": "Centro Estetico Afragola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@mamicle.it",
+  "sitoUrl": "https://mamicle.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "afragola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://mamicle.it/",
+   "https://mamicle.it/chi-siamo/",
+   "https://mamicle.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "minformo.com",
+  "nome": "Minformo.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@minformo.com",
+  "sitoUrl": "https://www.minformo.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "afragola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.minformo.com/",
+   "https://www.minformo.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nusma.it",
+  "nome": "Nusma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393792654785",
+  "email": "",
+  "sitoUrl": "https://www.nusma.it/",
+  "indirizzo": "Via Salvator Rosa, 17",
+  "cap": "80021",
+  "comune": "Afragola",
+  "provincia": "afragola",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nusma.it/",
+   "https://www.nusma.it/chi-siamo-nusma/",
+   "https://www.nusma.it/chi-siamo-nusma/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

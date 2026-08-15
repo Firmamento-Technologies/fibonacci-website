@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "poliambulatorioschio.it",
+  "nome": "Poliambulatorio SS. Trinità",
+  "formaSocietaria": "",
+  "partitaIva": "03748300245",
+  "telefono": "+3904451857100",
+  "email": "info@poliambulatorioschio.it",
+  "sitoUrl": "https://www.poliambulatorioschio.it/",
+  "indirizzo": "Via Santa Bernadette Soubirous 1",
+  "cap": "36015",
+  "comune": "Schio",
+  "provincia": "schio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatorioschio.it/",
+   "https://www.poliambulatorioschio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

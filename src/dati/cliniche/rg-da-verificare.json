@@ -1,0 +1,138 @@
+[
+ {
+  "dominio": "aureaesteticaebenessere.it",
+  "nome": "Aurea",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://aureaesteticaebenessere.it/",
+  "indirizzo": "Via Giulio Pastore s.n. 97100",
+  "cap": "97100",
+  "comune": "Ragusa",
+  "provincia": "rg",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aureaesteticaebenessere.it/",
+   "https://aureaesteticaebenessere.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirurgiaesteticaragusa.it",
+  "nome": "Chirurgia Estetica Ragusa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393471835300",
+  "email": "info@chirurgiaesteticaragusa.it",
+  "sitoUrl": "https://www.chirurgiaesteticaragusa.it/",
+  "indirizzo": "Via Antonello Da Messina, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "rg",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticaragusa.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fontedibenessere.com",
+  "nome": "Centro Estetico Ragusa • Fonte di Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "01002810883",
+  "telefono": "",
+  "email": "info@fontedibenessere.com.",
+  "sitoUrl": "https://www.fontedibenessere.com/",
+  "indirizzo": "Via Francesca Morvillo, 3",
+  "cap": "97100",
+  "comune": "Ragusa",
+  "provincia": "rg",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fontedibenessere.com/",
+   "https://www.fontedibenessere.com/contatti-e-dove-siamo/",
+   "https://www.fontedibenessere.com/informativa-sulla-privacy-sui-cookie/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "omceopo.org",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Pra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@omceopo.org",
+  "sitoUrl": "https://www.omceopo.org/",
+  "indirizzo": "Via Viareggio, 10",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "rg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.omceopo.org/",
+   "https://www.omceopo.org/contatti-2/",
+   "https://www.omceopo.org/informativa-privacy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sinergiecentroesteticoragusa.com",
+  "nome": "sinergiecentroesteticoragusa.com",
+  "formaSocietaria": "",
+  "partitaIva": "01718950882",
+  "telefono": "+393516822021",
+  "email": "",
+  "sitoUrl": "https://www.sinergiecentroesteticoragusa.com/",
+  "indirizzo": "Via Diodoro Siculo, 23",
+  "cap": "97100",
+  "comune": "RAGUSA",
+  "provincia": "rg",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sinergiecentroesteticoragusa.com/",
+   "https://www.sinergiecentroesteticoragusa.com/contattifae304a3"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

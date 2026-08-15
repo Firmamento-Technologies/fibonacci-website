@@ -1,0 +1,53 @@
+[
+ {
+  "dominio": "elisirlabcentroestetico.com",
+  "nome": "Estetica avanzata viso e corpo a Legnano (MI)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393516553999",
+  "email": "info@elisirlab.com",
+  "sitoUrl": "https://www.elisirlabcentroestetico.com/",
+  "indirizzo": "Via Firenze 1",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.elisirlabcentroestetico.com/",
+   "https://www.elisirlabcentroestetico.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "locale.infobel.it",
+  "nome": "Elenco delle aziende locali del Italia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://locale.infobel.it/",
+  "indirizzo": "Via Giovanni Battista Fardella 259",
+  "cap": "91100",
+  "comune": "Trapani",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://locale.infobel.it/",
+   "https://locale.infobel.it/153/lenti_a_contatto/index_1.htm",
+   "https://locale.infobel.it/Landing/About"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

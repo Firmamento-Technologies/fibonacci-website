@@ -1,0 +1,28 @@
+[
+ {
+  "dominio": "dentistacaltanissetta.org",
+  "nome": "Dentista Caltanissetta",
+  "formaSocietaria": "",
+  "partitaIva": "02097270850",
+  "telefono": "+393881153499",
+  "email": "",
+  "sitoUrl": "https://dentistacaltanissetta.org/",
+  "indirizzo": "Viale Stefano Candura 20",
+  "cap": "93100",
+  "comune": "Caltanissetta",
+  "provincia": "caltanissetta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://dentistacaltanissetta.org/",
+   "https://dentistacaltanissetta.org/about/",
+   "https://dentistacaltanissetta.org/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

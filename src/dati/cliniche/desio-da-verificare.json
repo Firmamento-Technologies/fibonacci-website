@@ -1,0 +1,86 @@
+[
+ {
+  "dominio": "chirurgiaplasticadesio.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "estetikafc.it",
+  "nome": "Centro Estetico Di Katia Falliti",
+  "formaSocietaria": "",
+  "partitaIva": "09719640964",
+  "telefono": "+390362622678",
+  "email": "",
+  "sitoUrl": "https://estetikafc.it/",
+  "indirizzo": "Via Armando Diaz 28",
+  "cap": "20832",
+  "comune": "Desio",
+  "provincia": "desio",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://estetikafc.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "inpuntadipiedidesio.it",
+  "nome": "Centro Estetico a Desio (MB)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393925092219",
+  "email": "",
+  "sitoUrl": "https://inpuntadipiedidesio.it/",
+  "indirizzo": "Corso Italia n° 111",
+  "cap": "20832",
+  "comune": "Desio",
+  "provincia": "desio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://inpuntadipiedidesio.it/",
+   "https://inpuntadipiedidesio.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioesteticodesio.it",
+  "nome": "Trattamenti di Bellezza e Benessere a Desio",
+  "formaSocietaria": "",
+  "partitaIva": "10465550969",
+  "telefono": "+393515583881",
+  "email": "",
+  "sitoUrl": "https://www.studioesteticodesio.it/",
+  "indirizzo": "Via Giovanni Maria Lampugnani, 25",
+  "cap": "20832",
+  "comune": "Desio",
+  "provincia": "desio",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioesteticodesio.it/",
+   "https://www.studioesteticodesio.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

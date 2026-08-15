@@ -1,0 +1,27 @@
+[
+ {
+  "dominio": "centromedis.it",
+  "nome": "Medìs",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02508200900",
+  "telefono": "+39079270753",
+  "email": "info@centromedis.it",
+  "sitoUrl": "https://centromedis.it/",
+  "indirizzo": "Via Torino n.4",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "sassari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://centromedis.it/",
+   "https://centromedis.it/contatti.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

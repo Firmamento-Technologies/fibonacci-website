@@ -1,0 +1,87 @@
+[
+ {
+  "dominio": "labeautiquestetica.it",
+  "nome": "Centro di estetica avanzata Pinerolo",
+  "formaSocietaria": "",
+  "partitaIva": "11258810016",
+  "telefono": "+390121202225",
+  "email": "info@labeautiquestetica.it",
+  "sitoUrl": "https://labeautiquestetica.it/",
+  "indirizzo": "Via Nazionale, 84",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://labeautiquestetica.it/",
+   "https://labeautiquestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studioesteticolife.it",
+  "nome": "Centro benessere",
+  "formaSocietaria": "",
+  "partitaIva": "10420950015",
+  "telefono": "+390121480031",
+  "email": "",
+  "sitoUrl": "https://www.studioesteticolife.it/",
+  "indirizzo": "Corso Torino, 61",
+  "cap": "10064",
+  "comune": "PINEROLO",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioesteticolife.it/",
+   "https://www.studioesteticolife.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoaurorapinerolo.it",
+  "nome": "studiomedicoaurorapinerolo.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390121794600",
+  "email": "",
+  "sitoUrl": "https://studiomedicoaurorapinerolo.it/",
+  "indirizzo": "Via Bignone, 85",
+  "cap": "10064",
+  "comune": "Pinerolo",
+  "provincia": "pinerolo",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicoaurorapinerolo.it/",
+   "https://studiomedicoaurorapinerolo.it/chi-siamo",
+   "https://studiomedicoaurorapinerolo.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

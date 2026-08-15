@@ -1,0 +1,111 @@
+[
+ {
+  "dominio": "centrodentaledigitale.it",
+  "nome": "Studio Dentistico Bologna Modena",
+  "formaSocietaria": "",
+  "partitaIva": "03678491204",
+  "telefono": "+393703524046",
+  "email": "",
+  "sitoUrl": "https://www.centrodentaledigitale.it/",
+  "indirizzo": "via Enrico de Nicola 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrodentaledigitale.it/",
+   "https://www.centrodentaledigitale.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "claudioblessent.com",
+  "nome": "Chirurgo plastico a Modena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://claudioblessent.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://claudioblessent.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "clinicacantoni.com",
+  "nome": "Clinica Cantoni Modena",
+  "formaSocietaria": "",
+  "partitaIva": "03928660368",
+  "telefono": "+390598630228",
+  "email": "",
+  "sitoUrl": "https://www.clinicacantoni.com/",
+  "indirizzo": "Via Pietro Giardini, 375",
+  "cap": "41124",
+  "comune": "Modena",
+  "provincia": "mo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicacantoni.com/",
+   "https://www.clinicacantoni.com/contatti/",
+   "https://www.clinicacantoni.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodentisticoaspiro.com",
+  "nome": "Dentista a Modena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39059372188",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticoaspiro.com/",
+  "indirizzo": "Via Pelusia, 140",
+  "cap": "41122",
+  "comune": "MODENA",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticoaspiro.com/",
+   "https://www.studiodentisticoaspiro.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

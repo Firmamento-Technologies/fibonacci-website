@@ -1,0 +1,97 @@
+[
+ {
+  "dominio": "axeldental.it",
+  "nome": "Studio Medico Odontoriatrico a Sondrio",
+  "formaSocietaria": "",
+  "partitaIva": "00783580145",
+  "telefono": "+390342511363",
+  "email": "info@axeldental.it",
+  "sitoUrl": "https://www.axeldental.it/",
+  "indirizzo": "via Stelvio 30",
+  "cap": "23100",
+  "comune": "Sondrio",
+  "provincia": "sondrio",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.axeldental.it/",
+   "https://www.axeldental.it/chi-siamo/",
+   "https://www.axeldental.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gaetanomusumarra.it",
+  "nome": "Dott. Gaetano Musumarra",
+  "formaSocietaria": "",
+  "partitaIva": "06545880962",
+  "telefono": "+393315490173",
+  "email": "",
+  "sitoUrl": "https://www.gaetanomusumarra.it/",
+  "indirizzo": "Via Pellegrino Rossi, 96",
+  "cap": "20161",
+  "comune": "Milano",
+  "provincia": "sondrio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gaetano Musumarra, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.gaetanomusumarra.it/",
+   "https://www.gaetanomusumarra.it/contatti/",
+   "https://www.gaetanomusumarra.it/informativa-privacy-gdpr/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gaetano Musumarra, e il dominio lo ripete"
+ },
+ {
+  "dominio": "laclinica.eu",
+  "nome": "LaClinica.eu",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@laclinica.eu",
+  "sitoUrl": "https://www.laclinica.eu/",
+  "indirizzo": "Viale Monza 258",
+  "cap": "20128",
+  "comune": "Milano",
+  "provincia": "sondrio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.laclinica.eu/",
+   "https://www.laclinica.eu/contatti/",
+   "https://www.laclinica.eu/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "dominio": "studiodom.it",
+  "nome": "Studio DOM",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393928329750",
+  "email": "",
+  "sitoUrl": "https://studiodom.it/",
+  "indirizzo": "Viale Pietro Pietramellara 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "conegliano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodom.it/",
+   "https://studiodom.it/chi-siamo/",
+   "https://studiodom.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiosamo.it",
+  "nome": "studiosamo.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiosamo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "conegliano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiosamo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiosicor.it",
+  "nome": "Studio dentistico Torino",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07413500013",
+  "telefono": "+390110467000",
+  "email": "info@studiosicor.it",
+  "sitoUrl": "https://studiosicor.it/",
+  "indirizzo": "Corso Sicilia, 51",
+  "cap": "10133",
+  "comune": "Torino",
+  "provincia": "conegliano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiosicor.it/",
+   "https://studiosicor.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "zulianidermatologotreviso.com",
+  "nome": "Dermatologo a Conegliano",
+  "formaSocietaria": "",
+  "partitaIva": "01778260263",
+  "telefono": "+39043822485",
+  "email": "info@zuliani.eu",
+  "sitoUrl": "https://www.zulianidermatologotreviso.com/",
+  "indirizzo": "Via Cesare Battisti, 5",
+  "cap": "31015",
+  "comune": "Conegliano",
+  "provincia": "conegliano",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.zulianidermatologotreviso.com/",
+   "https://www.zulianidermatologotreviso.com/contatti/",
+   "https://www.zulianidermatologotreviso.com/contatti/conegliano/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

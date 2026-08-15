@@ -1,0 +1,90 @@
+[
+ {
+  "dominio": "ambulatorisanbiagio.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "astfm.marche.it",
+  "nome": "AST Fermo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.astfm.marche.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.astfm.marche.it/it"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticosamsara.com",
+  "nome": "Samsara Centro Estetico Monte Urano Fermo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centroesteticosamsara.com",
+  "sitoUrl": "https://www.centroesteticosamsara.com/",
+  "indirizzo": "Via Marco Polo, 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticosamsara.com/",
+   "https://www.centroesteticosamsara.com/chi-siamo/",
+   "https://www.centroesteticosamsara.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriosanfermo.it",
+  "nome": "Poliambulatorio San Fermo",
+  "formaSocietaria": "",
+  "partitaIva": "01209500287",
+  "telefono": "+3904294347",
+  "email": "info@poliambulatoriosanfermo.it",
+  "sitoUrl": "https://www.poliambulatoriosanfermo.it/",
+  "indirizzo": "Via S.Fermo 17",
+  "cap": "35042",
+  "comune": "Este",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriosanfermo.it/",
+   "https://www.poliambulatoriosanfermo.it/chi-siamo/",
+   "https://www.poliambulatoriosanfermo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studioesteticomedico.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ }
+]

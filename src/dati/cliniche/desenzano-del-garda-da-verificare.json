@@ -1,0 +1,12 @@
+[
+ {
+  "dominio": "asst-garda.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "chirestetica.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ }
+]

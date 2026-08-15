@@ -1,0 +1,198 @@
+[
+ {
+  "dominio": "a-medic.it",
+  "nome": "A-Medic",
+  "formaSocietaria": "SAS",
+  "partitaIva": "04566970408",
+  "telefono": "+3905471795010",
+  "email": "info@a-medic.it",
+  "sitoUrl": "https://www.a-medic.it/",
+  "indirizzo": "Via Veneto, 27",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.a-medic.it/",
+   "https://www.a-medic.it/contatti/",
+   "https://www.a-medic.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "bellocchioweb.it",
+  "nome": "Studio Bellocchio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bellocchioweb.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Bellocchio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.bellocchioweb.it/",
+   "https://www.bellocchioweb.it/contatti",
+   "https://www.bellocchioweb.it/chi-sono"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drlaurarossini.com",
+  "nome": "Medicina estetica trattamenti viso e corpo",
+  "formaSocietaria": "",
+  "partitaIva": "04343410405",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://drlaurarossini.com/",
+  "indirizzo": "Via Renato Serra, 2",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Laura Rossini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://drlaurarossini.com/",
+   "https://drlaurarossini.com/contatti.html",
+   "https://drlaurarossini.com/policy-privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "evoluzionestetika.it",
+  "nome": "Centro Estetico Cesena • Evoluzionestetika",
+  "formaSocietaria": "",
+  "partitaIva": "04436210407",
+  "telefono": "+393479508325",
+  "email": "",
+  "sitoUrl": "https://evoluzionestetika.it/",
+  "indirizzo": "Via Carlo Cattaneo, 438",
+  "cap": "47522",
+  "comune": "CESENA",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://evoluzionestetika.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "leau.it",
+  "nome": "L’EAU",
+  "formaSocietaria": "",
+  "partitaIva": "03229210400",
+  "telefono": "",
+  "email": "info@leau.it",
+  "sitoUrl": "https://www.leau.it/",
+  "indirizzo": "Via Chiesa di S. Egidio, 135",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.leau.it/",
+   "https://www.leau.it/chi-siamo-il-nostro-team-e-il-cuore-del-nostro-lavoro/",
+   "https://www.leau.it/cookies-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lucamorellini.it",
+  "nome": "Dr. Luca Morellini: Direttore Sanitario Poliambulatorio Esculapio Cese",
+  "formaSocietaria": "",
+  "partitaIva": "03528630407",
+  "telefono": "+39054727534",
+  "email": "info@poliambulatorioesculapio.com",
+  "sitoUrl": "https://www.lucamorellini.it/",
+  "indirizzo": "Piazzale Gennaro Biguzzi 20",
+  "cap": "27534",
+  "comune": "",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luca Morellini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.lucamorellini.it/",
+   "https://www.lucamorellini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Morellini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "marinellasavini.it",
+  "nome": "Marinella Dottoressa Savini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39054325160",
+  "email": "",
+  "sitoUrl": "https://www.marinellasavini.it/",
+  "indirizzo": "via Milani, 22",
+  "cap": "25160",
+  "comune": "",
+  "provincia": "cesena",
+  "prestazioni": [
+   "Biostimolazione",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marinella Savini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.marinellasavini.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marinella Savini, e il dominio lo ripete"
+ }
+]

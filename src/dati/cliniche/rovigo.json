@@ -1,0 +1,106 @@
+[
+ {
+  "dominio": "clinicadrm.it",
+  "nome": "Clinica Odontoiatrica DRM",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390415286535",
+  "email": "info@clinicadrm.it",
+  "sitoUrl": "https://www.clinicadrm.it/",
+  "indirizzo": "Via Peppino Impastato, 20",
+  "cap": "35028",
+  "comune": "Piove",
+  "provincia": "rovigo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicadrm.it/",
+   "https://www.clinicadrm.it/chi-siamo/",
+   "https://www.clinicadrm.it/sedi-cliniche-drm/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicaportoviro.com",
+  "nome": "Medica Porto Viro e Taglio di Po",
+  "formaSocietaria": "SNC",
+  "partitaIva": "01365930294",
+  "telefono": "+390426321070",
+  "email": "amministrazione@gruppomas.com",
+  "sitoUrl": "https://www.medicaportoviro.com/",
+  "indirizzo": "Via Kennedy 84",
+  "cap": "45019",
+  "comune": "Taglio",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medicaportoviro.com/",
+   "https://www.medicaportoviro.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticobertolini.com",
+  "nome": "Studio Bertolini STP",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3904251680170",
+  "email": "segreteria@studiobertolini-rovigo.it",
+  "sitoUrl": "https://www.studiodentisticobertolini.com/",
+  "indirizzo": "Via Pietro Micca, 2",
+  "cap": "45100",
+  "comune": "Rovigo",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Bertolini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticobertolini.com/",
+   "https://www.studiodentisticobertolini.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "womanclinic.it",
+  "nome": "Poliambulatorio",
+  "formaSocietaria": "",
+  "partitaIva": "05243160289",
+  "telefono": "+390444211075",
+  "email": "info.vicenza@womanclinic.it",
+  "sitoUrl": "https://www.womanclinic.it/",
+  "indirizzo": "Via Lussemburgo, 33",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "rovigo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.womanclinic.it/",
+   "https://www.womanclinic.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

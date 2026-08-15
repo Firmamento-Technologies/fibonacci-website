@@ -1,0 +1,114 @@
+[
+ {
+  "dominio": "centrodama.com",
+  "nome": "Centro Estetico Da.Ma.",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390818074279",
+  "email": "",
+  "sitoUrl": "https://www.centrodama.com/",
+  "indirizzo": "Via Cesarano, 37",
+  "cap": "80067",
+  "comune": "Sorrento",
+  "provincia": "sorrento",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrodama.com/",
+   "https://www.centrodama.com/about-us/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologoserenrosso.com",
+  "nome": "dermatologoserenrosso.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "studio@dermatologoserenrosso.com",
+  "sitoUrl": "https://www.dermatologoserenrosso.com/",
+  "indirizzo": "",
+  "cap": "10139",
+  "comune": "Torino",
+  "provincia": "sorrento",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologoserenrosso.com/",
+   "https://www.dermatologoserenrosso.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "habibisorrento.it",
+  "nome": "Habibi Beauty & Hammam Sorrento",
+  "formaSocietaria": "",
+  "partitaIva": "10020541214",
+  "telefono": "+3908117614718",
+  "email": "info@habibisorrento.it",
+  "sitoUrl": "https://www.habibisorrento.it/it/",
+  "indirizzo": "Viale Nizza, 69",
+  "cap": "80067",
+  "comune": "Sorrento",
+  "provincia": "sorrento",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.habibisorrento.it/it/",
+   "https://www.habibisorrento.it/it/info-contatti",
+   "https://www.habibisorrento.it/it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "spaulysse.it",
+  "nome": "spa sorrento",
+  "formaSocietaria": "",
+  "partitaIva": "06457991211",
+  "telefono": "",
+  "email": "info@spaulysse.it",
+  "sitoUrl": "https://www.spaulysse.it/",
+  "indirizzo": "Via del Mare, 22",
+  "cap": "80067",
+  "comune": "Sorrento",
+  "provincia": "sorrento",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.spaulysse.it/",
+   "https://www.spaulysse.it/it/dove-siamo",
+   "https://www.spaulysse.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

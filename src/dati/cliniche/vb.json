@@ -1,0 +1,156 @@
+[
+ {
+  "dominio": "b-24.it",
+  "nome": "Beauty 24 - Centro Estetico, Benessere e parrucchiere a Verbania",
+  "formaSocietaria": "",
+  "partitaIva": "12004520156",
+  "telefono": "+390323557827",
+  "email": "info@b-24.it",
+  "sitoUrl": "https://b-24.it/",
+  "indirizzo": "Corso Europa, 62",
+  "cap": "28922",
+  "comune": "Verbania",
+  "provincia": "vb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://b-24.it/",
+   "https://b-24.it/contatti/",
+   "https://b-24.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottelsharkawy.com",
+  "nome": "Medicina Estetica a Verbania, Dott. Elsharkawy Waleed",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393421232000",
+  "email": "",
+  "sitoUrl": "https://www.dottelsharkawy.com/",
+  "indirizzo": "Corso Lorenzo Cobianchi 62",
+  "cap": "28921",
+  "comune": "VB",
+  "provincia": "vb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Elsharkawy Waleed, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottelsharkawy.com/",
+   "https://www.dottelsharkawy.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottelsharkawy.it",
+  "nome": "Dr. Waleed Elsharkawy",
+  "formaSocietaria": "",
+  "partitaIva": "02353540038",
+  "telefono": "+393421232000",
+  "email": "",
+  "sitoUrl": "https://dottelsharkawy.it/",
+  "indirizzo": "Corso Lorenzo Cobianchi, 62",
+  "cap": "28921",
+  "comune": "Verbania",
+  "provincia": "vb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Waleed Elsharkawy, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottelsharkawy.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dvskintherapist.it",
+  "nome": "Centro Estetico DVSkinTherapist di Denise Valle a Verbania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390323401888",
+  "email": "info@dvskintherapist.it",
+  "sitoUrl": "https://dvskintherapist.it/",
+  "indirizzo": "Via Cristoforo Colombo 24a",
+  "cap": "",
+  "comune": "",
+  "provincia": "vb",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dvskintherapist.it/",
+   "https://dvskintherapist.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "stresasalute.com",
+  "nome": "Stresa Salute: Studio dentistico e poliambulatorio",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01779920196",
+  "telefono": "+39032331170",
+  "email": "",
+  "sitoUrl": "https://stresasalute.com/",
+  "indirizzo": "Via Giosuè Carducci 22",
+  "cap": "31170",
+  "comune": "",
+  "provincia": "vb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://stresasalute.com/",
+   "https://stresasalute.com/contatti/",
+   "https://stresasalute.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

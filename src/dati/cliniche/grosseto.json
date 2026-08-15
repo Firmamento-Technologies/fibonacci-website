@@ -1,0 +1,132 @@
+[
+ {
+  "dominio": "centroadda.it",
+  "nome": "Studi Sanitari multidisciplinari a Grosseto",
+  "formaSocietaria": "SAS",
+  "partitaIva": "01689210530",
+  "telefono": "+3905641790669",
+  "email": "",
+  "sitoUrl": "https://centroadda.it/",
+  "indirizzo": "Via Adda, 125",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "grosseto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centroadda.it/",
+   "https://centroadda.it/contatti/",
+   "https://centroadda.it/wp-content/uploads/2022/12/Informativa-Privacy-centro-adda.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrodentisticochisci.it",
+  "nome": "Dentista Grosseto: Centro Dentistico Chisci, prenota ora",
+  "formaSocietaria": "",
+  "partitaIva": "01641380538",
+  "telefono": "+3905641792563",
+  "email": "info@centrodentisticochisci.it",
+  "sitoUrl": "https://centrodentisticochisci.it/",
+  "indirizzo": "via Ricasoli 18",
+  "cap": "58100",
+  "comune": "",
+  "provincia": "grosseto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://centrodentisticochisci.it/",
+   "https://centrodentisticochisci.it/chi-siamo/",
+   "https://centrodentisticochisci.it/chi-siamo/staff/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dietologapaolagallenca.it",
+  "nome": "Dietologa e Nutrizionista Follonica",
+  "formaSocietaria": "",
+  "partitaIva": "01263530535",
+  "telefono": "",
+  "email": "info@dietologapaolagallenca.it",
+  "sitoUrl": "https://www.dietologapaolagallenca.it/",
+  "indirizzo": "via Aurelia 20",
+  "cap": "45125",
+  "comune": "Ambulatori",
+  "provincia": "grosseto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.dietologapaolagallenca.it/",
+   "https://www.dietologapaolagallenca.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticamentegr.it",
+  "nome": "Esteticamente Centro Estetico a Grosseto ~ Estetista professionale",
+  "formaSocietaria": "",
+  "partitaIva": "01560640532",
+  "telefono": "+390564411422",
+  "email": "",
+  "sitoUrl": "https://www.esteticamentegr.it/",
+  "indirizzo": "Via A. Catalani 41",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "grosseto",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticamentegr.it/",
+   "https://www.esteticamentegr.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicalcamp.it",
+  "nome": "Medical Camp Grosseto - Centro medico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01679870533",
+  "telefono": "+393342972482",
+  "email": "",
+  "sitoUrl": "https://medicalcamp.it/",
+  "indirizzo": "Via Monte Rosa 74",
+  "cap": "",
+  "comune": "",
+  "provincia": "grosseto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicalcamp.it/",
+   "https://medicalcamp.it/contatti/",
+   "https://medicalcamp.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

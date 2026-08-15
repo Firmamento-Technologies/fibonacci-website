@@ -1,0 +1,210 @@
+[
+ {
+  "dominio": "esteticamoncalieri.it",
+  "nome": "Estetica avanzata a Moncalieri: innovazioni per la tua bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "06720820015",
+  "telefono": "+390116069830",
+  "email": "",
+  "sitoUrl": "https://esteticamoncalieri.it/",
+  "indirizzo": "Via Sestriere 30",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://esteticamoncalieri.it/",
+   "https://esteticamoncalieri.it/contatti-e-prenotazioni/",
+   "https://esteticamoncalieri.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "hillmed.it",
+  "nome": "Hillmed Poliambulatorio Specialistico Revigliasco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3901118860896",
+  "email": "info@hillmed.it",
+  "sitoUrl": "https://hillmed.it/",
+  "indirizzo": "Via M. Beria, 22",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://hillmed.it/",
+   "https://hillmed.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lotobeautybrand.com",
+  "nome": "Centro estetico Moncalieri",
+  "formaSocietaria": "SNC",
+  "partitaIva": "08552360011",
+  "telefono": "+390116404422",
+  "email": "info@dominio.it",
+  "sitoUrl": "https://www.lotobeautybrand.com/",
+  "indirizzo": "Via Bruno Buozzi 9",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.lotobeautybrand.com/",
+   "https://www.lotobeautybrand.com/contatti/",
+   "https://www.lotobeautybrand.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "magnoliamoncalieri.it",
+  "nome": "Estetica Magnolia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393343624654",
+  "email": "",
+  "sitoUrl": "https://magnoliamoncalieri.it/",
+  "indirizzo": "",
+  "cap": "10024",
+  "comune": "MONCALIERI",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://magnoliamoncalieri.it/",
+   "https://magnoliamoncalieri.it/chi-siamo/",
+   "https://magnoliamoncalieri.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "quintasspa.it",
+  "nome": "QUINTAS SRLS",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "12175190011",
+  "telefono": "+39011377779",
+  "email": "",
+  "sitoUrl": "https://quintasspa.it/",
+  "indirizzo": "via Massimo Montano 3",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://quintasspa.it/",
+   "https://quintasspa.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sorrydent.it",
+  "nome": "Studio dentistico a Moncalieri",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09232440017",
+  "telefono": "+39011645429",
+  "email": "segreteria@sorrydent.it",
+  "sitoUrl": "https://www.sorrydent.it/",
+  "indirizzo": "Via S. Martino, 19",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.sorrydent.it/",
+   "https://www.sorrydent.it/le-sedi",
+   "https://www.sorrydent.it/le-sedi/moncalieri"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "terapeuticenter.com",
+  "nome": "Terapeuticenter",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02693050045",
+  "telefono": "+39017289872",
+  "email": "info@terapeuticenter.com",
+  "sitoUrl": "https://www.terapeuticenter.com/",
+  "indirizzo": "Strada Carmagnola, 68",
+  "cap": "12030",
+  "comune": "Caramagna",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.terapeuticenter.com/",
+   "https://www.terapeuticenter.com/contatti/",
+   "https://www.terapeuticenter.com/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

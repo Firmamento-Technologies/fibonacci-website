@@ -1,0 +1,58 @@
+[
+ {
+  "dominio": "pietroaste.it",
+  "nome": "Dr. Pietro Aste",
+  "formaSocietaria": "",
+  "partitaIva": "02976810925",
+  "telefono": "+393476141156",
+  "email": "",
+  "sitoUrl": "https://www.pietroaste.it/",
+  "indirizzo": "Via Santa Caterina 3",
+  "cap": "09013",
+  "comune": "Carbonia",
+  "provincia": "carbonia",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pietro Aste, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.pietroaste.it/",
+   "https://www.pietroaste.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Aste, e il dominio lo ripete"
+ },
+ {
+  "dominio": "studio-mezzena.it",
+  "nome": "Studio Mezzena Dentista Carbonia",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02537550929",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://studio-mezzena.it/",
+  "indirizzo": "via Costituente 135",
+  "cap": "09013",
+  "comune": "Carbonia",
+  "provincia": "carbonia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Mezzena Silvia, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studio-mezzena.it/",
+   "https://studio-mezzena.it/privacy.html",
+   "https://studio-mezzena.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

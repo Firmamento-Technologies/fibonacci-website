@@ -1,0 +1,31 @@
+[
+ {
+  "dominio": "dermatologoolbia.com",
+  "nome": "Dermatologia pediatrica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393382751580",
+  "email": "",
+  "sitoUrl": "https://www.dermatologoolbia.com/",
+  "indirizzo": "Via Gentileschi 4",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologoolbia.com/",
+   "https://www.dermatologoolbia.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

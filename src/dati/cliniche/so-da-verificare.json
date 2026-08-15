@@ -1,0 +1,113 @@
+[
+ {
+  "dominio": "asst-val.it",
+  "nome": "ASST",
+  "formaSocietaria": "",
+  "partitaIva": "00988090148",
+  "telefono": "+390342521111",
+  "email": "",
+  "sitoUrl": "https://www.asst-val.it/",
+  "indirizzo": "Via Stelvio, 25",
+  "cap": "23100",
+  "comune": "Sondrio",
+  "provincia": "so",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asst-val.it/",
+   "https://www.asst-val.it/contatti/",
+   "https://www.asst-val.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticadoc.it",
+  "nome": "esteticadoc.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticadoc.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "so",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticadoc.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lafenicesondrio.com",
+  "nome": "La Fenice, centro benessere e dermopigmentazione",
+  "formaSocietaria": "",
+  "partitaIva": "01056400144",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lafenicesondrio.com/",
+  "indirizzo": "Largo Sindelfingen, 26",
+  "cap": "23100",
+  "comune": "Sondrio",
+  "provincia": "so",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lafenicesondrio.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mariagraziarosella.it",
+  "nome": "Rosella",
+  "formaSocietaria": "",
+  "partitaIva": "00965170145",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mariagraziarosella.it/",
+  "indirizzo": "Viale Italia 24",
+  "cap": "23037",
+  "comune": "Tirano",
+  "provincia": "so",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mariagraziarosella.it/",
+   "https://www.mariagraziarosella.it/contattaci.html",
+   "https://mariagraziarosella.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "dominio": "centroesteticoneweste.it",
+  "nome": "Centro Estetico New Esté",
+  "formaSocietaria": "",
+  "partitaIva": "01850670629",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoneweste.it/",
+  "indirizzo": "Via S. Massimiliano Kolbe, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "benevento",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticoneweste.it/",
+   "https://www.centroesteticoneweste.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

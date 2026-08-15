@@ -1,0 +1,84 @@
+[
+ {
+  "dominio": "alteaestetica.it",
+  "nome": "Trattamenti di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393205787437",
+  "email": "",
+  "sitoUrl": "https://www.alteaestetica.it/",
+  "indirizzo": "Via Sallustio 37",
+  "cap": "74015",
+  "comune": "Martina",
+  "provincia": "martina-franca",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.alteaestetica.it/",
+   "https://www.alteaestetica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "maps24.it",
+  "nome": "Recensioni e Opinioni sui luoghi in Italia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://maps24.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "martina-franca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://maps24.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "seasonroses.it",
+  "nome": "Season Roses",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390804838745",
+  "email": "info@seasonroses.it",
+  "sitoUrl": "https://seasonroses.it/",
+  "indirizzo": "Via Vincenzo Raguso, 1",
+  "cap": "74015",
+  "comune": "Martina",
+  "provincia": "martina-franca",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://seasonroses.it/",
+   "https://seasonroses.it/chi-siamo/",
+   "https://seasonroses.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

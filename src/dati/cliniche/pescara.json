@@ -1,0 +1,65 @@
+[
+ {
+  "dominio": "clinicare.it",
+  "nome": "Clinicare",
+  "formaSocietaria": "",
+  "partitaIva": "01982780684",
+  "telefono": "+393494062963",
+  "email": "info@clinicare.it",
+  "sitoUrl": "https://www.clinicare.it/",
+  "indirizzo": "Via Quercia Dell’Ompiso, 678",
+  "cap": "",
+  "comune": "",
+  "provincia": "pescara",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicare.it/",
+   "https://www.clinicare.it/contatti/",
+   "https://www.clinicare.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "falmed.it",
+  "nome": "Falmed",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02059420683",
+  "telefono": "+393755308358",
+  "email": "info@falmed.it",
+  "sitoUrl": "https://www.falmed.it/",
+  "indirizzo": "Viale Gabriele D'Annunzio 73",
+  "cap": "65127",
+  "comune": "Pescara",
+  "provincia": "pescara",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.falmed.it/",
+   "https://www.falmed.it/contatti/",
+   "https://www.falmed.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

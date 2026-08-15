@@ -1,0 +1,149 @@
+[
+ {
+  "dominio": "centromedicogaribaldi.it",
+  "nome": "Centro Medico Garibaldi Gattinara Vercelli",
+  "formaSocietaria": "",
+  "partitaIva": "02540600026",
+  "telefono": "+393484513985",
+  "email": "",
+  "sitoUrl": "https://www.centromedicogaribaldi.it/",
+  "indirizzo": "Corso Giuseppe Garibaldi, 81",
+  "cap": "13045",
+  "comune": "Gattinara",
+  "provincia": "vc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicogaribaldi.it/",
+   "https://www.centromedicogaribaldi.it/contatti/",
+   "https://www.centromedicogaribaldi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dottoressa-marianna-tagliabue.it",
+  "nome": "Dottoressa Marianna Tagliabue",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottoressa-marianna-tagliabue.it/",
+  "indirizzo": "Via Monviso 1",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.dottoressa-marianna-tagliabue.it/",
+   "https://www.dottoressa-marianna-tagliabue.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "istitutodibellezzapatrizia.com",
+  "nome": "Istituto Bellezza Patrizia",
+  "formaSocietaria": "",
+  "partitaIva": "01821930029",
+  "telefono": "+393395313344",
+  "email": "",
+  "sitoUrl": "https://istitutodibellezzapatrizia.com/",
+  "indirizzo": "Via Righi, 11",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://istitutodibellezzapatrizia.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "istitutosalus.eu",
+  "nome": "Istituto Salus",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02648910020",
+  "telefono": "+390161433595",
+  "email": "",
+  "sitoUrl": "https://www.istitutosalus.eu/it",
+  "indirizzo": "Via J. Durandi 12",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.istitutosalus.eu/it",
+   "https://www.istitutosalus.eu/it/chi-siamo",
+   "https://www.istitutosalus.eu/it/contatti/vercelli"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skinateliervercelli.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02814830028",
+  "telefono": "+393517272059",
+  "email": "",
+  "sitoUrl": "https://skinateliervercelli.it/",
+  "indirizzo": "Via Luigi Einaudi 28",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://skinateliervercelli.it/",
+   "https://skinateliervercelli.it/chi-siamo/",
+   "https://skinateliervercelli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

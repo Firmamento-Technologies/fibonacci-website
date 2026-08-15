@@ -1,0 +1,842 @@
+[
+ {
+  "dominio": "carlodigregorio.it",
+  "nome": "Carlo Di Gregorio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://carlodigregorio.it/",
+  "indirizzo": "Via Roma 325",
+  "cap": "90133",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://carlodigregorio.it/",
+   "https://carlodigregorio.it/contatti/",
+   "https://carlodigregorio.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centri.epilate.it",
+  "nome": "Negozi Epilate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centri.epilate.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centri.epilate.it/it"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticofc.com",
+  "nome": "Centro Estetico Benessere Trucco semipermanete Depilazione Paderno Fra",
+  "formaSocietaria": "",
+  "partitaIva": "04135730986",
+  "telefono": "+390306577125",
+  "email": "",
+  "sitoUrl": "https://centroesteticofc.com/",
+  "indirizzo": "Via Piave, 6",
+  "cap": "25050",
+  "comune": "Paderno",
+  "provincia": "pa",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://centroesteticofc.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "chirurgiaplasticamarioraso.it",
+  "nome": "Dr. Mario Raso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393392612540",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaplasticamarioraso.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaplasticamarioraso.it/",
+   "https://www.chirurgiaplasticamarioraso.it/contatti/",
+   "https://www.chirurgiaplasticamarioraso.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "claudiapurpura.it",
+  "nome": "Claudia Purpura centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "07270360824",
+  "telefono": "",
+  "email": "contatto@esempio.it",
+  "sitoUrl": "https://www.claudiapurpura.it/",
+  "indirizzo": "Via Giovanni Bonanno, 13",
+  "cap": "90143",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.claudiapurpura.it/",
+   "https://www.claudiapurpura.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "cldmedicinaestetica.it",
+  "nome": "Trattamenti viso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393497430864",
+  "email": "",
+  "sitoUrl": "https://www.cldmedicinaestetica.it/",
+  "indirizzo": "Via Piersanti Mattarella 3",
+  "cap": "90141",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cldmedicinaestetica.it/",
+   "https://www.cldmedicinaestetica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "coolsculptingpalermo.it",
+  "nome": "Coolsculpting Palermo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39091202791",
+  "email": "info@uelbi.it",
+  "sitoUrl": "https://www.coolsculptingpalermo.it/",
+  "indirizzo": "Via delle Alpi 75",
+  "cap": "90144",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.coolsculptingpalermo.it/",
+   "https://www.coolsculptingpalermo.it/contatti/",
+   "https://www.coolsculptingpalermo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cosanlorenzo.it",
+  "nome": "Centro oculistico San Lorenzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@cosanlorenzo.it",
+  "sitoUrl": "https://cosanlorenzo.it/",
+  "indirizzo": "Via Giovan Battista Vaccarini, 1",
+  "cap": "90143",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cosanlorenzo.it/",
+   "https://cosanlorenzo.it/chi-siamo/",
+   "https://cosanlorenzo.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dentalc.it",
+  "nome": "Dental C",
+  "formaSocietaria": "",
+  "partitaIva": "05922090823",
+  "telefono": "+393404630458",
+  "email": "",
+  "sitoUrl": "https://dentalc.it/",
+  "indirizzo": "Via Cristofaro Scobar 22",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dentalc.it/",
+   "https://dentalc.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "docto-24.it",
+  "nome": "Docto24",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://docto-24.it/",
+  "indirizzo": "via Googlebot fetch 2026",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://docto-24.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottoressanataliadigrazia.it",
+  "nome": "Dott.ssa Di Grazia Natalia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottoressanataliadigrazia.it/",
+  "indirizzo": "Via Ricasoli 45",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressanataliadigrazia.it/",
+   "https://www.dottoressanataliadigrazia.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "farmaciaamodeo.it",
+  "nome": "Antica Farmacia Amodeo Palermo Home Page Noleggio carrozzina, farmacia",
+  "formaSocietaria": "",
+  "partitaIva": "03888430828",
+  "telefono": "+39091584662",
+  "email": "info@farmaciaamodeo.it",
+  "sitoUrl": "https://farmaciaamodeo.it/pagine/",
+  "indirizzo": "Via Principe di Scordia 47",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://farmaciaamodeo.it/pagine/",
+   "https://farmaciaamodeo.it/pagine/6-chi-siamo.asp",
+   "https://farmaciaamodeo.it/pagine/8-contatti.asp"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "firmania.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "it.ruli.com",
+  "nome": "Ricerca Procedure Cosmetiche, Trova Medici Affidabili",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://it.ruli.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://it.ruli.com/",
+   "https://it.ruli.com/about-us",
+   "https://it.ruli.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "labomap.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "leraestetica.com",
+  "nome": "Epilazione laser Palermo",
+  "formaSocietaria": "",
+  "partitaIva": "05917280827",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.leraestetica.com/",
+  "indirizzo": "via Domenico Costantino n5",
+  "cap": "90141",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.leraestetica.com/",
+   "https://www.leraestetica.com/contatti-centro-epialzione-laser-palermo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lodatomedicinaestetica.com",
+  "nome": "Dott.ssa Chiara Lo Dato",
+  "formaSocietaria": "",
+  "partitaIva": "06339600824",
+  "telefono": "+390919869182",
+  "email": "",
+  "sitoUrl": "https://www.lodatomedicinaestetica.com/",
+  "indirizzo": "Via Piersanti Mattarella 3",
+  "cap": "90144",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lodatomedicinaestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mcamedical.innovapalermo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "medicinaantiaging.net",
+  "nome": "MEDICINA ANTI AGING",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@istitutomedicoeuropeo.it",
+  "sitoUrl": "https://www.medicinaantiaging.net/",
+  "indirizzo": "Via Ruggero Settimo 55",
+  "cap": "90139",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaantiaging.net/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinaesteticaparabiago.com",
+  "nome": "Ilmiosito",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticaparabiago.com/",
+  "indirizzo": "Via Don. A. Galeazzi 16",
+  "cap": "20015",
+  "comune": "Parabiago",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticaparabiago.com/",
+   "https://www.medicinaesteticaparabiago.com/about-3"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "migliordottore.it",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nonsolodonna.it",
+  "nome": "Centro benessere Palermo",
+  "formaSocietaria": "",
+  "partitaIva": "05458810826",
+  "telefono": "+39091583227",
+  "email": "",
+  "sitoUrl": "https://www.nonsolodonna.it/",
+  "indirizzo": "Via Isidoro La Lumia, 1",
+  "cap": "90139",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nonsolodonna.it/",
+   "https://www.nonsolodonna.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "okbeautystudio.com",
+  "nome": "O&K Beauty Studio",
+  "formaSocietaria": "",
+  "partitaIva": "06661830825",
+  "telefono": "+393272881916",
+  "email": "",
+  "sitoUrl": "https://okbeautystudio.com/",
+  "indirizzo": "Via della Libertà, 127",
+  "cap": "90143",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://okbeautystudio.com/",
+   "https://okbeautystudio.com/chi-siamo/",
+   "https://okbeautystudio.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ordinemedicipa.it",
+  "nome": "- Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di P",
+  "formaSocietaria": "",
+  "partitaIva": "80020350825",
+  "telefono": "+390916710220",
+  "email": "segreteria.pa@pec.omceo.it",
+  "sitoUrl": "https://ordinemedicipa.it/",
+  "indirizzo": "Via Rosario da Partanna 22",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedicipa.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "palermomedicinaestetica.com",
+  "nome": "Inicio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://palermomedicinaestetica.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://palermomedicinaestetica.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "patronpalermo.it",
+  "nome": "Centro Estetico Palermo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393392482298",
+  "email": "",
+  "sitoUrl": "https://www.patronpalermo.it/",
+  "indirizzo": "Via Mariano Stabile 87",
+  "cap": "90139",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.patronpalermo.it/",
+   "https://www.patronpalermo.it/chi-siamo-trattamenti-estetici-palermo",
+   "https://www.patronpalermo.it/contatti-centro-estetico-palermo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "prenotado.it",
+  "nome": "Prenota online il tuo servizio di bellezza con un click",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://prenotado.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://prenotado.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "radiologiacampofelice.it",
+  "nome": "Radiologia Campofelice (Palermo) dr. Giuseppe Spinosa",
+  "formaSocietaria": "",
+  "partitaIva": "03830540823",
+  "telefono": "+390921933040",
+  "email": "",
+  "sitoUrl": "https://radiologiacampofelice.it/",
+  "indirizzo": "Via Umberto I, 20",
+  "cap": "90010",
+  "comune": "Campofelice",
+  "provincia": "pa",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://radiologiacampofelice.it/",
+   "https://radiologiacampofelice.it/contatti/",
+   "https://radiologiacampofelice.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "rinoplasticapalermo.com",
+  "nome": "Rinoplastica Palermo, Chirurgia estetica Naso Palermo, Dottor Agatino ",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@russogiuseppe.it",
+  "sitoUrl": "https://www.rinoplasticapalermo.com/",
+  "indirizzo": "Via Ingegnere, 47",
+  "cap": "95125",
+  "comune": "Catania",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.rinoplasticapalermo.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "robertolamonaca.com",
+  "nome": "Chirurgia Plastica Estetica Palermo Dott Roberto La Monaca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393332163389",
+  "email": "",
+  "sitoUrl": "https://robertolamonaca.com/",
+  "indirizzo": "Via Nunzio Morello 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://robertolamonaca.com/",
+   "https://robertolamonaca.com/chi-siamo",
+   "https://robertolamonaca.com/contatti-dove-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "soluzionesudore.it",
+  "nome": "Soluzione Sudore",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393889960376",
+  "email": "",
+  "sitoUrl": "https://soluzionesudore.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://soluzionesudore.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "tricologopalermo.it",
+  "nome": "tricologopalermo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393337689692",
+  "email": "info@medicisicilia.it",
+  "sitoUrl": "https://www.tricologopalermo.it/",
+  "indirizzo": "Via Alessandro Manzoni, 19",
+  "cap": "90133",
+  "comune": "Palermo",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tricologopalermo.it/",
+   "https://www.tricologopalermo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "vangloy.com",
+  "nome": "Vangloy",
+  "formaSocietaria": "",
+  "partitaIva": "04302491206",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vangloy.com/it/",
+  "indirizzo": "Via Castiglione 81",
+  "cap": "40124",
+  "comune": "Bologna",
+  "provincia": "pa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vangloy.com/it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

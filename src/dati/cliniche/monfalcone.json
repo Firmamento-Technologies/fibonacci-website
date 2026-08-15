@@ -1,0 +1,85 @@
+[
+ {
+  "dominio": "altaesteticabarbaramonfalcone.it",
+  "nome": "Centro estetico e massaggi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390481412267",
+  "email": "",
+  "sitoUrl": "https://www.altaesteticabarbaramonfalcone.it/",
+  "indirizzo": "via Pucino 2",
+  "cap": "34074",
+  "comune": "Monfalcone",
+  "provincia": "monfalcone",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.altaesteticabarbaramonfalcone.it/",
+   "https://www.altaesteticabarbaramonfalcone.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticamatera.com",
+  "nome": "Medicina e Chirurgia Estetica dr. Matera",
+  "formaSocietaria": "",
+  "partitaIva": "01677250308",
+  "telefono": "+393505155306",
+  "email": "info@esteticamatera.com",
+  "sitoUrl": "https://esteticamatera.com/",
+  "indirizzo": "Via Udine, 3",
+  "cap": "33050",
+  "comune": "Ruda",
+  "provincia": "monfalcone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://esteticamatera.com/",
+   "https://esteticamatera.com/contatti/",
+   "https://esteticamatera.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "urbanmedicinaestetica.it",
+  "nome": "Dott.ssa Susanna Urban: Medicina Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03005580307",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://urbanmedicinaestetica.it/",
+  "indirizzo": "Via Cotonificio, 92",
+  "cap": "",
+  "comune": "",
+  "provincia": "monfalcone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://urbanmedicinaestetica.it/",
+   "https://urbanmedicinaestetica.it/contatti/",
+   "https://urbanmedicinaestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

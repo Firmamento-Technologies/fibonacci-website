@@ -1,0 +1,80 @@
+[
+ {
+  "dominio": "clinicalaserterni.it",
+  "nome": "clinicalaserterni.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.clinicalaserterni.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "terni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicalaserterni.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticosantarelli.it",
+  "nome": "Studio Dentistico Santarelli",
+  "formaSocietaria": "",
+  "partitaIva": "01556000550",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiodentisticosantarelli.it/",
+  "indirizzo": "Via Del Parco, 1",
+  "cap": "05035",
+  "comune": "Narni",
+  "provincia": "terni",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticosantarelli.it/",
+   "https://www.studiodentisticosantarelli.it/chi-siamo/",
+   "https://www.studiodentisticosantarelli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "venaodontoiatria.it",
+  "nome": "Vena Odontoiatria: Il tuo dentista a Terni:",
+  "formaSocietaria": "",
+  "partitaIva": "01720060555",
+  "telefono": "+390744407295",
+  "email": "info@venaodontoiatria.it",
+  "sitoUrl": "https://venaodontoiatria.it/",
+  "indirizzo": "Via Nazario Sauro 1",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "terni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://venaodontoiatria.it/",
+   "https://venaodontoiatria.it/dentista-a-Terni",
+   "https://venaodontoiatria.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

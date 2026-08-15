@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "bellessere-estetica.it",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390871561667",
+  "email": "",
+  "sitoUrl": "https://www.bellessere-estetica.it/",
+  "indirizzo": "via Torquato Scaraviglia, 72",
+  "cap": "66100",
+  "comune": "Chieti",
+  "provincia": "ch",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bellessere-estetica.it/",
+   "https://www.bellessere-estetica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

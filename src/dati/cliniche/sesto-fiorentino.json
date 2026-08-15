@@ -1,0 +1,202 @@
+[
+ {
+  "dominio": "ambulatoridirimaggio.it",
+  "nome": "Ambulatori di Rimaggio",
+  "formaSocietaria": "",
+  "partitaIva": "05587980482",
+  "telefono": "+3905571898",
+  "email": "info@ambulatoridirimaggio.it",
+  "sitoUrl": "https://www.ambulatoridirimaggio.it/",
+  "indirizzo": "",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ambulatoridirimaggio.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "biomedicalpharmatics.com",
+  "nome": "Biomedical Pharmatics",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02516910508",
+  "telefono": "+390508057749",
+  "email": "info@biomedicalpharmatics.com",
+  "sitoUrl": "https://www.biomedicalpharmatics.com/",
+  "indirizzo": "Corso Botulinum Lab 📅 12",
+  "cap": "56121",
+  "comune": "Pisa",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.biomedicalpharmatics.com/",
+   "https://www.biomedicalpharmatics.com/contatti/",
+   "https://www.biomedicalpharmatics.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrochirurgicofiorentino.com",
+  "nome": "Centro Chirurgico Fiorentino",
+  "formaSocietaria": "",
+  "partitaIva": "01859670380",
+  "telefono": "+39055710074",
+  "email": "info@centrochirurgicofiorentino.com",
+  "sitoUrl": "https://centrochirurgicofiorentino.com/",
+  "indirizzo": "Via del Ferrone 5",
+  "cap": "50124",
+  "comune": "Firenze",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrochirurgicofiorentino.com/",
+   "https://centrochirurgicofiorentino.com/chi-siamo/",
+   "https://centrochirurgicofiorentino.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedico.me",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura"
+ },
+ {
+  "dominio": "clinicaseno.it",
+  "nome": "Clinica Seno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.clinicaseno.it/",
+  "indirizzo": "Via IV Novembre, 6",
+  "cap": "31021",
+  "comune": "Mogliano",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicaseno.it/",
+   "https://www.clinicaseno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticaessea.it",
+  "nome": "esteticaessea.it",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02570410973",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticaessea.it/",
+  "indirizzo": "Via Petrosa, 19",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticaessea.it/",
+   "https://www.esteticaessea.it/chi-siamo",
+   "https://www.esteticaessea.it/orari-e-contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mcclinic.it",
+  "nome": "Mc Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390559073366",
+  "email": "",
+  "sitoUrl": "https://mcclinic.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://mcclinic.it/",
+   "https://mcclinic.it/chi-siamo/",
+   "https://mcclinic.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatorio-misericordiasesto.it",
+  "nome": "Poliambulatorio della Misericordia di Sesto Fiorentino S.r.l.",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06193620488",
+  "telefono": "+390557950111",
+  "email": "info@misericordia-sesto.it",
+  "sitoUrl": "https://www.poliambulatorio-misericordiasesto.it/",
+  "indirizzo": "Piazza San Francesco, 38",
+  "cap": "50019",
+  "comune": "Sesto",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.poliambulatorio-misericordiasesto.it/",
+   "https://www.poliambulatorio-misericordiasesto.it/chi-siamo",
+   "https://www.poliambulatorio-misericordiasesto.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

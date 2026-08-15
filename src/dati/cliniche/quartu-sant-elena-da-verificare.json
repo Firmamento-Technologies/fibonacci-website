@@ -1,0 +1,55 @@
+[
+ {
+  "dominio": "centro-medico-hb.reservio.com",
+  "nome": "Prenotazioni online",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393274980868",
+  "email": "",
+  "sitoUrl": "https://centro-medico-hb.reservio.com/",
+  "indirizzo": "Via Guglielmo Marconi, 111",
+  "cap": "",
+  "comune": "",
+  "provincia": "quartu-sant-elena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centro-medico-hb.reservio.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "langolodellabellezza.eu",
+  "nome": "Il primo centro estetico a Quartu e in Sardegna Visitalo con il Virtua",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393203016663",
+  "email": "info@langolodellabellezza.eu",
+  "sitoUrl": "https://langolodellabellezza.eu/",
+  "indirizzo": "Via Polonia n.75",
+  "cap": "09045",
+  "comune": "Ti",
+  "provincia": "quartu-sant-elena",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://langolodellabellezza.eu/",
+   "https://langolodellabellezza.eu/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,0 +1,82 @@
+[
+ {
+  "dominio": "3kona.it",
+  "nome": "Centro 3KONA Jesi Nutrizione, stile di vita e consapevolezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393283577211",
+  "email": "info@styventamburo.it",
+  "sitoUrl": "https://www.3kona.it/",
+  "indirizzo": "Via Gallodoro 59",
+  "cap": "60035",
+  "comune": "Jesi",
+  "provincia": "jesi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.3kona.it/",
+   "https://www.3kona.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "officinadelcorpo.it",
+  "nome": "Officina del Corpo Jesi",
+  "formaSocietaria": "",
+  "partitaIva": "02571150420",
+  "telefono": "+390731720549",
+  "email": "info@officinadelcorpo.it",
+  "sitoUrl": "https://www.officinadelcorpo.it/",
+  "indirizzo": "Via Luigi Mercantini 8",
+  "cap": "60035",
+  "comune": "Jesi",
+  "provincia": "jesi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.officinadelcorpo.it/",
+   "https://www.officinadelcorpo.it/chi-siamo/",
+   "https://www.officinadelcorpo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "tuttojesi.it",
+  "nome": "TuttoJesi.it il portale della città e del comune di Jesi (AN)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tuttojesi.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "jesi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.tuttojesi.it/",
+   "https://www.tuttojesi.it/informativa_privacy.htm",
+   "https://www.tuttojesi.it/privacy_policy.htm"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

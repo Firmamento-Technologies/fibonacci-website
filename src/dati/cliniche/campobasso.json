@@ -1,0 +1,91 @@
+[
+ {
+  "dominio": "angelamancinichirurgoplastico.it",
+  "nome": "Dott.ssa Angela Mancini Chirurgo Plastico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.angelamancinichirurgoplastico.it/",
+  "indirizzo": "Via S.Antonio dei Lazzari, 15",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "campobasso",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Angela Mancini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.angelamancinichirurgoplastico.it/",
+   "https://www.angelamancinichirurgoplastico.it/contatti/",
+   "https://www.angelamancinichirurgoplastico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mag.infoestetica.it",
+  "nome": "InfoesteticaMag",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390692593681",
+  "email": "info@infoesteticamag.it",
+  "sitoUrl": "https://mag.infoestetica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "campobasso",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://mag.infoestetica.it/",
+   "https://mag.infoestetica.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "regeneraclinic.it",
+  "nome": "Regenera Clinic Molise",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908741721972",
+  "email": "",
+  "sitoUrl": "https://www.regeneraclinic.it/",
+  "indirizzo": "Via Garibaldi, 23",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "campobasso",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.regeneraclinic.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

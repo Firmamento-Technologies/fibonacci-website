@@ -1,0 +1,77 @@
+[
+ {
+  "dominio": "medicinaesteticarimini.com",
+  "nome": "Medicina Estetica Rimini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@themepunch.com",
+  "sitoUrl": "https://medicinaesteticarimini.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticarimini.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriomalatesta.it",
+  "nome": "Poliambulatorio Malatesta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390541782751",
+  "email": "info@poliambulatoriomalatesta.it",
+  "sitoUrl": "https://www.poliambulatoriomalatesta.it/",
+  "indirizzo": "Via Marecchiese, 173",
+  "cap": "",
+  "comune": "",
+  "provincia": "rn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriomalatesta.it/",
+   "https://www.poliambulatoriomalatesta.it/it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "villamariarimini.it",
+  "nome": "Ospedale privato accreditato con il S.S.N. Villa Maria di Rimini",
+  "formaSocietaria": "",
+  "partitaIva": "00370290405",
+  "telefono": "",
+  "email": "info@villamariarimini.it",
+  "sitoUrl": "https://www.villamariarimini.it/",
+  "indirizzo": "V.le Giacomo Matteotti, 24",
+  "cap": "47921",
+  "comune": "Rimini",
+  "provincia": "rn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villamariarimini.it/",
+   "https://www.villamariarimini.it/chi-siamo/",
+   "https://www.villamariarimini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]
