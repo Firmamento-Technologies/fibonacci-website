@@ -1586,10 +1586,19 @@ if __name__ == "__main__":
         # stato **in memoria** e lo riscrive al primo salvataggio ⇒ la riapertura
         # sparirebbe **senza un errore**, e me ne accorgerei solo contando le
         # ricerche che ⛔ non sono state fatte.
-        eta = time.time() - os.path.getmtime(STATO_P6) if os.path.exists(STATO_P6) else 1e9
-        if eta < 180:
-            raise SystemExit(f"⛔ `{os.path.basename(STATO_P6)}` scritto {eta:.0f}s fa: "
-                             "la scoperta sta girando. Fermala, poi riapri.")
+        # ⚠️ **Si guarda il PROCESSO, ⛔ non l'orario del file.** La prima
+        # versione usava solo l'`mtime` e ha dato un **falso positivo** un
+        # minuto dopo aver fermato la scoperta: «scritto 57s fa» ⛔ non vuol dire
+        # «sta scrivendo», vuol dire «ha scritto». ⇒ un presidio che confonde le
+        # due cose blocca il lavoro buono e ⛔ non protegge da niente in più.
+        import subprocess
+        vivi = subprocess.run(["pgrep", "-f", "raccolta-cliniche.py.*--nazionale"],
+                              capture_output=True, text=True).stdout.split()
+        vivi = [p for p in vivi if p != str(os.getpid())]
+        if vivi:
+            raise SystemExit(f"⛔ la scoperta gira ancora (PID {', '.join(vivi)}): "
+                             "il processo tiene lo stato in memoria e la riapertura sparirebbe "
+                             "senza un errore. Fermala, poi riapri.")
         st = carica_stato()
         quante = len(st.get("chiuse", []))
         st["chiuse"], st["resa"] = [], {}
