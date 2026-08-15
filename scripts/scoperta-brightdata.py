@@ -24,8 +24,25 @@ r = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(r)
 
 CHIAVE = os.environ["BRIGHTDATA_API_KEY"]
-ZONA = "cli_unlocker"
+# ⚠️ **La zona ⛔ non si scrive più nel codice.** Era `cli_unlocker`, di un
+# account che il 2026-08-15 è finito **sospeso**; la chiave nuova appartiene a
+# un **account diverso** (`hl_685bc5fb` contro `hl_6f2fb327`) con zone proprie.
+# ⇒ un nome di zona fisso ⛔ non è una costante: è **una credenziale**, e come
+# tale vive nell'ambiente. Senza, si esce **dicendolo** — perché l'errore
+# altrimenti arriva dal servizio come «Unknown zone», che ⛔ non fa capire che
+# il nome era nostro e vecchio.
+ZONA = os.environ.get("BD_ZONA_SERP") or ""
+if not ZONA:
+    raise SystemExit("⛔ manca BD_ZONA_SERP: è il nome della zona sul cruscotto Bright Data.\n"
+                     "   Caricalo con `set -a && . ./.env.brightdata && set +a`.\n"
+                     "   Le zone dell'account si elencano con:\n"
+                     "     curl -s -H \"Authorization: Bearer $BRIGHTDATA_API_KEY\" \\\n"
+                     "          https://api.brightdata.com/zone/get_active_zones")
 STATO = os.path.join(QUI, "stato-scoperta-bd.json")
+# 🔑 Qui il tetto **è in dollari e funziona davvero**, a differenza di
+# `scoperta-browser.mjs`: `/zone/cost` vuole il Bearer, e con questa chiave ce
+# l'abbiamo. ⇒ la spesa si legge dal **contatore di Bright Data**, ⛔ non da una
+# nostra stima di byte.
 TETTO_DOLLARI = float(os.environ.get("TETTO_DOLLARI", "4.00"))
 
 def costo_ora():
