@@ -15,7 +15,8 @@ JSON lo corrompono, e il danno ⛔ non si vede subito — si vede quando il file
 sperando che basti: si conta, e ci si ferma. Il contatore vero è quello di
 Bright Data, ⛔ non il nostro — l'unico che sa davvero cosa è stato fatturato.
 """
-import json, os, re, sys, time, urllib.parse, urllib.request
+import json, os, re, sys, threading, time, urllib.parse, urllib.request
+import concurrent.futures as cf
 import importlib.util
 
 QUI = os.path.dirname(os.path.abspath(__file__))
@@ -95,44 +96,77 @@ if __name__ == "__main__":
           f"zona {ZONA}", flush=True)
 
     finestre = st.setdefault("resa", {})
-    for citta, sigla, pool in bersagli:
-        if sigla in st["chiuse"] or sigla in gratis.get("chiuse", []):
-            continue
+    lucchetto = threading.Lock()
+    fermati = threading.Event()
+    PARALLELI = int(os.environ.get("BD_PARALLELI", "6"))
+    print(f"  {len(bersagli)} località · {PARALLELI} in parallelo", flush=True)
+
+    def lavora(bersaglio):
+        """🔑 **Si parallelizza FRA località, ⛔ non dentro.** La regola di resa
+        guarda **le ultime 8 ricerche di quella località**: eseguirle fuori
+        ordine ⛔ non la accelera, la **falsa** — la finestra smetterebbe di
+        misurare «quanto rende continuare qui» e misurerebbe una mescolanza
+        casuale. ⇒ ogni thread prende **una località intera** e la lavora in
+        ordine; il parallelismo sta nel numero di località aperte insieme.
+        ⚠️ Le richieste sono I/O: i thread bastano, ⛔ non serve altro."""
+        global speso, fatte_dal_controllo
+        citta, sigla, pool = bersaglio
+        with lucchetto:
+            if sigla in st["chiuse"] or sigla in gratis.get("chiuse", []):
+                return
         for m in pool:
+            if fermati.is_set():
+                return
             k = f"{sigla}|{m}"
-            if k in st["fatte"] or k in gratis["fatte"]:
-                continue
-            # ⚠️ Il costo si chiede **ogni 25 ricerche**, ⛔ non ad ognuna: era
-            # una chiamata API in più **per ogni ricerca**, cioè il doppio del
-            # traffico per un controllo che a $0,00128 l'una può sforare al
-            # massimo di **tre centesimi**. ⛔ Non è meno sicuro: è meno inutile.
-            if fatte_dal_controllo % 25 == 0:
-                speso = costo_ora() - partenza
-            fatte_dal_controllo += 1
-            if speso >= TETTO_DOLLARI:
-                print(f"\n⛔ tetto raggiunto: ${speso:.2f}. Fermo.", flush=True)
-                json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-                sys.exit(0)
-            nuovi = 0
-            for u in cerca(m.format(c=citta)):
-                h = r.host_di(u)
-                if not h:
+            with lucchetto:
+                if k in st["fatte"] or k in gratis["fatte"]:
                     continue
-                if r.da_escludere(u):
-                    st["scartati"][h] = st["scartati"].get(h, 0) + 1
-                elif h not in noti:
-                    st["domini"][h] = sigla
-                    noti.add(h)
-                    nuovi += 1
-            st["fatte"].append(k)
-            f = finestre.setdefault(sigla, [])
-            f.append(nuovi)
-            chiusa = len(f) >= 8 and sum(f[-8:]) / 8 < 1.0
-            if chiusa:
-                st["chiuse"].append(sigla)
-            json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-            print(f"  {sigla:22} «{m.format(c=citta)[:38]}» +{nuovi} → {len(st['domini'])}"
-                  + (f" · ⛔ {sigla} esaurita" if chiusa else f" · ${speso:.2f}"), flush=True)
-            if chiusa:
-                break
+                # ⚠️ Il costo si chiede **ogni 25 ricerche**, ⛔ non ad ognuna:
+                # era una chiamata API in più **per ogni ricerca**, cioè il
+                # doppio del traffico per un controllo che a $0,00064 l'una può
+                # sforare al massimo di **due centesimi**.
+                if fatte_dal_controllo % 25 == 0:
+                    speso = costo_ora() - partenza
+                fatte_dal_controllo += 1
+                if speso >= TETTO_DOLLARI:
+                    print(f"\n⛔ tetto raggiunto: ${speso:.2f}. Fermo.", flush=True)
+                    fermati.set()
+                    return
+            # ⚠️ **La rete sta FUORI dal lucchetto**, o i thread si metterebbero
+            # in fila proprio sulla parte lenta e il parallelismo sarebbe finto.
+            url = cerca(m.format(c=citta))
+            with lucchetto:
+                nuovi = 0
+                for u in url:
+                    h = r.host_di(u)
+                    if not h:
+                        continue
+                    if r.da_escludere(u):
+                        st["scartati"][h] = st["scartati"].get(h, 0) + 1
+                    elif h not in noti:
+                        st["domini"][h] = sigla
+                        noti.add(h)
+                        nuovi += 1
+                st["fatte"].append(k)
+                f = finestre.setdefault(sigla, [])
+                f.append(nuovi)
+                chiusa = len(f) >= 8 and sum(f[-8:]) / 8 < 1.0
+                if chiusa:
+                    st["chiuse"].append(sigla)
+                # ⚠️ Salvataggio **dentro** il lucchetto: due thread che scrivono
+                # lo stesso JSON lo troncano, ed è il guasto che ⛔ non si vede
+                # finché ⛔ non si rilegge. ⚠️ E si scrive **ogni 10**, ⛔ non ad
+                # ogni ricerca: a 6 thread erano 6 riscritture al secondo di un
+                # file da 250 KB.
+                if len(st["fatte"]) % 10 == 0 or nuovi or chiusa:
+                    json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+                print(f"  {sigla:22} «{m.format(c=citta)[:38]}» +{nuovi} → {len(st['domini'])}"
+                      + (f" · ⛔ {sigla} esaurita" if chiusa else f" · ${speso:.2f}"), flush=True)
+                if chiusa:
+                    return
+
+    with cf.ThreadPoolExecutor(max_workers=PARALLELI) as pool_thread:
+        list(pool_thread.map(lavora, bersagli))
+    with lucchetto:
+        json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"\n═══ {len(st['domini'])} domini nuovi · speso ${costo_ora()-partenza:.2f} ═══")
