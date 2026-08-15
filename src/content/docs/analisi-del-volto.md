@@ -1,8 +1,6 @@
 # Analisi del volto
 
-Questa guida descrive l'analisi morfologica del volto: le misure che Fibonacci ricava da una fotografia frontale, il confronto con i canoni neoclassici, la vista tridimensionale, la serie fotografica per vista e la registrazione del giudizio clinico (PGAIS) sul confronto prima/dopo.
-
-Un chiarimento prima di tutto: l'analisi non produce un punteggio di bellezza, e non è una scelta di prudenza ma di letteratura. Sulle finaliste di Miss Universe le proporzioni reali differiscono in modo significativo dai canoni; su modelle nere non è emersa alcuna associazione con la sezione aurea, e gli autori raccomandano una valutazione individualizzata. Il confronto clinicamente più solido resta quello del volto **con sé stesso nel tempo** — ed è quello che questa pagina mette al centro.
+Questa guida descrive l'analisi morfologica del volto: le misure che Fibonacci ricava da una fotografia frontale, il confronto con i canoni neoclassici, la vista tridimensionale, la serie fotografica per vista, il salvataggio in cartella e la registrazione del giudizio clinico (PGAIS) sul confronto prima/dopo. L'analisi produce misure — angoli, rapporti, scarti — e le mette in fila nel tempo; il giudizio resta del medico.
 
 ## Prerequisiti
 
@@ -26,7 +24,7 @@ Le misure sono adimensionali — angoli, rapporti, percentuali — perché da un
 
 ## Il confronto col canone neoclassico
 
-Ogni voce mostra il valore misurato, il valore che il canone prescrive e lo scarto, mai un voto complessivo. L'avvertenza sui limiti dei canoni sta scritta **prima** dei numeri, con le fonti. Il confronto col canone e il confronto prima/dopo restano separati: fonderli darebbe un numero che non risponde né a «quanto si scosta dal riferimento» né a «cosa ha fatto il trattamento».
+Ogni voce mostra il valore misurato, il valore del canone di riferimento e lo scarto fra i due. Il confronto col canone e il confronto prima/dopo restano separati: fonderli darebbe un numero che non risponde né a «quanto si scosta dal riferimento» né a «cosa ha fatto il trattamento».
 
 ## La vista 3D
 
@@ -66,7 +64,7 @@ La risposta è un'etichetta («Molto migliorato», «Migliorato», …), mai un 
 
 - **Confrontare scatti di viste diverse.** Un frontale e un 45° dello stesso giorno si somigliano solo nel nome: il confronto vale fra viste omologhe.
 - **Fotografare il «dopo» troppo presto.** A edema non riassorbito il confronto documenta il gonfiore, non il risultato.
-- **Leggere il canone come una pagella.** È un riferimento storico dichiarato; lo scarto da esso non è un difetto del paziente né un obiettivo di trattamento.
+- **Leggere il canone come una pagella.** È un riferimento geometrico storico: lo scarto è una differenza fra due numeri, non un'indicazione di trattamento.
 
 ## Domande frequenti
 
@@ -74,4 +72,4 @@ La risposta è un'etichetta («Molto migliorato», «Migliorato», …), mai un 
 
 **L'analisi manda la foto a un servizio esterno?** No. Il modello di punti di repere gira nel browser; la fotografia resta cifrata nel sistema e viene decifrata solo per chi ha diritto di vederla, come per ogni altra foto clinica.
 
-**Perché non c'è un punteggio complessivo di armonia?** Perché nessuna fonte lo sostiene: i canoni non descrivono la normalità e le proporzioni «ideali» non coincidono con quelle dei volti reali giudicati attraenti. I numeri ci sono tutti; il giudizio resta clinico.
+**Perché non c'è un punteggio complessivo di armonia?** Scelta di prodotto: la pagina fornisce tutte le misure; la sintesi e il giudizio restano al medico.
