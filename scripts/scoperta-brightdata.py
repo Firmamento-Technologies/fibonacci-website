@@ -90,7 +90,9 @@ if __name__ == "__main__":
     gratis = json.load(open(r.STATO_P6, encoding="utf-8"))
     noti = set(gratis["domini"]) | set(st["domini"])
     partenza = costo_ora()
-    print(f"tetto ${TETTO_DOLLARI:.2f} · speso finora questo mese ${partenza:.4f}", flush=True)
+    speso, fatte_dal_controllo = 0.0, 0
+    print(f"tetto ${TETTO_DOLLARI:.2f} · speso finora questo mese ${partenza:.4f} · "
+          f"zona {ZONA}", flush=True)
 
     finestre = st.setdefault("resa", {})
     for citta, sigla, pool in bersagli:
@@ -100,7 +102,13 @@ if __name__ == "__main__":
             k = f"{sigla}|{m}"
             if k in st["fatte"] or k in gratis["fatte"]:
                 continue
-            speso = costo_ora() - partenza
+            # ⚠️ Il costo si chiede **ogni 25 ricerche**, ⛔ non ad ognuna: era
+            # una chiamata API in più **per ogni ricerca**, cioè il doppio del
+            # traffico per un controllo che a $0,00128 l'una può sforare al
+            # massimo di **tre centesimi**. ⛔ Non è meno sicuro: è meno inutile.
+            if fatte_dal_controllo % 25 == 0:
+                speso = costo_ora() - partenza
+            fatte_dal_controllo += 1
             if speso >= TETTO_DOLLARI:
                 print(f"\n⛔ tetto raggiunto: ${speso:.2f}. Fermo.", flush=True)
                 json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
