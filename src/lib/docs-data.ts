@@ -122,6 +122,13 @@ export const DOCS: DocMeta[] = [
     icon: 'Camera',
   },
   {
+    slug: 'analisi-del-volto',
+    title: 'Analisi del volto',
+    description: 'Misure sul frontale, serie fotografica, confronto col canone e PGAIS.',
+    category: 'utilizzo',
+    icon: 'ScanFace',
+  },
+  {
     slug: 'tracciabilita-lotto',
     title: 'Tracciabilità del lotto',
     description: 'Registrare il lotto e rispondere a un richiamo del produttore.',
