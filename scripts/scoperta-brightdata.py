@@ -55,7 +55,20 @@ def costo_ora():
 
 def cerca(query):
     """SERP con risultati **già strutturati** (`brd_json=1`): ⛔ nessun parsing
-    di HTML che cambia sotto i piedi."""
+    di HTML che cambia sotto i piedi.
+
+    🔴 **Torna `None` se la richiesta è FALLITA, `[]` se ⛔ non ha trovato nulla,
+    e la differenza è il difetto più costoso di questa corsa.** Prima tornava
+    `[]` in entrambi i casi, e il chiamante ⛔ non poteva distinguerli ⇒ un
+    guasto veniva registrato come **«questa ricerca ⛔ non ha reso niente»**:
+    entrava nella finestra di resa come uno zero **e** veniva marcato `fatte`,
+    quindi ⛔ non si sarebbe più ripetuto.
+    ⚠️ **Misurato il 2026-08-15**: **2.390 richieste su 9.030 (26%)** sono
+    tornate `HTTP 200` con **zero byte** — ⛔ non un errore HTTP, una risposta
+    **vuota** — e **1.190 località su 1.206** si sono chiuse **dopo** che gli
+    zeri falsi avevano cominciato a riempire le finestre. ⇒ la copertura di
+    quella corsa **⛔ non è quella che i numeri dicono**.
+    """
     u = ("https://www.google.com/search?q=" + urllib.parse.quote_plus(query)
          + "&num=20&gl=it&hl=it&brd_json=1")
     corpo = json.dumps({"zone": ZONA, "url": u, "format": "raw"}).encode()
@@ -64,10 +77,20 @@ def cerca(query):
                                           "Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=120) as x:
-            d = json.loads(x.read().decode("utf-8", "replace"))
+            grezzo = x.read().decode("utf-8", "replace")
     except Exception as e:
-        print(f"    ✗ {type(e).__name__}", flush=True)
-        return []
+        print(f"    ✗ rete: {type(e).__name__}", flush=True)
+        return None
+    if not grezzo.strip():
+        # ⚠️ `200` con corpo vuoto è la **firma di un account sospeso** su questo
+        # servizio: ⛔ non dà un codice d'errore, smette e basta.
+        print("    ✗ risposta VUOTA (200 senza corpo)", flush=True)
+        return None
+    try:
+        d = json.loads(grezzo)
+    except json.JSONDecodeError:
+        print(f"    ✗ non-JSON: {grezzo[:60]!r}", flush=True)
+        return None
     # ⛔ SOLO `organic`: lo `snack_pack` **è** la scheda Maps, cioè la raccolta
     # altrui — la regola ⛔ non cambia perché qui stiamo pagando.
     return [o.get("link", "") for o in d.get("organic", []) if o.get("link", "").startswith("http")]
@@ -78,6 +101,24 @@ def carica():
     return {"fatte": [], "domini": {}, "scartati": {}, "chiuse": [], "resa": {}}
 
 if __name__ == "__main__":
+    if "--rifai" in sys.argv:
+        # 🔑 **Serve perché la corsa del 2026-08-15 ha una copertura FALSATA e
+        # ⛔ non recuperabile a pezzi.** Il 26% delle richieste tornava vuoto, e
+        # ogni fallimento veniva scritto in `fatte` **e** contato come zero
+        # nella finestra ⇒ ⛔ non è possibile distinguere, guardando lo stato,
+        # uno zero vero da uno falso: sono la stessa cosa sul disco.
+        # ⇒ l'unico rimedio onesto è **rifare le ricerche**, tenendo i `domini`
+        # già trovati (quelli sono un **risultato**, ⛔ non un'ipotesi).
+        # ⚠️ Le ricerche fatte dalla corsa **gratuita** ⛔ non si toccano: sono
+        # state fatte da un altro processo, che ⛔ non aveva questo difetto.
+        st = carica()
+        quante, chiuse = len(st["fatte"]), len(st.get("chiuse", []))
+        st["fatte"], st["chiuse"], st["resa"] = [], [], {}
+        json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"✅ azzerate {quante} ricerche BD e {chiuse} chiusure di località.\n"
+              f"   ⛔ I {len(st['domini'])} domini già trovati restano.\n"
+              f"   Rilancia senza `--rifai`: stavolta un fallimento ⛔ non conta come zero.")
+        sys.exit(0)
     prov = json.load(open(os.path.join(QUI, "province.json"), encoding="utf-8"))
     comuni = json.load(open(os.path.join(QUI, "comuni.json"), encoding="utf-8"))
     base = r.MODELLI + r.MODELLI_PROFESSIONISTI + r.MODELLI_TRATTAMENTO
@@ -98,6 +139,7 @@ if __name__ == "__main__":
     finestre = st.setdefault("resa", {})
     lucchetto = threading.Lock()
     fermati = threading.Event()
+    guasti = [0]   # ⚠️ lista, ⛔ non int: va mutato da dentro `lavora`
     PARALLELI = int(os.environ.get("BD_PARALLELI", "6"))
     print(f"  {len(bersagli)} località · {PARALLELI} in parallelo", flush=True)
 
@@ -135,7 +177,29 @@ if __name__ == "__main__":
             # ⚠️ **La rete sta FUORI dal lucchetto**, o i thread si metterebbero
             # in fila proprio sulla parte lenta e il parallelismo sarebbe finto.
             url = cerca(m.format(c=citta))
+            # 🔴 **Una ricerca FALLITA ⛔ non è una ricerca fatta.** ⛔ Non entra in
+            # `fatte` (così il giro successivo la riprova) e ⛔ non entra nella
+            # finestra di resa (così ⛔ non contribuisce a chiudere una località
+            # che ⛔ non ha mai avuto la sua occasione).
+            # ⚠️ E se falliscono **di fila**, il guasto ⛔ non è della singola
+            # query: è il servizio o l'account. Insistere spende e ⛔ non produce.
+            if url is None:
+                with lucchetto:
+                    guasti[0] += 1
+                    if guasti[0] >= 25:
+                        print(f"\n⛔ FERMO — 25 richieste fallite di fila.\n"
+                              f"   La firma tipica è `200` con **corpo vuoto**, che su questo\n"
+                              f"   servizio vuol dire **account sospeso**: verifica su\n"
+                              f"   brightdata.com (credito, stato, metodo di pagamento).\n"
+                              f"   ✅ Lo stato è salvato e le ricerche fallite ⛔ non sono state\n"
+                              f"      marcate come fatte: al prossimo avvio si riprendono.",
+                              flush=True)
+                        json.dump(st, open(STATO, "w", encoding="utf-8"),
+                                  ensure_ascii=False, indent=1)
+                        fermati.set()
+                continue
             with lucchetto:
+                guasti[0] = 0
                 nuovi = 0
                 for u in url:
                     h = r.host_di(u)
