@@ -25,6 +25,7 @@ import { paritaFarmaci } from './parita-farmaci.mjs'
 import { paritaProdotto } from './parita-prodotto.mjs'
 import { paritaListino } from './parita-listino.mjs'
 import { classiEsistono } from './classi-esistono.mjs'
+import { nienteLineetta } from './niente-lineetta.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -881,6 +882,7 @@ async function main() {
   paritaFarmaci(problemi, (m) => console.log(giallo('\n' + m)))
   paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
   classiEsistono(problemi)
+  nienteLineetta(problemi)
 
   /* ⚠️ LE TAPPE. Il sito è un percorso: ogni sezione è una schermata con la V
      in fondo. Due cose si rompono in silenzio e le prende solo una misura sul

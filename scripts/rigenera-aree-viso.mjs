@@ -65,7 +65,7 @@ function rigenera() {
       throw new Error('rigenera-aree-viso: il modulo ha risposto vuoto — niente scrittura')
     }
     const contenuto = {
-      _generato: 'da scripts/rigenera-aree-viso.mjs — ⛔ NON modificare a mano',
+      _generato: 'da scripts/rigenera-aree-viso.mjs: ⛔ NON modificare a mano',
       revisione: improntaSorgenti(),
       ...dati,
     }

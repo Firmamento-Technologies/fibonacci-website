@@ -1,6 +1,6 @@
 # Analisi del volto
 
-Questa guida descrive l'analisi morfologica del volto: le misure che Fibonacci ricava da una fotografia frontale, il confronto con i canoni neoclassici, la vista tridimensionale, la serie fotografica per vista, il salvataggio in cartella e la registrazione del giudizio clinico (PGAIS) sul confronto prima/dopo. L'analisi produce misure — angoli, rapporti, scarti — e le mette in fila nel tempo; il giudizio resta del medico.
+Questa guida descrive l'analisi morfologica del volto: le misure che Fibonacci ricava da una fotografia frontale, il confronto con i canoni neoclassici, la vista tridimensionale, la serie fotografica per vista, il salvataggio in cartella e la registrazione del giudizio clinico (PGAIS) sul confronto prima/dopo. L'analisi produce misure (angoli, rapporti, scarti) e le mette in fila nel tempo; il giudizio resta del medico.
 
 ## Prerequisiti
 
@@ -16,11 +16,11 @@ Il pulsante `Analisi del volto` sta nella barra in alto della cartella del pazie
 Il rilevamento avviene **nel browser**: la fotografia non lascia il sistema e nessun servizio esterno la riceve. Su uno scatto frontale l'analisi ricava:
 
 - la **mediana del volto** e il **parallelismo dei piani** interpupillare, dei canti esterni e delle commissure labiali, come scarto in gradi dalla perpendicolare alla mediana;
-- i **terzi** (rapporto terzo medio / terzo inferiore). Il terzo superiore non è calcolabile: richiede l'attaccatura dei capelli, che il modello non individua — la pagina lo dichiara invece di stimarlo;
+- i **terzi** (rapporto terzo medio / terzo inferiore). Il terzo superiore non è calcolabile: richiede l'attaccatura dei capelli, che il modello non individua, e la pagina lo dichiara invece di stimarlo;
 - **quale lato è più largo** a zigomi, canti esterni e commissure. Dice quale lato, non «quanto il volto è asimmetrico»: è la fonte del modello a escludere quel secondo uso;
 - la **qualità dello scatto** (rotazioni del capo), che marca gli scatti non frontali invece di nasconderne i numeri.
 
-Le misure sono adimensionali — angoli, rapporti, percentuali — perché da una fotografia senza riferimento metrico i millimetri non si ricavano onestamente.
+Le misure sono adimensionali (angoli, rapporti, percentuali) perché da una fotografia senza riferimento metrico i millimetri non si ricavano onestamente.
 
 ## Il confronto col canone neoclassico
 
@@ -28,11 +28,11 @@ Ogni voce mostra il valore misurato, il valore del canone di riferimento e lo sc
 
 ## La vista 3D
 
-L'interruttore `Foto | 3D` mostra la mesh del volto ricostruita dai punti di repere, navigabile (trascina per ruotare, rotella per avvicinare), in superficie o reticolo. **Non è una scansione**: la profondità è stimata da una sola fotografia ed è relativa — serve a girare attorno alla forma, non a misurare sporgenze o volumi. Per volumi e mappe di superficie serve hardware di stereofotogrammetria, che questa pagina non pretende di sostituire.
+L'interruttore `Foto | 3D` mostra la mesh del volto ricostruita dai punti di repere, navigabile (trascina per ruotare, rotella per avvicinare), in superficie o reticolo. **Non è una scansione**: la profondità è stimata da una sola fotografia ed è relativa: serve a girare attorno alla forma, non a misurare sporgenze o volumi. Per volumi e mappe di superficie serve hardware di stereofotogrammetria, che questa pagina non pretende di sostituire.
 
 ## La serie fotografica per vista
 
-Il protocollo fotografico clinico è una serie di scatti su viste definite — frontale, laterali, oblique a 45°, più le dinamiche per la mimica — ripetuta uguale a ogni visita. Per questo, al caricamento, ogni foto può indicare la **vista**; la scheda `Foto` mostra la serie della visita più recente e dice quali viste mancano.
+Il protocollo fotografico clinico è una serie di scatti su viste definite (frontale, laterali, oblique a 45°, più le dinamiche per la mimica) ripetuta uguale a ogni visita. Per questo, al caricamento, ogni foto può indicare la **vista**; la scheda `Foto` mostra la serie della visita più recente e dice quali viste mancano.
 
 Tre regole della serie:
 
@@ -52,11 +52,11 @@ Tre regole del salvataggio:
 - ri-salvare la stessa fotografia **aggiorna** la registrazione esistente, non ne crea una seconda;
 - uno scatto marcato «da ripetere» (capo ruotato) **non si può salvare**: i suoi numeri non sono confrontabili e in una serie storica farebbero danno.
 
-Dal secondo salvataggio in poi la pagina mostra la sezione **Nel tempo**: una piccola serie per ogni misura, sulle date reali degli scatti, con il valore più recente e la differenza dal primo. È il confronto del volto con sé stesso — quello che questa pagina mette al centro — esteso oltre la coppia di fotografie.
+Dal secondo salvataggio in poi la pagina mostra la sezione **Nel tempo**: una piccola serie per ogni misura, sulle date reali degli scatti, con il valore più recente e la differenza dal primo. È il confronto del volto con sé stesso (quello che questa pagina mette al centro) esteso oltre la coppia di fotografie.
 
 ## Registrare il PGAIS dal confronto
 
-Scelte due fotografie (la prima scelta è lo scatto in esame, la seconda il confronto), la sezione «Che cosa è cambiato» mostra le differenze — e il pulsante `Registra PGAIS`. Il PGAIS è il giudizio del medico sul risultato, dato **confrontando le fotografie pre e post**: registrarlo da qui significa registrare anche quali due scatti si stavano guardando, senza ricopiare date.
+Scelte due fotografie (la prima scelta è lo scatto in esame, la seconda il confronto), la sezione «Che cosa è cambiato» mostra le differenze e il pulsante `Registra PGAIS`. Il PGAIS è il giudizio del medico sul risultato, dato **confrontando le fotografie pre e post**: registrarlo da qui significa registrare anche quali due scatti si stavano guardando, senza ricopiare date.
 
 La risposta è un'etichetta («Molto migliorato», «Migliorato», …), mai un numero: la numerazione del GAIS è usata in letteratura in direzioni opposte, e un numero salvato senza la direzione non sarebbe più interpretabile a distanza di tempo.
 

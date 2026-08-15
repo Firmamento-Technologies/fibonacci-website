@@ -72,7 +72,7 @@ export function ProvaDurate() {
           <div>
             <p className="prova-durate__quando">
               Richiamo fra <strong>{d.meseMin}-{d.meseMax} mesi</strong>
-              <span> — cioè fra {fra(d.meseMin)} e {fra(d.meseMax)}</span>
+              <span>, cioè fra {fra(d.meseMin)} e {fra(d.meseMax)}</span>
             </p>
             {/* La fonte, testuale. È il punto di tutto: un numero senza fonte
                 è un'opinione, e su una cartella clinica le opinioni non

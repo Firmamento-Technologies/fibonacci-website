@@ -63,7 +63,7 @@ const PASSI = [
     /* 🔄 La cosa che una figura non può mostrare: da DOVE viene la data del
        richiamo — dalla frase del consenso, non da una tabella nostra. */
     prova: 'durate',
-    alt: "L'elenco dei trattamenti di una paziente: prodotto e unità nel titolo di ogni seduta, la data, e la nota tecnica del medico — diluizione, numero di punti, reazioni.",
+    alt: "L'elenco dei trattamenti di una paziente: prodotto e unità nel titolo di ogni seduta, la data, e la nota tecnica del medico: diluizione, numero di punti, reazioni.",
   },
   {
     ora: '20:15',

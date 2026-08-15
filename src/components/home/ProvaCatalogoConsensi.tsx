@@ -101,7 +101,7 @@ export function ProvaCatalogoConsensi() {
         {nessuna && (
           <p className="prova-catalogo__nulla">
             Nessun modulo per «{q.trim()}». ⛔ E non ne inventiamo uno: se il trattamento
-            non è in catalogo, si scrive — non si adatta quello di un’altra procedura.
+            non è in catalogo, si scrive, non si adatta quello di un’altra procedura.
           </p>
         )}
 

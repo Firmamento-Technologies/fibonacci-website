@@ -164,8 +164,8 @@ export function ProvaMappaViso() {
                 e.stopPropagation()
                 setSegnate((prima) => prima.filter((p) => p.code !== s.code))
               }}
-              aria-label={`${ETICHETTA_AREA[s.code]} — segnata. Clicca per togliere.`}
-              title={`${ETICHETTA_AREA[s.code]} — clicca per togliere`}
+              aria-label={`${ETICHETTA_AREA[s.code]}: segnata. Clicca per togliere.`}
+              title={`${ETICHETTA_AREA[s.code]}: clicca per togliere`}
               className="prova-viso__punto"
               style={{ left: `${xNelRitaglio(s.x) * 100}%`, top: `${s.y * 100}%` }}
             >

@@ -32,7 +32,7 @@ export async function generateMetadata({
   const m = medicoPerSlug(slug)
   if (!m) return {}
 
-  const titolo = `${m.medico.nome} — ${m.studio.nome}, ${m.studio.comune}`
+  const titolo = `${m.medico.nome}, ${m.studio.nome} (${m.studio.comune})`
 
   return {
     title: titolo,

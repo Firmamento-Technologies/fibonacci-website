@@ -51,7 +51,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Fibonacci — la cartella clinica della medicina estetica',
+    default: 'Fibonacci, la cartella clinica della medicina estetica',
     template: '%s · Fibonacci',
   },
   description: SITE_DESCRIPTION,
@@ -72,12 +72,12 @@ export const metadata: Metadata = {
     locale: 'it_IT',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'Fibonacci — la cartella clinica della medicina estetica',
+    title: 'Fibonacci, la cartella clinica della medicina estetica',
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fibonacci — la cartella clinica della medicina estetica',
+    title: 'Fibonacci, la cartella clinica della medicina estetica',
     description: SITE_DESCRIPTION,
   },
   robots: {
