@@ -1,68 +1,39 @@
 /**
- * La copia della mappa del viso deve restare uguale all'originale.
+ * La mappa del viso del sito deve essere RIGENERATA quando cambia l'originale.
  *
- * ⚠️ PERCHÉ ESISTE. `src/lib/aree-viso.ts` è una COPIA di
- * `EMR/apps/web/src/lib/body-areas.ts`: il sito è un repo separato e statico,
- * non può importare da un altro repo. Una copia senza presidio è esattamente il
- * difetto che questo progetto insegue da giorni — *due copie di una regola
- * divergono, e la seconda diverge in silenzio*. Qui il silenzio sarebbe totale:
- * spostare una coordinata nell'applicazione non romperebbe niente nel sito, i
- * pallini finirebbero solo fuori posto sopra un viso, in vetrina.
+ * ── COM'ERA, E PERCHÉ È CAMBIATO (TD-155) ────────────────────────────────────
+ * Prima qui c'erano regex che rileggevano le tabelle letterali dell'EMR e le
+ * confrontavano con una copia a mano nel sito. Il rifacimento della mappa
+ * (2026-08-14) ha spostato le tabelle in `volto-mappa.ts` e le ha rese
+ * CALCOLATE: la regex agganciava il blocco sbagliato (`BODY_AREA_COORDS`) e
+ * denunciava 5 divergenze prive di senso — un presidio rotto che bloccava
+ * ogni push «per sicurezza», cioè il modo in cui i presidi vengono spenti.
  *
- * ⚖️ Confronta **i dati** — codici, etichette, coordinate — e il numero del
- * ritaglio. ⛔ NON l'aspetto: colori e spaziature del sito sono diversi da
- * quelli dell'applicazione **di proposito** (decisione TD-15: marchio, accento e
- * ritmo attraversano il confine; carattere e tono no).
+ * Ora i dati del sito sono GENERATI (`scripts/rigenera-aree-viso.mjs` esegue
+ * il modulo vero dell'applicazione) e portano l'IMPRONTA dei file sorgente.
+ * Questo presidio confronta quell'impronta con l'EMR attuale:
+ *   · combacia   → i dati del sito vengono da QUESTA revisione dell'app;
+ *   · non combacia → l'app è cambiata e il sito non è stato rigenerato:
+ *     ROSSO, col comando esatto.
+ * Niente più regex su valori: il generatore esegue il codice, il presidio
+ * verifica la provenienza. ⚠️ Resta il confronto del RITAGLIO fra
+ * `aree-viso.ts` e `volti.mjs`: quello è un numero del sito, scritto in due
+ * posti, e i pallini finiscono fuori posto se divergono.
  *
- * ⚠️ È un modulo a sé, e si esegue anche da solo:
- *     node scripts/parita-viso.mjs
- * `collaudo.mjs` lo importa. Un presidio che gira solo dentro un collaudo da
- * due minuti con Playwright è un presidio che nessuno lancia mentre lavora.
+ * ⚖️ NON è più in parità, di proposito: il raggio d'aggancio (l'app usa la
+ * partizione a bande, la demo l'aggancio al centro più vicino — meccanismi
+ * diversi, dichiarati in `aree-viso.ts`).
+ *
+ * ⚠️ Modulo a sé, eseguibile da solo:  node scripts/parita-viso.mjs
+ * `collaudo.mjs` lo importa.
  */
-import { readFileSync, existsSync } from 'node:fs'
-import { fileURLToPath } from 'node:url'
+import { existsSync, readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+import { improntaSorgenti } from './rigenera-aree-viso.mjs'
 
 const QUI = dirname(fileURLToPath(import.meta.url))
-
-/** Le voci `{ code: 'x', label: 'y' }` di un array TypeScript dichiarato. */
-function leggiAree(testo, nomeArray) {
-  const blocco = testo.match(new RegExp(`${nomeArray}[^=]*=\\s*\\[([\\s\\S]*?)\\n\\]`))
-  if (!blocco) return null
-  const voci = [...blocco[1].matchAll(/code:\s*'([^']+)'\s*,\s*label:\s*'([^']+)'/g)]
-  return voci.length ? voci.map((m) => `${m[1]}=${m[2]}`) : null
-}
-
-/** Le voci `'codice': { x: n, y: n }` di una tabella di coordinate. */
-function leggiCoord(testo, nomeTabella) {
-  const blocco = testo.match(new RegExp(`${nomeTabella}[^=]*=\\s*\\{([\\s\\S]*?)\\n\\}`))
-  if (!blocco) return null
-  const voci = [...blocco[1].matchAll(/'([^']+)':\s*\{\s*x:\s*([\d.]+),\s*y:\s*([\d.]+)\s*\}/g)]
-  return voci.length ? voci.map((m) => `${m[1]}:${Number(m[2])},${Number(m[3])}`) : null
-}
-
-function confronta(problemi, che, atteso, trovato) {
-  // ⛔ Il modo in cui un presidio così diventa inutile: la lettura fallisce, i
-  // due insiemi sono entrambi vuoti, e «combaciano». Qui è rosso, non verde.
-  if (!atteso || !trovato) {
-    problemi.push(
-      `mappa del viso: non sono riuscito a leggere ${che} da uno dei due file — ` +
-        'il confronto NON è stato fatto (i regex in `parita-viso.mjs` non reggono più)',
-    )
-    return
-  }
-  const soloEmr = atteso.filter((v) => !trovato.includes(v))
-  const soloSito = trovato.filter((v) => !atteso.includes(v))
-  if (soloEmr.length || soloSito.length) {
-    problemi.push(
-      `mappa del viso: ${che} diverge fra applicazione e sito — ` +
-        (soloEmr.length ? `solo nell'EMR: ${soloEmr.slice(0, 4).join(' · ')}` : '') +
-        (soloEmr.length && soloSito.length ? ' | ' : '') +
-        (soloSito.length ? `solo nel sito: ${soloSito.slice(0, 4).join(' · ')}` : '') +
-        ' — riallinea `src/lib/aree-viso.ts` a `EMR/apps/web/src/lib/body-areas.ts`',
-    )
-  }
-}
 
 /**
  * Aggiunge a `problemi` ogni divergenza trovata.
@@ -70,10 +41,8 @@ function confronta(problemi, che, atteso, trovato) {
  * @param {(msg: string) => void} avvisa  come segnalare ciò che non si è potuto verificare
  */
 export function paritaMappaViso(problemi, avvisa = console.log) {
+  // (1) Il ritaglio è scritto in due posti e devono coincidere.
   const copia = readFileSync(join(QUI, '..', 'src/lib/aree-viso.ts'), 'utf8')
-
-  // (1) Il ritaglio è scritto in due posti e devono coincidere. Se scostano, i
-  //     pallini vanno fuori posto e nient'altro se ne accorge.
   const script = readFileSync(join(QUI, 'volti.mjs'), 'utf8')
   const numeri = (t) => t.match(/RITAGLIO\s*=\s*\{\s*x0:\s*([\d.]+),\s*larghezza:\s*([\d.]+)\s*\}/)
   const rc = numeri(copia)
@@ -87,32 +56,49 @@ export function paritaMappaViso(problemi, avvisa = console.log) {
     )
   }
 
-  // (2) Codici, etichette, coordinate e RAGGIO D'AGGANCIO contro l'originale.
-  const sorgente = join(QUI, '../../EMR/apps/web/src/lib/body-areas.ts')
+  // (2) I dati generati esistono e non sono vuoti.
+  const percorsoDati = join(QUI, '..', 'src/lib/aree-viso-dati.json')
+  if (!existsSync(percorsoDati)) {
+    problemi.push(
+      'mappa del viso: manca `src/lib/aree-viso-dati.json` — genera con ' +
+        '`node scripts/rigenera-aree-viso.mjs`',
+    )
+    return
+  }
+  let dati
+  try {
+    dati = JSON.parse(readFileSync(percorsoDati, 'utf8'))
+  } catch {
+    problemi.push('mappa del viso: `aree-viso-dati.json` non è JSON valido — rigenera')
+    return
+  }
+  if (!dati.aree?.length || !Object.keys(dati.coordDonna ?? {}).length || !Object.keys(dati.coordUomo ?? {}).length) {
+    // ⛔ Il modo in cui un presidio così diventa inutile: dati vuoti che
+    // «combaciano». Qui è rosso, non verde.
+    problemi.push('mappa del viso: i dati generati sono vuoti — rigenera e NON committare vuoto')
+    return
+  }
+
+  // (3) L'impronta: i dati vengono dalla revisione ATTUALE dell'applicazione?
+  const sorgente = join(QUI, '../../EMR/apps/web/src/lib/volto-mappa.ts')
   if (!existsSync(sorgente)) {
     avvisa('Mappa del viso: non verificata contro l’EMR (il sottomodulo non è in questo clone).')
     return
   }
-  const originale = readFileSync(sorgente, 'utf8')
-
-  // Il raggio entro cui un click si aggancia a un'area. ⚠️ Se qui fosse più
-  // generoso che nel prodotto, il sito mostrerebbe una precisione che
-  // l'applicazione non ha — cioè una promessa, che è il difetto che questo
-  // sito ha già pagato più volte.
-  const raggioEmr = originale.match(/maxDistance\s*=\s*([\d.]+)/)?.[1]
-  const raggioSito = copia.match(/RAGGIO_AGGANCIO\s*=\s*([\d.]+)/)?.[1]
-  if (!raggioEmr || !raggioSito) {
-    problemi.push('mappa del viso: non trovo il raggio d’aggancio in uno dei due file')
-  } else if (Number(raggioEmr) !== Number(raggioSito)) {
+  let attuale
+  try {
+    attuale = improntaSorgenti()
+  } catch (e) {
+    problemi.push(`mappa del viso: impronta dell'EMR non calcolabile (${e.message}) — il confronto NON è stato fatto`)
+    return
+  }
+  if (dati.revisione !== attuale) {
     problemi.push(
-      `mappa del viso: il raggio d’aggancio diverge — l'applicazione usa ${raggioEmr}, ` +
-        `il sito ${raggioSito}: la vetrina promette una precisione diversa da quella vera`,
+      `mappa del viso: l'applicazione è cambiata (impronta ${attuale}) e i dati del sito ` +
+        `vengono da ${dati.revisione ?? 'nessuna impronta'} — rigenera con ` +
+        '`node scripts/rigenera-aree-viso.mjs` e guarda la demo prima di committare',
     )
   }
-
-  confronta(problemi, 'le aree del volto', leggiAree(originale, 'FACE_AREAS'), leggiAree(copia, 'AREE_VISO'))
-  confronta(problemi, 'le coordinate donna', leggiCoord(originale, 'FACE_AREA_COORDS_FEMALE'), leggiCoord(copia, 'COORD_DONNA'))
-  confronta(problemi, 'le coordinate uomo', leggiCoord(originale, 'FACE_AREA_COORDS_MALE'), leggiCoord(copia, 'COORD_UOMO'))
 }
 
 // Eseguito direttamente: stampa l'esito e imposta il codice d'uscita.
@@ -124,6 +110,6 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     for (const p of problemi) console.log('  ' + p)
     process.exitCode = 1
   } else {
-    console.log('\x1b[32mMappa del viso: la copia nel sito è identica a quella dell’applicazione.\x1b[0m')
+    console.log('\x1b[32mMappa del viso: i dati del sito vengono dalla revisione attuale dell’applicazione.\x1b[0m')
   }
 }

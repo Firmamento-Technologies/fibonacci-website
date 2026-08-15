@@ -1,0 +1,922 @@
+{
+  "_generato": "da scripts/rigenera-aree-viso.mjs — ⛔ NON modificare a mano",
+  "revisione": "f52d2be6ec769582",
+  "aree": [
+    {
+      "code": "face.fronte.centrale",
+      "label": "Fronte centrale"
+    },
+    {
+      "code": "face.fronte.mediale.dx",
+      "label": "Fronte mediale dx"
+    },
+    {
+      "code": "face.fronte.mediale.sx",
+      "label": "Fronte mediale sx"
+    },
+    {
+      "code": "face.fronte.laterale.dx",
+      "label": "Fronte laterale dx"
+    },
+    {
+      "code": "face.fronte.laterale.sx",
+      "label": "Fronte laterale sx"
+    },
+    {
+      "code": "face.glabella",
+      "label": "Glabella"
+    },
+    {
+      "code": "face.tempie.dx",
+      "label": "Tempia dx"
+    },
+    {
+      "code": "face.tempie.sx",
+      "label": "Tempia sx"
+    },
+    {
+      "code": "face.sopracciglio.testa.dx",
+      "label": "Testa del sopracciglio dx"
+    },
+    {
+      "code": "face.sopracciglio.testa.sx",
+      "label": "Testa del sopracciglio sx"
+    },
+    {
+      "code": "face.sopracciglio.corpo.dx",
+      "label": "Corpo del sopracciglio dx"
+    },
+    {
+      "code": "face.sopracciglio.corpo.sx",
+      "label": "Corpo del sopracciglio sx"
+    },
+    {
+      "code": "face.sopracciglio.coda.dx",
+      "label": "Coda del sopracciglio dx"
+    },
+    {
+      "code": "face.sopracciglio.coda.sx",
+      "label": "Coda del sopracciglio sx"
+    },
+    {
+      "code": "face.palpebra-sup.dx",
+      "label": "Palpebra superiore dx"
+    },
+    {
+      "code": "face.palpebra-sup.sx",
+      "label": "Palpebra superiore sx"
+    },
+    {
+      "code": "face.palpebra-inf.dx",
+      "label": "Palpebra inferiore dx"
+    },
+    {
+      "code": "face.palpebra-inf.sx",
+      "label": "Palpebra inferiore sx"
+    },
+    {
+      "code": "face.solco-lacrimale.dx",
+      "label": "Solco lacrimale dx"
+    },
+    {
+      "code": "face.solco-lacrimale.sx",
+      "label": "Solco lacrimale sx"
+    },
+    {
+      "code": "face.solco-palpebro-malare.dx",
+      "label": "Solco palpebro-malare dx"
+    },
+    {
+      "code": "face.solco-palpebro-malare.sx",
+      "label": "Solco palpebro-malare sx"
+    },
+    {
+      "code": "face.canto-laterale.dx",
+      "label": "Zampe di gallina dx"
+    },
+    {
+      "code": "face.canto-laterale.sx",
+      "label": "Zampe di gallina sx"
+    },
+    {
+      "code": "face.naso.radice",
+      "label": "Radice del naso"
+    },
+    {
+      "code": "face.naso.dorso",
+      "label": "Dorso del naso"
+    },
+    {
+      "code": "face.naso.parete-laterale.dx",
+      "label": "Parete laterale del naso dx"
+    },
+    {
+      "code": "face.naso.parete-laterale.sx",
+      "label": "Parete laterale del naso sx"
+    },
+    {
+      "code": "face.naso.punta",
+      "label": "Punta del naso"
+    },
+    {
+      "code": "face.naso.ala.dx",
+      "label": "Ala nasale dx"
+    },
+    {
+      "code": "face.naso.ala.sx",
+      "label": "Ala nasale sx"
+    },
+    {
+      "code": "face.naso.triangolo-molle.dx",
+      "label": "Triangolo molle dx"
+    },
+    {
+      "code": "face.naso.triangolo-molle.sx",
+      "label": "Triangolo molle sx"
+    },
+    {
+      "code": "face.naso.columella",
+      "label": "Columella"
+    },
+    {
+      "code": "face.naso.base",
+      "label": "Base del naso"
+    },
+    {
+      "code": "face.zigomo.arco.dx",
+      "label": "Arco zigomatico dx"
+    },
+    {
+      "code": "face.zigomo.arco.sx",
+      "label": "Arco zigomatico sx"
+    },
+    {
+      "code": "face.zigomo.eminenza.dx",
+      "label": "Eminenza zigomatica dx"
+    },
+    {
+      "code": "face.zigomo.eminenza.sx",
+      "label": "Eminenza zigomatica sx"
+    },
+    {
+      "code": "face.guancia.anteromediale.dx",
+      "label": "Guancia anteromediale dx"
+    },
+    {
+      "code": "face.guancia.anteromediale.sx",
+      "label": "Guancia anteromediale sx"
+    },
+    {
+      "code": "face.guancia.laterale.dx",
+      "label": "Guancia laterale dx"
+    },
+    {
+      "code": "face.guancia.laterale.sx",
+      "label": "Guancia laterale sx"
+    },
+    {
+      "code": "face.guancia.submalare.dx",
+      "label": "Regione submalare dx"
+    },
+    {
+      "code": "face.guancia.submalare.sx",
+      "label": "Regione submalare sx"
+    },
+    {
+      "code": "face.solco-naso-genieno.dx",
+      "label": "Solco naso-genieno dx"
+    },
+    {
+      "code": "face.solco-naso-genieno.sx",
+      "label": "Solco naso-genieno sx"
+    },
+    {
+      "code": "face.labbro-sup.cutaneo.dx",
+      "label": "Labbro superiore cutaneo dx"
+    },
+    {
+      "code": "face.labbro-sup.cutaneo.sx",
+      "label": "Labbro superiore cutaneo sx"
+    },
+    {
+      "code": "face.filtro",
+      "label": "Filtro"
+    },
+    {
+      "code": "face.colonna-filtrale.dx",
+      "label": "Colonna filtrale dx"
+    },
+    {
+      "code": "face.colonna-filtrale.sx",
+      "label": "Colonna filtrale sx"
+    },
+    {
+      "code": "face.arco-di-cupido",
+      "label": "Arco di Cupido"
+    },
+    {
+      "code": "face.labbro-sup.vermiglio",
+      "label": "Vermiglio labbro superiore"
+    },
+    {
+      "code": "face.labbro-inf.vermiglio",
+      "label": "Vermiglio labbro inferiore"
+    },
+    {
+      "code": "face.commissura.dx",
+      "label": "Commissura orale dx"
+    },
+    {
+      "code": "face.commissura.sx",
+      "label": "Commissura orale sx"
+    },
+    {
+      "code": "face.labbro-inf.cutaneo",
+      "label": "Labbro inferiore cutaneo"
+    },
+    {
+      "code": "face.codici-marionetta.dx",
+      "label": "Linea della marionetta dx"
+    },
+    {
+      "code": "face.codici-marionetta.sx",
+      "label": "Linea della marionetta sx"
+    },
+    {
+      "code": "face.solco-labio-mentoniero",
+      "label": "Solco labio-mentoniero"
+    },
+    {
+      "code": "face.mento",
+      "label": "Mento"
+    },
+    {
+      "code": "face.mento.laterale.dx",
+      "label": "Mento laterale dx"
+    },
+    {
+      "code": "face.mento.laterale.sx",
+      "label": "Mento laterale sx"
+    },
+    {
+      "code": "face.prejowl.dx",
+      "label": "Solco pre-giugale dx"
+    },
+    {
+      "code": "face.prejowl.sx",
+      "label": "Solco pre-giugale sx"
+    },
+    {
+      "code": "face.mandibola.dx",
+      "label": "Corpo mandibolare dx"
+    },
+    {
+      "code": "face.mandibola.sx",
+      "label": "Corpo mandibolare sx"
+    },
+    {
+      "code": "face.mandibola.angolo.dx",
+      "label": "Angolo mandibolare dx"
+    },
+    {
+      "code": "face.mandibola.angolo.sx",
+      "label": "Angolo mandibolare sx"
+    },
+    {
+      "code": "face.massetere.dx",
+      "label": "Massetere dx"
+    },
+    {
+      "code": "face.massetere.sx",
+      "label": "Massetere sx"
+    },
+    {
+      "code": "face.pre-auricolare.dx",
+      "label": "Regione pre-auricolare dx"
+    },
+    {
+      "code": "face.pre-auricolare.sx",
+      "label": "Regione pre-auricolare sx"
+    },
+    {
+      "code": "face.sottomento",
+      "label": "Sottomento"
+    },
+    {
+      "code": "face.collo",
+      "label": "Collo"
+    }
+  ],
+  "coordDonna": {
+    "face.tempie.dx": {
+      "x": 0.4005566533065907,
+      "y": 0.2816940224295462
+    },
+    "face.fronte.laterale.dx": {
+      "x": 0.42476165,
+      "y": 0.25980000000000003
+    },
+    "face.fronte.mediale.dx": {
+      "x": 0.45289999999999997,
+      "y": 0.25980000000000003
+    },
+    "face.fronte.centrale": {
+      "x": 0.4965,
+      "y": 0.25980000000000003
+    },
+    "face.fronte.mediale.sx": {
+      "x": 0.5401,
+      "y": 0.25980000000000003
+    },
+    "face.fronte.laterale.sx": {
+      "x": 0.56823835,
+      "y": 0.25980000000000003
+    },
+    "face.tempie.sx": {
+      "x": 0.5924433466934093,
+      "y": 0.28169402242954605
+    },
+    "face.sopracciglio.coda.dx": {
+      "x": 0.41886475,
+      "y": 0.35631999999999997
+    },
+    "face.sopracciglio.corpo.dx": {
+      "x": 0.43655,
+      "y": 0.35632
+    },
+    "face.sopracciglio.testa.dx": {
+      "x": 0.45562499999999995,
+      "y": 0.35632
+    },
+    "face.glabella": {
+      "x": 0.4965,
+      "y": 0.35632
+    },
+    "face.sopracciglio.testa.sx": {
+      "x": 0.5373749999999999,
+      "y": 0.35632
+    },
+    "face.sopracciglio.corpo.sx": {
+      "x": 0.55645,
+      "y": 0.3563200000000001
+    },
+    "face.sopracciglio.coda.sx": {
+      "x": 0.5741352500000001,
+      "y": 0.35631999999999997
+    },
+    "face.canto-laterale.dx": {
+      "x": 0.404853312133371,
+      "y": 0.42489069400721824
+    },
+    "face.palpebra-sup.dx": {
+      "x": 0.444725,
+      "y": 0.39712000000000003
+    },
+    "face.naso.radice": {
+      "x": 0.4964999999999999,
+      "y": 0.40836022046774917
+    },
+    "face.palpebra-sup.sx": {
+      "x": 0.548275,
+      "y": 0.39712000000000003
+    },
+    "face.canto-laterale.sx": {
+      "x": 0.5881466878666288,
+      "y": 0.42489069400721813
+    },
+    "face.palpebra-inf.dx": {
+      "x": 0.4400925,
+      "y": 0.4283
+    },
+    "face.naso.parete-laterale.dx": {
+      "x": 0.468705,
+      "y": 0.46659999999999996
+    },
+    "face.naso.parete-laterale.sx": {
+      "x": 0.524295,
+      "y": 0.4666
+    },
+    "face.palpebra-inf.sx": {
+      "x": 0.5529075,
+      "y": 0.4283
+    },
+    "face.solco-palpebro-malare.dx": {
+      "x": 0.4297375,
+      "y": 0.4567
+    },
+    "face.solco-lacrimale.dx": {
+      "x": 0.45235500000000006,
+      "y": 0.45669999999999994
+    },
+    "face.naso.dorso": {
+      "x": 0.4964999999999999,
+      "y": 0.4786999999999999
+    },
+    "face.solco-lacrimale.sx": {
+      "x": 0.540645,
+      "y": 0.45669999999999994
+    },
+    "face.solco-palpebro-malare.sx": {
+      "x": 0.5632625,
+      "y": 0.4567
+    },
+    "face.zigomo.arco.dx": {
+      "x": 0.4022695,
+      "y": 0.495
+    },
+    "face.zigomo.eminenza.dx": {
+      "x": 0.42297949999999995,
+      "y": 0.49499999999999994
+    },
+    "face.guancia.anteromediale.dx": {
+      "x": 0.4442705141484934,
+      "y": 0.5334129577101598
+    },
+    "face.guancia.anteromediale.sx": {
+      "x": 0.5487294858515066,
+      "y": 0.5334129577101598
+    },
+    "face.zigomo.eminenza.sx": {
+      "x": 0.5700205,
+      "y": 0.49499999999999994
+    },
+    "face.zigomo.arco.sx": {
+      "x": 0.5907305,
+      "y": 0.495
+    },
+    "face.pre-auricolare.dx": {
+      "x": 0.40226950000000006,
+      "y": 0.537
+    },
+    "face.guancia.submalare.dx": {
+      "x": 0.41928282782327403,
+      "y": 0.5801186826485847
+    },
+    "face.naso.ala.dx": {
+      "x": 0.47006749999999997,
+      "y": 0.537
+    },
+    "face.naso.punta": {
+      "x": 0.4965,
+      "y": 0.53
+    },
+    "face.naso.ala.sx": {
+      "x": 0.5229325,
+      "y": 0.5370000000000001
+    },
+    "face.guancia.submalare.sx": {
+      "x": 0.573717172176726,
+      "y": 0.5801186826485848
+    },
+    "face.pre-auricolare.sx": {
+      "x": 0.5907305,
+      "y": 0.537
+    },
+    "face.solco-naso-genieno.dx": {
+      "x": 0.4569875,
+      "y": 0.5814999999999999
+    },
+    "face.naso.triangolo-molle.dx": {
+      "x": 0.482875,
+      "y": 0.55
+    },
+    "face.naso.columella": {
+      "x": 0.4965,
+      "y": 0.55
+    },
+    "face.naso.triangolo-molle.sx": {
+      "x": 0.5101249999999999,
+      "y": 0.55
+    },
+    "face.solco-naso-genieno.sx": {
+      "x": 0.5360125,
+      "y": 0.5814999999999999
+    },
+    "face.guancia.laterale.dx": {
+      "x": 0.4024220487272981,
+      "y": 0.5919537051773799
+    },
+    "face.labbro-sup.cutaneo.dx": {
+      "x": 0.47157342105263156,
+      "y": 0.5763421052631579
+    },
+    "face.naso.base": {
+      "x": 0.49650000000000005,
+      "y": 0.5619000000000001
+    },
+    "face.labbro-sup.cutaneo.sx": {
+      "x": 0.5214265789473683,
+      "y": 0.5763421052631579
+    },
+    "face.guancia.laterale.sx": {
+      "x": 0.5905779512727019,
+      "y": 0.59195370517738
+    },
+    "face.colonna-filtrale.dx": {
+      "x": 0.48233000000000004,
+      "y": 0.5814999999999999
+    },
+    "face.filtro": {
+      "x": 0.4965,
+      "y": 0.5814999999999999
+    },
+    "face.colonna-filtrale.sx": {
+      "x": 0.51067,
+      "y": 0.5814999999999999
+    },
+    "face.commissura.dx": {
+      "x": 0.44935749999999997,
+      "y": 0.6301999999999999
+    },
+    "face.labbro-sup.vermiglio": {
+      "x": 0.4965,
+      "y": 0.6139563686492401
+    },
+    "face.arco-di-cupido": {
+      "x": 0.4965,
+      "y": 0.6014666666666666
+    },
+    "face.commissura.sx": {
+      "x": 0.5436425,
+      "y": 0.6302
+    },
+    "face.massetere.dx": {
+      "x": 0.4145163027121892,
+      "y": 0.6624740974384588
+    },
+    "face.codici-marionetta.dx": {
+      "x": 0.4375659980209757,
+      "y": 0.6616620776692981
+    },
+    "face.labbro-inf.vermiglio": {
+      "x": 0.49649999999999994,
+      "y": 0.6461
+    },
+    "face.codici-marionetta.sx": {
+      "x": 0.5554340019790244,
+      "y": 0.6616620776692981
+    },
+    "face.massetere.sx": {
+      "x": 0.5784836972878108,
+      "y": 0.6624740974384586
+    },
+    "face.mandibola.dx": {
+      "x": 0.4398797230828625,
+      "y": 0.6996986378443206
+    },
+    "face.mento.laterale.dx": {
+      "x": 0.4638694955245856,
+      "y": 0.6970911217641418
+    },
+    "face.labbro-inf.cutaneo": {
+      "x": 0.4965,
+      "y": 0.6722
+    },
+    "face.mento.laterale.sx": {
+      "x": 0.5291305044754143,
+      "y": 0.6970911217641418
+    },
+    "face.mandibola.sx": {
+      "x": 0.5531202769171375,
+      "y": 0.6996986378443207
+    },
+    "face.solco-labio-mentoniero": {
+      "x": 0.4965,
+      "y": 0.68988
+    },
+    "face.mandibola.angolo.dx": {
+      "x": 0.44439909000000005,
+      "y": 0.71828
+    },
+    "face.prejowl.dx": {
+      "x": 0.4613041725,
+      "y": 0.71828
+    },
+    "face.mento": {
+      "x": 0.4965,
+      "y": 0.71828
+    },
+    "face.prejowl.sx": {
+      "x": 0.5316958274999999,
+      "y": 0.71828
+    },
+    "face.mandibola.angolo.sx": {
+      "x": 0.54860091,
+      "y": 0.71828
+    },
+    "face.collo": {
+      "x": 0.49650000000000005,
+      "y": 0.8411102121683602
+    },
+    "face.sottomento": {
+      "x": 0.4965,
+      "y": 0.7537750000000001
+    }
+  },
+  "coordUomo": {
+    "face.tempie.dx": {
+      "x": 0.4033664325700368,
+      "y": 0.2750512455159584
+    },
+    "face.fronte.laterale.dx": {
+      "x": 0.427332532,
+      "y": 0.25392000000000003
+    },
+    "face.fronte.mediale.dx": {
+      "x": 0.4552199999999999,
+      "y": 0.25392000000000003
+    },
+    "face.fronte.centrale": {
+      "x": 0.4985,
+      "y": 0.25392000000000003
+    },
+    "face.fronte.mediale.sx": {
+      "x": 0.54178,
+      "y": 0.25392000000000003
+    },
+    "face.fronte.laterale.sx": {
+      "x": 0.569667468,
+      "y": 0.25392000000000003
+    },
+    "face.tempie.sx": {
+      "x": 0.5936335674299633,
+      "y": 0.27505124551595844
+    },
+    "face.sopracciglio.coda.dx": {
+      "x": 0.42143455,
+      "y": 0.35978
+    },
+    "face.sopracciglio.corpo.dx": {
+      "x": 0.43899,
+      "y": 0.35978
+    },
+    "face.sopracciglio.testa.dx": {
+      "x": 0.45792499999999997,
+      "y": 0.35978
+    },
+    "face.glabella": {
+      "x": 0.49849999999999994,
+      "y": 0.35978
+    },
+    "face.sopracciglio.testa.sx": {
+      "x": 0.539075,
+      "y": 0.35978
+    },
+    "face.sopracciglio.corpo.sx": {
+      "x": 0.55801,
+      "y": 0.35978
+    },
+    "face.sopracciglio.coda.sx": {
+      "x": 0.57556545,
+      "y": 0.35978
+    },
+    "face.canto-laterale.dx": {
+      "x": 0.40653,
+      "y": 0.4259072727272728
+    },
+    "face.palpebra-sup.dx": {
+      "x": 0.447105,
+      "y": 0.39746000000000004
+    },
+    "face.naso.radice": {
+      "x": 0.4985,
+      "y": 0.40874146771195347
+    },
+    "face.palpebra-sup.sx": {
+      "x": 0.549895,
+      "y": 0.39746000000000004
+    },
+    "face.canto-laterale.sx": {
+      "x": 0.59047,
+      "y": 0.4259072727272728
+    },
+    "face.palpebra-inf.dx": {
+      "x": 0.4425065,
+      "y": 0.4263
+    },
+    "face.naso.parete-laterale.dx": {
+      "x": 0.47090899999999997,
+      "y": 0.46472727272727266
+    },
+    "face.naso.parete-laterale.sx": {
+      "x": 0.5260910000000001,
+      "y": 0.46472727272727277
+    },
+    "face.palpebra-inf.sx": {
+      "x": 0.5544935,
+      "y": 0.4263
+    },
+    "face.solco-palpebro-malare.dx": {
+      "x": 0.4322275,
+      "y": 0.45474727272727283
+    },
+    "face.solco-lacrimale.dx": {
+      "x": 0.45467899999999994,
+      "y": 0.4547472727272727
+    },
+    "face.naso.dorso": {
+      "x": 0.49850000000000005,
+      "y": 0.4768272727272727
+    },
+    "face.solco-lacrimale.sx": {
+      "x": 0.542321,
+      "y": 0.4547472727272727
+    },
+    "face.solco-palpebro-malare.sx": {
+      "x": 0.5647725,
+      "y": 0.4547472727272728
+    },
+    "face.zigomo.arco.dx": {
+      "x": 0.40249955000000004,
+      "y": 0.4931745454545454
+    },
+    "face.zigomo.eminenza.dx": {
+      "x": 0.42359855,
+      "y": 0.49317454545454537
+    },
+    "face.guancia.anteromediale.dx": {
+      "x": 0.4448373581364136,
+      "y": 0.5402886006039803
+    },
+    "face.guancia.anteromediale.sx": {
+      "x": 0.5521626418635863,
+      "y": 0.5402886006039802
+    },
+    "face.zigomo.eminenza.sx": {
+      "x": 0.57340145,
+      "y": 0.49317454545454537
+    },
+    "face.zigomo.arco.sx": {
+      "x": 0.59450045,
+      "y": 0.4931745454545454
+    },
+    "face.pre-auricolare.dx": {
+      "x": 0.40249955,
+      "y": 0.5353272727272728
+    },
+    "face.guancia.submalare.dx": {
+      "x": 0.4186496422395774,
+      "y": 0.5770179812540599
+    },
+    "face.naso.ala.dx": {
+      "x": 0.47226150000000006,
+      "y": 0.5353272727272728
+    },
+    "face.naso.punta": {
+      "x": 0.4985,
+      "y": 0.5283018181818182
+    },
+    "face.naso.ala.sx": {
+      "x": 0.5247385000000001,
+      "y": 0.5353272727272728
+    },
+    "face.guancia.submalare.sx": {
+      "x": 0.5783503577604227,
+      "y": 0.5770179812540598
+    },
+    "face.pre-auricolare.sx": {
+      "x": 0.59450045,
+      "y": 0.5353272727272727
+    },
+    "face.solco-naso-genieno.dx": {
+      "x": 0.4592775,
+      "y": 0.5901083333333333
+    },
+    "face.naso.triangolo-molle.dx": {
+      "x": 0.48497500000000004,
+      "y": 0.5483745454545454
+    },
+    "face.naso.columella": {
+      "x": 0.49850000000000005,
+      "y": 0.5483745454545454
+    },
+    "face.naso.triangolo-molle.sx": {
+      "x": 0.512025,
+      "y": 0.5483745454545454
+    },
+    "face.solco-naso-genieno.sx": {
+      "x": 0.5377225,
+      "y": 0.5901083333333333
+    },
+    "face.guancia.laterale.dx": {
+      "x": 0.4011716024250506,
+      "y": 0.5936536831587439
+    },
+    "face.labbro-sup.cutaneo.dx": {
+      "x": 0.4737563684210526,
+      "y": 0.5828013157894738
+    },
+    "face.naso.base": {
+      "x": 0.4985,
+      "y": 0.5623416666666667
+    },
+    "face.labbro-sup.cutaneo.sx": {
+      "x": 0.5232436315789474,
+      "y": 0.5828013157894737
+    },
+    "face.guancia.laterale.sx": {
+      "x": 0.5958283975749493,
+      "y": 0.5936536831587441
+    },
+    "face.colonna-filtrale.dx": {
+      "x": 0.48443400000000003,
+      "y": 0.5901083333333333
+    },
+    "face.filtro": {
+      "x": 0.4985,
+      "y": 0.5901083333333333
+    },
+    "face.colonna-filtrale.sx": {
+      "x": 0.5125660000000001,
+      "y": 0.5901083333333333
+    },
+    "face.commissura.dx": {
+      "x": 0.4517034999999999,
+      "y": 0.6330733333333334
+    },
+    "face.labbro-sup.vermiglio": {
+      "x": 0.4985,
+      "y": 0.623079620812787
+    },
+    "face.arco-di-cupido": {
+      "x": 0.49849999999999994,
+      "y": 0.61525
+    },
+    "face.commissura.sx": {
+      "x": 0.5452965000000001,
+      "y": 0.6330733333333334
+    },
+    "face.massetere.dx": {
+      "x": 0.41610712879272743,
+      "y": 0.6674105294307818
+    },
+    "face.codici-marionetta.dx": {
+      "x": 0.4396271917204333,
+      "y": 0.664607289504723
+    },
+    "face.labbro-inf.vermiglio": {
+      "x": 0.4985,
+      "y": 0.6438066666666666
+    },
+    "face.codici-marionetta.sx": {
+      "x": 0.5573728082795668,
+      "y": 0.6646072895047228
+    },
+    "face.massetere.sx": {
+      "x": 0.5808928712072726,
+      "y": 0.6674105294307818
+    },
+    "face.mandibola.dx": {
+      "x": 0.4444064102093727,
+      "y": 0.7124646289032444
+    },
+    "face.mento.laterale.dx": {
+      "x": 0.4673732873785724,
+      "y": 0.7083026176732836
+    },
+    "face.labbro-inf.cutaneo": {
+      "x": 0.49850000000000005,
+      "y": 0.6647466666666667
+    },
+    "face.mento.laterale.sx": {
+      "x": 0.5296267126214275,
+      "y": 0.7083026176732836
+    },
+    "face.mandibola.sx": {
+      "x": 0.5525935897906272,
+      "y": 0.7124646289032445
+    },
+    "face.solco-labio-mentoniero": {
+      "x": 0.4985,
+      "y": 0.69044
+    },
+    "face.mandibola.angolo.dx": {
+      "x": 0.4501887000000001,
+      "y": 0.7408
+    },
+    "face.prejowl.dx": {
+      "x": 0.46586417500000005,
+      "y": 0.7408
+    },
+    "face.mento": {
+      "x": 0.49850000000000005,
+      "y": 0.7408
+    },
+    "face.prejowl.sx": {
+      "x": 0.531135825,
+      "y": 0.7408
+    },
+    "face.mandibola.angolo.sx": {
+      "x": 0.5468112999999999,
+      "y": 0.7408
+    },
+    "face.collo": {
+      "x": 0.49849999999999994,
+      "y": 0.8750073949408403
+    },
+    "face.sottomento": {
+      "x": 0.4985000000000001,
+      "y": 0.7910416666666666
+    }
+  }
+}
