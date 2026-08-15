@@ -140,6 +140,17 @@ if __name__ == "__main__":
     lucchetto = threading.Lock()
     fermati = threading.Event()
     guasti = [0]   # ⚠️ lista, ⛔ non int: va mutato da dentro `lavora`
+    # 🔑 **Presidio di RESA GLOBALE — richiesta dell'utente: «evitiamo di
+    # rifarlo se non otteniamo nulla».** La regola per località ⛔ non basta:
+    # chiude *una* città alla volta, ⛔ ma se l'intero giro sta arando terreno
+    # già battuto continua a spendere passando da una città all'altra.
+    # ⚠️ Misurato il 2026-08-15: rifacendo alla cieca le ricerche già fatte la
+    # resa era **0,08 domini/ricerca** contro gli 0,33-0,63 delle corse vere —
+    # ⛔ nessun errore, ⛔ nessun allarme, solo soldi che uscivano.
+    # ⇒ finestra sulle **ultime 300 ricerche**: sotto **0,03 domini/ricerca**
+    # (≈ $0,02 per dominio, cinque volte il costo normale) si ferma da sola.
+    ultime = []   # 1 = ha reso, 0 = no
+    RESA_MINIMA, FINESTRA_GLOBALE = 0.03, 300
     PARALLELI = int(os.environ.get("BD_PARALLELI", "6"))
     print(f"  {len(bersagli)} località · {PARALLELI} in parallelo", flush=True)
 
@@ -222,6 +233,20 @@ if __name__ == "__main__":
                 # finché ⛔ non si rilegge. ⚠️ E si scrive **ogni 10**, ⛔ non ad
                 # ogni ricerca: a 6 thread erano 6 riscritture al secondo di un
                 # file da 250 KB.
+                ultime.append(1 if nuovi else 0)
+                if len(ultime) >= FINESTRA_GLOBALE:
+                    resa = sum(ultime[-FINESTRA_GLOBALE:]) / FINESTRA_GLOBALE
+                    if resa < RESA_MINIMA:
+                        print(f"\n⛔ FERMO — resa globale {resa:.3f} domini/ricerca sulle ultime "
+                              f"{FINESTRA_GLOBALE}, sotto la soglia {RESA_MINIMA}.\n"
+                              f"   Il giro sta arando terreno già battuto: continuare spende e\n"
+                              f"   ⛔ non produce. Speso finora ${speso:.2f}.\n"
+                              f"   ✅ Stato salvato: ciò che manca resta da fare, ⛔ non perso.",
+                              flush=True)
+                        json.dump(st, open(STATO, "w", encoding="utf-8"),
+                                  ensure_ascii=False, indent=1)
+                        fermati.set()
+                        return
                 if len(st["fatte"]) % 10 == 0 or nuovi or chiusa:
                     json.dump(st, open(STATO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
                 print(f"  {sigla:22} «{m.format(c=citta)[:38]}» +{nuovi} → {len(st['domini'])}"
