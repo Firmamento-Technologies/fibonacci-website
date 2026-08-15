@@ -99,8 +99,30 @@ const daEscludere = (h) => !h || ESCLUSI.has(h) || [...ESCLUSI].some(e => h === 
 let fatteOra = 0, nuoviTot = 0, errori = 0, salvaOgni = 0;
 const salva = () => fs.writeFileSync(STATO, JSON.stringify(st, null, 1));
 
+/** ⚠️ **Un guasto dell'account ⛔ non è un errore di rete, e ⛔ non va ritentato.**
+ * Il 2026-08-15 la corsa è morta dopo 82 ricerche con *«Account is suspended»*
+ * sepolto in uno **stack trace di WebSocket**: illeggibile, e indistinguibile
+ * da un timeout qualsiasi. ⇒ si riconosce e si esce **dicendo cosa fare**,
+ * perché ⛔ nessuna riconnessione lo risolve — il rimedio è **fuori dal codice**. */
+function fermaSeAccountGuasto(e) {
+  const m = String(e && e.message || e);
+  for (const segno of ['Account is suspended', 'suspended', 'Forbidden', 'auth failed',
+                       'Invalid credentials', 'unauthorized']) {
+    if (m.toLowerCase().includes(segno.toLowerCase())) {
+      console.error(`\n⛔ FERMO — Bright Data rifiuta la connessione: «${segno}».\n` +
+                    `   ⛔ Non è un guasto di rete e ritentare ⛔ non serve.\n` +
+                    `   Guarda il cruscotto Bright Data: credito, stato dell'account, zona.\n` +
+                    `   ✅ Lo stato è salvato: al prossimo avvio riprende da dove si è fermato.`);
+      salva();
+      process.exit(2);
+    }
+  }
+}
+
 async function nuovoBrowser() {
-  const b = await chromium.connectOverCDP(WSS, { timeout: 90000 });
+  const b = await chromium.connectOverCDP(WSS, { timeout: 90000 }).catch(e => {
+    fermaSeAccountGuasto(e); throw e;
+  });
   const ctx = await b.newContext();
   // ⛔ Immagini, font e media **non si scaricano**: si paga a GB e di questa
   // pagina servono **solo i link**. È la sola leva sul costo che abbiamo qui.
