@@ -277,11 +277,32 @@ MODELLI_PROFONDI = [
     "onde d urto cellulite {c}", "laser co2 frazionato {c}", "hifu {c} lifting",
     "ultherapy {c}", "morpheus8 {c}", "emsculpt {c}",
 ]
+# 🔑 **Quattro modelli su 85 cercavano una persona, e infatti le persone erano
+# 324 su 1.986.** ⚠️ Il difetto ⛔ non era solo la classificazione (corretta il
+# 2026-08-15: +326 professionisti recuperati **dalle schede già raccolte**):
+# metà del problema è **a monte**, nella domanda che si fa al motore. «studio
+# medicina estetica {c}» trova insegne; un libero professionista ⛔ non ha
+# un'insegna — ha **un titolo, un albo e un cognome**.
+# ⇒ i modelli qui sotto cercano *come si presenta una persona*, ⛔ non una
+# struttura. Misurato sul motore prima di scriverli: `"medico estetico" Milano
+# "iscritto all'albo"` rende **9 host** contro i 2 di una query con `site:`.
 MODELLI_PROFESSIONISTI = [
     "medico estetico {c} studio privato",
     "dottoressa medicina estetica {c} studio",
     "specialista medicina estetica {c} visita",
     "medico estetico {c} filler labbra",
+    # ⚠️ Le virgolette **contano**: senza, il motore allarga a «medicina
+    # estetica» generico e torna la stessa manciata di portali.
+    '"medico estetico" {c} "iscritto all\'albo"',
+    '"medicina estetica" {c} "ordine dei medici"',
+    "dott medicina estetica {c} sito ufficiale",
+    "dott.ssa medicina estetica {c} studio",
+    "specialista in medicina estetica {c} curriculum",
+    "chirurgo plastico {c} studio privato",
+    "dermatologo {c} medicina estetica studio",
+    "medico estetico {c} biografia formazione",
+    "medico chirurgo estetico {c} riceve su appuntamento",
+    "medicina estetica {c} dott visita privata",
 ]
 
 def scopri(citta, pausa=4.0):
@@ -1555,6 +1576,26 @@ if __name__ == "__main__":
         sys.exit(0)
     if "--riclassifica" in arg:
         riclassifica(prova="--scrivi" not in arg)
+        sys.exit(0)
+    if "--riapri" in arg:
+        # 🔑 Una località «esaurita» lo è **rispetto ai modelli di allora**.
+        # Aggiungerne di nuovi (2026-08-15: 10 modelli per i liberi
+        # professionisti) ⛔ non li fa girare da solo: il ciclo salta ciò che sta
+        # in `chiuse`, e quei modelli ⛔ non verrebbero provati **mai più**.
+        # 🔴 **⛔ Non si tocca mentre la scoperta gira**: il processo tiene lo
+        # stato **in memoria** e lo riscrive al primo salvataggio ⇒ la riapertura
+        # sparirebbe **senza un errore**, e me ne accorgerei solo contando le
+        # ricerche che ⛔ non sono state fatte.
+        eta = time.time() - os.path.getmtime(STATO_P6) if os.path.exists(STATO_P6) else 1e9
+        if eta < 180:
+            raise SystemExit(f"⛔ `{os.path.basename(STATO_P6)}` scritto {eta:.0f}s fa: "
+                             "la scoperta sta girando. Fermala, poi riapri.")
+        st = carica_stato()
+        quante = len(st.get("chiuse", []))
+        st["chiuse"], st["resa"] = [], {}
+        salva_stato(st)
+        print(f"✅ riaperte {quante} località · {len(st['fatte'])} ricerche già fatte restano "
+              f"tali (⛔ non si rifanno), i modelli nuovi girano su tutte")
         sys.exit(0)
     if "--leggi-stato" in arg:
         n = [a for a in arg if a.isdigit()]
