@@ -11,10 +11,7 @@ Un chiarimento prima di tutto: l'analisi non produce un punteggio di bellezza, e
 
 ## Dove si trova
 
-Due strade, entrambe dalla cartella del paziente:
-
-- il pulsante `Analisi del volto` nella barra in alto, accanto alle esportazioni, visibile da ogni scheda;
-- lo stesso pulsante in testa alla scheda `Foto`, dove il medico si trova quando pensa alle fotografie.
+Il pulsante `Analisi del volto` sta nella barra in alto della cartella del paziente, accanto a `Dati e persone` e al menu `Esporta`, ed è visibile da qualunque scheda.
 
 ## Che cosa misura, e su quale foto
 
@@ -47,6 +44,18 @@ Tre regole della serie:
 
 L'analisi lavora sugli scatti frontali (e su quelli senza vista indicata); se altri scatti sono esclusi, la pagina dice quanti.
 
+## Salvare le misure in cartella, e leggerle nel tempo
+
+Le misure si ricalcolano dalla fotografia a ogni apertura; **in cartella entrano solo se il medico le salva**, con il pulsante `Salva in cartella` sotto i numeri. È un gesto esplicito di proposito: un numero prodotto da un modello entra nella documentazione clinica solo per decisione del medico, e la registrazione dichiara da sé chi ha misurato (il modello, nel browser), da quale fotografia e chi ha deciso di salvare.
+
+Tre regole del salvataggio:
+
+- la data clinica della misura è quella **dello scatto**, non del giorno in cui si salva;
+- ri-salvare la stessa fotografia **aggiorna** la registrazione esistente, non ne crea una seconda;
+- uno scatto marcato «da ripetere» (capo ruotato) **non si può salvare**: i suoi numeri non sono confrontabili e in una serie storica farebbero danno.
+
+Dal secondo salvataggio in poi la pagina mostra la sezione **Nel tempo**: una piccola serie per ogni misura, sulle date reali degli scatti, con il valore più recente e la differenza dal primo. È il confronto del volto con sé stesso — quello che questa pagina mette al centro — esteso oltre la coppia di fotografie.
+
 ## Registrare il PGAIS dal confronto
 
 Scelte due fotografie (la prima scelta è lo scatto in esame, la seconda il confronto), la sezione «Che cosa è cambiato» mostra le differenze — e il pulsante `Registra PGAIS`. Il PGAIS è il giudizio del medico sul risultato, dato **confrontando le fotografie pre e post**: registrarlo da qui significa registrare anche quali due scatti si stavano guardando, senza ricopiare date.
@@ -61,7 +70,7 @@ La risposta è un'etichetta («Molto migliorato», «Migliorato», …), mai un 
 
 ## Domande frequenti
 
-**Le misure vengono salvate in cartella?** No: oggi si ricalcolano a ogni apertura della pagina, dalle fotografie. Le fotografie e il PGAIS invece restano in cartella.
+**Le misure vengono salvate in cartella?** Solo se il medico le salva, con il pulsante dedicato: si ricalcolano dalla fotografia a ogni apertura, e la copia in cartella dichiara chi ha misurato e da quale scatto. Vedi «Salvare le misure in cartella».
 
 **L'analisi manda la foto a un servizio esterno?** No. Il modello di punti di repere gira nel browser; la fotografia resta cifrata nel sistema e viene decifrata solo per chi ha diritto di vederla, come per ogni altra foto clinica.
 
