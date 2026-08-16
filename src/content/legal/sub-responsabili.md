@@ -1,6 +1,6 @@
 # Sub-responsabili del trattamento
 
-**Versione 1.0 · Ultima revisione: {ULTIMA_REVISIONE}**
+**Versione 2.0 · Ultima revisione: {ULTIMA_REVISIONE}**
 
 {AVVISO_BOZZA}
 

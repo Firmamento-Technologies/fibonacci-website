@@ -1,6 +1,6 @@
 # Sicurezza e protezione dei dati
 
-**Versione 0.1 · Ultima revisione: {ULTIMA_REVISIONE}**
+**Versione 0.2 · Ultima revisione: {ULTIMA_REVISIONE}**
 
 {AVVISO_BOZZA}
 
@@ -332,4 +332,4 @@ Le segnalazioni di vulnerabilità sono benvenute e gestite in coerenza con le pr
 
 Ultima revisione del presente documento: {ULTIMA_REVISIONE}.
 
-> Il presente documento ha natura descrittiva ed è aggiornato alla versione attuale del software Fibonacci. Le modifiche tecniche significative alle misure di sicurezza qui descritte sono notificate ai Titolari clienti via email all'indirizzo di contatto indicato nel Contratto di Servizio, con preavviso ragionevole rispetto alla loro entrata in vigore. Versione 0.1.
+> Il presente documento ha natura descrittiva ed è aggiornato alla versione attuale del software Fibonacci. Le modifiche tecniche significative alle misure di sicurezza qui descritte sono notificate ai Titolari clienti via email all'indirizzo di contatto indicato nel Contratto di Servizio, con preavviso ragionevole rispetto alla loro entrata in vigore. Versione 0.2.

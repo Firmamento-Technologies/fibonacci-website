@@ -11,6 +11,22 @@
 const REVISIONE_PER_SLUG: Record<string, string> = {
   // 'privacy': '2026-07-15',
   // 'dpa': '2026-07-15',
+  /* ⚠️ Nato dopo gli altri sei: senza questa riga prenderebbe il default del
+     2026-08-07 e dichiarerebbe una revisione **anteriore alla sua stesura**. */
+  'elenco-medici': '2026-08-13',
+  /* 🔴 2026-08-16: questi quattro sono stati revisionati DAVVERO, e senza queste
+     righe avrebbero continuato a dichiarare «7 agosto» con dentro un testo
+     nuovo — cioè esattamente il difetto che questo file esiste per impedire, e
+     ci sono cascato lo stesso perché il default risponde in silenzio.
+     Che cosa è cambiato: l'ospitante (Hetzner/Germania → **Aruba/Italia**, con
+     `whois` a prova), la **cancellazione di Cloudflare** dalla filiera, e nella
+     scheda sicurezza il limite dichiarato sulla copia fuori sede (§5.1) più la
+     tabella di continuità operativa riscritta su ciò che è davvero attivo.
+     ⇒ [[correzione-ospitante-aruba-2026-08-16]]. */
+  'sub-responsabili': '2026-08-16',
+  'sicurezza': '2026-08-16',
+  'dpa': '2026-08-16',
+  'privacy': '2026-08-16',
 }
 
 /** Revisione complessiva di default (ultimo allineamento dei documenti).
