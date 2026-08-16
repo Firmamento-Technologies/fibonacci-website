@@ -49,6 +49,17 @@ export interface DatiPreAnamnesi {
   farmaci: string
   allergie: string
   trattamentiPrecedenti: string
+  /* 🔬 Aggiunto il 2026-08-16 su una FONTE, non a intuito. Il consenso europeo
+   * sul percorso del paziente (PMC10847668) elenca fra le «Optimal Assessment
+   * Strategies» proprio «allergies, illnesses, previous surgeries,
+   * immunizations, and if the patient is currently pregnant or breastfeeding»:
+   * delle quattro voci che toccano questo modulo era l'unica che mancava.
+   *
+   * ⚠️ E resta un CAMPO LIBERO, non una casella si/no, per una ragione che
+   * conta: una casella ha un valore anche quando nessuno la tocca, e il medico
+   * leggerebbe «non incinta» dove la persona semplicemente non ha risposto.
+   * Un campo vuoto dice «non risposto», che e' la verita'. */
+  gravidanza: string
 }
 
 export const PRE_ANAMNESI_VUOTA: DatiPreAnamnesi = {
@@ -56,6 +67,7 @@ export const PRE_ANAMNESI_VUOTA: DatiPreAnamnesi = {
   farmaci: '',
   allergie: '',
   trattamentiPrecedenti: '',
+  gravidanza: '',
 }
 
 /** Se la sezione è spenta, ⛔ **non c'è niente da spedire**: chi invia il
@@ -63,7 +75,13 @@ export const PRE_ANAMNESI_VUOTA: DatiPreAnamnesi = {
  *  seconda lettura è un secondo posto dove divergere. */
 export function preAnamnesiDaInviare(d: DatiPreAnamnesi): DatiPreAnamnesi | undefined {
   if (!PREANAMNESI_ATTIVA || !d.consenso) return undefined
-  if (!d.farmaci.trim() && !d.allergie.trim() && !d.trattamentiPrecedenti.trim()) return undefined
+  if (
+    !d.farmaci.trim() &&
+    !d.allergie.trim() &&
+    !d.trattamentiPrecedenti.trim() &&
+    !d.gravidanza.trim()
+  )
+    return undefined
   return d
 }
 
@@ -121,6 +139,13 @@ export function PreAnamnesi({
             aiuto="Farmaci, anestetici, lattice."
             valore={dati.allergie}
             onChange={campo('allergie')}
+          />
+          <Domanda
+            id="pa-gravidanza"
+            etichetta="Sei incinta o stai allattando?"
+            aiuto="Solo se ti riguarda: molti trattamenti si rimandano, e il medico deve saperlo prima."
+            valore={dati.gravidanza}
+            onChange={campo('gravidanza')}
           />
           <Domanda
             id="pa-trattamenti"

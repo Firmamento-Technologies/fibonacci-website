@@ -571,8 +571,14 @@ def classifica(host, nome, testo, ctx_piva):
         # nome **e** il cognome nel dominio. ⛔ Non vale se il dominio dichiara
         # una struttura (`clinicarossi.it` è una clinica, ⛔ non il dott. Rossi).
         if not struttura_nel_dominio:
+            # ⚠️ **6 caratteri, ⛔ non 7.** Misurato il 2026-08-16 sulle schede
+            # ancora incerte: la soglia a 7 lasciava fuori **96 professionisti**
+            # con cognomi normalissimi — Rubini, Caroni, Cuciti, Salemi. ⛔ Non è
+            # un allargamento a caso: le **due prove** restano due (titolo
+            # professionale davanti al nome **e** cognome nel dominio), e sotto
+            # i 6 il rischio che una parola comune coincida diventa reale.
             for cognome in (piatto(b), piatto(a)):
-                if len(cognome) > 6 and cognome in stelo:
+                if len(cognome) > 5 and cognome in stelo:
                     return "persona", f"studio di un professionista: dott. {a} {b}, cognome dentro il dominio"
     if RE_SOCIETA.search(ctx_piva):
         return "impresa", "forma societaria accanto alla partita IVA"
@@ -1907,10 +1913,26 @@ def opposizioni():
     ⚠️ Se il file manca si procede — all'inizio ⛔ non esiste. Ma se è
     **illeggibile si ferma tutto**: proseguire vorrebbe dire ripubblicare chi
     si era opposto, ed è l'unico errore di questa raccolta che ⛔ non si
-    ripara rifacendo il giro."""
+    ripara rifacendo il giro.
+
+    🔑 **Due file, e il secondo è la ragione per cui il primo può restare com'è.**
+    Da TD-166 l'opposizione arriva anche dal **collegamento nell'email**, cioè
+    da un endpoint, e a quel punto gli scrittori diventano **due**. Due
+    scrittori che **riscrivono un JSON intero** si perdono a vicenda: è
+    esattamente il difetto già pagato in `smista()`, dove 165 schede sono
+    sparite perché si sovrascriveva invece di fondere — e lì i totali
+    **salivano**, quindi ⛔ non se ne accorse nessuno.
+    ⇒ l'endpoint **appende** righe a `_opposizioni.jsonl` (`O_APPEND`, che su
+    righe piccole è atomico: ⛔ niente lock, ⛔ niente riscrittura, ⛔ nessuna
+    corsa). Qui si leggono **entrambi**, e ⛔ **il `.json` ⛔ non si migra**: è
+    l'unico file di questa cartella che ⛔ non si rigenera, e toccarlo per
+    ordine sarebbe rischiare l'unica cosa irreparabile.
+    ⚠️ Una riga rotta nel `.jsonl` ⛔ **non ferma le altre**: fermarsi
+    lascerebbe pubblicato chi si è opposto **dopo** quella riga."""
     f = os.path.join(USCITA, "_opposizioni.json")
+    fuori_jsonl = _opposizioni_appese()
     if not os.path.exists(f):
-        return set()
+        return fuori_jsonl
     try:
         elenco = json.load(open(f, encoding="utf-8"))
     except Exception as e:
@@ -1921,12 +1943,39 @@ def opposizioni():
     # richiesta** — che serve a dimostrare *quando* è stata accolta. ⇒ si leggono
     # entrambi: un file vecchio ⛔ non deve smettere di proteggere chi c'è dentro,
     # ed è **l'unico file di questa cartella che ⛔ non si rigenera**.
-    fuori = set()
+    fuori = set(fuori_jsonl)
     for d in elenco:
         s = d.get("dominio", "") if isinstance(d, dict) else str(d)
         s = s.strip().lower().removeprefix("www.")
         if s:
             fuori.add(s)
+    return fuori
+
+
+def _opposizioni_appese():
+    """Le opposizioni arrivate dall'endpoint, una per riga (vedi `opposizioni`)."""
+    f = os.path.join(USCITA, "_opposizioni.jsonl")
+    if not os.path.exists(f):
+        return set()
+    fuori, rotte = set(), 0
+    with open(f, encoding="utf-8") as fh:
+        for riga in fh:
+            riga = riga.strip()
+            if not riga:
+                continue
+            try:
+                d = json.loads(riga)
+                s = str(d.get("dominio", "")).strip().lower().removeprefix("www.")
+            except Exception:
+                rotte += 1
+                continue
+            if s:
+                fuori.add(s)
+    if rotte:
+        # ⚠️ Si segnala e si prosegue: fermarsi qui lascerebbe pubblicato chi si
+        # è opposto **dopo** la riga rotta, che è il danno peggiore dei due.
+        print(f"  ⚠️  {rotte} righe illeggibili in `_opposizioni.jsonl` "
+              f"(le altre {len(fuori)} valgono lo stesso)")
     return fuori
 
 def registra_opposizione(domini, motivo=""):

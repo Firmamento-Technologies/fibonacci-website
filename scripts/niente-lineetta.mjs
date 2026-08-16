@@ -38,9 +38,24 @@ const QUI = dirname(fileURLToPath(import.meta.url))
 const SRC = join(QUI, '..', 'src')
 const ESTENSIONI = ['.tsx', '.ts', '.md', '.mdx', '.json']
 
+/* ⛔ Fuori: le schede raccolte da fonti pubbliche. Sono i nomi che gli studi
+ * hanno scelto per se stessi, letti dai loro siti: se contengono una lineetta,
+ * riscriverla vorrebbe dire pubblicare un nome DIVERSO da quello dichiarato,
+ * cioe' falsificare il dato invece di correggere il nostro stile. La regola
+ * dell'utente riguarda cio' che scriviamo noi.
+ *
+ * ⚠️ E non e' un'esenzione di comodo, e' cio' che tiene in vita il cancello:
+ * qui dentro ce ne sono 5 e ne arriveranno altre a ogni raccolta, quindi
+ * senza questa riga il controllo sarebbe rosso per sempre. Un cancello rosso
+ * dal primo giorno viene spento, ed e' precisamente come si perdono i
+ * cancelli (stessa lezione di `lint-produzione` nel knowledge).
+ */
+const FUORI = ['dati/cliniche/']
+
 function* file(dir) {
   for (const nome of readdirSync(dir)) {
     const p = join(dir, nome)
+    if (FUORI.some((f) => p.replaceAll('\\', '/').includes(f))) continue
     if (statSync(p).isDirectory()) yield* file(p)
     else if (ESTENSIONI.some((e) => nome.endsWith(e))) yield p
   }

@@ -45,7 +45,11 @@ CREATE TABLE studi (
   autorizzazione     INTEGER NOT NULL DEFAULT 0,
   orari              TEXT,              -- JSON, come dichiarato dal sito
   fonte              TEXT,              -- da quale pagina
-  letto_il           TEXT
+  letto_il           TEXT,
+  -- 🔑 `elenco` = letta da fonti pubbliche · `studio` = **dichiarata dallo
+  -- studio** che è cliente e ha acceso l'interruttore (TD-93). Vedi
+  -- `fondi_i_pubblicati` per il perché la seconda vince sulla prima.
+  origine            TEXT NOT NULL DEFAULT 'elenco'
 );
 
 -- ⚠️ Le prestazioni stanno in una tabella PROPRIA, ⛔ non in una colonna con le
@@ -68,9 +72,20 @@ CREATE INDEX idx_prest_nome       ON prestazioni(prestazione);
 -- 🔑 FTS solo sul **nome**: serve a chi cerca **uno studio che già conosce**
 -- («Studio Rossi»), che è il primo pubblico della directory. ⛔ Non è ricerca
 -- semantica e ⛔ non prova a esserlo.
-CREATE VIRTUAL TABLE studi_fts USING fts5(
-  dominio UNINDEXED, nome, comune, content=''
-);
+--
+-- 🔴 **`content=''` è stato TOLTO il 2026-08-16, ed era un difetto vero.**
+-- Una tabella FTS5 *contentless* ⛔ non conserva i valori delle colonne: la
+-- ricerca trovava le righe ⛔ ma restituiva `dominio = NULL`, cioè **trovava
+-- senza saper dire chi**. ⚠️ Il banco di `--prova` non se n'era accorto perché
+-- **contava le righe** («2 righe · 0,1 ms») invece di guardarle: una misura
+-- che ⛔ non può fallire ⛔ non è una misura. Trovato provando la fusione di
+-- TD-167, ⛔ non leggendo.
+-- ⚠️ Seconda conseguenza, più insidiosa: su una tabella contentless
+-- `DELETE ... WHERE dominio=?` ⛔ **non cancella niente e ⛔ non dà errore**
+-- (`rowcount` 0) ⇒ una scheda aggiornata sarebbe rimasta **due volte**
+-- nell'indice, la seconda col nome vecchio.
+-- Il costo di tenere il contenuto è ~5.700 nomi: irrilevante.
+CREATE VIRTUAL TABLE studi_fts USING fts5(dominio UNINDEXED, nome, comune);
 """
 
 
@@ -107,11 +122,19 @@ def costruisci():
             os.remove(DB + coda)
     db = sqlite3.connect(DB)
     db.executescript(SCHEMA)
-    n = p = 0
+    # 🔑 I domini dichiarati si conoscono **prima** di scrivere: così la riga
+    # letta da fuori ⛔ non entra affatto, invece di entrare e venire corretta.
+    # Cancellare dopo è la strada che ha già prodotto un difetto (l'indice FTS
+    # restava con il nome vecchio, e la `DELETE` ⛔ non lo diceva).
+    pubblicati = _pubblicati()
+    n = p = saltate = 0
     for s in schede():
+        if s["dominio"].strip().lower().removeprefix("www.") in pubblicati:
+            saltate += 1
+            continue
         orari = s.get("orari")
         db.execute(
-            "INSERT OR REPLACE INTO studi VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT OR REPLACE INTO studi VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'elenco')",
             (s["dominio"], s["nome"], s.get("tipoSoggetto", "?"), s.get("sitoUrl"),
              s.get("indirizzo"), s.get("cap"), s.get("comune"), s.get("provincia"),
              s.get("telefono"), s.get("email"), s.get("partitaIva"),
@@ -128,10 +151,88 @@ def costruisci():
             p += 1
         db.execute("INSERT INTO studi_fts (dominio, nome, comune) VALUES (?,?,?)",
                    (s["dominio"], senza_accenti(s["nome"]), senza_accenti(s.get("comune") or "")))
+    dichiarati = fondi_i_pubblicati(db, pubblicati)
     db.commit()
     print(f"✅ {DB}")
-    print(f"   {n} studi · {p} prestazioni · {os.path.getsize(DB) // 1024} KB")
+    print(f"   {n + dichiarati} studi · {p} prestazioni · {os.path.getsize(DB) // 1024} KB")
+    if dichiarati:
+        print(f"   di cui dichiarati dallo studio: {dichiarati} "
+              f"({saltate} hanno sostituito una scheda letta da fuori, "
+              f"{dichiarati - saltate} nuovi)")
     return db
+
+
+PUBBLICATI = os.path.join(USCITA, "_pubblicati.json")
+
+
+def _pubblicati():
+    """I domini che hanno acceso l'interruttore, letti **prima** di costruire."""
+    return {(s.get("dominio") or "").strip().lower().removeprefix("www.")
+            for s in _leggi_pubblicati() if s.get("dominio") and s.get("nome")}
+
+
+def _leggi_pubblicati():
+    if not os.path.exists(PUBBLICATI):
+        return []
+    try:
+        return json.load(open(PUBBLICATI, encoding="utf-8"))
+    except Exception as e:
+        # ⛔ Ci si ferma: proseguire pubblicherebbe nel matching la versione
+        # **letta da fuori** di studi che ci hanno dato la loro. È il caso in
+        # cui un dato vecchio verrebbe preso per quello attuale.
+        raise SystemExit(f"⛔ `_pubblicati.json` illeggibile ({e}): ⛔ non si costruisce "
+                         "il database con l'elenco a metà.")
+
+
+def fondi_i_pubblicati(db, _domini):
+    """Unisce all'elenco gli studi **clienti** che hanno acceso l'interruttore. — TD-167
+
+    🔴 **Il problema che risolve**: erano **due elenchi che ⛔ non si
+    incontravano**. L'interruttore di TD-93 (extension
+    `urn:firmamento:pagina-pubblica` sull'`Organization`) porta lo studio nella
+    **pagina pubblica**; il **matching** invece gira su questo database, che
+    contiene solo le schede lette da fonti pubbliche. ⇒ un medico che accendeva
+    l'interruttore **⛔ non entrava nel matching**, e uno già nell'elenco che
+    diventava cliente sarebbe comparso **due volte**.
+
+    ✅ **La chiave ⛔ non è stata inventata: è il DOMINIO**, che è già chiave
+    primaria qui ed è già il `sito` che lo studio dichiara.
+
+    🔑 **A righe coincidenti vince lo studio, e la sostituzione è di RIGA INTERA,
+    ⛔ non campo per campo.** Tenere metà campi dell'uno e metà dell'altro
+    produrrebbe una riga di cui **nessuno può dire di chi è**, e la ragione per
+    cui lo studio vince è precisamente **di chi risponde**: davanti all'Ordine
+    risponde lui. È la stessa ragione già scritta in `medici-pubblici.ts` per
+    ⛔ non prendere l'albo dal CRM.
+    ⇒ **anche le prestazioni si sostituiscono**: quelle lette dal suo sito erano
+    una nostra deduzione, quelle dichiarate sono sue.
+
+    ⚠️ **Oggi il file ⛔ non esiste e la funzione ⛔ non fa niente**, ed è lo stato
+    vero del progetto: **zero studi** hanno acceso l'interruttore. Lo scriverà
+    chi caverà l'elenco dal sidecar (TD-94). ⛔ Non è un finto: è cablatura
+    pronta, e il conteggio a schermo lo dice.
+    """
+    scritti = 0
+    for s in _leggi_pubblicati():
+        d = (s.get("dominio") or "").strip().lower().removeprefix("www.")
+        if not d or not s.get("nome"):
+            continue
+        db.execute(
+            "INSERT OR REPLACE INTO studi VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'studio')",
+            (d, s["nome"], s.get("tipoSoggetto", "?"), s.get("sitoUrl"),
+             s.get("indirizzo"), s.get("cap"), s.get("comune"), s.get("provincia"),
+             s.get("telefono"), s.get("email"), s.get("partitaIva"),
+             s.get("lat"), s.get("lon"), s.get("precisioneCoord"),
+             1 if s.get("dichiaraDirettoreSanitario") else 0,
+             1 if s.get("dichiaraAutorizzazioneSanitaria") else 0,
+             json.dumps(s["orari"], ensure_ascii=False) if s.get("orari") else None,
+             s.get("fonteUrl"), s.get("lettoIl")))
+        for pr in (s.get("prestazioni") or []):
+            db.execute("INSERT OR IGNORE INTO prestazioni VALUES (?,?)", (d, pr))
+        db.execute("INSERT INTO studi_fts (dominio, nome, comune) VALUES (?,?,?)",
+                   (d, senza_accenti(s["nome"]), senza_accenti(s.get("comune") or "")))
+        scritti += 1
+    return scritti
 
 
 def interroga(db):
@@ -164,8 +265,20 @@ def interroga(db):
                    "JOIN prestazioni p USING(dominio) WHERE p.prestazione='Laser' "
                    "AND s.lat BETWEEN ? AND ? AND s.lon BETWEEN ? AND ?",
                    (lat - dlat, lat + dlat, lon - dlon, lon + dlon))
-    crono("cerca «rossi» per nome", "SELECT dominio FROM studi_fts WHERE studi_fts MATCH ?",
-          ("rossi",))
+    # 🔴 **Questa riga contava le righe e diceva «sano» mentre ⛔ non lo era**:
+    # con la tabella *contentless* la ricerca trovava e restituiva
+    # `dominio = NULL`, cioè **trovava senza saper dire chi**. ⇒ ora si guarda
+    # che il dominio ci sia davvero, e che sia **uno vero**: una misura che
+    # ⛔ non può fallire ⛔ non è una misura.
+    r = crono("cerca «rossi» per nome", "SELECT dominio FROM studi_fts WHERE studi_fts MATCH ?",
+              ("rossi",))
+    orfane = [x for x in r if not x[0]]
+    if orfane:
+        print(f"  🔴 {len(orfane)} righe trovate SENZA dominio: la ricerca per nome "
+              f"trova e ⛔ non sa dire di chi (tabella FTS contentless?)")
+    elif r and not db.execute("SELECT 1 FROM studi WHERE dominio=?", (r[0][0],)).fetchone():
+        print(f"  🔴 l'indice FTS cita `{r[0][0]}`, che ⛔ non è in `studi`: "
+              f"indice e tabella sono disallineati")
     if vicini:
         def km(a, b, c, d):
             return 2 * 6371 * math.asin(math.sqrt(
