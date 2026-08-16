@@ -26,6 +26,7 @@ import { paritaProdotto } from './parita-prodotto.mjs'
 import { paritaListino } from './parita-listino.mjs'
 import { classiEsistono } from './classi-esistono.mjs'
 import { nienteLineetta } from './niente-lineetta.mjs'
+import { nienteDatiElenco } from './niente-dati-elenco.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -892,6 +893,10 @@ async function main() {
   paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
   classiEsistono(problemi)
   nienteLineetta(problemi)
+  /* 🔴 Il piu' serio: guarda il COSTRUITO e fallisce se un recapito
+     dell'elenco (3.118 indirizzi di persone reali) e' finito in una pagina
+     pubblicabile. Vedi la testa di `niente-dati-elenco.mjs`. */
+  nienteDatiElenco(problemi)
 
   /* ⚠️ LE TAPPE. Il sito è un percorso: ogni sezione è una schermata con la V
      in fondo. Due cose si rompono in silenzio e le prende solo una misura sul
