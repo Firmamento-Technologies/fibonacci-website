@@ -219,6 +219,21 @@ BANCO = [
     ("vorrei rifarmi le labbra col filler", True, "Filler"),
 ]
 
+# ── la ricerca per luogo: il caso emerso provando frasi vere ────────────────
+BANCO_CITTA = [
+    ("cerco un medico bravo per il viso a roma", "ROMA", None),
+    ("chi fa il filler a milano", "MILANO", "Filler"),
+    ("vorrei il botox vicino a torino", "TORINO", "Tossina botulinica"),
+    ("zona bergamo", "Bergamo", None),
+    # ⚠️ **La preposizione ambigua ⛔ non deve inventare un comune**: «un viso da
+    # alba» ⛔ non è una richiesta per il comune di Alba.
+    ("vorrei un viso da alba", None, None),
+    # 🔑 **La guardia vince sulla città**: un caso clinico resta respinto anche
+    # se nomina un luogo — ⛔ non si risponde «ecco chi c'è a Napoli» a chi ha
+    # appena descritto un disturbo.
+    ("ho le rughe a napoli", None, None),
+]
+
 
 # ════════════════════════════════════════════ il collegamento alle faccette
 def cerca_studi(testo, lat=None, lon=None, raggio_km=30, solo=None, limite=10):
@@ -248,6 +263,81 @@ def cerca_studi(testo, lat=None, lon=None, raggio_km=30, solo=None, limite=10):
                        solo=solo, limite=limite)
 
 
+def conta_per_citta(comune, prestazione=None):
+    """Quanti sono **davvero**, ⛔ non quanti ne mostriamo.
+
+    ⚠️ Difetto preso subito: la risposta diceva *«10 studi»* ⛔ ma **10 era il
+    limite**, ⛔ non il totale. Dire a chi cerca che a Roma ce ne sono «10» quando
+    sono centinaia ⛔ non è un arrotondamento: **è un'informazione falsa**, e
+    lo sarebbe anche al contrario.
+    """
+    import sqlite3, os
+    db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "directory.sqlite")
+    if not os.path.exists(db):
+        return 0
+    sql = ("SELECT COUNT(DISTINCT s.dominio) FROM studi s {join} "
+           "WHERE UPPER(s.comune) = UPPER(?) {filtro}").format(
+        join="JOIN prestazioni p USING(dominio)" if prestazione else "",
+        filtro="AND p.prestazione = ?" if prestazione else "")
+    with sqlite3.connect(db) as c:
+        return c.execute(sql, [comune] + ([prestazione] if prestazione else [])).fetchone()[0]
+
+
+def cerca_per_citta(comune, prestazione=None, limite=10):
+    """Chi c'è in un comune — con o senza un trattamento richiesto."""
+    import sqlite3, os
+    db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "directory.sqlite")
+    if not os.path.exists(db):
+        return []
+    sql = ("SELECT s.nome, s.comune, s.tipo, s.telefono FROM studi s "
+           "{join} WHERE UPPER(s.comune) = UPPER(?) {filtro} "
+           "ORDER BY (SELECT COUNT(*) FROM prestazioni q WHERE q.dominio=s.dominio) DESC "
+           "LIMIT ?")
+    sql = sql.format(join="JOIN prestazioni p USING(dominio)" if prestazione else "",
+                     filtro="AND p.prestazione = ?" if prestazione else "")
+    arg = [comune] + ([prestazione] if prestazione else []) + [limite]
+    with sqlite3.connect(db) as c:
+        return [{"nome": r[0], "comune": r[1], "tipo": r[2], "telefono": r[3]}
+                for r in c.execute(sql, arg)]
+
+
+def rispondi_completo(testo):
+    """🔑 **Tre casi, e ⛔ non due.** La ricerca per luogo ⛔ non sostituisce il
+    glossario: lo **completa**.
+
+        trattamento + città  →  chi fa X a Y
+        solo città           →  chi c'è a Y            ← mancava, e cadeva nel «⛔ non ho capito»
+        solo trattamento     →  chi fa X (poi si chiede dove)
+
+    ⛔ **«Bravo» ⛔ non diventa un ordinamento per qualità**: ⛔ non abbiamo un
+    criterio, e mostrarne uno sarebbe **una classifica** (L. 145/2018 c. 525).
+    Si ordina per **ricchezza del profilo** — quanto lo studio ha dichiarato di
+    sé — che ⛔ non è un giudizio su di lui.
+    """
+    e = rispondi(testo)
+    citta = riconosci_citta(testo)
+    if not e.ammesso:
+        return e, []
+    if e.voci and citta:
+        studi = cerca_per_citta(citta, e.voci[0])
+        tot = conta_per_citta(citta, e.voci[0])
+        e.risposta = (f"**{e.voci[0]}** a **{citta.title()}**: "
+                      f"{tot} stud{'io' if tot == 1 else 'i'}"
+                      + (f" (ne mostro {len(studi)})." if tot > len(studi) else ".")
+                      if studi else
+                      f"A **{citta.title()}** ⛔ non risulta nessuno che faccia **{e.voci[0]}**.")
+        return e, studi
+    if citta and not e.voci:
+        studi = cerca_per_citta(citta)
+        tot = conta_per_citta(citta)
+        e.risposta = (f"A **{citta.title()}** ci sono **{tot}** fra studi e cliniche. "
+                      f"Se dici quale trattamento cerchi, restringo."
+                      if studi else f"A **{citta.title()}** ⛔ non ho ancora nessuno.")
+        e.motivo = "citta"
+        return e, studi
+    return e, []
+
+
 def _prova_collegamento():
     print("\n━━━ il giro completo: parola → voce → studi ━━━")
     for frase in ("il ripieno per le labbra", "vorrei il botulino", "ho le rughe"):
@@ -258,6 +348,66 @@ def _prova_collegamento():
             print(f"       · {x['nome'][:38]:38} {x['comune'][:14]:14} ({x['tipo']})")
         if e.ammesso and not studi:
             print("       (nessuno entro il raggio)")
+
+
+# ════════════════════════════════════════════════════ la ricerca per città
+# 🔑 **Perché serve, e ⛔ non è un di più.** Provando frasi vere è emerso che
+# *«cerco un medico bravo per il viso a Roma»* cadeva nel «⛔ non ho capito»:
+# è una richiesta **legittima** ⛔ ma ⛔ non di trattamento — è una **ricerca per
+# luogo**, e il database sa già rispondere.
+# ⛔ **«Bravo» ⛔ non si traduce in un ordinamento per qualità**: ⛔ non abbiamo un
+# criterio, e mostrarne uno sarebbe **una classifica** (L. 145/2018 c. 525).
+# Si risponde con **chi c'è**, ⛔ non con **chi è meglio**.
+RE_LUOGO = None      # compilata alla prima chiamata, dai comuni del database
+
+
+def _comuni_noti():
+    """I comuni **che abbiamo davvero**, ⛔ non un elenco teorico: rispondere
+    «a Fiumefreddo non c'è nessuno» è utile solo se lo sappiamo per certo."""
+    import sqlite3, os
+    db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "directory.sqlite")
+    if not os.path.exists(db):
+        return []
+    with sqlite3.connect(db) as c:
+        return [r[0] for r in c.execute(
+            "SELECT DISTINCT comune FROM studi WHERE comune IS NOT NULL AND comune != ''")]
+
+
+def riconosci_citta(testo):
+    """Il comune nominato, o `None`.
+
+    ⚠️ **Serve la preposizione, e ⛔ non è pignoleria.** 132 comuni hanno un nome
+    di ≤4 lettere — *Alba, Arco, Este, Bra, Cava* — che sono anche **parole
+    comuni**: cercarli nudi farebbe leggere «alba» in *«vorrei un viso da alba»*.
+    ⇒ si accetta solo **«a Roma», «in zona Milano», «vicino a Torino»**, che è
+    poi **come si dice davvero**.
+    """
+    global RE_LUOGO
+    if RE_LUOGO is None:
+        comuni = _comuni_noti()
+        if not comuni:
+            RE_LUOGO = False
+        else:
+            # i più lunghi prima: «Reggio Emilia» ⛔ non deve perdere contro «Reggio»
+            alt = "|".join(re.escape(_piatto(c)) for c in
+                           sorted(set(comuni), key=len, reverse=True) if len(c) > 2)
+            RE_LUOGO = re.compile(
+                # ⚠️ **⛔ Niente «da» né «di»**: sono ambigue e producono falsi
+                # positivi veri — *«vorrei un viso da alba»* faceva riconoscere
+                # il comune di **Alba**. Le preposizioni di **luogo** sono
+                # queste, e bastano perché sono come si dice davvero.
+                r"\b(?:a|ad|in|vicino\s+a|zona|provincia\s+di|presso|nei\s+pressi\s+di)"
+                r"\s+(" + alt + r")\b")
+    if RE_LUOGO is False:
+        return None
+    m = RE_LUOGO.search(_piatto(testo))
+    if not m:
+        return None
+    trovato = m.group(1)
+    for c in _comuni_noti():          # si restituisce il nome **come sta a database**
+        if _piatto(c) == trovato:
+            return c
+    return None
 
 
 if __name__ == "__main__":
@@ -287,5 +437,16 @@ if __name__ == "__main__":
         else:
             print(f"\n  ✅ le {sum(1 for _, a, _ in BANCO if not a)} frasi respinte "
                   f"producono ZERO studi")
-    print(f"\n{ok}/{len(BANCO)} — {'✅ banco verde' if ok == len(BANCO) else '🔴 BANCO ROSSO'}")
+    tot = len(BANCO)
+    for frase, citta_attesa, voce_attesa in BANCO_CITTA:
+        e, studi = rispondi_completo(frase)
+        c = riconosci_citta(frase) if e.ammesso else None
+        bene = (c == citta_attesa) and (not voce_attesa or voce_attesa in e.voci)
+        if citta_attesa is None and not e.ammesso:
+            bene = True                       # respinta dalla guardia: corretto
+        ok += bene; tot += 1
+        print(f"  {'✅' if bene else '🔴'} «{frase[:44]:44}» → "
+              f"{c or ('RESPINTA' if not e.ammesso else 'nessun luogo')}"
+              f"{' · ' + ','.join(e.voci) if e.voci else ''}")
+    print(f"\n{ok}/{tot} — {'✅ banco verde' if ok == tot else '🔴 BANCO ROSSO'}")
     sys.exit(0 if ok == len(BANCO) else 1)
