@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+"""Glossario conversazionale: dalla parola del paziente al nome del trattamento.
+
+🔑 **Che cosa fa, e soprattutto che cosa ⛔ NON fa.**
+
+    ✅ «cerco quella cosa per le labbra, il ripieno»  →  «forse cerchi il FILLER»
+    ⛔ «ho le rughe sulla fronte»                      →  ⛔ NIENTE
+
+La prima è una domanda di **vocabolario**: il paziente sa cosa vuole e ⛔ non sa
+come si chiama. La seconda è un **caso clinico**, e rispondervi sarebbe **un atto
+medico** — oltre che, secondo MDCG 2019-11, rendere questo software un
+**dispositivo medico** ([[decisione-chatbot-per-il-matching]]).
+
+── PERCHÉ LA GUARDIA STA PRIMA, E ⛔ NON NEL PROMPT ─────────────────────────
+
+⚠️ Un modello linguistico **tende a consigliare**: è ciò per cui è addestrato.
+Chiedergli di ⛔ non farlo è **negoziabile** — «ignora le istruzioni precedenti»
+è il primo tentativo di chiunque. ⇒ qui vale la stessa regola già collaudata in
+`EMR/services/assistente/guardia.py`: **se l'ingresso è clinico, il modello ⛔ non
+viene interrogato affatto**. Un filtro che gira **prima** ⛔ non ha istruzioni da
+ignorare.
+
+🔴 **E c'è un secondo presidio, più forte del primo: l'USCITA È CHIUSA.**
+Questo modulo ⛔ **non genera testo libero**. Sceglie fra le voci di un
+vocabolario finito e le mette in **frasi fisse**. ⇒ anche se la guardia
+sbagliasse, il peggio che può uscire è **il nome di un trattamento** — ⛔ mai una
+raccomandazione, perché ⛔ non esiste il codice che la componga.
+
+⚠️ **Il testo del paziente ⛔ non si conserva**: è dato dell'art. 9 anche **per
+inferenza** (CGUE C-184/20), scritto da una persona che ⛔ non è nostra paziente.
+⇒ ⛔ nessun registro, ⛔ nessuna cronologia, ⛔ nemmeno «per capire cosa cerca la
+gente» — quel dato si guarda in Search Console.
+
+    python3 scripts/glossario.py            # il banco di prova
+    python3 scripts/glossario.py "il ripieno per le labbra"
+"""
+import re, sys, unicodedata
+
+# ── 1. LA GUARDIA — ciò che ⛔ non passa, e ⛔ non è negoziabile ───────────────
+# ⚠️ La guardia dell'assistente del sito copre **chi chiede un consiglio**
+# («cosa mi consigli», «che dose»). Qui serve anche l'altra metà, che lì ⛔ non
+# poteva servire: **chi descrive un disturbo senza chiedere niente**.
+# «Ho le rughe sulla fronte» ⛔ non è una domanda — ⛔ ma rispondere con un
+# trattamento sarebbe **esattamente** l'atto medico che ⛔ non possiamo fare.
+DISTURBI = (
+    r"\b(rughe?|grinze|solchi|zampe\s+di\s+gallina|codice\s+a\s+barre)\b",
+    r"\b(acne|brufoli|foruncoli|comedoni|punti\s+neri)\b",
+    r"\b(cicatric\w+|smagliature|cheloid\w+)\b",
+    r"\b(macchi\w+|melasma|discromi\w+|iperpigmentaz\w+)\b",
+    r"\b(couperose|rosacea|capillari|teleangectasi\w+)\b",
+    r"\b(cellulite|adiposit\w+|pannicolo|buccia\s+d.arancia)\b",
+    r"\b(calvizie|alopecia|dirad\w+|perdo\s+i\s+capelli|caduta\s+dei\s+capelli)\b",
+    r"\b(occhiaie|borse\s+sotto|palpebre\s+cadenti|ptosi)\b",
+    r"\b(lassit\w+|rilassamento\s+cutaneo|pelle\s+cadente|svuotat\w+)\b",
+    r"\b(sudorazione|iperidrosi|sudo\s+troppo)\b",
+    r"\b(invecchiat\w+|segni\s+del\s+tempo|sembro\s+stanc\w+)\b",
+    # Il caso portato in prima persona, anche senza domanda
+    r"\bho\s+(le|il|la|dei|delle|un|una)\s+\w+\s+(sul|sulla|sui|sulle|al|alla|in)\b",
+    r"\b(mi\s+vergogno|non\s+mi\s+piace|vorrei\s+sistemare|odio\s+il\s+mio)\b",
+)
+CONSIGLI = (
+    r"\b(consigli\w*|suggeris\w*|raccomand\w*|che\s+cosa\s+mi\s+serve|cosa\s+devo\s+fare)\b",
+    r"\b(che|quale|quali)\s+(trattamento|terapia|cura|prodotto)\b",
+    r"\bquant\w*\s+(sedute|ml|cc|unita|ui|siringhe|fiale)\b",
+    r"\b(fa\s+male|e\s+pericoloso|e\s+sicuro|controindicaz\w+|effetti\s+collaterali)\b",
+    r"\bposso\s+(fare|farlo|farmi|prendere|usare)\b",
+)
+
+RIFIUTO_CLINICO = (
+    "⛔ Non posso dirti quale trattamento serve: è una valutazione che fa il medico, "
+    "di persona. Qui posso solo aiutarti a trovare il nome di un trattamento che "
+    "stai già cercando, e chi lo esegue vicino a te."
+)
+NON_RICONOSCIUTO = (
+    "Non ho capito quale trattamento cerchi. Puoi dirlo con parole tue "
+    "(per esempio: «il ripieno per le labbra», «la puntura per le rughe» no — "
+    "quello no) oppure sfogliare l'elenco dei trattamenti."
+)
+
+
+def _piatto(s):
+    return "".join(c for c in unicodedata.normalize("NFD", (s or "").lower())
+                   if not unicodedata.combining(c))
+
+
+class Esito:
+    def __init__(self, ammesso, risposta, voci=(), motivo=""):
+        self.ammesso, self.risposta, self.voci, self.motivo = ammesso, risposta, list(voci), motivo
+
+
+def guardia(testo):
+    """⛔ Gira PRIMA di qualunque modello. Torna il motivo, o `None` se passa."""
+    t = _piatto(testo)
+    for schema in DISTURBI:
+        if re.search(schema, t):
+            return f"disturbo:{re.search(schema, t).group(0)[:24]}"
+    for schema in CONSIGLI:
+        if re.search(schema, t):
+            return f"consiglio:{re.search(schema, t).group(0)[:24]}"
+    return None
+
+
+# ── 2. IL VOCABOLARIO — l'uscita è QUESTA, e ⛔ non altro ────────────────────
+# ⚠️ Le chiavi coincidono con `PRESTAZIONI` di `raccolta-cliniche.py`: è ciò che
+# sappiamo cercare nel database. Un nome che ⛔ non è lì ⛔ non serve a nulla —
+# saprebbe rispondere e ⛔ non saprebbe trovare nessuno.
+# 🔑 **Ogni voce mappa MODI DI DIRE, ⛔ non sintomi.** Un sinonimo è «la stessa
+# cosa detta come la dice la gente»; un sintomo è «il problema per cui *forse*
+# serve». La differenza è il confine di tutto questo modulo.
+VOCI = {
+    "Filler": ["filler", "fillers", "acido ialuronico", "ialuronico", "riempimento",
+               "ripieno", "riempitivo", "puntura per le labbra", "labbra piu piene",
+               "aumento labbra", "volume alle labbra", "acido"],
+    "Tossina botulinica": ["botulino", "botox", "tossina", "tossina botulinica",
+                           "puntura antirughe", "botulinica"],
+    "Biostimolazione": ["biostimolazione", "biorivitalizzazione", "skinbooster",
+                        "profhilo", "idratazione profonda", "biostimolante"],
+    "Peeling chimico": ["peeling", "peeling chimico", "esfoliazione chimica"],
+    "Laser": ["laser", "trattamento laser", "luce pulsata", "ipl"],
+    "Mesoterapia": ["mesoterapia", "mesoterapico"],
+    "Radiofrequenza": ["radiofrequenza", "microneedling con radiofrequenza"],
+    "Fili di trazione": ["fili", "fili di trazione", "fili riassorbibili", "lifting con fili"],
+    "Trattamento cicatrici": ["trattamento cicatrici", "revisione cicatrici"],
+    "Epilazione": ["epilazione", "epilazione laser", "depilazione definitiva",
+                   "eliminare i peli", "togliere i peli",
+                   "via i peli", "senza peli", "peli per sempre"],
+}
+
+
+def riconosci(testo):
+    """⛔ Non indovina e ⛔ non propone «qualcosa di simile»: o trova, o tace."""
+    t = _piatto(testo)
+    trovate = []
+    for nome, modi in VOCI.items():
+        for m in modi:
+            if _piatto(m) in t:
+                trovate.append((len(m), nome))       # il modo più lungo vince
+                break
+    return [n for _, n in sorted(trovate, reverse=True)]
+
+
+def rispondi(testo):
+    """Il giro completo. 🔑 **La risposta è COMPOSTA, ⛔ non generata**: frasi
+    fisse più i nomi del vocabolario. ⛔ Non esiste, in questo file, il codice
+    che possa produrre una raccomandazione — ⛔ nemmeno sbagliando."""
+    motivo = guardia(testo)
+    if motivo:
+        return Esito(False, RIFIUTO_CLINICO, motivo=motivo)
+    voci = riconosci(testo)
+    if not voci:
+        return Esito(True, NON_RICONOSCIUTO, motivo="nessuna voce")
+    if len(voci) == 1:
+        return Esito(True, f"Forse cerchi il trattamento **{voci[0]}**. "
+                           f"Vuoi vedere chi lo esegue vicino a te?", voci)
+    elenco = ", ".join(f"**{v}**" for v in voci[:3])
+    return Esito(True, f"Potrebbe trattarsi di: {elenco}. Quale ti interessa?", voci)
+
+
+BANCO = [
+    # (frase, deve essere ammessa, voce attesa)
+    ("cerco quella cosa per le labbra, il ripieno", True, "Filler"),
+    ("vorrei il botox", True, "Tossina botulinica"),
+    ("mi hanno parlato del profhilo", True, "Biostimolazione"),
+    ("quanto costa il peeling", True, "Peeling chimico"),
+    ("vorrei togliere i peli per sempre", True, "Epilazione"),
+    ("il laser per il viso", True, "Laser"),
+    # ⛔ questi NON devono passare
+    ("ho le rughe sulla fronte", False, None),
+    ("ho l'acne e vorrei sistemarla", False, None),
+    ("che trattamento mi consigli per le occhiaie", False, None),
+    ("quante sedute servono", False, None),
+    ("il filler fa male?", False, None),
+    ("ho le macchie sulle mani", False, None),
+    ("mi vergogno del mio naso", False, None),
+    ("posso fare il botox in gravidanza", False, None),
+]
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
+        e = rispondi(" ".join(sys.argv[1:]))
+        print(("✅ " if e.ammesso else "⛔ ") + e.risposta)
+        sys.exit(0)
+    ok = 0
+    for frase, atteso, voce in BANCO:
+        e = rispondi(frase)
+        bene = (e.ammesso == atteso) and (not voce or voce in e.voci)
+        ok += bene
+        print(f"  {'✅' if bene else '🔴'} «{frase[:44]:44}» → "
+              f"{('AMMESSA ' + ','.join(e.voci)) if e.ammesso else 'RESPINTA (' + e.motivo + ')'}")
+    print(f"\n{ok}/{len(BANCO)} — {'✅ banco verde' if ok == len(BANCO) else '🔴 BANCO ROSSO'}")
+    sys.exit(0 if ok == len(BANCO) else 1)
