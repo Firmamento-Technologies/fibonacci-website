@@ -52,6 +52,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "chirurgiaesteticadrzura.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "dermatologolamorgia.com",
   "nome": "Dott.ssa Stefania La Morgia",
   "formaSocietaria": "",
@@ -81,6 +86,31 @@
    "https://www.dermatologolamorgia.com/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottmascisilvio.it",
+  "nome": "Studio dermatologico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390854211929",
+  "email": "",
+  "sitoUrl": "https://www.dottmascisilvio.it/",
+  "indirizzo": "Via Giuseppe Parini 14",
+  "cap": "65122",
+  "comune": "Pescara",
+  "provincia": "pe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottmascisilvio.it/",
+   "https://www.dottmascisilvio.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
@@ -221,6 +251,82 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nimastudiomedico.it",
+  "nome": "Nima Studio Medico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390852031607",
+  "email": "info@nimastudiomedico.it",
+  "sitoUrl": "https://www.nimastudiomedico.it/",
+  "indirizzo": "Via A. Valignani, 14",
+  "cap": "65129",
+  "comune": "Pescara",
+  "provincia": "pe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nimastudiomedico.it/",
+   "https://www.nimastudiomedico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pescarapescara.it",
+  "nome": "PescaraPescara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@mnservice.net",
+  "sitoUrl": "https://www.pescarapescara.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pescarapescara.it/",
+   "https://www.pescarapescara.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "scuolaperestetiste.it",
+  "nome": "S.E.C.I.",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01165430685",
+  "telefono": "",
+  "email": "info@scuolaperestetiste.it",
+  "sitoUrl": "https://www.scuolaperestetiste.it/",
+  "indirizzo": "Via Ortona, 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "pe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.scuolaperestetiste.it/",
+   "https://www.scuolaperestetiste.it/sedi-scuola-seci/",
+   "https://www.scuolaperestetiste.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "studiodentisticobasciani.it",

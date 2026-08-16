@@ -1828,7 +1828,118 @@ def opposizioni():
     except Exception as e:
         raise SystemExit(f"⛔ `_opposizioni.json` illeggibile ({e}) — ⛔ non si pubblica "
                          "niente finché non torna leggibile.")
-    return {d.strip().lower().removeprefix("www.") for d in elenco if d.strip()}
+    # ⚠️ **Due formati, ⛔ non uno.** Il registro nasce come elenco di stringhe;
+    # da quando `--opponi` lo scrive, ogni voce è un oggetto con **la data della
+    # richiesta** — che serve a dimostrare *quando* è stata accolta. ⇒ si leggono
+    # entrambi: un file vecchio ⛔ non deve smettere di proteggere chi c'è dentro,
+    # ed è **l'unico file di questa cartella che ⛔ non si rigenera**.
+    fuori = set()
+    for d in elenco:
+        s = d.get("dominio", "") if isinstance(d, dict) else str(d)
+        s = s.strip().lower().removeprefix("www.")
+        if s:
+            fuori.add(s)
+    return fuori
+
+def registra_opposizione(domini, motivo=""):
+    """Registra un'opposizione dell'art. 21 e **rimuove subito** le schede.
+
+    🔑 **L'informativa promette due cose, e finora il codice ne faceva una.**
+    `opposizioni()` **leggeva** il registro ad ogni giro — ⛔ ma per *scriverci*
+    bisognava aprire il JSON a mano, ed è precisamente il gesto che ⛔ non si fa
+    quando arriva una mail e si ha fretta. ⇒ un diritto che dipende dalla
+    diligenza di chi legge la posta ⛔ non è un presidio: è una promessa.
+
+    ⚠️ **Rimuove anche le schede già scritte**, ⛔ non solo i giri futuri:
+    escludere dalle prossime letture lascerebbe online quella di oggi, che è
+    esattamente ciò a cui l'interessato si è opposto.
+
+    ⛔ **⛔ Non si chiede il motivo, e ⛔ non si valuta**: l'art. 21 sul legittimo
+    interesse ⛔ non lo richiede, e l'informativa dichiara *«l'opposizione ⛔ non
+    richiede motivazione e viene accolta senza eccezioni»*. Il parametro serve
+    solo a **datare la richiesta**, ⛔ non a filtrarla.
+    """
+    import glob
+    f = os.path.join(USCITA, "_opposizioni.json")
+    elenco = []
+    if os.path.exists(f):
+        try:
+            elenco = json.load(open(f, encoding="utf-8"))
+        except Exception as e:
+            raise SystemExit(f"⛔ `_opposizioni.json` illeggibile ({e}): ⛔ non lo sovrascrivo. "
+                             "Va riparato a mano, o si perderebbero le opposizioni già accolte.")
+    puliti = [d.strip().lower().removeprefix("https://").removeprefix("http://")
+              .removeprefix("www.").rstrip("/") for d in domini if d.strip()]
+    prima = {x["dominio"] if isinstance(x, dict) else str(x) for x in elenco}
+    oggi = time.strftime("%Y-%m-%d")
+    for d in puliti:
+        if d not in prima:
+            elenco.append({"dominio": d, "chiestoIl": oggi, "nota": motivo[:200]})
+    json.dump(elenco, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"✅ registro: {len(elenco)} opposizioni ({len(set(puliti) - prima)} nuove)")
+
+    tolte = 0
+    for p in sorted(glob.glob(os.path.join(USCITA, "*.json"))):
+        if os.path.basename(p).startswith("_"):
+            continue
+        try:
+            dati = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+        resta = [x for x in dati
+                 if not (isinstance(x, dict) and x.get("dominio", "").lower() in set(puliti))]
+        if len(resta) != len(dati):
+            tolte += len(dati) - len(resta)
+            json.dump(resta, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"✅ rimosse {tolte} schede già pubblicate")
+    print("⚠️ La cache ⛔ NON viene toccata: serve a ⛔ non ricontattare il sito. "
+          "Il dominio ⛔ non verrà più letto perché sta nel registro.")
+
+
+def rinfresca(giorni=90, quanti=None):
+    """Rilegge le schede più vecchie di `giorni`, perché **l'esattezza decade**.
+
+    🔑 L'informativa dell'art. 14 **promette** che i dati sono *«verificati
+    periodicamente rileggendo il sito di origine»* e che *«se il sito cessa di
+    essere raggiungibile la scheda viene rimossa»*. ⇒ senza questo comando
+    quella riga sarebbe **falsa**, e una promessa scritta in un'informativa
+    ⛔ non è una dichiarazione d'intenti: è ciò su cui l'interessato fa
+    affidamento per ⛔ non oppporsi.
+
+    ⚠️ Riusa `--leggi-stato`: ⛔ non duplica la lettura, **rimette in coda**.
+    """
+    import glob
+    limite = time.time() - giorni * 86400
+    vecchie = []
+    for p in sorted(glob.glob(os.path.join(USCITA, "*.json"))):
+        if os.path.basename(p).startswith("_"):
+            continue
+        try:
+            for x in json.load(open(p, encoding="utf-8")):
+                if not isinstance(x, dict) or not x.get("dominio"):
+                    continue
+                letto = x.get("lettoIl", "")
+                try:
+                    quando = time.mktime(time.strptime(letto, "%Y-%m-%d"))
+                except Exception:
+                    quando = 0     # ⚠️ senza data si rilegge: ⛔ non si assume fresca
+                if quando < limite:
+                    vecchie.append((x["dominio"], letto or "(mai)"))
+        except Exception:
+            continue
+    vecchie.sort(key=lambda v: v[1])
+    if quanti:
+        vecchie = vecchie[:quanti]
+    print(f"━━━ {len(vecchie)} schede più vecchie di {giorni} giorni ━━━")
+    for d, q in vecchie[:10]:
+        print(f"  {d:40} letta il {q}")
+    if not vecchie:
+        print("  ✅ nessuna: l'elenco è fresco.")
+        return
+    print(f"\n⇒ per rileggerle: cancella la loro scheda e rilancia `--leggi-stato`,\n"
+          f"   oppure passa i domini a `--elenco`. ⚠️ Il rinfresco ⛔ non è ancora\n"
+          f"   automatico: questo comando **misura il debito**, ⛔ non lo salda.")
+
 
 def verifica(sigla):
     """Secondo giro sugli incerti: si leggono le pagine legali e si ri-decide."""
@@ -1861,6 +1972,17 @@ if __name__ == "__main__":
         n = [a for a in arg if a.isdigit()]
         prov = prov[:int(n[0])] if n else prov
         scoperta_nazionale([(c, s) for c, s in prov])
+        sys.exit(0)
+    if "--opponi" in arg:
+        d = [a for a in arg if a != "--opponi" and not a.startswith("--")]
+        if not d:
+            raise SystemExit("uso: --opponi dominio.it [altro.it] — accoglie l'opposizione\n"
+                             "     dell'art. 21: registro permanente + rimozione delle schede.")
+        registra_opposizione(d)
+        sys.exit(0)
+    if "--rinfresca" in arg:
+        n = [int(a) for a in arg if a.isdigit()]
+        rinfresca(giorni=n[0] if n else 90)
         sys.exit(0)
     if "--json-ld" in arg:
         arricchisci_da_jsonld(prova="--scrivi" not in arg)
