@@ -129,6 +129,14 @@ export const DOCS: DocMeta[] = [
     icon: 'ScanFace',
   },
   {
+    slug: 'parametri-cutanei',
+    title: 'Parametri cutanei',
+    description:
+      'Undici grandezze fotografiche su una regione che scegli tu, e il confronto nel tempo.',
+    category: 'utilizzo',
+    icon: 'Ruler',
+  },
+  {
     slug: 'tracciabilita-lotto',
     title: 'Tracciabilità del lotto',
     description: 'Registrare il lotto e rispondere a un richiamo del produttore.',

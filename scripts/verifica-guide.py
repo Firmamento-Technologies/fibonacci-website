@@ -49,6 +49,8 @@ AMMESSI = {
     "Voglio una copia dei miei dati": "frase che dice il paziente, non un'etichetta",
     "Cancellate i miei dati": "idem",
     "Correggete questo dato": "idem",
+    "Revoco il consenso": "idem: e' la quarta riga della stessa tabella di frasi "
+    "che dice il paziente (esportazioni-e-diritti), le altre tre sono qui sopra",
     "A1234-B": "codice di lotto d'esempio",
     "A1234 B": "idem",
     "Alta efficienza": "impostazione della fotocamera dell'iPhone, non nostra",
