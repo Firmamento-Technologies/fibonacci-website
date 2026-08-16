@@ -149,6 +149,11 @@ const PAGINE = [
      elenco non è collaudata da nessuno, e il cancello resta verde. Stessa
      dimenticanza già corretta in `altezza-pagine.mjs`. */
   '/conformita-europea',
+  /* ⚠️ Aggiunta il 2026-08-16 **insieme** alla pagina, non dopo: è la pagina che
+     il medico raggiunge cliccando dall'email del canale di contatto (TD-166), ed
+     è l'unico posto dove possiamo parlare del gestionale. Se resta fuori da
+     questo elenco, un difetto lì non lo vede nessuno e il cancello resta verde. */
+  '/medici',
   '/richiedi-una-demo', '/verifica', '/domande', '/intelligenza-artificiale',
   '/chi-siamo', '/privacy', '/cookie', '/dpa', '/termini',
   '/sub-responsabili', '/sicurezza',

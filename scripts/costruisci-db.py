@@ -153,6 +153,7 @@ def costruisci():
                    (s["dominio"], senza_accenti(s["nome"]), senza_accenti(s.get("comune") or "")))
     dichiarati = fondi_i_pubblicati(db, pubblicati)
     db.commit()
+    scrivi_recapiti(db)
     print(f"✅ {DB}")
     print(f"   {n + dichiarati} studi · {p} prestazioni · {os.path.getsize(DB) // 1024} KB")
     if dichiarati:
@@ -163,6 +164,45 @@ def costruisci():
 
 
 PUBBLICATI = os.path.join(USCITA, "_pubblicati.json")
+RECAPITI = os.path.join(USCITA, "_recapiti.json")
+
+
+def scrivi_recapiti(db):
+    """Il **solo** dato che il canale di contatto deve vedere. — TD-166
+
+    🔑 **Perché un file a parte e ⛔ non il database intero.** L'endpoint gira nel
+    sidecar, che è il servizio **clinico**; l'elenco sta qui. Misurato: il
+    database è **~3,8 MB** (indirizzi, coordinate, prestazioni, orari, fonti),
+    i recapiti **~0,4 MB** — un decimo, e sono tutto ciò che serve per
+    recapitare un messaggio.
+    ⚠️ La misura del database va presa **col file `-wal` incluso**: in modalità
+    WAL `getsize` sul solo `.sqlite` dice **4 KB** finché ⛔ non si consolida, e
+    stampare quel numero faceva leggere il confronto **al contrario**.
+    ⇒ minimizzazione: ⛔ non si porta l'anagrafica di 5.700 studi dentro un
+    servizio che deve solo sapere **a chi scrivere**.
+
+    ⚠️ **Chi ⛔ non ha un'email ⛔ non entra**: una riga senza recapito ⛔ non è un
+    destinatario, e tenerla vorrebbe dire che l'endpoint deve gestire il caso
+    «trovato ma inutilizzabile» — che è poi il caso in cui si finisce per dire
+    a un estraneo **chi c'è nell'elenco senza recapito**.
+
+    ⛔ **E questo file ⛔ NON è il registro delle opposizioni.** Chi si oppone
+    sparisce da qui **alla prossima costruzione**, che può essere lontana ⇒
+    l'endpoint deve ricontrollare `_opposizioni.jsonl` **al momento
+    dell'invio**, e quello è il controllo che vince. Due controlli, e il vivo
+    comanda: è l'unico modo perché un'opposizione accolta **adesso** valga
+    **adesso**.
+    """
+    righe = {d: {"nome": n, "email": e, "origine": o} for d, n, e, o in db.execute(
+        "SELECT dominio, nome, email, origine FROM studi "
+        "WHERE email IS NOT NULL AND email != ''")}
+    json.dump(righe, open(RECAPITI, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=0, sort_keys=True)
+    intero = sum(os.path.getsize(DB + c) for c in ("", "-wal", "-shm")
+                 if os.path.exists(DB + c))
+    print(f"   recapiti per il canale: {len(righe)} studi con email, "
+          f"{os.path.getsize(RECAPITI) // 1024} KB "
+          f"(⛔ non i {intero // 1024} KB del database intero)")
 
 
 def _pubblicati():
