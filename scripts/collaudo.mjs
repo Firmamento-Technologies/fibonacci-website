@@ -18,7 +18,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 
-import { PERCORSI_CHE_CAMBIANO_LA_RESA } from './ancora-emr.mjs'
+import { schermateFresche } from './schermate-fresche.mjs'
 import { paritaMappaViso } from './parita-viso.mjs'
 import { paritaCatalogo } from './parita-catalogo.mjs'
 import { paritaFarmaci } from './parita-farmaci.mjs'
@@ -845,30 +845,26 @@ async function main() {
       impronte.set(h, nome)
     }
 
-    // (b) vengono dal codice che gira adesso?
-    const repoEmr = join(QUI, '../../EMR')
-    // ⚠️ Si confronta il commit che ha toccato per ultimo **il frontend**, non
-    // HEAD: un rilascio sul `pdf-signer` non cambia una schermata, e un
-    // presidio che si lamenta di cose che non cambiano l'immagine viene spento.
-    if (manifesto.commitFrontendEmr && existsSync(repoEmr)) {
-      const attuale = execFileSync(
-        /* L'elenco dei percorsi viene da `ancora-emr.mjs`, la stessa fonte che
-           il generatore usa per scriverlo nel manifesto. Due copie di questa
-           regola si sono gia' scostate due volte. */
-        'git', ['-C', repoEmr, 'log', '-1', '--format=%H', '--', ...PERCORSI_CHE_CAMBIANO_LA_RESA],
-        { encoding: 'utf8' },
-      ).trim()
-      if (attuale !== manifesto.commitFrontendEmr) {
-        problemi.push(
-          `schermate: prese dal frontend EMR ${manifesto.commitFrontendEmr.slice(0, 8)}, ` +
-            `ma l'ultimo commit su apps/web/src è ${attuale.slice(0, 8)} — ` +
-            'rigenerale con `node scripts/schermate.mjs`',
-        )
-      }
-    } else if (!existsSync(repoEmr)) {
-      console.log(
-        giallo('\nSchermate: non verificate contro l’EMR (il sottomodulo non è in questo clone).'),
-      )
+    /* (b) vengono dal codice che gira adesso?
+     *
+     * 🔄 **SPOSTATO DA BLOCCO AD AVVISO il 2026-08-16.** Il controllo non è
+     * sparito: è diventato **bloccante nel rilascio** (`scripts/rilascia.mjs`),
+     * che è il gesto in cui una schermata vecchia fa davvero danno. Il push non
+     * pubblica niente.
+     *
+     * 🔴 La ragione è misurata, non teorica: fra una rigenerazione e il push
+     * un'altra sessione ha committato sul frontend EMR e il cancello è tornato
+     * rosso in pochi minuti, per un commit che toccava la mappa 3D — **nessuna**
+     * delle cinque schermate pubblicate. Finché l'EMR è in sviluppo attivo,
+     * qui è rosso quasi sempre, e un presidio sempre rosso in questo repo è
+     * già stato spento due volte.
+     *
+     * ⛔ Non si restringe l'ancora per farlo tacere: vedi il perché, per esteso,
+     * in `schermate-fresche.mjs`. */
+    const freschezza = schermateFresche(join(QUI, '..'))
+    if (freschezza.stato !== 'fresche') {
+      console.log(giallo(`\n⚠️  Schermate: ${freschezza.motivo}`))
+      console.log(giallo('   Non blocca il push. ⛔ Blocca il RILASCIO: `node scripts/rilascia.mjs`.'))
     }
   } catch (e) {
     problemi.push(`schermate: manifesto illeggibile (${e.message}) — esegui \`node scripts/schermate.mjs\``)
