@@ -155,6 +155,9 @@ const PAGINE = [
      è l'unico posto dove possiamo parlare del gestionale. Se resta fuori da
      questo elenco, un difetto lì non lo vede nessuno e il cancello resta verde. */
   '/medici',
+  /* ⚠️ La scheda del medico d'esempio: è l'unica pagina dove vive il modulo di
+     contatto (TD-166). Aggiunta insieme al modulo, ⛔ non dopo. */
+  '/pazienti/medico/studio-dimostrativo',
   '/richiedi-una-demo', '/verifica', '/domande', '/intelligenza-artificiale',
   '/chi-siamo', '/privacy', '/cookie', '/dpa', '/termini',
   '/sub-responsabili', '/sicurezza',

@@ -49,7 +49,22 @@ jobs:
       # - run: npm run build
       #   env:
       #     NEXT_PUBLIC_DOMINIO_SITO: fibonaccimedica.it
+      # 🔴 **ATTENZIONE, misurato il 2026-08-16: questo artefatto NON è ciò che
+      #    serve `fibonaccimedica.it`.** Il DNS punta a `188.213.175.26` (la
+      #    macchina Aruba) e Caddy serve `/var/www/fibonaccimedica`, una
+      #    **cartella locale sincronizzata a mano**. Pages resta in piedi e
+      #    risponde su `firmamento-technologies.github.io`, ⛔ ma un rilascio
+      #    che finisce qui e basta **non è online**: serve anche la copia sulla
+      #    macchina. ⇒ le variabili qui sotto vanno tenute uguali a quelle con
+      #    cui si costruisce la copia che viene sincronizzata, o le due
+      #    versioni divergono senza che niente diventi rosso.
       - run: npm run build
+        env:
+          # Il canale di contatto (TD-166): vuoto ⇒ il modulo sulla scheda del
+          # medico ⛔ non esiste. ⚠️ È un host diverso dal sito, quindi la
+          # chiamata è cross-origin e vive solo se l'origine è in
+          # `ALLOWED_ORIGINS` del sidecar. Verificato il 2026-08-16.
+          NEXT_PUBLIC_CONTATTO_API_URL: https://app.fibonaccimedica.it
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out/

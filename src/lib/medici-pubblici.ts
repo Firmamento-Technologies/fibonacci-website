@@ -78,6 +78,19 @@ export interface SchedaMedicoPubblica {
    *  prendono già dall'URL (`/pubblico/studio/{id}`) e dalla query degli slot —
    *  ⛔ ma non si mostra in pagina: non dice niente al paziente. */
   organizationId: string
+  /** Il dominio del sito dello studio: è la **chiave dell'elenco** e quella con
+   *  cui il canale di contatto trova il recapito (TD-166).
+   *
+   *  🔑 **Perché il dominio e non l'email.** L'indirizzo del medico ⛔ non passa
+   *  mai dal browser: il modulo manda **questa chiave**, e il recapito lo
+   *  risolve il server. Pubblicare l'email in pagina la consegnerebbe a
+   *  chiunque scarichi il sito, che è precisamente il modo in cui quegli
+   *  indirizzi sono finiti nel nostro elenco.
+   *
+   *  ⚠️ È anche la chiave con cui la scheda **dichiarata dallo studio** si
+   *  fonde con quella letta da fonti pubbliche (TD-167): a righe coincidenti
+   *  vince la sua, perché è l'unica che mantiene lui. */
+  dominio: string
   /** ⛔ `true` solo per gli esempi: la pagina esce con `noindex` e resta fuori
    *  dal sitemap. Un profilo inventato che si posiziona come se fosse un
    *  medico vero sarebbe un danno, non un segnaposto. */
@@ -172,6 +185,7 @@ function slotDiEsempio(): SlotPubblico[] {
 export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
   {
     slug: 'studio-dimostrativo',
+    dominio: 'studio-dimostrativo.example',
     /* ⚠️ **Manopola di PROVA, spenta di default.** Il modulo di prenotazione
      * manda `studioId: organizationId` al sidecar: con un valore inventato la
      * richiesta viene rifiutata, quindi il percorso completo non si può provare.
@@ -224,6 +238,7 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
      * voce**, e il ramo «questo studio ha orari liberi». Con un esempio solo,
      * metà della UI non sarebbe mai stata guardata. */
     slug: 'studio-dimostrativo-due',
+    dominio: 'studio-dimostrativo-due.example',
     organizationId: 'esempio-org-2',
     esempio: true,
     studio: {
@@ -289,6 +304,10 @@ function esempiGenerati(quanti: number): SchedaMedicoPubblica[] {
     const comune = COMUNI_ESEMPIO[i % COMUNI_ESEMPIO.length]
     return {
       slug: `studio-dimostrativo-${n}`,
+      // ⚠️ `.example` è riservato dalla RFC 2606: ⛔ non può essere di nessuno,
+      //    quindi un esempio ⛔ non può puntare a uno studio vero nemmeno per
+      //    sbaglio.
+      dominio: `studio-dimostrativo-${n}.example`,
       organizationId: `esempio-org-${n}`,
       esempio: true,
       studio: {

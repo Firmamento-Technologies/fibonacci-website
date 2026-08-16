@@ -176,6 +176,28 @@ export const PRENOTA_API_URL: string =
    * l'indirizzo nel costruito e non trovandolo. */
   (process.env.NEXT_PUBLIC_PRENOTA_API_URL ?? '').trim()
 
+/** Dove risponde il canale di contatto fra chi cerca e i medici dell'elenco.
+ *
+ * 🔴 **Un altro host, e non è un dettaglio di configurazione.** Questo sito è
+ * **statico** (`output: 'export'`): non può inoltrare niente a un servizio, e
+ * il canale gira nel sidecar dietro `app.fibonaccimedica.it`. ⇒ la chiamata è
+ * **cross-origin**, e vive solo se quell'origine è nella lista CORS del
+ * sidecar. ⚠️ Verificato prima di spedire, il 2026-08-16: la lista conteneva
+ * **solo** `app.`, quindi da `curl` funzionava e **dal browser no** — la stessa
+ * famiglia dell'errore già pagato con la verifica fatta con `urllib`.
+ *
+ * ⛔ **Vuoto di default, come `PRENOTA_API_URL`, e per la stessa ragione**: un
+ * modulo che spedisce nel vuoto è peggio di un modulo assente, perché chi
+ * scrive crede di aver scritto. Vuoto ⇒ la sezione **si dichiara spenta**.
+ *
+ *     NEXT_PUBLIC_CONTATTO_API_URL=https://app.fibonaccimedica.it npm run build
+ *
+ * 🔴 **`NEXT_PUBLIC_`**: il modulo è un componente **client**, e Next inlinea
+ * nel bundle del browser solo le variabili con quel prefisso. Col nome nudo
+ * resterebbe vuota **senza nessun errore**. */
+export const CONTATTO_API_URL: string =
+  (process.env.NEXT_PUBLIC_CONTATTO_API_URL ?? '').trim()
+
 /** Dove è pubblicata la vetrina. Da spostare sul dominio proprio. */
 /* L'indirizzo canonico del sito. Segue `NEXT_PUBLIC_DOMINIO_SITO` — la STESSA
  * variabile che in `next.config.ts` toglie il prefisso `/fibonacci-website` e

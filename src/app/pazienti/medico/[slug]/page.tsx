@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { SchedaMedico } from '@/components/pazienti/SchedaMedico'
+import { ModuloContatto } from '@/components/pazienti/ModuloContatto'
 import { mediciPubblicati, medicoPerSlug, percorsoMedico } from '@/lib/medici-pubblici'
 import { SITE_URL } from '@/lib/site-config'
 
@@ -146,6 +147,14 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         />
       )}
       <SchedaMedico m={m} />
+      {/* ⚠️ Sotto la scheda, ⛔ non sopra: prima si decide se è il medico
+          giusto (albo, prestazioni, dove è), poi si scrive. Un modulo in cima
+          chiederebbe di agire prima di aver letto.
+          ⛔ Da spento (nessun indirizzo dell'endpoint) il componente ⛔ non
+          rende niente: nessuna casella, nessuna promessa. */}
+      <div className="gabbia">
+        <ModuloContatto dominio={m.dominio} nomeStudio={m.studio.nome} />
+      </div>
     </GuscioPaziente>
   )
 }
