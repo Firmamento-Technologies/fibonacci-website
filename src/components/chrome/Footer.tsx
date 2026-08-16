@@ -7,7 +7,7 @@ import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, SIGNUP_U
  * allineate nel footer»*). Misurato: erano **9 · 5 · 5**. Una colonna lunga
  * quasi il doppio delle altre lascia sotto le corte un vuoto verticale di
  * mezzo schermo, ed è quel vuoto che si legge come «storto», non i caratteri.
- * Ora sono **6 · 6 · 5**, e le tre colonne finiscono quasi insieme.
+ * Ora sono **6 · 6 · 7**, e le tre colonne finiscono quasi insieme.
  *
  * 🔑 Lo spostamento non è meccanico, è per **significato**: «Che software
  * serve», «La tua documentazione regge?» e «Integrazioni» non sono il
@@ -66,43 +66,48 @@ export function Footer() {
 
         <hr className="filetto" style={{ marginBottom: 'var(--s-55)' }} />
 
-        <div className="grid gap-[var(--s-55)]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))' }}>
+        {/* ── Il marchio, su una RIGA SUA e non in una quarta colonna ──────
+            🔴 Prima il logo stava in una griglia di **quattro colonne uguali**
+            insieme ai tre elenchi. Ma logo, una riga di testo e due
+            collegamenti non riempiono una colonna alta quanto sette voci: sotto
+            restava un **vuoto verticale di mezzo schermo**, e le tre colonne di
+            link erano strette per far posto a quel vuoto.
+            ⇒ Il marchio prende una riga propria, con i due collegamenti
+            all'estremo opposto; gli elenchi si dividono **tutta** la larghezza
+            in tre parti uguali. Sparisce il vuoto e le colonne respirano.
+            ⚠️ Su telefono `flex-wrap` fa impilare da sé: nessuna regola in più. */}
+        <div className="flex flex-wrap items-start justify-between gap-[var(--s-34)]">
           <div style={{ minWidth: 0 }}>
             <Logo chiaro />
-            <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--on-ink-muted)', maxWidth: '22ch' }}>
+            <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--on-ink-muted)', maxWidth: '26ch' }}>
               La cartella clinica della medicina estetica.
             </p>
-            {/* 🔴 **«AccediRegistrati» attaccati**, su ogni pagina del sito.
-                I due erano `inline-flex` adiacenti, e JSX toglie lo spazio fra
-                due elementi separati da un a-capo ⇒ a video usciva **una parola
-                sola inventata**. I margini `mt-` c'erano già: erano pensati per
-                stare su due righe, e `inline-flex` glielo impediva.
-                ⇒ contenitore `flex-col`, che è ciò che le due voci volevano
-                essere fin dall'inizio. */}
-            <div className="mt-[var(--s-21)] flex flex-col items-start gap-[var(--s-13)]">
-              {APP_URL && (
-                <a
-                  href={APP_URL}
-                  rel="noopener"
-                  className="link-avanti inline-flex"
-                  style={{ color: 'var(--accent-onink)' }}
-                >
-                  Accedi
-                </a>
-              )}
-              {SIGNUP_URL && (
-                <a
-                  href={SIGNUP_URL}
-                  rel="noopener"
-                  className="link-avanti inline-flex"
-                  style={{ color: 'var(--accent-onink)' }}
-                >
-                  Registrati
-                </a>
-              )}
-            </div>
           </div>
 
+          {/* 🔴 «AccediRegistrati» si stampavano attaccati su ogni pagina: erano
+              due `inline-flex` adiacenti, e JSX toglie lo spazio fra elementi
+              su righe diverse. Qui stanno affiancati **di proposito**, con uno
+              spazio dichiarato dal `gap`. */}
+          <div className="flex items-center gap-[var(--s-21)]">
+            {SIGNUP_URL && (
+              <a href={SIGNUP_URL} rel="noopener" className="btn btn-su-scuro">
+                Registrati
+              </a>
+            )}
+            {APP_URL && (
+              <a
+                href={APP_URL}
+                rel="noopener"
+                className="link-avanti inline-flex"
+                style={{ color: 'var(--accent-onink)' }}
+              >
+                Accedi
+              </a>
+            )}
+          </div>
+        </div>
+
+        <div className="mt-[var(--s-34)] grid gap-x-[var(--s-34)] gap-y-[var(--s-21)] sm:mt-[var(--s-55)] sm:gap-y-[var(--s-34)] sm:grid-cols-3">
           {COLONNE.map((col) => (
             <nav key={col.titolo} aria-label={col.titolo}>
               {/* `occhiello-piatto`: senza il filetto davanti, che qui
@@ -122,7 +127,7 @@ export function Footer() {
                   ⛔ Non si rimpicciolisce il testo: 15px è già il minimo
                   leggibile per un collegamento, e il bersaglio da toccare non
                   deve scendere. Si cambia la disposizione, non la scala. */}
-              <ul className="mt-[var(--s-21)] grid grid-cols-2 gap-x-[var(--s-13)] gap-y-[var(--s-13)] sm:grid-cols-1 sm:space-y-[var(--s-13)]">
+              <ul className="mt-[var(--s-13)] grid grid-cols-2 gap-x-[var(--s-13)] gap-y-[var(--s-8)] sm:mt-[var(--s-21)] sm:grid-cols-1 sm:gap-y-[var(--s-13)]">
                 {col.voci.map((v) => (
                   <li key={v.href}>
                     {/* La demo sta su un altro dominio: `next/link` con un URL

@@ -105,13 +105,16 @@ function Sigillo({ marchio, stato }: { marchio: string; stato: StatoBollino }) {
   const dimensione = marchio.length > 6 ? 9 : 10
 
   return (
+    /* ⚠️ Misura data dalle CLASSI e non dagli attributi `width`/`height`: il
+       `viewBox` resta 58 e il disegno scala da sé. Su telefono 44px, perché lì
+       il sigillo è l'elemento più alto della scheda e quindi **è lui a
+       decidere** l'altezza del blocco: 14px in meno per scheda, per cinque
+       schede, senza togliere una parola. */
     <svg
-      width="58"
-      height="58"
+      className="w-[44px] h-[44px] shrink-0 sm:w-[58px] sm:h-[58px]"
       viewBox="0 0 58 58"
       fill="none"
       aria-hidden="true"
-      style={{ flexShrink: 0 }}
     >
       {/* Doppio anello: è ciò che a colpo d'occhio dice «timbro» invece che
           «icona». Il secondo è più sottile e più chiaro, come un'incisione. */}
@@ -281,12 +284,15 @@ export function BolliniPiede() {
                 <Sigillo marchio={b.marchio} stato={b.stato} />
                 <span>
                   <span
-                    className="block text-[15px]"
+                    /* ⚠️ `sm:min-h-[2.34rem]`, ⛔ non sempre: l'altezza minima
+                       serve a **allineare fra loro** schede affiancate. Su
+                       telefono sono impilate, quindi lì non allinea niente e
+                       aggiunge soltanto una riga vuota per scheda. */
+                    className="block text-[15px] sm:min-h-[2.34rem]"
                     style={{
                       fontFamily: 'var(--font-display)',
                       color: 'var(--on-ink)',
                       lineHeight: 1.25,
-                      minHeight: '2.34rem',
                     }}
                   >
                     {b.sigla}
