@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro San Pellegrino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisioradi.it",
@@ -52,6 +55,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fisioradi Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  }
 ]

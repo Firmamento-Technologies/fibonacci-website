@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aliza Pravettoni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aliza Pravettoni, e il dominio lo ripete",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "aurorabiosearch.com",
@@ -59,7 +62,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 45.543835,
+  "lon": 9.117708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosantedoardo.it",
@@ -100,7 +106,8 @@
    "Thursday 08:30-12:30",
    "Thursday 14:30-18:30",
    "Saturday 08:30-12:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centrosalutebellezza.net",
@@ -161,7 +168,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fysiolab.it",
@@ -189,7 +199,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "o3therapy.it",
@@ -215,7 +228,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Dario Laurelli",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomirelli.it",
@@ -242,7 +258,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Dr. Mirelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "russogiorgio.it",
@@ -277,7 +296,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgio Russo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgio Russo, e il dominio lo ripete",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sancarloistitutoclinico.it",
@@ -303,7 +325,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticogiani.it",

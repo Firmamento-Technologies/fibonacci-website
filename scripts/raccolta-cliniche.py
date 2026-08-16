@@ -1389,6 +1389,94 @@ def arricchisci(sigle):
     print(f"  ⚠️ schede senza nessuna prestazione provata: {len(vuote)} — {', '.join(vuote[:6])}")
 
 # ═════════════════════════════════════════════════ 3. geocodifica (a parte)
+def coordinate_dal_comune(prova=True):
+    """Dà a ogni scheda le coordinate **del suo comune**, da un file ISTAT.
+
+    🔴 **Perché ⛔ non si geocodifica indirizzo per indirizzo, ed è un vincolo
+    ⛔ non una scorciatoia.** La *usage policy* di **Nominatim** consente *«limited,
+    non-bulk creative use»* — e **4.002 richieste sono esattamente bulk**.
+    ⇒ lanciare il geocodificatore su tutto l'elenco ⛔ non sarebbe «lento»:
+    sarebbe **un uso che il servizio ⛔ non ci concede**, per giunta di un bene
+    pubblico mantenuto da volontari.
+    🔑 La via d'uscita ⛔ non è pagare: è **cambiare il dato che serve**. Per
+    «mostrami i medici vicino a me» la precisione utile è **il comune**, ⛔ non il
+    civico — e le coordinate dei **7.904 comuni italiani** sono **un file**.
+    ⇒ copertura alta, **zero richieste**, ⛔ nessuna policy violata.
+
+    ⚠️ **La precisione si DICHIARA nel dato**, ⛔ non si lascia intuire: chi legge
+    `lat`/`lon` deve sapere se è **il civico** (dal JSON-LD del sito) o **il
+    centro del comune**. Un punto disegnato dove lo studio ⛔ non è, senza dirlo,
+    è **peggio di nessun punto**.
+    """
+    import csv, glob
+    percorsi = [os.path.join(QUI, "coordinate.csv"), "/tmp/coord.csv"]
+    percorso = next((p for p in percorsi if os.path.exists(p)), None)
+    if not percorso:
+        raise SystemExit("⛔ manca `scripts/coordinate.csv` (comune → lat/long, fonte ISTAT):\n"
+                         "   curl -sO https://raw.githubusercontent.com/opendatasicilia/"
+                         "comuni-italiani/main/dati/coordinate.csv")
+    codice = {}
+    for r in csv.DictReader(open(os.path.join(QUI, "comuni.csv"), encoding="utf-8")):
+        codice[senza_accenti(r["comune"]).lower()] = r["pro_com_t"].lstrip("0")
+    punti = {}
+    for r in csv.DictReader(open(percorso, encoding="utf-8")):
+        try:
+            punti[r["pro_com_t"].lstrip("0")] = (float(r["lat"]), float(r["long"]))
+        except Exception:
+            pass
+    per_cap = {}
+    if os.path.exists(os.path.join(QUI, "cap.csv")):
+        for r in csv.DictReader(open(os.path.join(QUI, "cap.csv"), encoding="utf-8")):
+            c = (r.get("cap") or "").strip().zfill(5)
+            k = (r.get("pro_com_t") or "").lstrip("0")
+            if c and k:
+                per_cap.setdefault(c, k)
+    dati, scritte, senza = {}, 0, 0
+    for p in sorted(glob.glob(os.path.join(USCITA, "*.json"))):
+        if os.path.basename(p).startswith("_"):
+            continue
+        try:
+            dati[p] = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+    for p, schede in dati.items():
+        for s in schede:
+            if not isinstance(s, dict):
+                continue
+            if s.get("lat"):
+                # ⚠️ Chi ha già le coordinate dal JSON-LD le tiene: sono **del
+                # civico**, e sovrascriverle col centro del comune sarebbe
+                # **peggiorare** un dato buono.
+                s.setdefault("precisioneCoord", "civico")
+                continue
+            c = senza_accenti(s.get("comune") or "").lower().strip()
+            k = punti.get(codice.get(c, ""))
+            # ⚠️ **Ripiego sul CAP**, che identifica il comune quando il campo
+            # `comune` manca o è scritto in un modo che l'anagrafe ⛔ non
+            # riconosce («Roma RM», «Milano (MI)», un quartiere). ⛔ Non è meno
+            # preciso: porta **allo stesso** centro comunale.
+            # ⚠️ Un CAP può servire **più comuni**: si prende il primo, e la
+            # precisione resta dichiarata «comune» — che è già quel che è.
+            if not k and s.get("cap"):
+                k = punti.get(per_cap.get(str(s["cap"]).strip().zfill(5), ""))
+            if not k:
+                senza += 1
+                continue
+            s["lat"], s["lon"] = round(k[0], 6), round(k[1], 6)
+            s["precisioneCoord"] = "comune"
+            scritte += 1
+    tot = sum(len(v) for v in dati.values())
+    print(f"━━━ {tot} schede · {scritte} coordinate dal comune · {senza} senza comune "
+          f"riconosciuto ━━━")
+    print(f"   ⚠️ precisione **comune**, ⛔ non civico: dichiarata in `precisioneCoord`.")
+    if prova:
+        print("\n⚠️ PROVA: niente scritto. Rilancia con `--coord-comune --scrivi`.")
+        return
+    for p, schede in dati.items():
+        json.dump(schede, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"\n✅ riscritti {len(dati)} file")
+
+
 def geocodifica(sigla, pausa=1.1):
     """Nominatim, gratuito. ⚠️ Un punto disegnato dove lo studio **non è** è
     peggio di nessun punto ⇒ `esatta` dice se viene dal civico o dal comune."""
@@ -1972,6 +2060,9 @@ if __name__ == "__main__":
         n = [a for a in arg if a.isdigit()]
         prov = prov[:int(n[0])] if n else prov
         scoperta_nazionale([(c, s) for c, s in prov])
+        sys.exit(0)
+    if "--coord-comune" in arg:
+        coordinate_dal_comune(prova="--scrivi" not in arg)
         sys.exit(0)
     if "--opponi" in arg:
         d = [a for a in arg if a != "--opponi" and not a.startswith("--")]

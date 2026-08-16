@@ -30,7 +30,8 @@
   "orari": [
    "Monday 8:30-13:00 | 14:00-19:00",
    "Tuesday,Wednesday,Thursday,Friday 8:30-17:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "cassanochiara.com",
@@ -61,7 +62,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Cassano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Cassano, e il dominio lo ripete",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dot41.it",
@@ -89,7 +93,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kairosambulatorio.it",
@@ -117,7 +124,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BdueB",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "michelinimarco.com",
@@ -204,7 +214,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicopacto.it",
@@ -232,6 +245,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Madico Pacto",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  }
 ]

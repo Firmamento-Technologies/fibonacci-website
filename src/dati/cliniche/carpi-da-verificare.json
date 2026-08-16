@@ -27,7 +27,10 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticalarimar.it",
@@ -53,7 +56,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Larimar",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lisabioestetica.it",
@@ -84,7 +90,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Estetica Lisa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mamasuncarpi.it",
@@ -140,7 +149,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiorosatobeatrice.it",
@@ -178,6 +190,7 @@
    "Monday, Tuesday, Wednesday, Thursday 09:00-12:30",
    "Monday, Tuesday, Wednesday, Thursday 14:30-19:00",
    "Friday 09:00-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

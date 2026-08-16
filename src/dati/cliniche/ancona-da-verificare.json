@@ -29,7 +29,8 @@
   "lon": 13.517493,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "salutebenessereitaly.it",
@@ -53,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studimedicipietralacroce.it",
@@ -81,6 +85,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studi Medici Stoduto",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  }
 ]

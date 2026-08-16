@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "angelolongoni.eu",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angelo Longoni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angelo Longoni, e il dominio lo ripete",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautyesteeclinique.com",
@@ -84,7 +90,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BeautyEsteè Clinique",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticagrierosu.eu",
@@ -145,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dinamicamedica.it",
@@ -241,7 +253,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "mrpclinicseregno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriocso.it",
@@ -267,7 +282,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "seven-suite.it",
@@ -294,7 +312,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioquasso.it",
@@ -322,7 +343,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Quasso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unimedinverigo.it",
@@ -348,7 +372,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.740484,
+  "lon": 9.223612,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visagebeautylab.it",

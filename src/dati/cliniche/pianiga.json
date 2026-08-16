@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Palazzo Fiuggi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.798561,
+  "lon": 13.220489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "violastudiodentistico.it",
@@ -56,6 +59,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Viola",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.38565,
+  "lon": 12.048577,
+  "precisioneCoord": "comune"
  }
 ]

@@ -24,7 +24,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Denise Estetica di Cappellazzo Denise"
+  "nomeStrutturato": "Denise Estetica di Cappellazzo Denise",
+  "lat": 45.641321,
+  "lon": 11.30406,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioguadagno.com",
@@ -61,6 +64,9 @@
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-18:00",
    "Saturday,Sunday Chiuso"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

@@ -54,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticosilmar.com",
@@ -108,7 +111,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "William Susi",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottdeltorto.com",
@@ -140,7 +146,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ke-estetica.it",
@@ -190,7 +199,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcentertermoli.com",
@@ -215,7 +227,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinedeimedici.cb.it",
@@ -243,6 +258,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ordine dei Medici di Campobasso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  }
 ]

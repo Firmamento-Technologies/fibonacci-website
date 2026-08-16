@@ -58,7 +58,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "CommunityHealth Organization"
+  "tipoDichiarato": "CommunityHealth Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paola-antonini.it",
@@ -90,7 +93,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Paola Antonini - Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.508429,
+  "lon": 11.470686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolapmakeup.it",
@@ -118,7 +124,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.442954,
+  "lon": 11.983149,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pederzolipaola.com",
@@ -147,7 +156,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pederzoli Paola, e il dominio lo ripete",
   "nomeStrutturato": "Casanova Happy Island",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.846673,
+  "lon": 11.0676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "teoxanetrainingcenter.com",
@@ -172,6 +184,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

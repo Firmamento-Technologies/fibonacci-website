@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Aori",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "arsmedendi.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.683621,
+  "lon": 8.707087,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "campusmedico.it",
@@ -83,7 +89,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Campus Medico",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicofargo.it",
@@ -113,7 +122,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico a Varese | Fargo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrospecialisticosanmartino.it",
@@ -141,7 +153,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Specialistico San Martino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.724847,
+  "lon": 8.694023,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicalaquiete.it",
@@ -173,7 +188,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 07:30-19:30",
    "Saturday 07:30-12:30"
-  ]
+  ],
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicamedica-mc.it",
@@ -203,7 +221,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Medica MC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermartclinic.it",
@@ -237,7 +258,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DERMARTCLINIC SRL",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescamaggiulli.com",
@@ -270,7 +294,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Maggiulli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Maggiulli, e il dominio lo ripete",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticacasagrande.it",
@@ -300,7 +327,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina estetica Somma Lombardo e Varese - Dott.ssa Casagrande",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "odontobi.it",
@@ -327,7 +357,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.712169,
+  "lon": 8.642977,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioeffetre.it",
@@ -381,7 +414,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Elianto"
+  "nomeStrutturato": "Elianto",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomastra.it",
@@ -405,7 +441,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.780222,
+  "lon": 8.793769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polimedicalvarese.it",
@@ -461,7 +500,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SME Centro Medico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiozibetti.com",
@@ -485,6 +527,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  }
 ]

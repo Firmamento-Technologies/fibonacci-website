@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saramussi.it",
@@ -53,6 +56,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sara Mussi, e il dominio lo ripete",
   "nomeStrutturato": "adminfnt",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  }
 ]

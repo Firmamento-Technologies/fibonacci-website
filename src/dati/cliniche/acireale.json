@@ -57,6 +57,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Antiaging Catania",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.616116,
+  "lon": 15.079231,
+  "precisioneCoord": "comune"
  }
 ]

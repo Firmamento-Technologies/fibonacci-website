@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "B Life srl - Il Catalogo Medicale",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.597766,
+  "lon": 12.325734,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "borgopilotti.it",
@@ -85,7 +88,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fillermast Vai, cognome dentro il dominio",
   "nomeStrutturato": "Mast Industria Italiana",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.720709,
+  "lon": 12.671348,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcojovane.com",
@@ -116,7 +122,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Jovane, e il dominio lo ripete",
   "nomeStrutturato": "Studio Medico Dr. Marco Jovane",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medvetsrl.it",
@@ -148,7 +157,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medvet Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "patriziovicini.it",
@@ -181,7 +193,8 @@
   "lon": 12.446557,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-20:15"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "quotidianosanita.it",
@@ -208,7 +221,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Quotidiano Sanità",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trovaprezzi.it",
@@ -238,7 +254,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Trovaprezzi.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ufficiodiscount.it",
@@ -266,6 +285,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

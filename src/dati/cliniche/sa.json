@@ -31,7 +31,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Pascale, e il dominio lo ripete",
   "nomeStrutturato": "Alessandra Pascale Medico Estetico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.112532,
+  "lon": 15.635237,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alessiamaiorino.com",
@@ -65,7 +68,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Maiorino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Maiorino, e il dominio lo ripete",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "almericoprinzo.it",
@@ -127,7 +133,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottormerola.it",
@@ -184,7 +193,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Flora Giampaolo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Flora Giampaolo, e il dominio lo ripete",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "goldclinic.it",
@@ -211,7 +223,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lasersalerno.it",
@@ -243,7 +258,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.747213,
+  "lon": 14.64332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticame.it",
@@ -269,7 +287,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ME Medicina Estetica",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pierfrancescobove.it",
@@ -304,7 +325,8 @@
   "orari": [
    "Mo-Fr 09:00-20:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "roccocarfagna.it",
@@ -333,7 +355,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rocco Carfagna, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rocco Carfagna, e il dominio lo ripete",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "secoloditalia.it",
@@ -361,7 +386,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Secolo d'Italia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "valeria-salerno.com",

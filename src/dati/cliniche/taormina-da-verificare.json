@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.851792,
+  "lon": 15.285652,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ilchirurgoestetico.com",
@@ -54,6 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

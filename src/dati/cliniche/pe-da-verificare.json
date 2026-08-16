@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "asl.pe.it",
@@ -49,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticadrzura.it",
@@ -87,7 +93,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottmascisilvio.it",
@@ -112,7 +121,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "formativezone.it",
@@ -147,7 +159,8 @@
   "lon": 15.521795,
   "orari": [
    "Mo-Fr 08:00-13:00, 14:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "ioledangelomedicinaestetica.it",
@@ -182,7 +195,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Iole D'Angelo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.513603,
+  "lon": 14.15162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticapescara.com",
@@ -217,7 +233,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "medicina estetica pescara",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mediestetic.info",
@@ -250,7 +269,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nimastudiomedico.it",
@@ -275,7 +297,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pescarapescara.it",

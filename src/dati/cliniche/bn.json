@@ -30,7 +30,10 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-18:30",
    "Saturday 07:30-12:00"
   ],
-  "tipoDichiarato": "MedicalClinic DiagnosticLab"
+  "tipoDichiarato": "MedicalClinic DiagnosticLab",
+  "lat": 41.094118,
+  "lon": 14.705337,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoluxor.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Chirurgico Luxor",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.247688,
+  "lon": 14.705941,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromorgagni.com",
@@ -85,7 +91,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Morgagni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.247688,
+  "lon": 14.705941,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ditarmedaesthetics.it",
@@ -118,7 +127,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ditarmedaesthetics.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.247688,
+  "lon": 14.705941,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mariailariaiorillo.it",
@@ -143,6 +155,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.247688,
+  "lon": 14.705941,
+  "precisioneCoord": "comune"
  }
 ]

@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sienaesthetic.com",
@@ -75,6 +78,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  }
 ]

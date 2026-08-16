@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Azienda ULSS 7 Pedemontana",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.766911,
+  "lon": 11.734347,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sassarisalute.it",
@@ -50,6 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  }
 ]

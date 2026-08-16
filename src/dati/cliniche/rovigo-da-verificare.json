@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.977206,
+  "lon": 12.27419,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "coloproctologiarovigo.it",
@@ -50,7 +53,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Coloproctologia Rovigo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.977206,
+  "lon": 12.27419,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticalemuse.com",
@@ -81,7 +87,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Le Muse",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.977206,
+  "lon": 12.27419,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "it.jobergroup.com",
@@ -107,7 +116,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "m.aerosal.it",
@@ -187,7 +199,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "omceoro.it",
@@ -239,7 +254,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "FNOMCeO",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rovigo.infoisinfo.it",
@@ -291,7 +309,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.977206,
+  "lon": 12.27419,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sies.net",
@@ -326,6 +347,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  }
 ]

@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alda Martini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alda Martini, e il dominio lo ripete",
+  "lat": 43.676674,
+  "lon": 10.549224,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentistibandettini.it",
@@ -54,7 +57,8 @@
   "nomeStrutturato": "Studio Odontoiatrico Bandettini",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dottorlicata.it",
@@ -113,6 +117,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Unipegaso Pisa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  }
 ]

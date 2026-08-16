@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "valerianovinci.it",

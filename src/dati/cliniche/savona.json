@@ -27,6 +27,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Sasso, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Andrea Sasso | Chirurgo plastico Savona Liguria Ponente",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.128754,
+  "lon": 8.259371,
+  "precisioneCoord": "comune"
  }
 ]

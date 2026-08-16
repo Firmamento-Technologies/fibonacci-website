@@ -60,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.107032,
+  "lon": 12.402996,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ringiovanimento-medico.it",
@@ -92,7 +95,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "studimedicipg",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.98229,
+  "lon": 12.419588,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "uslumbria1.it",
@@ -118,6 +124,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.107032,
+  "lon": 12.402996,
+  "precisioneCoord": "comune"
  }
 ]

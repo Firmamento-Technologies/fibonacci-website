@@ -58,7 +58,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "epilexpress",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticapieraegabriella.com",
@@ -88,7 +91,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.75671,
+  "lon": 11.184762,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "liliumstudimedici.it",
@@ -113,7 +119,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.75671,
+  "lon": 11.184762,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "scandicci.kyriafirenze.com",
@@ -137,7 +146,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.75671,
+  "lon": 11.184762,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticoalpi.it",
@@ -166,6 +178,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.75671,
+  "lon": 11.184762,
+  "precisioneCoord": "comune"
  }
 ]

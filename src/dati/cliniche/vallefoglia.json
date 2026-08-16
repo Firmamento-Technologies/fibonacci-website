@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.897756,
+  "lon": 12.75479,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicobios.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicocosma.it",
@@ -79,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.663533,
+  "lon": 12.286862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomed360.it",

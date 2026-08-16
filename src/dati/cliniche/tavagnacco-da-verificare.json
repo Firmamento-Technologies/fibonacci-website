@@ -25,6 +25,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Mdm Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  }
 ]

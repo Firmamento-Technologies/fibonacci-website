@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrolaserlaspina.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chiaracattelan.com",
@@ -94,7 +100,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Cattelan, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Chiara Cattelan",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cittasalute.it",
@@ -150,7 +159,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Coram",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologagrattoniudine.it",
@@ -182,7 +194,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaclaudiaudine.it",
@@ -211,7 +226,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estetikaudine.it",
@@ -241,7 +259,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetika Udine",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ialweb.it",
@@ -269,7 +290,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "IAL FVG",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.95625,
+  "lon": 12.65972,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "melaservizi.it",
@@ -326,7 +350,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Panizzo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Panizzo, e il dominio lo ripete",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosanluca.com",
@@ -358,7 +385,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio San Luca",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salons10.com",
@@ -410,7 +440,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Odontoiatrico e Dentistico Dr. ssa Antonella Stipo a Majano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.185205,
+  "lon": 13.068214,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioluisagennaro.it",
@@ -442,7 +475,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Dr.ssa Luisa Gennaro",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicobearzi.it",
@@ -474,7 +510,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Andrea Bearzi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "terminalnord.com",
@@ -502,7 +541,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Terminal Nord Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trattamix.it",
@@ -535,6 +577,9 @@
   "orari": [
    "Lun-Ven 9.30 – 21.00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  }
 ]

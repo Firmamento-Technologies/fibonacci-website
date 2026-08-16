@@ -56,7 +56,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Il Saronno di Sorelle Giudici s.a.s. di Sara Giudici & C.",
-  "tipoDichiarato": "Organization NewsMediaOrganization"
+  "tipoDichiarato": "Organization NewsMediaOrganization",
+  "lat": 45.617526,
+  "lon": 9.081021,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "infinityrelaxsaronno.com",
@@ -82,7 +85,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "INFINITY RELAX",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.625676,
+  "lon": 9.037328,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medelit.com",
@@ -134,7 +140,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.61077,
+  "lon": 9.240841,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "punturine.it",

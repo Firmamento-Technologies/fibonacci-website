@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicatarabini.it",
@@ -59,7 +62,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Tarabini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elisabenati.it",
@@ -92,7 +98,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Benati, e il dominio lo ripete",
   "nomeStrutturato": "Elisa Benati",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giuliaboscaini.it",
@@ -128,7 +137,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boscaini, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Giulia Boscaini",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicaplus.it",
@@ -154,7 +166,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticagrendene.com",
@@ -188,7 +203,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica Dott.sa Grendene",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "molinarismilelife.it",
@@ -215,7 +233,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.886177,
+  "lon": 11.410807,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolamolinari.it",
@@ -257,7 +278,8 @@
   "lon": 10.917789,
   "orari": [
    "Mo-Fr 09:00-19:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "polestemed.com",
@@ -296,7 +318,10 @@
    "Monday,Wednesday,Friday 09:00-20:00",
    "Tuesday,Saturday Closed",
    "Thursday 10:00-17:00"
-  ]
+  ],
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorio-minerva.it",
@@ -353,7 +378,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sarabertoncelli.it",
@@ -389,7 +417,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sara Bertoncelli, e il dominio lo ripete",
   "nomeStrutturato": "Sara Bertoncelli",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skincenter.it",

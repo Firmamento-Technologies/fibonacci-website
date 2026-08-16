@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.566757,
+  "lon": 14.280747,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoaesthetic.it",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.566757,
+  "lon": 14.280747,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicocavallo.it",
@@ -89,7 +95,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Polimedsalus",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.747452,
+  "lon": 14.397271,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiopronto24.it",

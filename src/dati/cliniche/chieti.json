@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dentalworld",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.102718,
+  "lon": 14.415935,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "umbertoscotti.com",

@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Fenice Schio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaelysium.it",
@@ -105,7 +108,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Poliambulatorio SS. Trinità a Schio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "soniaestetica.it",
@@ -154,6 +160,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  }
 ]

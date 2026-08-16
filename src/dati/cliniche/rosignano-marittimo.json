@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gabriele Rosano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gabriele Rosano, e il dominio lo ripete",
+  "lat": 45.733474,
+  "lon": 9.312813,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "martamassignani.it",

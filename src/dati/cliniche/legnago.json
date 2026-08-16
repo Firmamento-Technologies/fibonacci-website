@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Domus Salutis Città di Legnago",
-  "tipoDichiarato": "Organization Place MedicalClinic"
+  "tipoDichiarato": "Organization Place MedicalClinic",
+  "lat": 45.192498,
+  "lon": 11.311127,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodatamed.it",
@@ -48,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.395642,
+  "lon": 11.270082,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dralessandromicai.com",
@@ -103,7 +109,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio San Francesco",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.192498,
+  "lon": 11.311127,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogardinale.it",
@@ -131,6 +140,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardinale Katia, cognome dentro il dominio",
   "nomeStrutturato": "Studiogardinale.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.192498,
+  "lon": 11.311127,
+  "precisioneCoord": "comune"
  }
 ]

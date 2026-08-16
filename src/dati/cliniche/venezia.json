@@ -34,6 +34,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Miori - Skinlab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.438945,
+  "lon": 10.692017,
+  "precisioneCoord": "comune"
  }
 ]

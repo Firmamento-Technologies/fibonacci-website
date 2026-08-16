@@ -30,7 +30,8 @@
   "lon": 16.557747,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "luigisala.it",
@@ -63,7 +64,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Sala, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Sala, e il dominio lo ripete",
+  "lat": 38.943288,
+  "lon": 16.508303,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oculistarechichi.it",
@@ -91,7 +95,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.82996,
+  "lon": 16.431557,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioigea.it",
@@ -116,7 +123,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.82996,
+  "lon": 16.431557,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tgcom24.mediaset.it",
@@ -142,7 +152,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Tgcom24",
-  "tipoDichiarato": "NewsMediaOrganization"
+  "tipoDichiarato": "NewsMediaOrganization",
+  "lat": 45.528554,
+  "lon": 9.278224,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visibilando.it",

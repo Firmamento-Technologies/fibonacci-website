@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Le magie di ella",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.652458,
+  "lon": 9.354342,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lkcpharma.com",
@@ -56,7 +59,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ricerchiamo Il tuo Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.652458,
+  "lon": 9.354342,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "smilenow.it",
@@ -88,6 +94,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
    "Saturday 09:00-17:00"
-  ]
+  ],
+  "lat": 45.652458,
+  "lon": 9.354342,
+  "precisioneCoord": "comune"
  }
 ]

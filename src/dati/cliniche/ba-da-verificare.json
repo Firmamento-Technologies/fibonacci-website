@@ -40,7 +40,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "doctory.it",
@@ -64,7 +67,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticavenusbari.it",
@@ -155,7 +161,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ieo.it",
@@ -181,7 +190,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mbartsurgery.it",
@@ -208,7 +220,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "MB Art Surgery",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticabari.it",
@@ -269,7 +284,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 07:30-19:30",
    "Saturday 08:00-10:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "stefanolovero.com",
@@ -302,7 +318,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.130234,
+  "lon": 16.542471,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioleonedesantis.it",
@@ -338,7 +357,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Leone Desantis",
-  "tipoDichiarato": "MedicalOrganization Organization"
+  "tipoDichiarato": "MedicalOrganization Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiolospalluti.it",

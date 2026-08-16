@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Giorgini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Giorgini, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raffaelebianco.com",
@@ -65,6 +68,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Bianco, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Raffaele Bianco | Esperto di Palloncino Gastrico e filler",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.812442,
+  "lon": 14.496484,
+  "precisioneCoord": "comune"
  }
 ]

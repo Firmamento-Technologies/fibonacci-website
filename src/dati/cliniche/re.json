@@ -65,7 +65,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 09:00-18:00",
    "Friday 09:00-17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "checkupservice.it",
@@ -283,7 +284,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 07:30-20:30",
    "Saturday 08:00-14:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medicinaesteticapapalia.it",

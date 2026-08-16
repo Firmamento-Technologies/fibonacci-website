@@ -74,7 +74,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dr. Claudio Blessent — Chirurgia Plastica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicacantoni.com",
@@ -104,7 +107,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Clinica Cantoni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gianpieromantovani.com",
@@ -164,7 +170,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Modena per Modena",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "siti-internet.wixsite.com",
@@ -199,7 +208,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicobuonpastore.it",
@@ -226,6 +238,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  }
 ]

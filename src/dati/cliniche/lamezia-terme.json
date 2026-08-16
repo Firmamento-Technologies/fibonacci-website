@@ -53,7 +53,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Salute Galattica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "emotioncare.it",
@@ -81,7 +84,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Emotion - Care&amp;Wellness",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ewamack.com",
@@ -141,7 +147,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Spazio Salute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lessenzadelbenessere.com",
@@ -171,7 +180,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Estetico a Lamezia Terme CZ",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicarelamezia.it",
@@ -195,7 +207,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomedical.it",
@@ -228,7 +243,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "serzone.it",
@@ -258,6 +274,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Serzone",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  }
 ]

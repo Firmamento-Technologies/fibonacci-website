@@ -32,7 +32,8 @@
    "Monday, Wednesday, Friday 08:30-13:00",
    "Tuesday, Thursday 14:00-18:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centromedicobeb.it",
@@ -85,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "essenthia.it",
@@ -111,7 +115,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticandoimola.it",
@@ -136,7 +143,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lesteticaimola.it",
@@ -192,7 +202,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto di Montecatone Ospedale di Riabilitazione",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriolavela.com",
@@ -220,7 +233,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriolavela.it",

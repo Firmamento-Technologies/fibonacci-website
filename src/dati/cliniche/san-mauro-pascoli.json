@@ -30,6 +30,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  }
 ]

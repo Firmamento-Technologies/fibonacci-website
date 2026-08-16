@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.887309,
+  "lon": 7.331945,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chironsalute-pinerolo.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chiron Salute Pinerolo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.887309,
+  "lon": 7.331945,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ethereabenessere.com",
@@ -82,7 +88,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Etherea",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.887309,
+  "lon": 7.331945,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laclaire.it",
@@ -108,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.887309,
+  "lon": 7.331945,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "puntosanlazzaro.it",
@@ -147,7 +159,10 @@
    "Saturday 09:00-20:00",
    "Sunday 09:00-17:00"
   ],
-  "tipoDichiarato": "Organization Place MedicalClinic"
+  "tipoDichiarato": "Organization Place MedicalClinic",
+  "lat": 44.887309,
+  "lon": 7.331945,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinmedicpinerolo.it",
@@ -177,7 +192,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.887309,
+  "lon": 7.331945,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticogaveglio.it",
@@ -204,6 +222,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.760336,
+  "lon": 7.31392,
+  "precisioneCoord": "comune"
  }
 ]

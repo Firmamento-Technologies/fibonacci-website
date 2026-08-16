@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lilium Clinica Medica Estetica - Succursale Poliambulatorio Valturio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "enisagolli.it",
@@ -60,7 +63,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enis Agolli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enis Agolli, e il dominio lo ripete",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fabiocchi.it",
@@ -119,7 +125,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nuovaricerca.com",
@@ -145,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioathena.it",
@@ -174,7 +186,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioesculapio.net",
@@ -209,7 +224,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Esculapio Riccione",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.998274,
+  "lon": 12.647437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriovalturio.it",
@@ -238,7 +256,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "reggianiclinique.it",
@@ -271,7 +292,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "riabilitalab.it",
@@ -304,7 +328,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Riabilita Lab Rimini",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rimedical.it",
@@ -345,6 +372,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 07:30-20:30",
    "Saturday 07:30-13:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

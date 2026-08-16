@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.946555,
+  "lon": 12.601781,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciadelucca.it",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.946555,
+  "lon": 12.601781,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "officinas.it",
@@ -83,6 +89,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.946555,
+  "lon": 12.601781,
+  "precisioneCoord": "comune"
  }
 ]

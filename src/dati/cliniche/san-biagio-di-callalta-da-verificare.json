@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.684872,
+  "lon": 12.377347,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "emiliaromagna.synlab.it",
@@ -50,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ilgazzettino.it",

@@ -25,6 +25,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Poliambulatorio e Studio dentistico Sfera Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.983611,
+  "lon": 12.421163,
+  "precisioneCoord": "comune"
  }
 ]

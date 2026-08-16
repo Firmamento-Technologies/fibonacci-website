@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Cupido Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "guida-percorsi-varese.it",
@@ -76,7 +79,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicfisiocenter.it",
@@ -112,7 +118,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-12:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:00-19:30"
-  ]
+  ],
+  "lat": 45.611906,
+  "lon": 8.852052,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemedici.brescia.it",
@@ -138,7 +147,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rosadeventi.com",
@@ -164,6 +176,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  }
 ]

@@ -24,6 +24,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Polimed Milazzo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.220805,
+  "lon": 15.241513,
+  "precisioneCoord": "comune"
  }
 ]

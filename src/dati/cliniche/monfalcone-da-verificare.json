@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Andrea Doria",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.804945,
+  "lon": 13.533059,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicus.it",
@@ -61,7 +64,10 @@
    "Friday 009:00-19:00",
    "Saturday 09:00-12:30",
    "Sunday chiuso"
-  ]
+  ],
+  "lat": 46.048513,
+  "lon": 13.187597,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "henryschein.it",
@@ -138,7 +144,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.804945,
+  "lon": 13.533059,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicentercliniche.it",
@@ -169,7 +178,8 @@
   "nomeStrutturato": "Medicenter",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "novasalus.it",
@@ -199,6 +209,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Nova Salus",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.944128,
+  "lon": 13.625229,
+  "precisioneCoord": "comune"
  }
 ]

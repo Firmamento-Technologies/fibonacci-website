@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetica Belessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoigea.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorgiansanti.it",
@@ -78,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.974096,
+  "lon": 10.868708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmichelebianchini.it",
@@ -148,7 +157,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica Frascani",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medismedicalbeauty.com",
@@ -200,6 +212,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Sant&#039;Anna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.083259,
+  "lon": 11.604164,
+  "precisioneCoord": "comune"
  }
 ]

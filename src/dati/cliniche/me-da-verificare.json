@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgoplasticoamedeostrano.com",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.155362,
+  "lon": 14.829575,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinimedmessina.it",
@@ -107,7 +113,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.835441,
+  "lon": 15.271845,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticamessina.it",
@@ -151,7 +160,10 @@
    "Sa",
    "Su"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocontinibali.dental",
@@ -187,7 +199,10 @@
   "orari": [
    "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 09:30-19:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.155362,
+  "lon": 14.829575,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodichirurgiaplasticaedestetica.it",
@@ -216,6 +231,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  }
 ]

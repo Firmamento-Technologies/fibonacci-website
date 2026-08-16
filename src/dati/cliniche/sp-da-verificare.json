@@ -32,7 +32,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dottor Lino Bertolini",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.238366,
+  "lon": 9.691233,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmdcentromedico.it",

@@ -23,6 +23,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Montanaro, cognome dentro il dominio",
   "nomeStrutturato": "Studio Medico Montanaro | Centro Medico Polispecialistico a Polignano a Mare",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.996118,
+  "lon": 17.219586,
+  "precisioneCoord": "comune"
  }
 ]

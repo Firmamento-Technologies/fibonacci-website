@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautymed-brescia.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "benaturalmed.it",
@@ -78,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "biospheramed.it",
@@ -142,7 +151,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.729249,
+  "lon": 12.256246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrolaserbrescia.it",
@@ -199,7 +211,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrosangiovanni.it",
@@ -263,7 +278,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "claudiobravin.com",
@@ -295,7 +313,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.307378,
+  "lon": 10.414677,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmd.bs.it",
@@ -329,7 +350,10 @@
   "nomeStrutturato": "Centro Medico Diagnostico",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
-  ]
+  ],
+  "lat": 45.527608,
+  "lon": 10.149701,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drgiovanniturra.com",
@@ -358,7 +382,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Turra, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Turra, cognome dentro il dominio",
+  "lat": 45.488578,
+  "lon": 9.887062,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elenaguarneri.it",
@@ -389,7 +416,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Guarneri, e il dominio lo ripete",
   "nomeStrutturato": "Elena Guarneri",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.220864,
+  "lon": 10.037038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "filippominutoli.it",
@@ -444,7 +474,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Iacopetta Giovanni, cognome nel dominio",
   "nomeStrutturato": "Dr Iacopetta Giovanni",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laserclinicbrescia.it",
@@ -478,7 +511,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Laser Clinic - Brescia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laviemedicalstudio.it",
@@ -571,7 +607,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medipat.it",
@@ -599,7 +638,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medipat",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "olosmed.it",
@@ -632,7 +674,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorio3lab.it",
@@ -657,7 +702,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriofinulli.it",
@@ -688,7 +736,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.54004,
+  "lon": 10.445833,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorisanmatteo.it",
@@ -718,7 +769,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatori San Matteo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.527608,
+  "lon": 10.149701,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriweb.it",
@@ -744,7 +798,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polimed-brescia.it",
@@ -810,7 +867,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "PTC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rizzofrancesco.com",
@@ -840,7 +900,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Rizzo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Rizzo, e il dominio lo ripete",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "robertabosio.it",
@@ -872,7 +935,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Bosio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Bosio, e il dominio lo ripete",
+  "lat": 45.220864,
+  "lon": 10.037038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rodolfogretter.com",
@@ -896,7 +962,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santantoniocentromedico.it",
@@ -931,7 +1000,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sant&#039;Antonio",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.512505,
+  "lon": 9.977855,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sarahcalabrese.com",
@@ -960,7 +1032,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sarah Calabrese, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sarah Calabrese, e il dominio lo ripete",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicofilippini.it",
@@ -988,7 +1063,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio medico chirurgico Filippini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "taraamini.it",
@@ -1020,7 +1098,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tara Amini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tara Amini, e il dominio lo ripete",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "zadeiclinic.it",
@@ -1046,6 +1127,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  }
 ]

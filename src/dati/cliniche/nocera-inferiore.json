@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.747213,
+  "lon": 14.64332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dralbertoliberti.it",
@@ -95,6 +98,7 @@
   "lon": 12.520042,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

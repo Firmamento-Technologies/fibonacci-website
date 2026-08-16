@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosantambrogio.com",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicamedicaboschi.com",
@@ -78,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "corinnamantegazza.com",
@@ -113,7 +122,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.597231,
+  "lon": 8.637068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dinozilio.it",
@@ -140,7 +152,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dino Zilio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dino Zilio, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressa-stelian.it",
@@ -167,7 +182,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressamichelasqueo.it",
@@ -192,7 +210,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polispecialisticoleonardo.it",
@@ -220,7 +241,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "truthinstitute.it",
@@ -251,6 +275,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Truth",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  }
 ]

@@ -50,7 +50,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.628259,
+  "lon": 13.576332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemedicifrosinone.it",
@@ -76,7 +79,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 41.628259,
+  "lon": 13.576332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriodp.it",
@@ -105,7 +111,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "MedicalBusiness MedicalClinic Dentist"
+  "tipoDichiarato": "MedicalBusiness MedicalClinic Dentist",
+  "lat": 41.628259,
+  "lon": 13.576332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioberrino.com",
@@ -137,6 +146,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Berrino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  }
 ]

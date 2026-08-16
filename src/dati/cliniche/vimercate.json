@@ -84,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mylabitalia.it",
@@ -120,7 +123,8 @@
   "nomeStrutturato": "Poliambulatori MyLAB srl",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "portofinovimercate.it",
@@ -151,7 +155,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Portofino Atelier de Beauté di Cristina Micci",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "qifisio.it",
@@ -181,6 +188,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico e Fisioterapico QiFisio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  }
 ]

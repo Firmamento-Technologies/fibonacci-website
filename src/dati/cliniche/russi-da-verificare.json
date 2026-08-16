@@ -24,7 +24,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Medico Cesarea",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemediciterni.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.653752,
+  "lon": 12.439812,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "russianstyle.it",

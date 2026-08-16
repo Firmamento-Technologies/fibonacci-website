@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lucia Magnani Health Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.182365,
+  "lon": 11.955631,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "shop.dermophisiologique.it",

@@ -55,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.839415,
+  "lon": 11.143165,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicolugli.it",
@@ -82,6 +85,9 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.839415,
+  "lon": 11.143165,
+  "precisioneCoord": "comune"
  }
 ]

@@ -31,7 +31,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Beauty Med",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottpellapaolo.it",
@@ -58,7 +61,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.538462,
+  "lon": 8.055921,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioesteticoilglicine.it",
@@ -89,6 +95,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Estetico Il Glicine",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  }
 ]

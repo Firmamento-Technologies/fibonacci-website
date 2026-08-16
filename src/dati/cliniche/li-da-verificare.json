@@ -33,7 +33,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Medicina Estetica Altmann",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.790219,
+  "lon": 10.340281,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiderma.com",
@@ -96,6 +99,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Odontoiatrico Scarpellini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.790219,
+  "lon": 10.340281,
+  "precisioneCoord": "comune"
  }
 ]

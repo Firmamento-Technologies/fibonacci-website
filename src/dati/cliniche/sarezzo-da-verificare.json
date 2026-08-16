@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.66187,
+  "lon": 10.195876,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticosarezzo.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.66187,
+  "lon": 10.195876,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisioterapiasangiorgio.it",

@@ -34,7 +34,10 @@
   "orari": [
    "Wednesday 09:00-19:00",
    "Thursday 09:00-19:00"
-  ]
+  ],
+  "lat": 41.492558,
+  "lon": 13.83053,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticolefragole.it",
@@ -64,7 +67,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.492558,
+  "lon": 13.83053,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "figebo.it",
@@ -91,7 +97,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Figebo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.492558,
+  "lon": 13.83053,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "floraesteticaavanzata.it",
@@ -147,7 +156,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.492558,
+  "lon": 13.83053,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "valeriocervelli.it",

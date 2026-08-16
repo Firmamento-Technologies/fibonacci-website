@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.472122,
+  "lon": 11.44697,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "usi.it",
@@ -48,6 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

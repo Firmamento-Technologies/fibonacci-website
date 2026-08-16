@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 45.61831,
+  "lon": 9.208124,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "inpuntadipiedidesio.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.61831,
+  "lon": 9.208124,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "luganocare.com",
@@ -86,7 +92,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.61831,
+  "lon": 9.208124,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unicampus.it",
@@ -120,6 +129,7 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 07:00-21:00",
    "Saturday, Sunday 00:00-00:00"
   ],
-  "tipoDichiarato": "Organization Place CollegeOrUniversity"
+  "tipoDichiarato": "Organization Place CollegeOrUniversity",
+  "precisioneCoord": "civico"
  }
 ]

@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.079898,
+  "lon": 9.387612,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elciapparitosun.com",

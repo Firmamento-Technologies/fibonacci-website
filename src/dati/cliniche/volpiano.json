@@ -28,7 +28,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 45.573588,
+  "lon": 9.467854,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoregis.it",
@@ -60,7 +63,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:00-19:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "clinica-santanna.it",
@@ -88,6 +92,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Sant'Anna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.139271,
+  "lon": 7.147717,
+  "precisioneCoord": "comune"
  }
 ]

@@ -30,7 +30,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Trichini, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Antonio Trichini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "barbaracassese.com",
@@ -63,7 +66,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Cassese, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Cassese, e il dominio lo ripete",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoelisircarpi.it",
@@ -92,7 +98,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "federicocampedellidentista.it",
@@ -128,7 +137,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "Dentist Organization"
+  "tipoDichiarato": "Dentist Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "latuaimmagine.net",
@@ -156,7 +168,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambcittadicarpi.it",
@@ -183,7 +198,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tbeauty.it",
@@ -212,7 +230,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villaricheldi.it",
@@ -247,6 +268,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Villa Richeldi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.78357,
+  "lon": 10.885452,
+  "precisioneCoord": "comune"
  }
 ]

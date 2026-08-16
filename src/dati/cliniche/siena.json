@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Masterin.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sienasurgery.it",
@@ -49,6 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.390059,
+  "lon": 11.223389,
+  "precisioneCoord": "comune"
  }
 ]

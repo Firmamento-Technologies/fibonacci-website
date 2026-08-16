@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Russo, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Russo, cognome dentro il dominio",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "filodiritto.com",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "labmedit.it",
@@ -83,7 +89,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Medit",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "logatto.it",
@@ -120,7 +129,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Logatto Vai, cognome dentro il dominio",
   "nomeStrutturato": "Dr. Logatto",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mariagabrielladirusso.it",
@@ -210,6 +222,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rubinia Russo, e il dominio lo ripete",
   "nomeStrutturato": "Rubinia Russo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

@@ -35,6 +35,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Giacomin, e il dominio lo ripete",
   "nomeStrutturato": "Carlo Giacomin",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.571354,
+  "lon": 12.108383,
+  "precisioneCoord": "comune"
  }
 ]

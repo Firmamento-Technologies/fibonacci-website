@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticacuneo.it",
@@ -72,7 +75,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.262974,
+  "lon": 13.746522,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mybeautytips.it",
@@ -102,7 +108,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "semplicementeanna.com",
@@ -129,7 +138,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "spicaeorsini.it",
@@ -159,6 +171,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Spica & Orsini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.720336,
+  "lon": 13.613958,
+  "precisioneCoord": "comune"
  }
 ]

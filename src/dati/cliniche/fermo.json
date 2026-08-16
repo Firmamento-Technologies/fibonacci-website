@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.182656,
+  "lon": 13.793386,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "palmatea.it",

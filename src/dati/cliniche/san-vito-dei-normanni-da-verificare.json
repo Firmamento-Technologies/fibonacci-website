@@ -77,6 +77,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ambulatorio Sanitario Professionale San Vito",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.192043,
+  "lon": 11.212924,
+  "precisioneCoord": "comune"
  }
 ]

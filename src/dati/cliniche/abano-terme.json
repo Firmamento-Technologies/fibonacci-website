@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicocmo.it",
@@ -49,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.599004,
+  "lon": 12.888008,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicarmonia.com",
@@ -115,7 +121,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Salmaso, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Salmaso, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "premiereabano.it",
@@ -141,7 +150,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "quisisana.it",
@@ -168,7 +180,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Terme Quisisana Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salusterme.it",
@@ -194,7 +209,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "smeraldoterme.it",
@@ -248,7 +266,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "thebeautysuiteabano.it",
@@ -277,7 +298,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "The Beauty Suite Abano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "thermalmedica.it",
@@ -305,6 +329,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.331491,
+  "lon": 11.791208,
+  "precisioneCoord": "comune"
  }
 ]

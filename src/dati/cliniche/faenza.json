@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "idutur.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marikalangella.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marika Langella, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marika Langella, e il dominio lo ripete",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mariofaenza.it",
@@ -113,7 +122,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mario Faenza, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mario Faenza, e il dominio lo ripete",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "physiomedica.it",
@@ -141,7 +153,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Physiomedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioabg.it",
@@ -174,7 +189,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-12:00",
    "Monday,Tuesday,Wednesday,Thursday,Friday 14:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "villa-abbondanzi.com",
@@ -199,6 +215,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  }
 ]

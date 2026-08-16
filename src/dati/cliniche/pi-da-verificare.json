@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Medico Spazio Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.676674,
+  "lon": 10.549224,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "charmenchicpisa.it",
@@ -132,7 +135,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott.ssa Silvia Ebalginelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.762996,
+  "lon": 10.44104,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pagnimedicinaestetica.it",
@@ -194,7 +200,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sanpieroodontoiatria.it",
@@ -223,6 +232,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  }
 ]

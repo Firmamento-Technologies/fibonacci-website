@@ -61,7 +61,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "VF4",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.700462,
+  "lon": 14.706263,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "guna.com",
@@ -118,6 +121,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  }
 ]

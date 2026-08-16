@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "mfpfisioterapia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.032997,
+  "lon": 14.298423,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioodontoiatriconegro.it",
@@ -52,6 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.032997,
+  "lon": 14.298423,
+  "precisioneCoord": "comune"
  }
 ]

@@ -54,6 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Porcelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Porcelli, cognome dentro il dominio",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  }
 ]

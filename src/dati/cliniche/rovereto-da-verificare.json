@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.886548,
+  "lon": 11.045237,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "verenasuraci.it",

@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Marusia",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.886217,
+  "lon": 12.297757,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicogreenlife.it",
@@ -56,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.886217,
+  "lon": 12.297757,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ledaclinic.com",
@@ -106,7 +112,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.886217,
+  "lon": 12.297757,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "opendotcom.it",
@@ -132,7 +141,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioaura.it",
@@ -163,7 +175,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.886217,
+  "lon": 12.297757,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "spatiumstudio.it",
@@ -191,7 +206,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioforward.it",
@@ -218,6 +236,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Forward",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  }
 ]

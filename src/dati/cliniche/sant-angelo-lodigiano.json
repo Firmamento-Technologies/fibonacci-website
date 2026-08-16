@@ -33,7 +33,10 @@
    "Monday,Tuesday,Wednesday,Thursday,Friday 14:00-19:30",
    "Saturday 09:00-14:00",
    "Sunday Chiuso"
-  ]
+  ],
+  "lat": 45.238067,
+  "lon": 9.408656,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santangelosalute.it",
@@ -61,6 +64,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lodisalute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.238067,
+  "lon": 9.408656,
+  "precisioneCoord": "comune"
  }
 ]

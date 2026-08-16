@@ -56,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Med-line poliambulatorio",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.482887,
+  "lon": 10.175008,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salusalpeadria.it",
@@ -84,6 +87,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Salus Alpe Adria",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.315327,
+  "lon": 13.104621,
+  "precisioneCoord": "comune"
  }
 ]

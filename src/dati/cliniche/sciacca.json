@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.506479,
+  "lon": 13.082332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "isideservizisanitari.it",
@@ -57,6 +60,7 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-13:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:30-18:00"
   ],
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "precisioneCoord": "civico"
  }
 ]

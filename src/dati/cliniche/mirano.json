@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.49277,
+  "lon": 12.109877,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicazarian.it",
@@ -93,7 +96,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Fenica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.49277,
+  "lon": 12.109877,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gapclinics.com",
@@ -151,7 +157,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Haik Zarian | Dermatologo | Medicina Estetica | Trattamenti Laser",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.49277,
+  "lon": 12.109877,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "montecchifrancesca.it",
@@ -236,6 +245,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.521344,
+  "lon": 12.10637,
+  "precisioneCoord": "comune"
  }
 ]

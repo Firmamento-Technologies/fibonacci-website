@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 36.858921,
+  "lon": 14.761302,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosacrocuore.it",
@@ -48,7 +51,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Sacro Cuore -",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 36.858921,
+  "lon": 14.761302,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "microsclinic.it",

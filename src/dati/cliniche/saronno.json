@@ -111,7 +111,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.625676,
+  "lon": 9.037328,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "softwaregestionalemedico.it",
@@ -199,6 +202,9 @@
   "orari": [
    ""
   ],
-  "tipoDichiarato": "dentist"
+  "tipoDichiarato": "dentist",
+  "lat": 45.625676,
+  "lon": 9.037328,
+  "precisioneCoord": "comune"
  }
 ]

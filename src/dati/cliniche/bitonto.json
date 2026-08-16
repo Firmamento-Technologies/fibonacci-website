@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgoplastico-bufanoloredana.com",
@@ -56,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Loredana Bufano, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Loredana Bufano, cognome dentro il dominio",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "loredanabufano.it",
@@ -87,7 +93,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Loredana Bufano, e il dominio lo ripete",
   "nomeStrutturato": "Loredana Bufano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "therapia.it",
@@ -118,6 +127,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  }
 ]

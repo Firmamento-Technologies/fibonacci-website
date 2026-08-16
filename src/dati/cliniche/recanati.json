@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Amedeo Giorgetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Amedeo Giorgetti, e il dominio lo ripete",
+  "lat": 43.403508,
+  "lon": 13.548602,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bluemedicalcenter.com",
@@ -50,7 +53,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Blue Medical Center",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 45.787138,
+  "lon": 12.361633,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorborioni.it",
@@ -77,7 +83,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bruno Borioni, cognome dentro il dominio",
   "nomeStrutturato": "Dottor Borioni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "eosrecanati.com",
@@ -108,7 +117,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "EOS Centro Servizi Medici srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.403508,
+  "lon": 13.548602,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "langolodelledonne.com",
@@ -137,7 +149,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.403508,
+  "lon": 13.548602,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticavelardi.com",
@@ -170,7 +185,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Velardi Piazza, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Velardi Piazza, cognome dentro il dominio",
+  "lat": 43.439498,
+  "lon": 13.607021,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicenter.it",
@@ -196,6 +214,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.403508,
+  "lon": 13.548602,
+  "precisioneCoord": "comune"
  }
 ]

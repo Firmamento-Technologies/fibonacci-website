@@ -50,7 +50,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Vignola San Tommaso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.478414,
+  "lon": 11.009093,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "semprepiulight.it",
@@ -88,6 +91,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-20:00",
    "Saturday 09:00-17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

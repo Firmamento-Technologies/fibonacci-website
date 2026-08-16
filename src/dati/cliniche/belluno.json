@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Alkymia Belluno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicafavero.it",
@@ -59,7 +62,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Favero",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicazamprogno.it",
@@ -88,7 +94,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.775996,
+  "lon": 12.045065,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentalq.it",
@@ -116,7 +125,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "devimedica.com",
@@ -144,7 +156,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dentista a Domegge di Cadore",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.436423,
+  "lon": 12.219598,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dolomitidentalclinic.it",
@@ -179,7 +194,8 @@
   "lon": 12.23648,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "epilzero.it",
@@ -237,7 +253,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Euromedica Belluno | Poliambulatorio medico specialistico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaodontoiatrica.it",
@@ -295,7 +314,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicobelluno.it",
@@ -321,7 +343,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "telebelluno.it",
@@ -349,6 +374,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Telebelluno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  }
 ]

@@ -56,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "newestheticbarletta.com",
@@ -83,6 +86,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  }
 ]

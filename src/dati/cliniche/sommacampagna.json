@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407784,
+  "lon": 10.840853,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottkamal.com",
@@ -61,6 +64,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Kamal Dott, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Kamal Dott, e il dominio lo ripete",
+  "lat": 45.407784,
+  "lon": 10.840853,
+  "precisioneCoord": "comune"
  }
 ]

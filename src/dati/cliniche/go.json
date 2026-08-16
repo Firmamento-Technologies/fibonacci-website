@@ -84,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luisa Cerutti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luisa Cerutti, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mymedsrl.it",
@@ -113,7 +116,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.11344,
+  "lon": 13.084572,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nuovesensazionicentrobenessere.it",
@@ -166,6 +172,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Salus FVG",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.944128,
+  "lon": 13.625229,
+  "precisioneCoord": "comune"
  }
 ]

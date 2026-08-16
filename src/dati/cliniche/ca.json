@@ -79,7 +79,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodermatologico.it",
@@ -107,7 +110,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicocao.it",
@@ -141,7 +147,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-13:00",
    "Monday,Tuesday,Wednesday,Thursday,Friday 16:30-19:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centromedicoimulini.it",
@@ -234,7 +241,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Bestwell Clinica Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicadeasalus.it",
@@ -277,7 +287,10 @@
    "Monday,Friday 15:00-19:00",
    "Tuesday,Thursday 10:00-19:00",
    "Wednesday 15:00-20:00"
-  ]
+  ],
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "csclinic.it",
@@ -344,7 +357,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dalle Ceneri della Fenice",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologocagliariguicciardi.com",
@@ -385,7 +401,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 16:00-20:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dettaglimedicinaestetica.com",
@@ -451,7 +468,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica Cagliari",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jumeaux.it",
@@ -486,7 +506,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Jumeaux SRL",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lmdentalclinic.it",
@@ -513,7 +536,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "manuelapili.it",
@@ -634,7 +660,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Silvia Caboni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Silvia Caboni, e il dominio lo ripete",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologicolallai.it",
@@ -667,7 +696,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dermatologico Lallai",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "wellssuite.it",
@@ -697,7 +729,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Wellssuite Medical Centre",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "youmedical.it",
@@ -735,6 +770,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Youmedical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  }
 ]

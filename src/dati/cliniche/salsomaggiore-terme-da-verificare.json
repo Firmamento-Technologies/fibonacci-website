@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 43.897756,
+  "lon": 12.75479,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioairone.com",
@@ -75,6 +78,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.814762,
+  "lon": 9.979576,
+  "precisioneCoord": "comune"
  }
 ]

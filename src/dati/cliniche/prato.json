@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "re-evolutionbodymed.it",

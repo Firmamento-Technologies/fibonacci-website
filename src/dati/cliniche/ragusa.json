@@ -31,7 +31,10 @@
   "nomeStrutturato": "centriclinic.com",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 10:00-17:00"
-  ]
+  ],
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmoibleo.it",

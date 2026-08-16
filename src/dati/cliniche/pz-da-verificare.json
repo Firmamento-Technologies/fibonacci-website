@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticakarisma.it",
@@ -92,7 +95,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ferriaesthetic.com",
@@ -120,7 +126,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "geopop.it",
@@ -156,7 +165,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paradisobeautyartists.com",
@@ -184,7 +196,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "piccin.it",
@@ -217,6 +232,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  }
 ]

@@ -33,7 +33,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 36.951496,
+  "lon": 14.530487,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicovictoria.com",
@@ -58,7 +61,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.690797,
+  "lon": 12.812612,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "victoriaacademyclinic.com",
@@ -123,7 +129,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vittoriaamorosi.com",

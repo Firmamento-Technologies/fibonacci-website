@@ -59,7 +59,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "My WordPress",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.205951,
+  "lon": 9.78573,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutoradiologicoberetta.it",
@@ -121,7 +124,8 @@
   "lat": 44.111598,
   "lon": 9.851664,
   "nomeStrutturato": "LEVANTE LASER STUDIO",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "microchirurgiaricostruttiva.it",
@@ -175,6 +179,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Andrea Ratti Dermatologo",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.238366,
+  "lon": 9.691233,
+  "precisioneCoord": "comune"
  }
 ]

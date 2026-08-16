@@ -34,7 +34,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 9:00 - 19:00",
    "Saturday 9:00 - 17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "chirurgoplasticoroma.info",
@@ -64,7 +65,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Giovanni Marangi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elitedoctor.it",
@@ -118,7 +122,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Pieffe",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.667529,
+  "lon": 12.504786,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maroncelli.dental",
@@ -146,6 +153,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Studio Dentistico Maroncelli-Caggiati",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

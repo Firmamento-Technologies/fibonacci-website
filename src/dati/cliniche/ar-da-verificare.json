@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Aldal.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "altraopinione.org",
@@ -66,7 +69,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Federico Dulio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroequipedentale.it",
@@ -122,7 +128,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro di Estetica di Sonia Dalla Ragione",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorlaurentiandrea.it",
@@ -155,7 +164,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "Dentist Organization"
+  "tipoDichiarato": "Dentist Organization",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "earpower.it",
@@ -184,7 +196,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Sito earpower.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "italy.worldplaces.me",
@@ -221,7 +236,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocuciti.it",
@@ -251,7 +269,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico Cuciti",
-  "tipoDichiarato": "MedicalOrganization Organization"
+  "tipoDichiarato": "MedicalOrganization Organization",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "uslsudest.toscana.it",
@@ -279,6 +300,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Azienda USL Toscana sud est",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  }
 ]

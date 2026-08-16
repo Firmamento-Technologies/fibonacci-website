@@ -29,7 +29,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Benessere C'è Sole e Sole",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "csmacentromedico.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologiachiavari.com",
@@ -81,7 +87,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiobeautytime.com",
@@ -112,7 +121,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Fisio Beauty Time",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.89666,
+  "lon": 8.864128,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "omceoge.it",
@@ -165,7 +177,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Personal Beauty Space",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliziadistato.it",
@@ -219,6 +234,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Pieffe",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  }
 ]

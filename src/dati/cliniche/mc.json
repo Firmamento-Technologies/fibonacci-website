@@ -61,7 +61,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20:00",
    "Saturday 09:00-12:00"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "clinicalasermacerata.it",
@@ -116,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.132419,
+  "lon": 9.569474,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cronachemaceratesi.it",
@@ -144,7 +148,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cronache Maceratesi",
-  "tipoDichiarato": "NewsMediaOrganization"
+  "tipoDichiarato": "NewsMediaOrganization",
+  "lat": 43.152978,
+  "lon": 13.150882,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "danieledottordusi.it",
@@ -173,7 +180,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "admin",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 43.23474,
+  "lon": 13.687852,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorbordoni.com",
@@ -209,7 +219,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottor Daniele Bordoni - Chirurgo Plastico ed Estetico",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kosgroup.com",
@@ -235,7 +248,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "matteogioacchini.com",
@@ -268,7 +284,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matteo Gioacchini, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Matteo Gioacchini",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 43.152978,
+  "lon": 13.150882,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rimozione-medica-tatuaggi.it",
@@ -329,6 +348,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Terme Santa Lucia Tolentino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.208755,
+  "lon": 13.28441,
+  "precisioneCoord": "comune"
  }
 ]

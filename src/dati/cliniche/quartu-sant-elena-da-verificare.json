@@ -29,7 +29,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-20:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "langolodellabellezza.eu",
@@ -58,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.239973,
+  "lon": 9.188097,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "omceoss.org",
@@ -84,6 +88,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  }
 ]

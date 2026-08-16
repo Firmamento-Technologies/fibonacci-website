@@ -56,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentistagrosseto.com",
@@ -84,7 +87,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Kosmed Dentista Grosseto",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rimozionelesionicutanee.it",
@@ -114,7 +120,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.107032,
+  "lon": 12.402996,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salusgrosseto.it",
@@ -142,7 +151,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SALUS Centro Multiservizi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "termemarine.com",
@@ -169,6 +181,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Terme Marine Leopoldo II",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  }
 ]

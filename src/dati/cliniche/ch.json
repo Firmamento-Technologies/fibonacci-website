@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ASL2 Abruzzo - ASL Lanciano Vasto Chieti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.102718,
+  "lon": 14.415935,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrosandonato.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.420643,
+  "lon": 14.28701,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgoplasticonapoleone.it",
@@ -139,7 +145,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SkinMedic Chieti Estetica Avanzata",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.230532,
+  "lon": 14.390779,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "corsotrapiantocapellifue.it",
@@ -167,7 +176,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Corso di Formazione Trapianto Capelli FUE",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.677577,
+  "lon": 14.014464,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mancinellivalentina.it",
@@ -227,7 +239,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Di Clemente",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 42.364302,
+  "lon": 14.071795,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcomarchetti.it",
@@ -252,7 +267,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Marchetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Marchetti, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raoulfranchi.com",
@@ -280,7 +298,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Franchi, e il dominio lo ripete",
   "nomeStrutturato": "RAOUL FRANCHI | CHIRURGIA ESTETICA | CHIRURGIA PLASTICA | MASTOPLASTICA ABRUZZO | DERMATOLOGIA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raoulfranchi.it",
@@ -310,6 +331,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Franchi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Franchi, e il dominio lo ripete",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  }
 ]

@@ -28,6 +28,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Rampini-Scalzo: Odontoiatra | Rieti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.414736,
+  "lon": 12.885888,
+  "precisioneCoord": "comune"
  }
 ]

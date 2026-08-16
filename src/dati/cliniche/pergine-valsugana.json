@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bruno Bassetto, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bruno Bassetto, e il dominio lo ripete",
+  "lat": 46.060529,
+  "lon": 11.240675,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodiesteticamedica.wordpress.com",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.381968,
+  "lon": 11.044886,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaessenzadelbenessere.it",
@@ -81,7 +87,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.060529,
+  "lon": 11.240675,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicosmeabiomed.it",
@@ -112,6 +121,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-18:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  }
 ]

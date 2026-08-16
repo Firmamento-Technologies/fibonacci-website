@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dolomiten Medical Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.302192,
+  "lon": 10.886908,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoralessandropasquali.com",
@@ -85,7 +88,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardetto Prof, cognome nel dominio",
   "nomeStrutturato": "Prof. Dott. Gardetto",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.716549,
+  "lon": 11.657851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hautarzt-dr-sigmund.com",
@@ -139,6 +145,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenz Larcher, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Lorenz Larcher",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  }
 ]

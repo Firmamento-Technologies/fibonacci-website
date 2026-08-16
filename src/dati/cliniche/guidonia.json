@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.984273,
+  "lon": 12.695319,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaguidonia.it",
@@ -88,7 +91,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.984273,
+  "lon": 12.695319,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lmbeautyspecialist.it",
@@ -115,6 +121,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.984273,
+  "lon": 12.695319,
+  "precisioneCoord": "comune"
  }
 ]

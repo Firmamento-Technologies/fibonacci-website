@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottluciapremdacostucci.com",
@@ -111,7 +114,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "StudiMediciAMC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodrgiuliapoggi.it",
@@ -140,6 +146,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico Dr. Giulia Poggi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  }
 ]

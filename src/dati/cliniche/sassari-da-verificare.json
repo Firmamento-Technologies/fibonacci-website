@@ -26,6 +26,7 @@
   "lat": 40.719508,
   "lon": 8.569592,
   "nomeStrutturato": "Medìs Centro Clinico",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  }
 ]

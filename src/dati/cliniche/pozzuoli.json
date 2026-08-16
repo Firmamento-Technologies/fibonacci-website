@@ -55,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.822643,
+  "lon": 14.121911,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticasalus.com",
@@ -137,7 +140,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.822643,
+  "lon": 14.121911,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mlpmedicalspa.com",
@@ -166,7 +172,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MLP Medicalspa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "neacentromedico.it",
@@ -197,7 +206,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Nea",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.822643,
+  "lon": 14.121911,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oculoplasticabernardini.it",
@@ -255,7 +267,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.822643,
+  "lon": 14.121911,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simeo.org",
@@ -286,6 +301,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

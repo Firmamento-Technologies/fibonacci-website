@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Spinelli, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Giuseppe Spinelli",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "normaamico.com",
@@ -93,7 +96,10 @@
   "tipoDichiarato": "LocalBusiness",
   "orari": [
    "Mo-Fr 08:00-19:00"
-  ]
+  ],
+  "lat": 45.310287,
+  "lon": 11.384399,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomilamilia.it",

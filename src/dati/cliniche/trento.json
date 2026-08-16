@@ -33,7 +33,10 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-19:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmatteolombardi.it",
@@ -60,6 +63,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  }
 ]

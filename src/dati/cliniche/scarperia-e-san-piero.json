@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Almarei",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.954248,
+  "lon": 11.386468,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "massimomaspero.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Maspero, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Maspero, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "novasalusmontecatini.it",
@@ -83,7 +89,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Nova Salus Montecatini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.883179,
+  "lon": 10.770953,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriofrugoni.it",

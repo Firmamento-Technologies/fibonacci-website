@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "ASL1",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaalbachiara.it",
@@ -55,7 +58,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Albachiara",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticasanremo.it",
@@ -86,7 +92,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dottoressa Cavallero - Medicina Estetica",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomarcocamerino.com",

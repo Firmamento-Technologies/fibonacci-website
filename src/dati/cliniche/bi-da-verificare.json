@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "ASL Biella Piemonte",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.538462,
+  "lon": 8.055921,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutoesteticoliriopebiella.com",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Istituto Liriope",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "it.linkedin.com",

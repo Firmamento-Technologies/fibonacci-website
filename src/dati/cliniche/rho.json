@@ -53,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroservizirhodense.it",
@@ -81,7 +84,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Servizi Rhodense",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cevamedicalcenter.it",
@@ -116,7 +122,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "just-care.it",
@@ -177,7 +186,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laseresteticarho.it",
@@ -213,7 +225,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Laser Rho",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maliz.it",
@@ -239,7 +254,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nouvelle-esthetique.it",
@@ -266,7 +284,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polispecialisticomanzoni.it",
@@ -301,7 +322,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 07:30-19:00",
    "Saturday 07:30 – 09:00"
-  ]
+  ],
+  "lat": 45.612374,
+  "lon": 8.897038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologicobianchi.it",
@@ -341,6 +365,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 09:00-18:20",
    "Friday 09:00-17:00"
-  ]
+  ],
+  "lat": 45.558611,
+  "lon": 8.947888,
+  "precisioneCoord": "comune"
  }
 ]

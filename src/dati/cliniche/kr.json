@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Calabria Diretta News",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.596685,
+  "lon": 16.333056,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "campaniashopping.it",
@@ -49,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.920812,
+  "lon": 14.833499,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoiozzi.com",
@@ -79,7 +85,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Iozzi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressagiovannavitaliano.com",
@@ -111,7 +120,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressagiovannavitaliano.it",
@@ -138,7 +150,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "igeacrotone.com",
@@ -164,7 +179,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lacnews24.it",
@@ -220,7 +238,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Marrelli Hospital",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "newcbe.com",
@@ -245,7 +266,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogiovannavitaliano.it",
@@ -277,6 +301,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.187389,
+  "lon": 16.878282,
+  "precisioneCoord": "comune"
  }
 ]

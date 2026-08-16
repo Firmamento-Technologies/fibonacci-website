@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico | Genesi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.104412,
+  "lon": 7.761996,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gliangelidelsole.it",
@@ -56,6 +59,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gli Angeli del Sole",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.104412,
+  "lon": 7.761996,
+  "precisioneCoord": "comune"
  }
 ]

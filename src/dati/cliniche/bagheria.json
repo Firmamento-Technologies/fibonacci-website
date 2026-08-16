@@ -57,7 +57,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Federica di Fazio estetica",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoiconica.it",
@@ -90,7 +93,10 @@
   "nomeStrutturato": "Iconica - Centro Estetica Avanzata",
   "orari": [
    ", Tu 09:00-19:00, We 09:00-19:00, Th 09:00-19:00, Fr 09:00-1"
-  ]
+  ],
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticatomasello.com",
@@ -118,7 +124,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Flavia Tomasello, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Flavia Tomasello, cognome dentro il dominio",
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drincandelafrancesco.it",
@@ -177,7 +186,8 @@
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-19:00",
    "Saturday 03:00-13:00",
    "Sunday Chiuso"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medispecialist.it",
@@ -238,6 +248,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  }
 ]

@@ -36,7 +36,8 @@
    "Thursday 08:30-13:00",
    "Thursday 15:00-19:00",
    "Friday 08:30-17:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centropegaso.it",
@@ -64,7 +65,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Pegaso & Care",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ecodoppler-a-grosseto.it",
@@ -95,7 +99,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio medico Dr Vagheggini",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "labellebleu.eu",
@@ -130,7 +137,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Grosseto La Belle Bleu",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticagrosseto.it",
@@ -250,7 +260,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodentisticozullo.it",
@@ -290,7 +301,10 @@
    "Wednesday 08:30-13:00",
    "Thursday 15:00-20:00",
    "Friday 08:30-13:00"
-  ]
+  ],
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoafrodite.it",
@@ -322,6 +336,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  }
 ]

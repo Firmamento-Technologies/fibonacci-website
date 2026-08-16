@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.083709,
+  "lon": 12.282982,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "etruriamedical.it",
@@ -89,6 +92,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ondaconcept",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.767566,
+  "lon": 12.233947,
+  "precisioneCoord": "comune"
  }
 ]

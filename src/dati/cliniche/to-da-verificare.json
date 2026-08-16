@@ -38,7 +38,10 @@
    "Friday 09:00-17:00",
    "Saturday 09:00-17:00",
    "Sunday 09:00-17:00"
-  ]
+  ],
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alessandrorivolin.it",
@@ -92,7 +95,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Atelier Beauté centro estetico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "blefaroplastica-torino.it",
@@ -121,7 +127,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticobionova.it",
@@ -151,7 +160,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplastica-info.com",
@@ -185,7 +197,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dr. Stefano Pau - Dr.ssa Luisella Benzo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplastica-torino.it",
@@ -243,7 +258,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Salvatore Carlucci",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicacellini.it",
@@ -271,7 +289,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Humanitas Cellini - Torino - Clinica, Poliambulatorio, Esami",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cristalbeauty.it",
@@ -307,7 +328,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico Chirurgico A.I.M.",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologo-torino.it",
@@ -342,7 +366,8 @@
   "lon": 7.68625,
   "orari": [
    "Mo,Tu,We,Th,Fr 15:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dottorboero.it",
@@ -372,7 +397,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressazocaro.com",
@@ -408,7 +436,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dottoressa Gaia Zocaro",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elitederma.it",
@@ -434,7 +465,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "epilhouse.it",
@@ -532,7 +566,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Renata Migliardi",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaperfectatorino.it",
@@ -618,7 +655,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Studio Medico MediCare"
+  "nomeStrutturato": "Studio Medico MediCare",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "isideastudioestetica.it",
@@ -646,7 +686,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "ISIDEA STUDIO DI ESTETICA E BENESSERE",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kleis-estetica.it",
@@ -676,7 +719,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Kleis Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lamoreseitu.it",
@@ -736,7 +782,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "LARC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lashdesignbeautylab.it",
@@ -762,7 +811,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lelampados.it",
@@ -792,7 +844,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lorenafortunasme.it",
@@ -888,7 +943,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dottor Luigi Cursio, Chirurgo Plastico Ricostruttivo ed Estetico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "madame-estetica.it",
@@ -915,7 +973,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mazzeodentistatorino.it",
@@ -951,7 +1012,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "Dentist Organization"
+  "tipoDichiarato": "Dentist Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaestetica-torino.it",
@@ -985,7 +1049,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Dr.ssa Maria Rizzotti"
+  "nomeStrutturato": "Dr.ssa Maria Rizzotti",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticadelvisotorino.it",
@@ -1042,7 +1109,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticalarussa.it",
@@ -1106,7 +1176,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Gmed - medicina estetica",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.077547,
+  "lon": 7.572426,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaturco.it",
@@ -1143,7 +1216,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Medicina estetica Turco",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "papinimedicinaestetica.it",
@@ -1172,7 +1248,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Antonella Papini Medicina Estetica Torino"
+  "nomeStrutturato": "Antonella Papini Medicina Estetica Torino",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sancamillotorino.net",
@@ -1198,7 +1277,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santanche.com",
@@ -1228,7 +1310,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio del Dott. Santanchè - Chirurgia estetica, medicina estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "silvanabeautycenter.com",
@@ -1255,7 +1340,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogiovanditto.it",
@@ -1317,7 +1405,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Luca Falone",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicobarba.it",
@@ -1415,7 +1506,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio medico Dottor Bruno Francesco",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.013884,
+  "lon": 7.822354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicogambetta.it",
@@ -1442,7 +1536,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicolamarmora.it",
@@ -1468,7 +1565,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiovastatorino.it",
@@ -1494,7 +1594,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tosinistudio.it",
@@ -1520,7 +1623,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Tosini Studio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "yely.it",

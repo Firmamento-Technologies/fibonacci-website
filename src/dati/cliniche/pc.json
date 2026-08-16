@@ -54,7 +54,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.192526,
+  "lon": 10.755221,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "benessereesteticaavanzata.it",
@@ -82,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "casadicura.pc.it",
@@ -113,7 +119,10 @@
   "nomeStrutturato": "Casa di Cura Piacenza",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 06:"
-  ]
+  ],
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticagasparini.it",
@@ -143,7 +152,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "epilpoint.it",
@@ -183,7 +195,8 @@
    "Thursday 10:00-19:00",
    "Friday 10:00-19:00",
    "Saturday 10:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "guicciardini.pc.it",
@@ -209,7 +222,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticapiacenza.it",
@@ -235,7 +251,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medirocca.it",
@@ -265,7 +284,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medi Rocca",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medoracentromedico.it",
@@ -326,7 +348,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliluretta Poliambulatorio Piacenza (Gragnano Trebbiense)",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.69,
+  "lon": 14.521065,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiobaruffaldi.it",
@@ -352,7 +377,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "valentinasalotti.com",
@@ -376,6 +404,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valentina Salotti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valentina Salotti, e il dominio lo ripete",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  }
 ]

@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "BrainyByte di Vaggelli Manuele",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.775426,
+  "lon": 11.439991,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "crisalide-centroestetico.it",
@@ -85,6 +88,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Giulia di Chisci Giulia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.775426,
+  "lon": 11.439991,
+  "precisioneCoord": "comune"
  }
 ]

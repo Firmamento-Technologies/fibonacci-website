@@ -51,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamestudio.it",
@@ -79,7 +82,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Nirvana",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.275088,
+  "lon": 16.416258,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticamigliorini.it",
@@ -112,6 +118,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 08:00-19:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  }
 ]

@@ -24,7 +24,10 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmaurobarone.it",
@@ -56,6 +59,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dottor Mauro Barone",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.034796,
+  "lon": 13.426505,
+  "precisioneCoord": "comune"
  }
 ]

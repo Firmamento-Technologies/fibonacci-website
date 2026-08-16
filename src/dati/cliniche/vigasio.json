@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ESTHEA srl",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.31703,
+  "lon": 10.942198,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "teoxane.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tusciamedicalcenter.it",
@@ -79,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.253239,
+  "lon": 11.759175,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "welfarecare.org",

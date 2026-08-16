@@ -81,7 +81,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "LovelyBT",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.077547,
+  "lon": 7.572426,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mdbeautylounge.it",
@@ -112,7 +115,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "MD Beauty Lounge",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.077547,
+  "lon": 7.572426,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticamaxim.com",
@@ -143,7 +149,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.077547,
+  "lon": 7.572426,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "starbeautynails.it",

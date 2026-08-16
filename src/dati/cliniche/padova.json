@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Domus Medica Centro Cure Specialistiche - Este PADOVA",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.224007,
+  "lon": 11.659796,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "idealmedica.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.533561,
+  "lon": 11.965879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticozambon.it",
@@ -79,6 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.243863,
+  "lon": 11.687946,
+  "precisioneCoord": "comune"
  }
 ]

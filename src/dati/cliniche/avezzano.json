@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.034796,
+  "lon": 13.426505,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dilorenzo.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Di Lorenzo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.034796,
+  "lon": 13.426505,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "domenicopiccolodermatologo.it",
@@ -84,7 +90,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.034796,
+  "lon": 13.426505,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisioterapiaavezzano.it",
@@ -141,7 +150,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Marianetti Med",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.034796,
+  "lon": 13.426505,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "newdermavezzano.it",
@@ -170,7 +182,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.034796,
+  "lon": 13.426505,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ninofavoriti.it",

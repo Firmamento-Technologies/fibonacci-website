@@ -26,7 +26,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Moretti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.229021,
+  "lon": 13.177966,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaserenazagaglia.it",
@@ -58,7 +61,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 43.229021,
+  "lon": 13.177966,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gist.it",
@@ -86,6 +92,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Gist",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

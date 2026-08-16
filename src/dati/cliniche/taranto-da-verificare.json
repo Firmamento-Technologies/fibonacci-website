@@ -27,6 +27,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Michele Ferrante - Chirurgo plastico a Taranto",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  }
 ]

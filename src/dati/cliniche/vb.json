@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty 24",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.937663,
+  "lon": 8.52653,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottelsharkawy.com",
@@ -99,7 +102,8 @@
   "lat": 45.9234,
   "lon": 8.5541,
   "nomeStrutturato": "Dott. Waleed Elsharkawy — Medicina e Chirurgia Estetica",
-  "tipoDichiarato": "LocalBusiness Physician"
+  "tipoDichiarato": "LocalBusiness Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dvskintherapist.it",

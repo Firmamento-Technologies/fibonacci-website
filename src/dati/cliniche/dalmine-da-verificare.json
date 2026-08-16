@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticocatia.it",
@@ -79,6 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.649279,
+  "lon": 9.603953,
+  "precisioneCoord": "comune"
  }
 ]

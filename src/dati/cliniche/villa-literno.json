@@ -30,7 +30,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica ORL Villa Antonella - Codogno",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.160066,
+  "lon": 9.70437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "martiniginetta.it",
@@ -65,6 +68,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Martini Ginetta, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Martini Ginetta",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.918133,
+  "lon": 10.886095,
+  "precisioneCoord": "comune"
  }
 ]

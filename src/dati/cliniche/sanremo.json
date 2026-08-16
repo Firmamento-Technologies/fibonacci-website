@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ambulatorio Fisiomed Sanremo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticosanremo.it",
@@ -56,7 +59,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "IB Italian Beauty Sanremo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.958375,
+  "lon": 7.866743,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicospecialisticovittorioveneto.com",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.785051,
+  "lon": 7.659109,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dietologoalbertotranquillo.it",
@@ -109,7 +118,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Tranquillo, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Tranquillo, cognome dentro il dominio",
+  "lat": 45.998908,
+  "lon": 8.739907,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottortaglietta.it",
@@ -164,7 +176,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estepharma Sanremo – Centro Estetico High Tech e Parapharma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "horussanremo.com",
@@ -193,7 +208,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "italianbeautylaser.com",
@@ -252,7 +270,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Bisaccia, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Bisaccia, e il dominio lo ripete",
+  "lat": 44.476674,
+  "lon": 11.638338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "magmedicasanremo.it",
@@ -280,7 +301,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio MagMedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.958375,
+  "lon": 7.866743,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marianobormioli.com",
@@ -311,7 +335,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Prof. Mariano Edoardo Bormioli",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomatteottisanremo.it",
@@ -341,6 +368,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Matteotti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  }
 ]

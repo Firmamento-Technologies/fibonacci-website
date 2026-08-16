@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.968396,
+  "lon": 17.113771,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "annagiuliesi.com",
@@ -82,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautyedonebari.it",
@@ -229,7 +235,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgoplasticobove.it",
@@ -267,7 +276,8 @@
   "orari": [
    "Mo-Fr 09:00-20:00"
   ],
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "clinicalavestale.it",
@@ -330,7 +340,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "TWOB srl stp",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologofavero.it",
@@ -362,7 +375,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottgiuseppearmenisechirurgoplastico.com",
@@ -390,7 +406,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Armenise, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Armenise, cognome dentro il dominio",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmarcellonitti.it",
@@ -456,7 +475,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estelite SNC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "excellencebari.it",
@@ -482,7 +504,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fabriziobarattolo.it",
@@ -519,7 +544,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Barattolo, e il dominio lo ripete",
   "nomeStrutturato": "Fabrizio Barattolo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giacomovolpe.it",
@@ -547,7 +575,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giacomo Volpe, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giacomo Volpe, e il dominio lo ripete",
+  "lat": 41.130234,
+  "lon": 16.542471,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giuseppe-giudice.com",
@@ -573,7 +604,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Giudice, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Giudice, e il dominio lo ripete",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hammamfarah.it",
@@ -597,7 +631,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ifses.it",
@@ -624,7 +661,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laclinicabari.com",
@@ -658,7 +698,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 10:00-20:00",
    "Saturday 09:30-12:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "lucialeone.com",
@@ -682,7 +723,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lucia Leone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lucia Leone, e il dominio lo ripete",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lulibia.it",
@@ -775,7 +819,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Associato Oculistico Pannarale",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolovittore.it",
@@ -805,7 +852,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Vittore, e il dominio lo ripete",
   "nomeStrutturato": "Studio Dentistico a Bari del Dott. Paolo Vittore &#x2d; Chirurgo orale e maxillo&#x2d;facciale odontoiatra",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.004265,
+  "lon": 16.871653,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rosannademichele.it",
@@ -835,7 +885,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosanna Demichele, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosanna Demichele, e il dominio lo ripete",
+  "lat": 40.704238,
+  "lon": 17.339991,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rossellaelia.it",
@@ -890,7 +943,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniela Chiama, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniela Chiama, cognome dentro il dominio",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "savinoarbore.it",
@@ -947,7 +1003,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticomessina.it",
@@ -1013,7 +1072,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Colonna, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Colonna, e il dominio lo ripete",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vincenzobucaria.it",
@@ -1040,6 +1102,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Bucaria, e il dominio lo ripete",
   "nomeStrutturato": "Chirurgo Plastico Vincenzo Bucaria",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  }
 ]

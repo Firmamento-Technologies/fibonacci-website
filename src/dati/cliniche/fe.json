@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressacutrera.it",
@@ -61,7 +64,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Elisabetta Cutrera",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressadanielatartarini.it",
@@ -130,7 +136,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drferrarafrancesca.it",
@@ -163,7 +172,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Ferrara, cognome dentro il dominio",
   "nomeStrutturato": "Dr.ssa Francesca Ferrara",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "enjoyderma.it",
@@ -258,6 +270,61 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "grisellidrgiampiero.it",
+  "nome": "Studio dermatologico, dermatologo, Ferrara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393488747904",
+  "email": "",
+  "sitoUrl": "https://www.grisellidrgiampiero.it/",
+  "indirizzo": "Via Montebello 55",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Griselli Visite, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.grisellidrgiampiero.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Griselli Visite, cognome dentro il dominio",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "pierorosati.it",
+  "nome": "Piero Rosati",
+  "formaSocietaria": "",
+  "partitaIva": "00885090381",
+  "telefono": "+390532767965",
+  "email": "",
+  "sitoUrl": "https://pierorosati.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fe",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Piero Rosati, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://pierorosati.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Piero Rosati, e il dominio lo ripete"
+ },
+ {
   "dominio": "poliambulatoriodermalaser.com",
   "nome": "DERMALASER",
   "formaSocietaria": "",
@@ -285,7 +352,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "poliambulatoriodermalaser.com",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vilmalamalfa.com",

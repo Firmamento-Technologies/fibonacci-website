@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.829296,
+  "lon": 14.334168,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicamediterranea.it",
@@ -75,7 +78,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.829296,
+  "lon": 14.334168,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sorrentopress.it",
@@ -100,7 +106,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanosantoro.it",
@@ -158,6 +167,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  }
 ]

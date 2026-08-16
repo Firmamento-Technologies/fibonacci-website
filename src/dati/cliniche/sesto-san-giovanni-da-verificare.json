@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "asst-nordmilano.it",
@@ -49,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticokarisma.it",
@@ -76,7 +82,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rodental.it",
@@ -109,7 +118,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Santagostino Sesto San Giovanni via Gorizia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sestopolimedica.it",
@@ -137,6 +149,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Sesto Polimedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  }
 ]

@@ -30,7 +30,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cesare Cappellina, cognome nel dominio",
   "nomeStrutturato": "Clinica Cappellina",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.635517,
+  "lon": 11.548598,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cdvs.it",
@@ -58,7 +61,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "C.D.V. - Centro Diagnostico Veneto Srl"
+  "nomeStrutturato": "C.D.V. - Centro Diagnostico Veneto Srl",
+  "lat": 45.611836,
+  "lon": 11.50758,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrogenesy.it",
@@ -96,7 +102,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Genesy",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicinaestetica.info",
@@ -150,7 +159,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.720119,
+  "lon": 11.460827,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicospinelli.it",
@@ -187,7 +199,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Spinelli",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmigea.it",
@@ -215,7 +230,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico IGEA Vicenza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.645976,
+  "lon": 11.632999,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressalilianaturatello.it",
@@ -243,7 +261,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottoressa Liliana Turatello",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomedicavicenza.it",
@@ -273,7 +294,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fisiomedica - Vicenza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gmpoliambulatorio.it",
@@ -300,7 +324,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "GM medical sport center - Vicenza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hubsalute.it",
@@ -330,7 +357,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "HUB - health unit bio | Poliambulatorio e Analisi a Vicenza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalart.it",
@@ -391,7 +421,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.564041,
+  "lon": 11.374852,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinamoderna.tv",
@@ -421,7 +454,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Moderna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.969987,
+  "lon": 12.143137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioteatronuovo.com",
@@ -452,7 +488,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Teatro Nuovo",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "uno-med.it",
@@ -480,6 +519,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "UNOMED",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  }
 ]

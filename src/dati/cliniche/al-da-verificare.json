@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "botulino.com",
@@ -97,7 +100,8 @@
   "orari": [
    "Mo, Tu, We, Th, Fr 10:30-19:30"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medmaiora.it",
@@ -125,7 +129,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "BdueB",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ospedale.al.it",
@@ -153,6 +160,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.834953,
+  "lon": 8.74503,
+  "precisioneCoord": "comune"
  }
 ]

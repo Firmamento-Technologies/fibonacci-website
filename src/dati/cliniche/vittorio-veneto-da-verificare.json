@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticstudio.net",
@@ -51,6 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.989665,
+  "lon": 12.296436,
+  "precisioneCoord": "comune"
  }
 ]

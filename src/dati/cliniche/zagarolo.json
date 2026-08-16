@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Papa, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Papa, e il dominio lo ripete",
+  "lat": 41.838384,
+  "lon": 12.83105,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ladeabendata.info",
@@ -55,7 +58,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Dea Bendata",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.838966,
+  "lon": 12.891249,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoaloe.it",
@@ -85,6 +91,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Aloè",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

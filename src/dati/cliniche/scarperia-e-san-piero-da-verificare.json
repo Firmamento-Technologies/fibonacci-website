@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Il Filo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.954248,
+  "lon": 11.386468,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "misericordiasanpiero.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.010965,
+  "lon": 11.33135,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "regione.toscana.it",
@@ -77,7 +83,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skin-dermatologija.si",

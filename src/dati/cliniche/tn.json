@@ -32,7 +32,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MedicalMente - Medicina Estetica ad Andria - Dr Gaetano Di Terlizzi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.227646,
+  "lon": 16.295435,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cerbahealthcare.it",
@@ -60,7 +63,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cerba Healthcare Italia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "claudiafantini.it",
@@ -97,7 +103,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudia Fantini, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Claudia Fantini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicamedes.it",
@@ -130,7 +139,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Medes",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drfabiomengarda.it",
@@ -193,7 +205,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Equilibrio Trento",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maurizioberlanda.it",
@@ -223,7 +238,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Berlanda, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Berlanda, e il dominio lo ripete",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticatrento.com",
@@ -257,7 +275,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mess-srl.it",
@@ -322,7 +343,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Manera, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Manera, e il dominio lo ripete",
+  "lat": 45.884771,
+  "lon": 10.839694,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoritrento.it",
@@ -348,7 +372,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rossellatedeschi.it",
@@ -387,7 +414,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "MedicalBusiness Physician"
+  "tipoDichiarato": "MedicalBusiness Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "skinmedictrento.it",
@@ -417,7 +445,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodetassis.com",
@@ -450,7 +481,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Detassis",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiwhite.it",
@@ -502,6 +536,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

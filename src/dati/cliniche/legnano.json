@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.594698,
+  "lon": 8.91836,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosanmagno.it",
@@ -49,7 +52,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico San Magno Legnano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.594698,
+  "lon": 8.91836,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dalilavergani.it",
@@ -108,7 +114,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.594698,
+  "lon": 8.91836,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "galdermaaesthetics.com",
@@ -166,7 +175,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Human Clinic S.n.c.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.594698,
+  "lon": 8.91836,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "landing.dottrobertolualdi.it",
@@ -195,7 +207,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lapegaia.net",
@@ -221,7 +236,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.594698,
+  "lon": 8.91836,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "microchirurgiamano.net",
@@ -275,7 +293,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MilanoToday",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "settimosensobeauty.com",
@@ -305,7 +326,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.558611,
+  "lon": 8.947888,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticodiomaiuta.com",
@@ -339,7 +363,8 @@
    "Monday,Tuesday,Thursday 09:30-12:00 / 15:00-19:30",
    "Wednesday 15:00-19:30",
    "Friday 09:00-12:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodentisticogierre.it",
@@ -373,7 +398,8 @@
    "Monday,Wednesday,Friday 09:00-12:00 / 15:00-20:00",
    "Tuesday 15:00-20:00",
    "Thursday,Saturday,Sunday Chiuso"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiohclegnano.it",
@@ -401,7 +427,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "HUMAN CLINIC-Studio HC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.594698,
+  "lon": 8.91836,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "terapiaozono.it",
@@ -427,6 +456,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.593012,
+  "lon": 8.951392,
+  "precisioneCoord": "comune"
  }
 ]

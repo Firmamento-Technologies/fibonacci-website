@@ -28,7 +28,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "Hospital Organization"
+  "tipoDichiarato": "Hospital Organization",
+  "lat": 44.926786,
+  "lon": 10.520223,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "identita.net",
@@ -95,7 +98,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lineis Clinique",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.389677,
+  "lon": 10.488874,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "manuinimedicinaestetica.it",
@@ -160,7 +166,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Experience Mantova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.169362,
+  "lon": 10.670616,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriobelfiore.it",
@@ -189,7 +198,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.169362,
+  "lon": 10.670616,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomater.com",
@@ -217,7 +229,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.169362,
+  "lon": 10.670616,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticorestori.it",
@@ -247,7 +262,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.254777,
+  "lon": 10.474379,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomastromarino.com",
@@ -281,6 +299,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Mastromarino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.169362,
+  "lon": 10.670616,
+  "precisioneCoord": "comune"
  }
 ]

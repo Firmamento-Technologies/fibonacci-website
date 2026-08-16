@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AURUM estetica esclusiva",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.594202,
+  "lon": 12.648576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elkalab.com",
@@ -56,7 +59,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Laboratorio di Analisi Elkalab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.594202,
+  "lon": 12.648576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "karibuestetica.it",
@@ -91,7 +97,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 41.594202,
+  "lon": 12.648576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oraridiapertura24.it",
@@ -140,6 +149,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.594202,
+  "lon": 12.648576,
+  "precisioneCoord": "comune"
  }
 ]

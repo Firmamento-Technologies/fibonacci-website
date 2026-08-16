@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.358942,
+  "lon": 13.850364,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lunanuovarealmonte.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.308393,
+  "lon": 13.461567,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "umanis.it",

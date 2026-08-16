@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroippocratecl.it",
@@ -53,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Ippocrate",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosedita.com",
@@ -79,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottlombardo.it",
@@ -145,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ludovicamariavaccaro.it",
@@ -201,7 +213,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Polimed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simonaboscagliadermatologo.com",
@@ -231,7 +246,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simona Boscaglia, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simona Boscaglia, cognome dentro il dominio",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticocasanova.it",
@@ -257,7 +275,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.489941,
+  "lon": 14.063162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unipegasocaltanissetta.it",

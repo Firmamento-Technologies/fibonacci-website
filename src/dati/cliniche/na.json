@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "accadiomed.it",
@@ -87,7 +90,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriano Santorelli, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Adriano Santorelli - Chirurgo Plastico &amp; Medico Estetico a Napoli",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "aestheticare.it",
@@ -118,7 +124,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Aestheticare - Medicina estetica e Chirurgia estetica a Napoli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alessandrodonzelli.com",
@@ -185,7 +194,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-20:30"
   ],
-  "tipoDichiarato": "MedicalClinic MedicalBusiness"
+  "tipoDichiarato": "MedicalClinic MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "alfredofonzone.org",
@@ -215,7 +225,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Fonzone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Fonzone, e il dominio lo ripete",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "allavioletta.it",
@@ -280,7 +293,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amamedical.eu",
@@ -311,7 +327,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ambrosaniorosa.com",
@@ -340,7 +359,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ambrosanio Rosa, e il dominio lo ripete",
   "nomeStrutturato": "Studio Medico Ambrosanio Rosa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amohaviaomodeo.it",
@@ -369,7 +391,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AMOHA' S.A.S.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "angelagroger.it",
@@ -431,7 +456,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Armando Scimone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Armando Scimone, e il dominio lo ripete",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "arturoamoroso.it",
@@ -525,7 +553,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BeautyLife estetica avanzata",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.69924,
+  "lon": 9.03436,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cartagineclinic.it",
@@ -557,7 +588,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroathenanapoli.it",
@@ -586,7 +620,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodep.com",
@@ -651,7 +688,10 @@
   "nomeStrutturato": "Centro Medico Gargano",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
-  ]
+  ],
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromorra.it",
@@ -680,7 +720,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Cardiologico Morra",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.907912,
+  "lon": 14.386233,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologianapoli.it",
@@ -719,7 +762,8 @@
   "lat": 40.8436,
   "lon": 14.2307,
   "nomeStrutturato": "Dott.ssa Francesca Gaudiello - Dermatologia Napoli",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dottenricocalabrese.it",
@@ -776,7 +820,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorbianchinicola.it",
@@ -811,7 +858,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr Nicola Bianchi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.469485,
+  "lon": 10.538947,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottordellacorte.com",
@@ -847,7 +897,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressagiusiambrosio.it",
@@ -884,7 +937,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottoressa Giusi Ambrosio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.957112,
+  "lon": 14.31023,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drantoniobraucci.com",
@@ -913,7 +969,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drfrancescosomma.com",
@@ -981,7 +1040,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Vincenzo Grippo",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drvittoria.it",
@@ -1046,7 +1108,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Elite Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "facebioma.com",
@@ -1075,7 +1140,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-18:00"
   ],
-  "tipoDichiarato": "MedicalClinic HealthAndBeautyBusiness"
+  "tipoDichiarato": "MedicalClinic HealthAndBeautyBusiness",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gemaclinique.it",
@@ -1107,7 +1175,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gema Clinique",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giulianomazzella.com",
@@ -1148,7 +1219,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
   ],
-  "tipoDichiarato": "MedicalBusiness Physician"
+  "tipoDichiarato": "MedicalBusiness Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "goriziopieretti.com",
@@ -1211,7 +1283,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Fanfani",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.752172,
+  "lon": 11.319995,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ivanlarusca.it",
@@ -1248,7 +1323,8 @@
   "lon": 14.88049,
   "orari": [
    "Wednesday, Thursday, Friday 09:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "kimage.it",
@@ -1280,7 +1356,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Kimage",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "luigirugge.com",
@@ -1310,7 +1389,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Rugge, e il dominio lo ripete",
   "nomeStrutturato": "Chirurgo Estetico - Luigi Rugge",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "madamestetica.com",
@@ -1340,7 +1422,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Madame",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcomoraci.it",
@@ -1373,7 +1458,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Moraci, e il dominio lo ripete",
   "nomeStrutturato": "Dottor Marco Moraci",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "massimilianomonarca.com",
@@ -1406,7 +1494,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Monarca, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Monarca, e il dominio lo ripete",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "massimo.delmese.net",
@@ -1434,7 +1525,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "POLITICAdeMENTE - Il blog di Massimo Del Mese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.617515,
+  "lon": 15.056944,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maurizioamato.com",
@@ -1464,7 +1558,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Amato, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Maurizio Amato - Medicina e chirurgia estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medfarmitalia.it",
@@ -1565,7 +1662,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinae.it",
@@ -1599,7 +1699,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticapitassi.it",
@@ -1757,7 +1860,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:30-19:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "ordinemedicinapoli.it",
@@ -1783,7 +1887,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pasqualeverolino.it",
@@ -1821,7 +1928,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Verolino, e il dominio lo ripete",
   "nomeStrutturato": "Pasquale Verolino",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polimedmedicinaestetica.it",
@@ -1856,7 +1966,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.926012,
+  "lon": 14.310831,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raffaelecastaldo.it",
@@ -1891,7 +2004,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Four Surgery",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raffaelerauso.com",
@@ -1927,7 +2043,8 @@
   "orari": [
    "Mo-Fr 09:00-20:00"
   ],
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "raffaellaannunziata.it",
@@ -1952,7 +2069,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaella Annunziata, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaella Annunziata, e il dominio lo ripete",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ragoclinic.it",
@@ -1985,7 +2105,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Rago Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "reflowcenter.com",
@@ -2013,7 +2136,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Reflow Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "regaclinic.it",
@@ -2075,7 +2201,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Roberta Torre Pignatiello Urban Spa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rosagiannatiempo.it",
@@ -2133,7 +2262,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santorellibeautyhouse.it",
@@ -2168,7 +2300,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriano Santorelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriano Santorelli, cognome dentro il dominio",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sergiomarlino.it",
@@ -2204,7 +2339,10 @@
   "nomeStrutturato": "Sergio Marlino - Chirurgo plastico Napoli",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-20:0"
-  ]
+  ],
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simonenapoli.it",
@@ -2239,7 +2377,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Simone Napoli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "smeasnc.it",
@@ -2272,7 +2413,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Smea Snc",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticocozzolino.it",
@@ -2307,7 +2451,8 @@
   "lon": 14.2483,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20.00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiofabbrocini.com",
@@ -2335,7 +2480,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Fabbrocini",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicopolverino.it",
@@ -2371,7 +2519,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Polverino, cognome dentro il dominio",
   "nomeStrutturato": "Studio Polverino",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "treatwell.it",
@@ -2403,7 +2554,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Treatwell",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "umbertonapoli.it",
@@ -2436,7 +2590,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "veresis.it",
@@ -2467,7 +2624,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Veresis",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "whitebeautyclinic.com",
@@ -2499,6 +2659,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "White Beauty Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  }
 ]

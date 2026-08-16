@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "BioSanitas Lab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.609254,
+  "lon": 14.982144,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "brognadottssalina.com",
@@ -56,7 +59,8 @@
   "lat": 40.607316,
   "lon": 14.982494,
   "nomeStrutturato": "Brogna Dott.ssa Lina",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "donnemedico.org",
@@ -119,7 +123,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticosacco.it",

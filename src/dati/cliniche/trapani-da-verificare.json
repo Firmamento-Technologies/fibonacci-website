@@ -28,6 +28,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "SENSO ESTETICO",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.017432,
+  "lon": 12.515992,
+  "precisioneCoord": "comune"
  }
 ]

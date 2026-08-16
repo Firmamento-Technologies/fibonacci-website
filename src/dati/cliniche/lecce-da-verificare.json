@@ -28,6 +28,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Emaderm di De Lorenzi Emanuela",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  }
 ]

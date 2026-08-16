@@ -30,7 +30,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 45.502855,
+  "lon": 11.907496,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalnewcenter.it",
@@ -91,6 +94,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Salute e Benessere",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.519292,
+  "lon": 11.338594,
+  "precisioneCoord": "comune"
  }
 ]

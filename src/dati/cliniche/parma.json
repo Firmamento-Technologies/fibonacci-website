@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Bellezza Estetica Parma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drzchirurgiaestetica.it",
@@ -58,7 +61,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgo Estetico Milano Renato Zaccheddu",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorio.medlavitalia.it",
@@ -84,6 +90,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  }
 ]

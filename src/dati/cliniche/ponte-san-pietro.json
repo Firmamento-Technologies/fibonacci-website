@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "milano.repubblica.it",
@@ -77,7 +80,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Punto F",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticomussomassimiliano.com",
@@ -101,6 +107,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Musso, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Musso, cognome dentro il dominio",
+  "lat": 45.697819,
+  "lon": 9.587857,
+  "precisioneCoord": "comune"
  }
 ]

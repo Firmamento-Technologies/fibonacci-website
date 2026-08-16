@@ -33,7 +33,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmarcomannucci.it",
@@ -177,7 +180,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ordine dei Medici-Chirurghi e degli Odontoiatri della Provincia di Caserta",
-  "tipoDichiarato": "Organization MedicalOrganization"
+  "tipoDichiarato": "Organization MedicalOrganization",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ospedale.caserta.it",
@@ -215,7 +221,10 @@
   "nomeStrutturato": "Ruben\\'s Center",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 09:00-20:00"
-  ]
+  ],
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomirra.it",
@@ -239,7 +248,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.072914,
+  "lon": 14.273928,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "yesdoctor.it",

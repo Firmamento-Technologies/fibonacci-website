@@ -29,7 +29,10 @@
   "nomeStrutturato": "Dott.Ssa Carla Cingolani",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-20:00"
-  ]
+  ],
+  "lat": 43.403508,
+  "lon": 13.548602,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoblugallery.it",
@@ -81,6 +84,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Radio Gold",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.335841,
+  "lon": 12.904619,
+  "precisioneCoord": "comune"
  }
 ]

@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.719488,
+  "lon": 10.945856,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticaeumedica.it",
@@ -56,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.719488,
+  "lon": 10.945856,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ergeacentrimedici.it",
@@ -84,7 +90,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Erg&#233;a Centri Medici",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutosantandrea.org",
@@ -110,7 +119,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.719488,
+  "lon": 10.945856,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticoborgioli.it",
@@ -138,6 +150,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Borgioli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.787397,
+  "lon": 10.927106,
+  "precisioneCoord": "comune"
  }
 ]

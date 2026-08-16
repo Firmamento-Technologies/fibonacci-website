@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetica Lilly",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.814762,
+  "lon": 9.979576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciavialegiuliocesare.com",
@@ -58,7 +61,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "FARMACIA VIALE GIULIO CESARE SNC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "inacquacentromedico.it",
@@ -87,7 +93,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "parco21esteticaavanzata.it",
@@ -117,7 +126,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Parco 21Estetica avanzata",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.814762,
+  "lon": 9.979576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "shop.termest.it",
@@ -142,6 +154,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  }
 ]

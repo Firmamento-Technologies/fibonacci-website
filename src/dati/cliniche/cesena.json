@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "A-Medic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.136352,
+  "lon": 12.242244,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bellocchioweb.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Bellocchio",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.136352,
+  "lon": 12.242244,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drlaurarossini.com",
@@ -93,7 +99,8 @@
   "tipoDichiarato": "Organization",
   "nomeStrutturato": "Medicina estetica dott.ssa Laura Rossini",
   "lat": 44.020392,
-  "lon": 12.549903
+  "lon": 12.549903,
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "evoluzionestetika.it",
@@ -127,7 +134,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-20:00",
    "Saturday 09:00-16:00"
-  ]
+  ],
+  "lat": 44.136352,
+  "lon": 12.242244,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "leau.it",
@@ -155,7 +165,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Leau",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 44.136352,
+  "lon": 12.242244,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lucamorellini.it",

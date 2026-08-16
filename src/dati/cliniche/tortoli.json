@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.926604,
+  "lon": 9.659155,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ilariacerina.it",
@@ -54,6 +57,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Cerina, e il dominio lo ripete",
   "nomeStrutturato": "Admin",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 39.791151,
+  "lon": 9.518445,
+  "precisioneCoord": "comune"
  }
 ]

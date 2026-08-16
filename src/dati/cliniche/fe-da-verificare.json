@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Medico Palazzo Ristori",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologia-ferrara.it",
@@ -91,7 +94,8 @@
    "Tuesday, Wednesday, Thursday, Friday 08:30-20:30",
    "Saturday 08:30-17:30"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "fmedicalpoliambulatorio.it",
@@ -125,7 +129,39 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 07:00 - 20:00",
    "Saturday 07:00 - 13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "quisisanafe.com",
+  "nome": "Quisisana",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390532207622",
+  "email": "info@quisisanafe.com",
+  "sitoUrl": "https://www.quisisanafe.com/it/",
+  "indirizzo": "Viale Cavour 128",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.quisisanafe.com/it/",
+   "https://www.quisisanafe.com/it/la-struttura/privacy",
+   "https://www.quisisanafe.com/it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visitamedica.it",

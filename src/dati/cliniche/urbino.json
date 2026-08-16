@@ -30,7 +30,8 @@
   "lon": 12.605349,
   "orari": [
    "Monday, Tuesday, Thursday, Friday, Saturday 14:00-20:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "esteticadany.it",
@@ -59,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.726261,
+  "lon": 12.636314,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laboclinic.it",
@@ -87,7 +91,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.638346,
+  "lon": 8.64525,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medmontefeltro.it",
@@ -113,6 +120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.726261,
+  "lon": 12.636314,
+  "precisioneCoord": "comune"
  }
 ]

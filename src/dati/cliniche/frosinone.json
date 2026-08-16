@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Aclea",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.628259,
+  "lon": 13.576332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "aemmemedica.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AEMME MEDICA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.74472,
+  "lon": 13.152694,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "qidoc.it",
@@ -88,6 +94,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "QiDoc",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Abruzzo Magazine",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroarabafenice.it",
@@ -114,7 +117,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 42.12434,
+  "lon": 14.705923,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laserterapiavasto.it",
@@ -148,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.12434,
+  "lon": 14.705923,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polobiomedico.it",
@@ -176,6 +185,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Polo Biomedico Adriatico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.12434,
+  "lon": 14.705923,
+  "precisioneCoord": "comune"
  }
 ]

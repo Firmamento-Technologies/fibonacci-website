@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Ciesse Pavia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "margheritaestetica.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordmedlu.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.017764,
+  "lon": 10.45443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "parrocchiamadonnadipompei.it",

@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nelmabeauty.it",
@@ -57,7 +60,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Nelma Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santagostinoimola.it",
@@ -85,7 +91,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Santagostino Imola",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiolipariderobertis.it",
@@ -113,6 +122,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Lipari De Robertis",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  }
 ]

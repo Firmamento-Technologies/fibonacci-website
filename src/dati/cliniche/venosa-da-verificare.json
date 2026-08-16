@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.961323,
+  "lon": 15.814863,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lavidamedical.com",
@@ -55,6 +58,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "La Vida Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  }
 ]

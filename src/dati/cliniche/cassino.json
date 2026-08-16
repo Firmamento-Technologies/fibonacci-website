@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ORL Sardegna. Patologie del naso, orecchio, gola e vertigini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vderma.it",
@@ -56,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.492558,
+  "lon": 13.83053,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villaserenacassino.it",
@@ -82,6 +88,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.492558,
+  "lon": 13.83053,
+  "precisioneCoord": "comune"
  }
 ]

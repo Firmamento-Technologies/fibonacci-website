@@ -29,7 +29,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Reale, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Aldo Reale - Dermatologo a Campobasso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroartemisiacampobasso.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticamente.com",
@@ -86,7 +92,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Esteticamente Snc",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "filomenamandato.it",
@@ -120,7 +129,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Filomena Mandato, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Filomena Mandato, e il dominio lo ripete",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giulianiro.com",
@@ -153,7 +165,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Niro, e il dominio lo ripete",
   "nomeStrutturato": "Campobasso",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lacuramedicalspa.com",

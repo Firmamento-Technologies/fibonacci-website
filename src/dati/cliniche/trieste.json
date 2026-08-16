@@ -91,6 +91,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "dottoressa Valentina Visintini Cividin",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  }
 ]

@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Davide Baroncini, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Davide Baroncini, cognome dentro il dominio",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sandrigomedica.it",
@@ -53,6 +56,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SandrigoMedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.660608,
+  "lon": 11.602928,
+  "precisioneCoord": "comune"
  }
 ]

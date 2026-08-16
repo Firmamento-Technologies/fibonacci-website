@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bcomebenessere.it",
@@ -87,7 +90,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 40.700462,
+  "lon": 14.706263,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "exedradermatology.it",
@@ -116,7 +122,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.700462,
+  "lon": 14.706263,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vitaestetica.it",

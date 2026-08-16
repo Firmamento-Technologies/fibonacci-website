@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Le petite ediénne",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.944128,
+  "lon": 13.625229,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lobruttoroberto.com",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.804945,
+  "lon": 13.533059,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogorizia.it",
@@ -81,6 +87,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Gorizia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.527222,
+  "lon": 9.117601,
+  "precisioneCoord": "comune"
  }
 ]

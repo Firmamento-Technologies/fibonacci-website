@@ -28,6 +28,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Beauty &amp; nails",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  }
 ]

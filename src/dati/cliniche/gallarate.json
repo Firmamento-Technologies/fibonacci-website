@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrocustodi.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Organization",
-  "nomeStrutturato": "Centro Polispecialistico Custodi"
+  "nomeStrutturato": "Centro Polispecialistico Custodi",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoletorri.com",
@@ -89,7 +95,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dietostudio.it",
@@ -145,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomedservice.it",
@@ -173,7 +185,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fornimedicalcenter.it",
@@ -201,7 +216,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Forni Medica Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "framebeautyclinic.com",
@@ -231,7 +249,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Frame Beauty",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mmvbeauty.com",
@@ -258,7 +279,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Michela Morace Visagista",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skin-medical.it",
@@ -284,7 +308,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skingevia.com",
@@ -327,7 +354,8 @@
    "Saturday 00:00-19:00"
   ],
   "lat": 45.660117,
-  "lon": 8.790169
+  "lon": 8.790169,
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiocoppola.org",
@@ -357,6 +385,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Odontostomatologico Coppola",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.659895,
+  "lon": 8.793201,
+  "precisioneCoord": "comune"
  }
 ]

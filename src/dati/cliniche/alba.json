@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Alba Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "albalaser.it",
@@ -59,7 +62,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "albalaser",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.700724,
+  "lon": 8.035779,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottriboldichirurgo.com",
@@ -139,7 +145,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.700724,
+  "lon": 8.035779,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rivarossa.net",
@@ -167,7 +176,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrico Rivarossa, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrico Rivarossa, cognome nel dominio",
+  "lat": 44.700724,
+  "lon": 8.035779,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodecosimo.it",
@@ -201,6 +213,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico De Cosimo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.718182,
+  "lon": 7.948204,
+  "precisioneCoord": "comune"
  }
 ]

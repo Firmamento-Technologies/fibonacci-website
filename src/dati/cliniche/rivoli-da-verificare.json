@@ -80,7 +80,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hiredoc.com",
@@ -156,6 +159,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Dentistico Daniela Castello · Rivoli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  }
 ]

@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.682851,
+  "lon": 12.795534,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorfrancescocosentino.it",
@@ -50,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.017432,
+  "lon": 12.515992,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gastromed.it",
@@ -78,7 +84,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gastromed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.03823,
+  "lon": 12.587182,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pietrosansicadermatologo.it",
@@ -109,7 +118,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.017432,
+  "lon": 12.515992,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosanmichele.it",
@@ -161,7 +173,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.264812,
+  "lon": 15.899665,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salustrapani.it",
@@ -189,7 +204,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Salus - Private Spa & Beauty",
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "lat": 38.017432,
+  "lon": 12.515992,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticocangemi.it",
@@ -219,7 +237,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Odontoiatrico Cangemi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.03823,
+  "lon": 12.587182,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogiannitrapani.it",
@@ -272,6 +293,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.03823,
+  "lon": 12.587182,
+  "precisioneCoord": "comune"
  }
 ]

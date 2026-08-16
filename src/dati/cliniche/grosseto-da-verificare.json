@@ -33,6 +33,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "PV MEDICA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.77511,
+  "lon": 11.287804,
+  "precisioneCoord": "comune"
  }
 ]

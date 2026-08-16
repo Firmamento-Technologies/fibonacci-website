@@ -34,7 +34,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "GF Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolaemiliozzi.it",
@@ -93,7 +96,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Salus Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinmedpesaro.it",
@@ -157,6 +163,7 @@
   "lon": 12.91405,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

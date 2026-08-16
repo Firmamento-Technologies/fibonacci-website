@@ -24,7 +24,10 @@
   "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.127683,
+  "lon": 9.342323,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticonuoro.it",
@@ -58,7 +61,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "CENTRO ESTETICO CLEOPATRA DI DANIELA TICCA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.127683,
+  "lon": 9.342323,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "monicacongiu.it",

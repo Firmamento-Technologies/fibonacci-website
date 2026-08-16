@@ -27,6 +27,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Tadiotto, cognome dentro il dominio",
   "nomeStrutturato": "Dott.ssa Giulia Tadiotto Cicogna",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.428729,
+  "lon": 11.788274,
+  "precisioneCoord": "comune"
  }
 ]

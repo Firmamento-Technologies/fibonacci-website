@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Sanatrix",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "napoli.corriere.it",
@@ -51,6 +54,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Corriere della Sera",
-  "tipoDichiarato": "NewsMediaOrganization"
+  "tipoDichiarato": "NewsMediaOrganization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

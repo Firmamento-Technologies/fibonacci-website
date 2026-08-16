@@ -26,7 +26,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Biomedica Tortonese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.89666,
+  "lon": 8.864128,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studihevo.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.89666,
+  "lon": 8.864128,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiobotto.com",

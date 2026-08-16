@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.136266,
+  "lon": 8.449813,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "comune.casale-monferrato.al.it",
@@ -53,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casale Monferrato",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.136266,
+  "lon": 8.449813,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermolasermed.com",
@@ -90,7 +96,10 @@
   "nomeStrutturato": "DermatoLaserClinic",
   "orari": [
    ", , , , , ,"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "innovamedical.it",
@@ -145,7 +154,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico e Odontoiatrico Lanteri e Angelino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.136266,
+  "lon": 8.449813,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lorenzogasco.it",
@@ -175,7 +187,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Gasco, e il dominio lo ripete",
   "nomeStrutturato": "Lorenzo Gasco",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.365158,
+  "lon": 8.072925,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcofrigerio.net",
@@ -260,6 +275,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.136266,
+  "lon": 8.449813,
+  "precisioneCoord": "comune"
  }
 ]

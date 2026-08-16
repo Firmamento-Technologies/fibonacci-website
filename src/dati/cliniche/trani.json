@@ -76,7 +76,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Gazzetta del Mezzogiorno",
-  "tipoDichiarato": "NewsMediaOrganization"
+  "tipoDichiarato": "NewsMediaOrganization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticocarmenparadiso.it",
@@ -106,6 +109,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Carmen Paradiso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.275088,
+  "lon": 16.416258,
+  "precisioneCoord": "comune"
  }
 ]

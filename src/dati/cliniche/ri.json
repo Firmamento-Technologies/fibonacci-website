@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Altieri, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Altieri, e il dominio lo ripete",
+  "lat": 42.414736,
+  "lon": 12.885888,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaedone.com",
@@ -50,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.414736,
+  "lon": 12.885888,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticacervelli.com",
@@ -79,6 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.414736,
+  "lon": 12.885888,
+  "precisioneCoord": "comune"
  }
 ]

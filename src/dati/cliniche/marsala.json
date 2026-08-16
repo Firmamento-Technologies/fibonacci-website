@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Zambito, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Zambito, cognome dentro il dominio",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologomattozzi.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Mattozzi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Mattozzi, cognome dentro il dominio",
+  "lat": 37.682851,
+  "lon": 12.795534,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "galenosalute.it",
@@ -110,7 +116,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Center - Marsala",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.797922,
+  "lon": 12.434209,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "moranasalus.it",
@@ -143,7 +152,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-20:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "nicecosmetics.it",
@@ -169,7 +179,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.797922,
+  "lon": 12.434209,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rigeneramedilab.it",

@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoelleviareggio.it",
@@ -55,7 +58,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Pieffe",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicinaestetica.eu",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "croceverdeviareggiosrl.com",
@@ -109,7 +118,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lanazione.it",
@@ -174,7 +186,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
    "Saturday,Sunday Chiuso"
-  ]
+  ],
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "miamo.studio",
@@ -204,7 +219,10 @@
   "nomeStrutturato": "Miamo Studi Medici",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
-  ]
+  ],
+  "lat": 41.984273,
+  "lon": 12.695319,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mybeautytime.it",
@@ -235,7 +253,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "My Beauty Time - Centro Estetico Viareggio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.867239,
+  "lon": 10.250605,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "viareggio-52.saviodimatteo.it",

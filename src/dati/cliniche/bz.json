@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Farina, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Farina, e il dominio lo ripete",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautyclinic-medicalcenter.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty Clinic | Trento e Bolzano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "casadicura.gruppobonvicini.it",
@@ -87,7 +93,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa di Cura Bonvicini Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicagostini.it",
@@ -117,7 +126,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dolomitesmed.it",
@@ -145,7 +157,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dolomites Medical Center",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorbarbato.it",
@@ -175,7 +190,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.291187,
+  "lon": 11.460468,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressabordignon.it",
@@ -203,7 +221,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottssavillanueva.it",
@@ -235,7 +256,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Villanueva Gelsy, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Villanueva Gelsy, cognome dentro il dominio",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estetica-bellessere.it",
@@ -266,7 +290,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Bellessere di Baron Valentina",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "familysalus.it",
@@ -294,7 +321,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "granello",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laser-studio.it",
@@ -349,7 +379,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MedicalZara",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "peterlentsch.it",
@@ -373,7 +406,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Peter Lentsch, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Peter Lentsch, e il dominio lo ripete",
+  "lat": 46.796319,
+  "lon": 11.935512,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saluteprivata.it",
@@ -428,7 +464,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Scuola di estetica moderna",
-  "tipoDichiarato": "School Organization"
+  "tipoDichiarato": "School Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinmedicbolzano.it",
@@ -458,7 +497,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicotrovato.it",
@@ -486,7 +528,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "toplifeproject.com",
@@ -514,6 +559,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Top Life Project S.r.l.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  }
 ]

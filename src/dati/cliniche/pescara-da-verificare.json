@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "BelleBasta Centro Estetico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoimage.it",
@@ -89,7 +92,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Oasi Benessere e Bellezza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pescaramedica.it",

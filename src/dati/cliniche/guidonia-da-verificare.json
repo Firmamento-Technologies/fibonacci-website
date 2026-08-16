@@ -53,6 +53,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Logos Polo Sanitario",
-  "tipoDichiarato": "MedicalOrganization LocalBusiness"
+  "tipoDichiarato": "MedicalOrganization LocalBusiness",
+  "lat": 41.984273,
+  "lon": 12.695319,
+  "precisioneCoord": "comune"
  }
 ]

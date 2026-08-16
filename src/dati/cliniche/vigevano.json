@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.317094,
+  "lon": 8.858603,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentistagiorgiofava.it",
@@ -60,7 +63,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fava Dentista, cognome dentro il dominio",
   "nomeStrutturato": "Poliambulatorio Giorgio Fava Vigevano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.317094,
+  "lon": 8.858603,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "emotionsdebeaute.it",
@@ -86,7 +92,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.317094,
+  "lon": 8.858603,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mediperson.it",
@@ -121,7 +130,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Mediperson Centro Medico Terapeutico Fisioterapia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.160963,
+  "lon": 9.135952,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologicorivetti.com",
@@ -151,6 +163,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicolò Rivetti, cognome dentro il dominio",
   "nomeStrutturato": "Nicolò Rivetti",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.317094,
+  "lon": 8.858603,
+  "precisioneCoord": "comune"
  }
 ]

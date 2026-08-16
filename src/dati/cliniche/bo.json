@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "adrianastanestetica.com",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ambulatoriopiraccini.it",
@@ -81,7 +87,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Piraccini Dermatologia Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amorecarmela.com",
@@ -106,7 +115,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmela Ginecologa, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmela Ginecologa, cognome dentro il dominio",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "antonuccidermatologia.it",
@@ -138,7 +150,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Antonucci Dermatologia Bologna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bcclinic.it",
@@ -173,7 +188,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BC Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40127,
+  "lon": 11.585499,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bioqura.it",
@@ -203,7 +221,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Bioqura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "biosmed.it",
@@ -235,7 +256,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Biosmed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrimedicidyadea.it",
@@ -263,7 +287,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Santagostino Bologna Dyadea via Larga",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.353514,
+  "lon": 11.714123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrohercolani.it",
@@ -291,7 +318,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Hercolani",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoiozzoantonucci.it",
@@ -323,7 +353,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Iozzo Antonucci",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiastefanosalluce.com",
@@ -363,7 +396,8 @@
    "Mo-Fr 09:00-18:00",
    ""
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "cristinabona.it",
@@ -390,7 +424,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristina Bona, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristina Bona, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fasanochirurgiaplastica.it",
@@ -420,7 +457,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "federicacuoghi.it",
@@ -486,7 +526,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federica Parmeggiano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federica Parmeggiano, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "federicavespignani.com",
@@ -539,7 +582,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Greco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Greco, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescabanfo.com",
@@ -568,7 +614,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Banfo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Banfo, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francolauro.it",
@@ -596,7 +645,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Lauro, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Lauro, e il dominio lo ripete",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giorginiclinique.it",
@@ -629,7 +681,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "GIORGINI CLINIQUE",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giorgiocarta.com",
@@ -659,7 +714,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgio Carta, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Giorgio Carta",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gretagardini.it",
@@ -717,7 +775,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ivanoiozzo.it",
@@ -748,7 +809,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ivano Iozzo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ivano Iozzo, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "juneco.it",
@@ -789,7 +853,8 @@
   "lat": 45.477038,
   "lon": 9.153394,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Juneco"
+  "nomeStrutturato": "Juneco",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medicalbologna.it",
@@ -856,7 +921,8 @@
   "nomeStrutturato": "San Prospero Medicina e Chirurgia Estetica",
   "tipoDichiarato": "Organization Place HealthAndBeautyBusiness",
   "lat": 44.495161,
-  "lon": 11.339297
+  "lon": 11.339297,
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medicinaesteticavignoli.it",
@@ -889,7 +955,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "meridianamedicalcenter.com",
@@ -917,7 +986,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Meridiana Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.476018,
+  "lon": 11.275686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "michelacentrone.com",
@@ -957,7 +1029,8 @@
   "lon": 11.368305,
   "orari": [
    "Mo-Fr 09:00-18:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "micheletrevisani.it",
@@ -990,7 +1063,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Trevisani, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Trevisani, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nativemedica.it",
@@ -1024,7 +1100,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Native Medica s.r.l.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.471567,
+  "lon": 11.404859,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "niradent.it",
@@ -1057,7 +1136,8 @@
   "orari": [
    "Monday,Thursday,Friday 09:00-17:00",
    "Tuesday,Wednesday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "nutriaging.it",
@@ -1084,7 +1164,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Nutriaging",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "piercarlofrabboni.it",
@@ -1120,7 +1203,10 @@
    "Monday,Wednesday,Friday 08:30-19:00",
    "Tuesday,Thursday,Saturday 09:00-13:00",
    "Tuesday,Thursday 14:00-18:00"
-  ]
+  ],
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioagresti.it",
@@ -1152,7 +1238,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Agresti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriodaysurgery.it",
@@ -1177,7 +1266,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosandomenico.com",
@@ -1205,7 +1297,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "riccardocipriani.it",
@@ -1232,7 +1327,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Riccardo Cipriani, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Riccardo Cipriani, e il dominio lo ripete",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "riccardovillanichirurgoplastico.it",
@@ -1257,7 +1355,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "serenacalderoni.com",
@@ -1319,7 +1420,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Spine Center Project srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiofavilli.net",
@@ -1345,7 +1449,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioingratta.it",
@@ -1389,7 +1496,8 @@
    "thursday 09:00-20:00",
    "friday 09:00-20:00",
    "saturday 09:00-20:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "ursochirurgiaestetica.it",
@@ -1454,7 +1562,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Colabianchi, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Vincenzo Colabianchi",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "lat": 44.471567,
+  "lon": 11.404859,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "zannimauriziodermatologo.com",
@@ -1485,6 +1596,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  }
 ]

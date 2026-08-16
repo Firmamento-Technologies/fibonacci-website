@@ -35,6 +35,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "ArzaMed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  }
 ]

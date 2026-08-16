@@ -29,7 +29,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 09:00-15:00"
-  ]
+  ],
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "montanarisalute.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.998274,
+  "lon": 12.647437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "riminiterme.com",

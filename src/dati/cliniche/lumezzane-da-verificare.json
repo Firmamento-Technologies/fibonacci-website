@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.648258,
+  "lon": 10.264546,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "e-bus.it",
@@ -80,7 +83,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Iczanica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jobbydoo.it",

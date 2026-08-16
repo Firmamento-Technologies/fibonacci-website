@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AMI Amato Medical Institute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaeziocosta.it",
@@ -60,7 +63,10 @@
    "Thursday 08:30-19:00",
    "Friday 08:30-19:00",
    "Saturday 08:30-15:00"
-  ]
+  ],
+  "lat": 45.433438,
+  "lon": 10.832737,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "smilemedicalcenter.it",
@@ -88,7 +94,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Smile Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.73701,
+  "lon": 9.614785,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sonamedspa.com",

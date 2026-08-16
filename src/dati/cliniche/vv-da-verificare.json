@@ -38,6 +38,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott.ssa Chiara Gradia",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.642334,
+  "lon": 16.101976,
+  "precisioneCoord": "comune"
  }
 ]

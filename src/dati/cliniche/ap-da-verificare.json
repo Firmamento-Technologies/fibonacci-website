@@ -55,6 +55,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.88342,
+  "lon": 13.539593,
+  "precisioneCoord": "comune"
  }
 ]

@@ -36,7 +36,8 @@
    "Wednesday 14:00-19:30",
    "Friday 09:00-18:00",
    "Saturday 08:30-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "carlogasperoni.com",
@@ -63,7 +64,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Gasperoni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Gasperoni, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicadrm.it",
@@ -94,7 +98,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DRM Venezia - Cannareggio",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.297692,
+  "lon": 12.036814,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "italsalute.com",
@@ -121,7 +128,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ItalSalute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicaportoviro.com",
@@ -148,7 +158,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Medica Porto Viro"
+  "nomeStrutturato": "Medica Porto Viro",
+  "lat": 45.005777,
+  "lon": 12.210798,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemedicifc.it",
@@ -174,7 +187,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pietrogentile.it",
@@ -201,7 +217,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Gentile, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Gentile, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rocchetta.it",
@@ -230,7 +249,10 @@
   "nomeStrutturato": "CoGeDi International SpA",
   "orari": [
    "Monday 09:00-17:00"
-  ]
+  ],
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "secretssm.com",
@@ -257,7 +279,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Secret SSM",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticobertolini.com",
@@ -282,7 +307,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.977206,
+  "lon": 12.27419,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unicusano.it",
@@ -310,7 +338,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ploomia",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "womanclinic.it",
@@ -337,6 +368,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "WOMAN CLINIC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  }
 ]

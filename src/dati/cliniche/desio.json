@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Bioolos srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cdbmasterclasses.it",
@@ -60,7 +63,8 @@
   "lon": 14.255205,
   "orari": [
    "Mo-Fr 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "sphera-lab.it",
@@ -90,7 +94,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.597444,
+  "lon": 9.156293,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studio-dentistico-schiatti.it",

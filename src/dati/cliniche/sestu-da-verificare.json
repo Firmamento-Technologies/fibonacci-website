@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.294248,
+  "lon": 9.092972,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologogrande.com",
@@ -50,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.294248,
+  "lon": 9.092972,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rbestetica.it",
@@ -79,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.294248,
+  "lon": 9.092972,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiosabiu.it",
@@ -107,6 +116,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "tipoDichiarato": "LocalBusiness",
-  "nomeStrutturato": "Studio Sabiu"
+  "nomeStrutturato": "Studio Sabiu",
+  "lat": 39.007433,
+  "lon": 9.001646,
+  "precisioneCoord": "comune"
  }
 ]

@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amoronlus.com",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.822643,
+  "lon": 14.121911,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcentermerano.it",
@@ -76,7 +82,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.669555,
+  "lon": 11.159418,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalquellenhof.com",
@@ -106,7 +115,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.517616,
+  "lon": 11.231373,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mirodental.it",
@@ -138,7 +150,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Mir&#242; Dental",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "palace.it",
@@ -166,7 +181,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Palace Merano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.669555,
+  "lon": 11.159418,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saltclinic.it",
@@ -194,7 +212,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.682519,
+  "lon": 11.123069,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "termemerano.it",
@@ -224,7 +245,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.669555,
+  "lon": 11.159418,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villa-eden.com",
@@ -251,7 +275,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Villa Eden",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.669555,
+  "lon": 11.159418,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villa-santanna.eu",
@@ -282,6 +309,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "Hospital Organization"
+  "tipoDichiarato": "Hospital Organization",
+  "lat": 46.669555,
+  "lon": 11.159418,
+  "precisioneCoord": "comune"
  }
 ]

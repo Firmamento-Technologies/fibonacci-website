@@ -33,7 +33,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Maribel Estetica & Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laviolacentrobenessere.it",
@@ -61,6 +64,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  }
 ]

@@ -57,7 +57,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Paci, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Paci, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologoferro.it",
@@ -125,7 +128,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fabrizio Fantini",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.900548,
+  "lon": 9.412025,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorvaleriani.it",
@@ -158,7 +164,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.132253,
+  "lon": 13.536383,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ilmondodiamelie.it",
@@ -184,6 +193,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.092249,
+  "lon": 13.638768,
+  "precisioneCoord": "comune"
  }
 ]

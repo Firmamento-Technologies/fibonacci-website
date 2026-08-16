@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Federico Dulio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.56002,
+  "lon": 8.315147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centro-mec.it",
@@ -56,7 +59,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro MeC Alghero - Centro Medico Polispecialistico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.56002,
+  "lon": 8.315147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "megaestetic.it",

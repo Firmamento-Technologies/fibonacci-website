@@ -62,7 +62,8 @@
    "Monday,Tuesday,Thursday 08:00-12:00 / 15:00-19:00",
    "Wednesday 08:00-12:00 / 14:30-17:30",
    "Friday 08:00-16:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "paololisi.it",
@@ -128,7 +129,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:00-19:00",
    "Saturday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "tecnomedcentridiagnostici.it",
@@ -158,6 +160,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Tecnomed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  }
 ]

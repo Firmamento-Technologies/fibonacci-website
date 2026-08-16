@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pietroaste.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Aste, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Aste, e il dominio lo ripete",
+  "lat": 39.165332,
+  "lon": 8.527834,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studio-mezzena.it",
@@ -79,6 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.165332,
+  "lon": 8.527834,
+  "precisioneCoord": "comune"
  }
 ]

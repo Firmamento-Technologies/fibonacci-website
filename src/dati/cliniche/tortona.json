@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ReVita",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.89666,
+  "lon": 8.864128,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticoraffaghello.it",
@@ -53,6 +56,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulio Raffaghello, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulio Raffaghello, cognome dentro il dominio",
+  "lat": 44.89666,
+  "lon": 8.864128,
+  "precisioneCoord": "comune"
  }
 ]

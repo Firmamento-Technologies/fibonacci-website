@@ -52,7 +52,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Naturalmente",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.571354,
+  "lon": 12.108383,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oksygenstudioestetico.it",
@@ -79,6 +82,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "STUDIO ESTETICO OKSYGEN DI BESKIDNYAK OKSANA",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.571354,
+  "lon": 12.108383,
+  "precisioneCoord": "comune"
  }
 ]

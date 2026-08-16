@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "adrianamedicalbeauty.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "benvitamedica.com",
@@ -82,7 +88,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Benvita Medica srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cam-monza.com",
@@ -118,7 +127,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Synlab CAM Polidiagnostico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrolasermonza.it",
@@ -154,7 +166,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Laser Monza | Trattamenti laser ed Epilazione Monza Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottmarchesi.it",
@@ -180,7 +195,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Marchesi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Marchesi, cognome dentro il dominio",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francoperego.eu",
@@ -210,7 +228,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Perego, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Perego, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "groupestetica.com",
@@ -241,7 +262,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "grupposandonato.it",
@@ -296,7 +320,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.998274,
+  "lon": 12.647437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "med4you.it",
@@ -321,7 +348,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.626556,
+  "lon": 9.321465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicallaser.it",
@@ -349,7 +379,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticabrianza.it",
@@ -379,7 +412,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.688186,
+  "lon": 9.230477,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pietrobonimed.it",
@@ -408,7 +444,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pmlaser.it",
@@ -439,7 +478,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomodoetia.it",
@@ -469,7 +511,8 @@
   "lat": 45.58361,
   "lon": 9.26547,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Poliambulatorio Modoetia Monza e Brianza"
+  "nomeStrutturato": "Poliambulatorio Modoetia Monza e Brianza",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "policlinicodimonza.it",
@@ -495,7 +538,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "prenotasalute.com",
@@ -522,7 +568,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "PrenotaSalute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santagostinomonza.it",
@@ -550,7 +599,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Santagostino Monza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicocolombo.com",
@@ -611,6 +663,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Pellegrini, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Valeria Pellegrini - Medicina Estetica & Chirurgia Plastica",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 45.589675,
+  "lon": 9.335948,
+  "precisioneCoord": "comune"
  }
 ]

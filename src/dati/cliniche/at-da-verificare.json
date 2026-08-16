@@ -33,7 +33,8 @@
   "nomeStrutturato": "Armonia: Estetica e Benessere",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-18:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centroesteticosoloperte.com",
@@ -61,7 +62,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicasanna.it",
@@ -89,7 +93,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Casa di Cura Sant’Anna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ermannomargaglia.com",
@@ -155,7 +162,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Nuova MEM",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticastudiomarello.com",
@@ -183,7 +193,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "falconelli.it",
@@ -215,7 +228,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.970486,
+  "lon": 13.182489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "imed.altervista.org",
@@ -278,6 +294,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Meri Skin Perfect",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.924338,
+  "lon": 8.074544,
+  "precisioneCoord": "comune"
  }
 ]

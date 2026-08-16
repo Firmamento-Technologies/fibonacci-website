@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "claudioligresti.it",
@@ -87,7 +90,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Salerno, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Salerno, cognome dentro il dominio",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "infonutrizionista.it",
@@ -113,7 +119,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.784124,
+  "lon": 17.237703,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "inforeleabeauty.academy",
@@ -141,7 +150,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "INFOR ELEA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lostudiodentistico.it",
@@ -169,7 +181,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Il mulino - Odontoiatria e Medicina estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rimedipoliambulatorio.it",
@@ -197,6 +212,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Riabilitazione. Medicina. Diagnostica.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.03995,
+  "lon": 8.096731,
+  "precisioneCoord": "comune"
  }
 ]

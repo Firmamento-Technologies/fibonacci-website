@@ -51,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "portale.unipv.it",
@@ -77,6 +80,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  }
 ]

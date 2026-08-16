@@ -24,7 +24,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.610905,
+  "lon": 9.003388,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinichevigano.it",
@@ -59,7 +62,8 @@
   "nomeStrutturato": "Cliniche Viganò",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 8:00 - 19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "csdcodontoiatriauboldo.it",
@@ -84,7 +88,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.610905,
+  "lon": 9.003388,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "datadeo.it",

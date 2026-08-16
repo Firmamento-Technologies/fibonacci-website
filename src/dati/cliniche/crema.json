@@ -56,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Aderma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "agebeautylab.it",
@@ -83,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "allerganaesthetics.it",
@@ -137,7 +143,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Allison Ambrosio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Allison Ambrosio, e il dominio lo ripete",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "altroconsumo.it",
@@ -165,7 +174,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Altroconsumo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "apaxil.it",
@@ -219,7 +231,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "barraquer.com",
@@ -247,7 +262,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.479008,
+  "lon": 9.384038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bbeautyurbanspa.com",
@@ -278,7 +296,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BBeauty Urban Spa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "benufarma.it",
@@ -309,7 +330,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BENU Farma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.635792,
+  "lon": 11.417193,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bionell.it",
@@ -344,7 +368,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 41.04414,
+  "lon": 14.303337,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bottegaverde.com",
@@ -374,7 +401,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BottegaVerde - EU",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.569912,
+  "lon": 8.179988,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bravafarmacia.it",
@@ -403,7 +433,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrobeauty.it",
@@ -433,7 +466,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.433438,
+  "lon": 10.832737,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicotorrespaccata.com",
@@ -466,7 +502,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Torrespaccata",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cerave.it",
@@ -496,7 +535,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "CeraVe",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cosmeticimagistrali.it",
@@ -524,7 +566,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.594935,
+  "lon": 9.050761,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "custo-x.com",
@@ -553,7 +598,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "daylaser32.it",
@@ -586,7 +634,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.474376,
+  "lon": 11.844933,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermadue.it",
@@ -618,7 +669,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.092512,
+  "lon": 12.399131,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermaduo.it",
@@ -646,7 +700,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.783371,
+  "lon": 12.493778,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermolab.it",
@@ -677,7 +734,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dermolab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.26131,
+  "lon": 9.491678,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermomedica.it",
@@ -736,7 +796,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Etta Finocchiaro, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Etta Finocchiaro, cognome dentro il dominio",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "directalab.it",
@@ -766,7 +829,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DirectaLab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "doctorium.it",
@@ -821,7 +887,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Spiller Pure, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Spiller Pure, cognome dentro il dominio",
+  "lat": 46.610124,
+  "lon": 11.893487,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drjuricosmetics.it",
@@ -849,7 +918,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Juri Cosmetics, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Juri Cosmetics, cognome dentro il dominio",
+  "lat": 44.092512,
+  "lon": 12.399131,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drzanframundo.it",
@@ -881,7 +953,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Zanframundo, cognome dentro il dominio",
   "nomeStrutturato": "Dr. Zanframundo - Dermatologo Bari",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "eugenomics.it",
@@ -908,7 +983,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "faced.com",
@@ -938,7 +1016,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Face D",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciadifiducia.com",
@@ -1030,7 +1111,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Farmacia Centrale Amato",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.576272,
+  "lon": 9.124548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciarossettisas.it",
@@ -1060,7 +1144,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.984273,
+  "lon": 12.695319,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciemariani.it",
@@ -1086,7 +1173,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmacievigorito.it",
@@ -1141,7 +1231,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Farmacisti Preparatori",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.083884,
+  "lon": 12.043238,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmacosmesishop.com",
@@ -1173,7 +1266,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Farmacosmesishop Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fillmed.com",
@@ -1315,7 +1411,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "irriba.it",
@@ -1352,7 +1451,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "IRR - Istituto delle Riabilitazioni RIBA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "it.caudalie.com",
@@ -1444,7 +1546,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.536709,
+  "lon": 12.638334,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "labosuisse.com",
@@ -1474,7 +1579,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Labo Suisse",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ladispensacosmesinaturale.it",
@@ -1503,7 +1611,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.618748,
+  "lon": 9.418633,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "landing.poliambulatoriofiorentini.com",
@@ -1527,7 +1638,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "larocheposay.it",
@@ -1587,7 +1701,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "magazine.amicodentista.com",
@@ -1612,7 +1729,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.625676,
+  "lon": 9.037328,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marconifarma.it",
@@ -1642,7 +1762,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Marconifarma.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "merzaesthetics.it",
@@ -1672,7 +1795,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "morenasantacroce.com",
@@ -1704,7 +1830,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Morena Santacroce, e il dominio lo ripete",
   "nomeStrutturato": "Morena Santacroce",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mostskincare.com",
@@ -1734,7 +1863,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MOST Skincare",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "notino.it",
@@ -1764,7 +1896,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Notino, s.r.o.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pacinimedicina.it",
@@ -1789,7 +1924,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolomariodonesana.com",
@@ -1825,7 +1963,8 @@
    "Wednesday, Friday 10:00-13:00",
    "Thursday 18:30-20:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "parafarmaciabosciaclub.it",
@@ -1855,7 +1994,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Para-Farmacia Bosciaclub",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pinalli.it",
@@ -1887,7 +2029,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Pinalli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polimedicalcentercrema.com",
@@ -1913,7 +2058,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "profumeriaweb.com",
@@ -2003,7 +2151,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stylosophy.it",
@@ -2093,7 +2244,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Synlab Italia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tebiskin.com",
@@ -2125,7 +2279,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Tebiskin",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.605678,
+  "lon": 10.520069,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "termedisirmione.com",
@@ -2154,7 +2311,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Terme di Sirmione",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 45.468849,
+  "lon": 10.607824,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tuttofarma.it",
@@ -2187,7 +2347,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.152145,
+  "lon": 7.657973,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "uvia.it",
@@ -2215,7 +2378,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "websalute.it",
@@ -2243,7 +2409,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "WebSalute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "wondercompany.it",
@@ -2273,7 +2442,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Wonder Company",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "x115.it",

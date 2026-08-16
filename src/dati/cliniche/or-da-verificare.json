@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "DEA Estetica Benessere di Piras Assunta",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.026568,
+  "lon": 8.679642,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticafanny.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.026568,
+  "lon": 8.679642,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicservice.it",

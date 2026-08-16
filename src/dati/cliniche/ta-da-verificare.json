@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ghineabeautylab.it",
@@ -79,7 +82,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticabattaglia.it",
@@ -109,7 +115,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticataranto.it",
@@ -142,6 +151,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.536193,
+  "lon": 17.434221,
+  "precisioneCoord": "comune"
  }
 ]

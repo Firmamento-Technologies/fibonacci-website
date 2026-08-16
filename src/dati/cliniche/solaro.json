@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Salus Italia | Poliambulatorio a Pescara (Porta Nuova)",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giovannisalti.com",
@@ -56,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Salti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Salti, e il dominio lo ripete",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "michellebeautyandwellness.com",
@@ -82,6 +88,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.617526,
+  "lon": 9.081021,
+  "precisioneCoord": "comune"
  }
 ]

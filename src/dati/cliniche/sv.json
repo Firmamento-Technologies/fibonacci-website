@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Estetico Savona Italian Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.958375,
+  "lon": 7.866743,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicominerva.it",
@@ -82,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "igeasavona.it",
@@ -108,7 +114,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.233424,
+  "lon": 8.252573,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rossidottpaolo.com",
@@ -137,6 +146,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.233424,
+  "lon": 8.252573,
+  "precisioneCoord": "comune"
  }
 ]

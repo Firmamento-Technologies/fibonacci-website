@@ -29,7 +29,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 08:30-20:30",
    "Sunday 13:00-17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "leggimenu.it",
@@ -61,6 +62,7 @@
   "nomeStrutturato": "leggimenu srl",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

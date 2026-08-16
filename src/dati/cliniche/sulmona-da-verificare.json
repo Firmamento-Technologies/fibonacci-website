@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Confindustria L'Aquila",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "newmedicalcentersulmona.it",
@@ -52,7 +55,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "New Medical Center - Sulmona",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.047423,
+  "lon": 13.927011,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "youdermoestetica.it",

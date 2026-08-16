@@ -54,6 +54,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Bovicelli, cognome dentro il dominio",
   "nomeStrutturato": "Dentista a Siena e Poggibonsi :: Studio medico odontoiatrico Roberto e Alessandro Bovicelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  }
 ]

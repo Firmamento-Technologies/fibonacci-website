@@ -49,7 +49,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrosaluteebellezza.com",
@@ -75,7 +78,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.603981,
+  "lon": 9.300571,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "docsmile.it",
@@ -107,7 +113,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DocSmile",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.603981,
+  "lon": 9.300571,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomedicasrl.it",
@@ -141,6 +150,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fisiomedica Villasanta",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.603981,
+  "lon": 9.300571,
+  "precisioneCoord": "comune"
  }
 ]

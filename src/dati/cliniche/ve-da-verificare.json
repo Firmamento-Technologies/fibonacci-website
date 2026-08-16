@@ -31,7 +31,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.424996,
+  "lon": 12.076313,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoveneto.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.290628,
+  "lon": 11.539884,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinestetica.com",
@@ -173,7 +179,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Fisioterapista Duomo Milano - Elena Conforte Fisioterapista",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.536709,
+  "lon": 12.638334,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marilynstudiovenezia.com",

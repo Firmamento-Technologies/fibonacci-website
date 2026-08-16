@@ -68,7 +68,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday 09:00-18:00",
    "Friday 09:00-17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "sofiasclaunichdermatologa.it",
@@ -100,7 +101,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DR. SOFIA SCLAUNICH",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.827808,
+  "lon": 13.501845,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "solodottori.it",
@@ -130,6 +134,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SoloDottori",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 44.07918,
+  "lon": 10.102353,
+  "precisioneCoord": "comune"
  }
 ]

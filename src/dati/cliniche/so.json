@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Salute Poliambulatori di Piantedo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.13419,
+  "lon": 9.42934,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "divamedicalcenter.it",
@@ -121,7 +124,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetica Lariana",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.263526,
+  "lon": 9.862576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomed-depetri.it",
@@ -147,7 +153,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.323362,
+  "lon": 10.258414,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "moltonimedical.it",
@@ -205,6 +214,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Unghierosse Studio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.132419,
+  "lon": 9.569474,
+  "precisioneCoord": "comune"
  }
 ]

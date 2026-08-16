@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Magliano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Magliano, e il dominio lo ripete",
+  "lat": 45.737088,
+  "lon": 7.319665,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amatomarco.it",
@@ -87,7 +90,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AostaSera.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.737088,
+  "lon": 7.319665,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "irenealbini.it",
@@ -145,7 +151,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Norat, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Norat, cognome dentro il dominio",
+  "lat": 45.737088,
+  "lon": 7.319665,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanoveglio.com",
@@ -206,7 +215,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.737088,
+  "lon": 7.319665,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "technosmedica.it",

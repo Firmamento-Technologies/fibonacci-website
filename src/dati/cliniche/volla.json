@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.878411,
+  "lon": 14.342932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giuseppeannone.com",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Annone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Annone, e il dominio lo ripete",
+  "lat": 40.878411,
+  "lon": 14.342932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "veramedica.it",
@@ -80,6 +86,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "VeraMedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.914819,
+  "lon": 14.351125,
+  "precisioneCoord": "comune"
  }
 ]

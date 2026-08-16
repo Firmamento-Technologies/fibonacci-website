@@ -51,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.99284,
+  "lon": 9.008593,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcentersangiuseppe.it",
@@ -79,7 +82,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MedicalCenter San Giuseppe",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.99284,
+  "lon": 9.008593,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polidiagnosticairiense.com",
@@ -108,6 +114,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Polidiagnostica Iriense",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.99284,
+  "lon": 9.008593,
+  "precisioneCoord": "comune"
  }
 ]

@@ -23,7 +23,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ambulatori Valdarno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.56493,
+  "lon": 11.530595,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cosmeticstudiocentroestetico.myadj.it",
@@ -47,7 +50,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.56493,
+  "lon": 11.530595,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "novaclinic.it",
@@ -73,7 +79,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.063382,
+  "lon": 12.446702,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticoprosperi.com",
@@ -106,6 +115,7 @@
    "Monday, Tuesday, Thursday, Friday 09:00-13:00",
    "Tuesday, Thursday 15:30-19:30"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  }
 ]

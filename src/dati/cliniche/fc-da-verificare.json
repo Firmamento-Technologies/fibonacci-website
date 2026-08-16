@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticadrleva.it",
@@ -146,6 +149,7 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 09:00-19:00",
    "Friday 09:00-15:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

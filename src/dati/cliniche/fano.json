@@ -30,7 +30,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-20:30"
   ],
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplastica.pro",
@@ -94,7 +97,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Guanciarossa, cognome dentro il dominio",
   "nomeStrutturato": "Dermatologo Francesca Guanciarossa Fossombrone Sant'ippolito",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.657084,
+  "lon": 12.293588,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottormarcellogarozzo.it",
@@ -122,7 +128,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiolabfano.com",
@@ -180,7 +189,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MG Estetica Fano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "orianamaschio.it",
@@ -235,6 +247,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Salus Metauro",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 43.842417,
+  "lon": 13.014663,
+  "precisioneCoord": "comune"
  }
 ]

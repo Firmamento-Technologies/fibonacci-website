@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 43.714906,
+  "lon": 13.217742,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "astancona.marche.it",
@@ -77,7 +80,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.714906,
+  "lon": 13.217742,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pulchravenus.it",

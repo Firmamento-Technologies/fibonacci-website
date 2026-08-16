@@ -25,6 +25,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Health Center SRL",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.596685,
+  "lon": 16.333056,
+  "precisioneCoord": "comune"
  }
 ]

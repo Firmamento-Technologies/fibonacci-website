@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 40.396028,
+  "lon": 18.133422,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioodontoiatricoedestetico.it",
@@ -52,6 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.396028,
+  "lon": 18.133422,
+  "precisioneCoord": "comune"
  }
 ]

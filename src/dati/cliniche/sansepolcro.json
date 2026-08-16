@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Florentia Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.570078,
+  "lon": 12.140377,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kimonoestetica.it",
@@ -52,7 +55,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Estetico Kimono Arte della Bellezza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.570078,
+  "lon": 12.140377,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trasparenza.uniroma1.it",
@@ -79,6 +85,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Amministrazione trasparente",
-  "tipoDichiarato": "GovernmentOrganization"
+  "tipoDichiarato": "GovernmentOrganization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

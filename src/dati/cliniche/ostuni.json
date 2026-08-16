@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicocaroli.com",
@@ -79,7 +82,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Apruzzi &#8226; Vestita",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.727631,
+  "lon": 17.576406,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "garzantilinguistica.it",
@@ -130,7 +136,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemediciperugia.it",
@@ -156,7 +165,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.107032,
+  "lon": 12.402996,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "scaleradermochirurgo.it",
@@ -188,7 +200,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Agostino Scalera, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Agostino Scalera, cognome dentro il dominio",
+  "lat": 40.707185,
+  "lon": 17.656848,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticogasparro.it",
@@ -213,6 +228,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Gasparro, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Gasparro, cognome dentro il dominio",
+  "lat": 40.727631,
+  "lon": 17.576406,
+  "precisioneCoord": "comune"
  }
 ]

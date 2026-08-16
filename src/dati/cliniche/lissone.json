@@ -51,7 +51,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Multidisciplinare Delta",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.61077,
+  "lon": 9.240841,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "massimilianogioco.it",
@@ -83,7 +86,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gioco Massimiliano, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Gioco Massimiliano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.61077,
+  "lon": 9.240841,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medical-pro.it",
@@ -118,7 +124,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MedicalPro",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "momacentrodiagnostico.it",
@@ -146,7 +155,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Polidiagnostico MOMA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.61077,
+  "lon": 9.240841,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "perlacura.it",
@@ -174,6 +186,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "PerLa Cura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.550749,
+  "lon": 9.301222,
+  "precisioneCoord": "comune"
  }
 ]

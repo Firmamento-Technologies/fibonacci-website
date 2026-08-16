@@ -81,7 +81,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro medico D33 Salute - Lucca",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.017764,
+  "lon": 10.45443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fima-dermatologiaestetica.it",
@@ -135,7 +138,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.815041,
+  "lon": 10.674396,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaviareggio.com",
@@ -171,7 +177,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Prof. Dott. Emilio Betti - Direttore di DermoEstetica Italiana - Centri di Alta Specializzazione in Medicina e Chirurgia",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.017764,
+  "lon": 10.45443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "miagenda.it",
@@ -199,7 +208,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "miAgenda",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.583615,
+  "lon": 15.675465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nabiria.com",
@@ -233,7 +245,10 @@
   "nomeStrutturato": "Nabiria",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 10:00-19:0"
-  ]
+  ],
+  "lat": 44.017764,
+  "lon": 10.45443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nomasvellolucca.com",
@@ -264,7 +279,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Nomasvello Lucca",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polosalutelucca.it",
@@ -290,6 +308,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.017764,
+  "lon": 10.45443,
+  "precisioneCoord": "comune"
  }
 ]

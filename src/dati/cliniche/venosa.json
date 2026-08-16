@@ -55,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Tosato, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Tosato, e il dominio lo ripete",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fioravantioculista.it",
@@ -87,7 +90,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutoflebologico.it",
@@ -115,7 +121,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Flebologico Italiano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticareggiolo.it",
@@ -153,7 +162,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica Reggiolo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.918534,
+  "lon": 10.804211,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "newgen.clinic",
@@ -188,7 +200,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "New Genesis Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicocavedon.it",
@@ -220,6 +235,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuele Cavedon, cognome dentro il dominio",
   "nomeStrutturato": "Studio Medico Cavedon",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.957791,
+  "lon": 13.470954,
+  "precisioneCoord": "comune"
  }
 ]

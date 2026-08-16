@@ -27,6 +27,7 @@
   "lat": 37.47047,
   "lon": 14.03865,
   "nomeStrutturato": "Centro Odontoiatrico La Cittadella - Caltanissetta",
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "precisioneCoord": "civico"
  }
 ]

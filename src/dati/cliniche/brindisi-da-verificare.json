@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoerario.it",
@@ -52,6 +55,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Medico Specialistico Dott. Antonio Erario.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  }
 ]

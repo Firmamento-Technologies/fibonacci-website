@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Neuromed - Istituto Neurologico Mediterraneo Pozzilli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.511422,
+  "lon": 14.062517,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vitanovaesthetic.it",
@@ -57,6 +60,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Vita Nova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.649468,
+  "lon": 14.208148,
+  "precisioneCoord": "comune"
  }
 ]

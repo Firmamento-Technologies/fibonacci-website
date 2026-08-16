@@ -29,7 +29,8 @@
   "nomeStrutturato": "Clinica Dentale Cusio",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodentisticopezzanaetogno.com",
@@ -58,6 +59,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Pezzana, cognome dentro il dominio",
   "nomeStrutturato": "STUDIO DENTISTICO PEZZANA E TOGNO",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.892281,
+  "lon": 8.388294,
+  "precisioneCoord": "comune"
  }
 ]

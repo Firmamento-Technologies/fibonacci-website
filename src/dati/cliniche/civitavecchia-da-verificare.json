@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicasiligato.com",
@@ -48,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drpesci.com",
@@ -109,7 +115,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Barbara",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tusciaup.com",
@@ -135,6 +144,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 42.465427,
+  "lon": 12.172462,
+  "precisioneCoord": "comune"
  }
 ]

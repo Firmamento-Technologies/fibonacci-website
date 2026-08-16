@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Armonia e Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.610905,
+  "lon": 9.003388,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisioellebi.it",
@@ -55,7 +58,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ellebi srls",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.697819,
+  "lon": 9.587857,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "onlybeauty-uboldo.com",
@@ -82,7 +88,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.610905,
+  "lon": 9.003388,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vbconsulentedibellezza.it",

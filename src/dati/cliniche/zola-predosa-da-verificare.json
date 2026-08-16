@@ -27,6 +27,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 44.489665,
+  "lon": 11.218309,
+  "precisioneCoord": "comune"
  }
 ]

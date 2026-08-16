@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessio Caggiati, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessio Caggiati, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "colorifreddi.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Industria Colori Freddi S. Giorgio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.169362,
+  "lon": 10.670616,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fimulticare.it",
@@ -85,7 +91,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fi Multicare",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "manomano.it",
@@ -115,6 +124,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ManoMano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.527518,
+  "lon": 16.31918,
+  "precisioneCoord": "comune"
  }
 ]

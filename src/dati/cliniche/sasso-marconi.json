@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.399632,
+  "lon": 11.247554,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "diamondcentroestetico.it",
@@ -61,7 +64,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty Dimension Centro Estetico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.399632,
+  "lon": 11.247554,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioboasso.it",
@@ -87,7 +93,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.576272,
+  "lon": 9.124548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriocavour.it",
@@ -113,6 +122,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.399632,
+  "lon": 11.247554,
+  "precisioneCoord": "comune"
  }
 ]

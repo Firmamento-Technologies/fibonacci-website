@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "carboniandrea.com",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "iperbaricoravenna.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ravenna11medicalbeauty.it",
@@ -82,7 +88,43 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Ravenna Medical Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "rbmedicinaestetica.it",
+  "nome": "RB Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "10938620019",
+  "telefono": "+393516621454",
+  "email": "info@rbmedicinaestetica.it",
+  "sitoUrl": "https://rbmedicinaestetica.it/",
+  "indirizzo": "Corso Giovanni Agnelli 32",
+  "cap": "10137",
+  "comune": "Torino",
+  "provincia": "ra",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://rbmedicinaestetica.it/",
+   "https://rbmedicinaestetica.it/contatti/",
+   "https://rbmedicinaestetica.it/privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinravenna.it",

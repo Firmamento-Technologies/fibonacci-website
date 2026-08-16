@@ -27,6 +27,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Bernie Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.152978,
+  "lon": 13.150882,
+  "precisioneCoord": "comune"
  }
 ]

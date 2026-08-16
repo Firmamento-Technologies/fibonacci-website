@@ -32,7 +32,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Lang, e il dominio lo ripete",
   "nomeStrutturato": "Pimsweb",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.160963,
+  "lon": 9.135952,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centro-medico.it",
@@ -58,7 +61,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicocopiano.it",
@@ -88,7 +94,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.196266,
+  "lon": 9.322455,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicohippocrates.com",
@@ -145,7 +154,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 9:00-13:00 e 14:00-19:00",
    "Friday 9:00-16:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dfmed.it",
@@ -199,7 +209,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "flebologica1.it",
@@ -225,7 +238,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "htcnet.it",
@@ -251,7 +267,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.077356,
+  "lon": 9.295017,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marinamarchesotti.it",
@@ -316,7 +335,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nikolay Tasev, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Nikolay Tasev - Dermatologo hinterland milanese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pavia.gruppoclinicolicollari.com",
@@ -350,7 +372,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.51286,
+  "lon": 7.858017,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "plasticaticinensis.it",
@@ -378,7 +403,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Unità di Chirurgia Plastica Estetica e Ricostruttiva",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinmedicpavia.it",
@@ -408,7 +436,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogiuseppemarchetti.it",
@@ -440,7 +471,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Marchetti, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Marchetti, cognome dentro il dominio",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "thermalift.giobby.com",
@@ -470,6 +504,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  }
 ]

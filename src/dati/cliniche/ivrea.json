@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.467379,
+  "lon": 7.874797,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoartemisia.it",
@@ -50,7 +53,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Artemisia Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.381457,
+  "lon": 7.88572,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaeporediese.it",
@@ -76,7 +82,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.467379,
+  "lon": 7.874797,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "corradoandorno.it",
@@ -130,7 +139,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio CreaSalute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.408916,
+  "lon": 7.578978,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticameti.it",
@@ -160,7 +172,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.467379,
+  "lon": 7.874797,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jervis22.com",

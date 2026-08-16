@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.704238,
+  "lon": 17.339991,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fiorellagentile.it",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.704238,
+  "lon": 17.339991,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "it.pinterest.com",
@@ -139,7 +145,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.704238,
+  "lon": 17.339991,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "semerarortodonzia.it",
@@ -178,7 +187,10 @@
    "Friday 09:30-12:30",
    "Saturday,Sunday Chiuso",
    "Friday 15:30-18:30"
-  ]
+  ],
+  "lat": 40.704238,
+  "lon": 17.339991,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanosorressa.it",

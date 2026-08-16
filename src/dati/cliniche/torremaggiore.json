@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SANITAS SRL - www.analisisanitas.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.12434,
+  "lon": 14.705923,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "carrara.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.622402,
+  "lon": 9.961376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosilvestre.it",

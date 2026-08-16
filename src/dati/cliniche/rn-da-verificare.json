@@ -74,6 +74,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ospedale Villa Maria Rimini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  }
 ]

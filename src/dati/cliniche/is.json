@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.649468,
+  "lon": 14.208148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicacardarelli.it",
@@ -48,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.649468,
+  "lon": 14.208148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raffaelemerola.com",
@@ -76,7 +82,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Merola, e il dominio lo ripete",
   "nomeStrutturato": "Raffaele Merola",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "telemolise.com",

@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinilab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.677577,
+  "lon": 14.014464,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "didonatocentroestetico.it",
@@ -58,6 +61,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Di Donato",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.677577,
+  "lon": 14.014464,
+  "precisioneCoord": "comune"
  }
 ]

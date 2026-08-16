@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.804945,
+  "lon": 13.533059,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamatera.com",
@@ -53,7 +56,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
   "nomeStrutturato": "Medicina e Chirurgia Estetica dr. Matera | Cervignano, Palmanova, Monfalcone, Udine, Trieste, Gorizia, Friuli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.838231,
+  "lon": 13.40193,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomedicadelre.it",
@@ -111,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.804945,
+  "lon": 13.533059,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "urbanmedicinaestetica.it",

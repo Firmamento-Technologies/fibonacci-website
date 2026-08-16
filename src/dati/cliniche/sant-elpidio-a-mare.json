@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.258962,
+  "lon": 13.756983,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodiagnosticolafenice.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Fenice centro medico diagnostico e fisioterapico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.258962,
+  "lon": 13.756983,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosanfrancesco.com",
@@ -79,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.258962,
+  "lon": 13.756983,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "luigimarziali.it",
@@ -107,6 +116,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Marziali, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Luigi Marziali",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.258962,
+  "lon": 13.756983,
+  "precisioneCoord": "comune"
  }
 ]

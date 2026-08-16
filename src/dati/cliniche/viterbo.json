@@ -48,7 +48,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tommasoagostini.com",
@@ -72,6 +75,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tommaso Agostini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tommaso Agostini, e il dominio lo ripete",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  }
 ]

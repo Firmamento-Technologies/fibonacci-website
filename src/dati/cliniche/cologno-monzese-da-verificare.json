@@ -86,7 +86,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Medicina Estetica Dottoressa Cinzia Poli",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 45.528554,
+  "lon": 9.278224,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticafiorediloto.it",
@@ -114,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.528554,
+  "lon": 9.278224,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "politerapico.it",
@@ -155,7 +161,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 07:30-20:00",
    "Saturday 07:30-12:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodentisticozunica.it",
@@ -182,6 +189,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "STUDIO DENTISTICO ZUNICA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528554,
+  "lon": 9.278224,
+  "precisioneCoord": "comune"
  }
 ]

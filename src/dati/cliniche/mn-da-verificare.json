@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Polispecialistico Armonia",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.192526,
+  "lon": 10.755221,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "meacliniq.com",
@@ -85,6 +88,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico UAU",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.169362,
+  "lon": 10.670616,
+  "precisioneCoord": "comune"
  }
 ]

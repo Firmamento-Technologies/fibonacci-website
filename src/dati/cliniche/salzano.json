@@ -52,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.521344,
+  "lon": 12.10637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticacheri.100botteghe.it",
@@ -83,7 +86,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Estetica Chèri"
+  "nomeStrutturato": "Estetica Chèri",
+  "lat": 45.521344,
+  "lon": 12.10637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "luciagiuliano.com",

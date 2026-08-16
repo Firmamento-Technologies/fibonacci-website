@@ -51,6 +51,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Francesca Borsetto Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  }
 ]

@@ -36,7 +36,10 @@
   "tipoDichiarato": "Organization",
   "orari": [
    "Mo-Fr 09:00-19:00"
-  ]
+  ],
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gnatos.it",
@@ -72,7 +75,8 @@
    "Tuesday,Wednesday 08:30-15:00",
    "Thursday 12:00-20:00",
    "Friday 08:30-15:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medicinaestetica-goglia.com",
@@ -104,6 +108,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  }
 ]

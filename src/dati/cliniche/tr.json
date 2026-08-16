@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.653752,
+  "lon": 12.439812,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicobellessere.it",
@@ -62,7 +65,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Bellessere in salute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.653752,
+  "lon": 12.439812,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoterni.it",
@@ -117,7 +123,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinic Medical Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicstudimedici.it",
@@ -150,7 +159,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "CLINIC Studi Medici Terni | Chirurgia Estetica, Trapianto Capelli, Medici Specialisti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.653752,
+  "lon": 12.439812,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "italia-servizi.org",
@@ -174,7 +186,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "micaelagiovannetti.it",
@@ -210,7 +225,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Micaela Giovannetti, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Micaela Giovannetti - Trattamenti estetici a Terni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.653752,
+  "lon": 12.439812,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanochiummariello.it",
@@ -241,7 +259,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Chiummariello, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Chiummariello, e il dominio lo ripete",
+  "lat": 42.653752,
+  "lon": 12.439812,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocapaldi.it",
@@ -306,6 +327,7 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:30-19:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  }
 ]

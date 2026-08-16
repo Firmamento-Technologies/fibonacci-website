@@ -33,7 +33,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott.ssa Cristiana Duranti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alenakrot.com",
@@ -84,7 +87,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Masellis, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Masellis, e il dominio lo ripete",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amica.it",
@@ -112,7 +118,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Amica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "angelaminio.com",
@@ -136,7 +145,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angela Minio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angela Minio, e il dominio lo ripete",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "aromavero.it",
@@ -224,7 +236,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty & Relax",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautyespa.com",
@@ -255,7 +270,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty & SPA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "carlomelloni.it",
@@ -319,7 +337,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Asaro, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Asaro, e il dominio lo ripete",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrimediciradiesse.it",
@@ -347,7 +368,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodermatologicocaruso.it",
@@ -409,7 +433,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticopalermo.it",
@@ -474,7 +501,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Laser Occhi Palermo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedica.it",
@@ -500,7 +530,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.154943,
+  "lon": 13.109841,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicomantia.it",
@@ -554,7 +587,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinika.srl",
@@ -582,7 +618,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinika srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "co3medical.it",
@@ -608,7 +647,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cristianaduranti.it",
@@ -643,7 +685,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristiana Duranti, e il dominio lo ripete",
   "nomeStrutturato": "DOTTORESSA CRISTIANA DURANTI",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cupsubito.it",
@@ -671,7 +716,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cupsubito",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.86765,
+  "lon": 10.339716,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dannacatiusciadermatologo.it",
@@ -704,7 +752,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dermatologico D&#039;Anna Catiuscia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologapanariello.it",
@@ -731,7 +782,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.787921,
+  "lon": 14.368281,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologoalidaferro.com",
@@ -761,7 +815,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Alida Ferro",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologocascio.it",
@@ -788,7 +845,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dietaflessibile.net",
@@ -843,7 +903,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Donna Smart",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressa-annacalascibetta.it",
@@ -903,7 +966,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drgiovannizabbia.com",
@@ -966,7 +1032,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Giuseppe Cuccia Chirurgia Plastica ed Estetica Palermo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drpaolacarannante.it",
@@ -1027,7 +1096,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.697819,
+  "lon": 9.587857,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "emilieesthetique.it",
@@ -1055,7 +1127,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "espertitalia.it",
@@ -1083,7 +1158,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Espertitalia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estheticon.it",
@@ -1118,7 +1196,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estheticon",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.479008,
+  "lon": 9.384038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "federicalupomd.com",
@@ -1144,7 +1225,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "findhealthclinics.org",
@@ -1229,7 +1313,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Alberti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Alberti, e il dominio lo ripete",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hammamwellness.it",
@@ -1256,7 +1343,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ibsaderma.it",
@@ -1286,7 +1376,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "IBSA Farmaceutici",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.26131,
+  "lon": 9.491678,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "igeamed.org",
@@ -1341,7 +1434,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "inFormaMedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "inguantamaria.com",
@@ -1374,7 +1470,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Inguanta Maria, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Inguanta Maria, e il dominio lo ripete",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "injectablesbooking.it",
@@ -1433,7 +1532,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "iO Donna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutomedicoeuropeo.com",
@@ -1459,7 +1561,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutomedicoeuropeo.it",
@@ -1485,7 +1590,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kronosmedical.it",
@@ -1513,7 +1621,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Kronos Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "labarberia55.it",
@@ -1541,7 +1652,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Barberia 55",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lamanicure.it",
@@ -1572,7 +1686,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Manicure",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lekalos.it",
@@ -1605,7 +1722,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lekalos Medical Day Spa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "liliumesteticaebenessere.it",
@@ -1634,7 +1754,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "liposuzionecosti.it",
@@ -1693,7 +1816,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Milazzo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Milazzo, e il dominio lo ripete",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mcamedical.it",
@@ -1727,7 +1853,10 @@
   "nomeStrutturato": "Mca Medical - Palermo",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-19:0"
-  ]
+  ],
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mediagingclinic.it",
@@ -1818,7 +1947,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicisicilia.it",
@@ -1848,7 +1980,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.079351,
+  "lon": 13.509349,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mgpatalano.com",
@@ -1880,7 +2015,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nicotrapalermo.it",
@@ -1934,7 +2072,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Orazio Cangelosi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Orazio Cangelosi, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oxygenbeauty.it",
@@ -1961,7 +2102,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pallaoro.com",
@@ -1992,7 +2136,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Pallaoro Medical Laser",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pallaoro.it",
@@ -2028,7 +2175,10 @@
    "Saturday 09:00-13:00",
    "Sunday 00:00-00:00"
   ],
-  "tipoDichiarato": "Organization Place PlasticSurgery"
+  "tipoDichiarato": "Organization Place PlasticSurgery",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "parruccheriamichelevalenti.it",
@@ -2057,7 +2207,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polimedicapalermo.com",
@@ -2139,7 +2292,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Progresso Medico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "quatra.it",
@@ -2169,7 +2325,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fabio Quatra",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rigeneramedicallab.com",
@@ -2205,7 +2364,8 @@
   "lat": 38.1157,
   "lon": 13.3615,
   "nomeStrutturato": "Rigenera Medical Lab",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "salonify.it",
@@ -2298,7 +2458,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sanicam Palermo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatricologicoscandura.it",
@@ -2351,7 +2514,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiorajmondi.it",
@@ -2386,7 +2552,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Rajmondi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tacnuclear.it",
@@ -2417,7 +2586,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
   ],
-  "tipoDichiarato": "Organization Place"
+  "tipoDichiarato": "Organization Place",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trattamentibeautyplus.com",
@@ -2444,7 +2616,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "turcomedestetica.it",
@@ -2471,7 +2646,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Danilo Turco",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.766764,
+  "lon": 11.827939,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "twinsbeauty.it",
@@ -2501,7 +2679,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Twins Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "uelbi.it",
@@ -2527,7 +2708,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vaglicachirurgo.com",
@@ -2558,7 +2742,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visavisclinique.com",
@@ -2593,7 +2780,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Vis a Vis",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "wellnesswild.it",

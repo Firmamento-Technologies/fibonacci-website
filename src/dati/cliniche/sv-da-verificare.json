@@ -25,6 +25,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "ASL2",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.233424,
+  "lon": 8.252573,
+  "precisioneCoord": "comune"
  }
 ]

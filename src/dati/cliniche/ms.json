@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "caterinarondinella.it",
@@ -56,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Rondinella, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Rondinella, e il dominio lo ripete",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrobeamed.it",
@@ -113,7 +119,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DICRA Centro Poliambulatoriale MASSA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dossiersalute.com",
@@ -146,7 +155,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dossier Salute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pietromascolo.it",
@@ -178,6 +190,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Mascolo, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Pietro Mascolo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.035932,
+  "lon": 10.139552,
+  "precisioneCoord": "comune"
  }
 ]

@@ -100,7 +100,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "invitalab.it",
@@ -128,7 +131,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "InVitaLab - Poliambulatorio Lamezia Terme",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "matrioskasalon.it",
@@ -159,7 +165,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Matrioska Salòn",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mcvicarstudio.it",
@@ -189,7 +198,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Mc Vicar Studio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.964507,
+  "lon": 16.302145,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinedeimedicicz.it",
@@ -214,6 +226,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 38.82996,
+  "lon": 16.431557,
+  "precisioneCoord": "comune"
  }
 ]

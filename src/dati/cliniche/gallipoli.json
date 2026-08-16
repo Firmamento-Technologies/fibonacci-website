@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.961655,
+  "lon": 10.687068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jacinimedicalclinic.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Be Best Clinic®",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lecceprima.it",
@@ -83,7 +89,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "LeccePrima",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "magliesalus.it",
@@ -114,7 +123,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.118463,
+  "lon": 18.298853,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaestetica.istitutosantachiara.it",
@@ -142,7 +154,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica Istituto Santa Chiara",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaintegratamoscati.it",
@@ -169,7 +184,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Integrata Moscati",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.405472,
+  "lon": 18.07062,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unicamillus.org",
@@ -193,6 +211,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

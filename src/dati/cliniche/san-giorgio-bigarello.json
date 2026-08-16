@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.077356,
+  "lon": 9.295017,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laplagebeautyrelax.com",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.554091,
+  "lon": 10.776424,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mybblo.com",
@@ -86,6 +92,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.321848,
+  "lon": 9.137047,
+  "precisioneCoord": "comune"
  }
 ]

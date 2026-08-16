@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "danieletrono.it",
@@ -58,7 +61,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniele Trono, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniele Trono, e il dominio lo ripete",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentista-san-benedetto-del-tronto.it",
@@ -97,7 +103,8 @@
   "lon": 13.8807,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "equilybra.it",
@@ -133,7 +140,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Equilybra",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estebeauty.it",
@@ -164,7 +174,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Estetico Estè Beauty Clinic",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamoderna.eu",
@@ -191,7 +204,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "phitogen.it",
@@ -219,7 +235,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "venalinfa.eu",
@@ -254,6 +273,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  }
 ]

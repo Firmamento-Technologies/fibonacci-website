@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticabrindisi.com",
@@ -146,6 +149,7 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 08:00-20:0",
    "Sunday closed"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

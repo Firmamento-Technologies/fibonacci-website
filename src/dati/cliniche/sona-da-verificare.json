@@ -24,7 +24,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Dentista Sona Verona",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.433438,
+  "lon": 10.832737,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sinapolispecialistico.it",
@@ -48,7 +51,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.405397,
+  "lon": 9.131355,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ssp-lugano.ch",

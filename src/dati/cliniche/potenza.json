@@ -25,6 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.518319,
+  "lon": 15.82096,
+  "precisioneCoord": "comune"
  }
 ]

@@ -27,6 +27,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Just You Estetica sas",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.900548,
+  "lon": 9.412025,
+  "precisioneCoord": "comune"
  }
 ]

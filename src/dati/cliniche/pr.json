@@ -24,7 +24,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "atlasmedica.eu",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Atlas Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "carlogovoni.it",
@@ -77,7 +83,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Govoni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Govoni, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroeubiotica.it",
@@ -138,7 +147,10 @@
   "orari": [
    ""
   ],
-  "tipoDichiarato": "medicalclinic"
+  "tipoDichiarato": "medicalclinic",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicacittadiparma.it",
@@ -166,7 +178,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Città di Parma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermaclinicsp.it",
@@ -196,7 +211,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DERMA CLINIC SP s.r.l.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drgiovannaspinzo.it",
@@ -222,7 +240,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elysium-medica.com",
@@ -259,7 +280,8 @@
   "nomeStrutturato": "Elysium Medica",
   "tipoDichiarato": "Organization",
   "lat": 44.8252,
-  "lon": 10.2885
+  "lon": 10.2885,
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "emmamoridermatologa.it",
@@ -293,7 +315,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Emma Mori Dermatologo Parma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fogliarosetta.com",
@@ -322,7 +347,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosetta Foglia, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosetta Foglia, e il dominio lo ripete",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescoantonaccio.it",
@@ -354,7 +382,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Antonaccio, e il dominio lo ripete",
   "nomeStrutturato": "dott. Francesco Antonaccio",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gazzettadiparma.it",
@@ -414,7 +445,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.75202,
+  "lon": 10.216691,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticasadeghi.it",
@@ -450,7 +484,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio medico Sadeghi - Medicina generale e medicina estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.886548,
+  "lon": 11.045237,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ostetriciaginecologiaparma.it",
@@ -474,7 +511,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "plasticsurgerydmd.com",
@@ -508,7 +548,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Donatello Di Mascio",
-  "tipoDichiarato": "Person Organization Physician"
+  "tipoDichiarato": "Person Organization Physician",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioeuromed.com",
@@ -534,7 +577,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioeuromed.it",
@@ -562,7 +608,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Euro Poliambulatorio",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 38.000053,
+  "lon": 13.941459,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosantacaterinaparma.it",
@@ -595,7 +644,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosidoli.it",
@@ -630,7 +682,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico a Parma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "roburclinic.it",
@@ -668,7 +723,8 @@
   "lat": 44.8015,
   "lon": 10.3279,
   "nomeStrutturato": "Robur Clinic",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiomedicozannoni.com",
@@ -727,6 +783,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

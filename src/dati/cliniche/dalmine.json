@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.521724,
+  "lon": 9.593148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoorobicobergamo.it",
@@ -48,7 +51,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Orobico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicabriantea.it",
@@ -85,7 +91,8 @@
   "nomeStrutturato": "Clinica Briantea Odontostomatologica",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:45-20:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "comune.dalmine.bg.it",
@@ -112,7 +119,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Comune di Dalmine",
-  "tipoDichiarato": "GovernmentOrganization"
+  "tipoDichiarato": "GovernmentOrganization",
+  "lat": 45.649279,
+  "lon": 9.603953,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dalmine.boutiquedellabellezza.com",
@@ -140,7 +150,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.649279,
+  "lon": 9.603953,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "diagnosticabergamo.it",
@@ -198,7 +211,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Mazzocchi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Mazzocchi, cognome dentro il dominio",
+  "lat": 45.68338,
+  "lon": 9.559751,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santalessandro.eu",

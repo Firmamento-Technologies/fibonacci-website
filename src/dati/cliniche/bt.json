@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cup24.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "charmidable.it",
@@ -52,7 +55,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Charmidable",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "frisariodermoestetica.it",
@@ -79,7 +85,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Frisario DermoEstetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "glstudiorituals.com",
@@ -108,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ivansciarretta.com",
@@ -137,7 +149,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ivan Sciarretta, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ivan Sciarretta, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lapugliashopping.it",
@@ -163,7 +178,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Puglia Shopping",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.707185,
+  "lon": 17.656848,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lonigroclinic.it",
@@ -196,7 +214,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 8:00 - 19:00",
    "Saturday 8:00 - 13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "marinadipaola.it",
@@ -220,7 +239,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dipaola Marina, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dipaola Marina, e il dominio lo ripete",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simonacarpagnanodermatologa.com",
@@ -252,7 +274,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticoallegretti.it",
@@ -280,7 +305,8 @@
   "lat": 41.3205,
   "lon": 16.2815,
   "nomeStrutturato": "Studio Dentistico Allegretti",
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiosanruggiero.it",
@@ -308,6 +334,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico San Ruggiero",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  }
 ]

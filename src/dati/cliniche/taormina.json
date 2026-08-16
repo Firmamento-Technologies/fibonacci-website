@@ -55,7 +55,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Calapai, e il dominio lo ripete",
   "nomeStrutturato": "Marco Calapai - Specialista in Chirurgia Plastica, Ricostruttiva ed Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "taorminamedicalcenter.it",

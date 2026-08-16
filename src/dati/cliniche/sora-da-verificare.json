@@ -30,7 +30,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:30 - 20.00",
    "Saturday 08:30-14:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "reddit.com",

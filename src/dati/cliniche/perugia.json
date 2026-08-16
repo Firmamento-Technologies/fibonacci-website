@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Bachiorri",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.107032,
+  "lon": 12.402996,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "flexorlab.it",
@@ -61,7 +64,8 @@
   "nomeStrutturato": "Flexoralab SRL",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medisportcenter.it",
@@ -95,7 +99,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-13:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "villa-salus.it",
@@ -124,6 +129,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.067755,
+  "lon": 12.549582,
+  "precisioneCoord": "comune"
  }
 ]

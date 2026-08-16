@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Lina Curella",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.288313,
+  "lon": 13.52755,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrofisioterapicoempedocle.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 37.288313,
+  "lon": 13.52755,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "porto-empedocle.guidasicilia.it",
@@ -102,6 +108,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 37.288313,
+  "lon": 13.52755,
+  "precisioneCoord": "comune"
  }
 ]

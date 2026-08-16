@@ -48,6 +48,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico Beggio",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 45.739997,
+  "lon": 11.626747,
+  "precisioneCoord": "comune"
  }
 ]

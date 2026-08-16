@@ -31,7 +31,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.512832,
+  "lon": 9.284672,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ethically.it",
@@ -59,7 +62,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ethically poliambulatorio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.512832,
+  "lon": 9.284672,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ilariachiaranda.it",
@@ -87,6 +93,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Chiaranda, e il dominio lo ripete",
   "nomeStrutturato": "DOTT. ILARIA CHIARANDA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.512832,
+  "lon": 9.284672,
+  "precisioneCoord": "comune"
  }
 ]

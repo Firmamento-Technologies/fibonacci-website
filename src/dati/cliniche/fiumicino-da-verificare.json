@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Aequilibrium Centro Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.767566,
+  "lon": 12.233947,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "avilaglowstudio.shop",
@@ -84,7 +87,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-20:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "esteticabebeauty.it",
@@ -138,7 +142,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.767566,
+  "lon": 12.233947,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "obstudio.it",
@@ -168,6 +175,9 @@
    "Mo-Fr 09:00-12:30 | 14:00-18:00",
    "Sa 09:00-12:30"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 41.767566,
+  "lon": 12.233947,
+  "precisioneCoord": "comune"
  }
 ]

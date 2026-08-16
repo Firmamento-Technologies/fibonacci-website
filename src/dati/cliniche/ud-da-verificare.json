@@ -58,7 +58,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Cliniche Blanc",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 46.127394,
+  "lon": 13.2141,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "darinbetta.it",
@@ -84,7 +87,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressacesari.it",
@@ -115,7 +121,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fabriziodebiasio.it",
@@ -145,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "machetalento.it",
@@ -199,7 +211,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "SaniPro S.r.l.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocesari.com",
@@ -223,7 +238,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoalbierodeganutti.it",
@@ -257,7 +275,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "uniud.it",
@@ -283,6 +304,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  }
 ]

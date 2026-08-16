@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "eclatdebeaute.it",
@@ -58,6 +61,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Eclat de Beaute - Centro Estetico Ravenna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  }
 ]

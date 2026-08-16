@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.403424,
+  "lon": 17.558409,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mycli.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.729249,
+  "lon": 12.256246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolorosati.it",
@@ -84,7 +90,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Paolo_Rosati",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 39.785022,
+  "lon": 16.315928,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sabamedica.com",
@@ -112,7 +121,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sabamedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vincenzoperchinunno.com",
@@ -140,6 +152,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Perchinunno, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Perchinunno, e il dominio lo ripete",
+  "lat": 40.403424,
+  "lon": 17.558409,
+  "precisioneCoord": "comune"
  }
 ]

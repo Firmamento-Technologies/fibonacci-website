@@ -25,6 +25,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott.ssa Magda Sammarco",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.026568,
+  "lon": 8.679642,
+  "precisioneCoord": "comune"
  }
 ]

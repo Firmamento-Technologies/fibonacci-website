@@ -24,7 +24,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Biorigeneral Academy",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.677577,
+  "lon": 14.014464,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottbiagiodigiuseppe.it",

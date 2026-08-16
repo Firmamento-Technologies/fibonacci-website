@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.803984,
+  "lon": 13.912405,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcentertortoreto.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.803984,
+  "lon": 13.912405,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticomariyakunta.it",
@@ -82,7 +88,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 42.803984,
+  "lon": 13.912405,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodeiuliis.it",
@@ -111,6 +120,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Medico De Iuliis",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.453456,
+  "lon": 14.140982,
+  "precisioneCoord": "comune"
  }
 ]

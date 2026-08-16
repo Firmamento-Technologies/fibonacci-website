@@ -27,7 +27,10 @@
   "nomeStrutturato": "3Kona",
   "orari": [
    "Monday 09:00 - 18:30"
-  ]
+  ],
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicivallesina.it",
@@ -82,7 +85,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Officina del Corpo Jesi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tuttojesi.it",

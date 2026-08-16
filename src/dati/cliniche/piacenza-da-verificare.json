@@ -27,6 +27,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoDichiarato": "Organization",
-  "nomeStrutturato": "Frida Estetica"
+  "nomeStrutturato": "Frida Estetica",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  }
 ]

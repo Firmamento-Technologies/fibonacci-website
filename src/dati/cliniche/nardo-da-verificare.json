@@ -73,7 +73,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.271681,
+  "lon": 18.050252,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologorobertomanca.it",
@@ -105,7 +108,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.176261,
+  "lon": 18.030637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "egovitality.it",

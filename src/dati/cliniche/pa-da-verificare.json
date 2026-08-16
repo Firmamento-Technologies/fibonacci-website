@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dottor Carlo Di Gregorio Specialista in Chirurgia Ricostruttiva, Plastica ed Estetica a Palermo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centri.epilate.it",
@@ -77,7 +80,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 46.024096,
+  "lon": 10.365663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticamarioraso.it",
@@ -140,7 +146,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cldmedicinaestetica.it",
@@ -174,7 +183,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "coolsculptingpalermo.it",
@@ -200,7 +212,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cosanlorenzo.it",
@@ -226,7 +241,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentalc.it",
@@ -436,7 +454,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "LEANDRA MIGNEMI",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lodatomedicinaestetica.com",
@@ -467,7 +488,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mcamedical.innovapalermo.it",
@@ -496,7 +520,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaparabiago.com",
@@ -531,7 +558,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.558611,
+  "lon": 8.947888,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "migliordottore.it",
@@ -569,7 +599,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "NON SOLO DONNA",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "okbeautystudio.com",
@@ -598,7 +631,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemedicipa.it",
@@ -739,7 +775,10 @@
   "nomeStrutturato": "Radiologia Campofelice (Palermo)",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
-  ]
+  ],
+  "lat": 38.042734,
+  "lon": 13.550893,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rinoplasticapalermo.com",
@@ -763,7 +802,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "robertolamonaca.com",
@@ -849,7 +891,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "tricolgopalermo",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.111227,
+  "lon": 13.352443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vangloy.com",
@@ -884,6 +929,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  }
 ]

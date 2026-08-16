@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.529671,
+  "lon": 10.940022,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sarazecchetto.it",
@@ -57,7 +60,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Sara Zecchetto",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticodonev.it",

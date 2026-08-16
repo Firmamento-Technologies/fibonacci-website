@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Casa di Riposo Muller | Dal 1902 a Verbania, sul Lago Maggiore",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.937663,
+  "lon": 8.52653,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorbianco.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.937663,
+  "lon": 8.52653,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giadastudio.it",

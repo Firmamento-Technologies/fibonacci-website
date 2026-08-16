@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosannino.it",
@@ -58,7 +61,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Sannino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.787921,
+  "lon": 14.368281,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicasantamarialabruna.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.787921,
+  "lon": 14.368281,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hsr.it",
@@ -109,7 +118,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "isabellagreco.it",
@@ -134,7 +146,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Isabella Greco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Isabella Greco, e il dominio lo ripete",
+  "lat": 40.398496,
+  "lon": 18.018319,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pasqualeabbruzzese.it",
@@ -189,6 +204,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.787921,
+  "lon": 14.368281,
+  "precisioneCoord": "comune"
  }
 ]

@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Attimo Beauty",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.490735,
+  "lon": 9.29482,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bioesteticasegrate.it",
@@ -85,7 +88,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.490735,
+  "lon": 9.29482,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ctfsegrate.it",
@@ -114,7 +120,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.490735,
+  "lon": 9.29482,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "resista.it",
@@ -140,7 +149,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.879774,
+  "lon": 8.408022,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "specialista.in",

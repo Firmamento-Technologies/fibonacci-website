@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa di Cura San Michele",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.039924,
+  "lon": 14.376687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ugomanliocuomo.it",
@@ -61,6 +64,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Ugo Manlio Cuomo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.152978,
+  "lon": 13.150882,
+  "precisioneCoord": "comune"
  }
 ]

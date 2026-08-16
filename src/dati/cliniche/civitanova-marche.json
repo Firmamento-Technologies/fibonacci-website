@@ -31,7 +31,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medispa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.305523,
+  "lon": 13.72293,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centropaidos.it",
@@ -68,7 +71,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-12:30",
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-19:30"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "hippokrates.it",
@@ -96,7 +100,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Hippokrates",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.305523,
+  "lon": 13.72293,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "identalclinique.it",
@@ -127,7 +134,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.305523,
+  "lon": 13.72293,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "passaretti.it",
@@ -188,6 +198,9 @@
    "Monday, Tuesday, Friday 15:00-19:30",
    "Wednesday, Thursday 15:00-19:30"
   ],
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "lat": 43.305523,
+  "lon": 13.72293,
+  "precisioneCoord": "comune"
  }
 ]

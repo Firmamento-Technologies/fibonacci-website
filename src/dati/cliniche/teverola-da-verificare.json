@@ -30,7 +30,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Pier Paolo Rovatti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tuttoperlestetica.com",
@@ -58,6 +61,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Tuttoperlestetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.983584,
+  "lon": 14.218991,
+  "precisioneCoord": "comune"
  }
 ]

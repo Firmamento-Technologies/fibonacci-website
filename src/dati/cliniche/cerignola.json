@@ -70,7 +70,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.264812,
+  "lon": 15.899665,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saveriofania.it",
@@ -128,6 +131,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Spazio Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

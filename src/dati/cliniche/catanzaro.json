@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.82996,
+  "lon": 16.431557,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oculistacatalano.it",
@@ -58,7 +61,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmine Catalano, cognome dentro il dominio",
   "nomeStrutturato": "Studio Oculistico Dott. Catalano Carmine",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.82996,
+  "lon": 16.431557,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticomatozzo.it",
@@ -86,6 +92,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matozzo Antonio, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matozzo Antonio, cognome dentro il dominio",
+  "lat": 38.687717,
+  "lon": 16.550044,
+  "precisioneCoord": "comune"
  }
 ]

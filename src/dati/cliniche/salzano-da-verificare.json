@@ -74,6 +74,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Clinica Odontoiatrica Salzano Tirone",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  }
 ]

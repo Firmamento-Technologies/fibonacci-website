@@ -104,7 +104,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-13:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:00",
    "Saturday 09:00-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "rinaldimedica.it",
@@ -137,7 +138,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sferamedicalgroup.it",
@@ -165,7 +169,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "| Sfera Medical Group | Brindisi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sublimestetica.it",
@@ -196,6 +203,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ristorante",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  }
 ]

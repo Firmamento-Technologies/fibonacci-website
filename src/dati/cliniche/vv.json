@@ -53,7 +53,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Zoccali, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Giovanni Zoccali Chirurgo Plastico",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "irenemegaleadvancedbeauty.com",
@@ -83,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.615679,
+  "lon": 16.099297,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nuovaopinione.it",
@@ -136,7 +142,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.626656,
+  "lon": 16.098693,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicogrillo.it",
@@ -167,6 +176,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Aurora Maria Grillo",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 38.609262,
+  "lon": 16.069491,
+  "precisioneCoord": "comune"
  }
 ]

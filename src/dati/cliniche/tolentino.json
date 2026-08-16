@@ -25,6 +25,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MyLab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.208755,
+  "lon": 13.28441,
+  "precisioneCoord": "comune"
  }
 ]

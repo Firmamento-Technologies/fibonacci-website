@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polistudioreabilita.it",
@@ -63,6 +66,7 @@
   ],
   "tipoDichiarato": "Organization Place",
   "lat": 44.7964,
-  "lon": 10.3262
+  "lon": 10.3262,
+  "precisioneCoord": "civico"
  }
 ]

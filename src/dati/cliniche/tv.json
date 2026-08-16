@@ -23,7 +23,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SEFFILINE SRL",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "arteclinica.com",
@@ -114,7 +117,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Sant'Angelo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicarizzato.it",
@@ -144,7 +150,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.678616,
+  "lon": 12.099794,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatoclinica.it",
@@ -206,7 +215,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressatomat.it",
@@ -238,7 +250,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottoressa Valeria Tomat",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77663,
+  "lon": 12.610548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giovanni23.it",
@@ -293,7 +308,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ISMERIAN",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mediciestetici.it",
@@ -346,7 +364,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medlav Treviso",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "silenaros.it",
@@ -406,7 +427,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.806691,
+  "lon": 12.206316,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentas.it",
@@ -431,7 +455,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.749411,
+  "lon": 12.319333,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiogaiotto.it",
@@ -459,7 +486,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Gaiotto",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.754003,
+  "lon": 11.955362,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trevimedical.it",
@@ -486,7 +516,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "TreviMedical - Ambulatorio Medico Dentistico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.924858,
+  "lon": 12.20783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "zeromedicalcenter.com",
@@ -518,6 +551,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Zero Medica Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.601701,
+  "lon": 12.165212,
+  "precisioneCoord": "comune"
  }
 ]

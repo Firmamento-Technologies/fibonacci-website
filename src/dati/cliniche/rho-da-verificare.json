@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "New Body centro estetico Rho",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentalcenterrho.com",
@@ -88,7 +91,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "POLIAMBULATORIO RHO",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santagostinorho.it",
@@ -116,6 +122,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Santagostino Rho Esselunga",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

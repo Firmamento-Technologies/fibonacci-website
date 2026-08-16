@@ -57,7 +57,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simonemichelini.it",
@@ -91,6 +94,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalBusiness Organization"
+  "tipoDichiarato": "MedicalBusiness Organization",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  }
 ]

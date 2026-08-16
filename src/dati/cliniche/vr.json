@@ -59,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angela Lazar, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angela Lazar, e il dominio lo ripete",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "annakachalkina.com",
@@ -114,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "criolipolisi-verona-dr-sapuppo.com",
@@ -172,7 +178,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dieffepoliambulatorio.it",
@@ -234,7 +243,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottor Michele Manzini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoralvisecavallini.it",
@@ -263,7 +275,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Alvise Cavallini",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorstefanocostanzo.it",
@@ -294,7 +309,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dralbertomarchetti.com",
@@ -329,7 +347,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Marchetti, cognome dentro il dominio",
   "nomeStrutturato": "Dr. Alberto Marchetti",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drcamillaforlin.it",
@@ -358,7 +379,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.954615,
+  "lon": 11.913206,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drluigivalotto.it",
@@ -389,7 +413,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Valotto, cognome dentro il dominio",
   "nomeStrutturato": "Dott. Luigi Valotto",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drvannifailla.it",
@@ -418,7 +445,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "edonise.it",
@@ -450,7 +480,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Edonise | Laser Medical Remove",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giorgiarebonato.com",
@@ -509,7 +542,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boschiero, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boschiero, e il dominio lo ripete",
+  "lat": 46.016376,
+  "lon": 11.906254,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giuseppescarcella.it",
@@ -541,7 +577,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Scarcella Esplora, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Scarcella Esplora, cognome dentro il dominio",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "horizonmed.it",
@@ -569,7 +608,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Horizon - Centro Medico Verona",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.34209,
+  "lon": 10.99859,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hsgrp.it",
@@ -602,7 +644,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
   ],
-  "tipoDichiarato": "LocalBusiness MedicalOrganization"
+  "tipoDichiarato": "LocalBusiness MedicalOrganization",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "info.centrodimedicina.com",
@@ -628,7 +671,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.729249,
+  "lon": 12.256246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "luigimazzi.it",
@@ -662,7 +708,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Mazzi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Mazzi, e il dominio lo ripete",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mariateresagrecchi.it",
@@ -696,7 +745,8 @@
   "lat": 45.440728,
   "lon": 10.983656,
   "nomeStrutturato": "Studio Associato di Medicina Estetica e Odontoiatria",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "massimocorso.it",
@@ -730,7 +780,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Corso, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Corso, e il dominio lo ripete",
+  "lat": 45.395642,
+  "lon": 11.270082,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicallaserclinic.it",
@@ -765,7 +818,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina estetica e laser Verona – Medical Laser Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.421687,
+  "lon": 11.09689,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "omniclinics.it",
@@ -795,7 +851,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Omniclinics",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pasqualemarone.it",
@@ -824,7 +883,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Marone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Marone, e il dominio lo ripete",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polispecialisticoverona.it",
@@ -853,7 +915,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Poliambulatorio Specialistico Verona"
+  "nomeStrutturato": "Poliambulatorio Specialistico Verona",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rakhshan.it",
@@ -884,7 +949,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rakhshan Alireza, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rakhshan Alireza, cognome nel dominio",
+  "lat": 45.522113,
+  "lon": 10.834443,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "smilegallery.it",
@@ -918,7 +986,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday 09:00-19:00",
    "Friday 09:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "stefanogigliotti.it",
@@ -951,7 +1020,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Gigliotti, e il dominio lo ripete",
   "nomeStrutturato": "Chirurgo plastico Roma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.459526,
+  "lon": 13.012591,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocampanella.com",
@@ -983,7 +1055,8 @@
   "lat": 45.433299,
   "lon": 10.889432,
   "nomeStrutturato": "Dr. Francesco Campanella",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodentisticocanton.it",
@@ -1009,7 +1082,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vnmedical.it",
@@ -1037,7 +1113,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "zetamedica.it",
@@ -1066,6 +1145,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Zetamedica Poliambulatorio Dott. Zemella",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.438496,
+  "lon": 10.992412,
+  "precisioneCoord": "comune"
  }
 ]

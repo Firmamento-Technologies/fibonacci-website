@@ -26,7 +26,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Josema",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.066436,
+  "lon": 14.250244,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressaclaudiaascia.com",
@@ -62,7 +65,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20:00"
   ],
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "trasparenza.unige.it",
@@ -87,6 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  }
 ]

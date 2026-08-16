@@ -26,7 +26,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gea Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.775996,
+  "lon": 12.045065,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gruppogolgi.it",
@@ -82,7 +85,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.024096,
+  "lon": 10.365663,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioradiologicoformello.it",
@@ -106,6 +112,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.136043,
+  "lon": 12.103066,
+  "precisioneCoord": "comune"
  }
 ]

@@ -27,6 +27,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centri Dentistici D'Andrea",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  }
 ]

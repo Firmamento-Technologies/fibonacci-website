@@ -54,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ANSA.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicometamorfosys.it",
@@ -83,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.88342,
+  "lon": 13.539593,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dalibioestetica.it",
@@ -140,6 +146,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sky TG24",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

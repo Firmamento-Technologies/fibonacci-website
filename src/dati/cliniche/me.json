@@ -70,7 +70,8 @@
   "lat": 38.189575,
   "lon": 15.553563,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Studio di Medicina Estetica Augusto Allegra"
+  "nomeStrutturato": "Studio di Medicina Estetica Augusto Allegra",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "drtizianomirabello.com",
@@ -99,7 +100,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tiziano Mirabello, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tiziano Mirabello, cognome dentro il dominio",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "keresfoundation.it",
@@ -132,7 +136,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticasavasta.it",
@@ -200,7 +207,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Mirabello Clinic Center Messina",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "picarella.it",
@@ -234,7 +244,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Picarella, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Picarella, cognome nel dominio",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriociprea.it",
@@ -325,7 +338,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Conti Nibali",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.193757,
+  "lon": 15.554208,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicobuzzanca.it",
@@ -353,6 +369,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Buzzanca",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.658118,
+  "lon": 13.699625,
+  "precisioneCoord": "comune"
  }
 ]

@@ -28,6 +28,9 @@
   "tipoDichiarato": "Hospital",
   "orari": [
    "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 09:00:00-19:00:00"
-  ]
+  ],
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  }
 ]

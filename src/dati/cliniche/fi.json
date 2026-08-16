@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicochirurgicomatteotti.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoeuropa.it",
@@ -102,7 +108,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30",
    "Saturday 09:00-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centromedicolaser.it",
@@ -133,7 +140,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaesteticaeuropa.it",
@@ -169,7 +179,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Estetica Europa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicagramsci.it",
@@ -238,7 +251,8 @@
   "orari": [
    "Mo,Tu,We,Th, Fr 09:00-20:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dentalfactor.it",
@@ -272,7 +286,10 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 10:00-13:30",
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:30"
   ],
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologafrancescagonnelli.com",
@@ -305,7 +322,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Gonnelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Gonnelli, cognome dentro il dominio",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermolaserfirenze.it",
@@ -333,7 +353,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "domenicovalente.com",
@@ -370,7 +393,10 @@
   "orari": [
    "Mo-Sa 9:00-18:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressaalessiapini.it",
@@ -398,7 +424,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressaimmadevivo.it",
@@ -481,7 +510,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fabioquercioli.it",
@@ -514,7 +546,10 @@
   "orari": [
    "Lu-Ve 09:00 –13:00 15:00–19:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescomalatesta.it",
@@ -617,7 +652,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgia Plastica Firenze",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcobaldanzi.it",
@@ -650,7 +688,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
    "Saturday 09:00-17:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "mariodini.it",
@@ -712,7 +751,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticarinaldi.it",
@@ -747,7 +789,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Milena Rinaldi | Medicina Estetica Firenze",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticatinti.com",
@@ -778,7 +823,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medlight.it",
@@ -819,7 +867,10 @@
   "orari": [
    "giovedì\tChiuso\r\nvenerdì\tChiuso\r\nsabato\tChiuso\r\ndomenica\tChiu"
   ],
-  "tipoDichiarato": "medicalclinic"
+  "tipoDichiarato": "medicalclinic",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "navaclinic.it",
@@ -855,7 +906,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "pietrocampione.it",
@@ -891,7 +943,8 @@
   "lon": 11.111614,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "sceb.it",
@@ -928,7 +981,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SCEB",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "serenaghezzi.com",
@@ -988,7 +1044,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Marianelli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Marianelli, e il dominio lo ripete",
+  "lat": 43.787397,
+  "lon": 10.927106,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studio-romano-fuhr.com",
@@ -1025,7 +1084,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Romano Fuhr",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicotinti.com",
@@ -1087,7 +1149,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Studio Medico Vitality"
+  "nomeStrutturato": "Studio Medico Vitality",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "victoriamedicalcenter.it",
@@ -1149,7 +1214,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Villadonatello",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vincenzodelgaudio.it",

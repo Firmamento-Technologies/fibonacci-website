@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Laura Cuccarolo",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.533561,
+  "lon": 11.965879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sunlinebeauty.it",
@@ -61,6 +64,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Sunline Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.442954,
+  "lon": 11.983149,
+  "precisioneCoord": "comune"
  }
 ]

@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Estetico Essence",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.998274,
+  "lon": 12.647437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamembelai.it",
@@ -83,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.998274,
+  "lon": 12.647437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hichammouallem.com",
@@ -121,7 +127,8 @@
   "lon": 12.4995,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "poliambulatoriopegaso.com",
@@ -147,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.207737,
+  "lon": 10.793837,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "riccionesalute.it",
@@ -179,6 +189,7 @@
   "nomeStrutturato": "Poliambulatorio Boschetto",
   "tipoDichiarato": "Organization",
   "lat": 43.998722,
-  "lon": 12.628199
+  "lon": 12.628199,
+  "precisioneCoord": "civico"
  }
 ]

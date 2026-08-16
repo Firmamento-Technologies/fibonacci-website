@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Diagnostico Buonarroti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dent-al.com",
@@ -53,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DENTal",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.156218,
+  "lon": 11.903832,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologoesteticobettini.com",
@@ -86,7 +92,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamente-civitavecchia.it",
@@ -115,7 +124,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcobonifacio.com",
@@ -143,7 +155,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rossanacatalano.it",
@@ -204,6 +219,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.093752,
+  "lon": 11.792246,
+  "precisioneCoord": "comune"
  }
 ]

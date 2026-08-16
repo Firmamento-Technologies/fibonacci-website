@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alvise Cavallini, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alvise Cavallini, cognome dentro il dominio",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioiucopilla.it",
@@ -56,7 +59,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Iucopilla",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.421687,
+  "lon": 11.09689,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodaloja.it",
@@ -91,7 +97,10 @@
    "Monday,Wednesday,Thursday,Friday 07:30-19:00",
    "Tuesday 07:30-17:00",
    "Saturday 07:30-10:30"
-  ]
+  ],
+  "lat": 45.529671,
+  "lon": 10.940022,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "victoriamedicalcenters.com",

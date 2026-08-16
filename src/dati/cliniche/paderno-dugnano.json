@@ -55,7 +55,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Brianza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.571903,
+  "lon": 9.168131,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrometica.it",
@@ -136,7 +139,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Maione, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Luca Maione",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.65138,
+  "lon": 9.65351,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomedico.com",
@@ -221,6 +227,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.571903,
+  "lon": 9.168131,
+  "precisioneCoord": "comune"
  }
 ]

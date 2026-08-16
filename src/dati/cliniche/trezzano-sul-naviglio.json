@@ -29,7 +29,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.41715,
+  "lon": 9.109788,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "b-suite.it",
@@ -66,7 +69,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "B-Suite",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.405397,
+  "lon": 9.131355,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentalnarco.com",
@@ -99,7 +105,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-20:00",
    "Saturday 09:00-13:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "narcisoestetica.com",
@@ -127,6 +134,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.405397,
+  "lon": 9.131355,
+  "precisioneCoord": "comune"
  }
 ]

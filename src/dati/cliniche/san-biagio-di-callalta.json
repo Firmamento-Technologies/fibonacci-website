@@ -59,7 +59,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.550749,
+  "lon": 9.301222,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosanbiagio.it",
@@ -87,7 +90,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.791747,
+  "lon": 12.909023,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "patriziamasperi.it",
@@ -147,6 +153,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "TrevisoToday",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

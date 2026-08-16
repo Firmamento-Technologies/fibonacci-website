@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottordisiena.com",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.575685,
+  "lon": 11.36481,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaarmonia.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "neomedicasiena.it",
@@ -109,7 +118,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 43.167225,
+  "lon": 11.467181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "odontoiatriaemedicinaestetica.com",
@@ -141,7 +153,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Odontoiatria e medicina estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.422646,
+  "lon": 11.126394,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoleoni.it",
@@ -165,7 +180,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.465028,
+  "lon": 11.148337,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "virginiadesimone.it",

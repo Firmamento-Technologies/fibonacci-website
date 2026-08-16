@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.672811,
+  "lon": 11.925245,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosangiorgio.com",
@@ -50,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.598605,
+  "lon": 9.119731,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sangiorgiodentista.it",

@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Castello",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentistirivoli.it",
@@ -111,7 +114,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Venditti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Venditti, e il dominio lo ripete",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jobiri.com",
@@ -139,7 +145,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Jobiri",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.362828,
+  "lon": 9.687457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "longevitas.it",
@@ -169,7 +178,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Longevitas",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "monsoleilestetica.it",
@@ -203,7 +215,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "puntosaluterivoli.it",
@@ -227,7 +242,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinmedictorino.com",
@@ -258,6 +276,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.069715,
+  "lon": 7.517676,
+  "precisioneCoord": "comune"
  }
 ]

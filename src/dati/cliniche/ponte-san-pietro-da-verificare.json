@@ -24,6 +24,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ponte Nuovo Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.713209,
+  "lon": 11.306598,
+  "precisioneCoord": "comune"
  }
 ]

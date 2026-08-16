@@ -30,7 +30,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drnicolazingaretti.com",
@@ -69,7 +72,10 @@
   "nomeStrutturato": "dr. Nicola Zingaretti",
   "orari": [
    ", , , , , ,"
-  ]
+  ],
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "enricazorzan.it",
@@ -101,7 +107,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrica Zorzan, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrica Zorzan, e il dominio lo ripete",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gratis-4923929.webadorsite.com",
@@ -162,6 +171,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Rivilli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Rivilli, cognome dentro il dominio",
+  "lat": 46.063463,
+  "lon": 13.235838,
+  "precisioneCoord": "comune"
  }
 ]

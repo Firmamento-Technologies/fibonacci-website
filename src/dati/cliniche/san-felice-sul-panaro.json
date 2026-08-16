@@ -56,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sorgente del Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.839415,
+  "lon": 11.143165,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sulpanaro.net",

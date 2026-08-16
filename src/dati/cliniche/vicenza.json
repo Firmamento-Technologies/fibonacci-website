@@ -28,6 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Susanne Innocenti, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Susanne Innocenti, cognome dentro il dominio",
+  "lat": 45.532053,
+  "lon": 11.478581,
+  "precisioneCoord": "comune"
  }
 ]

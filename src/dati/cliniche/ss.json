@@ -31,7 +31,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 07:00-21:00",
    "Saturday 08:00-14:00"
   ],
-  "tipoDichiarato": "MedicalClinic MedicalBusiness LocalBusiness"
+  "tipoDichiarato": "MedicalClinic MedicalBusiness LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "canuvanessa.com",
@@ -63,7 +64,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vanessa Canu, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vanessa Canu, e il dominio lo ripete",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrocuraesalute.com",
@@ -92,7 +96,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cinziabarberis.it",
@@ -150,7 +157,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologochiarolinisasssari.it",
@@ -175,7 +185,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fausto Chiarolini, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fausto Chiarolini, cognome dentro il dominio",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "enadermatologia.it",
@@ -203,7 +216,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "itaestheticacademy.com",
@@ -231,7 +247,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kalosmg.it",
@@ -296,7 +315,8 @@
   "orari": [
    "Monday 09:00-19:00",
    "Tuesday,Wednesday,Thursday,Friday 09:00-13:00 / 14:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "myclinicmed.it",
@@ -331,7 +351,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "My Clinic",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pro-clinic.eu",
@@ -359,7 +382,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sassarisurgeryclinic.com",
@@ -385,7 +411,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticozara.it",
@@ -421,7 +450,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 09:00-18:00",
    "Friday 09:00-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodonguesoggia.it",
@@ -459,7 +489,8 @@
    "Thursday 10:00-18:00",
    "Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "www2.almalaurea.it",

@@ -32,7 +32,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "VALLAJ BLERINA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.918133,
+  "lon": 10.886095,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamoser.it",
@@ -60,7 +63,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Estetica Moser",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.060529,
+  "lon": 11.240675,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaoltrelimmagine.net",
@@ -88,6 +94,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.060529,
+  "lon": 11.240675,
+  "precisioneCoord": "comune"
  }
 ]

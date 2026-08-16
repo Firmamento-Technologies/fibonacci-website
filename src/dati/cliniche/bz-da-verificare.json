@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "AESTHETIC ROOM by Dr Dr Evelyn Gander",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.682519,
+  "lon": 11.123069,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologiabassi.com",
@@ -75,7 +78,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "healthycent.com",
@@ -105,7 +111,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.461908,
+  "lon": 11.260867,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "homebeauty.it",
@@ -133,7 +142,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ice-aesthetic.com",
@@ -207,7 +219,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "reviderm-skinmedics.bz.it",
@@ -262,6 +277,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  }
 ]

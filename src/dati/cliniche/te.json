@@ -34,7 +34,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AlcaMed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.658118,
+  "lon": 13.699625,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giorgiagarofano.it",
@@ -94,7 +97,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriodannunzio23.it",
@@ -121,6 +127,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio D'Annunzio 23",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.658118,
+  "lon": 13.699625,
+  "precisioneCoord": "comune"
  }
 ]

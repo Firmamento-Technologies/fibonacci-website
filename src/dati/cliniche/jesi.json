@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Benessere Fiordaliso",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromultispecialisticocittadijesi.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmelaniagiannoni.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "grechimedicalcenter.it",
@@ -164,7 +173,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "melaniagiannoni.it",
@@ -197,7 +209,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Melania Giannoni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Melania Giannoni, e il dominio lo ripete",
+  "lat": 43.765663,
+  "lon": 12.883458,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sanaforma.it",
@@ -229,7 +244,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.52198,
+  "lon": 13.244376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticorocchetti.com",
@@ -270,6 +288,7 @@
    "Thursday 09:00-17:30",
    "Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "precisioneCoord": "civico"
  }
 ]

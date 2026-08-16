@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Farmacia Pragranda, San Mauro Torinese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.104412,
+  "lon": 7.761996,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "iltempiodellesteticasanmauro.it",
@@ -59,6 +62,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Vf2",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.104412,
+  "lon": 7.761996,
+  "precisioneCoord": "comune"
  }
 ]

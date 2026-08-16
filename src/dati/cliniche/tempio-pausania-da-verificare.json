@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bissonbalataodontoiatria.it",
@@ -46,6 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.897382,
+  "lon": 9.103516,
+  "precisioneCoord": "comune"
  }
 ]

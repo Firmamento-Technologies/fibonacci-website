@@ -49,7 +49,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaedoriente.it",
@@ -76,7 +79,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.137335,
+  "lon": 7.771015,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaca.com",
@@ -104,7 +110,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Farmaca International",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.137335,
+  "lon": 7.771015,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "massimilianoleporati.it",
@@ -143,6 +152,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 09:00-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

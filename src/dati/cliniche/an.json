@@ -57,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonella Capponi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonella Capponi, e il dominio lo ripete",
+  "lat": 43.629397,
+  "lon": 13.396676,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicacg.it",
@@ -85,7 +88,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicadermatologicancona.it",
@@ -113,7 +119,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaunica.it",
@@ -179,7 +188,8 @@
   "lon": 13.51241,
   "orari": [
    "Mo-Fr 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "drmichelepelliccioni.it",
@@ -237,7 +247,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "FMC - Future Medical Care",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "michelericcio.it",
@@ -296,6 +309,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Veronica Consales, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Veronica Consales, e il dominio lo ripete",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  }
 ]

@@ -27,6 +27,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "La Sirenetta Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.714293,
+  "lon": 8.904146,
+  "precisioneCoord": "comune"
  }
 ]

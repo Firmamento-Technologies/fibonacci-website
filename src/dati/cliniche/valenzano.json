@@ -28,6 +28,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "CENTRO PROMEDICAL",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 41.057532,
+  "lon": 16.700782,
+  "precisioneCoord": "comune"
  }
 ]

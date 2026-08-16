@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.717265,
+  "lon": 14.826227,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "assocral.org",
@@ -78,7 +81,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Medico Chirurgico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicaljoi.it",
@@ -106,7 +112,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Joi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "progettosalutetermoli.it",
@@ -193,6 +202,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fausto Rispoli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fausto Rispoli, cognome dentro il dominio",
+  "lat": 41.998327,
+  "lon": 14.993937,
+  "precisioneCoord": "comune"
  }
 ]

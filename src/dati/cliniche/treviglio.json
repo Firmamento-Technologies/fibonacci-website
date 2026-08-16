@@ -57,7 +57,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr Bertoli Filler Labbra Brescia - Milano - Treviglio",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "etiambeauty.it",
@@ -88,7 +91,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Etiam Beauty",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.521724,
+  "lon": 9.593148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hintimebeautyspatreviglio.it",
@@ -117,7 +123,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Hintime Beauty &amp; Spa Treviglio",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.521724,
+  "lon": 9.593148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lightandbeauty.it",
@@ -148,7 +157,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetica Avanzata a Treviglio: Trattamenti per Corpo e Viso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.521724,
+  "lon": 9.593148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "misterimprese.it",
@@ -174,7 +186,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocostasrl.it",
@@ -202,7 +217,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Costa Treviglio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.521724,
+  "lon": 9.593148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "syscentromedico.it",
@@ -228,7 +246,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.521724,
+  "lon": 9.593148,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trevigliodaysurgery.com",

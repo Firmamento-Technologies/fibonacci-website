@@ -29,7 +29,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 41.251084,
+  "lon": 14.067151,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicologreco.com",
@@ -64,7 +67,8 @@
    "Thursday 09:00-11:30",
    "Friday 09:00-11:30"
   ],
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiosezioneaurea.it",

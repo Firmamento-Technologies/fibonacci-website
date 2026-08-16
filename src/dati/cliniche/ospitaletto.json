@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drprandelli.com",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emiliano Prandelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emiliano Prandelli, cognome dentro il dominio",
+  "lat": 45.555222,
+  "lon": 10.073946,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "restartmedicalcenter.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.555222,
+  "lon": 10.073946,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "silviaestetic.it",
@@ -114,6 +123,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "silvia",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.555222,
+  "lon": 10.073946,
+  "precisioneCoord": "comune"
  }
 ]

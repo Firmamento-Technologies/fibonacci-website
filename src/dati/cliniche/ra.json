@@ -93,7 +93,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudia Randi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudia Randi, e il dominio lo ripete",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicasimonacavalieri.com",
@@ -120,7 +123,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentistagiorgiocasavecchia.it",
@@ -145,7 +151,45 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "dermatologodrsam.com",
+  "nome": "Dr Samer",
+  "formaSocietaria": "",
+  "partitaIva": "02528740398",
+  "telefono": "+393294083785",
+  "email": "info@dermatologodrsam.com",
+  "sitoUrl": "https://www.dermatologodrsam.com/",
+  "indirizzo": "",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "ra",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dermatologodrsam.com/",
+   "https://www.dermatologodrsam.com/wp-content/uploads/2025/06/web_Samer-Al-Jabout_46149.webp",
+   "https://www.dermatologodrsam.com/about/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "docclinic.it",
@@ -173,7 +217,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dermatologia e Odontoiatria Clinica – Dentisti Casavecchia STP S.r.l.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisios.it",
@@ -198,6 +245,35 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lpclinic.it",
+  "nome": "LPclinic",
+  "formaSocietaria": "",
+  "partitaIva": "02496760394",
+  "telefono": "",
+  "email": "info@lpclinic.it",
+  "sitoUrl": "https://lpclinic.it/",
+  "indirizzo": "Via Serafino Ferruzzi 14",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "ra",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://lpclinic.it/",
+   "https://lpclinic.it/chi-siamo-2/",
+   "https://lpclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "martinagioialeo.com",
@@ -230,7 +306,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr Martina Gioia Leo",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 44.285556,
+  "lon": 11.883205,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "modernaid.it",
@@ -260,7 +339,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Moderna ID - Poliambulatorio e Odontoiatria",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "momobeautyspecialists.it",
@@ -315,7 +397,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicolò Bertozzi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicolò Bertozzi, e il dominio lo ripete",
+  "lat": 43.947098,
+  "lon": 12.630769,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "olympus.ra.it",
@@ -368,7 +453,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriohorus.it",
@@ -396,7 +484,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.418878,
+  "lon": 11.908231,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosana.it",
@@ -422,7 +513,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.364061,
+  "lon": 12.059009,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "riorav.it",
@@ -454,6 +548,64 @@
   "motivoEsclusione": "",
   "nomeStrutturato": "www.riorav.it",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "roncaratiandrea.it",
+  "nome": "Andrea Roncarati",
+  "formaSocietaria": "",
+  "partitaIva": "01075840387",
+  "telefono": "",
+  "email": "info@roncaratiandrea.it",
+  "sitoUrl": "https://www.roncaratiandrea.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ra",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Roncarati, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.roncaratiandrea.it/",
+   "https://www.roncaratiandrea.it/chi-siamo_67c30.html",
+   "https://www.roncaratiandrea.it/note-legali.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Roncarati, e il dominio lo ripete"
+ },
+ {
+  "dominio": "stanganelliignazio.it",
+  "nome": "Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390544405393",
+  "email": "",
+  "sitoUrl": "https://www.stanganelliignazio.it/",
+  "indirizzo": "Viale Enrico Berlinguer 14",
+  "cap": "48124",
+  "comune": "",
+  "provincia": "ra",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ignazio Chiama, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.stanganelliignazio.it/",
+   "https://www.stanganelliignazio.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ignazio Chiama, cognome dentro il dominio"
  },
  {
   "dominio": "studiomedicocasadio.com",

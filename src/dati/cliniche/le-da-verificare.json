@@ -91,6 +91,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Paolo Greco Dermatologo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.3352,
+  "lon": 18.091628,
+  "precisioneCoord": "comune"
  }
 ]

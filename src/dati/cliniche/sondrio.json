@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.323362,
+  "lon": 10.258414,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gaetanomusumarra.it",
@@ -63,7 +66,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gaetano Musumarra, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Gaetano Musumarra | Chirurgo plastico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laclinica.eu",
@@ -96,6 +102,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "LaClinica.eu",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

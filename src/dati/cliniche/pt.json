@@ -56,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamariannapistoia.it",
@@ -113,7 +116,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Frati, e il dominio lo ripete",
   "nomeStrutturato": "Dott.Frati Franco",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.93524,
+  "lon": 11.015879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lucillamelanidermatologa.it",
@@ -139,7 +145,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.974096,
+  "lon": 10.868708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalsportpistoia.it",
@@ -167,7 +176,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Sport",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.974096,
+  "lon": 10.868708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studimediciarcobaleno.it",
@@ -195,7 +207,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studi Medici Arcobaleno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.974096,
+  "lon": 10.868708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tommasoagostini.it",

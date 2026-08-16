@@ -25,6 +25,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fisiofit Fisioterapia Valdagno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.611106,
+  "lon": 11.343405,
+  "precisioneCoord": "comune"
  }
 ]

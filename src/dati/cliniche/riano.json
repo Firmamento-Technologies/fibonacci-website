@@ -35,7 +35,10 @@
   "orari": [
    "Mo,Tu,We,Th,Fr 10:00-19:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisionetroma.com",
@@ -66,7 +69,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fisionet Roma Fisionet Poliambulatorio medico a Roma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodontoiatricirastellimeyer.it",
@@ -99,6 +105,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Rastelli, cognome dentro il dominio",
   "nomeStrutturato": "Studi Odontoiatrici Rastelli Meyer",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.100122,
+  "lon": 12.505675,
+  "precisioneCoord": "comune"
  }
 ]

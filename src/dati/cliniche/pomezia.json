@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.667529,
+  "lon": 12.504786,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "crystalestetica.it",
@@ -47,7 +50,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.667529,
+  "lon": 12.504786,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamirage.com",
@@ -74,7 +80,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.667529,
+  "lon": 12.504786,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fillhome.it",
@@ -105,7 +114,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalregenerationinstitute.it",
@@ -141,7 +153,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Regeneration Institute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.667529,
+  "lon": 12.504786,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaboscarino.it",
@@ -175,7 +190,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
   "nomeStrutturato": "Medicina Estetica Boscarino",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaturchi.webnode.it",
@@ -209,7 +227,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pascalscioscia.com",
@@ -239,7 +260,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pascal Scioscia, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pascal Scioscia, e il dominio lo ripete",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "scuolelanuovaimmagine.it",

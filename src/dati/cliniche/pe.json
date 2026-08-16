@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amicacard.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.238366,
+  "lon": 9.691233,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "annalisavangone.it",
@@ -91,7 +97,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Vangone, e il dominio lo ripete",
   "nomeStrutturato": "Annalisa Vangone",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "caterinamiscia.it",
@@ -125,7 +134,43 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Miscia, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Caterina Miscia - Medicina estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "chirurgiaesteticapollara.it",
+  "nome": "Chirurgo Plastico a Pescara",
+  "formaSocietaria": "",
+  "partitaIva": "01270920687",
+  "telefono": "+393356500131",
+  "email": "info@chirurgiaestetica-pollara.com",
+  "sitoUrl": "https://www.chirurgiaesteticapollara.it/",
+  "indirizzo": "Via Piazza Ettore Troilo, 23",
+  "cap": "65010",
+  "comune": "Pescara",
+  "provincia": "pe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Raffaele Pollara, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticapollara.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Pollara, cognome dentro il dominio",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologopescara.it",
@@ -150,7 +195,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "doctormemmo.com",
@@ -211,7 +259,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "equipemedicinaestetica.it",
@@ -288,7 +339,8 @@
   "lon": 14.222232,
   "orari": [
    "Mo-Fr 09:00-20:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "lnx.andipescara.it",
@@ -317,7 +369,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lorenzacrisante.it",
@@ -349,7 +404,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenza Crisante, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenza Crisante, e il dominio lo ripete",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pandoralabpescara.it",
@@ -381,7 +439,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosanpaolo.com",
@@ -413,7 +474,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 42.513603,
+  "lon": 14.15162,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "robertoroddi.com",
@@ -445,7 +509,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Roberto Roddi - Chirurgo Plastico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.952533,
+  "lon": 13.880714,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "scuolasem.com",
@@ -497,7 +564,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicomembrino.it",
@@ -535,6 +605,9 @@
    "Wednesday 09:00-17:30",
    "Thursday 15:30-19:30",
    "Friday 09:00-13:30"
-  ]
+  ],
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  }
 ]

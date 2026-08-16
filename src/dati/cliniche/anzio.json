@@ -31,7 +31,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Neptunia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.457538,
+  "lon": 12.661425,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmonacorenato.com",
@@ -60,7 +63,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmonacorenato.it",
@@ -90,7 +96,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lazioshopping.it",
@@ -114,7 +123,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "venerespa.it",
@@ -142,6 +154,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Venere SPA Centro Estetico Benessere Estetica - Nettuno Anzio - Estetista",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.457538,
+  "lon": 12.661425,
+  "precisioneCoord": "comune"
  }
 ]

@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Guido Nazzari, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Guido Nazzari, cognome dentro il dominio",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticafunzionalechiavari.it",
@@ -49,7 +52,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetica Funzionale Chiavari",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gianluigirossi.it",
@@ -104,7 +110,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Noledi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Noledi, e il dominio lo ripete",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "veneremedispa.com",
@@ -131,6 +140,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  }
 ]

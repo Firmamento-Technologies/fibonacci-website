@@ -38,6 +38,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Iabichino Estetica",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 36.858921,
+  "lon": 14.761302,
+  "precisioneCoord": "comune"
  }
 ]

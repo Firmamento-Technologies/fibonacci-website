@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bergamo-massaggi.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bergamocentroestetico.it",
@@ -87,7 +93,8 @@
   "nomeStrutturato": "Centro Estetico Bergamo - BeautyCare",
   "orari": [
    "Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centroesteticobergamo.it",
@@ -118,7 +125,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Nadia Aculov",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroprpbergamo.it",
@@ -145,7 +155,10 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "delamed.it",
@@ -178,7 +191,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologapozzi.it",
@@ -212,7 +228,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.630787,
+  "lon": 9.591063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "formecentromedico.it",
@@ -246,7 +265,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 06:30-20:30",
    "Saturday 06:30-13:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "katiacaccia.com",
@@ -305,7 +325,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Giuseppina Albani",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "qsalute.it",

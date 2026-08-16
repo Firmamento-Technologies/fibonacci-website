@@ -31,7 +31,10 @@
    "Sa 13:00-17:00",
    "Su 08:00-13:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 43.56493,
+  "lon": 11.530595,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estetiqmed.it",

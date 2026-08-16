@@ -29,7 +29,8 @@
   "lat": 45.896794,
   "lon": 12.00046,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "AB Suite"
+  "nomeStrutturato": "AB Suite",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "digebeau.net",
@@ -63,7 +64,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 16:00-21:00"
   ],
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "esteticalucianavaldobbiadene.it",
@@ -91,7 +93,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "estetica luciana damin di Luciana Damin",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.901413,
+  "lon": 11.995512,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticatreviso.com",
@@ -124,6 +129,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "L'Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.901413,
+  "lon": 11.995512,
+  "precisioneCoord": "comune"
  }
 ]

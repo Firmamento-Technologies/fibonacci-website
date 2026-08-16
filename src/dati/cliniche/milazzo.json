@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "CALOPRESTI ANTONIO",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.220805,
+  "lon": 15.241513,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriogalenomilazzo.it",
@@ -52,6 +55,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Galeno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.220805,
+  "lon": 15.241513,
+  "precisioneCoord": "comune"
  }
 ]

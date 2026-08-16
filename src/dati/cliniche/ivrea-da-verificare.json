@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.190959,
+  "lon": 7.887186,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoelle.it",
@@ -54,7 +57,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro estetico Elle",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.467379,
+  "lon": 7.874797,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticalinearcenter.com",
@@ -80,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.467379,
+  "lon": 7.874797,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lungodora.it",

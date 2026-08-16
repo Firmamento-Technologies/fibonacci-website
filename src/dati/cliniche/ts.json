@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "casadellasaluteippocrate.com",
@@ -54,7 +57,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
    "Saturday 09:00-13:00"
-  ]
+  ],
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "castellanaclinic.it",
@@ -148,7 +154,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ericaantoninitrieste.it",
@@ -181,7 +190,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fabriseuridice.com",
@@ -217,7 +229,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Euridice Fabris, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Fabris Euridice",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomedambulatori.it",
@@ -248,7 +263,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Fisiomed Italia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kravosguadagno.it",
@@ -281,7 +299,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Kravos & Guadagno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lumiatrieste.it",
@@ -307,7 +328,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "monvisclinic.it",
@@ -342,7 +366,10 @@
    "Thursday 10:00-18:00",
    "Friday 08:00-14:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polifvg.it",
@@ -368,7 +395,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.650481,
+  "lon": 13.793126,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skindoctors.it",
@@ -411,6 +441,7 @@
    "Monday, Tuesday, Wednesday, Thursday 09:00-19:00",
    "Friday 09:00-15:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  }
 ]

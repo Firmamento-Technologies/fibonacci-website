@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticadesiderio.it",
@@ -79,7 +82,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "labbellezzaedimagrimento.it",
@@ -108,7 +114,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ladolcevitabenessere.it",
@@ -136,7 +145,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "LA DOLCEVITA BENESSERE - ESTETICA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mibobeautycenter.it",

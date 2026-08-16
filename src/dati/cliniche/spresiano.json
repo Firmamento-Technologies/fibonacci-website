@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Bio e Clinica dentale",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.49116,
+  "lon": 12.165018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmopietrobon.com",
@@ -57,7 +60,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 9:00-13:00 / 14:00-",
    "Saturday 9:00-13:00 solo su appuntamento"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "esteticabiotherapy.com",
@@ -85,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.780391,
+  "lon": 12.259346,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamood.com",
@@ -114,7 +121,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ESTETICA MOOD",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.780391,
+  "lon": 12.259346,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticosedda.it",
@@ -140,6 +150,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.780391,
+  "lon": 12.259346,
+  "precisioneCoord": "comune"
  }
 ]

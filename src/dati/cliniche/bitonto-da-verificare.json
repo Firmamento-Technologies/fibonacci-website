@@ -79,7 +79,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosms.it",
@@ -107,7 +110,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Medico Polispecialistico SMS",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "relaxiabitonto.com",
@@ -137,6 +143,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "RELAXIA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.108497,
+  "lon": 16.691548,
+  "precisioneCoord": "comune"
  }
 ]

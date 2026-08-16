@@ -25,6 +25,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ProMater",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.937663,
+  "lon": 8.52653,
+  "precisioneCoord": "comune"
  }
 ]

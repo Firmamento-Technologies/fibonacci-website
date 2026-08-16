@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.383237,
+  "lon": 9.154131,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmsanmarco.com",
@@ -52,7 +55,10 @@
   "nomeStrutturato": "Centro Medico San Marco",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 08:"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jorgecardenasmedicoestetico.com",
@@ -81,7 +87,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Jorge Cardenas, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Jorge Cardenas, cognome dentro il dominio",
+  "lat": 45.383237,
+  "lon": 9.154131,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "monicarazzano.com",
@@ -108,6 +117,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Monica Razzano, e il dominio lo ripete",
   "nomeStrutturato": "razzano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.724868,
+  "lon": 9.415905,
+  "precisioneCoord": "comune"
  }
 ]

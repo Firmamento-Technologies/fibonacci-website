@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Polispecialistico Beccaria",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.900037,
+  "lon": 8.820143,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paolomontemurro.com",
@@ -57,7 +60,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Montemurro, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Paolo Montemurro: Chirurgo Plastico a Varese, Milano, Como, Brescia, Bergamo e Lugano",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanoscamoni.it",
@@ -85,6 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Scamoni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Scamoni, e il dominio lo ripete",
+  "lat": 45.839713,
+  "lon": 8.754158,
+  "precisioneCoord": "comune"
  }
 ]

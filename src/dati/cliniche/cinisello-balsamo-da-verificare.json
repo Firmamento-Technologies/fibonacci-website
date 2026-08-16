@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "duomo13.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 45.556059,
+  "lon": 9.214317,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioicom.it",
@@ -83,7 +89,10 @@
   "orari": [
    "Monday - Friday 09-19\r\nSaturday - Sunday Closed"
   ],
-  "tipoDichiarato": "medicalclinic"
+  "tipoDichiarato": "medicalclinic",
+  "lat": 45.556059,
+  "lon": 9.214317,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sitri.it",
@@ -109,6 +118,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  }
 ]

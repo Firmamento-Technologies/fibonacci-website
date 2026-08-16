@@ -30,7 +30,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Nube, e il dominio lo ripete",
   "nomeStrutturato": "Dottor Alessandro Nube",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.347492,
+  "lon": 11.867209,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "antoniocorezzola.it",

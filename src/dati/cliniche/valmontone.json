@@ -24,6 +24,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ecomedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.778819,
+  "lon": 12.917489,
+  "precisioneCoord": "comune"
  }
 ]

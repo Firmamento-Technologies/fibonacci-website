@@ -28,7 +28,8 @@
   "lat": 40.850654,
   "lon": 14.242208,
   "nomeStrutturato": "LUCIO TIRONE CHIRURGIA PLASTICA",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiomedicogiordano.it",
@@ -64,7 +65,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Orecchio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.996545,
+  "lon": 15.140569,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trimedica.it",

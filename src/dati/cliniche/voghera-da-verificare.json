@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.99284,
+  "lon": 9.008593,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sangiorgioclinic.com",
@@ -50,6 +53,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Clinica San Giorgio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.99284,
+  "lon": 9.008593,
+  "precisioneCoord": "comune"
  }
 ]

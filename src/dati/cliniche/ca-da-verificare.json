@@ -46,7 +46,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ariannamilia.it",
@@ -78,7 +81,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Arianna Milia Chirurgo Plastico",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 39.165332,
+  "lon": 8.527834,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautymedicals.it",
@@ -173,7 +179,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "eccellenzesanitarie.com",
@@ -238,7 +247,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Thomas Geremia Manca",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saramei.it",
@@ -268,7 +280,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoestetico.it",
@@ -301,6 +316,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  }
 ]

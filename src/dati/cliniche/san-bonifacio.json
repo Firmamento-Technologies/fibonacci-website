@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Est",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.395642,
+  "lon": 11.270082,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicopromed.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Promed",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.395642,
+  "lon": 11.270082,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioigea.com",
@@ -82,7 +88,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalBusiness Organization"
+  "tipoDichiarato": "MedicalBusiness Organization",
+  "lat": 45.395642,
+  "lon": 11.270082,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "soavedentalstudio.it",
@@ -118,6 +127,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Soave Dental Studio",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.42023,
+  "lon": 11.247722,
+  "precisioneCoord": "comune"
  }
 ]

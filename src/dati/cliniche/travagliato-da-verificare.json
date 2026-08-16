@@ -30,7 +30,10 @@
   "orari": [
    "Martedì - Sabato 9:30-19:30"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.622402,
+  "lon": 9.961376,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "groupon.it",

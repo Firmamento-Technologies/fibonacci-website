@@ -33,7 +33,8 @@
    "Friday, Monday, Tuesday, Wednesday, Thursday 14:00-19:00",
    "Saturday 08:00-12:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "notedibellezza.com",
@@ -67,7 +68,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "BeautySalon Organization"
+  "tipoDichiarato": "BeautySalon Organization",
+  "lat": 45.264809,
+  "lon": 9.392875,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santangelotv.it",
@@ -92,6 +96,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.238067,
+  "lon": 9.408656,
+  "precisioneCoord": "comune"
  }
 ]

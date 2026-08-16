@@ -30,7 +30,8 @@
    "Wednesday 08:00-13:00",
    "Wednesday, Tuesday, Monday, Thursday, Friday 15:00-20:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dermatologo-gangemi.com",
@@ -59,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 36.909516,
+  "lon": 15.135001,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gianfrancocancemi.com",
@@ -115,7 +119,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "LocalBusiness Organization"
+  "tipoDichiarato": "LocalBusiness Organization",
+  "lat": 36.909516,
+  "lon": 15.135001,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "imbio.it",
@@ -143,6 +150,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Medicina Biologica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

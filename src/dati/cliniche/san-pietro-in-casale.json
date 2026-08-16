@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologosaccani.it",
@@ -52,7 +55,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Saccani, cognome dentro il dominio",
   "nomeStrutturato": "Dott.ssa Elena Saccani",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticobanzi.it",
@@ -85,7 +91,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Friday 09:00-12:30 e 14:30-19:30",
    "Thursday 14:30-19:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiodermatologo-dr-rossi.it",
@@ -112,6 +119,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Dermatologo, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Dermatologo, cognome dentro il dominio",
+  "lat": 44.699052,
+  "lon": 11.402926,
+  "precisioneCoord": "comune"
  }
 ]

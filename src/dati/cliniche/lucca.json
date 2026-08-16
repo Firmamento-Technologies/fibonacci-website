@@ -30,7 +30,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgia Estetica e Funzionale",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pietromassei.it",
@@ -57,6 +60,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Massei, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Massei, e il dominio lo ripete",
+  "lat": 44.187649,
+  "lon": 9.895616,
+  "precisioneCoord": "comune"
  }
 ]

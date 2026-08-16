@@ -23,7 +23,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AgrigentoNotizie",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "andreaplatamone.com",
@@ -57,7 +60,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Platamone, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Andrea Platamone | Dermatologia Clinica &amp; Cosmetica | Laser Specialist | Agrigento",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "carmaestetica.it",
@@ -87,7 +93,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicapaci.it",
@@ -113,7 +122,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodalessandrosicurella.com",
@@ -139,7 +151,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiopinzarrone.it",

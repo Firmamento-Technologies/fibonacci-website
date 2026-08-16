@@ -58,7 +58,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Effe",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esthena.net",
@@ -85,7 +88,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esthenaestetica.it",
@@ -111,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fillerialuronico.com",
@@ -142,7 +151,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rbeauty.it",
@@ -173,6 +185,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "R&Beauty",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  }
 ]

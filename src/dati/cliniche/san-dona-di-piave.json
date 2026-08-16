@@ -34,7 +34,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Marconi, cognome dentro il dominio",
   "nomeStrutturato": "Dermatologia Marconi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.629481,
+  "lon": 12.564106,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticazazzaron.it",
@@ -71,7 +74,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Zazzaron, cognome dentro il dominio",
   "nomeStrutturato": "Medicina Estetica Zazzaron",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.627908,
+  "lon": 12.37478,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "metodostudio.com",
@@ -99,7 +105,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Metodo studio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.924858,
+  "lon": 12.20783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "omceovenezia.it",
@@ -153,7 +162,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.629481,
+  "lon": 12.564106,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriogallo.net",
@@ -183,7 +195,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Gallo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.79551,
+  "lon": 12.68422,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocaberlotto.it",
@@ -213,7 +228,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.629481,
+  "lon": 12.564106,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioda.it",
@@ -239,7 +257,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiovisuale.it",
@@ -291,6 +312,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  }
 ]

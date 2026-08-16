@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Akesis",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.220864,
+  "lon": 10.037038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bmedic.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.26131,
+  "lon": 9.491678,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gemmamedical.com",
@@ -86,7 +92,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.41807,
+  "lon": 9.27165,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lanouvellesthetique.it",
@@ -118,7 +127,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Nouvelle Esthétique",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.26131,
+  "lon": 9.491678,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lodisalute.it",
@@ -146,7 +158,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lodisalute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.26131,
+  "lon": 9.491678,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcenterlodi.it",
@@ -172,7 +187,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.26131,
+  "lon": 9.491678,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "olimi.it",
@@ -200,6 +218,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Olimi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.160066,
+  "lon": 9.70437,
+  "precisioneCoord": "comune"
  }
 ]

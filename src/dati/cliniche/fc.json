@@ -60,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BME - Bonino Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cocooncentroestetico.it",
@@ -93,7 +96,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cocoon Center Centro estetico Forlì",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressafrancescalolli.com",
@@ -123,7 +129,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "forlifarma.it",
@@ -149,7 +158,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.148665,
+  "lon": 12.134235,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hemediclinic.com",
@@ -206,7 +218,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Kimeya Poliambulatorio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.136352,
+  "lon": 12.242244,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "news.ospedaliprivatiforli.it",
@@ -256,7 +271,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriokripton.it",
@@ -284,7 +302,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "puntosalutedavi.it",
@@ -310,7 +331,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raffaellaramenghi.com",
@@ -363,7 +387,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.126721,
+  "lon": 12.061153,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "spiiky.com",
@@ -389,7 +416,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticocamporesi.it",
@@ -415,7 +445,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioodontoiatricogrilli.it",
@@ -444,6 +477,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Odontoiatrico Grilli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.222728,
+  "lon": 12.041273,
+  "precisioneCoord": "comune"
  }
 ]

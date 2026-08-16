@@ -32,7 +32,8 @@
   "lat": 45.4469,
   "lon": 8.6196,
   "nomeStrutturato": "Dott.ssa Tania Shemet - Medicina Estetica",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dottorlucamarini.it",
@@ -64,7 +65,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Luca Marini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maggioreosp.novara.it",
@@ -92,7 +96,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Ospedale Maggiore della Carità di Novara",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "michelemagni.it",
@@ -129,7 +136,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Michele Magni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.465393,
+  "lon": 8.883843,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologiconovarese.it",
@@ -167,6 +177,9 @@
   "orari": [
    "Monday,Tuesday,Thursday,Friday 08.30 – 19.00",
    "Wednesday 08.30 – 16.30"
-  ]
+  ],
+  "lat": 45.58425,
+  "lon": 8.545997,
+  "precisioneCoord": "comune"
  }
 ]

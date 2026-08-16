@@ -31,7 +31,8 @@
   "nomeStrutturato": "Imagine di Manuela Cutrini",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 08:00-20:0"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "ernesto.it",
@@ -88,7 +89,8 @@
   "lon": 13.4862,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 08:30-20:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "medicamarche.it",
@@ -142,6 +144,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Nuova Estetica Daniela"
+  "nomeStrutturato": "Nuova Estetica Daniela",
+  "lat": 43.152978,
+  "lon": 13.150882,
+  "precisioneCoord": "comune"
  }
 ]

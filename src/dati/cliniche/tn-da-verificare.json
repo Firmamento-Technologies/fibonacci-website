@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cds.it",
@@ -49,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.008011,
+  "lon": 8.173027,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "epilaserstudio.com",
@@ -78,7 +84,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Epilaser Trento",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaavanzatatrento.it",
@@ -109,7 +118,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Beauty&Mind",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaloren.it",
@@ -138,7 +150,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamaia.com",
@@ -168,7 +183,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica MAIA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hintimepointtrento.it",
@@ -198,7 +216,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Beauty Bos centro estetico Trento",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "iltrentinoshopping.it",
@@ -222,7 +243,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.886548,
+  "lon": 11.045237,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trattamentivisotrento.it",
@@ -251,6 +275,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  }
 ]

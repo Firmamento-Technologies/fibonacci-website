@@ -31,7 +31,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Amati",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.216953,
+  "lon": 9.112851,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "doctorloveskin.it",
@@ -89,6 +92,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

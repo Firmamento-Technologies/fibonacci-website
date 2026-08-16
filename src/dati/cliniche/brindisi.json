@@ -29,6 +29,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Portaluri, e il dominio lo ripete",
   "nomeStrutturato": "Nino Portaluri",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  }
 ]

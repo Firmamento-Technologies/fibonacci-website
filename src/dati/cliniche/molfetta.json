@@ -57,7 +57,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Center Molfetta",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.240274,
+  "lon": 16.501011,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saluspoint.eu",
@@ -81,6 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.199246,
+  "lon": 16.596828,
+  "precisioneCoord": "comune"
  }
 ]

@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.066423,
+  "lon": 11.12576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaestetica-garonepasquale.com",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Garone, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Garone, cognome dentro il dominio",
+  "lat": 40.818973,
+  "lon": 14.338745,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticoperasole.com",
@@ -85,6 +91,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Perasole, cognome dentro il dominio",
   "nomeStrutturato": "Perasole Dr. Antonio Odontoiatra",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 40.818973,
+  "lon": 14.338745,
+  "precisioneCoord": "comune"
  }
 ]

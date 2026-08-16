@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Pugliese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.82856,
+  "lon": 16.552731,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lauramicucci.com",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Micucci, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Micucci, e il dominio lo ripete",
+  "lat": 40.82856,
+  "lon": 16.552731,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "margheritacarretta.it",

@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Studi Medici",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.920812,
+  "lon": 14.833499,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticomiro.it",
@@ -80,6 +83,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.996545,
+  "lon": 15.140569,
+  "precisioneCoord": "comune"
  }
 ]

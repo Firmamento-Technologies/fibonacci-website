@@ -27,7 +27,10 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 09:00-13:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 42.790219,
+  "lon": 10.340281,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosalusitinere.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.790219,
+  "lon": 10.340281,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalgroup-diagnostica.it",
@@ -83,7 +89,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Group",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.060628,
+  "lon": 10.615496,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "robertoamore.com",
@@ -117,6 +126,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Amore, e il dominio lo ripete",
   "nomeStrutturato": "Roberto Amore Chirurgo Plastico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.406786,
+  "lon": 10.473366,
+  "precisioneCoord": "comune"
  }
 ]

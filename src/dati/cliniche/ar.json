@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "isasanita.com",
@@ -47,7 +50,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "matrelpiera.it",
@@ -78,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matrel Piera, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matrel Piera, e il dominio lo ripete",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sapracentrosanitario.it",
@@ -104,7 +113,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.517202,
+  "lon": 11.763879,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "theskinclinic.beauty",

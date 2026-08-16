@@ -59,6 +59,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Terme della Salvarola",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  }
 ]

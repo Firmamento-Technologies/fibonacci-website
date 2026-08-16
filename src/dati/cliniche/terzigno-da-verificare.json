@@ -29,7 +29,10 @@
   "orari": [
    "Tuesday,Wednesday,Thursday,Friday 08:00-20:00",
    "Saturday 08:00-14:00"
-  ]
+  ],
+  "lat": 41.926715,
+  "lon": 13.094432,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisio432.com",

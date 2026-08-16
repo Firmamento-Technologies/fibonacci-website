@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "identistraffadali.com",
@@ -64,7 +67,8 @@
    "Monday,Tuesday,Wednesday 09:00-19:00",
    "Thursday,Friday 09:00-18:00",
    "Saturday,Sunday Chiuso"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "korestudiodiestetica.it",
@@ -92,7 +96,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medestcenter.it",
@@ -123,7 +130,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Medest Center - Centro di Medicina estetica ad Agrigento",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "universitaagrigento.it",
@@ -149,6 +159,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.312299,
+  "lon": 13.57465,
+  "precisioneCoord": "comune"
  }
 ]

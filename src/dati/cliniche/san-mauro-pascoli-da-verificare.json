@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.031591,
+  "lon": 12.354389,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriobenessere.com",
@@ -50,7 +53,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Obiettivo Benessere Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.031591,
+  "lon": 12.354389,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visitsanmauromare.it",

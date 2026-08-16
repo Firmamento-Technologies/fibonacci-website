@@ -50,7 +50,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.543835,
+  "lon": 9.117708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ceobollate.it",
@@ -80,7 +83,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "C.E.O. Ambulatorio Odontoiatrico della Città di Bollate",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.543835,
+  "lon": 9.117708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgoesteticomilano.info",
@@ -114,7 +120,8 @@
   "nomeStrutturato": "CHIRURGO ESTETICO MILANO",
   "tipoDichiarato": "Organization Place LocalBusiness",
   "lat": 45.453097,
-  "lon": 9.193878
+  "lon": 9.193878,
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "itacacentromedico.com",
@@ -140,7 +147,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.543835,
+  "lon": 9.117708,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "melarossa.it",
@@ -201,6 +211,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MedicalGroup",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.543835,
+  "lon": 9.117708,
+  "precisioneCoord": "comune"
  }
 ]

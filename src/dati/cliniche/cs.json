@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.596685,
+  "lon": 16.333056,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amebeautyclinic.it",
@@ -81,7 +84,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DV Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.668801,
+  "lon": 16.31049,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "trattamentiesteticicosenza.it",
@@ -115,6 +121,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.331993,
+  "lon": 16.184383,
+  "precisioneCoord": "comune"
  }
 ]

@@ -29,7 +29,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Alessandro Orefice. Chirurgo Plastico",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 44.399268,
+  "lon": 8.274561,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "arsmedicagenova.it",
@@ -59,7 +62,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ars Medica Genova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "carlobrusati.com",
@@ -93,7 +99,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Brusati, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Carlo Brusati",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticobeautytimegenova.it",
@@ -126,7 +135,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty Time Genova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicinaceccardi.it",
@@ -155,7 +167,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medicina Ceccardi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicofieschi.it",
@@ -191,7 +206,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Fieschi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticagenova.it",
@@ -221,7 +239,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicavisage.it",
@@ -256,7 +277,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "clinicavisage.it",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cristianagraziani.it",
@@ -291,7 +315,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristiana Graziani, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristiana Graziani, e il dominio lo ripete",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologopavesi.genova.it",
@@ -357,7 +384,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Diego Dedola, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Diego Dedola, e il dominio lo ripete",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottmolinelligenova.com",
@@ -391,7 +421,10 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 09:00-14:00"
   ],
-  "tipoDichiarato": "MedicalBusiness Organization"
+  "tipoDichiarato": "MedicalBusiness Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressafrancescapoggi.it",
@@ -418,7 +451,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottoressa Francesca Poggi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressasavaia.com",
@@ -444,7 +480,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott.ssa Serena Savaia",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drdanielebizzarri.it",
@@ -502,7 +541,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr Eleonora Magda Seghi",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dremanuelascavella.it",
@@ -531,7 +573,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Estetico Dott.ssa Emanuela Scavella",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.67773,
+  "lon": 15.821128,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "emmanuellevigna.it",
@@ -556,7 +601,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emmanuelle Vigna, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emmanuelle Vigna, e il dominio lo ripete",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescocasabona.com",
@@ -584,7 +632,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Casabona, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Casabona, e il dominio lo ripete",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lykeions.it",
@@ -614,7 +665,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lykeions",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "massimorenzi.it",
@@ -646,7 +700,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Renzi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Renzi, e il dominio lo ripete",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "monicaciarallo.com",
@@ -674,7 +731,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "monicadestefani.it",
@@ -710,7 +770,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio medico Monica De Stefani",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oreficefioravante.com",
@@ -801,6 +864,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Puggioni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Puggioni, e il dominio lo ripete",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  }
 ]

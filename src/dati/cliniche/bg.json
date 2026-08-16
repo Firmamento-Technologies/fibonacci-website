@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Nava, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Nava, e il dominio lo ripete",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "altaclinic.it",
@@ -60,7 +63,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "antoninocassisi.it",
@@ -92,7 +98,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonino Cassisi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonino Cassisi, e il dominio lo ripete",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "asst-pg23.it",
@@ -118,7 +127,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "bclinic.it",
@@ -150,7 +162,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautynailhairsalons.com",
@@ -203,7 +218,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bernardo Righi, e il dominio lo ripete",
   "nomeStrutturato": "Bernardo Righi",
-  "tipoDichiarato": "MedicalBusiness Organization"
+  "tipoDichiarato": "MedicalBusiness Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoamaryllis.com",
@@ -233,7 +251,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "CENTRO MEDICO AMARYLLIS, IL PIACERE DELLA CURA",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "danielemartini.doctor",
@@ -292,7 +313,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalBusiness Organization"
+  "tipoDichiarato": "MedicalBusiness Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermalaserclinic.it",
@@ -328,7 +352,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Derma Laser Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.60253,
+  "lon": 12.235314,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologamanfredi.com",
@@ -363,7 +390,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Manfredi Grazia",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "doryanclinic.com",
@@ -395,7 +425,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Doryan Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottmassimilianotocchio.it",
@@ -427,7 +460,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Tocchio, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Tocchio, cognome dentro il dominio",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottordileo-bergamo.com",
@@ -463,7 +499,8 @@
   "lat": 45.71346,
   "lon": 9.67234,
   "nomeStrutturato": "Dottor Di Leo Andrea - Chirurgo Plastico",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dottoressagottigiuliana.com",
@@ -494,7 +531,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.69868,
+  "lon": 9.608652,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drvincenzaserra.it",
@@ -548,7 +588,8 @@
   "lat": 45.693099,
   "lon": 9.671858,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Estetica Medica"
+  "nomeStrutturato": "Estetica Medica",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "fabiotoffanetti.it",
@@ -584,7 +625,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabio Toffanetti, e il dominio lo ripete",
   "nomeStrutturato": "sito@fabiotoffanetti.it",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "facelandclinic.com",
@@ -668,7 +712,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gruppo Refrattivo Italiano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "innulyabeautysalon.com",
@@ -695,7 +742,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.49172,
+  "lon": 9.737362,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "life-clinic.it",
@@ -723,7 +773,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Life Clinic - Health Connections",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "matteocaffi.it",
@@ -749,7 +802,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matteo Caffi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matteo Caffi, e il dominio lo ripete",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcentermanzoni.it",
@@ -899,7 +955,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "myclinique.it",
@@ -939,7 +998,8 @@
   "orari": [
    "Mo-Sa 09:30-19:30"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "osteopatia-still.com",
@@ -967,7 +1027,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriobergamo.it",
@@ -993,7 +1056,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriofinazzi.it",
@@ -1025,7 +1091,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Finazzi Bergamo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "radicemedicalspa.it",
@@ -1065,7 +1134,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30",
    "Saturday 09:00-14:30"
-  ]
+  ],
+  "lat": 45.662505,
+  "lon": 9.156753,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rcformazioneprofessionale.it",
@@ -1091,7 +1163,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "saluteintegrata.it",
@@ -1121,7 +1196,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Salute Integrata Srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.698864,
+  "lon": 9.825711,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanogatti.net",
@@ -1193,7 +1271,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Ventriglia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.756656,
+  "lon": 9.754219,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "white-clinic.it",
@@ -1229,6 +1310,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "WHITE CLINIC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.699945,
+  "lon": 9.948935,
+  "precisioneCoord": "comune"
  }
 ]

@@ -57,7 +57,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Estetico Sogni di Bellezza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticapiemonte.it",

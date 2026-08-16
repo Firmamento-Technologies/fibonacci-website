@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfonso Alberico, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfonso Alberico, e il dominio lo ripete",
+  "lat": 41.032997,
+  "lon": 14.298423,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centropolispecialisticovillarosa.it",
@@ -52,7 +55,8 @@
   "lat": 41.07115,
   "lon": 14.33869,
   "nomeStrutturato": "Studio Medico Villa Rosa - Centro Polispecialistico",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "clinicathena.it",
@@ -82,7 +86,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Athena S.P.A.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.366721,
+  "lon": 14.377726,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "davidefattore.it",
@@ -117,7 +124,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Davide Fattore, e il dominio lo ripete",
   "nomeStrutturato": "davide",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 41.074715,
+  "lon": 14.307729,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentalpro.it",
@@ -145,7 +155,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DentalPro",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologiaedesteticaferraiolo.com",
@@ -178,7 +191,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologoarturogigliofiorito.com",
@@ -205,7 +221,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arturo Gigliofiorito, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arturo Gigliofiorito, cognome dentro il dominio",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologomauriziobevilacqua.it",
@@ -265,7 +284,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.152978,
+  "lon": 13.150882,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorpaoluccimedicoestetico.it",
@@ -328,7 +350,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.026857,
+  "lon": 14.465186,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drumbertotozzi.it",
@@ -358,7 +383,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Umberto Tozzi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Umberto Tozzi, cognome dentro il dominio",
+  "lat": 40.973212,
+  "lon": 14.204928,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farropietro.com",
@@ -392,7 +420,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Farro Pietro, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Farro Pietro",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fcmedicinaestetica.it",
@@ -425,7 +456,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "FC Medicina Estetica e Ringiovanimento",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.236936,
+  "lon": 15.219658,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ferdinandorossano.it",
@@ -484,7 +518,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Fera, e il dominio lo ripete",
   "nomeStrutturato": "gfera",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 41.079922,
+  "lon": 14.256397,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maracazzaniga.it",
@@ -514,7 +551,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mara Cazzaniga, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mara Cazzaniga, e il dominio lo ripete",
+  "lat": 45.69286,
+  "lon": 9.400698,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mastelliacademy.it",
@@ -545,7 +585,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Mastelli srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.819825,
+  "lon": 7.774883,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "my-personaltrainer.it",
@@ -571,7 +614,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nicolletascon.com",
@@ -604,7 +650,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicolle Tascon, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicolle Tascon, e il dominio lo ripete",
+  "lat": 45.900548,
+  "lon": 9.412025,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "qutanea.it",
@@ -634,7 +683,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "reteimprese.it",
@@ -662,7 +714,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Conferenze e Congressi - Centri e Sedi Catania",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.439824,
+  "lon": 11.059275,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "robertabernardo.it",
@@ -693,7 +748,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Bernardo, e il dominio lo ripete",
   "nomeStrutturato": "Roberta Bernardo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.04414,
+  "lon": 14.303337,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "scaleraclinic.liposuzione-liposcultura.it",
@@ -719,7 +777,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.920511,
+  "lon": 14.230029,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sempiuscuola.it",
@@ -747,6 +808,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Scuola di Formazione Rita Parente",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.203483,
+  "lon": 14.117058,
+  "precisioneCoord": "comune"
  }
 ]

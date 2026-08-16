@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Estetico Le Meraviglie",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.61077,
+  "lon": 9.240841,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticabeautique.it",
@@ -56,6 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.61077,
+  "lon": 9.240841,
+  "precisioneCoord": "comune"
  }
 ]

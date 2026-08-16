@@ -27,6 +27,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa di Cura Privata San Paolo Spa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.974096,
+  "lon": 10.868708,
+  "precisioneCoord": "comune"
  }
 ]

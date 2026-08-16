@@ -102,6 +102,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Santa Clara Group",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.013884,
+  "lon": 7.822354,
+  "precisioneCoord": "comune"
  }
 ]

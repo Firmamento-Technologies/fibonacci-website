@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.199246,
+  "lon": 16.596828,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drsavinocefola.it",
@@ -57,7 +60,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott. Savino Cefola",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.321498,
+  "lon": 16.28687,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elisirnailsbeautymakeup.com",
@@ -85,7 +91,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.199246,
+  "lon": 16.596828,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esprit3.it",
@@ -112,7 +121,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Esprit3.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fabiopappagallo.it",
@@ -143,6 +155,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Fabio Pappagallo Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.199246,
+  "lon": 16.596828,
+  "precisioneCoord": "comune"
  }
 ]

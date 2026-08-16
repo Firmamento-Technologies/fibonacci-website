@@ -26,6 +26,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "New Esté",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 41.247688,
+  "lon": 14.705941,
+  "precisioneCoord": "comune"
  }
 ]

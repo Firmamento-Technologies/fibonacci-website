@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniel Cataldo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniel Cataldo, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticaoncologica.org",
@@ -54,7 +57,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "APEO - Associazione Professionale di Estetica Oncologica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.32643,
+  "lon": 7.675436,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciaguadagnino.it",
@@ -110,7 +116,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Healt Medispa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.762967,
+  "lon": 10.673293,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "milanomedica.it",
@@ -138,7 +147,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Milano Medica centro polidiagnostico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "valentinacamilleri.it",
@@ -195,6 +207,9 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 37.491446,
+  "lon": 13.993516,
+  "precisioneCoord": "comune"
  }
 ]

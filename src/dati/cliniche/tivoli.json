@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ASL ROMA 5",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.960922,
+  "lon": 12.798884,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticadelviso.it",
@@ -59,7 +62,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgia Estetica Del Viso Roma",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.658118,
+  "lon": 13.699625,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermoesteticativoli.com",
@@ -92,7 +98,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.960922,
+  "lon": 12.798884,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisioterapiativoli.it",
@@ -120,7 +129,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.960922,
+  "lon": 12.798884,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unimedgroup.it",
@@ -147,6 +159,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Unimed Group Srl - Poliambulatorio Tivoli - Diagnostica per immagini - Ambulatori - Check Up",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.960922,
+  "lon": 12.798884,
+  "precisioneCoord": "comune"
  }
 ]

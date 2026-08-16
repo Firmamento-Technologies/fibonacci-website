@@ -51,7 +51,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Studio Medico dei Dottori Tirone",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.996545,
+  "lon": 15.140569,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villaesther.com",

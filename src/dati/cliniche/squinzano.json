@@ -30,7 +30,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Arenzano",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.402518,
+  "lon": 8.683132,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giancarlovolpes.it",

@@ -55,7 +55,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-19:30"
   ],
-  "tipoDichiarato": "LocalBusiness BeautySalon"
+  "tipoDichiarato": "LocalBusiness BeautySalon",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "paoloscappaticci.it",

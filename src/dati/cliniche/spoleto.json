@@ -57,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.735512,
+  "lon": 12.736336,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "checkupsrl.com",
@@ -127,6 +130,7 @@
    "Friday 12:00:00-19:30:00",
    "Saturday 08:30:00-12:00:00",
    "Saturday 12:00:00-18:30:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

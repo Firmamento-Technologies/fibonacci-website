@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chiaracuoghi.it",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticashebeauty.it",
@@ -82,7 +88,10 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fulviopanico.com",
@@ -121,7 +130,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "DOTT.SSA RENATA ZANIN - MEDICO CHIRURGO - SPECIALISTA IN GINECOLOGIA ED OSTETRICIA - GINECOLOGIA ESTETICA E FUNZIONALE-E",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ptmodo.it",

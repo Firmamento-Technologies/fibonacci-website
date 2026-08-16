@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "healthmedical.it",
@@ -47,7 +50,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticapiacenza.com",
@@ -74,7 +80,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomarzolini.it",
@@ -103,6 +112,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.847635,
+  "lon": 9.666531,
+  "precisioneCoord": "comune"
  }
 ]

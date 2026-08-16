@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Bi.Verso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.729249,
+  "lon": 12.256246,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dev.centrodimedicina.com",
@@ -56,6 +59,9 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.729249,
+  "lon": 12.256246,
+  "precisioneCoord": "comune"
  }
 ]

@@ -33,7 +33,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio a Tezze sul Brenta (Bassano del Grappa)",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.686178,
+  "lon": 11.704184,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "annavoltan.it",
@@ -59,7 +62,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Voltan, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Voltan, e il dominio lo ripete",
+  "lat": 45.778952,
+  "lon": 11.801272,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "blogs.youcanprint.it",
@@ -87,7 +93,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Borè Srl"
+  "nomeStrutturato": "Borè Srl",
+  "lat": 39.93042,
+  "lon": 18.355332,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrodimagrimentobassano.it",
@@ -117,7 +126,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Hedon&#232; Bassano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.766911,
+  "lon": 11.734347,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrokinesi.com",
@@ -145,7 +157,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Kinesi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.732407,
+  "lon": 11.794256,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicamedicasanluca.it",
@@ -179,7 +194,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Centro Medico San Luca"
+  "nomeStrutturato": "Centro Medico San Luca",
+  "lat": 45.686178,
+  "lon": 11.704184,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinichelagrazia.it",
@@ -216,7 +234,8 @@
   "lon": 11.725097,
   "orari": [
    "Mo, Tu, We, Th, Fr 09:00-19:30 Sa 09:00-12:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dermatologiabordignon.it",
@@ -242,7 +261,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bordignon Acne, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bordignon Acne, cognome dentro il dominio",
+  "lat": 45.766911,
+  "lon": 11.734347,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressapenso.it",
@@ -270,7 +292,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Federica Penso",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "edoardozattra.it",
@@ -333,7 +358,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Rinnova | Medical Lab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tuamedica.it",
@@ -372,6 +400,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Tuamedica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.724416,
+  "lon": 11.762686,
+  "precisioneCoord": "comune"
  }
 ]

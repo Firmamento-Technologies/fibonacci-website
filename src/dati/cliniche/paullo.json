@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico De Vecchi Mapelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.416787,
+  "lon": 9.398241,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drgiuseppecolombo.com",
@@ -85,6 +88,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Baedent",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.416787,
+  "lon": 9.398241,
+  "precisioneCoord": "comune"
  }
 ]

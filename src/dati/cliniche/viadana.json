@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.926786,
+  "lon": 10.520223,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautydreamsviadana.it",
@@ -53,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Deauty Dreams Centro estetico a Viadana",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.926786,
+  "lon": 10.520223,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaltea.it",
@@ -78,6 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.926786,
+  "lon": 10.520223,
+  "precisioneCoord": "comune"
  }
 ]

@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.801472,
+  "lon": 9.432979,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmspreafico.it",
@@ -59,7 +62,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.900548,
+  "lon": 9.412025,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "in-salus.it",
@@ -92,7 +98,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.900548,
+  "lon": 9.412025,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriotulipano.com",
@@ -124,7 +133,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.76698,
+  "lon": 9.339345,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salvatorescandura.it",
@@ -156,7 +168,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Salvatore Scandura, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Salvatore Scandura, e il dominio lo ripete",
+  "lat": 45.900548,
+  "lon": 9.412025,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "solivo.it",
@@ -186,6 +201,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Solivo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.696378,
+  "lon": 9.311646,
+  "precisioneCoord": "comune"
  }
 ]

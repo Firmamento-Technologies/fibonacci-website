@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticasalerno.com",
@@ -65,7 +68,10 @@
   "nomeStrutturato": "Dott.ssa Raffaella Galdieri",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-17:0"
-  ]
+  ],
+  "lat": 40.419442,
+  "lon": 15.310756,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticasalerno.it",
@@ -120,6 +126,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.700462,
+  "lon": 14.706263,
+  "precisioneCoord": "comune"
  }
 ]

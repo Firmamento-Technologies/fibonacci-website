@@ -55,6 +55,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Make Me Smile",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

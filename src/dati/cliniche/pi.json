@@ -56,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Estetico Beauty Pisa - La Clinica dell&#039;Estetica a Pisa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beauty-pisa.it",
@@ -82,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautycarepisa.it",
@@ -119,7 +125,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studi Medici - Estetica Avanzata",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "casadicurasanrossore.it",
@@ -149,7 +158,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa di Cura San Rossore",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrolecascine.com",
@@ -229,7 +241,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.67975,
+  "lon": 10.850095,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermacademy.it",
@@ -271,7 +286,8 @@
   "lon": 10.386015,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dottorenzocampisi.it",
@@ -298,7 +314,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Enzo Campisi Otorinolaringoiatria - Medicina Estetica - Pisa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drdanihanna.com",
@@ -333,7 +352,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Dani HANNA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "e-santoni.edu.it",
@@ -361,7 +383,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "IIS Santoni - Gambacorti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.71594,
+  "lon": 10.401862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esculapiopisa.com",
@@ -419,7 +444,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franca Tantussi, e il dominio lo ripete",
   "nomeStrutturato": "Medicina Estetica e Dermatologia | Tantussi Skincare Pisa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.663454,
+  "lon": 10.635485,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gianfrancoromeo.it",
@@ -453,7 +481,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianfranco Romeo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianfranco Romeo, e il dominio lo ripete",
+  "lat": 43.762996,
+  "lon": 10.44104,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "moniafazzari.it",
@@ -544,7 +575,8 @@
   "nomeStrutturato": "Dott. Stefano Sansevero",
   "tipoDichiarato": "Organization",
   "lat": 43.715899,
-  "lon": 10.433095
+  "lon": 10.433095,
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiomedicopisapia.it",
@@ -578,6 +610,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Pisapia, cognome dentro il dominio",
   "nomeStrutturato": "Studio Medico Pisapia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.626556,
+  "lon": 9.321465,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "casateonline.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casateonline",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elysiesuitebeauty.it",
@@ -79,7 +85,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticadelviso.com",
@@ -108,7 +117,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estetiquecare.it",
@@ -140,7 +152,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "joblink.allibo.com",
@@ -164,7 +179,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "labohemesalon.it",
@@ -191,7 +209,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Boh&#232;me Salon",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalfastcesate.it",
@@ -245,7 +266,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vimedis.it",
@@ -273,6 +297,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Vimedis",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.698679,
+  "lon": 9.411648,
+  "precisioneCoord": "comune"
  }
 ]

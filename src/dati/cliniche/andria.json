@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalebeauty.it",
@@ -88,6 +91,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "PPM Corporate srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.227646,
+  "lon": 16.295435,
+  "precisioneCoord": "comune"
  }
 ]

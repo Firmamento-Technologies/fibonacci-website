@@ -53,7 +53,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Educaweb",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.571868,
+  "lon": 9.692238,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laperlabianca.it",
@@ -81,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.727631,
+  "lon": 17.576406,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raicultura.it",

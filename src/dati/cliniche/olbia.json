@@ -67,7 +67,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottoressa Daniela Masia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermacenterolbia.com",
@@ -93,7 +96,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcenterchirurgiaplastica.com",
@@ -125,7 +131,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcenterchirurgiaplastica.it",
@@ -151,7 +160,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalsuiteolbia.it",
@@ -217,7 +229,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Giovanni, cognome dentro il dominio",
   "nomeStrutturato": "Dott. Paolo Giovanni Arca",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicomura.com",
@@ -245,6 +260,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Andrea Mura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.923266,
+  "lon": 9.502744,
+  "precisioneCoord": "comune"
  }
 ]

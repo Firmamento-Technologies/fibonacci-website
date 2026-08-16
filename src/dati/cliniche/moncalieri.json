@@ -28,7 +28,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalBusiness Organization"
+  "tipoDichiarato": "MedicalBusiness Organization",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamoncalieri.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "grmedical.it",
@@ -86,7 +92,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "GR Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "hillmed.it",
@@ -116,7 +125,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lotobeautybrand.com",
@@ -151,7 +163,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro estetico Moncalieri",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "magnoliamoncalieri.it",
@@ -182,7 +197,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetica Magnolia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "quintasspa.it",
@@ -209,7 +227,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sorrydent.it",
@@ -243,7 +264,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sorrydent",
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "lat": 45.000461,
+  "lon": 7.684754,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "terapeuticenter.com",
@@ -282,6 +306,9 @@
    "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 08:30-13:00",
    "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 14:00-19:00"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "lat": 44.600734,
+  "lon": 7.405925,
+  "precisioneCoord": "comune"
  }
 ]

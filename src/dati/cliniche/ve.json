@@ -120,7 +120,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "BIELO HUB",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.437191,
+  "lon": 12.33459,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "circuitodellasalute.it",
@@ -151,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottfrancescocarducci.it",
@@ -207,7 +213,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
   "nomeStrutturato": "Dr. Luis Campos",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciaesteticaportapia.com",
@@ -241,7 +250,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Farmacia Porta Pia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "favaromarina.it",
@@ -323,7 +335,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 36.858921,
+  "lon": 14.761302,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "galeotadangelo.it",
@@ -391,7 +406,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ida Esposito, e il dominio lo ripete",
   "nomeStrutturato": "Dr.ssa Ida Esposito",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.775598,
+  "lon": 12.837457,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ippocrateparma.it",
@@ -450,7 +468,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Bottega della Bellezza",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.437191,
+  "lon": 12.33459,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ladyveneziashop.it",
@@ -476,7 +497,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lucagrassetti.it",
@@ -504,7 +528,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Grassetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Grassetti, e il dominio lo ripete",
+  "lat": 43.48012,
+  "lon": 13.218791,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "nadiafraone.it",
@@ -563,7 +590,10 @@
   "nomeStrutturato": "Riviera Medical Salus",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday SU APPUNTAMENTO"
-  ]
+  ],
+  "lat": 45.417348,
+  "lon": 12.033181,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinfarmmedicalcenter.it",
@@ -602,7 +632,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "stefanotoschi.com",
@@ -688,7 +719,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.826013,
+  "lon": 8.202686,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tuame.it",
@@ -723,7 +757,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ultherapy.it",
@@ -750,7 +787,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ultherapy Prime",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "venececlinic.com",
@@ -805,7 +845,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.437191,
+  "lon": 12.33459,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "viaveneto.clinic",
@@ -835,7 +878,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villavenus.it",
@@ -899,6 +945,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  }
 ]

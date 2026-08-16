@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Quadra Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.442758,
+  "lon": 11.758254,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicorosatese.it",

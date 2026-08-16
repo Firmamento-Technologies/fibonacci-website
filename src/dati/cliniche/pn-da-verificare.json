@@ -32,7 +32,8 @@
    "giovedì 8:00-20:00",
    "venerdì 8:00-20:00"
   ],
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "annamariamarini.it",
@@ -64,7 +65,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.95625,
+  "lon": 12.65972,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautemedical.it",
@@ -149,7 +153,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.95625,
+  "lon": 12.65972,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticagranieri.it",
@@ -181,7 +188,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.170974,
+  "lon": 12.707399,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticamariomarano.com",
@@ -217,6 +227,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico Mele",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.95625,
+  "lon": 12.65972,
+  "precisioneCoord": "comune"
  }
 ]

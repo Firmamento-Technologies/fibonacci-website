@@ -25,6 +25,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Politerapica Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.684371,
+  "lon": 9.717998,
+  "precisioneCoord": "comune"
  }
 ]

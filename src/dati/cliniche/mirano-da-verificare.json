@@ -32,7 +32,8 @@
   "lon": 12.090348,
   "orari": [
    "Mo-Fr 8.30-18.00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centromodellamirano.it",
@@ -70,7 +71,8 @@
   "nomeStrutturato": "Estensi 33",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-19:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "waze.com",

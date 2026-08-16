@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Le Zagare",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.577407,
+  "lon": 15.094215,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "jolifill.de",
@@ -87,7 +90,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.835934,
+  "lon": 14.248783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "silviabeautylab.it",
@@ -115,6 +121,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Silvia Beauty Lab",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.373069,
+  "lon": 9.211149,
+  "precisioneCoord": "comune"
  }
 ]

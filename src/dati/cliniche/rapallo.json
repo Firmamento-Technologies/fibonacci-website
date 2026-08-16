@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ASL3",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrobenessererapallo.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Benessere Rapallo Chiavari Santa Margherita",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.316449,
+  "lon": 9.323338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescogualco.com",
@@ -87,7 +93,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Gualco, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Francesco Gualco Dermatologo Venereologo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marioprandi.it",
@@ -141,7 +150,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioesculapio.com",
@@ -179,6 +191,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Poliambulatorio Privato Esculapio Dr. Morellini S.r.l"
+  "nomeStrutturato": "Poliambulatorio Privato Esculapio Dr. Morellini S.r.l",
+  "lat": 44.136352,
+  "lon": 12.242244,
+  "precisioneCoord": "comune"
  }
 ]

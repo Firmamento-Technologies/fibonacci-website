@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dr-bolze.com",
@@ -50,7 +53,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.669555,
+  "lon": 11.159418,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemedici.bz.it",
@@ -78,7 +84,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ordine dei Medici Chirurghi e degli Odontoi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.655942,
+  "lon": 11.229637,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stjosef.it",
@@ -102,6 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 46.616019,
+  "lon": 11.144859,
+  "precisioneCoord": "comune"
  }
 ]

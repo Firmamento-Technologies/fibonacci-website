@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Amira Estetica Avanzata",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.594202,
+  "lon": 12.648576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drgrech.it",
@@ -83,7 +86,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ospedale Città di Aprilia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.594202,
+  "lon": 12.648576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ospedalereginapostolorum.it",
@@ -117,6 +123,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 07:15-20:0",
    "Sunday 14:30-20:00"
-  ]
+  ],
+  "lat": 41.728889,
+  "lon": 12.658269,
+  "precisioneCoord": "comune"
  }
 ]

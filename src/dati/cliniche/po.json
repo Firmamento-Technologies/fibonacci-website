@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoelena.it",
@@ -51,7 +54,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Elena Estetica & Benessere SPA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drmeoni.it",
@@ -81,7 +87,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gynaikos.org",
@@ -109,7 +118,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gynaikos Centro Medico Prato",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutomedicotoscano.it",
@@ -139,7 +151,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Medico Toscano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lavellamedicalcenter.it",
@@ -167,7 +182,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Vella Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "msgroupitalia.it",
@@ -193,7 +211,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MS Group",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villa-fiorita.it",
@@ -221,6 +242,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa di Cura Villafiorita (Prato)",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.935718,
+  "lon": 11.094147,
+  "precisioneCoord": "comune"
  }
 ]

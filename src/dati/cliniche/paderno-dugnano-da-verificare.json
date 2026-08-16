@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Clinica Polispecialistica San Carlo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.571903,
+  "lon": 9.168131,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paderno.centrometica.it",
@@ -55,6 +58,9 @@
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Centro Medico Metica Paderno",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.571903,
+  "lon": 9.168131,
+  "precisioneCoord": "comune"
  }
 ]

@@ -54,6 +54,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Olgiatese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.785326,
+  "lon": 8.967774,
+  "precisioneCoord": "comune"
  }
 ]

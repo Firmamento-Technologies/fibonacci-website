@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "apollomedical.it",
@@ -83,7 +86,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "ExerciseGym Organization"
+  "tipoDichiarato": "ExerciseGym Organization",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "casadicurasantalucia.it",
@@ -111,7 +117,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa di cura Santa Lucia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cassibbamedicalinstitute.it",
@@ -142,7 +151,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Cassiba Institute"
+  "nomeStrutturato": "Cassiba Institute",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottgiuseppecassibba.it",
@@ -166,7 +178,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Cassibba, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Cassibba, cognome dentro il dominio",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottssasquillante.com",
@@ -195,7 +210,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "oculistafalchipaolo.it",
@@ -223,7 +241,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Oculista Falchi Paolo Siracusa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinedeimedicisr.it",
@@ -249,7 +270,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomaniace.it",
@@ -280,7 +304,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Maniace",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomule.it",
@@ -312,7 +339,8 @@
   "nomeStrutturato": "Mulè Studio Dentistico",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 9:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "villaazzurra.it",
@@ -343,7 +371,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "villarizzo.it",
@@ -368,6 +399,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.064614,
+  "lon": 15.29072,
+  "precisioneCoord": "comune"
  }
 ]

@@ -60,6 +60,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ecorad",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 38.220112,
+  "lon": 15.637381,
+  "precisioneCoord": "comune"
  }
 ]

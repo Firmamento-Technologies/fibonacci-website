@@ -51,7 +51,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Santarelli Narni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.519589,
+  "lon": 12.515226,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "venaodontoiatria.it",
@@ -81,6 +84,7 @@
   "lat": 42.565677,
   "lon": 12.645587,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "Vena Odontoiatria"
+  "nomeStrutturato": "Vena Odontoiatria",
+  "precisioneCoord": "civico"
  }
 ]

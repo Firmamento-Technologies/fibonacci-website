@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.569912,
+  "lon": 8.179988,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "amiciperlapellebiella.it",
@@ -64,7 +67,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "angolobenessere.net",
@@ -94,7 +100,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "anna-scevola.com",
@@ -123,7 +132,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Scevola, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Scevola, e il dominio lo ripete",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "domenicoparis.com",
@@ -160,7 +172,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Domenico Paris, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Domenico Paris",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "estetispa.beauty",
@@ -190,7 +205,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Estetispa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gianmarcourbino.it",
@@ -254,7 +272,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Petite Esthetique",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lasertherapycenter.org",
@@ -305,6 +326,9 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "precisioneCoord": "comune"
  }
 ]

@@ -32,6 +32,9 @@
   "nomeStrutturato": "Olisticzone",
   "orari": [
    "Mo 09:00-21:30, Tu 09:00-21:30, We 09:00-21:30, Th 09:00-21:"
-  ]
+  ],
+  "lat": 45.405397,
+  "lon": 9.131355,
+  "precisioneCoord": "comune"
  }
 ]

@@ -36,7 +36,8 @@
   "orari": [
    "Mo-Fr 08:30-18:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "aiteb.it",
@@ -69,7 +70,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "A.I.T.E.B. - Associazione Italiana Terapia Estetica Botulino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "antoniotambuscio.it",
@@ -130,7 +134,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroodontoiatricosanrocco.it",
@@ -158,7 +165,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.474376,
+  "lon": 11.844933,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaesteticamed.it",
@@ -191,7 +201,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgia Estetica MED Padova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticapadova.it",
@@ -222,7 +235,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgia Plastica UOC- Azienda Ospedale - Università Padova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgopiacentile.it",
@@ -253,7 +269,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "www.chirurgopiacentile.it",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clementezorzetto.it",
@@ -324,7 +343,8 @@
   "lon": 11.8768,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "clinicaprivatavillamedea.it",
@@ -352,7 +372,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Privata Villa Medea",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicasalministurli.it",
@@ -382,7 +405,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Salmini Sturli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.243863,
+  "lon": 11.687946,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "criolipolisipadova.it",
@@ -511,7 +537,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Diesse Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 39.133189,
+  "lon": 16.074591,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dnasalute.it",
@@ -543,7 +572,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DNA Salute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressamentesana.it",
@@ -603,7 +635,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "dr Day Surgery",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drbattaglia.it",
@@ -660,7 +695,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drsaretta.it",
@@ -727,7 +765,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Marco Rizzetto Stubel",
-  "tipoDichiarato": "Organization Place MedicalClinic"
+  "tipoDichiarato": "Organization Place MedicalClinic",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "eleanaferrari.com",
@@ -762,7 +803,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Eleana Ferrari, e il dominio lo ripete",
   "nomeStrutturato": "Eleana Ferrari",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elenagiardini.it",
@@ -794,7 +838,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Giardini, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Elena Giardini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamedicapadova.it",
@@ -828,7 +875,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francobarbazza.it",
@@ -865,7 +915,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Barbazza, e il dominio lo ripete",
   "nomeStrutturato": "Franco Barbazza",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gabrielefranciosi.it",
@@ -895,7 +948,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gabriele Franciosi, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Gabriele Franciosi",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.519292,
+  "lon": 11.338594,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gruppodatamedica.net",
@@ -921,7 +977,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.347492,
+  "lon": 11.867209,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "iacoponifabio.it",
@@ -992,7 +1051,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "KALÈRGA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kireinalab.it",
@@ -1018,7 +1080,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "leonardoruzzante.it",
@@ -1048,7 +1113,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Leonardo Ruzzante, e il dominio lo ripete",
   "nomeStrutturato": "Leonardo Ruzzante | Geriatria e terapia del dolore | Padova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.360314,
+  "lon": 11.789783,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "londeiclinic.it",
@@ -1078,7 +1146,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Londeiclinic S.r.l.",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lorenzolunardon.com",
@@ -1110,7 +1181,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Lunardon, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Lunardon, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lucasiliprandi.it",
@@ -1143,7 +1217,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Siliprandi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Siliprandi, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marinabenedetti.com",
@@ -1172,7 +1249,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marina Benedetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marina Benedetti, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mauriziobaldo.it",
@@ -1201,7 +1281,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Baldo, e il dominio lo ripete",
   "nomeStrutturato": "Maurizio Baldo chirurgo plastico Padova",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcenterpadova.it",
@@ -1227,7 +1310,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticalaserpadova.it",
@@ -1260,7 +1346,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "overclasspadova.it",
@@ -1294,7 +1383,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20:00"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "paolagasparetto.com",
@@ -1329,7 +1419,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Gasparetto, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Gasparetto, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriobsmedica.it",
@@ -1358,7 +1451,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Bs Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.977206,
+  "lon": 12.27419,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriodermamed.com",
@@ -1385,7 +1481,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Dermamed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.428729,
+  "lon": 11.788274,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosanmartino.com",
@@ -1413,7 +1512,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio San Martino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.297692,
+  "lon": 12.036814,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliesteticapignatelli.com",
@@ -1449,7 +1551,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliestetica Pignatelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.347492,
+  "lon": 11.867209,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "risorgimed.it",
@@ -1485,7 +1590,10 @@
   "nomeStrutturato": "RISORGIMED - Dott. Giampiero Piccione",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
-  ]
+  ],
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefanobezzi.it",
@@ -1517,7 +1625,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Bezzi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Bezzi, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioambrosini.org",
@@ -1545,7 +1656,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Ambrosini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticotognetti.it",
@@ -1577,7 +1691,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Dentistico Tognetti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodepaoli.it",
@@ -1612,7 +1729,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "de paoli medicina estetica dermatologia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "touchrigeneraclinic.com",
@@ -1638,7 +1758,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "yasminezavalloni.it",
@@ -1668,6 +1791,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Yasmine Zavalloni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Yasmine Zavalloni, e il dominio lo ripete",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  }
 ]

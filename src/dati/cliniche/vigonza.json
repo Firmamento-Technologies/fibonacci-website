@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Sintonia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.583442,
+  "lon": 9.273526,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gabrielesalloum.it",
@@ -89,6 +92,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio San Camillo",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.442954,
+  "lon": 11.983149,
+  "precisioneCoord": "comune"
  }
 ]

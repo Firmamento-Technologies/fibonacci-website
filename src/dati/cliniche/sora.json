@@ -23,7 +23,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Muramed",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.720336,
+  "lon": 13.613958,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalgroupitalia.it",
@@ -91,7 +94,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MG Beauty Clinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.720336,
+  "lon": 13.613958,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "s-medical.it",
@@ -124,6 +130,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "S-Medical Group",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.720336,
+  "lon": 13.613958,
+  "precisioneCoord": "comune"
  }
 ]

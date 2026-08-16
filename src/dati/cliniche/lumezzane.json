@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.659555,
+  "lon": 10.051049,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosantacaterina.it",
@@ -52,7 +55,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.648258,
+  "lon": 10.264546,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosantagiulia.it",
@@ -78,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.648258,
+  "lon": 10.264546,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinchannel.it",
@@ -105,6 +114,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SkinChannel",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.716977,
+  "lon": 9.208043,
+  "precisioneCoord": "comune"
  }
 ]

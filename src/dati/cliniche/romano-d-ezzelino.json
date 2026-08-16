@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Maria Grazia Piemontese",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicodomenicoromano.it",
@@ -85,7 +88,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 08:00-20:00"
   ],
-  "tipoDichiarato": "Dentist"
+  "tipoDichiarato": "Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "micheleromanomaxillo.it",
@@ -115,6 +119,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Romano, cognome dentro il dominio",
   "nomeStrutturato": "Michele Romano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  }
 ]

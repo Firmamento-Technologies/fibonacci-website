@@ -105,6 +105,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "TerraMadre",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 43.909811,
+  "lon": 12.913123,
+  "precisioneCoord": "comune"
  }
 ]

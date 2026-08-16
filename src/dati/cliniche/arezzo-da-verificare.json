@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Fisioterapia Rossi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.402527,
+  "lon": 11.735586,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skin-beauty.it",

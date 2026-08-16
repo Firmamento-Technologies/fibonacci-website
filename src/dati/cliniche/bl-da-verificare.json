@@ -28,7 +28,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Estetica Glamour Belluno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lifestetica.com",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medestetiq.it",
@@ -109,7 +115,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Medico BellunoUno",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.364606,
+  "lon": 10.429385,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "miraestetica.it",
@@ -139,6 +148,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Vf2",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.280541,
+  "lon": 12.078914,
+  "precisioneCoord": "comune"
  }
 ]

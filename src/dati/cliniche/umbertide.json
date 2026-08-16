@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.051799,
+  "lon": 12.618397,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "salusangiorgio.it",
@@ -52,6 +55,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambultorio Salu San Giorgio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.646793,
+  "lon": 11.375449,
+  "precisioneCoord": "comune"
  }
 ]

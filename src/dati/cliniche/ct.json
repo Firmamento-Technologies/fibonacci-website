@@ -92,7 +92,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angelo Sapuppo, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Angelo Sapuppo",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.407717,
+  "lon": 11.873446,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "carusodrangelo.it",
@@ -120,7 +123,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrikure.it",
@@ -176,7 +182,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ALESSIA MARINO SRL",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicinaestetica.org",
@@ -245,7 +254,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Distefano, e il dominio lo ripete",
   "nomeStrutturato": "Dottoressa Chiara Distefano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiaplasticacatania.com",
@@ -386,7 +398,10 @@
   "orari": [
    "Mo 16:00-20:00 Tu 09:00-20:00 We 09:00-13:00 Th 09:00-13:00 "
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness"
+  "tipoDichiarato": "HealthAndBeautyBusiness",
+  "lat": 37.726857,
+  "lon": 15.187688,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologiabro2.com",
@@ -420,7 +435,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "My WordPress",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dieffeclinic.it",
@@ -485,7 +503,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Nicola Catania",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.660582,
+  "lon": 9.93106,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressamanuelaiudica.it",
@@ -549,7 +570,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr Montoneri",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drstefanograsso.it",
@@ -642,7 +666,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Nicotra, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Nicotra, e il dominio lo ripete",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elle-academy.com",
@@ -667,7 +694,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "endomedicarepoliambulatorio.it",
@@ -723,7 +753,8 @@
   "lat": 37.5079,
   "lon": 15.083,
   "nomeStrutturato": "Federica Castiglione — Medicina Estetica del Viso",
-  "tipoDichiarato": "MedicalClinic Dentist"
+  "tipoDichiarato": "MedicalClinic Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "filippello.it",
@@ -757,7 +788,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Filippello, cognome nel dominio",
   "nomeStrutturato": "Studio Filippello",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisioesteticacatania.com",
@@ -787,7 +821,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francesconanfito.it",
@@ -820,7 +857,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Nanfitò, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Nanfitò, e il dominio lo ripete",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giulianagiudice.it",
@@ -883,7 +923,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Liardo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Liardo, e il dominio lo ripete",
+  "lat": 37.612777,
+  "lon": 15.16588,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giuseppelomeo.it",
@@ -915,7 +958,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Lomeo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Lomeo, e il dominio lo ripete",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "i-pressnews.it",
@@ -943,7 +989,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "IPress | Ufficio Stampa Catania",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "luxmedgroup.it",
@@ -971,7 +1020,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.519172,
+  "lon": 15.007936,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maisondebeaute.it",
@@ -1000,7 +1052,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 38.159573,
+  "lon": 14.745073,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medeste.it",
@@ -1093,7 +1148,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "OGMedica - Clinica di Medicina Estetica - Dr. Castorina",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "onemedicalcenter.it",
@@ -1130,7 +1188,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "One Medical Center | Medicina Estetica Catania",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "patriziaoronzo.it",
@@ -1162,7 +1223,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Patrizia Oronzo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Patrizia Oronzo, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "perrottarosario.it",
@@ -1193,7 +1257,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosario Perrotta, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosario Perrotta, e il dominio lo ripete",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "renatofortuna-chirurgoplastico.it",
@@ -1227,7 +1294,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Renato Fortuna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sg2medcatania.it",
@@ -1260,7 +1330,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sg2 Medica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unipegaso.catania.it",
@@ -1319,6 +1392,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Vivaskin",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  }
 ]

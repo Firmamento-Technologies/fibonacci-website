@@ -33,7 +33,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30",
    "Saturday, Sunday 00:00-00:00"
   ],
-  "tipoDichiarato": "Organization Place Dentist"
+  "tipoDichiarato": "Organization Place Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "glassdoor.co.in",
@@ -66,7 +67,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "odontoiatraseregno.it",
@@ -94,7 +98,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "seven-suite.com",
@@ -128,7 +135,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.649723,
+  "lon": 9.205392,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoetherea.it",
@@ -158,7 +168,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.61831,
+  "lon": 9.208124,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tuttoseregno.it",

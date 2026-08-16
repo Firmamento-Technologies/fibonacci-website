@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Minenna, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Minenna, e il dominio lo ripete",
+  "lat": 41.502811,
+  "lon": 15.4529,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "areabellessere.it",
@@ -56,6 +59,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Areabellessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.502811,
+  "lon": 15.4529,
+  "precisioneCoord": "comune"
  }
 ]

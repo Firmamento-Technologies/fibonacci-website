@@ -27,7 +27,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Montemartini, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Caterina Montemartini - Dermatologo a Pavia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "paviamedicalcenter.it",
@@ -55,7 +58,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Pavia Medical Center",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ticinello.it",
@@ -83,6 +89,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Ticinello",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.036855,
+  "lon": 9.137825,
+  "precisioneCoord": "comune"
  }
 ]

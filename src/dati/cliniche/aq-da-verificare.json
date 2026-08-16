@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fibeautylab.it",
@@ -91,7 +94,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Lasermillennium",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodeangelis.dental",
@@ -128,6 +134,9 @@
    "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 09:00-13:30",
    "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 15:00-18:30"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  }
 ]

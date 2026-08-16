@@ -27,7 +27,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.752524,
+  "lon": 14.455004,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "odontoiatricamediterranea.it",
@@ -62,6 +65,7 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30"
   ],
-  "tipoDichiarato": "Dentist LocalBusiness"
+  "tipoDichiarato": "Dentist LocalBusiness",
+  "precisioneCoord": "civico"
  }
 ]

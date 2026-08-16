@@ -28,7 +28,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.51286,
+  "lon": 7.858017,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "adec.it",
@@ -62,7 +65,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "adestetic.it",
@@ -96,7 +102,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Adestetic Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "aemclinic.it",
@@ -137,7 +146,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alerimed.com",
@@ -170,7 +182,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Aleri Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alessandrogualdi.com",
@@ -201,7 +216,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Gualdi, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Alessandro Gualdi - Milano Face Institute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alessiabuscarini.it",
@@ -234,7 +252,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Glenda, cognome dentro il dominio",
   "nomeStrutturato": "newandreaspano.tempurl.host",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alessimarcello.it",
@@ -263,7 +284,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marcello Alessi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marcello Alessi, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "alicemiegge.it",
@@ -370,7 +394,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AlmaCare | Centri di medicina estetica a Roma e Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "altamedicamilano.it",
@@ -403,7 +430,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "ALTAMEDICA Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "anfossi2.com",
@@ -440,7 +470,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Anfossi2",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "antonellotateo.it",
@@ -469,7 +502,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonello Tateo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonello Tateo, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "arielmedical.it",
@@ -507,7 +543,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 09:00-14:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "artbeautyclinic.it",
@@ -548,7 +585,8 @@
   "nomeStrutturato": "Art Beauty Clinic",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-17:0"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "artemisiaclinic.it",
@@ -659,7 +697,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 10:00-18:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "beautyboxmilano.com",
@@ -695,7 +734,8 @@
   "lat": 45.457568,
   "lon": 9.176183,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "BeautyBox Milano"
+  "nomeStrutturato": "BeautyBox Milano",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "benacuslab.com",
@@ -758,7 +798,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Betar Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "blefaroplasticawalterpolinelli.it",
@@ -791,7 +834,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Polinelli, cognome dentro il dominio",
   "nomeStrutturato": "Blefaroplastica Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "botulinomilano.it",
@@ -819,7 +865,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cdi.it",
@@ -847,7 +896,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "CDI Centro Diagnostico Italiano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.845797,
+  "lon": 8.666495,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centriunico.com",
@@ -880,7 +932,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Unico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrochirurgiaplasticanovelli.it",
@@ -914,7 +969,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Novelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Novelli, cognome dentro il dominio",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroclinicoagora.it",
@@ -979,7 +1037,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Laser Milano : Centro Clinico Via Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528532,
+  "lon": 9.04018,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticodafne.it",
@@ -1014,7 +1075,8 @@
   "orari": [
    "Mo-Fr 10:00-20:00"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centromedicoambrosiano.com",
@@ -1046,7 +1108,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Ambrosiano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.528554,
+  "lon": 9.278224,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicodurini.com",
@@ -1109,7 +1174,10 @@
   "tipoDichiarato": "LocalBusiness",
   "orari": [
    "Mo-Fr 09:00-18:00"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosempione.it",
@@ -1139,7 +1207,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Sempione Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicounisalus.it",
@@ -1172,7 +1243,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Unisalus",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cerva16.com",
@@ -1208,7 +1282,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cerva 16",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgiadermatologicamilano.it",
@@ -1241,7 +1318,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Chirurgia Dermatologica Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cinziaecesareluccioli.it",
@@ -1300,7 +1380,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.199246,
+  "lon": 16.596828,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinclinic.it",
@@ -1367,7 +1450,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "LocalBusiness Organization"
+  "tipoDichiarato": "LocalBusiness Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicadermoestetica.it",
@@ -1405,7 +1491,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Dermo Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaforma.it",
@@ -1444,7 +1533,10 @@
   "nomeStrutturato": "Clinica Forma",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicaluce.it",
@@ -1510,7 +1602,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Clinica Milano",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicapalazzoriva.it",
@@ -1538,7 +1633,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicavillaarbe.com",
@@ -1599,7 +1697,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Casa Di Cura Villa Letizia SRL",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmomilano.it",
@@ -1677,7 +1778,10 @@
    "Thursday 08:00-20:00",
    "Friday 08:00-20:00",
    "Saturday 10:00-19:00"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "corsoveneziaotto.it",
@@ -1703,7 +1807,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cup24.it",
@@ -1733,7 +1840,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cup24.it",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 43.769871,
+  "lon": 11.255576,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "damianogalimberti.it",
@@ -1759,7 +1869,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Damiano Galimberti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Damiano Galimberti, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "danielaorlando.eu",
@@ -1789,7 +1902,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniela Orlando, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Daniela Orlando Medicina Estetica MIlano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "davidebestetti.it",
@@ -1856,7 +1972,8 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Friday 14:30-19.30",
    "Thursday 08:30-19.30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "dermatologiaintegrata.it",
@@ -1893,7 +2010,10 @@
   "nomeStrutturato": "CDM",
   "orari": [
    "Mo 09:00-20:00, Tu 09:00-20:00, We 09:00-20:00, Th 09:00-20:"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermoclinico.com",
@@ -1930,7 +2050,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Dermoclinico Vita Cutis",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottmarcobartolucci.tv",
@@ -1997,7 +2120,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianfranco Bernabei, cognome dentro il dominio",
   "nomeStrutturato": "Dr. Gianfranco Bernabei, chirurgo plastico e medico estetico a Milano",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorlucazattoni.com",
@@ -2032,7 +2158,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottor Luca Zattoni",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorpanacea.it",
@@ -2065,7 +2194,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorspano.it",
@@ -2098,7 +2230,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "dottorspano.it",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drandreadotto.it",
@@ -2132,7 +2267,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drcananzi.it",
@@ -2167,7 +2305,10 @@
   "tipoDichiarato": "MedicalOrganization",
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drdoroshev.com",
@@ -2226,7 +2367,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Guidarelli, cognome dentro il dominio",
   "nomeStrutturato": "Cristian Colusso",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drlips.it",
@@ -2258,7 +2402,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr Lips",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drperon.com",
@@ -2295,7 +2442,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Cliniche Peron",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.801368,
+  "lon": 10.328083,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drsferrucci.com",
@@ -2361,7 +2511,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "EL Beauty Med",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "elvycentrobenessere.it",
@@ -2425,7 +2578,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuela Battaino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuela Battaino, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "epilazionelaser-milano.com",
@@ -2457,7 +2613,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Epilazione Laser Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "equipe-estetica.it",
@@ -2522,7 +2681,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "evolveclinicaesteticamilano.it",
@@ -2551,7 +2713,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Il mio negozio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "femstudio.com",
@@ -2577,7 +2742,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fillermilano.com",
@@ -2612,7 +2780,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "FILLER MILANO",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "flawless.life",
@@ -2636,7 +2807,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescaliraluce.it",
@@ -2670,7 +2844,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Lira, cognome dentro il dominio",
   "nomeStrutturato": "Dottoressa Lira Luce",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "galenomilano.com",
@@ -2706,7 +2883,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Galeno Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gambassimed.it",
@@ -2769,7 +2949,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianluca Campiglio, e il dominio lo ripete",
   "nomeStrutturato": "Studio Medico Dott. Gianluca Campiglio",
-  "tipoDichiarato": "MedicalOrganization LocalBusiness"
+  "tipoDichiarato": "MedicalOrganization LocalBusiness",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giorgioastolfi.it",
@@ -2801,7 +2984,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
   "nomeStrutturato": "Giorgio Astolfi",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.476674,
+  "lon": 11.638338,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "giulianagiandoso.it",
@@ -2863,7 +3049,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gqitalia.it",
@@ -2890,7 +3079,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "GQ Italia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "gruppoclinicolicollari.com",
@@ -2927,7 +3119,10 @@
   "nomeStrutturato": "Gruppo Clinico Licollari",
   "orari": [
    "Mo 14:00-19:00, Tu 14:00-19:00, We 14:00-19:00, Th 14:00-19:"
-  ]
+  ],
+  "lat": 45.51286,
+  "lon": 7.858017,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "heylash.com",
@@ -2956,7 +3151,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.613963,
+  "lon": 9.37006,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "humanitas-care.it",
@@ -3019,7 +3217,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ide.it",
@@ -3061,7 +3262,8 @@
   "orari": [
    "Mo-Fr 08:00 20:00",
    "Sa 08:30 17:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "imageregenerative.com",
@@ -3095,7 +3297,8 @@
   "lon": 9.2021,
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "internationalclinic.it",
@@ -3166,7 +3369,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Organization",
-  "nomeStrutturato": "Clinica Iser Milano"
+  "nomeStrutturato": "Clinica Iser Milano",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutoclinicobrera.it",
@@ -3223,7 +3429,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Estetico Italiano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutogiglio.it",
@@ -3279,7 +3488,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "IUVENTA Health S.T.P. S.r.l."
+  "nomeStrutturato": "IUVENTA Health S.T.P. S.r.l.",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "kastmed.com",
@@ -3352,7 +3564,10 @@
    "Monday 09:00-1900",
    "Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-19:0"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 45.067755,
+  "lon": 7.682489,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laclinic.it",
@@ -3420,7 +3635,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "La Clinica Dermatologica Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laserlisi.com",
@@ -3448,7 +3666,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lasermedicalcenter.it",
@@ -3510,7 +3731,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laserplast.org",
@@ -3551,7 +3775,8 @@
    "Thursday 07:30-19:30",
    "Friday 07:30-19:30"
   ],
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "lauracelani.it",
@@ -3612,7 +3837,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Spreafico, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Spreafico, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "leblonmilano.com",
@@ -3649,7 +3877,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
    "Saturday 09:00-13:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "lipo-laser-system.it",
@@ -3738,7 +3967,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Mac Clinic Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "maddalenamontalbano.it",
@@ -3801,7 +4033,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Magenta Medical Studio",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "marcovigano.it",
@@ -3858,7 +4093,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Siliprandi Trattamenti, cognome dentro il dominio",
   "nomeStrutturato": "Mattia Siliprandi",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medclinicrejuve.com",
@@ -3896,7 +4134,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Med Clinic Rejuve",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalinstitute.it",
@@ -3933,7 +4174,10 @@
   "orari": [
    "Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-19:00"
   ],
-  "tipoDichiarato": "MedicalClinic Dentist"
+  "tipoDichiarato": "MedicalClinic Dentist",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaestetica.milano.it",
@@ -3965,7 +4209,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medicina Estetica Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medikalbeauty.it",
@@ -3998,7 +4245,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "meldes.it",
@@ -4034,7 +4284,10 @@
   "nomeStrutturato": "Centro Medico Meldes",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-18:30"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "miderma.it",
@@ -4071,7 +4324,10 @@
   "nomeStrutturato": "Miderma",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-18:0"
-  ]
+  ],
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "milamed.it",
@@ -4101,7 +4357,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Milamed",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.349152,
+  "lon": 9.164589,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "milanoestetica.it",
@@ -4135,7 +4394,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Milano Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "milanofaceinstitute.com",
@@ -4162,7 +4424,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Milano Face Institute",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "milanofree.it",
@@ -4190,7 +4455,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Redazione MilanoFree.it",
-  "tipoDichiarato": "Person"
+  "tipoDichiarato": "Person",
+  "lat": 45.358789,
+  "lon": 9.323976,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "minichirurgiaplastica.it",
@@ -4225,7 +4493,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Salus Mea Chirurgia Plastica a Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "missorimedicalcenter.it",
@@ -4259,7 +4530,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "multimedica.it",
@@ -4364,7 +4638,8 @@
   "nomeStrutturato": "Dott. Orlandi Alberto | Chirurgia Plastica ed Estetica a Milano",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-17:0"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "patriziagilardino.it",
@@ -4397,7 +4672,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Patrizia Gilardino, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Patrizia Gilardino - Chirurgo Plastico a Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosacilotto.it",
@@ -4455,7 +4733,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "LocalBusiness Organization"
+  "tipoDichiarato": "LocalBusiness Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "raoulnovelli.it",
@@ -4490,7 +4771,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Novelli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raoul Novelli, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "reveclinic.it",
@@ -4582,7 +4866,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Rigenera Clinic Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rimodellamentocorpo.com",
@@ -4608,7 +4895,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sanbabilaclinic.it",
@@ -4639,7 +4929,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "San Babila Clinic | Centro Medico Specialistico - Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sandonatomedica.it",
@@ -4665,7 +4958,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "santagostino.it",
@@ -4691,7 +4987,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sergionoviello.it",
@@ -4722,7 +5021,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sergio Noviello, e il dominio lo ripete",
   "nomeStrutturato": "Dr. Sergio Noviello",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "shop.flamingobeauty.net",
@@ -4783,7 +5085,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simona Blidar, e il dominio lo ripete",
   "nomeStrutturato": "Dr.ssa Simona Blidar",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simonavari.it",
@@ -4820,7 +5125,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simona Varì, e il dominio lo ripete",
   "nomeStrutturato": "Dott.ssa Simona Varì",
-  "tipoDichiarato": "Physician"
+  "tipoDichiarato": "Physician",
+  "lat": 41.74472,
+  "lon": 13.152694,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinboost.it",
@@ -4876,7 +5184,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Agorà - Società Italiana di Medicina Estetica",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sotherga.com",
@@ -4906,7 +5217,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Sotherga",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "stefaniaenginoli.it",
@@ -4933,7 +5247,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefania Enginoli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefania Enginoli, e il dominio lo ripete",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioapolimeni.com",
@@ -4992,7 +5309,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Bellinvia, cognome dentro il dominio",
   "nomeStrutturato": "Studio Bellinvia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioborbon.com",
@@ -5018,7 +5338,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioghislanzoni.com",
@@ -5055,7 +5378,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Ghislanzoni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicoadigrat.it",
@@ -5091,7 +5417,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Adigrat",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodavrenova.com",
@@ -5189,7 +5518,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Accornero, cognome dentro il dominio",
   "nomeStrutturato": "Studio Dott. Paolo Accornero",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiopinoli.it",
@@ -5222,7 +5554,8 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
   ],
-  "tipoDichiarato": "Dentist MedicalClinic"
+  "tipoDichiarato": "Dentist MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "studiosandamiano.it",
@@ -5257,7 +5590,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sunmedicalcenter.it",
@@ -5286,7 +5622,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.618748,
+  "lon": 9.418633,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "theclinic.it",
@@ -5321,7 +5660,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "theClinic",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tizianapanigalli.it",
@@ -5377,7 +5719,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visiteprivate.com",
@@ -5407,7 +5752,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Visite private Milano",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "visoesteticamilano.it",
@@ -5463,7 +5811,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Visologiq",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "walterpolinelli.it",
@@ -5494,6 +5845,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Polinelli, e il dominio lo ripete",
   "nomeStrutturato": "Dott. Walter Polinelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  }
 ]

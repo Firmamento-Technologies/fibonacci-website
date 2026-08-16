@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chipla.it",
@@ -93,7 +96,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "CHIRURGO PLASTICO CATANIA, MARCELLO STELLA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "chirurgoesteticocatania.com",
@@ -169,7 +175,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Daniela Caruso",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologiastrategica.it",
@@ -237,7 +246,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Dott.ssa Marcella Siino",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.565254,
+  "lon": 15.111788,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drisola.com",
@@ -271,7 +283,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drtarico.it",
@@ -307,7 +322,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fillerlabbracatania.it",
@@ -338,7 +356,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Filler Labbra Catania - Dott. Giuseppe Manzo",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 37.554211,
+  "lon": 15.14856,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "g2medica.it",
@@ -413,7 +434,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Medicina Estetica Catania - Dott. Giuseppe Manzo",
-  "tipoDichiarato": "MedicalBusiness"
+  "tipoDichiarato": "MedicalBusiness",
+  "lat": 37.554211,
+  "lon": 15.14856,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticalanza.com",
@@ -473,7 +497,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Musa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.612777,
+  "lon": 15.16588,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ordinemedct.it",
@@ -501,7 +528,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Ordine dei Medici Chirurghi e degli Odontoiatri della provincia di Catania",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriokline.it",
@@ -529,7 +559,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 37.577407,
+  "lon": 15.094215,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "primaelisa.it",
@@ -594,7 +627,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Salvatrice La Rosa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studicampagna.it",
@@ -625,7 +661,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studi Campagna - Dott. Nunzio Ezio Campagna",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiolaserpoliti.it",
@@ -657,7 +696,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "dott. Politi",
-  "tipoDichiarato": "Person Organization"
+  "tipoDichiarato": "Person Organization",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodimaurotbs.it",
@@ -689,7 +731,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.502236,
+  "lon": 15.08738,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studioperna.it",
@@ -722,7 +767,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.560369,
+  "lon": 15.061763,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vrmedicinaestetica.it",
@@ -754,7 +802,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "VR Medicina Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 37.616116,
+  "lon": 15.079231,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "youplast.it",

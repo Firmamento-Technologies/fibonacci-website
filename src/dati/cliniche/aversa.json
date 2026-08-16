@@ -30,7 +30,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caputo Alighiero, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caputo Alighiero, e il dominio lo ripete",
+  "lat": 40.973212,
+  "lon": 14.204928,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "andreasalerno.net",
@@ -90,7 +93,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Villa Fiorita",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.973212,
+  "lon": 14.204928,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ecoplusaversa.it",
@@ -115,7 +121,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.973212,
+  "lon": 14.204928,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "francescomaione.it",
@@ -175,6 +184,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Picone, cognome dentro il dominio",
   "nomeStrutturato": "Dr. Vincenzo Picone - Dermatolgo a Teverola vicino Aversa",
-  "tipoDichiarato": "Organization Person"
+  "tipoDichiarato": "Organization Person",
+  "lat": 41.074112,
+  "lon": 14.027423,
+  "precisioneCoord": "comune"
  }
 ]

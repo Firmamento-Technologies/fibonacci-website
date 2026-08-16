@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "For Life",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.047423,
+  "lon": 13.927011,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologico.it",
@@ -55,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 42.310262,
+  "lon": 13.95759,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "suncentersulmona.it",
@@ -114,6 +120,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "UMBRIA FILLER S.r.l",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.047423,
+  "lon": 13.927011,
+  "precisioneCoord": "comune"
  }
 ]

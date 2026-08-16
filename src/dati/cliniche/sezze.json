@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polimedicalgamma.it",
@@ -50,7 +53,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Medical Gamma Srl - Laboratorio Analisi Mediche",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.160066,
+  "lon": 9.70437,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "polospecialistico.it",
@@ -76,6 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.549755,
+  "lon": 13.032233,
+  "precisioneCoord": "comune"
  }
 ]

@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicomet.it",
@@ -49,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "my.seffiller.com",
@@ -82,7 +88,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "SEFFILLER",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.493758,
+  "lon": 11.343031,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiocoslovi.com",
@@ -107,6 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Clara Coslovi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Clara Coslovi, cognome dentro il dominio",
+  "lat": 45.711351,
+  "lon": 11.355359,
+  "precisioneCoord": "comune"
  }
 ]

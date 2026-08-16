@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Pastore, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Pastore, cognome dentro il dominio",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centro-di-medicinaplastica-ed-estetica-drmazzeiantonio.it",
@@ -86,7 +89,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dr. Begioni Medicina Estetica",
-  "tipoDichiarato": "LocalBusiness"
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drfrancescorusso.com",
@@ -117,7 +123,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dott. Francesco Russo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drvalerioscaranocatanzaro.it",
@@ -147,7 +156,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valerio Scarano, cognome dentro il dominio",
   "nomeStrutturato": "Dr. Valerio Scarano Catanzaro - Chirurgo estetico a Brindisi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "obiettivosalutetaranto.it",
@@ -206,7 +218,8 @@
   "nomeStrutturato": "OralMedica",
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "prontosalutetaranto.it",
@@ -351,6 +364,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio De Giovanni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.548816,
+  "lon": 17.08058,
+  "precisioneCoord": "comune"
  }
 ]

@@ -52,7 +52,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.700724,
+  "lon": 8.035779,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticastilema.it",
@@ -86,7 +89,10 @@
   "orari": [
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
   ],
-  "tipoDichiarato": "Organization Place"
+  "tipoDichiarato": "Organization Place",
+  "lat": 44.700724,
+  "lon": 8.035779,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticastudiorem.it",
@@ -113,6 +119,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.700724,
+  "lon": 8.035779,
+  "precisioneCoord": "comune"
  }
 ]

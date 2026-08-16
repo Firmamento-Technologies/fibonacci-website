@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "PTC",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "aurapoliambulatori.it",
@@ -54,7 +57,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Arphé Poliambulatorio",
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicovaltrompia.it",
@@ -87,7 +93,10 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:00",
    "Saturday 08:30-12:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "lat": 45.605184,
+  "lon": 10.216967,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "igeapoliambulatoribrescia.it",
@@ -111,6 +120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.77958,
+  "lon": 10.425873,
+  "precisioneCoord": "comune"
  }
 ]

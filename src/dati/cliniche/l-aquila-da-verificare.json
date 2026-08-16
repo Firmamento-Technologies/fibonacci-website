@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sensazionidibenessere.it",
@@ -52,6 +55,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
   "nomeStrutturato": "Sensazioni di Benessere - Centro Estetico L'Aquila",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.136885,
+  "lon": 13.610341,
+  "precisioneCoord": "comune"
  }
 ]

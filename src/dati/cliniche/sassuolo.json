@@ -27,7 +27,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "AUSL Modena",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.538473,
+  "lon": 10.935961,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "beautyclub.mo.it",
@@ -57,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Beauty Club",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centrokos.it",
@@ -83,7 +89,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drcolombelli.it",
@@ -115,7 +124,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-13:00 / 14:00",
    "Saturday 14:00-20:00"
-  ]
+  ],
+  "lat": 45.513975,
+  "lon": 9.456252,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "drssainespiumi.com",
@@ -142,7 +154,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "emiliaromagnashopping.it",
@@ -166,7 +181,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.416148,
+  "lon": 11.97655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "ospedalesassuolo.it",
@@ -194,7 +212,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Ospedale di Sassuolo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pincellitruzzi.it",
@@ -222,7 +243,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Pincelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Pincelli, cognome dentro il dominio",
+  "lat": 44.540977,
+  "lon": 10.782902,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "simecongress.com",

@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.838384,
+  "lon": 12.83105,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "farmaciagenovese.it",
@@ -54,7 +57,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Farmacia Genovese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.838384,
+  "lon": 12.83105,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicosalus.it",
@@ -89,6 +95,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Medicina Estetica Salus Genovese",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.883422,
+  "lon": 13.02679,
+  "precisioneCoord": "comune"
  }
 ]

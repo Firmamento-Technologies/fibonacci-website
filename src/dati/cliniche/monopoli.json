@@ -24,7 +24,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sebastiano Pugliese, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sebastiano Pugliese, cognome dentro il dominio",
+  "lat": 40.952237,
+  "lon": 17.299948,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lucea-multimedica.it",
@@ -55,7 +58,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 40.952237,
+  "lon": 17.299948,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicina11.it",
@@ -82,7 +88,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Gutener Medical",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.952237,
+  "lon": 17.299948,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosanmatteo.it",
@@ -108,6 +117,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.125784,
+  "lon": 16.862029,
+  "precisioneCoord": "comune"
  }
 ]

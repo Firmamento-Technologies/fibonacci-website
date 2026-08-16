@@ -30,7 +30,8 @@
   "lat": 45.536187,
   "lon": 9.23752,
   "tipoDichiarato": "Place",
-  "nomeStrutturato": "B Cosmetics Beauty Clinic"
+  "nomeStrutturato": "B Cosmetics Beauty Clinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centrobiomedica.it",
@@ -59,7 +60,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Biomedica - Odontoiatria a Sesto San Giovanni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clisalgi.com",
@@ -90,7 +94,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 45.4668,
+  "lon": 9.1905,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "floritamaria.com",
@@ -115,7 +122,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Florita, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Florita, e il dominio lo ripete",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticacss.it",
@@ -148,7 +158,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pedesini.com",
@@ -180,7 +193,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Medico Pedesini",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 46.702743,
+  "lon": 12.350544,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioferrario.com",
@@ -216,7 +232,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:00",
    "Saturday, Sunday 00:00-00:00"
   ],
-  "tipoDichiarato": "Organization Place Dentist"
+  "tipoDichiarato": "Organization Place Dentist",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "poliambulatoriosangiovanni.it",
@@ -249,7 +266,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio San Giovanni",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.218894,
+  "lon": 12.27858,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "starofservice.it",
@@ -305,6 +325,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.535722,
+  "lon": 9.237655,
+  "precisioneCoord": "comune"
  }
 ]

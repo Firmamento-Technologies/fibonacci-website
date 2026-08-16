@@ -58,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabiana Mirizio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabiana Mirizio, e il dominio lo ripete",
+  "lat": 36.820499,
+  "lon": 14.952628,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "lauracavarra.com",

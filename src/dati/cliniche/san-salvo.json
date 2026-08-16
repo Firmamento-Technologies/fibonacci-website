@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro TFM",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.916634,
+  "lon": 14.526722,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "laboratoriogram.it",
@@ -53,7 +56,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "LABORATORIO ANALISI CLINICHE GRAM",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.12434,
+  "lon": 14.705923,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pianetasaluteebellezza.it",
@@ -82,6 +88,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization",
+  "lat": 41.916634,
+  "lon": 14.526722,
+  "precisioneCoord": "comune"
  }
 ]

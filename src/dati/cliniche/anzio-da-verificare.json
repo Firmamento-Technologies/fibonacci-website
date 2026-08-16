@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "eleonoracasilli.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticanefertari.com",
@@ -80,7 +86,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.447101,
+  "lon": 12.628562,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalsangallo.it",

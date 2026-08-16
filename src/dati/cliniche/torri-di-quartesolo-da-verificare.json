@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Clinica Dentale",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.472122,
+  "lon": 11.44697,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriosalutaria.net",

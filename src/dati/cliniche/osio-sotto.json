@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.616078,
+  "lon": 9.589053,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiberruti.it",
@@ -56,6 +59,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Berruti, cognome dentro il dominio",
   "nomeStrutturato": "Studi Berruti",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.89332,
+  "lon": 12.482932,
+  "precisioneCoord": "comune"
  }
 ]

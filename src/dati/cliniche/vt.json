@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoambra.it",
@@ -49,7 +52,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicobartoleschi.it",
@@ -78,7 +84,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Bartoleschi",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.537925,
+  "lon": 12.030997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicosantarosa.it",
@@ -108,7 +117,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Santa Rosa",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "domusmulieris.it",
@@ -194,7 +206,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Sbano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Sbano, e il dominio lo ripete",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "pegasusviterbo.it",
@@ -313,6 +328,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DENTISTA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 42.493689,
+  "lon": 11.945068,
+  "precisioneCoord": "comune"
  }
 ]

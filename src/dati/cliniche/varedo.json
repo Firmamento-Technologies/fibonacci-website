@@ -31,7 +31,8 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00",
    "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-19:00"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "centromedicosangiorgio.com",
@@ -57,7 +58,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.002595,
+  "lon": 10.351963,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "smartclinic.it",
@@ -83,6 +87,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.40726,
+  "lon": 8.933862,
+  "precisioneCoord": "comune"
  }
 ]

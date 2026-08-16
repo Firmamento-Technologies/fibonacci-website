@@ -22,7 +22,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.66187,
+  "lon": 10.195876,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sevenvalley.it",
@@ -49,7 +52,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "I dentisti vicino a te",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.66187,
+  "lon": 10.195876,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "tulamed.it",
@@ -82,6 +88,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.939476,
+  "lon": 9.14941,
+  "precisioneCoord": "comune"
  }
 ]

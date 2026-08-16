@@ -21,7 +21,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.634859,
+  "lon": 11.406354,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "linktr.ee",
@@ -51,7 +54,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.408342,
+  "lon": 11.567659,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticomarchesin.it",
@@ -86,6 +92,7 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday 09:00-18:30",
    "Friday 09:00-14:30"
-  ]
+  ],
+  "precisioneCoord": "civico"
  }
 ]

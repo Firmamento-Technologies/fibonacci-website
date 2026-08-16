@@ -28,7 +28,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Garibaldi Gattinara Vercelli",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.614242,
+  "lon": 8.371138,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cmigea.com",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressa-marianna-tagliabue.it",
@@ -91,7 +97,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Dottoressa Marianna Tagliabue",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "federicovillani.it",
@@ -147,7 +156,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Istituto Bellezza Patrizia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "istitutosalus.eu",
@@ -173,7 +185,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mudrabeautyspa.com",
@@ -206,7 +221,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Mudra Beauty SPA",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "skinateliervercelli.it",
@@ -237,6 +255,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Skin Atelier",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.555383,
+  "lon": 8.346284,
+  "precisioneCoord": "comune"
  }
 ]

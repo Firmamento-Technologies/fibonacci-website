@@ -57,6 +57,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "La Perla Centro Benessere",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.416787,
+  "lon": 9.398241,
+  "precisioneCoord": "comune"
  }
 ]

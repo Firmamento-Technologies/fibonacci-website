@@ -24,7 +24,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Linpha srl",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.599069,
+  "lon": 9.884966,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriogaleno.it",
@@ -50,7 +53,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Poliambulatorio Galeno",
-  "tipoDichiarato": "MedicalOrganization"
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.220864,
+  "lon": 10.037038,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodentisticorossiclaudio.com",
@@ -78,7 +84,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossi Claudio, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossi Claudio, cognome dentro il dominio",
+  "lat": 45.599069,
+  "lon": 9.884966,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiovavassori.it",
@@ -105,6 +114,9 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ugo Vavassori, cognome dentro il dominio",
   "nomeStrutturato": "Studio Dentistico Vavassori",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.599069,
+  "lon": 9.884966,
+  "precisioneCoord": "comune"
  }
 ]

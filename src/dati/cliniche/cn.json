@@ -25,7 +25,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticoeos.it",
@@ -54,7 +57,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centromedicoeuropeo.it",
@@ -84,7 +90,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Centro Medico Europeo",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "cuneocronaca.it",
@@ -173,7 +182,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "MEDICAGE®",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 44.644037,
+  "lon": 7.655929,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicalcenter.cn.it",
@@ -199,7 +211,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.697678,
+  "lon": 7.854271,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "mgodontoiatria.it",
@@ -233,7 +248,8 @@
    "Monday,Tuesday,Wednesday,Thursday,Friday 8:30-19:00",
    "Saturday 8:30-12:30",
    "Sunday Chiuso"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "ospedale.cuneo.it",
@@ -259,7 +275,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorisangaetano.it",
@@ -293,7 +312,8 @@
   "orari": [
    "Mo, Tu, We, Th, Fr 06:45-20:30 Sa 06:45-12:30"
   ],
-  "tipoDichiarato": "MedicalClinic"
+  "tipoDichiarato": "MedicalClinic",
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "spazioessenza.it",
@@ -323,7 +343,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "spaziomedico-lilium.it",
@@ -347,6 +370,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.45807,
+  "lon": 7.558137,
+  "precisioneCoord": "comune"
  }
 ]

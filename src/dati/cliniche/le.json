@@ -28,7 +28,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicachirurgiaplastica.it",
@@ -57,7 +60,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.091623,
+  "lon": 18.299629,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "coricciatimedicalgroup.it",
@@ -91,7 +97,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.203621,
+  "lon": 18.30198,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dariocappiello.com",
@@ -125,7 +134,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dario Cappiello, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dario Cappiello, e il dominio lo ripete",
+  "lat": 40.636227,
+  "lon": 17.688501,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologiamyskin.it",
@@ -181,7 +193,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "DM Clinic Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressacassanomedicinaestetica.com",
@@ -215,7 +230,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottoressaventura.it",
@@ -244,7 +262,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Virginia Ventura, cognome dentro il dominio",
   "nomeStrutturato": "Dott.ssa Virginia Ventura",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "esteticamedicalecce.it",
@@ -302,7 +323,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marta Maci, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marta Maci, e il dominio lo ripete",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticadesimone.com",
@@ -329,7 +353,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
   "nomeStrutturato": "Dr. Christian De Simone - Medicina estetica a Lecce",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.174278,
+  "lon": 18.167839,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticaserafini.it",
@@ -360,7 +387,10 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
   ],
-  "tipoDichiarato": "MedicalClinic Organization"
+  "tipoDichiarato": "MedicalClinic Organization",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "rotrix.it",
@@ -388,7 +418,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Rotrix Centro Medico",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.118463,
+  "lon": 18.298853,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicinaestetica.com",
@@ -419,6 +452,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.152217,
+  "lon": 18.226063,
+  "precisioneCoord": "comune"
  }
 ]

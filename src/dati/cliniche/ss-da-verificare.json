@@ -25,7 +25,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "ASL Sassari",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticomarialaura.it",
@@ -53,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "delitalaestetica.it",
@@ -84,7 +90,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Delitala Estetica",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dermatologosassarifresi.com",
@@ -210,7 +219,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "medicinaesteticalubellisassari.it",
@@ -269,7 +281,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "ASL Sassari",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sassari.bakeca.it",
@@ -298,7 +313,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologicoamadu.it",
@@ -328,7 +346,10 @@
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Studio Dermatologico Valentina Amadu",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiodermatologicofenu.it",
@@ -358,7 +379,10 @@
   ],
   "lettoIl": "2026-08-16",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.7778,
+  "lon": 8.921997,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "unifind.uniss.it",

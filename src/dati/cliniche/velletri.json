@@ -23,7 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "artemisialabmedicinaestetica.it",
@@ -80,7 +83,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "centroesteticovelletri.it",
@@ -107,7 +113,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "clinicamadonnadellegrazie.it",
@@ -135,7 +144,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Clinica Madonna delle Grazie",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dentistaammendolia.it",
@@ -166,7 +178,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Studio Odontoiatrico Dentista Ammendolia",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "dottorclaudioravagli.it",
@@ -202,7 +217,8 @@
   "orari": [
    "Mo-Fr 09:30-19:30",
    "Sa 10:00-18:00"
-  ]
+  ],
+  "precisioneCoord": "civico"
  },
  {
   "dominio": "fabriziosassi.it",
@@ -228,7 +244,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Sassi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Sassi, e il dominio lo ripete",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatorioleonardovelletri.it",
@@ -254,7 +273,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriomedicovelletri.it",
@@ -282,7 +304,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "poliambulatoriominerva.com",
@@ -308,7 +333,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "studiomedicodottoressalucchesi.it",
@@ -341,7 +369,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Christiana Lucchesi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Christiana Lucchesi, cognome dentro il dominio",
+  "lat": 41.686702,
+  "lon": 12.777043,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "vetrinelaziali.it",
@@ -369,6 +400,9 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Il Territorio online",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 41.459526,
+  "lon": 13.012591,
+  "precisioneCoord": "comune"
  }
 ]

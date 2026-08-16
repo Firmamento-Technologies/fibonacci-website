@@ -26,7 +26,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.236934,
+  "lon": 13.93473,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "btmed.it",

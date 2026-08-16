@@ -56,7 +56,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.339838,
+  "lon": 8.509353,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "fisiomedpriverno.it",
@@ -88,6 +91,9 @@
   "orari": [
    "Monday,Tuesday,Wednesday,Thursday,Friday 07:00-20:30",
    "Saturday 07:00-12:30"
-  ]
+  ],
+  "lat": 41.472616,
+  "lon": 13.179839,
+  "precisioneCoord": "comune"
  }
 ]

@@ -25,7 +25,10 @@
   "escluso": false,
   "motivoEsclusione": "",
   "nomeStrutturato": "Lemi MD",
-  "tipoDichiarato": "Organization"
+  "tipoDichiarato": "Organization",
+  "lat": 45.245645,
+  "lon": 9.973919,
+  "precisioneCoord": "comune"
  },
  {
   "dominio": "sinage.it",
