@@ -46,7 +46,11 @@ DISTURBI = (
     r"\b(rughe?|grinze|solchi|zampe\s+di\s+gallina|codice\s+a\s+barre)\b",
     r"\b(acne|brufoli|foruncoli|comedoni|punti\s+neri)\b",
     r"\b(cicatric\w+|smagliature|cheloid\w+)\b",
-    r"\b(macchi\w+|melasma|discromi\w+|iperpigmentaz\w+)\b",
+    # ⚠️ **`macchi\\w+` prendeva «macchina»**, e ha fatto respingere
+    # «la macchina che leviga la pelle» — una richiesta **legittima**.
+    # ⇒ un filtro troppo largo ⛔ non è «più sicuro»: **nega il servizio** a chi
+    # aveva tutto il diritto di riceverlo, e lo fa in silenzio.
+    r"\b(macchi[ae]|macchiat\w+|melasma|discromi\w+|iperpigmentaz\w+)\b",
     r"\b(couperose|rosacea|capillari|teleangectasi\w+)\b",
     r"\b(cellulite|adiposit\w+|pannicolo|buccia\s+d.arancia)\b",
     r"\b(calvizie|alopecia|dirad\w+|perdo\s+i\s+capelli|caduta\s+dei\s+capelli)\b",
