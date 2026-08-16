@@ -3,6 +3,8 @@ import { Reveal, RevealGruppo, RevealFiglio } from '@/components/ui/Reveal'
 import { Occhiello, Foto, TestaSezione, Freccia } from '@/components/ui/elementi'
 import { ProvaCatalogoConsensi } from '@/components/home/ProvaCatalogoConsensi'
 import { ProvaComplicanze } from '@/components/home/ProvaComplicanze'
+import { Bollini } from '@/components/Bollini'
+import { BOLLINI_HOME } from '@/lib/bollini'
 
 /* ══════════════════════════════════════════════════════════════════════════
    IL PROBLEMA, DETTO COME LO VIVE LUI
@@ -385,6 +387,52 @@ export function Prove() {
             </RevealFiglio>
           ))}
         </RevealGruppo>
+      </div>
+    </section>
+  )
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   GARANZIE — i bollini, e accanto a ognuno come si controlla
+   ══════════════════════════════════════════════════════════════════════════
+
+   Sta dopo «Come si controlla» e non prima, perché è il gradino successivo:
+   là si dice che non chiediamo un atto di fede, qui si mostrano le garanzie
+   una per una con la fonte accanto.
+
+   ⛔ I quattro bollini scelti in `BOLLINI_HOME` NON ripetono le tre prove
+   della sezione precedente: là il verificatore, i contratti e i limiti; qui
+   la giurisdizione, la filiera, il codice di condotta e l'obbligo del 2029.
+   Se un giorno le due sezioni cominciassero a dire la stessa cosa, se ne
+   toglie una: due sezioni che si ripetono valgono meno di una sola. */
+
+export function Garanzie() {
+  return (
+    <section className="fascia" id="garanzie">
+      <div className="gabbia">
+        <Reveal className="passo">
+          <TestaSezione
+            occhiello="Il valore legale"
+            titolo={
+              <>
+                Il dato resta in Italia, e la <span className="accento-corsivo">prova</span> è
+                accanto a ogni riga
+              </>
+            }
+            sommario="Si controllano dall’esterno, senza chiedere il permesso a noi. Compresa la terza, che non abbiamo perché oggi non ce l’ha nessuno."
+          />
+        </Reveal>
+
+        <div className="passo mt-[var(--s-34)]">
+          <Bollini ids={BOLLINI_HOME} />
+
+          <Reveal>
+            <Link href="/conformita-europea" className="link-avanti mt-[var(--s-21)]">
+              Tutte e nove, con gli articoli citati
+              <Freccia />
+            </Link>
+          </Reveal>
+        </div>
       </div>
     </section>
   )

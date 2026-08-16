@@ -188,12 +188,35 @@ export const SITE_URL = dominio
   : 'https://firmamento-technologies.github.io/fibonacci-website'
 
 /** Dove stanno fisicamente i dati clinici. Detto per esteso perché è una
- *  delle prime tre domande di ogni medico prudente, e perché scrivere
- *  «in Italia» sarebbe falso. */
+ *  delle prime tre domande di ogni medico prudente.
+ *
+ * 🔴 **CORRETTO il 2026-08-16, e diceva il fornitore sbagliato.** Fino a
+ * questa revisione qui c'era «Hetzner Online GmbH · Falkenstein, Germania»,
+ * con il commento «scrivere *in Italia* sarebbe falso». Era vero fino al
+ * 10 agosto; **dall'11 la macchina è un'altra** e nessuno aveva corretto né
+ * questo file né i quattro documenti legali che lo ripetono.
+ *
+ * Misurato, ⛔ non dedotto:
+ *   dig +short fibonaccimedica.it     → 188.213.175.26
+ *   dig +short app.fibonaccimedica.it → 188.213.175.26
+ *   whois 188.213.175.26              → netname ARUBA-NET · Aruba S.p.A.
+ *                                        country **IT**
+ *
+ * ⇒ l'ospitante è **italiano**, e la riga che si scusava di non esserlo
+ * diceva l'opposto del vero. ⚠️ La correzione non è cosmetica: l'elenco dei
+ * sub-responsabili ex art. 28.2 GDPR deve nominare il soggetto **reale**, e
+ * un consulente che confronta il DPA con un `whois` trova la discordanza in
+ * trenta secondi.
+ *
+ * ⚠️ Quello che qui NON si afferma: **quale** data center Aruba. Il registro
+ * RIPE dà il paese, non la sala; la sede legale nel `whois` è l'anagrafica
+ * della società, non l'ubicazione della macchina. Il nome del data center va
+ * letto dal pannello Aruba e scritto **allora**, non adesso. */
 export const OSPITALITA = {
-  fornitore: 'Hetzner Online GmbH',
-  luogo: 'Falkenstein, Germania',
-  area: 'Spazio economico europeo',
+  fornitore: 'Aruba S.p.A.',
+  luogo: 'Italia',
+  /** Si innesta dopo «dentro», quindi porta con sé il proprio articolo. */
+  area: "l'Unione europea",
 } as const
 
 /** La pre-anamnesi facoltativa nel modulo di prenotazione. — TD-123

@@ -23,7 +23,10 @@ export const metadata: Metadata = {
 const DOMANDE = [
   {
     d: 'Dove stanno fisicamente i dati?',
-    r: `Su server di ${OSPITALITA.fornitore}, a ${OSPITALITA.luogo}, quindi dentro lo ${OSPITALITA.area}. Non su cloud statunitensi, e senza repliche fuori dall’Unione. Se ti aspettavi «in Italia»: non è così, ed è meglio dirlo che scriverlo a caratteri piccoli.`,
+    /* ⚠️ Questa risposta diceva il contrario fino al 2026-08-16: nominava un
+       fornitore tedesco e si scusava che «in Italia» sarebbe stato falso.
+       Era vero fino al 10 agosto. Vedi il commento su `OSPITALITA`. */
+    r: `Su server di ${OSPITALITA.fornitore}, in ${OSPITALITA.luogo}, quindi dentro ${OSPITALITA.area}. Non su cloud statunitensi, e senza repliche fuori dall’Unione: la filiera clinica non lascia il territorio europeo in nessun passaggio. Non devi crederci sulla parola: l’indirizzo del sito è pubblico e un «whois» te lo dice in trenta secondi, anche contro di noi.`,
   },
   {
     d: 'Chi è il titolare del trattamento?',

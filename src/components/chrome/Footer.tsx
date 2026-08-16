@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
+import { BolliniPiede } from '@/components/Bollini'
 import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, SIGNUP_URL } from '@/lib/site-config'
 
 const COLONNE = [
@@ -11,6 +12,7 @@ const COLONNE = [
       { href: '/che-software-serve', testo: 'Che software serve' },
       { href: '/autovalutazione', testo: 'La tua documentazione regge?' },
       { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
+      { href: '/conformita-europea', testo: 'Conformità europea' },
       { href: '/verifica', testo: 'Verifica un documento' },
       { href: '/integrazioni', testo: 'Integrazioni' },
       { href: '/prezzi', testo: 'Prezzi' },
@@ -42,6 +44,13 @@ export function Footer() {
   return (
     <footer className="scuro" style={{ paddingTop: 'var(--s-89)', paddingBottom: 'var(--s-55)' }}>
       <div className="gabbia">
+        {/* Le norme, in cima al piè di pagina e non in fondo: su ogni pagina
+            del sito, e nel punto in cui chi cerca «e la conformità?» guarda
+            per primo. Il contenuto sta in `src/lib/bollini.ts`. */}
+        <BolliniPiede />
+
+        <hr className="filetto" style={{ marginBottom: 'var(--s-55)' }} />
+
         <div className="grid gap-[var(--s-55)]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))' }}>
           <div style={{ minWidth: 0 }}>
             <Logo chiaro />

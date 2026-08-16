@@ -28,23 +28,26 @@ Il presente documento costituisce l'**Allegato B** dell'Accordo per il Trattamen
 
 I sub-responsabili attualmente autorizzati alla data di ultima revisione del presente documento sono i seguenti.
 
-### 2.1. Hetzner Online GmbH
+### 2.1. Aruba S.p.A.
 
-- **Denominazione legale**: Hetzner Online GmbH
-- **Sede legale**: Industriestr. 25, 91710 Gunzenhausen, Germania
-- **Categoria di servizio**: hosting infrastruttura applicativa, database relazionale PostgreSQL, Object Storage per fotografie cliniche cifrate, esecuzione di backup periodici off-site
+- **Denominazione legale**: Aruba S.p.A.
+- **Sede legale**: Via San Clemente 53, 24036 Ponte San Pietro (BG), Italia
+- **Categoria di servizio**: hosting dell'infrastruttura applicativa, database relazionale PostgreSQL, archiviazione delle fotografie cliniche cifrate, esecuzione dei backup periodici
 - **Tipologia di dati trattati**: categorie particolari di dati ai sensi dell'art. 9 GDPR (dati sanitari, anamnesi, referti, prescrizioni), dati anagrafici dei pazienti, fotografie cliniche. Tutti i dati a riposo sono cifrati con algoritmo AES-256; le chiavi di cifratura sono gestite dal Responsabile e non sono nella disponibilità del fornitore
-- **Localizzazione del trattamento**: datacenter di Falkenstein (FSN1), Germania, Unione Europea
+- **Localizzazione del trattamento**: infrastruttura del fornitore su rete italiana. Il blocco di indirizzi che ospita il Servizio è registrato nel database RIPE come `ARUBA-NET`, Aruba S.p.A., paese **IT**: la verifica è alla portata di chiunque, con una interrogazione `whois` sull'indirizzo pubblico del Servizio
 - **Base giuridica del trasferimento**: trattamento integralmente svolto all'interno del territorio dell'Unione Europea; non si configura alcun trasferimento di dati verso paesi terzi ai sensi del Capo V del GDPR
-- **Privacy policy del fornitore**: [https://www.hetzner.com/legal/privacy-policy](https://www.hetzner.com/legal/privacy-policy)
-- **DPA del fornitore**: [https://www.hetzner.com/legal/order-processing/](https://www.hetzner.com/legal/order-processing/)
-- **Note operative**: il fornitore opera in qualità di mero infrastructure provider; non ha accesso applicativo né logico ai dati clinici, che risiedono in volumi cifrati la cui chiave è esclusivamente nella disponibilità del Responsabile
+- **Garanzie dichiarate dal fornitore**: certificazione **ISO/IEC 27001** e adesione al **CISPE Data Protection Code of Conduct for Cloud Infrastructure Service Providers**, codice di condotta ai sensi dell'**art. 40 GDPR** approvato dalla CNIL francese nel 2021, che opera quale autorità di controllo designata per il codice. L'iscrizione del fornitore è verificabile nel registro pubblico CISPE
+- **Privacy policy del fornitore**: [https://www.aruba.it/documents/tc-files/it/11_it_privacy_policy_aruba_spa.aspx](https://www.aruba.it/documents/tc-files/it/11_it_privacy_policy_aruba_spa.aspx)
+- **Informativa GDPR del fornitore**: [https://www.aruba.it/gdpr-regolamento-europeo-privacy.aspx](https://www.aruba.it/gdpr-regolamento-europeo-privacy.aspx)
+- **Registro pubblico CISPE**: [https://cispe.cloud/publicregister/](https://cispe.cloud/publicregister/)
+- **Note operative**: il fornitore opera in qualità di mero fornitore di infrastruttura; non ha accesso applicativo né logico ai dati clinici, che risiedono in volumi cifrati la cui chiave è esclusivamente nella disponibilità del Responsabile
+- ⚠️ **Da completare**: la nomina scritta a sub-responsabile ex art. 28.3 GDPR con questo fornitore è in corso di formalizzazione insieme alla costituzione della società titolare del Servizio. Fino ad allora questa voce descrive l'assetto tecnico verificato, non un rapporto contrattuale già perfezionato
 
 ### 2.2. Hostinger International Ltd
 
 - **Denominazione legale**: Hostinger International Ltd
 - **Sede legale**: 61 Lordou Vironos str., 6023 Larnaca, Cipro
-- **Categoria di servizio**: recapito di email transazionali tramite server SMTP autenticato, ivi incluse conferme e promemoria di appuntamento, notifiche di sistema, consegna di documenti in allegato e comunicazioni relative al primo accesso
+- **Categoria di servizio**: recapito di email transazionali tramite server SMTP autenticato, ivi incluse conferme e promemoria di appuntamento, notifiche di sistema, consegna di documenti in allegato e comunicazioni relative al primo accesso; **DNS autoritativo** per il dominio del Servizio e i relativi sottodomini
 - **Tipologia di dati trattati**: indirizzo email del destinatario, nominativo del destinatario, contenuto testuale del messaggio, eventuali documenti allegati, log tecnici di invio. **Non riceve dati sanitari di dettaglio clinico nel corpo del messaggio**; i testi sono limitati a informazioni operative (data, ora, sede dell'appuntamento) e a comunicazioni di servizio
 - **Localizzazione del trattamento**: fornitore stabilito nell'Unione Europea (Cipro). L'ubicazione dei server di posta dipende dal piano sottoscritto e va verificata nel pannello del fornitore
 - **Base giuridica del trasferimento**: per eventuali trattamenti al di fuori dello Spazio economico europeo si applicano le Clausole contrattuali tipo richiamate dal Data Processing Addendum del fornitore, che è parte integrante dei termini di servizio accettati
@@ -62,7 +65,7 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 - **Base giuridica del trasferimento**: trattamento svolto all'interno del territorio dell'Unione Europea
 - **Privacy policy del fornitore**: [https://mistral.ai/terms/#privacy-policy](https://mistral.ai/terms/#privacy-policy)
 - **DPA del fornitore**: condizioni enterprise di Mistral AI, sottoscritte dal Responsabile al momento dell'attivazione del servizio; copia disponibile su richiesta scritta del Titolare
-- **Note operative**: l'audio non è persistito dal fornitore oltre il tempo strettamente necessario al completamento della trascrizione (retention zero). Il Responsabile ha selezionato la configurazione contrattuale che esclude l'utilizzo dell'input dei clienti API per l'addestramento dei modelli (opt-out training), in assenza di opt-in esplicito. Il testo trascritto restituito dal servizio è immediatamente trasferito nell'infrastruttura del Responsabile presso Hetzner e non resta in carico al fornitore
+- **Note operative**: l'audio non è persistito dal fornitore oltre il tempo strettamente necessario al completamento della trascrizione (retention zero). Il Responsabile ha selezionato la configurazione contrattuale che esclude l'utilizzo dell'input dei clienti API per l'addestramento dei modelli (opt-out training), in assenza di opt-in esplicito. Il testo trascritto restituito dal servizio è immediatamente trasferito nell'infrastruttura del Responsabile di cui al punto 2.1 e non resta in carico al fornitore
 
 ### 2.4. Stripe Payments Europe Limited
 
@@ -76,17 +79,15 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 - **DPA del fornitore**: [https://stripe.com/it/legal/dpa](https://stripe.com/it/legal/dpa)
 - **Note operative**: la filiera di pagamento è segregata dalla filiera clinica; il riconciliamento tra abbonamento e tenant Fibonacci avviene per identificativo opaco che non veicola dati clinici
 
-### 2.5. Cloudflare, Inc.
+---
 
-- **Denominazione legale**: Cloudflare, Inc.
-- **Sede legale**: 101 Townsend Street, San Francisco, CA 94107, Stati Uniti d'America
-- **Categoria di servizio**: DNS autoritativo per il dominio `{URL_SITO}` ed i relativi sottodomini, proxy HTTPS, rete di distribuzione di contenuti (CDN) per gli asset statici dell'applicazione, protezione contro attacchi distribuiti (DDoS), Web Application Firewall (WAF)
-- **Tipologia di dati trattati**: metadati di traffico (indirizzo IP del visitatore, header HTTP, URL richiesto, user agent, timestamp). **Non riceve dati clinici in chiaro**: il traffico HTTPS è cifrato end-to-end con protocollo TLS 1.3 sino al backend ubicato presso Hetzner in Germania. Cloudflare opera come proxy di rete senza decifrare i contenuti applicativi sensibili
-- **Localizzazione del trattamento**: rete globale Cloudflare con punti di presenza (POP) distribuiti su scala mondiale; per il traffico originato da utenti europei è prioritizzato l'utilizzo di POP situati nell'Unione Europea
-- **Base giuridica del trasferimento**: clausole contrattuali tipo della Commissione UE di cui alla Decisione 2021/914 (modulo Titolare-Responsabile e, ove applicabile, modulo Responsabile-Sub-responsabile), integrate da misure supplementari di natura tecnica, organizzativa e contrattuale conformi alle Raccomandazioni 01/2020 dell'EDPB. Le misure supplementari includono in particolare la cifratura TLS end-to-end fra client e backend, l'assenza strutturale di esposizione in chiaro dei dati sanitari verso il fornitore e la configurazione del prodotto Cloudflare in modalità "proxy only" per i sottodomini applicativi
-- **Privacy policy del fornitore**: [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/)
-- **DPA del fornitore**: [https://www.cloudflare.com/cloudflare-customer-dpa/](https://www.cloudflare.com/cloudflare-customer-dpa/)
-- **Note operative**: il fornitore non riceve in nessun caso il contenuto delle cartelle cliniche, delle fotografie, dei referti o di qualsiasi altra informazione sanitaria, in quanto la cifratura TLS rimane integra fra il browser del Titolare ed il backend in Germania; i dati a disposizione del fornitore sono limitati a metadati di rete necessari al routing e alla protezione del traffico
+## 2-bis. Soggetti che NON intervengono nella filiera
+
+Questo paragrafo elenca ciò che **non** c'è. Serve perché l'assenza di un intermediario è essa stessa una garanzia, e perché una versione precedente del presente Allegato dichiarava un sub-responsabile che il Servizio non utilizza.
+
+**Nessuna rete di distribuzione di contenuti (CDN), nessun proxy inverso di terze parti, nessun Web Application Firewall gestito da terzi.** Il dominio del Servizio risolve **direttamente** sull'indirizzo dell'infrastruttura di cui al punto 2.1: fra il browser dell'utente e il backend non si interpone alcun soggetto ulteriore, e non esiste alcun punto in cui un terzo termini la connessione cifrata. La circostanza è verificabile dall'esterno con una interrogazione DNS sul dominio del Servizio.
+
+**Conseguenza sul Capo V del GDPR**: la filiera che tratta i dati clinici non comprende alcun fornitore soggetto a giurisdizione extra-europea. Gli unici trasferimenti verso paesi terzi residui riguardano la filiera dei pagamenti di cui al punto 2.4, che **non tratta dati dei pazienti**.
 
 ---
 
@@ -114,6 +115,7 @@ I sub-responsabili attualmente autorizzati alla data di ultima revisione del pre
 | --- | --- | --- |
 | 1.0 | {ULTIMA_REVISIONE} | Prima pubblicazione dell'elenco nominativo dei sub-responsabili del trattamento, comprensivo di Hetzner Online GmbH, Hostinger International Ltd, Mistral AI SAS, Stripe Payments Europe Limited e Cloudflare, Inc. |
 | 1.1 | {ULTIMA_REVISIONE} | Sostituzione di Brevo SAS con Hostinger International Ltd quale sub-responsabile per il recapito delle email transazionali: il servizio non si avvale più di una piattaforma di email marketing esterna e recapita tramite il server SMTP autenticato del fornitore della casella di posta. |
+| 2.0 | {ULTIMA_REVISIONE} | **Correzione dell'ospitante e cancellazione di un sub-responsabile mai utilizzato.** (a) Hetzner Online GmbH (Falkenstein, Germania) è sostituita da **Aruba S.p.A.** (Italia), che è il soggetto presso cui l'infrastruttura risiede effettivamente: la verifica è stata condotta risolvendo il dominio del Servizio e interrogando il registro RIPE dell'indirizzo risultante. (b) **Cloudflare, Inc. è rimossa**: il Servizio non si avvale di alcuna rete di distribuzione di contenuti né di alcun proxy di terze parti, e il dominio risolve direttamente sull'infrastruttura di cui al punto 2.1. Ne consegue che la filiera che tratta i dati dei pazienti non comprende più alcun trasferimento verso paesi terzi. (c) Il DNS autoritativo è ricondotto a Hostinger International Ltd, che lo eroga in via di fatto. |
 
 ---
 

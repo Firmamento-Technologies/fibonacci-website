@@ -11,9 +11,9 @@
     },
     {
       "pagina": "/",
-      "tappa": "tappa-13",
+      "tappa": "tappa-14",
       "px": 1009,
-      "perche": "I tre piani affiancati. Le colonne sono confrontabili solo se stanno insieme: metterne due su una schermata e uno sull'altra è peggio che scorrere di 250px."
+      "perche": "I tre piani affiancati. Le colonne sono confrontabili solo se stanno insieme: metterne due su una schermata e uno sull'altra è peggio che scorrere di 250px. ⚠️ Era `tappa-13` fino al 2026-08-16: rinumerata dall'inserimento di «Garanzie» al posto 13, NON perché la sezione sia cambiata."
     },
     {
       "pagina": "/",
@@ -35,9 +35,9 @@
     },
     {
       "pagina": "/",
-      "tappa": "tappa-16",
+      "tappa": "tappa-17",
       "px": 861,
-      "perche": "La chiusura con i quattro campi del modulo. Il modulo non si spezza."
+      "perche": "La chiusura con i quattro campi del modulo. Il modulo non si spezza. ⚠️ Era `tappa-16` fino al 2026-08-16, e prima ancora `tappa-15`: è la TERZA rinumerazione della stessa sezione, che non è mai cambiata di un pixel. Vedi `_fragilita_nota`."
     }
   ],
   "telefono_fuori_misura": 2,

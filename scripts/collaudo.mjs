@@ -145,6 +145,10 @@ if (GUIDE.length === 0) {
 
 const PAGINE = [
   '/', '/come-funziona', '/consensi-informati', '/prezzi', '/sicurezza-e-dati',
+  /* ⚠️ Aggiunta il 2026-08-16 insieme alla pagina: una pagina fuori da questo
+     elenco non è collaudata da nessuno, e il cancello resta verde. Stessa
+     dimenticanza già corretta in `altezza-pagine.mjs`. */
+  '/conformita-europea',
   '/richiedi-una-demo', '/verifica', '/domande', '/intelligenza-artificiale',
   '/chi-siamo', '/privacy', '/cookie', '/dpa', '/termini',
   '/sub-responsabili', '/sicurezza',

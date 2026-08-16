@@ -4,7 +4,7 @@ import { Tappe } from '@/components/chrome/Tappe'
 import { Footer } from '@/components/chrome/Footer'
 import { Hero } from '@/components/home/Hero'
 import { DocumentoCheSiCompone } from '@/components/home/DocumentoCheSiCompone'
-import { Problema, Procedure, tappeCapacita, FotoCliniche, Prove, Obiezioni } from '@/components/home/sezioni'
+import { Problema, Procedure, tappeCapacita, FotoCliniche, Prove, Garanzie, Obiezioni } from '@/components/home/sezioni'
 import { Sigillo, Chiusura } from '@/components/home/Sigillo'
 import { Chiedi } from '@/components/home/Chiedi'
 import { OrganizationSchema, SoftwareApplicationSchema, WebSiteSchema } from '@/components/StructuredData'
@@ -26,6 +26,7 @@ export const metadata: Metadata = {
  *   Foto cliniche   il tema che gli studi risolvono peggio di tutti
  *   Sigillo         il culmine: la catena e il verificatore pubblico
  *   Prove           come si controlla tutto senza fidarsi di noi
+ *   Garanzie        i bollini: dove sta il dato e chi risponde, con le fonti
  *   Prezzi          tre piani, IVA dichiarata
  *   Obiezioni       le domande che farebbe un compratore prudente
  *   Chiusura        quattro campi
@@ -57,6 +58,11 @@ export default function Home() {
           <FotoCliniche />
           <Sigillo />
           <Prove />
+          {/* Le garanzie legali, subito dopo le prove tecniche e prima del
+              prezzo: chi sta valutando un gestionale sanitario porta la
+              domanda «e la conformità?» al consulente, e il consulente la
+              porta qui. */}
+          <Garanzie />
           <ListinoSintesi />
           <Obiezioni />
           {/* Dopo le domande che abbiamo previsto noi, la propria — e prima

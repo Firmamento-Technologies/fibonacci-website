@@ -38,7 +38,8 @@ const REVISIONE: Record<string, string> = {
   '/integrazioni': '2026-08-08',
   '/per-le-societa-scientifiche': '2026-08-08',
   '/prezzi': '2026-08-08',
-  '/sicurezza-e-dati': '2026-08-07',
+  '/sicurezza-e-dati': '2026-08-16',
+  '/conformita-europea': '2026-08-16',
   '/richiedi-una-demo': '2026-08-07',
   '/verifica': '2026-08-07',
   '/domande': '2026-08-07',
@@ -80,6 +81,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     pagina('/integrazioni', 0.6),
     pagina('/per-le-societa-scientifiche', 0.5),
     pagina('/sicurezza-e-dati', 0.85),
+    /* La conformità europea sta alta quanto sicurezza e dati: è la pagina che
+       intercetta chi cerca «gestionale sanitario GDPR» o «cartella clinica
+       EHDS», e risponde all'obiezione che un consulente porta per primo. */
+    pagina('/conformita-europea', 0.85),
     pagina('/richiedi-una-demo', 0.8),
     pagina('/verifica', 0.7),
     pagina('/domande', 0.7),

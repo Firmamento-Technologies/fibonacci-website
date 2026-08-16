@@ -17,6 +17,12 @@ const VOCI = [
   { href: '/come-funziona', testo: 'Come funziona' },
   { href: '/consensi-informati', testo: 'Consensi' },
   { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
+  /* ⚠️ La sesta voce, e il conto va tenuto d'occhio: la nota qui sopra cita
+     Butterick sui bordi di pagina infarciti di link. Sei è il tetto, non un
+     nuovo punto di partenza. Entra perché la conformità è l'obiezione che il
+     consulente porta per primo, e finora si raggiungeva solo dal piè di
+     pagina, cioè dopo aver deciso di cercarla. */
+  { href: '/conformita-europea', testo: 'Conformità' },
   { href: '/prezzi', testo: 'Prezzi' },
   { href: '/domande', testo: 'Domande' },
 ] as const

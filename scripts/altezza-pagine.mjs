@@ -57,8 +57,14 @@ const TOLLERANZA = 1.0
 
 /* Le pagine del percorso più quelle di vendita fuori percorso. ⛔ Fuori le
  * legali e le guide: sono testi integrali, non hanno tappe e non devono averle. */
+/* ⚠️ Elenco A MANO, e questa è la sua debolezza: una pagina nuova che non
+   viene aggiunta qui **non è misurata da nessuno** e il cancello resta verde.
+   È successo il 2026-08-16 con `/conformita-europea`, nata già dentro il
+   percorso (quindi con le tappe) e fuori da questa lista. ⇒ chi aggiunge una
+   pagina al percorso in `src/lib/percorso.ts` la aggiunge anche qui. */
 const PAGINE = [
   '/', '/prezzi', '/come-funziona', '/consensi-informati', '/sicurezza-e-dati',
+  '/conformita-europea',
   '/integrazioni', '/domande', '/chi-siamo', '/intelligenza-artificiale',
   '/che-software-serve', '/autovalutazione', '/verifica', '/richiedi-una-demo',
   '/per-le-societa-scientifiche',

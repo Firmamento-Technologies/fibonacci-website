@@ -16,9 +16,9 @@ L'architettura di sicurezza di Fibonacci è strutturata su tre livelli concentri
 
 ### 1.1 Livello di rete (perimetro)
 
-Il perimetro di rete è ospitato presso il datacenter Hetzner Online GmbH di Falkenstein (Germania, FSN1), all'interno dello Spazio Economico Europeo. Il traffico in ingresso transita esclusivamente attraverso un reverse proxy Caddy che termina TLS 1.3 e applica i header di sicurezza HTTP descritti alla sezione 6. Il backend applicativo non è esposto direttamente all'Internet pubblico: i container Docker comunicano su una rete privata, e l'accesso amministrativo agli host è consentito esclusivamente da indirizzi IP autorizzati tramite chiave SSH, senza autenticazione a password.
+Il perimetro di rete è ospitato presso l'infrastruttura di Aruba S.p.A., su rete italiana e quindi all'interno dell'Unione Europea. Il traffico in ingresso transita esclusivamente attraverso un reverse proxy Caddy che termina TLS 1.3 e applica i header di sicurezza HTTP descritti alla sezione 6. Il backend applicativo non è esposto direttamente all'Internet pubblico: i container Docker comunicano su una rete privata, e l'accesso amministrativo agli host è consentito esclusivamente da indirizzi IP autorizzati tramite chiave SSH, senza autenticazione a password.
 
-Cloudflare interviene unicamente a monte come fornitore di DNS, proxy e CDN per il front-end statico e per la mitigazione di attacchi volumetrici (DDoS, rate flooding, bot abuse). Il traffico clinico applicativo viaggia in TLS 1.3 end-to-end fino al backend Hetzner: Cloudflare non dispone delle chiavi private del backend, non terminale TLS applicativo e non vede i dati sanitari in chiaro.
+**Non è interposto alcun intermediario di rete.** Il dominio del Servizio risolve direttamente sull'indirizzo dell'infrastruttura sopra descritta: non sono impiegati reti di distribuzione di contenuti, proxy inversi di terze parti o Web Application Firewall gestiti da terzi, e non esiste alcun punto in cui un soggetto diverso dal Responsabile termini la connessione cifrata proveniente dal browser. La circostanza è verificabile dall'esterno con una interrogazione DNS sul dominio del Servizio.
 
 ### 1.2 Livello applicativo
 
@@ -31,13 +31,9 @@ A livello del dato Fibonacci applica cifratura su due assi: cifratura del filesy
 ### 1.4 Diagramma di flusso semplificato
 
 ```
-                                  TLS 1.3
-   [Browser medico]  ----------------------------------->  [Cloudflare DNS / CDN]
+                              TLS 1.3, senza intermediari
+   [Browser medico]  ----------------------------------->  [Caddy reverse proxy / Aruba IT]
                        (cookie httpOnly Secure)                     |
-                                                                    |  TLS 1.3 end-to-end
-                                                                    v
-                                                       [Caddy reverse proxy / Hetzner DE]
-                                                                    |
                                                                     |  rete privata
                                                                     v
                                                        [Container app Fibonacci]
@@ -45,10 +41,10 @@ A livello del dato Fibonacci applica cifratura su due assi: cifratura del filesy
                                        +----------------------------+----------------------------+
                                        |                            |                            |
                                        v                            v                            v
-                              [PostgreSQL cifrato]     [Object Storage foto AES-256]    [Audit log hash-chain]
+                              [PostgreSQL cifrato]      [Storage foto AES-256]         [Audit log hash-chain]
                                        |
                                        v
-                                  [Backup giornaliero AES-256 -> Hetzner Object Storage EU]
+                                  [Backup giornaliero cifrato AES-256]
 ```
 
 ---
@@ -139,12 +135,20 @@ La continuità di accesso ai dati clinici è una proprietà di sicurezza al pari
 | Misura | WHAT | WHY | HOW |
 | --- | --- | --- | --- |
 | Backup giornaliero | Salva uno snapshot quotidiano del database e degli storage | Perdita dati per incidente, ransomware, errore operativo | Snapshot crittografato AES-256, generato in finestra notturna a basso carico |
-| Retention 30 giorni | Mantiene 30 versioni rolling del backup | Esfiltrazione lenta, corruzione non immediatamente rilevata | Conservazione su Object Storage Hetzner, replicazione su zona separata |
-| Off-site EU | Replica i backup in posizione geograficamente separata, sempre in UE | Disastro al sito primario, perdita totale dello storage primario | Trasferimento cifrato verso Hetzner Object Storage in datacenter EU diverso dal primario |
+| Retention 30 giorni | Mantiene 30 versioni rolling del backup | Esfiltrazione lenta, corruzione non immediatamente rilevata | Conservazione dei pacchetti cifrati con rotazione a 30 giorni |
+| Archivio continuo dei log di transazione | Consente il ripristino a un istante preciso e non solo all'ultimo snapshot notturno | Perdita delle ore successive all'ultimo backup | Archiviazione dei Write-Ahead Log, con lavoro pianificato ogni 5 minuti |
 | RPO 24h | Definisce il punto massimo di perdita dati accettabile | Vincolo di pianificazione del backup | Garantito dalla frequenza di backup giornaliera |
 | RTO 24h | Definisce il tempo massimo di ripristino del servizio | Vincolo di pianificazione del disaster recovery | Procedura di ripristino documentata, testata trimestralmente con misurazione del tempo di ricovero |
 
-### 5.1 Test di ripristino
+### 5.1 Copia fuori sede: limite dichiarato
+
+⚠️ **Alla data di questa revisione la copia di sicurezza risiede sulla stessa macchina che protegge.** L'impianto per la replica presso un fornitore terzo è installato e attivo (il lavoro pianificato gira, e in assenza di una destinazione configurata lo registra esplicitamente nei propri log), ma la destinazione remota non è ancora stata acquistata e configurata. La conseguenza va detta per intero: **oggi la perdita del fornitore di hosting comporterebbe la perdita del sistema e della sua copia insieme.**
+
+Il limite è dichiarato qui, e non in una nota a piè di pagina, perché è precisamente il genere di informazione che un Titolare deve conoscere **prima** di affidare dati a un Responsabile, e perché la copia fuori sede è oggetto specifico dell'art. 32 par. 1 lett. c) GDPR. La destinazione remota sarà un fornitore **diverso** da quello che ospita l'infrastruttura primaria, e situato nell'Unione Europea: una copia conservata dallo stesso fornitore non è una copia fuori sede.
+
+Il presente paragrafo sarà sostituito dalla descrizione della misura attiva quando questa sarà in esercizio e verificata.
+
+### 5.2 Test di ripristino
 
 Su base trimestrale viene eseguito un test di ripristino completo a partire dal backup più recente, su istanza non di produzione, verificando l'integrità del dato ripristinato e il tempo effettivo di recupero. L'esito del test è registrato e conservato a fini di evidenza ex art. 32 par. 1 lett. d GDPR (procedura per testare, verificare e valutare regolarmente l'efficacia delle misure tecniche e organizzative).
 
@@ -214,18 +218,19 @@ Tutti gli incidenti, indipendentemente dalla loro qualificazione finale come vio
 
 ## 9. Trasferimenti internazionali
 
-Per il trattamento dei dati sanitari dei pazienti, Fibonacci non effettua alcun trasferimento al di fuori dell'Unione Europea o dello Spazio Economico Europeo. L'intero stack applicativo, il database, lo storage delle foto e i backup risiedono presso datacenter Hetzner Online GmbH in Germania (UE).
+Per il trattamento dei dati sanitari dei pazienti, Fibonacci non effettua alcun trasferimento al di fuori dell'Unione Europea. L'intero stack applicativo, il database, lo storage delle foto e i backup risiedono presso l'infrastruttura di Aruba S.p.A., su rete italiana.
 
-### 9.1 Cloudflare
+### 9.1 Assenza di intermediari extra-europei sul percorso del dato
 
-Fibonacci utilizza Cloudflare, Inc. (Stati Uniti) come fornitore di DNS, proxy e CDN per il dominio del sito e per il dominio applicativo. La base giuridica del trasferimento extra-UE per i dati tecnici di routing (indirizzo IP, header di richiesta, metadati di rete) è costituita dalle Clausole Contrattuali Standard adottate con Decisione di esecuzione (UE) 2021/914 della Commissione Europea, nonché dalle misure supplementari indicate nelle Raccomandazioni 01/2020 EDPB. In particolare:
+Il percorso che il dato clinico compie fra il browser del medico e la base di dati **non attraversa alcun soggetto extra-europeo**, e non lo attraversa per costruzione e non per configurazione: non è impiegata alcuna rete di distribuzione di contenuti, alcun proxy inverso di terze parti o alcun Web Application Firewall gestito da terzi. Il dominio del Servizio risolve direttamente sull'indirizzo dell'infrastruttura, e la connessione cifrata è terminata unicamente dal reverse proxy del Responsabile.
 
-- il traffico applicativo viaggia in TLS 1.3 end-to-end fino al backend Hetzner in Germania;
-- Cloudflare non termina TLS applicativo e non dispone delle chiavi private del backend;
-- i dati sanitari clinici non transitano in chiaro attraverso Cloudflare in nessuna fase;
-- Cloudflare aderisce al Data Privacy Framework UE-USA per la quota di trasferimenti soggetti a tale meccanismo.
+La differenza rispetto all'assetto diffuso nel settore va detta perché è la ragione per cui questo paragrafo è breve: quando un intermediario è presente, il trasferimento extra-UE dei metadati di rete esiste e va giustificato con Clausole Contrattuali Standard e misure supplementari. Qui **non esiste il trasferimento**, quindi non serve giustificarlo. La circostanza è verificabile da chiunque, dall'esterno e senza il nostro consenso, con una interrogazione DNS sul dominio del Servizio.
 
-### 9.2 Altri sub-responsabili extra-UE
+### 9.2 Trasferimenti residui e loro perimetro
+
+L'unico sub-responsabile della filiera con repliche di resilienza al di fuori dell'Unione Europea è il fornitore dei pagamenti indicato nell'Allegato B, che **non tratta dati dei pazienti** né dati clinici di alcun genere: la filiera dei pagamenti è segregata da quella clinica e la riconciliazione avviene per identificativo opaco. Per tale fornitore valgono le Clausole Contrattuali Standard di cui alla Decisione di esecuzione (UE) 2021/914.
+
+### 9.3 Altri sub-responsabili extra-UE
 
 Eventuali altri sub-responsabili extra-UE sono autorizzati esclusivamente con il consenso del Titolare secondo quanto disciplinato dal DPA e sono sottoposti alle medesime garanzie (SCC, misure supplementari, valutazione del rischio di trasferimento).
 
@@ -233,16 +238,20 @@ Eventuali altri sub-responsabili extra-UE sono autorizzati esclusivamente con il
 
 ## 10. Continuità operativa
 
-La continuità operativa di Fibonacci è progettata per assorbire guasti hardware e degrado di singoli componenti senza interruzione del servizio percepita dall'utente.
+⚠️ **Questa sezione descriveva un'architettura ridondata che il Servizio non ha.** La versione precedente dichiarava distribuzione su zone di disponibilità multiple, più istanze di reverse proxy dietro health check e una replica in streaming del database con promozione automatica. Nulla di tutto ciò è in esercizio: il Servizio gira su **un solo host**, e dichiarare una ridondanza inesistente in un allegato tecnico sottoscritto è esattamente il genere di affermazione che il Titolare non può verificare da solo e su cui ha diritto di non essere ingannato.
 
-| Componente | Misura | WHY | HOW |
+Segue lo stato reale, distinto fra ciò che è attivo e ciò che è previsto.
+
+| Componente | Stato | WHY | HOW |
 | --- | --- | --- | --- |
-| Datacenter | Multiple availability zone Falkenstein | Tolleranza a guasti di sala o di rete locale | Distribuzione delle istanze su zone separate del campus Hetzner FSN1 |
-| Reverse proxy | Failover Caddy | Tolleranza a guasti di nodo proxy | Più istanze Caddy attive dietro health check, traffico instradato verso istanze sane |
-| Database | Replica streaming WAL | Tolleranza a guasti di nodo database, RPO ridotto in caso di failover | Replica streaming Write-Ahead Log su istanza secondaria, promozione automatica su failure rilevata |
-| Storage foto | Object Storage ridondante | Tolleranza a guasti di disco e di volume | Replicazione interna a livello storage |
-| Backup | Off-site Object Storage EU | Tolleranza a disastro del sito primario | Trasferimento cifrato verso Object Storage in zona separata |
-| Pianificazione | Business Continuity Management | Coordinamento delle azioni di ripristino | Piano BCM documentato, ruoli e responsabilità, criteri di attivazione, comunicazioni verso Titolari clienti |
+| Ubicazione | **Attivo** | Giurisdizione e legge applicabile note e verificabili | Host unico presso Aruba S.p.A., rete italiana, Unione Europea |
+| Isolamento di rete | **Attivo** | Riduzione della superficie esposta | Solo il reverse proxy è raggiungibile da Internet; i servizi applicativi comunicano su rete privata fra container |
+| Backup giornaliero | **Attivo** | Perdita dati per incidente, errore operativo, ransomware | Snapshot cifrato notturno, con rotazione a 30 giorni |
+| Ripristino a un istante preciso | **Attivo** | Perdita delle ore successive all'ultimo snapshot | Archiviazione continua dei log di transazione, lavoro pianificato ogni 5 minuti |
+| Prova di ripristino | **Attivo** | Un backup mai ripristinato non è un backup | Lavoro pianificato di ripristino e verifica, con esito registrato |
+| Copia fuori sede | **Previsto** | Perdita del fornitore di hosting | Vedi il limite dichiarato al paragrafo 5.1: impianto installato, destinazione remota non ancora attivata |
+| Ridondanza dell'host | **Previsto** | Tolleranza al guasto della singola macchina | Non in esercizio. Un guasto dell'host comporta indisponibilità del Servizio fino al ripristino |
+| Piano di continuità formalizzato | **Previsto** | Coordinamento delle azioni di ripristino | Le procedure di ripristino sono documentate ed eseguite; la loro formalizzazione in un piano approvato è successiva alla costituzione della società |
 
 ---
 
@@ -264,6 +273,17 @@ La sicurezza tecnica è efficace solo se accompagnata da una governance organizz
 
 Allo stato attuale Fibonacci **non è certificata ISO/IEC 27001**. Pur in assenza della certificazione, Fibonacci adotta volontariamente i controlli applicabili dell'Annex A della norma ISO/IEC 27001:2022 come quadro di riferimento per la propria postura di sicurezza, in particolare nelle aree dei controlli organizzativi, dei controlli delle persone, dei controlli fisici e dei controlli tecnologici. Tale riferimento non costituisce dichiarazione di conformità certificata e non deve essere inteso come claim di certificazione.
 
+### 12.0 Che cosa è certificato, e da chi: la distinzione che conta
+
+Le certificazioni che coprono una parte del Servizio appartengono al **fornitore dell'infrastruttura**, non a Fibonacci. La distinzione è dichiarata qui perché è quella che un fornitore poco scrupoloso omette, esibendo il marchio del proprio ospitante come se fosse il proprio.
+
+| Livello | Chi risponde | Che cosa è certificato o dichiarato | Come si verifica |
+| --- | --- | --- | --- |
+| Data center e infrastruttura | Aruba S.p.A. | Certificazione **ISO/IEC 27001**; adesione al **CISPE Data Protection Code of Conduct**, codice di condotta ex **art. 40 GDPR** approvato dalla CNIL nel 2021 | Registro pubblico CISPE; dichiarazioni pubblicate dal fornitore |
+| Applicazione, dati, processi | Fibonacci | **Nessuna certificazione di terza parte.** Conformità al GDPR autodichiarata sulla base della documentazione interna e delle evidenze conservate | Il presente documento, il DPA e l'Allegato B, tutti pubblici e senza modulo di richiesta |
+
+⚠️ **Che cosa questo significa in concreto**: il fatto che il data center sia certificato ISO/IEC 27001 dice qualcosa sulla sicurezza fisica e organizzativa della sala macchine, e **nulla** sulla qualità del codice applicativo di Fibonacci, sul suo modello di controllo accessi o sulla sua gestione delle chiavi. Chi presenta la certificazione del proprio ospitante come garanzia sul proprio software sta rispondendo a una domanda diversa da quella che gli è stata posta.
+
 La conformità al GDPR, e in particolare ai principi di sicurezza by design e by default (art. 25 GDPR) e alle misure tecniche e organizzative adeguate (art. 32 GDPR), è autocertificata dal Responsabile sulla base della documentazione interna e delle evidenze di processo conservate.
 
 Tra gli ulteriori standard e linee guida considerati nella progettazione delle misure descritte nel presente documento, sebbene non oggetto di certificazione, rientrano:
@@ -275,6 +295,24 @@ Tra gli ulteriori standard e linee guida considerati nella progettazione delle m
 ### 12.1 Roadmap di certificazione
 
 Fibonacci ha posto come obiettivo la valutazione di avvio del percorso di certificazione ISO/IEC 27001 al raggiungimento del primo round consolidato di clienti pilot del Servizio. Lo stato di avanzamento della roadmap è comunicato in modo trasparente ai Titolari clienti attraverso aggiornamenti periodici del presente documento e, ove opportuno, attraverso comunicazioni dedicate.
+
+### 12.2 Spazio europeo dei dati sanitari: l'obbligo che arriva
+
+Il **Regolamento (UE) 2025/327** istituisce lo Spazio europeo dei dati sanitari (EHDS) e stabilisce un quadro armonizzato per i **sistemi di cartelle cliniche elettroniche**. Il regolamento si applica a decorrere dal **26 marzo 2027**; per i sistemi destinati al trattamento delle categorie prioritarie di dati sanitari elettronici personali di cui all'art. 14, par. 1, lettere a), b) e c), le disposizioni pertinenti si applicano dal **26 marzo 2029**.
+
+Per un sistema di cartelle cliniche elettroniche l'assetto previsto dal regolamento comporta: redazione della **documentazione tecnica** (art. 37), **scheda informativa** che accompagna il sistema (art. 38), **dichiarazione di conformità UE** rispetto alle prescrizioni essenziali dell'**Allegato II** (art. 39), valutazione dei componenti software armonizzati in un **ambiente digitale europeo di prova** (art. 40), apposizione della **marcatura CE di conformità** (art. 41) e registrazione nella **banca dati UE** dei sistemi di cartelle cliniche elettroniche (art. 49).
+
+**Fibonacci non è ad oggi un sistema marcato CE ai sensi del Capo III del Regolamento (UE) 2025/327, e non lo dichiara.** La marcatura non è oggi apponibile: le specifiche comuni dell'ambiente digitale europeo di prova e il formato europeo di scambio delle cartelle cliniche elettroniche sono demandati ad atti di esecuzione della Commissione.
+
+Ciò che è possibile dichiarare oggi è lo stato del prodotto rispetto alle prescrizioni dell'Allegato II che **non dipendono** da tali atti di esecuzione:
+
+| Prescrizione (Allegato II) | Stato | Evidenza |
+| --- | --- | --- |
+| 2.6 assenza di caratteristiche che rendano gravosa l'esportazione autorizzata dei dati per sostituire il sistema con un altro prodotto | **Soddisfatta** | L'esportazione integrale in formato FHIR R4 è una funzione del prodotto, disponibile al Titolare in ogni momento e senza autorizzazione del Responsabile |
+| 3.1 meccanismi affidabili di identificazione e autenticazione dei professionisti sanitari | **Soddisfatta** | Sezione 3 del presente documento |
+| 3.2 e 3.3 registrazione degli accessi e strumenti per esaminarne e analizzarne i dati | **Soddisfatta** | Sezione 4: registro FHIR AuditEvent con concatenazione di impronte, consultabile dal Titolare con filtri per attore, risorsa e finestra temporale |
+| 3.4 supporto a periodi di conservazione e diritti di accesso differenziati per origine e categoria del dato | **Parziale** | Conservazione differenziata attiva; la granularità per origine del dato è in corso di estensione |
+| 2.1, 2.2, 2.3, 2.4 interoperabilità nel formato europeo di scambio | **Non applicabile allo stato** | Il formato europeo di scambio è demandato ad atti di esecuzione non ancora adottati. Il prodotto adotta nel frattempo FHIR R4, che è la base tecnica su cui il formato europeo è costruito |
 
 ---
 

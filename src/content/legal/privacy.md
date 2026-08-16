@@ -104,11 +104,10 @@ Per l'esecuzione di specifiche attività tecniche, il Titolare si avvale dei seg
 
 | Sub-responsabile | Sede | Attività affidata |
 | --- | --- | --- |
-| Hetzner Online GmbH | Germania | Hosting dell'infrastruttura applicativa e di base dati, conservazione dei backup cifrati |
-| Brevo SAS | Francia | Invio di email transazionali (notifiche di servizio, recupero password, conferme di pagamento) e, ove autorizzato, comunicazioni promozionali |
+| Aruba S.p.A. | Italia | Hosting dell'infrastruttura applicativa e di base dati, conservazione dei backup cifrati |
+| Hostinger International Ltd | Cipro | Recapito delle email transazionali (notifiche di servizio, primo accesso, conferme) e DNS autoritativo del dominio |
 | Mistral AI SAS | Francia | Servizio di trascrizione audio Voxtral utilizzato per la dettatura assistita. L'audio è trasmesso in modalità transitoria, non viene persistito né utilizzato per addestrare modelli, secondo gli accordi contrattuali specifici |
 | Stripe Payments Europe Ltd | Irlanda | Gestione tecnica degli abbonamenti, dei pagamenti ricorrenti e dei dati di fatturazione. Stripe non riceve dati sanitari né dati dei pazienti |
-| Cloudflare Inc. | Stati Uniti d'America | Servizi DNS, proxy CDN e protezione anti-DDoS sul dominio del sito e sui sottodomini applicativi |
 
 L'elenco aggiornato dei sub-responsabili è pubblicato e mantenuto nell'area documentale riservata ai medici clienti. Eventuali modifiche o aggiunte sono notificate con congruo preavviso ai sensi del DPA.
 
@@ -122,13 +121,11 @@ I dati non sono in alcun caso oggetto di diffusione.
 
 ## 7. Trasferimenti di dati al di fuori dell'Unione Europea
 
-L'infrastruttura applicativa e i database sono ospitati interamente all'interno dell'Unione Europea, presso i data center di Hetzner Online GmbH in Germania. I dati sanitari dei pazienti non sono trasferiti al di fuori dello Spazio Economico Europeo.
+L'infrastruttura applicativa e i database sono ospitati interamente all'interno dell'Unione Europea, presso l'infrastruttura di Aruba S.p.A. su rete italiana. I dati sanitari dei pazienti non sono trasferiti al di fuori dell'Unione Europea.
 
-L'unico flusso che comporta un trasferimento extra-UE riguarda il servizio fornito da Cloudflare Inc. (Stati Uniti) per la gestione DNS, il proxy CDN e la protezione perimetrale. Tale trasferimento è regolato dalle Clausole Contrattuali Standard adottate dalla Commissione Europea con Decisione di esecuzione (UE) 2021/914 del 4 giugno 2021, integrate da misure supplementari conformi alle raccomandazioni dell'EDPB:
+**Fra il browser e il backend non è interposto alcun intermediario.** Il dominio del sito e quello dell'applicazione risolvono direttamente sull'indirizzo dell'infrastruttura: non sono impiegate reti di distribuzione di contenuti, proxy inversi di terze parti o Web Application Firewall gestiti da terzi, e non esiste alcun punto in cui un soggetto diverso dal Titolare termini la connessione cifrata. Chiunque può verificarlo dall'esterno, senza chiedere il nostro consenso, con una interrogazione DNS sul dominio.
 
-- cifratura del traffico in transito tramite TLS 1.3 end-to-end fino al backend in Germania, con configurazione che impedisce a Cloudflare di accedere in chiaro al contenuto applicativo;
-- limitazione del trattamento ai soli metadati di rete necessari al routing e alla protezione anti-DDoS;
-- esclusione dei dati sanitari dal perimetro tecnico accessibile a Cloudflare.
+L'unico sub-responsabile della filiera con repliche di resilienza al di fuori dell'Unione Europea è il fornitore dei pagamenti, il quale **non tratta dati sanitari né dati dei pazienti**. Per tale flusso il trasferimento è regolato dalle Clausole Contrattuali Standard adottate dalla Commissione Europea con Decisione di esecuzione (UE) 2021/914 del 4 giugno 2021, integrate dalle misure supplementari conformi alle raccomandazioni dell'EDPB.
 
 Copia delle Clausole Contrattuali Standard e della relativa valutazione di impatto sui trasferimenti (Transfer Impact Assessment) è disponibile su richiesta scrivendo a {EMAIL_PRIVACY}.
 

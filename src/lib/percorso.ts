@@ -11,10 +11,11 @@
  *   2. come si usa      → come funziona
  *   3. il differenziante → consensi
  *   4. l'obiezione n.1  → sicurezza e dati
- *   5. quanto costa     → prezzi
- *   6. i dubbi residui  → domande
- *   7. con chi ho a che fare → chi siamo
- *   8. l'azione         → richiedi una demo
+ *   5. l'obiezione del consulente → conformità europea
+ *   6. quanto costa     → prezzi
+ *   7. i dubbi residui  → domande
+ *   8. con chi ho a che fare → chi siamo
+ *   9. l'azione         → richiedi una demo
  *
  * ⛔ Le pagine legali e le guide NON stanno nel percorso: si raggiungono dal
  * piè di pagina quando servono, e sono testi integrali che non stanno né
@@ -31,7 +32,13 @@ export const PERCORSO: Tappa[] = [
   { href: '/', titolo: 'Come funziona' },
   { href: '/come-funziona', titolo: 'I consensi' },
   { href: '/consensi-informati', titolo: 'Sicurezza e dati' },
-  { href: '/sicurezza-e-dati', titolo: 'Prezzi' },
+  /* ⚠️ Tappa aggiunta il 2026-08-16, e sta QUI per una ragione precisa:
+     «sicurezza e dati» risponde a *i miei dati sono al sicuro*, «conformità
+     europea» risponde a *e io sono coperto*. Sono due obiezioni diverse e la
+     seconda viene dopo la prima, perché è quella che il medico non si pone da
+     solo: gliela pone il consulente. */
+  { href: '/sicurezza-e-dati', titolo: 'Conformità europea' },
+  { href: '/conformita-europea', titolo: 'Prezzi' },
   { href: '/prezzi', titolo: 'Domande' },
   { href: '/domande', titolo: 'Chi siamo' },
   { href: '/chi-siamo', titolo: 'Richiedi una demo' },
