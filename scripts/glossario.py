@@ -176,11 +176,53 @@ BANCO = [
 ]
 
 
+# ════════════════════════════════════════════ il collegamento alle faccette
+def cerca_studi(testo, lat=None, lon=None, raggio_km=30, solo=None, limite=10):
+    """Il giro completo: **parola del paziente → voce → studi che la eseguono**.
+
+    🔑 **È qui che il glossario diventa utile**, e la catena resta la stessa di
+    `abbinamento.py`: **glossario → filtri duri → ordinamento**, ⛔ senza che
+    nessuno dei tre pezzi possa dare un consiglio.
+    ⚠️ Se la guardia respinge, ⛔ **non si cerca niente**: ⛔ non si «cerca lo
+    stesso, tanto poi filtriamo». Una ricerca fatta su un caso clinico
+    resterebbe **una risposta a un caso clinico**, anche se il risultato è un
+    elenco di indirizzi.
+    """
+    import importlib.util, os
+    e = rispondi(testo)
+    if not e.ammesso or not e.voci:
+        return e, []
+    qui = os.path.dirname(os.path.abspath(__file__))
+    s = importlib.util.spec_from_file_location("ab", os.path.join(qui, "abbinamento.py"))
+    ab = importlib.util.module_from_spec(s)
+    s.loader.exec_module(ab)
+    # ⚠️ **La prima voce, ⛔ non tutte**: se il paziente ne ha nominate due, la
+    # domanda giusta è *«quale ti interessa?»* — che `rispondi()` ha già posto.
+    # Cercarle entrambe e mescolare i risultati risponderebbe a una domanda che
+    # ⛔ non è stata fatta.
+    return e, ab.cerca(e.voci[0], lat=lat, lon=lon, raggio_km=raggio_km,
+                       solo=solo, limite=limite)
+
+
+def _prova_collegamento():
+    print("\n━━━ il giro completo: parola → voce → studi ━━━")
+    for frase in ("il ripieno per le labbra", "vorrei il botulino", "ho le rughe"):
+        e, studi = cerca_studi(frase, lat=45.4642, lon=9.19, raggio_km=20, limite=3)
+        print(f"\n  «{frase}»")
+        print(f"     {'✅' if e.ammesso else '⛔'} {e.risposta[:76]}")
+        for x in studi:
+            print(f"       · {x['nome'][:38]:38} {x['comune'][:14]:14} ({x['tipo']})")
+        if e.ammesso and not studi:
+            print("       (nessuno entro il raggio)")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
         e = rispondi(" ".join(sys.argv[1:]))
         print(("✅ " if e.ammesso else "⛔ ") + e.risposta)
         sys.exit(0)
+    if "--collegamento" in sys.argv:
+        _prova_collegamento(); sys.exit(0)
     ok = 0
     for frase, atteso, voce in BANCO:
         e = rispondi(frase)
@@ -188,5 +230,18 @@ if __name__ == "__main__":
         ok += bene
         print(f"  {'✅' if bene else '🔴'} «{frase[:44]:44}» → "
               f"{('AMMESSA ' + ','.join(e.voci)) if e.ammesso else 'RESPINTA (' + e.motivo + ')'}")
+    # 🔑 **La prova che conta più delle altre**: una frase respinta ⛔ non deve
+    # produrre **nessuno** studio. ⛔ Non «pochi», ⛔ non «filtrati dopo»: zero.
+    import os as _os
+    if _os.path.exists(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                                     "directory.sqlite")):
+        perse = [f for f, atteso, _ in BANCO if not atteso
+                 and cerca_studi(f, lat=45.4642, lon=9.19)[1]]
+        if perse:
+            print(f"\n  🔴 {len(perse)} frasi RESPINTE hanno comunque prodotto studi: {perse}")
+            ok -= len(perse)
+        else:
+            print(f"\n  ✅ le {sum(1 for _, a, _ in BANCO if not a)} frasi respinte "
+                  f"producono ZERO studi")
     print(f"\n{ok}/{len(BANCO)} — {'✅ banco verde' if ok == len(BANCO) else '🔴 BANCO ROSSO'}")
     sys.exit(0 if ok == len(BANCO) else 1)
