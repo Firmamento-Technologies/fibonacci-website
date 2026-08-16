@@ -269,12 +269,25 @@ export function BolliniPiede() {
               className="block h-full"
               style={{ border: '1px solid var(--rule-ink)', padding: 'var(--s-13)' }}
             >
+              {/* ⚠️ `minHeight` sul titolo, ⛔ non sulla scheda: i cinque
+                  titoli vanno a capo in modo diverso («Art. 28 GDPR» sta in
+                  una riga, «Marcatura CE dal 2029» in due) e senza questa
+                  altezza minima l'etichetta di stato finiva **a quote diverse
+                  in ogni scheda** — cinque righe che avrebbero dovuto essere
+                  allineate e non lo erano. È il difetto che l'utente ha
+                  descritto come «le scritte sembrano non allineate».
+                  2 righe × 1,25 di interlinea su 15px = 37,5px. */}
               <span className="flex items-start gap-[var(--s-13)]">
                 <Sigillo marchio={b.marchio} stato={b.stato} />
                 <span>
                   <span
                     className="block text-[15px]"
-                    style={{ fontFamily: 'var(--font-display)', color: 'var(--on-ink)', lineHeight: 1.25 }}
+                    style={{
+                      fontFamily: 'var(--font-display)',
+                      color: 'var(--on-ink)',
+                      lineHeight: 1.25,
+                      minHeight: '2.34rem',
+                    }}
                   >
                     {b.sigla}
                   </span>

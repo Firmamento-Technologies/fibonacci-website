@@ -2,33 +2,51 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { motion, useScroll, useSpring, useReducedMotion } from 'framer-motion'
 import { APP_URL, SIGNUP_URL, DEMO_URL } from '@/lib/site-config'
 import { Logo } from '@/components/Logo'
 
-/* Cinque voci, non undici.
+/* Quattro voci, non undici.
  *
  * L'ordine non è alfabetico né casuale: è la sequenza delle domande che il
  * medico fa in trattativa. Cosa fa · il pezzo che gli costa di più · dove
- * finiscono i dati dei pazienti · quanto costa · e le obiezioni.
+ * finiscono i dati dei pazienti · quanto costa.
  * Butterick mette i bordi di pagina infarciti di link fra i vizi storici del
  * web; una barra che elenca tutto non aiuta a scegliere, impedisce di farlo. */
+/* 🔴 **DA 11 ELEMENTI A 6** (utente, 2026-08-16: *«ci sono troppe voci e non
+ * c'è un ordine di priorità»*). Misurato prima di tagliare: la barra portava
+ * **11 collegamenti** — sei voci di contenuto, «Registrati», «Accedi», il
+ * logo e l'invito — **tutti con lo stesso peso visivo**. Baymard, su test di
+ * navigazione, registra che si comincia a essere sopraffatti oltre la
+ * decina; e qui il difetto peggiore non era il numero ma la **piattezza**:
+ * «Accedi» è un'azione di account e pesava quanto «Consensi», che è
+ * contenuto.
+ *
+ * 🔑 **Quattro voci, e sono il ragionamento di chi compra** — lo stesso
+ * ordine di `lib/percorso.ts`:
+ *     cos'è → perché è diverso → è al sicuro → quanto costa
+ *
+ * ⛔ **Non è una perdita per «Conformità» e «Domande»**, e questo è il punto
+ * che rende il taglio possibile: **il sito è un percorso**. Ogni pagina ha la
+ * V che porta alla successiva, quindi chi entra da «Sicurezza e dati» arriva
+ * alla conformità **camminando**, senza doverla cercare in una barra. In più
+ * i cinque sigilli nel piè di pagina stanno su **ogni** pagina: la conformità
+ * è più visibile ora di quando era la sesta voce di un menu piatto.
+ *
+ * ⚠️ Chi vuole aggiungere la quinta: prima misuri quale delle quattro toglie. */
 const VOCI = [
   { href: '/come-funziona', testo: 'Come funziona' },
   { href: '/consensi-informati', testo: 'Consensi' },
   { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
-  /* ⚠️ La sesta voce, e il conto va tenuto d'occhio: la nota qui sopra cita
-     Butterick sui bordi di pagina infarciti di link. Sei è il tetto, non un
-     nuovo punto di partenza. Entra perché la conformità è l'obiezione che il
-     consulente porta per primo, e finora si raggiungeva solo dal piè di
-     pagina, cioè dopo aver deciso di cercarla. */
-  { href: '/conformita-europea', testo: 'Conformità' },
   { href: '/prezzi', testo: 'Prezzi' },
-  { href: '/domande', testo: 'Domande' },
 ] as const
 
 export function Header() {
   const [staccato, setStaccato] = useState(false)
+  /* La pagina in cui siamo, senza la barra finale: `trailingSlash: true` fa
+     arrivare qui `/prezzi/`, mentre in `VOCI` gli indirizzi sono senza. */
+  const percorsoCorrente = (usePathname() ?? '/').replace(/\/$/, '') || '/'
   const [menuAperto, setMenuAperto] = useState(false)
   const menoMovimento = useReducedMotion()
 
@@ -78,45 +96,54 @@ export function Header() {
             <Logo />
           </Link>
 
+          {/* ⚠️ **Dov'è l'utente adesso**: la voce della pagina corrente è
+              marcata `aria-current` e sottolineata. Baymard lo registra come
+              mancante sul **95% dei siti** provati, ed è la prima cosa che
+              serve a chi arriva da una ricerca e non sa dove è atterrato. */}
           <nav className="hidden lg:flex items-center gap-[var(--s-34)]" aria-label="Principale">
-            {VOCI.map((v) => (
-              <Link
-                key={v.href}
-                href={v.href}
-                className="text-[15px] transition-colors"
-                style={{ color: 'var(--fg-muted)' }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--fg)')}
-                onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--fg-muted)')}
-              >
-                {v.testo}
-              </Link>
-            ))}
+            {VOCI.map((v) => {
+              const qui = percorsoCorrente === v.href
+              return (
+                <Link
+                  key={v.href}
+                  href={v.href}
+                  aria-current={qui ? 'page' : undefined}
+                  className="text-[15px] transition-colors"
+                  style={{
+                    color: qui ? 'var(--fg)' : 'var(--fg-muted)',
+                    borderBottom: `1px solid ${qui ? 'var(--accent)' : 'transparent'}`,
+                    paddingBottom: 2,
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--fg)')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = qui ? 'var(--fg)' : 'var(--fg-muted)')}
+                >
+                  {v.testo}
+                </Link>
+              )
+            })}
           </nav>
 
-          <div className="hidden lg:flex items-center gap-[var(--s-21)]">
-            {/* 🔴 **Segnalato dall'utente il 2026-08-12, e nessun presidio lo
-                vedeva**: sul sito non c'era modo di capire ne' dove accedere ne'
-                dove registrarsi. «Accedi» esisteva ma non veniva disegnato,
-                perche' `APP_URL` era vuoto dal 9 agosto; e un collegamento alla
-                registrazione **non esisteva affatto**, in nessuna pagina.
-                ⚠️ Un prodotto in abbonamento che non dice dove ci si iscrive
-                perde chi era gia' convinto — il punto piu' caro in cui perderlo. */}
-            {SIGNUP_URL && (
-              <a
-                href={SIGNUP_URL}
-                className="text-[15px]"
-                style={{ color: 'var(--fg-muted)' }}
-                rel="noopener"
-              >
-                Registrati
-              </a>
-            )}
+          {/* ── Le AZIONI, separate dal contenuto da un filetto ──────────
+              🔴 Prima «Registrati» e «Accedi» erano due testi identici alle
+              voci di contenuto: la barra non distingueva *leggere una pagina*
+              da *entrare nel prodotto*, che sono due gesti diversi.
+              Ora la gerarchia è dichiarata in tre gradini, e si vede a colpo
+              d'occhio quale è quello principale:
+                 testo semplice → contorno → pieno
+              ⛔ **«Registrati» esce dalla barra, NON dal sito**: resta nel piè
+              di pagina, su ogni pagina. La lezione del 2026-08-12 era che un
+              prodotto in abbonamento **senza nessun** collegamento alla
+              registrazione perde chi era già convinto; non che quel
+              collegamento debba stare in cima. Qui in cima ci sono i due
+              gesti che chi non è ancora cliente compie davvero: **entrare**
+              se è già cliente, **chiedere una demo** se non lo è. */}
+          <div className="hidden lg:flex items-center gap-[var(--s-13)]">
             {APP_URL && (
               <a
                 href={APP_URL}
-                className="text-[15px]"
-                style={{ color: 'var(--fg-faint)' }}
+                className="btn btn-secondario"
                 rel="noopener"
+                style={{ borderLeft: '1px solid var(--rule)', paddingLeft: 'var(--s-21)', marginLeft: 'var(--s-8)' }}
               >
                 Accedi
               </a>

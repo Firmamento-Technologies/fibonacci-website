@@ -309,6 +309,21 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
 }
 .occhiello-chiaro { color: var(--accent-onink); }
 
+/* Occhiello SENZA il filetto davanti.
+ *
+ * 🔴 Serve dove l'occhiello fa da **intestazione di una colonna di link**, cioè
+ * nel piè di pagina. Lì il filetto (21px) più il suo spazio (8px) spingono il
+ * testo dell'etichetta **29px più a destra dei link che intesta**: la colonna
+ * ha due bordi sinistri invece di uno, e si legge come «le scritte non sono
+ * allineate». Segnalato dall'utente il 2026-08-16, e misurato: PRODOTTO,
+ * SOCIETÀ e DOCUMENTI partivano tutte fuori asse rispetto alle proprie voci.
+ *
+ * ⚠️ ⛔ Non togliere il filetto anche nel corpo delle pagine: lì l'occhiello è
+ * **uno solo** e apre una sezione, il filetto è il segno che la apre e non
+ * intesta nessuna colonna. Il difetto nasce dal ripeterlo tre volte in fila
+ * sopra tre elenchi. */
+.occhiello-piatto::before { display: none; }
+
 /* Il filetto orizzontale che separa le sezioni: 1px, mai un'ombra. */
 .filetto { height: 1px; background: var(--rule); border: 0; }
 
