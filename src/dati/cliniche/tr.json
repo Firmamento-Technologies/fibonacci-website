@@ -60,7 +60,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Bellessere in salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicoterni.it",
@@ -85,6 +87,37 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "checkout.clinicitalia.it",
+  "nome": "Clinic Medical Beauty, i numeri 1 della medicina e chirurgia estetica!",
+  "formaSocietaria": "SRL",
+  "partitaIva": "14276430965",
+  "telefono": "",
+  "email": "info@clinicitalia.it",
+  "sitoUrl": "https://checkout.clinicitalia.it/",
+  "indirizzo": "Via Bevagna, 9",
+  "cap": "20154",
+  "comune": "Milano",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://checkout.clinicitalia.it/",
+   "https://checkout.clinicitalia.it/sedi/",
+   "https://checkout.clinicitalia.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinic Medical Beauty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicstudimedici.it",
@@ -115,7 +148,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CLINIC Studi Medici Terni | Chirurgia Estetica, Trapianto Capelli, Medici Specialisti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "italia-servizi.org",
@@ -173,7 +208,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Micaela Giovannetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Micaela Giovannetti, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Micaela Giovannetti - Trattamenti estetici a Terni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "stefanochiummariello.it",
@@ -261,6 +298,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.559575,
+  "lon": 12.64843,
+  "nomeStrutturato": "STUDIO ASSOCIATO ODONTOIATRICO SANI e RATINI",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 15:30-19:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

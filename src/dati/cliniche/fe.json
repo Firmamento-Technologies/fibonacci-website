@@ -59,7 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Elisabetta Cutrera",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressadanielatartarini.it",
@@ -93,7 +95,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Daniela",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "dottoressalindabui.it",
@@ -129,6 +133,39 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "drferrarafrancesca.it",
+  "nome": "Medico chirurgo esperto in medicina e dermatologia estetica",
+  "formaSocietaria": "",
+  "partitaIva": "02563570411",
+  "telefono": "+39057143869",
+  "email": "info@gfmedical.it",
+  "sitoUrl": "https://drferrarafrancesca.it/",
+  "indirizzo": "Viale Trieste 21",
+  "cap": "61121",
+  "comune": "Pesaro",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesca Ferrara, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://drferrarafrancesca.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Ferrara, cognome dentro il dominio",
+  "nomeStrutturato": "Dr.ssa Francesca Ferrara",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "enjoyderma.it",
   "nome": "EnjoyDerma",
   "formaSocietaria": "SRL",
@@ -157,7 +194,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "EnjoyDerma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticaferrara.it",
@@ -185,7 +224,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetica Ferrara",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ferraramedica.it",
@@ -221,12 +262,12 @@
   "nome": "DERMALASER",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "0532751108",
   "email": "",
   "sitoUrl": "https://www.poliambulatoriodermalaser.com/",
   "indirizzo": "Via Don Giovanni Bosco 7",
-  "cap": "",
-  "comune": "",
+  "cap": "44122",
+  "comune": "Ferrara",
   "provincia": "fe",
   "prestazioni": [
    "Laser"
@@ -242,7 +283,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "poliambulatoriodermalaser.com",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "vilmalamalfa.com",

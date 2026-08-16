@@ -25,7 +25,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Biomedic Healthcare",
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.47649,
+  "lon": 12.090348,
+  "orari": [
+   "Mo-Fr 8.30-18.00"
+  ]
  },
  {
   "dominio": "centromodellamirano.it",
@@ -56,7 +63,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.694414,
+  "lon": 12.181279,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Estensi 33",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-19:30"
+  ]
  },
  {
   "dominio": "waze.com",

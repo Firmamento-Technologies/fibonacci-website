@@ -1,5 +1,64 @@
 [
  {
+  "dominio": "centrodentaleestetico.it",
+  "nome": "Studio dentistico a Conegliano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04980640264",
+  "telefono": "+39043822290",
+  "email": "segreteria@centrodentaleestetico.it",
+  "sitoUrl": "https://www.centrodentaleestetico.it/",
+  "indirizzo": "Via Borgo Porta, 29",
+  "cap": "31015",
+  "comune": "Conegliano",
+  "provincia": "conegliano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centrodentaleestetico.it/",
+   "https://www.centrodentaleestetico.it/contatti/",
+   "https://www.centrodentaleestetico.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Dentale Estetico",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Dentist Organization"
+ },
+ {
+  "dominio": "medicenterconegliano.it",
+  "nome": "Poliambulatorio Centro Medico Fisioterapico a Conegliano",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04716510260",
+  "telefono": "+390438415973",
+  "email": "info@medicenterconegliano.it",
+  "sitoUrl": "https://www.medicenterconegliano.it/",
+  "indirizzo": "Via Fornaci 3",
+  "cap": "31015",
+  "comune": "Conegliano",
+  "provincia": "conegliano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicenterconegliano.it/",
+   "https://www.medicenterconegliano.it/sedi/",
+   "https://www.medicenterconegliano.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Medicenter",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "studiodom.it",
   "nome": "Studio DOM",
   "formaSocietaria": "",
@@ -23,7 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio DOM",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiosamo.it",
@@ -72,7 +133,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Studio Sicor",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "zulianidermatologotreviso.com",
@@ -101,6 +164,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Zuliani Dr. Rossano",
+  "tipoDichiarato": "Organization"
  }
 ]

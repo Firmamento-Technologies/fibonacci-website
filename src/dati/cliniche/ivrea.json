@@ -48,7 +48,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Artemisia Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicaeporediese.it",
@@ -77,6 +79,32 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "corradoandorno.it",
+  "nome": "Corrado Andorno",
+  "formaSocietaria": "",
+  "partitaIva": "09096510014",
+  "telefono": "+390322240094",
+  "email": "info@corradoandorno.it",
+  "sitoUrl": "https://corradoandorno.it/",
+  "indirizzo": "Via Mottarone 23",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andorno Interventi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://corradoandorno.it/",
+   "https://corradoandorno.it/sedi/",
+   "https://corradoandorno.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andorno Interventi, cognome dentro il dominio"
+ },
+ {
   "dominio": "creasalute.it",
   "nome": "Poliambulatorio CreaSalute",
   "formaSocietaria": "SRL",
@@ -100,7 +128,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio CreaSalute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticameti.it",

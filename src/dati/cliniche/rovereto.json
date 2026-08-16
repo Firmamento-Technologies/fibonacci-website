@@ -36,7 +36,7 @@
   "formaSocietaria": "",
   "partitaIva": "02488060225",
   "telefono": "+390464437812",
-  "email": "",
+  "email": "stdentistico.menoni@gmail.com",
   "sitoUrl": "https://www.dentistamenoni.it/",
   "indirizzo": "Via Antonio Balista fino a Via Unione 76",
   "cap": "00187",
@@ -53,7 +53,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "lat": 45.894537,
+  "lon": 11.027789,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dentistico Menoni",
+  "orari": [
+   "Monday,Tuesday,Thursday 08:00-12:00 / 15:00-19:00",
+   "Wednesday 08:00-12:00 / 14:30-17:30",
+   "Friday 08:00-16:00"
+  ]
  },
  {
   "dominio": "paololisi.it",
@@ -84,7 +93,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Studio Medico Odontoiatrico Avanzato Lisi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticostoffella.it",
@@ -109,7 +120,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Stoffella, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Stoffella, cognome dentro il dominio",
+  "lat": 45.88622,
+  "lon": 11.045674,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dentistico Stoffella",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 08:00-19:00",
+   "Saturday 09:00-19:00"
+  ]
  },
  {
   "dominio": "tecnomedcentridiagnostici.it",
@@ -137,6 +156,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Tecnomed",
+  "tipoDichiarato": "Organization"
  }
 ]

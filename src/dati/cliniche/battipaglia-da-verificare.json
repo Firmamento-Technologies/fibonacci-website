@@ -23,7 +23,45 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "BioSanitas Lab",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "brognadottssalina.com",
+  "nome": "Centro dermatologico a Battipaglia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390828342138",
+  "email": "linabrogna@hotmail.it",
+  "sitoUrl": "https://www.brognadottssalina.com/",
+  "indirizzo": "Via Italia, 23",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.brognadottssalina.com/",
+   "https://www.brognadottssalina.com/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 40.607316,
+  "lon": 14.982494,
+  "nomeStrutturato": "Brogna Dott.ssa Lina",
+  "tipoDichiarato": "MedicalClinic"
+ },
+ {
+  "dominio": "donnemedico.org",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
  },
  {
   "dominio": "emmedicinaestetica.com",

@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "ASST Valtellina e Alto Lario"
  },
  {
   "dominio": "esteticadoc.it",
@@ -54,7 +56,7 @@
   "nome": "La Fenice, centro benessere e dermopigmentazione",
   "formaSocietaria": "",
   "partitaIva": "01056400144",
-  "telefono": "",
+  "telefono": "3404024761",
   "email": "",
   "sitoUrl": "https://www.lafenicesondrio.com/",
   "indirizzo": "Largo Sindelfingen, 26",
@@ -73,7 +75,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "La Fenice estetica avanzata e dermopigmentazione",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "mariagraziarosella.it",

@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "aimedestetica.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "asdaa.it",
   "nome": "Südtiroler Sanitätsbetrieb",
   "formaSocietaria": "",

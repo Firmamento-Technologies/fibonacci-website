@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "asst-settelaghi.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "mazaranaturbelle.it",
   "nome": "Home NB Mazara",
   "formaSocietaria": "",

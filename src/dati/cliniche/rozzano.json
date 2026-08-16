@@ -47,7 +47,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico San Marco",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 08:"
+  ]
  },
  {
   "dominio": "jorgecardenasmedicoestetico.com",
@@ -77,5 +82,32 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Jorge Cardenas, cognome dentro il dominio"
+ },
+ {
+  "dominio": "monicarazzano.com",
+  "nome": "Studio Medico",
+  "formaSocietaria": "",
+  "partitaIva": "03032160131",
+  "telefono": "+390399920838",
+  "email": "info@monicarazzano.com",
+  "sitoUrl": "https://www.monicarazzano.com/",
+  "indirizzo": "Via Fontana, 2",
+  "cap": "23885",
+  "comune": "Arlate",
+  "provincia": "rozzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Monica Razzano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.monicarazzano.com/",
+   "https://www.monicarazzano.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Monica Razzano, e il dominio lo ripete",
+  "nomeStrutturato": "razzano",
+  "tipoDichiarato": "Organization"
  }
 ]

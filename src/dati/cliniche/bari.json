@@ -23,14 +23,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CMM",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "safemedicalcenter.it",
   "nome": "Safe Medical Center Bari",
   "formaSocietaria": "SRL",
   "partitaIva": "08279880721",
-  "telefono": "",
+  "telefono": "+39 080 403 1703",
   "email": "info@safemedicalcenter.it",
   "sitoUrl": "https://www.safemedicalcenter.it/",
   "indirizzo": "Viale Japigia 143",
@@ -50,6 +52,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.11365,
+  "lon": 16.89695,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Safe Medical Center Bari",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-17:0"
+  ]
  }
 ]

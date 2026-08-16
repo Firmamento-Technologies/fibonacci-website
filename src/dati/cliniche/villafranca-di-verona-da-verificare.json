@@ -18,8 +18,8 @@
   "email": "info@studimedicivillafrancaverona.it",
   "sitoUrl": "https://studimedicivillafrancaverona.it/",
   "indirizzo": "Via Trieste 6",
-  "cap": "",
-  "comune": "",
+  "cap": "37011",
+  "comune": "Verona",
   "provincia": "villafranca-di-verona",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -33,7 +33,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.347881,
+  "lon": 10.842273,
+  "nomeStrutturato": "Service S.a.s. di Bianchini Emanuele & C.",
+  "orari": [
+   "Mo-Su"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "valedent.net",

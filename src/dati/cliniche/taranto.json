@@ -91,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Nurservice Taranto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sosmedico.org",
@@ -117,7 +119,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SOS srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticovozza.it",

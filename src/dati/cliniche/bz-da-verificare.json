@@ -25,6 +25,56 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "AESTHETIC ROOM by Dr Dr Evelyn Gander",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologiabassi.com",
+  "nome": "Bolzano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dermatologiabassi.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologiabassi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dr-orlinska.it",
+  "nome": "Dr. Med. Klaudia Orlinska",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390471052455",
+  "email": "",
+  "sitoUrl": "https://dr-orlinska.it/de/",
+  "indirizzo": "",
+  "cap": "39100",
+  "comune": "Bozen",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dr-orlinska.it/de/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -52,6 +102,82 @@
   "fonteUrl": [
    "https://healthycent.com/",
    "https://healthycent.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "homebeauty.it",
+  "nome": "Home Beauty: lo store della bellezza e del benessere.",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390498700242",
+  "email": "",
+  "sitoUrl": "https://www.homebeauty.it/",
+  "indirizzo": "",
+  "cap": "35127",
+  "comune": "Padova",
+  "provincia": "bz",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.homebeauty.it/",
+   "https://www.homebeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ice-aesthetic.com",
+  "nome": "ICE AESTHETIC",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@orthomed.one",
+  "sitoUrl": "https://ice-aesthetic.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ice-aesthetic.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "industria-einaudi.fpbz.it",
+  "nome": "Scuola professionale provinciale per l'artigianato e l'industria \"Luig",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.industria-einaudi.fpbz.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.industria-einaudi.fpbz.it/it"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -108,7 +234,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "REVIDERM skinmedics Bozen",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticobolzano.it",

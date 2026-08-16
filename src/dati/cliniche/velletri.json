@@ -133,7 +133,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Madonna delle Grazie",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dentistaammendolia.it",
@@ -162,7 +164,45 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Odontoiatrico Dentista Ammendolia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottorclaudioravagli.it",
+  "nome": "Specialista in chirurgia vascolare a Velletri",
+  "formaSocietaria": "",
+  "partitaIva": "12189431005",
+  "telefono": "+39368485270",
+  "email": "info@dottorclaudioravagli.it",
+  "sitoUrl": "https://www.dottorclaudioravagli.it/",
+  "indirizzo": "Via Lata, 251",
+  "cap": "00045",
+  "comune": "Indirizzo",
+  "provincia": "velletri",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Claudio Ravagli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottorclaudioravagli.it/",
+   "https://www.iubenda.com/privacy-policy/25065023/legal"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Ravagli, cognome dentro il dominio",
+  "nomeStrutturato": "Dott. Claudio Ravagli",
+  "tipoDichiarato": "Person Organization",
+  "lat": 41.692925,
+  "lon": 12.780199,
+  "orari": [
+   "Mo-Fr 09:30-19:30",
+   "Sa 10:00-18:00"
+  ]
  },
  {
   "dominio": "fabriziosassi.it",
@@ -327,6 +367,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Il Territorio online",
+  "tipoDichiarato": "Organization"
  }
 ]

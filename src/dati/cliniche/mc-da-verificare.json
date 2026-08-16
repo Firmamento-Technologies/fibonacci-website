@@ -5,11 +5,11 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393332813558",
-  "email": "",
+  "email": "manuelacutrini@gmail.com",
   "sitoUrl": "https://centroesteticoimagine.com/",
   "indirizzo": "Via Manlio Zincone 34",
-  "cap": "",
-  "comune": "",
+  "cap": "62100",
+  "comune": "Macerata",
   "provincia": "mc",
   "prestazioni": [
    "Epilazione"
@@ -24,7 +24,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.299439,
+  "lon": 13.428804,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Imagine di Manuela Cutrini",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 08:00-20:0"
+  ]
  },
  {
   "dominio": "ernesto.it",
@@ -74,7 +81,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Diagnostico Fisioterapico Chirurgico - Fenice Polispecialistica",
+  "tipoDichiarato": "Organization",
+  "lat": 43.2753,
+  "lon": 13.4862,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 08:30-20:30"
+  ]
  },
  {
   "dominio": "medicamarche.it",
@@ -106,7 +120,7 @@
   "formaSocietaria": "",
   "partitaIva": "02011070436",
   "telefono": "+3905771522005",
-  "email": "",
+  "email": "esteticadanielamc@gmail.com",
   "sitoUrl": "https://nuovaesteticadaniela.it/",
   "indirizzo": "Via Roma, 381",
   "cap": "62100",
@@ -126,6 +140,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Nuova Estetica Daniela"
  }
 ]

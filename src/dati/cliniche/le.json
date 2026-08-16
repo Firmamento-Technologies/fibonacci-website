@@ -151,7 +151,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dermatologia Myskin",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dmcliniclecce.it",
@@ -177,7 +179,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DM Clinic Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressacassanomedicinaestetica.com",
@@ -214,6 +218,35 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dottoressaventura.it",
+  "nome": "Dermatologo e Venereologo a Lecce",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dottoressaventura.it",
+  "sitoUrl": "https://dottoressaventura.it/",
+  "indirizzo": "Via Giammatteo 10a",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "le",
+  "prestazioni": [
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Virginia Ventura, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottoressaventura.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Virginia Ventura, cognome dentro il dominio",
+  "nomeStrutturato": "Dott.ssa Virginia Ventura",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "esteticamedicalecce.it",
   "nome": "Estetica Medica: centro estetico e dimagrimento Lecce",
   "formaSocietaria": "SRL",
@@ -240,7 +273,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Medica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "martamaci.com",
@@ -270,6 +305,33 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marta Maci, e il dominio lo ripete"
  },
  {
+  "dominio": "medicinaesteticadesimone.com",
+  "nome": "Dr. Christian De Simone",
+  "formaSocietaria": "",
+  "partitaIva": "11481980966",
+  "telefono": "+393471370274",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticadesimone.com/",
+  "indirizzo": "Via Einaudi 12",
+  "cap": "73013",
+  "comune": "Galatina",
+  "provincia": "le",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://medicinaesteticadesimone.com/",
+   "https://medicinaesteticadesimone.com/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Dr. Christian De Simone - Medicina estetica a Lecce",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "medicinaesteticaserafini.it",
   "nome": "Serafini Medical",
   "formaSocietaria": "",
@@ -293,7 +355,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica di Monica Serafini",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "rotrix.it",
@@ -319,7 +386,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Rotrix Centro Medico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicinaestetica.com",

@@ -4,7 +4,7 @@
   "nome": "lasirenettaestetica.it",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393478161256",
   "email": "info@lasirenettaestetica.it",
   "sitoUrl": "https://www.lasirenettaestetica.it/",
   "indirizzo": "Via Giacomo Galli 1",
@@ -25,6 +25,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "La Sirenetta Estetica",
+  "tipoDichiarato": "Organization"
  }
 ]

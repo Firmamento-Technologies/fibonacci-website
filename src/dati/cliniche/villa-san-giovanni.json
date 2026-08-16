@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura San Giovanni Spa",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "nuovavillaclaudia.it",
@@ -49,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura Privata Nuova Villa Claudia S.p.a",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "villabella.it",
@@ -106,6 +110,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Villa Sant\\'Apollonia",
+  "tipoDichiarato": "Person Organization"
  }
 ]

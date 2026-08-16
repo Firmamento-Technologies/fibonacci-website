@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "cemdiagnostica.it",
+  "nome": "Centro Medico a Moncalieri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390116403835",
+  "email": "info@cemdiagnostica.it",
+  "sitoUrl": "https://cemdiagnostica.it/",
+  "indirizzo": "Strada Genova, 56",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://cemdiagnostica.it/",
+   "https://cemdiagnostica.it/contatti/",
+   "https://cemdiagnostica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cem",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
+ },
+ {
   "dominio": "esteticamoncalieri.it",
   "nome": "Estetica avanzata a Moncalieri: innovazioni per la tua bellezza",
   "formaSocietaria": "",
@@ -29,6 +60,35 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "grmedical.it",
+  "nome": "GR Medical",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12219890014",
+  "telefono": "+39011645306",
+  "email": "",
+  "sitoUrl": "https://grmedical.it/",
+  "indirizzo": "Corso Savona 6",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "moncalieri",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://grmedical.it/",
+   "https://grmedical.it/area-legale/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "GR Medical",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "hillmed.it",
   "nome": "Hillmed Poliambulatorio Specialistico Revigliasco",
   "formaSocietaria": "",
@@ -51,7 +111,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hillmed Poliambulatorio Moncalieri",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "lotobeautybrand.com",
@@ -84,7 +149,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro estetico Moncalieri",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "magnoliamoncalieri.it",
@@ -113,7 +180,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Magnolia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "quintasspa.it",
@@ -172,7 +241,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sorrydent",
+  "tipoDichiarato": "Dentist"
  },
  {
   "dominio": "terapeuticenter.com",
@@ -205,6 +276,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Chirurgico, Ecografie, e Chirurgia estetica e plastica - Terapeuticenter",
+  "orari": [
+   "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 08:30-13:00",
+   "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 14:00-19:00"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness"
  }
 ]

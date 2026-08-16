@@ -51,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Beauty Passport",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroempoli.it",
@@ -74,6 +76,38 @@
    "https://centroempoli.it/",
    "https://centroempoli.it/contatti/",
    "https://www.centroempoli.it/privacy/privacy-empoli-v10.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologofirenze.com",
+  "nome": "Dott.ssa Maria Gavrilova-Dermatologa Empoli Firenze",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dermatologofirenze.com/",
+  "indirizzo": "Via Gino Capponi 26",
+  "cap": "55045",
+  "comune": "Pietrasanta",
+  "provincia": "empoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologofirenze.com/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

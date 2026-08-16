@@ -31,7 +31,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio a Tezze sul Brenta (Bassano del Grappa)",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "annavoltan.it",
@@ -65,7 +67,7 @@
   "formaSocietaria": "SRL",
   "partitaIva": "04272540750",
   "telefono": "",
-  "email": "",
+  "email": "servizioclienti@youcanprint.it",
   "sitoUrl": "https://blogs.youcanprint.it/",
   "indirizzo": "via Roma 73",
   "cap": "73039",
@@ -83,7 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Borè Srl"
  },
  {
   "dominio": "centrodimagrimentobassano.it",
@@ -111,7 +115,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hedon&#232; Bassano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrokinesi.com",
@@ -137,7 +143,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Kinesi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicamedicasanluca.it",
@@ -147,9 +155,9 @@
   "telefono": "+390424562322",
   "email": "",
   "sitoUrl": "https://www.clinicamedicasanluca.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Nazionale 128",
+  "cap": "36056",
+  "comune": "Tezze sul Brenta",
   "provincia": "bassano-del-grappa",
   "prestazioni": [
    "Filler",
@@ -169,7 +177,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico San Luca"
  },
  {
   "dominio": "clinichelagrazia.it",
@@ -180,8 +190,8 @@
   "email": "",
   "sitoUrl": "https://clinichelagrazia.it/",
   "indirizzo": "Strada Cartigliana, 125",
-  "cap": "",
-  "comune": "",
+  "cap": "36061",
+  "comune": "Bassano del Grappa",
   "provincia": "bassano-del-grappa",
   "prestazioni": [
    "Filler",
@@ -199,7 +209,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cliniche La Grazia",
+  "tipoDichiarato": "Organization",
+  "lat": 45.750192,
+  "lon": 11.725097,
+  "orari": [
+   "Mo, Tu, We, Th, Fr 09:00-19:30 Sa 09:00-12:00"
+  ]
  },
  {
   "dominio": "dermatologiabordignon.it",
@@ -251,7 +268,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Federica Penso",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "edoardozattra.it",
+  "nome": "Edoardozattra.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@edoardozattra.com",
+  "sitoUrl": "https://edoardozattra.it/",
+  "indirizzo": "Via Manzoni 118",
+  "cap": "",
+  "comune": "",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://edoardozattra.it/",
+   "https://edoardozattra.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Edoardozattra.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rinnovalab.it",
@@ -283,7 +331,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Rinnova | Medical Lab",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "tuamedica.it",
@@ -320,6 +370,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Tuamedica",
+  "tipoDichiarato": "Organization"
  }
 ]

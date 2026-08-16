@@ -4,7 +4,7 @@
   "nome": "Dott.ssa Giulia Tadiotto Cicogna",
   "formaSocietaria": "",
   "partitaIva": "05293470265",
-  "telefono": "",
+  "telefono": "0498750661",
   "email": "info@tadiottocicogna.it",
   "sitoUrl": "https://www.tadiottocicogna.it/",
   "indirizzo": "Via della Provvidenza, 10",
@@ -25,6 +25,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Tadiotto, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Tadiotto, cognome dentro il dominio",
+  "nomeStrutturato": "Dott.ssa Giulia Tadiotto Cicogna",
+  "tipoDichiarato": "Person Organization"
  }
 ]

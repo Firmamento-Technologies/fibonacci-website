@@ -24,7 +24,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Moretti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticaserenazagaglia.it",
@@ -51,6 +53,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "estetica serena zagaglia",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
+ },
+ {
+  "dominio": "gist.it",
+  "nome": "Gist.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@gist.it",
+  "sitoUrl": "https://www.gist.it/",
+  "indirizzo": "Viale Vittorio Veneto, 24",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "san-severino-marche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.gist.it/",
+   "https://www.gist.it/privacy-policy/",
+   "https://www.gist.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Gist",
+  "tipoDichiarato": "Person Organization"
  }
 ]

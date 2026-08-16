@@ -24,7 +24,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Filippini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriotrentino.it",
@@ -35,8 +37,8 @@
   "email": "amministrazione@poliambulatoriotrentino.it",
   "sitoUrl": "https://www.poliambulatoriotrentino.it/",
   "indirizzo": "Viale Trentino n.11",
-  "cap": "",
-  "comune": "",
+  "cap": "21052",
+  "comune": "Busto Arsizio",
   "provincia": "tradate",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": true,
@@ -49,6 +51,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Poliambulatorio Trentino",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 07:30 - 12",
+   "Monday,Tuesday,Wednesday,Thursday,Friday 14:00 - 18:00"
+  ]
  }
 ]

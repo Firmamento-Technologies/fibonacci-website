@@ -27,6 +27,115 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Benessere C'è Sole e Sole",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "csmacentromedico.it",
+  "nome": "C.S.M.A. Centro Servizi Medicina Avanzata a Genova centro",
+  "formaSocietaria": "",
+  "partitaIva": "01525330997",
+  "telefono": "",
+  "email": "info@csmacentromedico.it",
+  "sitoUrl": "https://www.csmacentromedico.it/",
+  "indirizzo": "Piazza della Vittoria 14",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.csmacentromedico.it/",
+   "https://www.csmacentromedico.it/chi-siamo-2/",
+   "https://www.csmacentromedico.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dermatologiachiavari.com",
+  "nome": "Dermatologa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393388022380",
+  "email": "",
+  "sitoUrl": "https://www.dermatologiachiavari.com/",
+  "indirizzo": "Corso Dante 29",
+  "cap": "16043",
+  "comune": "",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologiachiavari.com/",
+   "https://www.dermatologiachiavari.com/dove-siamo",
+   "https://www.dermatologiachiavari.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fisiobeautytime.com",
+  "nome": "Fisioestetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390131382111",
+  "email": "",
+  "sitoUrl": "https://www.fisiobeautytime.com/",
+  "indirizzo": "Via Leonardo Da Vinci,16",
+  "cap": "15057",
+  "comune": "Tortona",
+  "provincia": "chiavari",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisiobeautytime.com/",
+   "https://www.fisiobeautytime.com/chi-siamo",
+   "https://www.fisiobeautytime.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Fisio Beauty Time",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "omceoge.it",
+  "nome": "omceoge.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://omceoge.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://omceoge.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -34,12 +143,12 @@
   "nome": "Personal Beauty Space",
   "formaSocietaria": "",
   "partitaIva": "02758410993",
-  "telefono": "",
+  "telefono": "3277053463",
   "email": "",
   "sitoUrl": "https://www.personalbeautyspace.com/",
   "indirizzo": "Via Ravaschieri, 97",
-  "cap": "",
-  "comune": "",
+  "cap": "16043",
+  "comune": "Chiavari",
   "provincia": "chiavari",
   "prestazioni": [
    "Filler"
@@ -51,6 +160,32 @@
   "fonteUrl": [
    "https://www.personalbeautyspace.com/",
    "https://www.personalbeautyspace.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Personal Beauty Space",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "poliziadistato.it",
+  "nome": "Accesso negato",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://poliziadistato.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://poliziadistato.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -82,6 +217,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Pieffe",
+  "tipoDichiarato": "Organization"
  }
 ]

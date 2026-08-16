@@ -30,7 +30,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Lang, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Lang, e il dominio lo ripete",
+  "nomeStrutturato": "Pimsweb",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centro-medico.it",
@@ -118,7 +120,7 @@
   "formaSocietaria": "",
   "partitaIva": "05053660964",
   "telefono": "+39029440028",
-  "email": "",
+  "email": "vermezzo@cldservizi.it",
   "sitoUrl": "https://cldservizi.it/",
   "indirizzo": "Via Manzoni 14",
   "cap": "20071",
@@ -135,7 +137,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.391672,
+  "lon": 8.983145,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "CLD Odontoiatria Specialistica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 9:00-13:00 e 14:00-19:00",
+   "Friday 9:00-16:00"
+  ]
  },
  {
   "dominio": "dfmed.it",
@@ -278,6 +288,37 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marina Marchesotti, e il dominio lo ripete"
  },
  {
+  "dominio": "nikolaytasev.it",
+  "nome": "Dott. Nikolay Tasev",
+  "formaSocietaria": "",
+  "partitaIva": "02315460184",
+  "telefono": "+393286932910",
+  "email": "",
+  "sitoUrl": "https://www.nikolaytasev.it/",
+  "indirizzo": "Via Conservatorio 22",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "pv",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nikolay Tasev, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.nikolaytasev.it/",
+   "https://www.nikolaytasev.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nikolay Tasev, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Nikolay Tasev - Dermatologo hinterland milanese",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "pavia.gruppoclinicolicollari.com",
   "nome": "Gruppo Clinico Licollari",
   "formaSocietaria": "",
@@ -308,7 +349,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "plasticaticinensis.it",
+  "nome": "Unità di Chirurgia Plastica Estetica e Ricostruttiva",
+  "formaSocietaria": "",
+  "partitaIva": "00462870189",
+  "telefono": "+390382984184",
+  "email": "centro.tamerici@unipv.it",
+  "sitoUrl": "https://www.plasticaticinensis.it/",
+  "indirizzo": "via Alessandro Brambilla 74",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.plasticaticinensis.it/",
+   "https://www.plasticaticinensis.it/contatti/",
+   "https://www.plasticaticinensis.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Unità di Chirurgia Plastica Estetica e Ricostruttiva",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinmedicpavia.it",
@@ -339,6 +409,38 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiogiuseppemarchetti.it",
+  "nome": "Studio dr. Giuseppe Marchetti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiogiuseppemarchetti.it/",
+  "indirizzo": "Via Gerolamo Miani, 17",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Marchetti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiogiuseppemarchetti.it/",
+   "https://www.studiogiuseppemarchetti.it/content/privacy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Marchetti, cognome dentro il dominio"
  },
  {
   "dominio": "thermalift.giobby.com",

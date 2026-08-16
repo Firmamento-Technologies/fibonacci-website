@@ -1,5 +1,38 @@
 [
  {
+  "dominio": "alighierocaputo.it",
+  "nome": "Terapie laser",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390818901476",
+  "email": "info@dermacaputo.it",
+  "sitoUrl": "https://www.alighierocaputo.it/",
+  "indirizzo": "Via Michelangelo, 110",
+  "cap": "81031",
+  "comune": "AVERSA",
+  "provincia": "aversa",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Caputo Alighiero, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alighierocaputo.it/",
+   "https://www.alighierocaputo.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caputo Alighiero, e il dominio lo ripete"
+ },
+ {
   "dominio": "andreasalerno.net",
   "nome": "La medicina estetica",
   "formaSocietaria": "",
@@ -27,7 +60,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Salerno, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Salerno, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Andrea Salerno | medicina estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "clinicavillafiorita.it",
+  "nome": "Clinica Villa Fiorita",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00306340613",
+  "telefono": "+390815032508",
+  "email": "info@clinicavillafiorita.it",
+  "sitoUrl": "https://clinicavillafiorita.it/",
+  "indirizzo": "Via Filippo Saporito, 24",
+  "cap": "81031",
+  "comune": "Aversa",
+  "provincia": "aversa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://clinicavillafiorita.it/",
+   "https://clinicavillafiorita.it/chi-siamo/",
+   "https://clinicavillafiorita.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Villa Fiorita",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ecoplusaversa.it",
@@ -53,5 +116,65 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "francescomaione.it",
+  "nome": "Dr. Francesco Maione",
+  "formaSocietaria": "",
+  "partitaIva": "03162030617",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://francescomaione.it/",
+  "indirizzo": "Via Aldo Moro, 23",
+  "cap": "",
+  "comune": "",
+  "provincia": "aversa",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Maione, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://francescomaione.it/",
+   "https://francescomaione.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Maione, e il dominio lo ripete"
+ },
+ {
+  "dominio": "vincenzopiconedermatologo.it",
+  "nome": "Dr. Vincenzo Picone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393755571470",
+  "email": "dermapic1@gmail.com",
+  "sitoUrl": "https://vincenzopiconedermatologo.it/",
+  "indirizzo": "Via Cavour 34",
+  "cap": "81030",
+  "comune": "Campania",
+  "provincia": "aversa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Vincenzo Picone, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://vincenzopiconedermatologo.it/",
+   "https://vincenzopiconedermatologo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Picone, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Vincenzo Picone - Dermatolgo a Teverola vicino Aversa",
+  "tipoDichiarato": "Organization Person"
  }
 ]

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "centrobenesseresilvanaloiacono.it",
+  "nome": "Centro Estetico a Caltanissetta",
+  "formaSocietaria": "",
+  "partitaIva": "01260080856",
+  "telefono": "+393939392875",
+  "email": "info@centrobenesseresilvanaloiacono.it",
+  "sitoUrl": "https://www.centrobenesseresilvanaloiacono.it/",
+  "indirizzo": "Via Luisa Moncada 18",
+  "cap": "93100",
+  "comune": "Caltanissetta",
+  "provincia": "cl",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centrobenesseresilvanaloiacono.it/",
+   "https://www.centrobenesseresilvanaloiacono.it/chi-siamo",
+   "https://www.centrobenesseresilvanaloiacono.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroippocratecl.it",
   "nome": "Poliambulatorio Specialistico",
   "formaSocietaria": "",
@@ -23,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Ippocrate",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicosedita.com",
@@ -79,7 +109,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Michael Lombardo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drfrancescaromanacannemi.it",
@@ -167,7 +199,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polimed",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "simonaboscagliadermatologo.com",
+  "nome": "Dott.ssa Simona Boscaglia",
+  "formaSocietaria": "",
+  "partitaIva": "02076680855",
+  "telefono": "+3909341965258",
+  "email": "",
+  "sitoUrl": "https://www.simonaboscagliadermatologo.com/",
+  "indirizzo": "Viale Luigi Monaco, 10",
+  "cap": "93100",
+  "comune": "Caltanissetta",
+  "provincia": "cl",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Simona Boscaglia, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.simonaboscagliadermatologo.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simona Boscaglia, cognome dentro il dominio"
  },
  {
   "dominio": "studiodentisticocasanova.it",
@@ -192,6 +256,32 @@
    "https://www.studiodentisticocasanova.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "unipegasocaltanissetta.it",
+  "nome": "Sede di Caltanissetta",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02153340852",
+  "telefono": "+390934685127",
+  "email": "info@unipegasocaltanissetta.it",
+  "sitoUrl": "https://unipegasocaltanissetta.it/",
+  "indirizzo": "corso L-18",
+  "cap": "74648",
+  "comune": "",
+  "provincia": "cl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://unipegasocaltanissetta.it/",
+   "https://unipegasocaltanissetta.it/contatti/",
+   "https://unipegasocaltanissetta.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  }

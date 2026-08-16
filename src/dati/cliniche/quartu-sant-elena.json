@@ -4,7 +4,7 @@
   "nome": "Spa a Quartu Sant’Elena",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393517512753",
   "email": "info@hbspa.it",
   "sitoUrl": "https://www.centrohb.it/",
   "indirizzo": "Via Guglielmo Marconi 111",
@@ -21,14 +21,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hb Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicoqualab.it",
   "nome": "Centro Medico Qualab",
   "formaSocietaria": "",
   "partitaIva": "04068520925",
-  "telefono": "",
+  "telefono": "+393922559771",
   "email": "info@centromedicoqualab.it",
   "sitoUrl": "https://www.centromedicoqualab.it/",
   "indirizzo": "Via Italia 21",
@@ -46,7 +48,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico Qualab"
  },
  {
   "dominio": "clinicasensus.it",
@@ -105,5 +109,38 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "federicaguicciardidermatologa.com",
+  "nome": "Dott.ssa Federica Guicciardi",
+  "formaSocietaria": "",
+  "partitaIva": "03782410926",
+  "telefono": "+390708995913",
+  "email": "",
+  "sitoUrl": "https://www.federicaguicciardidermatologa.com/",
+  "indirizzo": "Via Enrico Fermi 2",
+  "cap": "09045",
+  "comune": "Quartu Sant'",
+  "provincia": "quartu-sant-elena",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federica Guicciardi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.federicaguicciardidermatologa.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federica Guicciardi, cognome dentro il dominio"
  }
 ]

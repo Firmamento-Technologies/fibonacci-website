@@ -26,6 +26,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dilorenzo.it",
+  "nome": "dilorenzo.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dilorenzo.it",
+  "sitoUrl": "https://www.dilorenzo.it/",
+  "indirizzo": "via Vittorio Veneto 37",
+  "cap": "67051",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dilorenzo.it/",
+   "https://www.dilorenzo.it/index.php/informativa-privacy",
+   "https://www.dilorenzo.it/index.php/segnalazioni/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Di Lorenzo",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "domenicopiccolodermatologo.it",
   "nome": "Benvenuti da Domenico Piccolo Dermatologo",
   "formaSocietaria": "",
@@ -111,7 +139,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Marianetti Med",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "newdermavezzano.it",
@@ -167,6 +197,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nino Favoriti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nino Favoriti, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Nino Favoriti",
+  "tipoDichiarato": "Organization"
  }
 ]

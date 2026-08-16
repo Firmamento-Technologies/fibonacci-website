@@ -31,5 +31,34 @@
   "dominio": "glassdoor.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiofulviocurti.com",
+  "nome": "STUDIO ODONTOIATRICO DOTT. FULVIO CURTI",
+  "formaSocietaria": "",
+  "partitaIva": "01934090356",
+  "telefono": "",
+  "email": "info@studiofulviocurti.com",
+  "sitoUrl": "https://www.studiofulviocurti.com/",
+  "indirizzo": "Viale Magenta, 1",
+  "cap": "42123",
+  "comune": "Reggio",
+  "provincia": "ozzano-dell-emilia",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiofulviocurti.com/",
+   "https://www.studiofulviocurti.com/chi-siamo/",
+   "https://www.studiofulviocurti.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

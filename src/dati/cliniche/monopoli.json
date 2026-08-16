@@ -1,5 +1,32 @@
 [
  {
+  "dominio": "dottpugliesesebastiano.it",
+  "nome": "Visita dermatologica e trattamenti tricologici a Monopoli",
+  "formaSocietaria": "",
+  "partitaIva": "02543540724",
+  "telefono": "+393477116783",
+  "email": "",
+  "sitoUrl": "https://dottpugliesesebastiano.it/",
+  "indirizzo": "Via B. Ricasoli, 123",
+  "cap": "70043",
+  "comune": "Monopoli",
+  "provincia": "monopoli",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Sebastiano Pugliese, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottpugliesesebastiano.it/",
+   "https://dottpugliesesebastiano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sebastiano Pugliese, cognome dentro il dominio"
+ },
+ {
   "dominio": "lucea-multimedica.it",
   "nome": "Lucea Multimedica",
   "formaSocietaria": "",
@@ -23,7 +50,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "LUCEA MULTIMEDICA",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
  },
  {
   "dominio": "medicina11.it",
@@ -48,7 +80,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gutener Medical",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriosanmatteo.it",

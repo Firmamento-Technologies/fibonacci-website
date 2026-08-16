@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "casadicurapalazzolo.it",
+  "nome": "Casa di Cura Palazzolo",
+  "formaSocietaria": "",
+  "partitaIva": "00533470167",
+  "telefono": "+39035389111",
+  "email": "info@casadicurapalazzolo.it",
+  "sitoUrl": "https://casadicurapalazzolo.it/",
+  "indirizzo": "Via S. Bernardino, 56",
+  "cap": "24122",
+  "comune": "Bergamo",
+  "provincia": "dalmine",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://casadicurapalazzolo.it/",
+   "https://casadicurapalazzolo.it/contatti-orari-dove-siamo/",
+   "https://casadicurapalazzolo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticocatia.it",
   "nome": "Centro estetico a dalmine",
   "formaSocietaria": "",

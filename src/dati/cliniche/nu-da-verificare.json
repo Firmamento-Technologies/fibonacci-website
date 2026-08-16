@@ -1,5 +1,32 @@
 [
  {
+  "dominio": "cedian.it",
+  "nome": "Cedian, Centro Diagnostico Nuorese",
+  "formaSocietaria": "",
+  "partitaIva": "02766310961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cedian.it/",
+  "indirizzo": "Piazza Italia, 4",
+  "cap": "08100",
+  "comune": "NUORO",
+  "provincia": "nu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cedian.it/",
+   "https://cedian.it/contatti/",
+   "https://cedian.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "centroesteticonuoro.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -10,7 +37,7 @@
   "formaSocietaria": "",
   "partitaIva": "01610440917",
   "telefono": "+393792829562",
-  "email": "",
+  "email": "dany.ticca@gmail.com",
   "sitoUrl": "https://www.esteticacleopatra.com/",
   "indirizzo": "Viale della Repubblica, 2",
   "cap": "08100",
@@ -29,7 +56,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "CENTRO ESTETICO CLEOPATRA DI DANIELA TICCA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "monicacongiu.it",
@@ -61,6 +90,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Monica Congiu",
+  "tipoDichiarato": "Organization"
  }
 ]

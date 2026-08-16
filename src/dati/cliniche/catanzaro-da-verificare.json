@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "annarosacatizzone.it",
+  "nome": "Annarosa Catizzone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@annarosacatizzone.it",
+  "sitoUrl": "https://annarosacatizzone.it/",
+  "indirizzo": "Via Lucrezia della valle 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://annarosacatizzone.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "dentalwellnessgigliotti.com",
   "nome": "Odontoiatria avanzata e salute orale a Lamezia Terme",
   "formaSocietaria": "",
@@ -28,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dental Wellness",
+  "tipoDichiarato": "Dentist"
  },
  {
   "dominio": "patriziascerbocentroestetico.it",

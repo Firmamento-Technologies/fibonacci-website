@@ -4,7 +4,7 @@
   "nome": "Centro medico",
   "formaSocietaria": "",
   "partitaIva": "03588330260",
-  "telefono": "",
+  "telefono": "0438 61425",
   "email": "info@centromarusia.it",
   "sitoUrl": "https://www.centromarusia.it/",
   "indirizzo": "Via L.Einaudi 122",
@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Marusia",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "centromedicogreenlife.it",
@@ -214,6 +216,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Forward",
+  "tipoDichiarato": "Organization"
  }
 ]

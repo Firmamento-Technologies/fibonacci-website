@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "ANVER Ambulatorio Polispecialistico"
  },
  {
   "dominio": "centromedicosannicolo.it",
@@ -80,6 +82,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Fisiomed Priverno",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 07:00-20:30",
+   "Saturday 07:00-12:30"
+  ]
  }
 ]

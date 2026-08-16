@@ -28,7 +28,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "admin",
+  "tipoDichiarato": "Person Organization",
+  "orari": [
+   "Wednesday 09:00-19:00",
+   "Thursday 09:00-19:00"
+  ]
  },
  {
   "dominio": "centroesteticolefragole.it",
@@ -61,6 +67,33 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "figebo.it",
+  "nome": "Figebo Centro Medico Polispecialistico Cassino",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07877891007",
+  "telefono": "+39077623166",
+  "email": "info@figebo.it",
+  "sitoUrl": "https://figebo.it/",
+  "indirizzo": "Via D. Cimarosa, 86",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://figebo.it/",
+   "https://figebo.it/wp-content/uploads/2022/03/FIGEBO-Privacy-policy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Figebo",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "floraesteticaavanzata.it",
   "nome": "Flora Estetica Avanzata",
   "formaSocietaria": "",
@@ -79,6 +112,38 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://floraesteticaavanzata.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Flora Estetica Avanzata – Centro Estetico a Cassino",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiodermatologico.com",
+  "nome": "Terapie dermatologiche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39077625175",
+  "email": "",
+  "sitoUrl": "https://www.studiodermatologico.com/",
+  "indirizzo": "Piazza Antonio Labriola, 19",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodermatologico.com/",
+   "https://www.studiodermatologico.com/chi-siamo",
+   "https://www.studiodermatologico.com/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -110,6 +175,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Saloni di Bellezza",
+  "tipoDichiarato": "Organization"
  }
 ]

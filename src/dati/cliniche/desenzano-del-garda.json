@@ -54,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aliona Muratov",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicosantangela.com",
@@ -110,8 +112,8 @@
   "nome": "STUDIO DOTT. MANCUSO",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
-  "email": "",
+  "telefono": "+393342445393",
+  "email": "gmancuso62@yahoo.it",
   "sitoUrl": "https://www.mancusomedicalstudio.it/",
   "indirizzo": "Via Adua 4",
   "cap": "",
@@ -133,7 +135,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "STUDIO DOTT. MANCUSO",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "neoclinic.it",

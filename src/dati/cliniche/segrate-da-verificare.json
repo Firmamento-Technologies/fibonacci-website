@@ -8,8 +8,8 @@
   "email": "",
   "sitoUrl": "https://www.attimobeauty.it/",
   "indirizzo": "Via Modigliani, 45",
-  "cap": "",
-  "comune": "",
+  "cap": "20054",
+  "comune": "Segrate",
   "provincia": "segrate",
   "prestazioni": [
    "Laser",
@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Attimo Beauty",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "bioesteticasegrate.it",
@@ -109,6 +111,56 @@
    "https://ctfsegrate.it/",
    "https://ctfsegrate.it/contattaci.html",
    "https://ctfsegrate.it/index.php/contattaci.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "resista.it",
+  "nome": "Resista",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01569400037",
+  "telefono": "",
+  "email": "info@resista.it",
+  "sitoUrl": "https://www.resista.it/",
+  "indirizzo": "Via F.lli Di Dio, 68",
+  "cap": "28887",
+  "comune": "Omegna",
+  "provincia": "segrate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.resista.it/",
+   "https://www.resista.it/contatti/",
+   "https://www.resista.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "specialista.in",
+  "nome": "Prenotazioni online visite specialistiche",
+  "formaSocietaria": "",
+  "partitaIva": "09617351219",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.specialista.in/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "segrate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.specialista.in/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

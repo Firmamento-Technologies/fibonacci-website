@@ -25,19 +25,55 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Sintonia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "gabrielesalloum.it",
+  "nome": "Gabriele Salloum",
+  "formaSocietaria": "",
+  "partitaIva": "02414610309",
+  "telefono": "",
+  "email": "info@gabrielesalloum.it",
+  "sitoUrl": "https://www.gabrielesalloum.it/",
+  "indirizzo": "Via Adriatica 73",
+  "cap": "",
+  "comune": "",
+  "provincia": "vigonza",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.gabrielesalloum.it/",
+   "https://www.gabrielesalloum.it/contatti/",
+   "https://www.gabrielesalloum.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gabriele Salloum",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "polisancamillo.it",
   "nome": "Poliambulatorio San Camillo",
   "formaSocietaria": "",
   "partitaIva": "05346810285",
-  "telefono": "",
+  "telefono": "+0039 0498933040",
   "email": "info@polisancamillo.it",
   "sitoUrl": "https://www.polisancamillo.it/",
   "indirizzo": "Via Diaz 154",
-  "cap": "",
-  "comune": "",
+  "cap": "30030",
+  "comune": "Vigonza",
   "provincia": "vigonza",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -51,6 +87,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio San Camillo",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

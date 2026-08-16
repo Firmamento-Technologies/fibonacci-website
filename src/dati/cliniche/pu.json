@@ -32,7 +32,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "GF Medical Center",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "paolaemiliozzi.it",
+  "nome": "Paola Emiliozzi chirurgo estetico e chirurgo plastico",
+  "formaSocietaria": "",
+  "partitaIva": "02884670965",
+  "telefono": "+393887385900",
+  "email": "",
+  "sitoUrl": "https://www.paolaemiliozzi.it/",
+  "indirizzo": "Via S.Salvador 104",
+  "cap": "47922",
+  "comune": "Torre",
+  "provincia": "pu",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Paola Emiliozzi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.paolaemiliozzi.it/",
+   "https://www.paolaemiliozzi.it/contatti/",
+   "https://www.paolaemiliozzi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Emiliozzi, e il dominio lo ripete"
  },
  {
   "dominio": "salusmedica.com",
@@ -42,7 +72,7 @@
   "telefono": "+39335270753",
   "email": "",
   "sitoUrl": "https://www.salusmedica.com/",
-  "indirizzo": "",
+  "indirizzo": "Via degli Abeti, 5/A",
   "cap": "61122",
   "comune": "Pesaro",
   "provincia": "pu",
@@ -61,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salus Medica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinmedpesaro.it",
@@ -87,7 +119,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SkinMed Pesaro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "spaziosalutesandecenzio.it",
@@ -95,7 +129,7 @@
   "formaSocietaria": "SRL",
   "partitaIva": "02517820417",
   "telefono": "+39072165905",
-  "email": "",
+  "email": "centromedico@sssd.it",
   "sitoUrl": "https://www.spaziosalutesandecenzio.it/",
   "indirizzo": "Via SanDecenzio 6",
   "cap": "61121",
@@ -116,6 +150,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Spazio Salute San Decenzio",
+  "tipoDichiarato": "Organization",
+  "lat": 43.90925,
+  "lon": 12.91405,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
+  ]
  }
 ]

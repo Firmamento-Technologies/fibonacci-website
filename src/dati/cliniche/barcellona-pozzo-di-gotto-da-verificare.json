@@ -30,6 +30,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Antonio e Manuela",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "coccoledibenessere.com",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393477765220",
+  "email": "",
+  "sitoUrl": "https://www.coccoledibenessere.com/",
+  "indirizzo": "Via Giacomo Matteotti 93",
+  "cap": "98051",
+  "comune": "Barcellona",
+  "provincia": "barcellona-pozzo-di-gotto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.coccoledibenessere.com/",
+   "https://www.coccoledibenessere.com/chi-siamo",
+   "https://www.coccoledibenessere.com/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

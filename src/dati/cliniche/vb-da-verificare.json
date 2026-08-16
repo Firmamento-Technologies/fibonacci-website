@@ -1,5 +1,60 @@
 [
  {
+  "dominio": "casamuller.it",
+  "nome": "Casa di Riposo Muller | Dal 1902 a Verbania, sul Lago Maggiore - Casa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390323516103",
+  "email": "amministrazione@casamuller.it",
+  "sitoUrl": "https://casamuller.it/",
+  "indirizzo": "Via Rosa Franzi, 42",
+  "cap": "28921",
+  "comune": "Verbania",
+  "provincia": "vb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://casamuller.it/",
+   "https://casamuller.it/contatti/",
+   "http://casamuller.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Casa di Riposo Muller | Dal 1902 a Verbania, sul Lago Maggiore",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottorbianco.it",
+  "nome": "Dottor Bianco",
+  "formaSocietaria": "",
+  "partitaIva": "11919290962",
+  "telefono": "",
+  "email": "studio@dottorbianco.it",
+  "sitoUrl": "https://www.dottorbianco.it/",
+  "indirizzo": "",
+  "cap": "28921",
+  "comune": "Verbania",
+  "provincia": "vb",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottorbianco.it/",
+   "https://www.dottorbianco.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "giadastudio.it",
   "nome": "Capelli e Trucco Semipermanente",
   "formaSocietaria": "",
@@ -22,7 +77,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Giada Studio Verbania",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "gruppocdc.it",
@@ -63,7 +120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Massimo Macrì Del Giudice",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nova-estetica.it",
@@ -93,6 +152,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "NOVA"
  }
 ]

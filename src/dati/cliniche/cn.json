@@ -82,7 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Europeo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cuneocronaca.it",
@@ -169,7 +171,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MEDICAGE®",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalcenter.cn.it",
@@ -220,6 +224,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "lat": 44.512872,
+  "lon": 7.480532,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "MGO Marco Gallo Odontoiatria",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 8:30-19:00",
+   "Saturday 8:30-12:30",
+   "Sunday Chiuso"
+  ]
+ },
+ {
+  "dominio": "ospedale.cuneo.it",
+  "nome": "Azienda Ospedaliera S.Croce e Carle Cuneo: Home Page",
+  "formaSocietaria": "",
+  "partitaIva": "01127900049",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ospedale.cuneo.it/",
+  "indirizzo": "Via M. Coppino 26",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "cn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ospedale.cuneo.it/",
+   "https://www.ospedale.cuneo.it/privacy",
+   "https://www.ospedale.cuneo.it/amministrazione-trasparente/altri-contenuti/accessibilita-e-catalogo-di-dati-metadati-e-banche-dati/note-legali"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -247,7 +286,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.705389,
+  "lon": 11.485506,
+  "nomeStrutturato": "Poliambulatori San Gaetano",
+  "orari": [
+   "Mo, Tu, We, Th, Fr 06:45-20:30 Sa 06:45-12:30"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "spazioessenza.it",

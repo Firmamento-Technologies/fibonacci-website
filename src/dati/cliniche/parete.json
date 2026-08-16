@@ -1,5 +1,37 @@
 [
  {
+  "dominio": "alessiocaggiati.it",
+  "nome": "Dott. Alessio Caggiati",
+  "formaSocietaria": "",
+  "partitaIva": "15685501007",
+  "telefono": "+390645546600",
+  "email": "",
+  "sitoUrl": "https://alessiocaggiati.it/",
+  "indirizzo": "",
+  "cap": "00153",
+  "comune": "Roma",
+  "provincia": "parete",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessio Caggiati, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://alessiocaggiati.it/",
+   "https://alessiocaggiati.it/chi-siamo.htm",
+   "https://alessiocaggiati.it/contatti.htm"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessio Caggiati, e il dominio lo ripete"
+ },
+ {
   "dominio": "colorifreddi.it",
   "nome": "Industria Colori Freddi S. Giorgio",
   "formaSocietaria": "SRL",
@@ -23,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Industria Colori Freddi S. Giorgio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fimulticare.it",
@@ -49,17 +83,19 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fi Multicare",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "manomano.it",
   "nome": "ManoMano.it: Tutto per il fai da te, la ristrutturazione e il giardina",
   "formaSocietaria": "",
   "partitaIva": "19752979930",
-  "telefono": "",
+  "telefono": "+33-01119620085",
   "email": "",
   "sitoUrl": "https://www.manomano.it:443/",
-  "indirizzo": "",
+  "indirizzo": "52 rue Bayen",
   "cap": "75017",
   "comune": "Paris",
   "provincia": "parete",
@@ -77,6 +113,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ManoMano",
+  "tipoDichiarato": "Organization"
  }
 ]

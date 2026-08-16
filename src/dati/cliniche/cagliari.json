@@ -4,7 +4,7 @@
   "nome": "Casa di Cura Sant'Anna",
   "formaSocietaria": "",
   "partitaIva": "07249810966",
-  "telefono": "",
+  "telefono": "+39 070.497151",
   "email": "segreteria.clinicasantanna@gmail.com",
   "sitoUrl": "https://www.clinicasantanna.it/",
   "indirizzo": "Via La Vega 9",
@@ -23,6 +23,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura Sant’Anna",
+  "tipoDichiarato": "Hospital",
+  "orari": [
+   "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 09:00:00-19:00:00"
+  ]
  }
 ]

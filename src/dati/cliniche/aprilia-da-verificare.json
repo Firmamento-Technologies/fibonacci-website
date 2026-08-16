@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Amira Estetica Avanzata",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drgrech.it",
@@ -79,6 +81,42 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Ospedale Città di Aprilia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ospedalereginapostolorum.it",
+  "nome": "Ospedale Regina Apostolorum",
+  "formaSocietaria": "",
+  "partitaIva": "14365250969",
+  "telefono": "+390693298000",
+  "email": "info@reginapostolorum.it",
+  "sitoUrl": "https://www.ospedalereginapostolorum.it/",
+  "indirizzo": "Via San Francesco d’Assisi, 50",
+  "cap": "00041",
+  "comune": "Albano Laziale",
+  "provincia": "aprilia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ospedalereginapostolorum.it/",
+   "https://www.ospedalereginapostolorum.it/contatti/",
+   "https://www.ospedalereginapostolorum.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Regina Apostolorum",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 07:15-20:0",
+   "Sunday 14:30-20:00"
+  ]
  }
 ]

@@ -25,7 +25,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clodia Medica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "fisiochioggia.it",
@@ -53,7 +58,33 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fisiochioggia Poliambulatorio",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "gasparinidental.it",
+  "nome": "Gasparini Dental",
+  "formaSocietaria": "",
+  "partitaIva": "02934150273",
+  "telefono": "+393339788110",
+  "email": "info@gasparinidental.it",
+  "sitoUrl": "https://gasparinidental.it/",
+  "indirizzo": "Via Lomellina, 68",
+  "cap": "30034",
+  "comune": "Oriago",
+  "provincia": "chioggia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maurizio Gasparini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://gasparinidental.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Gasparini, cognome dentro il dominio"
  },
  {
   "dominio": "mmbclodiense.it",

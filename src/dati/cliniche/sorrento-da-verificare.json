@@ -110,5 +110,37 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodermatologicoaiello.com",
+  "nome": "Studio Dermatologico Aiello",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3933870175363",
+  "email": "info@studiodermatologicoaiello.com",
+  "sitoUrl": "https://www.studiodermatologicoaiello.com/",
+  "indirizzo": "Via III Traversa Bagnulo, 1",
+  "cap": "80063",
+  "comune": "Piano",
+  "provincia": "sorrento",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodermatologicoaiello.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

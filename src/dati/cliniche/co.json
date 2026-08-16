@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Auxologico IRCCS",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "barbarasampietro.it",
@@ -48,7 +50,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Sampietro, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Sampietro, e il dominio lo ripete",
+  "nomeStrutturato": "Barbara Sampietro | Medico Estetico | Como",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
+  ],
+  "tipoDichiarato": "Organization Place"
  },
  {
   "dominio": "blog.cliomakeup.com",
@@ -74,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ClioMakeUp",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicasanmartino.it",
@@ -100,14 +109,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica San Martino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "comoclynic.com",
   "nome": "Como Clynic",
   "formaSocietaria": "SRL",
   "partitaIva": "03865740132",
-  "telefono": "",
+  "telefono": "+39 031 XXXXXXX",
   "email": "info@comoclynic.com",
   "sitoUrl": "https://www.comoclynic.com/",
   "indirizzo": "Via Enrico Pessina, 3",
@@ -129,7 +140,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Como Clynic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottantoniorusso.com",
@@ -160,7 +173,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Antonio Russo - Chirurgo Plastico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dr-camilla.it",
@@ -188,7 +203,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Camilla Sassi",
+  "tipoDichiarato": "Person",
+  "orari": [
+   "Sunday, Monday, Wednesday, Thursday, Friday, Saturday 09:30-20:00"
+  ]
  },
  {
   "dominio": "drcamillasassi-medicinaestetica.com",
@@ -282,7 +302,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Esthelia",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
  },
  {
   "dominio": "homedica.it",
@@ -340,7 +365,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto di Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lumos.it",
@@ -457,7 +484,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medika Point",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pietroloschi.com",
@@ -515,7 +544,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "FR Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "san-nicolo.com",
@@ -543,7 +574,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Synlab San Nicolò Centro Diagnostico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sebastianloi.com",
@@ -604,7 +637,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Stefano Di Giulio | Chirurgo plastico Como",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studimedicicaprani.it",
@@ -665,7 +700,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio De Simone",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicodermatologico.com",
@@ -715,7 +752,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Et Sana",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiosmilecomo.it",
@@ -743,5 +782,60 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "thegoodocs.com",
+  "nome": "Free Google Docs templates, Slides and Sheets",
+  "formaSocietaria": "",
+  "partitaIva": "CY10430999A",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://thegoodocs.com/",
+  "indirizzo": "Pavlou Nirvana & Aipesias, 4 Alpha Tower 1st floor, Flat/Office 11",
+  "cap": "3021",
+  "comune": "Limassol",
+  "provincia": "co",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://thegoodocs.com/",
+   "https://thegoodocs.com/freebies/about-me/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Goodocs Team Ltd",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ticonsiglio.com",
+  "nome": "Ti Consiglio: Offerte di Lavoro e Concorsi Pubblici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03331940126",
+  "telefono": "",
+  "email": "marketing@ticonsiglio.com",
+  "sitoUrl": "https://www.ticonsiglio.com/",
+  "indirizzo": "",
+  "cap": "21013",
+  "comune": "Gallarate",
+  "provincia": "co",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ticonsiglio.com/",
+   "https://www.ticonsiglio.com/reggio-emilia-concorso-diplomati-varie-sedi/",
+   "https://www.ticonsiglio.com/deloitte-assume-neolaureati-economia-sedi-nord-sud/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "GoldenCommunication srl",
+  "tipoDichiarato": "NewsMediaOrganization"
  }
 ]

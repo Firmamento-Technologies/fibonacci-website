@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Reale, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Aldo Reale, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Aldo Reale - Dermatologo a Campobasso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroartemisiacampobasso.it",
@@ -82,7 +84,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Esteticamente Snc",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "filomenamandato.it",
+  "nome": "Filomena Mandato",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@filomenamandato.it",
+  "sitoUrl": "https://filomenamandato.it/",
+  "indirizzo": "Via Conte Verde, 5",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Filomena Mandato, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://filomenamandato.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Filomena Mandato, e il dominio lo ripete"
  },
  {
   "dominio": "giulianiro.com",
@@ -113,7 +151,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Niro, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Niro, e il dominio lo ripete",
+  "nomeStrutturato": "Campobasso",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "lacuramedicalspa.com",
@@ -175,5 +215,34 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "quotidiano.net",
+  "nome": "Quotidiano Nazionale: news e ultime notizie di oggi dall'Italia e dal ",
+  "formaSocietaria": "SPA",
+  "partitaIva": "08475510155",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.quotidiano.net/",
+  "indirizzo": "via Bonomo a Livorno. La donna, 56",
+  "cap": "",
+  "comune": "",
+  "provincia": "cb",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.quotidiano.net/",
+   "https://www.quotidiano.net/esteri/assedio-dei-coloni-in-cisgiordania-t3uhzbhh"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Quotidiano Nazionale",
+  "tipoDichiarato": "NewsMediaOrganization"
  }
 ]

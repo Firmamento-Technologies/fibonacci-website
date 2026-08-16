@@ -29,7 +29,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Pascale, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Pascale, e il dominio lo ripete",
+  "nomeStrutturato": "Alessandra Pascale Medico Estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "alessiamaiorino.com",
@@ -123,7 +125,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottormerola.it",
@@ -263,7 +267,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ME Medicina Estetica",
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "pierfrancescobove.it",
@@ -291,7 +297,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pierfrancesco Bove, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pierfrancesco Bove, e il dominio lo ripete",
+  "lat": 40.74299,
+  "lon": 14.637703,
+  "nomeStrutturato": "Dott. Pierfrancesco Bove",
+  "orari": [
+   "Mo-Fr 09:00-20:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "roccocarfagna.it",
+  "nome": "Rocco Carfagna",
+  "formaSocietaria": "",
+  "partitaIva": "04791980651",
+  "telefono": "+393332425187",
+  "email": "info@roccocarfagna.it",
+  "sitoUrl": "https://www.roccocarfagna.it/",
+  "indirizzo": "Via Armando Diaz, 31",
+  "cap": "84134",
+  "comune": "Salerno",
+  "provincia": "sa",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rocco Carfagna, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.roccocarfagna.it/",
+   "https://www.roccocarfagna.it/contatti",
+   "https://www.roccocarfagna.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rocco Carfagna, e il dominio lo ripete"
  },
  {
   "dominio": "secoloditalia.it",
@@ -317,7 +359,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Secolo d'Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "valeria-salerno.com",

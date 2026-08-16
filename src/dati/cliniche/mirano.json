@@ -63,7 +63,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Zarian",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fenicamedica.com",
@@ -89,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Fenica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "gapclinics.com",
@@ -114,7 +118,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "#site_title",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
  },
  {
   "dominio": "haikzarian.com",
@@ -125,8 +134,8 @@
   "email": "info@haikzarian.com",
   "sitoUrl": "https://www.haikzarian.com/",
   "indirizzo": "Via Colombo 24",
-  "cap": "",
-  "comune": "",
+  "cap": "30035",
+  "comune": "Mirano",
   "provincia": "mirano",
   "prestazioni": [
    "Laser"
@@ -140,7 +149,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Haik Zarian | Dermatologo | Medicina Estetica | Trattamenti Laser",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "montecchifrancesca.it",
+  "nome": "Dott.ssa Montecchi Francesca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.montecchifrancesca.it/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mirano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Montecchi Francesca, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.montecchifrancesca.it/it/",
+   "https://www.montecchifrancesca.it/it/web-prenotazioni/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Montecchi Francesca, e il dominio lo ripete"
  },
  {
   "dominio": "naturalface.it",

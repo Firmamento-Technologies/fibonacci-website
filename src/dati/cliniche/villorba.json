@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bi.Verso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dev.centrodimedicina.com",
@@ -53,6 +55,7 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "MedicalOrganization"
  }
 ]

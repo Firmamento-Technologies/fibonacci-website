@@ -25,7 +25,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Arcadia",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-20:30"
+  ],
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "chirurgiaplastica.pro",
@@ -60,6 +65,36 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermatologoguanciarossa.it",
+  "nome": "Dermatologo a Fossombrone e Sant Ippolito",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393494359714",
+  "email": "info@dermatologoguanciarossa.it",
+  "sitoUrl": "https://www.dermatologoguanciarossa.it/",
+  "indirizzo": "",
+  "cap": "61040",
+  "comune": "Sant'",
+  "provincia": "fano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesca Guanciarossa, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologoguanciarossa.it/",
+   "https://www.dermatologoguanciarossa.it/contatti-dermatologo-francesca-guanciarossa/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesca Guanciarossa, cognome dentro il dominio",
+  "nomeStrutturato": "Dermatologo Francesca Guanciarossa Fossombrone Sant'ippolito",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottormarcellogarozzo.it",
@@ -113,7 +148,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "FISIOLAB",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mgesteticafano.it",
@@ -141,7 +178,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MG Estetica Fano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "orianamaschio.it",
@@ -166,7 +205,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Oriana Maschio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Oriana Maschio, e il dominio lo ripete",
+  "nomeStrutturato": "Oriana Maschio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "salusmetauro.com",
@@ -192,6 +233,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salus Metauro",
+  "tipoDichiarato": "Person Organization"
  }
 ]

@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Pozzuoli Caprice (NA)",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroesteticopozzuoli.it",
@@ -50,6 +52,34 @@
   "fonteUrl": [
    "https://www.centroesteticopozzuoli.it/",
    "https://www.centroesteticopozzuoli.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "chirurgiaesteticasalus.com",
+  "nome": "Chirurgia estetica estero",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticasalus.com/",
+  "indirizzo": "Via Voghera 9",
+  "cap": "",
+  "comune": "",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticasalus.com/",
+   "https://www.chirurgiaesteticasalus.com/chi-siamo",
+   "https://www.chirurgiaesteticasalus.com/chi-siamo/le-nostre-cliniche"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -134,7 +164,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MLP Medicalspa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "neacentromedico.it",
@@ -163,7 +195,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Nea",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "oculoplasticabernardini.it",
+  "nome": "Oculoplastica e Chirurgia dello Sguardo. Francesco Bernardini",
+  "formaSocietaria": "",
+  "partitaIva": "03845250103",
+  "telefono": "",
+  "email": "segreteria@oculoplasticabernardini.it",
+  "sitoUrl": "https://oculoplasticabernardini.it/",
+  "indirizzo": "",
+  "cap": "12882",
+  "comune": "PRIVACY",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://oculoplasticabernardini.it/",
+   "https://oculoplasticabernardini.it/privacy-policy-ue/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  },
  {
   "dominio": "ritualbeautyesteticaavanzata.it",
@@ -189,6 +252,37 @@
   "fonteUrl": [
    "https://www.ritualbeautyesteticaavanzata.it/",
    "https://www.ritualbeautyesteticaavanzata.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "simeo.org",
+  "nome": "Simeo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393203668762",
+  "email": "info@simeo.org",
+  "sitoUrl": "https://www.simeo.org/",
+  "indirizzo": "Viale Europa, 59",
+  "cap": "00171",
+  "comune": "ROMA",
+  "provincia": "pozzuoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.simeo.org/",
+   "https://www.simeo.org/convenzione-scudomed-normativa-privacy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

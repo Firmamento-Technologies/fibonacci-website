@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aori",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "arsmedendi.it",
@@ -60,7 +62,7 @@
   "nome": "Campus medico a Varese, poliambulatorio specialistico, visite ed esami",
   "formaSocietaria": "SRL",
   "partitaIva": "03043030125",
-  "telefono": "",
+  "telefono": "+390332 1544411",
   "email": "info@campusmedico.it",
   "sitoUrl": "https://campusmedico.it/",
   "indirizzo": "via Medaglie d’oro, 19",
@@ -79,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Campus Medico",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "centromedicofargo.it",
@@ -107,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico a Varese | Fargo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrospecialisticosanmartino.it",
@@ -133,7 +139,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Specialistico San Martino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicalaquiete.it",
@@ -145,7 +153,7 @@
   "sitoUrl": "https://clinicalaquiete.it/",
   "indirizzo": "Via Dante Alighieri 20",
   "cap": "18831",
-  "comune": "",
+  "comune": "Varese",
   "provincia": "va",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -159,7 +167,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica La Quiete",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 07:30-19:30",
+   "Saturday 07:30-12:30"
+  ]
  },
  {
   "dominio": "clinicamedica-mc.it",
@@ -187,7 +201,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Medica MC",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermartclinic.it",
@@ -219,7 +235,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DERMARTCLINIC SRL",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "francescamaggiulli.com",
@@ -280,7 +298,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina estetica Somma Lombardo e Varese - Dott.ssa Casagrande",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "odontobi.it",
@@ -332,7 +352,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Effetre",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatorioelianto.it",
@@ -357,7 +379,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Elianto"
  },
  {
   "dominio": "poliambulatoriomastra.it",
@@ -407,7 +431,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Polispecialistico Varese",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sme-diagnosticaperimmagini.it",
@@ -433,7 +459,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SME Centro Medico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiozibetti.com",

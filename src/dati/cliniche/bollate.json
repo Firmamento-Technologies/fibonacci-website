@@ -78,7 +78,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "C.E.O. Ambulatorio Odontoiatrico della Città di Bollate",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgoesteticomilano.info",
@@ -86,7 +88,7 @@
   "formaSocietaria": "",
   "partitaIva": "06882370155",
   "telefono": "+390258300455",
-  "email": "",
+  "email": "alberto.mzampori@gmail.com",
   "sitoUrl": "https://www.chirurgoesteticomilano.info/",
   "indirizzo": "Via Carlo Crivelli 15",
   "cap": "20122",
@@ -108,7 +110,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CHIRURGO ESTETICO MILANO",
+  "tipoDichiarato": "Organization Place LocalBusiness",
+  "lat": 45.453097,
+  "lon": 9.193878
  },
  {
   "dominio": "itacacentromedico.com",
@@ -162,7 +168,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Melarossa.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriocortedellasalute.com",
@@ -191,6 +199,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MedicalGroup",
+  "tipoDichiarato": "Organization"
  }
 ]

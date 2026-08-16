@@ -80,5 +80,33 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiosabiu.it",
+  "nome": "Studio Sabiu",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03859640926",
+  "telefono": "+390781689047",
+  "email": "segreteria@studiosabiu.com",
+  "sitoUrl": "https://www.studiosabiu.it/",
+  "indirizzo": "Via Don Minzoni 20",
+  "cap": "09010",
+  "comune": "",
+  "provincia": "sestu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiosabiu.it/",
+   "https://www.studiosabiu.it/chi-siamo/",
+   "https://www.studiosabiu.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "LocalBusiness",
+  "nomeStrutturato": "Studio Sabiu"
  }
 ]

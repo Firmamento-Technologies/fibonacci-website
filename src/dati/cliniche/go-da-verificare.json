@@ -25,7 +25,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Le petite ediénne",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "lobruttoroberto.com",
+  "nome": "Dermatologo Gorizia",
+  "formaSocietaria": "",
+  "partitaIva": "00520590316",
+  "telefono": "+393472266296",
+  "email": "",
+  "sitoUrl": "https://www.lobruttoroberto.com/",
+  "indirizzo": "Via Duca d'Aosta, 101",
+  "cap": "34074",
+  "comune": "MONFALCONE",
+  "provincia": "go",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lobruttoroberto.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studiogorizia.it",
@@ -33,7 +62,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393425062511",
-  "email": "",
+  "email": "studiogorizia19a@gmail.com",
   "sitoUrl": "https://www.studiogorizia.it/",
   "indirizzo": "Via Gorizia 19",
   "cap": "20021",
@@ -50,6 +79,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Gorizia",
+  "tipoDichiarato": "Organization"
  }
 ]

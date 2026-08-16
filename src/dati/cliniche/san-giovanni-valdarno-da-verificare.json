@@ -1,5 +1,39 @@
 [
  {
+  "dominio": "centromedicovaldarno.it",
+  "nome": "Centro Medico Valdarno",
+  "formaSocietaria": "",
+  "partitaIva": "00337310510",
+  "telefono": "+39055943304",
+  "email": "radiologia@centromedicovaldarno.it",
+  "sitoUrl": "https://www.centromedicovaldarno.it/",
+  "indirizzo": "Via dell'Energia, 20",
+  "cap": "52027",
+  "comune": "San Giovanni",
+  "provincia": "san-giovanni-valdarno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicovaldarno.it/",
+   "https://www.centromedicovaldarno.it/contatti/",
+   "https://www.centromedicovaldarno.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Valdarno",
+  "orari": [
+   "Mo-Fr 08:00-19:00",
+   "Sa 08:00-12:00",
+   "Sa 13:00-17:00",
+   "Su 08:00-13:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
+ },
+ {
   "dominio": "estetiqmed.it",
   "nome": "Dr.ssa Cornelia Florea",
   "formaSocietaria": "",
@@ -25,7 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr.ssa Cornelia Florea",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "tricodramma.com",
@@ -57,6 +93,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "marketing",
+  "tipoDichiarato": "Person Organization"
  }
 ]

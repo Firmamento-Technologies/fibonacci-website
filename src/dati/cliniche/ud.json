@@ -92,7 +92,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Cattelan, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Cattelan, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Chiara Cattelan",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cittasalute.it",
@@ -118,7 +120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Citt&#224; della Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "coram.it",
@@ -141,6 +145,40 @@
    "https://coram.it/",
    "https://coram.it/chi-siamo/",
    "https://coram.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Coram",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "dermatologagrattoniudine.it",
+  "nome": "dermatologagrattoniudine.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393382720274",
+  "email": "",
+  "sitoUrl": "https://www.dermatologagrattoniudine.it/",
+  "indirizzo": "Via Tavagnacco 89",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "ud",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dermatologagrattoniudine.it/",
+   "https://www.dermatologagrattoniudine.it/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -201,7 +239,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetika Udine",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ialweb.it",
+  "nome": "IAL FVG",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01256370931",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ialweb.it/",
+  "indirizzo": "via Oberdan, 22",
+  "cap": "33170",
+  "comune": "Pordenone",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ialweb.it/",
+   "https://www.ialweb.it/chi-siamo",
+   "https://www.ialweb.it/modulistica-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IAL FVG",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "melaservizi.it",
@@ -227,7 +295,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Me.La. Servizi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nicolapanizzo.it",
@@ -286,7 +356,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio San Luca",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "salons10.com",
@@ -336,7 +408,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Odontoiatrico e Dentistico Dr. ssa Antonella Stipo a Majano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioluisagennaro.it",
@@ -366,7 +440,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico Dr.ssa Luisa Gennaro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicobearzi.it",
@@ -396,7 +472,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Andrea Bearzi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "terminalnord.com",
@@ -422,7 +500,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Terminal Nord Medical Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "trattamix.it",
@@ -450,6 +530,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vieni a trovarci",
+  "orari": [
+   "Lun-Ven 9.30 – 21.00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

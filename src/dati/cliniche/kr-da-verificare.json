@@ -21,7 +21,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Calabria inchieste",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "centrobenesseredellacorte.it",
+  "nome": "Centro Benessere della Corte",
+  "formaSocietaria": "",
+  "partitaIva": "03605730617",
+  "telefono": "+390810148488",
+  "email": "info@mailfarmacia.it",
+  "sitoUrl": "https://www.centrobenesseredellacorte.it/",
+  "indirizzo": "Corso Matteotti, 143",
+  "cap": "81030",
+  "comune": "Frignano",
+  "provincia": "kr",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centrobenesseredellacorte.it/",
+   "https://www.centrobenesseredellacorte.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "depilazionelasercrotone.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "erbagilpoliambulatorio.com",
@@ -56,7 +92,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estelab",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "iocean.it",

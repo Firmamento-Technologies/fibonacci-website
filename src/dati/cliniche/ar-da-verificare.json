@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Aldal.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "altraopinione.org",
@@ -62,7 +64,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Federico Dulio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroequipedentale.it",
@@ -116,7 +120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro di Estetica di Sonia Dalla Ragione",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottorlaurentiandrea.it",
@@ -144,7 +150,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottor Andrea Laurenti",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Dentist Organization"
  },
  {
   "dominio": "earpower.it",
@@ -171,7 +182,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Sito earpower.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "italy.worldplaces.me",
@@ -236,6 +249,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Cuciti",
+  "tipoDichiarato": "MedicalOrganization Organization"
+ },
+ {
+  "dominio": "uslsudest.toscana.it",
+  "nome": "Azienda Usl Toscana sud est",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.uslsudest.toscana.it/",
+  "indirizzo": "Via Piero Calamandrei 173",
+  "cap": "52100",
+  "comune": "Arezzo",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.uslsudest.toscana.it/",
+   "https://www.uslsudest.toscana.it/sedi-territoriali",
+   "https://www.uslsudest.toscana.it/privacy/privacy-in-azienda"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Azienda USL Toscana sud est",
+  "tipoDichiarato": "Organization"
  }
 ]

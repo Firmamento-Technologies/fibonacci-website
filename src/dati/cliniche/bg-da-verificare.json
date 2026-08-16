@@ -1,5 +1,153 @@
 [
  {
+  "dominio": "abf.eu",
+  "nome": "Azienda Bergamasca Formazione",
+  "formaSocietaria": "",
+  "partitaIva": "03240540165",
+  "telefono": "",
+  "email": "info@abf.eu",
+  "sitoUrl": "https://www.abf.eu/",
+  "indirizzo": "corso Base per Coadiutore dell’Asino 03",
+  "cap": "24125",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.abf.eu/",
+   "https://www.abf.eu/abf-la-sua-storia-e-le-sue-sedi/",
+   "https://www.abf.eu/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bergamo-massaggi.it",
+  "nome": "MASSAGGI BERGAMO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bergamo-massaggi.it/",
+  "indirizzo": "Via Pelandi, 31",
+  "cap": "24125",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bergamo-massaggi.it/",
+   "https://www.bergamo-massaggi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bergamocentroestetico.it",
+  "nome": "Trattamento viso Anti-Age",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390355905919",
+  "email": "info@centrobenesserebergamo.it",
+  "sitoUrl": "https://bergamocentroestetico.it/",
+  "indirizzo": "via A. Maj 17",
+  "cap": "24121",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://bergamocentroestetico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.694787,
+  "lon": 9.679447,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Estetico Bergamo - BeautyCare",
+  "orari": [
+   "Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-19:00"
+  ]
+ },
+ {
+  "dominio": "centroesteticobergamo.it",
+  "nome": "Centro Estetico a Bergamo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393275836603",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticobergamo.it/",
+  "indirizzo": "Via Broseta 103",
+  "cap": "24128",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Biostimolazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticobergamo.it/",
+   "https://www.centroesteticobergamo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Nadia Aculov",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "centroprpbergamo.it",
+  "nome": "PRP Bergamo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393756310125",
+  "email": "info@centroprpbergamo.it",
+  "sitoUrl": "https://centroprpbergamo.it/",
+  "indirizzo": "Via Vincenzo Bellini, 43",
+  "cap": "24129",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroprpbergamo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "delamed.it",
   "nome": "Dermatologia, Laser, Medicina Estetica",
   "formaSocietaria": "",
@@ -74,7 +222,7 @@
   "telefono": "+39035462799",
   "email": "info@formecentromedico.it",
   "sitoUrl": "https://www.formecentromedico.it/",
-  "indirizzo": "",
+  "indirizzo": "Via dell'Aeronautica, 19",
   "cap": "24035",
   "comune": "Curno",
   "provincia": "bg",
@@ -90,7 +238,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "For Me",
+  "tipoDichiarato": "Organization",
+  "lat": 45.6946,
+  "lon": 9.61338,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 06:30-20:30",
+   "Saturday 06:30-13:30"
+  ]
+ },
+ {
+  "dominio": "katiacaccia.com",
+  "nome": "Katia Caccia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@katiacaccia.com",
+  "sitoUrl": "https://www.katiacaccia.com/",
+  "indirizzo": "Via Oratorio 22",
+  "cap": "",
+  "comune": "",
+  "provincia": "bg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.katiacaccia.com/",
+   "https://www.katiacaccia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "medicoesteticobergamo.it",
@@ -122,7 +303,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Giuseppina Albani",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "qsalute.it",
@@ -183,6 +366,68 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "scuolasuperioremedicinaestetica.it",
+  "nome": "Scuola Superiore Medicina Estetica Master e Corsi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@scuolasuperioremedicinaestetica.it",
+  "sitoUrl": "https://www.scuolasuperioremedicinaestetica.it/",
+  "indirizzo": "Corso Pratico è della durata di 12",
+  "cap": "00156",
+  "comune": "",
+  "provincia": "bg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.scuolasuperioremedicinaestetica.it/",
+   "https://www.scuolasuperioremedicinaestetica.it/chi-siamo/",
+   "https://www.scuolasuperioremedicinaestetica.it/info-e-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Scuola Superiore Medicina Estetica",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "studimediciquattronovembre.it",
+  "nome": "Gli Studi Medici quattro novembre si trovano a Bergamo HOME",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393714533604",
+  "email": "",
+  "sitoUrl": "https://www.studimediciquattronovembre.it/",
+  "indirizzo": "Via IV Novembre, 2b",
+  "cap": "24128",
+  "comune": "",
+  "provincia": "bg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studimediciquattronovembre.it/",
+   "https://www.studimediciquattronovembre.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiomariapiacappi.it",
   "nome": "Studio Maria Pia Cappi",
   "formaSocietaria": "",
@@ -213,6 +458,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Maria Pia Cappi",
+  "tipoDichiarato": "Organization"
  }
 ]

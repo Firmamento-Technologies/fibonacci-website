@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Corriere dell'Economia",
+  "tipoDichiarato": "NewsMediaOrganization"
  },
  {
   "dominio": "depilstop.com",
@@ -51,7 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Depilstop - Iperspecializzati nella rimozione dei peli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticacalabria.it",

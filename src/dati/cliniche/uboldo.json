@@ -23,7 +23,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinichevigano.it",
@@ -31,7 +32,7 @@
   "formaSocietaria": "",
   "partitaIva": "02334250996",
   "telefono": "+390266100772",
-  "email": "",
+  "email": "niguarda@clinichevigano.it",
   "sitoUrl": "https://clinichevigano.it/",
   "indirizzo": "Via Passerini. Gerenzano : percorri la SP233",
   "cap": "16121",
@@ -51,7 +52,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.515255,
+  "lon": 9.192459,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Cliniche Viganò",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 8:00 - 19:00"
+  ]
  },
  {
   "dominio": "csdcodontoiatriauboldo.it",

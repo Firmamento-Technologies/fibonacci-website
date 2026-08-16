@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Canova Institute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroesteticoony.it",
@@ -75,7 +77,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro medico Le Palme",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologicampani.it",
+  "nome": "ADECA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@dermatologicampani.it",
+  "sitoUrl": "https://www.dermatologicampani.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologicampani.it/",
+   "https://www.dermatologicampani.it/pdf/privacy-policy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "esteticakalos.it",
@@ -133,7 +162,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Galatea Estetica Innovativa",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ordinemediciap.it",
+  "nome": "Ordine dei Medici e Odontoiatri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ordinemediciap.it",
+  "sitoUrl": "https://www.ordinemediciap.it/",
+  "indirizzo": "Piazza Matteotti n.12",
+  "cap": "63100",
+  "comune": "Ascoli",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordinemediciap.it/",
+   "https://www.ordinemediciap.it/contatti",
+   "https://www.ordinemediciap.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "studiomedicocaselli.it",
@@ -157,6 +214,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Caselli",
+  "tipoDichiarato": "Organization"
  }
 ]

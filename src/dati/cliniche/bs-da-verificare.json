@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Vitale Minopoli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "deaclinique.com",
@@ -90,6 +92,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Antonietta Lonati - Medico Chirurgo Specialista Dermatologia e Venerologia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottcarlodefeo.it",
+  "nome": "Dott. Carlo de Feo",
+  "formaSocietaria": "",
+  "partitaIva": "03623080987",
+  "telefono": "+393929091499",
+  "email": "info@deaclinique.com",
+  "sitoUrl": "https://dottcarlodefeo.it/",
+  "indirizzo": "Via San Bartolomeo, 11",
+  "cap": "25128",
+  "comune": "BRESCIA",
+  "provincia": "bs",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottcarlodefeo.it/",
+   "https://dottcarlodefeo.it/privacy-policy/",
+   "https://dottcarlodefeo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -122,7 +152,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Alessandra Ranza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottorgiuliobrambilla.com",
@@ -155,6 +187,37 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "giovannibrunelli.it",
+  "nome": "Dottor Giovanni Brunelli Chirurgia e Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39335294713",
+  "email": "info@giovannibrunelli.it",
+  "sitoUrl": "https://www.giovannibrunelli.it/",
+  "indirizzo": "Via Guido Zadei, 64",
+  "cap": "25123",
+  "comune": "Brescia",
+  "provincia": "bs",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.giovannibrunelli.it/",
+   "https://www.giovannibrunelli.it/altre-sedi-di-lavoro",
+   "https://www.giovannibrunelli.it/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "labquarantadue.com",
   "nome": "Lab Quarantadue",
   "formaSocietaria": "",
@@ -180,7 +243,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Lab Quarantadue",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "martinellimedicinaestetica.it",
@@ -213,7 +278,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Pietro Martinelli",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "medicinaesteticabrescia.it",
@@ -244,7 +311,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Brescia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticaorlandini.it",
@@ -342,6 +411,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Stefano Di Nonno",
+  "tipoDichiarato": "Organization"
  }
 ]

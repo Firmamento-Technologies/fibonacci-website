@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bachiorri",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "flexorlab.it",
@@ -38,8 +40,8 @@
   "email": "info@flexorlab.it",
   "sitoUrl": "https://www.flexorlab.it/",
   "indirizzo": "Via delle Fascine, 8",
-  "cap": "",
-  "comune": "",
+  "cap": "06132",
+  "comune": "Perugia",
   "provincia": "perugia",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -52,7 +54,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.050855,
+  "lon": 12.411263,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Flexoralab SRL",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "medisportcenter.it",
@@ -78,7 +87,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medisport Center",
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 43.081444,
+  "lon": 12.338095,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-13:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:00"
+  ]
  },
  {
   "dominio": "villa-salus.it",

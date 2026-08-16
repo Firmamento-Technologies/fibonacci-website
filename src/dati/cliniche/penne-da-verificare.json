@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Canevari Group S.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "celmade.co",
@@ -33,9 +35,9 @@
   "telefono": "",
   "email": "",
   "sitoUrl": "https://celmade.co/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "1 Dunton Way",
+  "cap": "RM9 6GP",
+  "comune": "Dagenham",
   "provincia": "penne",
   "prestazioni": [
    "Filler",
@@ -52,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Celmade",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "informatore.info",
@@ -77,7 +81,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Circolo delle Imprese",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "medimilano.it",
+  "nome": "Centro Medico Polispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09263060965",
+  "telefono": "+390236574680",
+  "email": "segreteria@medimilano.it",
+  "sitoUrl": "https://www.medimilano.it/",
+  "indirizzo": "Via Francesco Ferrucci, 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medimilano.it/",
+   "https://www.medimilano.it/contatti/",
+   "https://www.medimilano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "MediMilano",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "mondoffice.com",
@@ -102,5 +139,35 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "praxisdienst.com",
+  "nome": "Praxisdienst",
+  "formaSocietaria": "",
+  "partitaIva": "DE 149 833 702",
+  "telefono": "0049 6502 - 91 69-0",
+  "email": "info@praxisdienst.de",
+  "sitoUrl": "https://www.praxisdienst.com/",
+  "indirizzo": "Trierer Straße 43-47",
+  "cap": "54340",
+  "comune": "Longuich",
+  "provincia": "penne",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.praxisdienst.com/",
+   "https://www.praxisdienst.com/infusion-injection/blood-collection/blood-sedimentation-racks/",
+   "https://www.praxisdienst.com/furniture/miscellaneous-products/medical-privacy-screens/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Praxisdienst",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -23,7 +23,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "atlasmedica.eu",
@@ -48,7 +49,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Atlas Medica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "carlogovoni.it",
+  "nome": "Govoni",
+  "formaSocietaria": "",
+  "partitaIva": "01479830356",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.carlogovoni.it/",
+  "indirizzo": "via Buonarroti, 48",
+  "cap": "20141",
+  "comune": "MILANO",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carlo Govoni, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.carlogovoni.it/",
+   "https://www.carlogovoni.it/informativa-privacy",
+   "https://www.carlogovoni.it/note-legali"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Govoni, e il dominio lo ripete"
  },
  {
   "dominio": "centroeubiotica.it",
@@ -104,7 +133,70 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Spallanzani",
+  "orari": [
+   ""
+  ],
+  "tipoDichiarato": "medicalclinic"
+ },
+ {
+  "dominio": "clinicacittadiparma.it",
+  "nome": "Ospedale privato accreditato",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00305320343",
+  "telefono": "+390521249611",
+  "email": "info@clinicacdp.it",
+  "sitoUrl": "https://www.clinicacittadiparma.it/",
+  "indirizzo": "Via Rossi 5",
+  "cap": "43123",
+  "comune": "Parma",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.clinicacittadiparma.it/",
+   "https://www.clinicacittadiparma.it/chi-siamo/",
+   "https://www.clinicacittadiparma.it/chi-siamo/la-struttura/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Città di Parma",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermaclinicsp.it",
+  "nome": "Derma Clinic sp",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03037950346",
+  "telefono": "+390521573617",
+  "email": "info@dermaclinicsp.it",
+  "sitoUrl": "https://www.dermaclinicsp.it/",
+  "indirizzo": "Via Marco Emilio Lepido, 66",
+  "cap": "43123",
+  "comune": "PARMA",
+  "provincia": "pr",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.dermaclinicsp.it/",
+   "https://www.dermaclinicsp.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DERMA CLINIC SP s.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drgiovannaspinzo.it",
@@ -129,14 +221,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "elysium-medica.com",
   "nome": "Elysium Medica",
   "formaSocietaria": "SRL",
   "partitaIva": "02781440342",
-  "telefono": "",
+  "telefono": "+3905211798080",
   "email": "",
   "sitoUrl": "https://www.elysium-medica.com/",
   "indirizzo": "via Cremonese, 70",
@@ -162,7 +255,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Elysium Medica",
+  "tipoDichiarato": "Organization",
+  "lat": 44.8252,
+  "lon": 10.2885
  },
  {
   "dominio": "emmamoridermatologa.it",
@@ -193,6 +290,95 @@
    "https://www.emmamoridermatologa.it/note-legali-e-privacy"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Emma Mori Dermatologo Parma",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "fogliarosetta.com",
+  "nome": "Dermatologa a Parma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393385041518",
+  "email": "",
+  "sitoUrl": "https://www.fogliarosetta.com/",
+  "indirizzo": "Via Mons. Evasio Colli, 19",
+  "cap": "43126",
+  "comune": "PARMA",
+  "provincia": "pr",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rosetta Foglia, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.fogliarosetta.com/",
+   "https://www.fogliarosetta.com/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosetta Foglia, e il dominio lo ripete"
+ },
+ {
+  "dominio": "francescoantonaccio.it",
+  "nome": "dr. Francesco Antonaccio Dermatologo a Parma",
+  "formaSocietaria": "",
+  "partitaIva": "01906940349",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.francescoantonaccio.it/",
+  "indirizzo": "Via Emilia Ovest 8",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "pr",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Antonaccio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.francescoantonaccio.it/",
+   "https://www.francescoantonaccio.it/informativa-sulla-privacy/",
+   "https://www.francescoantonaccio.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Antonaccio, e il dominio lo ripete",
+  "nomeStrutturato": "dott. Francesco Antonaccio",
+  "tipoDichiarato": "MedicalOrganization"
+ },
+ {
+  "dominio": "gazzettadiparma.it",
+  "nome": "Gazzetta di Parma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.gazzettadiparma.it:443/",
+  "indirizzo": "via Nazionale dopo le 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.gazzettadiparma.it:443/",
+   "https://www.gazzettadiparma.it/sezioni/339/chi-siamo",
+   "https://www.gazzettadiparma.it/sezioni/343/note-legali"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  },
@@ -262,7 +448,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio medico Sadeghi - Medicina generale e medicina estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ostetriciaginecologiaparma.it",
@@ -318,7 +506,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Donatello Di Mascio",
+  "tipoDichiarato": "Person Organization Physician"
  },
  {
   "dominio": "poliambulatorioeuromed.com",
@@ -370,6 +560,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Euro Poliambulatorio",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "poliambulatoriosantacaterinaparma.it",
+  "nome": "Poliambulatorio Santa Caterina",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02084930342",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriosantacaterinaparma.it/",
+  "indirizzo": "Via Goito, 14",
+  "cap": "43121",
+  "comune": "Parma",
+  "provincia": "pr",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.poliambulatoriosantacaterinaparma.it/",
+   "https://www.poliambulatoriosantacaterinaparma.it/chi-siamo/",
+   "https://www.poliambulatoriosantacaterinaparma.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -403,7 +628,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico a Parma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "roburclinic.it",
@@ -413,7 +640,7 @@
   "telefono": "+393520985694",
   "email": "info@roburclinic.it",
   "sitoUrl": "https://roburclinic.it/",
-  "indirizzo": "",
+  "indirizzo": "Stradone Martiri della Libertà, 24",
   "cap": "43121",
   "comune": "Parma",
   "provincia": "pr",
@@ -437,7 +664,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.8015,
+  "lon": 10.3279,
+  "nomeStrutturato": "Robur Clinic",
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "studiomedicozannoni.com",
@@ -468,7 +699,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Zannoni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "thelongevitysuite.com",

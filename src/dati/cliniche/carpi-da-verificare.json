@@ -26,7 +26,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticalarimar.it",
@@ -50,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Larimar",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lisabioestetica.it",
@@ -79,7 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Estetica Lisa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mamasuncarpi.it",
@@ -107,7 +112,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Mamasun Carpi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nubramedica.it",
@@ -162,6 +169,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Rosato Beatrice",
+  "tipoDichiarato": "Organization",
+  "lat": 44.7825,
+  "lon": 10.8876,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday 09:00-12:30",
+   "Monday, Tuesday, Wednesday, Thursday 14:30-19:00",
+   "Friday 09:00-13:00"
+  ]
  }
 ]

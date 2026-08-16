@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "01525350532",
   "telefono": "+39056423279",
-  "email": "",
+  "email": "studioangelini.gr@gmail.com",
   "sitoUrl": "https://www.angelinistudiodentistico.it/",
   "indirizzo": "Via Derna, 4",
   "cap": "58100",
@@ -23,7 +23,20 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Angelini Studio Dentistico",
+  "tipoDichiarato": "Organization",
+  "lat": 42.763741,
+  "lon": 11.114748,
+  "orari": [
+   "Monday 08:30-13:00",
+   "Monday 15:00-19:00",
+   "Tuesday 08:30-19:00",
+   "Wednesday 08:30-19:00",
+   "Thursday 08:30-13:00",
+   "Thursday 15:00-19:00",
+   "Friday 08:30-17:30"
+  ]
  },
  {
   "dominio": "centropegaso.it",
@@ -49,7 +62,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Pegaso & Care",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ecodoppler-a-grosseto.it",
@@ -57,7 +72,7 @@
   "formaSocietaria": "",
   "partitaIva": "01480810538",
   "telefono": "+393402382008",
-  "email": "",
+  "email": "c.f.vagheggini@gmail.com",
   "sitoUrl": "https://ecodoppler-a-grosseto.it/",
   "indirizzo": "Viale Ximenes 53",
   "cap": "58100",
@@ -78,7 +93,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio medico Dr Vagheggini",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "labellebleu.eu",
@@ -111,7 +128,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Grosseto La Belle Bleu",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticagrosseto.it",
@@ -204,7 +223,7 @@
   "formaSocietaria": "",
   "partitaIva": "01541760532",
   "telefono": "+393458404898",
-  "email": "",
+  "email": "salusestetica.ga@gmail.com",
   "sitoUrl": "https://www.salusesteticagrosseto.it/",
   "indirizzo": "Via Saturnia 18",
   "cap": "58100",
@@ -224,7 +243,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 42.775325,
+  "lon": 11.105183,
+  "nomeStrutturato": "SalusEstetica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
  },
  {
   "dominio": "studiodentisticozullo.it",
@@ -236,7 +262,7 @@
   "sitoUrl": "https://studiodentisticozullo.it/",
   "indirizzo": "Piazza Ponchielli 1",
   "cap": "",
-  "comune": "",
+  "comune": "Grosseto",
   "provincia": "gr",
   "prestazioni": [
    "Filler",
@@ -256,11 +282,46 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Dentistico Zullo",
+  "tipoDichiarato": "Organization Person",
+  "orari": [
+   "Monday, Tuesday 15:00-20:00",
+   "Wednesday 08:30-13:00",
+   "Thursday 15:00-20:00",
+   "Friday 08:30-13:00"
+  ]
  },
  {
   "dominio": "studiomedicoafrodite.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studioriccardosimi.com",
+  "nome": "Centro di fisioterapia a Grosseto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393494188053",
+  "email": "",
+  "sitoUrl": "https://www.studioriccardosimi.com/",
+  "indirizzo": "Via Aurelia Nord, 88",
+  "cap": "58100",
+  "comune": "Grosseto",
+  "provincia": "gr",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioriccardosimi.com/",
+   "https://www.studioriccardosimi.com/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

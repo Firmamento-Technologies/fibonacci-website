@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro salute Lucca",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "copertinocity.it",
@@ -49,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Copertino City",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "d33salute.it",
@@ -75,17 +79,19 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro medico D33 Salute - Lucca",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fima-dermatologiaestetica.it",
   "nome": "Fi.Ma.: centro di dermatologia e medicina estetica a Lucca",
   "formaSocietaria": "SAS",
   "partitaIva": "02225290465",
-  "telefono": "",
-  "email": "",
+  "telefono": "05831531562",
+  "email": "fi.ma.sas@virgilio.it",
   "sitoUrl": "https://www.fima-dermatologiaestetica.it/",
-  "indirizzo": "",
+  "indirizzo": "Vl. Luporini 55100 LUCCA (LU)",
   "cap": "",
   "comune": "",
   "provincia": "lu",
@@ -101,7 +107,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "FI.MA S.A.S. DI MORI GINO & C.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lucca.com",
@@ -134,7 +142,7 @@
   "nome": "Medicina Estetica Viareggio |Dermatologo| Prof. Dott. Emilio Betti",
   "formaSocietaria": "",
   "partitaIva": "01912360466",
-  "telefono": "",
+  "telefono": "3291108958",
   "email": "info@dermoesteticaitaliana.it",
   "sitoUrl": "https://www.medicinaesteticaviareggio.com/",
   "indirizzo": "Piazza Giuseppe Mazzini n° 8",
@@ -161,7 +169,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Prof. Dott. Emilio Betti - Direttore di DermoEstetica Italiana - Centri di Alta Specializzazione in Medicina e Chirurgia",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "miagenda.it",
@@ -187,7 +197,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "miAgenda",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nabiria.com",
@@ -216,7 +228,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Nabiria",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 10:00-19:0"
+  ]
+ },
+ {
+  "dominio": "nomasvellolucca.com",
+  "nome": "Nomasvello Lucca",
+  "formaSocietaria": "SPA",
+  "partitaIva": "06387550483",
+  "telefono": "+390583082971",
+  "email": "",
+  "sitoUrl": "https://www.nomasvellolucca.com/",
+  "indirizzo": "Viale Europa 797",
+  "cap": "50126",
+  "comune": "Firenze",
+  "provincia": "lu",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.nomasvellolucca.com/",
+   "https://www.nomasvellolucca.com/contatti/",
+   "https://www.nomasvellolucca.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Nomasvello Lucca",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "polosalutelucca.it",

@@ -57,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Tarabini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "elisabenati.it",
@@ -88,7 +90,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Benati, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisa Benati, e il dominio lo ripete",
+  "nomeStrutturato": "Elisa Benati",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giuliaboscaini.it",
@@ -122,7 +126,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boscaini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Boscaini, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Giulia Boscaini",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "medicaplus.it",
@@ -180,7 +186,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Dott.sa Grendene",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "molinarismilelife.it",
@@ -242,7 +250,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Molinari, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Molinari, e il dominio lo ripete",
+  "nomeStrutturato": "Studio Molinari",
+  "tipoDichiarato": "Organization",
+  "lat": 44.642351,
+  "lon": 10.917789,
+  "orari": [
+   "Mo-Fr 09:00-19:30"
+  ]
  },
  {
   "dominio": "polestemed.com",
@@ -274,7 +289,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Poliambulatorio Estemed",
+  "orari": [
+   "Monday,Wednesday,Friday 09:00-20:00",
+   "Tuesday,Saturday Closed",
+   "Thursday 10:00-17:00"
+  ]
  },
  {
   "dominio": "poliambulatorio-minerva.it",
@@ -365,6 +387,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sara Bertoncelli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sara Bertoncelli, e il dominio lo ripete",
+  "nomeStrutturato": "Sara Bertoncelli",
+  "tipoDichiarato": "Organization Person"
+ },
+ {
+  "dominio": "skincenter.it",
+  "nome": "Dermatologia a Modena",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02856780362",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.skincenter.it/",
+  "indirizzo": "Via Zattera 130",
+  "cap": "",
+  "comune": "",
+  "provincia": "mo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.skincenter.it/",
+   "https://www.skincenter.it/chi-siamo/",
+   "https://www.skincenter.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Skincenter",
+  "tipoDichiarato": "Organization"
  }
 ]

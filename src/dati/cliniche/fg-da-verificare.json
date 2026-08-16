@@ -61,6 +61,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "ritavalentinalariccia.com",
+  "nome": "ritavalentinalariccia.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ritavalentinalariccia.com",
+  "sitoUrl": "https://www.ritavalentinalariccia.com/",
+  "indirizzo": "via Trieste 10",
+  "cap": "71121",
+  "comune": "",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ritavalentinalariccia.com/",
+   "https://www.ritavalentinalariccia.com/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "sist.sanita.puglia.it",
   "nome": "Sistema Informativo Sanitario Territoriale",
   "formaSocietaria": "",
@@ -108,6 +136,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Angiolillo",
+  "tipoDichiarato": "Organization"
  }
 ]

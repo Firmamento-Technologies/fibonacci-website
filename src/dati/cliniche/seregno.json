@@ -26,11 +26,41 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "angelolongoni.eu",
+  "nome": "Angelo Longoni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390362232667",
+  "email": "info@angelolongoni.eu",
+  "sitoUrl": "https://angelolongoni.eu/",
+  "indirizzo": "",
+  "cap": "20831",
+  "comune": "Seregno",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Angelo Longoni, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://angelolongoni.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angelo Longoni, e il dominio lo ripete"
+ },
+ {
   "dominio": "beautyesteeclinique.com",
   "nome": "Beautyestee' Clinique",
   "formaSocietaria": "SRL",
   "partitaIva": "12933700960",
-  "telefono": "",
+  "telefono": "+39 379 1784827",
   "email": "info@beautyesteebustoarsizio.com",
   "sitoUrl": "https://www.beautyesteeclinique.com/",
   "indirizzo": "piazza Italia 4",
@@ -52,7 +82,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BeautyEsteè Clinique",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "chirurgiaesteticagrierosu.eu",
+  "nome": "Medicina e Chirurgia Estetica a Seregno e Milano, Chirurgo Estetico a ",
+  "formaSocietaria": "",
+  "partitaIva": "08643981007",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticagrierosu.eu/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "seregno",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marius Grierosu, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticagrierosu.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marius Grierosu, cognome dentro il dominio"
  },
  {
   "dominio": "cobmedicina.it",
@@ -115,7 +174,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dinamica Medica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "medical-resort.it",
@@ -146,7 +210,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "adminmedicalresort",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "mrpclinicseregno.it",
@@ -173,7 +239,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "mrpclinicseregno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriocso.it",
@@ -249,6 +317,34 @@
    "https://studioquasso.it/",
    "https://studioquasso.it/appuntamenti-e-contatti/",
    "https://studioquasso.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Quasso",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "unimedinverigo.it",
+  "nome": "Unimed poliambulatorio a Inverigo, vicino Como Monza e Lecco, Insubria",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03266250137",
+  "telefono": "+39031607119",
+  "email": "segreteria@unimedinverigo.it",
+  "sitoUrl": "https://unimedinverigo.it/",
+  "indirizzo": "Via General Cantore 40",
+  "cap": "22044",
+  "comune": "Inverigo",
+  "provincia": "seregno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://unimedinverigo.it/",
+   "https://unimedinverigo.it/unimed/privacy-e-cookie/",
+   "https://unimedinverigo.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

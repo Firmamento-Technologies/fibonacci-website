@@ -25,7 +25,20 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.573058,
+  "lon": 9.248074,
+  "nomeStrutturato": "Gi.Vi.Dental Srl",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30",
+   "Saturday, Sunday 00:00-00:00"
+  ],
+  "tipoDichiarato": "Organization Place Dentist"
+ },
+ {
+  "dominio": "glassdoor.co.in",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "lechicseregno.it",

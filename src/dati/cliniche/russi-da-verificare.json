@@ -22,7 +22,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Cesarea",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ordinemediciterni.it",
+  "nome": "Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Terni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390744300175",
+  "email": "segreteria@ordinemediciterni.it",
+  "sitoUrl": "https://www.ordinemediciterni.it/",
+  "indirizzo": "Strada Cardeto n. 67",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "russi",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ordinemediciterni.it/",
+   "https://www.ordinemediciterni.it/l-ordine/urp/contatti",
+   "https://www.ordinemediciterni.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "russianstyle.it",
@@ -75,6 +105,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Tippest",
+  "tipoDichiarato": "Organization"
  }
 ]

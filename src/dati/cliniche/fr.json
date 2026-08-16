@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "F-Medical Group",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fisioterapiacavoni.it",
@@ -51,16 +53,42 @@
   "motivoEsclusione": ""
  },
  {
-  "dominio": "poliambulatoriodp.it",
-  "nome": "Ambulatorio Polispecialistico DP",
+  "dominio": "ordinemedicifrosinone.it",
+  "nome": "ordinemedicifrosinone.it",
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "",
   "email": "",
+  "sitoUrl": "https://www.ordinemedicifrosinone.it/",
+  "indirizzo": "Via Fosse Ardeatine, 101",
+  "cap": "03100",
+  "comune": "Frosinone",
+  "provincia": "fr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.ordinemedicifrosinone.it/",
+   "https://www.ordinemedicifrosinone.it/fr/contatti-e-orari-apertura-al-pubblico",
+   "https://www.ordinemedicifrosinone.it/fr/amministrazione-trasparente/178-disposizioni-generali/atti-generali/privacy-e-dpo/2095-informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "poliambulatoriodp.it",
+  "nome": "Ambulatorio Polispecialistico DP",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390775686258",
+  "email": "",
   "sitoUrl": "https://poliambulatoriodp.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Tiburtina 263",
+  "cap": "03100",
+  "comune": "Frosinone",
   "provincia": "fr",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -72,7 +100,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ambulatorio Polispecialistico DP",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness MedicalClinic Dentist"
  },
  {
   "dominio": "studioberrino.com",
@@ -102,6 +135,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Berrino",
+  "tipoDichiarato": "Organization"
  }
 ]

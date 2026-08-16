@@ -1,5 +1,32 @@
 [
  {
+  "dominio": "clinicasantaines.it",
+  "nome": "Clinica medica ortopedica Santa Ines",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390110635111",
+  "email": "info@clinicasantaines.it",
+  "sitoUrl": "https://www.clinicasantaines.it/",
+  "indirizzo": "Via E. De Amicis 55",
+  "cap": "",
+  "comune": "",
+  "provincia": "collegno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicasantaines.it/",
+   "https://www.clinicasantaines.it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Clinica medica ortopedica santa ines",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "dentistaroma.net",
   "nome": "Dentista Roma",
   "formaSocietaria": "",
@@ -34,8 +61,8 @@
   "email": "info@lovelybeautytherapist.com",
   "sitoUrl": "https://www.lovelybt.com/",
   "indirizzo": "Via N. Tommaseo 3",
-  "cap": "",
-  "comune": "",
+  "cap": "10093",
+  "comune": "Collegno",
   "provincia": "collegno",
   "prestazioni": [
    "Laser",
@@ -52,7 +79,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "LovelyBT",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "mdbeautylounge.it",
@@ -81,7 +110,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "MD Beauty Lounge",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticamaxim.com",
@@ -141,6 +172,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Star Beauty",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -106,7 +106,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "William Susi",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "dottdeltorto.com",
@@ -163,5 +165,84 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lilt.it",
+  "nome": "Lega Italiana per la Lotta contro i Tumori",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lilt.it/",
+  "indirizzo": "Via Torlonia 15",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "termoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lilt.it/",
+   "https://www.lilt.it/chi-siamo",
+   "https://www.lilt.it/chi-siamo/attivita"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicalcentertermoli.com",
+  "nome": "Poliambulatorio Specialistico a Termoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908757180",
+  "email": "info@medicalcentertermoli.it",
+  "sitoUrl": "https://www.medicalcentertermoli.com/",
+  "indirizzo": "Via Martiri Della Resistenza 61",
+  "cap": "86039",
+  "comune": "Termoli",
+  "provincia": "termoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicalcentertermoli.com/",
+   "https://www.medicalcentertermoli.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ordinedeimedici.cb.it",
+  "nome": "OMCeO Campobasso",
+  "formaSocietaria": "",
+  "partitaIva": "80005950706",
+  "telefono": "",
+  "email": "info@ordinedeimedici.cb.it",
+  "sitoUrl": "https://www.ordinedeimedici.cb.it/",
+  "indirizzo": "Via Mazzini,129",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "termoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordinedeimedici.cb.it/",
+   "https://www.ordinedeimedici.cb.it/chi-siamo/",
+   "https://www.ordinedeimedici.cb.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Ordine dei Medici di Campobasso",
+  "tipoDichiarato": "Organization"
  }
 ]

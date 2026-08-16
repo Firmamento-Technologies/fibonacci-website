@@ -81,6 +81,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Clinestetica Health &amp; Beauty",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologavenezia.it",
+  "nome": "Dottoressa Rossana Capezzera",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39041940534",
+  "email": "",
+  "sitoUrl": "https://www.dermatologavenezia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologavenezia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -141,7 +171,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Fisioterapista Duomo Milano - Elena Conforte Fisioterapista",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "marilynstudiovenezia.com",
@@ -169,7 +201,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Estetico Marilyn Studio Venezia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "onlinecv.it",
+  "nome": "Curriculum Vitae da compilare",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3939800130350",
+  "email": "info@onlinecv.it",
+  "sitoUrl": "https://www.onlinecv.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ve",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.onlinecv.it/",
+   "https://www.onlinecv.it/about/",
+   "https://www.onlinecv.it/contatto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "OnlineCV",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "savina-medicinaestetica.it",

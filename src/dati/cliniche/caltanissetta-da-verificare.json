@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "02097270850",
   "telefono": "+393881153499",
-  "email": "",
+  "email": "centrolacittadella@gmail.com",
   "sitoUrl": "https://dentistacaltanissetta.org/",
   "indirizzo": "Viale Stefano Candura 20",
   "cap": "93100",
@@ -23,6 +23,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 37.47047,
+  "lon": 14.03865,
+  "nomeStrutturato": "Centro Odontoiatrico La Cittadella - Caltanissetta",
+  "tipoDichiarato": "Dentist"
  }
 ]

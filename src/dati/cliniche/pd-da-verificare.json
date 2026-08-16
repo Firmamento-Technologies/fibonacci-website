@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "andreadetoni.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "cdcvillamaria.it",
   "nome": "Casa di Cura Villa Maria",
   "formaSocietaria": "",
@@ -23,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Casa di Cura Villa Maria - Padova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "deasalusestetica.com",
@@ -116,7 +123,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Microeyelaser centro chirurgia oculare",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriolunardon.it",
@@ -144,7 +153,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio Lunardon",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinmedicpadova.it",

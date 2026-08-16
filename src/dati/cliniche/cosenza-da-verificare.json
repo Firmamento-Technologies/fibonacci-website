@@ -23,6 +23,46 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Odontoiatrico Rizzuto",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
+ },
+ {
+  "dominio": "lesteticaonline.it",
+  "nome": "L'estetica Online",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393471091146",
+  "email": "info@lesteticaonline.it",
+  "sitoUrl": "https://www.lesteticaonline.it/",
+  "indirizzo": "Via Olindo Blandi, 43",
+  "cap": "87046",
+  "comune": "Settimo di Montalto Uffugo",
+  "provincia": "cosenza",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lesteticaonline.it/",
+   "https://www.lesteticaonline.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Estetico Basile",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-19:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  }
 ]

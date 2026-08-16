@@ -22,7 +22,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.904758,
+  "lon": 8.623597,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "BELDENT STUDIO ODONTOIATRICO",
+  "orari": [
+   "Monday 8:30-13:00 | 14:00-19:00",
+   "Tuesday,Wednesday,Thursday,Friday 8:30-17:30"
+  ]
  },
  {
   "dominio": "cassanochiara.com",
@@ -107,7 +115,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BdueB",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "michelinimarco.com",
@@ -138,7 +148,33 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michelini Marco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michelini Marco, e il dominio lo ripete",
+  "nomeStrutturato": "My WordPressVisita dermatologica ad Alessandria e La Spezia. Trattamenti viso, mappatura nei, laser e dermatologia speci",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "renzopanizza.it",
+  "nome": "Renzo Panizza",
+  "formaSocietaria": "",
+  "partitaIva": "02276240062",
+  "telefono": "",
+  "email": "info@renzopanizza.it",
+  "sitoUrl": "https://www.renzopanizza.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "al",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Renzo Panizza, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.renzopanizza.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Renzo Panizza, e il dominio lo ripete"
  },
  {
   "dominio": "skinmedicalessandria.it",
@@ -194,6 +230,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Madico Pacto",
+  "tipoDichiarato": "Organization"
  }
 ]

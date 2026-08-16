@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "100donne.ch",
+  "nome": "100 donne e mille altre",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://100donne.ch/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pianiga",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://100donne.ch/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "100 donne e mille altre",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "centromedicoviola.it",
   "nome": "Centro Medico Viola",
   "formaSocietaria": "SRL",
@@ -23,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Viola",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticatlantide.it",

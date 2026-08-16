@@ -58,7 +58,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fava Dentista, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fava Dentista, cognome dentro il dominio",
+  "nomeStrutturato": "Poliambulatorio Giorgio Fava Vigevano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "emotionsdebeaute.it",
@@ -117,6 +119,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mediperson Centro Medico Terapeutico Fisioterapia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiodermatologicorivetti.com",
+  "nome": "studiodermatologicorivetti.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393440629814",
+  "email": "",
+  "sitoUrl": "https://www.studiodermatologicorivetti.com/",
+  "indirizzo": "Via Gambolina 4",
+  "cap": "27029",
+  "comune": "Vigevano",
+  "provincia": "vigevano",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Nicolò Rivetti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodermatologicorivetti.com/",
+   "https://www.studiodermatologicorivetti.com/contatti/",
+   "https://www.studiodermatologicorivetti.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicolò Rivetti, cognome dentro il dominio",
+  "nomeStrutturato": "Nicolò Rivetti",
+  "tipoDichiarato": "Person Organization"
  }
 ]

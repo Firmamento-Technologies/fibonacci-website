@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Calabria Diretta News",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "campaniashopping.it",
@@ -75,7 +77,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Iozzi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressagiovannavitaliano.com",
@@ -186,7 +190,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "LaC News24",
+  "tipoDichiarato": "NewsMediaOrganization"
  },
  {
   "dominio": "marrellihospital.it",
@@ -212,7 +218,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Marrelli Hospital",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "newcbe.com",

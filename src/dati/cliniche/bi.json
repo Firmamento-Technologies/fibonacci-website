@@ -67,6 +67,65 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "angolobenessere.net",
+  "nome": "L'Angolo del Benessere di Sara",
+  "formaSocietaria": "",
+  "partitaIva": "02275800023",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.angolobenessere.net/",
+  "indirizzo": "Via Candelo 50",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.angolobenessere.net/",
+   "https://www.angolobenessere.net/chi-siamo/",
+   "https://www.angolobenessere.net/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "anna-scevola.com",
+  "nome": "Dott.ssa Anna Scevola",
+  "formaSocietaria": "",
+  "partitaIva": "03874510138",
+  "telefono": "+390318365768",
+  "email": "",
+  "sitoUrl": "https://www.anna-scevola.com/",
+  "indirizzo": "Via Serratrice 11",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Anna Scevola, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.anna-scevola.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Scevola, e il dominio lo ripete"
+ },
+ {
   "dominio": "domenicoparis.com",
   "nome": "Medicina Estetica e Dietologia a Biella",
   "formaSocietaria": "",
@@ -99,7 +158,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Domenico Paris, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Domenico Paris, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Domenico Paris",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estetispa.beauty",
@@ -127,7 +188,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetispa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "gianmarcourbino.it",
@@ -189,7 +252,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Petite Esthetique",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lasertherapycenter.org",
@@ -214,6 +279,31 @@
    "https://lasertherapycenter.org/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sportello.comune.biella.it",
+  "nome": "Comune di Biella",
+  "formaSocietaria": "",
+  "partitaIva": "00221900020",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sportello.comune.biella.it/sportello-unico-digitale/",
+  "indirizzo": "Via Battistero 4",
+  "cap": "13900",
+  "comune": "Biella",
+  "provincia": "bi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://sportello.comune.biella.it/sportello-unico-digitale/",
+   "https://sportello.comune.biella.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  }

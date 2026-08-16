@@ -93,7 +93,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Feleppa Med Group",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lumamed.it",
@@ -120,7 +122,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Luma",
+  "tipoDichiarato": "Organization",
+  "lat": 41.527552,
+  "lon": 12.949817,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30",
+   "Saturday 09:00-12:00"
+  ]
  },
  {
   "dominio": "medicalatina.it",
@@ -180,7 +190,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical SI",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "miradesign.it",
@@ -273,6 +285,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Veronica",
+  "tipoDichiarato": "Person Organization"
  }
 ]

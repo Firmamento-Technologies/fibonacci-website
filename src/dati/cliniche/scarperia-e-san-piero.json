@@ -22,7 +22,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Almarei",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "massimomaspero.it",
+  "nome": "Chirurgo Plastico",
+  "formaSocietaria": "",
+  "partitaIva": "07480400154",
+  "telefono": "",
+  "email": "info@massimomaspero.it",
+  "sitoUrl": "https://www.massimomaspero.it/",
+  "indirizzo": "Via Santa Croce, 10a",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "scarperia-e-san-piero",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimo Maspero, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.massimomaspero.it/",
+   "https://www.massimomaspero.it/contatti/",
+   "https://www.massimomaspero.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Maspero, e il dominio lo ripete"
  },
  {
   "dominio": "novasalusmontecatini.it",
@@ -45,6 +78,42 @@
    "https://novasalusmontecatini.it/",
    "https://novasalusmontecatini.it/chi-siamo/",
    "https://novasalusmontecatini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Nova Salus Montecatini",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "poliambulatoriofrugoni.it",
+  "nome": "Poliambulatorio Frugoni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39036585393",
+  "email": "info@poliambulatoriofrugoni.it",
+  "sitoUrl": "https://www.poliambulatoriofrugoni.it/",
+  "indirizzo": "Via Linero 12",
+  "cap": "85393",
+  "comune": "",
+  "provincia": "scarperia-e-san-piero",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriofrugoni.it/",
+   "https://www.poliambulatoriofrugoni.it/privacy",
+   "https://www.poliambulatoriofrugoni.it/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "drmusmarra.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "loscrignodelbenessere.com",
   "nome": "Centro Estetico Acireale",
   "formaSocietaria": "",

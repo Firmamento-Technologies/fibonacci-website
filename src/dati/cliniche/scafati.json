@@ -111,6 +111,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmine Verrusio, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmine Verrusio, cognome dentro il dominio",
+  "nomeStrutturato": "Studio Verrusio Centro Dentistico",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -221,5 +221,36 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "truthinstitute.it",
+  "nome": "Truth",
+  "formaSocietaria": "",
+  "partitaIva": "02626500033",
+  "telefono": "+3903211951142",
+  "email": "info@truthinstitute.it",
+  "sitoUrl": "https://www.truthinstitute.it/",
+  "indirizzo": "Via Pier Lombardo, 7",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "no",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.truthinstitute.it/",
+   "https://www.truthinstitute.it/chi-siamo/",
+   "https://www.truthinstitute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Truth",
+  "tipoDichiarato": "Organization"
  }
 ]

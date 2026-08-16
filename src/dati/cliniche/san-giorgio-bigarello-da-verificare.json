@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "02607190200",
   "telefono": "+393467949911",
-  "email": "",
+  "email": "nailsbenesseremantova@gmail.com",
   "sitoUrl": "https://www.dmcbeauty.it/",
   "indirizzo": "via Bonomi, 28",
   "cap": "46030",
@@ -27,7 +27,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.164524,
+  "lon": 10.837795,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Nails Benessere Centro Estetico Mantova",
+  "orari": [
+   "Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
+   "Saturday 09:00-14:00"
+  ]
  },
  {
   "dominio": "sangiorgioservizi.mn.it",

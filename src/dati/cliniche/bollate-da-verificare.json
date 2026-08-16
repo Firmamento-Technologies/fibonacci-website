@@ -76,7 +76,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Chirurgia e medicina estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lcbeautystudio.it",
@@ -106,6 +108,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "simonaghiozzi.it",
+  "nome": "Dr.ssa Simona Ghiozzi",
+  "formaSocietaria": "",
+  "partitaIva": "05262690968",
+  "telefono": "",
+  "email": "info@polispecialisticocittadibollate.it",
+  "sitoUrl": "https://www.simonaghiozzi.it/",
+  "indirizzo": "Via Sartirana, 1",
+  "cap": "20021",
+  "comune": "Bollate",
+  "provincia": "bollate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.simonaghiozzi.it/",
+   "https://www.simonaghiozzi.it/contatti/",
+   "https://www.simonaghiozzi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "dr.ssa Simona Ghiozzi",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
   "dominio": "venusbollate.it",
   "nome": "Centro Estetico Venus Bollate",
   "formaSocietaria": "",
@@ -114,8 +144,8 @@
   "email": "",
   "sitoUrl": "https://venusbollate.it/",
   "indirizzo": "Via Magenta, 16",
-  "cap": "",
-  "comune": "",
+  "cap": "20021",
+  "comune": "Bollate",
   "provincia": "bollate",
   "prestazioni": [
    "Epilazione"
@@ -129,7 +159,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Venus Bollate",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-19:0",
+   "Sunday 09:00-15:00"
+  ]
  },
  {
   "dominio": "vizididonna.it",

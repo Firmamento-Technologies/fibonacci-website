@@ -1,5 +1,61 @@
 [
  {
+  "dominio": "amcdermatologia.com",
+  "nome": "Dott.ssa Maria Catena Aloisi",
+  "formaSocietaria": "",
+  "partitaIva": "03421480835",
+  "telefono": "+390909486472",
+  "email": "",
+  "sitoUrl": "https://www.amcdermatologia.com/",
+  "indirizzo": "Via Santa Marta 141",
+  "cap": "98123",
+  "comune": "Messina",
+  "provincia": "me",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.amcdermatologia.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirurgoplasticoamedeostrano.com",
+  "nome": "Dr. Amedeo Strano",
+  "formaSocietaria": "",
+  "partitaIva": "03342220831",
+  "telefono": "+390909486825",
+  "email": "",
+  "sitoUrl": "https://www.chirurgoplasticoamedeostrano.com/",
+  "indirizzo": "Via Vittorio Emanuele III 98061",
+  "cap": "98061",
+  "comune": "Brolo",
+  "provincia": "me",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgoplasticoamedeostrano.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "clinimedmessina.it",
   "nome": "Clinimed Messina",
   "formaSocietaria": "",
@@ -23,6 +79,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Clinimed Messina",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "marikafloriochirurgiaplastica.it",
+  "nome": "Dott.ssa Marika Florio",
+  "formaSocietaria": "",
+  "partitaIva": "03219120833",
+  "telefono": "+393498096011",
+  "email": "",
+  "sitoUrl": "https://marikafloriochirurgiaplastica.it/",
+  "indirizzo": "corso Umberto I, 413",
+  "cap": "98035",
+  "comune": "Giardini",
+  "provincia": "me",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://marikafloriochirurgiaplastica.it/",
+   "https://marikafloriochirurgiaplastica.it/contatti/",
+   "http://marikafloriochirurgiaplastica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -31,11 +115,11 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+39090693590",
-  "email": "",
+  "email": "dr.picarella@hotmail.it",
   "sitoUrl": "https://www.medicinaesteticamessina.it/",
   "indirizzo": "Via Nino Bixio, 33",
   "cap": "98123",
-  "comune": "",
+  "comune": "Messina",
   "provincia": "me",
   "prestazioni": [
    "Filler",
@@ -56,7 +140,18 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "medicina estetica messina",
+  "orari": [
+   "Mo 07:00-18:00",
+   "Tu 07:00-18:00",
+   "We 07:00-18:00",
+   "Th 07:00-18:00",
+   "Fr 07:00-18:00",
+   "Sa",
+   "Su"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "studiocontinibali.dental",
@@ -67,8 +162,8 @@
   "email": "",
   "sitoUrl": "https://studiocontinibali.dental/",
   "indirizzo": "Via Margi 11",
-  "cap": "",
-  "comune": "",
+  "cap": "98061",
+  "comune": "Brolo (Messina)",
   "provincia": "me",
   "prestazioni": [
    "Filler",
@@ -87,7 +182,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Odontoiatrico Conti Nibali",
+  "orari": [
+   "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì 09:30-19:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "studiodichirurgiaplasticaedestetica.it",

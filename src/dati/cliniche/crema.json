@@ -1,5 +1,64 @@
 [
  {
+  "dominio": "1000farmacie.it",
+  "nome": "La para-farmacia Online italiana",
+  "formaSocietaria": "SPA",
+  "partitaIva": "09449391219",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.1000farmacie.it:443/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.1000farmacie.it:443/",
+   "https://www.1000farmacie.it:443/contatti",
+   "https://www.1000farmacie.it:443/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "aderma.it",
+  "nome": "A-DERMA : La marca di trattamenti dermatologici per pelli fragili",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3902477941",
+  "email": "info.adermaitalia@pierre-fabre.com",
+  "sitoUrl": "https://www.aderma.it/",
+  "indirizzo": "via G. Washington, 70",
+  "cap": "20146",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.aderma.it/",
+   "https://www.aderma.it/il-consiglio-dell-esperto/quando-prude/eczema-da-contatto",
+   "https://www.aderma.it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aderma",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "agebeautylab.it",
   "nome": "Age Beauty Lab",
   "formaSocietaria": "SRL",
@@ -81,6 +140,62 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Allison Ambrosio, e il dominio lo ripete"
  },
  {
+  "dominio": "altroconsumo.it",
+  "nome": "Altroconsumo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12581280158",
+  "telefono": "+39026961500",
+  "email": "info@altroconsumo.it",
+  "sitoUrl": "https://www.altroconsumo.it/",
+  "indirizzo": "Viale Piero e Alberto Pirelli, 10",
+  "cap": "20126",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.altroconsumo.it/",
+   "https://www.altroconsumo.it/contattaci",
+   "https://www.altroconsumo.it/contattaci/consulenze/consulenza-economica"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Altroconsumo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "apaxil.it",
+  "nome": "Apaxil",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02575480963",
+  "telefono": "",
+  "email": "info@apaxil.com",
+  "sitoUrl": "https://www.apaxil.it/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.apaxil.it/it/",
+   "https://www.apaxil.it/it/content/4-chi-siamo",
+   "https://www.apaxil.it/it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Apaxil",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "asst-crema.it",
   "nome": "ASST Crema",
   "formaSocietaria": "",
@@ -101,6 +216,34 @@
    "https://www.asst-crema.it/",
    "https://www.asst-crema.it/contatti-numeri-utili",
    "https://www.asst-crema.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "barraquer.com",
+  "nome": "Clinica Oftalmologica a Barcellona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@barraquer.com",
+  "sitoUrl": "https://www.barraquer.com/it",
+  "indirizzo": "",
+  "cap": "08021",
+  "comune": "Barcelona",
+  "provincia": "crema",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.barraquer.com/it",
+   "https://www.barraquer.com/it/posizione-contatti",
+   "https://www.barraquer.com/it/chi-siamo"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -133,7 +276,75 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BBeauty Urban Spa",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "benufarma.it",
+  "nome": "BENU Farma",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02009051208",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.benufarma.it/",
+  "indirizzo": "",
+  "cap": "40010",
+  "comune": "Bentivoglio",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.benufarma.it/",
+   "https://www.benufarma.it/articoli-sanitari/occhiali-e-lenti/lenti-a-contatto",
+   "https://www.benufarma.it/lp/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BENU Farma",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "bionell.it",
+  "nome": "bionell",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03644820619",
+  "telefono": "+390823345286",
+  "email": "info@bionell.it",
+  "sitoUrl": "https://www.bionell.it/",
+  "indirizzo": "Via Appia Loc. Cedrangolo 81020",
+  "cap": "81020",
+  "comune": "San",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bionell.it/",
+   "https://www.bionell.it/contatti/",
+   "https://www.bionell.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bionell",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
  },
  {
   "dominio": "bottegaverde.com",
@@ -158,6 +369,252 @@
    "https://www.bottegaverde.com/it-it/",
    "https://www.bottegaverde.com/it-it/pages/contatti.html",
    "https://www.bottegaverde.com/it-it/pages/informativaprivacy-app.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BottegaVerde - EU",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "bravafarmacia.it",
+  "nome": "Farmacia on line",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02674611203",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bravafarmacia.it/",
+  "indirizzo": "Via Altabella 14",
+  "cap": "40126",
+  "comune": "Bologna",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bravafarmacia.it/",
+   "https://www.bravafarmacia.it/content/4-chi-siamo-brava-farmacia"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrobeauty.it",
+  "nome": "Ingrosso estetica: forniture estetica per estetiste e centri estetici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05127510237",
+  "telefono": "+393892443749",
+  "email": "info@centrobeauty.it",
+  "sitoUrl": "https://centrobeauty.it/",
+  "indirizzo": "Via Capitello 10",
+  "cap": "37060",
+  "comune": "Sona",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://centrobeauty.it/",
+   "https://centrobeauty.it/categoria-prodotto/arredamenti/arredamento-estetica/postazioni-manicure-tavoli-e-sedie/",
+   "https://centrobeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centromedicotorrespaccata.com",
+  "nome": "Centro Medico Torrespaccata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393518054271",
+  "email": "",
+  "sitoUrl": "https://www.centromedicotorrespaccata.com/",
+  "indirizzo": "Via Augusto Lupi, 34",
+  "cap": "00169",
+  "comune": "Roma",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicotorrespaccata.com/",
+   "https://www.centromedicotorrespaccata.com/chi-siamo/",
+   "https://www.centromedicotorrespaccata.com/contatti-roma/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Torrespaccata",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "cerave.it",
+  "nome": "Creme e Prodotti CeraVe: Cura della Pelle per Ogni Esigenza",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00471270017",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.cerave.it/",
+  "indirizzo": "via Piazza Fernanda Pivano 1",
+  "cap": "20143",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cerave.it/",
+   "https://www.cerave.it/contattaci",
+   "https://www.cerave.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CeraVe",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "cosmeticimagistrali.it",
+  "nome": "Prodotti Cosmetici Magistrali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cosmeticimagistrali.it/",
+  "indirizzo": "Via Milano, 160",
+  "cap": "21042",
+  "comune": "Caronno",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://cosmeticimagistrali.it/",
+   "https://cosmeticimagistrali.it/it/chi-siamo",
+   "https://cosmeticimagistrali.it/it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "custo-x.com",
+  "nome": "Custo-X®",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "09889090966",
+  "telefono": "",
+  "email": "info@custo-x.com",
+  "sitoUrl": "https://www.custo-x.com/",
+  "indirizzo": "Viale Italia, 780",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.custo-x.com/",
+   "https://www.custo-x.com/contatti/",
+   "https://www.custo-x.com/privacy-policy-custox/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "daylaser32.it",
+  "nome": "DayLaser32",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05655530284",
+  "telefono": "+393920209568",
+  "email": "info@daylaser32.it",
+  "sitoUrl": "https://www.daylaser32.it/",
+  "indirizzo": "Via Vincenzo Stefano Breda, 32",
+  "cap": "35010",
+  "comune": "Limena",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.daylaser32.it/",
+   "https://www.daylaser32.it/chi-siamo/",
+   "https://www.daylaser32.it/contatti-daylaser32/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermadue.it",
+  "nome": "Derma 2.0",
+  "formaSocietaria": "",
+  "partitaIva": "04391440403",
+  "telefono": "",
+  "email": "info@dermadue.it",
+  "sitoUrl": "https://dermadue.it/",
+  "indirizzo": "Via Fratelli Bandiera 32",
+  "cap": "47039",
+  "comune": "Savignano Sul",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dermadue.it/",
+   "https://dermadue.it/chi-siamo/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -192,6 +649,37 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dermolab.it",
+  "nome": "Dermolab: Cura del Viso e del Corpo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390371758451",
+  "email": "info@deborahgroup.com",
+  "sitoUrl": "https://www.dermolab.it/",
+  "indirizzo": "Viale Europa 12",
+  "cap": "26855",
+  "comune": "Lodi",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dermolab.it/",
+   "https://www.dermolab.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dermolab",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "dermomedica.it",
   "nome": "Dermomedica",
   "formaSocietaria": "",
@@ -217,6 +705,384 @@
   "ragioneClassificazione": "il nome dichiara una struttura",
   "fonteUrl": [
    "https://dermomedica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dermomedica",
+  "tipoDichiarato": "MedicalClinic"
+ },
+ {
+  "dominio": "dietologaettafinocchiaro.it",
+  "nome": "Dietologa specializzata in Scienza dell'Alimentazione a Torino",
+  "formaSocietaria": "",
+  "partitaIva": "12744180014",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dietologaettafinocchiaro.it/",
+  "indirizzo": "Via Santa Teresa, 23",
+  "cap": "10121",
+  "comune": "Torino",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Etta Finocchiaro, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dietologaettafinocchiaro.it/",
+   "https://www.dietologaettafinocchiaro.it/contatti/",
+   "https://www.dietologaettafinocchiaro.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Etta Finocchiaro, cognome dentro il dominio"
+ },
+ {
+  "dominio": "directalab.it",
+  "nome": "Cosmetici innovativi di elevata qualità",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04572300962",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.directalab.it/",
+  "indirizzo": "Via Bertani, 6",
+  "cap": "20154",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.directalab.it/",
+   "https://www.directalab.it/chi-siamo/azienda",
+   "https://www.directalab.it/chi-siamo/centro-ricerca-directalab"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DirectaLab",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "doctorium.it",
+  "nome": "Consulti medici online ovunque tu sia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03504140793",
+  "telefono": "+39 199 290 678",
+  "email": "info@doctorium.it",
+  "sitoUrl": "https://www.doctorium.it/",
+  "indirizzo": "Via Vercillo n. 17",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.doctorium.it/",
+   "https://www.doctorium.it/chi-siamo/",
+   "https://www.doctorium.it/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Doctorium",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dr-spiller.it",
+  "nome": "Dr. Spiller",
+  "formaSocietaria": "SNC",
+  "partitaIva": "01568540296",
+  "telefono": "",
+  "email": "info@casawellness.eu",
+  "sitoUrl": "https://www.dr-spiller.it/",
+  "indirizzo": "Via S. Alberto, 47",
+  "cap": "45021",
+  "comune": "Badia",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Spiller Pure, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dr-spiller.it/",
+   "https://www.dr-spiller.it/data-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Spiller Pure, cognome dentro il dominio"
+ },
+ {
+  "dominio": "drjuricosmetics.it",
+  "nome": "Dr Juri Cosmetics",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "04538040405",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://drjuricosmetics.it/",
+  "indirizzo": "",
+  "cap": "47039",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Juri Cosmetics, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://drjuricosmetics.it/",
+   "https://drjuricosmetics.it/chi-siamo/",
+   "https://drjuricosmetics.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Juri Cosmetics, cognome dentro il dominio"
+ },
+ {
+  "dominio": "drzanframundo.it",
+  "nome": "Dermatologo Bari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393713007466",
+  "email": "amministrazione@lzmedica.it",
+  "sitoUrl": "https://www.drzanframundo.it/",
+  "indirizzo": "Via Calefati, 66",
+  "cap": "70121",
+  "comune": "Bari",
+  "provincia": "crema",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Zanframundo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drzanframundo.it/",
+   "https://www.drzanframundo.it/contatti/",
+   "https://www.drzanframundo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Zanframundo, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Zanframundo - Dermatologo Bari",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "eugenomics.it",
+  "nome": "Eugenomics",
+  "formaSocietaria": "SPA",
+  "partitaIva": "13441640151",
+  "telefono": "+390236538640",
+  "email": "info@eugenomics.it",
+  "sitoUrl": "https://eugenomics.it/",
+  "indirizzo": "Via San Damiano, 11",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://eugenomics.it/",
+   "https://eugenomics.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "faced.com",
+  "nome": "Face D Dermocosmetics",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07586640968",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://faced.com/",
+  "indirizzo": "Via Montenapoleone, 9",
+  "cap": "20121",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://faced.com/",
+   "https://faced.com/pages/contatti",
+   "https://faced.com/pages/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Face D",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "farmaciadifiducia.com",
+  "nome": "Farmacia On line Farmaciadifiducia: spedizione gratuita!",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.farmaciadifiducia.com/it/",
+  "indirizzo": "via Whatsapp 329",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.farmaciadifiducia.com/it/",
+   "https://www.farmaciadifiducia.com/it/igiene-e-benessere/prodotti-per-occhi/lenti-a-contatto/",
+   "https://www.farmaciadifiducia.com/it/igiene-e-benessere/prodotti-per-occhi/liquidi-per-lenti-a-contatto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "farmaciaigea.com",
+  "nome": "Farmacia online Igea",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09849131009",
+  "telefono": "+390683660018",
+  "email": "",
+  "sitoUrl": "https://farmaciaigea.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://farmaciaigea.com/",
+   "https://farmaciaigea.com/chi-siamo",
+   "https://farmaciaigea.com/farmacia/prodotti-farmaceutici/lenti-a-contatto"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "farmaciamato.it",
+  "nome": "Farmacia online: vendita cosmetici, integratori, omeopatici, prodotti ",
+  "formaSocietaria": "",
+  "partitaIva": "13648920968",
+  "telefono": "+390299057755",
+  "email": "",
+  "sitoUrl": "https://www.farmaciamato.it/",
+  "indirizzo": "Via Garibaldi, 3",
+  "cap": "20030",
+  "comune": "Senago",
+  "provincia": "crema",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.farmaciamato.it/",
+   "https://www.farmaciamato.it/content/3-contatti.html",
+   "https://www.farmaciamato.it/content/10-privacy-policy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacia Centrale Amato",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "farmaciarossettisas.it",
+  "nome": "Farmacia Rossetti Online",
+  "formaSocietaria": "SAS",
+  "partitaIva": "11993721007",
+  "telefono": "+390774325418",
+  "email": "",
+  "sitoUrl": "https://www.farmaciarossettisas.it/",
+  "indirizzo": "Via Maremmana \u0003Inferiore 300",
+  "cap": "00012",
+  "comune": "Guidonia",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.farmaciarossettisas.it/",
+   "https://www.farmaciarossettisas.it/content/2-informativa-sulla-privacy",
+   "https://www.farmaciarossettisas.it/content/4-chi-siamo-farmacia-rossetti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "farmaciemariani.it",
+  "nome": "Farmacia online autorizzata dal Ministero della Salute",
+  "formaSocietaria": "SAS",
+  "partitaIva": "10233851004",
+  "telefono": "+393944238065",
+  "email": "",
+  "sitoUrl": "https://www.farmaciemariani.it/",
+  "indirizzo": "Via Livorno 36",
+  "cap": "00162",
+  "comune": "Roma",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.farmaciemariani.it/",
+   "https://www.farmaciemariani.it/content/5-privacy-cookie",
+   "https://www.farmaciemariani.it/content/4-chi-siamo"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -248,6 +1114,68 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "farmacistipreparatori.it",
+  "nome": "Farmacisti Preparatori",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00595530254",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.farmacistipreparatori.it/",
+  "indirizzo": "Via Cal Longa, 62",
+  "cap": "32035",
+  "comune": "SANTA",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.farmacistipreparatori.it/",
+   "https://www.farmacistipreparatori.it/pages/chi-siamo",
+   "https://www.farmacistipreparatori.it/pages/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacisti Preparatori",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "farmacosmesishop.com",
+  "nome": "Farmacosmesishop",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09583121216",
+  "telefono": "",
+  "email": "info@farmacosmesishop.com",
+  "sitoUrl": "https://farmacosmesishop.com/",
+  "indirizzo": "Viale Augusto 9",
+  "cap": "80125",
+  "comune": "Napoli",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://farmacosmesishop.com/",
+   "https://farmacosmesishop.com/pages/chi-siamo",
+   "https://farmacosmesishop.com/pages/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacosmesishop Srl",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "fillmed.com",
   "nome": "FILLMED Laboratories",
   "formaSocietaria": "",
@@ -276,6 +1204,185 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "goovi.com",
+  "nome": "Goovi: prodotti naturali per il tuo benessere quotidiano in & out",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03768980132",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.goovi.com/it-it",
+  "indirizzo": "Viale Italia 60",
+  "cap": "20045",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.goovi.com/it-it",
+   "https://www.goovi.com/it-it/pages/contatti",
+   "https://www.goovi.com/it-it/pages/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "gustavosordo.com",
+  "nome": "【Cirujano Plástico en Madrid】Dr. Gustavo Sordo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@gustavosordo.com",
+  "sitoUrl": "https://gustavosordo.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gustavo Sordo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://gustavosordo.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gustavo Sordo, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Gustavo Sordo",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
+ },
+ {
+  "dominio": "handearda.com",
+  "nome": "Dermatoloji (Cildiye) Uzmanı",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+902129510633",
+  "email": "info@handearda.com",
+  "sitoUrl": "https://www.handearda.com/",
+  "indirizzo": "Ataköy 7-8-9-10. Kısım Mahallesi E-5 Yanyol Cad. Ataköy Towers A Blok Kat:4 Daire : 88-87-86-85",
+  "cap": "34158",
+  "comune": "İstanbul",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Hande Arda, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.handearda.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Hande Arda, e il dominio lo ripete",
+  "nomeStrutturato": "Hande Arda",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 10:00-18:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
+ },
+ {
+  "dominio": "healthy.thewom.it",
+  "nome": "The Wom Healthy",
+  "formaSocietaria": "SPA",
+  "partitaIva": "14371170961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://healthy.thewom.it/",
+  "indirizzo": "Via Bianca di Savoia 12",
+  "cap": "20122",
+  "comune": "MILANO",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://healthy.thewom.it/",
+   "https://healthy.thewom.it/chi-siamo/",
+   "https://healthy.thewom.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "irriba.it",
+  "nome": "Fisioterapia e riabilitazione",
+  "formaSocietaria": "",
+  "partitaIva": "03966780011",
+  "telefono": "+390113999222",
+  "email": "info@irriba.it",
+  "sitoUrl": "https://www.irriba.it/",
+  "indirizzo": "Corso Francia 104",
+  "cap": "10143",
+  "comune": "Torino",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.irriba.it/",
+   "https://www.irriba.it/contatti/",
+   "https://www.irriba.it/privacy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IRR - Istituto delle Riabilitazioni RIBA",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "it.caudalie.com",
+  "nome": "CAUDALIE: Trattamenti Cosmetici Naturali ⋅ Viso ⋅ Corpo ⋅ Spa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://it.caudalie.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://it.caudalie.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Caudalie",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "it.filorga.com",
   "nome": "Laboratoires Filorga Italia: trattamenti cosmetici antietà",
   "formaSocietaria": "",
@@ -302,7 +1409,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Filorga Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "jesolomedicalcare.it",
@@ -338,6 +1447,65 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "labosuisse.com",
+  "nome": "Labo Suisse",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04656360288",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.labosuisse.com/",
+  "indirizzo": "Piazza Da Porto, 14",
+  "cap": "35131",
+  "comune": "Padova",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.labosuisse.com/",
+   "https://www.labosuisse.com/chi-siamo/",
+   "https://www.labosuisse.com/area-trasparenza-privacy-labo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Labo Suisse",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ladispensacosmesinaturale.it",
+  "nome": "La Dispensa",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06263700962",
+  "telefono": "",
+  "email": "info@ladispensacosmesinaturale.it",
+  "sitoUrl": "https://ladispensacosmesinaturale.it/",
+  "indirizzo": "Via Circonvallazione 67",
+  "cap": "20882",
+  "comune": "Bellusco",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ladispensacosmesinaturale.it/",
+   "https://ladispensacosmesinaturale.it/contatti/",
+   "https://ladispensacosmesinaturale.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "landing.poliambulatoriofiorentini.com",
   "nome": "Studio dentistico a Crema (CR)",
   "formaSocietaria": "",
@@ -360,6 +1528,36 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "larocheposay.it",
+  "nome": "La Roche-Posay: prodotti per viso, corpo, capelli e make-up",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.larocheposay.it/",
+  "indirizzo": "",
+  "cap": "86270",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.larocheposay.it/",
+   "https://www.larocheposay.it/-/media/files/informativa_privacy_privacy_policy_lrp.pdf",
+   "https://www.larocheposay.it/-/media/files/lorealprivacy-policy-b2b1-01-2025.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lopeestetica.com",
@@ -417,6 +1615,36 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "marconifarma.it",
+  "nome": "MarconiFarma la tua farmacia Online di fiducia: risparmi fino all'80%",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39069320750",
+  "email": "info@marconifarma.it",
+  "sitoUrl": "https://www.marconifarma.it/",
+  "indirizzo": "Viale Città D'Europa, 618",
+  "cap": "00144",
+  "comune": "Roma",
+  "provincia": "crema",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.marconifarma.it/",
+   "https://www.marconifarma.it/chi-siamo",
+   "https://www.marconifarma.it/salute-e-benessere/articoli-sanitari/lenti-a-contatto"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Marconifarma.it",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "merzaesthetics.it",
   "nome": "Merz Aesthetics",
   "formaSocietaria": "SRL",
@@ -455,8 +1683,8 @@
   "email": "",
   "sitoUrl": "https://www.morenasantacroce.com/",
   "indirizzo": "Via Pietro Marinelli 3",
-  "cap": "",
-  "comune": "",
+  "cap": "26013",
+  "comune": "Crema",
   "provincia": "crema",
   "prestazioni": [
    "Filler",
@@ -474,7 +1702,94 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Morena Santacroce, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Morena Santacroce, e il dominio lo ripete",
+  "nomeStrutturato": "Morena Santacroce",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "mostskincare.com",
+  "nome": "MOST® Skincare",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05039080964",
+  "telefono": "+390250303826",
+  "email": "",
+  "sitoUrl": "https://www.mostskincare.com/",
+  "indirizzo": "Via Carlo Poma 7",
+  "cap": "20129",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.mostskincare.com/",
+   "https://www.mostskincare.com/chi-siamo/",
+   "https://www.mostskincare.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MOST Skincare",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "notino.it",
+  "nome": "Cosmetici e profumi online",
+  "formaSocietaria": "SRL",
+  "partitaIva": "11630700018",
+  "telefono": "+3901119887822",
+  "email": "info@notino.it",
+  "sitoUrl": "https://www.notino.it/",
+  "indirizzo": "Piazza Solferino, 20",
+  "cap": "10121",
+  "comune": "Torino",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.notino.it/",
+   "https://www.notino.it/contatti/",
+   "https://www.notino.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Notino, s.r.o.",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "pacinimedicina.it",
+  "nome": "Pacini Medicina: riviste mediche, libri, pubblicazioni e newsPacini Me",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.pacinimedicina.it/",
+  "indirizzo": "via Gherardesca 1",
+  "cap": "56121",
+  "comune": "Pisa",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.pacinimedicina.it/",
+   "https://www.pacinimedicina.it/contatti-3/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "paolomariodonesana.com",
@@ -482,7 +1797,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+390373630564",
-  "email": "",
+  "email": "paolomariodonesana.md@gmail.com",
   "sitoUrl": "https://www.paolomariodonesana.com/",
   "indirizzo": "Largo della Pace, 2",
   "cap": "26013",
@@ -501,7 +1816,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.36606,
+  "lon": 9.68244,
+  "nomeStrutturato": "DONESANA DR. PAOLO MARIO",
+  "orari": [
+   "Monday, Tuesday 17:00-20:00",
+   "Wednesday, Friday 10:00-13:00",
+   "Thursday 18:30-20:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "parafarmaciabosciaclub.it",
@@ -529,7 +1853,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Para-Farmacia Bosciaclub",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "pinalli.it",
+  "nome": "Profumerie Pinalli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.pinalli.it/",
+  "indirizzo": "Via Nicola Piccinni n. 3",
+  "cap": "20131",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.pinalli.it/",
+   "https://www.pinalli.it/pages/privacy-policy",
+   "https://www.pinalli.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Pinalli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "polimedicalcentercrema.com",
@@ -587,6 +1945,67 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "rah.it",
+  "nome": "Rome American Hospital",
+  "formaSocietaria": "",
+  "partitaIva": "07338831212",
+  "telefono": "+39062255290",
+  "email": "info@rah.it",
+  "sitoUrl": "https://www.rah.it/",
+  "indirizzo": "Via E. Longoni 69",
+  "cap": "22551",
+  "comune": "Prenotazioni",
+  "provincia": "crema",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.rah.it/",
+   "https://www.rah.it/chi-siamo-rah/",
+   "https://www.rah.it/contatti-rah/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Rome American Hospital",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "restetica.com",
+  "nome": "Prodotti estetica: negozio per estetiste e parrucchieri",
+  "formaSocietaria": "",
+  "partitaIva": "02445590413",
+  "telefono": "+390721831436",
+  "email": "",
+  "sitoUrl": "https://www.restetica.com/it/",
+  "indirizzo": "Via del Commercio,15",
+  "cap": "61032",
+  "comune": "Fano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.restetica.com/it/",
+   "https://www.restetica.com/it/contatti-e-richieste.html",
+   "https://www.restetica.com/it/chi-siamo.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "stylosophy.it",
   "nome": "Stylosophy",
   "formaSocietaria": "SRL",
@@ -610,7 +2029,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Stylosophy",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "sunmarket.es",
+  "nome": "Solarium, tubi UVA, apparecchi estetici e acceleratori di abbronzatura",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+34961040660",
+  "email": "info@sunmarket.es",
+  "sitoUrl": "https://www.sunmarket.es/it/",
+  "indirizzo": "via Trustami Ci sono 45",
+  "cap": "46015",
+  "comune": "Valencia",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.sunmarket.es/it/",
+   "https://www.sunmarket.es/it/sedie-per-podologia/",
+   "https://www.sunmarket.es/it/sedie-per-pedicure-e-vasche-da-bagno/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sunmarket Wellness",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "synlab.it",
@@ -636,7 +2091,70 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Synlab Italia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "tebiskin.com",
+  "nome": "Tebiskin",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01571610987",
+  "telefono": "",
+  "email": "info@general-topics.com",
+  "sitoUrl": "https://www.tebiskin.com/",
+  "indirizzo": "Via Enrico Fermi, 7",
+  "cap": "25087",
+  "comune": "Salò",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.tebiskin.com/",
+   "https://www.tebiskin.com/contattaci/",
+   "https://www.tebiskin.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Tebiskin",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "termedisirmione.com",
+  "nome": "Terme di Sirmione: Giardino termale, hotel Spa e centro terapeutico",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00548290980",
+  "telefono": "+390309904922",
+  "email": "",
+  "sitoUrl": "https://www.termedisirmione.com/",
+  "indirizzo": "Piazza Virgilio, 1",
+  "cap": "25019",
+  "comune": "Colombare",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.termedisirmione.com/",
+   "https://www.termedisirmione.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Terme di Sirmione",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "tuttofarma.it",
@@ -672,6 +2190,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "uvia.it",
+  "nome": "UVIA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08529530720",
+  "telefono": "+393516754197",
+  "email": "info@uvia.it",
+  "sitoUrl": "https://www.uvia.it/",
+  "indirizzo": "Via Abate Giacinto Gimma 330",
+  "cap": "70123",
+  "comune": "Bari",
+  "provincia": "crema",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.uvia.it/",
+   "https://www.uvia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "websalute.it",
   "nome": "WebSalute",
   "formaSocietaria": "SRL",
@@ -695,7 +2241,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "WebSalute",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "wondercompany.it",
+  "nome": "Shop UFFICIALE Wonder Company",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06780830961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.wondercompany.it/it/",
+  "indirizzo": "Piazza Diaz 1",
+  "cap": "20123",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.wondercompany.it/it/",
+   "https://www.wondercompany.it/it/content/4-chi-siamo",
+   "https://www.wondercompany.it/it/contattaci"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Wonder Company",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "x115.it",

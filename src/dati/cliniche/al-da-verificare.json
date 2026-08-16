@@ -56,7 +56,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "medermal.it",
@@ -89,7 +90,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.90804,
+  "lon": 8.615662,
+  "nomeStrutturato": "Medermal",
+  "orari": [
+   "Mo, Tu, We, Th, Fr 10:30-19:30"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness"
  },
  {
   "dominio": "medmaiora.it",
@@ -114,6 +122,36 @@
    "https://medmaiora.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "BdueB",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "ospedale.al.it",
+  "nome": "ospedale.al.it",
+  "formaSocietaria": "",
+  "partitaIva": "01640560064",
+  "telefono": "",
+  "email": "info@ospedale.al.it",
+  "sitoUrl": "https://www.ospedale.al.it/it",
+  "indirizzo": "Via Venezia, 16",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ospedale.al.it/it",
+   "https://www.ospedale.al.it/it/scheda-informativa/contatti-numeri-utili",
+   "https://www.ospedale.al.it/it/scheda-informativa/privacy"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }

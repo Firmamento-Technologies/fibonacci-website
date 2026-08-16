@@ -61,12 +61,12 @@
   "nome": "odontoiatria",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+06 081273834",
   "email": "",
   "sitoUrl": "https://www.studiodentisticoperasole.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "48 Corso Giuseppe Garibaldi",
+  "cap": "80055",
+  "comune": "Portici",
   "provincia": "portici",
   "prestazioni": [
    "Filler",
@@ -83,6 +83,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Perasole, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Perasole, cognome dentro il dominio",
+  "nomeStrutturato": "Perasole Dr. Antonio Odontoiatra",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "aslbi.piemonte.it",
+  "nome": "ASL Biella",
+  "formaSocietaria": "",
+  "partitaIva": "01810260024",
+  "telefono": "+3901515151",
+  "email": "",
+  "sitoUrl": "https://aslbi.piemonte.it/",
+  "indirizzo": "",
+  "cap": "13875",
+  "comune": "Ponderano",
+  "provincia": "bi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aslbi.piemonte.it/",
+   "https://aslbi.piemonte.it/contatti/",
+   "https://aslbi.piemonte.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ASL Biella Piemonte",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "istitutoesteticoliriopebiella.com",
   "nome": "Istituto Liriope",
   "formaSocietaria": "",
@@ -27,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Istituto Liriope",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "it.linkedin.com",

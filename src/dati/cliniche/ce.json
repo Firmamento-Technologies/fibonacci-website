@@ -48,7 +48,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.07115,
+  "lon": 14.33869,
+  "nomeStrutturato": "Studio Medico Villa Rosa - Centro Polispecialistico",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "clinicathena.it",
@@ -76,7 +80,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Athena S.P.A.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "davidefattore.it",
@@ -109,7 +115,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Davide Fattore, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Davide Fattore, e il dominio lo ripete",
+  "nomeStrutturato": "davide",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "dentalpro.it",
@@ -135,7 +143,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DentalPro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologiaedesteticaferraiolo.com",
@@ -171,6 +181,33 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dermatologoarturogigliofiorito.com",
+  "nome": "Dr. Arturo Gigliofiorito",
+  "formaSocietaria": "",
+  "partitaIva": "00287080618",
+  "telefono": "+390823328511",
+  "email": "",
+  "sitoUrl": "https://www.dermatologoarturogigliofiorito.com/",
+  "indirizzo": "Via Tommaso Picazio 1",
+  "cap": "81100",
+  "comune": "Caserta",
+  "provincia": "ce",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Arturo Gigliofiorito, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologoarturogigliofiorito.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arturo Gigliofiorito, cognome dentro il dominio"
+ },
+ {
   "dominio": "dermatologomauriziobevilacqua.it",
   "nome": "Dermatologo a Caserta e Provincia",
   "formaSocietaria": "",
@@ -193,6 +230,38 @@
   "ragioneClassificazione": "studio di un professionista: dott. Maurizio Bevilacqua, cognome dentro il dominio",
   "fonteUrl": [
    "https://www.dermatologomauriziobevilacqua.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Maurizio Bevilacqua",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologonacca.com",
+  "nome": "Dermatologo Caserta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dermatologonacca.com/",
+  "indirizzo": "via P. Gobetti 27",
+  "cap": "81047",
+  "comune": "Macerata",
+  "provincia": "ce",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dermatologonacca.com/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -262,6 +331,70 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "drumbertotozzi.it",
+  "nome": "Umberto Tozzi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03938840612",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.drumbertotozzi.it/",
+  "indirizzo": "",
+  "cap": "81031",
+  "comune": "Aversa",
+  "provincia": "ce",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Umberto Tozzi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drumbertotozzi.it/",
+   "https://www.drumbertotozzi.it/contatti/",
+   "https://www.drumbertotozzi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Umberto Tozzi, cognome dentro il dominio"
+ },
+ {
+  "dominio": "farropietro.com",
+  "nome": "Dott. Farro Pietro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393393081430",
+  "email": "",
+  "sitoUrl": "https://farropietro.com/",
+  "indirizzo": "",
+  "cap": "81100",
+  "comune": "CASERTA",
+  "provincia": "ce",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Farro Pietro, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://farropietro.com/",
+   "https://farropietro.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Farro Pietro, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Farro Pietro",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "fcmedicinaestetica.it",
   "nome": "FC Medicina Estetica e Ringiovanimento",
   "formaSocietaria": "SRL",
@@ -290,7 +423,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "FC Medicina Estetica e Ringiovanimento",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ferdinandorossano.it",
@@ -347,7 +482,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Fera, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Fera, e il dominio lo ripete",
+  "nomeStrutturato": "gfera",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "maracazzaniga.it",
@@ -406,7 +543,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mastelli srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "my-personaltrainer.it",
@@ -521,7 +660,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Conferenze e Congressi - Centri e Sedi Catania",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "robertabernardo.it",
@@ -550,7 +691,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Bernardo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Bernardo, e il dominio lo ripete",
+  "nomeStrutturato": "Roberta Bernardo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "scaleraclinic.liposuzione-liposcultura.it",
@@ -577,5 +720,33 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "sempiuscuola.it",
+  "nome": "Sem Più Ripar",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02511780617",
+  "telefono": "+390823443382",
+  "email": "",
+  "sitoUrl": "https://sempiuscuola.it/",
+  "indirizzo": "Piazza Matteotti, 72",
+  "cap": "81100",
+  "comune": "Full",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://sempiuscuola.it/",
+   "https://sempiuscuola.it/chi-siamo/",
+   "https://sempiuscuola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Scuola di Formazione Rita Parente",
+  "tipoDichiarato": "Organization"
  }
 ]

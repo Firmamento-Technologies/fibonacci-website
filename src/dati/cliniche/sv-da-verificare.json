@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "dominio": "asl2.liguria.it",
+  "nome": "asl2.liguria.it",
+  "formaSocietaria": "",
+  "partitaIva": "02421770997",
+  "telefono": "+390105383400",
+  "email": "",
+  "sitoUrl": "https://www.asl2.liguria.it/",
+  "indirizzo": "Piazza Sandro Pertini n. 10",
+  "cap": "17100",
+  "comune": "Savona",
+  "provincia": "sv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asl2.liguria.it/",
+   "https://www.asl2.liguria.it/contatti.html",
+   "https://www.asl2.liguria.it/territorio/distretto-savonese/distretto-savonese-sedi-e-contatti.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ASL2",
+  "tipoDichiarato": "Organization"
+ }
+]

@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottor Carlo Di Gregorio Specialista in Chirurgia Ricostruttiva, Plastica ed Estetica a Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centri.epilate.it",
@@ -109,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "evaadmin@",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "claudiapurpura.it",
@@ -253,7 +257,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dental C",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "docto-24.it",
@@ -277,14 +283,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Docto24",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "dottoressanataliadigrazia.it",
   "nome": "Dott.ssa Di Grazia Natalia",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393480642404",
   "email": "",
   "sitoUrl": "https://www.dottoressanataliadigrazia.it/",
   "indirizzo": "Via Ricasoli 45",
@@ -302,7 +310,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Di Grazia Natalia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "farmaciaamodeo.it",
@@ -370,6 +380,30 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "keydiet.it",
+  "nome": "Keydiet",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://keydiet.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://keydiet.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "labomap.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -379,7 +413,7 @@
   "nome": "Epilazione laser Palermo",
   "formaSocietaria": "",
   "partitaIva": "05917280827",
-  "telefono": "",
+  "telefono": "+393930152743",
   "email": "",
   "sitoUrl": "https://www.leraestetica.com/",
   "indirizzo": "via Domenico Costantino n5",
@@ -400,7 +434,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "LEANDRA MIGNEMI",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "lodatomedicinaestetica.com",
@@ -531,7 +567,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "NON SOLO DONNA",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "okbeautystudio.com",
@@ -612,7 +650,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Palermo Medicina Estética",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "patronpalermo.it",
@@ -674,7 +714,7 @@
   "formaSocietaria": "",
   "partitaIva": "03830540823",
   "telefono": "+390921933040",
-  "email": "",
+  "email": "radiologiacampofelice@gmail.com",
   "sitoUrl": "https://radiologiacampofelice.it/",
   "indirizzo": "Via Umberto I, 20",
   "cap": "90010",
@@ -694,7 +734,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Radiologia Campofelice (Palermo)",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "rinoplasticapalermo.com",
@@ -802,7 +847,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "tricolgopalermo",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "vangloy.com",

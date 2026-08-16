@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "ambulatoriosancarlosrl.it",
+  "nome": "ambulatoriosancarlosrl.it",
+  "formaSocietaria": "",
+  "partitaIva": "02413590981",
+  "telefono": "+39030980627",
+  "email": "segreteria@ambulatoriosancarlosrl.it",
+  "sitoUrl": "https://www.ambulatoriosancarlosrl.it/",
+  "indirizzo": "Via Roma, 87",
+  "cap": "25049",
+  "comune": "Iseo",
+  "provincia": "lumezzane",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.ambulatoriosancarlosrl.it/",
+   "https://www.ambulatoriosancarlosrl.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "poliambulatoriosantacaterina.it",
   "nome": "Poliambulatorio Santa Caterina",
   "formaSocietaria": "SRLS",
@@ -54,5 +79,32 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skinchannel.it",
+  "nome": "SkinChannel",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02973290139",
+  "telefono": "",
+  "email": "info@griffineditore.it",
+  "sitoUrl": "https://www.skinchannel.it/",
+  "indirizzo": "Via Don Luigi Meroni 58",
+  "cap": "22060",
+  "comune": "Figino",
+  "provincia": "lumezzane",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.skinchannel.it/",
+   "https://www.skinchannel.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SkinChannel",
+  "tipoDichiarato": "Organization"
  }
 ]

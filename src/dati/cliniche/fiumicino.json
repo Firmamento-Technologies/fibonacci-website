@@ -47,7 +47,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ecomedica - Emlab ad Aranova - Centro Medico a  Fiumicino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticamaska.com",
@@ -75,7 +77,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Maska Fiumicino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fisiomedicafregene.it",
@@ -100,7 +104,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "FISIOMEDICA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ldbmedicalcenter.it",
@@ -124,6 +130,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "LDB Medical Center",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "medicinaesteticapellanera.it",
+  "nome": "Medicina Estetica Roma zona Casilina",
+  "formaSocietaria": "",
+  "partitaIva": "10361861007",
+  "telefono": "+3939432307",
+  "email": "info@medicinaesteticapellanera.it",
+  "sitoUrl": "https://www.medicinaesteticapellanera.it/",
+  "indirizzo": "Via Casilina 3",
+  "cap": "00182",
+  "comune": "Roma",
+  "provincia": "fiumicino",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticapellanera.it/",
+   "https://www.medicinaesteticapellanera.it/contatti/",
+   "https://www.medicinaesteticapellanera.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  }
 ]

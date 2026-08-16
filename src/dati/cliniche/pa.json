@@ -31,7 +31,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott.ssa Cristiana Duranti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "alenakrot.com",
@@ -108,7 +110,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Amica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "angelaminio.com",
@@ -163,7 +167,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "AromaVero",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "aurealongevityclinic.it",
@@ -216,7 +222,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty & Relax",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "beautyespa.com",
@@ -245,7 +253,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty & SPA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "carlomelloni.it",
@@ -273,7 +283,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Melloni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Melloni, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Carlo Melloni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "caterinaasaro.com",
@@ -361,7 +373,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Dermatologico Caruso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrodermatologicolistro.it",
@@ -425,7 +439,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico by Nancy - Palermo",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
  },
  {
   "dominio": "centrolaserpalermo.it",
@@ -453,7 +472,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Laser Occhi Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedica.it",
@@ -505,7 +526,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio, Fisioterapia, Fisiatria, Ortopedia, Ecografia, Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cinziaincandela.it",
@@ -538,7 +561,7 @@
   "nome": "Clinika srl - Dove la cura personalizzata trasforma la tua salute e il",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39091206042",
   "email": "info@clinika.srl",
   "sitoUrl": "https://www.clinika.srl/",
   "indirizzo": "Via Serradifalco, 250",
@@ -557,7 +580,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinika srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "co3medical.it",
@@ -616,7 +641,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristiana Duranti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cristiana Duranti, e il dominio lo ripete",
+  "nomeStrutturato": "DOTTORESSA CRISTIANA DURANTI",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cupsubito.it",
@@ -627,8 +654,8 @@
   "email": "info@cupsubito.it",
   "sitoUrl": "https://www.cupsubito.it/",
   "indirizzo": "Via della Torbiera, 38",
-  "cap": "",
-  "comune": "",
+  "cap": "55054",
+  "comune": "Massarosa",
   "provincia": "pa",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -642,7 +669,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cupsubito",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dannacatiusciadermatologo.it",
@@ -673,7 +702,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dermatologico D&#039;Anna Catiuscia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologapanariello.it",
@@ -728,7 +759,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Alida Ferro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologocascio.it",
@@ -808,7 +841,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Donna Smart",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressa-annacalascibetta.it",
@@ -835,7 +870,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Anna Calascibetta",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressarobertascardina.com",
@@ -899,7 +936,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Zabbia Chirurgia Plastica e Medicina Estetica - DR Giovanni Zabbia - Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drgiuseppecuccia.it",
@@ -925,7 +964,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Giuseppe Cuccia Chirurgia Plastica ed Estetica Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drpaolacarannante.it",
@@ -959,7 +1000,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Paola Carannante - Medicina Estetica e Rigenerativa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drporrello.it",
@@ -1019,7 +1062,7 @@
   "nome": "Espertitalia | Espertitalia è il motore di ricerca per trovare Aziende",
   "formaSocietaria": "SRL",
   "partitaIva": "07945321219",
-  "telefono": "",
+  "telefono": "+39800959120",
   "email": "",
   "sitoUrl": "https://www.espertitalia.it/",
   "indirizzo": "Viale Antonio Ciamarra 259",
@@ -1038,7 +1081,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Espertitalia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estheticon.it",
@@ -1071,7 +1116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estheticon",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "federicalupomd.com",
@@ -1216,7 +1263,7 @@
   "nome": "IBSA DERMA",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 0371 6171",
   "email": "info@ibsa.it",
   "sitoUrl": "https://www.ibsaderma.it/",
   "indirizzo": "Via della Filanda, 30",
@@ -1237,7 +1284,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IBSA Farmaceutici",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "igeamed.org",
@@ -1290,7 +1339,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "inFormaMedica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "inguantamaria.com",
@@ -1352,7 +1403,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Injectablesbooking.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "iodonna.it",
@@ -1378,7 +1431,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "iO Donna",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "istitutomedicoeuropeo.com",
@@ -1456,7 +1511,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Kronos Medical",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "labarberia55.it",
@@ -1482,7 +1539,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Barberia 55",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lamanicure.it",
@@ -1511,7 +1570,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Manicure",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lekalos.it",
@@ -1542,7 +1603,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Lekalos Medical Day Spa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "liliumesteticaebenessere.it",
@@ -1599,7 +1662,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Liposuzione Costi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mariamilazzo.it",
@@ -1657,7 +1722,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Mca Medical - Palermo",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-19:0"
+  ]
  },
  {
   "dominio": "mediagingclinic.it",
@@ -1685,7 +1755,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mediaging Clinic Center Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalexcellencetv.it",
@@ -1710,7 +1782,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Excellence TV",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaestetica-chiaragallina.com",
@@ -1831,7 +1905,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Accademia Nicotra",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "oraziocangelosi.it",
+  "nome": "oraziocangelosi.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@oraziocangelosi.com",
+  "sitoUrl": "https://www.oraziocangelosi.it/",
+  "indirizzo": "Via Arno 47",
+  "cap": "00198",
+  "comune": "Roma",
+  "provincia": "pa",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Orazio Cangelosi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.oraziocangelosi.it/",
+   "https://www.oraziocangelosi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Orazio Cangelosi, e il dominio lo ripete"
  },
  {
   "dominio": "oxygenbeauty.it",
@@ -1866,7 +1969,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+39049665431",
-  "email": "",
+  "email": "consulenza@pallaoro.com",
   "sitoUrl": "https://www.pallaoro.com/",
   "indirizzo": "Via Santa Lucia 43",
   "cap": "35139",
@@ -1887,7 +1990,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Pallaoro Medical Laser",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pallaoro.it",
@@ -1916,7 +2021,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Pallaoro",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00",
+   "Saturday 09:00-13:00",
+   "Sunday 00:00-00:00"
+  ],
+  "tipoDichiarato": "Organization Place PlasticSurgery"
  },
  {
   "dominio": "parruccheriamichelevalenti.it",
@@ -1970,7 +2082,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polimedica Palermo",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "polimedicapalermo.org",
@@ -1995,7 +2109,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polimedica Palermo",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "progressomedico.com",
@@ -2021,7 +2137,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Progresso Medico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "quatra.it",
@@ -2049,7 +2167,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fabio Quatra",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rigeneramedicallab.com",
@@ -2081,7 +2201,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.1157,
+  "lon": 13.3615,
+  "nomeStrutturato": "Rigenera Medical Lab",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "salonify.it",
@@ -2093,7 +2217,7 @@
   "sitoUrl": "https://salonify.it/it",
   "indirizzo": "",
   "cap": "",
-  "comune": "",
+  "comune": "Luxembourg",
   "provincia": "pa",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -2107,7 +2231,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salonify",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "samuelavindigni.it",
@@ -2142,7 +2268,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Samuela Vindigni, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Samuela Vindigni, e il dominio lo ripete",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Samuela Vindigni"
  },
  {
   "dominio": "sanicampalermo.it",
@@ -2168,7 +2296,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sanicam Palermo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodermatricologicoscandura.it",
@@ -2254,7 +2384,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Rajmondi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "tacnuclear.it",
@@ -2280,7 +2412,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "TAC Nuclear",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
+  ],
+  "tipoDichiarato": "Organization Place"
  },
  {
   "dominio": "trattamentibeautyplus.com",
@@ -2332,7 +2469,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Danilo Turco",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "twinsbeauty.it",
@@ -2360,7 +2499,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Twins Beauty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "uelbi.it",
@@ -2450,7 +2591,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vis a Vis",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "wellnesswild.it",
@@ -2479,6 +2622,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Wellness Wild",
+  "tipoDichiarato": "Organization"
  }
 ]

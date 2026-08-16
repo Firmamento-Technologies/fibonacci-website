@@ -25,7 +25,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Effe",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "medicalnewcenter.it",
@@ -55,6 +60,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical New Center",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "salutebenessere.vi.it",
+  "nome": "Centro Medico con punto prelievi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390444478241",
+  "email": "info@salutebenessere.vi.it",
+  "sitoUrl": "https://www.salutebenessere.vi.it/",
+  "indirizzo": "Via Stadio, 36",
+  "cap": "36071",
+  "comune": "Arzignano",
+  "provincia": "vigodarzere",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.salutebenessere.vi.it/",
+   "https://www.salutebenessere.vi.it/about"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Salute e Benessere",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

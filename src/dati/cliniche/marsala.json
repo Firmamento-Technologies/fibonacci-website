@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "dentistazambito.it",
+  "nome": "Dentista Siena",
+  "formaSocietaria": "",
+  "partitaIva": "01343190524",
+  "telefono": "",
+  "email": "info@dentistazambito.it",
+  "sitoUrl": "https://www.dentistazambito.it/",
+  "indirizzo": "Viale Sardegna, 14",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "marsala",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Zambito, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dentistazambito.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Zambito, cognome dentro il dominio"
+ },
+ {
   "dominio": "dermatologomattozzi.it",
   "nome": "Dr. Carlo Mattozzi",
   "formaSocietaria": "",
@@ -56,7 +80,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Galeno Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalcentermarsala.it",
@@ -82,7 +108,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Center - Marsala",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "moranasalus.it",
@@ -92,7 +120,7 @@
   "telefono": "+390923196135",
   "email": "info@moranasalus.it",
   "sitoUrl": "https://www.moranasalus.it/",
-  "indirizzo": "",
+  "indirizzo": "Contrada Conca, 348",
   "cap": "91025",
   "comune": "Marsala",
   "provincia": "marsala",
@@ -108,7 +136,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 37.850692,
+  "lon": 12.515135,
+  "nomeStrutturato": "Poliambulatorio Morana Salus",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-20:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "nicecosmetics.it",

@@ -36,7 +36,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio di Chirurgia Plastica ed Estetica Dott. Mario Marra",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologaguerrinivalentina.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "dermaup.it",
+  "nome": "DermaUp Permanent Makeup Bologna Budrio",
+  "formaSocietaria": "",
+  "partitaIva": "03970961201",
+  "telefono": "+393332831631",
+  "email": "info@dermaup.it",
+  "sitoUrl": "https://dermaup.it/",
+  "indirizzo": "Via Guido Chiesa 20",
+  "cap": "40054",
+  "comune": "BO",
+  "provincia": "bo",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermaup.it/",
+   "https://dermaup.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "DermaUp",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressatonelli.it",
@@ -73,8 +109,8 @@
   "email": "",
   "sitoUrl": "https://www.drssairenepistis.it/",
   "indirizzo": "Via Salvatore Quasimodo 46",
-  "cap": "",
-  "comune": "",
+  "cap": "40017",
+  "comune": "Bologna",
   "provincia": "bo",
   "prestazioni": [
    "Filler",
@@ -95,6 +131,99 @@
   "fonteUrl": [
    "https://www.drssairenepistis.it/",
    "https://www.drssairenepistis.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Irene Pistis Medicina Estetica",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "esteticacaffedellabellezza.it",
+  "nome": "Estetista a Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "02955831207",
+  "telefono": "+39051450994",
+  "email": "info@esteticacaffedellabellezza.it",
+  "sitoUrl": "https://www.esteticacaffedellabellezza.it/",
+  "indirizzo": "Via Salvo d’Acquisto, 1",
+  "cap": "40068",
+  "comune": "San",
+  "provincia": "bo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticacaffedellabellezza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "floredoro.it",
+  "nome": "Flore d’Oro",
+  "formaSocietaria": "",
+  "partitaIva": "04223271208",
+  "telefono": "+393759267726",
+  "email": "info@progressrl.it",
+  "sitoUrl": "https://www.floredoro.it/",
+  "indirizzo": "Via Piave, 50",
+  "cap": "40068",
+  "comune": "San",
+  "provincia": "bo",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.floredoro.it/",
+   "https://www.floredoro.it/chi-siamo",
+   "https://www.floredoro.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Flore d'Oro",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "gioiasorbichirurgoplastico.com",
+  "nome": "Dott.ssa Gioia Sorbi",
+  "formaSocietaria": "",
+  "partitaIva": "04377611209",
+  "telefono": "+393497537371",
+  "email": "",
+  "sitoUrl": "https://www.gioiasorbichirurgoplastico.com/",
+  "indirizzo": "Via Arienti 42",
+  "cap": "40124",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.gioiasorbichirurgoplastico.com/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -157,6 +286,97 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Piero Notarrigo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "medicinaestetica-vitale.com",
+  "nome": "Dr. Massimo Vitale",
+  "formaSocietaria": "",
+  "partitaIva": "03413171202",
+  "telefono": "+393470458934",
+  "email": "",
+  "sitoUrl": "https://www.medicinaestetica-vitale.com/",
+  "indirizzo": "Via Fossolo 28",
+  "cap": "40138",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaestetica-vitale.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "oculisticakhaki.com",
+  "nome": "Oculista Khaki",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393495938547",
+  "email": "studio@oculistakhaki.com",
+  "sitoUrl": "https://www.oculisticakhaki.com/",
+  "indirizzo": "Via Mazzini, 117",
+  "cap": "40137",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.oculisticakhaki.com/",
+   "https://www.oculisticakhaki.com/contatti",
+   "https://www.oculisticakhaki.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Oculista Khaki",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "romaitalialab.it",
+  "nome": "Roma Italia Lab -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@romaitalialab.it",
+  "sitoUrl": "https://www.romaitalialab.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.romaitalialab.it/",
+   "https://www.romaitalialab.it/contatti/",
+   "https://www.romaitalialab.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -183,7 +403,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Santagostino Bologna via Massarenti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinlaserbologna.it",
@@ -240,6 +462,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "DOTT.SSA GABRIELLA FRATTINI",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "valet.it",
+  "nome": "VALET",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.valet.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bo",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.valet.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -275,5 +525,38 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "youepil.it",
+  "nome": "YOU&PIL",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393332480829",
+  "email": "",
+  "sitoUrl": "https://www.youepil.it/",
+  "indirizzo": "Via della Repubblica 3",
+  "cap": "40068",
+  "comune": "San",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.youepil.it/",
+   "https://www.youepil.it/chi-siamo/",
+   "https://www.youepil.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "admin",
+  "tipoDichiarato": "Person Organization"
  }
 ]

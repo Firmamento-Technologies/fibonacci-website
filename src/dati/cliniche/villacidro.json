@@ -29,7 +29,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Amati",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "doctorloveskin.it",
@@ -57,7 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Doctor Loveskin",
+  "tipoDichiarato": "Organization HealthAndBeautyBusiness"
  },
  {
   "dominio": "gruppocid.it",

@@ -141,7 +141,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetitty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicidelbenessere.it",
@@ -169,6 +171,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medici del Benessere",
+  "tipoDichiarato": "Organization"
  }
 ]

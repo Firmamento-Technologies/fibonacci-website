@@ -113,7 +113,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto Flebologico Italiano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticareggiolo.it",
@@ -149,7 +151,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Reggiolo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "newgen.clinic",
@@ -182,7 +186,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "New Genesis Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicocavedon.it",
@@ -212,6 +218,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuele Cavedon, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuele Cavedon, cognome dentro il dominio",
+  "nomeStrutturato": "Studio Medico Cavedon",
+  "tipoDichiarato": "Organization"
  }
 ]

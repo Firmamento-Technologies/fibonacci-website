@@ -30,6 +30,33 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniel Cataldo, e il dominio lo ripete"
  },
  {
+  "dominio": "esteticaoncologica.org",
+  "nome": "APEO - Associazione Professionale di Estetica Oncologica",
+  "formaSocietaria": "",
+  "partitaIva": "94629740153",
+  "telefono": "+390287360093",
+  "email": "info@esteticaoncologica.org",
+  "sitoUrl": "https://esteticaoncologica.org/",
+  "indirizzo": "Via Abbeveratoia, 14",
+  "cap": "12013",
+  "comune": "Estetica",
+  "provincia": "san-cataldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://esteticaoncologica.org/",
+   "https://esteticaoncologica.org/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "APEO - Associazione Professionale di Estetica Oncologica",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "farmaciaguadagnino.it",
   "nome": "Farmacia del Corso Dottori Guadagnino",
   "formaSocietaria": "",
@@ -54,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacia del Corso Dottori Guadagnino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "hmedispa.com",
@@ -79,7 +108,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Healt Medispa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "milanomedica.it",
@@ -105,7 +136,33 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Milano Medica centro polidiagnostico",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "valentinacamilleri.it",
+  "nome": "Dott.ssa Valentina Camilleri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393921540913",
+  "email": "",
+  "sitoUrl": "https://valentinacamilleri.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-cataldo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valentina Camilleri, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://valentinacamilleri.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valentina Camilleri, e il dominio lo ripete"
  },
  {
   "dominio": "venuslab.it",
@@ -137,6 +194,7 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

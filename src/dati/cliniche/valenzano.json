@@ -8,8 +8,8 @@
   "email": "",
   "sitoUrl": "https://www.centromedicopromedical.it/",
   "indirizzo": "Corso Vittorio Emanuele, 108",
-  "cap": "",
-  "comune": "",
+  "cap": "70027",
+  "comune": "Palo del Colle",
   "provincia": "valenzano",
   "prestazioni": [
    "Laser",
@@ -26,6 +26,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CENTRO PROMEDICAL",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

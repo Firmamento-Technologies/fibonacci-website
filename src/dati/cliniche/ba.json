@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "admedical.it",
+  "nome": "A.D. Medical",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@admedical.it",
+  "sitoUrl": "https://admedical.it/it/home/",
+  "indirizzo": "via R. Sanzio, 28",
+  "cap": "70014",
+  "comune": "Conversano",
+  "provincia": "ba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://admedical.it/it/home/",
+   "https://admedical.it/contatti.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "annagiuliesi.com",
   "nome": "Dott.ssa Anna Giuliesi",
   "formaSocietaria": "",
@@ -58,6 +83,37 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "beautyedonebari.it",
+  "nome": "Centro Estetico Beauty Edoné Bari",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "08514300725",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.beautyedonebari.it/",
+  "indirizzo": "Via Guido de Ruggiero, 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "ba",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.beautyedonebari.it/",
+   "https://www.beautyedonebari.it/about-us/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty Edone Bari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cardonechirurgiaestetica.it",
@@ -204,7 +260,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.390174,
+  "lon": 8.131889,
+  "nomeStrutturato": "Dott. Pierfrancesco Bove",
+  "orari": [
+   "Mo-Fr 09:00-20:00"
+  ],
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "clinicalavestale.it",
@@ -237,7 +300,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Lavestale",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "coolsculptingbari.it",
@@ -263,7 +328,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "TWOB srl stp",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologofavero.it",
@@ -298,6 +365,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dottgiuseppearmenisechirurgoplastico.com",
+  "nome": "Dr. Giuseppe Armenise",
+  "formaSocietaria": "",
+  "partitaIva": "07557180721",
+  "telefono": "+390809999681",
+  "email": "",
+  "sitoUrl": "https://www.dottgiuseppearmenisechirurgoplastico.com/",
+  "indirizzo": "Via Alessandro Maria Calefati 133",
+  "cap": "70122",
+  "comune": "Bari",
+  "provincia": "ba",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Armenise, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottgiuseppearmenisechirurgoplastico.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Armenise, cognome dentro il dominio"
+ },
+ {
   "dominio": "drmarcellonitti.it",
   "nome": "Dott. Marcello Nitti: Chirurgia Plastica ed Estetica, Medicina Estetic",
   "formaSocietaria": "",
@@ -327,7 +422,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Marcello Nitti",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "estelitebari.it",
@@ -357,7 +454,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estelite SNC",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "excellencebari.it",
@@ -418,7 +517,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Barattolo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabrizio Barattolo, e il dominio lo ripete",
+  "nomeStrutturato": "Fabrizio Barattolo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giacomovolpe.it",
@@ -475,6 +576,57 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Giudice, e il dominio lo ripete"
  },
  {
+  "dominio": "hammamfarah.it",
+  "nome": "Centro benessere a Bari",
+  "formaSocietaria": "SSD",
+  "partitaIva": "07503210721",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://hammamfarah.it/",
+  "indirizzo": "Via Card. Agostino Ciasca, 2",
+  "cap": "70124",
+  "comune": "Bari",
+  "provincia": "ba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://hammamfarah.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ifses.it",
+  "nome": "IFSES Infermieristica Estetica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07625410720",
+  "telefono": "+393459268287",
+  "email": "segreteria@ifses.it",
+  "sitoUrl": "https://www.ifses.it/",
+  "indirizzo": "Via Ettore Carafa n. 57",
+  "cap": "70124",
+  "comune": "Bari",
+  "provincia": "ba",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ifses.it/",
+   "https://www.ifses.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "laclinicabari.com",
   "nome": "LCB",
   "formaSocietaria": "",
@@ -498,7 +650,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.097126,
+  "lon": 16.871148,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "LCB - La Clinica Bari",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 10:00-20:00",
+   "Saturday 09:30-12:30"
+  ]
  },
  {
   "dominio": "lucialeone.com",
@@ -523,6 +683,36 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lucia Leone, e il dominio lo ripete"
+ },
+ {
+  "dominio": "lulibia.it",
+  "nome": "Lulibia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08968200728",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lulibia.it/",
+  "indirizzo": "Via Fratelli De Filippo, 25a",
+  "cap": "70131",
+  "comune": "Privacy",
+  "provincia": "ba",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://lulibia.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "medicinaesteticavisicchio.it",
@@ -553,7 +743,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Visicchio",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "oculistipannarale.it",
+  "nome": "Patologie oculari",
+  "formaSocietaria": "",
+  "partitaIva": "04558400729",
+  "telefono": "+390805214420",
+  "email": "info@oculistipannarale.it",
+  "sitoUrl": "https://www.oculistipannarale.it/",
+  "indirizzo": "Via Sparano, 149",
+  "cap": "70121",
+  "comune": "BARI",
+  "provincia": "ba",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.oculistipannarale.it/",
+   "https://www.oculistipannarale.it/contatta-studio-oculistico-pannarale/",
+   "https://www.oculistipannarale.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Associato Oculistico Pannarale",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "paolovittore.it",
@@ -581,7 +803,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Vittore, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Vittore, e il dominio lo ripete",
+  "nomeStrutturato": "Studio Dentistico a Bari del Dott. Paolo Vittore &#x2d; Chirurgo orale e maxillo&#x2d;facciale odontoiatra",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rosannademichele.it",
@@ -637,7 +861,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossella Elia, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossella Elia, e il dominio lo ripete",
+  "nomeStrutturato": "Prof. Rossella Elia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "rossidaniela.it",
+  "nome": "Cura delle malattie veneree",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390805283803",
+  "email": "",
+  "sitoUrl": "https://www.rossidaniela.it/",
+  "indirizzo": "Via Montenegro 2",
+  "cap": "70121",
+  "comune": "Bari",
+  "provincia": "ba",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Daniela Chiama, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.rossidaniela.it/",
+   "https://www.rossidaniela.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniela Chiama, cognome dentro il dominio"
  },
  {
   "dominio": "savinoarbore.it",
@@ -667,7 +920,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Savino Arbore, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Savino Arbore, e il dominio lo ripete",
+  "nomeStrutturato": "Savino Arbore",
+  "tipoDichiarato": "Person"
+ },
+ {
+  "dominio": "scuoladiesteticayvessegal.it",
+  "nome": "Scuola di estetica Yves-Segal Bari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@scuoladiesteticayvessegal.it",
+  "sitoUrl": "https://www.scuoladiesteticayvessegal.it/",
+  "indirizzo": "Via A. e N. Sorrentino 5",
+  "cap": "70125",
+  "comune": "Bari",
+  "provincia": "ba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.scuoladiesteticayvessegal.it/",
+   "https://www.scuoladiesteticayvessegal.it/contatti-scuola-estetica-yves-segal-bari"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "studiodentisticomessina.it",
@@ -697,7 +977,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Odontoiatrico Dott. Federico Messina",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "valeriacolonna.it",
+  "nome": "Dott.ssa Valeria Colonna, dermatologa.",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393939000393",
+  "email": "prenotazioni@valeriacolonna.it",
+  "sitoUrl": "https://www.valeriacolonna.it/",
+  "indirizzo": "Via O. Mazzitelli 230",
+  "cap": "70124",
+  "comune": "Bari",
+  "provincia": "ba",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valeria Colonna, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.valeriacolonna.it/",
+   "https://www.valeriacolonna.it/contatti",
+   "https://www.valeriacolonna.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Colonna, e il dominio lo ripete"
  },
  {
   "dominio": "vincenzobucaria.it",
@@ -722,6 +1038,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Bucaria, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Bucaria, e il dominio lo ripete",
+  "nomeStrutturato": "Chirurgo Plastico Vincenzo Bucaria",
+  "tipoDichiarato": "Organization"
  }
 ]

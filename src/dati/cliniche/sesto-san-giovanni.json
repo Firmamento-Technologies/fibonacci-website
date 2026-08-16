@@ -5,9 +5,9 @@
   "formaSocietaria": "",
   "partitaIva": "14020080967",
   "telefono": "+393334536629",
-  "email": "",
+  "email": "bcosmetics.byelena25@gmail.com",
   "sitoUrl": "https://bellifuoribcosmeticsbeautyclinic.it/",
-  "indirizzo": "",
+  "indirizzo": "Galleria Dante, 53",
   "cap": "20099",
   "comune": "Sesto San Giovanni",
   "provincia": "sesto-san-giovanni",
@@ -26,7 +26,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.536187,
+  "lon": 9.23752,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "B Cosmetics Beauty Clinic"
  },
  {
   "dominio": "centrobiomedica.it",
@@ -53,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Biomedica - Odontoiatria a Sesto San Giovanni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clisalgi.com",
@@ -79,7 +85,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cliniche della Salute Giatsidis",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+ },
+ {
+  "dominio": "floritamaria.com",
+  "nome": "Dermatologa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393331254302",
+  "email": "",
+  "sitoUrl": "https://www.floritamaria.com/",
+  "indirizzo": "Piazza IV Novembre 5",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maria Florita, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.floritamaria.com/",
+   "https://www.floritamaria.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Florita, e il dominio lo ripete"
  },
  {
   "dominio": "medicinaesteticacss.it",
@@ -142,14 +178,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Pedesini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatorioferrario.com",
   "nome": "Poliambulatorio Ferrario",
   "formaSocietaria": "SRL",
   "partitaIva": "10570110964",
-  "telefono": "",
+  "telefono": "022481146",
   "email": "segreteria@poliambulatorioferrario.com",
   "sitoUrl": "https://poliambulatorioferrario.com/",
   "indirizzo": "Via F. Filzi 6",
@@ -170,7 +208,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.533245,
+  "lon": 9.226529,
+  "nomeStrutturato": "Poliambulatorio Ferrario",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:00",
+   "Saturday, Sunday 00:00-00:00"
+  ],
+  "tipoDichiarato": "Organization Place Dentist"
  },
  {
   "dominio": "poliambulatoriosangiovanni.it",
@@ -201,7 +247,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio San Giovanni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "starofservice.it",

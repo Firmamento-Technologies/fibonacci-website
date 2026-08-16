@@ -108,7 +108,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Medical Sangallo",
+  "tipoDichiarato": "MedicalOrganization"
+ },
+ {
+  "dominio": "studiomedicoantium.it",
+  "nome": "Antium studio medico",
+  "formaSocietaria": "",
+  "partitaIva": "11115941004",
+  "telefono": "",
+  "email": "info@studiomedicoantium.it",
+  "sitoUrl": "https://www.studiomedicoantium.it/",
+  "indirizzo": "V.le Antium,1",
+  "cap": "",
+  "comune": "",
+  "provincia": "anzio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicoantium.it/",
+   "https://www.studiomedicoantium.it/chi-siamo/",
+   "https://www.studiomedicoantium.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "youritaly.it",
@@ -134,6 +162,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Youritaly.it",
+  "tipoDichiarato": "Organization"
  }
 ]

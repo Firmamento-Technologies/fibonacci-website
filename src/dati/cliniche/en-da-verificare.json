@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "enaipenna.it",
+  "nome": "Enaip Enna Impresa Sociale - Formazione Professionale in presenza e on",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.enaipenna.it/",
+  "indirizzo": "Via Enrico Longi 10",
+  "cap": "94100",
+  "comune": "Enna",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.enaipenna.it/",
+   "https://www.enaipenna.it/privacy/",
+   "https://www.enaipenna.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ENAIP Enna I.S. - Istruzione Professionale ENNA",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "ennalive.it",
   "nome": "Enna Live",
   "formaSocietaria": "",
@@ -22,7 +50,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ENNA LIVE",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "med-hub.it",
@@ -48,6 +78,60 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "nicotraesteticastore.com",
+  "nome": "Accademia Nicotra Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393517192486",
+  "email": "",
+  "sitoUrl": "https://www.nicotraesteticastore.com/",
+  "indirizzo": "Corso Onicotecnica Specializzata 200",
+  "cap": "95127",
+  "comune": "CATANIA",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nicotraesteticastore.com/",
+   "https://www.nicotraesteticastore.com/chi-siamo-nicotra/",
+   "https://www.nicotraesteticastore.com/contatti-2/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "admin",
+  "tipoDichiarato": "Person"
+ },
+ {
+  "dominio": "ordinemedicitn.it",
+  "nome": "ordinemedicitn.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390461825094",
+  "email": "info@ordinemedicitn.it",
+  "sitoUrl": "https://ordinemedicitn.it/",
+  "indirizzo": "Via V. Zambra, 16",
+  "cap": "38121",
+  "comune": "Trento",
+  "provincia": "en",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedicitn.it/",
+   "https://ordinemedicitn.it/ordine/segreteria/sede-e-contatti",
+   "https://ordinemedicitn.it/professione/modulistica/informative-privacy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

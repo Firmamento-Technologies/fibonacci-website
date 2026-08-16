@@ -24,6 +24,33 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "centroesteticaarmonia.net",
+  "nome": "CENTRO ESTETICO",
+  "formaSocietaria": "",
+  "partitaIva": "01610390435",
+  "telefono": "+390733960808",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticaarmonia.net/",
+  "indirizzo": "Viale XXX Giugno, 46",
+  "cap": "62029",
+  "comune": "TOLENTINO",
+  "provincia": "tolentino",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticaarmonia.net/",
+   "https://www.centroesteticaarmonia.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
   "dominio": "rimozione-macchie.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"

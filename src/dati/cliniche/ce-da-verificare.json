@@ -64,7 +64,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr Medical Studio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fanpage.it",
@@ -103,9 +105,9 @@
   "telefono": "",
   "email": "",
   "sitoUrl": "https://www.mioestetista.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "71-75 Shelton Street",
+  "cap": "WC2H 9JQ",
+  "comune": "London",
   "provincia": "ce",
   "prestazioni": [
    "Laser",
@@ -122,7 +124,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "MioEstetista",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "moscatelli.org",
@@ -147,6 +151,33 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "omceocaserta.it",
+  "nome": "OMCeO Caserta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39 0823 328973",
+  "email": "segreteria.ce@pec.omceo.it",
+  "sitoUrl": "https://www.omceocaserta.it/",
+  "indirizzo": "Via Bramante, 19",
+  "cap": "81100",
+  "comune": "Caserta",
+  "provincia": "ce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.omceocaserta.it/",
+   "https://www.omceocaserta.it/sede-e-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Ordine dei Medici-Chirurghi e degli Odontoiatri della Provincia di Caserta",
+  "tipoDichiarato": "Organization MedicalOrganization"
  },
  {
   "dominio": "ospedale.caserta.it",
@@ -179,7 +210,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Ruben\\'s Center",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:00-20:00"
+  ]
  },
  {
   "dominio": "studiomirra.it",
@@ -214,8 +250,8 @@
   "email": "info@yesdoctor.it",
   "sitoUrl": "https://yesdoctor.it/",
   "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "cap": "20079",
+  "comune": "Milan",
   "provincia": "ce",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -228,6 +264,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "YesDoctor.it",
+  "tipoDichiarato": "Organization"
  }
 ]

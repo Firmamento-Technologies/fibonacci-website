@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "amaliastaffilano.it",
+  "nome": "Medico Estetico e Endocrinologo Pescara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393335314104",
+  "email": "",
+  "sitoUrl": "https://www.amaliastaffilano.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "aq",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Amalia Staffilano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.amaliastaffilano.it/",
+   "https://www.amaliastaffilano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Amalia Staffilano, e il dominio lo ripete"
+ },
+ {
   "dominio": "annalisacolantonio.it",
   "nome": "Dott.ssa Annalisa Colantonio",
   "formaSocietaria": "",
@@ -58,7 +89,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Ippocrate",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "donatozizi.com",
@@ -90,19 +123,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Donato Zizi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Donato Zizi, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Donato Zizi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drquatela.it",
   "nome": "Dr. Massimiliano Quatela",
   "formaSocietaria": "",
   "partitaIva": "12678490157",
-  "telefono": "",
+  "telefono": "+393383986377",
   "email": "",
   "sitoUrl": "https://www.drquatela.it/",
   "indirizzo": "via Giovanni Boccaccio, 37",
   "cap": "20123",
-  "comune": "",
+  "comune": "Milano",
   "provincia": "aq",
   "prestazioni": [
    "Filler",
@@ -123,7 +158,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Massimiliano Quatela",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "evimeria.it",
@@ -234,7 +271,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mediclinica Avezzano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nuovocentromedico.com",
@@ -293,6 +332,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Skin Center - Dermatologia medica chirurgica oncologica, medicina estetica - Pescara Avezzano L'Aquila",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -76,7 +76,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gastromed",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pietrosansicadermatologo.it",
@@ -170,8 +172,8 @@
   "email": "info@salustrapani.it",
   "sitoUrl": "https://www.salustrapani.it/",
   "indirizzo": "Via Sant'Agostino, 14",
-  "cap": "",
-  "comune": "",
+  "cap": "91100",
+  "comune": "Trapani",
   "provincia": "tp",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -184,6 +186,91 @@
    "https://www.salustrapani.it/it/contatti/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salus - Private Spa & Beauty",
+  "tipoDichiarato": "HealthAndBeautyBusiness"
+ },
+ {
+  "dominio": "studiodentisticocangemi.it",
+  "nome": "Dentista a Trapani per tutta la famiglia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390923553420",
+  "email": "info@studiodentisticocangemi.it",
+  "sitoUrl": "https://studiodentisticocangemi.it/",
+  "indirizzo": "Via Alessandro Manzoni, 154",
+  "cap": "91016",
+  "comune": "Erice",
+  "provincia": "tp",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://studiodentisticocangemi.it/",
+   "https://studiodentisticocangemi.it/contatti/",
+   "https://studiodentisticocangemi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Odontoiatrico Cangemi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiogiannitrapani.it",
+  "nome": "Studio Gianntrapani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393516712777",
+  "email": "",
+  "sitoUrl": "https://studiogiannitrapani.it/",
+  "indirizzo": "",
+  "cap": "00198",
+  "comune": "",
+  "provincia": "tp",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Giannitrapani, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiogiannitrapani.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Giannitrapani, cognome dentro il dominio"
+ },
+ {
+  "dominio": "tecnocosmesigroup.it",
+  "nome": "TECNOCOSMESI GROUP",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02367200819",
+  "telefono": "",
+  "email": "info@tecnocosmesigroup.it",
+  "sitoUrl": "https://www.tecnocosmesigroup.it/",
+  "indirizzo": "Via Guglielmo Marconi, 154",
+  "cap": "91016",
+  "comune": "Casa Santa",
+  "provincia": "tp",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.tecnocosmesigroup.it/",
+   "https://www.tecnocosmesigroup.it/azienda/chi-siamo/",
+   "https://www.tecnocosmesigroup.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  }

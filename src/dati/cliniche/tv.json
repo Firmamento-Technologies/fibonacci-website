@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "academy.seffiline.com",
+  "nome": "SEFFILINE®",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02195171208",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://academy.seffiline.com/",
+  "indirizzo": "Via Santo Stefano, 11",
+  "cap": "40125",
+  "comune": "Bologna",
+  "provincia": "tv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://academy.seffiline.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SEFFILINE SRL",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "arteclinica.com",
   "nome": "Medical SPA",
   "formaSocietaria": "SRL",
@@ -58,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Topan, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Barbara Topan, e il dominio lo ripete",
+  "nomeStrutturato": "Barbara Topan",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicosantangelo.it",
@@ -84,7 +112,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Sant'Angelo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicarizzato.it",
@@ -111,6 +141,34 @@
    "https://clinicarizzato.it/",
    "https://clinicarizzato.it/contatti.html",
    "https://clinicarizzato.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermatoclinica.it",
+  "nome": "DermatoClinica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390422911349",
+  "email": "",
+  "sitoUrl": "https://www.dermatoclinica.it/",
+  "indirizzo": "Viale Verdi 26",
+  "cap": "05291",
+  "comune": "DR",
+  "provincia": "tv",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dermatoclinica.it/",
+   "https://www.dermatoclinica.it/chi-siamo/",
+   "https://www.dermatoclinica.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -178,7 +236,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottoressa Valeria Tomat",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giovanni23.it",
@@ -204,7 +264,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura Giovanni XXIII Sogedin S.p.A. Soc. Unipersonale",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ismerian.it",
@@ -229,7 +291,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ISMERIAN",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mediciestetici.it",
@@ -280,7 +344,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medlav Treviso",
+  "tipoDichiarato": "MedicalBusiness"
+ },
+ {
+  "dominio": "silenaros.it",
+  "nome": "Silena Ros",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dermatoclinica.it",
+  "sitoUrl": "https://www.silenaros.it/",
+  "indirizzo": "Viale Verdi n. 26",
+  "cap": "",
+  "comune": "",
+  "provincia": "tv",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Silena Ros, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.silenaros.it/",
+   "https://www.silenaros.it/contatti/",
+   "https://www.silenaros.it/informazioni-legali/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Silena Ros, e il dominio lo ripete"
  },
  {
   "dominio": "studimedicitreviso.it",
@@ -359,7 +457,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Gaiotto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "trevimedical.it",
@@ -384,7 +484,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "TreviMedical - Ambulatorio Medico Dentistico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "zeromedicalcenter.com",
@@ -414,6 +516,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Zero Medica Center",
+  "tipoDichiarato": "Organization"
  }
 ]

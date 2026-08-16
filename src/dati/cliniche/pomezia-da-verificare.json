@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+39069100090",
-  "email": "",
+  "email": "infopomezia@altheabiomedica.it",
   "sitoUrl": "https://altheabiomedica.it/",
   "indirizzo": "Via Roma, 212",
   "cap": "00071",
@@ -26,7 +26,71 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.673401,
+  "lon": 12.500203,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Althea Biomedica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 9:00 - 19:00",
+   "Saturday 9:00 - 17:00"
+  ]
+ },
+ {
+  "dominio": "chirurgoplasticoroma.info",
+  "nome": "Chirurgo Plastico Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgoplasticoroma.info/",
+  "indirizzo": "Via del Galoppatoio, 33",
+  "cap": "00198",
+  "comune": "Roma",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgoplasticoroma.info/",
+   "https://www.chirurgoplasticoroma.info/contatti/",
+   "https://www.chirurgoplasticoroma.info/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Giovanni Marangi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "elitedoctor.it",
+  "nome": "Elite Doctor",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@elitedoctor.it",
+  "sitoUrl": "https://elitedoctor.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pomezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://elitedoctor.it/",
+   "https://elitedoctor.it/contatti",
+   "https://elitedoctor.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "maisonesthetiquemc.it",
@@ -52,6 +116,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Pieffe",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "maroncelli.dental",
+  "nome": "Studio Dentistico Maroncelli-Caggiati",
+  "formaSocietaria": "",
+  "partitaIva": "09829100586",
+  "telefono": "+39065783007",
+  "email": "",
+  "sitoUrl": "https://maroncelli.dental/home-it/",
+  "indirizzo": "Via Guerrieri 15",
+  "cap": "00153",
+  "comune": "Roma",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://maroncelli.dental/home-it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Studio Dentistico Maroncelli-Caggiati",
+  "tipoDichiarato": "Organization"
  }
 ]

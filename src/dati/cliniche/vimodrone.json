@@ -57,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ethically poliambulatorio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ilariachiaranda.it",
@@ -67,7 +69,7 @@
   "telefono": "+393356873432",
   "email": "",
   "sitoUrl": "https://www.ilariachiaranda.it/",
-  "indirizzo": "",
+  "indirizzo": "V. dei Mille, 2/A 20090 VIMODRONE (MI)",
   "cap": "20090",
   "comune": "VIMODRONE",
   "provincia": "vimodrone",
@@ -83,6 +85,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Chiaranda, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Chiaranda, e il dominio lo ripete",
+  "nomeStrutturato": "DOTT. ILARIA CHIARANDA",
+  "tipoDichiarato": "Organization"
  }
 ]

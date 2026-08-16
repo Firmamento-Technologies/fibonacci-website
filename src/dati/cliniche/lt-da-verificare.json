@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Marco D'Ettorre",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticamassicci.it",
@@ -83,6 +85,34 @@
    "https://www.studiodentisticovisca.it/",
    "https://www.studiodentisticovisca.it/chi-siamo",
    "https://www.studiodentisticovisca.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ugoredi.it",
+  "nome": "Ugo Redi",
+  "formaSocietaria": "",
+  "partitaIva": "03119330599",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ugoredi.it/",
+  "indirizzo": "Largo G.B. Cirri, 6",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "lt",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ugoredi.it/",
+   "https://www.ugoredi.it/contattami/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

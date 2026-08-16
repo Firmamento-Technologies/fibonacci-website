@@ -89,7 +89,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393773102724",
-  "email": "",
+  "email": "smeabiomed@gmail.com",
   "sitoUrl": "https://www.studiomedicosmeabiomed.it/",
   "indirizzo": "Piazza Municipio 4",
   "cap": "38057",
@@ -105,6 +105,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 46.060498,
+  "lon": 11.240341,
+  "nomeStrutturato": "Studio di Medicina Naturale SMEA Biomed",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-18:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  }
 ]

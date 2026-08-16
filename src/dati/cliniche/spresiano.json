@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Bio e Clinica dentale",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cmopietrobon.com",
@@ -47,7 +49,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Pietrobon, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Pietrobon, cognome dentro il dominio",
+  "lat": 45.750017,
+  "lon": 12.105616,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Pietrobon Centro Odontoiatrico",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 9:00-13:00 / 14:00-",
+   "Saturday 9:00-13:00 solo su appuntamento"
+  ]
  },
  {
   "dominio": "esteticabiotherapy.com",
@@ -83,9 +93,9 @@
   "formaSocietaria": "SRL",
   "partitaIva": "04365050261",
   "telefono": "+390422887488",
-  "email": "",
+  "email": "esteticamood@gmail.com",
   "sitoUrl": "https://www.esteticamood.com/",
-  "indirizzo": "",
+  "indirizzo": "V. Dante Alighieri, 56 31027 SPRESIANO (TV)",
   "cap": "31027",
   "comune": "SPRESIANO",
   "provincia": "spresiano",
@@ -102,7 +112,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ESTETICA MOOD",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticosedda.it",

@@ -53,5 +53,37 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tulliataidelli.it",
+  "nome": "Tullia Taidelli",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12114610962",
+  "telefono": "+393240823262",
+  "email": "segreteria@cosmedic.it",
+  "sitoUrl": "https://www.tulliataidelli.it/",
+  "indirizzo": "Via Sant’Eufemia, 17",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "sorso",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.tulliataidelli.it/",
+   "https://www.tulliataidelli.it/dottoressa-tullia-taidelli-contatti/",
+   "https://www.tulliataidelli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

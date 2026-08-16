@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ASL Sassari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroesteticomarialaura.it",
@@ -80,6 +82,32 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Delitala Estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologosassarifresi.com",
+  "nome": "Studio di dermatologia Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dermatologosassarifresi.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologosassarifresi.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -103,6 +131,84 @@
    "https://fiorelladeriu.com/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "hccsassari.it",
+  "nome": "Health Care Center - Sassari - Il nostro centro al servizio della vost",
+  "formaSocietaria": "",
+  "partitaIva": "02927120903",
+  "telefono": "+393804344324",
+  "email": "prenotazioni@hccsassari.com",
+  "sitoUrl": "https://www.hccsassari.it/",
+  "indirizzo": "Via Piandanna 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.hccsassari.it/",
+   "https://www.hccsassari.it/chi-siamo/",
+   "https://www.hccsassari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Health Care Center - Sassari",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "lanuovasardegna.it",
+  "nome": "La Nuova Sardegna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lanuovasardegna.it:443/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lanuovasardegna.it:443/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "La Nuova Sardegna",
+  "tipoDichiarato": "NewsMediaOrganization"
+ },
+ {
+  "dominio": "mcf.uniss.it",
+  "nome": "Dipartimento di Medicina, Chirurgia e Farmacia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mcf.uniss.it/it",
+  "indirizzo": "",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mcf.uniss.it/it"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
@@ -135,6 +241,63 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Lubelli Sassari",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "old.aslsassari.it",
+  "nome": "ASL Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "02884000908",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.asl1sassari.it:443/",
+  "indirizzo": "via Enrico Costa n. 57",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asl1sassari.it:443/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ASL Sassari",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "sassari.bakeca.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "scienzebiomediche.uniss.it",
+  "nome": "Dipartimento di Scienze Biomediche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://scienzebiomediche.uniss.it/it",
+  "indirizzo": "",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://scienzebiomediche.uniss.it/it"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -162,6 +325,62 @@
    "https://studiodermatologicoamadu.it/privacy-policy.html"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Dermatologico Valentina Amadu",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiodermatologicofenu.it",
+  "nome": "Studio Dermatologico Dottoressa Francesca Fenu",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393338012589",
+  "email": "",
+  "sitoUrl": "https://studiodermatologicofenu.it/",
+  "indirizzo": "Via IV Novembre, 18",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodermatologicofenu.it/",
+   "https://studiodermatologicofenu.it/contatti",
+   "https://studiodermatologicofenu.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "unifind.uniss.it",
+  "nome": "UNIFIND",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://unifind.uniss.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://unifind.uniss.it/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }

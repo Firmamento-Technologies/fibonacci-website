@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Est",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicopromed.it",
@@ -47,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Promed",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "poliambulatorioigea.com",
@@ -73,7 +77,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IGEA Poliambulatorio",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "soavedentalstudio.it",
@@ -107,6 +116,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Soave Dental Studio",
+  "tipoDichiarato": "Person Organization"
  }
 ]

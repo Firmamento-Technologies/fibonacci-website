@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "caterinafusco.it",
+  "nome": "Caterina Fusco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393383045103",
+  "email": "",
+  "sitoUrl": "https://caterinafusco.it/",
+  "indirizzo": "Via Dario Fiore, 114",
+  "cap": "80021",
+  "comune": "Afragola",
+  "provincia": "afragola",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Caterina Fusco, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://caterinafusco.it/",
+   "https://caterinafusco.it/contatti/",
+   "https://caterinafusco.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Fusco, e il dominio lo ripete"
+ },
+ {
   "dominio": "internapoli.it",
   "nome": "Internapoli.it",
   "formaSocietaria": "",
@@ -23,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Internapoli srls",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "quisalute.online",
@@ -49,6 +79,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "admin",
+  "tipoDichiarato": "Person Organization"
  }
 ]

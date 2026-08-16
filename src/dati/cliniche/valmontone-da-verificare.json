@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "05561701003",
   "telefono": "+390695994013",
-  "email": "",
+  "email": "centroalfa@tin.it",
   "sitoUrl": "https://www.fisioterapiavalmontone.com/",
   "indirizzo": "Via della Pace 00038",
   "cap": "00038",
@@ -22,7 +22,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 41.76495,
+  "lon": 12.946222,
+  "nomeStrutturato": "FISIOTERAPIA Centro Alfa",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-13:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-20:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "immaginedonna.online",

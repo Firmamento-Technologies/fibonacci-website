@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Vanitas Ragusa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgoplasticocorradonolfo.it",
@@ -60,7 +62,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Corrado Nolfo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicadelmediterraneo.com",
@@ -86,7 +90,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica del Mediterraneo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "danielasiragusa.it",
+  "nome": "Dott.ssa Daniela Siragusa",
+  "formaSocietaria": "",
+  "partitaIva": "05674650824",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.danielasiragusa.it/",
+  "indirizzo": "Via Edoardo Alagna, 108",
+  "cap": "",
+  "comune": "",
+  "provincia": "rg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Daniela Siragusa, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.danielasiragusa.it/",
+   "https://www.danielasiragusa.it/contatti_ginecologo_palermo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniela Siragusa, e il dominio lo ripete"
  },
  {
   "dominio": "dizionari.corriere.it",
@@ -109,6 +149,32 @@
    "https://dizionari.corriere.it/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "estetamedica.it",
+  "nome": "estetamedica",
+  "formaSocietaria": "",
+  "partitaIva": "01254060880",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.estetamedica.it/home/",
+  "indirizzo": "Via ASIA 1",
+  "cap": "97100",
+  "comune": "",
+  "provincia": "rg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.estetamedica.it/home/",
+   "https://www.estetamedica.it/privacy.html",
+   "https://www.estetamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  },
@@ -139,7 +205,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Licitra, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Licitra, e il dominio lo ripete",
+  "nomeStrutturato": "LICITRA LAURA",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "polimedicoibleo.it",
@@ -165,6 +233,65 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro medico specialistico a Ragusa",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "siciliamedica.com",
+  "nome": "Sicilia Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06989370827",
+  "telefono": "",
+  "email": "info@siciliamedica.com",
+  "sitoUrl": "https://siciliamedica.com/",
+  "indirizzo": "Via E. Amari n. 32",
+  "cap": "38426",
+  "comune": "Partner",
+  "provincia": "rg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://siciliamedica.com/",
+   "https://siciliamedica.com/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SiciliaMedica.it - Sicilia Medica - SiciliaMedica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "vitality.fitness",
+  "nome": "Palestra Ragusa, Modica, Gela, Vittoria",
+  "formaSocietaria": "",
+  "partitaIva": "01225140886",
+  "telefono": "+3909321913441",
+  "email": "",
+  "sitoUrl": "https://www.vitality.fitness/",
+  "indirizzo": "Via Sacro Cuore, 61",
+  "cap": "97015",
+  "comune": "",
+  "provincia": "rg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.vitality.fitness/",
+   "https://www.vitality.fitness/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vitality Fitness",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "ExerciseGym Organization"
  }
 ]

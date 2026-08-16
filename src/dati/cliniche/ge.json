@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Alessandro Orefice. Chirurgo Plastico",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "arsmedicagenova.it",
@@ -55,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ars Medica Genova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "carlobrusati.com",
@@ -87,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Brusati, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Brusati, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Carlo Brusati",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroesteticobeautytimegenova.it",
@@ -118,7 +124,74 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty Time Genova",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "centromedicinaceccardi.it",
+  "nome": "Centro Medicina Ceccardi – La Società Centro Medicina Ceccardi offre c",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02187080995",
+  "telefono": "+39010580301",
+  "email": "",
+  "sitoUrl": "https://www.centromedicinaceccardi.it/",
+  "indirizzo": "Via Anton Maria Maragliano, 2",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicinaceccardi.it/",
+   "https://www.centromedicinaceccardi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medicina Ceccardi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "centromedicofieschi.it",
+  "nome": "Centro Medico Fieschi: visite specialistiche e prestazioni mediche",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02851140992",
+  "telefono": "+390100944489",
+  "email": "",
+  "sitoUrl": "https://www.centromedicofieschi.it/",
+  "indirizzo": "Via Fieschi, 8",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicofieschi.it/",
+   "https://www.centromedicofieschi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Fieschi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaplasticagenova.it",
@@ -181,7 +254,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "clinicavisage.it",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "cristianagraziani.it",
@@ -289,12 +364,12 @@
   "nome": "Studio Medico Estetico a Genova",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 335 8177074",
   "email": "",
   "sitoUrl": "https://dottmolinelligenova.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Piazza Colombo 2/8",
+  "cap": "16121",
+  "comune": "Genova",
   "provincia": "ge",
   "prestazioni": [
    "Filler",
@@ -310,7 +385,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Skin Revolution Genova – Dott. Christian Molinelli",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
+   "Saturday 09:00-14:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "dottoressafrancescapoggi.it",
@@ -335,7 +416,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottoressa Francesca Poggi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottoressasavaia.com",
+  "nome": "Dott.ssa Serena Savaia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393490702864",
+  "email": "",
+  "sitoUrl": "https://www.dottoressasavaia.com/",
+  "indirizzo": "Via Nino Bixio 6",
+  "cap": "16128",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dottoressasavaia.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott.ssa Serena Savaia",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "drdanielebizzarri.it",
@@ -391,7 +500,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr Eleonora Magda Seghi",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "dremanuelascavella.it",
@@ -418,7 +529,124 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Estetico Dott.ssa Emanuela Scavella",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "emmanuellevigna.it",
+  "nome": "Emmanuelle Vigna",
+  "formaSocietaria": "",
+  "partitaIva": "03485800100",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://emmanuellevigna.it/",
+  "indirizzo": "Via XX Settembre 16",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Emmanuelle Vigna, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://emmanuellevigna.it/",
+   "https://emmanuellevigna.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emmanuelle Vigna, e il dominio lo ripete"
+ },
+ {
+  "dominio": "francescocasabona.com",
+  "nome": "Dott. Francesco Casabona",
+  "formaSocietaria": "",
+  "partitaIva": "01526500994",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://francescocasabona.com/",
+  "indirizzo": "Via XII Ottobre, 2",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Casabona, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://francescocasabona.com/",
+   "https://francescocasabona.com/2025/04/17/contattaci/",
+   "https://francescocasabona.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Casabona, e il dominio lo ripete"
+ },
+ {
+  "dominio": "lykeions.it",
+  "nome": "Lykeions Scuola di Estetica -",
+  "formaSocietaria": "",
+  "partitaIva": "02968940995",
+  "telefono": "+393920616100",
+  "email": "info@lykeions.it",
+  "sitoUrl": "https://www.lykeions.it/",
+  "indirizzo": "Via Fieschi 3",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.lykeions.it/",
+   "https://www.lykeions.it/chi-siamo/",
+   "https://www.lykeions.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Lykeions",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "massimorenzi.it",
+  "nome": "Dott. Massimo Renzi. Specialista in chirurgia plastica ed estetica a G",
+  "formaSocietaria": "",
+  "partitaIva": "01677710996",
+  "telefono": "+393737141219",
+  "email": "",
+  "sitoUrl": "https://www.massimorenzi.it/",
+  "indirizzo": "Via Fiasella 7",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimo Renzi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.massimorenzi.it/",
+   "https://www.massimorenzi.it/sedi-e-contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Renzi, e il dominio lo ripete"
  },
  {
   "dominio": "monicaciarallo.com",
@@ -480,7 +708,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio medico Monica De Stefani",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "oreficefioravante.com",
@@ -506,7 +736,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fioravante Orefice, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fioravante Orefice, e il dominio lo ripete",
+  "nomeStrutturato": "Dr fioravante Orefice",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatorioilquadrilatero.it",
@@ -534,7 +766,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Il Quadrilatero - Poliambulatorio specialistico Genova e Liguria",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "puggionivaleria.it",

@@ -57,16 +57,44 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "mvm-roma.it",
+  "nome": "MVM Villa Massimo",
+  "formaSocietaria": "",
+  "partitaIva": "08357461006",
+  "telefono": "+390664220334",
+  "email": "",
+  "sitoUrl": "https://mvm-roma.it/",
+  "indirizzo": "Piazza Bologna. Quartiere Nomentano. Tel: 06",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "salemi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mvm-roma.it/",
+   "https://mvm-roma.it/chi-siamo/",
+   "https://mvm-roma.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "MVM Villa Massimo",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
   "dominio": "professionisti.quotidianosanitaclub.it",
   "nome": "Professionisti Sanitari.AI: directory AI di professionisti sanitari",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
-  "email": "",
+  "telefono": "+41 916952060",
+  "email": "consulcesisa@legalmail.it",
   "sitoUrl": "https://professionisti.quotidianosanitaclub.it/",
   "indirizzo": "Via G.Motta 6",
-  "cap": "",
-  "comune": "",
+  "cap": "6828",
+  "comune": "Balerna",
   "provincia": "salemi",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -79,6 +107,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Professionisti Sanitari.AI",
+  "tipoDichiarato": "Organization"
  }
 ]

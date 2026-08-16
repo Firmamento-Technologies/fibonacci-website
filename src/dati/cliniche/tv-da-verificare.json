@@ -1,5 +1,60 @@
 [
  {
+  "dominio": "accademiaformaprof.com",
+  "nome": "Accademia del Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "01069550257",
+  "telefono": "",
+  "email": "info@accademiaformaprof.com",
+  "sitoUrl": "https://www.accademiaformaprof.com/wordpress2/",
+  "indirizzo": "Via Graziano Appiani 21",
+  "cap": "31100",
+  "comune": "Treviso",
+  "provincia": "tv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.accademiaformaprof.com/wordpress2/",
+   "https://www.accademiaformaprof.com/wordpress2/contatti/",
+   "https://www.accademiaformaprof.com/wordpress2/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Istituto Leonardo Da Vinci",
+  "tipoDichiarato": "EducationalOrganization Organization"
+ },
+ {
+  "dominio": "aesteticdream.it",
+  "nome": "Centro Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "05323870260",
+  "telefono": "+393518967544",
+  "email": "",
+  "sitoUrl": "https://aesteticdream.it/",
+  "indirizzo": "Piazza Caduti per la Libertà 5",
+  "cap": "31010",
+  "comune": "Orsago",
+  "provincia": "tv",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aesteticdream.it/",
+   "https://aesteticdream.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centroesteticatreviso.it",
   "nome": "Centro Estetica Treviso",
   "formaSocietaria": "",
@@ -20,6 +75,34 @@
    "https://www.centroesteticatreviso.it/",
    "https://www.centroesteticatreviso.it/contatti/",
    "https://www.centroesteticatreviso.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dorianoottavian.com",
+  "nome": "Dottor Doriano Ottavian",
+  "formaSocietaria": "",
+  "partitaIva": "03312690260",
+  "telefono": "+390422582581",
+  "email": "info@dorianoottavian.com",
+  "sitoUrl": "https://www.dorianoottavian.com/",
+  "indirizzo": "Via Marzolo 3",
+  "cap": "31100",
+  "comune": "Treviso",
+  "provincia": "tv",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dorianoottavian.com/",
+   "https://www.dorianoottavian.com/contatti/",
+   "https://www.dorianoottavian.com/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -73,6 +156,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medas",
+  "tipoDichiarato": "Organization"
  }
 ]

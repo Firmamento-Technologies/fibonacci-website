@@ -4,7 +4,7 @@
   "nome": "Agemedica",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393517252213",
   "email": "info@agemedica.it",
   "sitoUrl": "https://agemedica.it/",
   "indirizzo": "Largo Orbassano, 68",
@@ -27,7 +27,18 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Agemedica",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday 09:00-17:00",
+   "Tuesday 09:00-17:00",
+   "Wednesday 09:00-17:00",
+   "Thursday 09:00-17:00",
+   "Friday 09:00-17:00",
+   "Saturday 09:00-17:00",
+   "Sunday 09:00-17:00"
+  ]
  },
  {
   "dominio": "alessandrorivolin.it",
@@ -79,7 +90,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Atelier Beauté centro estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "blefaroplastica-torino.it",
@@ -170,7 +183,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr. Stefano Pau - Dr.ssa Luisella Benzo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaplastica-torino.it",
@@ -226,7 +241,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Salvatore Carlucci",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "clinicacellini.it",
+  "nome": "Humanitas Cellini - Torino - Clinica, Poliambulatorio, Esami",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10982360967",
+  "telefono": "+3901130273027",
+  "email": "info@clinicacellini.it",
+  "sitoUrl": "https://www.clinicacellini.it/",
+  "indirizzo": "Via Benvenuto Cellini 5",
+  "cap": "10126",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicacellini.it/",
+   "https://www.clinicacellini.it/chi-siamo/",
+   "https://www.clinicacellini.it/info/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Humanitas Cellini - Torino - Clinica, Poliambulatorio, Esami",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cristalbeauty.it",
@@ -260,7 +305,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Chirurgico A.I.M.",
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "dermatologo-torino.it",
@@ -285,6 +332,43 @@
    "https://www.dermatologo-torino.it/",
    "https://www.dermatologo-torino.it/contatti/",
    "https://www.dermatologo-torino.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr. Delmonte Sergio Dermatologo",
+  "tipoDichiarato": "Person",
+  "lat": 45.059095,
+  "lon": 7.68625,
+  "orari": [
+   "Mo,Tu,We,Th,Fr 15:00-19:00"
+  ]
+ },
+ {
+  "dominio": "dottorboero.it",
+  "nome": "Dott. Boero Dentista Torino",
+  "formaSocietaria": "",
+  "partitaIva": "12420230018",
+  "telefono": "+393338689622",
+  "email": "info@dottorboero.it",
+  "sitoUrl": "https://dottorboero.it/",
+  "indirizzo": "Corso Arimondi 17",
+  "cap": "10129",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottorboero.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -322,7 +406,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottoressa Gaia Zocaro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "elitederma.it",
@@ -376,7 +462,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "EpilHouse",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estetica.nebiolovietti.it",
@@ -442,7 +530,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Renata Migliardi",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "esteticaperfectatorino.it",
@@ -526,7 +616,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Medico MediCare"
+ },
+ {
+  "dominio": "isideastudioestetica.it",
+  "nome": "Isidea: Studio di Estetica e Benessere Torino",
+  "formaSocietaria": "",
+  "partitaIva": "11335340011",
+  "telefono": "+393404785694",
+  "email": "rossellacarnevale8278@gmail.com",
+  "sitoUrl": "https://www.isideastudioestetica.it/",
+  "indirizzo": "C. Casale, 170 10132 TORINO (TO)",
+  "cap": "10132",
+  "comune": "TORINO",
+  "provincia": "to",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.isideastudioestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ISIDEA STUDIO DI ESTETICA E BENESSERE",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "kleis-estetica.it",
@@ -554,7 +674,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Kleis Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lamoreseitu.it",
@@ -584,7 +706,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Amore sei tu",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "larc.it",
@@ -610,7 +734,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "LARC",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lashdesignbeautylab.it",
@@ -760,7 +886,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottor Luigi Cursio, Chirurgo Plastico Ricostruttivo ed Estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "madame-estetica.it",
@@ -818,7 +946,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Mazzeo Dentista Torino",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Dentist Organization"
  },
  {
   "dominio": "medicinaestetica-torino.it",
@@ -826,7 +959,7 @@
   "formaSocietaria": "",
   "partitaIva": "04664010016",
   "telefono": "+390118141062",
-  "email": "",
+  "email": "rizzotti.maria@libero.it",
   "sitoUrl": "https://medicinaestetica-torino.it/",
   "indirizzo": "C.so Vittorio Emanuele II, 2",
   "cap": "10123",
@@ -850,7 +983,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dr.ssa Maria Rizzotti"
  },
  {
   "dominio": "medicinaesteticadelvisotorino.it",
@@ -937,7 +1072,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica La Russa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticatorino.com",
@@ -967,7 +1104,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Gmed - medicina estetica",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "medicinaesteticaturco.it",
@@ -1002,7 +1141,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina estetica Turco",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "papinimedicinaestetica.it",
@@ -1029,7 +1170,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Antonella Papini Medicina Estetica Torino"
+ },
+ {
+  "dominio": "sancamillotorino.net",
+  "nome": "Presidio Sanitario San Camillo",
+  "formaSocietaria": "",
+  "partitaIva": "13471450968",
+  "telefono": "+390118199411",
+  "email": "prenotazioni.torino@camilliani.net",
+  "sitoUrl": "https://www.sancamillotorino.net/",
+  "indirizzo": "Via Ercole Oldofredi 11",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.sancamillotorino.net/",
+   "https://www.sancamillotorino.net/dove-siamo",
+   "https://www.sancamillotorino.net/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "santanche.com",
@@ -1057,7 +1226,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio del Dott. Santanchè - Chirurgia estetica, medicina estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "silvanabeautycenter.com",
@@ -1144,6 +1315,74 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Luca Falone",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiomedicobarba.it",
+  "nome": "Studio Medico Barba",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicobarba.it",
+  "sitoUrl": "https://www.studiomedicobarba.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "to",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicobarba.it/",
+   "https://www.studiomedicobarba.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Barba Verona",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiomedicodenicolo.it",
+  "nome": "Dott. Andrea De Nicolò",
+  "formaSocietaria": "",
+  "partitaIva": "10129770011",
+  "telefono": "+390110243211",
+  "email": "segreteria@studiomedicodenicolo.it",
+  "sitoUrl": "https://www.studiomedicodenicolo.it/",
+  "indirizzo": "Via Ettore De Sonnaz 16",
+  "cap": "",
+  "comune": "",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicodenicolo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -1174,7 +1413,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio medico Dottor Bruno Francesco",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "studiomedicogambetta.it",
@@ -1204,6 +1445,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "studiomedicolamarmora.it",
+  "nome": "Studio Medico Lamarmora",
+  "formaSocietaria": "",
+  "partitaIva": "08897550011",
+  "telefono": "+39011505805",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicolamarmora.it/",
+  "indirizzo": "Via Lamarmora, 44",
+  "cap": "10128",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiomedicolamarmora.it/",
+   "https://www.studiomedicolamarmora.it/chi-siamo.html",
+   "https://www.studiomedicolamarmora.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "studiovastatorino.it",
   "nome": "Medicina estetica e dentale",
   "formaSocietaria": "",
@@ -1230,11 +1497,37 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "tosinistudio.it",
+  "nome": "Tosini Studio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://tosiniparrucchiere.it/",
+  "indirizzo": "Corso Giovanni Agnelli, 78",
+  "cap": "10137",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://tosiniparrucchiere.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Tosini Studio",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "yely.it",
   "nome": "Studio di trucco permanente torino",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393791822052",
   "email": "",
   "sitoUrl": "https://www.yely.it/",
   "indirizzo": "",
@@ -1255,6 +1548,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio di trucco permanente & piercing",
+  "tipoDichiarato": "Organization"
  }
 ]

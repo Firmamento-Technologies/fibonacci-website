@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty Art E.R.A",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "beautypremiere.it",
@@ -161,6 +163,66 @@
    "https://www.eimec.com/it/",
    "https://www.eimec.com/it/contatti/",
    "https://www.eimec.com/it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "EIMEC",
+  "tipoDichiarato": "Organization Person"
+ },
+ {
+  "dominio": "innovaclinique.it",
+  "nome": "Implantologia complessa e chirurgia orale a Domodossola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39032444152",
+  "email": "",
+  "sitoUrl": "https://innovaclinique.it/",
+  "indirizzo": "Via Giacomo Leopardi, 2",
+  "cap": "28845",
+  "comune": "Domodossola",
+  "provincia": "fasano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://innovaclinique.it/",
+   "https://innovaclinique.it/contatti.html",
+   "https://innovaclinique.it/contatti/indicazioni-per-il-paziente.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "secretcharm.it",
+  "nome": "Centro estetico e Benessere Eur",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12573931008",
+  "telefono": "",
+  "email": "info@secretcharm.it",
+  "sitoUrl": "https://www.secretcharm.it/",
+  "indirizzo": "",
+  "cap": "00144",
+  "comune": "Roma",
+  "provincia": "fasano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.secretcharm.it/",
+   "https://www.secretcharm.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

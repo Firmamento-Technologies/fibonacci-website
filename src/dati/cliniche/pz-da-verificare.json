@@ -27,6 +27,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "centroesteticakarisma.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "centromedicokos.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -118,9 +123,40 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "geopop.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ },
+ {
   "dominio": "medicinaesteticapomarico.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "ospedalesancarlo.it",
+  "nome": "AOR San Carlo",
+  "formaSocietaria": "",
+  "partitaIva": "01186830764",
+  "telefono": "+3939800006616",
+  "email": "",
+  "sitoUrl": "https://www.ospedalesancarlo.it/",
+  "indirizzo": "Via Potito Petrone 85100",
+  "cap": "85100",
+  "comune": "Potenza",
+  "provincia": "pz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ospedalesancarlo.it/",
+   "https://www.ospedalesancarlo.it/contatti",
+   "https://www.ospedalesancarlo.it/Privacy_e_coockies_policy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "paradisobeautyartists.com",

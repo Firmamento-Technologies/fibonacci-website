@@ -36,7 +36,7 @@
   "nome": "B-Suite",
   "formaSocietaria": "",
   "partitaIva": "11859080969",
-  "telefono": "",
+  "telefono": "+390236533694",
   "email": "prenotazioni@b-suite.it",
   "sitoUrl": "https://b-suite.it/",
   "indirizzo": "Piazza San Lorenzo 13",
@@ -64,7 +64,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "B-Suite",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dentalnarco.com",
@@ -89,7 +91,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.423332,
+  "lon": 9.063455,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "CENTRO ODONTOIATRICO DENTALNARCO",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-20:00",
+   "Saturday 09:00-13:30"
+  ]
  },
  {
   "dominio": "narcisoestetica.com",

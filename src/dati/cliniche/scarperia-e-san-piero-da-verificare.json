@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Il Filo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "misericordiasanpiero.it",
@@ -76,5 +78,33 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "skin-dermatologija.si",
+  "nome": "Dermatolog Ljubljana",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+38631446999",
+  "email": "info@estetika-skin.si",
+  "sitoUrl": "https://skin-dermatologija.si/si",
+  "indirizzo": "Peričeva ulica 37",
+  "cap": "1000",
+  "comune": "Ljubljana",
+  "provincia": "scarperia-e-san-piero",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://skin-dermatologija.si/si"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "SKIN Dermatologija",
+  "tipoDichiarato": "MedicalOrganization LocalBusiness"
  }
 ]

@@ -62,7 +62,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Fisiomed Fiorenzuola",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "globelife.com",
@@ -87,6 +89,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "GLOBElife",
+  "tipoDichiarato": "NewsMediaOrganization"
  }
 ]

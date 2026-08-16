@@ -54,6 +54,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Polistudio Reabilita | Specialisti in Fisioterapia, Ortopedia e Riabilitazione",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:30",
+   "Saturday 08:30-13:00",
+   "Sunday 00:00-00:00"
+  ],
+  "tipoDichiarato": "Organization Place",
+  "lat": 44.7964,
+  "lon": 10.3262
  }
 ]

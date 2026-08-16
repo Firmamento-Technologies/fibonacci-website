@@ -26,6 +26,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "mycli.it",
+  "nome": "MyCli",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04404730261",
+  "telefono": "+3904221498718",
+  "email": "info@perlapelle.it",
+  "sitoUrl": "https://mycli.it/",
+  "indirizzo": "Via E. Torricelli, 24",
+  "cap": "31020",
+  "comune": "Villorba",
+  "provincia": "sava",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://mycli.it/",
+   "https://mycli.it/contatti/",
+   "https://mycli.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "paolorosati.it",
   "nome": "Paolo Rosati | Medico Chirurgo",
   "formaSocietaria": "",
@@ -54,7 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Paolo_Rosati",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "sabamedica.com",
@@ -80,7 +110,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sabamedica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "vincenzoperchinunno.com",

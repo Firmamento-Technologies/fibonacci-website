@@ -60,7 +60,7 @@
   "formaSocietaria": "SRL",
   "partitaIva": "10216521210",
   "telefono": "+3908119138469",
-  "email": "",
+  "email": "agenda@adrianosantorelli.com",
   "sitoUrl": "https://www.adrianosantorelli.it/",
   "indirizzo": "Via Morghen 88",
   "cap": "80129",
@@ -85,7 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriano Santorelli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriano Santorelli, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Adriano Santorelli - Chirurgo Plastico &amp; Medico Estetico a Napoli",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "aestheticare.it",
@@ -114,7 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aestheticare - Medicina estetica e Chirurgia estetica a Napoli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "alessandrodonzelli.com",
@@ -143,19 +147,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Donzelli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Donzelli, e il dominio lo ripete",
+  "nomeStrutturato": "Dentista Napoli - Dott. Alessandro Donzelli - Odontoiatria e Medicina Estetica Vomero",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "alfredoborriello.it",
   "nome": "Dr. Alfredo Borriello",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 081 780 8051",
   "email": "info@alfredoborriello.it",
   "sitoUrl": "https://alfredoborriello.it/",
   "indirizzo": "Viale Antonio Gramsci 30",
-  "cap": "",
-  "comune": "",
+  "cap": "80122",
+  "comune": "Napoli",
   "provincia": "na",
   "prestazioni": [
    "Filler",
@@ -172,7 +178,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Borriello, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Borriello, e il dominio lo ripete",
+  "lat": 40.8358,
+  "lon": 14.2288,
+  "nomeStrutturato": "Studio Dr. Alfredo Borriello",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-20:30"
+  ],
+  "tipoDichiarato": "MedicalClinic MedicalBusiness"
  },
  {
   "dominio": "alfredofonzone.org",
@@ -209,7 +222,7 @@
   "nome": "Alla Violetta",
   "formaSocietaria": "SRL",
   "partitaIva": "07616850637",
-  "telefono": "",
+  "telefono": "081 556 5141",
   "email": "info@allavioletta.it",
   "sitoUrl": "https://www.allavioletta.it/",
   "indirizzo": "Via Gian Lorenzo Bernini, 25",
@@ -233,7 +246,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "Alla Violetta",
+  "orari": [
+   "Mo 08:00-20:00, Tu 08:00-20:00, We 08:00-20:00, Th 08:00-20:"
+  ]
  },
  {
   "dominio": "altaformazioneaims.it",
@@ -320,7 +338,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ambrosanio Rosa, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ambrosanio Rosa, e il dominio lo ripete",
+  "nomeStrutturato": "Studio Medico Ambrosanio Rosa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "amohaviaomodeo.it",
@@ -347,7 +367,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "AMOHA' S.A.S.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "angelagroger.it",
@@ -439,7 +461,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arturo Amoroso, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arturo Amoroso, e il dominio lo ripete",
+  "nomeStrutturato": "Arturo Amoroso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "be-clinic.it",
@@ -471,7 +495,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Be Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "beautylifeandspa.com",
@@ -482,8 +508,8 @@
   "email": "",
   "sitoUrl": "https://www.beautylifeandspa.com/",
   "indirizzo": "Via Tevere Snc Interno piscine Sport+ T. 031",
-  "cap": "",
-  "comune": "",
+  "cap": "22074",
+  "comune": "Lomazzo",
   "provincia": "na",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -497,7 +523,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BeautyLife estetica avanzata",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "cartagineclinic.it",
@@ -618,7 +646,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico Gargano",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "centromorra.it",
@@ -645,7 +678,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Cardiologico Morra",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologianapoli.it",
@@ -680,7 +715,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.8436,
+  "lon": 14.2307,
+  "nomeStrutturato": "Dott.ssa Francesca Gaudiello - Dermatologia Napoli",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "dottenricocalabrese.it",
@@ -770,7 +809,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr Nicola Bianchi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottordellacorte.com",
@@ -841,7 +882,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottoressa Giusi Ambrosio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drantoniobraucci.com",
@@ -904,7 +947,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Francesco Somma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drgrippoperfectaviso.it",
@@ -934,7 +979,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Vincenzo Grippo",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "drvittoria.it",
@@ -997,19 +1044,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Elite Medical",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "facebioma.com",
   "nome": "Facebioma",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 351 069 6202",
   "email": "info@facebioma.com",
   "sitoUrl": "https://facebioma.com/",
-  "indirizzo": "",
+  "indirizzo": "Via Albricci 9",
   "cap": "",
-  "comune": "",
+  "comune": "Milano",
   "provincia": "na",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -1021,7 +1070,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Facebioma",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-18:00"
+  ],
+  "tipoDichiarato": "MedicalClinic HealthAndBeautyBusiness"
  },
  {
   "dominio": "gemaclinique.it",
@@ -1051,7 +1105,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gema Clinique",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giulianomazzella.com",
@@ -1059,7 +1115,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393762714012",
-  "email": "",
+  "email": "leyeclinicnapoli@gmail.com",
   "sitoUrl": "https://giulianomazzella.com/",
   "indirizzo": "Via Vannella Gaetani 27",
   "cap": "80121",
@@ -1085,7 +1141,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuliano Mazzella, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuliano Mazzella, e il dominio lo ripete",
+  "lat": 40.8359,
+  "lon": 14.2481,
+  "nomeStrutturato": "L'Eye Clinic - Dott. Giuliano Mazzella",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness Physician"
  },
  {
   "dominio": "goriziopieretti.com",
@@ -1118,7 +1181,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gorizio Pieretti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gorizio Pieretti, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Gorizio Pieretti",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "istitutofanfani.it",
@@ -1144,7 +1209,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto Fanfani",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ivanlarusca.it",
@@ -1174,7 +1241,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ivan La Rusca",
+  "tipoDichiarato": "Organization",
+  "lat": 40.880815,
+  "lon": 14.88049,
+  "orari": [
+   "Wednesday, Thursday, Friday 09:00-18:00"
+  ]
  },
  {
   "dominio": "kimage.it",
@@ -1204,7 +1278,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Kimage",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "luigirugge.com",
@@ -1232,7 +1308,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Rugge, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Rugge, e il dominio lo ripete",
+  "nomeStrutturato": "Chirurgo Estetico - Luigi Rugge",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "madamestetica.com",
@@ -1260,7 +1338,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Madame",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "marcomoraci.it",
@@ -1291,7 +1371,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Moraci, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Moraci, e il dominio lo ripete",
+  "nomeStrutturato": "Dottor Marco Moraci",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "massimilianomonarca.com",
@@ -1350,7 +1432,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "POLITICAdeMENTE - Il blog di Massimo Del Mese",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "maurizioamato.com",
@@ -1378,7 +1462,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Amato, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Amato, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Maurizio Amato - Medicina e chirurgia estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medfarmitalia.it",
@@ -1413,7 +1499,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Med Farm Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalcentermauriello.it",
@@ -1443,7 +1531,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Center Mauriello",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalklinique.it",
@@ -1542,7 +1632,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Pitassi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticatartaglia.it",
@@ -1596,7 +1688,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bakeca S.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ninaglowbeauty.skin",
@@ -1630,8 +1724,8 @@
   "nome": "Centro Medico a Napoli",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
-  "email": "",
+  "telefono": "+39 081 5782700",
+  "email": "novavitacentromedico@gmail.com",
   "sitoUrl": "https://www.novavitaweb.it/",
   "indirizzo": "via Francesco de Mura 23",
   "cap": "80129",
@@ -1656,7 +1750,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.84633,
+  "lon": 14.22636,
+  "nomeStrutturato": "NOVAVITA Centro Medico",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:30-19:30"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "ordinemedicinapoli.it",
@@ -1718,7 +1819,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Verolino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pasquale Verolino, e il dominio lo ripete",
+  "nomeStrutturato": "Pasquale Verolino",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "polimedmedicinaestetica.it",
@@ -1786,7 +1889,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Four Surgery",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "raffaelerauso.com",
@@ -1815,7 +1920,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Rauso, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Rauso, e il dominio lo ripete",
+  "lat": 40.840369,
+  "lon": 14.255036,
+  "nomeStrutturato": "Dott. Raffaele Rauso",
+  "orari": [
+   "Mo-Fr 09:00-20:00"
+  ],
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "raffaellaannunziata.it",
@@ -1871,7 +1983,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Rago Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "reflowcenter.com",
@@ -1897,7 +2011,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Reflow Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "regaclinic.it",
@@ -1957,7 +2073,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Roberta Torre Pignatiello Urban Spa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rosagiannatiempo.it",
@@ -1985,7 +2103,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosa Giannatiempo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosa Giannatiempo, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Rosa Giannatiempo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "santafarma.it",
@@ -2079,7 +2199,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sergio Marlino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sergio Marlino, e il dominio lo ripete",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Sergio Marlino - Chirurgo plastico Napoli",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-20:0"
+  ]
  },
  {
   "dominio": "simonenapoli.it",
@@ -2112,7 +2237,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Simone Napoli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "smeasnc.it",
@@ -2143,7 +2270,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Smea Snc",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticocozzolino.it",
@@ -2171,7 +2300,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico Cozzolino",
+  "tipoDichiarato": "Organization",
+  "lat": 40.8322,
+  "lon": 14.2483,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20.00"
+  ]
  },
  {
   "dominio": "studiofabbrocini.com",
@@ -2182,8 +2318,8 @@
   "email": "info@mysite.com",
   "sitoUrl": "https://www.studiofabbrocini.com/",
   "indirizzo": "Via Filangieri 36",
-  "cap": "",
-  "comune": "",
+  "cap": "80132",
+  "comune": "Napoli",
   "provincia": "na",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -2197,7 +2333,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Fabbrocini",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "studiomedicopolverino.it",
@@ -2231,19 +2369,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Polverino, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Polverino, cognome dentro il dominio",
+  "nomeStrutturato": "Studio Polverino",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "treatwell.it",
   "nome": "Prenota online parrucchiere, estetista, unghie, massaggi",
   "formaSocietaria": "",
-  "partitaIva": "",
+  "partitaIva": "IT08387820965",
   "telefono": "",
   "email": "",
   "sitoUrl": "https://www.treatwell.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Carlo Farini 41",
+  "cap": "20159",
+  "comune": "Milano",
   "provincia": "na",
   "prestazioni": [
    "Peeling chimico",
@@ -2261,7 +2401,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Treatwell",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "umbertonapoli.it",
@@ -2323,7 +2465,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Veresis",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "whitebeautyclinic.com",
@@ -2353,6 +2497,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "White Beauty Clinic",
+  "tipoDichiarato": "Organization"
  }
 ]

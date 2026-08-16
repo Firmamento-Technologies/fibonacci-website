@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "asl1.liguria.it",
+  "nome": "asl1.liguria.it",
+  "formaSocietaria": "",
+  "partitaIva": "02421770997",
+  "telefono": "+3901845361",
+  "email": "",
+  "sitoUrl": "https://www.asl1.liguria.it/",
+  "indirizzo": "Via Aurelia Ponente, 97",
+  "cap": "18038",
+  "comune": "Bussana",
+  "provincia": "sanremo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asl1.liguria.it/",
+   "https://www.asl1.liguria.it/politica-della-privacy.html",
+   "https://www.asl1.liguria.it/note-legali.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ASL1",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "esteticaalbachiara.it",
   "nome": "Estetica AlbaChiara",
   "formaSocietaria": "",
@@ -25,7 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Albachiara",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticasanremo.it",
@@ -54,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottoressa Cavallero - Medicina Estetica",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "studiomarcocamerino.com",

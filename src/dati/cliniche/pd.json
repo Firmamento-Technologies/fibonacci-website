@@ -29,7 +29,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.41646,
+  "lon": 11.880848,
+  "nomeStrutturato": "AES CLINIC",
+  "orari": [
+   "Mo-Fr 08:30-18:30"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "aiteb.it",
@@ -60,7 +67,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "A.I.T.E.B. - Associazione Italiana Terapia Estetica Botulino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "antoniotambuscio.it",
@@ -180,7 +189,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Chirurgia Estetica MED Padova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaplasticapadova.it",
@@ -209,7 +220,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Chirurgia Plastica UOC- Azienda Ospedale - Università Padova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgopiacentile.it",
@@ -238,6 +251,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "www.chirurgopiacentile.it",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "clementezorzetto.it",
+  "nome": "Chirurgia Plastica e Chirurgia Estetica Padova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@clementezorzetto.it",
+  "sitoUrl": "https://www.clementezorzetto.it/",
+  "indirizzo": "via Cernaia, 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "pd",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clementezorzetto.it/",
+   "https://www.clementezorzetto.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -245,7 +289,7 @@
   "nome": "Clinica Cittàgiardino Padova",
   "formaSocietaria": "SRL",
   "partitaIva": "04172530281",
-  "telefono": "",
+  "telefono": "+390498911049",
   "email": "segreteria@clinicacittagiardino.it",
   "sitoUrl": "https://www.clinicacittagiardino.it/",
   "indirizzo": "Corso AICPE Crediti ECM assegnati 7",
@@ -273,7 +317,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Citt&#224;giardino",
+  "tipoDichiarato": "Organization",
+  "lat": 45.4064,
+  "lon": 11.8768,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "clinicaprivatavillamedea.it",
@@ -299,7 +350,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Privata Villa Medea",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicasalministurli.it",
@@ -327,7 +380,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Salmini Sturli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "criolipolisipadova.it",
@@ -360,7 +415,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Criolipolisi Padova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cristinadaloiso.com",
@@ -393,7 +450,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "dermatologopadova.com",
+  "nome": "Dermatologo Padova • Visite specialistiche & trattamenti",
+  "formaSocietaria": "",
+  "partitaIva": "03455080287",
+  "telefono": "+393477958001",
+  "email": "",
+  "sitoUrl": "https://www.dermatologopadova.com/",
+  "indirizzo": "Via San. Francesco 44",
+  "cap": "08669",
+  "comune": "Gestisci",
+  "provincia": "pd",
+  "prestazioni": [
+   "Biostimolazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dermatologopadova.com/",
+   "https://www.dermatologopadova.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Paolo LOVERGINE",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "diesseclinic.it",
@@ -420,7 +509,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Diesse Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dnasalute.it",
@@ -450,7 +541,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DNA Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressamentesana.it",
@@ -508,7 +601,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "dr Day Surgery",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "drbattaglia.it",
@@ -605,7 +700,7 @@
   "nome": "Dr. Stubel Milano Padova",
   "formaSocietaria": "",
   "partitaIva": "05356350289",
-  "telefono": "",
+  "telefono": "+39 049 798 6655",
   "email": "",
   "sitoUrl": "https://www.drstubel.com/",
   "indirizzo": "Via Piovese 176",
@@ -630,7 +725,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Marco Rizzetto Stubel",
+  "tipoDichiarato": "Organization Place MedicalClinic"
  },
  {
   "dominio": "eleanaferrari.com",
@@ -663,7 +760,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Eleana Ferrari, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Eleana Ferrari, e il dominio lo ripete",
+  "nomeStrutturato": "Eleana Ferrari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "elenagiardini.it",
@@ -693,7 +792,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Giardini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Giardini, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Elena Giardini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticamedicapadova.it",
@@ -762,19 +863,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Barbazza, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Barbazza, e il dominio lo ripete",
+  "nomeStrutturato": "Franco Barbazza",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "gabrielefranciosi.it",
   "nome": "Dott. Gabriele Franciosi",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "++39 3476032608",
   "email": "info@gabrielefranciosi.it",
   "sitoUrl": "https://www.gabrielefranciosi.it/",
   "indirizzo": "Via Guglielmo Marconi 4",
-  "cap": "",
-  "comune": "",
+  "cap": "36071",
+  "comune": "Arzignano",
   "provincia": "pd",
   "prestazioni": [
    "Laser"
@@ -790,7 +893,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gabriele Franciosi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gabriele Franciosi, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Gabriele Franciosi",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "gruppodatamedica.net",
@@ -885,7 +990,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "KALÈRGA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "kireinalab.it",
@@ -939,7 +1046,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Leonardo Ruzzante, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Leonardo Ruzzante, e il dominio lo ripete",
+  "nomeStrutturato": "Leonardo Ruzzante | Geriatria e terapia del dolore | Padova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "londeiclinic.it",
@@ -967,7 +1076,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Londeiclinic S.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lorenzolunardon.com",
@@ -1068,7 +1179,7 @@
   "nome": "Maurizio Baldo chirurgo plastico Padova -",
   "formaSocietaria": "",
   "partitaIva": "01984610285",
-  "telefono": "",
+  "telefono": "+39049658055",
   "email": "info@mauriziobaldo.it",
   "sitoUrl": "https://www.mauriziobaldo.it/",
   "indirizzo": "via Passeggiata del Carmine 5",
@@ -1088,7 +1199,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Baldo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Baldo, e il dominio lo ripete",
+  "nomeStrutturato": "Maurizio Baldo chirurgo plastico Padova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalcenterpadova.it",
@@ -1174,7 +1287,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.4715,
+  "lon": 11.8452,
+  "nomeStrutturato": "Overclass Padova - Centro Dimagrimento e Estetica Avanzata",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20:00"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness"
  },
  {
   "dominio": "paolagasparetto.com",
@@ -1236,7 +1356,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Bs Medica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriodermamed.com",
@@ -1261,7 +1383,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Dermamed",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriosanmartino.com",
@@ -1287,7 +1411,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio San Martino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliesteticapignatelli.com",
@@ -1321,7 +1447,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliestetica Pignatelli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "risorgimed.it",
@@ -1352,7 +1480,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "RISORGIMED - Dott. Giampiero Piccione",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "stefanobezzi.it",
@@ -1410,7 +1543,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Ambrosini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticotognetti.it",
@@ -1440,7 +1575,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico Tognetti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicodepaoli.it",
@@ -1473,7 +1610,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "de paoli medicina estetica dermatologia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "touchrigeneraclinic.com",
@@ -1500,5 +1639,35 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "yasminezavalloni.it",
+  "nome": "Medicina e Chirurgia Estetica a Padova",
+  "formaSocietaria": "",
+  "partitaIva": "05577750283",
+  "telefono": "",
+  "email": "info@yasminezavalloni.com",
+  "sitoUrl": "https://www.yasminezavalloni.it/",
+  "indirizzo": "Corso del Popolo 10",
+  "cap": "35131",
+  "comune": "Padova",
+  "provincia": "pd",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Yasmine Zavalloni, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.yasminezavalloni.it/",
+   "https://www.yasminezavalloni.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Yasmine Zavalloni, e il dominio lo ripete"
  }
 ]

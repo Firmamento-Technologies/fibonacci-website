@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "cmpmonza.it",
+  "nome": "CMP Monza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@cmpmonza.it",
+  "sitoUrl": "https://cmpmonza.it/",
+  "indirizzo": "Via Biancamano, 2",
+  "cap": "20139",
+  "comune": "Milano",
+  "provincia": "mb",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cmpmonza.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "dottormanola.com",
   "nome": "Dott. Mirko Manola - Monza",
   "formaSocietaria": "",
@@ -26,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Mirko Manola - Monza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "irccs-sangerardo.it",
@@ -65,6 +93,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "omceomb.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Mon",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39039322416",
+  "email": "segreteria@omceomb.it",
+  "sitoUrl": "https://omceomb.it/",
+  "indirizzo": "Via G.B. Mauri 9",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omceomb.it/",
+   "https://omceomb.it/ordine/segreteria/contatti.html",
+   "https://omceomb.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Monza e della Brianza",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "ritocchini.it",
   "nome": "Ritocchini",
   "formaSocietaria": "",
@@ -89,6 +145,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Ritocchini",
+  "tipoDichiarato": "Organization"
  }
 ]

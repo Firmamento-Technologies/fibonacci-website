@@ -57,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Imperia Italian Beauty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaesteticaimperia.it",
@@ -150,7 +152,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Blu Eden",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fabiolamartucci.com",
@@ -239,11 +243,11 @@
   "formaSocietaria": "",
   "partitaIva": "09004310968",
   "telefono": "",
-  "email": "",
+  "email": "assistenza@prontopro.it",
   "sitoUrl": "https://prontopro.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Errico Petrella 22",
+  "cap": "20124",
+  "comune": "Milano",
   "provincia": "im",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -257,6 +261,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ProntoPro IT",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -1,5 +1,35 @@
 [
  {
+  "dominio": "carboniandrea.com",
+  "nome": "carboniandrea.com",
+  "formaSocietaria": "",
+  "partitaIva": "02459630394",
+  "telefono": "+393288941841",
+  "email": "",
+  "sitoUrl": "https://www.carboniandrea.com/",
+  "indirizzo": "Via Cesarea 10",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "ra",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.carboniandrea.com/",
+   "https://www.carboniandrea.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "carboniandrea.com",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "iperbaricoravenna.it",
   "nome": "Centro Iperbarico Ravenna",
   "formaSocietaria": "SRL",
@@ -26,6 +56,35 @@
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
+  "dominio": "ravenna11medicalbeauty.it",
+  "nome": "Ravenna Undici Beauty System",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ravenna11medicalbeauty.it/",
+  "indirizzo": "Via Ravenna, 11",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "ra",
+  "prestazioni": [
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ravenna11medicalbeauty.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Ravenna Medical Beauty",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "skinravenna.it",
   "nome": "Skin Centro Estetico di Ravenna",
   "formaSocietaria": "",
@@ -50,6 +109,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "SKINRAVENNA",
+  "tipoDichiarato": "Organization"
  }
 ]

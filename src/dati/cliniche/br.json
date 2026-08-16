@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico Faldetta",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mbcbrindisi.it",
@@ -93,7 +95,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Diagnostico Optimum",
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 40.627686,
+  "lon": 17.925009,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-13:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:00",
+   "Saturday 09:00-13:00"
+  ]
  },
  {
   "dominio": "rinaldimedica.it",
@@ -152,7 +163,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "| Sfera Medical Group | Brindisi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sublimestetica.it",
@@ -181,6 +194,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ristorante",
+  "tipoDichiarato": "Organization"
  }
 ]

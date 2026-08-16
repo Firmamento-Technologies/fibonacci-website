@@ -31,6 +31,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "med-line.info",
+  "nome": "Poliambulatorio Med-Line a Flero (Bs)",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03322420179",
+  "telefono": "0302541111",
+  "email": "info@poliambulatoriomedline.it",
+  "sitoUrl": "https://www.med-line.info/",
+  "indirizzo": "Piazza Le Sorgive 29",
+  "cap": "25020",
+  "comune": "Flero",
+  "provincia": "tavagnacco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.med-line.info/",
+   "https://www.med-line.info/chi-siamo",
+   "https://www.med-line.info/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Med-line poliambulatorio",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
   "dominio": "salusalpeadria.it",
   "nome": "Salus Alpe Adria",
   "formaSocietaria": "",
@@ -54,6 +82,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salus Alpe Adria",
+  "tipoDichiarato": "Organization"
  }
 ]

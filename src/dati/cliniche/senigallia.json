@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393463625321",
-  "email": "",
+  "email": "alessandro.bucci@gmail.com",
   "sitoUrl": "https://www.alessandrobucci.eu/",
   "indirizzo": "Via F.lli Bandiera 38",
   "cap": "",
@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Bucci, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Bucci, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Alessandro Bucci",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "claudiabarucca.it",
@@ -219,7 +221,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Senasport",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skincentersenigallia.it",
@@ -272,7 +276,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SpaMarine Bellezza e Benessere a Senigallia - gestione Maria &amp; Massimiliano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "villasorrisosrl.it",

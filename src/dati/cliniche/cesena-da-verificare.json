@@ -51,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Kura Studio Associato Medico Riabilitativo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "overplace.com",
@@ -86,6 +88,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Kinesia Poliambulatorio Sport e Salute",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "sanlorenzino.com",
+  "nome": "Casa di Cura San Lorenzino",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00819690405",
+  "telefono": "",
+  "email": "info@sanlorenzino.it",
+  "sitoUrl": "https://www.sanlorenzino.com/",
+  "indirizzo": "Via N. Dell'Amore, 15",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.sanlorenzino.com/",
+   "https://www.sanlorenzino.com/chi-siamo/",
+   "https://www.sanlorenzino.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

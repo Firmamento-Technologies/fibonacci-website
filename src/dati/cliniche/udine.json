@@ -29,7 +29,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "drnicolazingaretti.com",
@@ -37,7 +38,7 @@
   "formaSocietaria": "",
   "partitaIva": "02953600307",
   "telefono": "+393391190024",
-  "email": "",
+  "email": "zingarettin@gmail.com",
   "sitoUrl": "https://www.drnicolazingaretti.com/",
   "indirizzo": "Via del Cotonificio, 129",
   "cap": "33100",
@@ -63,7 +64,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Zingaretti, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Zingaretti, cognome dentro il dominio",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "dr. Nicola Zingaretti",
+  "orari": [
+   ", , , , , ,"
+  ]
  },
  {
   "dominio": "enricazorzan.it",
@@ -125,7 +131,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina estetica Fvg",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rivilli.it",

@@ -51,7 +51,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Le Rose",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Tu-Sa 09:00-19:30"
+  ]
  },
  {
   "dominio": "centroesteticoriccione.it",
@@ -79,6 +84,41 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "davidetonini.it",
+  "nome": "Dott. Tonini",
+  "formaSocietaria": "",
+  "partitaIva": "02319200230",
+  "telefono": "+39337462862",
+  "email": "info@novaclinic.it",
+  "sitoUrl": "https://davidetonini.it/",
+  "indirizzo": "Via Rovereto, 20",
+  "cap": "",
+  "comune": "",
+  "provincia": "riccione",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://davidetonini.it/",
+   "https://davidetonini.it/contatti/",
+   "https://davidetonini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Tonini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drmanuelacarratta.com",
@@ -111,7 +151,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "EXIS srl unipersonale",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "morselli.org",
+  "nome": "Paolo Morselli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39051252535",
+  "email": "info@morselli.org",
+  "sitoUrl": "https://www.morselli.org/",
+  "indirizzo": "Viale Berti Pichat 32",
+  "cap": "40127",
+  "comune": "Bologna",
+  "provincia": "riccione",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.morselli.org/",
+   "https://www.morselli.org/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "solelunaesteticaebenessere.com",
@@ -139,6 +210,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Soleluna",
+  "tipoDichiarato": "Organization"
  }
 ]

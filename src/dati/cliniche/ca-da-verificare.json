@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "amministrazioneaperta.regione.sardegna.it",
+  "nome": "Amministrazione Aperta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://amministrazioneaperta.regione.sardegna.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://amministrazioneaperta.regione.sardegna.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "aoucagliari.it",
   "nome": "Azienda Ospedaliero-Universitaria di Cagliari",
   "formaSocietaria": "",
@@ -52,7 +76,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Arianna Milia Chirurgo Plastico",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "beautymedicals.it",
@@ -95,7 +121,7 @@
   "telefono": "+393921406784",
   "email": "info@dettaglimedicinaestetica.com",
   "sitoUrl": "https://dettaglimedicinaestetica.setmore.com/",
-  "indirizzo": "",
+  "indirizzo": "50A Via Antonio Scano",
   "cap": "09129",
   "comune": "Trattamenti",
   "provincia": "ca",
@@ -114,7 +140,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dettagli Medicina Estetica",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottornicolamonni.it",
@@ -208,7 +236,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Thomas Geremia Manca",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "saramei.it",

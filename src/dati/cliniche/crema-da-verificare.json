@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Acqua alle Rose",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "amazon.it",
@@ -73,6 +75,62 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Atlas Centro",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "avant-skincare.com",
+  "nome": "AVANT",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@avant-skincare.com",
+  "sitoUrl": "https://avant-skincare.com/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://avant-skincare.com/it",
+   "https://avant-skincare.com/it/pages/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Avant Skincare",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "basler-beauty.it",
+  "nome": "baslerbeauty",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@basler-beauty.it",
+  "sitoUrl": "https://www.basler-beauty.it/",
+  "indirizzo": "",
+  "cap": "74317",
+  "comune": "Bietigheim-Bissingen",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.basler-beauty.it/",
+   "https://www.basler-beauty.it/informazioni-su-baslerbeauty/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -96,6 +154,30 @@
    "https://www.beautylu.it/",
    "https://www.beautylu.it/contatti/",
    "https://www.beautylu.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bionike.com",
+  "nome": "BioNike",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bionike.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bionike.com/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -131,16 +213,76 @@
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  },
  {
+  "dominio": "consavio.com",
+  "nome": "Consenso Informato Digitale",
+  "formaSocietaria": "SNC",
+  "partitaIva": "02430310413",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.consavio.com/",
+  "indirizzo": "",
+  "cap": "61041",
+  "comune": "Acqualagna",
+  "provincia": "crema",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.consavio.com/",
+   "https://www.consavio.com/contatti/",
+   "https://www.consavio.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Consavio",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "crema.centrometica.it",
+  "nome": "Centro Medico Metica Crema",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "0373 87974",
+  "email": "info@centrometica.it",
+  "sitoUrl": "https://www.crema.centrometica.it/",
+  "indirizzo": "Viale Repubblica, 20",
+  "cap": "26013",
+  "comune": "Crema",
+  "provincia": "crema",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.crema.centrometica.it/",
+   "https://www.crema.centrometica.it/contatti",
+   "https://www.crema.centrometica.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Metica Crema",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
   "dominio": "cremabeautydays.com",
   "nome": "Landing Page",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 0373 259639",
   "email": "info@cremabeautydays.com",
   "sitoUrl": "https://www.cremabeautydays.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "25 Piazza del Duomo",
+  "cap": "26013",
+  "comune": "Crema",
   "provincia": "crema",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -153,7 +295,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Crema Beauty Days",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "cromapharma.com",
@@ -183,6 +327,295 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "d-a.works",
+  "nome": "D/A",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@d-a.works",
+  "sitoUrl": "https://d-a.works/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://d-a.works/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "douglas.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "drmax.it",
+  "nome": "Farmacia Online Dr. Max",
+  "formaSocietaria": "",
+  "partitaIva": "03979781204",
+  "telefono": "+390209996799",
+  "email": "",
+  "sitoUrl": "https://www.drmax.it/",
+  "indirizzo": "via Lombardia, 25",
+  "cap": "24060",
+  "comune": "Telgate",
+  "provincia": "crema",
+  "prestazioni": [
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drmax.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr.Max",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "drromanovaleria.ch",
+  "nome": "Actes de médecine esthétique à Genève Suisse",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+41782090289",
+  "email": "mailto:dr.romano.valeria@gmail.com",
+  "sitoUrl": "https://drromanovaleria.ch/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://drromanovaleria.ch/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr Valeria Romano",
+  "tipoDichiarato": "Physician",
+  "lat": 46.203584,
+  "lon": 6.148195,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-20:00"
+  ]
+ },
+ {
+  "dominio": "ducray.com",
+  "nome": "Ducray",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ducray.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ducray.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "elle.com",
+  "nome": "Fashion Magazine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.elle.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.elle.com/",
+   "https://www.elle.com/about/a39561967/about-us-contact-information-masthead/",
+   "https://www.elle.com/about/a12523/community-guidelines/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "elosklinik.com",
+  "nome": "Elos Klinik",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3905339226665",
+  "email": "bilgi@elosklinik.com",
+  "sitoUrl": "https://elosklinik.com/",
+  "indirizzo": "Alacaatlı Cad. 4750. Sk. No:19",
+  "cap": "06810",
+  "comune": "Çayyolu",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://elosklinik.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Elos Klinik ✨",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-19:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
+ },
+ {
+  "dominio": "esneca.it",
+  "nome": "Esneca Business School",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390653266953",
+  "email": "",
+  "sitoUrl": "https://www.esneca.it/",
+  "indirizzo": "",
+  "cap": "25008",
+  "comune": "Lleida",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esneca.it/",
+   "https://www.esneca.it/chi-siamo/",
+   "https://www.esneca.it/contatto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eurofarmacia.it",
+  "nome": "Eurofarmacia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@eurofarmacia.it",
+  "sitoUrl": "https://eurofarmacia.it/",
+  "indirizzo": "Strada Genova 264",
+  "cap": "10024",
+  "comune": "Moncalieri",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://eurofarmacia.it/",
+   "https://eurofarmacia.it/cistite-da-spiaggia-come-proteggersi-tra-sabbia-e-salsedine",
+   "https://eurofarmacia.it/normativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "farmaciainrete.it",
+  "nome": "FarmaciaINRETE",
+  "formaSocietaria": "",
+  "partitaIva": "02404841203",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.farmaciainrete.it/",
+  "indirizzo": "Via Andrea Costa 45",
+  "cap": "40134",
+  "comune": "Bologna",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.farmaciainrete.it/",
+   "https://www.farmaciainrete.it/contattaci/",
+   "https://www.farmaciainrete.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Farmaciainrete",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "farmaciamazziniroma.it",
+  "nome": "Farmacia online Mazzini",
+  "formaSocietaria": "SPA",
+  "partitaIva": "05097731003",
+  "telefono": "+39063724433",
+  "email": "",
+  "sitoUrl": "https://www.farmaciamazziniroma.it/",
+  "indirizzo": "Piazza Mazzini, 19",
+  "cap": "00195",
+  "comune": "Roma",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.farmaciamazziniroma.it/",
+   "https://www.farmaciamazziniroma.it/contattaci",
+   "https://www.farmaciamazziniroma.it/content/21-chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Farmacia Mazzini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "farmacostabile.it",
@@ -235,6 +668,132 @@
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
+  "dominio": "gavazzeni.it",
+  "nome": "Benvenuti in Humanitas Gavazzeni",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10982360967",
+  "telefono": "+390354204111",
+  "email": "",
+  "sitoUrl": "https://www.gavazzeni.it/",
+  "indirizzo": "Via Mauro Gavazzeni, 21",
+  "cap": "24125",
+  "comune": "Bergamo",
+  "provincia": "crema",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.gavazzeni.it/",
+   "https://www.gavazzeni.it/chi-siamo/",
+   "https://www.gavazzeni.it/info/contatti-e-orari/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Humanitas Gavazzeni",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "it.svr.com",
+  "nome": "Laboratoire SVR",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://it.svr.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://it.svr.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "keit.al",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "lookfantastic.it",
+  "nome": "LOOKFANTASTIC",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lookfantastic.it/",
+  "indirizzo": "",
+  "cap": "80538",
+  "comune": "Munich",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lookfantastic.it/",
+   "https://www.lookfantastic.it/c/info/privacy-policy/",
+   "https://www.lookfantastic.it/c/info/about-us/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "LOOKFANTASTIC",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "lucebeauty.it",
+  "nome": "Luce Beauty by Alessia Marcuzzi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393332668537",
+  "email": "info@lucebeauty.it",
+  "sitoUrl": "https://www.lucebeauty.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lucebeauty.it/",
+   "https://www.lucebeauty.it/pages/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Luce Beauty",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "marionnaud.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "medicalesthetichub.it",
   "nome": "Medical Esthetic Hub",
   "formaSocietaria": "",
@@ -258,6 +817,93 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "nivea.it",
+  "nome": "Scopri i prodotti Skincare & Personal Care",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.nivea.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.nivea.it/",
+   "https://www.nivea.it/chi-siamo",
+   "https://www.nivea.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "prpmed.de",
+  "nome": "prpmed.de",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://prpmed.de/it/",
+  "indirizzo": "",
+  "cap": "35440",
+  "comune": "Linden",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://prpmed.de/it/",
+   "https://prpmed.de/it/content/contatti",
+   "https://prpmed.de/it/content/politica-sulla-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "prpmed.de",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "redcare.it",
+  "nome": "I tuoi farmacisti online ▷ Redcare para farmacia online",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "contatto@redcare.it",
+  "sitoUrl": "https://www.redcare.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.redcare.it/",
+   "https://www.redcare.it/lenti-a-contatto/",
+   "https://www.redcare.it/contatti.htm"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Redcare",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "salidischia.it",
@@ -286,7 +932,94 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Sali di Ischia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "sanitas-crema.it",
+  "nome": "sanitas-crema.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.sanitas-crema.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sanitas-crema.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "semprefarmacia.it",
+  "nome": "Farmacia OnLine Semprefarmacia: Rapida, Conveniente, Semplice",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06082120657",
+  "telefono": "+3908281776574",
+  "email": "info@semprefarmacia.it",
+  "sitoUrl": "https://www.semprefarmacia.it/",
+  "indirizzo": "Via Dell’Artigianato, 21",
+  "cap": "84092",
+  "comune": "Bellizzi",
+  "provincia": "crema",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.semprefarmacia.it/",
+   "https://www.semprefarmacia.it/contatti",
+   "https://www.semprefarmacia.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Semprefarmacia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "sifweb.org",
+  "nome": "SIF",
+  "formaSocietaria": "",
+  "partitaIva": "11453180157",
+  "telefono": "",
+  "email": "segreteria@sifweb.org",
+  "sitoUrl": "https://www.sifweb.org/",
+  "indirizzo": "Via Giovanni Pascoli, 3",
+  "cap": "20129",
+  "comune": "Milano",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sifweb.org/",
+   "https://www.sifweb.org/la-societa/privacy",
+   "https://www.sifweb.org/la-societa/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "skinceuticals.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "studiodieci.it",
@@ -307,6 +1040,58 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://www.studiodieci.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "stylight.it",
+  "nome": "Stylight: Confronta moda & arredamento di decine di negozi online",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.stylight.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.stylight.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Stylight",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "teamdrjoseph.com",
+  "nome": "TEAM DR JOSEPH",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.teamdrjoseph.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.teamdrjoseph.com/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -337,5 +1122,62 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "terme-krka.com",
+  "nome": "Terme Krka",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://terme-krka.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://terme-krka.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "topfarmacia.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "vichy.it",
+  "nome": "Vichy",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.vichy.it/",
+  "indirizzo": "",
+  "cap": "93584",
+  "comune": "ST",
+  "provincia": "crema",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.vichy.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "VICHY",
+  "tipoDichiarato": "Organization"
  }
 ]

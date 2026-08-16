@@ -31,7 +31,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "AD Aesthetics",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Mo-Fr 09:00-19:00"
+  ]
  },
  {
   "dominio": "gnatos.it",
@@ -39,7 +44,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393460410340",
-  "email": "",
+  "email": "ufficio@gnatos.it",
   "sitoUrl": "https://www.gnatos.it/",
   "indirizzo": "Via Del Capitel 1",
   "cap": "01265",
@@ -57,7 +62,17 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.436656,
+  "lon": 11.033355,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Gnatos Studio Dentistico - Dentista a Verona - Borgo Venezia",
+  "orari": [
+   "Monday 11:30-20:00",
+   "Tuesday,Wednesday 08:30-15:00",
+   "Thursday 12:00-20:00",
+   "Friday 08:30-15:30"
+  ]
  },
  {
   "dominio": "medicinaestetica-goglia.com",

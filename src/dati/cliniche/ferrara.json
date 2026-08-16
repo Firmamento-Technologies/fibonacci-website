@@ -59,7 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "%%sitename%%",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicovenere.it",
@@ -83,7 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Venere - Centro Medico Polispecialistico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermesthetic.it",
@@ -144,7 +148,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Zollino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ilaria Zollino, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Ilaria Zollino Medicina Estetica",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "poliambulatoriomedicoodontoiatricoerresse.it",
@@ -168,6 +174,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Erre Esse",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Dentist Organization"
  }
 ]

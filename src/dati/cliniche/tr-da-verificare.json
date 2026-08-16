@@ -1,5 +1,58 @@
 [
  {
+  "dominio": "centrolaserterni.it",
+  "nome": "centrolaserterni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://centrolaserterni.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "tr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centrolaserterni.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "iltuochirurgoplastico.com",
+  "nome": "Studio Medico Dott. Valerio Pagliuca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.iltuochirurgoplastico.com/",
+  "indirizzo": "Via delle Montagne Rocciose 58",
+  "cap": "00144",
+  "comune": "Roma",
+  "provincia": "tr",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.iltuochirurgoplastico.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Dott. Valerio Pagliuca",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "medicinaesteticaterni.com",
   "nome": "Chirurgia dermatologica",
   "formaSocietaria": "",
@@ -51,6 +104,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Sì!Happy Terni",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiodentisticofelici.it",
+  "nome": "Studi Dentistici Felici",
+  "formaSocietaria": "",
+  "partitaIva": "00586400558",
+  "telefono": "+390744427033",
+  "email": "",
+  "sitoUrl": "https://studiodentisticofelici.it/",
+  "indirizzo": "Viale C. Battisti, 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "tr",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodentisticofelici.it/",
+   "https://studiodentisticofelici.it/chi-siamo/",
+   "https://studiodentisticofelici.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

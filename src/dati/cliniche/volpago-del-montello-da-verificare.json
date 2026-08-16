@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "curamedmacomer.it",
+  "nome": "Home :: Curamed",
+  "formaSocietaria": "",
+  "partitaIva": "01615330915",
+  "telefono": "+390785387564",
+  "email": "info@curamedmacomer.it",
+  "sitoUrl": "https://curamedmacomer.it/",
+  "indirizzo": "via Sardegna 31",
+  "cap": "08015",
+  "comune": "Macomer",
+  "provincia": "volpago-del-montello",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://curamedmacomer.it/",
+   "https://curamedmacomer.it/chi-siamo",
+   "https://curamedmacomer.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "naturaestetica.it",
   "nome": "Estetica Natura",
   "formaSocietaria": "",
@@ -50,6 +76,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Villa Salaria Hospital",
+  "tipoDichiarato": "Organization"
  }
 ]

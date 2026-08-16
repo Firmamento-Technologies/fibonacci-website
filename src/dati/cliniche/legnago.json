@@ -22,6 +22,32 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Domus Salutis Città di Legnago",
+  "tipoDichiarato": "Organization Place MedicalClinic"
+ },
+ {
+  "dominio": "centrodatamed.it",
+  "nome": "Poliambulatorio Centro Datamed",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390456315722",
+  "email": "segreteria@centrodatamed.it",
+  "sitoUrl": "https://centrodatamed.it/",
+  "indirizzo": "Via Praissola, 18",
+  "cap": "37047",
+  "comune": "San",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrodatamed.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -75,7 +101,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio San Francesco",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "studiogardinale.it",
@@ -101,6 +129,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardinale Katia, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardinale Katia, cognome dentro il dominio",
+  "nomeStrutturato": "Studiogardinale.it",
+  "tipoDichiarato": "Organization"
  }
 ]

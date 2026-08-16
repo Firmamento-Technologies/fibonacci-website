@@ -139,7 +139,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Physiomedica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioabg.it",
@@ -164,7 +166,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.288614,
+  "lon": 11.879723,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Specialistico ABG",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-12:00",
+   "Monday,Tuesday,Wednesday,Thursday,Friday 14:00-19:00"
+  ]
  },
  {
   "dominio": "villa-abbondanzi.com",

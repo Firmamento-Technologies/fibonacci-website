@@ -32,8 +32,8 @@
   "email": "",
   "sitoUrl": "https://www.antiagingmilano.it/",
   "indirizzo": "Corso Venezia 21",
-  "cap": "",
-  "comune": "",
+  "cap": "20122",
+  "comune": "Milano",
   "provincia": "mi",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -45,7 +45,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "AntiaginMilano",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "beauty-laser.it",
@@ -74,7 +76,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Beauty Laser",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "benesseredoc.com",
@@ -106,12 +110,12 @@
   "nome": "Blefaroplastica Milano: Maddalena Forti, chirurgo oculoplastico a Mila",
   "formaSocietaria": "",
   "partitaIva": "03399750961",
-  "telefono": "",
-  "email": "",
+  "telefono": "+393319530553",
+  "email": "oculistamaddalenaforti@gmail.com",
   "sitoUrl": "https://www.blefaroplasticamilano.it/",
   "indirizzo": "Viale Forlanini, 21",
   "cap": "",
-  "comune": "",
+  "comune": "Milano",
   "provincia": "mi",
   "prestazioni": [
    "Laser"
@@ -125,7 +129,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Maddalena Forti",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "bloomskin.it",
@@ -155,7 +161,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "centro estetico bloomskin",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "body-laser.it",
@@ -182,7 +190,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "BodyLaser",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicoalthea.it",
@@ -208,7 +218,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Althea Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaesteticagoisis.com",
@@ -274,7 +286,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Criolipolisi Milano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "damasalus-chirurgia.it",
@@ -359,7 +373,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Doctor Pablo Torres",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottordileo.com",
@@ -394,7 +410,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Chirurgia Plastica Milano: Chirurgo Plastico Estetico Dott. Di Leo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressaelisapuma.it",
@@ -442,7 +460,7 @@
   "sitoUrl": "https://elanve.it/",
   "indirizzo": "Via Livio Colzani 137",
   "cap": "",
-  "comune": "",
+  "comune": "Milano",
   "provincia": "mi",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -456,7 +474,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Elanvè",
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "elvirapistolesi.it",
@@ -491,7 +511,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Elvira Danila Pistolesi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "enka.it",
@@ -558,7 +580,7 @@
   "formaSocietaria": "",
   "partitaIva": "03650010832",
   "telefono": "+393518117814",
-  "email": "",
+  "email": "esteticacruciani@gmail.com",
   "sitoUrl": "https://esteticacruciani.it/",
   "indirizzo": "Via Alberico Albricci, 9",
   "cap": "20122",
@@ -577,7 +599,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Estetica Cruciani",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-20:0"
+  ]
  },
  {
   "dominio": "esteticatemanitogni.it",
@@ -615,7 +642,7 @@
   "nome": "EstetiCatherine",
   "formaSocietaria": "",
   "partitaIva": "13744320964",
-  "telefono": "",
+  "telefono": "+39 3936349928",
   "email": "",
   "sitoUrl": "https://www.esteticatherine.com/",
   "indirizzo": "Via Illirico, 2",
@@ -636,7 +663,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Esteticatherine | Centro estetico",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "fillerlabbra-milano.com",
@@ -665,7 +694,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Filler Labbra Milano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "foursurgery.it",
@@ -732,7 +763,7 @@
   "telefono": "+390255011086",
   "email": "",
   "sitoUrl": "https://www.frisellihairstudio.it:443/",
-  "indirizzo": "",
+  "indirizzo": "Corso di Porta Romana 123",
   "cap": "20122",
   "comune": "Milano",
   "provincia": "mi",
@@ -749,7 +780,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Friselli Hair Studio",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "it.trustpilot.com",
@@ -808,7 +841,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "L\\'Arte Estetica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "DaySpa Organization"
  },
  {
   "dominio": "manfredonianews.it",
@@ -859,7 +897,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "admin",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "matildemarra.it",
@@ -922,7 +962,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Matteo Garavaglia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalbeautymilano.com",
@@ -956,7 +998,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medical Beauty Milano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicina-estetica-milano.it",
@@ -989,7 +1033,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "MEDICINA ESTETICA MILANO",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaechirurgiaestetica.org",
@@ -1098,7 +1144,7 @@
   "sitoUrl": "https://www.medicinaesteticamilano.com/",
   "indirizzo": "Via Antonello Da Messina, 3",
   "cap": "",
-  "comune": "",
+  "comune": "Aci Castello",
   "provincia": "mi",
   "prestazioni": [
    "Filler",
@@ -1116,7 +1162,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Milano - Dott. Giuseppe Manzo",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "medicinaesteticaviso.milano.it",
@@ -1147,7 +1195,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Viso Milano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicoesteticomilano.it",
@@ -1236,7 +1286,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Migliore Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "milanobioestetica.it",
@@ -1265,7 +1317,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Milano Klinik",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "milanomedicinaestetica.it",
@@ -1356,19 +1410,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Oculoplastica Giordano Resti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "oculoplasticamilano.it",
   "nome": "Oculoplastica Milano",
   "formaSocietaria": "",
   "partitaIva": "03399750961",
-  "telefono": "",
-  "email": "",
+  "telefono": "+393319530553",
+  "email": "oculistamaddalenaforti@gmail.com",
   "sitoUrl": "https://www.oculoplasticamilano.it/",
   "indirizzo": "Viale Forlanini, 21",
   "cap": "",
-  "comune": "",
+  "comune": "Milano",
   "provincia": "mi",
   "prestazioni": [
    "Trattamento cicatrici"
@@ -1382,7 +1438,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Maddalena Forti",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "plmedicinaestetica.it",
@@ -1410,7 +1468,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "PL Studio Medico Estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "prenota.alfadocs.com",
@@ -1441,12 +1501,12 @@
   "nome": "Reforma",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "3485349673",
   "email": "",
   "sitoUrl": "https://www.reformamilano.it/",
   "indirizzo": "Via G. Washington 95",
   "cap": "20122",
-  "comune": "",
+  "comune": "Milano",
   "provincia": "mi",
   "prestazioni": [
    "Laser",
@@ -1461,7 +1521,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Reforma | Milano",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "rinofillermilano.com",
@@ -1490,7 +1552,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "RINOFILLER MILANO",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ruggieromedicinaestetica.it",
@@ -1523,7 +1587,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Ilaria Ruggiero medicina estetica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-17:00"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
  },
  {
   "dominio": "sancamillomilano.com",
@@ -1574,7 +1643,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Casentini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiociobanu.com",
@@ -1605,7 +1676,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Ciobanu",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioesteticarigenerativa.it",
@@ -1672,14 +1745,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico EOS - Milano Porta Vercellina",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiovoltamilano.com",
   "nome": "Poliambulatorio Medico Milano Centro",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "3515225993",
   "email": "",
   "sitoUrl": "https://www.studiovoltamilano.com/",
   "indirizzo": "Via Alessandro Volta, 11",
@@ -1698,7 +1773,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Studio Volta",
+  "tipoDichiarato": "LocalBusiness",
+  "lat": 45.479751,
+  "lon": 9.183341,
+  "orari": [
+   "Mo-Fr 09:00-20:00, Sa 09:00-14:00"
+  ]
  },
  {
   "dominio": "tricologiamedica.it",

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "centroonze.it",
+  "nome": "Centro Onze",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390229011093",
+  "email": "info@centroonze.it",
+  "sitoUrl": "https://www.centroonze.it/",
+  "indirizzo": "Via Parini, 16",
+  "cap": "20121",
+  "comune": "Milano",
+  "provincia": "sala-consilina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centroonze.it/",
+   "https://www.centroonze.it/chi-siamo/",
+   "https://www.centroonze.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Onze",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "psalute.it",
   "nome": "Punto Salute",
   "formaSocietaria": "",
@@ -23,7 +51,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Punto Salute",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiocarnevaletalocco.it",
+  "nome": "Studio Carnevale Talocco",
+  "formaSocietaria": "",
+  "partitaIva": "14423001008",
+  "telefono": "",
+  "email": "segreteria@studiocarnevaletalocco.it",
+  "sitoUrl": "https://www.studiocarnevaletalocco.it/",
+  "indirizzo": "Via Ridolfino Venuti, 38",
+  "cap": "00162",
+  "comune": "ROMA",
+  "provincia": "sala-consilina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianfranco Carnevale, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiocarnevaletalocco.it/",
+   "https://www.studiocarnevaletalocco.it/chi-siamo/",
+   "https://www.studiocarnevaletalocco.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianfranco Carnevale, cognome dentro il dominio"
  },
  {
   "dominio": "the-whitestudio.it",

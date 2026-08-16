@@ -29,7 +29,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Alessia Bartoli BMI",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ambulatorioflaminia.com",
@@ -109,6 +111,22 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "I Salo Beauty",
+  "tipoDichiarato": "Organization",
+  "lat": 42.743853,
+  "lon": 12.739607,
+  "orari": [
+   "Tuesday 09:00:00-13:00:00",
+   "Tuesday 15:30:00-19:30:00",
+   "Wednesday 09:00:00-12:00:00",
+   "Wednesday 12:00:00-19:30:00",
+   "Thursday 09:00:00-12:00:00",
+   "Thursday 12:00:00-19:30:00",
+   "Friday 09:00:00-12:00:00",
+   "Friday 12:00:00-19:30:00",
+   "Saturday 08:30:00-12:00:00",
+   "Saturday 12:00:00-18:30:00"
+  ]
  }
 ]

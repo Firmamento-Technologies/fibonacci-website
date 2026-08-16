@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "dominio": "medicinaesteticasicilia.eu",
+  "nome": "Medicina Estetica Sicilia Dr. Di Benedetto Giovanni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393895834744",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticasicilia.eu/",
+  "indirizzo": "Via Livatino 7",
+  "cap": "97100",
+  "comune": "Ragusa",
+  "provincia": "gela",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticasicilia.eu/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "ariannatinti.it",
+  "nome": "Dott.ssa Arianna Tinti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393495322942",
+  "email": "",
+  "sitoUrl": "https://ariannatinti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Arianna Tinti, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://ariannatinti.it/",
+   "https://ariannatinti.it/index.php/contatti",
+   "https://ariannatinti.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arianna Tinti, e il dominio lo ripete"
+ },
+ {
   "dominio": "boninomedicinaestetica.it",
   "nome": "Home ⋆ Bonino Medicina Estetica",
   "formaSocietaria": "",
@@ -29,7 +58,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BME - Bonino Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cocooncentroestetico.it",
@@ -60,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cocoon Center Centro estetico Forlì",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressafrancescalolli.com",
@@ -89,6 +122,32 @@
    "https://www.dottoressafrancescalolli.com/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "forlifarma.it",
+  "nome": "Forlifarma Farmacie Comunali Forlì",
+  "formaSocietaria": "SPA",
+  "partitaIva": "02326390404",
+  "telefono": "+390543724618",
+  "email": "info@forlifarma.it",
+  "sitoUrl": "https://www.forlifarma.it/",
+  "indirizzo": "Piazza Garibaldi 25",
+  "cap": "47032",
+  "comune": "Bertinoro",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.forlifarma.it/",
+   "https://www.forlifarma.it/contatti/",
+   "https://www.forlifarma.it/privacy/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  },
@@ -145,7 +204,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Kimeya Poliambulatorio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "news.ospedaliprivatiforli.it",
@@ -331,6 +392,32 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "studiodentisticocamporesi.it",
+  "nome": "Studio Dentistico Pier Sante Camporesi Forlì",
+  "formaSocietaria": "",
+  "partitaIva": "02662030408",
+  "telefono": "+390543754390",
+  "email": "info@studiodentisticocamporesi.it",
+  "sitoUrl": "https://www.studiodentisticocamporesi.it/",
+  "indirizzo": "Viale Bologna 307",
+  "cap": "47121",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studiodentisticocamporesi.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studioodontoiatricogrilli.it",
   "nome": "Studio Odontoiatrico Grilli a Forlì",
   "formaSocietaria": "",
@@ -355,6 +442,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Odontoiatrico Grilli",
+  "tipoDichiarato": "Organization"
  }
 ]

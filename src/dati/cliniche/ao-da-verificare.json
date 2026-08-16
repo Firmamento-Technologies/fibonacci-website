@@ -68,7 +68,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Rosanna",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "europesays.com",
@@ -92,7 +94,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "EUROPE SAYS",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "maisondecharmeaosta.it",
@@ -117,6 +121,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Maison De Charme - Centro Estetico Aosta",
+  "tipoDichiarato": "Organization"
  }
 ]

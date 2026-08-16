@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "drstefanobrezzo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "esteticachieri.it",
   "nome": "Coccole Centro Estetico a Chieri",
   "formaSocietaria": "",
@@ -25,6 +30,34 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "esteticaelenatorino.com",
+  "nome": "Trattamenti estetici per il benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390119469402",
+  "email": "",
+  "sitoUrl": "https://www.esteticaelenatorino.com/",
+  "indirizzo": "via Vittorio Veneto, 49",
+  "cap": "10020",
+  "comune": "Riva",
+  "provincia": "chieri",
+  "prestazioni": [
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticaelenatorino.com/",
+   "https://www.esteticaelenatorino.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "esteticamentegisella.it",

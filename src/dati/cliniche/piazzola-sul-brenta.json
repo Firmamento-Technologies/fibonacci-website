@@ -24,7 +24,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Masino Scutari, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Masino Scutari, cognome dentro il dominio",
+  "nomeStrutturato": "Dottoressa Alessandra Scutari",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "parcodellacontessa.it",
@@ -77,6 +79,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Pura Medica",
+  "tipoDichiarato": "Organization"
  }
 ]

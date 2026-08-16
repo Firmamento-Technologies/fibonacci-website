@@ -28,6 +28,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "antonio-ianniello.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "essenzabeautysalon.it",
   "nome": "centro estetico Cava de’ Tirreni",
   "formaSocietaria": "",
@@ -51,6 +56,65 @@
    "https://essenzabeautysalon.it/",
    "https://essenzabeautysalon.it/chi-siamo/",
    "https://essenzabeautysalon.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "VF4",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "guna.com",
+  "nome": "Guna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://guna.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://guna.com/",
+   "https://guna.com/about-us/",
+   "https://guna.com/about-us/manifesto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "padovanomd.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "unina.it",
+  "nome": "Unina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unina.it/it/",
+  "indirizzo": "Corso Umberto I 40",
+  "cap": "80138",
+  "comune": "Napoli",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unina.it/it/",
+   "https://www.unina.it/it/ateneo/chi-siamo",
+   "https://www.unina.it/it/ateneo/strutture-e-sedi"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

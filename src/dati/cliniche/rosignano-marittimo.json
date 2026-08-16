@@ -1,1 +1,63 @@
-[]
+[
+ {
+  "dominio": "gabrielerosano.com",
+  "nome": "Dentista GABRIELE ROSANO: Odontoiatra e Chirurgo Orale a Milano, Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39039955829",
+  "email": "info@studiodentisticorosano.it",
+  "sitoUrl": "https://gabrielerosano.com/",
+  "indirizzo": "Via G. Garibaldi, 66",
+  "cap": "23891",
+  "comune": "Barzanò",
+  "provincia": "rosignano-marittimo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gabriele Rosano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://gabrielerosano.com/",
+   "https://gabrielerosano.com/contatti/",
+   "https://gabrielerosano.com/informativa-della-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gabriele Rosano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "martamassignani.it",
+  "nome": "Marta Massignani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@martamassignani.it",
+  "sitoUrl": "https://www.martamassignani.it/",
+  "indirizzo": "Via Rinaldo Veronesi 45",
+  "cap": "",
+  "comune": "",
+  "provincia": "rosignano-marittimo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Fili di trazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marta Massignani, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.martamassignani.it/",
+   "https://www.martamassignani.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marta Massignani, e il dominio lo ripete"
+ }
+]

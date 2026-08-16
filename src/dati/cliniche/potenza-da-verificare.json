@@ -1,1 +1,31 @@
-[]
+[
+ {
+  "dominio": "labosalutechirurgia.it",
+  "nome": "Labo Salute Chirurgia",
+  "formaSocietaria": "",
+  "partitaIva": "02075190765",
+  "telefono": "",
+  "email": "info@medilux.com",
+  "sitoUrl": "https://labosalutechirurgia.it/",
+  "indirizzo": "Via San Vito, 13",
+  "cap": "",
+  "comune": "",
+  "provincia": "potenza",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://labosalutechirurgia.it/",
+   "https://labosalutechirurgia.it/chi-siamo/",
+   "https://labosalutechirurgia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -24,6 +24,11 @@
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
+  "dominio": "medicamarsala.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "studiosaladino.com",
   "nome": "STUDIO MEDICO SALADINO",
   "formaSocietaria": "",

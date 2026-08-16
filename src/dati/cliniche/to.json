@@ -58,7 +58,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Sciarrillo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Sciarrillo, e il dominio lo ripete",
+  "nomeStrutturato": "Alberto Sciarrillo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "almalaserepilazionetorino.it",
@@ -86,7 +88,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Alma Laser Epilazione",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "antonellagallodoro.it",
@@ -132,8 +136,8 @@
   "email": "info@ateclinics.com",
   "sitoUrl": "https://www.ateclinics.com/",
   "indirizzo": "via Farinelli 11",
-  "cap": "",
-  "comune": "",
+  "cap": "10092",
+  "comune": "Beinasco",
   "provincia": "to",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -147,7 +151,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.022241,
+  "lon": 7.584046,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "A TE Clinics",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-20:0"
+  ]
  },
  {
   "dominio": "aurial.it",
@@ -181,7 +192,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aurial | Glamour Medical Experience",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "barbarastupino.com",
@@ -236,7 +249,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "caduta-capelli-torino.it",
@@ -333,6 +347,36 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "centromedicoairam.it",
+  "nome": "Centro Medico Airam Castel Maggiore, Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "03217851207",
+  "telefono": "+393347761703",
+  "email": "info@centromedicoairam.it",
+  "sitoUrl": "https://www.centromedicoairam.it/",
+  "indirizzo": "Via Lame, 165",
+  "cap": "40013",
+  "comune": "Trebbo",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoairam.it/",
+   "https://www.centromedicoairam.it/chi-siamo/",
+   "https://www.centromedicoairam.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Airam Castel Maggiore",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "centromedicobuonarroti.it",
   "nome": "Poliambulatorio Specialistico Milano",
   "formaSocietaria": "",
@@ -356,7 +400,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Buonarroti",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "centromedicomea.it",
@@ -473,7 +519,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gruppo Cidimu",
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "clinicabaviera.it",
@@ -525,7 +573,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Fornaca",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicasedes.it",
@@ -584,7 +634,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinic Biorigeneral",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "cosmer.eu",
@@ -612,7 +664,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cosmer Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cupsolidale.it",
@@ -638,7 +692,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cup24.it",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "doppiomento.it",
+  "nome": "Liposcultura non invasiva",
+  "formaSocietaria": "",
+  "partitaIva": "10911160017",
+  "telefono": "+393791751729",
+  "email": "info@dottorlungovaschetto.it",
+  "sitoUrl": "https://doppiomento.it/",
+  "indirizzo": "Corso San Maurizio 81",
+  "cap": "10124",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://doppiomento.it/",
+   "https://doppiomento.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Lungo Vaschetto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottenricoriggi.it",
@@ -672,16 +755,45 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dottgiuliano.it",
+  "nome": "Chirurgia Estetica Torino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dottgiuliano.it/",
+  "indirizzo": "C.so Galileo Ferraris, 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimiliano Giuliano, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottgiuliano.it/",
+   "https://www.dottgiuliano.it/chi-siamo/",
+   "https://www.dottgiuliano.it/contatto/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Giuliano, cognome dentro il dominio"
+ },
+ {
   "dominio": "dottlevafrancesco.it",
   "nome": "Prof. Leva Francesco medico chirurgo estetico",
   "formaSocietaria": "",
   "partitaIva": "02229930801",
   "telefono": "+393923934644",
-  "email": "",
+  "email": "d&#114;fr&#97;n&#99;esc&#111;&#108;e&#118;a&#64;&#108;i&#98;&#101;r&#111;.&#105;&#116;",
   "sitoUrl": "https://www.dottlevafrancesco.it/",
   "indirizzo": "Via Provinciale, 13",
-  "cap": "",
-  "comune": "",
+  "cap": "15121",
+  "comune": "Alessandria",
   "provincia": "to",
   "prestazioni": [
    "Filler",
@@ -702,7 +814,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "dott. Leva Francesco Salute e Benessere medico chirurgo estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressalauratriacca.it",
@@ -795,7 +909,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Stefania Guerrini",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "dottorlungovaschetto.it",
@@ -822,7 +938,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottor Luca Lungo Vaschetto | Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drgiovannimonta.it",
@@ -885,7 +1003,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Graziano Dominici",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drkudinovdmitrii.it",
@@ -918,7 +1038,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Dmitrii Kudinov",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "elenagori.com",
@@ -948,7 +1070,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Gori, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Gori, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Elena Gori",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "eleonorabellezza.it",
@@ -980,7 +1104,46 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Eleonora Bellezza, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Eleonora Bellezza, e il dominio lo ripete",
+  "nomeStrutturato": "Dr.ssa Eleonora Bellezza",
+  "orari": [
+   "Mo-Fr 09:00-12:00",
+   "Mo-Fr 14:30-17:30"
+  ],
+  "tipoDichiarato": "Physician"
+ },
+ {
+  "dominio": "eliteaclinic.it",
+  "nome": "Elitea Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "03688710833",
+  "telefono": "",
+  "email": "info@eliteaclinic.it",
+  "sitoUrl": "https://eliteaclinic.it/",
+  "indirizzo": "Via Pergolesi 4",
+  "cap": "98123",
+  "comune": "Messina",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://eliteaclinic.it/",
+   "https://eliteaclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "epilazionesenzadolore.it",
@@ -1007,7 +1170,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Lungo Vaschetto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "eplaserclinic.it",
@@ -1036,7 +1201,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "EPLaser Clinic - Torino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticamc.it",
@@ -1119,7 +1286,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Every Body Center",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
  },
  {
   "dominio": "evorynbeauty.it",
@@ -1224,7 +1396,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacia Santa Marta",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "federicamarencodermatologa.it",
@@ -1251,7 +1425,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Federica Marenco Dermatologa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giancarloliguori.com",
@@ -1283,6 +1459,40 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giancarlo Liguori, e il dominio lo ripete"
  },
  {
+  "dominio": "giuliabianchi.net",
+  "nome": "Dott. Giulia Bianchi Chirurgo Plastico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.giuliabianchi.net/",
+  "indirizzo": "",
+  "cap": "10129",
+  "comune": "TORINO",
+  "provincia": "to",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giulia Bianchi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.giuliabianchi.net/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giulia Bianchi, e il dominio lo ripete"
+ },
+ {
   "dominio": "giuliomaggi.com",
   "nome": "Dott. Giulio Maria Maggi",
   "formaSocietaria": "",
@@ -1307,6 +1517,30 @@
   "ragioneClassificazione": "il nome dichiara una struttura",
   "fonteUrl": [
    "https://giuliomaggi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "joellebeautyclinic.it",
+  "nome": "Clinica Estetica Torino - Joelle Beauty Clinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://joellebeautyclinic.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://joellebeautyclinic.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -1373,8 +1607,8 @@
   "email": "",
   "sitoUrl": "https://www.lauraferrero.it/",
   "indirizzo": "Corso Re Umberto 98",
-  "cap": "",
-  "comune": "",
+  "cap": "10128",
+  "comune": "Torino",
   "provincia": "to",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -1387,7 +1621,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Ferrero, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Ferrero, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Laura Ferrero",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "linfocare.it",
+  "nome": "Linfodrenaggio a Torino",
+  "formaSocietaria": "",
+  "partitaIva": "12831190017",
+  "telefono": "+390110602468",
+  "email": "info@linfocare.it",
+  "sitoUrl": "https://linfocare.it/",
+  "indirizzo": "Corso Galileo Galilei, 4",
+  "cap": "10040",
+  "comune": "Rivalta",
+  "provincia": "to",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://linfocare.it/",
+   "https://linfocare.it/contatti-linfo-care/",
+   "https://linfocare.it/contatti-linfo-care/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "LinfoCare",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "longevitydoctor.it",
@@ -1413,7 +1679,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Iures Carmen",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "lucacravero.it",
@@ -1448,7 +1716,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Luca Cravero",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "mariaelisascarale.it",
@@ -1479,7 +1749,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Maria Elisa Scarale",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "massimocappella.it",
@@ -1505,7 +1777,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Cappella, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimo Cappella, e il dominio lo ripete",
+  "nomeStrutturato": "Studi Dentistici Dr. Massimo Cappella",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mavit.it",
@@ -1540,7 +1814,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MAVIT",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "med-italia.it",
@@ -1566,7 +1842,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MeD",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medcare-italia.it",
@@ -1602,7 +1880,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MedCare Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticaluni.it",
@@ -1637,7 +1917,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.007705,
+  "lon": 7.542488,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Medicina Estetica Luni",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "medivela.com",
@@ -1663,7 +1950,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Medivela",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medynet.it",
@@ -1696,7 +1985,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medynet",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mimicao.it",
@@ -1752,7 +2043,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Team 4.0",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nicolakefalas.it",
@@ -1781,7 +2074,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Kefalas, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nicola Kefalas, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Nicola Kefalas",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "obbialerofabrizio.com",
@@ -1845,6 +2140,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Carlo Graziani",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "otip-piemonte.it",
+  "nome": "Ossigenoterapia Iperbarica Piemontese",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390113978900",
+  "email": "",
+  "sitoUrl": "https://otip-piemonte.it/",
+  "indirizzo": "via Pola 33",
+  "cap": "10135",
+  "comune": "Chiamaci",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://otip-piemonte.it/",
+   "https://otip-piemonte.it/chi-siamo/",
+   "https://otip-piemonte.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -1886,11 +2209,11 @@
   "formaSocietaria": "",
   "partitaIva": "10863950019",
   "telefono": "+393475201799",
-  "email": "",
+  "email": "paolapetricig@gmail.com",
   "sitoUrl": "https://www.paolapetricig.it/",
   "indirizzo": "Corso Matteotti 57",
-  "cap": "",
-  "comune": "",
+  "cap": "10121",
+  "comune": "Torino",
   "provincia": "to",
   "prestazioni": [
    "Filler",
@@ -1911,7 +2234,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Petricig, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paola Petricig, e il dominio lo ripete",
+  "lat": 45.069279,
+  "lon": 7.665864,
+  "nomeStrutturato": "Dott.ssa Paola Petricig - Medicina Estetica Funzionale",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "patriziapiersini.com",
@@ -2002,7 +2329,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Lungo Vaschetto",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "poliambulatorio-aurora.it",
+  "nome": "Poliambulatorio specialistico Aurora, centro medico a Torino",
+  "formaSocietaria": "",
+  "partitaIva": "11731400013",
+  "telefono": "+3901118920480",
+  "email": "info@poliambulatorio-aurora.it",
+  "sitoUrl": "https://www.poliambulatorio-aurora.it/",
+  "indirizzo": "C.so Brescia 89",
+  "cap": "10152",
+  "comune": "Torino",
+  "provincia": "to",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliambulatorio-aurora.it/",
+   "https://www.poliambulatorio-aurora.it/contatti/",
+   "https://www.poliambulatorio-aurora.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aurora Poliambulatorio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatorioduchessa.it",
@@ -2028,7 +2385,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Duchessa",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "poliambulatorioes.it",
@@ -2065,7 +2424,7 @@
   "nome": "Poliambulatorio Le Vele: Specialisti della cura a Torino",
   "formaSocietaria": "SRL",
   "partitaIva": "08609020014",
-  "telefono": "",
+  "telefono": "+390112979110",
   "email": "segreteria@polilevele.it",
   "sitoUrl": "https://polilevele.it/",
   "indirizzo": "Strada San Mauro 97",
@@ -2084,7 +2443,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Le Vele",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Medicina specialistica da Lunedì a Venerdì 8.30-12.30 / 14.3"
+  ]
  },
  {
   "dominio": "polimedicaltorino.it",
@@ -2141,7 +2505,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Polis",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "radiofrequenzatorino.it",
@@ -2219,7 +2585,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carnino Vai, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carnino Vai, cognome dentro il dominio",
+  "nomeStrutturato": "Riccardo Carnino",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "riccardomarsili.com",
@@ -2306,7 +2674,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sanybei",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sensiskinfood.com",
@@ -2366,7 +2736,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Shibumi Medical Center S.r.l",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "silviasantomauro.it",
@@ -2397,7 +2769,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Silvia Santomauro, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Silvia Santomauro, e il dominio lo ripete",
+  "nomeStrutturato": "Silvia Santomauro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinmedic.it",
@@ -2427,7 +2801,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SkinMedic Beauty Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinmedictorinocentro.it",
@@ -2435,7 +2811,7 @@
   "formaSocietaria": "SNC",
   "partitaIva": "12090610010",
   "telefono": "+390110361611",
-  "email": "",
+  "email": "skinmedictorinocentro@gmail.com",
   "sitoUrl": "https://skinmedictorinocentro.it/",
   "indirizzo": "Via Pietro Micca 9",
   "cap": "10121",
@@ -2458,7 +2834,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "SkinMedic Torino Centro",
+  "orari": [
+   "Tuesday,Wednesday,Thursday,Friday 10:00-19:00",
+   "Saturday 10:00-17:00"
+  ]
  },
  {
   "dominio": "stefanobruschi.it",
@@ -2491,7 +2873,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Bruschi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Bruschi, e il dominio lo ripete",
+  "nomeStrutturato": "Prof. Stefano Bruschi | Chirurgia Plastica",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "straussmedicinaestetica.it",
@@ -2552,7 +2936,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Odontoiatrico Aventino",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Dentist Organization"
  },
  {
   "dominio": "studiomedicodivirgilio.it",
@@ -2677,7 +3066,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aurial | Glamour Medical Experience",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "tricologotorino.com",
@@ -2701,7 +3092,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Lungo Vaschetto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ve6.it",
@@ -2727,7 +3120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vittorio Emanuele - Maxillofacial Surgery and Clinic",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "veronicabalossini.it",
@@ -2739,7 +3134,7 @@
   "sitoUrl": "https://www.veronicabalossini.it/",
   "indirizzo": "",
   "cap": "",
-  "comune": "",
+  "comune": "Torino",
   "provincia": "to",
   "prestazioni": [
    "Filler",
@@ -2758,6 +3153,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Veronica Balossini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Veronica Balossini, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Veronica Balossini",
+  "tipoDichiarato": "Physician"
  }
 ]

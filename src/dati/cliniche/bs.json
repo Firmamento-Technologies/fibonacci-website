@@ -111,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Biosphera Med",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrodimedicina.com",
@@ -139,7 +141,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "centrolaserbrescia.it",
@@ -226,7 +229,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Sanitario e Poliambulatorio San Giovanni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaesteticabrescia.com",
@@ -261,11 +266,43 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "claudiobravin.com",
+  "nome": "Claudio Bravin",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390307777234",
+  "email": "info@claudiobravin.com",
+  "sitoUrl": "https://claudiobravin.com/",
+  "indirizzo": "Via Alessandro Volta, 21",
+  "cap": "25010",
+  "comune": "San",
+  "provincia": "bs",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://claudiobravin.com/",
+   "https://claudiobravin.com/contattaci/",
+   "https://claudiobravin.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "cmd.bs.it",
   "nome": "Poliambulatorio CMD a Roncadelle e Borgosatollo (Brescia)",
   "formaSocietaria": "SRL",
   "partitaIva": "03123660981",
-  "telefono": "",
+  "telefono": "0302585353",
   "email": "info@cmd.bs.it",
   "sitoUrl": "https://www.cmd.bs.it/",
   "indirizzo": "Via Enzo Ferrari 16",
@@ -287,7 +324,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico Diagnostico",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
+  ]
+ },
+ {
+  "dominio": "drgiovanniturra.com",
+  "nome": "Dr. Giovanni Turra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://drgiovanniturra.com/",
+  "indirizzo": "Via Manzoni, 4",
+  "cap": "25030",
+  "comune": "Rudiano",
+  "provincia": "bs",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Turra, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://drgiovanniturra.com/",
+   "https://drgiovanniturra.com/contatti/",
+   "https://drgiovanniturra.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Turra, cognome dentro il dominio"
  },
  {
   "dominio": "elenaguarneri.it",
@@ -316,7 +387,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Guarneri, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Guarneri, e il dominio lo ripete",
+  "nomeStrutturato": "Elena Guarneri",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "filippominutoli.it",
@@ -350,7 +423,7 @@
   "nome": "dr Iacopetta specialista chirurgia plastica, ricostruttiva ed estetica",
   "formaSocietaria": "",
   "partitaIva": "03857890986",
-  "telefono": "",
+  "telefono": "+39 030 9171741",
   "email": "segreteria@igmed.info",
   "sitoUrl": "https://www.iacopetta.it/",
   "indirizzo": "Via F.lli Lechi, 22",
@@ -369,7 +442,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Iacopetta Giovanni, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Iacopetta Giovanni, cognome nel dominio",
+  "nomeStrutturato": "Dr Iacopetta Giovanni",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "laserclinicbrescia.it",
@@ -401,7 +476,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Laser Clinic - Brescia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "laviemedicalstudio.it",
@@ -430,7 +507,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Vie Medical Studio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lucapiombino.com",
@@ -459,7 +538,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Piombino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Piombino, e il dominio lo ripete",
+  "nomeStrutturato": "Dr Luca Piombino - Chirurgo Plastico, Ricostruttivo ed Estetico",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "medicinaesteticabrescia.net",
@@ -516,7 +597,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medipat",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "olosmed.it",
@@ -633,7 +716,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatori San Matteo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriweb.it",
@@ -692,7 +777,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polimed srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ptcbrescia.it",
@@ -721,7 +808,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "PTC",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rizzofrancesco.com",
@@ -840,7 +929,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sant&#039;Antonio",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "sarahcalabrese.com",
@@ -895,7 +986,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio medico chirurgico Filippini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "taraamini.it",

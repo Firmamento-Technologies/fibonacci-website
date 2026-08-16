@@ -28,10 +28,10 @@
   "nome": "C'è Sole e Sole Max",
   "formaSocietaria": "",
   "partitaIva": "01258860087",
-  "telefono": "",
-  "email": "",
+  "telefono": "+39 0183 197 1509",
+  "email": "maximperia@libero.it",
   "sitoUrl": "https://cesoleesolemax.it/",
-  "indirizzo": "",
+  "indirizzo": "Via dell'Ospizio 1",
   "cap": "18100",
   "comune": "Imperia",
   "provincia": "im",
@@ -48,7 +48,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.8877,
+  "lon": 8.0317,
+  "nomeStrutturato": "C'è Sole e Sole Max",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-19:30"
+  ],
+  "tipoDichiarato": "LocalBusiness BeautySalon"
  },
  {
   "dominio": "paoloscappaticci.it",

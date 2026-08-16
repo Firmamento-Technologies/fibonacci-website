@@ -119,5 +119,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stella Malavenda, e il dominio lo ripete"
+ },
+ {
+  "dominio": "studiomedicosammarra.it",
+  "nome": "Studio Medico Sammarra",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicosammarra.it",
+  "sitoUrl": "https://www.studiomedicosammarra.it/",
+  "indirizzo": "Via Giorgio De Chirico 89",
+  "cap": "87036",
+  "comune": "Rende",
+  "provincia": "rende",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Cosmo Sammarra, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiomedicosammarra.it/",
+   "https://www.studiomedicosammarra.it/contatti/",
+   "https://www.studiomedicosammarra.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cosmo Sammarra, cognome dentro il dominio"
  }
 ]

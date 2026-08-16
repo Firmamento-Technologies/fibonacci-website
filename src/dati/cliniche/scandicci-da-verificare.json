@@ -1,13 +1,41 @@
 [
  {
+  "dominio": "criscandicci.it",
+  "nome": "Croce Rossa Italiana comitato di Scandicci Toscana",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://criscandicci.it/",
+  "indirizzo": "Via A. Vivaldi, 2",
+  "cap": "50018",
+  "comune": "Scandicci",
+  "provincia": "scandicci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://criscandicci.it/",
+   "https://criscandicci.it/chi-siamo/",
+   "https://criscandicci.it/contatti-2026/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Croce Rossa Italiana comitato Scandicci",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "ladolcevitascandicci.it",
   "nome": "Centro Benessere e Dimagrimento La Dolce Vita Scandicci Firenze",
   "formaSocietaria": "",
   "partitaIva": "05760250489",
-  "telefono": "",
+  "telefono": "+39 055 255425",
   "email": "info@ladolcevitascandicci.it",
   "sitoUrl": "https://www.ladolcevitascandicci.it/it/",
-  "indirizzo": "",
+  "indirizzo": "Via dei Turri, 39 - 41 - 43",
   "cap": "50018",
   "comune": "Scandicci",
   "provincia": "scandicci",
@@ -24,6 +52,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Benessere La Dolce Vita",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "ordine-medici-firenze.it",
+  "nome": "Ordine dei Medici Chirurghi e Odontoiatri di Firenze",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ordine-medici-firenze.it/",
+  "indirizzo": "Via Giulio Cesare Vanini 15",
+  "cap": "50129",
+  "comune": "Firenze",
+  "provincia": "scandicci",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordine-medici-firenze.it/",
+   "https://www.ordine-medici-firenze.it/ordine/uffici/sede-e-contatti",
+   "https://www.ordine-medici-firenze.it/formazione/documenti/informativa-privacy-riprese-e-immagini-durante-eventi"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

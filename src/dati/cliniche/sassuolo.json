@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "AUSL Modena",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "beautyclub.mo.it",
@@ -53,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty Club",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrokos.it",
@@ -80,6 +84,38 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "drcolombelli.it",
+  "nome": "Dr. Colombelli odontoiatria e medicina: Il tuo dentista a Pozzuolo Mar",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39027531175",
+  "email": "segreteria@cmppozzuolo.com",
+  "sitoUrl": "https://drcolombelli.it/",
+  "indirizzo": "Via Umbria 60",
+  "cap": "47120",
+  "comune": "Pozzuolo Martesana",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://drcolombelli.it/",
+   "https://drcolombelli.it/contatti/",
+   "https://drcolombelli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dr. Colombelli - Odontoiatria e Medicina",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-13:00 / 14:00",
+   "Saturday 14:00-20:00"
+  ]
  },
  {
   "dominio": "drssainespiumi.com",
@@ -156,6 +192,63 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ospedale di Sassuolo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "pincellitruzzi.it",
+  "nome": "Studio dermatologico Prof. Carlo Pincelli e Dr.ssa Mara Truzzi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.pincellitruzzi.it/",
+  "indirizzo": "via Menotti. Negli anni ‘60",
+  "cap": "41049",
+  "comune": "Sassuolo",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carlo Pincelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.pincellitruzzi.it/",
+   "https://www.pincellitruzzi.it/chi-siamo/",
+   "https://www.pincellitruzzi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carlo Pincelli, cognome dentro il dominio"
+ },
+ {
+  "dominio": "simecongress.com",
+  "nome": "Sime Congress",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01076331006",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://simecongress.com/",
+  "indirizzo": "Viale Giuseppe Mazzini, 9",
+  "cap": "00195",
+  "comune": "Rome",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://simecongress.com/",
+   "https://simecongress.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sime Congress",
+  "tipoDichiarato": "Organization"
  }
 ]

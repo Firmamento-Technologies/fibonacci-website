@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Federico Dulio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centro-mec.it",
@@ -52,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro MeC Alghero - Centro Medico Polispecialistico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "megaestetic.it",

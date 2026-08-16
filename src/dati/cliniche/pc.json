@@ -31,6 +31,32 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Cardis, e il dominio lo ripete"
  },
  {
+  "dominio": "astro-salute.it",
+  "nome": "Astro Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@astro-salute.it",
+  "sitoUrl": "https://www.astro-salute.it/",
+  "indirizzo": "Strada Statale Cisa 7",
+  "cap": "46047",
+  "comune": "Porto",
+  "provincia": "pc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.astro-salute.it/",
+   "https://www.astro-salute.it/chi-siamo/",
+   "https://www.astro-salute.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "benessereesteticaavanzata.it",
   "nome": "BenEssere",
   "formaSocietaria": "",
@@ -82,7 +108,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Casa di Cura Piacenza",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 06:"
+  ]
  },
  {
   "dominio": "chirurgiaesteticagasparini.it",
@@ -113,6 +144,46 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "epilpoint.it",
+  "nome": "Centro Epilazione laser per pelle liscia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "0550225125",
+  "email": "sestofiorentino@epilpoint.it",
+  "sitoUrl": "https://epilpoint.it/",
+  "indirizzo": "Corso Amedeo Dichiaro di avere più di 16",
+  "cap": "80143",
+  "comune": "Napoli",
+  "provincia": "pc",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://epilpoint.it/",
+   "https://epilpoint.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "EPIL POINT Italia",
+  "tipoDichiarato": "Organization",
+  "lat": 43.83413,
+  "lon": 11.19687,
+  "orari": [
+   "Monday 10:00-19:00",
+   "Tuesday 10:00-19:00",
+   "Wednesday 10:00-19:00",
+   "Thursday 10:00-19:00",
+   "Friday 10:00-19:00",
+   "Saturday 10:00-19:00"
+  ]
  },
  {
   "dominio": "guicciardini.pc.it",
@@ -192,7 +263,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medi Rocca",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medoracentromedico.it",
@@ -251,7 +324,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliluretta Poliambulatorio Piacenza (Gragnano Trebbiense)",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiobaruffaldi.it",

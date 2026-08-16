@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "alipos.it",
+  "nome": "Alipos.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390832344889",
+  "email": "info@alipos.it",
+  "sitoUrl": "https://www.alipos.it/",
+  "indirizzo": "via Lamarmora n 2",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "carbonia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.alipos.it/",
+   "https://www.alipos.it/contattaci",
+   "https://www.alipos.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
   "dominio": "pietroaste.it",
   "nome": "Dr. Pietro Aste",
   "formaSocietaria": "",

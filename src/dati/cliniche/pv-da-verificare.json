@@ -26,7 +26,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr. ssa Anna Maria Veronesi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "chironsalute-pavia.it",
+  "nome": "Chiron salute Pavia",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11289990019",
+  "telefono": "+3903821571115",
+  "email": "",
+  "sitoUrl": "https://chironsalute-pavia.it/",
+  "indirizzo": "Via San Michele del Carso n.22",
+  "cap": "27028",
+  "comune": "San",
+  "provincia": "pv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://chironsalute-pavia.it/",
+   "https://chironsalute-pavia.it/chi-siamo/",
+   "https://chironsalute-pavia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Chiron salute Pavia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estetica2000pavia.it",
@@ -54,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica 2000",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticasicura.it",
@@ -200,7 +232,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Nuova Estetica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
  },
  {
   "dominio": "paviamedicinaestetica.it",
@@ -236,6 +273,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "sanmatteo.org",
+  "nome": "IRCCS Policlinico San Matteo",
+  "formaSocietaria": "",
+  "partitaIva": "00580590180",
+  "telefono": "+3902999599",
+  "email": "info.direzionescientifica@smatteo.pv.it",
+  "sitoUrl": "https://sanmatteo.org/",
+  "indirizzo": "Viale Camillo Golgi 19",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sanmatteo.org/",
+   "https://sanmatteo.org/chi-siamo",
+   "https://sanmatteo.org/contatti-e-numeri-utili"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiomoscamarisa.com",
   "nome": "Dermatologo Pavia e Lodi",
   "formaSocietaria": "",
@@ -245,7 +308,7 @@
   "sitoUrl": "https://studiomoscamarisa.com/",
   "indirizzo": "Via Franchi 15",
   "cap": "27100",
-  "comune": "",
+  "comune": "Pavia",
   "provincia": "pv",
   "prestazioni": [
    "Filler",
@@ -266,6 +329,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dermatologo Alergologo Medicina Estetica Pavia - MOSCA DR.SSA MARISA",
+  "tipoDichiarato": "Organization"
  }
 ]

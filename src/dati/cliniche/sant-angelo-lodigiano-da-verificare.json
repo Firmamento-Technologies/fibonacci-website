@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+3903711903358",
-  "email": "",
+  "email": "medical.lab.sa@gmail.com",
   "sitoUrl": "https://www.medicalabsantangelo.it/",
   "indirizzo": "Piazzale Caduti di Nassiriya, 12",
   "cap": "26866",
@@ -24,7 +24,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.23228,
+  "lon": 9.39162,
+  "nomeStrutturato": "MEDICAL LAB CENTRO FISIOTERAPICO",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-12:30",
+   "Friday, Monday, Tuesday, Wednesday, Thursday 14:00-19:00",
+   "Saturday 08:00-12:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "notedibellezza.com",
@@ -50,6 +59,36 @@
   "fonteUrl": [
    "https://notedibellezza.com/",
    "https://notedibellezza.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Note di Bellezza",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
+ },
+ {
+  "dominio": "santangelotv.it",
+  "nome": "Sant'Angelo TV",
+  "formaSocietaria": "",
+  "partitaIva": "06437810960",
+  "telefono": "",
+  "email": "info@santangelotv.it",
+  "sitoUrl": "https://www.santangelotv.it/",
+  "indirizzo": "Via San Martino e Solferino, 139",
+  "cap": "26866",
+  "comune": "Sant'Angelo Lodigiano",
+  "provincia": "sant-angelo-lodigiano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.santangelotv.it/",
+   "https://www.santangelotv.it/contatti"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

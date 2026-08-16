@@ -87,7 +87,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polimedsalus",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiopronto24.it",

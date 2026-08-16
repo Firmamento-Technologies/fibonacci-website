@@ -22,7 +22,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico De Vecchi Mapelli",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "drgiuseppecolombo.com",
+  "nome": "Giuseppe Colombo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@drgiuseppecolombo.com",
+  "sitoUrl": "https://www.drgiuseppecolombo.com/",
+  "indirizzo": "Via Sant'Anna, 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "paullo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Colombo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drgiuseppecolombo.com/",
+   "https://www.drgiuseppecolombo.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Colombo, cognome dentro il dominio",
+  "nomeStrutturato": "Giuseppe Colombo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticobaedent.it",
@@ -50,6 +83,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Baedent",
+  "tipoDichiarato": "Person Organization"
  }
 ]

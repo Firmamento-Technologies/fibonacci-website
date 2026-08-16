@@ -22,7 +22,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dolomiten Medical Clinic",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottoralessandropasquali.com",
+  "nome": "Alessandro Pasquali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390547078137",
+  "email": "info@dottoralessandropasquali.com",
+  "sitoUrl": "https://dottoralessandropasquali.com/",
+  "indirizzo": "",
+  "cap": "01568",
+  "comune": "Compila",
+  "provincia": "bressanone",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Pasquali, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottoralessandropasquali.com/",
+   "https://dottoralessandropasquali.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Pasquali, cognome dentro il dominio",
+  "nomeStrutturato": "Alessandro Pasquali",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "gardetto.it",
@@ -51,7 +83,33 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardetto Prof, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gardetto Prof, cognome nel dominio",
+  "nomeStrutturato": "Prof. Dott. Gardetto",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "hautarzt-dr-sigmund.com",
+  "nome": "Hautarzt und Hausarzt in Brixen • Dr. Sigmund Ferdinand",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390472832511",
+  "email": "info@dr-sigmund.com",
+  "sitoUrl": "https://hautarzt-dr-sigmund.com/de/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bressanone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Sigmund Ferdinand, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://hautarzt-dr-sigmund.com/de/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sigmund Ferdinand, cognome dentro il dominio"
  },
  {
   "dominio": "lorenzlarcher.com",
@@ -61,7 +119,7 @@
   "telefono": "+393923334444",
   "email": "info@lorenzlarcher.com",
   "sitoUrl": "https://lorenzlarcher.com/de/",
-  "indirizzo": "",
+  "indirizzo": "Mühlgasse 1",
   "cap": "39100",
   "comune": "Bozen",
   "provincia": "bressanone",
@@ -79,6 +137,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenz Larcher, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenz Larcher, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Lorenz Larcher",
+  "tipoDichiarato": "Physician"
  }
 ]

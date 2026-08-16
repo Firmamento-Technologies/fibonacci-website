@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "giovannisalzano.it",
+  "nome": "Giovanni Salzano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://giovannisalzano.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "salzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://giovannisalzano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "stream24.ilsole24ore.com",
   "nome": "Video e approfondimenti su cronaca, politica, economia, finanza, merca",
   "formaSocietaria": "",
@@ -48,6 +72,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Clinica Odontoiatrica Salzano Tirone",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -84,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Dottoressa Cinzia Poli",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "esteticafiorediloto.it",
@@ -123,8 +125,8 @@
   "email": "info@politerapico.it",
   "sitoUrl": "https://politerapico.it/",
   "indirizzo": "via Borgazzi 87",
-  "cap": "",
-  "comune": "",
+  "cap": "20900",
+  "comune": "Monza",
   "provincia": "cologno-monzese",
   "prestazioni": [
    "Filler",
@@ -145,7 +147,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.566342,
+  "lon": 9.262695,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Politerapico Polidiagnostico Monza",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 07:30-20:00",
+   "Saturday 07:30-12:30"
+  ]
  },
  {
   "dominio": "studiodentisticozunica.it",
@@ -170,6 +180,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "STUDIO DENTISTICO ZUNICA",
+  "tipoDichiarato": "Organization"
  }
 ]

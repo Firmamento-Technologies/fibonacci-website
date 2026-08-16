@@ -1,5 +1,146 @@
 [
  {
+  "dominio": "abcsalute.it",
+  "nome": "Salute: Consigli, Malattie e Medici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07731860966",
+  "telefono": "",
+  "email": "info@axelero.it",
+  "sitoUrl": "https://www.abcsalute.it/",
+  "indirizzo": "via Cartesio, 2",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.abcsalute.it/",
+   "https://www.abcsalute.it/contatti.html",
+   "https://www.abcsalute.it/policy-privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "adrianastanestetica.com",
+  "nome": "Centro Estetico a Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393341091778",
+  "email": "info@adrianastanestetica.com",
+  "sitoUrl": "https://adrianastanestetica.com/",
+  "indirizzo": "Via Paolo Fabbri 48",
+  "cap": "40138",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://adrianastanestetica.com/",
+   "https://adrianastanestetica.com/chi-siamo/",
+   "https://adrianastanestetica.com/contatti-centro-estetico/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ambulatoriopiraccini.it",
+  "nome": "Ambulatorio Piraccini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393287564118",
+  "email": "",
+  "sitoUrl": "https://www.ambulatoriopiraccini.it/",
+  "indirizzo": "Viale Alfredo Oriani 6",
+  "cap": "40137",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ambulatoriopiraccini.it/",
+   "https://www.ambulatoriopiraccini.it/contatti/",
+   "https://www.ambulatoriopiraccini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Piraccini Dermatologia Estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "amorecarmela.com",
+  "nome": "Gravidanza",
+  "formaSocietaria": "",
+  "partitaIva": "03243260373",
+  "telefono": "+39051403232",
+  "email": "",
+  "sitoUrl": "https://www.amorecarmela.com/",
+  "indirizzo": "Via Antonio Cavalieri Ducati, 8",
+  "cap": "40132",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carmela Ginecologa, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.amorecarmela.com/",
+   "https://www.amorecarmela.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmela Ginecologa, cognome dentro il dominio"
+ },
+ {
+  "dominio": "antonuccidermatologia.it",
+  "nome": "Antonucci Dermatologia",
+  "formaSocietaria": "",
+  "partitaIva": "02802211207",
+  "telefono": "+39051231226",
+  "email": "segreteria@antonuccidermatologia.it",
+  "sitoUrl": "https://antonuccidermatologia.it/",
+  "indirizzo": "Via Ugo Bassi, 13",
+  "cap": "40121",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://antonuccidermatologia.it/",
+   "https://antonuccidermatologia.it/contatti/",
+   "https://antonuccidermatologia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Antonucci Dermatologia Bologna",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "bcclinic.it",
   "nome": "BC Clinic",
   "formaSocietaria": "",
@@ -30,7 +171,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BC Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "bioqura.it",
@@ -58,7 +201,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Bioqura",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "biosmed.it",
@@ -88,7 +233,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Biosmed",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrimedicidyadea.it",
@@ -114,7 +261,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Santagostino Bologna Dyadea via Larga",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrohercolani.it",
@@ -140,7 +289,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Hercolani",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicoiozzoantonucci.it",
@@ -170,19 +321,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Iozzo Antonucci",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiastefanosalluce.com",
   "nome": "Chirurgo Estetico Bologna",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 051.242588",
   "email": "info@chirurgiastefanosalluce.com",
   "sitoUrl": "https://www.chirurgiastefanosalluce.com/",
   "indirizzo": "Via del Lavoro, 44",
   "cap": "40127",
-  "comune": "",
+  "comune": "Bologna",
   "provincia": "bo",
   "prestazioni": [
    "Filler",
@@ -202,7 +355,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.507086,
+  "lon": 11.357101,
+  "nomeStrutturato": "Dott. Stefano Salluce",
+  "orari": [
+   "Mo-Fr 09:00-18:00",
+   ""
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "cristinabona.it",
@@ -262,6 +423,38 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "federicacuoghi.it",
+  "nome": "Dott.ssa Federica Cuoghi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393290753873",
+  "email": "info@federicacuoghi.it",
+  "sitoUrl": "https://federicacuoghi.it/",
+  "indirizzo": "Via Cartoleria 46",
+  "cap": "",
+  "comune": "",
+  "provincia": "bo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federica Cuoghi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://federicacuoghi.it/",
+   "https://federicacuoghi.it/contatti/",
+   "https://federicacuoghi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federica Cuoghi, e il dominio lo ripete",
+  "nomeStrutturato": "Federica Cuoghi",
+  "tipoDichiarato": "Organization Person"
+ },
+ {
   "dominio": "federicaparmeggiano.it",
   "nome": "Dott.ssa Federica Parmeggiano",
   "formaSocietaria": "",
@@ -294,6 +487,30 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federica Parmeggiano, e il dominio lo ripete"
+ },
+ {
+  "dominio": "federicavespignani.com",
+  "nome": "dott.ssa Maria Federica Vespignani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.federicavespignani.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maria Federica, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.federicavespignani.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Federica, cognome dentro il dominio"
  },
  {
   "dominio": "federicogreco.it",
@@ -410,7 +627,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "GIORGINI CLINIQUE",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giorgiocarta.com",
@@ -438,7 +657,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgio Carta, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgio Carta, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Giorgio Carta",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "gretagardini.it",
@@ -471,6 +692,32 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Greta Gardini, e il dominio lo ripete"
+ },
+ {
+  "dominio": "grupposalutepiu.it",
+  "nome": "Gruppo Salute Più",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04045610377",
+  "telefono": "+390514210046",
+  "email": "",
+  "sitoUrl": "https://www.grupposalutepiu.it/",
+  "indirizzo": "Via Irnerio 12",
+  "cap": "40126",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.grupposalutepiu.it/",
+   "https://www.grupposalutepiu.it/chi-siamo/",
+   "https://www.grupposalutepiu.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "ivanoiozzo.it",
@@ -538,7 +785,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.477038,
+  "lon": 9.153394,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Juneco"
  },
  {
   "dominio": "medicalbologna.it",
@@ -564,7 +815,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambultario Medical Bologna",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticasanprospero.it",
@@ -599,7 +852,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "San Prospero Medicina e Chirurgia Estetica",
+  "tipoDichiarato": "Organization Place HealthAndBeautyBusiness",
+  "lat": 44.495161,
+  "lon": 11.339297
  },
  {
   "dominio": "medicinaesteticavignoli.it",
@@ -658,7 +915,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Meridiana Medical Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "michelacentrone.com",
@@ -691,7 +950,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Centrone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Centrone, e il dominio lo ripete",
+  "nomeStrutturato": "Michela Centrone",
+  "tipoDichiarato": "Person Organization",
+  "lat": 44.458525,
+  "lon": 11.368305,
+  "orari": [
+   "Mo-Fr 09:00-18:30"
+  ]
  },
  {
   "dominio": "micheletrevisani.it",
@@ -756,7 +1022,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Native Medica s.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "niradent.it",
@@ -781,7 +1049,42 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.492392,
+  "lon": 11.356107,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Niradent Centro Odontoiatrico",
+  "orari": [
+   "Monday,Thursday,Friday 09:00-17:00",
+   "Tuesday,Wednesday 09:00-19:00"
+  ]
+ },
+ {
+  "dominio": "nutriaging.it",
+  "nome": "Nutriaging",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04206581201",
+  "telefono": "+390510566937",
+  "email": "info@nutriaging.it",
+  "sitoUrl": "https://nutriaging.it/",
+  "indirizzo": "Via del Triumvirato 89",
+  "cap": "40132",
+  "comune": "Bologna",
+  "provincia": "bo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://nutriaging.it/",
+   "https://nutriaging.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Nutriaging",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "piercarlofrabboni.it",
@@ -810,7 +1113,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Pier Carlo Frabboni",
+  "orari": [
+   "Monday,Wednesday,Friday 08:30-19:00",
+   "Tuesday,Thursday,Saturday 09:00-13:00",
+   "Tuesday,Thursday 14:00-18:00"
+  ]
  },
  {
   "dominio": "poliambulatorioagresti.it",
@@ -840,7 +1150,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Agresti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriodaysurgery.it",
@@ -1005,7 +1317,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Spine Center Project srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiofavilli.net",
@@ -1063,7 +1377,19 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "Dott. Andrea Ingratta",
+  "lat": 44.50277,
+  "lon": 11.366323,
+  "orari": [
+   "monday 09:00-20:00",
+   "tuesday 09:00-20:00",
+   "wednesday 09:00-20:00",
+   "thursday 09:00-20:00",
+   "friday 09:00-20:00",
+   "saturday 09:00-20:00"
+  ]
  },
  {
   "dominio": "ursochirurgiaestetica.it",
@@ -1094,7 +1420,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Urso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "vincenzocolabianchi.it",
@@ -1124,7 +1452,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Colabianchi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vincenzo Colabianchi, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Vincenzo Colabianchi",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "zannimauriziodermatologo.com",

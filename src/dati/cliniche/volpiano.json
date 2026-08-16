@@ -23,7 +23,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Martesana",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "centromedicoregis.it",
@@ -48,7 +53,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.20466,
+  "lon": 7.77963,
+  "nomeStrutturato": "CENTRO MEDICO REGIS",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 14:00-19:30"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "clinica-santanna.it",
@@ -74,6 +86,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Sant'Anna",
+  "tipoDichiarato": "Organization"
  }
 ]

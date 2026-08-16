@@ -10,7 +10,7 @@
   "formaSocietaria": "",
   "partitaIva": "07108860482",
   "telefono": "+390553893302",
-  "email": "",
+  "email": "marcuccibettini2020@gmail.com",
   "sitoUrl": "https://www.doctorbeautyfirenze.it/",
   "indirizzo": "Viale Rosselli Fratelli, 27",
   "cap": "50144",
@@ -28,7 +28,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.778863,
+  "lon": 11.241793,
+  "nomeStrutturato": "Doctor Beauty - Medicina Estetica e Centro Estetico Firenze",
+  "orari": [
+   "Tuesday, Wednesday, Thursday, Friday 10:00-19:00",
+   "Saturday 09:00-17:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dremiliareider.com",
@@ -67,6 +75,11 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "ilcvperfetto.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "luccioli.it",
   "nome": "Chirurgia plastica estetica Toscana chirurgo plastico estetico Firenze",
   "formaSocietaria": "",
@@ -92,6 +105,40 @@
    "https://www.luccioli.it/",
    "https://www.luccioli.it/contatti/",
    "https://www.luccioli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Paolo Alex Dott. Luccioli",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "mariodini-rinoplastica.it",
+  "nome": "Rinoplastica: cos'è e come si fa",
+  "formaSocietaria": "",
+  "partitaIva": "06251840481",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.mariodini-rinoplastica.it/",
+  "indirizzo": "Via Lamarmora, 29",
+  "cap": "50121",
+  "comune": "",
+  "provincia": "fi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mariodini-rinoplastica.it/",
+   "https://www.mariodini-rinoplastica.it/contatti/",
+   "https://www.mariodini-rinoplastica.it/contatti/sede-firenze.html"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -121,6 +168,35 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://medicinaestetica-mb.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Mirela Bodoj - Medicina Estetica",
+  "orari": [
+   "Mo-Fr 09:00-18:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
+ },
+ {
+  "dominio": "modelli-di-curriculum.it",
+  "nome": "modelli-di-curriculum.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.modelli-di-curriculum.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.modelli-di-curriculum.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -166,7 +242,7 @@
   "formaSocietaria": "",
   "partitaIva": "06261980483",
   "telefono": "+39055711111",
-  "email": "",
+  "email": "infoambulatori@pascup.com",
   "sitoUrl": "https://retepas.com/",
   "indirizzo": "Via Raffaello Caverni 20",
   "cap": "50018",
@@ -184,7 +260,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Rete PAS",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rinofillerfirenze.it",

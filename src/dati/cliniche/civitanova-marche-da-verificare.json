@@ -29,6 +29,32 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "ricerchecliniche.it",
+  "nome": "FisiomedLab: Laboratorio e Poliambulatorio Fisiomed a Civitanova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390733812185",
+  "email": "info@ricerchecliniche.it",
+  "sitoUrl": "https://www.ricerchecliniche.it/",
+  "indirizzo": "Corso Umberto I, 221",
+  "cap": "62012",
+  "comune": "Civitanova",
+  "provincia": "civitanova-marche",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ricerchecliniche.it/",
+   "https://www.ricerchecliniche.it/chi-siamo/",
+   "https://www.ricerchecliniche.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "studiomedicoscocco.it",
   "nome": "Medico estetico",
   "formaSocietaria": "",

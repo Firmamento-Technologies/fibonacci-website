@@ -39,8 +39,8 @@
   "email": "info@medicinaesteticasalerno.com",
   "sitoUrl": "https://medicinaesteticasalerno.com/",
   "indirizzo": "Via Arce 37",
-  "cap": "",
-  "comune": "",
+  "cap": "84125",
+  "comune": "salerno",
   "provincia": "sa",
   "prestazioni": [
    "Filler",
@@ -60,7 +60,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dott.ssa Raffaella Galdieri",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-17:0"
+  ]
  },
  {
   "dominio": "medicinaesteticasalerno.it",

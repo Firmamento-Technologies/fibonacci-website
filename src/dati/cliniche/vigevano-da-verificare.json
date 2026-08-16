@@ -1,11 +1,37 @@
 [
  {
+  "dominio": "archivioweb.ordinemediciroma.it",
+  "nome": "archivioweb.ordinemediciroma.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ordinemediciroma.it",
+  "sitoUrl": "https://archivioweb.ordinemediciroma.it/",
+  "indirizzo": "Via A. Bosio n. 19",
+  "cap": "00161",
+  "comune": "Roma",
+  "provincia": "vigevano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://archivioweb.ordinemediciroma.it/",
+   "https://archivioweb.ordinemediciroma.it/contatti-testata.html",
+   "https://archivioweb.ordinemediciroma.it/chi-siamo.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticogerry.it",
   "nome": "Centro Estetico Vigevano",
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+39038140291",
-  "email": "",
+  "email": "esteticagerry@libero.it",
   "sitoUrl": "https://www.centroesteticogerry.it/",
   "indirizzo": "Corso Ugo La Malfa, 78",
   "cap": "27029",
@@ -25,7 +51,17 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.328666,
+  "lon": 8.851673,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Estetica Gerry",
+  "orari": [
+   "Monday chiuso",
+   "Tuesday,Wednesday,Thursday,Friday 09:00-19:30",
+   "Saturday 09:00-18:00",
+   "Sunday Chiuso"
+  ]
  },
  {
   "dominio": "centroesteticomaristella.it",
@@ -82,7 +118,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Salute Vigevano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaestetica.it",
@@ -137,7 +175,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Emmebivigevano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "evicentrodellessere.com",
@@ -191,6 +231,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Simone",
+  "tipoDichiarato": "Person Organization"
  }
 ]

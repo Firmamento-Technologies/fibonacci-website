@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cesare Cappellina, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cesare Cappellina, cognome nel dominio",
+  "nomeStrutturato": "Clinica Cappellina",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cdvs.it",
@@ -54,7 +56,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "C.D.V. - Centro Diagnostico Veneto Srl"
  },
  {
   "dominio": "centrogenesy.it",
@@ -90,7 +94,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Genesy",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicinaestetica.info",
@@ -151,7 +157,7 @@
   "nome": "Centro Medico Spinelli",
   "formaSocietaria": "SRL",
   "partitaIva": "04484560240",
-  "telefono": "",
+  "telefono": "+39 347 73 40 810",
   "email": "info@centromedicospinelli.it",
   "sitoUrl": "https://www.centromedicospinelli.it/",
   "indirizzo": "Via Giuseppe Zampieri, 11",
@@ -179,7 +185,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Spinelli",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "cmigea.it",
@@ -205,7 +213,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico IGEA Vicenza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressalilianaturatello.it",
@@ -231,7 +241,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottoressa Liliana Turatello",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "fisiomedicavicenza.it",
@@ -259,7 +271,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fisiomedica - Vicenza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "gmpoliambulatorio.it",
@@ -284,7 +298,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "GM medical sport center - Vicenza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "hubsalute.it",
@@ -312,7 +328,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "HUB - health unit bio | Poliambulatorio e Analisi a Vicenza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalart.it",
@@ -349,6 +367,33 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "medicinaestetica.biz",
+  "nome": "Medicina Estetica Vicenza",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02834010247",
+  "telefono": "+390445962336",
+  "email": "",
+  "sitoUrl": "https://www.medicinaestetica.biz/",
+  "indirizzo": "Via Del Commercio 2",
+  "cap": "36070",
+  "comune": "Trissino",
+  "provincia": "vi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medicinaestetica.biz/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicinamoderna.tv",
   "nome": "Magazine online dedicato alla salute e al benessere",
   "formaSocietaria": "",
@@ -356,9 +401,9 @@
   "telefono": "",
   "email": "",
   "sitoUrl": "https://medicinamoderna.tv/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Egidio Dall'Oglio, 12",
+  "cap": "31030",
+  "comune": "Cison di Valmarino",
   "provincia": "vi",
   "prestazioni": [
    "Laser"
@@ -374,7 +419,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Moderna",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatorioteatronuovo.com",
@@ -403,7 +450,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Teatro Nuovo",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "uno-med.it",
@@ -429,6 +478,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "UNOMED",
+  "tipoDichiarato": "Organization"
  }
 ]

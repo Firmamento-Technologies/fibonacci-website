@@ -96,7 +96,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Saverio Fania, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Saverio Fania, e il dominio lo ripete",
+  "nomeStrutturato": "Dr Saverio Fania",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "spazioestetica.it",
@@ -124,6 +126,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Spazio Estetica",
+  "tipoDichiarato": "Organization"
  }
 ]

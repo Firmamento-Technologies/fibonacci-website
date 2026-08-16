@@ -23,6 +23,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Maria Grazia Piemontese",
+  "tipoDichiarato": "Person"
+ },
+ {
+  "dominio": "centromedicodomenicoromano.it",
+  "nome": "Dott. Domenico Romano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390810145985",
+  "email": "",
+  "sitoUrl": "https://www.centromedicodomenicoromano.it/",
+  "indirizzo": "via Francesco Caracciolo n. 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "romano-d-ezzelino",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicodomenicoromano.it/",
+   "https://www.centromedicodomenicoromano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -33,7 +63,7 @@
   "telefono": "+393715858569",
   "email": "",
   "sitoUrl": "https://www.ellesmile.it/",
-  "indirizzo": "",
+  "indirizzo": "Viale di Trastevere, 108",
   "cap": "00153",
   "comune": "Roma",
   "provincia": "romano-d-ezzelino",
@@ -48,7 +78,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.88325,
+  "lon": 12.4683,
+  "nomeStrutturato": "Elle Smile - Studio Dentistico Roma Trastevere",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 08:00-20:00"
+  ],
+  "tipoDichiarato": "Dentist"
  },
  {
   "dominio": "micheleromanomaxillo.it",
@@ -76,6 +113,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Romano, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Romano, cognome dentro il dominio",
+  "nomeStrutturato": "Michele Romano",
+  "tipoDichiarato": "Organization"
  }
 ]

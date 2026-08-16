@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "amnol.net",
+  "nome": "Amnol produzione e vendita integratori alimentari, dermocosmetici e di",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390303532013",
+  "email": "info@amnol.net",
+  "sitoUrl": "https://amnol.net/",
+  "indirizzo": "Via Cefalonia 70",
+  "cap": "25124",
+  "comune": "Brescia",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://amnol.net/",
+   "https://amnol.net/chi-siamo",
+   "https://amnol.net/chi-siamo/qualita"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "bcomebenessere.it",
   "nome": "B come Benessere",
   "formaSocietaria": "SRL",
@@ -28,7 +54,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "B come Benessere",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "clinicaruggiero.com",
+  "nome": "Clinica Privata a Cava de' Tirreni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39089468611",
+  "email": "amministrazione@artemisiahsrl.it",
+  "sitoUrl": "https://www.clinicaruggiero.com/",
+  "indirizzo": "Via C. Biagi, 18",
+  "cap": "84013",
+  "comune": "Cava",
+  "provincia": "cava-de-tirreni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicaruggiero.com/",
+   "https://www.clinicaruggiero.com/contatti/",
+   "https://www.clinicaruggiero.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Privata a Cava de\\' Tirreni - Clinica Ruggiero",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  },
  {
   "dominio": "exedradermatology.it",

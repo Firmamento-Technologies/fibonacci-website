@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "citynow.it",
+  "nome": "CityNow · Ultime Notizie, Cronaca e Eventi a Reggio Calabria e provinc",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393389208356",
+  "email": "",
+  "sitoUrl": "https://www.citynow.it/",
+  "indirizzo": "Piazza Sant’Agostino: 99",
+  "cap": "89132",
+  "comune": "Reggio",
+  "provincia": "rc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.citynow.it/",
+   "https://www.citynow.it/contatti/",
+   "https://www.citynow.it/contatti-app/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "CityNow",
+  "tipoDichiarato": "Organization NewsMediaOrganization"
+ },
+ {
   "dominio": "cylex-italia.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -35,6 +63,64 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr Vincenzo Nunziata",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "lucianocatalfamo.it",
+  "nome": "Dottore Luciano Catalfamo -",
+  "formaSocietaria": "",
+  "partitaIva": "02558040800",
+  "telefono": "",
+  "email": "info@lucianocatalfamo.it",
+  "sitoUrl": "https://www.lucianocatalfamo.it/",
+  "indirizzo": "Via del Torrione, 33",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "rc",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lucianocatalfamo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottore Luciano Catalfamo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "omceo.rc.it",
+  "nome": "OMCeORC",
+  "formaSocietaria": "",
+  "partitaIva": "80002150805",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://omceo.rc.it/",
+  "indirizzo": "Via S. Anna II tronco loc. Spirito Santo 89128",
+  "cap": "89128",
+  "comune": "REGGIO",
+  "provincia": "rc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omceo.rc.it/",
+   "https://omceo.rc.it/ordine/privacy_e_dps.php/",
+   "https://omceo.rc.it/ordine/privacy_e_dps.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

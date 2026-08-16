@@ -21,7 +21,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ambulatori di Rimaggio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "biomedicalpharmatics.com",
@@ -52,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Biomedical Pharmatics",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrochirurgicofiorentino.com",
@@ -78,7 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Chirurgico Fiorentino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedico.me",
@@ -110,7 +116,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Seno",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "diagnosiintempo.it",
+  "nome": "Diagnosi in tempo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://diagnosiintempo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://diagnosiintempo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Diagnosi in tempo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticaessea.it",
@@ -194,6 +228,62 @@
    "https://www.poliambulatorio-misericordiasesto.it/",
    "https://www.poliambulatorio-misericordiasesto.it/chi-siamo",
    "https://www.poliambulatorio-misericordiasesto.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "quartararochirurgiafirenze.it",
+  "nome": "Dr. Giovanni Quartararo, Chirurgo Generale a Firenze",
+  "formaSocietaria": "",
+  "partitaIva": "06611190486",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://quartararochirurgiafirenze.it/",
+  "indirizzo": "Via A. La Marmora 29",
+  "cap": "50122",
+  "comune": "Firenze",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanni Quartararo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://quartararochirurgiafirenze.it/",
+   "https://quartararochirurgiafirenze.it/contatti-e-informazioni/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanni Quartararo, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Giovanni Quartararo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "sanrocco.net",
+  "nome": "sanrocco.net",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04204760989",
+  "telefono": "+390309650425",
+  "email": "info@sanrocco.net",
+  "sitoUrl": "https://www.sanrocco.net/",
+  "indirizzo": "Via Monsignor G.V Moreni N. 95",
+  "cap": "25018",
+  "comune": "Montichiari",
+  "provincia": "sesto-fiorentino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.sanrocco.net/",
+   "https://www.sanrocco.net/contatti",
+   "https://www.sanrocco.net/privacy-policy"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

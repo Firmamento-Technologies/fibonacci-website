@@ -30,9 +30,9 @@
   "formaSocietaria": "",
   "partitaIva": "00492360938",
   "telefono": "+390434366460",
-  "email": "",
+  "email": "salvatore.marano52@libero.it",
   "sitoUrl": "https://www.dermatologomarano.com/",
-  "indirizzo": "",
+  "indirizzo": "V. III Armata, 3 33170 PORDENONE (PN)",
   "cap": "33170",
   "comune": "PORDENONE",
   "provincia": "pn",
@@ -52,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DOTT. MARANO SALVATORE MEDICO CHIRURGO",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drgaetanoristagno.com",
@@ -171,14 +173,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Remedical",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nutrizioneprevenzione.it",
   "nome": "Centro Medico Pordenone e Conegliano",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 0434 966 679",
   "email": "info@nutrizioneprevenzione.it",
   "sitoUrl": "https://www.nutrizioneprevenzione.it/",
   "indirizzo": "Via Julia 9",
@@ -196,7 +200,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Nutrizione Prevenzione",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "paginesi.it",

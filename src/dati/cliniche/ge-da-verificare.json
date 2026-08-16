@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "amicabellezza.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "centrocolombo.it",
   "nome": "Centro Colombo",
   "formaSocietaria": "",
@@ -21,6 +26,64 @@
   "fonteUrl": [
    "https://www.centrocolombo.it/",
    "https://www.centrocolombo.it/chi-siamo-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Colombo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "corsi.unige.it",
+  "nome": "Offerta formativa",
+  "formaSocietaria": "",
+  "partitaIva": "00754150100",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://corsi.unige.it/",
+  "indirizzo": "Via Balbi 5",
+  "cap": "16126",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://corsi.unige.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologogenova.it",
+  "nome": "Dott.ssa Marina Romagnoli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "studio@marinaromagnoli.it",
+  "sitoUrl": "https://dermatologogenova.it/",
+  "indirizzo": "Via Ursone da Sestri 11",
+  "cap": "16154",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologogenova.it/",
+   "https://dermatologogenova.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -55,7 +118,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottoressa Simona Bihoi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressaisabellamarro.com",
@@ -112,7 +177,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottoressa Pensa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottsirito.it",
@@ -142,7 +209,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Mario Sirito, Medico Estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaestetica-genova.it",
@@ -152,7 +221,7 @@
   "telefono": "+393334940072",
   "email": "",
   "sitoUrl": "https://www.medicinaestetica-genova.it/",
-  "indirizzo": "",
+  "indirizzo": "Salita Salvatore Viare, 1",
   "cap": "16128",
   "comune": "Genova",
   "provincia": "ge",
@@ -173,6 +242,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.40582,
+  "lon": 8.938531,
+  "tipoDichiarato": "Place"
+ },
+ {
+  "dominio": "medicinaesteticaesalutegenova.com",
+  "nome": "Dr. Roberto Dente",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@medicinaesteticaesalutegenova.com",
+  "sitoUrl": "https://www.medicinaesteticaesalutegenova.com/",
+  "indirizzo": "Via Tommaso Invrea 7",
+  "cap": "16129",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticaesalutegenova.com/",
+   "https://www.medicinaesteticaesalutegenova.com/chi-siamo/",
+   "https://www.medicinaesteticaesalutegenova.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -185,7 +286,7 @@
   "sitoUrl": "https://www.medicinaesteticagenova.com/",
   "indirizzo": "Via Antonello Da Messina, 3",
   "cap": "",
-  "comune": "",
+  "comune": "Aci Castello",
   "provincia": "ge",
   "prestazioni": [
    "Filler",
@@ -203,7 +304,45 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Genova - Dott. Giuseppe Manzo",
+  "tipoDichiarato": "MedicalBusiness"
+ },
+ {
+  "dominio": "mvromanini.com",
+  "nome": "Dott.ssa Maria Victoria Romanini",
+  "formaSocietaria": "",
+  "partitaIva": "02276320997",
+  "telefono": "+390109849579",
+  "email": "",
+  "sitoUrl": "https://www.mvromanini.com/",
+  "indirizzo": "Via Monte Zovetto 27",
+  "cap": "16145",
+  "comune": "Genova",
+  "provincia": "ge",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.mvromanini.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "rubrica.unige.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "santagostinogenova.it",
@@ -229,7 +368,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Santagostino Genova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiogioana.it",
@@ -261,6 +402,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Gioana",
+  "tipoDichiarato": "Person Organization"
  }
 ]

@@ -1,5 +1,59 @@
 [
  {
+  "dominio": "artandbeauty.it",
+  "nome": "Art And Beauty Corsi di formazione online in provincia di Trapani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.artandbeauty.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "tp",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.artandbeauty.it/",
+   "https://www.artandbeauty.it/about/",
+   "https://www.artandbeauty.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "capelliextension.it",
+  "nome": "Capelli EXT",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://capelliextension.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "tp",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://capelliextension.it/",
+   "https://capelliextension.it/contatto/",
+   "https://capelliextension.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Capelli EXT",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "lesteticaditeresa.it",
   "nome": "L’Estetica di Teresa",
   "formaSocietaria": "",
@@ -27,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "L'estetica di Teresa di Maria Teresa Aleo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ninfeacentroestetico.com",
@@ -89,7 +145,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393440218823",
-  "email": "",
+  "email": "studiodentisticoplacenza@gmail.com",
   "sitoUrl": "https://studiodentisticoplacenza.it/",
   "indirizzo": "Via Trieste 32",
   "cap": "91100",
@@ -107,6 +163,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio medico dentistico Placenza",
+  "tipoDichiarato": "Dentist"
  }
 ]

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "centromedicolezagare.com",
+  "nome": "Centro Medico Le Zagare",
+  "formaSocietaria": "",
+  "partitaIva": "04716750874",
+  "telefono": "",
+  "email": "segreteria@centromedicolezagare.com.",
+  "sitoUrl": "https://www.centromedicolezagare.com/",
+  "indirizzo": "Viale Giovanni Caboto, 1",
+  "cap": "95037",
+  "comune": "San Giovanni",
+  "provincia": "opera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centromedicolezagare.com/",
+   "https://www.centromedicolezagare.com/contatti-2/",
+   "https://www.centromedicolezagare.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Le Zagare",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "jolifill.de",
   "nome": "Jolifill.de Hyaluronfiller & Faltenprodukte",
   "formaSocietaria": "",
@@ -24,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Jolifill.de",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "petroneonline.com",
@@ -83,6 +113,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Silvia Beauty Lab",
+  "tipoDichiarato": "Organization"
  }
 ]

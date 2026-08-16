@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "centralinosanitario.cupsolidale.it",
+  "nome": "Centralino Sanitario",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3939803833",
+  "email": "info@cupsolidale.it",
+  "sitoUrl": "https://centralinosanitario.cupsolidale.it/",
+  "indirizzo": "Viale della Giovine Italia 17",
+  "cap": "50122",
+  "comune": "Firenze",
+  "provincia": "bt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centralinosanitario.cupsolidale.it/",
+   "https://centralinosanitario.cupsolidale.it/chi-siamo.html",
+   "https://centralinosanitario.cupsolidale.it/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cup24.it",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "charmidable.it",
   "nome": "Charmidable",
   "formaSocietaria": "SRL",
@@ -22,7 +50,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Charmidable",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "frisariodermoestetica.it",
@@ -47,7 +77,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Frisario DermoEstetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "glstudiorituals.com",
@@ -129,7 +161,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Puglia Shopping",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lonigroclinic.it",
@@ -137,7 +171,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393773648819",
-  "email": "",
+  "email": "pistillofrancesco92@gmail.com",
   "sitoUrl": "https://lonigroclinic.it/",
   "indirizzo": "Via Maffeo Barberini, 232",
   "cap": "76121",
@@ -154,7 +188,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.3143,
+  "lon": 16.2817,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Lonigro Clinic",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 8:00 - 19:00",
+   "Saturday 8:00 - 13:00"
+  ]
  },
  {
   "dominio": "marinadipaola.it",
@@ -218,7 +260,7 @@
   "formaSocietaria": "",
   "partitaIva": "07180180726",
   "telefono": "+393534818352",
-  "email": "",
+  "email": "studiodentisticoallegretti@gmail.com",
   "sitoUrl": "https://studiodentisticoallegretti.it/",
   "indirizzo": "Via Regina Margherita, 268",
   "cap": "76121",
@@ -234,7 +276,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.3205,
+  "lon": 16.2815,
+  "nomeStrutturato": "Studio Dentistico Allegretti",
+  "tipoDichiarato": "Dentist"
  },
  {
   "dominio": "studiosanruggiero.it",
@@ -260,6 +306,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico San Ruggiero",
+  "tipoDichiarato": "Organization"
  }
 ]

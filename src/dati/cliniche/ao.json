@@ -85,7 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "AostaSera.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "irenealbini.it",
@@ -119,6 +121,33 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Irene Albini, e il dominio lo ripete"
  },
  {
+  "dominio": "noratdrmaurizio.com",
+  "nome": "Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393358115867",
+  "email": "",
+  "sitoUrl": "https://www.noratdrmaurizio.com/",
+  "indirizzo": "Via P.Ta Praetoria,9",
+  "cap": "11100",
+  "comune": "Aosta",
+  "provincia": "ao",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maurizio Norat, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.noratdrmaurizio.com/",
+   "https://www.noratdrmaurizio.com/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Norat, cognome dentro il dominio"
+ },
+ {
   "dominio": "stefanoveglio.com",
   "nome": "Stefano Veglio Dermatologo",
   "formaSocietaria": "",
@@ -147,7 +176,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Veglio, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Veglio, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Stefano Veglio Dermatologo | Medicina Estetica",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "studiocanonicocorrado.it",
@@ -173,5 +207,33 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "technosmedica.it",
+  "nome": "Technos Premium",
+  "formaSocietaria": "",
+  "partitaIva": "01009910074",
+  "telefono": "",
+  "email": "info@technosmedica.it",
+  "sitoUrl": "https://www.technosmedica.it/",
+  "indirizzo": "",
+  "cap": "31796",
+  "comune": "",
+  "provincia": "ao",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.technosmedica.it/",
+   "https://www.technosmedica.it/contatti/",
+   "https://www.technosmedica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Technos Premium",
+  "tipoDichiarato": "Organization"
  }
 ]

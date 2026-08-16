@@ -9,7 +9,7 @@
   "sitoUrl": "https://beautiq.it/",
   "indirizzo": "via Sacharov 27",
   "cap": "70010",
-  "comune": "",
+  "comune": "Valenzano",
   "provincia": "valenzano",
   "prestazioni": [
    "Laser",
@@ -26,7 +26,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "a Valenzano e Modugno Centro estetico solarium e parrucchiere | BEAUTIQ",
+  "tipoDichiarato": "Organization",
+  "lat": 41.0334,
+  "lon": 16.873214,
+  "orari": [
+   "Tu-Sa 9:00-13:00",
+   "Tu-Sa 15:30-19:30",
+   ""
+  ]
  },
  {
   "dominio": "esteticavalenzano.it",

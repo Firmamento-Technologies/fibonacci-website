@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "dominio": "moniamaritan.it",
+  "nome": "Monia Maritan",
+  "formaSocietaria": "",
+  "partitaIva": "04558850261",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.moniamaritan.it/",
+  "indirizzo": "Piazza Costituzione, 14",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-bonifacio",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.moniamaritan.it/",
+   "https://www.moniamaritan.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Monia Maritan",
+  "tipoDichiarato": "Person Organization"
+ }
+]

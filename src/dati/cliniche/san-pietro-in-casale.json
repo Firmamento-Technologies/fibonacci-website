@@ -25,6 +25,36 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dermatologosaccani.it",
+  "nome": "Dermatologia",
+  "formaSocietaria": "",
+  "partitaIva": "02674550351",
+  "telefono": "+393495463257",
+  "email": "elenasaccani1@gmail.com",
+  "sitoUrl": "https://www.dermatologosaccani.it/",
+  "indirizzo": "Via Ghirardini, 40",
+  "cap": "40141",
+  "comune": "Bologna",
+  "provincia": "san-pietro-in-casale",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Elena Saccani, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologosaccani.it/",
+   "https://www.dermatologosaccani.it/contatti",
+   "https://www.dermatologosaccani.it/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Saccani, cognome dentro il dominio",
+  "nomeStrutturato": "Dott.ssa Elena Saccani",
+  "tipoDichiarato": "Organization Person"
+ },
+ {
   "dominio": "studiodentisticobanzi.it",
   "nome": "Studio Dentistico Banzi: Il Tuo Dentista A Cento",
   "formaSocietaria": "",
@@ -47,7 +77,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.713965,
+  "lon": 11.318433,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dentistico Banzi",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Friday 09:00-12:30 e 14:30-19:30",
+   "Thursday 14:30-19:30"
+  ]
  },
  {
   "dominio": "studiodermatologo-dr-rossi.it",

@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "dermatologonazzariguido.com",
+  "nome": "Dermatologo e venereologo a Chiavari (GE)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390185303622",
+  "email": "",
+  "sitoUrl": "https://www.dermatologonazzariguido.com/",
+  "indirizzo": "viale Francesco Tappani 8",
+  "cap": "16043",
+  "comune": "Chiavari",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Guido Nazzari, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologonazzariguido.com/",
+   "https://www.dermatologonazzariguido.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Guido Nazzari, cognome dentro il dominio"
+ },
+ {
   "dominio": "esteticafunzionalechiavari.it",
   "nome": "Estetica Funzionale Chiavari",
   "formaSocietaria": "",
@@ -22,7 +47,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Funzionale Chiavari",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "gianluigirossi.it",
+  "nome": "dr. Gianluigi Rossi",
+  "formaSocietaria": "",
+  "partitaIva": "03115330106",
+  "telefono": "+39010589246",
+  "email": "info@arsmedicagenova.it",
+  "sitoUrl": "https://www.gianluigirossi.it/",
+  "indirizzo": "Corso Andrea Podestà 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianluigi Rossi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.gianluigirossi.it/",
+   "https://www.gianluigirossi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianluigi Rossi, e il dominio lo ripete"
  },
  {
   "dominio": "luiginoledi.it",

@@ -27,7 +27,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Minetti",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-19:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "drmatteolombardi.it",

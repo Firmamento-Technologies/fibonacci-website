@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Adda Grosseto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrodentisticochisci.it",
@@ -49,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro dentistico Chisci",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dietologapaolagallenca.it",
@@ -127,6 +131,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Camp",
+  "tipoDichiarato": "Organization"
  }
 ]

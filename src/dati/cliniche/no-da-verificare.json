@@ -7,9 +7,9 @@
   "telefono": "+393291797602",
   "email": "info@dottoressataniashemet.it",
   "sitoUrl": "https://dottoressataniashemet.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via del Macello",
+  "cap": "28069",
+  "comune": "Trecate",
   "provincia": "no",
   "prestazioni": [
    "Filler",
@@ -28,7 +28,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.4469,
+  "lon": 8.6196,
+  "nomeStrutturato": "Dott.ssa Tania Shemet - Medicina Estetica",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "dottorlucamarini.it",
@@ -58,7 +62,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Luca Marini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "maggioreosp.novara.it",
@@ -84,7 +90,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Ospedale Maggiore della Carità di Novara",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "michelemagni.it",
@@ -119,7 +127,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Michele Magni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodermatologiconovarese.it",
@@ -151,6 +161,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dermatologico Novarese",
+  "orari": [
+   "Monday,Tuesday,Thursday,Friday 08.30 – 19.00",
+   "Wednesday 08.30 – 16.30"
+  ]
  }
 ]

@@ -89,14 +89,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Elisir",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermaclinic-studiomazzeo.com",
   "nome": "Derma Clinic-Studio Dermatologico e laserterapia Mazzeo",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "0965 165 8686",
   "email": "",
   "sitoUrl": "https://www.dermaclinic-studiomazzeo.com/",
   "indirizzo": "",
@@ -123,7 +125,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DERMA CLINIC-Studio Dermatologico-Venereologico-Laser Mazzeo,Reggio Calabria",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "esteticainmentesrl.it",
@@ -153,7 +157,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico a Reggio Calabria Centro | EsteticaInMente",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "giuseppepavone.it",
@@ -180,7 +186,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Pavone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Pavone, e il dominio lo ripete",
+  "nomeStrutturato": "pavone",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "leonardoioppolo.com",
@@ -188,7 +196,7 @@
   "formaSocietaria": "",
   "partitaIva": "03162380806",
   "telefono": "+393492899140",
-  "email": "",
+  "email": "leonardoioppolo@gmail.com",
   "sitoUrl": "https://www.leonardoioppolo.com/",
   "indirizzo": "Via Bari, 6",
   "cap": "88050",
@@ -213,7 +221,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Leonardo Ioppolo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Leonardo Ioppolo, e il dominio lo ripete",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dr. Leonardo M. Ioppolo",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "marcobiricotti.it",
@@ -247,7 +260,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Biricotti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Biricotti, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Marco Biricotti",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "polimedicaporcino.it",
+  "nome": "Centro Medico Polispecialistico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03232280804",
+  "telefono": "+390965891058",
+  "email": "info@polimedicaporcino.it",
+  "sitoUrl": "https://www.polimedicaporcino.it/",
+  "indirizzo": "Via Cairoli 33",
+  "cap": "89127",
+  "comune": "RC",
+  "provincia": "rc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.polimedicaporcino.it/",
+   "https://www.polimedicaporcino.it/chi-siamo/",
+   "https://www.polimedicaporcino.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polimedica Porcino",
+  "orari": [
+   "Lunedì, Martedì, Mercoledì, Giovedì, Venerdì, Sabato 08:30-20:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "stimolacollagene.it",

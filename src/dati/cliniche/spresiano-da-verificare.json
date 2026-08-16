@@ -36,7 +36,7 @@
   "nome": "Estetica Deborah - Centro estetico e Solarium",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+390422880282",
   "email": "info@esteticadeborah.it",
   "sitoUrl": "https://esteticadeborah.it/",
   "indirizzo": "Via G.B. Tiepolo 2",
@@ -58,6 +58,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Deborah",
+  "tipoDichiarato": "Organization"
  }
 ]

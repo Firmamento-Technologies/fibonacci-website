@@ -28,7 +28,7 @@
   "dominio": "casadellasaluteippocrate.com",
   "nome": "Casa della Salute Ippocrate",
   "formaSocietaria": "",
-  "partitaIva": "",
+  "partitaIva": "01185740329",
   "telefono": "+390405700322",
   "email": "",
   "sitoUrl": "https://www.casadellasaluteippocrate.com/",
@@ -48,7 +48,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Casa della Salute Ippocrate - Trieste",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
+   "Saturday 09:00-13:00"
+  ]
  },
  {
   "dominio": "castellanaclinic.it",
@@ -77,7 +83,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dermatologiatrieste.com",
@@ -110,6 +117,36 @@
    "https://www.dermatologiatrieste.com/privacy/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dermatologia Trieste - Dermatologo Trieste – Dott.ssa Valentina Salamone, Specialista in Dermatologia e Laser",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologija-kljajic.si",
+  "nome": "Dermatološka ambulanta Kljajič",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393289359993",
+  "email": "info@dermatologija-kljajic.si",
+  "sitoUrl": "https://www.dermatologija-kljajic.si/",
+  "indirizzo": "Via F. Severo 122",
+  "cap": "34127",
+  "comune": "Trieste",
+  "provincia": "ts",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dermatologija-kljajic.si/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  },
@@ -178,7 +215,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Euridice Fabris, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Euridice Fabris, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Fabris Euridice",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fisiomedambulatori.it",
@@ -207,7 +246,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fisiomed Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "kravosguadagno.it",
@@ -238,7 +279,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Kravos & Guadagno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lumiatrieste.it",
@@ -290,7 +333,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Monvis",
+  "orari": [
+   "Monday 09:00-14:00",
+   "Tuesday 14:00-19:00",
+   "Wednesday 10:00-18:00",
+   "Thursday 10:00-18:00",
+   "Friday 08:00-14:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "polifvg.it",
@@ -326,7 +378,7 @@
   "telefono": "+390405199674",
   "email": "info@skindoctors.it",
   "sitoUrl": "https://skindoctors.it/",
-  "indirizzo": "",
+  "indirizzo": "Via dei Bonomo, 5/a",
   "cap": "34126",
   "comune": "Trieste",
   "provincia": "ts",
@@ -351,6 +403,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.654463,
+  "lon": 13.793021,
+  "nomeStrutturato": "Skin Doctors' Center",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday 09:00-19:00",
+   "Friday 09:00-15:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  }
 ]

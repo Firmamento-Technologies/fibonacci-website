@@ -1,1 +1,141 @@
-[]
+[
+ {
+  "dominio": "centromedicofabiano.it",
+  "nome": "Fabiano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390817576812",
+  "email": "",
+  "sitoUrl": "https://centromedicofabiano.it/",
+  "indirizzo": "Via Nazario Sauro, 102",
+  "cap": "80026",
+  "comune": "Casoria",
+  "provincia": "casoria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centromedicofabiano.it/",
+   "https://centromedicofabiano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "istitutoparitariomoscati.it",
+  "nome": "Istituto Moscati Casoria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390817576951",
+  "email": "info@istitutoparitariomoscati.it",
+  "sitoUrl": "https://www.istitutoparitariomoscati.it/",
+  "indirizzo": "Via G. Matteotti 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "casoria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.istitutoparitariomoscati.it/",
+   "https://www.istitutoparitariomoscati.it/chi-siamo/",
+   "https://www.istitutoparitariomoscati.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lavoro.it",
+  "nome": "Trova il tuo lavoro ideale in Italia su Lavoro.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lavoro.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "casoria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.lavoro.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "skine.it",
+  "nome": "Vendita online prodotti di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "08426311216",
+  "telefono": "081 19136167",
+  "email": "info@skine.it",
+  "sitoUrl": "https://skine.it/",
+  "indirizzo": "Via Michelangelo 29",
+  "cap": "80026",
+  "comune": "Casoria",
+  "provincia": "casoria",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://skine.it/",
+   "https://skine.it/prodotto/what-like-about-blue/",
+   "https://skine.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Skinè | Diffusione bellezza",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-20:0"
+  ]
+ },
+ {
+  "dominio": "villaangela.it",
+  "nome": "Villa Angela",
+  "formaSocietaria": "",
+  "partitaIva": "00752170639",
+  "telefono": "+390812461911",
+  "email": "amministrazione@villaangela.it",
+  "sitoUrl": "https://villaangela.it/",
+  "indirizzo": "Via Alessandro Manzoni 141",
+  "cap": "80123",
+  "comune": "Napoli",
+  "provincia": "casoria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://villaangela.it/",
+   "https://villaangela.it/contatti/",
+   "https://villaangela.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

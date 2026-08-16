@@ -35,8 +35,8 @@
   "email": "",
   "sitoUrl": "https://www.iosaluteebellezza.it/",
   "indirizzo": "Via Canturina 151",
-  "cap": "",
-  "comune": "",
+  "cap": "22100",
+  "comune": "Como",
   "provincia": "como",
   "prestazioni": [
    "Laser",
@@ -52,6 +52,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Io Salute e Bellezza - Centro estetico a Como",
+  "tipoDichiarato": "Organization"
  }
 ]

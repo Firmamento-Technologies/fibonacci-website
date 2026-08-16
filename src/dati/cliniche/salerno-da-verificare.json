@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "dominio": "fillersalerno.it",
+  "nome": "Filler Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393472934249",
+  "email": "",
+  "sitoUrl": "https://www.fillersalerno.it/",
+  "indirizzo": "Via Giacinto Vicinanza, 11",
+  "cap": "84123",
+  "comune": "Salerno",
+  "provincia": "salerno",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fillersalerno.it/",
+   "https://www.fillersalerno.it/contatti/",
+   "https://www.fillersalerno.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Filler Salerno",
+  "tipoDichiarato": "Organization"
+ }
+]

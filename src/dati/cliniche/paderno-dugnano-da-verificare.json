@@ -23,14 +23,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Clinica Polispecialistica San Carlo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "paderno.centrometica.it",
   "nome": "Centro Medico Metica Paderno",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "02 91084497",
   "email": "info@centrometica.it",
   "sitoUrl": "https://paderno.centrometica.it/",
   "indirizzo": "Via Castelletto 40",
@@ -51,6 +53,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Metica Paderno",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

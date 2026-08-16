@@ -1,5 +1,35 @@
 [
  {
+  "dominio": "cardillomedicinaestetica.it",
+  "nome": "Dr.ssa Maria Cardillo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cardillomedicinaestetica.it/",
+  "indirizzo": "Vicolo Isetta, 20",
+  "cap": "",
+  "comune": "",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maria Cardillo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://cardillomedicinaestetica.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Cardillo, cognome dentro il dominio"
+ },
+ {
   "dominio": "centrobrianza.com",
   "nome": "Brianza",
   "formaSocietaria": "",
@@ -23,7 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Brianza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrometica.it",
@@ -74,6 +106,39 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "lucamaione.it",
+  "nome": "Dott. Luca Maione",
+  "formaSocietaria": "",
+  "partitaIva": "08719650965",
+  "telefono": "+393203539660",
+  "email": "",
+  "sitoUrl": "https://www.lucamaione.it/",
+  "indirizzo": "Via Paolo da Cannobio 37",
+  "cap": "24040",
+  "comune": "Stezzano",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luca Maione, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.lucamaione.it/",
+   "https://www.lucamaione.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Maione, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Luca Maione",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "poliambulatoriomedico.com",
   "nome": "Poliambulatorio medico",
   "formaSocietaria": "",
@@ -98,7 +163,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Medico Milano",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "rosellamurzi.com",
+  "nome": "Medico estetico Milano",
+  "formaSocietaria": "",
+  "partitaIva": "07656810152",
+  "telefono": "+393391850473",
+  "email": "info.rosellamurzi@gmail.com",
+  "sitoUrl": "https://www.rosellamurzi.com/medico-estetico",
+  "indirizzo": "Via Gallarate, 11",
+  "cap": "20151",
+  "comune": "",
+  "provincia": "paderno-dugnano",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Rosella Murzi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.rosellamurzi.com/medico-estetico"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosella Murzi, e il dominio lo ripete",
+  "nomeStrutturato": "Rosella Murzi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "temaestetica.it",

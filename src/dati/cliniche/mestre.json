@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Nube, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Nube, e il dominio lo ripete",
+  "nomeStrutturato": "Dottor Alessandro Nube",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "antoniocorezzola.it",
@@ -90,7 +92,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bissuola Medica S.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "salusmedicatrinity.com",
@@ -120,7 +124,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salus Medica Trinity",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sanmarcomedika.it",
@@ -146,6 +152,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BIOMEDIKA SRL",
+  "tipoDichiarato": "Organization"
  }
 ]

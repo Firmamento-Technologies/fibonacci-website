@@ -30,6 +30,67 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Domenico Miccolis",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "fdvsurgery.it",
+  "nome": "FDV",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393473415322",
+  "email": "info@fdvsurgery.it",
+  "sitoUrl": "https://www.fdvsurgery.it/",
+  "indirizzo": "Via Augusto Franzoi, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "is",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fdvsurgery.it/",
+   "https://www.fdvsurgery.it/contatti.html",
+   "https://www.fdvsurgery.it/privacy-policy.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "martellaantonio.it",
+  "nome": "MartellaAntonio.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://martellaantonio.it/",
+  "indirizzo": "Via Materdei 28",
+  "cap": "80136",
+  "comune": "Napoli",
+  "provincia": "is",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://martellaantonio.it/",
+   "https://martellaantonio.it/informativa-sulla-privacy",
+   "https://martellaantonio.it/contatto"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "martellaantonio.it",
+  "tipoDichiarato": "Organization"
  }
 ]

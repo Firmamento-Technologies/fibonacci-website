@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Commerciale - Il CENTRO",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ilcentro.it",
@@ -48,7 +50,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IlCentro",
+  "tipoDichiarato": "NewsMediaOrganization"
  },
  {
   "dominio": "ilcentroesteticoninfea.it",
@@ -77,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Il Centro Estetitco Ninfea a Cologno Monzese",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "polisalute-colognomonzese.it",
@@ -105,6 +111,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Cologno Monzese (Milano)",
+  "tipoDichiarato": "MedicalOrganization"
+ },
+ {
+  "dominio": "primaclinic.it",
+  "nome": "Primaclinic",
+  "formaSocietaria": "",
+  "partitaIva": "13767560967",
+  "telefono": "+390250030442",
+  "email": "",
+  "sitoUrl": "https://primaclinic.it/",
+  "indirizzo": "Via San Calimero 1",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "cologno-monzese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://primaclinic.it/",
+   "https://primaclinic.it/sedi/",
+   "https://primaclinic.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "primaclinic",
+  "tipoDichiarato": "Organization"
  }
 ]

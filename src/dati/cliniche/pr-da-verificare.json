@@ -22,7 +22,33 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Di Blasio",
+  "tipoDichiarato": "Organization Person"
+ },
+ {
+  "dominio": "cesareazzolini.it",
+  "nome": "Cesare Azzolini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cesareazzolini.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cesareazzolini.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "dermatologoparma.com",
@@ -54,7 +80,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dermatologo Parma dott. Antonaccio",
+  "tipoDichiarato": "MedicalOrganization"
+ },
+ {
+  "dominio": "dottoressafrancoise.com",
+  "nome": "Dottoressa Francoise",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393476854902",
+  "email": "",
+  "sitoUrl": "https://www.dottoressafrancoise.com/",
+  "indirizzo": "",
+  "cap": "43017",
+  "comune": "San",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottoressafrancoise.com/",
+   "https://www.dottoressafrancoise.com/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Michele",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "pfhospital.it",
@@ -80,7 +135,42 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Piccole Figlie Hospital",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 06:30-19:00",
+   "Saturday 06:30-13:30",
+   "Sunday 6:30-19:00"
+  ]
+ },
+ {
+  "dominio": "prenotazionecup.com",
+  "nome": "PrenotazioneCup",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@prenotazionecup.com",
+  "sitoUrl": "https://prenotazionecup.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://prenotazionecup.com/",
+   "https://prenotazionecup.com/about",
+   "https://prenotazionecup.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "PrenotazioneCup",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioaimiparma.it",
@@ -105,6 +195,65 @@
    "https://www.studioaimiparma.it/it/privacy"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.797702,
+  "lon": 10.338916,
+  "nomeStrutturato": "Studio Aimi Parma",
+  "orari": [
+   "Monday, Tuesday, Thursday, Friday 08:30-19:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
+ },
+ {
+  "dominio": "viaggiobellezza.it",
+  "nome": "ViaggioBellezza.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dottoragostino.it",
+  "sitoUrl": "https://www.viaggiobellezza.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.viaggiobellezza.it/",
+   "https://www.viaggiobellezza.it/contatti/",
+   "https://www.viaggiobellezza.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "ViaggioBellezza",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "vincenzomenoni.it",
+  "nome": "Vincenzo Menoni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vincenzomenoni.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vincenzomenoni.it/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }

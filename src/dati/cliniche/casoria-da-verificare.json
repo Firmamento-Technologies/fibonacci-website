@@ -25,19 +25,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Pieffe",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "odontartstudiodentistico.it",
   "nome": "Studio Dentistico & Medicina Estetica Casoria",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
-  "email": "",
+  "telefono": "+39 3343707645",
+  "email": "estetica@odontartstudiodentistico.it",
   "sitoUrl": "https://www.odontartstudiodentistico.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Nazionale delle Puglie 195/D",
+  "cap": "80026",
+  "comune": "Casoria",
   "provincia": "casoria",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -49,14 +51,20 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dott. Ivan Porzio",
+  "orari": [
+   "Monday,Tuesday,Wednesday 15:00-19:00",
+   "Tuesday,Wednesday,Thursday 09:00-13:00"
+  ]
  },
  {
   "dominio": "twinsforbeauty.it",
   "nome": "Twins for Beauty",
   "formaSocietaria": "",
   "partitaIva": "10851751213",
-  "telefono": "",
+  "telefono": "081 976 4814",
   "email": "info@twinsforbeauty.it",
   "sitoUrl": "https://twinsforbeauty.it/",
   "indirizzo": "Via E.De Nicola, 23",
@@ -77,6 +85,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Twins for Beauty",
+  "tipoDichiarato": "Organization Person"
  }
 ]

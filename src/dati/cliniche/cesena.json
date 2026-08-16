@@ -23,19 +23,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "A-Medic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "bellocchioweb.it",
   "nome": "Studio Bellocchio",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "34671104444",
   "email": "",
   "sitoUrl": "https://www.bellocchioweb.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Galleria Urtoller",
+  "cap": "47521",
+  "comune": "Cesena",
   "provincia": "cesena",
   "prestazioni": [
    "Filler",
@@ -53,14 +55,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Bellocchio",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "drlaurarossini.com",
   "nome": "Medicina estetica trattamenti viso e corpo",
   "formaSocietaria": "",
   "partitaIva": "04343410405",
-  "telefono": "",
+  "telefono": "338 7365575",
   "email": "",
   "sitoUrl": "https://drlaurarossini.com/",
   "indirizzo": "Via Renato Serra, 2",
@@ -85,7 +89,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "Medicina estetica dott.ssa Laura Rossini",
+  "lat": 44.020392,
+  "lon": 12.549903
  },
  {
   "dominio": "evoluzionestetika.it",
@@ -113,7 +121,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Evoluzionestetika - Centro Estetico Cesena",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-20:00",
+   "Saturday 09:00-16:00"
+  ]
  },
  {
   "dominio": "leau.it",
@@ -139,7 +153,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Leau",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "lucamorellini.it",
@@ -193,6 +209,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marinella Savini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marinella Savini, e il dominio lo ripete",
+  "nomeStrutturato": "Marinella Dott.ssa Savini",
+  "tipoDichiarato": "Organization"
  }
 ]

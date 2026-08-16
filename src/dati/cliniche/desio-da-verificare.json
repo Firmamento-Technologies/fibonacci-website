@@ -56,6 +56,11 @@
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
+  "dominio": "luganocare.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "studioesteticodesio.it",
   "nome": "Trattamenti di Bellezza e Benessere a Desio",
   "formaSocietaria": "",
@@ -82,5 +87,39 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "unicampus.it",
+  "nome": "Università Campus Bio-Medico di Roma",
+  "formaSocietaria": "",
+  "partitaIva": "IT04802051005",
+  "telefono": "+39 06.22541.1",
+  "email": "",
+  "sitoUrl": "https://www.unicampus.it/",
+  "indirizzo": "Via Álvaro del Portillo, 21",
+  "cap": "00128",
+  "comune": "Roma",
+  "provincia": "desio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.unicampus.it/",
+   "https://www.unicampus.it/contatti/",
+   "https://www.unicampus.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 41.768603,
+  "lon": 12.469141,
+  "nomeStrutturato": "Università Campus Bio-Medico di Roma",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 07:00-21:00",
+   "Saturday, Sunday 00:00-00:00"
+  ],
+  "tipoDichiarato": "Organization Place CollegeOrUniversity"
  }
 ]

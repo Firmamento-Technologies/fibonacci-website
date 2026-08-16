@@ -8,8 +8,8 @@
   "email": "info@dentistaancona.com",
   "sitoUrl": "https://dentistaancona.com/",
   "indirizzo": "via Bartolo da Sassoferrato 2",
-  "cap": "",
-  "comune": "",
+  "cap": "60128",
+  "comune": "Ancona",
   "provincia": "ancona",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -22,7 +22,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Studio Dentistico Anna Ascoli",
+  "tipoDichiarato": "Organization",
+  "lat": 43.591664,
+  "lon": 13.517493,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "salutebenessereitaly.it",
@@ -72,6 +79,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studi Medici Stoduto",
+  "tipoDichiarato": "Organization"
  }
 ]

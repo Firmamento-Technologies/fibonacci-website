@@ -32,6 +32,32 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Russo, cognome dentro il dominio"
  },
  {
+  "dominio": "filodiritto.com",
+  "nome": "Filodiritto portale di informazione, cultura, diritto e attualità",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02575961202",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.filodiritto.com/",
+  "indirizzo": "Via Castiglione 81",
+  "cap": "40124",
+  "comune": "Bologna",
+  "provincia": "russi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.filodiritto.com/",
+   "https://www.filodiritto.com/chi-siamo",
+   "https://www.filodiritto.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "labmedit.it",
   "nome": "Medit",
   "formaSocietaria": "SRL",
@@ -55,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Medit",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "logatto.it",
@@ -90,7 +118,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Logatto Vai, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Logatto Vai, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Logatto",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "mariagabrielladirusso.it",
@@ -117,7 +147,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Gabriella, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maria Gabriella, cognome dentro il dominio",
+  "nomeStrutturato": "Maria Gabriella di Russo - Medico Estetico - Formia, Milano",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "omceo-ra.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri di Ravenna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390544212625",
+  "email": "info@omceo-ra.it",
+  "sitoUrl": "https://omceo-ra.it/",
+  "indirizzo": "Via Alcide De Gasperi 19",
+  "cap": "32276",
+  "comune": "Codici",
+  "provincia": "russi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://omceo-ra.it/",
+   "https://omceo-ra.it/ordine/segreteria/orari-e-contatti",
+   "https://omceo-ra.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  },
  {
   "dominio": "rubiniarusso.it",
@@ -150,6 +208,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rubinia Russo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rubinia Russo, e il dominio lo ripete",
+  "nomeStrutturato": "Rubinia Russo",
+  "tipoDichiarato": "Organization"
  }
 ]

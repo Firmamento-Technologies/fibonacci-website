@@ -54,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Iucopilla",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodaloja.it",
@@ -82,14 +84,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio D'Aloja",
+  "orari": [
+   "Monday,Wednesday,Thursday,Friday 07:30-19:00",
+   "Tuesday 07:30-17:00",
+   "Saturday 07:30-10:30"
+  ]
  },
  {
   "dominio": "victoriamedicalcenters.com",
   "nome": "Victoriaacademyclinic",
   "formaSocietaria": "",
   "partitaIva": "04841070230",
-  "telefono": "",
+  "telefono": "+393384306595",
   "email": "info@victoriamedicalcenters.com",
   "sitoUrl": "https://www.victoriaacademyclinic.com/",
   "indirizzo": "Via Germania 4",
@@ -115,6 +124,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "VICTORIA ACADEMY CLINIC",
+  "orari": [
+   "Mo 09:00-18:00, Tu 10:00-20:00, We 09:00-19:00, Th 10:00-20:"
+  ]
  }
 ]

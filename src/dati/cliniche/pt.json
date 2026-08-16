@@ -111,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Frati, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Frati, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.Frati Franco",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lucillamelanidermatologa.it",
@@ -163,7 +165,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Sport",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studimediciarcobaleno.it",
@@ -189,6 +193,32 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studi Medici Arcobaleno",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "tommasoagostini.it",
+  "nome": "Dott. Tommaso Agostini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tommasoagostini.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Tommaso Agostini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.tommasoagostini.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tommaso Agostini, e il dominio lo ripete"
  }
 ]

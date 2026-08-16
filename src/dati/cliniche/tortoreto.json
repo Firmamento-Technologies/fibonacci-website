@@ -49,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticomariyakunta.it",
@@ -107,6 +109,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Medico De Iuliis",
+  "tipoDichiarato": "Organization"
  }
 ]

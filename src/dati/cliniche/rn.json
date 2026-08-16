@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Lilium Clinica Medica Estetica - Succursale Poliambulatorio Valturio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "enisagolli.it",
@@ -59,6 +61,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enis Agolli, e il dominio lo ripete"
+ },
+ {
+  "dominio": "fabiocchi.it",
+  "nome": "Luca Fabiocchi",
+  "formaSocietaria": "",
+  "partitaIva": "02897291205",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fabiocchi.it/",
+  "indirizzo": "Via Ghetti 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "rn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luca Fabiocchi, cognome nel dominio",
+  "fonteUrl": [
+   "https://www.fabiocchi.it/",
+   "https://www.fabiocchi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Fabiocchi, cognome nel dominio"
  },
  {
   "dominio": "kuravita.it",
@@ -180,7 +207,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Esculapio Riccione",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriovalturio.it",
@@ -273,7 +302,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Riabilita Lab Rimini",
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "rimedical.it",
@@ -283,9 +314,9 @@
   "telefono": "+390541620757",
   "email": "info@rimedical.it",
   "sitoUrl": "https://www.rimedical.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Europa 8",
+  "cap": "47822",
+  "comune": "Santarcangelo di Romagna",
   "provincia": "rn",
   "prestazioni": [
    "Filler",
@@ -306,6 +337,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Rimedical",
+  "tipoDichiarato": "Organization",
+  "lat": 44.063265,
+  "lon": 12.45886,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 07:30-20:30",
+   "Saturday 07:30-13:30"
+  ]
  }
 ]

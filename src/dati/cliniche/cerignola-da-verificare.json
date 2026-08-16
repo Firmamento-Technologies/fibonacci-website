@@ -25,6 +25,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Claudia Rita Mazzarella",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "gimbe.org",
+  "nome": "GIMBE",
+  "formaSocietaria": "",
+  "partitaIva": "03043421209",
+  "telefono": "",
+  "email": "info@gimbe.org",
+  "sitoUrl": "https://gimbe.org/",
+  "indirizzo": "Via Amendola, 2",
+  "cap": "40121",
+  "comune": "Bologna",
+  "provincia": "cerignola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gimbe.org/",
+   "https://www.gimbe.org/pagine/264/it/chi-siamo",
+   "https://www.gimbe.org/pagine/230/it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

@@ -21,13 +21,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Piovani Gianluca, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Piovani Gianluca, cognome dentro il dominio",
+  "nomeStrutturato": "Centro Dentistico Piovani Zubani",
+  "tipoDichiarato": "Organization",
+  "lat": 45.5247,
+  "lon": 10.0811,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 08:30-20:30",
+   "Sunday 13:00-17:00"
+  ]
  },
  {
   "dominio": "leggimenu.it",
   "nome": "Menu Digitale Gratuito con QR Code",
   "formaSocietaria": "",
-  "partitaIva": "",
+  "partitaIva": "IT17002501009",
   "telefono": "",
   "email": "info@leggimenu.it",
   "sitoUrl": "https://www.leggimenu.it/",
@@ -46,6 +54,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.967564,
+  "lon": 12.410491,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "leggimenu srl",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:"
+  ]
  }
 ]

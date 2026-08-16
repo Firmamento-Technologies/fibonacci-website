@@ -21,7 +21,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Corriere della Sera",
+  "tipoDichiarato": "NewsMediaOrganization"
  },
  {
   "dominio": "centroesteticosuite.it",
@@ -73,7 +75,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CHIRONE DAY CLINIC SRL",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ecodibergamo.it",

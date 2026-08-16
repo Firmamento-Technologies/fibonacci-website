@@ -30,7 +30,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dottor Lino Bertolini",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "cmdcentromedico.it",
@@ -56,7 +58,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "CMD Centro Medico e Analisi La Spezia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticabertocchi.it",

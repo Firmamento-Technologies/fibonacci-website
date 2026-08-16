@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+3904221924010",
-  "email": "",
+  "email": "silea@8medica.it",
   "sitoUrl": "https://www.8medica.it/",
   "indirizzo": "Strada della Serenissima, 3",
   "cap": "31057",
@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio 8 Medica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "bloombeautycenter.it",
@@ -73,6 +75,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Dental Feel",
+  "tipoDichiarato": "Organization"
  }
 ]

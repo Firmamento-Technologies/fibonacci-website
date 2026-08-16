@@ -1,5 +1,40 @@
 [
  {
+  "dominio": "assiaanniballi.com",
+  "nome": "Dottoressa Assia Anniballi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393534482346",
+  "email": "info@assiaanniballi.com",
+  "sitoUrl": "https://www.assiaanniballi.com/",
+  "indirizzo": "Via Canino 21",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "li",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Assia Anniballi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.assiaanniballi.com/",
+   "https://www.assiaanniballi.com/contatti/",
+   "https://www.assiaanniballi.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Assia Anniballi, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Assia Anniballi Medico Chirurgo Estetico esperto in Medicina Estetica a Roma e Livorno",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+ },
+ {
   "dominio": "centromedicosantagiulia.it",
   "nome": "Centro Medico Santa Giulia - Livorno",
   "formaSocietaria": "",
@@ -86,7 +121,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "INLAB Centro Medico Livorno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "magistudimedici.it",
@@ -150,6 +187,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "The Skin Clinic",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -1,5 +1,71 @@
 [
  {
+  "dominio": "bio-clinic.it",
+  "nome": "Bio-Clinic Sassari",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02869450904",
+  "telefono": "+390799561332",
+  "email": "gestione@bio-clinic.it",
+  "sitoUrl": "https://bio-clinic.it/",
+  "indirizzo": "Via Renzo Mossa, 23",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://bio-clinic.it/",
+   "https://bio-clinic.it/contatti/",
+   "https://bio-clinic.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "lat": 40.731,
+  "lon": 8.5553,
+  "nomeStrutturato": "Bio-Clinic",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 07:00-21:00",
+   "Saturday 08:00-14:00"
+  ],
+  "tipoDichiarato": "MedicalClinic MedicalBusiness LocalBusiness"
+ },
+ {
+  "dominio": "canuvanessa.com",
+  "nome": "Dott.ssa Vanessa Canu",
+  "formaSocietaria": "",
+  "partitaIva": "02687150900",
+  "telefono": "+390799655772",
+  "email": "",
+  "sitoUrl": "https://www.canuvanessa.com/",
+  "indirizzo": "Via Rockfeller 7a",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Vanessa Canu, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.canuvanessa.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vanessa Canu, e il dominio lo ripete"
+ },
+ {
   "dominio": "centrocuraesalute.com",
   "nome": "Centro Cura e Salute Platamona",
   "formaSocietaria": "",
@@ -57,7 +123,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cinzia Barberis, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cinzia Barberis, e il dominio lo ripete",
+  "nomeStrutturato": "Medicina Estetica Dott.ssa Cinzia Barberis",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologiamarongiusassari.it",
@@ -81,6 +149,87 @@
    "https://www.dermatologiamarongiusassari.it/contatti"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "dermatologochiarolinisasssari.it",
+  "nome": "Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "01579520907",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dermatologochiarolinisasssari.it/",
+  "indirizzo": "via Monte Grappa 70",
+  "cap": "07100",
+  "comune": "SASSARI",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Fausto Chiarolini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologochiarolinisasssari.it/",
+   "https://www.dermatologochiarolinisasssari.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fausto Chiarolini, cognome dentro il dominio"
+ },
+ {
+  "dominio": "enadermatologia.it",
+  "nome": "Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39079237553",
+  "email": "info@enadermatologia.it",
+  "sitoUrl": "https://www.enadermatologia.it/",
+  "indirizzo": "Viale Mancini 17",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.enadermatologia.it/",
+   "https://www.enadermatologia.it/chi-siamo",
+   "https://www.enadermatologia.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "itaestheticacademy.com",
+  "nome": "Itaestheticacademy",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02932610906",
+  "telefono": "",
+  "email": "info@itaestheticacademy.com",
+  "sitoUrl": "https://itaestheticacademy.com/",
+  "indirizzo": "via Carlo Felice 33",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "ss",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://itaestheticacademy.com/",
+   "https://itaestheticacademy.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  },
@@ -139,7 +288,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.722244,
+  "lon": 8.568293,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dentistico Minniti Moro",
+  "orari": [
+   "Monday 09:00-19:00",
+   "Tuesday,Wednesday,Thursday,Friday 09:00-13:00 / 14:00-18:00"
+  ]
  },
  {
   "dominio": "myclinicmed.it",
@@ -172,7 +329,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "My Clinic",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "pro-clinic.eu",
@@ -254,7 +413,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.715385,
+  "lon": 8.579345,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio odontoiatrico Zara",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:00-18:00",
+   "Friday 09:00-13:00"
+  ]
  },
  {
   "dominio": "studiodonguesoggia.it",
@@ -281,6 +448,40 @@
    "https://studiodonguesoggia.it/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "lat": 40.735,
+  "lon": 8.555,
+  "nomeStrutturato": "Studio Odontoiatrico Dongu & Soggia",
+  "orari": [
+   "Monday 10:00-19:00",
+   "Tuesday, Wednesday 09:00-18:00",
+   "Thursday 10:00-18:00",
+   "Friday 09:00-19:00"
+  ],
+  "tipoDichiarato": "Dentist"
+ },
+ {
+  "dominio": "www2.almalaurea.it",
+  "nome": "www2.almalaurea.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.almalaurea.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ss",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.almalaurea.it/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": false,
   "motivoEsclusione": ""
  }

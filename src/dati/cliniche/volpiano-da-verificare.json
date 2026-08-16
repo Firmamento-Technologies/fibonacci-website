@@ -22,6 +22,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Linea Azzurra",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "medicinaesteticatorino.biz",
+  "nome": "Medicina estetica torino medicina estetica torino, trattamenti estetic",
+  "formaSocietaria": "",
+  "partitaIva": "06656680011",
+  "telefono": "",
+  "email": "info@medicinaesteticatorino.biz",
+  "sitoUrl": "https://www.medicinaesteticatorino.biz/",
+  "indirizzo": "Corso Galileo Ferraris 107",
+  "cap": "10128",
+  "comune": "Torino",
+  "provincia": "volpiano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticatorino.biz/",
+   "https://www.medicinaesteticatorino.biz/easyUsers/setup/PrivacyPolicy.asp"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

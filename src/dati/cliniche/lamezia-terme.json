@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "cfweb - WP",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrosalutegalattica.it",
@@ -49,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Salute Galattica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "emotioncare.it",
@@ -75,7 +79,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Emotion - Care&amp;Wellness",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ewamack.com",
@@ -105,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ewa Mack",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ilmiospaziosalute.it",
@@ -131,7 +139,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Spazio Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lessenzadelbenessere.com",
@@ -159,7 +169,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico a Lamezia Terme CZ",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicarelamezia.it",
@@ -209,7 +221,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.9703,
+  "lon": 16.3139,
+  "nomeStrutturato": "Poliambulatorio Medical",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "serzone.it",
@@ -237,6 +256,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Serzone",
+  "tipoDichiarato": "Organization"
  }
 ]

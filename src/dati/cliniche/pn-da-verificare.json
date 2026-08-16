@@ -4,12 +4,12 @@
   "nome": "AESTETICAMED",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 0434 966 679",
   "email": "info@aesteticamed.it",
   "sitoUrl": "https://www.aesteticamed.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "via Julia, 9",
+  "cap": "33170",
+  "comune": "Pordenone",
   "provincia": "pn",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": true,
@@ -21,7 +21,18 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.970217,
+  "lon": 12.649825,
+  "nomeStrutturato": "AESTETICAMED",
+  "orari": [
+   "lunedì 8:00-20:00",
+   "martedì 8:00-20:00",
+   "mercoledì 8:00-20:00",
+   "giovedì 8:00-20:00",
+   "venerdì 8:00-20:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "annamariamarini.it",
@@ -204,6 +215,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico Mele",
+  "tipoDichiarato": "Organization"
  }
 ]

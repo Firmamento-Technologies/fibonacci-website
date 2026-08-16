@@ -1,5 +1,59 @@
 [
  {
+  "dominio": "a-life.care",
+  "nome": "The Future is in Health",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13625690964",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://a-life.care/it/",
+  "indirizzo": "Via della Guastalla 2",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://a-life.care/it/",
+   "https://a-life.care/it/contatti/",
+   "https://a-life.care/it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "amoronlus.com",
+  "nome": "Amor ETS",
+  "formaSocietaria": "",
+  "partitaIva": "09732190963",
+  "telefono": "+393498168941",
+  "email": "info@amoronlus.com",
+  "sitoUrl": "https://amoronlus.com/",
+  "indirizzo": "Via Pendio San Giuseppe, 1",
+  "cap": "80078",
+  "comune": "Pozzuoli",
+  "provincia": "merano",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://amoronlus.com/",
+   "https://amoronlus.com/chi-siamo/",
+   "https://amoronlus.com/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicalcentermerano.it",
   "nome": "Medical Center Merano",
   "formaSocietaria": "",
@@ -55,6 +109,38 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "mirodental.it",
+  "nome": "Mirò Dental",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mirodental.it/",
+  "indirizzo": "Via Borgogna, 2",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "merano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://mirodental.it/",
+   "https://mirodental.it/chi-siamo/",
+   "https://mirodental.it/le-nostre-sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mir&#242; Dental",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "palace.it",
   "nome": "Sito Ufficiale di Palace Merano",
   "formaSocietaria": "",
@@ -78,7 +164,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Palace Merano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "saltclinic.it",
@@ -109,6 +197,63 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "termemerano.it",
+  "nome": "Terme Merano: un luogo dove due ore possono trasformarsi in una settim",
+  "formaSocietaria": "",
+  "partitaIva": "00120820212",
+  "telefono": "+390473252000",
+  "email": "info@thermemeran.it",
+  "sitoUrl": "https://www.termemerano.it/it/",
+  "indirizzo": "Piazza Terme 9",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.termemerano.it/it/",
+   "https://www.termemerano.it/it/info-prezzi/contatti-arrivo/",
+   "https://www.termemerano.it/it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villa-eden.com",
+  "nome": "VILLA EDEN",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473236583",
+  "email": "info@villa-eden.com",
+  "sitoUrl": "https://www.villa-eden.com/it/",
+  "indirizzo": "Via Winkel 68-70",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.villa-eden.com/it/",
+   "https://www.villa-eden.com/it/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Villa Eden",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "villa-santanna.eu",
   "nome": "Casa di Cura Sant’Anna",
   "formaSocietaria": "",
@@ -132,6 +277,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Villa Sant\\'Anna",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Hospital Organization"
  }
 ]

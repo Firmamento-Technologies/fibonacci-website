@@ -26,6 +26,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "tironestudiomedico.com",
+  "nome": "Studio Medico Tirone: Eccellenza Polispecialistica ad Avellino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39082533615",
+  "email": "",
+  "sitoUrl": "https://tironestudiomedico.com/",
+  "indirizzo": "Viale Italia, 10",
+  "cap": "83100",
+  "comune": "IT",
+  "provincia": "av",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://tironestudiomedico.com/",
+   "https://tironestudiomedico.com/contatti/",
+   "https://tironestudiomedico.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Studio Medico dei Dottori Tirone",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "villaesther.com",
   "nome": "Villa Esther Avellino -",
   "formaSocietaria": "",
@@ -50,6 +78,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Villa Esther Avellino",
+  "tipoDichiarato": "Organization"
  }
 ]

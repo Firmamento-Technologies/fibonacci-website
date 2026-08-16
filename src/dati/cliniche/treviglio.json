@@ -25,14 +25,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Diagnostico San Martino Treviglio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottorbertoli.com",
   "nome": "Dr Bertoli I FILLER LABBRA Brescia",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "3792873644",
   "email": "",
   "sitoUrl": "https://www.dottorbertoli.com/",
   "indirizzo": "Via Cucca 6",
@@ -53,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr Bertoli Filler Labbra Brescia - Milano - Treviglio",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "etiambeauty.it",
@@ -82,7 +86,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Etiam Beauty",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "hintimebeautyspatreviglio.it",
@@ -109,7 +115,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hintime Beauty &amp; Spa Treviglio",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "lightandbeauty.it",
@@ -138,7 +146,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Avanzata a Treviglio: Trattamenti per Corpo e Viso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "misterimprese.it",
@@ -190,7 +200,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Costa Treviglio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "syscentromedico.it",

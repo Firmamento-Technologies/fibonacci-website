@@ -54,7 +54,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Hebe",
+  "tipoDichiarato": "LocalBusiness",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
+  ]
  },
  {
   "dominio": "jesolosalus.it",
@@ -131,6 +136,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Perazzolo San, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Perazzolo San, cognome dentro il dominio",
+  "nomeStrutturato": "Studio Dentistico Perazzolo",
+  "tipoDichiarato": "Organization"
  }
 ]

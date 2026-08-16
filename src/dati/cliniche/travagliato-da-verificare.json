@@ -25,7 +25,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Bonita Benessere: centro estetico e solarium, trattamenti viso e corpo, epilazione laser, extension ciglia, massaggi",
+  "orari": [
+   "Martedì - Sabato 9:30-19:30"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "groupon.it",
@@ -49,6 +54,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Groupon",
+  "tipoDichiarato": "Organization"
  }
 ]

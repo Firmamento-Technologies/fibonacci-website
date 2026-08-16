@@ -4,12 +4,12 @@
   "nome": "Centro Estetico New Esté",
   "formaSocietaria": "",
   "partitaIva": "01850670629",
-  "telefono": "",
+  "telefono": "0824 1494086",
   "email": "",
   "sitoUrl": "https://www.centroesteticoneweste.it/",
   "indirizzo": "Via S. Massimiliano Kolbe, 4",
-  "cap": "",
-  "comune": "",
+  "cap": "82100",
+  "comune": "Benevento",
   "provincia": "benevento",
   "prestazioni": [
    "Epilazione"
@@ -24,6 +24,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "New Esté",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

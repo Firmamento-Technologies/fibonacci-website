@@ -25,6 +25,36 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "DEA Estetica Benessere di Piras Assunta",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "esteticafanny.it",
+  "nome": "Centro Estetico Oristano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393287388083",
+  "email": "",
+  "sitoUrl": "https://esteticafanny.it/",
+  "indirizzo": "Via Carducci, 18",
+  "cap": "09170",
+  "comune": "ORISTANO",
+  "provincia": "or",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticafanny.it/",
+   "https://esteticafanny.it/privacy-policy-e-cookie-policy",
+   "https://esteticafanny.it/dove-siamo"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -98,6 +128,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Dentistico Obino",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "00055061204",
   "telefono": "+39054234833",
-  "email": "",
+  "email": "ambulatoriobertistefano@gmail.com",
   "sitoUrl": "https://www.bertistefano.it/",
   "indirizzo": "via Vico Garbesi 2",
   "cap": "40026",
@@ -24,7 +24,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Berti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Berti, e il dominio lo ripete",
+  "lat": 44.34945,
+  "lon": 11.7043,
+  "nomeStrutturato": "BERTI DR. STEFANO MEDICO CHIRURGO",
+  "orari": [
+   "Monday, Wednesday, Friday 08:30-13:00",
+   "Tuesday, Thursday 14:00-18:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "centromedicobeb.it",
@@ -159,6 +167,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "montecatone.com",
+  "nome": "Istituto di Montecatone Ospedale di Riabilitazione",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01789031208",
+  "telefono": "+390542632811",
+  "email": "segreteria@montecatone.postecert.",
+  "sitoUrl": "https://www.montecatone.com/",
+  "indirizzo": "corso Progetti conclusi NeuroBridge News News 7",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.montecatone.com/",
+   "https://www.montecatone.com/contatti/",
+   "https://www.montecatone.com/perche-montecatone/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto di Montecatone Ospedale di Riabilitazione",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "poliambulatoriolavela.com",
   "nome": "Poliambulatorio con chirurgo estetico e ginecologia Imola",
   "formaSocietaria": "SRL",
@@ -208,7 +244,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "poliambulatorio la vela",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ps102imola.it",

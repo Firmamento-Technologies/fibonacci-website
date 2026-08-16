@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "alessandraleonardimaxillofacciale.it",
+  "nome": "Dott.ssa Alessandra Leonardi",
+  "formaSocietaria": "",
+  "partitaIva": "01890530569",
+  "telefono": "+393349463991",
+  "email": "",
+  "sitoUrl": "https://www.alessandraleonardimaxillofacciale.it/",
+  "indirizzo": "Via del Tritone, 102",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "soliera",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandra Leonardi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.alessandraleonardimaxillofacciale.it/",
+   "https://www.alessandraleonardimaxillofacciale.it/contatti",
+   "https://www.alessandraleonardimaxillofacciale.it/privacy-and-cookies"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Leonardi, cognome dentro il dominio"
+ },
+ {
   "dominio": "centroesteticobamboo.it",
   "nome": "Centro Estetico Bamboo, Massaggi Solarium Trattamenti, Pasta di zucche",
   "formaSocietaria": "",
@@ -61,7 +87,7 @@
   "nome": "Med Era",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "(+39) 0612345678",
   "email": "info@mysite.com",
   "sitoUrl": "https://www.med-era.com/",
   "indirizzo": "Via Iseo 2",
@@ -80,6 +106,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Med Era",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

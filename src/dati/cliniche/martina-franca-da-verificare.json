@@ -28,6 +28,40 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "fiorellagentile.it",
+  "nome": "Ringiovanimento",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393481547179",
+  "email": "info@fiorellagentile.it",
+  "sitoUrl": "https://www.fiorellagentile.it/",
+  "indirizzo": "Via Dei Cedri, 60",
+  "cap": "74015",
+  "comune": "Martina",
+  "provincia": "martina-franca",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fiorellagentile.it/",
+   "https://www.fiorellagentile.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "it.pinterest.com",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ },
+ {
   "dominio": "maps24.it",
   "nome": "Recensioni e Opinioni sui luoghi in Italia",
   "formaSocietaria": "",
@@ -46,6 +80,32 @@
   "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
   "fonteUrl": [
    "https://maps24.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "omceota.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Tar",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390994521965",
+  "email": "segreteria@omceota.it",
+  "sitoUrl": "https://omceota.it/",
+  "indirizzo": "Via Crispi, 107",
+  "cap": "11841",
+  "comune": "REG",
+  "provincia": "martina-franca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omceota.it/",
+   "https://omceota.it/ordine/uffici/sede-e-contatti.html",
+   "https://omceota.it/note-legali.html"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -80,5 +140,54 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "semerarortodonzia.it",
+  "nome": "Ortodonzia e Dentista per Bambini a Martina Franca",
+  "formaSocietaria": "",
+  "partitaIva": "03154910735",
+  "telefono": "+39 080 59 40 400",
+  "email": "info@semerarortodonzia.it",
+  "sitoUrl": "https://semerarortodonzia.it/",
+  "indirizzo": "Piazza Marconi, 10",
+  "cap": "74015",
+  "comune": "Martina",
+  "provincia": "martina-franca",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://semerarortodonzia.it/",
+   "https://semerarortodonzia.it/chi-siamo/",
+   "https://semerarortodonzia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dott.ssa Anna Isabella Semeraro - Specialista in Ortodonzia",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:30-20:00",
+   "Friday 09:30-12:30",
+   "Saturday,Sunday Chiuso",
+   "Friday 15:30-18:30"
+  ]
+ },
+ {
+  "dominio": "stefanosorressa.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studioconserva.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

@@ -29,5 +29,33 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "verenasuraci.it",
+  "nome": "Verena Suraci",
+  "formaSocietaria": "",
+  "partitaIva": "02615760226",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://verenasuraci.it/",
+  "indirizzo": "Via Unione 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://verenasuraci.it/",
+   "https://verenasuraci.it/contatti/",
+   "https://verenasuraci.it/chi-sono/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "admin_verena",
+  "tipoDichiarato": "Person Organization"
  }
 ]

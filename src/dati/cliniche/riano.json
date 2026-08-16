@@ -30,7 +30,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina estetica Roma - Beauty Management Medical Institute",
+  "orari": [
+   "Mo,Tu,We,Th,Fr 10:00-19:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "fisionetroma.com",
@@ -59,7 +64,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fisionet Roma Fisionet Poliambulatorio medico a Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodontoiatricirastellimeyer.it",
@@ -90,6 +97,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Rastelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudio Rastelli, cognome dentro il dominio",
+  "nomeStrutturato": "Studi Odontoiatrici Rastelli Meyer",
+  "tipoDichiarato": "Organization"
  }
 ]

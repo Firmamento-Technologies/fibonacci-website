@@ -5,11 +5,11 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393513560179",
-  "email": "",
+  "email": "centriclinicsicilia@gmail.com",
   "sitoUrl": "https://www.centriclinic.com/",
   "indirizzo": "Corso Italia 298",
-  "cap": "",
-  "comune": "",
+  "cap": "95129",
+  "comune": "Catania",
   "provincia": "ragusa",
   "prestazioni": [
    "Filler",
@@ -26,7 +26,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "centriclinic.com",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 10:00-17:00"
+  ]
  },
  {
   "dominio": "cmoibleo.it",
@@ -52,6 +57,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "C.M.O. Ibleo",
+  "tipoDichiarato": "Organization"
  }
 ]

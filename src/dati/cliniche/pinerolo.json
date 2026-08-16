@@ -49,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Chiron Salute Pinerolo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ethereabenessere.com",
@@ -78,7 +80,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto Etherea",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "laclaire.it",
@@ -112,7 +116,7 @@
   "formaSocietaria": "",
   "partitaIva": "12212390012",
   "telefono": "+390121030435",
-  "email": "",
+  "email": "puntosanlazzaro@gmail.com",
   "sitoUrl": "https://www.puntosanlazzaro.it/",
   "indirizzo": "via Ettore Bignone 38",
   "cap": "10064",
@@ -136,7 +140,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Punto San Lazzaro",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:15-20:00",
+   "Saturday 09:00-20:00",
+   "Sunday 09:00-17:00"
+  ],
+  "tipoDichiarato": "Organization Place MedicalClinic"
  },
  {
   "dominio": "skinmedicpinerolo.it",

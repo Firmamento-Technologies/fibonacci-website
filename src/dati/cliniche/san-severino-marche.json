@@ -5,11 +5,11 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393297467614",
-  "email": "",
+  "email": "cingolanicarla@gmail.com",
   "sitoUrl": "https://carlacingolani.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Piazzale Europa",
+  "cap": "62019",
+  "comune": "Recanati",
   "provincia": "san-severino-marche",
   "prestazioni": [
    "Filler",
@@ -24,7 +24,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cingolani Carla, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cingolani Carla, e il dominio lo ripete",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dott.Ssa Carla Cingolani",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-20:00"
+  ]
  },
  {
   "dominio": "centromedicoblugallery.it",
@@ -74,6 +79,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Radio Gold",
+  "tipoDichiarato": "Organization"
  }
 ]

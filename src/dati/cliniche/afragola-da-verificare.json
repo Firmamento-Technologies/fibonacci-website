@@ -27,6 +27,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Anael",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "centropolimed.it",
+  "nome": "Dentista Afragola",
+  "formaSocietaria": "",
+  "partitaIva": "04221421219",
+  "telefono": "+390818522995",
+  "email": "",
+  "sitoUrl": "https://www.centropolimed.it/",
+  "indirizzo": "Via XXIV Maggio, 28",
+  "cap": "80021",
+  "comune": "Afragola",
+  "provincia": "afragola",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centropolimed.it/",
+   "https://www.centropolimed.it/contatti/",
+   "https://www.centropolimed.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -55,7 +87,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "larampa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mamicle.it",
@@ -106,7 +140,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Minformo.com",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "nusma.it",
@@ -136,6 +172,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Nusma Nails Center & Beauty Concept",
+  "tipoDichiarato": "Organization"
  }
 ]

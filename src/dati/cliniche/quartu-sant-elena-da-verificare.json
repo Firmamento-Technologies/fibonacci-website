@@ -9,7 +9,7 @@
   "sitoUrl": "https://centro-medico-hb.reservio.com/",
   "indirizzo": "Via Guglielmo Marconi, 111",
   "cap": "",
-  "comune": "",
+  "comune": "Quartu Sant'Elena",
   "provincia": "quartu-sant-elena",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -21,7 +21,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 39.242135,
+  "lon": 9.176127,
+  "nomeStrutturato": "Via Guglielmo Marconi, 111 - Quartu Sant'Elena",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 15:00-20:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-13:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "langolodellabellezza.eu",
@@ -51,5 +59,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "omceoss.org",
+  "nome": "OMCeO Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "80001490905",
+  "telefono": "+39079234430",
+  "email": "",
+  "sitoUrl": "https://omceoss.org/wp/",
+  "indirizzo": "Via Cavour 71",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "quartu-sant-elena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omceoss.org/wp/",
+   "https://omceoss.org/wp/dove-siamo/",
+   "https://omceoss.org/wp/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

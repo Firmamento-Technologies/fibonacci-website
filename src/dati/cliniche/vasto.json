@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Abruzzo Magazine",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroarabafenice.it",
@@ -51,7 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Araba Fenice",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "heramedigen.it",
@@ -75,7 +79,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hera Medigen",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "labeautevasto.it",
@@ -103,7 +109,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Beaute Vasto Centro di estetica avanzata",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "BeautySalon Organization"
  },
  {
   "dominio": "laserterapiavasto.it",
@@ -163,6 +174,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polo Biomedico Adriatico",
+  "tipoDichiarato": "Organization"
  }
 ]

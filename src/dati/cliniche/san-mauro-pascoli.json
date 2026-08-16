@@ -23,6 +23,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.134572,
+  "lon": 12.21536,
+  "nomeStrutturato": "Centro Medico San Mauro",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:30"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  }
 ]

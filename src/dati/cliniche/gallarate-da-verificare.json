@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "albertoperoni.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "bossiodontoservice.it",
+  "nome": "Ambulatorio Medico Dentistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://bossiodontoservice.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "gallarate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://bossiodontoservice.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "esteticagallarate.it",
   "nome": "Esteticagallarate",
   "formaSocietaria": "",
@@ -55,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Life Clinique",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "stephi.it",
@@ -82,5 +113,10 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "trasparenza.asl.novara.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
  }
 ]

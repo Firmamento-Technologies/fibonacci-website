@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Palmer Poliambulatorio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "domenicodefazio.it",
@@ -82,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fisiomedilab",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "progettobellezza.it",
@@ -112,7 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Progetto Bellezza",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "villaverde.it",
@@ -138,6 +144,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Villa Verde Srl",
+  "tipoDichiarato": "Organization"
  }
 ]

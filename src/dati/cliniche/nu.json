@@ -1,5 +1,35 @@
 [
  {
+  "dominio": "corsiesteticaitalia.it",
+  "nome": "Corsi Estetica Oligenesi®",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390550980020",
+  "email": "",
+  "sitoUrl": "https://www.corsiesteticaitalia.it/",
+  "indirizzo": "Via G.Braga, 113",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "nu",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.corsiesteticaitalia.it/",
+   "https://www.corsiesteticaitalia.it/chi-siamo/",
+   "https://www.corsiesteticaitalia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Oligenesi | Accademia Nazionale di Estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "dermatologo-estetica.com",
   "nome": "Dermatologo",
   "formaSocietaria": "",
@@ -54,6 +84,69 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Monica Centro Estetico di Monica Sale",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "saliscadeddu.it",
+  "nome": "Studio Medico Chirurgico Salis-Cadeddu",
+  "formaSocietaria": "",
+  "partitaIva": "01665960918",
+  "telefono": "+393475725152",
+  "email": "info@saliscadeddu.it",
+  "sitoUrl": "https://saliscadeddu.it/",
+  "indirizzo": "Via Gramsci 119",
+  "cap": "08100",
+  "comune": "Nuoro",
+  "provincia": "nu",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federica Cadeddu, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://saliscadeddu.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federica Cadeddu, cognome dentro il dominio",
+  "nomeStrutturato": "Studio Medico Chirurgico Salis-Cadeddu",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "unionesarda.it",
+  "nome": "L'Unione Sarda.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "070 60131",
+  "email": "",
+  "sitoUrl": "https://www.unionesarda.it/",
+  "indirizzo": "Piazza L'Unione Sarda (via Santa Gilla) Telefono: 070",
+  "cap": "60131",
+  "comune": "",
+  "provincia": "nu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.unionesarda.it/",
+   "https://www.unionesarda.it/Default/PrivacyPolicy",
+   "https://www.unionesarda.it/contatti-foj3pow2"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "L'Unione Sarda.it",
+  "tipoDichiarato": "NewsMediaOrganization"
  }
 ]

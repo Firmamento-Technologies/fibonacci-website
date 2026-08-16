@@ -1,5 +1,55 @@
 [
  {
+  "dominio": "assicuratricemilanese.it",
+  "nome": "Assicuratrice Milanese",
+  "formaSocietaria": "SPA",
+  "partitaIva": "08589510158",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.assicuratricemilanese.it/",
+  "indirizzo": "Corso Libertà 53",
+  "cap": "41018",
+  "comune": "San",
+  "provincia": "san-salvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.assicuratricemilanese.it/",
+   "https://www.assicuratricemilanese.it/privacy-policy/",
+   "https://www.assicuratricemilanese.it/cookies-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "assimedici.it",
+  "nome": "ASSIMEDICI",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390291983311",
+  "email": "info@assimedici.it",
+  "sitoUrl": "https://assimedici.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-salvo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://assimedici.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "naturaliasansalvo.it",
   "nome": "Centro Estetico Naturalia",
   "formaSocietaria": "",
@@ -26,6 +76,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Naturalia",
+  "tipoDichiarato": "Organization"
  }
 ]

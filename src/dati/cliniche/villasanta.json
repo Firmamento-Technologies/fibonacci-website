@@ -23,6 +23,32 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Carlo Fidanza chirurgo plastico",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "centromedico-milano.it",
+  "nome": "Centro Medico Milano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centromedico-milano.it/",
+  "indirizzo": "Corso Magenta 46",
+  "cap": "20123",
+  "comune": "Milano",
+  "provincia": "villasanta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedico-milano.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -79,7 +105,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DocSmile",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "fisiomedicasrl.it",
@@ -111,6 +139,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fisiomedica Villasanta",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "asl3.liguria.it",
+  "nome": "asl3.liguria.it",
+  "formaSocietaria": "",
+  "partitaIva": "02421770997",
+  "telefono": "+3901084911",
+  "email": "",
+  "sitoUrl": "https://www.asl3.liguria.it/",
+  "indirizzo": "Piazza della Vittoria, 15",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "rapallo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.asl3.liguria.it/",
+   "https://www.asl3.liguria.it/azienda/area-stampa/social-media-netiquette-e-informativa-privacy.html",
+   "https://www.asl3.liguria.it/ospedali/ospedale-villa-scassi/villa-scassi-sampierdarena/breast-unit-centro-di-senologia/breast-unit-chi-siamo.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ASL3",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "centrobenessererapallo.it",
   "nome": "Centro Benessere Rapallo Chiavari Santa Margherita L.",
   "formaSocietaria": "",
@@ -27,6 +55,92 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Benessere Rapallo Chiavari Santa Margherita",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "francescogualco.com",
+  "nome": "Dermatologia e venereologia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393281157187",
+  "email": "info@francescogualco.com",
+  "sitoUrl": "https://www.francescogualco.com/",
+  "indirizzo": "Piazza della Vittoria 7",
+  "cap": "16121",
+  "comune": "Genova",
+  "provincia": "rapallo",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Gualco, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.francescogualco.com/",
+   "https://www.francescogualco.com/contatti/",
+   "https://www.francescogualco.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Gualco, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Francesco Gualco Dermatologo Venereologo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "marioprandi.it",
+  "nome": "Dott. Mario Prandi",
+  "formaSocietaria": "",
+  "partitaIva": "03630050403",
+  "telefono": "+39.3490568937",
+  "email": "segreteria@marioprandi.it",
+  "sitoUrl": "https://marioprandi.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rapallo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Mario Prandi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://marioprandi.it/",
+   "https://marioprandi.it/contatti",
+   "https://marioprandi.it/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mario Prandi, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Mario Prandi",
+  "tipoDichiarato": "Person"
+ },
+ {
+  "dominio": "montallegro.it",
+  "nome": "Montallegro",
+  "formaSocietaria": "",
+  "partitaIva": "00967100108",
+  "telefono": "+3901035311",
+  "email": "",
+  "sitoUrl": "https://www.montallegro.it/",
+  "indirizzo": "Via Monte Zovetto 27",
+  "cap": "16145",
+  "comune": "Genova",
+  "provincia": "rapallo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.montallegro.it/",
+   "https://www.montallegro.it/privacy/lavora-con-noi/",
+   "https://www.montallegro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -34,12 +148,12 @@
   "nome": "Poliambulatorio Esculapio Medicina Estetica Dr.Morellini",
   "formaSocietaria": "SRL",
   "partitaIva": "03528630407",
-  "telefono": "",
+  "telefono": "+ 39-054727534",
   "email": "info@poliambulatorioesculapio.com",
   "sitoUrl": "https://poliambulatorioesculapio.com/",
   "indirizzo": "Piazzale Gennaro Biguzzi 20",
   "cap": "27534",
-  "comune": "",
+  "comune": "Cesena",
   "provincia": "rapallo",
   "prestazioni": [
    "Filler",
@@ -63,6 +177,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Poliambulatorio Privato Esculapio Dr. Morellini S.r.l"
  }
 ]

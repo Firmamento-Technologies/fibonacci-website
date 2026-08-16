@@ -29,11 +29,36 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "dermatologabosatramanuela.it",
+  "nome": "Esperta in dermatologia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3903321574504",
+  "email": "info@malpensamed.it",
+  "sitoUrl": "https://www.dermatologabosatramanuela.it/",
+  "indirizzo": "Viale Valganna 190",
+  "cap": "21100",
+  "comune": "Varese",
+  "provincia": "va",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologabosatramanuela.it/",
+   "https://www.dermatologabosatramanuela.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "drsivanbaker.com",
   "nome": "Dr. Sivan Baker",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393922537406",
   "email": "",
   "sitoUrl": "https://www.drsivanbaker.com/",
   "indirizzo": "Via Milite Ignoto, 383",
@@ -57,7 +82,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio di Medicina Estetica Dr. Baker",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "federicacasagrande.it",
+  "nome": "Federica Casagrande",
+  "formaSocietaria": "",
+  "partitaIva": "03930410125",
+  "telefono": "+393331528533",
+  "email": "info@federicacasagrande.it",
+  "sitoUrl": "https://www.federicacasagrande.it/",
+  "indirizzo": "via Marrone 2",
+  "cap": "21040",
+  "comune": "Lozza",
+  "provincia": "va",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.federicacasagrande.it/",
+   "https://www.federicacasagrande.it/contatti/",
+   "https://www.federicacasagrande.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "federica",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "fillervarese.it",
@@ -158,7 +215,7 @@
   "formaSocietaria": "",
   "partitaIva": "03941820122",
   "telefono": "+393894408136",
-  "email": "",
+  "email": "smile_ateliersorriso@libero.it",
   "sitoUrl": "https://www.smile-atelierdelsorriso.it/",
   "indirizzo": "Piazza della Repubblica, 6",
   "cap": "21100",
@@ -175,6 +232,20 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.815421,
+  "lon": 8.82936,
+  "nomeStrutturato": "Smile Atelier del Sorriso",
+  "orari": [
+   "Monday 08:00-19:00",
+   "Wednesday 08:00-19:00",
+   "Thursday, Friday 08:00-13:30"
+  ],
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "tamborinifederico.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

@@ -23,7 +23,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico San Giuseppe Viadana Mantova",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Hospital Organization"
  },
  {
   "dominio": "identita.net",
@@ -53,7 +58,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IDENTITÀ Poliambulatorio Medico - Dentista Mantova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lineisclinique.it",
@@ -86,7 +93,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Lineis Clinique",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "manuinimedicinaestetica.it",
@@ -129,8 +138,8 @@
   "nome": "medicalexperiencemantova.com",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
-  "email": "",
+  "telefono": "+393296195980",
+  "email": "medicalexperiencemn@gmail.com",
   "sitoUrl": "https://www.medicalexperiencemantova.com/",
   "indirizzo": "Via Renzo Zanellini 15",
   "cap": "46100",
@@ -149,7 +158,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Experience Mantova",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriobelfiore.it",
@@ -268,6 +279,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico Mastromarino",
+  "tipoDichiarato": "Organization"
  }
 ]

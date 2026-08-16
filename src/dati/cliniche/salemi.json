@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "corriere.it",
+  "nome": "Corriere della Sera: News e Ultime notizie in tempo reale da Italia e ",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.corriere.it/",
+  "indirizzo": "via Balzan 3",
+  "cap": "20132",
+  "comune": "Milano",
+  "provincia": "salemi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.corriere.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Corriere della Sera",
+  "tipoDichiarato": "NewsMediaOrganization"
+ },
+ {
   "dominio": "esteticasalemi.it",
   "nome": "esteticasalemi.it",
   "formaSocietaria": "SRL",

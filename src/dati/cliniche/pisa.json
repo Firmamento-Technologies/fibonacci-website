@@ -30,7 +30,7 @@
   "formaSocietaria": "SRLS",
   "partitaIva": "02551380500",
   "telefono": "+3905042235",
-  "email": "",
+  "email": "studiobandettini@gmail.com",
   "sitoUrl": "https://dentistibandettini.it/",
   "indirizzo": "Corso Italia, 178",
   "cap": "56125",
@@ -47,7 +47,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 43.711308,
+  "lon": 10.399242,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Odontoiatrico Bandettini",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-18:00"
+  ]
  },
  {
   "dominio": "dottorlicata.it",
@@ -76,7 +83,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "licatapisa",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "unipegasopisa.com",
@@ -102,6 +111,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Unipegaso Pisa",
+  "tipoDichiarato": "Organization"
  }
 ]

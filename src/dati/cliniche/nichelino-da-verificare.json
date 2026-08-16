@@ -76,6 +76,30 @@
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  },
  {
+  "dominio": "genovamedica.omceoge.it",
+  "nome": "Archivio Genova Medica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://genovamedica.omceoge.it/index.php",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "nichelino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://genovamedica.omceoge.it/index.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "nailsandbeautylab.com",
   "nome": "Nails and Beauty LAB",
   "formaSocietaria": "",
@@ -103,5 +127,10 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "occhioebenessere.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

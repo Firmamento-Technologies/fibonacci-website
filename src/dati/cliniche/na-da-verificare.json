@@ -91,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "SS Beauty and Fitness",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrosmiledental.it",
@@ -123,7 +125,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro Smile Dental",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "damapoint.it",
@@ -152,7 +156,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Damapoint",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermahair.it",
@@ -177,7 +183,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Derma Hair",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermal-aesthetics.it",
@@ -208,7 +216,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dermal Aesthetics",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottcarlocarli.it",
@@ -261,7 +271,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr med. Ingemar Blaas",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drstefanodeluca.com",
@@ -287,7 +299,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Stefano De Luca Chirurgo Plastico",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dsaesthetic.com",
@@ -316,7 +330,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "wp_7200561",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "esteticasicura.com",
@@ -422,7 +438,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Tartaro",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "gifran.it",
@@ -556,7 +574,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Margherita Tartaglia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lazershine.it",
@@ -584,7 +604,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Lazer Shine",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "localitybiz.it",
@@ -622,12 +644,12 @@
   "nome": "Dottoressa Maria Carmela Annunziata",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39-XXX-XXXXXXX",
   "email": "",
   "sitoUrl": "https://mcannunziata.it/",
   "indirizzo": "",
   "cap": "",
-  "comune": "",
+  "comune": "Napoli",
   "provincia": "na",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -639,7 +661,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Maria Carmela Annunziata",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "medicina365.it",
@@ -664,7 +688,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina365",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "paradiseofbeauty.it",
@@ -719,7 +745,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Pierluigi Canta",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "rigenerativa.com",
@@ -754,7 +782,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Rigenerativa.com",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioaceto.it",
@@ -850,7 +880,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Nice",
+  "tipoDichiarato": "Organization",
+  "lat": 40.826905,
+  "lon": 14.198514,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "terapiacellulite.it",

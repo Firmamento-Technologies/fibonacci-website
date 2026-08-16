@@ -74,6 +74,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Merola, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Merola, e il dominio lo ripete",
+  "nomeStrutturato": "Raffaele Merola",
+  "tipoDichiarato": "Person"
+ },
+ {
+  "dominio": "telemolise.com",
+  "nome": "Telemolise",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00213640709",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://telemolise.com/",
+  "indirizzo": "Via San Giovanni in Golfo Z.I. 0874",
+  "cap": "",
+  "comune": "",
+  "provincia": "is",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://telemolise.com/",
+   "https://telemolise.com/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Telemolise",
+  "tipoDichiarato": "Organization"
  }
 ]

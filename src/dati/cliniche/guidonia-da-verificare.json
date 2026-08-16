@@ -35,7 +35,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+390692949246",
-  "email": "",
+  "email": "direzione@logospolosanitario.it",
   "sitoUrl": "https://www.logospolosanitario.it/",
   "indirizzo": "Via della Tenuta del Cavaliere 1",
   "cap": "00012",
@@ -51,6 +51,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Logos Polo Sanitario",
+  "tipoDichiarato": "MedicalOrganization LocalBusiness"
  }
 ]

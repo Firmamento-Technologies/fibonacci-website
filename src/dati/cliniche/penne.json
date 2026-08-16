@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "B Life srl - Il Catalogo Medicale",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "borgopilotti.it",
@@ -51,7 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Borgo Pilotti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drfillermast.it",
@@ -79,7 +83,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fillermast Vai, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fillermast Vai, cognome dentro il dominio",
+  "nomeStrutturato": "Mast Industria Italiana",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "marcojovane.com",
@@ -108,7 +114,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Jovane, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Jovane, e il dominio lo ripete",
+  "nomeStrutturato": "Studio Medico Dr. Marco Jovane",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medvetsrl.it",
@@ -138,7 +146,42 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medvet Srl",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "patriziovicini.it",
+  "nome": "Dott. Prof. Patrizio Vicini: Andrologo e Urologo a Roma",
+  "formaSocietaria": "",
+  "partitaIva": "08311621000",
+  "telefono": "+39 0652244466",
+  "email": "info@patriziovicini.it",
+  "sitoUrl": "https://www.patriziovicini.it/",
+  "indirizzo": "Via G. Garibaldi 117",
+  "cap": "00144",
+  "comune": "Roma",
+  "provincia": "penne",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Patrizio Vicini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.patriziovicini.it/",
+   "https://www.patriziovicini.it/contatti-dott-patrizio-vicini/",
+   "https://www.patriziovicini.it/roma-gender-team/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Patrizio Vicini, e il dominio lo ripete",
+  "nomeStrutturato": "Patrizio Vicini",
+  "tipoDichiarato": "Person Organization",
+  "lat": 41.806537,
+  "lon": 12.446557,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 09:00-20:15"
+  ]
  },
  {
   "dominio": "quotidianosanita.it",
@@ -163,7 +206,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Quotidiano Sanità",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "trovaprezzi.it",
@@ -191,7 +236,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Trovaprezzi.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ufficiodiscount.it",

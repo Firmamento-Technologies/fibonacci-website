@@ -26,6 +26,31 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "clinicasiligato.com",
+  "nome": "Centro medico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39076623247",
+  "email": "info@clinicasiligato.it",
+  "sitoUrl": "https://www.clinicasiligato.com/",
+  "indirizzo": "Via Buonarroti, n.54",
+  "cap": "00053",
+  "comune": "Civitavechia",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicasiligato.com/",
+   "https://www.clinicasiligato.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "drpesci.com",
   "nome": "Dott. Lorenzo Pesci",
   "formaSocietaria": "",
@@ -82,6 +107,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Barbara",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "tusciaup.com",
+  "nome": "TusciaUp",
+  "formaSocietaria": "",
+  "partitaIva": "02159800560",
+  "telefono": "",
+  "email": "segreteria@tusciaup.com",
+  "sitoUrl": "https://www.tusciaup.com/",
+  "indirizzo": "via San Pellegrino 2",
+  "cap": "01030",
+  "comune": "Vitorchiano",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.tusciaup.com/",
+   "http://www.tusciaup.com/chi-siamo",
+   "https://www.tusciaup.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

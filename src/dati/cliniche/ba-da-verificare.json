@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "andreaarmenio.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "centronewlifemedicinaestetica.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -38,6 +43,58 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "doctory.it",
+  "nome": "Elenco di medici e salute in Italia con valutazioni reali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://doctory.it/",
+  "indirizzo": "Viale Ruggero Bacone, 6",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "ba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://doctory.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "esteticavenusbari.it",
+  "nome": "Venus",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390802021527",
+  "email": "info@centrobenesserevenus.com",
+  "sitoUrl": "https://www.esteticavenusbari.it/",
+  "indirizzo": "Via Orfeo Mazzitelli, 260",
+  "cap": "",
+  "comune": "",
+  "provincia": "ba",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticavenusbari.it/",
+   "https://www.esteticavenusbari.it/chi-siamo-venus/",
+   "https://www.esteticavenusbari.it/le-sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "farmamedbari.it",
   "nome": "Farmamed Bari",
   "formaSocietaria": "",
@@ -70,7 +127,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "FARMAMED BARI",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "findglocal.com",
@@ -99,6 +158,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "ieo.it",
+  "nome": "IEO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ieo.it/",
+  "indirizzo": "via Ripamonti 435",
+  "cap": "20139",
+  "comune": "Milano",
+  "provincia": "ba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ieo.it/",
+   "https://www.ieo.it/it/PNA/Contatti/",
+   "https://www.ieo.it/it/CHI-SIAMO/storia-istituto/Il-nostro-fondatore/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "mbartsurgery.it",
   "nome": "Chirurgo Rinoplastica",
   "formaSocietaria": "",
@@ -121,7 +206,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "MB Art Surgery",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticabari.it",
@@ -157,7 +244,7 @@
   "formaSocietaria": "",
   "partitaIva": "00573400728",
   "telefono": "+390805211153",
-  "email": "",
+  "email": "static.bari@tin.it",
   "sitoUrl": "https://www.staticbari.it/",
   "indirizzo": "corso Mazzini Giuseppe 136",
   "cap": "70123",
@@ -174,7 +261,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.124916,
+  "lon": 16.853953,
+  "nomeStrutturato": "STATIC CENTRO FISIOTERAPICO E RADIOLOGICO CONVENZIONATO SNN",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 07:30-19:30",
+   "Saturday 08:00-10:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "stefanolovero.com",
@@ -241,6 +336,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Leone Desantis",
+  "tipoDichiarato": "MedicalOrganization Organization"
+ },
+ {
+  "dominio": "studiolospalluti.it",
+  "nome": "Studio Dermatologico Lospalluti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiolospalluti.it",
+  "sitoUrl": "https://studiolospalluti.it/",
+  "indirizzo": "Via Pietro Leonida Laforgia, 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "ba",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiolospalluti.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "analdi.it",
+  "nome": "Analdi.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06301130826",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.analdi.it/",
+  "indirizzo": "Via Ricasoli, 59",
+  "cap": "",
+  "comune": "",
+  "provincia": "sedico",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.analdi.it/",
+   "https://www.analdi.it/contatti/",
+   "https://www.analdi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "ilmondodilara.it",
   "nome": "Il Mondo di Lara Centro Estetico Sedico BL",
   "formaSocietaria": "",

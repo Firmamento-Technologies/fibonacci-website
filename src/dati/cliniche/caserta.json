@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "dominio": "clinicasanmichele.com",
+  "nome": "Struttura Multidisciplinare ad Alta Complessità",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00258670611",
+  "telefono": "+390823208111",
+  "email": "info@clinicasanmichele.com",
+  "sitoUrl": "https://www.clinicasanmichele.com/",
+  "indirizzo": "Via Montella n. 16",
+  "cap": "81024",
+  "comune": "Maddaloni",
+  "provincia": "caserta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.clinicasanmichele.com/",
+   "https://www.clinicasanmichele.com/orari-e-contatti/",
+   "https://www.clinicasanmichele.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura San Michele",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ugomanliocuomo.it",
+  "nome": "Studio Cuomo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04706140615",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ugomanliocuomo.it/",
+  "indirizzo": "Via Elena 21",
+  "cap": "81047",
+  "comune": "Macerata",
+  "provincia": "caserta",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ugomanliocuomo.it/",
+   "https://ugomanliocuomo.it/chi-siamo/",
+   "https://ugomanliocuomo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Ugo Manlio Cuomo",
+  "tipoDichiarato": "Organization"
+ }
+]

@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "infermieritorvergata.net",
+  "nome": "InfermieriTorVergata.NET",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.infermieritorvergata.net/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "tivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.infermieritorvergata.net/",
+   "https://www.infermieritorvergata.net/contatti/",
+   "https://www.infermieritorvergata.net/category/tutte-le-sedi/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "medicinaesteticativoli.com",
   "nome": "Medicina Estetica Tivoli",
   "formaSocietaria": "",
@@ -54,7 +80,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Arte e Inchiostro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticodreamsmile.it",
@@ -80,6 +108,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "DreamSmile",
+  "tipoDichiarato": "Organization"
  }
 ]

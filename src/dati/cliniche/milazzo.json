@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CALOPRESTI ANTONIO",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriogalenomilazzo.it",
@@ -48,6 +50,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Galeno",
+  "tipoDichiarato": "Organization"
  }
 ]

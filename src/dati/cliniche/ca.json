@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Alessandro Boi Medico Sportivo Cagliari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "asl8cagliari.it",
@@ -116,8 +118,8 @@
   "email": "info@centromedicocao.it",
   "sitoUrl": "https://centromedicocao.it/",
   "indirizzo": "via Cirenaica 15",
-  "cap": "",
-  "comune": "",
+  "cap": "09044",
+  "comune": "Quartucciu",
   "provincia": "ca",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -131,7 +133,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.252627,
+  "lon": 9.176858,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico Cao",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-13:00",
+   "Monday,Tuesday,Wednesday,Thursday,Friday 16:30-19:30"
+  ]
  },
  {
   "dominio": "centromedicoimulini.it",
@@ -222,7 +232,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bestwell Clinica Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicadeasalus.it",
@@ -258,7 +270,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Clinica Deasalus",
+  "orari": [
+   "Monday,Friday 15:00-19:00",
+   "Tuesday,Thursday 10:00-19:00",
+   "Wednesday 15:00-20:00"
+  ]
  },
  {
   "dominio": "csclinic.it",
@@ -288,7 +307,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CS Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dalleceneridellafenice.it",
@@ -321,7 +342,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dalle Ceneri della Fenice",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologocagliariguicciardi.com",
@@ -355,7 +378,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 39.231829,
+  "lon": 9.126098,
+  "nomeStrutturato": "Centro Eudermia",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 16:00-20:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "dettaglimedicinaestetica.com",
@@ -419,7 +449,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Cagliari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "jumeaux.it",
@@ -452,7 +484,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Jumeaux SRL",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "lmdentalclinic.it",
@@ -510,7 +544,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Manuela Pili, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Manuela Pili, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Manuela Pili Medico Estetico",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
+ },
+ {
+  "dominio": "medicall.it",
+  "nome": "Medicall • Medici Specialisti Cagliari • Visite Mediche in tempi brevi",
+  "formaSocietaria": "",
+  "partitaIva": "03703560924",
+  "telefono": "+393480454779",
+  "email": "info@medicall.it",
+  "sitoUrl": "https://www.medicall.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.medicall.it/",
+   "https://www.medicall.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "medicoesteticomassidda.it",
@@ -539,7 +603,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medico Estetico Massidda",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "silviacaboni.it",
@@ -599,14 +665,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dermatologico Lallai",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "wellssuite.it",
   "nome": "Wellssuite Centro di Medicina, Estetica e Trattamenti a Cagliari",
   "formaSocietaria": "SRL",
   "partitaIva": "03727330924",
-  "telefono": "",
+  "telefono": "070 0985472",
   "email": "info@wellssuite.it",
   "sitoUrl": "https://www.wellssuite.it/",
   "indirizzo": "Piazza Repubblica, 28",
@@ -627,7 +695,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Wellssuite Medical Centre",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "youmedical.it",
@@ -663,6 +733,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Youmedical",
+  "tipoDichiarato": "Organization"
  }
 ]

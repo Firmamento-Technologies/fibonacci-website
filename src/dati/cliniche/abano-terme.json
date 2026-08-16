@@ -82,7 +82,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicarmonia",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "HealthAndBeautyBusiness Organization"
+ },
+ {
+  "dominio": "michelasalmaso.com",
+  "nome": "Michela Salmaso",
+  "formaSocietaria": "",
+  "partitaIva": "04365610288",
+  "telefono": "",
+  "email": "info@michelasalmaso.com",
+  "sitoUrl": "https://www.michelasalmaso.com/",
+  "indirizzo": "Via N. Tommaseo, 67",
+  "cap": "35131",
+  "comune": "Padova",
+  "provincia": "abano-terme",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Michela Salmaso, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.michelasalmaso.com/",
+   "https://www.michelasalmaso.com/sedi"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Salmaso, e il dominio lo ripete"
  },
  {
   "dominio": "premiereabano.it",
@@ -133,7 +166,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Terme Quisisana Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "salusterme.it",
@@ -185,7 +220,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hotel Smeraldo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "termetritone.it",
@@ -212,6 +249,35 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "thebeautysuiteabano.it",
+  "nome": "The Beauty Suite Abano",
+  "formaSocietaria": "",
+  "partitaIva": "02263580413",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.thebeautysuiteabano.it/",
+  "indirizzo": "Via A. Volta, 26",
+  "cap": "35031",
+  "comune": "Abano",
+  "provincia": "abano-terme",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.thebeautysuiteabano.it/",
+   "https://www.thebeautysuiteabano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "The Beauty Suite Abano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "thermalmedica.it",

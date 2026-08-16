@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bellezza Estetica Parma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drzchirurgiaestetica.it",
@@ -37,8 +39,8 @@
   "email": "",
   "sitoUrl": "https://www.drzchirurgiaestetica.it/",
   "indirizzo": "Via Cerva 16",
-  "cap": "",
-  "comune": "",
+  "cap": "20122",
+  "comune": "Milano",
   "provincia": "parma",
   "prestazioni": [
    "Tossina botulinica"
@@ -54,7 +56,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Chirurgo Estetico Milano Renato Zaccheddu",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "poliambulatorio.medlavitalia.it",

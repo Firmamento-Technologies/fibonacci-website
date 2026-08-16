@@ -21,7 +21,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ambulatori Valdarno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cosmeticstudiocentroestetico.myadj.it",
@@ -79,7 +81,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+39055943392",
-  "email": "",
+  "email": "prosperi_antonio@fastwebnet.it",
   "sitoUrl": "https://www.studiodentisticoprosperi.com/",
   "indirizzo": "Via Aretina, 6",
   "cap": "52010",
@@ -96,6 +98,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Prosperi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Prosperi, cognome dentro il dominio",
+  "lat": 43.574825,
+  "lon": 11.523926,
+  "nomeStrutturato": "PROSPERI DR. ANTONIO STUDIO DENTISTICO",
+  "orari": [
+   "Monday, Tuesday, Thursday, Friday 09:00-13:00",
+   "Tuesday, Thursday 15:30-19:30"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

@@ -22,6 +22,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.458,
+  "lon": 9.235,
+  "nomeStrutturato": "CityPage",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

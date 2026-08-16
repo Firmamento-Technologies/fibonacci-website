@@ -27,7 +27,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Cirino, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessia Cirino, e il dominio lo ripete",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "antonellacapponi.it",
@@ -87,6 +88,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "clinicadermatologicancona.it",
+  "nome": "Clinica Dermatologica Ancona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390715963432",
+  "email": "",
+  "sitoUrl": "https://www.clinicadermatologicancona.it/",
+  "indirizzo": "Via Conca 71",
+  "cap": "60126",
+  "comune": "Ancona",
+  "provincia": "an",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.clinicadermatologicancona.it/",
+   "https://www.clinicadermatologicancona.it/informazioni-di-contatto/",
+   "https://www.clinicadermatologicancona.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "clinicaunica.it",
   "nome": "Unica Medical Center",
   "formaSocietaria": "",
@@ -116,7 +145,7 @@
   "nome": "Medicina Estetica Ancona e Jesi",
   "formaSocietaria": "SRL",
   "partitaIva": "02416510424",
-  "telefono": "",
+  "telefono": "071203046",
   "email": "",
   "sitoUrl": "https://www.dottoressapatriziasacchi.it/",
   "indirizzo": "Via Villafranca, 4",
@@ -143,7 +172,105 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "PS. MEDICAL CENTER - Dott.ssa Patrizia Sacchi",
+  "tipoDichiarato": "Organization",
+  "lat": 43.617249,
+  "lon": 13.51241,
+  "orari": [
+   "Mo-Fr 09:00-19:00"
+  ]
+ },
+ {
+  "dominio": "drmichelepelliccioni.it",
+  "nome": "Dr. Michele Pelliccioni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393393330634",
+  "email": "",
+  "sitoUrl": "https://www.drmichelepelliccioni.it/",
+  "indirizzo": "",
+  "cap": "06345",
+  "comune": "Specializzazione",
+  "provincia": "an",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Michele Pelliccioni, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drmichelepelliccioni.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Pelliccioni, cognome dentro il dominio"
+ },
+ {
+  "dominio": "futuremedicalcare.it",
+  "nome": "FMC Future Medical Care",
+  "formaSocietaria": "",
+  "partitaIva": "02824820423",
+  "telefono": "",
+  "email": "info@futuremedicalcare.it",
+  "sitoUrl": "https://www.futuremedicalcare.it/",
+  "indirizzo": "Via Barilatti 7",
+  "cap": "60127",
+  "comune": "Ancona",
+  "provincia": "an",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.futuremedicalcare.it/",
+   "https://www.futuremedicalcare.it/chi-siamo/",
+   "https://www.futuremedicalcare.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "FMC - Future Medical Care",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "michelericcio.it",
+  "nome": "Michele Riccio Michele Riccio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393662763421",
+  "email": "info@michelericcio.it",
+  "sitoUrl": "https://www.michelericcio.it/wp-signup.php?new=michelericcio.it",
+  "indirizzo": "via Conca 71",
+  "cap": "",
+  "comune": "",
+  "provincia": "an",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Michele Riccio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.michelericcio.it/wp-signup.php?new=michelericcio.it",
+   "https://www.michelericcio.it/contatti/",
+   "https://www.michelericcio.it/informazioni-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michele Riccio, e il dominio lo ripete",
+  "nomeStrutturato": "Michele Riccio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "veronicaconsales.it",

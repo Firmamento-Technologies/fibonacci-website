@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "centroribor.it",
+  "nome": "Centro Medico Ribor",
+  "formaSocietaria": "",
+  "partitaIva": "09351200960",
+  "telefono": "+390298993771",
+  "email": "info@centroribor.it",
+  "sitoUrl": "https://www.centroribor.it/",
+  "indirizzo": "Viale Famagosta 50",
+  "cap": "20142",
+  "comune": "Milano",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centroribor.it/",
+   "https://www.centroribor.it/chi-siamo",
+   "https://www.centroribor.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "duomo13.it",
   "nome": "Epilazione laser diodo",
   "formaSocietaria": "",
@@ -52,7 +78,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio ICOM",
+  "orari": [
+   "Monday - Friday 09-19\r\nSaturday - Sunday Closed"
+  ],
+  "tipoDichiarato": "medicalclinic"
  },
  {
   "dominio": "sitri.it",

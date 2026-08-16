@@ -60,5 +60,37 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "paologrecodermatologo.it",
+  "nome": "Paolo Greco Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "04810950750",
+  "telefono": "+393938830575",
+  "email": "",
+  "sitoUrl": "https://paologrecodermatologo.it/",
+  "indirizzo": "Piazza Giocchino Toma 8",
+  "cap": "73010",
+  "comune": "Caprarica",
+  "provincia": "le",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://paologrecodermatologo.it/",
+   "https://paologrecodermatologo.it/contatti/",
+   "https://paologrecodermatologo.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Paolo Greco Dermatologo",
+  "tipoDichiarato": "Organization"
  }
 ]

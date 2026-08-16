@@ -4,12 +4,12 @@
   "nome": "Centro Medico Porta a Terra",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+390586260496",
   "email": "segreteria@centromedicoportaterra.it",
   "sitoUrl": "https://centromedicoportaterra.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Giotto Ciardi, 8",
+  "cap": "57121",
+  "comune": "Livorno",
   "provincia": "livorno",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -21,7 +21,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Porta a Terra",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
+   "Saturday 09:00-13:00"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "centromedicosalusitinere.it",
@@ -75,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Group",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "robertoamore.com",
@@ -107,6 +115,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Amore, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Amore, e il dominio lo ripete",
+  "nomeStrutturato": "Roberto Amore Chirurgo Plastico",
+  "tipoDichiarato": "Organization"
  }
 ]

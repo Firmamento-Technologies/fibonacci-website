@@ -54,6 +54,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "ordinemedicilatina.it",
+  "nome": "OMCeO Latina",
+  "formaSocietaria": "",
+  "partitaIva": "80000930596",
+  "telefono": "+390773693665",
+  "email": "info@ordinemedicilatina.it",
+  "sitoUrl": "https://ordinemedicilatina.it/",
+  "indirizzo": "Piazza Angelo Celli, 3",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "sezze",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedicilatina.it/",
+   "https://ordinemedicilatina.it/contatti/",
+   "https://ordinemedicilatina.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "silviacentroestetico.it",
   "nome": "Silvia Fashion",
   "formaSocietaria": "",
@@ -79,6 +105,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Silvia Fashion",
+  "tipoDichiarato": "Organization"
  }
 ]

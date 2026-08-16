@@ -65,7 +65,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Vangone, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Annalisa Vangone, e il dominio lo ripete",
+  "nomeStrutturato": "Annalisa Vangone",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "caterinamiscia.it",
@@ -97,7 +99,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Miscia, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Caterina Miscia, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Caterina Miscia - Medicina estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "doctormemmo.com",
@@ -192,7 +196,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Equipe Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "laserclinic.it",
@@ -226,7 +232,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Skin Laser Clinic",
+  "tipoDichiarato": "Organization",
+  "lat": 42.452374,
+  "lon": 14.222232,
+  "orari": [
+   "Mo-Fr 09:00-20:00"
+  ]
  },
  {
   "dominio": "lnx.andipescara.it",
@@ -298,8 +311,8 @@
   "email": "info@poliambulatoriosanpaolo.com",
   "sitoUrl": "https://www.poliambulatoriosanpaolo.com/",
   "indirizzo": "Via San Paolo, 11",
-  "cap": "",
-  "comune": "",
+  "cap": "65015",
+  "comune": "Montesilvano",
   "provincia": "pe",
   "prestazioni": [
    "Laser",
@@ -314,7 +327,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio San Paolo",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "robertoroddi.com",
@@ -344,7 +362,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Roberto Roddi - Chirurgo Plastico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "stenellacno.it",
@@ -378,11 +398,11 @@
   "formaSocietaria": "",
   "partitaIva": "01838050688",
   "telefono": "+393283153317",
-  "email": "",
+  "email": "studiomedico@membrino.it",
   "sitoUrl": "https://studiomedicomembrino.it/",
   "indirizzo": "Via Orazio 123",
-  "cap": "",
-  "comune": "",
+  "cap": "65123",
+  "comune": "Pescara",
   "provincia": "pe",
   "prestazioni": [
    "Filler",
@@ -400,6 +420,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Membrino",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday 09:00-17:30",
+   "Wednesday 09:00-17:30",
+   "Thursday 15:30-19:30",
+   "Friday 09:00-13:30"
+  ]
  }
 ]

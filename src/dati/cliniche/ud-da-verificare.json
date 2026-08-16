@@ -56,7 +56,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Cliniche Blanc",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "darinbetta.it",
@@ -146,6 +148,60 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "machetalento.it",
+  "nome": "Ma che Talento!",
+  "formaSocietaria": "",
+  "partitaIva": "01865490971",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.machetalento.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.machetalento.it/",
+   "https://www.machetalento.it/chi-siamo/",
+   "https://www.machetalento.it/contatti-e-collaborazioni/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sanipro.org",
+  "nome": "SaniPro S.r.l.",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02764990301",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sanipro.org/",
+  "indirizzo": "Viale Tullio 7",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://sanipro.org/",
+   "https://sanipro.org/ambulatori/contatti",
+   "https://sanipro.org/formazione/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "SaniPro S.r.l.",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "studiocesari.com",
   "nome": "Studio Dott.ssa Cesari",
   "formaSocietaria": "",
@@ -198,6 +254,32 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://www.studiomedicotomat.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "uniud.it",
+  "nome": "UNIUD",
+  "formaSocietaria": "",
+  "partitaIva": "01071600306",
+  "telefono": "+390432556111",
+  "email": "",
+  "sitoUrl": "https://www.uniud.it/it",
+  "indirizzo": "via Boiani 4",
+  "cap": "33100",
+  "comune": "Udine",
+  "provincia": "ud",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.uniud.it/it",
+   "https://www.uniud.it/it/ateneo-uniud/sedi/sedi",
+   "https://www.uniud.it/it/didattica/segreteria-studenti/sedi-orari"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "amusodomenico.it",
+  "nome": "amusodomenico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://amusodomenico.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "mo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://amusodomenico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centrodentaledigitale.it",
   "nome": "Studio Dentistico Bologna Modena",
   "formaSocietaria": "",
@@ -36,7 +60,7 @@
   "sitoUrl": "https://claudioblessent.com/",
   "indirizzo": "",
   "cap": "",
-  "comune": "",
+  "comune": "Modena",
   "provincia": "mo",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -48,7 +72,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dr. Claudio Blessent — Chirurgia Plastica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicacantoni.com",
@@ -76,7 +102,74 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Clinica Cantoni",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "gianpieromantovani.com",
+  "nome": "Dott. Gian Piero Mantovani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gianpieromantovani.com/",
+  "indirizzo": "Via Del Pozzo 71",
+  "cap": "41125",
+  "comune": "",
+  "provincia": "mo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gianpieromantovani.com/",
+   "https://gianpieromantovani.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "GianPieroManto",
+  "tipoDichiarato": "Person"
+ },
+ {
+  "dominio": "modenapermodena.it",
+  "nome": "Modena Per Modena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@modenapermodena.it",
+  "sitoUrl": "https://www.modenapermodena.it/",
+  "indirizzo": "via Benassi: 110",
+  "cap": "41124",
+  "comune": "Modena",
+  "provincia": "mo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.modenapermodena.it/",
+   "https://www.modenapermodena.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Modena per Modena",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "siti-internet.wixsite.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "studiodentisticoaspiro.com",
@@ -103,6 +196,33 @@
   "fonteUrl": [
    "https://www.studiodentisticoaspiro.com/",
    "https://www.studiodentisticoaspiro.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicobuonpastore.it",
+  "nome": "studiomedicobuonpastore.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sites.google.com/view/studiomedicobuonpastore/home",
+  "indirizzo": "via Sassi, n. 20",
+  "cap": "41124",
+  "comune": "MODENA",
+  "provincia": "mo",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sites.google.com/view/studiomedicobuonpastore/home"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

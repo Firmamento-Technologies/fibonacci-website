@@ -55,7 +55,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Nelma Beauty",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "santagostinoimola.it",
+  "nome": "Santagostino Imola: il centro medico vicino a te",
+  "formaSocietaria": "SPA",
+  "partitaIva": "03740811207",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santagostinoimola.it/",
+  "indirizzo": "Via Turibio Baruzzi 4",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.santagostinoimola.it/",
+   "https://www.santagostinoimola.it/chi-siamo/",
+   "https://www.santagostinoimola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Santagostino Imola",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiolipariderobertis.it",
@@ -81,6 +111,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Lipari De Robertis",
+  "tipoDichiarato": "Person Organization"
  }
 ]

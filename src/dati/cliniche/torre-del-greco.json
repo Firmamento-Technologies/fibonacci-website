@@ -56,7 +56,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Sannino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicasantamarialabruna.it",

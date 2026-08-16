@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Benessere Biomed",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiobovicelli.it",
@@ -50,6 +52,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Bovicelli, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Bovicelli, cognome dentro il dominio",
+  "nomeStrutturato": "Dentista a Siena e Poggibonsi :: Studio medico odontoiatrico Roberto e Alessandro Bovicelli",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -51,6 +51,58 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Esteticartemisia",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "marialetiziaderrigo.it",
+  "nome": "maria-letizia-d'errigo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://marialetiziaderrigo.it/",
+  "indirizzo": "Via Capt Fiorillo 6",
+  "cap": "54033",
+  "comune": "Marina",
+  "provincia": "carrara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://marialetiziaderrigo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ordinedeimedicims.org",
+  "nome": "Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Massa C",
+  "formaSocietaria": "",
+  "partitaIva": "82001490455",
+  "telefono": "+39058570373",
+  "email": "segreteria@ordinedeimedicims.org",
+  "sitoUrl": "https://ordinedeimedicims.org/",
+  "indirizzo": "Piazza G.Matteotti, 4",
+  "cap": "70373",
+  "comune": "",
+  "provincia": "carrara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinedeimedicims.org/",
+   "https://ordinedeimedicims.org/ordine/segreteria/urp-contatti.html",
+   "https://ordinedeimedicims.org/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

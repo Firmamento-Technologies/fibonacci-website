@@ -47,6 +47,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "I dentisti vicino a te",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "tulamed.it",
+  "nome": "Tu.La Life’s Health",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03898580133",
+  "telefono": "+39031570003",
+  "email": "info@tulamed.it",
+  "sitoUrl": "https://tulamed.it/",
+  "indirizzo": "Via Campo Garibaldi, 1",
+  "cap": "22100",
+  "comune": "Como",
+  "provincia": "sarezzo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://tulamed.it/",
+   "https://tulamed.it/contatti/",
+   "https://tulamed.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  }
 ]

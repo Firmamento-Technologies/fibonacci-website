@@ -63,8 +63,8 @@
   "nome": "irinapoleva.it",
   "formaSocietaria": "",
   "partitaIva": "06379121004",
-  "telefono": "",
-  "email": "",
+  "telefono": "+39 06.44252747",
+  "email": "iripoleva@gmail.com",
   "sitoUrl": "https://irinapoleva.it/it/",
   "indirizzo": "via Nomentana 173",
   "cap": "00161",
@@ -88,6 +88,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Irina Poleva, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Irina Poleva, e il dominio lo ripete",
+  "nomeStrutturato": "Studio Medico Irina Poleva",
+  "tipoDichiarato": "Organization",
+  "lat": 41.920062,
+  "lon": 12.520042,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-18:00"
+  ]
  }
 ]

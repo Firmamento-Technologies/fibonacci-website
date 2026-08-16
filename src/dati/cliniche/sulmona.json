@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "For Life",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodermatologico.it",
@@ -110,6 +112,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "UMBRIA FILLER S.r.l",
+  "tipoDichiarato": "Organization"
  }
 ]

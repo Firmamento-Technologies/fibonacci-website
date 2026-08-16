@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinic Medical Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estesia.it",
@@ -36,8 +38,8 @@
   "email": "info@estesia.it",
   "sitoUrl": "https://www.estesia.it/",
   "indirizzo": "Via Ferdinando Acton 59",
-  "cap": "",
-  "comune": "",
+  "cap": "00122",
+  "comune": "Lido di Ostia",
   "provincia": "ostia",
   "prestazioni": [
    "Filler",
@@ -57,7 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estesìa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticamarzia.com",
@@ -85,7 +89,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estetica Marzia - DIBI CENTER - di Marzia Campione",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "spazio-medico.it",
@@ -113,7 +119,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Spazio Medico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioreginamariapia.it",

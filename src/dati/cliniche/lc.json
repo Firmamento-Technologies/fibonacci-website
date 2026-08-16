@@ -127,6 +127,38 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "salvatorescandura.it",
+  "nome": "Salvatore Scandura Chirurgo Plastico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390341287577",
+  "email": "info@salvatorescandura.it",
+  "sitoUrl": "https://www.salvatorescandura.it/",
+  "indirizzo": "Via Leonardo Da Vinci, 8",
+  "cap": "23900",
+  "comune": "Lecco",
+  "provincia": "lc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Salvatore Scandura, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.salvatorescandura.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Salvatore Scandura, e il dominio lo ripete"
+ },
+ {
   "dominio": "solivo.it",
   "nome": "Solivo",
   "formaSocietaria": "SRL",
@@ -152,6 +184,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Solivo",
+  "tipoDichiarato": "Organization"
  }
 ]

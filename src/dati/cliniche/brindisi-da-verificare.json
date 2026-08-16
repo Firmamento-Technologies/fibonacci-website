@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "dominio": "centroesteticohermitage.com",
+  "nome": "Centro di estetica avanzata e dimagrimento a Brindisi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908311623737",
+  "email": "info@centroesteticohermitage.com",
+  "sitoUrl": "https://centroesteticohermitage.com/",
+  "indirizzo": "Viale Palmiro Togliatti,60",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "brindisi",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://centroesteticohermitage.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "centromedicoerario.it",
+  "nome": "Centro Medico Specialistico Dott. Antonio Erario",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02271830743",
+  "telefono": "+390831526170",
+  "email": "info@centromedicoerario.it",
+  "sitoUrl": "https://www.centromedicoerario.it/",
+  "indirizzo": "Via Annunziata 11",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "brindisi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicoerario.it/",
+   "https://www.centromedicoerario.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Specialistico Dott. Antonio Erario.",
+  "tipoDichiarato": "Organization"
+ }
+]

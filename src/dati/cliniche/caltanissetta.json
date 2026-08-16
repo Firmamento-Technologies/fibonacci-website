@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Spinelli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Spinelli, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Giuseppe Spinelli",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "normaamico.com",
@@ -86,7 +88,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Policologna centro medico specialistico",
+  "tipoDichiarato": "LocalBusiness",
+  "orari": [
+   "Mo-Fr 08:00-19:00"
+  ]
  },
  {
   "dominio": "studiomilamilia.it",

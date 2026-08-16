@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Trichini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Trichini, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Antonio Trichini",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "barbaracassese.com",
@@ -121,7 +123,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Federico Campedelli Dentista e Medico Estetico",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "Dentist Organization"
  },
  {
   "dominio": "latuaimmagine.net",
@@ -146,6 +153,33 @@
    "https://latuaimmagine.net/",
    "https://latuaimmagine.net/chi-siamo/",
    "https://latuaimmagine.net/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambcittadicarpi.it",
+  "nome": "Clinica Privata Carpi, Modena, Reggio Emilia : Poliambulatorio Città d",
+  "formaSocietaria": "",
+  "partitaIva": "04047270360",
+  "telefono": "+39059669393",
+  "email": "info@poliambcittadicarpi.it",
+  "sitoUrl": "https://www.poliambcittadicarpi.it/",
+  "indirizzo": "Via Ivano Martinelli, 10",
+  "cap": "41012",
+  "comune": "Fossoli",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.poliambcittadicarpi.it/",
+   "https://www.poliambcittadicarpi.it/chi-siamo.php"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -211,6 +245,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Villa Richeldi",
+  "tipoDichiarato": "Organization"
  }
 ]

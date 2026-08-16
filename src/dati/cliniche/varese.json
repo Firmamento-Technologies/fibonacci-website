@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Polispecialistico Beccaria",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "paolomontemurro.com",
@@ -35,7 +37,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393759169612",
-  "email": "",
+  "email": "paolo.montemurro@ak.se",
   "sitoUrl": "https://www.paolomontemurro.com/",
   "indirizzo": "Via Volta 6",
   "cap": "21100",
@@ -53,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Montemurro, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Montemurro, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Paolo Montemurro: Chirurgo Plastico a Varese, Milano, Como, Brescia, Bergamo e Lugano",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "stefanoscamoni.it",

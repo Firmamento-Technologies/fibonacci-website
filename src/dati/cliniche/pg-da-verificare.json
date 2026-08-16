@@ -29,6 +29,11 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "chirurgiaplasticaperugia.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "dermatologiazeppa.com",
   "nome": "| Studio medico Zeppa Perugia dermatologia venereologia cura delle pat",
   "formaSocietaria": "",
@@ -61,6 +66,33 @@
   "dominio": "ringiovanimento-medico.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studimedicipg.it",
+  "nome": "Studi Medici San Nicolò",
+  "formaSocietaria": "",
+  "partitaIva": "03415520547",
+  "telefono": "+393666271567",
+  "email": "info@studimedicipg.it",
+  "sitoUrl": "https://www.studimedicipg.it/",
+  "indirizzo": "Via Ciro Chiarini 1",
+  "cap": "06053",
+  "comune": "Deruta",
+  "provincia": "pg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studimedicipg.it/",
+   "https://www.studimedicipg.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "studimedicipg",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "uslumbria1.it",

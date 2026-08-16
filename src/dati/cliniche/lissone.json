@@ -49,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Multidisciplinare Delta",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "massimilianogioco.it",
@@ -79,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gioco Massimiliano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gioco Massimiliano, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Gioco Massimiliano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medical-pro.it",
@@ -112,7 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MedicalPro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "momacentrodiagnostico.it",
@@ -138,7 +144,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Polidiagnostico MOMA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "perlacura.it",
@@ -164,6 +172,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "PerLa Cura",
+  "tipoDichiarato": "Organization"
  }
 ]

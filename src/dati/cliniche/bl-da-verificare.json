@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Glamour Belluno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lifestetica.com",
@@ -82,6 +84,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "medicibellunouno.it",
+  "nome": "Studio Medico BellunoUno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39043725013",
+  "email": "segreteria@medicibellunouno.it",
+  "sitoUrl": "https://www.medicibellunouno.it/",
+  "indirizzo": "Via Feltre, 196",
+  "cap": "25013",
+  "comune": "Inviando",
+  "provincia": "bl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicibellunouno.it/",
+   "https://www.medicibellunouno.it/contatti/",
+   "https://www.medicibellunouno.it/privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Medico BellunoUno",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "miraestetica.it",
   "nome": "centro estetico Belluno",
   "formaSocietaria": "",
@@ -107,6 +137,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Vf2",
+  "tipoDichiarato": "Organization"
  }
 ]

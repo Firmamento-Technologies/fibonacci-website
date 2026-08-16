@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "alessandrominenna.it",
+  "nome": "Studio Dentistico Alessandro Minenna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@alessandrominenna.it",
+  "sitoUrl": "https://www.alessandrominenna.it/",
+  "indirizzo": "corso V. Emanuele II , 15",
+  "cap": "71121",
+  "comune": "Foggia",
+  "provincia": "foggia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Minenna, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessandrominenna.it/",
+   "https://www.alessandrominenna.it/contatti/",
+   "https://www.alessandrominenna.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Minenna, e il dominio lo ripete"
+ },
+ {
   "dominio": "areabellessere.it",
   "nome": "Centro Benessere ed Estetico a Foggia",
   "formaSocietaria": "SRL",
@@ -28,6 +54,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Areabellessere",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "aslto4.piemonte.it",
+  "nome": "aslto4.piemonte.it",
+  "formaSocietaria": "",
+  "partitaIva": "09736160012",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aslto4.piemonte.it/",
+  "indirizzo": "via Po n. 11",
+  "cap": "10034",
+  "comune": "Chivasso",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aslto4.piemonte.it/",
+   "https://www.aslto4.piemonte.it/privacy",
+   "https://www.aslto4.piemonte.it/privacy-policy-del-sito"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centroesteticoelle.it",
   "nome": "Centro Estetico Elle",
   "formaSocietaria": "",
@@ -26,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro estetico Elle",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticalinearcenter.com",
@@ -53,6 +81,11 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lungodora.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "studiosimondi.it",

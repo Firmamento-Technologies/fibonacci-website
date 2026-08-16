@@ -85,6 +85,63 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Mec Estetica"
+ },
+ {
+  "dominio": "studio-meloni.com",
+  "nome": "Patrizia Meloni",
+  "formaSocietaria": "",
+  "partitaIva": "02125550901",
+  "telefono": "",
+  "email": "info@studio-meloni.com",
+  "sitoUrl": "https://www.studio-meloni.com/",
+  "indirizzo": "Via Don Sturzo n 4",
+  "cap": "07041",
+  "comune": "Alghero",
+  "provincia": "alghero",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studio-meloni.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiodermatologicospano.it",
+  "nome": "Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39079976710",
+  "email": "",
+  "sitoUrl": "https://www.studiodermatologicospano.it/",
+  "indirizzo": "Via Roth, 8",
+  "cap": "07041",
+  "comune": "ALGHERO",
+  "provincia": "alghero",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodermatologicospano.it/",
+   "https://www.studiodermatologicospano.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

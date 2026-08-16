@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SANITAS SRL - www.analisisanitas.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "carrara.it",
@@ -79,6 +81,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Silvestre - Lucera",
+  "tipoDichiarato": "Organization"
  }
 ]

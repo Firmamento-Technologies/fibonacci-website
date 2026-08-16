@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Palazzo Ristori",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologia-ferrara.it",
@@ -55,6 +57,43 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "esteticaharmony.net",
+  "nome": "Trattamenti di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390532750569",
+  "email": "carassiti.anna@libero.it",
+  "sitoUrl": "https://www.esteticaharmony.net/",
+  "indirizzo": "Via Borgo Punta, 173",
+  "cap": "44123",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.esteticaharmony.net/",
+   "https://www.esteticaharmony.net/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "lat": 44.84317,
+  "lon": 11.63969,
+  "nomeStrutturato": "ESTETICA HARMONY",
+  "orari": [
+   "Tuesday, Wednesday, Thursday, Friday 08:30-20:30",
+   "Saturday 08:30-17:30"
+  ],
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
   "dominio": "fmedicalpoliambulatorio.it",
   "nome": "Il tuo Poliambulatorio di fiducia a Ferrara",
   "formaSocietaria": "SRL",
@@ -78,7 +117,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.832895,
+  "lon": 11.612055,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "F Medical Poliambulatorio",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 07:00 - 20:00",
+   "Saturday 07:00 - 13:00"
+  ]
  },
  {
   "dominio": "visitamedica.it",

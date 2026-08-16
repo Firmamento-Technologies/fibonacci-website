@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Andrea Doria",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicus.it",
@@ -51,7 +53,64 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Medicus - Centro Medico Polispecialistico",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:00-19:00",
+   "Friday 009:00-19:00",
+   "Saturday 09:00-12:30",
+   "Sunday chiuso"
+  ]
+ },
+ {
+  "dominio": "henryschein.it",
+  "nome": "Forniture odontoiatriche, Forniture mediche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.henryschein.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "monfalcone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.henryschein.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ilgoriziano.it",
+  "nome": "Il Goriziano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ilgoriziano.it/",
+  "indirizzo": "via Dante Alighieri 19",
+  "cap": "",
+  "comune": "",
+  "provincia": "monfalcone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilgoriziano.it/",
+   "https://www.ilgoriziano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "lpestetica.com",
@@ -86,12 +145,12 @@
   "nome": "Medicenter",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+390481777188",
   "email": "info@medicentercliniche.it",
   "sitoUrl": "https://medicentercliniche.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Giuseppe Verdi, 26",
+  "cap": "34077",
+  "comune": "Ronchi dei Legionari GO",
   "provincia": "monfalcone",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -103,6 +162,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 45.823162,
+  "lon": 13.501297,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Medicenter",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-19:00"
+  ]
+ },
+ {
+  "dominio": "novasalus.it",
+  "nome": "Nova Salus",
+  "formaSocietaria": "",
+  "partitaIva": "00379040314",
+  "telefono": "+390481486111",
+  "email": "info@novasalus.it",
+  "sitoUrl": "https://novasalus.it/",
+  "indirizzo": "Via Generale Cascino, 8",
+  "cap": "34170",
+  "comune": "Gorizia",
+  "provincia": "monfalcone",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://novasalus.it/",
+   "https://novasalus.it/sedi/",
+   "https://novasalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Nova Salus",
+  "tipoDichiarato": "Organization"
  }
 ]

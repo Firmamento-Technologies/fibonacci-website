@@ -1,5 +1,38 @@
 [
  {
+  "dominio": "borzonethea.com",
+  "nome": "Dermatologia e Venerologia",
+  "formaSocietaria": "",
+  "partitaIva": "00804580116",
+  "telefono": "+393356784933",
+  "email": "",
+  "sitoUrl": "https://www.borzonethea.com/",
+  "indirizzo": "",
+  "cap": "19121",
+  "comune": "",
+  "provincia": "sp",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Thea Borzone, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.borzonethea.com/",
+   "https://www.borzonethea.com/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Thea Borzone, e il dominio lo ripete",
+  "nomeStrutturato": "Dottoressa Thea Borzone",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "clinicamed.it",
   "nome": "Clinica Med",
   "formaSocietaria": "SRL",
@@ -24,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "My WordPress",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "istitutoradiologicoberetta.it",
@@ -62,7 +97,7 @@
   "sitoUrl": "https://www.levantelaserstudio.com/",
   "indirizzo": "Via Fossamastra, 36",
   "cap": "19126",
-  "comune": "",
+  "comune": "LA SPEZIA",
   "provincia": "sp",
   "prestazioni": [
    "Filler",
@@ -82,6 +117,64 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 44.111598,
+  "lon": 9.851664,
+  "nomeStrutturato": "LEVANTE LASER STUDIO",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "microchirurgiaricostruttiva.it",
+  "nome": "Microchirurgia ricostruttiva Dott. Moccia Luigi Stefano Chirurgia Plas",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390187604888",
+  "email": "",
+  "sitoUrl": "https://www.microchirurgiaricostruttiva.it/",
+  "indirizzo": "via XXIV maggio 139",
+  "cap": "",
+  "comune": "",
+  "provincia": "sp",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.microchirurgiaricostruttiva.it/",
+   "https://www.microchirurgiaricostruttiva.it/contatti/",
+   "https://www.microchirurgiaricostruttiva.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "rattidrandrea.com",
+  "nome": "Dr. Andrea Ratti Dermatologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390187735368",
+  "email": "",
+  "sitoUrl": "https://www.rattidrandrea.com/",
+  "indirizzo": "Via Fontevivo, 48",
+  "cap": "19125",
+  "comune": "La Spezia",
+  "provincia": "sp",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.rattidrandrea.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Andrea Ratti Dermatologo",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

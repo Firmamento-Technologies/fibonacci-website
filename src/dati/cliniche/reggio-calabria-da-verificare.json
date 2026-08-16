@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "studiodermatologiaromeo.it",
+  "nome": "Videodermatoscopia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390965324118",
+  "email": "",
+  "sitoUrl": "https://www.studiodermatologiaromeo.it/",
+  "indirizzo": "Via Magna Grecia, 2",
+  "cap": "89128",
+  "comune": "Reggio",
+  "provincia": "reggio-calabria",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiodermatologiaromeo.it/",
+   "https://www.studiodermatologiaromeo.it/Contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "villasanna.it",
   "nome": "Casa di Cura Villa S. Anna",
   "formaSocietaria": "",

@@ -53,6 +53,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "ordinemedici.bz.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Bol",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390471976619",
+  "email": "info@ordinemedici.bz.it",
+  "sitoUrl": "https://www.ordinemedici.bz.it/",
+  "indirizzo": "Via Alessandro Volta, 3",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordinemedici.bz.it/",
+   "https://www.ordinemedici.bz.it/contatto/",
+   "https://www.ordinemedici.bz.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Ordine dei Medici Chirurghi e degli Odontoi",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "stjosef.it",
   "nome": "Gesundheitszentrum, Bar, Mensa, Parking",
   "formaSocietaria": "",

@@ -29,7 +29,7 @@
   "formaSocietaria": "SRL",
   "partitaIva": "01378370884",
   "telefono": "+390932762572",
-  "email": "",
+  "email": "cmsacrocuore@gmail.com",
   "sitoUrl": "https://www.centromedicosacrocuore.it/",
   "indirizzo": "Via Aldo Moro, 3",
   "cap": "97015",
@@ -46,7 +46,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Sacro Cuore -",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "microsclinic.it",

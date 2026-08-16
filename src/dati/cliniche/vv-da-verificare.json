@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "archivio.aspvv.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "dottssachiaragradia.it",
   "nome": "Dott.ssa Chiara Gradia",
   "formaSocietaria": "",
@@ -7,7 +12,7 @@
   "telefono": "+393665094124",
   "email": "",
   "sitoUrl": "https://www.dottssachiaragradia.it/",
-  "indirizzo": "",
+  "indirizzo": "Località Cerva",
   "cap": "89853",
   "comune": "Strada",
   "provincia": "vv",
@@ -31,6 +36,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Chiara Gradia",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

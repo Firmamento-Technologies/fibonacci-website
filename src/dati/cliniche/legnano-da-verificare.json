@@ -1,5 +1,87 @@
 [
  {
+  "dominio": "aristea.net",
+  "nome": "Centro Medico Legnano",
+  "formaSocietaria": "",
+  "partitaIva": "05079770151",
+  "telefono": "",
+  "email": "info@yoursite.it",
+  "sitoUrl": "https://aristea.net/",
+  "indirizzo": "Via Matteotti n.13",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://aristea.net/",
+   "https://aristea.net/contatti",
+   "https://aristea.net/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "asst-ovestmi.it",
+  "nome": "asst-ovestmi.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390331449111",
+  "email": "",
+  "sitoUrl": "https://asst-ovestmi.it/",
+  "indirizzo": "Via Papa Giovanni Paolo II - 20025",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://asst-ovestmi.it/",
+   "https://asst-ovestmi.it/chi-siamo",
+   "https://asst-ovestmi.it/attivita-vaccinali-sedi-e-informazioni"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dentistalaroccalegnano.it",
+  "nome": "Dentista Legnano: Studio Dentistico Dott. La Rocca a Legnano (MI)",
+  "formaSocietaria": "",
+  "partitaIva": "03173790126",
+  "telefono": "+390331548180",
+  "email": "info@dentistalaroccalegnano.it",
+  "sitoUrl": "https://www.dentistalaroccalegnano.it/",
+  "indirizzo": "Via Roma, 19",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dentistalaroccalegnano.it/",
+   "https://www.dentistalaroccalegnano.it/chi-siamo/",
+   "https://www.dentistalaroccalegnano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "La Rocca Giuseppe Studio Odontoiatrico",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "elisirlabcentroestetico.com",
   "nome": "Estetica avanzata viso e corpo a Legnano (MI)",
   "formaSocietaria": "",
@@ -23,6 +105,35 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "faceboost.org",
+  "nome": "Faceboost. di Michela Taccola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://faceboost.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "legnano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://faceboost.org/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Faceboost",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "locale.infobel.it",

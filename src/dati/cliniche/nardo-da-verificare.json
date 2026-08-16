@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "antoniomancino.it",
+  "nome": "antoniomancino.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://antoniomancino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "nardo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://antoniomancino.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centroesteticoenee.it",
   "nome": "Centro Estetico Enée",
   "formaSocietaria": "",
@@ -25,6 +49,36 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dermatologialegale.it",
+  "nome": "Dermatologia Legale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dermatologialegale.it/",
+  "indirizzo": "via Dante n. 34",
+  "cap": "73043",
+  "comune": "Copertino",
+  "provincia": "nardo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermatologialegale.it/",
+   "https://www.dermatologialegale.it/privacy_policy.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologorobertomanca.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "egoesteticaebenessere.it",
@@ -79,7 +133,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "EgoVitality",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticaeuma.wixsite.com",

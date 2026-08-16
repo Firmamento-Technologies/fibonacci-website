@@ -25,7 +25,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "S2 Dental",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-13:00",
+   "Monday,Tuesday,Wednesday,Thursday,Friday 14:00-19:30",
+   "Saturday 09:00-14:00",
+   "Sunday Chiuso"
+  ]
  },
  {
   "dominio": "santangelosalute.it",
@@ -51,6 +59,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Lodisalute",
+  "tipoDichiarato": "Organization"
  }
 ]

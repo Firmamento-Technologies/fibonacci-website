@@ -52,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Pignatti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Pignatti, e il dominio lo ripete",
+  "nomeStrutturato": "Prof. Pignatti Marco Verona, Bologna, Modena",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "oxilab.it",
@@ -77,7 +79,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.35572,
+  "lon": 10.83466,
+  "nomeStrutturato": "Oxilab",
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "rcmedici.eu",
@@ -103,6 +109,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Rc Medici",
+  "tipoDichiarato": "Organization"
  }
 ]

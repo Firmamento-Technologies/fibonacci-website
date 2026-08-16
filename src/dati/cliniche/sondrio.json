@@ -61,7 +61,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gaetano Musumarra, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gaetano Musumarra, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Gaetano Musumarra | Chirurgo plastico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "laclinica.eu",
@@ -92,6 +94,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "LaClinica.eu",
+  "tipoDichiarato": "Organization"
  }
 ]

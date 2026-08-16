@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Diagnostico Buonarroti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dent-al.com",
@@ -49,7 +51,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DENTal",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologoesteticobettini.com",
@@ -172,7 +176,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossana Catalano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossana Catalano, e il dominio lo ripete",
+  "nomeStrutturato": "Rossana Catalano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "saluscentromedico.com",

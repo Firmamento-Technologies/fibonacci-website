@@ -4,7 +4,7 @@
   "nome": "Centro Medico Subiaco Visite Specialistiche e Diagnostica Strumentale",
   "formaSocietaria": "SRL",
   "partitaIva": "09137141009",
-  "telefono": "",
+  "telefono": "+39 0774 83730",
   "email": "info@centromedicosubiaco.it",
   "sitoUrl": "https://www.centromedicosubiaco.it/",
   "indirizzo": "Largo Martiri di Cicchetti, 2",
@@ -23,7 +23,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Medico Subiaco",
+  "orari": [
+   "Tuesday,Wednesday,Thursday,Friday 08:00-20:00",
+   "Saturday 08:00-14:00"
+  ]
  },
  {
   "dominio": "fisio432.com",

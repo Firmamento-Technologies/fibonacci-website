@@ -7,12 +7,38 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "futuraformazione.eu",
+  "nome": "Futura Formazione Scuola di Istruzione e Formazione Professionale",
+  "formaSocietaria": "",
+  "partitaIva": "01197430810",
+  "telefono": "+3909221886875",
+  "email": "",
+  "sitoUrl": "https://www.futuraformazione.eu/it",
+  "indirizzo": "via Dante, 111",
+  "cap": "92100",
+  "comune": "Agrigento",
+  "provincia": "ag",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.futuraformazione.eu/it",
+   "https://www.futuraformazione.eu/it/chi-siamo",
+   "https://www.futuraformazione.eu/it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "identistraffadali.com",
   "nome": "IDentist: Il Tuo Dentista A Raffadali Agrigento",
   "formaSocietaria": "",
   "partitaIva": "02436630848",
   "telefono": "+3909221881268",
-  "email": "",
+  "email": "identistraffadali@gmail.com",
   "sitoUrl": "https://identistraffadali.com/",
   "indirizzo": "Via Algeria n. 14",
   "cap": "92015",
@@ -29,7 +55,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 37.4021,
+  "lon": 13.5318,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "iDentist",
+  "orari": [
+   "Monday,Tuesday,Wednesday 09:00-19:00",
+   "Thursday,Friday 09:00-18:00",
+   "Saturday,Sunday Chiuso"
+  ]
  },
  {
   "dominio": "korestudiodiestetica.it",
@@ -86,7 +121,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medest Center - Centro di Medicina estetica ad Agrigento",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "universitaagrigento.it",

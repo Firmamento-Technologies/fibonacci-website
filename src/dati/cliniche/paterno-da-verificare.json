@@ -26,8 +26,114 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "centroesteticogoccedibellezza.it",
+  "nome": "Centro Estetico a Paterno (PZ)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticogoccedibellezza.it/",
+  "indirizzo": "Via Tempa La Chiesa, 139",
+  "cap": "85050",
+  "comune": "IT",
+  "provincia": "paterno",
+  "prestazioni": [
+   "Biostimolazione",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticogoccedibellezza.it/",
+   "https://www.centroesteticogoccedibellezza.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "chirmed.unict.it",
+  "nome": "Dipartimento di Chirurgia generale e specialità medico-chirurgiche",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirmed.unict.it/",
+  "indirizzo": "Via Santa Sofia, 78",
+  "cap": "95123",
+  "comune": "Catania",
+  "provincia": "paterno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.chirmed.unict.it/",
+   "https://www.chirmed.unict.it/content/privacy",
+   "https://www.chirmed.unict.it/content/note-legali"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "chirurgoplasticopaterno.ac.gd",
+  "nome": "chirurgo plastico Paternò",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://chirurgoplasticopaterno.ac.gd/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "paterno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://chirurgoplasticopaterno.ac.gd/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "matrimonio.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "motusanimifad.com",
+  "nome": "Motus Animi FAD",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390832521300",
+  "email": "info@motusanimi.com",
+  "sitoUrl": "https://www.motusanimifad.com/",
+  "indirizzo": "corso Iscriviti ora 50",
+  "cap": "45770",
+  "comune": "Lezioni",
+  "provincia": "paterno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.motusanimifad.com/",
+   "https://www.motusanimifad.com/chi-siamo/",
+   "https://www.motusanimifad.com/contattaci/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Motus Animi - Provider ECM, Ente di formazione sanitaria da 17 anni",
+  "tipoDichiarato": "Organization"
  }
 ]

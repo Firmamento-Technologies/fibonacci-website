@@ -29,6 +29,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "omceopescara.it",
+  "nome": "Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Pes",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908567517",
+  "email": "info@omceopescara.it",
+  "sitoUrl": "https://omceopescara.it/",
+  "indirizzo": "Via F. Brindisi, 32",
+  "cap": "65017",
+  "comune": "Penne",
+  "provincia": "rende",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omceopescara.it/",
+   "https://omceopescara.it/ordine/segreteria/urp-contatti.html",
+   "https://omceopescara.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "studiodentisticoricca.it",
   "nome": "Studio Dentistico Ricca",
   "formaSocietaria": "",
@@ -55,6 +81,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Dentistico Ricca",
+  "tipoDichiarato": "Organization"
  }
 ]

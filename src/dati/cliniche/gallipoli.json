@@ -1,5 +1,91 @@
 [
  {
+  "dominio": "icluzzara.edu.it",
+  "nome": "Istituto Comprensivo Luzzara",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.icluzzara.edu.it/",
+  "indirizzo": "via Alcide De Gasperi n. 8",
+  "cap": "42045",
+  "comune": "Luzzara",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.icluzzara.edu.it/",
+   "https://www.icluzzara.edu.it/privacy-policy/",
+   "https://www.icluzzara.edu.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "jacinimedicalclinic.it",
+  "nome": "Be Best Clinic®",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393489375376",
+  "email": "info@bebest.it",
+  "sitoUrl": "https://www.bebest.it/",
+  "indirizzo": "Via Stefano Jacini, 19",
+  "cap": "00191",
+  "comune": "Roma",
+  "provincia": "gallipoli",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.bebest.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Be Best Clinic®",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "lecceprima.it",
+  "nome": "LeccePrima",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10786801000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lecceprima.it/",
+  "indirizzo": "Viale Stelvio 70",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.lecceprima.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "LeccePrima",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "magliesalus.it",
   "nome": "Poliambulatorio Maglie Salus",
   "formaSocietaria": "SAS",
@@ -54,7 +140,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Istituto Santa Chiara",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaintegratamoscati.it",
@@ -79,7 +167,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Integrata Moscati",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "unicamillus.org",

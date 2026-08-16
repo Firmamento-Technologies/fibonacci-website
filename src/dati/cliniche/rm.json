@@ -23,14 +23,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "2Effe Medical Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "acaiamedical.it",
   "nome": "Medicina Estetica e Poliambulatorio",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+390690202479",
   "email": "info@acaiamedical.it",
   "sitoUrl": "https://acaiamedical.it/",
   "indirizzo": "Via Acaia 52",
@@ -47,7 +49,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Acaia Medical Center S.r.l.",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 09:00-17:00"
+  ],
+  "tipoDichiarato": "Organization Place HealthAndBeautyBusiness"
  },
  {
   "dominio": "adeleaestheticmedicine.it",
@@ -78,7 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Adele medicina estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "alessandraalhadeff.it",
@@ -90,7 +99,7 @@
   "sitoUrl": "https://www.alessandraalhadeff.it/",
   "indirizzo": "",
   "cap": "",
-  "comune": "",
+  "comune": "Roma",
   "provincia": "rm",
   "prestazioni": [
    "Filler",
@@ -111,7 +120,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Dottoressa Alessandra Alhadeff",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "alessandriniandreamd.com",
@@ -180,7 +194,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.95768,
+  "lon": 12.650531,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Allure Medical - Chirurgia Estetica Roma"
  },
  {
   "dominio": "altamedica.it",
@@ -231,7 +249,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "AltaMedical Beauty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "amcardaci.it",
@@ -265,7 +285,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dott. Aurelio M. Cardaci",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-17:0"
+  ]
  },
  {
   "dominio": "amecacademy.it",
@@ -325,7 +350,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. A. Garelli Chirurgia Plastica Estetica e Ricostruttiva a Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "andreaingratta.com",
@@ -357,7 +384,19 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "Chirurgo plastico a Roma Dott. Ingratta Andrea",
+  "lat": 41.882317,
+  "lon": 12.500465,
+  "orari": [
+   "monday 09:00-20:00",
+   "tuesday 09:00-20:00",
+   "wednesday 09:00-20:00",
+   "thursday 09:00-20:00",
+   "friday 09:00-20:00",
+   "saturday 09:00-20:00"
+  ]
  },
  {
   "dominio": "annalisadessi.it",
@@ -417,7 +456,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Zampetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Anna Zampetti, e il dominio lo ripete",
+  "nomeStrutturato": "admin",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "anniboletti.it",
@@ -519,7 +560,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aramedica | Clinica Lecce",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "arcidiacono.care",
@@ -548,7 +591,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Arcidiacono - CMA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "aroma-massage.it",
@@ -556,11 +601,11 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+39063054248",
-  "email": "",
+  "email": "aromamassage@hotmail.it",
   "sitoUrl": "https://www.aroma-massage.it/",
   "indirizzo": "Via Ferrante Ruiz, 12a",
-  "cap": "",
-  "comune": "",
+  "cap": "00168",
+  "comune": "Roma",
   "provincia": "rm",
   "prestazioni": [
    "Laser",
@@ -578,7 +623,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico e Benessere - Aroma Massage",
+  "tipoDichiarato": "Organization",
+  "lat": 41.928257,
+  "lon": 12.414146,
+  "orari": [
+   "Tuesday, Wednesday, Thursday, Friday 09:30-20:00",
+   "Saturday 09:30-16:00"
+  ]
  },
  {
   "dominio": "artemisialab.it",
@@ -607,7 +660,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Artemisia Lab",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "athenaestetica.it",
@@ -635,7 +690,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "athenaestetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "auramedicalclinic.it",
@@ -692,7 +749,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aventino Medical Group",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "balduinamedica.it",
@@ -718,7 +777,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Balduina Medica",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "bartoletticavalieri.it",
@@ -744,13 +805,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuele Bartoletti, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Emanuele Bartoletti, cognome dentro il dominio",
+  "nomeStrutturato": "Studio Bartoletti Cavalieri",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "beauty-smart.it",
   "nome": "Beauty Smart Centro Estetico",
   "formaSocietaria": "",
-  "partitaIva": "",
+  "partitaIva": "IT12841501005",
   "telefono": "+39064462780",
   "email": "info@beauty-smart.it",
   "sitoUrl": "https://www.beauty-smart.it/",
@@ -772,7 +835,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.905409,
+  "lon": 12.502593,
+  "nomeStrutturato": "Beauty Smart Centro Estetico Roma",
+  "orari": [
+   "Monday, Sunday 00:00-00:00",
+   "Tuesday, Wednesday, Thursday, Friday 09:30-19:00",
+   "Saturday 10:30-18:00"
+  ],
+  "tipoDichiarato": "Organization Place BeautySalon"
  },
  {
   "dominio": "beautymedicallab.com",
@@ -877,7 +949,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Biumy | La Clinica del Viso",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "bracaglia.it",
@@ -902,7 +976,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Bracaglia, cognome nel dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Bracaglia, cognome nel dominio",
+  "nomeStrutturato": "Prof. Roberto Bracaglia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "brazilsystem.com",
@@ -972,7 +1048,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Calvani, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Calvani, cognome dentro il dominio",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dr Francesco Calvani",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 10:00-19:00"
+  ]
  },
  {
   "dominio": "cedri.idi.it",
@@ -1033,7 +1114,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CentriMED",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrimytho.it",
@@ -1067,7 +1150,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centri Mytho",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicogiancotti.it",
@@ -1092,7 +1177,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro medico Giancotti",
+  "tipoDichiarato": "LocalBusiness",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20:00"
+  ]
  },
  {
   "dominio": "centroromacuore.it",
@@ -1118,7 +1208,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Roma Cuore",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaroma.com",
@@ -1146,7 +1238,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MySelf s.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "claudiobernardi.it",
@@ -1264,7 +1358,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Clinica Parioli | Casa di cura a Roma",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "cliniccinecitta.it",
@@ -1295,7 +1394,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinic Cinecitt&#224;",
+  "tipoDichiarato": "Organization",
+  "lat": 41.858245,
+  "lon": 12.56384
  },
  {
   "dominio": "clinichediortodonzia.it",
@@ -1321,7 +1424,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Cliniche di Ortodonzia",
+  "tipoDichiarato": "Organization",
+  "lat": 41.8311,
+  "lon": 12.4698,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 10:00-19:00"
+  ]
  },
  {
   "dominio": "clinicitalia.it",
@@ -1350,7 +1460,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinic Medical Beauty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinika.life",
@@ -1385,7 +1497,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinika",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cmedandpartners.it",
@@ -1412,7 +1526,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Polispecialistico CMed di Lariclan s.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "colombolab.com",
@@ -1496,7 +1612,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Corpo A Mente Medical Beauty",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "deniseguadagno.com",
@@ -1527,7 +1645,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Denise Guadagno, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Denise Guadagno, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Denise Guadagno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermolasercaravaggio.it",
@@ -1587,19 +1707,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Domimedica | Centro di Chirurgia Plastica e Medicina Estetica a Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottoressazonetti.com",
   "nome": "Medicina Estetica",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "3755651711",
   "email": "",
   "sitoUrl": "https://www.dottoressazonetti.com/",
   "indirizzo": "Viale Parioli, 55",
-  "cap": "",
-  "comune": "",
+  "cap": "00197",
+  "comune": "Roma",
   "provincia": "rm",
   "prestazioni": [
    "Filler",
@@ -1618,7 +1740,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Serena Zonetti, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Serena Zonetti, cognome dentro il dominio",
+  "nomeStrutturato": "Dottoressa Serena Zonetti",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottorfamaumberto.it",
@@ -1684,7 +1808,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Nicolucci, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marco Nicolucci, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Marco Nicolucci",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "dottormortillaro.it",
@@ -1743,19 +1869,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Campa, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Campa, cognome dentro il dominio",
+  "nomeStrutturato": "Dr Stefano Campa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dralessandrolaghi.com",
   "nome": "Dr. Alessandro Laghi – Dermatologist & Aesthetic Doctor Rome",
   "formaSocietaria": "",
-  "partitaIva": "",
+  "partitaIva": "17138051002",
   "telefono": "",
   "email": "info@dralessandrolaghi.com",
   "sitoUrl": "https://www.dralessandrolaghi.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Piazza Celimontana, 50",
+  "cap": "00184",
+  "comune": "Rome",
   "provincia": "rm",
   "prestazioni": [
    "Filler",
@@ -1770,19 +1898,27 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Laghi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Laghi, cognome dentro il dominio",
+  "lat": 41.88664,
+  "lon": 12.49575,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Dr. Alessandro Laghi",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-21:00",
+   "Saturday 09:00-14:00"
+  ]
  },
  {
   "dominio": "drpietrocunsolo.com",
   "nome": "Dr. Pietro Cunsolo",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393806812396",
   "email": "",
   "sitoUrl": "https://drpietrocunsolo.com/",
   "indirizzo": "",
   "cap": "",
-  "comune": "",
+  "comune": "Roma",
   "provincia": "rm",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -1794,7 +1930,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Cunsolo, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Cunsolo, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Pietro Cunsolo",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "drshamini.it",
@@ -1892,7 +2030,7 @@
   "nome": "Elty.it",
   "formaSocietaria": "SRL",
   "partitaIva": "03740811207",
-  "telefono": "",
+  "telefono": "+39 051 3542049",
   "email": "info@elty.it",
   "sitoUrl": "https://elty.it/",
   "indirizzo": "Via Gioacchino Murat, 23",
@@ -1910,7 +2048,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Elty",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "emsculpt-estetica.it",
@@ -1973,7 +2113,7 @@
   "nome": "Mastoplastica Additiva Roma",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39063331864",
   "email": "info@erikgeiger.com",
   "sitoUrl": "https://www.erikgeiger.com/",
   "indirizzo": "Largo Maresciallo Diaz 13",
@@ -1996,7 +2136,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Erik Geiger, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Erik Geiger, e il dominio lo ripete",
+  "nomeStrutturato": "Erik Geiger",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "erminiomastroluca.it",
@@ -2034,7 +2176,7 @@
   "nome": "Essenza Estetica e Benessere",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+ 06 - 94.53.71.94",
   "email": "",
   "sitoUrl": "https://www.essenzaeur.com/",
   "indirizzo": "Via Andrea di Bonaiuto - 39",
@@ -2057,7 +2199,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Essenza Estetica &amp; Benessere",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "ethosmedicabalduina.it",
@@ -2091,7 +2235,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ethos - Clinica Medica Balduina Roma",
+  "tipoDichiarato": "Organization",
+  "lat": 41.9139,
+  "lon": 12.443741,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-20:00",
+   "Saturday 09:00-20:00"
+  ]
  },
  {
   "dominio": "evolusia.it",
@@ -2154,7 +2306,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacia Castelforte",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "francescomadonnaterracina.it",
@@ -2183,7 +2337,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Madonna, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Madonna, cognome dentro il dominio",
+  "nomeStrutturato": "Francesco",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "fresha.com",
@@ -2209,7 +2365,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fresha",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "frontis.it",
@@ -2221,7 +2379,7 @@
   "sitoUrl": "https://frontis.it/",
   "indirizzo": "Via Dei Prati Fiscali 215",
   "cap": "40002",
-  "comune": "",
+  "comune": "Roma",
   "provincia": "rm",
   "prestazioni": [
    "Radiofrequenza"
@@ -2237,7 +2395,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.946081,
+  "lon": 12.518477,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Frontis Medicina del Benessere",
+  "orari": [
+   "Monday,Wednesday 1400 - 20:00",
+   "Tuesday,Thursday,Saturday 08:00 - 14:00",
+   "Friday 14:00 - 20:00"
+  ]
  },
  {
   "dominio": "fulvioconte.it",
@@ -2324,7 +2491,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgia Pietrangeli, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giorgia Pietrangeli, e il dominio lo ripete",
+  "nomeStrutturato": "Dr.ssa Giorgia Pietrangeli - Medico Chirurgo Estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "goodlifemedica.it",
@@ -2334,7 +2503,7 @@
   "telefono": "+393271005342",
   "email": "info@goodlifemedica.it",
   "sitoUrl": "https://goodlifemedica.it/",
-  "indirizzo": "",
+  "indirizzo": "Viale dei Santi Pietro e Paolo, 50",
   "cap": "00144",
   "comune": "Roma",
   "provincia": "rm",
@@ -2356,7 +2525,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.8337,
+  "lon": 12.4655,
+  "nomeStrutturato": "Good Life Medica",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 10:00-18:00"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  },
  {
   "dominio": "gruppoini.it",
@@ -2381,7 +2557,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gruppo INI",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "gvmnet.it",
@@ -2431,7 +2609,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Hair Port Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "idi.it",
@@ -2457,7 +2637,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IDI - Istituto Dermopatico dell'Immacolata",
+  "tipoDichiarato": "Hospital MedicalOrganization"
  },
  {
   "dominio": "inshapecenter.it",
@@ -2518,7 +2700,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto Dermatologico Romano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "istitutodibellezzaroma.it",
@@ -2581,7 +2765,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Jenevi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "klothoclinic.it",
@@ -2667,7 +2853,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Laserlight Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "leonardomedical.eu",
@@ -2700,7 +2888,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Leonardo Medical",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "longevaclinic.it",
@@ -2729,7 +2919,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Longeva",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "longevia.it",
@@ -2754,7 +2946,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Longevia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lucapiovano.it",
@@ -2787,7 +2981,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Piovano, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Piovano, e il dominio lo ripete",
+  "nomeStrutturato": "Luca Piovano",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "luigifantozzi.com",
@@ -2848,7 +3044,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Maria Servillo Chirurgo Estetico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "massimilianogiardina.com",
@@ -2903,7 +3101,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.945019,
+  "lon": 12.382514,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Mater Dei General Hospital",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:"
+  ]
  },
  {
   "dominio": "medical19roma.it",
@@ -2961,7 +3166,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Benessere roma - medicina olisitica roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalia.it",
@@ -2993,7 +3200,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MEDICALIA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalprime.it",
@@ -3019,7 +3228,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Prime",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalsalusroma.it",
@@ -3054,7 +3265,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Salus Roma - Centro Medico Polispecialistico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalspa.it",
@@ -3089,7 +3302,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MedicalSpa - Ambulatorio Medico Polispecialistico e di Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinacentro.com",
@@ -3284,7 +3499,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Me MìDonna Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "neferbioestetica.eu",
@@ -3445,7 +3662,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.951283,
+  "lon": 12.470536,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Paideia International Hospital",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:"
+  ]
  },
  {
   "dominio": "pangeamedical.it",
@@ -3476,7 +3700,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Pangea Medical Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "paolosiniscalco.it",
@@ -3507,7 +3733,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Siniscalco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Siniscalco, e il dominio lo ripete",
+  "nomeStrutturato": "Paolo Siniscalco Medico Chirurgo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pietrolorenzetti.it",
@@ -3597,7 +3825,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Talenti S.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriovenere.it",
@@ -3647,7 +3877,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 41.770773,
+  "lon": 12.468108,
+  "nomeStrutturato": "Policlinico Campus Biomedico",
+  "tipoDichiarato": "Hospital"
  },
  {
   "dominio": "polotricologicoeuropeo.it",
@@ -3676,7 +3910,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polo Tricologico Europeo e Centro Tricopigmentazione di Corrado Canton",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "privato.policlinicogemelli.it",
@@ -3702,7 +3938,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Attivit&#224; Privata del Policlinico Gemelli di Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "professionalbeautyroma.it",
@@ -3732,7 +3970,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Professional",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "professoressagarofalo.it",
@@ -3786,7 +4026,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianluca Tilesi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianluca Tilesi, cognome dentro il dominio",
+  "nomeStrutturato": "Prof. Gianluca Tilesi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "raffaelesiniscalco.it",
@@ -3819,7 +4061,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Siniscalco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Siniscalco, e il dominio lo ripete",
+  "nomeStrutturato": "Dottor Raffaele Siniscalco",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "raffaellacasilli.com",
@@ -3853,7 +4097,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Raffaella Casilli - Studio di medicina estetica Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "robertamontalto.it",
@@ -3884,7 +4130,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Montalto, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberta Montalto, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Roberta Montalto",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "robertovaleriani.it",
@@ -3913,14 +4161,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Valeriani, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Valeriani, e il dominio lo ripete",
+  "nomeStrutturato": "Dr Roberto Valeriani",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "romamedicinaestetica.it",
   "nome": "Medicina Estetica Roma",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39-335-8013292",
   "email": "info@romamedicinaestetica.it",
   "sitoUrl": "https://www.romamedicinaestetica.it/",
   "indirizzo": "Via Fiume Bianco, 130",
@@ -3946,7 +4196,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Roma Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "romanomedica.it",
@@ -3975,7 +4227,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "RomanoMedica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sanfelicianoroma.it",
@@ -4001,7 +4255,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "San Feliciano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "saravecchi.it",
@@ -4030,7 +4286,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sara Vecchi Salon",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sdmroma.it",
@@ -4056,7 +4314,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SDM Roma",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "shamini-nutrizionista-roma.it",
@@ -4187,7 +4447,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simone Marchese, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simone Marchese, e il dominio lo ripete",
+  "nomeStrutturato": "Dott Simone Marchese - Medicina estetica a Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "skinlaser.it",
@@ -4305,7 +4567,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Spheramed",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sponzilli.it",
@@ -4387,7 +4651,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Basoccu",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodieni.it",
@@ -4443,7 +4709,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Canci",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicom.it",
@@ -4472,7 +4740,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MEDICOM",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studioquarato.it",
@@ -4504,7 +4774,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Quarato - Odontoiatria, Medicina e Chirurgia Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiovircos.it",
@@ -4530,7 +4802,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Vircos",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 09:30-19:3"
+  ]
  },
  {
   "dominio": "svitlanakovalenko.com",
@@ -4558,7 +4835,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Svitlana Kovalenko, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Svitlana Kovalenko, e il dominio lo ripete",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "tilainstitute.com",
@@ -4620,7 +4898,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Prof. Raffaele Rauso",
+  "tipoDichiarato": "Person",
+  "lat": 41.908873,
+  "lon": 12.468689,
+  "orari": [
+   "Mo-Fr 09:00-20:00"
+  ]
  },
  {
   "dominio": "trattamenti-laserroma.it",
@@ -4651,7 +4936,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Trattamenti Laser Roma | Dermolaser STP",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ultraclinic.it",
@@ -4697,7 +4984,7 @@
   "sitoUrl": "https://www.vitocontreas.it/",
   "indirizzo": "via Lovanio 24",
   "cap": "00198",
-  "comune": "",
+  "comune": "Roma",
   "provincia": "rm",
   "prestazioni": [
    "Filler",
@@ -4719,7 +5006,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vito Contreas, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vito Contreas, e il dominio lo ripete",
+  "nomeStrutturato": "Chirurgo Plastico Roma - Chirurgo Estetico Cagliari - Prof Contreas",
+  "tipoDichiarato": "Organization",
+  "lat": 41.9175,
+  "lon": 12.5085,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
+  ]
  },
  {
   "dominio": "yably.it",
@@ -4774,6 +5068,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Zarina Beauty",
+  "tipoDichiarato": "Organization"
  }
 ]

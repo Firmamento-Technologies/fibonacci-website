@@ -23,5 +23,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ennemedica.it",
+  "nome": "Enne Medica",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08564570961",
+  "telefono": "",
+  "email": "info@ennemedica.it",
+  "sitoUrl": "https://www.ennemedica.it/",
+  "indirizzo": "Via Motta Visconti 24",
+  "cap": "20084",
+  "comune": "Lacchiarella",
+  "provincia": "trinitapoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ennemedica.it/",
+   "https://www.ennemedica.it/chi-siamo/",
+   "https://www.ennemedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

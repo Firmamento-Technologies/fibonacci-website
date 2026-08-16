@@ -29,7 +29,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Neptunia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drmonacorenato.com",
@@ -138,6 +140,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Venere SPA Centro Estetico Benessere Estetica - Nettuno Anzio - Estetista",
+  "tipoDichiarato": "Organization"
  }
 ]

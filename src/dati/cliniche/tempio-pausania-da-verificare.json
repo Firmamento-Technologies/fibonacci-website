@@ -22,5 +22,30 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bissonbalataodontoiatria.it",
+  "nome": "Studio dentistico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39079670355",
+  "email": "",
+  "sitoUrl": "https://www.bissonbalataodontoiatria.it/",
+  "indirizzo": "Via Galilei Galileo, 4",
+  "cap": "07029",
+  "comune": "TEMPIO",
+  "provincia": "tempio-pausania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bissonbalataodontoiatria.it/",
+   "https://www.bissonbalataodontoiatria.it/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

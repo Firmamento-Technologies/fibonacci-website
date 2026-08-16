@@ -115,6 +115,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "enhancv.com",
+  "nome": "Enhancv",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://enhancv.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "co",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://enhancv.com/",
+   "https://enhancv.com/about/",
+   "https://enhancv.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Enhancv Resume Builder",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "filleracidoialuronico.info",
   "nome": "Filler Acido Ialuronico Milano",
   "formaSocietaria": "",
@@ -146,9 +174,41 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "livecareer.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "medicinaestetica.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "minova.ai",
+  "nome": "AI Resume Builder & Job Matcher",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://minova.ai/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "co",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://minova.ai/",
+   "https://minova.ai/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Minova AI",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "polispecialisticalariana.it",

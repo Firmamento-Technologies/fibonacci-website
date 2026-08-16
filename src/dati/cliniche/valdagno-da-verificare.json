@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+393280114086",
-  "email": "",
+  "email": "denise.c2508@gmail.com",
   "sitoUrl": "https://www.deniseestetica.it/",
   "indirizzo": "Via Cesare Battisti, 103",
   "cap": "36078",
@@ -22,14 +22,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Denise Estetica di Cappellazzo Denise"
  },
  {
   "dominio": "studioguadagno.com",
   "nome": "Studio Guadagno",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 0694519357",
   "email": "info@studioguadagno.com",
   "sitoUrl": "https://www.studioguadagno.com/",
   "indirizzo": "Via Nazionale, 5",
@@ -53,6 +55,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Guadagno",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-18:00",
+   "Saturday,Sunday Chiuso"
+  ],
+  "tipoDichiarato": "MedicalClinic Organization"
  }
 ]

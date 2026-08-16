@@ -61,6 +61,45 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Daniele Trono, e il dominio lo ripete"
  },
  {
+  "dominio": "dentista-san-benedetto-del-tronto.it",
+  "nome": "Studio Dentistico dott. Salotti Mauro",
+  "formaSocietaria": "",
+  "partitaIva": "01090940444",
+  "telefono": "+390735588984",
+  "email": "info@dottor-salotti.it",
+  "sitoUrl": "https://www.dentista-san-benedetto-del-tronto.it/",
+  "indirizzo": "Via Carlo Pisacane, 1",
+  "cap": "63074",
+  "comune": "San",
+  "provincia": "san-benedetto-del-tronto",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dentista-san-benedetto-del-tronto.it/",
+   "https://www.dentista-san-benedetto-del-tronto.it/contatta-il-dentista/",
+   "https://www.dentista-san-benedetto-del-tronto.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottor Salotti",
+  "tipoDichiarato": "Person Organization",
+  "lat": 42.9463,
+  "lon": 13.8807,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ]
+ },
+ {
   "dominio": "equilybra.it",
   "nome": "Équipe medica specializzata, medicina estetica, tecnologie medicali",
   "formaSocietaria": "SRL",
@@ -92,7 +131,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Equilybra",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estebeauty.it",
@@ -121,7 +162,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Estè Beauty Clinic",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "esteticamoderna.eu",
@@ -186,7 +229,7 @@
   "telefono": "+390735500635",
   "email": "info@venalinfa.eu",
   "sitoUrl": "https://venalinfa.eu/",
-  "indirizzo": "",
+  "indirizzo": "Via [Metti il tuo indirizzo]",
   "cap": "63074",
   "comune": "San",
   "provincia": "san-benedetto-del-tronto",
@@ -204,6 +247,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 42.9246,
+  "lon": 13.8821,
+  "nomeStrutturato": "Eurocenter Venalinfa",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-19:30"
+  ],
+  "tipoDichiarato": "MedicalClinic"
  }
 ]

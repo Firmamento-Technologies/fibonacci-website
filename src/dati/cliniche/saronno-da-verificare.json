@@ -54,14 +54,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Il Saronno di Sorelle Giudici s.a.s. di Sara Giudici & C.",
+  "tipoDichiarato": "Organization NewsMediaOrganization"
  },
  {
   "dominio": "infinityrelaxsaronno.com",
   "nome": "INFINITY RELAX",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393669923587",
   "email": "",
   "sitoUrl": "https://www.infinityrelaxsaronno.com/",
   "indirizzo": "Via Dante Alighieri, 39",
@@ -78,7 +80,61 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "INFINITY RELAX",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "medelit.com",
+  "nome": "Medelit",
+  "formaSocietaria": "",
+  "partitaIva": "06580850961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medelit.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medelit.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medelit",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "meditel-group.it",
+  "nome": "Meditel",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00731780961",
+  "telefono": "+3902962821",
+  "email": "",
+  "sitoUrl": "https://www.meditel-group.it/",
+  "indirizzo": "Via San Rocco 42",
+  "cap": "20851",
+  "comune": "Lissone",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.meditel-group.it/",
+   "https://www.meditel-group.it/chi-siamo/",
+   "https://www.meditel-group.it/chi-siamo/storia-e-futuro/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "punturine.it",
@@ -99,6 +155,30 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://punturine.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomingardi.it",
+  "nome": "Studio Mingardi Homepage",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomingardi.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "saronno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomingardi.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

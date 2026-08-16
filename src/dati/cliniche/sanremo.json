@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Ambulatorio Fisiomed Sanremo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroesteticosanremo.it",
@@ -52,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "IB Italian Beauty Sanremo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicospecialisticovittorioveneto.com",
@@ -82,11 +86,65 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dietologoalbertotranquillo.it",
+  "nome": "Dimagrire velocemente Busto Arsizio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390331920663",
+  "email": "",
+  "sitoUrl": "https://www.dietologoalbertotranquillo.it/",
+  "indirizzo": "Via XXV Aprile, 31",
+  "cap": "21016",
+  "comune": "Luino",
+  "provincia": "sanremo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alberto Tranquillo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dietologoalbertotranquillo.it/",
+   "https://www.dietologoalbertotranquillo.it/dove-siamo/",
+   "https://www.dietologoalbertotranquillo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Tranquillo, cognome dentro il dominio"
+ },
+ {
+  "dominio": "dottortaglietta.it",
+  "nome": "Dottor. Taglietta",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393664691200",
+  "email": "",
+  "sitoUrl": "https://www.dottortaglietta.it/",
+  "indirizzo": "Via Matteotti 208",
+  "cap": "",
+  "comune": "",
+  "provincia": "sanremo",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.dottortaglietta.it/",
+   "https://www.dottortaglietta.it/about-clinic/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "este-pharma.com",
   "nome": "Estepharma",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+390184546484",
   "email": "info@este-pharma.com",
   "sitoUrl": "https://este-pharma.com/",
   "indirizzo": "Corso Augusto Mombello, 50",
@@ -104,7 +162,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Estepharma Sanremo – Centro Estetico High Tech e Parapharma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "horussanremo.com",
@@ -162,7 +222,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Avanzato Italian Beauty Laser",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "laurabisaccia.it",
+  "nome": "Laura Bisaccia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393476832251",
+  "email": "",
+  "sitoUrl": "https://laurabisaccia.it/",
+  "indirizzo": "Via San Vincenzo 2",
+  "cap": "17007",
+  "comune": "Medicina",
+  "provincia": "sanremo",
+  "prestazioni": [
+   "Filler",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Laura Bisaccia, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://laurabisaccia.it/",
+   "https://laurabisaccia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Laura Bisaccia, e il dominio lo ripete"
  },
  {
   "dominio": "magmedicasanremo.it",
@@ -188,7 +278,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio MagMedica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "marianobormioli.com",
@@ -217,7 +309,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Prof. Mariano Edoardo Bormioli",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "poliambulatoriomatteottisanremo.it",
@@ -245,6 +339,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Matteotti",
+  "tipoDichiarato": "Organization"
  }
 ]

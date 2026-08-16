@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Luca6",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "sorgentedelbenessere.com",
@@ -52,7 +54,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sorgente del Benessere",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sulpanaro.net",
@@ -78,6 +82,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SulPanaro news",
+  "tipoDichiarato": "Organization"
  }
 ]

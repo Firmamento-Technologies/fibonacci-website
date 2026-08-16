@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Biomedical",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrodiagnosticobattipagliese.it",
@@ -57,10 +59,10 @@
   "nome": "CentroProMedical Battipaglia",
   "formaSocietaria": "SRL",
   "partitaIva": "03593330651",
-  "telefono": "",
+  "telefono": "Italia",
   "email": "info@centropromedical.it",
   "sitoUrl": "https://www.centropromedical.it/",
-  "indirizzo": "",
+  "indirizzo": "Viale Brodolini",
   "cap": "84091",
   "comune": "BATTIPAGLIA",
   "provincia": "battipaglia",
@@ -80,7 +82,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "www.centropromedical.it",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "federicalaganaestetica.com",
@@ -134,7 +138,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nunzio Santaniello, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Nunzio Santaniello, e il dominio lo ripete",
+  "nomeStrutturato": "Santaniello Dental Clinic",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "santaniello.improd.it",

@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Aesthetic Medical Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "augustoallegramedicinaestetica.com",
@@ -64,7 +66,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 38.189575,
+  "lon": 15.553563,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio di Medicina Estetica Augusto Allegra"
+ },
+ {
+  "dominio": "drtizianomirabello.com",
+  "nome": "Dr. Tiziano Mirabello",
+  "formaSocietaria": "",
+  "partitaIva": "03682670835",
+  "telefono": "+390909486972",
+  "email": "",
+  "sitoUrl": "https://www.drtizianomirabello.com/",
+  "indirizzo": "Viale della Libertà 251",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "me",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Tiziano Mirabello, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drtizianomirabello.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Tiziano Mirabello, cognome dentro il dominio"
  },
  {
   "dominio": "keresfoundation.it",
@@ -163,7 +198,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mirabello Clinic Center Messina",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "picarella.it",
@@ -286,7 +323,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Dentistico Conti Nibali",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicobuzzanca.it",
@@ -312,6 +351,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Buzzanca",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "bagheria.infoisinfo.it",
+  "nome": "Cerca Negozi Bagheria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://bagheria.infoisinfo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bagheria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://bagheria.infoisinfo.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticomari.it",
   "nome": "Centro Estetico Mari Bagheria",
   "formaSocietaria": "",
@@ -24,6 +48,30 @@
    "https://www.centroesteticomari.it/privacy-policy-centro-estetico-mari-bagheria/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ippocratebagheria.it",
+  "nome": "Studio Medico Polispecialistico Ippocrate Bagheria (Palermo)",
+  "formaSocietaria": "",
+  "partitaIva": "06703840824",
+  "telefono": "+390917773124",
+  "email": "info@ippocratebagheria.it",
+  "sitoUrl": "https://www.ippocratebagheria.it/",
+  "indirizzo": "Via Marco Tullio Cicerone, 15",
+  "cap": "13433",
+  "comune": "",
+  "provincia": "bagheria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ippocratebagheria.it/"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
@@ -57,7 +105,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medici",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "studiominutella.it",

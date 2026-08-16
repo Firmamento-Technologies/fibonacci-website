@@ -53,7 +53,44 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Obiettivo Benessere",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "CommunityHealth Organization"
+ },
+ {
+  "dominio": "paola-antonini.it",
+  "nome": "Paola Antonini",
+  "formaSocietaria": "",
+  "partitaIva": "04004950244",
+  "telefono": "+390444341385",
+  "email": "segreteria@sanimedica.eu",
+  "sitoUrl": "https://paola-antonini.it/",
+  "indirizzo": "Via Vicenza, 204",
+  "cap": "36077",
+  "comune": "Altavilla",
+  "provincia": "paola",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://paola-antonini.it/",
+   "https://paola-antonini.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Paola Antonini - Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "paolapmakeup.it",
@@ -82,6 +119,35 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pederzolipaola.com",
+  "nome": "Trattamenti Biofiller Autologo e Fattori di crescita CGF",
+  "formaSocietaria": "",
+  "partitaIva": "02243400369",
+  "telefono": "+393297381132",
+  "email": "",
+  "sitoUrl": "https://pederzolipaola.com/",
+  "indirizzo": "Via San Matteo, 11",
+  "cap": "41036",
+  "comune": "Medolla",
+  "provincia": "paola",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pederzoli Paola, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://pederzolipaola.com/",
+   "https://pederzolipaola.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pederzoli Paola, e il dominio lo ripete",
+  "nomeStrutturato": "Casanova Happy Island",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "teoxanetrainingcenter.com",

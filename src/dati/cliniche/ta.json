@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "antoniopastorechirurgoplastico.com",
+  "nome": "Dott. Antonio Pastore",
+  "formaSocietaria": "",
+  "partitaIva": "03322210737",
+  "telefono": "+390999915994",
+  "email": "",
+  "sitoUrl": "https://www.antoniopastorechirurgoplastico.com/",
+  "indirizzo": "Corso Umberto I 187",
+  "cap": "74123",
+  "comune": "Taranto",
+  "provincia": "ta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonio Pastore, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.antoniopastorechirurgoplastico.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonio Pastore, cognome dentro il dominio"
+ },
+ {
   "dominio": "centro-di-medicinaplastica-ed-estetica-drmazzeiantonio.it",
   "nome": "CENTRO DI CHIRURGIA PLASTICA ED ESTETICA MAZZEI",
   "formaSocietaria": "",
@@ -31,12 +60,12 @@
   "nome": "Dr  Begioni Medicina",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "3487456736",
   "email": "",
   "sitoUrl": "https://www.drbegionimedicinaestetica.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "1 Via Alessandro Criscuolo",
+  "cap": "74123",
+  "comune": "Taranto",
   "provincia": "ta",
   "prestazioni": [
    "Filler",
@@ -55,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Begioni Medicina Estetica",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "drfrancescorusso.com",
@@ -84,7 +115,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Francesco Russo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "drvalerioscaranocatanzaro.it",
+  "nome": "Dr. Valerio Scarano Catanzaro",
+  "formaSocietaria": "",
+  "partitaIva": "02403450741",
+  "telefono": "+393756065877",
+  "email": "",
+  "sitoUrl": "https://www.drvalerioscaranocatanzaro.it/",
+  "indirizzo": "Via Dei Catanzaro 12",
+  "cap": "72100",
+  "comune": "Brindisi",
+  "provincia": "ta",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valerio Scarano, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.drvalerioscaranocatanzaro.it/",
+   "https://www.drvalerioscaranocatanzaro.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valerio Scarano, cognome dentro il dominio",
+  "nomeStrutturato": "Dr. Valerio Scarano Catanzaro - Chirurgo estetico a Brindisi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "obiettivosalutetaranto.it",
@@ -121,8 +184,8 @@
   "email": "info@oralmedica.it",
   "sitoUrl": "https://oralmedica.it/",
   "indirizzo": "Viale Unità d'Italia 107",
-  "cap": "",
-  "comune": "",
+  "cap": "74121",
+  "comune": "Taranto",
   "provincia": "ta",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": true,
@@ -136,7 +199,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.436985,
+  "lon": 17.258317,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "OralMedica",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "prontosalutetaranto.it",
@@ -193,7 +263,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosa Salutari, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rosa Salutari, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Rosa Salutari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "saluteservizi.it",
@@ -219,7 +291,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salute & Servizi Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "smedclinic.it",
@@ -243,7 +317,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SMED Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodegiovanni.com",
@@ -273,6 +349,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio De Giovanni",
+  "tipoDichiarato": "Organization"
  }
 ]

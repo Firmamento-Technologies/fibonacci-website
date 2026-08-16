@@ -27,6 +27,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "casadicurapetrucciani.com",
+  "nome": "Clinica a Lecce",
+  "formaSocietaria": "",
+  "partitaIva": "01813160759",
+  "telefono": "+390832448333",
+  "email": "info@casadicurapetrucciani.com",
+  "sitoUrl": "https://casadicurapetrucciani.com/",
+  "indirizzo": "Viale Aldo Moro 28",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "rg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://casadicurapetrucciani.com/",
+   "https://casadicurapetrucciani.com/info-utili/contatti",
+   "https://casadicurapetrucciani.com/la-petrucciani/chi-siamo"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "chirurgiaesteticaragusa.it",
   "nome": "Chirurgia Estetica Ragusa",
   "formaSocietaria": "",
@@ -36,7 +62,7 @@
   "sitoUrl": "https://www.chirurgiaesteticaragusa.it/",
   "indirizzo": "Via Antonello Da Messina, 3",
   "cap": "",
-  "comune": "",
+  "comune": "Aci Castello",
   "provincia": "rg",
   "prestazioni": [
    "Biostimolazione",
@@ -51,7 +77,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Chirurgia Estetica Ragusa - Dott. Giuseppe Manzo",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "fontedibenessere.com",
@@ -107,6 +135,11 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "salviamoicaro.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "sinergiecentroesteticoragusa.com",

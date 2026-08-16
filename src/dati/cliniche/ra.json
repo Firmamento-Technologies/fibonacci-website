@@ -24,7 +24,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriana Pozzi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Adriana Pozzi, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Adriana Pozzi",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "barbaralorenzin.it",
@@ -169,7 +171,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dermatologia e Odontoiatria Clinica – Dentisti Casavecchia STP S.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fisios.it",
@@ -204,8 +208,8 @@
   "email": "info@martinagioialeo.com",
   "sitoUrl": "https://martinagioialeo.com/",
   "indirizzo": "via Enrico Camangi 29",
-  "cap": "",
-  "comune": "",
+  "cap": "48018",
+  "comune": "Faenza",
   "provincia": "ra",
   "prestazioni": [
    "Filler",
@@ -224,7 +228,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr Martina Gioia Leo",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "modernaid.it",
@@ -252,7 +258,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Moderna ID - Poliambulatorio e Odontoiatria",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "momobeautyspecialists.it",
@@ -333,7 +341,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Olympus Ravenna Centro Medico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "osteolab.it",
@@ -441,7 +451,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "www.riorav.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicocasadio.com",
@@ -494,6 +506,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Villa Ginanni Ravenna, Campiano",
+  "tipoDichiarato": "Organization"
  }
 ]

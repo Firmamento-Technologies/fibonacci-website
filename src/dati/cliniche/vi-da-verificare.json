@@ -24,6 +24,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "linktr.ee",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ },
+ {
   "dominio": "poliambulatoriobclinic.it",
   "nome": "B-Clinic Poliambulatorio Medico Specialistico a Vicenza",
   "formaSocietaria": "SRL",
@@ -54,7 +59,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+390444566611",
-  "email": "",
+  "email": "dentistavicenza@gmail.com",
   "sitoUrl": "https://www.studiodentisticomarchesin.it/",
   "indirizzo": "Via Maganza, 57",
   "cap": "36100",
@@ -73,6 +78,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.539545,
+  "lon": 11.528095,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio dentistico Marchesin",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:00-18:30",
+   "Friday 09:00-14:30"
+  ]
  }
 ]

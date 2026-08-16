@@ -1,5 +1,32 @@
 [
  {
+  "dominio": "blog.dentaltrey.it",
+  "nome": "blog.dentaltrey.it",
+  "formaSocietaria": "",
+  "partitaIva": "01306980408",
+  "telefono": "+390543929111",
+  "email": "",
+  "sitoUrl": "https://blog.dentaltrey.it/",
+  "indirizzo": "Via Partisani, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "salzano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://blog.dentaltrey.it/",
+   "https://dtblog.dentaltrey.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "esteticaaliemm.it",
   "nome": "Estetica Aliemm",
   "formaSocietaria": "",
@@ -33,7 +60,7 @@
   "formaSocietaria": "",
   "partitaIva": "04523910273",
   "telefono": "+393515190621",
-  "email": "",
+  "email": "estetica.cheri@outlook.it",
   "sitoUrl": "https://www.esteticacheri.100botteghe.it/",
   "indirizzo": "via A. Diaz, 1",
   "cap": "30030",
@@ -54,7 +81,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Estetica Chèri"
  },
  {
   "dominio": "luciagiuliano.com",

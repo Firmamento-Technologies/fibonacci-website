@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "antonioravazzolo.it",
+  "nome": "Dottor Antonio Ravazzolo, Chirurgo Plastico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@antonioravazzolo.it",
+  "sitoUrl": "https://www.antonioravazzolo.it/",
+  "indirizzo": "Via Fonte Romana 8",
+  "cap": "65124",
+  "comune": "Pescara",
+  "provincia": "pe",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.antonioravazzolo.it/",
+   "https://www.antonioravazzolo.it/contatti/",
+   "https://www.antonioravazzolo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "asl.pe.it",
   "nome": "ASL Pescara",
   "formaSocietaria": "",
@@ -82,7 +110,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Formative Zone",
+  "tipoDichiarato": "EducationalOrganization",
+  "lat": 41.469615,
+  "lon": 15.521795,
+  "orari": [
+   "Mo-Fr 08:00-13:00, 14:00-18:00"
+  ]
  },
  {
   "dominio": "ioledangelomedicinaestetica.it",
@@ -115,7 +150,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Iole D'Angelo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticapescara.com",
@@ -148,7 +185,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "medicina estetica pescara",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "mediestetic.info",
@@ -206,7 +245,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Studio Dentistico Basciani",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticoregina.it",
@@ -231,6 +272,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Regina - Odontoiatria e Medicina Estetica",
+  "tipoDichiarato": "Organization"
  }
 ]

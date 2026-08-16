@@ -28,6 +28,39 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "edoardovetrano.it",
+  "nome": "Dott. Edoardo Vetrano",
+  "formaSocietaria": "",
+  "partitaIva": "01851080380",
+  "telefono": "+390532472130",
+  "email": "",
+  "sitoUrl": "https://www.edoardovetrano.it/",
+  "indirizzo": "Via Marcello Tassini n.6",
+  "cap": "44123",
+  "comune": "Ferrara",
+  "provincia": "portomaggiore",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Edoardo Vetrano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.edoardovetrano.it/",
+   "https://www.edoardovetrano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Edoardo Vetrano, e il dominio lo ripete",
+  "nomeStrutturato": "Edoardo",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
   "dominio": "lorenzobernini.it",
   "nome": "Studio Odontoiatrico Lorenzo Bernini",
   "formaSocietaria": "",
@@ -51,6 +84,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Bernini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Bernini, e il dominio lo ripete",
+  "nomeStrutturato": "Studio Odontoiatrico Dr. Lorenzo Bernini",
+  "tipoDichiarato": "Organization"
  }
 ]

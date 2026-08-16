@@ -23,7 +23,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Colleverde Country House",
+  "tipoDichiarato": "Organization",
+  "lat": 43.705244,
+  "lon": 12.605349,
+  "orari": [
+   "Monday, Tuesday, Thursday, Friday, Saturday 14:00-20:00"
+  ]
  },
  {
   "dominio": "esteticadany.it",

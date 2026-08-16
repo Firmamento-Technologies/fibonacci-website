@@ -1,1 +1,29 @@
-[]
+[
+ {
+  "dominio": "virginiagarofalo.com",
+  "nome": "Dermatologa Roma",
+  "formaSocietaria": "",
+  "partitaIva": "12980561000",
+  "telefono": "+390651602593",
+  "email": "",
+  "sitoUrl": "https://www.virginiagarofalo.com/",
+  "indirizzo": "P.zza Tuscolo 5",
+  "cap": "",
+  "comune": "",
+  "provincia": "rescaldina",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Virginia Garofalo, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.virginiagarofalo.com/",
+   "https://www.virginiagarofalo.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Virginia Garofalo, e il dominio lo ripete"
+ }
+]

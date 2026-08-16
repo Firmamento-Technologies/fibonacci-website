@@ -59,6 +59,33 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "esteticacristal.it",
+  "nome": "Centro Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390543722995",
+  "email": "",
+  "sitoUrl": "https://www.esteticacristal.it/",
+  "indirizzo": "Via Ravegnana, 220",
+  "cap": "47122",
+  "comune": "FORLI'",
+  "provincia": "fc",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.esteticacristal.it/",
+   "https://www.esteticacristal.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "giovannibenfenati.it",
   "nome": "Giovanni Benfenati",
   "formaSocietaria": "",
@@ -94,12 +121,12 @@
   "nome": "Studio Valdinoci: Il Tuo Dentista A Forlì",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39054320239",
   "email": "info@studiodentisticovaldinoci.it",
   "sitoUrl": "https://www.studiodentisticovaldinoci.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via P. Rosselli del Turco, 30",
+  "cap": "47122",
+  "comune": "Forlì (FC)",
   "provincia": "fc",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -111,6 +138,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "lat": 44.22369,
+  "lon": 12.05308,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Valdinoci",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:00-19:00",
+   "Friday 09:00-15:00"
+  ]
  }
 ]

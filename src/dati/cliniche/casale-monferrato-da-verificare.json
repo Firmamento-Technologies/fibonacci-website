@@ -4,12 +4,12 @@
   "nome": "Dottoressa Nicole Abate",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393490662555",
   "email": "",
   "sitoUrl": "https://www.dottoressanicoleabate.com/",
   "indirizzo": "Corso Valentino, 167",
-  "cap": "",
-  "comune": "",
+  "cap": "15033",
+  "comune": "Casale Monferrato",
   "provincia": "casale-monferrato",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -21,7 +21,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Nicole Abate, Chirurgia Maxillo Facciale, Medicina e Chirurgia Estetica, Agopuntura",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottornume.it",
@@ -47,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "dottornume.it",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "medicartsrl.it",

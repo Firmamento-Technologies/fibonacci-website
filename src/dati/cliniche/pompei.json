@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Baros",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicafutura.it",
@@ -88,9 +90,9 @@
   "telefono": "",
   "email": "info@swissvisio.net",
   "sitoUrl": "https://www.swissmedical.net/it",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Route du Muids 3",
+  "cap": "1272",
+  "comune": "Genolier",
   "provincia": "pompei",
   "prestazioni": [],
   "dichiaraDirettoreSanitario": false,
@@ -103,6 +105,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Swiss Medical Network",
+  "tipoDichiarato": "MedicalOrganization"
  }
 ]

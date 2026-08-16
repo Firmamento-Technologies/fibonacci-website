@@ -49,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Belluno Medica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrosferabelluno.it",
@@ -133,6 +135,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.777088,
+  "lon": 12.047415,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Poliambulatorio Locarno",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  }
 ]

@@ -27,6 +27,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Aesthetics 4.0",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "LocalBusiness Organization"
+ },
+ {
+  "dominio": "aslto5.piemonte.it",
+  "nome": "aslto5.piemonte.it",
+  "formaSocietaria": "",
+  "partitaIva": "06827170017",
+  "telefono": "+3901194291",
+  "email": "",
+  "sitoUrl": "https://www.aslto5.piemonte.it/",
+  "indirizzo": "via Ospedale 13",
+  "cap": "69301",
+  "comune": "Nichelino",
+  "provincia": "moncalieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.aslto5.piemonte.it/",
+   "https://www.aslto5.piemonte.it/it/area-tematica/privacy",
+   "https://www.aslto5.piemonte.it/index.php/it/area-tematica/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
@@ -67,6 +98,34 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "immaginazioneelavoro.it",
+  "nome": "Immaginazione e Lavoro",
+  "formaSocietaria": "",
+  "partitaIva": "02434910010",
+  "telefono": "+3939800985384",
+  "email": "",
+  "sitoUrl": "https://immaginazioneelavoro.it/",
+  "indirizzo": "Corso Galileo Ferraris, 57",
+  "cap": "10123",
+  "comune": "Torino",
+  "provincia": "moncalieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://immaginazioneelavoro.it/",
+   "https://immaginazioneelavoro.it/sedi-della-scuola/",
+   "https://immaginazioneelavoro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Immaginazione e Lavoro",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "k2moncalieri.com",

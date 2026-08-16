@@ -28,6 +28,59 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "lnx.ordinemedicilecce.it",
+  "nome": "Ordine dei Medici-Chirurghi e Odontoiatri della Provincia di Lecce",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390832317152",
+  "email": "info@ordinemedicilecce.it",
+  "sitoUrl": "https://lnx.ordinemedicilecce.it/",
+  "indirizzo": "Via Nazario Sauro 31",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://lnx.ordinemedicilecce.it/",
+   "https://lnx.ordinemedicilecce.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "sifap.org",
+  "nome": "SIFAP Società Italiana Farmacisti Preparatori",
+  "formaSocietaria": "",
+  "partitaIva": "11538890150",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.sifap.org/",
+  "indirizzo": "Viale Piceno 18",
+  "cap": "20129",
+  "comune": "Milano",
+  "provincia": "gallipoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sifap.org/",
+   "https://www.sifap.org/contatti",
+   "https://www.sifap.org/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Sifap",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "studiepion.it",
   "nome": "Studi medici Epion centro cefalee, elettromiografia, agopuntura, Neuro",
   "formaSocietaria": "",
@@ -50,6 +103,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro medico Epion - Studi Medici e Sanitari",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -53,7 +53,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Pieffe",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicinaestetica.eu",
@@ -131,14 +133,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Nazione",
+  "tipoDichiarato": "NewsMediaOrganization"
  },
  {
   "dominio": "mcbeautycenter.it",
   "nome": "Mc Beauty Center",
   "formaSocietaria": "",
   "partitaIva": "02555150461",
-  "telefono": "",
+  "telefono": "+39-0584-633913",
   "email": "info@mcbeautycenter.it",
   "sitoUrl": "https://mcbeautycenter.it/",
   "indirizzo": "Via Aurelia Sud 596",
@@ -164,7 +168,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Mc Beauty Center",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 09:00-19:00",
+   "Saturday,Sunday Chiuso"
+  ]
  },
  {
   "dominio": "miamo.studio",
@@ -189,7 +199,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Miamo Studi Medici",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ]
  },
  {
   "dominio": "mybeautytime.it",
@@ -218,7 +233,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "My Beauty Time - Centro Estetico Viareggio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "viareggio-52.saviodimatteo.it",

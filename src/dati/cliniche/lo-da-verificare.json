@@ -4,7 +4,7 @@
   "nome": "Centro Estetico Lodi - WordPress Description",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393387566861",
   "email": "",
   "sitoUrl": "https://www.amame.it/",
   "indirizzo": "",
@@ -23,7 +23,33 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Centro Estetico Lodi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "asst-lodi.it",
+  "nome": "BIG-IP logout page",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://asst-lodi.it/my.logout.php3?errorcode=19",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://asst-lodi.it/my.logout.php3?errorcode=19"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "esteticasmartlodi.it",
@@ -75,6 +101,62 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fisioterapiadonna.it",
+  "nome": "Fisioterapia Donna Lodi",
+  "formaSocietaria": "",
+  "partitaIva": "12465660152",
+  "telefono": "+3939054502",
+  "email": "info@nestetica.com",
+  "sitoUrl": "https://fisioterapiadonna.it/",
+  "indirizzo": "Via G. Leopardi, 1",
+  "cap": "20123",
+  "comune": "Milano",
+  "provincia": "lo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://fisioterapiadonna.it/",
+   "https://fisioterapiadonna.it/contatti/",
+   "https://fisioterapiadonna.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodermatologicodidisilverio.com",
+  "nome": "Dermatologo Pavia Lodi",
+  "formaSocietaria": "",
+  "partitaIva": "02325220180",
+  "telefono": "+393357074458",
+  "email": "",
+  "sitoUrl": "https://studiodermatologicodidisilverio.com/",
+  "indirizzo": "Via Franchi 15",
+  "cap": "",
+  "comune": "",
+  "provincia": "lo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiodermatologicodidisilverio.com/",
+   "https://studiodermatologicodidisilverio.com/note-legali",
+   "https://studiodermatologicodidisilverio.com/privacy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dermatologo - Pavia - Dott Di Silverio Adriano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiomedicodivino.it",

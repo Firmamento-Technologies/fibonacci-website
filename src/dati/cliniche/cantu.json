@@ -52,7 +52,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Cantù",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottorboldrin.com",
@@ -106,7 +108,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "http://www.medicantu.it/",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiosanitariotuccillo.it",
@@ -130,7 +134,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.7394,
+  "lon": 9.1272,
+  "nomeStrutturato": "Studio Sanitario Tuccillo",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday 00:00-23:59"
+  ],
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "vincantocentroesteticodivalentinaenicole.it",
@@ -158,6 +169,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Pieffe",
+  "tipoDichiarato": "Organization"
  }
 ]

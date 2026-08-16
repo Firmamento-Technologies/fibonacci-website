@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "accademiapbs.it",
+  "nome": "Accademia PBS (Professional Beauty School)",
+  "formaSocietaria": "",
+  "partitaIva": "10144710968",
+  "telefono": "",
+  "email": "info@accademiapbs.it",
+  "sitoUrl": "https://www.accademiapbs.it/",
+  "indirizzo": "Corso Milano 33",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.accademiapbs.it/",
+   "https://www.accademiapbs.it/le-nostre-sedi/",
+   "https://www.accademiapbs.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "adrianamedicalbeauty.it",
   "nome": "Adriana Medical Beauty, Medicina e Chirurgia estetica Monza",
   "formaSocietaria": "",
@@ -27,6 +53,36 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "benvitamedica.com",
+  "nome": "Benvita Medica",
+  "formaSocietaria": "",
+  "partitaIva": "02679760963",
+  "telefono": "+390399194790",
+  "email": "info.benvita@bianalisi.it",
+  "sitoUrl": "https://benvitamedica.com/",
+  "indirizzo": "Via F. Cavallotti, 136",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://benvitamedica.com/",
+   "https://benvitamedica.com/contatti/",
+   "https://benvitamedica.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Benvita Medica srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cam-monza.com",
@@ -60,7 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Synlab CAM Polidiagnostico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centrolasermonza.it",
@@ -94,7 +152,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Laser Monza | Trattamenti laser ed Epilazione Monza Milano",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottmarchesi.it",
+  "nome": "Andrea Marchesi.",
+  "formaSocietaria": "",
+  "partitaIva": "07948510966",
+  "telefono": "",
+  "email": "info@dottmarchesi.it.",
+  "sitoUrl": "https://dottmarchesi.it/",
+  "indirizzo": "Via Pergolesi, 33",
+  "cap": "20900",
+  "comune": "Monza",
+  "provincia": "mb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Marchesi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottmarchesi.it/",
+   "https://dottmarchesi.it/contatti/",
+   "https://dottmarchesi.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Marchesi, cognome dentro il dominio"
  },
  {
   "dominio": "francoperego.eu",
@@ -125,6 +211,37 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franco Perego, e il dominio lo ripete"
+ },
+ {
+  "dominio": "groupestetica.com",
+  "nome": "Centri estetici",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12223341004",
+  "telefono": "",
+  "email": "info@solutiongroupcomunication.com.",
+  "sitoUrl": "https://www.groupestetica.com/",
+  "indirizzo": "Via Solferino 27",
+  "cap": "00186",
+  "comune": "Roma",
+  "provincia": "mb",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.groupestetica.com/",
+   "https://www.groupestetica.com/contatti/",
+   "https://www.groupestetica.com/privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "grupposandonato.it",
@@ -348,7 +465,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.58361,
+  "lon": 9.26547,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Poliambulatorio Modoetia Monza e Brianza"
  },
  {
   "dominio": "policlinicodimonza.it",
@@ -399,7 +520,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "PrenotaSalute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "santagostinomonza.it",
@@ -425,14 +548,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Santagostino Monza",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "studiomedicocolombo.com",
+  "nome": "Studio Medico Colombo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicocolombo.com/",
+  "indirizzo": "Strada Statale 36",
+  "cap": "",
+  "comune": "",
+  "provincia": "mb",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonella Colombo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiomedicocolombo.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonella Colombo, cognome dentro il dominio"
  },
  {
   "dominio": "valeriapellegrini.com",
   "nome": "Dr. Valeria Pellegrini",
   "formaSocietaria": "",
   "partitaIva": "02832010967",
-  "telefono": "",
+  "telefono": "+39 347 463 6507",
   "email": "",
   "sitoUrl": "https://valeriapellegrini.com/",
   "indirizzo": "Via XXV Aprile, 31",
@@ -457,6 +609,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Pellegrini, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Pellegrini, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Valeria Pellegrini - Medicina Estetica & Chirurgia Plastica",
+  "tipoDichiarato": "MedicalBusiness"
  }
 ]

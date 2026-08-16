@@ -22,5 +22,57 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "santacristinafano.it",
+  "nome": "Centro medico Santa Cristina",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02409270416",
+  "telefono": "+390721820314",
+  "email": "info@santacristinafano.it",
+  "sitoUrl": "https://www.santacristinafano.it/",
+  "indirizzo": "Via del Fiume, 53",
+  "cap": "61032",
+  "comune": "Fano",
+  "provincia": "fano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.santacristinafano.it/",
+   "https://www.santacristinafano.it/contatti/",
+   "https://www.santacristinafano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "studiodentisticogallo.net",
+  "nome": "Studio Dentistico Gallo Fano",
+  "formaSocietaria": "",
+  "partitaIva": "01052420419",
+  "telefono": "+390721805679",
+  "email": "info@studiodentisticogallo.net",
+  "sitoUrl": "https://studiodentisticogallo.net/",
+  "indirizzo": "Viale Cairoli, 48",
+  "cap": "",
+  "comune": "",
+  "provincia": "fano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://studiodentisticogallo.net/",
+   "https://studiodentisticogallo.net/contatti/",
+   "https://studiodentisticogallo.net/privacy-cookies-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

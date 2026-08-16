@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "alfredoaltieri.it",
+  "nome": "Alfredo Altieri",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390689137297",
+  "email": "",
+  "sitoUrl": "https://www.alfredoaltieri.it/",
+  "indirizzo": "Via Isonzo 54",
+  "cap": "02100",
+  "comune": "Rieti",
+  "provincia": "ri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alfredo Altieri, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alfredoaltieri.it/",
+   "https://www.alfredoaltieri.it/privacy-policy-e-cookie-policy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alfredo Altieri, e il dominio lo ripete"
+ },
+ {
   "dominio": "esteticaedone.com",
   "nome": "Edonè Centro estetico Rieti",
   "formaSocietaria": "SRL",

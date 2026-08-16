@@ -26,7 +26,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Alkymia Belluno",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicafavero.it",
@@ -55,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Favero",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicazamprogno.it",
@@ -138,7 +142,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dentista a Domegge di Cadore",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dolomitidentalclinic.it",
@@ -166,7 +172,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dolomiti Dental Clinic",
+  "tipoDichiarato": "Organization",
+  "lat": 46.15785,
+  "lon": 12.23648,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00"
+  ]
  },
  {
   "dominio": "epilzero.it",
@@ -195,7 +208,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Le Grandi Firme della Bellezza srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "euromedica-belluno.it",
@@ -220,7 +235,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Euromedica Belluno | Poliambulatorio medico specialistico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticaodontoiatrica.it",
@@ -248,7 +265,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina Estetica Odontoiatrica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "qderm.it",
@@ -328,6 +347,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Telebelluno",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -1,11 +1,36 @@
 [
  {
+  "dominio": "anticafarmaciagiusti.it",
+  "nome": "Antica Farmacia Giusti",
+  "formaSocietaria": "SAS",
+  "partitaIva": "06263820828",
+  "telefono": "+39091309076",
+  "email": "info@anticafarmaciagiusti.it",
+  "sitoUrl": "https://www.anticafarmaciagiusti.it/",
+  "indirizzo": "Via G. D'Annunzio, 1",
+  "cap": "90144",
+  "comune": "Palermo",
+  "provincia": "monreale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.anticafarmaciagiusti.it/",
+   "https://www.anticafarmaciagiusti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticocarialorena.com",
   "nome": "Centro Estetico Lorena Caria",
   "formaSocietaria": "",
   "partitaIva": "02331450920",
   "telefono": "+393463674954",
-  "email": "",
+  "email": "lorcaria.lc@gmail.com",
   "sitoUrl": "https://www.centroesteticocarialorena.com/",
   "indirizzo": "Via Primo Maggio, 72",
   "cap": "09037",
@@ -26,12 +51,43 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "CENTRO ESTETICO LORENA CARIA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "codoctor.ch",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "fisiovicari.it",
+  "nome": "Fisiovicari • Gli specialisti del tuo benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390664833594",
+  "email": "info@fisiovicari.it",
+  "sitoUrl": "https://www.fisiovicari.it/",
+  "indirizzo": "Via Michele Buonori, 47",
+  "cap": "00133",
+  "comune": "Roma",
+  "provincia": "monreale",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.fisiovicari.it/",
+   "https://www.fisiovicari.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Fisiovicari",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "monrealecenter.it",
@@ -60,7 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Pieffe",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "monrealenews.it",
@@ -81,6 +139,30 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://monrealenews.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "senato.it",
+  "nome": "senato.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.senato.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "monreale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.senato.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,

@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "dominio": "senso-estetico.it",
+  "nome": "Senso Estetico",
+  "formaSocietaria": "",
+  "partitaIva": "02043670815",
+  "telefono": "+390923554909",
+  "email": "sensoestetico@libero.it",
+  "sitoUrl": "https://www.senso-estetico.it/",
+  "indirizzo": "via Libica 13",
+  "cap": "91100",
+  "comune": "TRAPANI",
+  "provincia": "trapani",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.senso-estetico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "SENSO ESTETICO",
+  "tipoDichiarato": "Organization"
+ }
+]

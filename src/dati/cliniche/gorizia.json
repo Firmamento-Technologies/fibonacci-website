@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty Clinics",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicafabjan.it",
@@ -58,7 +60,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Fabjan",
+  "tipoDichiarato": "MedicalOrganization",
+  "lat": 45.591922,
+  "lon": 13.746626,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday 09:00-18:00",
+   "Friday 09:00-17:00"
+  ]
  },
  {
   "dominio": "sofiasclaunichdermatologa.it",
@@ -66,9 +76,9 @@
   "formaSocietaria": "",
   "partitaIva": "00513780312",
   "telefono": "+393356351131",
-  "email": "",
+  "email": "sofix@libero.it",
   "sitoUrl": "https://www.sofiasclaunichdermatologa.it/",
-  "indirizzo": "",
+  "indirizzo": "Pl. Furlan, 4 34077 RONCHI DEI LEGIONARI (GO)",
   "cap": "34077",
   "comune": "RONCHI",
   "provincia": "gorizia",
@@ -88,7 +98,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DR. SOFIA SCLAUNICH",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "solodottori.it",
@@ -116,6 +128,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "SoloDottori",
+  "tipoDichiarato": "MedicalBusiness"
  }
 ]

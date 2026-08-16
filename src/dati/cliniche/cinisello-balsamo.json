@@ -49,7 +49,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Polisalute",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "garavagliaelisabetta.it",
+  "nome": "Ginecologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390258303607",
+  "email": "segreteria@studioegeria.it",
+  "sitoUrl": "https://www.garavagliaelisabetta.it/",
+  "indirizzo": "Via Giovanni Mayr, 10",
+  "cap": "20131",
+  "comune": "Milano",
+  "provincia": "cinisello-balsamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Elisabetta Garavaglia, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.garavagliaelisabetta.it/",
+   "https://www.garavagliaelisabetta.it/contatti/",
+   "https://www.garavagliaelisabetta.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elisabetta Garavaglia, e il dominio lo ripete"
  },
  {
   "dominio": "poliambulatorisole.it",

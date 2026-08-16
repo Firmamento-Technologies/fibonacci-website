@@ -22,7 +22,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Dentista Sona Verona",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sinapolispecialistico.it",
@@ -43,6 +45,30 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://sinapolispecialistico.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ssp-lugano.ch",
+  "nome": "SSP",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "studio@ssp-lugano.ch",
+  "sitoUrl": "https://ssp-lugano.ch/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ssp-lugano.ch/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -71,6 +97,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Macaluso",
+  "tipoDichiarato": "Organization"
  }
 ]

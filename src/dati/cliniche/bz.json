@@ -55,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty Clinic | Trento e Bolzano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "casadicura.gruppobonvicini.it",
@@ -83,7 +85,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura Bonvicini Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicagostini.it",
@@ -139,7 +143,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dolomites Medical Center",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "dottorbarbato.it",
@@ -200,6 +206,38 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dottssavillanueva.it",
+  "nome": "Medicina Rigenerativa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "contatto@esempio.it",
+  "sitoUrl": "https://www.dottssavillanueva.it/",
+  "indirizzo": "Via Enrico Fermi 2",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "bz",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Villanueva Gelsy, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottssavillanueva.it/",
+   "https://www.dottssavillanueva.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Villanueva Gelsy, cognome dentro il dominio"
+ },
+ {
   "dominio": "estetica-bellessere.it",
   "nome": "Estetista Bolzano",
   "formaSocietaria": "",
@@ -226,7 +264,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Bellessere di Baron Valentina",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "familysalus.it",
@@ -249,6 +289,35 @@
    "https://www.familysalus.it/",
    "https://www.familysalus.it/chi-siamo/",
    "https://www.familysalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "granello",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "laser-studio.it",
+  "nome": "Laser Studio: Home",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://laser-studio.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bz",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://laser-studio.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -278,7 +347,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MedicalZara",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "peterlentsch.it",
@@ -303,6 +374,61 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Peter Lentsch, e il dominio lo ripete"
+ },
+ {
+  "dominio": "saluteprivata.it",
+  "nome": "Salute Privata",
+  "formaSocietaria": "SRL",
+  "partitaIva": "18325851006",
+  "telefono": "",
+  "email": "info@saluteprivata.it",
+  "sitoUrl": "https://www.saluteprivata.it/",
+  "indirizzo": "Via del Casale Giuliani, 10",
+  "cap": "",
+  "comune": "",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.saluteprivata.it/",
+   "https://www.saluteprivata.it/contatti/",
+   "https://www.saluteprivata.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Salute Privata",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "scuolasembz.it",
+  "nome": "Scuola SEM Scuola di estetica moderna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@scuolasembz.it",
+  "sitoUrl": "https://scuolasembz.it/",
+  "indirizzo": "",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://scuolasembz.it/",
+   "https://scuolasembz.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Scuola di estetica moderna",
+  "tipoDichiarato": "School Organization"
  },
  {
   "dominio": "skinmedicbolzano.it",
@@ -361,5 +487,33 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "toplifeproject.com",
+  "nome": "Top Life Project",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03126040215",
+  "telefono": "",
+  "email": "info@toplifeproject.com",
+  "sitoUrl": "https://toplifeproject.com/",
+  "indirizzo": "Piazza Mazzini, 18",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "bz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://toplifeproject.com/",
+   "https://toplifeproject.com/contatti/",
+   "https://toplifeproject.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Top Life Project S.r.l.",
+  "tipoDichiarato": "Organization"
  }
 ]

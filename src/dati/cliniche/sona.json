@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "AMI Amato Medical Institute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "clinicaeziocosta.it",
@@ -48,7 +50,17 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica Ezio Costa",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday 08:30-19:00",
+   "Tuesday 08:30-19:00",
+   "Wednesday 08:30-19:00",
+   "Thursday 08:30-19:00",
+   "Friday 08:30-19:00",
+   "Saturday 08:30-15:00"
+  ]
  },
  {
   "dominio": "smilemedicalcenter.it",
@@ -74,17 +86,19 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Smile Medical Center",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sonamedspa.com",
   "nome": "Sōna MedSpa",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
-  "email": "",
+  "telefono": "+17045448776",
+  "email": "noreply@sonaderm.com",
   "sitoUrl": "https://www.sonamedspa.com/",
-  "indirizzo": "",
+  "indirizzo": "7825 Ballantyne Commons Parkway Suite 300",
   "cap": "14330",
   "comune": "Oakhill",
   "provincia": "sona",
@@ -104,6 +118,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sōna MedSpa of Charlotte",
+  "tipoDichiarato": "Physician MedicalBusiness"
  }
 ]

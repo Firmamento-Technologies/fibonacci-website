@@ -76,6 +76,34 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "teverepost.it",
+  "nome": "TeverePost",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.teverepost.it/",
+  "indirizzo": "Via Senese Aretina, 155",
+  "cap": "52037",
+  "comune": "Sansepolcro",
+  "provincia": "sansepolcro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.teverepost.it/",
+   "https://www.teverepost.it/chi-siamo/",
+   "https://www.teverepost.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "TeverePost",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "tibermedica.it",
   "nome": "TiberMedica",
   "formaSocietaria": "",

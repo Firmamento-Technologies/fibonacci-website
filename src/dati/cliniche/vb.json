@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Beauty 24",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottelsharkawy.com",
@@ -57,7 +59,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Elsharkawy Waleed",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottelsharkawy.it",
@@ -91,7 +95,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.9234,
+  "lon": 8.5541,
+  "nomeStrutturato": "Dott. Waleed Elsharkawy — Medicina e Chirurgia Estetica",
+  "tipoDichiarato": "LocalBusiness Physician"
  },
  {
   "dominio": "dvskintherapist.it",
@@ -151,6 +159,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "stresasalute.it",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ASL ROMA 5",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "chirurgiaesteticadelviso.it",
@@ -55,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Chirurgia Estetica Del Viso Roma",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermoesteticativoli.com",
@@ -141,6 +145,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Unimed Group Srl - Poliambulatorio Tivoli - Diagnostica per immagini - Ambulatori - Check Up",
+  "tipoDichiarato": "Organization"
  }
 ]

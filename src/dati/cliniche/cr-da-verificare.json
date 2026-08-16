@@ -22,7 +22,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro DEA",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "cremona.figliedisancamillo.it",
+  "nome": "Casa di Cura di Cremona",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390372421111",
+  "email": "info.cr@figliesancamillo.it",
+  "sitoUrl": "https://cremona.figliedisancamillo.it/",
+  "indirizzo": "Via Fabio Filzi, 56",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "cr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cremona.figliedisancamillo.it/",
+   "https://cremona.figliedisancamillo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "mariomariotti.it",

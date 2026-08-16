@@ -51,7 +51,46 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casale Monferrato",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermolasermed.com",
+  "nome": "DermoLaser",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393485140500",
+  "email": "info.dermolaserclinic@gmail.com",
+  "sitoUrl": "https://dermolasermed.com/",
+  "indirizzo": "Via Cerva 25",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "casale-monferrato",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dermolasermed.com/",
+   "https://dermolasermed.com/privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Organization",
+  "nomeStrutturato": "DermatoLaserClinic",
+  "orari": [
+   ", , , , , ,"
+  ]
  },
  {
   "dominio": "innovamedical.it",
@@ -76,7 +115,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Innovamedical",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lanteri.org",
@@ -102,7 +143,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico e Odontoiatrico Lanteri e Angelino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lorenzogasco.it",
@@ -130,7 +173,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Gasco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Lorenzo Gasco, e il dominio lo ripete",
+  "nomeStrutturato": "Lorenzo Gasco",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "marcofrigerio.net",
@@ -156,7 +201,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Riflessologia",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "renoviamedicalclinic.it",
@@ -182,7 +229,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Renovia Medical Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiodentisticoscarrone.it",

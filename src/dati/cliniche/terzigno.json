@@ -1,5 +1,38 @@
 [
  {
+  "dominio": "federicogiorgini.com",
+  "nome": "Dr. Federico Giorgini Chirurgo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@federicogiorgini.com",
+  "sitoUrl": "https://www.federicogiorgini.com/",
+  "indirizzo": "",
+  "cap": "40123",
+  "comune": "Bologna",
+  "provincia": "terzigno",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federico Giorgini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.federicogiorgini.com/",
+   "https://www.federicogiorgini.com/contatti/",
+   "https://www.federicogiorgini.com/about/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Giorgini, e il dominio lo ripete"
+ },
+ {
   "dominio": "raffaelebianco.com",
   "nome": "Dr. Raffaele Bianco",
   "formaSocietaria": "",
@@ -30,6 +63,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Bianco, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Raffaele Bianco, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Raffaele Bianco | Esperto di Palloncino Gastrico e filler",
+  "tipoDichiarato": "Organization"
  }
 ]

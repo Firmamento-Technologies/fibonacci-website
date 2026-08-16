@@ -4,12 +4,12 @@
   "nome": "Centro di Medicina Estetica Prof. Ido Sarracco",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+39 0824 51407",
   "email": "",
   "sitoUrl": "https://medicinaesteticabenevento.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Gaetano Salvemini, 4",
+  "cap": "82100",
+  "comune": "Benevento",
   "provincia": "bn",
   "prestazioni": [
    "Filler",
@@ -30,7 +30,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Centro di Medicina Estetica Prof. Ido Sarracco",
+  "tipoDichiarato": "Organization",
+  "lat": 41.126616,
+  "lon": 14.795191
+ },
+ {
+  "dominio": "ordinemedicibenevento.it",
+  "nome": "ordinemedicibenevento.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39082451792",
+  "email": "info@ordinemedicibenevento.it",
+  "sitoUrl": "https://ordinemedicibenevento.it/",
+  "indirizzo": "Corso FAD \"La biologia della gentilezza\" - 42",
+  "cap": "82100",
+  "comune": "Benevento",
+  "provincia": "bn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedicibenevento.it/",
+   "https://ordinemedicibenevento.it/ordine/deontologia-e-normativa/gdpr-informativa-privacy",
+   "https://ordinemedicibenevento.it/ordine/segreteria/urp-contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "studiobenedent.it",
@@ -59,6 +89,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Benedent",
+  "tipoDichiarato": "Organization"
  }
 ]

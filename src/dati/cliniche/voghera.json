@@ -21,7 +21,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ambulatorio polispecialistico del castello",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centromedicoviqueria.it",
@@ -75,7 +77,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MedicalCenter San Giuseppe",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "polidiagnosticairiense.com",
@@ -102,6 +106,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Polidiagnostica Iriense",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -139,7 +139,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Regeneration Institute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticaboscarino.it",
@@ -171,6 +173,100 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Medicina Estetica Boscarino",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "medicinaesteticaturchi.webnode.it",
+  "nome": "medicinaesteticaturchi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticaturchi.webnode.it/",
+  "indirizzo": "Via Accademia degli Agiati 120",
+  "cap": "00147",
+  "comune": "Roma",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://medicinaesteticaturchi.webnode.it/",
+   "https://medicinaesteticaturchi.webnode.it/chi-siamo/",
+   "https://medicinaesteticaturchi.webnode.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "pascalscioscia.com",
+  "nome": "Chirurgo Plastico Roma dott. Pascal Scioscia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@pascalscioscia.com",
+  "sitoUrl": "https://www.pascalscioscia.com/",
+  "indirizzo": "Via Sofia a Roma, 34",
+  "cap": "00144",
+  "comune": "Roma",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pascal Scioscia, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.pascalscioscia.com/",
+   "https://www.pascalscioscia.com/policy-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pascal Scioscia, e il dominio lo ripete"
+ },
+ {
+  "dominio": "scuolelanuovaimmagine.it",
+  "nome": "Scuola d'Estetica La Nuova Immagine ad Albano è un centro di formazion",
+  "formaSocietaria": "",
+  "partitaIva": "04297941009",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.scuolelanuovaimmagine.it/",
+  "indirizzo": "Corso Abilitazione estetista 300",
+  "cap": "20245",
+  "comune": "Oggi",
+  "provincia": "pomezia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.scuolelanuovaimmagine.it/",
+   "https://www.scuolelanuovaimmagine.it/scuole/privacy.html",
+   "https://www.scuolelanuovaimmagine.it/scuole/chi-siamo.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

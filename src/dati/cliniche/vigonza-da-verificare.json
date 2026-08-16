@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "lauracuccarolo.setmore.com",
+  "nome": "Laura Cuccarolo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393911054064",
+  "email": "",
+  "sitoUrl": "https://lauracuccarolo.setmore.com/",
+  "indirizzo": "Via Bachelet n.25",
+  "cap": "35010",
+  "comune": "Our",
+  "provincia": "vigonza",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lauracuccarolo.setmore.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Laura Cuccarolo",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
   "dominio": "sunlinebeauty.it",
   "nome": "Centro estetico a Vigonza",
   "formaSocietaria": "",
@@ -28,6 +59,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Sunline Beauty",
+  "tipoDichiarato": "Organization"
  }
 ]

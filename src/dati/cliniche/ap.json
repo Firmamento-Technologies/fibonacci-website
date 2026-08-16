@@ -1,5 +1,62 @@
 [
  {
+  "dominio": "angeloscioli.it",
+  "nome": "Dottor Angelo Scioli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@angeloscioli.it",
+  "sitoUrl": "https://angeloscioli.it/",
+  "indirizzo": "Via Trento 138",
+  "cap": "43588",
+  "comune": "Città Sant’",
+  "provincia": "ap",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Angelo Scioli, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://angeloscioli.it/",
+   "https://angeloscioli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Angelo Scioli, e il dominio lo ripete"
+ },
+ {
+  "dominio": "ansa.it",
+  "nome": "Agenzia ANSA: ultime notizie di cronaca, politica e sport",
+  "formaSocietaria": "",
+  "partitaIva": "00876481003",
+  "telefono": "",
+  "email": "amministrazione@ansa.it",
+  "sitoUrl": "https://www.ansa.it/",
+  "indirizzo": "Via della Dataria 94",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "ap",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ansa.it/",
+   "https://www.ansa.it/sito/static/privacy.html",
+   "https://www.ansa.it/corporate/it/info/contattaci.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ANSA.it",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "centromedicometamorfosys.it",
   "nome": "Centro medico Metamorfosys",
   "formaSocietaria": "",
@@ -57,5 +114,32 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tg24.sky.it",
+  "nome": "News: ultime notizie di oggi e ultima ora",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04619241005",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://tg24.sky.it/",
+  "indirizzo": "Via Monte Penice, 7",
+  "cap": "20138",
+  "comune": "Milano",
+  "provincia": "ap",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://tg24.sky.it/",
+   "https://tg24.sky.it/cronaca/2026/08/15/agrigento-morto-sedicenne-ferragosto"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Sky TG24",
+  "tipoDichiarato": "Organization"
  }
 ]

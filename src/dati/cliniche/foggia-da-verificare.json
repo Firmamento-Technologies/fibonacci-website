@@ -1,1 +1,29 @@
-[]
+[
+ {
+  "dominio": "studiomedicoparisi.com",
+  "nome": "Chirurgia Plastica Ricostruttiva",
+  "formaSocietaria": "",
+  "partitaIva": "04309660712",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicoparisi.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "foggia",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicoparisi.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

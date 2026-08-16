@@ -26,6 +26,34 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "casateonline.it",
+  "nome": "Casateonline: portale casatese di notizie locali, cultura, cronaca e p",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02533410136",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.casateonline.it/",
+  "indirizzo": "Via Lazzaretto i VVF e il 118",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.casateonline.it/",
+   "https://www.casateonline.it/p/contatti/479",
+   "https://www.casateonline.it/p/contatti-pubblicita/596"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casateonline",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "elysiesuitebeauty.it",
   "nome": "Elysiè Suite",
   "formaSocietaria": "SRL",
@@ -115,6 +143,30 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "joblink.allibo.com",
+  "nome": "ALLIBO® JOBLINK",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06893830965",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://joblink.allibo.com/it/home.aspx",
+  "indirizzo": "Via V. Inama 17",
+  "cap": "20133",
+  "comune": "Milano",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://joblink.allibo.com/it/home.aspx"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "labohemesalon.it",
   "nome": "La Bohème Salon",
   "formaSocietaria": "SNC",
@@ -134,6 +186,34 @@
   "fonteUrl": [
    "https://labohemesalon.it/",
    "https://labohemesalon.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Boh&#232;me Salon",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "medicalfastcesate.it",
+  "nome": "Medicalfast Cesate",
+  "formaSocietaria": "SRL",
+  "partitaIva": "13444730967",
+  "telefono": "+393386624285",
+  "email": "amministrazione@medicalfastcesate.it",
+  "sitoUrl": "https://medicalfastcesate.it/",
+  "indirizzo": "via Piave 58",
+  "cap": "20031",
+  "comune": "",
+  "provincia": "merate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://medicalfastcesate.it/",
+   "https://medicalfastcesate.it/chi-siamo/",
+   "https://medicalfastcesate.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -191,6 +271,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vimedis",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

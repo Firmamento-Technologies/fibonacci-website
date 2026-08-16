@@ -29,7 +29,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Sergio Conversano",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "termedellasalvarola.it",
@@ -55,6 +57,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Terme della Salvarola",
+  "tipoDichiarato": "Organization"
  }
 ]

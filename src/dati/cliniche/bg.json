@@ -63,6 +63,38 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "antoninocassisi.it",
+  "nome": "Dott. Antonino Cassisi Bergamo",
+  "formaSocietaria": "",
+  "partitaIva": "03956600161",
+  "telefono": "",
+  "email": "studio@antoninocassisi.it",
+  "sitoUrl": "https://www.antoninocassisi.it/",
+  "indirizzo": "Via Berizzi 45",
+  "cap": "24126",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Antonino Cassisi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.antoninocassisi.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Antonino Cassisi, e il dominio lo ripete"
+ },
+ {
   "dominio": "asst-pg23.it",
   "nome": "asst-pg23.it",
   "formaSocietaria": "",
@@ -169,7 +201,39 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bernardo Righi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Bernardo Righi, e il dominio lo ripete",
+  "nomeStrutturato": "Bernardo Righi",
+  "tipoDichiarato": "MedicalBusiness Organization"
+ },
+ {
+  "dominio": "centromedicoamaryllis.com",
+  "nome": "Amaryllis",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39 3917364650 0350634936",
+  "email": "info@centromedicoamaryllis.com",
+  "sitoUrl": "https://www.centromedicoamaryllis.com/",
+  "indirizzo": "Via Baioni 31",
+  "cap": "24123",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicoamaryllis.com/",
+   "https://www.centromedicoamaryllis.com/chi-siamo",
+   "https://www.centromedicoamaryllis.com/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "CENTRO MEDICO AMARYLLIS, IL PIACERE DELLA CURA",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "danielemartini.doctor",
@@ -223,7 +287,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Codazzi Denis, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Codazzi Denis, e il dominio lo ripete",
+  "nomeStrutturato": "Denis Codazzi",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "dermalaserclinic.it",
@@ -257,7 +326,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Derma Laser Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologamanfredi.com",
@@ -290,7 +361,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Manfredi Grazia",
+  "tipoDichiarato": "Person"
  },
  {
   "dominio": "doryanclinic.com",
@@ -320,7 +393,41 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Doryan Medicina Estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dottmassimilianotocchio.it",
+  "nome": "Dott. Massimiliano Tocchio",
+  "formaSocietaria": "",
+  "partitaIva": "03618360162",
+  "telefono": "+390356016677",
+  "email": "",
+  "sitoUrl": "https://www.dottmassimilianotocchio.it/",
+  "indirizzo": "Via Giovanni da Verrazzano 4",
+  "cap": "24125",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimiliano Tocchio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dottmassimilianotocchio.it/",
+   "https://www.dottmassimilianotocchio.it/contatti/",
+   "https://www.dottmassimilianotocchio.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Tocchio, cognome dentro il dominio"
  },
  {
   "dominio": "dottordileo-bergamo.com",
@@ -331,8 +438,8 @@
   "email": "info@dottordileo.com",
   "sitoUrl": "https://www.dottordileo-bergamo.com/",
   "indirizzo": "via del Carroccio, 6",
-  "cap": "",
-  "comune": "",
+  "cap": "24123",
+  "comune": "Bergamo",
   "provincia": "bg",
   "prestazioni": [
    "Filler",
@@ -352,7 +459,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.71346,
+  "lon": 9.67234,
+  "nomeStrutturato": "Dottor Di Leo Andrea - Chirurgo Plastico",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "dottoressagottigiuliana.com",
@@ -386,6 +497,30 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "drvincenzaserra.it",
+  "nome": "Dott.ssa Serra Vincenza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://drvincenzaserra.it/Html/index.php",
+  "indirizzo": "Via Angelo Maj 4",
+  "cap": "",
+  "comune": "",
+  "provincia": "bg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Serra Vincenza, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://drvincenzaserra.it/Html/index.php"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Serra Vincenza, cognome dentro il dominio"
+ },
+ {
   "dominio": "esteticamedicabergamo.it",
   "nome": "Estetica Medica",
   "formaSocietaria": "SAS",
@@ -409,7 +544,11 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.693099,
+  "lon": 9.671858,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Estetica Medica"
  },
  {
   "dominio": "fabiotoffanetti.it",
@@ -443,7 +582,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabio Toffanetti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Fabio Toffanetti, e il dominio lo ripete",
+  "nomeStrutturato": "sito@fabiotoffanetti.it",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "facelandclinic.com",
@@ -501,11 +642,67 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "grupporefrattivoitaliano.it",
+  "nome": "Chirurgia refrattiva e intervento laser agli occhi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03764460980",
+  "telefono": "+393394621237",
+  "email": "",
+  "sitoUrl": "https://www.grupporefrattivoitaliano.it/",
+  "indirizzo": "Via Giovanni Motta, 37",
+  "cap": "24123",
+  "comune": "Brescia",
+  "provincia": "bg",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.grupporefrattivoitaliano.it/",
+   "https://www.grupporefrattivoitaliano.it/pages/contatti"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gruppo Refrattivo Italiano",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "innulyabeautysalon.com",
+  "nome": "Centro estetico per microneedling e trattamenti viso a Bergamo",
+  "formaSocietaria": "",
+  "partitaIva": "04648110163",
+  "telefono": "+393273763955",
+  "email": "",
+  "sitoUrl": "https://innulyabeautysalon.com/",
+  "indirizzo": "Via Giovan Rubini Battista, 25",
+  "cap": "24058",
+  "comune": "Romano",
+  "provincia": "bg",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://innulyabeautysalon.com/",
+   "https://innulyabeautysalon.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "life-clinic.it",
   "nome": "Life Clinic : clinica privata d'eccellenza a Bergamo",
   "formaSocietaria": "SRL",
   "partitaIva": "02509640161",
-  "telefono": "",
+  "telefono": "035 03 91 364",
   "email": "segreteria@life-clinic.it",
   "sitoUrl": "https://www.life-clinic.it/",
   "indirizzo": "Via Briantea, 5",
@@ -524,7 +721,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Life Clinic - Health Connections",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "matteocaffi.it",
+  "nome": "Dott. Matteo Caffi",
+  "formaSocietaria": "",
+  "partitaIva": "02627780162",
+  "telefono": "",
+  "email": "info@matteocaffi.it",
+  "sitoUrl": "https://www.matteocaffi.it/",
+  "indirizzo": "via G. Carducci 22",
+  "cap": "24127",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Matteo Caffi, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.matteocaffi.it/",
+   "https://www.matteocaffi.it/chi-siamo/",
+   "https://www.matteocaffi.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Matteo Caffi, e il dominio lo ripete"
  },
  {
   "dominio": "medicalcentermanzoni.it",
@@ -550,7 +775,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Center Manzoni",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mediciinsieme.it",
@@ -608,7 +835,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio medico Dr. De Tommaso Antonio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticabergamo.com",
@@ -680,7 +909,7 @@
   "telefono": "+390350787963",
   "email": "info@myclinique.it",
   "sitoUrl": "https://www.myclinique.it/",
-  "indirizzo": "",
+  "indirizzo": "via Bellini, 43",
   "cap": "24122",
   "comune": "Capitale",
   "provincia": "bg",
@@ -703,7 +932,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 45.69114,
+  "lon": 9.630892,
+  "nomeStrutturato": "Myclinique S.r.l.",
+  "orari": [
+   "Mo-Sa 09:30-19:30"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "osteopatia-still.com",
@@ -787,7 +1023,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Finazzi Bergamo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "radicemedicalspa.it",
@@ -821,6 +1059,38 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Radice Medical SPA",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30",
+   "Saturday 09:00-14:30"
+  ]
+ },
+ {
+  "dominio": "rcformazioneprofessionale.it",
+  "nome": "RC Formazione Professionale",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04390470161",
+  "telefono": "+39035234202",
+  "email": "info@rcformazioneprofessionale.it",
+  "sitoUrl": "https://www.rcformazioneprofessionale.it/",
+  "indirizzo": "Via Milano 2",
+  "cap": "24125",
+  "comune": "Bergamo",
+  "provincia": "bg",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.rcformazioneprofessionale.it/",
+   "https://www.rcformazioneprofessionale.it/contatti/",
+   "https://www.rcformazioneprofessionale.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -849,7 +1119,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Salute Integrata Srl",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "stefanogatti.net",
@@ -884,7 +1156,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Gatti, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Gatti, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Stefano Gatti – Specialista in chirurgia plastica",
+  "tipoDichiarato": "MedicalOrganization"
  },
  {
   "dominio": "studiomedicoventriglia.com",
@@ -917,7 +1191,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico Ventriglia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "white-clinic.it",
@@ -951,6 +1227,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "WHITE CLINIC",
+  "tipoDichiarato": "Organization"
  }
 ]

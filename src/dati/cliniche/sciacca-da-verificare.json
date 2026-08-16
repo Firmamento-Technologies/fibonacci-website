@@ -1,5 +1,57 @@
 [
  {
+  "dominio": "aspag.it",
+  "nome": "ASP Agrigento",
+  "formaSocietaria": "",
+  "partitaIva": "02570930848",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aspag.it/",
+  "indirizzo": "C.so Vittorio… LEGGI IL COMUNICATO → 15",
+  "cap": "92100",
+  "comune": "Agrigento",
+  "provincia": "sciacca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aspag.it/",
+   "https://www.aspag.it/organizzazione-e-servizi-chi-siamo/",
+   "https://www.aspag.it/ufficio-stampa-contatti-e-recapiti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cataniamedica.it",
+  "nome": "Home nuova",
+  "formaSocietaria": "",
+  "partitaIva": "80011920875",
+  "telefono": "",
+  "email": "segreteria@ordinemedct.it",
+  "sitoUrl": "https://www.cataniamedica.it/",
+  "indirizzo": "Viale Ruggero di Lauria, 81",
+  "cap": "95127",
+  "comune": "Catania",
+  "provincia": "sciacca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cataniamedica.it/",
+   "https://www.cataniamedica.it/privacy-policy/",
+   "https://www.cataniamedica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "cncbeauty.it",
   "nome": "CNC Beauty",
   "formaSocietaria": "",
@@ -22,5 +74,35 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "medicinaesteticasciacca.weebly.com",
+  "nome": "MEDICINA ESTETICA A SCIACCA DR BENIGNO VINCENZO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticasciacca.weebly.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sciacca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticasciacca.weebly.com/",
+   "https://medicinaesteticasciacca.weebly.com/contatti.html"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ordinedeimedici.agrigento.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

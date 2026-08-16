@@ -1,11 +1,44 @@
 [
  {
+  "dominio": "pierpaolorovatti.it",
+  "nome": "Pier Paolo Rovatti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390458309368",
+  "email": "info@pierpaolorovatti.it",
+  "sitoUrl": "https://pierpaolorovatti.it/",
+  "indirizzo": "Via Francia 4",
+  "cap": "37135",
+  "comune": "Verona",
+  "provincia": "teverola",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://pierpaolorovatti.it/",
+   "https://pierpaolorovatti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Pier Paolo Rovatti",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "tuttoperlestetica.com",
   "nome": "Prodotti online per estetiste centri estetici parrucchieri",
   "formaSocietaria": "SRL",
   "partitaIva": "08513071210",
-  "telefono": "",
-  "email": "",
+  "telefono": "08118671229",
+  "email": "assistenzatuttoperlestetica@gmail.com",
   "sitoUrl": "https://www.tuttoperlestetica.com/",
   "indirizzo": "",
   "cap": "81032",
@@ -23,6 +56,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Tuttoperlestetica",
+  "tipoDichiarato": "Organization"
  }
 ]

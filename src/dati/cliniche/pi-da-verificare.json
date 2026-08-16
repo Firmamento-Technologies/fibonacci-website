@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "centromedicospaziobenessere.it",
+  "nome": "Centro Medico Spazio Benessere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39050777720",
+  "email": "info@centromedicospaziobenessere.it",
+  "sitoUrl": "https://www.centromedicospaziobenessere.it/",
+  "indirizzo": "via Tosco Romagnola 1987",
+  "cap": "56021",
+  "comune": "Orario",
+  "provincia": "pi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicospaziobenessere.it/",
+   "https://www.centromedicospaziobenessere.it/contatti/",
+   "https://www.centromedicospaziobenessere.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Centro Medico Spazio Benessere",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "charmenchicpisa.it",
   "nome": "Centro Estetico Pisa",
   "formaSocietaria": "",
@@ -27,6 +55,84 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "curemedicoestetiche.com",
+  "nome": "curemedicoestetiche.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.curemedicoestetiche.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pi",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.curemedicoestetiche.com/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dermatologiapisa.it",
+  "nome": "Home Dermatologia Pisa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dermatologiapisa.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologiapisa.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottgianlucagatti.it",
+  "nome": "Chirurgo Plastico Dott Gian Luca Gatti Pisa",
+  "formaSocietaria": "",
+  "partitaIva": "01946550504",
+  "telefono": "+390507916653",
+  "email": "",
+  "sitoUrl": "https://www.dottgianlucagatti.it/",
+  "indirizzo": "",
+  "cap": "56017",
+  "comune": "San",
+  "provincia": "pi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dottgianlucagatti.it/",
+   "https://www.dottgianlucagatti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Silvia Ebalginelli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pagnimedicinaestetica.it",
@@ -60,7 +166,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "pagnimedicinaestetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pierreservice.it",

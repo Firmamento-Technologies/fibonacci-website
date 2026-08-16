@@ -53,6 +53,32 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "gianlucasciannamea.com",
+  "nome": "Dott. Gianluca Sciannamea",
+  "formaSocietaria": "",
+  "partitaIva": "05125300755",
+  "telefono": "+3908321786159",
+  "email": "",
+  "sitoUrl": "https://www.gianlucasciannamea.com/",
+  "indirizzo": "Viale Aldo Moro 28",
+  "cap": "73100",
+  "comune": "Lecce",
+  "provincia": "nardo",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianluca Sciannamea, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.gianlucasciannamea.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianluca Sciannamea, e il dominio lo ripete"
+ },
+ {
   "dominio": "mgmedica.it",
   "nome": "Medicina Estetica",
   "formaSocietaria": "",
@@ -108,6 +134,34 @@
    "https://mormilemedical.it/",
    "https://mormilemedical.it/contatti-mormile-medical/",
    "https://mormilemedical.it/mormile-medical-center-lecce/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mormile Medical Center - Medicina del Lavoro e Medicina Estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "osp-koelliker.it",
+  "nome": "Ospedale Koelliker convenzionato SSN Torino, esami e visite mediche sp",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@osp-koelliker.it",
+  "sitoUrl": "https://www.osp-koelliker.it/",
+  "indirizzo": "Corso Galileo Ferraris, 247",
+  "cap": "10134",
+  "comune": "Torino",
+  "provincia": "nardo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.osp-koelliker.it/",
+   "https://www.osp-koelliker.it/chi-siamo/ospedale-koelliker",
+   "https://www.osp-koelliker.it/chi-siamo/smart-hospital"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

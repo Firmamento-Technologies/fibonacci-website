@@ -26,6 +26,34 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Garibaldi Gattinara Vercelli",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "cmigea.com",
+  "nome": "Centro Medico IGEA",
+  "formaSocietaria": "",
+  "partitaIva": "02579930021",
+  "telefono": "+390161250143",
+  "email": "",
+  "sitoUrl": "https://www.cmigea.com/",
+  "indirizzo": "Corso Libertà, 130",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.cmigea.com/",
+   "https://www.cmigea.com/contatti/",
+   "https://www.cmigea.com/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
   "motivoEsclusione": ""
  },
  {
@@ -33,7 +61,7 @@
   "nome": "Dottoressa Marianna Tagliabue",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393474661883",
   "email": "",
   "sitoUrl": "https://www.dottoressa-marianna-tagliabue.it/",
   "indirizzo": "Via Monviso 1",
@@ -61,7 +89,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dottoressa Marianna Tagliabue",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "federicovillani.it",
+  "nome": "Chirurgia plastica e ricostruttiva",
+  "formaSocietaria": "",
+  "partitaIva": "02438340024",
+  "telefono": "",
+  "email": "info@sandonatomedica.it",
+  "sitoUrl": "https://www.federicovillani.it/",
+  "indirizzo": "Via Bruxelles 10",
+  "cap": "40008",
+  "comune": "Laureato",
+  "provincia": "vc",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Federico Villani, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.federicovillani.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Federico Villani, e il dominio lo ripete"
  },
  {
   "dominio": "istitutodibellezzapatrizia.com",
@@ -89,7 +145,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto Bellezza Patrizia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "istitutosalus.eu",
@@ -118,6 +176,39 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "mudrabeautyspa.com",
+  "nome": "Mudra Beauty SPA Vercelli",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01928320025",
+  "telefono": "+390161804360",
+  "email": "info@mudrabeautyspa.com",
+  "sitoUrl": "https://www.mudrabeautyspa.com/",
+  "indirizzo": "Corso Giuseppe Garibaldi, 74",
+  "cap": "13100",
+  "comune": "Vercelli",
+  "provincia": "vc",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.mudrabeautyspa.com/",
+   "https://www.mudrabeautyspa.com/about-mudra/",
+   "https://www.mudrabeautyspa.com/contatti/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Mudra Beauty SPA",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "skinateliervercelli.it",
   "nome": "Centro estetico",
   "formaSocietaria": "",
@@ -144,6 +235,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Skin Atelier",
+  "tipoDichiarato": "Organization"
  }
 ]

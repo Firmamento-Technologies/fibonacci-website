@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Estetico Essence",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticamembelai.it",
@@ -89,7 +91,7 @@
   "formaSocietaria": "",
   "partitaIva": "02859560423",
   "telefono": "+393280108792",
-  "email": "",
+  "email": "hichammouallemoffice@gmail.com",
   "sitoUrl": "https://hichammouallem.com/",
   "indirizzo": "Via Savoia, 29",
   "cap": "00198",
@@ -112,7 +114,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Hicham Mouallem, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Hicham Mouallem, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Hicham Mouallem",
+  "tipoDichiarato": "Person Organization",
+  "lat": 41.9148,
+  "lon": 12.4995,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-18:00"
+  ]
  },
  {
   "dominio": "poliambulatoriopegaso.com",
@@ -166,6 +175,10 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Boschetto",
+  "tipoDichiarato": "Organization",
+  "lat": 43.998722,
+  "lon": 12.628199
  }
 ]

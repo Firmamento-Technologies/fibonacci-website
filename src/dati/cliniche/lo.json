@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Akesis",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "bmedic.it",
@@ -114,7 +116,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Nouvelle Esthétique",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lodisalute.it",
@@ -140,7 +144,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Lodisalute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalcenterlodi.it",
@@ -192,6 +198,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Olimi",
+  "tipoDichiarato": "Organization"
  }
 ]

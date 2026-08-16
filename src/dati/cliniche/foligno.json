@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "ENDLESS S.R.L.S.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologodamiani.it",
@@ -61,6 +63,41 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "proiettisusinidentistafoligno.it",
+  "nome": "Proietti Susini Studio Dentistico: Il Tuo Dentista A Foligno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390742770377",
+  "email": "proiettisusinidentista@gmail.com",
+  "sitoUrl": "https://proiettisusinidentistafoligno.it/",
+  "indirizzo": "Via Monte Acuto fino al civico 49",
+  "cap": "06034",
+  "comune": "Lunedì",
+  "provincia": "foligno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Simona Proietti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://proiettisusinidentistafoligno.it/",
+   "https://proiettisusinidentistafoligno.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Simona Proietti, cognome dentro il dominio",
+  "lat": 42.960324,
+  "lon": 12.690412,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dentistico Proietti Susini Simona",
+  "orari": [
+   "Monday 09:00-14:00",
+   "Tuesday 15:30-19:00",
+   "Wednesday,Thursday 14:00-19:30",
+   "Friday 08:30-14:00"
+  ]
+ },
+ {
   "dominio": "santaluciacentromedico.it",
   "nome": "Centro Medico Santa Lucia",
   "formaSocietaria": "",
@@ -83,7 +120,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Diagnostico e Chirurgico Santa Lucia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "walterbugiantella.it",
@@ -112,6 +151,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Bugiantella, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Walter Bugiantella, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Walter Bugiantella",
+  "tipoDichiarato": "Organization"
  }
 ]

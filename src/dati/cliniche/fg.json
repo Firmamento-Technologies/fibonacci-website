@@ -54,7 +54,42 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Arbor Vitae Foggia | Studio Medico",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ariannamaiorella.it",
+  "nome": "Dott.ssa Arianna Maiorella",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393515649493",
+  "email": "",
+  "sitoUrl": "https://ariannamaiorella.it/",
+  "indirizzo": "Corso Alcide de Gasperi, 413",
+  "cap": "",
+  "comune": "",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Arianna Maiorella, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://ariannamaiorella.it/",
+   "https://ariannamaiorella.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Arianna Maiorella, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Arianna Maiorella",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "centrogiovannipaolo.it",
@@ -114,7 +149,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medicina estetica, medicina vascolare visite angiologiche, blefaroplastica non chirurgica e dieta medicale",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "liberatocecchino.it",
@@ -124,9 +161,9 @@
   "telefono": "+390881028802",
   "email": "",
   "sitoUrl": "https://liberatocecchino.it/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Luigi Perosi (Policlinico Riuniti)",
+  "cap": "71122",
+  "comune": "Foggia",
   "provincia": "fg",
   "prestazioni": [
    "Filler",
@@ -141,7 +178,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dott. Liberato Roberto Cecchino",
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "medigit.it",
@@ -176,7 +215,7 @@
   "nome": "La Clinica della Bellezza",
   "formaSocietaria": "",
   "partitaIva": "17432111007",
-  "telefono": "",
+  "telefono": "+393578862515",
   "email": "info@renovebeauty.it",
   "sitoUrl": "https://renovebeauty.it/",
   "indirizzo": "Via Marchese De Rosa, 49",
@@ -198,7 +237,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Renovè Beauty | Foggia",
+  "orari": [
+   "Tuesday,Wednesday,Thursday,Friday,Saturday 09:00-18:00",
+   "Monday,Sunday Chiuso"
+  ]
  },
  {
   "dominio": "sanita.puglia.it",
@@ -225,6 +270,35 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studioarciuolo.it",
+  "nome": "Studio Arciuolo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@yourwebsite.com",
+  "sitoUrl": "https://studioarciuolo.it/",
+  "indirizzo": "Via Nedo Nadi 44",
+  "cap": "71122",
+  "comune": "Foggia",
+  "provincia": "fg",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Girolamo Arciuolo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studioarciuolo.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Girolamo Arciuolo, cognome dentro il dominio"
  },
  {
   "dominio": "studiodentisticobevilacqua.com",

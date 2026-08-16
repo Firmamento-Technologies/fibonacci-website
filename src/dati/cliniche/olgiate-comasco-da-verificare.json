@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "divaesteticam.webnode.it",
+  "nome": "divaesteticam",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393668988909",
+  "email": "contatto@esempio.it",
+  "sitoUrl": "https://divaesteticam.webnode.it/",
+  "indirizzo": "Via G. Parini 9",
+  "cap": "22077",
+  "comune": "Olgiate",
+  "provincia": "olgiate-comasco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://divaesteticam.webnode.it/",
+   "https://divaesteticam.webnode.it/chi-siamo/",
+   "https://divaesteticam.webnode.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "magiaebellezza.it",
   "nome": "Centro estetico a Olgiate Comasco (Como)",
   "formaSocietaria": "",

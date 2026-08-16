@@ -29,6 +29,37 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "drsavinocefola.it",
+  "nome": "Dott. Savino Cefola",
+  "formaSocietaria": "",
+  "partitaIva": "04162130720",
+  "telefono": "+390883520504",
+  "email": "info@drsavinocefola.it",
+  "sitoUrl": "https://www.drsavinocefola.it/",
+  "indirizzo": "Via XX Settembre, 7",
+  "cap": "76121",
+  "comune": "Barletta",
+  "provincia": "molfetta",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.drsavinocefola.it/",
+   "https://www.drsavinocefola.it/chi-siamo/",
+   "https://www.drsavinocefola.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott. Savino Cefola",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "elisirnailsbeautymakeup.com",
   "nome": "Centro Estetico a Molfetta (BA)",
   "formaSocietaria": "",
@@ -79,7 +110,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Esprit3.it",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fabiopappagallo.it",
@@ -108,6 +141,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Fabio Pappagallo Medicina Estetica",
+  "tipoDichiarato": "Organization"
  }
 ]

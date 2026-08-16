@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "dominio": "samosgroup.it",
+  "nome": "Dr. Maurizio Saturno",
+  "formaSocietaria": "",
+  "partitaIva": "00017798885",
+  "telefono": "",
+  "email": "info@samosgroup.it",
+  "sitoUrl": "https://www.samosgroup.it/",
+  "indirizzo": "Via del Pescatore, 3",
+  "cap": "80053",
+  "comune": "Castellammare",
+  "provincia": "castellammare-di-stabia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.samosgroup.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

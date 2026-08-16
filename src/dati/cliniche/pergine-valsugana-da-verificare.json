@@ -1,5 +1,40 @@
 [
  {
+  "dominio": "dottssavbmedicinaestetica.it",
+  "nome": "Dott.ssa Blerina Vallaj",
+  "formaSocietaria": "",
+  "partitaIva": "01996390470",
+  "telefono": "+393495154992",
+  "email": "",
+  "sitoUrl": "https://dottssavbmedicinaestetica.it/",
+  "indirizzo": "Via Francesco II di Borbone, 28",
+  "cap": "38062",
+  "comune": "Arco",
+  "provincia": "pergine-valsugana",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dottssavbmedicinaestetica.it/",
+   "https://dottssavbmedicinaestetica.it/chi-siamo/",
+   "https://dottssavbmedicinaestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "VALLAJ BLERINA",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "esteticamoser.it",
   "nome": "Centro Estetica Moser",
   "formaSocietaria": "",
@@ -23,7 +58,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Estetica Moser",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticaoltrelimmagine.net",

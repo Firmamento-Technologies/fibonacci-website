@@ -118,11 +118,11 @@
   "formaSocietaria": "",
   "partitaIva": "02563680749",
   "telefono": "+393406953373",
-  "email": "",
+  "email": "baldaristudiodentistico@gmail.com",
   "sitoUrl": "https://www.studiodentisticobaldari.it/",
   "indirizzo": "Via Enrico Fermi, 4",
   "cap": "72026",
-  "comune": "",
+  "comune": "san pancrazio salentino",
   "provincia": "br",
   "prestazioni": [
    "Filler"
@@ -138,6 +138,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studio Dentistico Baldari Studio Dentistico Baldari",
+  "tipoDichiarato": "Organization",
+  "lat": 40.41879,
+  "lon": 17.83193,
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 08:00-20:0",
+   "Sunday closed"
+  ]
  }
 ]

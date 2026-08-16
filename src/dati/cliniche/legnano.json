@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "centromedicodiani.it",
+  "nome": "Centro Medico Diani",
+  "formaSocietaria": "",
+  "partitaIva": "09750920960",
+  "telefono": "+3903311880734",
+  "email": "info@centromedicodiani.it",
+  "sitoUrl": "https://www.centromedicodiani.it/",
+  "indirizzo": "Via Macello 4",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.centromedicodiani.it/",
+   "https://www.centromedicodiani.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centromedicosanmagno.it",
   "nome": "Centro Medico San Magno",
   "formaSocietaria": "",
@@ -22,7 +47,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico San Magno Legnano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dalilavergani.it",
@@ -137,7 +164,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Human Clinic S.n.c.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "landing.dottrobertolualdi.it",
@@ -195,6 +224,60 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "microchirurgiamano.net",
+  "nome": "- DOTT. FEDERICO AMADEI",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.microchirurgiamano.net/",
+  "indirizzo": "Via Giovanni Giolitti 22",
+  "cap": "",
+  "comune": "",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.microchirurgiamano.net/",
+   "https://www.microchirurgiamano.net/contatti/",
+   "https://www.microchirurgiamano.net/wp-content/uploads/2014/10/Privacy.pdf"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Federico Amadei",
+  "tipoDichiarato": "Person Organization"
+ },
+ {
+  "dominio": "milanotoday.it",
+  "nome": "MilanoToday",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10786801000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.milanotoday.it/",
+  "indirizzo": "viale Monte Ceneri nella serata di venerdì 14",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.milanotoday.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MilanoToday",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "settimosensobeauty.com",
   "nome": "SETTIMOSENSO Beauty Gallery",
   "formaSocietaria": "",
@@ -225,6 +308,74 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "studiodentisticodiomaiuta.com",
+  "nome": "Centro Odontoiatrico Diomaiuta: Il Tuo Dentista A Legnano",
+  "formaSocietaria": "",
+  "partitaIva": "02590810129",
+  "telefono": "+390331453500",
+  "email": "diomaiutadanilo@gmail.com",
+  "sitoUrl": "https://www.studiodentisticodiomaiuta.com/",
+  "indirizzo": "Corso Garibaldi fino al numero 70",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Danilo Diomaiuta, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticodiomaiuta.com/",
+   "https://www.studiodentisticodiomaiuta.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Danilo Diomaiuta, cognome dentro il dominio",
+  "lat": 45.597453,
+  "lon": 8.917245,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Centro Odontoiatrico Diomaiuta",
+  "orari": [
+   "Monday,Tuesday,Thursday 09:30-12:00 / 15:00-19:30",
+   "Wednesday 15:00-19:30",
+   "Friday 09:00-12:30"
+  ]
+ },
+ {
+  "dominio": "studiodentisticogierre.it",
+  "nome": "Studio Dentistico Gierre: Il Tuo Dentista A Legnano",
+  "formaSocietaria": "SAS",
+  "partitaIva": "03695850960",
+  "telefono": "+390331544564",
+  "email": "gierre_sas@libero.it",
+  "sitoUrl": "https://studiodentisticogierre.it/",
+  "indirizzo": "Via San Clemente verso Legnano Parabiago → SP12",
+  "cap": "20025",
+  "comune": "Legnano",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiodentisticogierre.it/",
+   "https://studiodentisticogierre.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "lat": 45.594947,
+  "lon": 8.890933,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dentistico Gierre",
+  "orari": [
+   "Monday,Wednesday,Friday 09:00-12:00 / 15:00-20:00",
+   "Tuesday 15:00-20:00",
+   "Thursday,Saturday,Sunday Chiuso"
+  ]
+ },
+ {
   "dominio": "studiohclegnano.it",
   "nome": "HUMAN CLINIC-Studio HC",
   "formaSocietaria": "SAS",
@@ -245,6 +396,34 @@
    "https://www.studiohclegnano.it/",
    "https://www.studiohclegnano.it/chi-siamo/",
    "https://www.studiohclegnano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "HUMAN CLINIC-Studio HC",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "terapiaozono.it",
+  "nome": "ClinicaO₃",
+  "formaSocietaria": "",
+  "partitaIva": "11946820963",
+  "telefono": "+390221119324",
+  "email": "",
+  "sitoUrl": "https://www.terapiaozono.it/",
+  "indirizzo": "via Filippo Turati, 76",
+  "cap": "20023",
+  "comune": "Cerro",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.terapiaozono.it/",
+   "https://www.terapiaozono.it/dove-siamo/",
+   "https://www.terapiaozono.it/privacy-policy/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

@@ -29,7 +29,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinicare",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "falmed.it",

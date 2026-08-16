@@ -27,6 +27,34 @@
   "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  },
  {
+  "dominio": "fism.it",
+  "nome": "FISM",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@fism.it",
+  "sitoUrl": "https://fism.it/",
+  "indirizzo": "",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "fasano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fism.it/",
+   "https://fism.it/privacy-policy/",
+   "https://fism.it/riferimenti-normativa-privacy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Federazione Italiana delle Società Medico-Scientifiche",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "plasticaricostruttiva.com",
   "nome": "Chirurgo plastico",
   "formaSocietaria": "",

@@ -81,11 +81,74 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "fulviopanico.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "ginecologazanin.it",
+  "nome": "Dott.ssa Renata Zanin",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393401926479",
+  "email": "info@ginecologazanin.it",
+  "sitoUrl": "https://www.ginecologazanin.it/",
+  "indirizzo": "181 Via Emilia Est",
+  "cap": "41121",
+  "comune": "Modena",
+  "provincia": "sassuolo",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ginecologazanin.it/",
+   "https://www.ginecologazanin.it/about-6",
+   "https://www.ginecologazanin.it/about-5-1"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "DOTT.SSA RENATA ZANIN - MEDICO CHIRURGO - SPECIALISTA IN GINECOLOGIA ED OSTETRICIA - GINECOLOGIA ESTETICA E FUNZIONALE-E",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "ptmodo.it",
+  "nome": "Centro Polispecialistico Modena",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03886290364",
+  "telefono": "+390597877990",
+  "email": "",
+  "sitoUrl": "https://www.ptmodo.it/",
+  "indirizzo": "P.zza Braglia 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "sassuolo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ptmodo.it/",
+   "https://www.ptmodo.it/contatti/",
+   "https://www.ptmodo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio Modo",
+  "tipoDichiarato": "Organization"
  }
 ]

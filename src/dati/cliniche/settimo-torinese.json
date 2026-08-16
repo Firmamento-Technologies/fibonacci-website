@@ -102,6 +102,47 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmaca International",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "massimilianoleporati.it",
+  "nome": "Chirurgo Plastico Estetico a Milano",
+  "formaSocietaria": "",
+  "partitaIva": "02905510349",
+  "telefono": "+393276607037",
+  "email": "info@massimilianoleporati.com",
+  "sitoUrl": "https://massimilianoleporati.it/",
+  "indirizzo": "Via Arpa, 8",
+  "cap": "43121",
+  "comune": "Parma",
+  "provincia": "settimo-torinese",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Massimiliano Leporati, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://massimilianoleporati.it/",
+   "https://massimilianoleporati.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Massimiliano Leporati, e il dominio lo ripete",
+  "nomeStrutturato": "Dr. Massimiliano Leporati",
+  "tipoDichiarato": "Organization",
+  "lat": 45.479105,
+  "lon": 9.190791,
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:00",
+   "Saturday 09:00-13:00"
+  ]
  }
 ]

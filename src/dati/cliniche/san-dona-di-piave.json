@@ -32,7 +32,46 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Marconi, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Roberto Marconi, cognome dentro il dominio",
+  "nomeStrutturato": "Dermatologia Marconi",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "medicinaesteticazazzaron.it",
+  "nome": "Medicina Estetica Treviso",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04741090262",
+  "telefono": "+390422842588",
+  "email": "segreteria@medicinaesteticazazzaron.it",
+  "sitoUrl": "https://www.medicinaesteticazazzaron.it/",
+  "indirizzo": "Via Fusana, 7",
+  "cap": "31056",
+  "comune": "Roncade",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Michela Zazzaron, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.medicinaesteticazazzaron.it/",
+   "https://www.medicinaesteticazazzaron.it/privacy-policy-2/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Michela Zazzaron, cognome dentro il dominio",
+  "nomeStrutturato": "Medicina Estetica Zazzaron",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "metodostudio.com",
@@ -55,6 +94,62 @@
    "https://www.metodostudio.com/",
    "https://www.metodostudio.com/contatti/",
    "https://www.metodostudio.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Metodo studio",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "omceovenezia.it",
+  "nome": "Ordine de Medici Chirurghi e Odontoiatri di Venezia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39041989479",
+  "email": "segreteria.ve@pec.omceo.it",
+  "sitoUrl": "https://www.omceovenezia.it/",
+  "indirizzo": "Via Mestrina, 86",
+  "cap": "30172",
+  "comune": "Mestre",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.omceovenezia.it/",
+   "https://www.omceovenezia.it/ordine/organi-istituzionali/chi-siamo",
+   "https://www.omceovenezia.it/professione/modulistica/informativa-privacy"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
+  "dominio": "poliambulatori.rizzola.it",
+  "nome": "Poliambulatori Rizzola",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390421338411",
+  "email": "info@rizzola.it",
+  "sitoUrl": "https://poliambulatori.rizzola.it/",
+  "indirizzo": "Via Gorizia, 1",
+  "cap": "30027",
+  "comune": "San",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://poliambulatori.rizzola.it/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
@@ -86,7 +181,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Gallo",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiocaberlotto.it",

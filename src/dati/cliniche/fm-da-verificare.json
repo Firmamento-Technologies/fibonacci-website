@@ -5,6 +5,33 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "aslroma3.it",
+  "nome": "Asl Roma 3",
+  "formaSocietaria": "",
+  "partitaIva": "07895080724",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aslroma3.it/",
+  "indirizzo": "",
+  "cap": "70123",
+  "comune": "BARI",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aslroma3.it/",
+   "https://www.aslroma3.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Asl Roma 3",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "astfm.marche.it",
   "nome": "AST Fermo",
   "formaSocietaria": "",
@@ -55,6 +82,62 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "confartigianatoimprese.org",
+  "nome": "Confartigianato Imprese Macerata",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3907333661",
+  "email": "",
+  "sitoUrl": "https://www.confartigianatoimprese.org/",
+  "indirizzo": "corso SAB Il nuovo corso partirà il 22",
+  "cap": "62100",
+  "comune": "Macerata",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.confartigianatoimprese.org/",
+   "https://www.confartigianatoimprese.org/chi-siamo/",
+   "https://www.confartigianatoimprese.org/le-nostre-sedi/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Confartigianato Imprese Macerata-Ascoli Piceno-Fermo",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "fondazioneveronesi.it",
+  "nome": "Fondazione Umberto Veronesi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@fondazioneveronesi.it",
+  "sitoUrl": "https://www.fondazioneveronesi.it/",
+  "indirizzo": "Via Solferino 19",
+  "cap": "20121",
+  "comune": "Milano",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fondazioneveronesi.it/",
+   "https://www.fondazioneveronesi.it/la-fondazione/chi-siamo",
+   "https://www.fondazioneveronesi.it/la-fondazione/chi-siamo/la-nostra-storia"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Fondazione Umberto Veronesi",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "poliambulatoriosanfermo.it",
   "nome": "Poliambulatorio San Fermo",
   "formaSocietaria": "",
@@ -78,7 +161,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio San Fermo - Este Padova",
+  "tipoDichiarato": "Organization Person"
  },
  {
   "dominio": "studioesteticomedico.it",
@@ -86,5 +171,33 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoSoggetto": "incerto",
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "villaverdefermo.com",
+  "nome": "Villa Verde Fermo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00220340442",
+  "telefono": "+390734227745",
+  "email": "",
+  "sitoUrl": "https://www.villaverdefermo.com/",
+  "indirizzo": "Piazzale Kennedy, 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "fm",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villaverdefermo.com/",
+   "https://www.villaverdefermo.com/contatti/",
+   "https://www.villaverdefermo.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Casa di cura privata Villa Verde",
+  "tipoDichiarato": "Organization"
  }
 ]

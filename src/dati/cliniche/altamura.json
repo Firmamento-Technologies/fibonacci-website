@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Pugliese",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lauramicucci.com",
@@ -136,6 +138,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio di Medicina Estetica Laterza",
+  "tipoDichiarato": "Organization"
  }
 ]

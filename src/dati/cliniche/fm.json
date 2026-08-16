@@ -1,5 +1,65 @@
 [
  {
+  "dominio": "andreamazzonidermatologo.it",
+  "nome": "Dott. Andrea Mazzoni » Dermatologo Macerata e Fermo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393389501956",
+  "email": "",
+  "sitoUrl": "https://www.andreamazzonidermatologo.it/",
+  "indirizzo": "Via Bologna, 72",
+  "cap": "",
+  "comune": "",
+  "provincia": "fm",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Mazzoni, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.andreamazzonidermatologo.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Mazzoni, cognome dentro il dominio"
+ },
+ {
+  "dominio": "andreapaci.it",
+  "nome": "Dott. Andrea Paci Specialista in Chirurgia Plastica Ricostruttiva Este",
+  "formaSocietaria": "",
+  "partitaIva": "01266060449",
+  "telefono": "+390632651841",
+  "email": "info@andreapaci.it",
+  "sitoUrl": "https://www.andreapaci.it/",
+  "indirizzo": "Via Archimede 59",
+  "cap": "00100",
+  "comune": "Roma",
+  "provincia": "fm",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Andrea Paci, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.andreapaci.it/",
+   "https://www.andreapaci.it/privacy",
+   "https://www.andreapaci.it/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Andrea Paci, e il dominio lo ripete"
+ },
+ {
   "dominio": "dermatologoferro.it",
   "nome": "Centro Dermatologico Ferro",
   "formaSocietaria": "",
@@ -63,7 +123,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Fabrizio Fantini",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "dottorvaleriani.it",

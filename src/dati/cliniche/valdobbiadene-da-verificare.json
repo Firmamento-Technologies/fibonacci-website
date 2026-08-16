@@ -3,9 +3,9 @@
   "dominio": "absuite.eu",
   "nome": "Ringiovanimento viso con AB Suite a Valdobbiadene",
   "formaSocietaria": "",
-  "partitaIva": "",
+  "partitaIva": "05309810264",
   "telefono": "+393519895907",
-  "email": "",
+  "email": "UP@admin77",
   "sitoUrl": "https://absuite.eu/",
   "indirizzo": "Via Centro La Filanda 13",
   "cap": "31049",
@@ -25,14 +25,18 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 45.896794,
+  "lon": 12.00046,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "AB Suite"
  },
  {
   "dominio": "digebeau.net",
   "nome": "Medicina estetica",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "+393496662721",
   "email": "info@digebeau.it",
   "sitoUrl": "https://www.digebeau.net/",
   "indirizzo": "Via Ferrante Aporti, 13",
@@ -52,7 +56,14 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 43.69602,
+  "lon": 10.83561,
+  "nomeStrutturato": "Alberto Bologna",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 16:00-21:00"
+  ],
+  "tipoDichiarato": "Physician"
  },
  {
   "dominio": "esteticalucianavaldobbiadene.it",
@@ -78,7 +89,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "estetica luciana damin di Luciana Damin",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticatreviso.com",
@@ -109,6 +122,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "L'Estetica",
+  "tipoDichiarato": "Organization"
  }
 ]

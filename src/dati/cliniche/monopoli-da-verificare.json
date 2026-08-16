@@ -29,6 +29,30 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "ao-pisa.toscana.it",
+  "nome": "ao-pisa.toscana.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ao-pisa.toscana.it/",
+  "indirizzo": "Via Roma n. 67",
+  "cap": "56126",
+  "comune": "Pisa",
+  "provincia": "monopoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ao-pisa.toscana.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "dentes.it",
   "nome": "Dentes",
   "formaSocietaria": "SRL",
@@ -53,6 +77,34 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "e20srl.com",
+  "nome": "e20",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390105960362",
+  "email": "info@e20srl.com",
+  "sitoUrl": "https://www.e20srl.com/",
+  "indirizzo": "Via A.Cecchi 4",
+  "cap": "16129",
+  "comune": "Genova",
+  "provincia": "monopoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.e20srl.com/",
+   "https://www.e20srl.com/chi-siamo/",
+   "https://www.e20srl.com/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "e20 s.r.l.",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "estelinea.it",

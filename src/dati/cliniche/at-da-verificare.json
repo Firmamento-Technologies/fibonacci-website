@@ -4,8 +4,8 @@
   "nome": "Centro Estetico ad Asti",
   "formaSocietaria": "",
   "partitaIva": "01538790054",
-  "telefono": "",
-  "email": "",
+  "telefono": "+39 331 6418072",
+  "email": "armonia.asti@gmail.com",
   "sitoUrl": "https://armonia-asti.it/",
   "indirizzo": "Via Atleti Azzurri Astigiani 12",
   "cap": "14100",
@@ -26,7 +26,136 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.89803,
+  "lon": 8.216813,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Armonia: Estetica e Benessere",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-18:30"
+  ]
+ },
+ {
+  "dominio": "centroesteticosoloperte.com",
+  "nome": "Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390141230507",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticosoloperte.com/",
+  "indirizzo": "Via Ugo Foscolo, 40",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "at",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroesteticosoloperte.com/",
+   "https://www.centroesteticosoloperte.com/contatti"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "clinicasanna.it",
+  "nome": "clinicasanna.it",
+  "formaSocietaria": "",
+  "partitaIva": "00182020057",
+  "telefono": "",
+  "email": "info@clinicasanna.it",
+  "sitoUrl": "https://www.clinicasanna.it/",
+  "indirizzo": "Via Carlo Urbani, 46",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "at",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicasanna.it/",
+   "https://www.clinicasanna.it/chi-siamo/",
+   "https://www.clinicasanna.it/privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Casa di Cura Sant’Anna",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ermannomargaglia.com",
+  "nome": "Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ermannomargaglia.com/",
+  "indirizzo": "Via Asti, 19",
+  "cap": "89872",
+  "comune": "",
+  "provincia": "at",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ermannomargaglia.com/",
+   "https://www.ermannomargaglia.com/contatti",
+   "https://www.ermannomargaglia.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "esteticanuovamem.it",
+  "nome": "Centro benessere estetico",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390141531080",
+  "email": "",
+  "sitoUrl": "https://esteticanuovamem.it/",
+  "indirizzo": "Via Cavour – 14100",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "at",
+  "prestazioni": [
+   "Filler",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticanuovamem.it/",
+   "https://esteticanuovamem.it/contatti-nuova-mem/",
+   "https://esteticanuovamem.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Estetica Nuova MEM",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticastudiomarello.com",
@@ -89,6 +218,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "imed.altervista.org",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "medicina-estetica-asti.it",
   "nome": "Medicina Estetica Asti",
   "formaSocietaria": "",
@@ -113,19 +247,21 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Asti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "meriskinperfect.com",
   "nome": "Meri SkinPerfect",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "3927010768",
   "email": "",
   "sitoUrl": "https://www.meriskinperfect.com/",
-  "indirizzo": "",
-  "cap": "",
-  "comune": "",
+  "indirizzo": "Via Bricco Trombetta",
+  "cap": "14013",
+  "comune": "Provincia di Asti",
   "provincia": "at",
   "prestazioni": [
    "Trattamento cicatrici"
@@ -140,6 +276,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Meri Skin Perfect",
+  "tipoDichiarato": "LocalBusiness"
  }
 ]

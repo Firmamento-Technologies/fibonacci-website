@@ -61,6 +61,64 @@
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Vittoria Rampino, cognome dentro il dominio"
  },
  {
+  "dominio": "istitutosantachiara.it",
+  "nome": "Clinica di riabilitazione e poliambulatorio » Istituto Santa Chiara",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03625370758",
+  "telefono": "+390669365736",
+  "email": "info.roma@istitutosantachiara.it",
+  "sitoUrl": "https://istitutosantachiara.it/",
+  "indirizzo": "Via Properzio, 6",
+  "cap": "00193",
+  "comune": "Roma",
+  "provincia": "lecce",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://istitutosantachiara.it/",
+   "https://istitutosantachiara.it/chi-siamo/",
+   "https://istitutosantachiara.it/sedi/roma/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "mauriziocursano.it",
+  "nome": "Medicina e Chirurgia Estetica Lecce",
+  "formaSocietaria": "",
+  "partitaIva": "04839200757",
+  "telefono": "",
+  "email": "info@mauriziocursano.it",
+  "sitoUrl": "https://www.mauriziocursano.it/",
+  "indirizzo": "Via della Repubblica, 18",
+  "cap": "73037",
+  "comune": "Poggiardo",
+  "provincia": "lecce",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maurizio Cursano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.mauriziocursano.it/",
+   "https://www.mauriziocursano.it/contatti/",
+   "https://www.mauriziocursano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maurizio Cursano, e il dominio lo ripete"
+ },
+ {
   "dominio": "mazzarelladrgiuseppe.it",
   "nome": "Dott. Mazzarella Giuseppe",
   "formaSocietaria": "",
@@ -92,6 +150,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mazzarella Giuseppe, cognome dentro il dominio"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Mazzarella Giuseppe, cognome dentro il dominio",
+  "nomeStrutturato": "Dott. Mazzarella Giuseppe - Dermatologo a Lecce",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -25,6 +25,32 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Cupido Estetica",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "guida-percorsi-varese.it",
+  "nome": "Dopo la Terza Media Varese",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.guida-percorsi-varese.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "busto-arsizio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.guida-percorsi-varese.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
@@ -79,6 +105,64 @@
    "https://www.medicfisiocenter.it/contatta-medicfisio-center.aspx"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "MedicFisio Center",
+  "tipoDichiarato": "Organization",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 08:30-12:00",
+   "Monday, Tuesday, Wednesday, Thursday, Friday 14:00-19:30"
+  ]
+ },
+ {
+  "dominio": "ordinemedici.brescia.it",
+  "nome": "ordinemedici.brescia.it",
+  "formaSocietaria": "",
+  "partitaIva": "80013390176",
+  "telefono": "+390302453211",
+  "email": "info@omceobs.legalmailp",
+  "sitoUrl": "https://ordinemedici.brescia.it/",
+  "indirizzo": "Via Lamarmora 167",
+  "cap": "25124",
+  "comune": "Brescia",
+  "provincia": "busto-arsizio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedici.brescia.it/",
+   "https://www.ordinemedici.brescia.it/pagina190454_contatti.html",
+   "https://www.ordinemedici.brescia.it/pagina198639_privacy.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "rosadeventi.com",
+  "nome": "Rosa D'Eventi Professional Congress Organizer",
+  "formaSocietaria": "",
+  "partitaIva": "01579290998",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://rosadeventi.com/",
+  "indirizzo": "Corso Europa 145",
+  "cap": "16132",
+  "comune": "Genova",
+  "provincia": "busto-arsizio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://rosadeventi.com/",
+   "https://rosadeventi.com/chi-siamo/l-azienda.html",
+   "https://rosadeventi.com/chi-siamo/provider-ecm.html"
+  ],
+  "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }

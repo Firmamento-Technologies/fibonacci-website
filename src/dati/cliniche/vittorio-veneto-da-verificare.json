@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "aulss2.veneto.it",
+  "nome": "aulss2.veneto.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aulss2.veneto.it/",
+  "indirizzo": "Via Sant'Ambrogio di Fiera, n. 37",
+  "cap": "31100",
+  "comune": "Treviso",
+  "provincia": "vittorio-veneto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aulss2.veneto.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticstudio.net",
   "nome": "Centro Estetico a Vittorio Veneto",
   "formaSocietaria": "",

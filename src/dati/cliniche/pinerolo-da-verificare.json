@@ -33,7 +33,7 @@
   "formaSocietaria": "",
   "partitaIva": "10420950015",
   "telefono": "+390121480031",
-  "email": "",
+  "email": "stefanotribastone@yahoo.it",
   "sitoUrl": "https://www.studioesteticolife.it/",
   "indirizzo": "Corso Torino, 61",
   "cap": "10064",
@@ -54,7 +54,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 44.88667,
+  "lon": 7.34191,
+  "nomeStrutturato": "CENTRO BENESSERE E SOLARIUM LIFE",
+  "orari": [
+   "Tuesday, Wednesday, Thursday, Friday 08:30-20:00",
+   "Saturday 08:30-18:30"
+  ],
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "studiomedicoaurorapinerolo.it",

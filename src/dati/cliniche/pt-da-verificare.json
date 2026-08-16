@@ -24,7 +24,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico",
+  "nomeStrutturato": "Beauty Lab - Centro Estetico, benessere, solarium e corpo a Pistoia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centroesteticopistoia.it",
@@ -81,7 +83,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio Donna Pi&#249;",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "esteticadefinitiva.it",
@@ -111,6 +115,34 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "poliambulatoriomisericordia.pistoia.it",
+  "nome": "Poliambulatorio Misericordia di Pistoia",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01757260474",
+  "telefono": "+390573505250",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriomisericordia.pistoia.it/",
+  "indirizzo": "Via Bonellina 1",
+  "cap": "51100",
+  "comune": "Pistoia",
+  "provincia": "pt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.poliambulatoriomisericordia.pistoia.it/",
+   "https://www.poliambulatoriomisericordia.pistoia.it/chi-siamo/",
+   "https://www.poliambulatoriomisericordia.pistoia.it/wp-content/uploads/2024/08/Privacy_08_2024.pdf"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Poliambulatorio Misericordia di Pistoia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sbstudiobenessere.it",

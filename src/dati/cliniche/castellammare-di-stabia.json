@@ -1,5 +1,32 @@
 [
  {
+  "dominio": "medinurse.it",
+  "nome": "Medinurse - Medical Division",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "10126571214",
+  "telefono": "+393895636923",
+  "email": "info@medinurse.it",
+  "sitoUrl": "https://www.medinurse.it/",
+  "indirizzo": "Viale Europa 144",
+  "cap": "",
+  "comune": "",
+  "provincia": "castellammare-di-stabia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.medinurse.it/",
+   "https://www.medinurse.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medinurse - Medical Division",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "tinadonnarumma.it",
   "nome": "Tina Donnarumma",
   "formaSocietaria": "",
@@ -9,7 +36,7 @@
   "sitoUrl": "https://tinadonnarumma.it/",
   "indirizzo": "Corso Vittorio Emanuele 33",
   "cap": "",
-  "comune": "",
+  "comune": "Castellammare di  Stabia",
   "provincia": "castellammare-di-stabia",
   "prestazioni": [
    "Filler",
@@ -26,6 +53,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "nomeStrutturato": "Tina Donnarumma",
+  "tipoDichiarato": "Organization"
  }
 ]

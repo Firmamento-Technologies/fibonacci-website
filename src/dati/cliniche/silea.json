@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Farmacia Internazionale Silea",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "olimpoestetica.it",
@@ -53,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Olimpo Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "siompoliambulatorio.it",

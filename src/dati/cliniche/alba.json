@@ -25,14 +25,16 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Alba Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "albalaser.it",
   "nome": "medicina estetica",
   "formaSocietaria": "",
   "partitaIva": "",
-  "telefono": "",
+  "telefono": "335344571",
   "email": "info@albalaser.it",
   "sitoUrl": "https://www.albalaser.it/",
   "indirizzo": "Via Ognissanti 30",
@@ -55,7 +57,35 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "albalaser",
+  "tipoDichiarato": "LocalBusiness"
+ },
+ {
+  "dominio": "dottriboldichirurgo.com",
+  "nome": "Dottor Alberto Riboldi",
+  "formaSocietaria": "",
+  "partitaIva": "01518690985",
+  "telefono": "+393356065167",
+  "email": "info@dottriboldichirurgo.it",
+  "sitoUrl": "https://dottriboldichirurgo.com/",
+  "indirizzo": "Via Colle Fiorito, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "alba",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alberto Riboldi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottriboldichirurgo.com/",
+   "https://dottriboldichirurgo.com/sedi/",
+   "https://dottriboldichirurgo.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Riboldi, cognome dentro il dominio"
  },
  {
   "dominio": "piu-salute.it",
@@ -81,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Medico Più Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriosanpaolo.it",
@@ -167,6 +199,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Studio Medico De Cosimo",
+  "tipoDichiarato": "Organization"
  }
 ]

@@ -35,11 +35,11 @@
   "formaSocietaria": "SAS",
   "partitaIva": "04101491217",
   "telefono": "+390815364399",
-  "email": "",
+  "email": "odonto.mediterranea@tiscali.it",
   "sitoUrl": "https://odontoiatricamediterranea.it/",
   "indirizzo": "Via Vittorio Veneto, 116",
   "cap": "80058",
-  "comune": "",
+  "comune": "Torre Annunziata",
   "provincia": "torre-annunziata",
   "prestazioni": [
    "Filler",
@@ -55,6 +55,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "lat": 40.7509,
+  "lon": 14.4511,
+  "nomeStrutturato": "Odontoiatrica Mediterranea s.a.s.",
+  "orari": [
+   "Monday, Tuesday, Wednesday, Thursday, Friday 09:00-19:30"
+  ],
+  "tipoDichiarato": "Dentist LocalBusiness"
  }
 ]

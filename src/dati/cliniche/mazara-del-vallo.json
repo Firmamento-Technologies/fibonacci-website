@@ -27,7 +27,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Corpo &amp; Mente News",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "gasparereina.it",
@@ -89,7 +91,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Natur Belle",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "peressere.it",
@@ -113,6 +117,31 @@
   "fonteUrl": [
    "https://peressere.it/",
    "https://peressere.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "primemed.it",
+  "nome": "PrimeMED",
+  "formaSocietaria": "",
+  "partitaIva": "09625410965",
+  "telefono": "",
+  "email": "info@primemed.it",
+  "sitoUrl": "https://www.primemed.it/",
+  "indirizzo": "Viale Milanofiori - Strada 1",
+  "cap": "20090",
+  "comune": "Assago",
+  "provincia": "mazara-del-vallo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.primemed.it/",
+   "https://www.primemed.it/contatti/"
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,

@@ -28,7 +28,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Clinica ORL Villa Antonella - Codogno",
+  "tipoDichiarato": "LocalBusiness"
  },
  {
   "dominio": "martiniginetta.it",
@@ -61,6 +63,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Martini Ginetta, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Martini Ginetta, e il dominio lo ripete",
+  "nomeStrutturato": "Dott.ssa Martini Ginetta",
+  "tipoDichiarato": "Organization"
  }
 ]

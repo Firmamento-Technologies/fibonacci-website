@@ -25,7 +25,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Milano Bareggio",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "ce-beautyplanet.it",
@@ -77,7 +79,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Servizi Rhodense",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "cevamedicalcenter.it",
@@ -207,7 +211,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Laser Rho",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "maliz.it",
@@ -289,7 +295,13 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Polispecialistico Manzoni",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 07:30-19:00",
+   "Saturday 07:30 – 09:00"
+  ]
  },
  {
   "dominio": "studiodermatologicobianchi.it",
@@ -323,6 +335,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Studio Dermatologico Bianchi",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday 09:00-18:20",
+   "Friday 09:00-17:00"
+  ]
  }
 ]

@@ -84,7 +84,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "BEAMED",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "centropoliambulatorialedicra.it",
@@ -109,7 +111,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "DICRA Centro Poliambulatoriale MASSA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dossiersalute.com",
@@ -140,7 +144,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dossier Salute",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "pietromascolo.it",
@@ -170,6 +176,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Mascolo, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pietro Mascolo, e il dominio lo ripete",
+  "nomeStrutturato": "Dott. Pietro Mascolo",
+  "tipoDichiarato": "Organization"
  }
 ]

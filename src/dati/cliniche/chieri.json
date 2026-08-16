@@ -100,6 +100,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Santa Clara Group",
+  "tipoDichiarato": "MedicalOrganization"
  }
 ]

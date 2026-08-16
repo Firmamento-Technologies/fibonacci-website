@@ -5,7 +5,7 @@
   "formaSocietaria": "",
   "partitaIva": "",
   "telefono": "+390776814980",
-  "email": "",
+  "email": "fabiodontoiatria@gmail.com",
   "sitoUrl": "https://www.fabiodontoiatria.it/",
   "indirizzo": "Via Carpine 18",
   "cap": "03039",
@@ -22,7 +22,15 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "lat": 41.719823,
+  "lon": 13.590143,
+  "tipoDichiarato": "Place",
+  "nomeStrutturato": "Fabi Odontoiatria",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday 08:30 - 20.00",
+   "Saturday 08:30-14:00"
+  ]
  },
  {
   "dominio": "reddit.com",

@@ -23,7 +23,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Neuromed - Istituto Neurologico Mediterraneo Pozzilli",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "vitanovaesthetic.it",
@@ -53,6 +55,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vita Nova",
+  "tipoDichiarato": "Organization"
  }
 ]

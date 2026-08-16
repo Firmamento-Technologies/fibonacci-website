@@ -60,6 +60,67 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "chirurgiaesteticadottstella.it",
+  "nome": "CHIRURGO PLASTICO MARCELLO STELLA CATANIA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaesteticadottstella.it/",
+  "indirizzo": "Via Pietra Dell'Ova 404",
+  "cap": "95030",
+  "comune": "Catania",
+  "provincia": "ct",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaesteticadottstella.it/",
+   "https://www.chirurgiaesteticadottstella.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "CHIRURGO PLASTICO CATANIA, MARCELLO STELLA",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "chirurgoesteticocatania.com",
+  "nome": "Chirurgo Estetico Catania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393511936005",
+  "email": "info@chirurgoesteticocatania.com",
+  "sitoUrl": "https://www.chirurgoesteticocatania.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ct",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.chirurgoesteticocatania.com/",
+   "https://www.chirurgoesteticocatania.com/contatti-e-prenotazioni/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "corinnamiceli.it",
   "nome": "Corinna Miceli",
   "formaSocietaria": "",
@@ -106,7 +167,40 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Daniela Caruso",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "dermatologiastrategica.it",
+  "nome": "Valentina Bevelacqua Dermatologo a Catania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393886472278",
+  "email": "",
+  "sitoUrl": "https://dermatologiastrategica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ct",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologiastrategica.it/",
+   "https://dermatologiastrategica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Valentina Bevelacqua Dermatologa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dermatologocataniasiino.it",
@@ -114,7 +208,7 @@
   "formaSocietaria": "",
   "partitaIva": "06549320825",
   "telefono": "+393518585904",
-  "email": "",
+  "email": "dermatologiasiino@gmail.com",
   "sitoUrl": "https://dermatologocataniasiino.it/",
   "indirizzo": "Via Sgroppillo 21",
   "cap": "95027",
@@ -141,7 +235,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Dott.ssa Marcella Siino",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drisola.com",
@@ -223,7 +319,7 @@
   "sitoUrl": "https://www.fillerlabbracatania.it/",
   "indirizzo": "Via Antonello Da Messina, 3",
   "cap": "",
-  "comune": "",
+  "comune": "Aci Castello",
   "provincia": "ct",
   "prestazioni": [
    "Filler",
@@ -240,7 +336,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Filler Labbra Catania - Dott. Giuseppe Manzo",
+  "tipoDichiarato": "MedicalBusiness"
  },
  {
   "dominio": "g2medica.it",
@@ -266,7 +364,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "G2 Medica - Catania",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "kinesteticapoliambulatorio.com",
@@ -293,7 +393,7 @@
   "sitoUrl": "https://www.medicinaesteticacatania.it/",
   "indirizzo": "Via Antonello Da Messina, 3",
   "cap": "",
-  "comune": "",
+  "comune": "Aci Castello",
   "provincia": "ct",
   "prestazioni": [
    "Filler",
@@ -308,6 +408,34 @@
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
   "fonteUrl": [
    "https://www.medicinaesteticacatania.it/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Medicina Estetica Catania - Dott. Giuseppe Manzo",
+  "tipoDichiarato": "MedicalBusiness"
+ },
+ {
+  "dominio": "medicinaesteticalanza.com",
+  "nome": "Dott.ssa Eliana Lanza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicinaesteticalanza.com/",
+  "indirizzo": "Via Monfalcone 28",
+  "cap": "",
+  "comune": "",
+  "provincia": "ct",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicinaesteticalanza.com/",
+   "https://medicinaesteticalanza.com/contatti",
+   "https://medicinaesteticalanza.com/privacy"
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
@@ -343,7 +471,37 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Musa",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ordinemedct.it",
+  "nome": "Ordine dei Medici Chirurghi e Odontoiatri della provincia di Catania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@ordinemedct.it",
+  "sitoUrl": "https://www.ordinemedct.it/",
+  "indirizzo": "Corso Italia (Fermata 108",
+  "cap": "95127",
+  "comune": "Catania",
+  "provincia": "ct",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordinemedct.it/",
+   "https://www.ordinemedct.it/contatti/",
+   "https://www.ordinemedct.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
+  "nomeStrutturato": "Ordine dei Medici Chirurghi e degli Odontoiatri della provincia di Catania",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "poliambulatoriokline.it",
@@ -434,7 +592,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Salvatrice La Rosa",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studicampagna.it",
@@ -463,7 +623,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "Studi Campagna - Dott. Nunzio Ezio Campagna",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "studiolaserpoliti.it",
@@ -493,7 +655,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "dott. Politi",
+  "tipoDichiarato": "Person Organization"
  },
  {
   "dominio": "studiomedicodimaurotbs.it",
@@ -533,6 +697,34 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "vb-beautylab.com",
+  "nome": "Trattamenti di estetica avanzata Provincia di Catania Sicilia estetist",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@vb-beautylab.com",
+  "sitoUrl": "https://www.vb-beautylab.com/",
+  "indirizzo": "Via Lo Jacono Francesco, 3",
+  "cap": "95030",
+  "comune": "Sant'Agata",
+  "provincia": "ct",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.vb-beautylab.com/"
+  ],
+  "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "vrmedicinaestetica.it",
   "nome": "Filler labbra con metodo russo Catania",
   "formaSocietaria": "",
@@ -560,7 +752,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
+  "nomeStrutturato": "VR Medicina Estetica",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "youplast.it",

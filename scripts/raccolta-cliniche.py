@@ -1525,6 +1525,163 @@ def smista(schede, sigla):
     # due dava «45 + 14» su 67 letti, e le 8 persone sparivano senza una riga.
     return imprese, incerte, professionisti
 
+RE_JSONLD = re.compile(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+                       re.I | re.S)
+
+def _oggetti_jsonld(grezzo):
+    """Srotola i blocchi `ld+json`: possono essere un oggetto, una lista, o un
+    `@graph`. ⚠️ Molti siti ne hanno **più d'uno** e ⛔ non sempre valido: un
+    blocco rotto ⛔ non deve far perdere gli altri."""
+    for m in RE_JSONLD.finditer(grezzo):
+        try:
+            d = json.loads(m.group(1).strip())
+        except Exception:
+            continue
+        for x in (d if isinstance(d, list) else [d]):
+            if not isinstance(x, dict):
+                continue
+            if isinstance(x.get("@graph"), list):
+                for g in x["@graph"]:
+                    if isinstance(g, dict):
+                        yield g
+            else:
+                yield x
+
+
+def dati_da_jsonld(host):
+    """Rilegge dalla cache **ciò che il sito pubblica già in forma strutturata**.
+
+    🔑 **Misurato il 2026-08-16: il 68 % dei siti pubblica `schema.org`** — cioè
+    gli stessi dati che stiamo cavando a fatica con le espressioni regolari, ⛔ ma
+    **puliti dal sito stesso**, e quindi più affidabili di una nostra congettura
+    sul testo. ⇒ è il miglioramento a **costo zero** più grande che resta: ⛔ non
+    una richiesta di rete, i file sono **già sul disco**.
+
+    ⛔ **⛔ NON si prende l'immagine, e ⛔ non è prudenza eccessiva.** Quattro
+    ragioni indipendenti, ognuna sufficiente da sola:
+    **(1)** la foto di una persona **identificata** è un **dato personale**, e la
+    CGUE (C-184/20) ha stabilito che il contesto **professionale ⛔ non toglie**
+    quella qualifica; **(2)** *«far comparire su una pagina Internet dati
+    personali costituisce un trattamento»* (stessa sentenza) ⇒ mostrarla è un
+    trattamento **nostro**, ⛔ non del medico; **(3)** linkarla dal loro server
+    (*hotlinking*) ⛔ non aggira niente: in **Fashion ID** (C-40/17) chi incorpora
+    risorse di terzi diventa **contitolare** per i dati che il browser del
+    visitatore trasmette; **(4)** l'art. 56 del **Codice di deontologia FNOMCeO**
+    elenca **esclusivamente** titoli, specializzazioni, attività, caratteristiche
+    del servizio e onorario — **l'immagine ⛔ non è in quell'elenco**.
+    ⇒ ⛔ **niente `image`, niente `photo`, niente `logo`.**
+    ⛔ **E nessun prezzo** (`priceRange`, `offers`): L. 145/2018 c. 525.
+    """
+    # ⚠️ **Il JSON-LD è scritto da migliaia di siti diversi e ⛔ non rispetta i
+    # tipi**: il CAP arriva come **intero**, il giorno della settimana come
+    # **oggetto**, il telefono come **lista**. ⇒ si normalizza **una volta sola**
+    # in entrata, ⛔ non si rattoppa campo per campo quando esplode.
+    def testo(v):
+        if isinstance(v, list):
+            v = v[0] if v else ""
+        if isinstance(v, dict):
+            v = v.get("@id") or v.get("name") or ""
+        return str(v).strip() if v is not None else ""
+
+    fuori = {}
+    for x in _oggetti_jsonld("\n".join(g for _, g in pagine_in_cache(host))):
+        tipo = x.get("@type") or ""
+        tipi = " ".join(tipo) if isinstance(tipo, list) else str(tipo)
+        if not re.search(r'(Organization|Business|Clinic|Physician|Hospital|Dentist|'
+                         r'MedicalBusiness|HealthAndBeauty|Place|Person)', tipi, re.I):
+            continue
+        ind = x.get("address")
+        if isinstance(ind, list) and ind:
+            ind = ind[0]
+        if isinstance(ind, dict):
+            fuori.setdefault("indirizzo", testo(ind.get("streetAddress")))
+            fuori.setdefault("cap", testo(ind.get("postalCode")))
+            fuori.setdefault("comune", testo(ind.get("addressLocality")))
+        geo = x.get("geo")
+        if isinstance(geo, list) and geo:
+            geo = geo[0]
+        if isinstance(geo, dict):
+            try:
+                lat, lon = float(geo["latitude"]), float(geo["longitude"])
+                # ⚠️ Un controllo di plausibilità: l'Italia sta in questo riquadro.
+                # Coordinate a `0,0` o di un'altra nazione sono **errori del sito**,
+                # e scriverle metterebbe uno studio in mezzo al mare.
+                if 35.0 <= lat <= 47.5 and 6.0 <= lon <= 19.0:
+                    fuori.setdefault("lat", round(lat, 6))
+                    fuori.setdefault("lon", round(lon, 6))
+            except Exception:
+                pass
+        for chiave, campo in (("telephone", "telefono"), ("email", "email"),
+                              ("name", "nomeStrutturato"), ("vatID", "partitaIva")):
+            v = testo(x.get(chiave))
+            if v:
+                fuori.setdefault(campo, v[:120])
+        ore = x.get("openingHours") or x.get("openingHoursSpecification")
+        if ore:
+            righe = []
+            for o in (ore if isinstance(ore, list) else [ore]):
+                if isinstance(o, str):
+                    righe.append(o.strip()[:60])
+                elif isinstance(o, dict):
+                    # ⚠️ `dayOfWeek` ⛔ non è sempre una stringa né una lista di
+                    # stringhe: alcuni siti ci mettono **oggetti** (`{"@id": …}`).
+                    # Un `join` cieco esplode — misurato alla prima corsa.
+                    g = o.get("dayOfWeek")
+                    g = ", ".join(testo(y) for y in g) if isinstance(g, list) else testo(g)
+                    g = re.sub(r'https?://schema\.org/', '', g)
+                    a, b = testo(o.get("opens")), testo(o.get("closes"))
+                    if g and a:
+                        righe.append(f"{g} {a}-{b}".strip())
+            if righe:
+                fuori.setdefault("orari", righe[:14])
+        if tipi:
+            fuori.setdefault("tipoDichiarato", tipi[:60])
+    return fuori
+
+
+def arricchisci_da_jsonld(prova=True):
+    """Passa tutte le schede e vi versa ciò che il JSON-LD dichiara.
+
+    ⚠️ **Riempie i campi VUOTI, ⛔ non sovrascrive quelli pieni** — tranne le
+    coordinate e gli orari, che ⛔ non li avevamo affatto. Un dato che abbiamo
+    già estratto e verificato ⛔ non si butta per uno che ⛔ non abbiamo ancora
+    guardato: se divergono, lo si scopre **confrontando**, ⛔ non sovrascrivendo.
+    """
+    import glob
+    per_file, tocchi, campi = {}, 0, {}
+    for p in sorted(glob.glob(os.path.join(USCITA, "*.json"))):
+        if os.path.basename(p).startswith("_"):
+            continue
+        try:
+            per_file[p] = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+    for p, schede in per_file.items():
+        for s in schede:
+            if not isinstance(s, dict) or not s.get("dominio"):
+                continue
+            d = dati_da_jsonld(s["dominio"])
+            if not d:
+                continue
+            cambiato = False
+            for k, v in d.items():
+                if k in ("lat", "lon", "orari", "tipoDichiarato", "nomeStrutturato"):
+                    if s.get(k) != v and v not in ("", [], None):
+                        s[k] = v; cambiato = True; campi[k] = campi.get(k, 0) + 1
+                elif v and not s.get(k):
+                    s[k] = v; cambiato = True; campi[k] = campi.get(k, 0) + 1
+            tocchi += 1 if cambiato else 0
+    print(f"━━━ {sum(len(v) for v in per_file.values())} schede · {tocchi} arricchite ━━━")
+    for k, n in sorted(campi.items(), key=lambda x: -x[1]):
+        print(f"  {k:18} +{n}")
+    if prova:
+        print("\n⚠️ PROVA: niente scritto. Rilancia con `--json-ld --scrivi`.")
+        return
+    for p, schede in per_file.items():
+        json.dump(schede, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"\n✅ riscritti {len(per_file)} file")
+
+
 def un_dominio_un_file(prova=True):
     """Fa valere l'invariante **«un dominio, una scheda sola»** su tutta l'uscita.
 
@@ -1704,6 +1861,9 @@ if __name__ == "__main__":
         n = [a for a in arg if a.isdigit()]
         prov = prov[:int(n[0])] if n else prov
         scoperta_nazionale([(c, s) for c, s in prov])
+        sys.exit(0)
+    if "--json-ld" in arg:
+        arricchisci_da_jsonld(prova="--scrivi" not in arg)
         sys.exit(0)
     if "--un-file" in arg:
         un_dominio_un_file(prova="--scrivi" not in arg)

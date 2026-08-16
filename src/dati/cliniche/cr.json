@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "centrielha.it",
+  "nome": "Elha Laser Center",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@elhadepilacionlaser.com",
+  "sitoUrl": "https://centrielha.it/",
+  "indirizzo": "Corso G. Amendola 10",
+  "cap": "20121",
+  "comune": "Milano",
+  "provincia": "cr",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://centrielha.it/",
+   "https://centrielha.it/contatto/",
+   "https://centrielha.it/politica-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centri Elha",
+  "tipoDichiarato": "Organization"
+ },
+ {
   "dominio": "dottormariotti.it",
   "nome": "Medicina Estetica e Naturale Cremona",
   "formaSocietaria": "",
@@ -26,7 +57,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Dr. Mario Mariotti",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "dottorquercia.it",
@@ -55,7 +88,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Vittorio Quercia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicinaesteticacremona.it",
@@ -194,7 +229,12 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Poliambulatorio Verdi",
+  "orari": [
+   "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:"
+  ],
+  "tipoDichiarato": "MedicalBusiness Organization"
  },
  {
   "dominio": "rossanamolaschi.it",
@@ -224,7 +264,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": true,
-  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossana Molaschi, e il dominio lo ripete"
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Rossana Molaschi, e il dominio lo ripete",
+  "nomeStrutturato": "Dottoressa Rossana Molaschi Cremona (CR)",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "sancamillocremona.net",
@@ -251,5 +293,30 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "valeriazucchelli.it",
+  "nome": "Dott.ssa Valeria Zucchelli",
+  "formaSocietaria": "",
+  "partitaIva": "01122340191",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.valeriazucchelli.it/",
+  "indirizzo": "Via Ala Ponzone n°16",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "cr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valeria Zucchelli, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.valeriazucchelli.it/",
+   "https://www.valeriazucchelli.it/privacy.html"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valeria Zucchelli, e il dominio lo ripete"
  }
 ]

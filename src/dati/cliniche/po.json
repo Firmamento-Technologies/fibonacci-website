@@ -49,7 +49,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Elena Estetica & Benessere SPA",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "drmeoni.it",
@@ -105,7 +107,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Gynaikos Centro Medico Prato",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "istitutomedicotoscano.it",
@@ -133,7 +137,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Istituto Medico Toscano",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "lavellamedicalcenter.it",
@@ -159,6 +165,62 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "La Vella Medical Center",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "msgroupitalia.it",
+  "nome": "Media Service",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@msgroupitalia.it",
+  "sitoUrl": "https://msgroupitalia.it/",
+  "indirizzo": "Via Augusto Righi, 20",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "po",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://msgroupitalia.it/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MS Group",
+  "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "villa-fiorita.it",
+  "nome": "Casa di Cura Villafiorita (Prato)",
+  "formaSocietaria": "",
+  "partitaIva": "02323750972",
+  "telefono": "",
+  "email": "info@villa-fiorita.it",
+  "sitoUrl": "https://www.villa-fiorita.it/",
+  "indirizzo": "",
+  "cap": "59100",
+  "comune": "PRATO",
+  "provincia": "po",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.villa-fiorita.it/",
+   "https://www.villa-fiorita.it/contatti/",
+   "https://www.villa-fiorita.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-16",
+  "escluso": false,
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Casa di Cura Villafiorita (Prato)",
+  "tipoDichiarato": "Organization"
  }
 ]

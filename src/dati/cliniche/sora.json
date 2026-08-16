@@ -21,7 +21,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Centro Muramed",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "medicalgroupitalia.it",
@@ -53,7 +55,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "Medical Group Italia",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "mgbeautyclinic.com",
@@ -85,7 +89,9 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "MG Beauty Clinic",
+  "tipoDichiarato": "Organization"
  },
  {
   "dominio": "s-medical.it",
@@ -116,6 +122,8 @@
   ],
   "lettoIl": "2026-08-15",
   "escluso": false,
-  "motivoEsclusione": ""
+  "motivoEsclusione": "",
+  "nomeStrutturato": "S-Medical Group",
+  "tipoDichiarato": "Organization"
  }
 ]
