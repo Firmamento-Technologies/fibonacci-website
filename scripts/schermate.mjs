@@ -55,16 +55,48 @@ const SCHERMATE = [
      * ⇒ Si torna indietro finché non si trova una settimana piena. Cosi' regge
      * anche fra sei mesi, quando i dati saranno ancora piu' vecchi: si cerca il
      * contenuto, non una data. Se non lo trova, `pieno` boccia e non si scrive. */
+    /* 🔴 **CORRETTO il 2026-08-16: «almeno uno» era una soglia troppo bassa.**
+     * La ricerca si fermava alla **prima** settimana non vuota, e la settimana
+     * del 10-16 agosto ne aveva **due**, sparsi, uno dei quali senza nome del
+     * paziente («n/d»). Risultato: il presidio dava verde e pubblicava
+     * un'agenda che sembra un prodotto **non usato**, peggiore di quella che
+     * stava già sul sito (11 appuntamenti). ⚠️ È la stessa lezione del 12
+     * agosto, applicata male: allora il difetto era *zero* appuntamenti e la
+     * correzione fu «cercane almeno uno»; ma *uno* non illustra niente più di
+     * zero. ⇒ Non si cerca la prima settimana **non vuota**: si cerca la
+     * **più piena** fra quelle guardate, e ci si torna. */
     vai: async (p) => {
-      await p.goto(`${EMR}/appuntamenti`)
-      await p.waitForTimeout(2500)
-      for (let i = 0; i < 10 && (await p.locator('.rbc-event').count()) === 0; i++) {
+      const conta = () => p.locator('.rbc-event').count()
+      const indietro = async () => {
         await p.getByRole('button', { name: 'Indietro', exact: true }).click().catch(() => {})
         await p.waitForTimeout(1200)
       }
+      await p.goto(`${EMR}/appuntamenti`)
+      await p.waitForTimeout(2500)
+
+      let miglioreIndietro = 0
+      let miglioreConteggio = await conta()
+      for (let i = 1; i <= 10; i++) {
+        await indietro()
+        const n = await conta()
+        if (n > miglioreConteggio) {
+          miglioreConteggio = n
+          miglioreIndietro = i
+        }
+      }
+      // Si riparte da capo e si torna indietro esattamente fino alla migliore:
+      // premere «Avanti» sarebbe equivalente, ma ricaricare azzera lo stato e
+      // rende il conteggio ripetibile.
+      await p.goto(`${EMR}/appuntamenti`)
+      await p.waitForTimeout(2500)
+      for (let i = 0; i < miglioreIndietro; i++) await indietro()
     },
-    // Almeno un appuntamento nella griglia: un'agenda vuota non illustra niente.
-    pieno: async (p) => (await p.locator('.rbc-event, [data-appuntamento]').count()) > 0,
+    /* ⚠️ **Quattro, non uno.** È la soglia sotto la quale una griglia
+     * settimanale si legge come «nessuno usa questo prodotto». Se nessuna
+     * delle undici settimane guardate ne ha quattro, il presidio **boccia e
+     * non scrive niente**: meglio le schermate di ieri che una vetrina che
+     * mostra un'agenda deserta. */
+    pieno: async (p) => (await p.locator('.rbc-event, [data-appuntamento]').count()) >= 4,
   },
   {
     nome: 'cartella-paziente',
