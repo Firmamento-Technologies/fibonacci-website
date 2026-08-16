@@ -1,6 +1,6 @@
 {
-  "generato": "2026-08-16T14:29:53.851Z",
-  "commitFrontendEmr": "dda7d4dc4fb8af43e397ffa6461c316dbbda2a83",
+  "generato": "2026-08-16T14:43:51.350Z",
+  "commitFrontendEmr": "97b5e905a19d4dba6e3e898c0da01e4ba4349b41",
   "larghezze": [
     720,
     1120,
@@ -12,18 +12,18 @@
       "varianti": [
         {
           "w": 720,
-          "webp": 16330,
-          "avif": 11830
+          "webp": 16334,
+          "avif": 11831
         },
         {
           "w": 1120,
-          "webp": 30776,
-          "avif": 20312
+          "webp": 30784,
+          "avif": 20318
         },
         {
           "w": 1400,
-          "webp": 43214,
-          "avif": 25788
+          "webp": 43238,
+          "avif": 25772
         }
       ]
     },
@@ -32,18 +32,18 @@
       "varianti": [
         {
           "w": 720,
-          "webp": 17106,
-          "avif": 12739
+          "webp": 17110,
+          "avif": 12741
         },
         {
           "w": 1120,
-          "webp": 34002,
-          "avif": 24021
+          "webp": 34024,
+          "avif": 23994
         },
         {
           "w": 1400,
-          "webp": 48622,
-          "avif": 29988
+          "webp": 48650,
+          "avif": 29990
         }
       ]
     },
@@ -92,18 +92,18 @@
       "varianti": [
         {
           "w": 720,
-          "webp": 29112,
-          "avif": 21461
+          "webp": 30348,
+          "avif": 22402
         },
         {
           "w": 1120,
-          "webp": 57492,
-          "avif": 40280
+          "webp": 60248,
+          "avif": 42239
         },
         {
           "w": 1400,
-          "webp": 80946,
-          "avif": 52768
+          "webp": 84490,
+          "avif": 55427
         }
       ]
     }
