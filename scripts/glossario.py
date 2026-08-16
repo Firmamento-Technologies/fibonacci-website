@@ -62,6 +62,28 @@ DISTURBI = (
     r"\bho\s+(le|il|la|dei|delle|un|una)\s+\w+\s+(sul|sulla|sui|sulle|al|alla|in)\b",
     r"\b(mi\s+vergogno|non\s+mi\s+piace|vorrei\s+sistemare|odio\s+il\s+mio)\b",
 )
+# 🔴 **DESIDERI GENERICI — la falla trovata provando frasi vere (2026-08-16).**
+# *«Ho 45 anni e vorrei un aspetto più fresco»* passava la guardia (⛔ nessun
+# disturbo nominato, ⛔ nessuna richiesta di consiglio) e **il modello rispondeva
+# "Biostimolazione"**. ⇒ da un desiderio **senza oggetto** aveva dedotto **un
+# trattamento**: è **un consiglio clinico**, cioè precisamente ciò che questo
+# modulo esiste per ⛔ non fare.
+# ⚠️ E il comportamento era **imprevedibile**: le stesse frasi in altre forme
+# («vorrei sembrare più giovane») davano `nessuno`. **Un presidio che dipende da
+# come il modello si sveglia ⛔ non è un presidio.**
+# 🔑 La regola: un desiderio **senza oggetto specifico** si respinge. ⚠️ ⛔ Non
+# vale per «vorrei rifarmi **le labbra**» — lì l'oggetto c'è, ed è ciò che
+# permette di rispondere **senza scegliere al posto del medico**.
+DESIDERI_GENERICI = (
+    r"\b(aspetto|viso|volto|pelle|corpo)\s+(piu|più)\s+"
+    r"(fresc\w+|giovan\w+|bell\w+|luminos\w+|ripos\w+|tonic\w+|dist\w+)\b",
+    r"\b(sembrare|apparire|essere|sentirmi)\s+(piu|più)\s+"
+    r"(giovan\w+|bell\w+|fresc\w+|attraent\w+|in\s+forma)\b",
+    r"\b(ringiovan\w+|rinfrescar\w+|ritocc\w+|rimetter\w+\s+a\s+nuovo)\b",
+    r"\b(migliorare|sistemare|cambiare)\s+(il\s+mio\s+)?"
+    r"(aspetto|viso|volto|corpo|immagine)\b",
+    r"\bho\s+\d{2}\s+anni\b",
+)
 CONSIGLI = (
     r"\b(consigli\w*|suggeris\w*|raccomand\w*|che\s+cosa\s+mi\s+serve|cosa\s+devo\s+fare)\b",
     r"\b(che|quale|quali)\s+(trattamento|terapia|cura|prodotto)\b",
@@ -101,6 +123,14 @@ def guardia(testo):
     for schema in CONSIGLI:
         if re.search(schema, t):
             return f"consiglio:{re.search(schema, t).group(0)[:24]}"
+    # ⚠️ **Per ultimo, e solo se il testo ⛔ non nomina già un trattamento.**
+    # «Vorrei rifarmi le labbra col filler» dice **che cosa vuole**: respingerlo
+    # sarebbe negare un servizio dovuto. È il desiderio **senza oggetto** che
+    # ⛔ non si può soddisfare.
+    if not riconosci(testo):
+        for schema in DESIDERI_GENERICI:
+            if re.search(schema, t):
+                return f"desiderio-generico:{re.search(schema, t).group(0)[:22]}"
     return None
 
 
@@ -177,6 +207,16 @@ BANCO = [
     ("ho le macchie sulle mani", False, None),
     ("mi vergogno del mio naso", False, None),
     ("posso fare il botox in gravidanza", False, None),
+    # 🔴 Desideri generici — la falla trovata provando frasi VERE. «Ho 45 anni e
+    # vorrei un aspetto più fresco» faceva rispondere «Biostimolazione» al
+    # modello: un consiglio clinico dedotto da un desiderio senza oggetto.
+    ("ho 45 anni e vorrei un aspetto piu fresco", False, None),
+    ("vorrei sembrare piu giovane", False, None),
+    ("vorrei un ritocchino al viso", False, None),
+    ("vorrei migliorare il mio aspetto", False, None),
+    # ⚠️ …⛔ ma il desiderio CON oggetto resta ammesso, o si negherebbe un
+    # servizio dovuto: qui il paziente dice **che cosa** vuole.
+    ("vorrei rifarmi le labbra col filler", True, "Filler"),
 ]
 
 
