@@ -97,7 +97,22 @@ try {
   execSync('npm run build', {
     cwd: W,
     stdio: ['ignore', 'ignore', 'inherit'],
-    env: { ...process.env, NEXT_PUBLIC_DOMINIO_SITO: DOMINIO },
+    env: {
+      ...process.env,
+      NEXT_PUBLIC_DOMINIO_SITO: DOMINIO,
+      /* 🔴 **Se manca, il modulo di contatto non esiste, e non lo dice nessuno.**
+       * `ModuloContatto` si spegne da solo con l'indirizzo vuoto — ed è giusto
+       * così, perché un modulo che spedisce nel vuoto è peggio di un modulo
+       * assente (TD-108, costata un contatto vero). Ma vuol dire che
+       * dimenticarla qui produce un rilascio **verde** con una funzione
+       * **sparita**: nessun errore, nessuna pagina rotta, solo una sezione che
+       * non c'è. È «costruito ma non cablato» applicato a una variabile.
+       * ⚠️ È un host diverso dal sito: la chiamata è cross-origin e vive solo
+       * se `https://fibonaccimedica.it` sta in `ALLOWED_ORIGINS` del sidecar
+       * (verificato col preflight il 2026-08-16). */
+      NEXT_PUBLIC_CONTATTO_API_URL:
+        process.env.NEXT_PUBLIC_CONTATTO_API_URL ?? 'https://app.fibonaccimedica.it',
+    },
   })
   ok(`out/ costruito con NEXT_PUBLIC_DOMINIO_SITO=${DOMINIO}`)
 
