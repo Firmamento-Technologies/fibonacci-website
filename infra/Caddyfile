@@ -1,3 +1,19 @@
+# ⛔ QUESTO FILE NON GIRA. ⛔
+#
+# E' una copia storica della configurazione del reverse proxy. Caddy gira sull'**host**, via systemd,
+# leggendo `/etc/caddy/Caddyfile`.
+#
+# ⇒ Modificare questo file **non cambia niente in esercizio**, e il gesto non
+# da' nessun errore. E' gia' successo il 2026-08-12 su `website/infra/Caddyfile`,
+# l'altra copia che non gira.
+#
+# 🔑 Dove guardare invece:
+#   · il file che gira ..... /etc/caddy/Caddyfile (sulla macchina)
+#   · la copia versionata .. infra/caddy/Caddyfile.aruba
+#   · il controllo ......... infra/scripts/check-caddyfile-sync.sh (ogni 6 ore,
+#     confronta la configurazione EFFICACE: i commenti possono differire)
+# ⇒ TD-109.
+
 # Fibonacci — vetrina statica su fibonaccimedica.it
 #
 # Il sito e' `output: 'export'` di Next: file statici, nessun runtime. Caddy li
