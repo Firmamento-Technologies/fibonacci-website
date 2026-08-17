@@ -33,6 +33,7 @@
  * La chiave sta in `LLM_API_KEY` (la stessa del prodotto, Mistral).
  */
 import { readFile, writeFile, mkdir, readdir, stat } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -150,6 +151,21 @@ function leggiJson(grezzo) {
   } catch {
     return null
   }
+}
+
+/**
+ * L'impronta di un originale italiano.
+ *
+ * 🔴 PERCHE' NON LA DATA DEL FILE. La prima versione del presidio confrontava
+ * `mtime`, e si e' bloccata da sola al primo push da un worktree pulito: **git
+ * non conserva le date**, quindi in un clone appena fatto i file escono in
+ * ordine arbitrario e meta' delle traduzioni risulta piu' vecchia del suo
+ * originale. Un presidio che e' rosso **a caso** e' peggio di uno che manca:
+ * viene spento, ed e' gia' successo due volte in questo progetto.
+ * ⇒ si registra il CONTENUTO. Sopravvive a cloni, worktree e CI.
+ */
+export function improntaSorgente(md) {
+  return createHash('sha256').update(md, 'utf8').digest('hex').slice(0, 16)
 }
 
 /**
@@ -290,6 +306,26 @@ async function traduciIndice(lingua, voci) {
   return Object.keys(tradotti).length
 }
 
+/**
+ * Registra da quale versione dell'italiano viene questa traduzione.
+ *
+ * ⚠️ Si rilegge e riscrive il file ogni volta invece di tenerlo in memoria:
+ * lo script puo' essere interrotto a meta' (`--riprendi` esiste apposta), e
+ * un'impronta in memoria persa a meta' lascerebbe capitoli tradotti che il
+ * presidio dichiara **mai tradotti**.
+ */
+async function registraImpronta(lingua, slug, impronta) {
+  const p = join(SORGENTE, lingua, '_sorgenti.json')
+  let dati = {}
+  try {
+    dati = JSON.parse(await readFile(p, 'utf-8'))
+  } catch {
+    /* prima volta */
+  }
+  dati[slug] = impronta
+  await writeFile(p, JSON.stringify(Object.fromEntries(Object.keys(dati).sort().map((k) => [k, dati[k]])), null, 2) + '\n')
+}
+
 async function esiste(p) {
   try {
     await stat(p)
@@ -357,6 +393,7 @@ async function main() {
           continue
         }
         await writeFile(destinazione, tradotto)
+        await registraImpronta(l, s, improntaSorgente(originale))
         console.log(`✅ ${tradotto.length} caratteri`)
         fatti++
       } catch (e) {
