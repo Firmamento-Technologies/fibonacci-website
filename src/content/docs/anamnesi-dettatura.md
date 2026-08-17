@@ -1,116 +1,145 @@
-# Compilare l'anamnesi con la dettatura AI
+# Compilare a voce: la dettatura
 
-Questa guida descrive l'uso della dettatura vocale assistita da intelligenza artificiale per compilare l'anamnesi del paziente durante la visita, in tempo reale, senza interrompere il colloquio. Il motore di trascrizione e Voxtral, modello specializzato in italiano clinico, integrato in Fibonacci tramite Mistral AI.
+> ⚠️ **Riscritta il 2026-08-17 guardando la schermata.** La versione precedente
+> descriveva un pannello che non è mai esistito: un pulsante `Estrai campi`, un
+> punteggio di affidabilità per ogni campo con i colori verde, giallo e rosso,
+> tre pulsanti `Accetta` / `Modifica` / `Scarta` per riga, una sezione
+> `Impostazioni > Dettatura` con la soglia di silenzio e la conservazione delle
+> trascrizioni. Niente di tutto ciò è nel prodotto. Quello che segue sì.
 
-La funzione si rivolge ai medici che vogliono ridurre il tempo dedicato alla digitazione delle anamnesi mantenendo qualita clinica e responsabilita di firma. Il flusso operativo prevede sempre una fase di revisione e accettazione esplicita prima del salvataggio in cartella.
+La dettatura trascrive quello che dici e, dove il modulo lo prevede, propone i
+campi già compilati. **Non scrive mai da sola in cartella**: fra la voce e il
+dato salvato ci sono sempre una revisione e un pulsante premuto da te.
+
+## Dove si detta
+
+Il pulsante compare in tre punti, con un'etichetta diversa in ognuno perché
+«detta cosa» cambia col posto:
+
+- **`Detta l'anamnesi`**, nella scheda `Anamnesi` della cartella;
+- **`Detta la seduta`**, nel modulo del trattamento, accanto alle note;
+- nella **valutazione clinica**, quando lo studio ha quel modulo attivo.
+
+A riposo è una riga sola: un pulsante e una frase. Il riquadro compare quando
+c'è qualcosa dentro.
 
 ## Prerequisiti
 
 - Account con ruolo `medico` e accesso clinico al paziente.
-- Microfono integrato o esterno funzionante. La qualita dell'estrazione cresce con un microfono da scrivania a condensatore o con auricolare con cancellazione del rumore.
-- Browser supportato: Chrome, Edge o Safari in versione recente. Firefox non supporta ancora alcune API audio richieste.
-- Permesso microfono concesso al dominio `{URL_APP}`.
-- Sezione paziente gia aperta sulla scheda visita corrente.
-- Connessione internet stabile; la dettatura usa streaming WebSocket verso il backend.
+- Microfono funzionante e permesso concesso al browser. La qualità della
+  trascrizione dipende più dal rumore ambientale che dal microfono.
+- Connessione: la trascrizione avviene su un servizio, non nel browser.
 
-## Passo 1, apertura della dettatura
+## Passo 1, dettare
 
-Dalla scheda paziente, apri `Anamnesi` e individua il pulsante `Dettatura` in alto a destra, identificato dall'icona del microfono.
+Premi il pulsante. Compare un pallino rosso e la scritta `Sto ascoltando`, e
+sotto, in `Trascrizione`, il testo appare mentre parli: *«Parla pure: il testo
+compare qui mentre parli»*.
 
-Al primo utilizzo il browser chiede l'autorizzazione di accesso al microfono. Concedi il permesso e seleziona, se richiesto, il dispositivo di input preferito. La selezione viene memorizzata per le sessioni successive.
+Due pulsanti: **`Fine`** chiude la dettatura e passa alla revisione,
+**`Annulla`** la butta via.
 
-Se il pulsante `Dettatura` risulta disabilitato, verifica nell'angolo in basso a sinistra il messaggio di stato: `microfono non rilevato`, `permesso negato`, `browser non supportato` indicano le cause piu comuni.
+## Passo 2, rivedere
 
-## Passo 2, avvio della trascrizione
+Alla fine il testo trascritto compare in un'area **modificabile**, sotto un
+avviso che vale la pena leggere una volta:
 
-Premi `Avvia dettatura`. L'icona del microfono diventa rossa pulsante e appare un indicatore di livello audio che si muove con la voce.
+> Rivedi prima di usarlo. La trascrizione automatica sbaglia soprattutto su
+> farmaci, dosaggi e termini tecnici: correggi qui sotto.
 
-Inizia a parlare a velocita naturale. Il sistema mostra il testo trascritto in due colori:
+Se il modulo prevede l'estrazione dei campi, accanto all'avviso compare
+l'**attendibilità dell'estrazione** in percentuale. È un numero solo per tutta
+l'estrazione, non uno per campo, ed è un indicatore tecnico: dice quanto il
+modello ha trovato chiaro il testo, non quanto è corretto quello che hai detto.
 
-- **grigio** per le parole **partial**, ancora soggette a revisione automatica nei millisecondi successivi,
-- **nero** per le parole **finali**, consolidate e non piu modificabili dal modello.
+## Passo 3, che cosa farne
 
-La latenza media tra parola pronunciata e parola visualizzata e compresa tra ottocento millisecondi e un secondo e mezzo, in funzione della connessione di rete.
+Tre pulsanti, e fanno cose diverse:
 
-## Passo 3, fine della dettatura
+- **`Scarta`**: butta via la trascrizione.
+- **`Usa testo`**: prende il testo così com'è e lo mette nel campo di
+  destinazione (per esempio in coda alle note della seduta). Compare solo dove
+  quel testo ha una destinazione: altrove sarebbe un pulsante che cancella e
+  basta, ed è stato tolto.
+- **il pulsante di applicazione** (`Proponi per la cartella` nell'anamnesi,
+  `Compila i campi` nel trattamento): prende i **campi** riconosciuti e li porta
+  nel modulo, dove restano modificabili. Compare solo se l'estrazione ha
+  prodotto qualcosa.
 
-La dettatura si interrompe in due modi:
+⚠️ **Anche dopo aver applicato i campi, il salvataggio è un gesto a parte.**
+Applicare riempie il modulo; in cartella ci va quello che salvi tu.
 
-- automaticamente dopo **otto secondi** di silenzio continuo, valore configurabile in `Impostazioni > Dettatura` tra cinque e trenta secondi,
-- manualmente cliccando `Ferma` o premendo la barra spaziatrice quando il cursore non e in un campo di testo.
+## Che cosa la dettatura compila, e che cosa no
 
-Allo stop, il pannello mostra il testo grezzo trascritto completo. Il pulsante `Riprendi` permette di continuare la stessa sessione aggiungendo testo in coda al precedente.
+Questo è il punto in cui le aspettative si rompono più spesso, quindi vale la
+misura invece della promessa.
 
-## Passo 4, apply-to-form e confidence score
+**Nel trattamento** vengono proposti prodotto, quantità, lotto, uso off-label e
+la sua motivazione. **Non** vengono compilati i parametri del dispositivo
+(lunghezza d'onda, fluenza, spot, frequenza, durata d'impulso, passaggi,
+raffreddamento, endpoint), né la diluizione, l'UDI o la scadenza del lotto:
+vanno scritti a mano.
 
-Il pulsante `Estrai campi` invia il testo grezzo al motore di **estrazione strutturata**. Il motore analizza la trascrizione e propone una compilazione dei campi anamnestici:
+**Le zone dettate non diventano pallini sulla mappa.** Finiscono in coda alle
+note nella forma `[aree dettate: …]`, insieme all'eventuale `[categoria
+suggerita: …]`, perché segnare un'area richiede il suo codice esatto. Per
+portarle sulla mappa c'è il pulsante `Auto-estrai aree dal testo`: vedi
+[Le aree trattate](/manuale/body-map).
 
-- **Allergie note**, sostanze identificate con livello di certezza,
-- **Farmaci in uso**, principio attivo, dose, frequenza, via di somministrazione,
-- **Patologie attive e pregresse**, codificate ove possibile su `ICD-10` o `SNOMED CT`,
-- **Familiarita**, malattie rilevanti dei familiari di primo grado,
-- **Stile di vita**, abitudini relative a fumo, alcol, attivita fisica,
-- **Motivo del consulto**, sintesi del problema espresso dal paziente.
+⚠️ **La dettatura è in italiano.** Anche con l'interfaccia in inglese, il
+riconoscimento e l'estrazione lavorano sull'italiano.
 
-Ogni campo proposto e accompagnato da un **confidence score** numerico tra zero e cento, visualizzato con codice colore:
+## Responsabilità clinica
 
-- **verde** sopra l'ottanta per cento, alta affidabilita,
-- **giallo** tra cinquanta e ottanta per cento, da rivedere,
-- **rosso** sotto il cinquanta per cento, da verificare con attenzione o respingere.
-
-Lo score non sostituisce la valutazione clinica: e un indicatore tecnico che misura quanto il modello ritiene chiaro il riferimento nel testo.
-
-## Passo 5, revisione e conferma
-
-Il pannello di revisione mostra accanto a ogni campo proposto tre pulsanti:
-
-- `Accetta`, il campo viene inserito nel modulo,
-- `Modifica`, apre un campo di testo modificabile pre-compilato,
-- `Scarta`, il campo proposto viene ignorato.
-
-Al termine della revisione il pulsante `Salva anamnesi` consolida i campi accettati nella cartella clinica del paziente. Il salvataggio e tracciato in audit log con riferimento alla sessione di dettatura.
-
-Il testo grezzo della dettatura puo essere conservato come allegato per riferimento futuro, oppure scartato. La scelta di conservare il grezzo si configura in `Impostazioni > Dettatura > Conservazione trascrizioni`.
-
-## Compliance, responsabilita clinica e RF-5.4
-
-Il requisito funzionale **RF-5.4** del software Fibonacci impone un principio non derogabile: il sistema non scrive nulla in cartella senza approvazione esplicita del medico. Ogni campo estratto e ogni testo grezzo proposto richiedono un'azione affermativa di `Accetta` o `Modifica e accetta` da parte dell'utente.
-
-Questa scelta architetturale risponde alla normativa italiana sulla cartella clinica e al regolamento europeo MDR sui dispositivi medici basati su software. La responsabilita clinica della corretta compilazione resta in capo al medico firmatario.
+Il principio non è derogabile: **il sistema non scrive nulla in cartella senza
+un'azione esplicita del medico.** Ogni testo trascritto e ogni campo proposto
+richiedono una revisione e un gesto affermativo. La responsabilità della
+corretta compilazione resta di chi firma la cartella.
 
 ## Privacy del flusso audio
 
-L'audio acquisito dal microfono viene inviato in streaming al backend Fibonacci, che lo inoltra ai server Mistral AI in Unione Europea per la trascrizione. Una volta restituita la trascrizione, **l'audio non viene salvato** ne su Fibonacci ne su Mistral.
+L'audio viene inviato al servizio di trascrizione (Mistral, Unione Europea) e
+**non viene conservato** né da noi né da loro oltre il tempo dell'elaborazione;
+i contenuti inviati tramite API non vengono usati per addestrare modelli.
 
-Mistral garantisce contrattualmente che gli audio inviati tramite API enterprise non vengono usati per addestrare modelli ne conservati oltre il tempo strettamente necessario all'elaborazione, tipicamente pochi secondi.
-
-L'utente puo richiedere di non utilizzare la dettatura per una specifica visita: in quel caso si compila l'anamnesi manualmente. La scelta non lascia tracce di audio in alcun sistema.
+Se per una visita non vuoi usare la dettatura, si compila a mano: non resta
+nessuna traccia audio da nessuna parte.
 
 ## Suggerimenti
 
-- Parla a **velocita naturale**, evitando di scandire. Voxtral e ottimizzato per il parlato spontaneo italiano: rallentare innaturalmente o gridare peggiorano i risultati.
-- Non usare comandi vocali tipo "punto", "virgola", "a capo": il modello gestisce automaticamente la punteggiatura.
-- Cita il **nome del paziente** all'inizio della sessione: aiuta il modello ad associare correttamente le persone menzionate.
-- Per i farmaci e utile pronunciare per esteso il principio attivo, ad esempio `Pantoprazolo quaranta milligrammi una compressa al mattino`.
-- Lavora in ambiente silenzioso o usa un microfono direzionale. Rumori di sottofondo costanti, come ventole o condizionatori, riducono l'accuratezza.
-- Se il paziente parla durante la dettatura, fai pause brevi per riprendere il filo: il modello distingue meglio una sola voce alla volta.
+- **Parla a velocità naturale**, senza scandire: il modello è tarato sul parlato
+  spontaneo italiano, e rallentare peggiora il risultato.
+- **Niente comandi vocali** tipo «punto» o «a capo»: la punteggiatura la mette
+  da sé.
+- **I farmaci per esteso**, principio attivo e dose: «pantoprazolo quaranta
+  milligrammi una compressa al mattino».
+- **Una voce alla volta.** Se il paziente parla insieme a te, la trascrizione
+  peggiora.
+- **Rileggi sempre i numeri.** Dosaggi e lotti sono esattamente ciò su cui la
+  trascrizione sbaglia di più, ed è anche ciò che conta di più.
 
 ## Risoluzione problemi
 
-**Il microfono non funziona o non viene rilevato.** Verifica nel browser le autorizzazioni: in Chrome, clic sul lucchetto a sinistra dell'URL, sezione `Microfono`, consenti. In Safari, `Safari > Impostazioni > Siti web > Microfono`. In Edge, identico a Chrome. Verifica anche le impostazioni di sistema del dispositivo: un microfono disattivato a livello sistema operativo non e accessibile dal browser.
+**Il microfono non viene rilevato.** Controlla il permesso nel browser (in
+Chrome, il lucchetto a sinistra dell'indirizzo, voce `Microfono`) e le
+impostazioni del sistema operativo: un microfono spento a livello di sistema non
+è accessibile dal browser.
 
-**Il testo non appare durante la dettatura.** Indica un problema di connessione al backend di trascrizione. Apri la console di rete del browser e verifica la presenza di errori WebSocket sull'endpoint `wss://<dominio-applicazione>/voxtral`. Le cause piu comuni sono firewall aziendali che bloccano WebSocket o proxy intermedi che chiudono le connessioni di lunga durata. Contatta il responsabile IT dello studio o passa a connessione mobile per verifica.
+**Compare un errore rosso sotto il pulsante.** Il messaggio dice la causa: quasi
+sempre è il permesso negato o il servizio di trascrizione non raggiungibile.
 
-**Confidence score sistematicamente bassi.** Avvicinati al microfono o riduci il rumore ambientale. Parla a volume normale ma costante. Se il problema persiste anche in ambiente silenzioso, prova con un microfono esterno: i microfoni integrati di alcuni portatili economici sono di qualita insufficiente per la trascrizione clinica.
+**La trascrizione arriva ma nessun campo viene proposto.** Il pulsante di
+applicazione compare solo se l'estrazione ha riconosciuto qualcosa. Puoi
+comunque usare `Usa testo` e correggere a mano.
 
-**Estrazione campi non propone alcuni elementi citati.** Il modello e tarato sul lessico clinico generale italiano. Termini molto specialistici o brand commerciali poco diffusi possono non essere riconosciuti. Modifica manualmente i campi mancanti dopo l'accettazione di quelli proposti.
-
-**Dettatura interrotta improvvisamente.** Verifica la stabilita della connessione. Una caduta WiFi temporanea interrompe la sessione. Il testo trascritto fino al momento dell'interruzione resta visibile nel pannello e puo essere salvato come bozza con `Salva bozza` prima di riavviare la dettatura.
+**Ho dettato le aree e la mappa è vuota.** È il comportamento previsto: vedi
+sopra, «Che cosa la dettatura compila, e che cosa no».
 
 ## Vedi anche
 
-- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
-- [Body map 2D per documentare le aree trattate](/docs/body-map/)
-- [Audit log e tracciabilita accessi](/docs/audit-log/)
+- [Creazione e gestione anagrafica paziente](/manuale/anagrafica-paziente)
+- [Le aree trattate: sulla foto e sul modello 3D](/manuale/body-map)
+- [Registrare un trattamento](/manuale/trattamenti)
+- [Audit log e tracciabilita accessi](/manuale/audit-log)
 
 Ultima revisione: {ULTIMA_REVISIONE}

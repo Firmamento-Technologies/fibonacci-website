@@ -95,8 +95,8 @@ Il numero massimo di operatori dipende dal piano sottoscritto. Il pannello mostr
 
 ## Vedi anche
 
-- [Creazione e gestione anagrafica paziente](/docs/anagrafica-paziente/)
-- [Agenda e gestione appuntamenti](/docs/agenda-appuntamenti/)
-- [Audit log e tracciabilita accessi](/docs/audit-log/)
+- [Creazione e gestione anagrafica paziente](/manuale/anagrafica-paziente)
+- [Agenda e gestione appuntamenti](/manuale/agenda-appuntamenti)
+- [Audit log e tracciabilita accessi](/manuale/audit-log)
 
 Ultima revisione: {ULTIMA_REVISIONE}

@@ -28,7 +28,25 @@ Ogni voce mostra il valore misurato, il valore del canone di riferimento e lo sc
 
 ## La vista 3D
 
-L'interruttore `Foto | 3D` mostra la mesh del volto ricostruita dai punti di repere, navigabile (trascina per ruotare, rotella per avvicinare), in superficie o reticolo. **Non è una scansione**: la profondità è stimata da una sola fotografia ed è relativa: serve a girare attorno alla forma, non a misurare sporgenze o volumi. Per volumi e mappe di superficie serve hardware di stereofotogrammetria, che questa pagina non pretende di sostituire.
+L'interruttore `Foto | 3D` mostra la mesh del volto ricostruita dai punti di repere, navigabile (*«Trascina per girare, rotella per avvicinare»*), in superficie, reticolo o **`Rilievo`**, che colora la superficie per profondità invece di imitare la pelle: è il modo in cui le asimmetrie di volume si vedono a occhio. Sono visibili anche i punti di repere, tutti e 468.
+
+**Non è una scansione**: la profondità è stimata da una sola fotografia ed è relativa: serve a girare attorno alla forma, non a misurare sporgenze o volumi. Per volumi e mappe di superficie serve hardware di stereofotogrammetria, che questa pagina non pretende di sostituire.
+
+## Gli angoli di profilo, posati a mano
+
+Sulle viste laterali il modello non dà i punti che servono, quindi li posa il medico: la sezione `Angoli di profilo (punti posati a mano)` chiede **sei punti** e, quando ci sono tutti, misura gli angoli (*«Sei punti posati: angoli misurati»*). `Ricomincia` li azzera.
+
+È l'unico punto della pagina in cui la misura dipende da dove clicchi: due serie di clic diverse danno due risultati diversi, e la ripetibilità è la tua.
+
+## Le misure in millimetri
+
+`Calibra con un marcatore` trasforma i rapporti in millimetri: si dichiara la `Dimensione reale (mm)` di un oggetto presente nello scatto e si clicca ai suoi due estremi. Da lì la pagina mostra le `Misure assolute (calibrate)`; `Rifai i clic` e `Ricalibra` rifanno l'operazione.
+
+⚠️ **La calibrazione vale solo a video**: i millimetri non entrano in cartella, perché dipendono da un marcatore e da due clic di quel momento. Quello che si salva restano i rapporti e gli angoli, che non hanno bisogno di scala.
+
+## Lo specchio dal vivo
+
+`Specchio dal vivo` accende la fotocamera e mostra al paziente il proprio viso in tempo reale, con l'invito a `Inquadra il viso`. **Non misura e non registra niente**, e la fotocamera *«è spenta. Si accende solo quando lo chiedi»*: serve durante il colloquio, per parlare di una zona guardandola insieme.
 
 ## La serie fotografica per vista
 

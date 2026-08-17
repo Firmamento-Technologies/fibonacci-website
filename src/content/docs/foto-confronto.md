@@ -31,6 +31,20 @@ Prima di salvare, il sistema esegue due operazioni automatiche:
 
 Al salvataggio si indica l'area trattata e, se pertinente, il trattamento a cui la fotografia si riferisce. Questa associazione è ciò che rende possibile il confronto del passo 3.
 
+### La vista, e la serie standard
+
+Ogni scatto può dichiarare la `Vista`: `Frontale`, `Laterale destra`, `Laterale sinistra`, `Obliqua 45° destra`, `Obliqua 45° sinistra`, `Dinamica (mimica)`. È il protocollo fotografico clinico: la stessa serie di inquadrature, ripetuta uguale a ogni visita, è ciò che rende confrontabili due date.
+
+Tre regole, tutte volute:
+
+- **la vista è facoltativa.** Le fotografie caricate prima di questa funzione non ce l'hanno, e «non indicata» resta diverso da «frontale»: il sistema non riempie mai il campo da solo;
+- **la checklist informa e non blocca.** La scheda `Foto` mostra la serie della visita più recente e dice quali viste mancano; scatti fuori serie restano leciti;
+- **scattando dalla camera con una vista scelta, lo scatto precedente della stessa vista compare in trasparenza sul mirino** (*«Scatto precedente in trasparenza: sovrapponi per ripetere l'inquadratura»*). Sovrapporre il volto al fantasma è il modo pratico di ripetere inquadratura e distanza, e la camera aiuta anche con l'ovale di posa e il promemoria *«Occhi sulla linea · luce frontale uniforme · sfondo neutro»*.
+
+### A che cosa potrà servire quella foto
+
+Al caricamento si dichiara la finalità: `C1: Clinico:` (necessario per il trattamento), `C2: Didattico:` e `C3: Promozionale:`. Le prime restano sempre in cartella; le altre due dipendono da un consenso separato, revocabile in ogni momento, e per la promozione vale la L. 145/2018. Fuori dalla cura, l'anonimizzazione è obbligatoria.
+
 ## Passo 2, organizzare per seduta
 
 Le fotografie associate a un trattamento compaiono nella riga della seduta corrispondente. Le fotografie non associate restano nell'elenco generale, ordinate per data.
@@ -41,7 +55,13 @@ Consiglio operativo: acquisire sempre almeno uno scatto prima del trattamento, c
 
 Nella sezione `Foto`, selezionando due immagini della stessa area si apre la vista di confronto affiancato. La vista mostra le due date, l'area e l'eventuale trattamento interposto.
 
+Il confronto ha una **barra centrale trascinabile** (*«Pre a sinistra, Post a destra»*) e un `Rileva il volto e allinea automaticamente le foto`, che sovrappone i due scatti usando i punti del volto quando le inquadrature non coincidono; `Rimuovi allineamento` torna alle immagini come sono state scattate.
+
+⚠️ **L'allineamento è un aiuto alla lettura, non una correzione della fotografia**: le immagini originali non vengono modificate. E allineare due scatti presi da angoli diversi li rende sovrapponibili, non confrontabili: la serie per vista resta il modo giusto.
+
 Il confronto è una vista, non un documento: non modifica le immagini e non ne crea di nuove. Se serve consegnare il confronto al paziente, si esportano le due fotografie originali.
+
+Dal confronto si registra anche il **PGAIS**, il giudizio del medico sul risultato: vedi [Analisi del volto](/manuale/analisi-del-volto).
 
 ## Passo 4, consegnare le fotografie al paziente
 

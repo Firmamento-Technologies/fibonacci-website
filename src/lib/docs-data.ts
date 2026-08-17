@@ -40,9 +40,20 @@ export const DOCS: DocMeta[] = [
     icon: 'LayoutDashboard',
   },
   {
+    slug: 'aiuto-e-assistenza',
+    title: 'Dove chiedere aiuto',
+    description:
+      'Tour guidato, manuale, assistente in-app, «Chiedi assistenza» e installazione su tablet: quale serve quando.',
+    category: 'inizio',
+    icon: 'LifeBuoy',
+  },
+  {
     slug: 'anatomia',
     title: 'Atlante anatomico 3D',
-    description: 'Mostrare al paziente dove si interviene. Sistemi multipli, drill-down, limiti dichiarati.',
+    // ⚠️ «nove sistemi» e non «sistemi multipli»: il numero è la cosa che chi
+    // scorre l'indice usa per capire se la pagina risponde alla sua domanda.
+    description:
+      'Mostrare al paziente dove si interviene: nove sistemi anatomici, drill-down, limiti dichiarati.',
     category: 'utilizzo',
     icon: 'Bone',
   },
@@ -76,23 +87,28 @@ export const DOCS: DocMeta[] = [
   },
   {
     slug: 'anamnesi-dettatura',
-    title: 'Anamnesi con dettatura AI',
-    description: 'Compilare l\'anamnesi durante la visita con Voxtral.',
+    title: 'Compilare a voce: la dettatura',
+    // ⚠️ Il titolo diceva «Anamnesi con dettatura AI», ma la dettatura sta in
+    // tre punti (anamnesi, seduta, valutazione) e chi cercava «dettare la
+    // seduta» non aveva modo di sapere che stava qui. La descrizione dichiara
+    // anche il limite, perché è la domanda che arriva davvero.
+    description:
+      'Dettare in anamnesi, in seduta e in valutazione: che cosa la voce compila e che cosa no.',
     category: 'utilizzo',
     icon: 'Mic',
   },
   {
     slug: 'body-map',
-    title: 'Body map 2D',
-    // ⚠️ Diceva solo «Documentare aree trattate con pallini numerati», ed era
-    // **incompleta rispetto alla propria pagina**: questa guida ha anche il
-    // «Passo 5, copia da visita precedente» e il «Passo 6, esportazione PDF
-    // della visita». Chi scorreva l'indice cercando come importare le aree o
-    // come esportare la visita **non aveva modo di sapere che stavano qui** —
-    // e infatti finiva su `trattamenti` e su `esportazioni-e-diritti`, che
-    // quelle cose non le spiegano.
+    // ⚠️ Si chiamava «Body map 2D» quando il 2D era tutto quello che c'era. Dal
+    // 16 agosto 2026 le aree si segnano anche sul modello tridimensionale, e un
+    // titolo che dice «2D» manda a cercare altrove chi ha in mente il 3D.
+    title: 'Le aree trattate: foto e modello 3D',
+    // ⚠️ La descrizione precedente prometteva di spiegare come «importarle
+    // dalla visita precedente»: quel pulsante **non esiste**, e la guida lo
+    // descriveva lo stesso (corretto il 2026-08-17, riscrivendo la pagina
+    // contro la schermata). Qui restano solo cose che a video ci sono.
     description:
-      'Documentare le aree trattate con pallini numerati, importarle dalla visita precedente ed esportare la visita in PDF.',
+      'Segnare le aree con pallini numerati sul ritratto o sul modello 3D, con strumento, piano e tecnica di ogni punto.',
     category: 'utilizzo',
     icon: 'MapPin',
   },
@@ -124,7 +140,8 @@ export const DOCS: DocMeta[] = [
   {
     slug: 'analisi-del-volto',
     title: 'Analisi del volto',
-    description: 'Misure sul frontale, serie fotografica, confronto col canone e PGAIS.',
+    description:
+      'Misure sul frontale, vista 3D e specchio dal vivo, angoli di profilo, serie fotografica, canone e PGAIS.',
     category: 'utilizzo',
     icon: 'ScanFace',
   },
@@ -156,6 +173,14 @@ export const DOCS: DocMeta[] = [
     description: 'Prodotto, lotto, aree, off-label, e il richiamo che ne deriva.',
     category: 'utilizzo',
     icon: 'Syringe',
+  },
+  {
+    slug: 'esiti-e-complicanze',
+    title: 'Esiti, complicanze ed emergenze',
+    description:
+      'La modalità Emergenza, registrare una complicanza sulla seduta, e la scheda di segnalazione al Ministero.',
+    category: 'utilizzo',
+    icon: 'HeartPulse',
   },
   {
     slug: 'prescrizioni',

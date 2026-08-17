@@ -27,6 +27,15 @@ const REVISIONE_PER_SLUG: Record<string, string> = {
   'sicurezza': '2026-08-16',
   'dpa': '2026-08-16',
   'privacy': '2026-08-16',
+  /* 🔴 2026-08-17: due guide riscritte **contro la schermata**, non ritoccate.
+     `body-map` descriveva una tabella riordinabile, scorciatoie da tastiera e un
+     «Importa da visita precedente» che non è mai esistito; `anamnesi-dettatura`
+     un pannello con punteggio per campo e Accetta/Modifica/Scarta, anch'esso
+     inesistente. Senza queste due righe continuerebbero a dichiarare «7 agosto»
+     con dentro un testo nuovo, ed è precisamente il difetto che questo file
+     esiste per impedire (ci si è già cascati il 16). */
+  'body-map': '2026-08-17',
+  'anamnesi-dettatura': '2026-08-17',
 }
 
 /** Revisione complessiva di default (ultimo allineamento dei documenti).

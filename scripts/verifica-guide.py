@@ -34,13 +34,31 @@ Esce 1 se trova un sospetto non ancora giustificato.
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 from pathlib import Path
 
 QUI = Path(__file__).resolve().parent
-APP = QUI.parent.parent / "EMR" / "apps" / "web" / "src"
+# ⚠️ `EMR/` e' un sottomodulo condiviso fra piu' sessioni, e puo' trovarsi su un
+# ramo indietro rispetto a `main`: il 2026-08-17 era **74 commit** dietro, e
+# controllare le guide contro quella copia significa verificarle contro un
+# prodotto che non e' quello che verra' rilasciato. `FIBO_APP_SRC` permette di
+# puntare a un worktree allineato senza toccare l'albero condiviso.
+APP = Path(os.environ.get("FIBO_APP_SRC") or QUI.parent.parent / "EMR" / "apps" / "web" / "src")
 DOCS = QUI.parent / "src" / "content" / "docs"
+
+# ⚠️ Non tutte le etichette a video stanno in `src`. I nomi dei sistemi
+# dell'atlante 3D («Sistema linfatico», «Inserzioni muscolari»…) arrivano dal
+# manifesto degli assets, che il browser scarica e il pannello mostra tali e
+# quali. Senza questi file il controllo direbbe «non esiste» di cose che il
+# medico legge a schermo, e la conseguenza pratica sarebbe una guida costretta a
+# NON nominarle: cioe' meno precisa per colpa del presidio.
+# ⛔ Non aggiungere qui cartelle intere: ogni file in piu' e' una possibilita' in
+# piu' che un termine risulti «trovato» per caso.
+ALTRE_SORGENTI = [
+    QUI.parent.parent / "EMR" / "apps" / "web" / "public" / "anatomy" / "granular" / "manifest.json",
+]
 
 # Sospetti gia' esaminati e giustificati, con il perche'. Chi ne aggiunge uno
 # deve scrivere la ragione: senza, questa lista diventa il posto dove si
@@ -59,6 +77,38 @@ AMMESSI = {
 
 TERMINI = re.compile(r"[`«]([A-ZÀ-Ù][^`»\n]{3,40})[`»]")
 
+# I collegamenti interni fra guide, nella forma `[testo](/percorso)`.
+COLLEGAMENTI = re.compile(r"\]\((/[^)\s]+)\)")
+
+
+def controlla_collegamenti() -> dict[str, list[str]]:
+    """I rimandi fra guide devono portare a un capitolo che esiste.
+
+    ⚠️ PERCHE'. Fino al 2026-08-17 le guide si rimandavano l'un l'altra con
+    `/docs/<slug>/` e `/documentazione/<slug>` — gli indirizzi che avevano **sul
+    sito pubblico**. Il manuale e' dentro l'applicazione dal 13 agosto, dove
+    quelle rotte non esistono: **26 collegamenti in 9 guide** buttavano il
+    lettore sul catch-all del router, cioe' fuori dal manuale, perdendogli il
+    segno. Nessun errore in console, nessun test rosso: un link che non porta da
+    nessuna parte e' silenzioso per costruzione.
+
+    Qui si verificano due cose insieme: la forma (`/manuale/<slug>`) e
+    l'esistenza del capitolo, perche' un rimando a un capitolo cancellato ha lo
+    stesso effetto di un percorso sbagliato.
+    """
+    slug_esistenti = {p.stem for p in DOCS.glob("*.md")}
+    rotti: dict[str, list[str]] = {}
+    for g in sorted(DOCS.glob("*.md")):
+        fuori = []
+        for percorso in COLLEGAMENTI.findall(g.read_text(encoding="utf-8")):
+            if not percorso.startswith("/manuale/"):
+                fuori.append(f"{percorso}  (il manuale vive su /manuale/<capitolo>)")
+            elif percorso.removeprefix("/manuale/").strip("/") not in slug_esistenti:
+                fuori.append(f"{percorso}  (capitolo inesistente)")
+        if fuori:
+            rotti[g.stem] = sorted(fuori)
+    return rotti
+
 
 def main() -> int:
     if not APP.exists():
@@ -73,6 +123,9 @@ def main() -> int:
             corpus.append(f.read_text(encoding="utf-8"))
         except OSError:
             pass
+    for f in ALTRE_SORGENTI:
+        if f.exists():
+            corpus.append(f.read_text(encoding="utf-8"))
     tutto = "\n".join(corpus).lower()
 
     # Controprova: se il corpus e' rotto il controllo direbbe «tutto assente»,
@@ -95,9 +148,24 @@ def main() -> int:
         if fuori:
             sospetti[g.stem] = sorted(fuori)
 
-    if not sospetti:
-        print(f"✅ {len(list(DOCS.glob('*.md')))} guide: nessun elemento nominato risulta assente dall'app")
+    collegamenti_rotti = controlla_collegamenti()
+    if collegamenti_rotti:
+        print("❌ Collegamenti fra guide che non portano da nessuna parte:\n", file=sys.stderr)
+        for k, v in collegamenti_rotti.items():
+            print(f"   {k}", file=sys.stderr)
+            for x in v:
+                print(f"     · {x}", file=sys.stderr)
+        print("", file=sys.stderr)
+
+    if not sospetti and not collegamenti_rotti:
+        print(
+            f"✅ {len(list(DOCS.glob('*.md')))} guide: nessun elemento nominato risulta "
+            "assente dall'app, nessun collegamento rotto"
+        )
         return 0
+
+    if not sospetti:
+        return 1
 
     print("❌ Le guide nominano cose che nell'app non si trovano:\n", file=sys.stderr)
     for k, v in sospetti.items():
