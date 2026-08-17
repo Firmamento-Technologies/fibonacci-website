@@ -24,7 +24,7 @@
  * l'assistente in-app **in silenzio** (`carica_guide()` torna un dizionario
  * vuoto e il prompt dice solo «non posso consultare le guide adesso»).
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, readdirSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { dirname } from 'node:path'
@@ -107,13 +107,13 @@ if (existsSync(SORGENTE)) {
 const LINGUE = ['en', 'es', 'fr', 'de']
 const perLingua = []
 for (const l of LINGUE) {
-  const sorgenteL = join(RADICE, 'out', 'manuale-privato', l)
+  const sorgenteL = join(RADICE, 'out', 'manuale-lingua', l)
   if (!existsSync(sorgenteL)) continue
   let datiL
   try {
     datiL = JSON.parse(readFileSync(sorgenteL, 'utf8'))
   } catch (e) {
-    ferma(`manuale-privato/${l} non è JSON valido: ${String(e).slice(0, 120)}`)
+    ferma(`manuale-lingua/${l} non è JSON valido: ${String(e).slice(0, 120)}`)
   }
   const pagineL = datiL.pagine ?? []
   if (pagineL.length !== attese.length) {
@@ -131,10 +131,30 @@ for (const l of LINGUE) {
   writeFileSync(join(CARTELLA, `manuale-corpus.${l}.json`), JSON.stringify(datiL), 'utf-8')
   rmSync(sorgenteL, { force: true })
   if (existsSync(sorgenteL)) {
-    ferma(`non sono riuscito a togliere out/manuale-privato/${l}: NON rilasciare.`)
+    ferma(`non sono riuscito a togliere out/manuale-lingua/${l}: NON rilasciare.`)
   }
   perLingua.push(`${l}:${attese.length - ripiegati}/${attese.length}`)
 }
+/* ⛔ E VIA ANCHE LA CARTELLA, non solo i file dentro.
+   Misurato il 2026-08-17 alla prima build: i quattro corpora erano stati
+   spostati correttamente, ma `out/manuale-lingua/` restava — vuota, e quindi
+   innocua **oggi**. Il punto è che questa cartella è l'unico posto in cui il
+   manuale non deve stare: lasciarci un guscio col nome giusto è l'invito a
+   ritrovarcelo pieno alla prossima modifica, e nessuno guarderebbe. */
+const cartellaLingue = join(RADICE, 'out', 'manuale-lingua')
+if (existsSync(cartellaLingue)) {
+  const residui = readdirSync(cartellaLingue)
+  if (residui.length) {
+    ferma(
+      `out/manuale-lingua/ non è vuota dopo lo spostamento: ${residui.join(', ')}. NON rilasciare.`,
+    )
+  }
+  rmSync(cartellaLingue, { recursive: true, force: true })
+  if (existsSync(cartellaLingue)) {
+    ferma('non sono riuscito a togliere out/manuale-lingua/: NON rilasciare.')
+  }
+}
+
 if (perLingua.length) {
   console.log(`[manuale-privato] lingue → ${perLingua.join('  ')}`)
 }
