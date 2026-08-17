@@ -24,8 +24,14 @@
  * in build, e il componente `<Schermata>` le serve con `srcset`.
  *
  * USO:  node scripts/schermate.mjs
- * Prerequisito: l'EMR in esecuzione su :4173 (build di produzione) con `/demo`
- * accesa. Non digita credenziali: entra dalla porta pubblica della demo.
+ * Prerequisito: l'EMR in esecuzione su **:5173** (build di produzione) con
+ * `/demo` accesa. Non digita credenziali: entra dalla porta pubblica della demo.
+ * ⚠️ La porta non è indifferente: il `pdf-signer` ammette in CORS solo
+ * 5173-5175, e altrove il catalogo consensi esce in stato di errore. Il perché
+ * per esteso è sulla costante `EMR` qui sotto.
+ *
+ *   cd ../EMR/apps/web && npm run build && npx vite preview --port 5173 --host 127.0.0.1 &
+ *   cd ../../../website && node scripts/schermate.mjs
  */
 import { chromium } from 'playwright'
 import sharp from 'sharp'
@@ -37,7 +43,25 @@ import { fileURLToPath } from 'node:url'
 const QUI = dirname(fileURLToPath(import.meta.url))
 const RADICE = join(QUI, '..')
 const USCITA = join(RADICE, 'public/schermate')
-const EMR = process.env.EMR_URL ?? 'http://localhost:4173'
+/**
+ * ⚠️ 5173, NON 4173, e non è una preferenza: il `pdf-signer` ammette in CORS
+ * **solo 5173-5175** (verificato il 2026-08-17: con `Origin: localhost:4173` la
+ * risposta non porta nessun `access-control-allow-origin`, con `localhost:5173`
+ * sì). Servendo l'EMR sulla 4173 la chiamata al catalogo dei consensi viene
+ * bloccata dal browser e la schermata `catalogo-consensi` esce con scritto
+ * **«Catalogo dei modelli non raggiungibile»**.
+ *
+ * 🔑 Perché il predefinito conta più di quanto sembri: quell'immagine **non è
+ * vuota**. Il controllo qui sotto che ferma le schermate vuote la lascia
+ * passare, `rilascia.mjs` la spedisce, e sul sito finisce una funzione del
+ * prodotto in stato di errore. È successo davvero il 2026-08-17, e se n'è
+ * accorto un occhio umano — perché il cancello del rilascio prescrive di
+ * GUARDARLE, ⛔ non perché un controllo l'abbia visto.
+ *
+ * ⇒ Chi ha l'EMR su un'altra porta la passi con `EMR_URL`, sapendo che fuori da
+ * 5173-5175 il catalogo consensi non caricherà.
+ */
+const EMR = process.env.EMR_URL ?? 'http://localhost:5173'
 
 /** Le larghezze servite. Coprono 1× e 2× dei tre riquadri in cui compaiono:
  *  346 px (telefono), 544 px (hero desktop), 664 px (/come-funziona). */

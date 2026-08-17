@@ -85,9 +85,12 @@ export function schermateFresche(radiceSito) {
       `schermate prese dal frontend EMR ${manifesto.commitFrontendEmr.slice(0, 8)}, ` +
       `ma l'ultimo commit che tocca la resa è ${attuale.slice(0, 8)}.\n` +
       '   Rigenerale così (lo stack Medplum locale deve essere acceso):\n' +
-      '     cd ../EMR/apps/web && npm run build && npx vite preview --port 4173 &\n' +
+      '     cd ../EMR/apps/web && npm run build && npx vite preview --port 5173 --host 127.0.0.1 &\n' +
       '     cd ../../../website && node scripts/schermate.mjs\n' +
+      '   ⚠️ La porta 5173 NON è indifferente: il pdf-signer ammette in CORS solo\n' +
+      '   5173-5175, e altrove il catalogo consensi esce «non raggiungibile».\n' +
       '   ⚠️ Poi GUARDALE: i controlli automatici passano anche su un’agenda\n' +
-      '   quasi vuota, che mostra un prodotto che sembra non usato.',
+      '   quasi vuota, e passano anche su una schermata che mostra un ERRORE —\n' +
+      '   successo il 2026-08-17, e l’ha visto una persona, non un controllo.',
   }
 }
