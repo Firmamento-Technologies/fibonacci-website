@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -42,13 +43,9 @@ export default function DomandeFrequenti() {
   return (
     <Pagina
       href="/domande"
-      occhiello="Domande"
-      titolo={
-        <>
-          Comprese quelle a cui la risposta è <span className="accento-corsivo">no</span>
-        </>
-      }
-      sommario="Se cerchi un limite e non lo trovi qui, chiedicelo: lo aggiungiamo alla pagina."
+      occhiello={t('domande.domande')}
+      titolo={<Enfasi chiave="domande.titolo_comprese_quelle_a_cui_la_risposta" />}
+      sommario={t('domande.se_cerchi_un_limite_e_non')}
     >
       {/* ⚠️ UNA SEZIONE PER CATEGORIA. Tutte le domande stavano in una sezione
           sola: **2.268px, il 280% di una schermata**. Le categorie esistevano

@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -82,13 +83,8 @@ export default function PerLeSocietaScientifiche() {
   return (
     <Pagina
       href="/per-le-societa-scientifiche"
-      occhiello="Società scientifiche"
-      titolo={
-        <>
-          Quello che possiamo fare <span className="accento-corsivo">insieme</span>, e a quali
-          condizioni
-        </>
-      }
+      occhiello={t('perlesocietascientifiche.societa_scientifiche')}
+      titolo={<Enfasi chiave="perlesocietascientifiche.titolo_quello_che_possiamo_fare_insieme_e" />}
       sommario={
         <>
           {t('perlesocietascientifiche.questa_pagina_e_un_offerta_non')}

@@ -26,15 +26,15 @@ export default function Page() {
   return (
     <GuscioPaziente>
       <TestoPaziente
-        occhiello="Prima di decidere"
-        titolo="L’albo dei medici, e come si consulta"
+        occhiello={t('pazienti.verificareunmedico.prima_di_decidere')}
+        titolo={t('pazienti.verificareunmedico.l_albo_dei_medici_e_come')}
         sommario={
           <>
             {t('pazienti.verificareunmedico.il_registro_degli_iscritti_e_pubblico')}
           </>
         }
       >
-        <Sezione id="come" titolo="Come si fa">
+        <Sezione id="come" titolo={t('pazienti.verificareunmedico.come_si_fa')}>
           <ol>
             <li style={{ padding: 'var(--s-5) 0' }}>
               Apri il servizio di ricerca della FNOMCeO:{' '}
@@ -60,7 +60,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="perche" titolo="Perché conta, e lo dice la Federazione stessa">
+        <Sezione id="perche" titolo={t('pazienti.verificareunmedico.perche_conta_e_lo_dice_la')}>
           <p>
             Non è un consiglio nostro. La FNOMCeO ha invitato pubblicamente i cittadini a
             verificare che i professionisti che incontrano (anche quelli che vedono sui
@@ -69,7 +69,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="cosa-dice" titolo="Che cosa ti dice l’iscrizione, e che cosa no">
+        <Sezione id="cosa-dice" titolo={t('pazienti.verificareunmedico.che_cosa_ti_dice_l_iscrizione')}>
           <p>
             <strong>{t('pazienti.verificareunmedico.ti_dice')}</strong> che è un medico abilitato, e che un Ordine risponde
             della sua condotta: se sbaglia, c’è un procedimento disciplinare che lo
@@ -95,7 +95,7 @@ export default function Page() {
             di ammissione, non ancora come procedura eseguita. ⇒ si scrive la
             **regola**, e si dice **cosa non copre** — che è la parte che quasi
             nessun portale scrive. */}
-        <Sezione id="noi" titolo="Il nostro impegno, e il suo limite">
+        <Sezione id="noi" titolo={t('pazienti.verificareunmedico.il_nostro_impegno_e_il_suo')}>
           <p>
             <strong>{t('pazienti.verificareunmedico.l_iscrizione_all_ordine_e_la')}</strong> Ordine e numero stanno <strong>in pagina</strong>, non
             nascosti in fondo: non perché tocchi a te controllarli, ma perché quello che
@@ -113,7 +113,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="poi" titolo="Da qui">
+        <Sezione id="poi" titolo={t('pazienti.verificareunmedico.da_qui')}>
           <p>
             <Link href="/pazienti/prima-di-un-trattamento" style={COLLEGAMENTO}>
               {t('pazienti.verificareunmedico.le_domande_da_fare_prima_di')}

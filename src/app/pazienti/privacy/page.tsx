@@ -41,8 +41,8 @@ export default function Page() {
   return (
     <GuscioPaziente>
       <TestoPaziente
-        occhiello="Trasparenza"
-        titolo="I tuoi dati su queste pagine"
+        occhiello={t('pazienti.privacy.trasparenza')}
+        titolo={t('pazienti.privacy.i_tuoi_dati_su_queste_pagine')}
         sommario={
           <>
             {t('pazienti.privacy.la_versione_breve_finche_leggi_non')}
@@ -62,7 +62,7 @@ export default function Page() {
             `no-referrer` così ⛔ non riceve l'indirizzo della pagina — cioè
             *quale medico* stavi guardando. Resta vero che **il tuo indirizzo IP
             arriva a loro**, ed è esattamente ciò che va detto. */}
-        <Sezione id="mentre-leggi" titolo="Mentre leggi">
+        <Sezione id="mentre-leggi" titolo={t('pazienti.privacy.mentre_leggi')}>
           <p>
             <strong>{t('pazienti.privacy.nessun_cookie_di_tracciamento_nessun_account')}</strong>{' '}
             Non c’è un banner dei cookie perché non c’è niente da farti accettare: i caratteri
@@ -82,7 +82,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="quando-prenoti" titolo="Quando chiedi un appuntamento">
+        <Sezione id="quando-prenoti" titolo={t('pazienti.privacy.quando_chiedi_un_appuntamento')}>
           <p>
             Quello che scrivi (nome, telefono, e il motivo se lo indichi) serve allo studio
             per richiamarti, e <strong>va allo studio</strong>. È lui il titolare del
@@ -98,7 +98,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="delicati" titolo="Perché ci teniamo tanto">
+        <Sezione id="delicati" titolo={t('pazienti.privacy.perche_ci_teniamo_tanto')}>
           <p>
             «Nome, telefono e un trattamento estetico» non è un dato qualunque: messo insieme
             racconta qualcosa della tua salute, e la legge europea lo protegge come tale anche
@@ -107,7 +107,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="diritti" titolo="I tuoi diritti">
+        <Sezione id="diritti" titolo={t('pazienti.privacy.i_tuoi_diritti')}>
           <p>
             Accesso, rettifica, cancellazione, limitazione, opposizione e portabilità si
             esercitano <strong>verso lo studio</strong>, che è il titolare. Se ci scrivi a noi
@@ -130,7 +130,7 @@ export default function Page() {
           )}
         </Sezione>
 
-        <Sezione id="poi" titolo="Da qui">
+        <Sezione id="poi" titolo={t('pazienti.privacy.da_qui')}>
           <p>
             <Link href="/pazienti" style={COLLEGAMENTO}>
               {t('pazienti.privacy.torna_all_inizio')}

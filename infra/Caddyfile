@@ -64,6 +64,11 @@ fibonaccimedica.it {
 	#    3. Caddy legge l'intestazione **senza plugin e senza banche dati**;
 	#       il GeoIP vorrebbe un modulo esterno e un file da tenere aggiornato.
 	#
+	# ⚠️ Il matcher si chiama `header_regexp`, ⛔ NON `header_regex`: con il nome
+	#    sbagliato `caddy validate` dice «module not registered» e la
+	#    configurazione non parte affatto. ⇒ **validare prima di applicare**: e'
+	#    la differenza fra un errore visto e un sito spento.
+	#
 	# ⚠️ QUANDO **NON** DEVE SCATTARE, che e' la parte delicata:
 	#    · se l'utente ha gia' scelto (biscotto `lingua`) ⇒ si rispetta;
 	#    · se e' gia' su un percorso con prefisso ⇒ niente giro secondo;
@@ -81,19 +86,19 @@ fibonaccimedica.it {
 		header Accept *text/html*
 		not header Cookie *lingua=*
 		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regex Accept-Language ^\s*de\b
+		header_regexp Accept-Language ^\s*de\b
 	}
 	@fr {
 		header Accept *text/html*
 		not header Cookie *lingua=*
 		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regex Accept-Language ^\s*fr\b
+		header_regexp Accept-Language ^\s*fr\b
 	}
 	@es {
 		header Accept *text/html*
 		not header Cookie *lingua=*
 		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regex Accept-Language ^\s*es\b
+		header_regexp Accept-Language ^\s*es\b
 	}
 	# ⚠️ L'inglese per ULTIMO fra i match e' voluto: `en` e' la lingua che
 	# quasi ogni browser mette in coda alla propria lista, quindi va accettata
@@ -102,7 +107,7 @@ fibonaccimedica.it {
 		header Accept *text/html*
 		not header Cookie *lingua=*
 		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regex Accept-Language ^\s*en\b
+		header_regexp Accept-Language ^\s*en\b
 	}
 	redir @de /de{uri} 302
 	redir @fr /fr{uri} 302

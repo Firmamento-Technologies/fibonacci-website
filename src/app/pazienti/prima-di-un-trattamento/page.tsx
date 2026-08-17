@@ -62,8 +62,8 @@ export default function Page() {
   return (
     <GuscioPaziente>
       <TestoPaziente
-        occhiello="Prima di decidere"
-        titolo="Nove domande da fare prima di un trattamento"
+        occhiello={t('pazienti.primadiuntrattamento.prima_di_decidere')}
+        titolo={t('pazienti.primadiuntrattamento.nove_domande_da_fare_prima_di')}
         sommario={
           <>
             {t('pazienti.primadiuntrattamento.non_sono_domande_scomode_sono_quelle')}
@@ -90,7 +90,7 @@ export default function Page() {
           ))}
         </ol>
 
-        <Sezione id="portale" titolo="Una cosa da sapere su questo sito">
+        <Sezione id="portale" titolo={t('pazienti.primadiuntrattamento.una_cosa_da_sapere_su_questo')}>
           <p>
             Qui non trovi <strong>prezzi, sconti né classifiche</strong>, e non è una
             dimenticanza: la legge italiana vieta ai medici e alle strutture sanitarie le
@@ -105,7 +105,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="poi" titolo="Da qui">
+        <Sezione id="poi" titolo={t('pazienti.primadiuntrattamento.da_qui')}>
           <p>
             <Link href="/pazienti/consenso-informato" style={COLLEGAMENTO}>
               {t('pazienti.primadiuntrattamento.che_cos_e_il_consenso_informato')}

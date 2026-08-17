@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -65,13 +66,8 @@ export default function Integrazioni() {
   return (
     <Pagina
       href="/integrazioni"
-      occhiello="Integrazioni"
-      titolo={
-        <>
-          Con che cosa si integra Fibonacci: oggi, con{' '}
-          <span className="accento-corsivo">niente</span>
-        </>
-      }
+      occhiello={t('integrazioni.integrazioni')}
+      titolo={<Enfasi chiave="integrazioni.titolo_con_che_cosa_si_integra_fibonacci" />}
       sommario={
         <>
           {t('integrazioni.e_la_risposta_breve_ed_e')}

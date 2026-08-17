@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Reveal, RevealGruppo, RevealFiglio } from '@/components/ui/Reveal'
@@ -227,14 +228,9 @@ export function tappeCapacita() {
       <div className="gabbia">
         <Reveal>
           <TestaSezione
-            occhiello="Cosa fa"
-            titolo={
-              <>
-                Quattro cose, per come lavora davvero uno studio di{' '}
-                <span className="accento-corsivo">estetica</span>
-              </>
-            }
-            sommario="Non è un gestionale con sopra un modulo sanitario. È una cartella costruita attorno alle procedure che fai."
+            occhiello={t('home.sezioni.cosa_fa')}
+            titolo={<Enfasi chiave="home.sezioni.titolo_quattro_cose_per_come_lavora_davvero" />}
+            sommario={t('home.sezioni.non_e_un_gestionale_con_sopra')}
           />
         </Reveal>
       </div>
@@ -362,9 +358,9 @@ export function Prove() {
       <div className="gabbia">
         <Reveal className="passo">
           <TestaSezione
-            occhiello="Come si controlla"
-            titolo="Non chiediamo di fidarsi"
-            sommario="Un fornitore sanitario che dice «siamo sicuri» sta chiedendo un atto di fede. Queste tre cose si controllano senza parlare con noi."
+            occhiello={t('home.sezioni.come_si_controlla')}
+            titolo={t('home.sezioni.non_chiediamo_di_fidarsi')}
+            sommario={t('home.sezioni.un_fornitore_sanitario_che_dice_siamo')}
           />
         </Reveal>
 
@@ -409,14 +405,9 @@ export function Garanzie() {
       <div className="gabbia">
         <Reveal className="passo">
           <TestaSezione
-            occhiello="Il valore legale"
-            titolo={
-              <>
-                Il dato resta in Italia, e la <span className="accento-corsivo">prova</span> è
-                accanto a ogni riga
-              </>
-            }
-            sommario="Si controllano dall’esterno, senza chiedere il permesso a noi. Compresa la terza, che non abbiamo perché oggi non ce l’ha nessuno."
+            occhiello={t('home.sezioni.il_valore_legale')}
+            titolo={<Enfasi chiave="home.sezioni.titolo_il_dato_resta_in_italia_e" />}
+            sommario={t('home.sezioni.si_controllano_dall_esterno_senza_chiedere')}
           />
         </Reveal>
 

@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { risolviSegnaposto } from './segnaposto'
@@ -12,10 +13,10 @@ export interface LegalDocMeta {
 export const LEGAL_DOCS: LegalDocMeta[] = [
   {
     slug: 'privacy',
-    title: 'Informativa sulla Privacy',
-    shortTitle: 'Privacy Policy',
+    title: t('lib.legaldocs.informativa_sulla_privacy'),
+    shortTitle: t('lib.legaldocs.privacy_policy'),
     description:
-      'Informativa ex artt. 13-14 GDPR sul trattamento dei dati personali raccolti tramite il sito e l\'applicazione Fibonacci.',
+      t('lib.legaldocs.informativa_ex_artt_13_14_gdpr'),
   },
   {
     /* ⚠️ L'obbligo scatta con la **raccolta**, ⛔ non con la pubblicazione:
@@ -23,44 +24,44 @@ export const LEGAL_DOCS: LegalDocMeta[] = [
        sono state raccolte il 2026-08-13 ⇒ questo documento ⛔ non poteva
        aspettare che l'elenco andasse online. */
     slug: 'elenco-medici',
-    title: 'Informativa sull\'elenco pubblico di medici e strutture',
-    shortTitle: 'Elenco medici',
+    title: t('lib.legaldocs.informativa_sull_elenco_pubblico_di_medici'),
+    shortTitle: t('lib.legaldocs.elenco_medici'),
     description:
-      'Informativa ex art. 14 GDPR per i medici e le strutture il cui profilo compare nell\'elenco pubblico consultabile dai pazienti, con le istruzioni per farlo rimuovere.',
+      t('lib.legaldocs.informativa_ex_art_14_gdpr_per'),
   },
   {
     slug: 'cookie',
-    title: 'Cookie Policy',
-    shortTitle: 'Cookie Policy',
+    title: t('lib.legaldocs.cookie_policy'),
+    shortTitle: t('lib.legaldocs.cookie_policy'),
     description:
-      'Informativa ex art. 122 D.Lgs. 196/2003 e Provv. Garante 2021 sui cookie e tecnologie analoghe utilizzati da Fibonacci.',
+      t('lib.legaldocs.informativa_ex_art_122_d_lgs'),
   },
   {
     slug: 'dpa',
-    title: 'Accordo per il Trattamento dei Dati (DPA)',
-    shortTitle: 'DPA art. 28 GDPR',
-    description: 'Accordo ex art. 28 GDPR fra il medico cliente, titolare del trattamento, e il fornitore del servizio, responsabile, per il trattamento dei dati dei pazienti.',
+    title: t('lib.legaldocs.accordo_per_il_trattamento_dei_dati'),
+    shortTitle: t('lib.legaldocs.dpa_art_28_gdpr'),
+    description: t('lib.legaldocs.accordo_ex_art_28_gdpr_fra'),
   },
   {
     slug: 'termini',
-    title: 'Termini di Servizio',
-    shortTitle: 'Termini di Servizio',
+    title: t('lib.legaldocs.termini_di_servizio'),
+    shortTitle: t('lib.legaldocs.termini_di_servizio'),
     description:
-      'Condizioni generali di contratto SaaS B2B per l\'utilizzo del software Fibonacci da parte di medici e strutture sanitarie.',
+      t('lib.legaldocs.condizioni_generali_di_contratto_saas_b2b'),
   },
   {
     slug: 'sicurezza',
-    title: 'Sicurezza e protezione dei dati',
-    shortTitle: 'Sicurezza',
+    title: t('lib.legaldocs.sicurezza_e_protezione_dei_dati'),
+    shortTitle: t('lib.legaldocs.sicurezza'),
     description:
-      'Scheda tecnica delle misure di sicurezza ex art. 32 GDPR adottate da Fibonacci. Allegato A del DPA.',
+      t('lib.legaldocs.scheda_tecnica_delle_misure_di_sicurezza'),
   },
   {
     slug: 'sub-responsabili',
-    title: 'Sub-responsabili del trattamento',
-    shortTitle: 'Sub-responsabili',
+    title: t('lib.legaldocs.sub_responsabili_del_trattamento'),
+    shortTitle: t('lib.legaldocs.sub_responsabili'),
     description:
-      'Elenco nominativo aggiornato dei sub-responsabili del trattamento autorizzati ex art. 28.2 GDPR. Allegato B del DPA.',
+      t('lib.legaldocs.elenco_nominativo_aggiornato_dei_sub_responsabili'),
   },
 ]
 

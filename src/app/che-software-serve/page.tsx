@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -103,13 +104,8 @@ export default function CheSoftwareServe() {
   return (
     <Pagina
       href="/che-software-serve"
-      occhiello="Confronto"
-      titolo={
-        <>
-          Portale, gestionale, cartella verticale: che cosa{' '}
-          <span className="accento-corsivo">serve</span> davvero
-        </>
-      }
+      occhiello={t('chesoftwareserve.confronto')}
+      titolo={<Enfasi chiave="chesoftwareserve.titolo_portale_gestionale_cartella_verticale_che_cosa" />}
       sommario={
         <>
           {t('chesoftwareserve.tre_categorie_di_software_che_risolvono')}

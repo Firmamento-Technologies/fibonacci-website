@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -17,13 +18,8 @@ export default function AutovalutazionePagina() {
   return (
     <Pagina
       href="/autovalutazione"
-      occhiello="Autovalutazione"
-      titolo={
-        <>
-          Otto domande, e sai dove la tua documentazione{' '}
-          <span className="accento-corsivo">non parla</span> da sola
-        </>
-      }
+      occhiello={t('autovalutazione.autovalutazione')}
+      titolo={<Enfasi chiave="autovalutazione.titolo_otto_domande_e_sai_dove_la" />}
       sommario={
         <>
           {t('autovalutazione.sono_le_domande_che_tornano_quando')}

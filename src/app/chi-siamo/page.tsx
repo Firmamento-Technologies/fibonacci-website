@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -52,13 +53,9 @@ export default function ChiSiamo() {
   return (
     <Pagina
       href="/chi-siamo"
-      occhiello="Chi siamo"
-      titolo={
-        <>
-          Un prodotto in <span className="accento-corsivo">avvio</span>, detto senza giri di parole
-        </>
-      }
-      sommario="Fibonacci nasce dal lavoro con studi di medicina estetica veri, sulle cose che a fine giornata restano indietro: le schede da ricopiare, i consensi generici, le foto nel telefono."
+      occhiello={t('chisiamo.chi_siamo')}
+      titolo={<Enfasi chiave="chisiamo.titolo_un_prodotto_in_avvio_detto_senza" />}
+      sommario={t('chisiamo.fibonacci_nasce_dal_lavoro_con_studi')}
     >
       <section style={{ paddingBottom: 'var(--s-55)' }}>
         <div className="gabbia">

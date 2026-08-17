@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -45,14 +46,9 @@ export default function Prezzi() {
   return (
     <Pagina
       href="/prezzi"
-      occhiello="Prezzi"
-      titolo={
-        <>
-          Tre piani, e l&apos;elenco di quello che <span className="accento-corsivo">non</span>{' '}
-          comprendono
-        </>
-      }
-      sommario="Prezzi per studio, IVA esclusa. Nessun costo di attivazione, nessun vincolo di durata, nessun aumento a sorpresa al secondo anno."
+      occhiello={t('prezzi.prezzi')}
+      titolo={<Enfasi chiave="prezzi.titolo_tre_piani_e_l_elenco_di" />}
+      sommario={t('prezzi.prezzi_per_studio_iva_esclusa_nessun')}
       larga
     >
       {/* ⚠️ Tenuto QUI di proposito: i risultati arricchiti di /prezzi oggi

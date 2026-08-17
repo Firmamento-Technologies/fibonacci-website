@@ -91,8 +91,8 @@ export default function MediciPage() {
     <Pagina
       href="/medici"
       tappe={false}
-      occhiello="Per il medico"
-      titolo="Hai ricevuto una richiesta tramite Fibonacci"
+      occhiello={t('medici.per_il_medico')}
+      titolo={t('medici.hai_ricevuto_una_richiesta_tramite_fibonacci')}
       sommario={
         <>
           {t('medici.una_persona_ti_ha_scritto_passando')}

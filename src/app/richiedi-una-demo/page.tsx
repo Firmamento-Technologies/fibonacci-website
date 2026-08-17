@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -17,13 +18,9 @@ export default function RichiediUnaDemo() {
   return (
     <Pagina
       href="/richiedi-una-demo"
-      occhiello="Parliamone"
-      titolo={
-        <>
-          Mezz&apos;ora, e capisci se <span className="accento-corsivo">fa per te</span>
-        </>
-      }
-      sommario="Non è una telefonata commerciale. Ti mostriamo il prodotto sulle procedure che fai, e ti diciamo anche dove non ti conviene."
+      occhiello={t('richiediunademo.parliamone')}
+      titolo={<Enfasi chiave="richiediunademo.titolo_mezz_ora_e_capisci_se_fa" />}
+      sommario={t('richiediunademo.non_e_una_telefonata_commerciale_ti')}
       larga
     >
       {/* ⚠️ La coda era di px: dentro una tappa lo spazio lo dà già la

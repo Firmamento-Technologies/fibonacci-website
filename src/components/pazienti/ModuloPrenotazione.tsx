@@ -334,7 +334,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
         <div style={{ marginTop: 'var(--s-21)', maxWidth: 'var(--measure)' }}>
           <Campo
             id="p-nome"
-            etichetta="Nome"
+            etichetta={t('pazienti.moduloprenotazione.nome')}
             valore={dati.nome}
             onChange={aggiorna('nome')}
             completamento="name"
@@ -342,7 +342,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
           />
           <Campo
             id="p-tel"
-            etichetta="Telefono"
+            etichetta={t('pazienti.moduloprenotazione.telefono')}
             tipo="tel"
             valore={dati.telefono}
             onChange={aggiorna('telefono')}
@@ -351,7 +351,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
           />
           <Campo
             id="p-motivo"
-            etichetta="Motivo (facoltativo)"
+            etichetta={t('pazienti.moduloprenotazione.motivo_facoltativo')}
             valore={dati.motivo}
             onChange={aggiorna('motivo')}
             completamento="off"

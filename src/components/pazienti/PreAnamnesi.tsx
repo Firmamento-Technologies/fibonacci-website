@@ -129,28 +129,28 @@ export function PreAnamnesi({
         <div className="pre-anamnesi-campi">
           <Domanda
             id="pa-farmaci"
-            etichetta="Prendi farmaci con regolarità?"
+            etichetta={t('pazienti.preanamnesi.prendi_farmaci_con_regolarita')}
             aiuto="Anche integratori e anticoagulanti: cambiano cosa si può fare e quando."
             valore={dati.farmaci}
             onChange={campo('farmaci')}
           />
           <Domanda
             id="pa-allergie"
-            etichetta="Hai allergie note?"
+            etichetta={t('pazienti.preanamnesi.hai_allergie_note')}
             aiuto="Farmaci, anestetici, lattice."
             valore={dati.allergie}
             onChange={campo('allergie')}
           />
           <Domanda
             id="pa-gravidanza"
-            etichetta="Sei incinta o stai allattando?"
+            etichetta={t('pazienti.preanamnesi.sei_incinta_o_stai_allattando')}
             aiuto="Solo se ti riguarda: molti trattamenti si rimandano, e il medico deve saperlo prima."
             valore={dati.gravidanza}
             onChange={campo('gravidanza')}
           />
           <Domanda
             id="pa-trattamenti"
-            etichetta="Hai già fatto trattamenti di medicina estetica?"
+            etichetta={t('pazienti.preanamnesi.hai_gia_fatto_trattamenti_di_medicina')}
             aiuto="Quali e all’incirca quando: serve a non sovrapporre."
             valore={dati.trattamentiPrecedenti}
             onChange={campo('trattamentiPrecedenti')}

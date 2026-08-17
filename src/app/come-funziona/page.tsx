@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -81,13 +82,9 @@ export default function ComeFunziona() {
   return (
     <Pagina
       href="/come-funziona"
-      occhiello="Il prodotto"
-      titolo={
-        <>
-          Un mercoledì qualunque, <span className="accento-corsivo">dentro</span> Fibonacci
-        </>
-      }
-      sommario="Cinque momenti di una giornata di studio. Le immagini sono schermate dell’applicazione, non disegni."
+      occhiello={t('comefunziona.il_prodotto')}
+      titolo={<Enfasi chiave="comefunziona.titolo_un_mercoledi_qualunque_dentrofibonacci" />}
+      sommario={t('comefunziona.cinque_momenti_di_una_giornata_di')}
       larga
     >
       {/* ⚠️ UNA SEZIONE PER MOMENTO, non una sezione con dentro cinque momenti.

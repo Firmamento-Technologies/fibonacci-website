@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -59,14 +60,9 @@ export default function IntelligenzaArtificiale() {
   return (
     <Pagina
       href="/intelligenza-artificiale"
-      occhiello="Trasparenza"
-      titolo={
-        <>
-          C&apos;è dell&apos;intelligenza artificiale, e <span className="accento-corsivo">non</span>{' '}
-          decide niente
-        </>
-      }
-      sommario="Tre punti del prodotto usano un modello linguistico. Qui c’è cosa fa ciascuno, cosa non fa mai, e chi controlla il risultato."
+      occhiello={t('intelligenzaartificiale.trasparenza')}
+      titolo={<Enfasi chiave="intelligenzaartificiale.titolo_c_e_dell_intelligenza_artificiale_e" />}
+      sommario={t('intelligenzaartificiale.tre_punti_del_prodotto_usano_un')}
     >
       {/* ⚠️ La coda era di px: dentro una tappa lo spazio lo dà già la
           centratura verticale, e quella coda mandava la V sotto il bordo

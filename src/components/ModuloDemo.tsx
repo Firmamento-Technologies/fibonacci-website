@@ -171,7 +171,7 @@ export function ModuloDemo({
       )}
 
       <div className={`${compatto ? '' : 'mt-[var(--s-21)]'} space-y-[var(--s-13)]`}>
-        <Campo id="nome" etichetta="Nome e cognome" valore={dati.nome} onChange={aggiorna('nome')} autoComplete="name" />
+        <Campo id="nome" etichetta={t('modulodemo.nome_e_cognome')} valore={dati.nome} onChange={aggiorna('nome')} autoComplete="name" />
         <Campo
           id="studio"
           etichetta={perSocieta ? 'Società o associazione' : 'Nome dello studio'}
@@ -179,12 +179,12 @@ export function ModuloDemo({
           onChange={aggiorna('studio')}
           autoComplete="organization"
         />
-        <Campo id="email" etichetta="Email" tipo="email" valore={dati.email} onChange={aggiorna('email')} autoComplete="email" />
+        <Campo id="email" etichetta={t('modulodemo.email')} tipo="email" valore={dati.email} onChange={aggiorna('email')} autoComplete="email" />
 
         {perSocieta ? (
           <Campo
             id="procedure"
-            etichetta="Che ruolo hai nella società"
+            etichetta={t('modulodemo.che_ruolo_hai_nella_societa')}
             valore={dati.procedure}
             onChange={aggiorna('procedure')}
           />

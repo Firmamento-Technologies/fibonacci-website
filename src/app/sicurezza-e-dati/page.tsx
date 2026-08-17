@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -70,14 +71,9 @@ export default function SicurezzaEDati() {
   return (
     <Pagina
       href="/sicurezza-e-dati"
-      occhiello="Sicurezza e dati"
-      titolo={
-        <>
-          Le domande che il tuo consulente farà, <span className="accento-corsivo">prima</span> che
-          le faccia
-        </>
-      }
-      sommario="Otto risposte senza rassicurazioni generiche. Se una ti sembra evasiva, scrivicelo: le riscriviamo o ammettiamo il limite."
+      occhiello={t('sicurezzaedati.sicurezza_e_dati')}
+      titolo={<Enfasi chiave="sicurezzaedati.titolo_le_domande_che_il_tuo_consulente" />}
+      sommario={t('sicurezzaedati.otto_risposte_senza_rassicurazioni_generiche_se')}
     >
       {/* ⚠️ DUE PER SCHERMATA, non otto in colonna.
           Le otto risposte stavano in una sezione sola: **1.368px, il 169% di

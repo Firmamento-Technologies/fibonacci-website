@@ -147,10 +147,10 @@ export function ModuloContatto({
         {t('pazienti.modulocontatto.il_messaggio_e_tuo_noi_lo')}
       </p>
 
-      <Campo id="c-nome" etichetta="Come ti chiami" valore={nome} onChange={setNome} />
+      <Campo id="c-nome" etichetta={t('pazienti.modulocontatto.come_ti_chiami')} valore={nome} onChange={setNome} />
       <Campo
         id="c-email"
-        etichetta="La tua email"
+        etichetta={t('pazienti.modulocontatto.la_tua_email')}
         tipo="email"
         aiuto="Ci arriva prima un messaggio di conferma: senza il tuo clic non parte niente."
         valore={email}
@@ -158,7 +158,7 @@ export function ModuloContatto({
       />
       <Campo
         id="c-comune"
-        etichetta="In che zona sei"
+        etichetta={t('pazienti.modulocontatto.in_che_zona_sei')}
         aiuto="Facoltativo."
         obbligatorio={false}
         valore={comune}

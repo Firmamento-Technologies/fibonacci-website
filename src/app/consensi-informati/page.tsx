@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -57,13 +58,8 @@ export default function ConsensiInformati() {
   return (
     <Pagina
       href="/consensi-informati"
-      occhiello="Guida"
-      titolo={
-        <>
-          Il consenso informato in medicina estetica: che cosa deve{' '}
-          <span className="accento-corsivo">contenere</span>
-        </>
-      }
+      occhiello={t('consensiinformati.guida')}
+      titolo={<Enfasi chiave="consensiinformati.titolo_il_consenso_informato_in_medicina_estetica" />}
       sommario={
         <>
           {t('consensiinformati.una_guida_pratica_per_chi_firma')}

@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -96,13 +97,9 @@ export default function ConformitaEuropea() {
   return (
     <Pagina
       href="/conformita-europea"
-      occhiello="Conformità europea"
-      titolo={
-        <>
-          Nove garanzie, e accanto a ognuna <span className="accento-corsivo">come</span> si controlla
-        </>
-      }
-      sommario="Due riguardano cose che non abbiamo. Sono le prime che leggerebbe il tuo consulente, quindi le scriviamo noi."
+      occhiello={t('conformitaeuropea.conformita_europea')}
+      titolo={<Enfasi chiave="conformitaeuropea.titolo_nove_garanzie_e_accanto_a_ognuna" />}
+      sommario={t('conformitaeuropea.due_riguardano_cose_che_non_abbiamo')}
     >
       {/* ── I bollini, tre per schermata ─────────────────────────────────
           ⚠️ Tre e non nove: nove riquadri impilati su un telefono fanno

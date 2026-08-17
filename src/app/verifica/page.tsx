@@ -1,3 +1,4 @@
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -31,13 +32,9 @@ export default function Verifica() {
   return (
     <Pagina
       href="/verifica"
-      occhiello="Verifica"
-      titolo={
-        <>
-          Controlla un documento, <span className="accento-corsivo">senza</span> chiederlo a noi
-        </>
-      }
-      sommario="Carica un PDF uscito da Fibonacci: il browser legge firme, metadati e struttura e ti dice cosa contiene. Il file resta sul tuo computer, non viene caricato da nessuna parte."
+      occhiello={t('verifica.verifica')}
+      titolo={<Enfasi chiave="verifica.titolo_controlla_un_documento_senzachiederlo_a_noi" />}
+      sommario={t('verifica.carica_un_pdf_uscito_da_fibonacci')}
     >
       <section style={{ paddingBottom: 'var(--s-55)' }}>
         <div className="gabbia gabbia-stretta">

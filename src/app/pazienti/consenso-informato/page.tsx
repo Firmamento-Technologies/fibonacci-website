@@ -24,15 +24,15 @@ export default function Page() {
   return (
     <GuscioPaziente>
       <TestoPaziente
-        occhiello="Prima di decidere"
-        titolo="Il consenso informato: che cos’è, e che cosa non è"
+        occhiello={t('pazienti.consensoinformato.prima_di_decidere')}
+        titolo={t('pazienti.consensoinformato.il_consenso_informato_che_cos_e')}
         sommario={
           <>
             {t('pazienti.consensoinformato.non_e_un_modulo_da_firmare')}
           </>
         }
       >
-        <Sezione id="regola" titolo="La regola, in una riga">
+        <Sezione id="regola" titolo={t('pazienti.consensoinformato.la_regola_in_una_riga')}>
           <p>
             <strong>
               {t('pazienti.consensoinformato.nessun_trattamento_sanitario_puo_essere_iniziato')}
@@ -42,7 +42,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="diritto" titolo="Che cosa hai il diritto di sapere">
+        <Sezione id="diritto" titolo={t('pazienti.consensoinformato.che_cosa_hai_il_diritto_di')}>
           <p>
             La stessa legge elenca le informazioni che ti spettano, e le vuole{' '}
             <strong>complete, aggiornate e comprensibili per te</strong>, non corrette in
@@ -72,7 +72,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="forma" titolo="Come deve essere raccolto">
+        <Sezione id="forma" titolo={t('pazienti.consensoinformato.come_deve_essere_raccolto')}>
           <p>
             <strong>{t('pazienti.consensoinformato.in_forma_scritta')}</strong> (o con una videoregistrazione, o con
             strumenti adatti a chi ha una disabilità), e <strong>finisce in cartella</strong>{' '}
@@ -81,7 +81,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="revoca" titolo="Puoi cambiare idea. Sempre">
+        <Sezione id="revoca" titolo={t('pazienti.consensoinformato.puoi_cambiare_idea_sempre')}>
           <p>
             Hai il diritto di <strong>rifiutare</strong> in tutto o in parte, e di{' '}
             <strong>revocare il consenso in qualsiasi momento</strong>: anche dopo averlo
@@ -89,7 +89,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="estetica" titolo="Perché in medicina estetica è più severo">
+        <Sezione id="estetica" titolo={t('pazienti.consensoinformato.perche_in_medicina_estetica_e_piu')}>
           <p>
             Un trattamento estetico si fa su una persona <strong>sana</strong>, e{' '}
             <strong>non è necessario</strong>: nessuno sta curando una malattia. Per questo
@@ -99,7 +99,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="non-e" titolo="E che cosa NON è">
+        <Sezione id="non-e" titolo={t('pazienti.consensoinformato.e_che_cosa_non_e')}>
           <p>
             <strong>{t('pazienti.consensoinformato.non_e_una_liberatoria')}</strong> Firmare non toglie responsabilità al
             medico e non ti fa rinunciare a niente. Anzi: un consenso raccolto male è di per
@@ -111,7 +111,7 @@ export default function Page() {
           </p>
         </Sezione>
 
-        <Sezione id="poi" titolo="Da qui">
+        <Sezione id="poi" titolo={t('pazienti.consensoinformato.da_qui')}>
           <p>
             <Link href="/pazienti/prima-di-un-trattamento" style={COLLEGAMENTO}>
               {t('pazienti.consensoinformato.le_domande_da_fare_prima_di')}
