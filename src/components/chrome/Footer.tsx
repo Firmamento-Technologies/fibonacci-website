@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { BolliniPiede } from '@/components/Bollini'
+import { SceltaLingua } from '@/components/chrome/SceltaLingua'
 import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, SIGNUP_URL } from '@/lib/site-config'
 
 /* 🔴 **COLONNE RIBILANCIATE** (utente, 2026-08-16: *«le scritte sembrano non
@@ -172,6 +173,13 @@ export function Footer() {
             Le fotografie d&apos;ambiente sono immagini d&apos;archivio: non ritraggono pazienti
             reali né clienti del servizio.
           </p>
+
+          {/* La lingua sta in fondo di proposito: la scelta la fa il server al
+              primo colpo leggendo il browser (vedi `infra/Caddyfile`), quindi
+              questo selettore serve a chi vuole *un'altra* lingua da quella che
+              gli e' arrivata. Metterlo in testa direbbe che c'e' una scelta da
+              fare, e per quasi tutti non c'e'. */}
+          <SceltaLingua />
         </div>
       </div>
     </footer>

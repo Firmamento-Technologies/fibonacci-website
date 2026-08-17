@@ -45,6 +45,73 @@ fibonaccimedica.it {
 	root * /var/www/fibonaccimedica
 	encode gzip zstd
 
+	# ── LA LINGUA, SCELTA DAL SERVER AL PRIMO COLPO ──────────────────────
+	#
+	# Il sito e' costruito cinque volte (`scripts/costruisci-lingue.mjs`):
+	# l'italiano alla radice, le altre sotto /en /es /fr /de. Qui Caddy legge
+	# la lingua che il BROWSER dichiara e manda alla versione giusta.
+	#
+	# 🔑 PERCHE' `Accept-Language` E NON LA GEOLOCALIZZAZIONE, che e' la
+	#    domanda ovvia. Tre ragioni, in ordine di peso:
+	#    1. **E' piu' giusta**: un medico italiano a Monaco vuole l'italiano,
+	#       un tedesco a Milano vuole il tedesco. La posizione risponde alla
+	#       domanda sbagliata; la lingua del browser e' quella che l'utente
+	#       ha scelto da se'.
+	#    2. **L'indirizzo IP e' un dato personale** (GDPR, cons. 30 e
+	#       giurisprudenza CGUE C-582/14): geolocalizzarlo per ogni visita
+	#       significa trattarlo, e questo sito oggi non tratta niente e non
+	#       ha bisogno del banner cookie. ⛔ Non lo si rompe per una comodita'.
+	#    3. Caddy legge l'intestazione **senza plugin e senza banche dati**;
+	#       il GeoIP vorrebbe un modulo esterno e un file da tenere aggiornato.
+	#
+	# ⚠️ QUANDO **NON** DEVE SCATTARE, che e' la parte delicata:
+	#    · se l'utente ha gia' scelto (biscotto `lingua`) ⇒ si rispetta;
+	#    · se e' gia' su un percorso con prefisso ⇒ niente giro secondo;
+	#    · se non e' una pagina (asset, /assistente/*, /contatto/*) ⇒ un
+	#      reindirizzamento la romperebbe;
+	#    · **302 e non 301**: la scelta puo' cambiare, e un 301 resta nella
+	#      cache del browser per sempre.
+	@pagina {
+		header Accept *text/html*
+		not header Cookie *lingua=*
+		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
+		not path /*.xml /*.txt /*.json /*.ico /*.svg /*.png /*.webmanifest
+	}
+	@de {
+		header Accept *text/html*
+		not header Cookie *lingua=*
+		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
+		header_regex Accept-Language ^\s*de\b
+	}
+	@fr {
+		header Accept *text/html*
+		not header Cookie *lingua=*
+		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
+		header_regex Accept-Language ^\s*fr\b
+	}
+	@es {
+		header Accept *text/html*
+		not header Cookie *lingua=*
+		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
+		header_regex Accept-Language ^\s*es\b
+	}
+	# ⚠️ L'inglese per ULTIMO fra i match e' voluto: `en` e' la lingua che
+	# quasi ogni browser mette in coda alla propria lista, quindi va accettata
+	# solo quando e' **la prima**, o riceverebbe anche chi ha `it, en`.
+	@en {
+		header Accept *text/html*
+		not header Cookie *lingua=*
+		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
+		header_regex Accept-Language ^\s*en\b
+	}
+	redir @de /de{uri} 302
+	redir @fr /fr{uri} 302
+	redir @es /es{uri} 302
+	redir @en /en{uri} 302
+	# ⛔ Senza questo, una cache (o un proxy aziendale) servirebbe a tutti la
+	# prima lingua che ha visto. E' il difetto classico di questo schema.
+	header @pagina Vary "Accept-Language, Cookie"
+
 	# Il sito e' costruito con `trailingSlash: true`: ogni pagina e' una
 	# cartella con dentro index.html. Senza questa riga /prezzi/ darebbe 404.
 	try_files {path} {path}/index.html {path}.html

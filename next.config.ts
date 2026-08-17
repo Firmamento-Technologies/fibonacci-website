@@ -9,6 +9,18 @@ const isProd = process.env.NODE_ENV === 'production'
  * secondo nome per il client avrebbe creato due sorgenti della stessa verità. */
 const dominioProprio = (process.env.NEXT_PUBLIC_DOMINIO_SITO ?? '').trim()
 
+/* La lingua di questa costruzione, e il prefisso che ne deriva.
+ *
+ * ⚠️ Letta qui a mano invece che da `src/lib/lingua.ts`: `next.config.ts` viene
+ * valutato **prima** che esistano gli alias di percorso (`@/…`), quindi un
+ * import da `src/` non si risolve. L'elenco è ripetuto in due punti e ⛔ è una
+ * duplicazione vera: il presidio `lingue-allineate` in `scripts/collaudo.mjs`
+ * confronta i due elenchi e fallisce se divergono. */
+const LINGUE = ['it', 'en', 'es', 'fr', 'de']
+const linguaGrezza = (process.env.NEXT_PUBLIC_LINGUA ?? 'it').trim()
+const lingua = LINGUE.includes(linguaGrezza) ? linguaGrezza : 'it'
+const prefissoLingua = lingua === 'it' ? '' : `/${lingua}`
+
 /* La radice del workspace, dichiarata invece che dedotta.
  *
  * ⚠️ Senza questa riga Turbopack la INDOVINA, e la indovinava male: c'è un
@@ -42,8 +54,21 @@ const nextConfig: NextConfig = {
    * rilascio. Legarlo a `NODE_ENV` avrebbe significato che il primo `build` di
    * produzione dopo la modifica spegneva il sito su github.io mentre il dominio
    * non risolveva ancora. Finché la variabile è vuota, non cambia niente. */
-  basePath: dominioProprio ? '' : isProd ? '/fibonacci-website' : '',
-  assetPrefix: dominioProprio ? '' : isProd ? '/fibonacci-website/' : '',
+  /* ── E il prefisso della LINGUA, che si somma al primo ────────────────────
+   * L'italiano sta alla RADICE (`''`), le altre quattro sotto `/en`, `/es`,
+   * `/fr`, `/de`. Il sito si costruisce **cinque volte**, una per lingua
+   * (`scripts/costruisci-lingue.mjs`), perché è `output: 'export'` e non c'è
+   * nessun runtime che possa scegliere una lingua a richiesta.
+   *
+   * 🔑 È `basePath` a fare il lavoro pesante: riscrive da sé i 70 `<Link
+   * href="/…">` e tutti gli asset. ⇒ le 29 pagine **non si toccano**, cambia
+   * solo da dove prendono il testo.
+   *
+   * ⚠️ Deve stare **dopo** il prefisso di GitHub Pages nella stessa stringa,
+   * non al posto suo: se un giorno si tornasse a servire da un sottopercorso,
+   * le due condizioni convivono invece di escludersi. */
+  basePath: `${dominioProprio ? '' : isProd ? '/fibonacci-website' : ''}${prefissoLingua}`,
+  assetPrefix: `${dominioProprio ? '' : isProd ? '/fibonacci-website/' : ''}${prefissoLingua}`,
   images: { unoptimized: true },
 }
 

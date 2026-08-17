@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { AssistenteFisso } from '@/components/AssistenteFisso'
 import { Geist, Geist_Mono, Newsreader } from 'next/font/google'
 import { SITE_URL } from '@/lib/site-config'
+import { LINGUA, TAG_LINGUA } from '@/lib/lingua'
 import './globals.css'
 
 /* Tre caratteri, tre mestieri distinti.
@@ -69,7 +70,9 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
-    locale: 'it_IT',
+    // ⚠️ Segue la lingua: `it_IT` fisso dichiarava italiana anche l'anteprima
+    // tedesca quando il link viene incollato in una chat.
+    locale: TAG_LINGUA[LINGUA].replace('-', '_'),
     url: SITE_URL,
     siteName: SITE_NAME,
     title: 'Fibonacci, la cartella clinica della medicina estetica',
@@ -113,7 +116,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="it" className={`${newsreader.variable} ${geist.variable} ${geistMono.variable}`}>
+    /* ⚠️ `lang` viene dalla costruzione, ⛔ non è più scritto a mano. Un sito
+       tedesco che dichiara `lang="it"` fa leggere il testo a un lettore di
+       schermo con la pronuncia sbagliata, e dice a Google che la pagina è
+       italiana: due difetti che non si vedono guardando lo schermo. */
+    <html
+      lang={TAG_LINGUA[LINGUA]}
+      className={`${newsreader.variable} ${geist.variable} ${geistMono.variable}`}
+    >
       <head>
         {/* ⛔ QUI NON VA UNO <script>, e vale la pena dire perché.
             Il primo tentativo (2026-08-09) metteva in testa uno script in linea
