@@ -104,7 +104,11 @@ REGOLE, in ordine di importanza:
    Sono enti e obblighi ITALIANI: il lettore straniero deve poterli cercare con quel nome. Traduci la prosa intorno, non il nome.
 6. Usa la terminologia clinica corretta della lingua di destinazione (anamnesi, consenso informato, cartella clinica, seduta, filler, tossina botulinica).
 7. Dai del tu al lettore, come fa l'originale, e mantieni lo stesso registro: pratico, diretto, senza enfasi commerciale.
-8. Non aggiungere note del traduttore, non commentare le scelte, non riassumere.${glo}`
+8. Non aggiungere note del traduttore, non commentare le scelte, non riassumere.
+9. ⛔ NON usare MAI il trattino lungo (em dash). E' vietato in questo prodotto.
+   Al suo posto: DUE PUNTI se introduce una spiegazione, VIRGOLA se lega due proposizioni,
+   PARENTESI se racchiude un inciso. Vale anche se la lingua di destinazione lo userebbe
+   normalmente: qui non si usa.${glo}`
 }
 
 async function traduci(testo, lingua, voci, tentativo = 1) {
@@ -146,6 +150,23 @@ function leggiJson(grezzo) {
   } catch {
     return null
   }
+}
+
+/**
+ * ⛔ IL TRATTINO LUNGO, che il modello mette anche se gli dici di no.
+ *
+ * ⚠️ Misurato il 2026-08-17, alla prima traduzione completa: **22 occorrenze**
+ * fra inglese e spagnolo, contro **0 nell'italiano**. In inglese e' punteggiatura
+ * normale, quindi il modello lo produce naturalmente; qui e' vietato, e il
+ * cancello del sito (`scripts/niente-lineetta.mjs`) blocca il push.
+ *
+ * 🔑 La regola nel prompt NON basta ed e' il punto: un'istruzione a un modello
+ *    e' una preferenza, un controllo dopo e' un fatto. Qui il capitolo con un
+ *    trattino lungo **non viene scritto**, esattamente come quello che perde un
+ *    titolo.
+ */
+function trattinoLungo(md) {
+  return (md.match(/—/g) ?? []).length
 }
 
 /** La firma strutturale di un markdown: se cambia, la traduzione ha perso pezzi. */
@@ -326,6 +347,8 @@ async function main() {
       try {
         const tradotto = await traduci(originale, LINGUE[l], voci)
         const problemi = confronta(firma(originale), firma(tradotto))
+        const lunghi = trattinoLungo(tradotto) - trattinoLungo(originale)
+        if (lunghi > 0) problemi.push(`${lunghi} trattini lunghi «—», vietati in questo prodotto`)
         if (problemi.length) {
           // ⛔ Non si scrive un capitolo che ha perso la struttura: l'indice
           //    laterale del manuale si accorcia e nessuno se ne accorge.

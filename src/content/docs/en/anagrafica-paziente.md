@@ -97,7 +97,7 @@ Archiving is the compliant method under Article 17 of the GDPR (right to erasure
 
 Permanent data deletion is only allowed in cases provided for by regulations, such as patients registered in error or with consent revoked before the start of treatment.
 
-Permanent deletion is not initiated from the interface: you must contact support, and it is a deliberate process—an irreversible operation on clinical data. Approval from a second operator with the `Organization` admin role is required. Actual deletion occurs after a 30-day cooling-off period, with prior email notification to the requesting operator. All phases of the procedure are logged in the audit log.
+Permanent deletion is not initiated from the interface: you must contact support, and it is a deliberate process: an irreversible operation on clinical data. Approval from a second operator with the `Organization` admin role is required. Actual deletion occurs after a 30-day cooling-off period, with prior email notification to the requesting operator. All phases of the procedure are logged in the audit log.
 
 ## Providing the patient with their data
 

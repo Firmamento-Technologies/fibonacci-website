@@ -30,7 +30,7 @@ Left-click on an available time slot opens the `New appointment` modal. Fields i
 
 - **Patient**: Combo box with autocomplete on existing records. The adjacent `Add` button opens quick patient creation.
 - **Provider**: Selection from active practice providers. Default: current user if role is physician, otherwise the first available provider.
-- **Reason** or **Visit type**: Selection from a configurable practice catalog—the available options are those you see in the menu, not a fixed list.
+- **Reason** or **Visit type**: Selection from a configurable practice catalog: the available options are those you see in the menu, not a fixed list.
 - **Duration**: Value in minutes with a default of thirty; quick options for fifteen, thirty, forty-five, sixty, ninety.
 - **Status**: Modifiable later from the appointment details.
 - **Notes**: Free-text field for provider memos not visible to the patient.

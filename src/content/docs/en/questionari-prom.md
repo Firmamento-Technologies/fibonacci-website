@@ -9,7 +9,7 @@
 From the patient record, **Questionnaires** tab:
 
 1. Select the questionnaire from the available list;
-2. Fill it out: questions and rules are defined within the questionnaire itself, not hardcoded in the program—adding a new one doesn’t require a new application version;
+2. Fill it out: questions and rules are defined within the questionnaire itself, not hardcoded in the program: adding a new one doesn’t require a new application version;
 3. Save it.
 
 After saving, there’s an important step: questions that express a **measurement** are extracted and recorded as measurable data, not just text in a form. This allows comparing two completions over time.

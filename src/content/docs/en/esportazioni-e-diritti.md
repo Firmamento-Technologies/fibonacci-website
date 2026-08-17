@@ -21,7 +21,7 @@ Revoking **consent for a procedure** (the document the patient signed before tre
 
 From the patient record, the export button generates a document containing personal details, medical history, treatments, prescriptions, tests, consents, and access logs.
 
-**Photographs** are not included in this document: they are encrypted, and their access is tracked separately. They are exported separately and **decrypted at the time of delivery**, so the patient receives images they can open—a file that cannot be read does not satisfy the right to portability.
+**Photographs** are not included in this document: they are encrypted, and their access is tracked separately. They are exported separately and **decrypted at the time of delivery**, so the patient receives images they can open: a file that cannot be read does not satisfy the right to portability.
 
 ## Step 2: Request for Erasure
 

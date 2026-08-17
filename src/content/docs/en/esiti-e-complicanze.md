@@ -2,18 +2,18 @@
 
 This guide covers the three things that happen **after** a session when something doesn’t go as planned: the `Emergency` mode, recording a complication, and the reporting form for the Ministry.
 
-⛔ **None of these screens provide clinical guidance.** They do not suggest drugs, dosages, or administration routes, do not formulate a diagnostic suspicion, do not assess severity, and do not compare time against any threshold. This is a deliberate choice in the product’s intended use, not a missing feature: in an emergency, any suggestion would turn this software into a medical device, and what’s truly missing in that moment isn’t advice—it’s the report that no one writes because their hands are full.
+⛔ **None of these screens provide clinical guidance.** They do not suggest drugs, dosages, or administration routes, do not formulate a diagnostic suspicion, do not assess severity, and do not compare time against any threshold. This is a deliberate choice in the product’s intended use, not a missing feature: in an emergency, any suggestion would turn this software into a medical device, and what’s truly missing in that moment isn’t advice, it’s the report that no one writes because their hands are full.
 
 ## First: Prepare the Practice
 
 Two fields in `Settings`, practice section, that must be filled **before** they’re needed:
 
 - **`Complication protocol (for Emergency mode)`**: The practice’s protocol, one step per line. It’s **your** text: it’s displayed as written, not completed or corrected. Without it, Emergency mode keeps time and records notes but doesn’t show any clinical content.
-- **`Emergency drug: expiration`**: Month and year. The right time to notice it’s expired isn’t when you need it. The system doesn’t ask which drug it is—that’s the practice’s decision.
+- **`Emergency drug: expiration`**: Month and year. The right time to notice it’s expired isn’t when you need it. The system doesn’t ask which drug it is: that’s the practice’s decision.
 
 ## Emergency Mode
 
-It opens **from the session row**, in the patient’s `Treatments` tab: this is where the patient is already in front of you, and searching for a menu item at that moment is wasted time. It doesn’t appear on its own and isn’t an alarm—you press it.
+It opens **from the session row**, in the patient’s `Treatments` tab: this is where the patient is already in front of you, and searching for a menu item at that moment is wasted time. It doesn’t appear on its own and isn’t an alarm: you press it.
 
 The screen is full-screen, with no navigation, and contains three things:
 
@@ -61,7 +61,7 @@ Three things this feature **does not** do, and it’s best to know them upfront:
 
 - ⛔ **It doesn’t transmit anything.** The channel is the Ministry’s online form, with physician authentication (SPID, CIE, or CNS). Here, the content is prepared.
 - ⛔ **It doesn’t decide if the incident is serious**: it reads the severity you recorded and derives the deadline from that.
-- ⛔ **It doesn’t include patient data**, and this isn’t an oversight: Article 2(6) of the decree requires that the report *«shall not contain data allowing the identification of the subject involved»*. Pre-filling from the medical record—which would be the obvious thing to do—would cause the tool meant to help to commit the violation. The form receives the event and the product, never the patient.
+- ⛔ **It doesn’t include patient data**, and this isn’t an oversight: Article 2(6) of the decree requires that the report *«shall not contain data allowing the identification of the subject involved»*. Pre-filling from the medical record, which would be the obvious thing to do, would cause the tool meant to help to commit the violation. The form receives the event and the product, never the patient.
 
 ⚠️ **Recording a complication is not a pharmacovigilance report**, and the form states this: they are two different channels, with different recipients.
 

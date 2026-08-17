@@ -31,7 +31,7 @@ The operation is recorded in the audit log: who performed it, on whom, and when.
 
 ### Why There Is No "Temporary Suspension"
 
-This is the question anyone asks when they can’t find the button. The answer is that in this system, the field that might seem useful—"inactive user"—**does not block access**: it is descriptive. A "suspend" button built on that field would mislead the administrator into thinking access was revoked when it wasn’t, which is worse than not having the button at all.
+This is the question anyone asks when they can’t find the button. The answer is that in this system, the field that might seem useful ("inactive user") **does not block access**: it is descriptive. A "suspend" button built on that field would mislead the administrator into thinking access was revoked when it wasn’t, which is worse than not having the button at all.
 
 If the absence is temporary and you still want to close access, the solution is to remove access and reinvite upon return.
 

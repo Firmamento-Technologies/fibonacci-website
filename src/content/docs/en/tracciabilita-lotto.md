@@ -30,7 +30,7 @@ The `Lot search` option in the main menu opens a single-field search. Entering t
 - Administered quantity,
 - Recorded expiration date.
 
-The search scans all patients in the practice in a single query. There is no need to know in advance which patients to search—this is precisely the point.
+The search scans all patients in the practice in a single query. There is no need to know in advance which patients to search: this is precisely the point.
 
 ## Step 3: What to Do with the List
 
@@ -42,7 +42,7 @@ The list is the starting point for two distinct activities, and it is best to ke
 ## Common Mistakes
 
 - **Lot entered with different formatting in different sessions.** `A1234-B` and `A1234 B` are two different lots for a search. It is worth agreeing on a single way to transcribe it in the practice.
-- **Lot left blank because “it’s always the same.”** This is the case where traceability is most needed—and missing.
+- **Lot left blank because “it’s always the same.”** This is the case where traceability is most needed, and missing.
 - **Expiration date not recorded.** Without it, it is impossible to distinguish between an administration within the product’s validity and one after expiration: this is data that protects the physician.
 
 ## Frequently Asked Questions

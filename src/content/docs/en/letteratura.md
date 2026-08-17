@@ -18,7 +18,7 @@ Without filters, all results are displayed, ordered as returned by PubMed.
 
 ## What you see for each result
 
-Title, authors, journal, year, and—when available from PubMed—the **abstract**. If the abstract is missing, the card explicitly states so instead of leaving a blank space.
+Title, authors, journal, year, and, when available from PubMed, the **abstract**. If the abstract is missing, the card explicitly states so instead of leaving a blank space.
 
 When an article is open access, **Open PDF full-text** appears. For paywalled articles, the link is not provided: we do not hold journal subscriptions, nor do we simulate access.
 
