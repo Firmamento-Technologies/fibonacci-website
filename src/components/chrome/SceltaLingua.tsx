@@ -50,8 +50,23 @@ export function SceltaLingua() {
       {LINGUE_SITO.map((l) => {
         const attiva = l === LINGUA
         const href = `${l === 'it' ? '' : `/${l}`}${neutro}`
+        /* ⚠️ I COLORI VENGONO DAI TOKEN «SU INCHIOSTRO», e non è un dettaglio di
+           stile: questo selettore vive nel piè di pagina, che ha fondo
+           `--ink` (#101f2e). `text-foreground` è il colore per fondo CHIARO
+           (#142434), quindi la lingua corrente risultava scura su scuro:
+           contrasto misurato **1,05:1** contro i 4,5 richiesti, cioè la voce
+           attiva era praticamente invisibile — ed era proprio quella che deve
+           dire all'utente in che lingua sta leggendo.
+           I token portano il rapporto scritto accanto in `globals.css`:
+           `--on-ink` 15,1:1 · `--on-ink-muted` 7,2:1. Il resto del piè di
+           pagina già li usa: qui si allinea, non si inventa un colore. */
         return attiva ? (
-          <span key={l} aria-current="true" className="text-sm font-medium text-foreground">
+          <span
+            key={l}
+            aria-current="true"
+            className="text-sm font-medium"
+            style={{ color: 'var(--on-ink)' }}
+          >
             {NOME_LINGUA[l]}
           </span>
         ) : (
@@ -63,7 +78,8 @@ export function SceltaLingua() {
             href={href}
             hrefLang={l}
             onClick={() => scegli(l)}
-            className="text-sm text-muted-foreground underline-offset-4 hover:underline"
+            className="text-sm underline-offset-4 hover:underline"
+            style={{ color: 'var(--on-ink-muted)' }}
           >
             {NOME_LINGUA[l]}
           </a>
