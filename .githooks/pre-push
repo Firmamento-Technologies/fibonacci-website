@@ -49,9 +49,60 @@ if ! node scripts/manuale-lingue.mjs; then
   exit 1
 fi
 
+# ── LE CINQUE LINGUE DEL SITO, dai SORGENTI ─────────────────────────────────
+#
+# 🔴 PERCHE' E' QUI. Il presidio vero della traduzione
+# (`scripts/lingue-tradotte.mjs`) misura il **testo delle pagine costruite**, ma
+# vuole il costruito in cinque lingue: ~20 minuti su questa macchina.
+# Pretenderlo a ogni push vorrebbe dire un cancello che si salta sempre, ⛔ cioe'
+# nessun cancello — ed e' precisamente il modo in cui questo progetto ha perso
+# tre presidi (TD-148, TD-159, e i due su `STATE.md`).
+#
+# ⇒ qui gira quello che legge i **sorgenti**: costa meno di un secondo e prende
+#   le tre regressioni che succedono davvero mentre si scrive — una stringa nuova
+#   scritta nel codice invece che nel dizionario, una chiave aggiunta in italiano
+#   e non nelle altre quattro, un dizionario copiato dall'italiano.
+#
+# ⚠️ E NON dice di aver guardato tutto: piu' sotto, quando `out/` non e' il
+#    costruito a cinque lingue, l'hook **dichiara quale controllo non ha girato**.
+#    Un presidio che tace su cio' che non ha guardato e' il difetto che questo
+#    lavoro e' nato per chiudere.
+if ! node scripts/lingue-sorgenti.mjs; then
+  echo
+  echo "⛔ PUSH BLOCCATO: la traduzione del sito è regredita."
+  echo "   · stringa nuova scritta nel codice ⇒ mettila in src/i18n/sito/it.json"
+  echo "     e usala con t('chiave')"
+  echo "   · chiave presente in italiano e non nelle altre quattro lingue ⇒"
+  echo "     node scripts/traduci-sito.mjs --riprendi   (serve LLM_API_KEY)"
+  echo "   ⛔ NON alzare le soglie dentro lo script: sono il lavoro che misurano."
+  echo "   Emergenza: COLLAUDO=0 git push"
+  exit 1
+fi
+
 if [ ! -d out ]; then
   echo "⚠️  \`out/\` non c'è: costruisci prima (\`npm run build\`), oppure COLLAUDO=0."
   exit 1
+fi
+
+# ── E IL PRESIDIO SUL TESTO COSTRUITO, se il costruito c'è ───────────────────
+#
+# ⚠️ Gira **solo** se `out/` e' il costruito a cinque lingue: un `npm run build`
+# semplice produce 41 pagine di solo italiano, e misurare quello direbbe niente.
+# ⛔ Se non c'e', NON si tace: si dice quale controllo non ha girato e come farlo.
+# 🔑 E' il presidio che ha sostituito il confronto sui byte — quello che passava
+#    mentre la prosa era italiana.
+if [ "$(find out -name '*.html' | wc -l | tr -d ' ')" -ge 100 ]; then
+  if ! node scripts/lingue-tradotte.mjs; then
+    echo
+    echo "⛔ PUSH BLOCCATO: nel costruito ci sono pagine ancora in italiano."
+    echo "   Guarda quali frasi elenca: vanno nel dizionario."
+    echo "   Emergenza: COLLAUDO=0 git push"
+    exit 1
+  fi
+else
+  echo "⚠️  \`lingue-tradotte\` NON eseguito: out/ ha solo l'italiano (41 pagine)."
+  echo "    ⛔ Quindi il testo delle pagine tradotte NON è stato verificato."
+  echo "    Per verificarlo:  node scripts/costruisci-lingue.mjs"
 fi
 
 # ⚠️ Il server lo accende e lo spegne l'hook: un collaudo che dipende da un
