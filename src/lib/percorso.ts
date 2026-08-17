@@ -22,6 +22,8 @@
  * devono stare in una schermata.
  */
 
+import { t } from '@/lib/testo'
+
 export interface Tappa {
   href: string
   /** Come si chiama la tappa nella freccia: «Avanti: <titolo>». */
@@ -29,19 +31,19 @@ export interface Tappa {
 }
 
 export const PERCORSO: Tappa[] = [
-  { href: '/', titolo: 'Come funziona' },
-  { href: '/come-funziona', titolo: 'I consensi' },
-  { href: '/consensi-informati', titolo: 'Sicurezza e dati' },
+  { href: '/', titolo: t('lib.percorso.come_funziona') },
+  { href: '/come-funziona', titolo: t('lib.percorso.i_consensi') },
+  { href: '/consensi-informati', titolo: t('lib.percorso.sicurezza_e_dati') },
   /* ⚠️ Tappa aggiunta il 2026-08-16, e sta QUI per una ragione precisa:
      «sicurezza e dati» risponde a *i miei dati sono al sicuro*, «conformità
      europea» risponde a *e io sono coperto*. Sono due obiezioni diverse e la
      seconda viene dopo la prima, perché è quella che il medico non si pone da
      solo: gliela pone il consulente. */
-  { href: '/sicurezza-e-dati', titolo: 'Conformità europea' },
-  { href: '/conformita-europea', titolo: 'Prezzi' },
-  { href: '/prezzi', titolo: 'Domande' },
-  { href: '/domande', titolo: 'Chi siamo' },
-  { href: '/chi-siamo', titolo: 'Richiedi una demo' },
+  { href: '/sicurezza-e-dati', titolo: t('lib.percorso.conformita_europea') },
+  { href: '/conformita-europea', titolo: t('lib.percorso.prezzi') },
+  { href: '/prezzi', titolo: t('lib.percorso.domande') },
+  { href: '/domande', titolo: t('lib.percorso.chi_siamo') },
+  { href: '/chi-siamo', titolo: t('lib.percorso.richiedi_una_demo') },
   { href: '/richiedi-una-demo', titolo: '' },
 ]
 

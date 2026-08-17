@@ -40,9 +40,9 @@ const TAPPE: Tappa[] = [
     titolo: t('home.documentochesicompone.parli_e_la_scheda_si_riempie'),
     testo: t('home.documentochesicompone.la_dettatura_compila_i_campi_mentre'),
     righe: [
-      { campo: 'Paziente', valore: 'Bertini Laura, 34 anni' },
-      { campo: 'Allergie', valore: 'Lidocaina', forte: true },
-      { campo: 'Gravidanza', valore: 'Esclusa' },
+      { campo: t('home.documentochesicompone.paziente'), valore: t('home.documentochesicompone.bertini_laura_34_anni') },
+      { campo: t('home.documentochesicompone.allergie'), valore: t('home.documentochesicompone.lidocaina'), forte: true },
+      { campo: t('home.documentochesicompone.gravidanza'), valore: t('home.documentochesicompone.esclusa') },
     ],
   },
   {
@@ -51,9 +51,9 @@ const TAPPE: Tappa[] = [
     titolo: t('home.documentochesicompone.dove_hai_iniettato_e_quanto'),
     testo: t('home.documentochesicompone.i_punti_si_segnano_sulla_mappa'),
     righe: [
-      { campo: 'Trattamento', valore: 'Tossina botulinica tipo A' },
-      { campo: 'Sedi', valore: 'Glabella, fronte', forte: true },
-      { campo: 'Dose e lotto', valore: '20 U · lotto C4821B' },
+      { campo: t('home.documentochesicompone.trattamento'), valore: t('home.documentochesicompone.tossina_botulinica_tipo_a') },
+      { campo: t('home.documentochesicompone.sedi'), valore: t('home.documentochesicompone.glabella_fronte'), forte: true },
+      { campo: t('home.documentochesicompone.dose_e_lotto'), valore: '20 U · lotto C4821B' },
     ],
   },
   {
@@ -62,9 +62,9 @@ const TAPPE: Tappa[] = [
     titolo: t('home.documentochesicompone.la_parte_che_poi_serve'),
     testo: t('home.documentochesicompone.rischi_alternative_e_cosa_succede_a'),
     righe: [
-      { campo: 'Rischi', valore: 'Ecchimosi, ptosi transitoria, asimmetria' },
-      { campo: 'Alternative', valore: 'Nessun trattamento, filler, laser' },
-      { campo: 'Esito atteso', valore: 'Attenuazione, non scomparsa. 4-6 mesi', forte: true },
+      { campo: t('home.documentochesicompone.rischi'), valore: t('home.documentochesicompone.ecchimosi_ptosi_transitoria_asimmetria') },
+      { campo: t('home.documentochesicompone.alternative'), valore: t('home.documentochesicompone.nessun_trattamento_filler_laser') },
+      { campo: t('home.documentochesicompone.esito_atteso'), valore: t('home.documentochesicompone.attenuazione_non_scomparsa_4_6_mesi'), forte: true },
     ],
   },
   {
@@ -73,9 +73,9 @@ const TAPPE: Tappa[] = [
     titolo: t('home.documentochesicompone.firma_lei_firmi_tu_in_studio'),
     testo: t('home.documentochesicompone.nessuno_esce_con_un_modulo_da'),
     righe: [
-      { campo: 'Paziente', valore: 'Firmato alle 09:47' },
-      { campo: 'Medico', valore: 'Controfirmato alle 09:48' },
-      { campo: 'Documento', valore: 'PDF/A archiviato, 4 pagine' },
+      { campo: t('home.documentochesicompone.paziente'), valore: t('home.documentochesicompone.firmato_alle_09_47') },
+      { campo: t('home.documentochesicompone.medico'), valore: t('home.documentochesicompone.controfirmato_alle_09_48') },
+      { campo: t('home.documentochesicompone.documento'), valore: t('home.documentochesicompone.pdf_a_archiviato_4_pagine') },
     ],
   },
   {
@@ -84,9 +84,9 @@ const TAPPE: Tappa[] = [
     titolo: t('home.documentochesicompone.da_qui_ogni_ritocco_si_vede'),
     testo: t('home.documentochesicompone.ogni_riga_porta_l_impronta_della'),
     righe: [
-      { campo: 'Impronta', valore: '9f2c1a4e…08d7b3', forte: true },
-      { campo: 'Anello prima', valore: 'e71b04c9…ba2f10' },
-      { campo: 'Registrato', valore: '30/01/2026, 09:48:11' },
+      { campo: t('home.documentochesicompone.impronta'), valore: '9f2c1a4e…08d7b3', forte: true },
+      { campo: t('home.documentochesicompone.anello_prima'), valore: 'e71b04c9…ba2f10' },
+      { campo: t('home.documentochesicompone.registrato'), valore: '30/01/2026, 09:48:11' },
     ],
   },
 ]

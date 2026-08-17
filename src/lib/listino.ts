@@ -12,6 +12,8 @@
  * Rientrano il giorno in cui diventano vere, non prima.
  */
 
+import { t } from '@/lib/testo'
+
 /**
  * I numeri del listino — decisione dell'utente del 2026-08-11: **129 · 279 · 549**.
  *
@@ -73,37 +75,37 @@ export interface Piano {
 export const PIANI: readonly Piano[] = [
   {
     chiave: 'solo-pro',
-    nome: 'Solo',
+    nome: t('lib.listino.solo'),
     prezzo: 129,
     perChi: 'Un medico, uno studio',
     incluso: [
-      'Cartella completa, pazienti illimitati',
-      'Catalogo dei consensi estetici',
-      'Firma della paziente in studio',
-      'Mappa del viso e del corpo',
-      'Foto cliniche cifrate',
-      'Catena di impronte sugli accessi',
-      'Agenda e richiami',
+      t('lib.listino.cartella_completa_pazienti_illimitati'),
+      t('lib.listino.catalogo_dei_consensi_estetici'),
+      t('lib.listino.firma_della_paziente_in_studio'),
+      t('lib.listino.mappa_del_viso_e_del_corpo'),
+      t('lib.listino.foto_cliniche_cifrate'),
+      t('lib.listino.catena_di_impronte_sugli_accessi'),
+      t('lib.listino.agenda_e_richiami'),
     ],
   },
   {
     chiave: 'studio',
-    nome: 'Studio',
+    nome: t('lib.listino.studio'),
     prezzo: 279,
     perChi: 'Fino a cinque operatori',
     consigliato: true,
     incluso: [
-      'Tutto quello che c’è in Solo',
-      'Anamnesi dettata mentre visiti',
-      'Agenda condivisa',
-      'Permessi per ruolo',
-      'Allerta sugli accessi anomali',
-      'Assistenza in giornata',
+      t('lib.listino.tutto_quello_che_c_e_in'),
+      t('lib.listino.anamnesi_dettata_mentre_visiti'),
+      t('lib.listino.agenda_condivisa'),
+      t('lib.listino.permessi_per_ruolo'),
+      t('lib.listino.allerta_sugli_accessi_anomali'),
+      t('lib.listino.assistenza_in_giornata'),
     ],
   },
   {
     chiave: 'clinica',
-    nome: 'Clinica',
+    nome: t('lib.listino.clinica'),
     // ✅ 549 — deciso dall'utente il 2026-08-11 (era 349 dal 2026-08-10, e
     // `null` — «su richiesta» — prima ancora, che è il valore giusto finché un
     // prezzo non c'è: ⛔ non si inventa, e la scheda porta alla demo invece che
@@ -112,11 +114,11 @@ export const PIANI: readonly Piano[] = [
     prezzo: 549,
     perChi: 'Più sedi, o oltre cinque operatori',
     incluso: [
-      'Tutto quello che c’è in Studio',
-      'Più sedi, agenda unica',
-      'Permessi sede per sede',
-      'Esportazioni programmate',
-      'Referente per avvio e migrazione',
+      t('lib.listino.tutto_quello_che_c_e_in_2'),
+      t('lib.listino.piu_sedi_agenda_unica'),
+      t('lib.listino.permessi_sede_per_sede'),
+      t('lib.listino.esportazioni_programmate'),
+      t('lib.listino.referente_per_avvio_e_migrazione'),
     ],
   },
 ] as const
@@ -138,9 +140,9 @@ export function totaleAnnuale(piano: Piano): number | null {
 
 /** Cosa è compreso nell'attivazione, senza costi a sorpresa. */
 export const ATTIVAZIONE = [
-  'Migrazione dell’anagrafica e dello storico dal gestionale che usi oggi',
-  'Configurazione dello studio, degli operatori e dei permessi',
-  'Formazione iniziale, in videochiamata o di persona',
+  t('lib.listino.migrazione_dell_anagrafica_e_dello_storico'),
+  t('lib.listino.configurazione_dello_studio_degli_operatori_e'),
+  t('lib.listino.formazione_iniziale_in_videochiamata_o_di'),
   /* 🔴 **Diceva solo «nessun vincolo di durata», e non bastava.** Misurato il
    * 2026-08-12 con l'assistente del sito: *«Posso disdire quando voglio?»*
    * veniva **respinta** — la parola «disdire» sul sito non c'era da nessuna
@@ -158,7 +160,7 @@ export const ATTIVAZIONE = [
    * faceva passare **sei domande fuori tema su otto** («qual è la capitale
    * della Francia» entrava da `capitale`). Si scrive la parola sul sito, non
    * si allenta la guardia. */
-  'Nessun costo di attivazione e nessun vincolo di durata: puoi disdire quando vuoi, e alla disdetta esporti i dati',
+  t('lib.listino.nessun_costo_di_attivazione_e_nessun'),
 ] as const
 
 /**
@@ -175,13 +177,13 @@ export const ATTIVAZIONE = [
  * perché è la cosa che si scopre dopo la firma se non la scrivi prima.
  */
 export const CONVIVENZA = {
-  titolo: 'Un portale non è una cartella clinica',
+  titolo: t('lib.listino.un_portale_non_e_una_cartella'),
   testo:
-    'Molti studi hanno già l’abbonamento a un portale di prenotazione e danno per scontato di avere il software. Un portale riempie l’agenda: mostra il profilo, raccoglie le prenotazioni, manda i promemoria. Una cartella clinica risponde ad altre domande, che arrivano dopo e da un’altra parte: che cosa hai iniettato, dove, con quale lotto, che cosa avevi spiegato prima di farlo, chi ha aperto quel documento due anni dopo.',
+    t('lib.listino.molti_studi_hanno_gia_l_abbonamento'),
   righe: [
-    'Se usi un portale per farti trovare, tienilo. Non ti chiediamo di rinunciarci per cominciare.',
-    'Non raccogliamo recensioni sul tuo conto e non pubblichiamo classifiche di medici.',
-    'Non vendiamo visibilità. Qui non c’è una posizione da comprare, né per te né per un collega.',
+    t('lib.listino.se_usi_un_portale_per_farti'),
+    t('lib.listino.non_raccogliamo_recensioni_sul_tuo_conto'),
+    t('lib.listino.non_vendiamo_visibilita_qui_non_c'),
   ],
   cautela:
     'Quello che ci rimetti, detto prima: oggi Fibonacci non parla con il portale che usi. Se lo tieni, l’agenda pubblica resta dove è adesso e le prenotazioni le riporti tu.',
@@ -206,9 +208,9 @@ export const CONVIVENZA = {
  * che possiamo mantenere.
  */
 export const RESIDUO = {
-  titolo: 'Se ti restano mesi da pagare altrove',
+  titolo: t('lib.listino.se_ti_restano_mesi_da_pagare'),
   testo:
-    'La ragione più comune per non cambiare non è il prezzo: sono i mesi che restano sul contratto che hai già firmato con qualcun altro. Se sei in quella situazione dillo subito, prima di guardare il listino: entro un tetto che concordiamo insieme quei mesi li copriamo noi. Non è uno sconto e non è una promozione: è il costo di uscita che ti toglie di mezzo, e va discusso caso per caso perché dipende da quanto ti resta.',
+    t('lib.listino.la_ragione_piu_comune_per_non'),
 } as const
 
 /** L'ancora del prezzo. Non è il risparmio: è il costo di una contestazione. */
@@ -216,9 +218,9 @@ export const ANCORA = {
   /* Era «Con che cosa si confronta», identico all'occhiello che gli sta sopra
    * in /prezzi: la stessa riga stampata due volte a due centimetri di distanza.
    * L'occhiello dice di che cosa si parla, il titolo deve dire la tesi. */
-  titolo: 'Il conto non si fa col prezzo del software',
+  titolo: t('lib.listino.il_conto_non_si_fa_col'),
   testo:
-    'Il conto non si fa con quanto costa il software. Si fa con quanto costa la prima volta che devi dimostrare cosa avevi spiegato a una paziente due anni fa, e non hai niente di scritto oltre a un modulo generico. La parcella di un legale per aprire quella pratica supera l’abbonamento di un anno.',
+    t('lib.listino.il_conto_non_si_fa_con'),
   cautela:
     'Non promettiamo che un buon consenso vinca una causa: non funziona così, e chi te lo dice ti sta vendendo qualcosa. Promettiamo che la documentazione esista, sia completa e si dimostri non ritoccata.',
 } as const

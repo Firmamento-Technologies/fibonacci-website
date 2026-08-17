@@ -36,16 +36,41 @@ STATO = os.path.join(QUI, "stato-scoperta-bd.json")
 # ⚠️ **Fra virgolette, sempre.** Senza, il motore allarga al generico e torna ai
 # soliti portali — la stessa lezione della ricerca per nome.
 APPARTENENZA = [
-    # società scientifiche italiane (SIME 1975, Agorà 1984 — brain estetica)
-    '"socio AITEB"', '"socio SIME"', '"socio Agorà"', '"socio AICPE"',
-    '"socio SICPRE"', '"socia AITEB"', '"membro AITEB"',
-    '"Società Italiana di Medicina Estetica" socio',
-    '"Agorà" "medicina estetica" socio studio',
-    # dispositivi: chi lo compra lo mette in vetrina
-    '"centro Ultherapy"', '"Ultherapy PRIME"', '"Morpheus8"', '"centro Morpheus8"',
-    '"Fotona 4D"', '"SmartXide"', '"Ultraformer"', '"Emsculpt"', '"CoolSculpting"',
-    '"Thermage"', '"Hydrafacial"', '"Endymed"', '"Lumenis"', '"Cynosure"',
-    '"Candela" laser medicina estetica', '"Alma Harmony"', '"Sculptra" centro',
+    # ── società scientifiche e associazioni (le prime due dal brain estetica:
+    #    SIME 1975, Agorà 1984) ──────────────────────────────────────────────
+    '"socio AITEB"', '"socia AITEB"', '"membro AITEB"', '"socio SIME"',
+    '"socio Agorà"', '"socio AICPE"', '"socio SICPRE"', '"socio SIES"',
+    '"socio SIME" medicina estetica', '"Società Italiana di Medicina Estetica" socio',
+    '"Agorà" "medicina estetica" socio studio', '"socio ISAPS"', '"socio SIDeMaST"',
+    '"iscritto AITEB"', '"membro SIME"',
+    # ── dispositivi: chi lo compra lo mette in vetrina. ⚠️ Undici marchi sono
+    #    confermati dal brain (Cutera, Cynosure, Genius, InMode, Lumenis,
+    #    Morpheus8, Ultraformer, Ultherapy, Vivace, Sciton, Venus); gli altri
+    #    sono nomi commerciali del settore, e **la verifica è nella resa**: un
+    #    marchio che ⛔ non esiste ⛔ non trova niente e costa $0,00064.
+    '"Ultherapy"', '"Ultherapy PRIME"', '"centro Ultherapy"', '"Morpheus8"',
+    '"centro Morpheus8"', '"InMode"', '"Ultraformer"', '"Ultraformer III"',
+    '"Vivace"', '"Genius RF"', '"Sciton"', '"Venus Legacy"', '"Venus Versa"',
+    '"Cutera"', '"Cynosure"', '"Lumenis"', '"Fotona"', '"Fotona 4D"',
+    '"SmartXide"', '"DEKA"', '"Alma Harmony"', '"Alma Hybrid"', '"Soprano ICE"',
+    '"Candela"', '"GentleMax"', '"Vbeam"', '"PicoSure"', '"PicoWay"',
+    '"Fraxel"', '"Clear + Brilliant"', '"Thermage"', '"CoolSculpting"',
+    '"Emsculpt"', '"Emsculpt NEO"', '"Emface"', '"Emtone"', '"BTL"',
+    '"Exilis"', '"Vanquish"', '"Endymed"', '"Sofwave"', '"Onda Coolwaves"',
+    '"Renuvion"', '"Agnes RF"', '"Scarlet RF"', '"Potenza"', '"Secret RF"',
+    '"SkinPen"', '"Dermapen"', '"Hydrafacial"', '"Aquagold"', '"Quanta System"',
+    '"Asclepion"', '"Velashape"', '"SculpSure"', '"Vaser"', '"Cellfina"',
+    '"Zimmer Cryo"', '"Nordlys"', '"Stellar M22"', '"Accent Prime"',
+    '"LightSheer"', '"Excel V"', '"Discovery Pico"', '"Harmony XL"',
+    # ── prodotti iniettivi: nominarli è marketing, quindi sono scritti in chiaro
+    '"Profhilo"', '"Juvederm"', '"Restylane"', '"Belotero"', '"Teosyal"',
+    '"Radiesse"', '"Sculptra"', '"Aliaxin"', '"Neauvia"', '"Definisse"',
+    '"Silhouette Soft"', '"Aptos"', '"Ellansé"', '"Lanluma"', '"Saypha"',
+    '"Stylage"', '"Perfectha"', '"Hyalual"', '"Jalupro"', '"Sunekos"',
+    '"Plinest"', '"Newest"', '"Polynucleotidi HPT"', '"Skinbooster"',
+    # ── tossine (nomi commerciali registrati)
+    '"Botox"', '"Dysport"', '"Xeomin"', '"Azzalure"', '"Bocouture"',
+    '"Vistabex"', '"Nuceiva"', '"Letybo"',
 ]
 
 

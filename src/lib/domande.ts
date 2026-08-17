@@ -21,11 +21,11 @@ export interface Domanda {
 }
 
 export const CATEGORIE: Record<Domanda['categoria'], string> = {
-  prodotto: 'Il prodotto',
-  prezzi: 'Prezzi e contratto',
-  dati: 'Dati dei pazienti',
-  avvio: 'Partire',
-  limiti: 'Quello che non fa',
+  prodotto: t('comefunziona.il_prodotto'),
+  prezzi: t('lib.domande.cat_prezzi_e_contratto'),
+  dati: t('lib.domande.cat_dati_dei_pazienti'),
+  avvio: t('lib.domande.cat_partire'),
+  limiti: t('lib.domande.cat_quello_che_non_fa'),
 }
 
 export const DOMANDE: Domanda[] = [

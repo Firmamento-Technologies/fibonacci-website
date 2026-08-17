@@ -31,19 +31,19 @@ const SEZIONI = dati.sezioni as Sezione[]
  * da tenere allineata. Qui basta che siano comprensibili e veri — il presidio
  * confronta gli **identificativi**, che sono il dato, non queste parole. */
 const NOME: Record<string, string> = {
-  timeline: 'Cronologia',
-  anamnesi: 'Anamnesi',
-  prom: 'Questionari alla paziente',
-  visite: 'Visite',
-  trattamenti: 'Trattamenti',
-  piani: 'Piani di cura',
-  prescrizioni: 'Prescrizioni',
-  esami: 'Esami',
-  foto: 'Foto',
-  documenti: 'Documenti',
-  consensi: 'Consensi',
-  anagrafica: 'Anagrafica',
-  equipe: 'Équipe',
+  timeline: t('home.provasezionicartella.cronologia'),
+  anamnesi: t('home.documentochesicompone.anamnesi'),
+  prom: t('home.provasezionicartella.questionari_alla_paziente'),
+  visite: t('home.provasezionicartella.visite'),
+  trattamenti: t('home.provasezionicartella.trattamenti'),
+  piani: t('home.provasezionicartella.piani_di_cura'),
+  prescrizioni: t('home.provasezionicartella.prescrizioni'),
+  esami: t('home.provasezionicartella.esami'),
+  foto: t('home.provasezionicartella.foto'),
+  documenti: t('legale.layout.documenti'),
+  consensi: t('home.sezioni.consensi'),
+  anagrafica: t('home.provasezionicartella.anagrafica'),
+  equipe: t('home.provasezionicartella.quipe'),
 }
 
 export function ProvaSezioniCartella() {

@@ -134,7 +134,11 @@ export default function ChiSiamo() {
           </p>
           {CONTACT_EMAIL && (
             <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-              Oppure scrivi a{' '}
+              {/* ⚠️ Frammento davanti a un link, accettato di proposito: in
+                  inglese, spagnolo, francese e tedesco «scrivi a X» tiene X
+                  DOPO il verbo, quindi l'ordine non cambia. ⛔ Non e' una
+                  regola generale: e' un giudizio su queste quattro lingue. */}
+              {t('chisiamo.oppure_scrivi_a')}{' '}
               <a href={`mailto:${CONTACT_EMAIL}`} style={{ color: 'var(--accent-deep)', borderBottom: '1px solid var(--rule-strong)' }}>
                 {CONTACT_EMAIL}
               </a>

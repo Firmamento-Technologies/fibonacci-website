@@ -94,8 +94,8 @@ function verifica(lingua, pagine, attese) {
   if (!dichiarata.startsWith(lingua)) {
     throw new Error(`${lingua}: <html lang="${dichiarata}">, ⛔ non combacia`)
   }
-  return testo
 }
+
 
 // ⛔ Qualunque cosa succeda, l'appoggio sparisce: e' la riga che chiude il
 // difetto descritto sopra. `exit` copre anche le eccezioni e Ctrl-C.
@@ -103,7 +103,6 @@ process.on('exit', () => rmSync(APPOGGIO, { recursive: true, force: true }))
 for (const segnale of ['SIGINT', 'SIGTERM']) process.on(segnale, () => process.exit(1))
 
 let attese = null
-let campioneItaliano = ''
 
 for (const lingua of LINGUE) {
   if (solo && lingua !== solo && lingua !== 'it') continue
@@ -114,11 +113,10 @@ for (const lingua of LINGUE) {
   }
 
   const pagine = costruisci(lingua)
-  const testo = verifica(lingua, pagine, lingua === 'it' ? null : attese)
+  verifica(lingua, pagine, lingua === 'it' ? null : attese)
 
   if (lingua === 'it') {
     attese = pagine.length
-    campioneItaliano = testo
     // Da parte, o la costruzione successiva lo cancella.
     rmSync(APPOGGIO, { recursive: true, force: true })
     cpSync(OUT, APPOGGIO, { recursive: true })
@@ -127,13 +125,20 @@ for (const lingua of LINGUE) {
     continue
   }
 
-  // ⛔ Il controllo che conta: una lingua IDENTICA all'italiano ha ripiegato.
-  if (testo === campioneItaliano) {
-    throw new Error(
-      `${lingua}: la pagina è byte-identica all'italiano. ` +
-        `⇒ il dizionario non è stato letto, o è una copia.`,
-    )
-  }
+  // 🔴 QUI C'ERA IL CONFRONTO SUI BYTE, ED E' STATO TOLTO.
+  //
+  //     if (testo === campioneItaliano) throw new Error(…)
+  //
+  // ⛔ **E' passato mentre la prosa ERA italiana**, per mesi di lavoro: le due
+  // pagine differiscono sempre per l'attributo `lang` e per i percorsi degli
+  // asset (`/de/_next/…` contro `/_next/…`), quindi non sono mai byte-identiche.
+  // Il controllo diceva «diverse» e si fermava lì, mentre un visitatore tedesco
+  // leggeva titoli, sommari, domande frequenti e bollini in italiano.
+  // 🔑 E' la ragione per cui SEI difetti dell'estrattore sono stati trovati a
+  //    mano guardando le pagine, e non da qui.
+  // ⇒ il controllo vero e' `scripts/lingue-tradotte.mjs`, chiamato in fondo:
+  //   confronta il TESTO VISIBILE, e va eseguito **dopo l'assemblaggio** perche'
+  //   deve vedere tutte e cinque le lingue insieme.
 
   const destinazione = join(APPOGGIO, lingua)
   mkdirSync(destinazione, { recursive: true })
@@ -151,5 +156,11 @@ rmSync(APPOGGIO, { recursive: true, force: true })
 // ⚠️ `hreflang` va DOPO l'assemblaggio, non nel `postbuild` di ogni lingua:
 // per collegare le versioni deve vederle tutte e cinque nello stesso `out/`.
 execFileSync('node', [join(RADICE, 'scripts', 'hreflang.mjs')], { cwd: RADICE, stdio: 'inherit' })
+
+// ── IL PRESIDIO DELLA TRADUZIONE, sul TESTO e non sui byte ──────────────────
+// ⚠️ Se e' rosso lo script esce 1 e `out/` resta lì: il costruito c'e', ⛔ ma non
+// lo si rilascia. E' voluto — si guarda che cosa segnala e si corregge, invece
+// di pubblicare cinque lingue di cui una e' italiana.
+execFileSync('node', [join(RADICE, 'scripts', 'lingue-tradotte.mjs')], { cwd: RADICE, stdio: 'inherit' })
 
 console.log(`\n✅ out/ contiene ${html(OUT).length} pagine in ${LINGUE.length} lingue`)

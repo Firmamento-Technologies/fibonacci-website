@@ -58,6 +58,8 @@
  *    cui è libero.
  */
 
+import { t } from '@/lib/testo'
+
 /** Uno slot libero. Stessa forma di `GET /pubblico/prenota/slot`. */
 export interface SlotPubblico {
   /** L'id dello `Slot` FHIR: torna indietro nella richiesta di prenotazione. */
@@ -203,7 +205,7 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
     organizationId: (process.env.NEXT_PUBLIC_PAZIENTI_ORG_DEMO ?? '').trim() || 'esempio-org-1',
     esempio: true,
     studio: {
-      nome: 'Studio Dimostrativo',
+      nome: t('lib.medicipubblici.studio_dimostrativo'),
       indirizzo: 'Via di Esempio 1',
       comune: 'Carrara (MS)',
       telefono: '+39 000 0000000',
@@ -215,17 +217,17 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
       coordinate: { lat: 44.0793, lon: 10.0977, esatta: false },
     },
     medico: {
-      nome: 'Nome Cognome',
-      titolo: 'Medico chirurgo',
+      nome: t('lib.medicipubblici.nome_cognome'),
+      titolo: t('lib.medicipubblici.medico_chirurgo'),
       ordineProvinciale: 'Massa-Carrara',
       numeroIscrizione: '00000',
     },
     prestazioni: [
-      'Prima visita di medicina estetica',
-      'Tossina botulinica',
-      'Filler con acido ialuronico',
-      'Biostimolazione',
-      'Controllo post-trattamento',
+      t('lib.medicipubblici.prima_visita_di_medicina_estetica'),
+      t('lib.medicipubblici.tossina_botulinica'),
+      t('lib.medicipubblici.filler_con_acido_ialuronico'),
+      t('lib.medicipubblici.biostimolazione'),
+      t('lib.medicipubblici.controllo_post_trattamento'),
     ],
     /* ⛔ Volutamente **vuoto**: è lo stato in cui nasce ogni studio prima di
      * configurare l'agenda, ed è il caso che la pagina deve gestire bene. Se
@@ -242,7 +244,7 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
     organizationId: 'esempio-org-2',
     esempio: true,
     studio: {
-      nome: 'Secondo Studio Dimostrativo',
+      nome: t('lib.medicipubblici.secondo_studio_dimostrativo'),
       indirizzo: 'Piazza di Esempio 2',
       comune: 'Milano (MI)',
       telefono: '+39 000 0000001',
@@ -251,12 +253,12 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
       coordinate: { lat: 45.4642, lon: 9.19, esatta: false },
     },
     medico: {
-      nome: 'Altro Nome Cognome',
-      titolo: 'Medico chirurgo',
+      nome: t('lib.medicipubblici.altro_nome_cognome'),
+      titolo: t('lib.medicipubblici.medico_chirurgo'),
       ordineProvinciale: 'Milano',
       numeroIscrizione: '00001',
     },
-    prestazioni: ['Prima visita di medicina estetica', 'Tossina botulinica', 'Peeling'],
+    prestazioni: [t('lib.medicipubblici.prima_visita_di_medicina_estetica'), t('lib.medicipubblici.tossina_botulinica'), t('lib.medicipubblici.peeling')],
     slot: slotDiEsempio(),
   },
 ]
@@ -285,10 +287,10 @@ export const SOGLIA_ELENCO = 15
  * sono dichiaratamente finti — nome numerato, `esempio: true`, quindi `noindex`
  * e fuori dal sitemap. */
 const COMUNI_ESEMPIO = [
-  'Milano (MI)', 'Roma (RM)', 'Torino (TO)', 'Padova (PD)', 'Lecce (LE)',
-  'Bergamo (BG)', 'Pescara (PE)', 'Carrara (MS)', 'Bologna (BO)', 'Firenze (FI)',
-  'Napoli (NA)', 'Verona (VR)', 'Bari (BA)', 'Genova (GE)', 'Cagliari (CA)',
-  'Trieste (TS)',
+  t('lib.medicipubblici.milano_mi'), t('lib.medicipubblici.roma_rm'), t('lib.medicipubblici.torino_to'), t('lib.medicipubblici.padova_pd'), t('lib.medicipubblici.lecce_le'),
+  t('lib.medicipubblici.bergamo_bg'), t('lib.medicipubblici.pescara_pe'), t('lib.medicipubblici.carrara_ms'), t('lib.medicipubblici.bologna_bo'), t('lib.medicipubblici.firenze_fi'),
+  t('lib.medicipubblici.napoli_na'), t('lib.medicipubblici.verona_vr'), t('lib.medicipubblici.bari_ba'), t('lib.medicipubblici.genova_ge'), t('lib.medicipubblici.cagliari_ca'),
+  t('lib.medicipubblici.trieste_ts'),
 ] as const
 
 /* Lettere greche: danno nomi **evidentemente finti** e **iniziali diverse**,
@@ -326,11 +328,11 @@ function esempiGenerati(quanti: number): SchedaMedicoPubblica[] {
          * ⛔ I nomi restano **dichiaratamente finti**: mai un nome plausibile
          * su una scheda sanitaria, nemmeno in anteprima. */
         nome: `Esempio ${LETTERE_ESEMPIO[i % LETTERE_ESEMPIO.length]}`,
-        titolo: 'Medico chirurgo',
+        titolo: t('lib.medicipubblici.medico_chirurgo'),
         ordineProvinciale: comune.replace(/\s*\(.*\)$/, ''),
         numeroIscrizione: String(10000 + n),
       },
-      prestazioni: ['Prima visita di medicina estetica', 'Tossina botulinica', 'Biostimolazione'],
+      prestazioni: [t('lib.medicipubblici.prima_visita_di_medicina_estetica'), t('lib.medicipubblici.tossina_botulinica'), t('lib.medicipubblici.biostimolazione')],
       /* Metà con orari e metà senza: **entrambi i rami** devono comparire
        * nello stesso elenco, altrimenti si guarda solo quello fortunato. */
       slot: i % 2 === 0 ? slotDiEsempio() : [],

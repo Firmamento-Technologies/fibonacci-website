@@ -22,39 +22,39 @@ export const metadata: Metadata = {
 const DOMANDE = [
   {
     d: t('pazienti.primadiuntrattamento.che_cosa_mi_mettete_esattamente'),
-    p: 'Nome del prodotto, non solo la categoria. «Filler» non è una risposta: l’acido ialuronico ha decine di prodotti diversi, con densità e durate diverse.',
+    p: t('pazienti.primadiuntrattamento.p_nome_del_prodotto_non_solo_la_catego'),
   },
   {
     d: t('pazienti.primadiuntrattamento.quanto_dura_e_poi_che_succede'),
-    p: 'Un trattamento che si riassorbe ha bisogno di essere rifatto. Sapere ogni quanto cambia il conto, e cambia la decisione.',
+    p: t('pazienti.primadiuntrattamento.p_un_trattamento_che_si_riassorbe_ha_b'),
   },
   {
     d: t('pazienti.primadiuntrattamento.quali_sono_le_alternative'),
-    p: 'La legge dice che le alternative vanno presentate. Se ce n’è una sola, chiedi perché: è una risposta legittima, ma deve esserci.',
+    p: t('pazienti.primadiuntrattamento.p_la_legge_dice_che_le_alternative_van'),
   },
   {
     d: t('pazienti.primadiuntrattamento.e_se_non_lo_faccio'),
-    p: 'È la domanda che quasi nessuno pone, ed è un diritto esplicito: ti devono dire le conseguenze del rifiuto. Spesso la risposta onesta è «niente», e va bene così.',
+    p: t('pazienti.primadiuntrattamento.p_la_domanda_che_quasi_nessuno_pone_ed'),
   },
   {
     d: t('pazienti.primadiuntrattamento.quali_rischi_ha_non_in_generale'),
-    p: 'Con la tua storia clinica, i tuoi farmaci, le tue allergie. Un elenco di rischi valido per chiunque non ti ha informato di niente.',
+    p: t('pazienti.primadiuntrattamento.p_con_la_tua_storia_clinica_i_tuoi_far'),
   },
   {
     d: t('pazienti.primadiuntrattamento.chi_lo_esegue_materialmente'),
-    p: 'Non è scontato che sia la persona con cui stai parlando.',
+    p: t('pazienti.primadiuntrattamento.p_non_scontato_che_sia_la_persona_con_'),
   },
   {
     d: t('pazienti.primadiuntrattamento.che_cosa_si_fa_se_qualcosa'),
-    p: 'Chiedi il percorso concreto: chi chiami, in quanto tempo rispondono, dove si interviene. Una risposta vaga è già un’informazione.',
+    p: t('pazienti.primadiuntrattamento.p_chiedi_il_percorso_concreto_chi_chia'),
   },
   {
     d: t('pazienti.primadiuntrattamento.mi_fate_firmare_un_consenso_posso'),
-    p: 'Il consenso va raccolto per iscritto e finisce in cartella. Puoi chiederlo prima, e portartelo a casa a leggere.',
+    p: t('pazienti.primadiuntrattamento.p_il_consenso_va_raccolto_per_iscritto'),
   },
   {
     d: t('pazienti.primadiuntrattamento.quanto_costa_tutto_compreso'),
-    p: 'Compresi i controlli e le sedute successive, se ne servono. Gli onorari li indica lo studio: qui non li pubblichiamo, e nella pagina sotto c’è il perché.',
+    p: t('pazienti.primadiuntrattamento.p_compresi_i_controlli_e_le_sedute_suc'),
   },
 ] as const
 
