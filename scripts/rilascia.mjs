@@ -48,6 +48,28 @@ const RADICE_WEB = '/var/www/fibonaccimedica'
 
 const argomenti = process.argv.slice(2)
 const PROVA = argomenti.includes('--prova')
+/**
+ * ⚠️ **L'uscita dichiarata dal cancello delle schermate.** Esiste per un caso
+ * solo, ed è questo: il rilascio **non tocca le schermate**, che sono già
+ * pubblicate identiche, e rigenerarle in quel momento farebbe più danno che
+ * bene — per esempio perché l'albero EMR ha il lavoro in corso di un'altra
+ * sessione e finirebbe dentro immagini pubblicate.
+ *
+ * 🔑 Perché un interruttore e ⛔ non la cancellazione del controllo: un cancello
+ * tolto non si rimette, e il prossimo che ha fretta trova la strada già aperta.
+ * Così invece l'eccezione **si vede**, va scritta sulla riga di comando, e
+ * lascia una traccia a video di che cosa è stato saltato.
+ *
+ * ⛔ **Non è un'abbreviazione per «ho fretta».** Se il rilascio CAMBIA una
+ * schermata, o se il divario contiene commit che toccano davvero le schermate
+ * pubblicate, si rigenera: `node scripts/schermate.mjs` con lo stack acceso.
+ *
+ * Usato il 2026-08-17 su decisione esplicita dell'utente: divario di **un solo
+ * commit** (`a05fbd93`, la barra dell'assistente sul telefono), rilascio di
+ * **soli testi** più una pagina nuova, e albero EMR con 10 file non committati
+ * di un'altra sessione.
+ */
+const SCHERMATE_VECCHIE = argomenti.includes('--schermate-vecchie')
 const RIF = argomenti.includes('--ref') ? argomenti[argomenti.indexOf('--ref') + 1] : 'origin/main'
 
 const rosso = (t) => `\x1b[31m${t}\x1b[0m`
@@ -74,7 +96,12 @@ const git = (args, dir = SITO) =>
 titolo('Le schermate vengono dal codice che gira adesso?')
 {
   const f = schermateFresche(SITO)
-  if (f.stato === 'vecchie') muori(f.motivo)
+  if (f.stato === 'vecchie' && SCHERMATE_VECCHIE) {
+    console.log(giallo('   ⚠️  CANCELLO SALTATO con --schermate-vecchie. Che cosa non è stato guardato:'))
+    console.log(giallo(`      ${f.motivo.split('\n')[0]}`))
+    console.log(giallo('      ⇒ le schermate pubblicate restano quelle di prima, invariate.'))
+    console.log(giallo('      ⛔ Se questo rilascio doveva CAMBIARLE, fermalo adesso.'))
+  } else if (f.stato === 'vecchie') muori(f.motivo)
   if (f.stato === 'non-verificabile') console.log(giallo(`   ⚠️  ${f.motivo}`))
   else ok('fresche')
 }
