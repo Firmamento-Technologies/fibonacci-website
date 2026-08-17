@@ -56,8 +56,12 @@ DOCS = QUI.parent / "src" / "content" / "docs"
 # NON nominarle: cioe' meno precisa per colpa del presidio.
 # ⛔ Non aggiungere qui cartelle intere: ogni file in piu' e' una possibilita' in
 # piu' che un termine risulti «trovato» per caso.
+# ⚠️ Il percorso si ricava da APP e non dalla radice del sito: con `FIBO_APP_SRC`
+# la radice del sito puo' essere un worktree in `/tmp`, accanto al quale non c'e'
+# nessun `EMR/`. Il manifesto deve venire dallo **stesso** albero dell'app che si
+# sta controllando, o si finisce a verificare due prodotti diversi.
 ALTRE_SORGENTI = [
-    QUI.parent.parent / "EMR" / "apps" / "web" / "public" / "anatomy" / "granular" / "manifest.json",
+    APP.parent / "public" / "anatomy" / "granular" / "manifest.json",
 ]
 
 # Sospetti gia' esaminati e giustificati, con il perche'. Chi ne aggiunge uno
