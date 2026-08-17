@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -7,9 +8,9 @@ import { Occhiello, Freccia } from '@/components/ui/elementi'
 import { BOLLINI } from '@/lib/bollini'
 
 export const metadata: Metadata = {
-  title: 'Conformità europea',
+  title: t('conformitaeuropea.meta_titolo_conformita_europea'),
   description:
-    'Dove stanno i dati, chi ne è titolare, che cosa dice il regolamento europeo sui dati sanitari e da quando. Nove garanzie con la prova accanto, comprese le due che ci mancano.',
+    t('conformitaeuropea.meta_descrizione_dove_stanno_i_dati_chi_ne'),
   alternates: { canonical: '/conformita-europea' },
 }
 
@@ -112,7 +113,7 @@ export default function ConformitaEuropea() {
       <section style={{ paddingBlock: 'var(--s-21)' }}>
         <div className="gabbia">
           <Reveal>
-            <Occhiello>Dove sta il dato, e chi comanda</Occhiello>
+            <Occhiello>{t('conformitaeuropea.dove_sta_il_dato_e_chi')}</Occhiello>
           </Reveal>
           <div className="mt-[var(--s-21)]">
             <Bollini ids={BOLLINI.slice(0, 3).map((b) => b.id)} />
@@ -123,7 +124,7 @@ export default function ConformitaEuropea() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia">
           <Reveal>
-            <Occhiello>Che cosa puoi farci</Occhiello>
+            <Occhiello>{t('conformitaeuropea.che_cosa_puoi_farci')}</Occhiello>
           </Reveal>
           <div className="mt-[var(--s-21)]">
             <Bollini ids={BOLLINI.slice(3, 6).map((b) => b.id)} />
@@ -138,9 +139,9 @@ export default function ConformitaEuropea() {
               ritmo slittava di un quinto di schermata. Questa intestazione
               regge da sola, che è la condizione per marcarla. */}
           <Reveal className="passo">
-            <Occhiello>Quello che non facciamo, e quello che non abbiamo</Occhiello>
+            <Occhiello>{t('conformitaeuropea.quello_che_non_facciamo_e_quello')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-3)]" style={{ maxWidth: '40ch' }}>
-              Un elenco di sole vittorie non è un documento, è un manifesto pubblicitario
+              {t('conformitaeuropea.un_elenco_di_sole_vittorie_non')}
             </h2>
           </Reveal>
           <div className="mt-[var(--s-21)]">
@@ -155,7 +156,7 @@ export default function ConformitaEuropea() {
           <div className="aurea">
             <Reveal className="passo">
               <div>
-                <Occhiello chiaro>Il regolamento che cambia le carte</Occhiello>
+                <Occhiello chiaro>{t('conformitaeuropea.il_regolamento_che_cambia_le_carte')}</Occhiello>
                 <h2
                   className="mt-[var(--s-13)] text-[length:var(--display-2)]"
                   style={{ maxWidth: '18ch' }}
@@ -175,9 +176,7 @@ export default function ConformitaEuropea() {
                     sistemi destinati alle categorie prioritarie di dati sanitari.
                   </p>
                   <p>
-                    Non è una formalità da ufficio acquisti: è un requisito di prodotto. Chi vende
-                    una cartella clinica dovrà dimostrare che fa certe cose, e chi non le fa uscirà
-                    dal mercato europeo.
+                    {t('conformitaeuropea.non_e_una_formalita_da_ufficio')}
                   </p>
                   <p style={{ color: 'var(--on-ink)' }}>
                     Oggi la marcatura <strong>non è apponibile da nessuno</strong>: mancano gli atti
@@ -190,7 +189,7 @@ export default function ConformitaEuropea() {
 
             <Reveal da="destra" className="passo">
               <div className="foglio">
-                <p className="numero">REG. (UE) 2025/327 · CAPO III</p>
+                <p className="numero">{t('conformitaeuropea.reg_ue_2025_327_capo_iii')}</p>
                 <dl className="mt-[var(--s-21)]">
                   {PASSAGGI_EHDS.map((p) => (
                     <div
@@ -225,13 +224,12 @@ export default function ConformitaEuropea() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
-            <Occhiello>Misurato, non promesso</Occhiello>
+            <Occhiello>{t('conformitaeuropea.misurato_non_promesso')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '22ch' }}>
-              Le prescrizioni su cui una risposta è già possibile
+              {t('conformitaeuropea.le_prescrizioni_su_cui_una_risposta')}
             </h2>
             <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)', maxWidth: 'var(--measure)' }}>
-              Quattro requisiti dell’Allegato II non dipendono dagli atti di esecuzione che mancano.
-              Su quelli una risposta si può dare adesso, compreso il punto in cui siamo a metà.
+              {t('conformitaeuropea.quattro_requisiti_dell_allegato_ii_non')}
             </p>
           </Reveal>
 
@@ -265,7 +263,7 @@ export default function ConformitaEuropea() {
                     </div>
                     <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
                       {r.d}{' '}
-                      <span style={{ color: 'var(--accent)' }}>Come</span> {r.come}
+                      <span style={{ color: 'var(--accent)' }}>{t('conformitaeuropea.come')}</span> {r.come}
                     </p>
                   </dd>
               </Reveal>
@@ -278,7 +276,7 @@ export default function ConformitaEuropea() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
-            <Occhiello>Non è una nostra gentilezza</Occhiello>
+            <Occhiello>{t('conformitaeuropea.non_e_una_nostra_gentilezza')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>
               Poter portare via i dati è un tuo <span className="accento-corsivo">dovere</span>, non
               una nostra concessione
@@ -298,15 +296,10 @@ export default function ConformitaEuropea() {
                 riservatezza e modalità di conservazione.
               </p>
               <p>
-                Detto altrimenti: scegliere un gestionale da cui non si esce non è soltanto un
-                rischio commerciale, è un problema deontologico tuo. La stessa cosa la chiedono
-                l’art. 20 del GDPR sulla portabilità e la prescrizione 2.6 dell’Allegato II del
-                regolamento europeo.
+                {t('conformitaeuropea.detto_altrimenti_scegliere_un_gestionale_da')}
               </p>
               <p>
-                Per questo l’esportazione qui è una funzione, non una pratica da aprire: FHIR R4,
-                integrale, quando vuoi, senza passare da noi. È anche il motivo per cui non ci
-                conviene trattenerti con un formato chiuso, e preferiamo dirlo prima che dopo.
+                {t('conformitaeuropea.per_questo_l_esportazione_qui_e')}
               </p>
             </div>
           </Reveal>
@@ -317,13 +310,12 @@ export default function ConformitaEuropea() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
-            <Occhiello>Da girare al consulente</Occhiello>
+            <Occhiello>{t('conformitaeuropea.da_girare_al_consulente')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-              Tutto pubblico, senza un modulo da compilare
+              {t('conformitaeuropea.tutto_pubblico_senza_un_modulo_da')}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)', maxWidth: 'var(--measure)' }}>
-              Un fornitore che nasconde il contratto dietro un modulo di richiesta ti sta già
-              dicendo qualcosa. Questi si leggono adesso, anche prima di parlarci.
+              {t('conformitaeuropea.un_fornitore_che_nasconde_il_contratto')}
             </p>
             <ul className="mt-[var(--s-34)]">
               {[

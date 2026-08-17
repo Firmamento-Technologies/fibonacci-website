@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
@@ -36,18 +37,18 @@ export function Chiedi() {
       <div className="gabbia gabbia-stretta text-center">
         <Reveal>
           <div>
-            <Occhiello>La tua domanda</Occhiello>
+            <Occhiello>{t('home.chiedi.la_tua_domanda')}</Occhiello>
             <h2
               className="mt-[var(--s-21)] text-[length:var(--display-2)]"
               style={{ maxWidth: '18ch', marginInline: 'auto' }}
             >
-              Quella che non abbiamo previsto
+              {t('home.chiedi.quella_che_non_abbiamo_previsto')}
             </h2>
             <p
               className="mt-[var(--s-21)] text-[1.0625rem]"
               style={{ color: 'var(--fg-muted)', maxWidth: '52ch', marginInline: 'auto' }}
             >
-              Se la risposta non c&apos;è in queste pagine, lo dice invece di inventarla.
+              {t('home.chiedi.se_la_risposta_non_c_e')}
             </p>
           </div>
         </Reveal>

@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { RevealGruppo } from '@/components/ui/Reveal'
 import { Freccia } from '@/components/ui/elementi'
@@ -192,7 +193,7 @@ function Riquadro({ b, chiaro }: { b: Bollino; chiaro: boolean }) {
         style={{ color: corpoColore, borderTop: `1px solid ${filetto}`, paddingTop: 'var(--s-8)' }}
       >
         <span className="numero" style={{ color: accento }}>
-          La prova
+          {t('bollini.la_prova')}
         </span>{' '}
         {b.prova}
       </p>
@@ -254,7 +255,7 @@ export function BolliniPiede() {
   return (
     <section aria-labelledby="bollini-piede" style={{ marginBottom: 'var(--s-55)' }}>
       <h2 id="bollini-piede" className="occhiello occhiello-chiaro" style={{ fontWeight: 500 }}>
-        Norme che ci si applicano
+        {t('bollini.norme_che_ci_si_applicano')}
       </h2>
 
       <ul
@@ -316,7 +317,7 @@ export function BolliniPiede() {
       <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
         Due di queste dicono che non ci siamo ancora arrivati, ed è voluto.{' '}
         <Link href="/conformita-europea" style={{ color: 'var(--accent-onink)', textDecoration: 'underline' }}>
-          Tutte e nove le garanzie, con gli articoli citati
+          {t('bollini.tutte_e_nove_le_garanzie_con')}
         </Link>
         .
       </p>

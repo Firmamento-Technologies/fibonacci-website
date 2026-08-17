@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -6,9 +7,9 @@ import { raggruppa } from '@/lib/raggruppa'
 import { Occhiello, Freccia, Foto, Schermata } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Il consenso informato in medicina estetica',
+  title: t('consensiinformati.meta_titolo_il_consenso_informato_in_medic'),
   description:
-    'Che cosa deve contenere un consenso informato per un trattamento estetico, chi lo firma, quanto si conserva, e perché il modulo unico scaricato da internet è il punto più debole di uno studio.',
+    t('consensiinformati.meta_descrizione_che_cosa_deve_contenere_un_con'),
   alternates: { canonical: '/consensi-informati' },
 }
 
@@ -26,29 +27,29 @@ export const metadata: Metadata = {
 
 const CONTENUTI = [
   {
-    voce: 'Chi esegue, e con quale qualifica',
-    perche: 'Il paziente ha diritto di sapere chi gli mette le mani addosso, non solo il nome dello studio.',
+    voce: t('consensiinformati.chi_esegue_e_con_quale_qualifica'),
+    perche: t('consensiinformati.il_paziente_ha_diritto_di_sapere'),
   },
   {
-    voce: 'In che cosa consiste la procedura',
-    perche: 'Descritta in modo comprensibile, non con la sigla commerciale del prodotto.',
+    voce: t('consensiinformati.in_che_cosa_consiste_la_procedura'),
+    perche: t('consensiinformati.descritta_in_modo_comprensibile_non_con'),
   },
   {
-    voce: 'Rischi e complicanze di quella procedura',
-    perche: 'Specifici. «Possibili effetti indesiderati» non è un rischio, è una formula.',
+    voce: t('consensiinformati.rischi_e_complicanze_di_quella_procedura'),
+    perche: t('consensiinformati.specifici_possibili_effetti_indesiderati_non_e'),
   },
   {
-    voce: 'Alternative, compresa quella di non fare niente',
-    perche: 'In estetica pesa più che altrove: l’alternativa di astenersi è quasi sempre praticabile.',
+    voce: t('consensiinformati.alternative_compresa_quella_di_non_fare'),
+    perche: t('consensiinformati.in_estetica_pesa_piu_che_altrove'),
   },
   {
-    voce: 'Il risultato che ci si può attendere, e i suoi limiti',
+    voce: t('consensiinformati.il_risultato_che_ci_si_puo'),
     perche:
-      'È il punto che la giurisprudenza sull’estetica guarda per primo, e quello che i moduli generici saltano.',
+      t('consensiinformati.e_il_punto_che_la_giurisprudenza'),
   },
   {
-    voce: 'Che cosa succede se il risultato non soddisfa',
-    perche: 'Ritocchi, tempi, costi. Detto prima, non contrattato dopo.',
+    voce: t('consensiinformati.che_cosa_succede_se_il_risultato'),
+    perche: t('consensiinformati.ritocchi_tempi_costi_detto_prima_non'),
   },
 ] as const
 
@@ -65,8 +66,7 @@ export default function ConsensiInformati() {
       }
       sommario={
         <>
-          Una guida pratica per chi firma consensi ogni giorno. Non è un parere legale: è una
-          sintesi ragionata, e prima di adottare un modulo va rivista dal tuo legale.
+          {t('consensiinformati.una_guida_pratica_per_chi_firma')}
         </>
       }
     >
@@ -74,16 +74,10 @@ export default function ConsensiInformati() {
         <div className="gabbia gabbia-stretta">
           <div className="prosa">
             <p>
-              In medicina estetica il consenso non è un adempimento fra gli altri: è il documento su
-              cui si decide una contestazione. La prestazione è elettiva, il paziente sceglie di
-              sottoporsi a un trattamento di cui potrebbe fare a meno, e quando il risultato non
-              corrisponde all&apos;attesa la domanda che arriva è sempre la stessa: che cosa gli era
-              stato detto, e chi può dimostrarlo.
+              {t('consensiinformati.in_medicina_estetica_il_consenso_non')}
             </p>
             <p>
-              Il modulo unico buono per tutto, scaricato una volta e firmato in sala d&apos;attesa,
-              è il punto più debole di uno studio. Non perché sia illegale, ma perché non contiene
-              nulla di specifico su quella procedura, e quindi non prova nulla.
+              {t('consensiinformati.il_modulo_unico_buono_per_tutto')}
             </p>
           </div>
         </div>
@@ -92,9 +86,9 @@ export default function ConsensiInformati() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <div className="passo">
-            <Occhiello>La sostanza</Occhiello>
+            <Occhiello>{t('consensiinformati.la_sostanza')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-              Sei cose che un consenso estetico deve dire
+              {t('consensiinformati.sei_cose_che_un_consenso_estetico')}
             </h2>
           </div>
           {/* Tre voci per schermata sul telefono (1.149px su 721 utili se
@@ -128,15 +122,15 @@ export default function ConsensiInformati() {
             <Reveal>
               <Foto
                 nome="iniezione-mento"
-                alt="Trattamento iniettivo al mento eseguito con guanti, la paziente distesa con gli occhi chiusi."
+                alt={t('consensiinformati.trattamento_iniettivo_al_mento_eseguito_con')}
                 proporzione="4 / 5"
               />
             </Reveal>
             <Reveal da="destra">
               <div>
-                <Occhiello>Gli errori ricorrenti</Occhiello>
+                <Occhiello>{t('consensiinformati.gli_errori_ricorrenti')}</Occhiello>
                 <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
-                  Quattro modi di avere un consenso che non regge
+                  {t('consensiinformati.quattro_modi_di_avere_un_consenso')}
                 </h2>
                 <ol className="mt-[var(--s-34)]">
                   {[
@@ -165,19 +159,15 @@ export default function ConsensiInformati() {
           <div className="aurea aurea-inversa">
             <Reveal>
               <div className="lg:order-2">
-                <Occhiello>Come lo risolve Fibonacci</Occhiello>
+                <Occhiello>{t('consensiinformati.come_lo_risolve_fibonacci')}</Occhiello>
                 <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
-                  Un modulo per procedura, firmato in studio
+                  {t('consensiinformati.un_modulo_per_procedura_firmato_in')}
                 </h2>
                 <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                  Scegli la procedura e il modulo esce con i rischi, le alternative e l&apos;esito
-                  atteso di quella. La paziente firma sul tablet dopo aver letto, tu controfirmi, e
-                  il documento entra nel registro con data e ora certe.
+                  {t('consensiinformati.scegli_la_procedura_e_il_modulo')}
                 </p>
                 <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg)', borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}>
-                  I modelli sono una struttura, non un parere. Il contenuto clinico va rivisto dal
-                  tuo specialista e dal tuo legale: l&apos;applicazione te lo ricorda ogni volta,
-                  non solo su questa pagina.
+                  {t('consensiinformati.i_modelli_sono_una_struttura_non')}
                 </p>
                 <p className="mt-[var(--s-34)]">
                   <Link href="/come-funziona" className="link-avanti">
@@ -190,7 +180,7 @@ export default function ConsensiInformati() {
             <Reveal>
               <Schermata
                 file="/schermate/catalogo-consensi.png"
-                alt="Il catalogo dei consensi di Fibonacci con i modelli raggruppati per categoria e l'avviso che i modelli vanno validati prima dell'uso."
+                alt={t('consensiinformati.il_catalogo_dei_consensi_di_fibonacci')}
                 className="lg:order-1"
                 didascalia="L'avviso in alto è nel prodotto, non solo nella documentazione."
               />

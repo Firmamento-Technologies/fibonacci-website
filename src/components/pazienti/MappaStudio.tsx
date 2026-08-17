@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import { IconaLuogo } from '@/components/pazienti/Icone'
 
 /* La mappa dello studio, **dentro la pagina**. — TD-95
@@ -55,7 +56,7 @@ export function MappaStudio({
           {indirizzo}, {comune}
         </p>
         <a href={mappaEsterna} target="_blank" rel="noopener noreferrer" className="btn btn-secondario">
-          Apri in Google Maps
+          {t('pazienti.mappastudio.apri_in_google_maps')}
         </a>
       </div>
     )
@@ -87,7 +88,7 @@ export function MappaStudio({
           </>
         )}
         <a href={mappaEsterna} target="_blank" rel="noopener noreferrer" className="collegamento-testo">
-          Apri in Google Maps per le indicazioni
+          {t('pazienti.mappastudio.apri_in_google_maps_per_le')}
         </a>
       </figcaption>
     </figure>

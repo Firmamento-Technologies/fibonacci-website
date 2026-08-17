@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useEffect, useState, type FormEvent } from 'react'
 import { useOrariLiberi } from '@/lib/orari-liberi'
 import { PRENOTA_API_URL } from '@/lib/site-config'
@@ -121,8 +122,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
   if (!PRENOTA_API_URL) {
     return (
       <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-        La prenotazione online da questa pagina non è ancora attiva: per un appuntamento si
-        chiama lo studio.
+        {t('pazienti.moduloprenotazione.la_prenotazione_online_da_questa_pagina')}
       </p>
     )
   }
@@ -222,7 +222,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
         {/* ⚖️ «Richiesta inviata», ⛔ mai «prenotato»: il paziente ha accettato,
             lo studio no — ed è la ragione per cui il sidecar crea
             l'appuntamento in stato `pending`. */}
-        <p style={{ fontWeight: 500 }}>Richiesta inviata.</p>
+        <p style={{ fontWeight: 500 }}>{t('pazienti.moduloprenotazione.richiesta_inviata')}</p>
         <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
           È lo studio a confermarla: ti richiamano al numero che hai lasciato. Finché non ti
           confermano, l’appuntamento <strong>non è preso</strong>.
@@ -236,7 +236,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
   if (statoOrari === 'cerco') {
     return (
       <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }} role="status">
-        Cerco gli orari liberi…
+        {t('pazienti.moduloprenotazione.cerco_gli_orari_liberi')}
       </p>
     )
   }
@@ -246,8 +246,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
        ne abbiamo ricevuti**, e le due cose si distinguono per il paziente. */
     return (
       <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-        Al momento non risultano orari prenotabili da questa pagina: per un appuntamento si
-        chiama lo studio.
+        {t('pazienti.moduloprenotazione.al_momento_non_risultano_orari_prenotabili')}
       </p>
     )
   }
@@ -270,7 +269,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
           liberi**, ⛔ non l'agenda dello studio: quella non esce, e non deve. */}
       <fieldset style={{ border: 0, padding: 0, margin: 0 }}>
         <legend className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Scegli un orario
+          {t('pazienti.moduloprenotazione.scegli_un_orario')}
         </legend>
         {/* 🔑 **Sette colonne, comprese quelle vuote.** Richiesta dell'utente:
             *«il calendario delle disponibilità e delle date e orari non
@@ -314,7 +313,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
                    spiega una volta cosa vuol dire davvero. */
                 <p className="calendario-vuoto">
                   <span aria-hidden="true" className="calendario-vuoto-barra" />
-                  <span className="sr-only">Nessun orario prenotabile</span>
+                  <span className="sr-only">{t('pazienti.moduloprenotazione.nessun_orario_prenotabile')}</span>
                 </p>
               )}
             </div>
@@ -327,8 +326,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
             leggere gli `Appointment` da un canale anonimo farebbe scaricare a
             chiunque nomi e telefoni dei pazienti. */}
         <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-muted)' }}>
-          Una barra grigia vuol dire che da questa pagina non risultano orari prenotabili in
-          quel giorno, non che lo studio sia chiuso. Per gli altri orari si chiama lo studio.
+          {t('pazienti.moduloprenotazione.una_barra_grigia_vuol_dire_che')}
         </p>
       </fieldset>
 
@@ -370,8 +368,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
 
           {/* ⚖️ Chi tratta i dati si dice **prima** di raccoglierli, non dopo. */}
           <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
-            Quello che scrivi va allo studio, che è il titolare del trattamento. Non lo usiamo
-            per altro.
+            {t('pazienti.moduloprenotazione.quello_che_scrivi_va_allo_studio')}
           </p>
 
           {stato === 'errore' && (

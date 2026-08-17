@@ -1,12 +1,13 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { TestoPaziente, Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
 
 export const metadata: Metadata = {
-  title: 'Il consenso informato: che cos’è, e che cosa non è',
+  title: t('pazienti.consensoinformato.meta_titolo_il_consenso_informato_che_cos_'),
   description:
-    'Nessun trattamento sanitario può iniziare senza il tuo consenso libero e informato. Hai diritto a sapere benefici, rischi, alternative e cosa succede se rifiuti, e puoi cambiare idea in qualsiasi momento. Legge 219/2017.',
+    t('pazienti.consensoinformato.meta_descrizione_nessun_trattamento_sanitario_p'),
   alternates: { canonical: '/pazienti/consenso-informato' },
 }
 
@@ -27,16 +28,14 @@ export default function Page() {
         titolo="Il consenso informato: che cos’è, e che cosa non è"
         sommario={
           <>
-            Non è un modulo da firmare in fretta in sala d’attesa. È il momento in cui ti
-            viene spiegato cosa ti stanno per fare, e in cui decidi tu.
+            {t('pazienti.consensoinformato.non_e_un_modulo_da_firmare')}
           </>
         }
       >
         <Sezione id="regola" titolo="La regola, in una riga">
           <p>
             <strong>
-              Nessun trattamento sanitario può essere iniziato o proseguito senza il tuo
-              consenso libero e informato.
+              {t('pazienti.consensoinformato.nessun_trattamento_sanitario_puo_essere_iniziato')}
             </strong>{' '}
             Lo dice la legge 219 del 2017, all’articolo 1. Vale per un intervento e vale per
             una puntura di acido ialuronico.
@@ -75,7 +74,7 @@ export default function Page() {
 
         <Sezione id="forma" titolo="Come deve essere raccolto">
           <p>
-            <strong>In forma scritta</strong> (o con una videoregistrazione, o con
+            <strong>{t('pazienti.consensoinformato.in_forma_scritta')}</strong> (o con una videoregistrazione, o con
             strumenti adatti a chi ha una disabilità), e <strong>finisce in cartella</strong>{' '}
             clinica. Se ti viene chiesto un consenso solo a voce, e nient’altro resta scritto
             da nessuna parte, manca un pezzo.
@@ -102,12 +101,12 @@ export default function Page() {
 
         <Sezione id="non-e" titolo="E che cosa NON è">
           <p>
-            <strong>Non è una liberatoria.</strong> Firmare non toglie responsabilità al
+            <strong>{t('pazienti.consensoinformato.non_e_una_liberatoria')}</strong> Firmare non toglie responsabilità al
             medico e non ti fa rinunciare a niente. Anzi: un consenso raccolto male è di per
             sé un problema del medico, indipendentemente da come è andato il trattamento.
           </p>
           <p className="mt-[var(--s-13)]">
-            <strong>Non è un foglio uguale per tutti.</strong> Un modulo che potrebbe essere
+            <strong>{t('pazienti.consensoinformato.non_e_un_foglio_uguale_per')}</strong> Un modulo che potrebbe essere
             firmato da chiunque per qualunque cosa non ti ha informato di niente.
           </p>
         </Sezione>
@@ -115,7 +114,7 @@ export default function Page() {
         <Sezione id="poi" titolo="Da qui">
           <p>
             <Link href="/pazienti/prima-di-un-trattamento" style={COLLEGAMENTO}>
-              Le domande da fare prima di un trattamento
+              {t('pazienti.consensoinformato.le_domande_da_fare_prima_di')}
             </Link>:
              le stesse cose, girate in domande che puoi porre in visita.
           </p>
@@ -125,7 +124,7 @@ export default function Page() {
               consenso deve essere un medico, poi *cosa* firmi. */}
           <p className="mt-[var(--s-13)]">
             <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
-              L’albo dei medici, e come si consulta
+              {t('pazienti.consensoinformato.l_albo_dei_medici_e_come')}
             </Link>
             : il consenso vale se chi te lo chiede è il medico che eseguirà il trattamento.
           </p>

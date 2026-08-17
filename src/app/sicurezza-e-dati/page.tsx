@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -6,9 +7,9 @@ import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 import { OSPITALITA, PRIVACY_EMAIL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: 'Sicurezza e dati',
+  title: t('sicurezzaedati.meta_titolo_sicurezza_e_dati'),
   description:
-    'Dove stanno i dati dei tuoi pazienti, chi può leggerli, come sono cifrati, cosa succede se smetti. La pagina che il medico prudente cerca e quasi mai trova.',
+    t('sicurezzaedati.meta_descrizione_dove_stanno_i_dati_dei_tuoi'),
   alternates: { canonical: '/sicurezza-e-dati' },
 }
 
@@ -59,10 +60,10 @@ const DOMANDE = [
 ] as const
 
 const DOCUMENTI = [
-  { titolo: 'Accordo sul trattamento dei dati', descr: 'L’art. 28 fra te, titolare, e noi, responsabili.', href: '/dpa' },
-  { titolo: 'Sub-responsabili', descr: 'Chi tocca i dati oltre a noi, e per fare cosa.', href: '/sub-responsabili' },
-  { titolo: 'Misure di sicurezza', descr: 'La scheda tecnica ex art. 32, in dettaglio.', href: '/sicurezza' },
-  { titolo: 'Informativa privacy', descr: 'Come trattiamo i dati di chi visita il sito e usa il servizio.', href: '/privacy' },
+  { titolo: t('sicurezzaedati.accordo_sul_trattamento_dei_dati'), descr: 'L’art. 28 fra te, titolare, e noi, responsabili.', href: '/dpa' },
+  { titolo: t('sicurezzaedati.sub_responsabili'), descr: 'Chi tocca i dati oltre a noi, e per fare cosa.', href: '/sub-responsabili' },
+  { titolo: t('sicurezzaedati.misure_di_sicurezza'), descr: 'La scheda tecnica ex art. 32, in dettaglio.', href: '/sicurezza' },
+  { titolo: t('sicurezzaedati.informativa_privacy'), descr: 'Come trattiamo i dati di chi visita il sito e usa il servizio.', href: '/privacy' },
 ] as const
 
 export default function SicurezzaEDati() {
@@ -116,13 +117,12 @@ export default function SicurezzaEDati() {
           <div className="aurea">
             <Reveal>
               <div>
-                <Occhiello>I documenti</Occhiello>
+                <Occhiello>{t('sicurezzaedati.i_documenti')}</Occhiello>
                 <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-                  Girali al tuo consulente prima di parlare con noi
+                  {t('sicurezzaedati.girali_al_tuo_consulente_prima_di')}
                 </h2>
                 <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                  Sono pubblici. Non c&apos;è un modulo da compilare per leggerli, perché un
-                  fornitore che nasconde il contratto dietro un modulo ti sta già dicendo qualcosa.
+                  {t('sicurezzaedati.sono_pubblici_non_c_e_un')}
                 </p>
                 <ul className="mt-[var(--s-34)]">
                   {DOCUMENTI.map((d) => (
@@ -146,7 +146,7 @@ export default function SicurezzaEDati() {
             <Reveal da="destra">
               <Foto
                 nome="operatrice-guanti"
-                alt="Operatrice sanitaria in camice bianco e guanti viola che si abbassa la mascherina, con le attestazioni incorniciate alle pareti dello studio."
+                alt={t('sicurezzaedati.operatrice_sanitaria_in_camice_bianco_e')}
                 proporzione="3 / 4"
               />
             </Reveal>
@@ -156,9 +156,9 @@ export default function SicurezzaEDati() {
 
       <section className="scuro fascia">
         <div className="gabbia gabbia-stretta">
-          <Occhiello chiaro>Se trovi un problema</Occhiello>
+          <Occhiello chiaro>{t('sicurezzaedati.se_trovi_un_problema')}</Occhiello>
           <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-            Segnalazioni di sicurezza
+            {t('sicurezzaedati.segnalazioni_di_sicurezza')}
           </h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>
             {PRIVACY_EMAIL ? (

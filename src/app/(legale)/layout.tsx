@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Header } from '@/components/chrome/Header'
 import { Footer } from '@/components/chrome/Footer'
@@ -17,11 +18,11 @@ export default function LayoutLegale({ children }: { children: React.ReactNode }
       <Header />
       <main id="contenuto" className="flex-1">
         <div className="gabbia" style={{ paddingTop: 'var(--s-55)', paddingBottom: 'var(--s-89)' }}>
-          <Occhiello>Documenti</Occhiello>
+          <Occhiello>{t('legale.layout.documenti')}</Occhiello>
 
           <div className="mt-[var(--s-34)] grid gap-[var(--s-55)] lg:grid-cols-[15rem_1fr]">
             <aside className="lg:sticky lg:self-start" style={{ top: 'var(--s-144)' }}>
-              <nav aria-label="Indice dei documenti">
+              <nav aria-label={t('legale.layout.indice_dei_documenti')}>
                 <ul>
                   {LEGAL_DOCS.map((d) => (
                     <li key={d.slug} style={{ borderTop: '1px solid var(--rule)' }}>

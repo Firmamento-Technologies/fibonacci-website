@@ -25,6 +25,7 @@
  * e 65 punti clinici sono ancora da completare. La didascalia lo dice.
  */
 
+import { t } from '@/lib/testo'
 import { useMemo, useState } from 'react'
 import catalogo from '@/lib/catalogo-consensi.json'
 
@@ -60,12 +61,12 @@ export function ProvaCatalogoConsensi() {
   return (
     <div className="prova-catalogo" data-testid="prova-catalogo-consensi">
       <p className="prova-viso__invito">
-        <strong>Provalo qui.</strong> Scrivi un trattamento che fai: se il modulo esiste,
+        <strong>{t('home.provacatalogoconsensi.provalo_qui')}</strong> Scrivi un trattamento che fai: se il modulo esiste,
         compare con la sua categoria.
       </p>
 
       <label className="prova-catalogo__campo">
-        <span className="sr-only">Cerca un trattamento nel catalogo dei consensi</span>
+        <span className="sr-only">{t('home.provacatalogoconsensi.cerca_un_trattamento_nel_catalogo_dei')}</span>
         <input
           type="search"
           value={q}
@@ -123,8 +124,7 @@ export function ProvaCatalogoConsensi() {
           «pronti all'uso» sarebbe il tipo di promessa che questo sito ha già
           pagato altrove. */}
       <p className="prova-viso__didascalia">
-        È il catalogo dell’applicazione, non un elenco scritto per il sito. I moduli sono
-        bozze: vanno validati dal tuo legale e completati nei punti clinici prima dell’uso.
+        {t('home.provacatalogoconsensi.e_il_catalogo_dell_applicazione_non')}
       </p>
     </div>
   )

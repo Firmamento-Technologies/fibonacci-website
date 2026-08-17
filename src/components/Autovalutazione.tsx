@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useState, useRef, useId } from 'react'
 import Link from 'next/link'
 import { DOMANDE_AUTO, type DomandaAuto } from '@/lib/autovalutazione'
@@ -95,22 +96,16 @@ export function Autovalutazione() {
         {esito.length === 0 ? (
           <>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-              Allora il problema che ti tiene sveglio non è la documentazione, e non abbiamo
-              niente da venderti oggi. Se il software che usi fa già tutte queste cose, tienilo:
-              cambiarlo ti costerebbe tempo per guadagnare poco.
+              {t('autovalutazione.allora_il_problema_che_ti_tiene')}
             </p>
             <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-              Una cosa sola vale la pena di verificare davvero, invece di darla per buona:
-              l’ultima domanda. Prova a esportare i tuoi dati oggi e guarda che cosa esce. È la
-              verifica che quasi nessuno fa finché non serve.
+              {t('autovalutazione.una_cosa_sola_vale_la_pena')}
             </p>
           </>
         ) : (
           <>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-              Non è un punteggio e non è una diagnosi: è l’elenco dei punti in cui, in base alle
-              tue risposte, la documentazione non parla da sola. Ognuno porta la fonte, così puoi
-              verificarlo senza fidarti di noi.
+              {t('autovalutazione.non_e_un_punteggio_e_non')}
             </p>
             <div className="mt-[var(--s-34)]">
               {esito.map((d) => (
@@ -135,16 +130,15 @@ export function Autovalutazione() {
         )}
 
         <p className="mt-[var(--s-34)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
-          Questa pagina non è un parere legale e non sostituisce il tuo. È una sintesi ragionata
-          delle domande che ricorrono quando una documentazione viene contestata.
+          {t('autovalutazione.questa_pagina_non_e_un_parere')}
         </p>
 
         <div className="mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
           <Link href="/richiedi-una-demo" className="btn btn-primario">
-            Parlane con noi
+            {t('autovalutazione.parlane_con_noi')}
           </Link>
           <button type="button" onClick={ricomincia} className="btn btn-secondario">
-            Rifai le domande
+            {t('autovalutazione.rifai_le_domande')}
           </button>
         </div>
       </div>
@@ -154,8 +148,7 @@ export function Autovalutazione() {
   return (
     <div>
       <p className="passo text-[15px]" style={{ color: 'var(--fg-faint)' }}>
-        Le risposte restano in questa pagina: non vengono inviate, non vengono salvate e non
-        servono a profilarti. Se ricarichi, si perdono.
+        {t('autovalutazione.le_risposte_restano_in_questa_pagina')}
       </p>
 
       <div className="mt-[var(--s-34)]">
@@ -187,7 +180,7 @@ export function Autovalutazione() {
               )}
               {manca && (
                 <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--accent-ink)' }}>
-                  Questa risposta manca.
+                  {t('autovalutazione.questa_risposta_manca')}
                 </p>
               )}
               <div className="mt-[var(--s-13)] flex flex-col gap-[var(--s-8)]">
@@ -235,7 +228,7 @@ export function Autovalutazione() {
           pezzo di pulsante e il ritmo si rompeva proprio dove si decide. */}
       <div className="passo mt-[var(--s-34)] flex flex-wrap items-center gap-[var(--s-13)]">
         <button type="button" onClick={calcola} className="btn btn-primario">
-          Vedi l&apos;esito
+          {t('autovalutazione.vedi_l_esito')}
         </button>
         <span className="text-[15px]" style={{ color: 'var(--fg-faint)' }}>
           {risposteDate} di {DOMANDE_AUTO.length}

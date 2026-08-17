@@ -25,6 +25,7 @@
  * promessa che questo sito ha già pagato.
  */
 
+import { t } from '@/lib/testo'
 import { useMemo, useState } from 'react'
 import dati from '@/lib/farmaci-aifa.json'
 
@@ -62,12 +63,12 @@ export function ProvaFarmaciAifa() {
   return (
     <div className="prova-catalogo" data-testid="prova-farmaci-aifa">
       <p className="prova-viso__invito">
-        <strong>Provalo qui.</strong> Cerca un principio attivo, o un codice ATC: il
+        <strong>{t('home.provafarmaciaifa.provalo_qui')}</strong> Cerca un principio attivo, o un codice ATC: il
         catalogo è quello di AIFA, sincronizzato ogni giorno.
       </p>
 
       <label className="prova-catalogo__campo">
-        <span className="sr-only">Cerca un principio attivo nel catalogo farmaci</span>
+        <span className="sr-only">{t('home.provafarmaciaifa.cerca_un_principio_attivo_nel_catalogo')}</span>
         <input
           type="search"
           value={q}

@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Reveal, RevealGruppo, RevealFiglio } from '@/components/ui/Reveal'
 import { Occhiello, Foto, TestaSezione, Freccia } from '@/components/ui/elementi'
@@ -13,20 +14,20 @@ import { BOLLINI_HOME } from '@/lib/bollini'
 
 const SERE = [
   {
-    titolo: 'Le schede si ricopiano la sera',
-    testo: 'Alle otto ribatti gli appunti del giorno, e di due pazienti non ricordi la diluizione.',
+    titolo: t('home.sezioni.le_schede_si_ricopiano_la_sera'),
+    testo: t('home.sezioni.alle_otto_ribatti_gli_appunti_del'),
   },
   {
-    titolo: 'Il consenso è sempre lo stesso',
-    testo: 'Un modulo buono per tutto, firmato in sala d’attesa. Non nomina i rischi di quel trattamento.',
+    titolo: t('home.sezioni.il_consenso_e_sempre_lo_stesso'),
+    testo: t('home.sezioni.un_modulo_buono_per_tutto_firmato'),
   },
   {
-    titolo: 'Le foto stanno nel telefono',
-    testo: 'Prima e dopo, nel rullino, sincronizzate su un servizio americano insieme a quelle di famiglia.',
+    titolo: t('home.sezioni.le_foto_stanno_nel_telefono'),
+    testo: t('home.sezioni.prima_e_dopo_nel_rullino_sincronizzate'),
   },
   {
-    titolo: 'Poi arriva la lettera',
-    testo: 'Otto mesi dopo devi dimostrare cosa avevi spiegato. Hai un modulo generico e la tua memoria.',
+    titolo: t('home.sezioni.poi_arriva_la_lettera'),
+    testo: t('home.sezioni.otto_mesi_dopo_devi_dimostrare_cosa'),
   },
 ]
 
@@ -38,7 +39,7 @@ export function Problema() {
           <Reveal className="passo">
             <Foto
               nome="cartella-a-mano"
-              alt="Le mani di un medico che compila a penna un modulo su una cartellina, con le mani della paziente appoggiate al tavolo dall'altra parte."
+              alt={t('home.sezioni.le_mani_di_un_medico_che')}
               proporzione="4 / 5"
               didascalia="La documentazione che dipende dalla memoria di stasera."
             />
@@ -46,7 +47,7 @@ export function Problema() {
 
           <div>
             <Reveal className="passo">
-              <Occhiello>Perché esistiamo</Occhiello>
+              <Occhiello>{t('home.sezioni.perche_esistiamo')}</Occhiello>
               <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
                 Nessuno apre uno studio per fare l&apos;<span className="accento-corsivo">archivista</span>
               </h2>
@@ -90,17 +91,17 @@ const PROCEDURE = [
   {
     nome: 'iniezione-viso',
     alt: 'Primo piano di un trattamento iniettivo alla glabella: mani con guanti azzurri reggono la siringa mentre la paziente tiene gli occhi chiusi.',
-    didascalia: 'Iniettivi',
+    didascalia: t('home.sezioni.iniettivi'),
   },
   {
     nome: 'laser-mento',
     alt: 'Trattamento laser sul mento: operatrice e paziente indossano occhiali protettivi, il manipolo appoggia sul gel.',
-    didascalia: 'Laser ed energie',
+    didascalia: t('home.sezioni.laser_ed_energie'),
   },
   {
     nome: 'trattamento-viso-pennello',
     alt: 'Applicazione di un prodotto sul viso con pennello durante un trattamento in ambulatorio.',
-    didascalia: 'Peeling e biorivitalizzazione',
+    didascalia: t('home.sezioni.peeling_e_biorivitalizzazione'),
   },
 ] as const
 
@@ -111,14 +112,13 @@ export function Procedure() {
         <Reveal className="passo">
           <div className="flex flex-wrap items-end justify-between gap-[var(--s-21)]">
             <div>
-              <Occhiello>Per chi è</Occhiello>
+              <Occhiello>{t('home.sezioni.per_chi_e')}</Occhiello>
               <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-                Uno studio di medicina estetica, non un ambulatorio qualsiasi
+                {t('home.sezioni.uno_studio_di_medicina_estetica_non')}
               </h2>
             </div>
             <p className="text-[15px]" style={{ color: 'var(--fg-muted)', maxWidth: '30ch' }}>
-              Un medico solo o un&apos;équipe fino a cinque. Se cerchi soprattutto cassa e
-              magazzino, non siamo noi: te lo diciamo qui invece che alla terza chiamata.
+              {t('home.sezioni.un_medico_solo_o_un_equipe')}
             </p>
           </div>
         </Reveal>
@@ -153,10 +153,10 @@ export function Procedure() {
  * schermate ne ha cinque. */
 const CAPACITA = [
   {
-    occhiello: 'Consensi',
-    titolo: 'Il modulo giusto per quel trattamento',
+    occhiello: t('home.sezioni.consensi'),
+    titolo: t('home.sezioni.il_modulo_giusto_per_quel_trattamento'),
     testo:
-      'Un modello per ogni procedura: tossina, filler, laser, peeling. Ognuno con i rischi e le alternative di quella procedura, non di «un trattamento».',
+      t('home.sezioni.un_modello_per_ogni_procedura_tossina'),
     aCosaServe: 'Alla domanda «me lo aveva detto?» risponde un documento che nomina quel rischio.',
     /* 🔄 Era `/schermate/catalogo-consensi.png`, l'immagine più usata del sito.
        Una lista in figura si guarda; qui la domanda del medico è UNA — «il
@@ -166,12 +166,12 @@ const CAPACITA = [
     alt: '',
   },
   {
-    occhiello: 'Sedute',
-    titolo: 'Prodotto, lotto, sede, unità',
+    occhiello: t('home.sezioni.sedute'),
+    titolo: t('home.sezioni.prodotto_lotto_sede_unita'),
     testo:
-      'Le aree si segnano sulla mappa del viso e del corpo. Prodotto e lotto restano legati alla seduta, non a un foglio da ritrovare.',
+      t('home.sezioni.le_aree_si_segnano_sulla_mappa'),
     aCosaServe: 'Al controllo dopo due mesi sai cosa avevi fatto, e il richiamo parte da lì.',
-    immagine: { tipo: 'foto', file: 'iniezione-mento', didascalia: 'Quello che entra in cartella mentre lo fai.' },
+    immagine: { tipo: 'foto', file: 'iniezione-mento', didascalia: t('home.sezioni.quello_che_entra_in_cartella_mentre') },
     alt: 'Trattamento iniettivo al mento eseguito con guanti, la paziente distesa con gli occhi chiusi.',
   },
   {
@@ -185,22 +185,22 @@ const CAPACITA = [
        la frase con cui si apre `complicanze.ts` nell'applicazione.
        ⚠️ Il registro accessi non sparisce dal prodotto né dal sito: resta
        raccontato in /sicurezza-e-dati, dove chi lo cerca lo cerca davvero. */
-    occhiello: 'Esiti e complicanze',
-    titolo: 'Se succede, c’è dove scriverlo',
+    occhiello: t('home.sezioni.esiti_e_complicanze'),
+    titolo: t('home.sezioni.se_succede_c_e_dove_scriverlo'),
     testo:
-      'Ecchimosi, nodulo, occlusione vascolare: dodici voci codificate, con gravità ed esito. Legate alla seduta che le ha originate, non a una nota libera.',
+      t('home.sezioni.ecchimosi_nodulo_occlusione_vascolare_dodici_voci'),
     aCosaServe:
       'Un consenso elenca i rischi; se poi si avvera e non è scritto da nessuna parte, in una contestazione manca proprio la seconda metà.',
     immagine: { tipo: 'prova', file: 'complicanze' },
     alt: '',
   },
   {
-    occhiello: 'Studio',
-    titolo: 'Agenda, pazienti, richiami',
+    occhiello: t('home.sezioni.studio'),
+    titolo: t('home.sezioni.agenda_pazienti_richiami'),
     testo:
-      'Le cose ordinarie fatte bene: calendario, ricerca per codice fiscale, promemoria di richiamo. Senza uscire dalla cartella.',
+      t('home.sezioni.le_cose_ordinarie_fatte_bene_calendario'),
     aCosaServe: 'Un posto solo. L’agenda e la cartella smettono di essere due programmi separati.',
-    immagine: { tipo: 'foto', file: 'trattamento-corpo', didascalia: 'La giornata dello studio, in un calendario solo.' },
+    immagine: { tipo: 'foto', file: 'trattamento-corpo', didascalia: t('home.sezioni.la_giornata_dello_studio_in_un') },
     alt: 'Trattamento corpo con manipolo a ultrasuoni sull’addome, eseguito in ambulatorio.',
   },
 ] as const
@@ -307,25 +307,22 @@ export function FotoCliniche() {
         <div className="aurea aurea-inversa">
           <Reveal>
             <div className="lg:order-2">
-              <Occhiello>Foto cliniche</Occhiello>
+              <Occhiello>{t('home.sezioni.foto_cliniche')}</Occhiello>
               <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
-                Il prima e dopo esce dal telefono
+                {t('home.sezioni.il_prima_e_dopo_esce_dal')}
               </h2>
               <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                Le fotografie si scattano dall&apos;applicazione e restano cifrate, legate alla
-                seduta e alla paziente. Non passano dal rullino, non finiscono in un backup
-                automatico, non si condividono per sbaglio.
+                {t('home.sezioni.le_fotografie_si_scattano_dall_applicazione')}
               </p>
               <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg)', borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}>
-                Una foto del viso di una paziente è un dato sanitario. Perderla è una violazione da
-                notificare, non un dispiacere.
+                {t('home.sezioni.una_foto_del_viso_di_una')}
               </p>
             </div>
           </Reveal>
           <Reveal da="destra">
             <Foto
               nome="specchio-risultato"
-              alt="Una donna seduta in ambulatorio guarda il proprio riflesso in uno specchio a mano dopo un trattamento estetico."
+              alt={t('home.sezioni.una_donna_seduta_in_ambulatorio_guarda')}
               proporzione="4 / 3"
               className="lg:order-1"
               didascalia="Il risultato si valuta sul confronto, e il confronto va conservato bene."
@@ -343,19 +340,19 @@ export function FotoCliniche() {
 
 const PROVE = [
   {
-    titolo: 'Il verificatore è pubblico',
-    testo: 'Chiunque carica un documento e controlla l’impronta. Senza account, e anche contro di noi.',
-    azione: { testo: 'Verifica un documento', href: '/verifica' },
+    titolo: t('home.sezioni.il_verificatore_e_pubblico'),
+    testo: t('home.sezioni.chiunque_carica_un_documento_e_controlla'),
+    azione: { testo: t('home.sezioni.verifica_un_documento'), href: '/verifica' },
   },
   {
-    titolo: 'I contratti si leggono prima',
-    testo: 'Trattamento dei dati, sub-responsabili, misure di sicurezza. Online, non dietro un modulo.',
-    azione: { testo: 'Leggi i documenti', href: '/sicurezza-e-dati' },
+    titolo: t('home.sezioni.i_contratti_si_leggono_prima'),
+    testo: t('home.sezioni.trattamento_dei_dati_sub_responsabili_misure'),
+    azione: { testo: t('home.sezioni.leggi_i_documenti'), href: '/sicurezza-e-dati' },
   },
   {
-    titolo: 'Diciamo cosa non c’è',
-    testo: 'Firma qualificata e conservazione a norma non sono attive, e infatti non sono nel listino.',
-    azione: { testo: 'Che cosa manca', href: '/domande#cosa-manca' },
+    titolo: t('home.sezioni.diciamo_cosa_non_c_e'),
+    testo: t('home.sezioni.firma_qualificata_e_conservazione_a_norma'),
+    azione: { testo: t('home.sezioni.che_cosa_manca'), href: '/domande#cosa-manca' },
   },
 ] as const
 
@@ -472,12 +469,12 @@ export function Obiezioni() {
         <div className="aurea">
           <Reveal>
             <div>
-              <Occhiello>Le domande scomode</Occhiello>
+              <Occhiello>{t('home.sezioni.le_domande_scomode')}</Occhiello>
               <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '14ch' }}>
-                Quelle che faresti tu
+                {t('home.sezioni.quelle_che_faresti_tu')}
               </h2>
               <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                Se una risposta ti sembra evasiva, scrivicelo. La riscriviamo.
+                {t('home.sezioni.se_una_risposta_ti_sembra_evasiva')}
               </p>
               <Link href="/domande" className="link-avanti mt-[var(--s-21)]">
                 Tutte le domande

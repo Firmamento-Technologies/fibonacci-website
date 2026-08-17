@@ -1,12 +1,13 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { TestoPaziente, Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
 
 export const metadata: Metadata = {
-  title: 'L’albo dei medici, e come si consulta',
+  title: t('pazienti.verificareunmedico.meta_titolo_l_albo_dei_medici_e_come'),
   description:
-    'La Federazione degli Ordini dei Medici pubblica l’albo nazionale: chiunque può cercare nome, cognome e città e vedere se un professionista è iscritto. È pubblico, è gratuito, e si fa in un minuto.',
+    t('pazienti.verificareunmedico.meta_descrizione_la_federazione_degli_ordini_de'),
   alternates: { canonical: '/pazienti/verificare-un-medico' },
 }
 
@@ -29,9 +30,7 @@ export default function Page() {
         titolo="L’albo dei medici, e come si consulta"
         sommario={
           <>
-            Il registro degli iscritti è pubblico e lo tiene la Federazione degli Ordini dei
-            Medici. Chiunque può consultarlo, in un minuto e gratis: è la ragione per cui su
-            queste pagine il numero d’iscrizione è scritto in chiaro.
+            {t('pazienti.verificareunmedico.il_registro_degli_iscritti_e_pubblico')}
           </>
         }
       >
@@ -53,13 +52,11 @@ export default function Page() {
               esercita.
             </li>
             <li style={{ padding: 'var(--s-5) 0' }}>
-              Se compare, è iscritto a un Ordine provinciale. Se non compare, chiedi
-              spiegazioni prima di prenotare.
+              {t('pazienti.verificareunmedico.se_compare_e_iscritto_a_un')}
             </li>
           </ol>
           <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
-            I dati arrivano dagli Ordini provinciali, che sono responsabili di tenerli
-            aggiornati.
+            {t('pazienti.verificareunmedico.i_dati_arrivano_dagli_ordini_provinciali')}
           </p>
         </Sezione>
 
@@ -74,12 +71,12 @@ export default function Page() {
 
         <Sezione id="cosa-dice" titolo="Che cosa ti dice l’iscrizione, e che cosa no">
           <p>
-            <strong>Ti dice</strong> che è un medico abilitato, e che un Ordine risponde
+            <strong>{t('pazienti.verificareunmedico.ti_dice')}</strong> che è un medico abilitato, e che un Ordine risponde
             della sua condotta: se sbaglia, c’è un procedimento disciplinare che lo
             riguarda.
           </p>
           <p className="mt-[var(--s-13)]">
-            <strong>Non ti dice</strong> quale formazione abbia in medicina estetica. In
+            <strong>{t('pazienti.verificareunmedico.non_ti_dice')}</strong> quale formazione abbia in medicina estetica. In
             Italia i percorsi in questo campo sono post-laurea (scuole, corsi, società
             scientifiche) e non compaiono come una specializzazione nell’albo. È
             esattamente per questo che la Federazione dice di verificare l’iscrizione{' '}
@@ -100,8 +97,7 @@ export default function Page() {
             nessun portale scrive. */}
         <Sezione id="noi" titolo="Il nostro impegno, e il suo limite">
           <p>
-            <strong>L’iscrizione all’Ordine è la condizione per pubblicare una pagina su
-            Fibonacci.</strong> Ordine e numero stanno <strong>in pagina</strong>, non
+            <strong>{t('pazienti.verificareunmedico.l_iscrizione_all_ordine_e_la')}</strong> Ordine e numero stanno <strong>in pagina</strong>, non
             nascosti in fondo: non perché tocchi a te controllarli, ma perché quello che
             diciamo resti <strong>riscontrabile</strong> da chiunque, te compreso.
           </p>
@@ -113,20 +109,18 @@ export default function Page() {
             un bollino.
           </p>
           <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
-            Per questo su queste pagine ⛔ non troverai nessuna spunta di «profilo
-            verificato»: un simbolo che promette più di quanto il controllo dimostri è peggio
-            di nessun simbolo.
+            {t('pazienti.verificareunmedico.per_questo_su_queste_pagine_non')}
           </p>
         </Sezione>
 
         <Sezione id="poi" titolo="Da qui">
           <p>
             <Link href="/pazienti/prima-di-un-trattamento" style={COLLEGAMENTO}>
-              Le domande da fare prima di un trattamento
+              {t('pazienti.verificareunmedico.le_domande_da_fare_prima_di')}
             </Link>{' '}
             ·{' '}
             <Link href="/pazienti/consenso-informato" style={COLLEGAMENTO}>
-              Che cos’è il consenso informato
+              {t('pazienti.verificareunmedico.che_cos_e_il_consenso_informato')}
             </Link>
           </p>
         </Sezione>

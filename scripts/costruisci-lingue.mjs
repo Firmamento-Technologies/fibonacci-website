@@ -28,13 +28,33 @@
  *       node scripts/costruisci-lingue.mjs --solo=de       una lingua sola
  */
 import { execFileSync } from 'node:child_process'
-import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, statSync } from 'node:fs'
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync } from 'node:fs'
+import { tmpdir } from 'node:os'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const RADICE = join(dirname(fileURLToPath(import.meta.url)), '..')
 const OUT = join(RADICE, 'out')
-const APPOGGIO = join(RADICE, '.out-lingue')
+
+/**
+ * La cartella d'appoggio sta **fuori dal progetto**, e non è un dettaglio.
+ *
+ * 🔴 Prima era `.out-lingue/` dentro la radice, e una costruzione interrotta la
+ * lasciava lì: **52 MB e 123 pagine costruite**. Tailwind v4 scandisce da sé
+ * tutto ciò che non è ignorato, quindi da quel momento **ogni** build leggeva
+ * anche l'HTML e il JavaScript generati e ne ricavava un candidato che produce
+ * CSS non valido.
+ *
+ * ⚠️ E l'errore era ingannevole al punto da costare un'ora:
+ *     CssSyntaxError: src/app/globals.css:2:19614 Missed semicolon
+ * cioè una posizione **che in quel file non esiste** (la riga 2 è vuota, il
+ * file ha 89.437 caratteri in 2.365 righe). Puntava al sorgente sbagliato, e
+ * il difetto compariva **solo dopo un fallimento**, quando la cache veniva
+ * pulita: le costruzioni riuscite prima erano riuscite grazie alla cache.
+ *
+ * ⇒ fuori dall'albero, e ripulita anche quando lo script muore.
+ */
+const APPOGGIO = join(tmpdir(), `fibonacci-lingue-${process.pid}`)
 
 const LINGUE = ['it', 'en', 'es', 'fr', 'de']
 const solo = process.argv.find((a) => a.startsWith('--solo='))?.split('=')[1]
@@ -77,6 +97,11 @@ function verifica(lingua, pagine, attese) {
   return testo
 }
 
+// ⛔ Qualunque cosa succeda, l'appoggio sparisce: e' la riga che chiude il
+// difetto descritto sopra. `exit` copre anche le eccezioni e Ctrl-C.
+process.on('exit', () => rmSync(APPOGGIO, { recursive: true, force: true }))
+for (const segnale of ['SIGINT', 'SIGTERM']) process.on(segnale, () => process.exit(1))
+
 let attese = null
 let campioneItaliano = ''
 
@@ -96,7 +121,8 @@ for (const lingua of LINGUE) {
     campioneItaliano = testo
     // Da parte, o la costruzione successiva lo cancella.
     rmSync(APPOGGIO, { recursive: true, force: true })
-    renameSync(OUT, APPOGGIO)
+    cpSync(OUT, APPOGGIO, { recursive: true })
+    rmSync(OUT, { recursive: true, force: true })
     console.log(`✅ it: ${pagine.length} pagine, messe da parte`)
     continue
   }
@@ -117,7 +143,10 @@ for (const lingua of LINGUE) {
 }
 
 rmSync(OUT, { recursive: true, force: true })
-renameSync(APPOGGIO, OUT)
+// ⚠️ `cpSync` e non `renameSync`: l'appoggio ora sta in `/tmp`, che su questa
+// macchina puo' essere un altro volume, e `rename` fra volumi da' EXDEV.
+cpSync(APPOGGIO, OUT, { recursive: true })
+rmSync(APPOGGIO, { recursive: true, force: true })
 
 // ⚠️ `hreflang` va DOPO l'assemblaggio, non nel `postbuild` di ogni lingua:
 // per collegare le versioni deve vederle tutte e cinque nello stesso `out/`.

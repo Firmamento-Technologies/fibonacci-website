@@ -26,6 +26,7 @@
  *   · la farmacovigilanza NON si trasmette da qui: si prepara il contenuto.
  */
 
+import { t } from '@/lib/testo'
 import { useState } from 'react'
 import dati from '@/lib/prodotto.json'
 
@@ -44,11 +45,11 @@ export function ProvaComplicanze() {
   return (
     <div className="prova-catalogo" data-testid="prova-complicanze">
       <p className="prova-viso__invito">
-        <strong>Provalo qui.</strong> Scegli cosa è successo: sotto compare la riga che
+        <strong>{t('home.provacomplicanze.provalo_qui')}</strong> Scegli cosa è successo: sotto compare la riga che
         finisce in cartella, con il suo codice.
       </p>
 
-      <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label="Complicanza">
+      <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label={t('home.provacomplicanze.complicanza')}>
         {COMPLICANZE.map((x) => (
           <button
             key={x.codice}
@@ -76,7 +77,7 @@ export function ProvaComplicanze() {
             {/* I due assi che restano: chi decide è il medico, e si vede. */}
             <div className="prova-compl__scelte">
               <label>
-                <span>Gravità</span>
+                <span>{t('home.provacomplicanze.gravita')}</span>
                 <select value={grav} onChange={(e) => setGrav(e.target.value)}>
                   {GRAVITA.map((g) => (
                     <option key={g.codice} value={g.codice}>{g.etichetta}</option>
@@ -84,7 +85,7 @@ export function ProvaComplicanze() {
                 </select>
               </label>
               <label>
-                <span>Esito</span>
+                <span>{t('home.provacomplicanze.esito')}</span>
                 <select value={esito} onChange={(e) => setEsito(e.target.value)}>
                   {ESITI.map((x) => (
                     <option key={x.codice} value={x.codice}>{x.etichetta}</option>
@@ -109,7 +110,7 @@ export function ProvaComplicanze() {
       </div>
 
       <p className="prova-viso__didascalia">
-        Diventa un <code>AdverseEvent</code> FHIR legato alla seduta che l’ha originata.
+        Diventa un <code>{t('home.provacomplicanze.adverseevent')}</code> FHIR legato alla seduta che l’ha originata.
         ⛔ La gravità la scegli tu: il software non la deduce. E la segnalazione di
         farmacovigilanza resta un tuo atto: qui si prepara il contenuto, non si trasmette
         niente.

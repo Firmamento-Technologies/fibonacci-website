@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
@@ -5,9 +6,9 @@ import { TestoPaziente, Sezione, COLLEGAMENTO } from '@/components/pazienti/Test
 import { SOCIETA, PRIVACY_EMAIL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: 'I tuoi dati su queste pagine',
+  title: t('pazienti.privacy.meta_titolo_i_tuoi_dati_su_queste_pagine'),
   description:
-    'Nessun cookie di tracciamento, nessun account, nessuna profilazione. Quando chiedi un appuntamento i dati vanno allo studio che hai scelto, che è il titolare del trattamento.',
+    t('pazienti.privacy.meta_descrizione_nessun_cookie_di_tracciamento_'),
   alternates: { canonical: '/pazienti/privacy' },
 }
 
@@ -44,8 +45,7 @@ export default function Page() {
         titolo="I tuoi dati su queste pagine"
         sommario={
           <>
-            La versione breve: finché leggi, non prendiamo niente. Quando chiedi un
-            appuntamento, quello che scrivi va allo studio che hai scelto.
+            {t('pazienti.privacy.la_versione_breve_finche_leggi_non')}
           </>
         }
       >
@@ -64,22 +64,21 @@ export default function Page() {
             arriva a loro**, ed è esattamente ciò che va detto. */}
         <Sezione id="mentre-leggi" titolo="Mentre leggi">
           <p>
-            <strong>Nessun cookie di tracciamento, nessun account, nessuna profilazione.</strong>{' '}
+            <strong>{t('pazienti.privacy.nessun_cookie_di_tracciamento_nessun_account')}</strong>{' '}
             Non c’è un banner dei cookie perché non c’è niente da farti accettare: i caratteri
             tipografici sono ospitati qui, non su un servizio esterno, e in queste pagine non
             ci sono video incorporati né contatori di visite.
           </p>
           <p className="mt-[var(--s-13)]">
-            <strong>Con un’eccezione, ed è la mappa.</strong> Sulla pagina di uno studio c’è
-            una mappa di <em>OpenStreetMap</em> che mostra dove si trova: quando apri quella
+            <strong>{t('pazienti.privacy.con_un_eccezione_ed_e_la')}</strong> Sulla pagina di uno studio c’è
+            una mappa di <em>{t('pazienti.privacy.openstreetmap')}</em> che mostra dove si trova: quando apri quella
             pagina, il tuo browser si collega a loro e il tuo indirizzo IP arriva lì. Non
             lasciano cookie, e abbiamo fatto in modo che <strong>non ricevano l’indirizzo
             della pagina</strong>: non possono sapere quale medico stavi guardando.
             È l’unico collegamento a un servizio esterno in tutto questo sito.
           </p>
           <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
-            Se apri un collegamento verso un sito esterno (il registro degli Ordini, una
-            mappa), da quel momento vale la privacy di quel sito, non la nostra.
+            {t('pazienti.privacy.se_apri_un_collegamento_verso_un')}
           </p>
         </Sezione>
 
@@ -91,9 +90,7 @@ export default function Page() {
             lui.
           </p>
           <p className="mt-[var(--s-13)]">
-            Noi facciamo da fornitore tecnico: teniamo in piedi la pagina e il collegamento
-            con la sua agenda. ⛔ Non usiamo quei dati per altro, non li rivendiamo e non li
-            usiamo per profilarti.
+            {t('pazienti.privacy.noi_facciamo_da_fornitore_tecnico_teniamo')}
           </p>
           <p className="mt-[var(--s-13)]">
             Una richiesta di appuntamento <strong>non è una prenotazione confermata</strong>:
@@ -128,8 +125,7 @@ export default function Page() {
           </p>
           {!SOCIETA.costituita && (
             <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
-              La società che gestisce il servizio è in costituzione: i suoi dati compariranno
-              qui appena sarà iscritta al registro delle imprese.
+              {t('pazienti.privacy.la_societa_che_gestisce_il_servizio')}
             </p>
           )}
         </Sezione>
@@ -137,7 +133,7 @@ export default function Page() {
         <Sezione id="poi" titolo="Da qui">
           <p>
             <Link href="/pazienti" style={COLLEGAMENTO}>
-              Torna all’inizio
+              {t('pazienti.privacy.torna_all_inizio')}
             </Link>
           </p>
         </Sezione>

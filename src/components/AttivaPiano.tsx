@@ -28,6 +28,7 @@
 // `tax_id_collection`), che e' gia' un modulo e ha gia' la validazione.
 // Duplicarli qui vorrebbe dire farli scrivere due volte.
 
+import { t } from '@/lib/testo'
 import { useState } from 'react'
 import { BILLING_URL } from '@/lib/site-config'
 import type { Piano } from '@/lib/listino'
@@ -99,7 +100,7 @@ export function AttivaPiano({ piano, ricorrenza, suScuro = false }: Props) {
   return (
     <form onSubmit={attiva} className="mt-[var(--s-13)] space-y-[var(--s-8)]">
       <label className="block text-[13px]" htmlFor={`email-${piano.chiave}`}>
-        La tua email
+        {t('attivapiano.la_tua_email')}
       </label>
       <input
         id={`email-${piano.chiave}`}
@@ -119,7 +120,7 @@ export function AttivaPiano({ piano, ricorrenza, suScuro = false }: Props) {
       />
 
       <label className="block text-[13px]" htmlFor={`studio-${piano.chiave}`}>
-        Nome dello studio
+        {t('attivapiano.nome_dello_studio')}
       </label>
       <input
         id={`studio-${piano.chiave}`}
@@ -143,8 +144,7 @@ export function AttivaPiano({ piano, ricorrenza, suScuro = false }: Props) {
           quella persona ti scrive. Prometterle «subito» sarebbe la promessa
           che il self-service non può mantenere. */}
       <p className="text-[13px]" style={{ color: suScuro ? 'var(--on-ink-muted)' : 'var(--fg-muted)' }}>
-        Dopo il pagamento ti scriviamo per la migrazione dei dati e la
-        formazione, comprese nel prezzo.
+        {t('attivapiano.dopo_il_pagamento_ti_scriviamo_per')}
       </p>
 
       {errore && (

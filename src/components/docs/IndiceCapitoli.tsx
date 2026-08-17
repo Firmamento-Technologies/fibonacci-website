@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useId, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { CAPITOLI, DOCS_IN_ORDINE } from '@/lib/docs-data'
@@ -67,16 +68,16 @@ export function IndiceCapitoli({ slugCorrente }: { slugCorrente?: string }) {
         id={idIndice}
         className="manuale__indice"
         data-aperto={aperto ? 'si' : 'no'}
-        aria-label="Capitoli del manuale"
+        aria-label={t('docs.indicecapitoli.capitoli_del_manuale')}
       >
         <div className="manuale__cerca">
-          <label className="sr-only" htmlFor={idCampo}>Cerca fra i capitoli</label>
+          <label className="sr-only" htmlFor={idCampo}>{t('docs.indicecapitoli.cerca_fra_i_capitoli')}</label>
           <input
             id={idCampo}
             type="search"
             value={filtro}
             onChange={(e) => setFiltro(e.target.value)}
-            placeholder="Cerca un capitolo"
+            placeholder={t('docs.indicecapitoli.cerca_un_capitolo')}
             autoComplete="off"
           />
         </div>
@@ -120,7 +121,7 @@ export function IndiceCapitoli({ slugCorrente }: { slugCorrente?: string }) {
         {trovate === 0 && (
           <p className="manuale__nessuno">
             Nessun capitolo per «{filtro.trim()}».{' '}
-            <Link href="/domande">Chiedilo all’assistente</Link>.
+            <Link href="/domande">{t('docs.indicecapitoli.chiedilo_all_assistente')}</Link>.
           </p>
         )}
       </nav>

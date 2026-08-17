@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -36,10 +37,10 @@ import { Logo } from '@/components/Logo'
  *
  * ⚠️ Chi vuole aggiungere la quinta: prima misuri quale delle quattro toglie. */
 const VOCI = [
-  { href: '/come-funziona', testo: 'Come funziona' },
-  { href: '/consensi-informati', testo: 'Consensi' },
-  { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
-  { href: '/prezzi', testo: 'Prezzi' },
+  { href: '/come-funziona', testo: t('chrome.header.come_funziona') },
+  { href: '/consensi-informati', testo: t('chrome.header.consensi') },
+  { href: '/sicurezza-e-dati', testo: t('chrome.header.sicurezza_e_dati') },
+  { href: '/prezzi', testo: t('chrome.header.prezzi') },
 ] as const
 
 export function Header() {
@@ -92,7 +93,7 @@ export function Header() {
             cambia l'altro — e il presidio legge `--h-intestazione`, quindi
             una modifica sbagliata si vede subito. */}
         <div className="flex items-center justify-between" style={{ height: 'var(--h-barra)' }}>
-          <Link href="/" className="flex items-center gap-[var(--s-13)]" aria-label="Fibonacci, home">
+          <Link href="/" className="flex items-center gap-[var(--s-13)]" aria-label={t('chrome.header.fibonacci_home')}>
             <Logo />
           </Link>
 
@@ -100,7 +101,7 @@ export function Header() {
               marcata `aria-current` e sottolineata. Baymard lo registra come
               mancante sul **95% dei siti** provati, ed è la prima cosa che
               serve a chi arriva da una ricerca e non sa dove è atterrato. */}
-          <nav className="hidden lg:flex items-center gap-[var(--s-34)]" aria-label="Principale">
+          <nav className="hidden lg:flex items-center gap-[var(--s-34)]" aria-label={t('chrome.header.principale')}>
             {VOCI.map((v) => {
               const qui = percorsoCorrente === v.href
               return (
@@ -145,11 +146,11 @@ export function Header() {
                 rel="noopener"
                 style={{ borderLeft: '1px solid var(--rule)', paddingLeft: 'var(--s-21)', marginLeft: 'var(--s-8)' }}
               >
-                Accedi
+                {t('chrome.header.accedi')}
               </a>
             )}
             <Link href="/richiedi-una-demo" className="btn btn-primario">
-              Richiedi una demo
+              {t('chrome.header.richiedi_una_demo')}
             </Link>
           </div>
 
@@ -181,7 +182,7 @@ export function Header() {
               style={{ marginRight: 'var(--s-8)', paddingInline: 'var(--s-13)', fontSize: 13 }}
               rel="noopener"
             >
-              Entra nella demo
+              {t('chrome.header.entra_nella_demo')}
             </a>
           ) : (
             <Link
@@ -189,7 +190,7 @@ export function Header() {
               className="btn btn-primario lg:hidden"
               style={{ marginRight: 'var(--s-8)', paddingInline: 'var(--s-13)', fontSize: 13 }}
             >
-              Richiedi una demo
+              {t('chrome.header.richiedi_una_demo')}
             </Link>
           )}
 
@@ -252,7 +253,7 @@ export function Header() {
             borderTop: '1px solid var(--rule)',
           }}
         >
-          <nav className="gabbia" style={{ paddingBlock: 'var(--s-34)' }} aria-label="Principale, mobile">
+          <nav className="gabbia" style={{ paddingBlock: 'var(--s-34)' }} aria-label={t('chrome.header.principale_mobile')}>
             {VOCI.map((v, i) => (
               <Link
                 key={v.href}
@@ -272,16 +273,16 @@ export function Header() {
             ))}
             <div className="flex flex-col gap-[var(--s-13)]" style={{ marginTop: 'var(--s-34)' }}>
               <Link href="/richiedi-una-demo" className="btn btn-primario" onClick={() => setMenuAperto(false)}>
-                Richiedi una demo
+                {t('chrome.header.richiedi_una_demo')}
               </Link>
               {SIGNUP_URL && (
                 <a href={SIGNUP_URL} className="btn btn-secondario" rel="noopener">
-                  Registrati
+                  {t('chrome.header.registrati')}
                 </a>
               )}
               {APP_URL && (
                 <a href={APP_URL} className="btn btn-secondario" rel="noopener">
-                  Accedi
+                  {t('chrome.header.accedi')}
                 </a>
               )}
             </div>

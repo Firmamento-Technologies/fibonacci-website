@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { useOrariLiberi } from '@/lib/orari-liberi'
@@ -145,7 +146,7 @@ export function VoceElenco({
                       {indirizzoScritto}
                     </a>
                   ) : (
-                    <span>Indirizzo non pubblicato</span>
+                    <span>{t('pazienti.voceelenco.indirizzo_non_pubblicato')}</span>
                   )}
                   {/* 🔑 **La distanza sta accanto all'indirizzo, non altrove**:
                       è la stessa informazione — *dove* — vista da chi guarda.

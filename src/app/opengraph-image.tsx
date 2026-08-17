@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import { ImageResponse } from 'next/og'
 
 export const dynamic = 'force-static'
@@ -59,7 +60,7 @@ export default async function OGImage() {
             display: 'flex',
           }}
         >
-          La cartella clinica per la medicina estetica
+          {t('opengraphimage.la_cartella_clinica_per_la_medicina')}
         </div>
         <div
           style={{
@@ -70,7 +71,7 @@ export default async function OGImage() {
             display: 'flex',
           }}
         >
-          Dettatura AI, consensi inclusi, GDPR by design.
+          {t('opengraphimage.dettatura_ai_consensi_inclusi_gdpr_by')}
         </div>
         <div
           style={{

@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useRef, useState, useSyncExternalStore } from 'react'
 import { useScroll, useMotionValueEvent, useReducedMotion } from 'framer-motion'
 import { Occhiello } from '@/components/ui/elementi'
@@ -35,9 +36,9 @@ interface Tappa {
 const TAPPE: Tappa[] = [
   {
     chiave: 'anamnesi',
-    etichetta: 'Anamnesi',
-    titolo: 'Parli, e la scheda si riempie',
-    testo: 'La dettatura compila i campi mentre visiti. Resta tutto modificabile: non firma niente al posto tuo.',
+    etichetta: t('home.documentochesicompone.anamnesi'),
+    titolo: t('home.documentochesicompone.parli_e_la_scheda_si_riempie'),
+    testo: t('home.documentochesicompone.la_dettatura_compila_i_campi_mentre'),
     righe: [
       { campo: 'Paziente', valore: 'Bertini Laura, 34 anni' },
       { campo: 'Allergie', valore: 'Lidocaina', forte: true },
@@ -46,9 +47,9 @@ const TAPPE: Tappa[] = [
   },
   {
     chiave: 'aree',
-    etichetta: 'Aree',
-    titolo: 'Dove hai iniettato, e quanto',
-    testo: 'I punti si segnano sulla mappa del viso. Prodotto, lotto e unità restano legati alla seduta.',
+    etichetta: t('home.documentochesicompone.aree'),
+    titolo: t('home.documentochesicompone.dove_hai_iniettato_e_quanto'),
+    testo: t('home.documentochesicompone.i_punti_si_segnano_sulla_mappa'),
     righe: [
       { campo: 'Trattamento', valore: 'Tossina botulinica tipo A' },
       { campo: 'Sedi', valore: 'Glabella, fronte', forte: true },
@@ -57,9 +58,9 @@ const TAPPE: Tappa[] = [
   },
   {
     chiave: 'rischi',
-    etichetta: 'Rischi',
-    titolo: 'La parte che poi serve',
-    testo: 'Rischi, alternative, e cosa succede a non fare niente. È quello che un modulo scaricato non ha.',
+    etichetta: t('home.documentochesicompone.rischi'),
+    titolo: t('home.documentochesicompone.la_parte_che_poi_serve'),
+    testo: t('home.documentochesicompone.rischi_alternative_e_cosa_succede_a'),
     righe: [
       { campo: 'Rischi', valore: 'Ecchimosi, ptosi transitoria, asimmetria' },
       { campo: 'Alternative', valore: 'Nessun trattamento, filler, laser' },
@@ -68,9 +69,9 @@ const TAPPE: Tappa[] = [
   },
   {
     chiave: 'firma',
-    etichetta: 'Firma',
-    titolo: 'Firma lei, firmi tu, in studio',
-    testo: 'Nessuno esce con un modulo da riportare la prossima volta, che poi non tornerà mai.',
+    etichetta: t('home.documentochesicompone.firma'),
+    titolo: t('home.documentochesicompone.firma_lei_firmi_tu_in_studio'),
+    testo: t('home.documentochesicompone.nessuno_esce_con_un_modulo_da'),
     righe: [
       { campo: 'Paziente', valore: 'Firmato alle 09:47' },
       { campo: 'Medico', valore: 'Controfirmato alle 09:48' },
@@ -79,9 +80,9 @@ const TAPPE: Tappa[] = [
   },
   {
     chiave: 'sigillo',
-    etichetta: 'Sigillo',
-    titolo: 'Da qui, ogni ritocco si vede',
-    testo: 'Ogni riga porta l’impronta della precedente. Cambiarne una spezza la catena, e chiunque può accorgersene.',
+    etichetta: t('home.documentochesicompone.sigillo'),
+    titolo: t('home.documentochesicompone.da_qui_ogni_ritocco_si_vede'),
+    testo: t('home.documentochesicompone.ogni_riga_porta_l_impronta_della'),
     righe: [
       { campo: 'Impronta', valore: '9f2c1a4e…08d7b3', forte: true },
       { campo: 'Anello prima', valore: 'e71b04c9…ba2f10' },
@@ -184,13 +185,13 @@ export function DocumentoCheSiCompone() {
       ref={contenitore}
       id="il-documento"
       style={{ height: `${TAPPE.length * 100}vh`, position: 'relative' }}
-      aria-label="Come si compone il documento"
+      aria-label={t('home.documentochesicompone.come_si_compone_il_documento')}
     >
       <div className="sticky top-0 flex items-center" style={{ height: '100vh' }}>
         <div className="gabbia w-full">
           <div className="grid gap-[var(--s-55)] lg:grid-cols-[1fr_1.1fr] lg:items-center">
             <div>
-              <Occhiello>Il documento che regge</Occhiello>
+              <Occhiello>{t('home.documentochesicompone.il_documento_che_regge')}</Occhiello>
 
               {/* Griglia a una cella sola: i cinque testi si sovrappongono in
                   `1 / 1`, così la colonna non cambia altezza a ogni tappa. */}
@@ -280,7 +281,7 @@ function Documento({ righeScritte }: { righeScritte: number }) {
         className="flex items-baseline justify-between"
         style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 'var(--s-13)' }}
       >
-        <p className="numero">CONSENSO INFORMATO</p>
+        <p className="numero">{t('home.documentochesicompone.consenso_informato')}</p>
         <p className="numero">30/01/2026</p>
       </div>
 
@@ -332,9 +333,9 @@ function VersioneStatica() {
             scheda, e il ritmo «una cosa per volta» si rompeva proprio
             all'inizio, dove si decide se continuare. */}
         <div className="passo">
-        <Occhiello>Il documento che regge</Occhiello>
+        <Occhiello>{t('home.documentochesicompone.il_documento_che_regge')}</Occhiello>
         <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-          Come si compone un consenso
+          {t('home.documentochesicompone.come_si_compone_un_consenso')}
         </h2>
         </div>
         <div className="mt-[var(--s-55)] grid gap-[var(--s-21)] md:grid-cols-2 lg:grid-cols-3">

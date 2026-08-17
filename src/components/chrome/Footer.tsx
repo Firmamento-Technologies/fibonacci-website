@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
 import { BolliniPiede } from '@/components/Bollini'
@@ -21,37 +22,37 @@ import { SOCIETA, CONTACT_EMAIL, SUPPORT_EMAIL, PRIVACY_EMAIL, APP_URL, SIGNUP_U
  * cosa firmo*) si scorrono; ventinove voci in tre mucchi disuguali no. */
 const COLONNE = [
   {
-    titolo: 'Il prodotto',
+    titolo: t('chrome.footer.il_prodotto'),
     voci: [
-      { href: '/come-funziona', testo: 'Come funziona' },
-      { href: '/consensi-informati', testo: 'Consenso informato' },
-      { href: '/sicurezza-e-dati', testo: 'Sicurezza e dati' },
-      { href: '/conformita-europea', testo: 'Conformità europea' },
-      { href: '/verifica', testo: 'Verifica un documento' },
-      { href: '/prezzi', testo: 'Prezzi' },
+      { href: '/come-funziona', testo: t('chrome.footer.come_funziona') },
+      { href: '/consensi-informati', testo: t('chrome.footer.consenso_informato') },
+      { href: '/sicurezza-e-dati', testo: t('chrome.footer.sicurezza_e_dati') },
+      { href: '/conformita-europea', testo: t('chrome.footer.conformita_europea') },
+      { href: '/verifica', testo: t('chrome.footer.verifica_un_documento') },
+      { href: '/prezzi', testo: t('chrome.footer.prezzi') },
     ],
   },
   {
-    titolo: 'Per decidere',
+    titolo: t('chrome.footer.per_decidere'),
     voci: [
-      { href: '/che-software-serve', testo: 'Che software serve' },
-      { href: '/autovalutazione', testo: 'La tua documentazione regge?' },
-      { href: '/integrazioni', testo: 'Integrazioni' },
-      { href: '/domande', testo: 'Domande frequenti' },
-      { href: '/intelligenza-artificiale', testo: "Come usiamo l'intelligenza artificiale" },
-      { href: '/richiedi-una-demo', testo: 'Richiedi una demo' },
+      { href: '/che-software-serve', testo: t('chrome.footer.che_software_serve') },
+      { href: '/autovalutazione', testo: t('chrome.footer.la_tua_documentazione_regge') },
+      { href: '/integrazioni', testo: t('chrome.footer.integrazioni') },
+      { href: '/domande', testo: t('chrome.footer.domande_frequenti') },
+      { href: '/intelligenza-artificiale', testo: t('chrome.footer.come_usiamo_l_intelligenza_artificiale') },
+      { href: '/richiedi-una-demo', testo: t('chrome.footer.richiedi_una_demo') },
     ],
   },
   {
-    titolo: 'Chi siamo e cosa firmi',
+    titolo: t('chrome.footer.chi_siamo_e_cosa_firmi'),
     voci: [
-      { href: '/chi-siamo', testo: 'Chi siamo' },
-      { href: '/per-le-societa-scientifiche', testo: 'Per le società scientifiche' },
-      { href: '/privacy', testo: 'Informativa privacy' },
-      { href: '/termini', testo: 'Termini di servizio' },
-      { href: '/dpa', testo: 'Trattamento dei dati' },
-      { href: '/sub-responsabili', testo: 'Sub-responsabili' },
-      { href: '/cookie', testo: 'Cookie' },
+      { href: '/chi-siamo', testo: t('chrome.footer.chi_siamo') },
+      { href: '/per-le-societa-scientifiche', testo: t('chrome.footer.per_le_societa_scientifiche') },
+      { href: '/privacy', testo: t('chrome.footer.informativa_privacy') },
+      { href: '/termini', testo: t('chrome.footer.termini_di_servizio') },
+      { href: '/dpa', testo: t('chrome.footer.trattamento_dei_dati') },
+      { href: '/sub-responsabili', testo: t('chrome.footer.sub_responsabili') },
+      { href: '/cookie', testo: t('chrome.footer.cookie') },
     ],
   },
 ] as const
@@ -81,7 +82,7 @@ export function Footer() {
           <div style={{ minWidth: 0 }}>
             <Logo chiaro />
             <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--on-ink-muted)', maxWidth: '26ch' }}>
-              La cartella clinica della medicina estetica.
+              {t('chrome.footer.la_cartella_clinica_della_medicina_estetica')}
             </p>
           </div>
 
@@ -92,7 +93,7 @@ export function Footer() {
           <div className="flex items-center gap-[var(--s-21)]">
             {SIGNUP_URL && (
               <a href={SIGNUP_URL} rel="noopener" className="btn btn-su-scuro">
-                Registrati
+                {t('chrome.footer.registrati')}
               </a>
             )}
             {APP_URL && (
@@ -102,7 +103,7 @@ export function Footer() {
                 className="link-avanti inline-flex"
                 style={{ color: 'var(--accent-onink)' }}
               >
-                Accedi
+                {t('chrome.footer.accedi')}
               </a>
             )}
           </div>
@@ -170,8 +171,7 @@ export function Footer() {
           <Recapiti />
 
           <p>
-            Le fotografie d&apos;ambiente sono immagini d&apos;archivio: non ritraggono pazienti
-            reali né clienti del servizio.
+            {t('chrome.footer.le_fotografie_d_ambiente_sono_immagini')}
           </p>
 
           {/* La lingua sta in fondo di proposito: la scelta la fa il server al
@@ -218,8 +218,7 @@ function Recapiti() {
           </a>
         </p>
         <p className="mt-[var(--s-8)]">
-          È una casella sola: assistenza, questioni commerciali e richieste sui dati personali
-          arrivano tutte lì, e rispondiamo noi.
+          {t('chrome.footer.e_una_casella_sola_assistenza_questioni')}
         </p>
       </div>
     )
@@ -236,7 +235,7 @@ function Recapiti() {
           .
         </p>
         <p className="mt-[var(--s-8)]">
-          Gli indirizzi di posta compaiono qui insieme all&apos;anagrafica societaria.
+          {t('chrome.footer.gli_indirizzi_di_posta_compaiono_qui')}
         </p>
       </div>
     )
@@ -262,8 +261,7 @@ function IdentitaSocietaria() {
       <div>
         <p style={{ color: 'var(--on-ink)' }}>Fibonacci</p>
         <p className="mt-[var(--s-8)]">
-          La società titolare del servizio è in costituzione. Ragione sociale, sede, partita IVA e
-          numero REA compaiono qui appena iscritta al registro delle imprese.
+          {t('chrome.footer.la_societa_titolare_del_servizio_e')}
         </p>
       </div>
     )

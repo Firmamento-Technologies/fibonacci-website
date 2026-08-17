@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useId, useRef, useState } from 'react'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
@@ -147,7 +148,7 @@ export function Assistente() {
           className="block text-[0.9375rem] font-medium"
           style={{ color: 'var(--fg)' }}
         >
-          La tua domanda su Fibonacci
+          {t('assistente.la_tua_domanda_su_fibonacci')}
         </label>
         <p
           id={`${idCampo}-aiuto`}
@@ -174,7 +175,7 @@ export function Assistente() {
             }
           }}
           aria-describedby={`${idCampo}-aiuto`}
-          placeholder="Per esempio: i dati restano in Europa?"
+          placeholder={t('assistente.per_esempio_i_dati_restano_in')}
           className="mt-[var(--s-13)] w-full rounded-[var(--s-8)] p-[var(--s-13)] text-[1.0625rem]"
           style={{
             background: 'var(--paper)',

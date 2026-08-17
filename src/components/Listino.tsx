@@ -4,6 +4,7 @@
 // mensile/annuale (D2, utente 2026-08-10): è l'unico stato di questa pagina, e
 // tenerlo qui evita di spezzare il componente in due per una casella.
 
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { useState } from 'react'
 import { PIANI, prezzoMensileSuAnnuale, totaleAnnuale, type Piano } from '@/lib/listino'
@@ -52,9 +53,9 @@ function Prezzo({ piano, ricorrenza }: { piano: Piano; ricorrenza: Ricorrenza })
   if (piano.prezzo === null) {
     return (
       <div className="mt-[var(--s-13)]">
-        <span style={{ ...stileCifra, fontSize: '1.9rem' }}>Su richiesta</span>
+        <span style={{ ...stileCifra, fontSize: '1.9rem' }}>{t('listino.su_richiesta')}</span>
         <p className="mt-[var(--s-5)] text-[15px]" style={{ color: coloreNota }}>
-          Dipende da quante sedi e quanti operatori: si definisce insieme.
+          {t('listino.dipende_da_quante_sedi_e_quanti')}
         </p>
       </div>
     )
@@ -89,14 +90,14 @@ function Interruttore({
   onChange: (v: Ricorrenza) => void
 }) {
   const opzioni: { v: Ricorrenza; etichetta: string }[] = [
-    { v: 'monthly', etichetta: 'Mensile' },
-    { v: 'yearly', etichetta: 'Annuale' },
+    { v: 'monthly', etichetta: t('listino.mensile') },
+    { v: 'yearly', etichetta: t('listino.annuale') },
   ]
   return (
     <div
       className="mx-auto inline-flex"
       role="radiogroup"
-      aria-label="Come vuoi pagare"
+      aria-label={t('listino.come_vuoi_pagare')}
       style={{ border: '1px solid var(--rule)', borderRadius: 'var(--r-lg)', padding: 3 }}
     >
       {opzioni.map((o) => (
@@ -163,7 +164,7 @@ export function SchedePiani() {
                   className="numero absolute"
                   style={{ top: 'var(--s-21)', right: 'var(--s-34)', color: 'var(--accent-onink)' }}
                 >
-                  PIÙ SCELTO
+                  {t('listino.piu_scelto')}
                 </span>
               )}
 
@@ -225,13 +226,12 @@ export function ListinoSintesi() {
             può entrare in nessun piano — deve valere per tutti e tre. */}
         <Reveal className="passo passo--con-interruttore">
           <div className="text-center" style={{ maxWidth: '40rem', marginInline: 'auto' }}>
-            <p className="occhiello" style={{ justifyContent: 'center' }}>Prezzi</p>
+            <p className="occhiello" style={{ justifyContent: 'center' }}>{t('listino.prezzi')}</p>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]">
-              Tre piani, nessuna sorpresa
+              {t('listino.tre_piani_nessuna_sorpresa')}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-              Prezzi per studio, IVA esclusa. Migrazione dei dati e formazione comprese. Si disdice
-              quando vuoi, e i tuoi dati escono con te.
+              {t('listino.prezzi_per_studio_iva_esclusa_migrazione')}
             </p>
           </div>
         </Reveal>

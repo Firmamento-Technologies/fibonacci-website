@@ -19,6 +19,7 @@
  * e nasconderlo darebbe l'idea che l'anagrafica non ci sia.
  */
 
+import { t } from '@/lib/testo'
 import { useState } from 'react'
 import dati from '@/lib/prodotto.json'
 
@@ -53,11 +54,11 @@ export function ProvaSezioniCartella() {
   return (
     <div className="prova-catalogo" data-testid="prova-sezioni-cartella">
       <p className="prova-viso__invito">
-        <strong>Provalo qui.</strong> {SEZIONI.length} sezioni, {totale} posti dove finisce
+        <strong>{t('home.provasezionicartella.provalo_qui')}</strong> {SEZIONI.length} sezioni, {totale} posti dove finisce
         quello che scrivi. Toccane una.
       </p>
 
-      <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label="Sezioni della cartella">
+      <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label={t('home.provasezionicartella.sezioni_della_cartella')}>
         {SEZIONI.map((x) => (
           <button
             key={x.id}
@@ -74,8 +75,7 @@ export function ProvaSezioniCartella() {
       <div className="prova-catalogo__esito" aria-live="polite">
         {!s && (
           <p className="prova-viso__vuoto">
-            Nessuna cartella «a campo libero»: ogni cosa ha il suo posto, e da lì si ritrova
-            otto mesi dopo.
+            {t('home.provasezionicartella.nessuna_cartella_a_campo_libero_ogni')}
           </p>
         )}
         {s && (
@@ -95,8 +95,7 @@ export function ProvaSezioniCartella() {
       </div>
 
       <p className="prova-viso__didascalia">
-        È la mappa vera dell’applicazione: le sezioni non sono scritte a mano, le costruisce
-        il registro dei moduli. Quello che vedi qui è quello che il medico trova in barra.
+        {t('home.provasezionicartella.e_la_mappa_vera_dell_applicazione')}
       </p>
     </div>
   )

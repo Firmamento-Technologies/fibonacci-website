@@ -1,12 +1,13 @@
+import { t } from '@/lib/testo'
 import { Fragment } from 'react'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
 
 export const metadata: Metadata = {
-  title: 'Hai ricevuto una richiesta tramite Fibonacci',
+  title: t('medici.meta_titolo_hai_ricevuto_una_richiesta_tra'),
   description:
-    'Perché ti è arrivata, che cosa succede se rispondi, come correggere i tuoi dati o non ricevere più richieste. E che cosa cambia se le richieste arrivano dentro il gestionale invece che via email.',
+    t('medici.meta_descrizione_perche_ti_e_arrivata_che_cosa'),
   alternates: { canonical: '/medici' },
 }
 
@@ -50,19 +51,19 @@ export const metadata: Metadata = {
 
 const COSA_CAMBIA = [
   {
-    titolo: 'La richiesta arriva in agenda, non in casella',
+    titolo: t('medici.la_richiesta_arriva_in_agenda_non'),
     testo:
-      'Oggi ti scriviamo un’email e il resto lo fai a mano: leggi, richiami, apri il gestionale, cerchi se la persona è già tua paziente, la inserisci. Con Fibonacci la richiesta è già un appuntamento da confermare, sul tuo calendario, con gli orari che hai davvero libero.',
+      t('medici.oggi_ti_scriviamo_un_email_e'),
   },
   {
-    titolo: 'I dati della persona sono già compilati',
+    titolo: t('medici.i_dati_della_persona_sono_gia'),
     testo:
-      'Nome, contatto e, se ha voluto darli, farmaci in corso, allergie, gravidanza o allattamento, trattamenti già fatti. Arrivano marcati come «dichiarati dalla persona, non verificati»: non sostituiscono la tua anamnesi, ti fanno arrivare preparato.',
+      t('medici.nome_contatto_e_se_ha_voluto'),
   },
   {
-    titolo: 'Se rifiuti, i dati sanitari si cancellano',
+    titolo: t('medici.se_rifiuti_i_dati_sanitari_si'),
     testo:
-      'Chi ha scritto non è ancora tua paziente. Se non accetti l’appuntamento, quello che aveva scritto sulla propria salute viene cancellato invece di restare in un archivio. È una scelta nostra, ed è il motivo per cui possiamo chiedere quei dati prima di una visita.',
+      t('medici.chi_ha_scritto_non_e_ancora'),
   },
 ]
 
@@ -94,15 +95,13 @@ export default function MediciPage() {
       titolo="Hai ricevuto una richiesta tramite Fibonacci"
       sommario={
         <>
-          Una persona ti ha scritto passando dal nostro elenco. Il messaggio è suo: noi lo
-          abbiamo solo recapitato, e la tua risposta le arriva direttamente, senza passare
-          da noi.
+          {t('medici.una_persona_ti_ha_scritto_passando')}
         </>
       }
     >
       <section className="gabbia">
         <div className="prosa">
-          <h2>Che cosa siamo</h2>
+          <h2>{t('medici.che_cosa_siamo')}</h2>
           <p>
             Fibonacci è due cose. Un <strong>elenco pubblico</strong> di medici e studi di
             medicina estetica in Italia, compilato leggendo i siti degli studi, che serve a
@@ -110,16 +109,14 @@ export default function MediciPage() {
             cartella clinica, consensi, agenda, magazzino.
           </p>
           <p>
-            Le due cose sono collegate da un punto solo, ed è quello che ti riguarda
-            adesso: se usi il gestionale, le richieste come quella che hai appena ricevuto
-            smettono di essere email.
+            {t('medici.le_due_cose_sono_collegate_da')}
           </p>
         </div>
       </section>
 
       <section className="gabbia">
         <div className="prosa">
-          <h2>Che cosa cambia se le richieste arrivano nel gestionale</h2>
+          <h2>{t('medici.che_cosa_cambia_se_le_richieste')}</h2>
           {COSA_CAMBIA.map((x) => (
             <Fragment key={x.titolo}>
               <h3>{x.titolo}</h3>
@@ -136,7 +133,7 @@ export default function MediciPage() {
 
       <section className="gabbia">
         <div className="prosa">
-          <h2>Sull’elenco</h2>
+          <h2>{t('medici.sull_elenco')}</h2>
           {RIGHE_ELENCO.map((x) => (
             <Fragment key={x.d}>
               <h3>{x.d}</h3>
@@ -156,7 +153,7 @@ export default function MediciPage() {
           esattamente il gesto che ci siamo vietati nell'email. */}
       <section className="gabbia">
         <div className="prosa">
-          <h2>Se vuoi parlarne</h2>
+          <h2>{t('medici.se_vuoi_parlarne')}</h2>
           <p>
             Scrivici a <a href="mailto:info@fibonaccimedica.it">info@fibonaccimedica.it</a>
             . Non richiamiamo nessuno che non ce l’abbia chiesto.

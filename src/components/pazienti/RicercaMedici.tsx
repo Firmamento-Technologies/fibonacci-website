@@ -38,6 +38,7 @@
  * ⛔ Nessun prezzo: gli onorari li dice lo studio.
  */
 
+import { t } from '@/lib/testo'
 import { useMemo, useState } from 'react'
 import { VoceElenco } from '@/components/pazienti/VoceElenco'
 import { IconaCerca, IconaSpunta, IconaLuogo } from '@/components/pazienti/Icone'
@@ -155,8 +156,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                 <br className="a-capo-largo" /> e prenota.
               </h1>
               <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-                Solo medici iscritti all’Ordine, con il numero d’iscrizione su ogni scheda.
-                E gli orari che lo studio ha davvero liberi.
+                {t('pazienti.ricercamedici.solo_medici_iscritti_all_ordine_con')}
               </p>
             </header>
 
@@ -173,7 +173,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
             >
               <label style={{ display: 'block' }}>
                 <span className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
-                  Che cosa cerchi
+                  {t('pazienti.ricercamedici.che_cosa_cerchi')}
                 </span>
                 <input
                   value={cosa}
@@ -185,7 +185,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
               </label>
               <label style={{ display: 'block' }}>
                 <span className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
-                  Dove
+                  {t('pazienti.ricercamedici.dove')}
                 </span>
                 <input
                   value={dove}
@@ -242,7 +242,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                       Ordinati dal più vicino a te
                     </span>
                     <button type="button" onClick={dimentica} className="collegamento-testo" style={{ background: 'none', border: 0, cursor: 'pointer', font: 'inherit' }}>
-                      Torna all’ordine alfabetico
+                      {t('pazienti.ricercamedici.torna_all_ordine_alfabetico')}
                     </button>
                   </p>
                 ) : (
@@ -261,12 +261,12 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                         dice cosa sta guardando adesso. */}
                     {statoPosizione === 'negata' && (
                       <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                        Non hai dato il permesso: l’elenco resta in ordine alfabetico.
+                        {t('pazienti.ricercamedici.non_hai_dato_il_permesso_l')}
                       </p>
                     )}
                     {statoPosizione === 'assente' && (
                       <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                        Il tuo browser non sa dire dove sei: l’elenco resta in ordine alfabetico.
+                        {t('pazienti.ricercamedici.il_tuo_browser_non_sa_dire')}
                       </p>
                     )}
                   </>
@@ -314,7 +314,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                 statico: nessun ottimizzatore a runtime. */}
             <img
               src={assetPath('/photos/cura-pelle-viso.jpg')}
-              alt="Una paziente distesa in ambulatorio: un medico con camice e guanti le tratta il viso con uno strumento."
+              alt={t('pazienti.ricercamedici.una_paziente_distesa_in_ambulatorio_un')}
               loading="eager"
               decoding="sync"
               fetchPriority="high"

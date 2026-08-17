@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useState, useRef } from 'react'
 import { Upload, CheckCircle2, AlertCircle, FileText, X } from 'lucide-react'
 
@@ -161,7 +162,7 @@ export function VerificaDocumento() {
             {loading ? 'Analisi in corso…' : 'Trascina il PDF qui o clicca per selezionare'}
           </p>
           <p className="text-xs" style={{ color: 'var(--muted)' }}>
-            File rimane sul tuo browser. Nessun upload a server esterni.
+            {t('verificadocumento.file_rimane_sul_tuo_browser_nessun')}
           </p>
           <input
             ref={inputRef}
@@ -197,7 +198,7 @@ export function VerificaDocumento() {
               onClick={() => setAnalysis(null)}
               className="text-sm transition-opacity hover:opacity-70"
               style={{ color: 'var(--muted)' }}
-              title="Chiudi"
+              title={t('verificadocumento.chiudi')}
             >
               <X className="w-5 h-5" />
             </button>
@@ -231,7 +232,7 @@ export function VerificaDocumento() {
           {Object.keys(analysis.metadata).length > 0 && (
             <div className="pt-2 border-t" style={{ borderColor: 'var(--border)' }}>
               <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--muted)' }}>
-                Metadati documento
+                {t('verificadocumento.metadati_documento')}
               </p>
               <dl className="space-y-1 text-xs">
                 {analysis.metadata.title && (

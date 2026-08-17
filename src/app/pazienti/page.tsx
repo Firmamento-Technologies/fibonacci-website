@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
@@ -5,9 +6,9 @@ import { RicercaMedici } from '@/components/pazienti/RicercaMedici'
 import { mediciPubblicati, mostraEsempi } from '@/lib/medici-pubblici'
 
 export const metadata: Metadata = {
-  title: 'Trova il tuo medico estetico e prenota',
+  title: t('pazienti.meta_titolo_trova_il_tuo_medico_estetico_e'),
   description:
-    'Trova un medico estetico e prenota: solo medici iscritti all’Ordine, con il numero d’iscrizione su ogni scheda, e gli orari che lo studio ha davvero liberi. Nessuna classifica, nessuna recensione, nessun listino.',
+    t('pazienti.meta_descrizione_trova_un_medico_estetico_e_pre'),
   alternates: { canonical: '/pazienti' },
 }
 
@@ -109,7 +110,7 @@ export default function Page() {
           Questo sito non usa cookie di tracciamento, non ha account e non ti profila.
           Quando chiedi un appuntamento, i dati vanno allo studio che hai scelto.{' '}
           <Link href="/pazienti/privacy" className="collegamento-testo">
-            Come funziona, per esteso
+            {t('pazienti.come_funziona_per_esteso')}
           </Link>
           .
         </p>

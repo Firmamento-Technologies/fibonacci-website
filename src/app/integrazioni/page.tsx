@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -8,9 +9,9 @@ export const metadata: Metadata = {
   /* 48 caratteri + « · Fibonacci» = 59, sotto la soglia dei 60 (vedi la nota in
    * `che-software-serve/page.tsx`). Era 66 + 11 = 77, e conteneva «Fibonacci»
    * due volte: una nel titolo e una aggiunta dal modello. */
-  title: 'Integrazioni: con cosa si collega, e con cosa no',
+  title: t('integrazioni.meta_titolo_integrazioni_con_cosa_si_colle'),
   description:
-    'Oggi Fibonacci non si integra con nessun altro software, e lo diciamo. Al suo posto ci sono l’importazione dei tuoi dati fatta da noi e l’esportazione in FHIR R4, uno standard che un altro fornitore legge senza reinventare il formato.',
+    t('integrazioni.meta_descrizione_oggi_fibonacci_non_si_integra_'),
   alternates: { canonical: '/integrazioni' },
 }
 
@@ -27,17 +28,17 @@ export const metadata: Metadata = {
 
 const ENTRA = [
   {
-    voce: 'L’anagrafica e lo storico dal gestionale che usi oggi',
+    voce: t('integrazioni.l_anagrafica_e_lo_storico_dal'),
     come:
       'Partiamo da un file esportato dal tuo fornitore attuale e lo carichiamo noi. È compreso nel prezzo, non è un servizio a preventivo.',
   },
   {
-    voce: 'I tuoi moduli di consenso, se ne hai già di rivisti',
+    voce: t('integrazioni.i_tuoi_moduli_di_consenso_se'),
     come:
       'Li carichi e li usi al posto dei nostri. La struttura resta la nostra, il testo clinico è tuo.',
   },
   {
-    voce: 'Il catalogo dei farmaci',
+    voce: t('integrazioni.il_catalogo_dei_farmaci'),
     come:
       'I medicinali autorizzati arrivano dai dati pubblici dell’AIFA e si aggiornano da soli. Non devi digitare un prontuario.',
   },
@@ -45,17 +46,17 @@ const ENTRA = [
 
 const ESCE = [
   {
-    voce: 'La cartella completa, in FHIR R4',
+    voce: t('integrazioni.la_cartella_completa_in_fhir_r4'),
     come:
       'FHIR è lo standard internazionale per i dati sanitari. Non è un nostro formato: un altro fornitore lo legge senza doverlo interpretare, ed è la ragione per cui puoi andartene senza chiedercelo.',
   },
   {
-    voce: 'I documenti firmati, in PDF',
+    voce: t('integrazioni.i_documenti_firmati_in_pdf'),
     come:
       'Consensi e referti escono come file autonomi, verificabili anche fuori da Fibonacci. La pagina Verifica lo dimostra su un file qualsiasi, nel tuo browser.',
   },
   {
-    voce: 'Tutto insieme, quando smetti',
+    voce: t('integrazioni.tutto_insieme_quando_smetti'),
     come: 'L’esportazione completa è una funzione dell’applicazione, non una cortesia da chiedere all’assistenza.',
   },
 ] as const
@@ -73,29 +74,22 @@ export default function Integrazioni() {
       }
       sommario={
         <>
-          È la risposta breve, ed è quella vera. La risposta lunga è che al posto delle
-          integrazioni ci sono due cose che contano di più: i tuoi dati li portiamo dentro noi, e
-          quando vuoi portarli fuori escono in uno standard, non in un formato nostro.
+          {t('integrazioni.e_la_risposta_breve_ed_e')}
         </>
       }
     >
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal>
-            <Occhiello>Perché non c’è un elenco di loghi</Occhiello>
+            <Occhiello>{t('integrazioni.perche_non_c_e_un_elenco')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '22ch' }}>
-              Un’integrazione è una promessa che dipende da un altro
+              {t('integrazioni.un_integrazione_e_una_promessa_che')}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-              Collegare due software richiede che l’altro apra qualcosa: un’interfaccia, un
-              tracciato, un accesso. Quasi nessun gestionale medico italiano lo fa senza un
-              accordo commerciale, e un accordo commerciale non è una funzione che possiamo
-              scrivere noi. Finché non ce n’è uno firmato, elencare nomi qui sarebbe annunciare
-              lavoro altrui.
+              {t('integrazioni.collegare_due_software_richiede_che_l')}
             </p>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-              Quindi niente elenco, e niente date. Quando ce ne sarà una vera comparirà qui, il
-              giorno in cui funziona.
+              {t('integrazioni.quindi_niente_elenco_e_niente_date')}
             </p>
           </Reveal>
         </div>
@@ -104,9 +98,9 @@ export default function Integrazioni() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Reveal>
-            <Occhiello>Che cosa entra</Occhiello>
+            <Occhiello>{t('integrazioni.che_cosa_entra')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-              Portare i dati dentro è un lavoro nostro
+              {t('integrazioni.portare_i_dati_dentro_e_un')}
             </h2>
           </Reveal>
           <div className="mt-[var(--s-34)]">
@@ -134,9 +128,9 @@ export default function Integrazioni() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal>
-            <Occhiello>Che cosa esce</Occhiello>
+            <Occhiello>{t('integrazioni.che_cosa_esce')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-              Uno standard, non un formato nostro
+              {t('integrazioni.uno_standard_non_un_formato_nostro')}
             </h2>
           </Reveal>
           <div className="mt-[var(--s-34)]">
@@ -157,15 +151,12 @@ export default function Integrazioni() {
       <section className="scuro fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal>
-            <Occhiello chiaro>E il portale che usi già</Occhiello>
+            <Occhiello chiaro>{t('integrazioni.e_il_portale_che_usi_gia')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-              Convivono, e il costo lo diciamo
+              {t('integrazioni.convivono_e_il_costo_lo_diciamo')}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)' }}>
-              Se usi un portale di prenotazione per farti trovare, tienilo: non ti chiediamo di
-              rinunciarci per cominciare. Ma non c’è un collegamento fra i due, quindi l’agenda
-              pubblica resta dove è adesso e le prenotazioni le riporti tu. È il prezzo della
-              convivenza, ed è meglio saperlo prima.
+              {t('integrazioni.se_usi_un_portale_di_prenotazione')}
             </p>
           </Reveal>
         </div>
@@ -173,16 +164,16 @@ export default function Integrazioni() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[length:var(--display-2)]">Vuoi vedere come esce un documento?</h2>
+          <h2 className="text-[length:var(--display-2)]">{t('integrazioni.vuoi_vedere_come_esce_un_documento')}</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Il verificatore gira nel tuo browser e funziona anche su un file che non è nostro.
+            {t('integrazioni.il_verificatore_gira_nel_tuo_browser')}
           </p>
           <div className="mt-[var(--s-34)] flex flex-wrap justify-center gap-[var(--s-13)]">
             <Link href="/verifica" className="btn btn-primario">
-              Apri il verificatore
+              {t('integrazioni.apri_il_verificatore')}
             </Link>
             <Link href="/richiedi-una-demo" className="btn btn-secondario">
-              Richiedi una demo
+              {t('integrazioni.richiedi_una_demo')}
             </Link>
           </div>
           <p className="mt-[var(--s-34)]">

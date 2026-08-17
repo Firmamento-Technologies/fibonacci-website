@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano, mappaStudio } from '@/lib/medici-pubblici'
@@ -147,14 +148,13 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
             esiste, qui ⛔ non compare nessuna spunta, nessun «verificato», e
             nessuna data. [[decisione-verifica-albo]] */}
         <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          L’iscrizione all’albo è la condizione per pubblicare una pagina su Fibonacci. Il
-          numero resta scritto qui perché sia sempre riscontrabile sull’albo pubblico.
+          {t('pazienti.schedamedico.l_iscrizione_all_albo_e_la')}
         </p>
       </section>
 
       <section aria-labelledby="dove" style={{ marginTop: 'var(--s-34)' }}>
         <h2 id="dove" className="titolo-servizio text-[length:var(--display-3)]">
-          Dove
+          {t('pazienti.schedamedico.dove')}
         </h2>
         {/* 🔑 **L'indirizzo È il collegamento** (richiesta dell'utente,
             2026-08-13). Prima era testo morto con sotto una riga separata
@@ -171,7 +171,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
               {indirizzoScritto}
             </a>
           ) : (
-            <span>Indirizzo non pubblicato</span>
+            <span>{t('pazienti.schedamedico.indirizzo_non_pubblicato')}</span>
           )}
         </p>
         <p
@@ -201,7 +201,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
 
       <section aria-labelledby="prestazioni" style={{ marginTop: 'var(--s-34)' }}>
         <h2 id="prestazioni" className="titolo-servizio text-[length:var(--display-3)]">
-          Prestazioni
+          {t('pazienti.schedamedico.prestazioni')}
         </h2>
         {/* Chip, come nell'elenco: erano un elenco puntato di righe, cioè la
             forma di una lista della spesa. ⛔ Non premibili — sono etichette. */}
@@ -215,7 +215,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         {/* ⚖️ La riga che tiene la pagina dentro il c. 525: si dice che i
             prezzi esistono e dove chiederli, ⛔ non si espone un listino. */}
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Gli onorari te li indica lo studio: chiedili in fase di appuntamento.
+          {t('pazienti.schedamedico.gli_onorari_te_li_indica_lo')}
         </p>
       </section>
 
@@ -306,7 +306,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
               </a>
             </p>
             <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-              La prenotazione online da questa pagina non è ancora attiva.
+              {t('pazienti.schedamedico.la_prenotazione_online_da_questa_pagina')}
             </p>
           </>
         ) : (
@@ -317,7 +317,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
              temporaneo — si dice cosa fare adesso. */
           <>
             <p className="mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
-              Questo studio non ha ancora pubblicato i suoi orari liberi.
+              {t('pazienti.schedamedico.questo_studio_non_ha_ancora_pubblicato')}
             </p>
             {/* 🔑 L'unica azione disponibile diventa un **pulsante**, non una
                 riga di prosa: `.btn` porta `min-height: 48px`, sopra i 44 px

@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
@@ -62,7 +63,7 @@ export function MarkdownRenderer({
           <div
             tabIndex={0}
             role="group"
-            aria-label="Tabella, scorrevole in orizzontale"
+            aria-label={t('markdownrenderer.tabella_scorrevole_in_orizzontale')}
             style={{ overflowX: 'auto', marginBlock: 'var(--s-21)' }}
           >
             <table>{children}</table>
@@ -72,7 +73,7 @@ export function MarkdownRenderer({
           <div
             tabIndex={0}
             role="group"
-            aria-label="Blocco di codice, scorrevole in orizzontale"
+            aria-label={t('markdownrenderer.blocco_di_codice_scorrevole_in_orizzontale')}
             style={{ overflowX: 'auto' }}
           >
             <pre

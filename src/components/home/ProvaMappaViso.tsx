@@ -29,6 +29,7 @@
  * `scripts/parita-viso.mjs`.
  */
 
+import { t } from '@/lib/testo'
 import { useRef, useState } from 'react'
 import {
   ETICHETTA_AREA,
@@ -41,8 +42,8 @@ import {
 import { assetPath } from '@/lib/asset-path'
 
 const RITRATTI: { chiave: SessoRitratto; etichetta: string; file: string }[] = [
-  { chiave: 'donna', etichetta: 'Donna', file: 'volto-donna' },
-  { chiave: 'uomo', etichetta: 'Uomo', file: 'volto-uomo' },
+  { chiave: 'donna', etichetta: t('home.provamappaviso.donna'), file: 'volto-donna' },
+  { chiave: 'uomo', etichetta: t('home.provamappaviso.uomo'), file: 'volto-uomo' },
 ]
 
 /** Le larghezze generate da `scripts/volti.mjs`. */
@@ -93,11 +94,11 @@ export function ProvaMappaViso() {
   return (
     <div className="prova-viso" data-testid="prova-mappa-viso">
       <p className="prova-viso__invito">
-        <strong>Provalo qui.</strong> Clicca sul viso dove avresti trattato: il punto si
+        <strong>{t('home.provamappaviso.provalo_qui')}</strong> Clicca sul viso dove avresti trattato: il punto si
         aggancia da solo all’area giusta.
       </p>
 
-      <div className="prova-viso__pillole" role="group" aria-label="Ritratto di riferimento">
+      <div className="prova-viso__pillole" role="group" aria-label={t('home.provamappaviso.ritratto_di_riferimento')}>
         {RITRATTI.map((r) => (
           <button
             key={r.chiave}
@@ -179,8 +180,7 @@ export function ProvaMappaViso() {
                fotogramma — per chi legge non vuol dire niente. Si dice la
                cosa, non la soglia. */
             <p className="prova-viso__mancato" role="status">
-              Lì non c’è nessuna area del vocabolario. Clicca più vicino a una zona del
-              viso: il punto si aggancia solo a un’area che esiste.
+              {t('home.provamappaviso.li_non_c_e_nessuna_area')}
             </p>
           )}
         </div>
@@ -212,7 +212,7 @@ export function ProvaMappaViso() {
                 className="prova-viso__azzera"
                 onClick={() => setSegnate([])}
               >
-                Ricomincia
+                {t('home.provamappaviso.ricomincia')}
               </button>
             </>
           )}
@@ -221,7 +221,7 @@ export function ProvaMappaViso() {
 
       <p className="prova-viso__didascalia">
         È il componente dell’applicazione, non un disegno. Nella cartella ogni area
-        diventa un <code>BodySite</code> codificato: è così che poi si può cercare «chi
+        diventa un <code>{t('home.provamappaviso.bodysite')}</code> codificato: è così che poi si può cercare «chi
         ho trattato alla glabella».
       </p>
     </div>

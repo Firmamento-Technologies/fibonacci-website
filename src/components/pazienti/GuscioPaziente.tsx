@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
@@ -58,7 +59,7 @@ export function GuscioPaziente({
           un'offerta di software. */}
       <header style={{ padding: 'var(--s-21) 0' }}>
         <div className="gabbia flex items-center gap-[var(--s-13)]">
-          <Link href="/pazienti" aria-label="Trova un medico, pagina iniziale">
+          <Link href="/pazienti" aria-label={t('pazienti.gusciopaziente.trova_un_medico_pagina_iniziale')}>
             <Logo />
           </Link>
         </div>
@@ -89,7 +90,7 @@ export function GuscioPaziente({
               si mettono in mano a chi non le ha chieste.
               ⚠️ `verificare-un-medico` è ancora scritta come *«controllalo
               tu»*: la riscrittura è dentro TD-115, non si può fare qui. */}
-          <nav aria-label="Guide per il paziente" style={{ marginBottom: 'var(--s-34)' }}>
+          <nav aria-label={t('pazienti.gusciopaziente.guide_per_il_paziente')} style={{ marginBottom: 'var(--s-34)' }}>
             <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8) var(--s-21)', padding: 0 }}>
               {[
                 ['/pazienti/prima-di-un-trattamento', 'Le domande da fare prima di un trattamento'],

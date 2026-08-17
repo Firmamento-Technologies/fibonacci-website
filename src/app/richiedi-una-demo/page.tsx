@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import { Pagina } from '@/components/chrome/Pagina'
 import { ModuloDemo } from '@/components/ModuloDemo'
@@ -6,9 +7,9 @@ import { Reveal } from '@/components/ui/Reveal'
 import { DEMO_URL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: 'Richiedi una demo',
+  title: t('richiediunademo.meta_titolo_richiedi_una_demo'),
   description:
-    'Mezz’ora con chi ha costruito il prodotto, sulle procedure che fai tu. Quattro campi, nessun impegno, nessuna carta di credito.',
+    t('richiediunademo.meta_descrizione_mezz_ora_con_chi_ha_costruito'),
   alternates: { canonical: '/richiedi-una-demo' },
 }
 
@@ -35,7 +36,7 @@ export default function RichiediUnaDemo() {
               <div>
                 <Foto
                   nome="consulto-studio"
-                  alt="Due professioniste sedute con una cliente in una stanza di trattamento, accanto alla poltrona e al carrello degli strumenti."
+                  alt={t('richiediunademo.due_professioniste_sedute_con_una_cliente')}
                   proporzione="4 / 3"
                 />
 
@@ -59,13 +60,12 @@ export default function RichiediUnaDemo() {
 
                 {DEMO_URL && (
                 <div className="mt-[var(--s-34)] foglio" style={{ padding: 'var(--s-21)' }}>
-                  <Occhiello>Preferisci provarlo da solo</Occhiello>
+                  <Occhiello>{t('richiediunademo.preferisci_provarlo_da_solo')}</Occhiello>
                   <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                    La demo pubblica è aperta e non chiede registrazione. Contiene dati finti: non
-                    inserirci pazienti reali.
+                    {t('richiediunademo.la_demo_pubblica_e_aperta_e')}
                   </p>
                   <a href={DEMO_URL} className="btn btn-secondario mt-[var(--s-13)]" rel="noopener">
-                    Entra nella demo
+                    {t('richiediunademo.entra_nella_demo')}
                   </a>
                 </div>
                 )}

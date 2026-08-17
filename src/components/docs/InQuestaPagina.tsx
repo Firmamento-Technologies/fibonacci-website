@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useEffect, useState } from 'react'
 import type { VoceIndice } from '@/lib/ancore'
 
@@ -64,8 +65,8 @@ export function InQuestaPagina({ voci }: { voci: VoceIndice[] }) {
   if (voci.length === 0) return null
 
   return (
-    <nav className="manuale__contesto" aria-label="In questa pagina">
-      <p className="manuale__contesto-titolo">In questa pagina</p>
+    <nav className="manuale__contesto" aria-label={t('docs.inquestapagina.in_questa_pagina')}>
+      <p className="manuale__contesto-titolo">{t('docs.inquestapagina.in_questa_pagina')}</p>
       <ul>
         {voci.map((v) => (
           <li key={v.id} data-livello={v.livello}>

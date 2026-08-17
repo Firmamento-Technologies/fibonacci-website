@@ -18,6 +18,7 @@
  * disonesta che si può fare con questi dati.
  */
 
+import { t } from '@/lib/testo'
 import { useState } from 'react'
 import dati from '@/lib/prodotto.json'
 
@@ -40,11 +41,11 @@ export function ProvaDurate() {
   return (
     <div className="prova-catalogo" data-testid="prova-durate">
       <p className="prova-viso__invito">
-        <strong>Provalo qui.</strong> Scegli cosa hai fatto oggi: il richiamo si calcola da
+        <strong>{t('home.provadurate.provalo_qui')}</strong> Scegli cosa hai fatto oggi: il richiamo si calcola da
         solo, e ti dice da dove viene.
       </p>
 
-      <div className="prova-viso__pillole" role="group" aria-label="Categoria di trattamento">
+      <div className="prova-viso__pillole" role="group" aria-label={t('home.provadurate.categoria_di_trattamento')}>
         {DURATE.map((x) => (
           <button
             key={x.codice}

@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Occhiello, Foto } from '@/components/ui/elementi'
 import { RevealGruppo } from '@/components/ui/Reveal'
@@ -36,7 +37,7 @@ export function Sigillo() {
                 prima resta «fuori dai passi» e sul telefono si legge insieme
                 a un pezzo della seconda. */}
             <div className="passo">
-            <Occhiello chiaro>Il sigillo</Occhiello>
+            <Occhiello chiaro>{t('home.sigillo.il_sigillo')}</Occhiello>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
               Una cartella si contesta dicendo che è stata{' '}
               <span className="accento-corsivo">riscritta</span>
@@ -44,15 +45,10 @@ export function Sigillo() {
 
             <div className="mt-[var(--s-34)] space-y-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink-muted)', maxWidth: '48ch' }}>
               <p>
-                È l&apos;argomento più semplice che un avvocato possa usare, e con una cartella di
-                carta o con un file Word funziona: nessuno può dimostrare quando quella riga è stata
-                scritta davvero.
+                {t('home.sigillo.e_l_argomento_piu_semplice_che')}
               </p>
               <p>
-                In Fibonacci ogni scrittura porta l&apos;impronta digitale di quella precedente. Le
-                impronte formano una catena, e il database rifiuta di modificare o cancellare gli
-                anelli già chiusi. Toccare una virgola di sei mesi fa vuol dire spezzare tutti gli
-                anelli successivi, e la rottura si vede.
+                {t('home.sigillo.in_fibonacci_ogni_scrittura_porta_l')}
               </p>
             </div>
             </div>
@@ -65,24 +61,20 @@ export function Sigillo() {
                 Su desktop la colonna resta una. */}
             <div className="passo">
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--on-ink)' }}>
-              La parte che conta: il controllo lo può fare chiunque, non noi. Il verificatore è
-              una pagina pubblica, senza registrazione. Vale come prova proprio perché funziona
-              anche contro di noi.
+              {t('home.sigillo.la_parte_che_conta_il_controllo')}
             </p>
 
             <div className="mt-[var(--s-34)] flex flex-wrap gap-[var(--s-13)]">
               <Link href="/verifica" className="btn btn-primario">
-                Verifica un documento
+                {t('home.sigillo.verifica_un_documento')}
               </Link>
               <Link href="/sicurezza-e-dati" className="btn btn-su-scuro">
-                Come funziona nel dettaglio
+                {t('home.sigillo.come_funziona_nel_dettaglio')}
               </Link>
             </div>
 
             <p className="mt-[var(--s-21)] text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
-              La catena dimostra che un documento non è stato ritoccato dopo essere stato scritto.
-              Non è una firma elettronica qualificata: quella arriverà, e finché non c&apos;è non la
-              scriviamo da nessuna parte.
+              {t('home.sigillo.la_catena_dimostra_che_un_documento')}
             </p>
             </div>
           </div>
@@ -99,7 +91,7 @@ export function Sigillo() {
               `@media (scripting: enabled)`.
               ([[sintesi-analisi-ui-ux-2026-08-09]] §S3) */}
           <RevealGruppo className="foglio" passo={0.16}>
-            <p className="numero">CATENA DI IMPRONTE · CARTELLA 4471</p>
+            <p className="numero">{t('home.sigillo.catena_di_impronte_cartella_4471')}</p>
 
             <ol className="mt-[var(--s-21)]">
               {ANELLI.map((a, i) => (
@@ -187,8 +179,7 @@ export function Sigillo() {
               style={{ borderTop: '1px solid var(--rule-ink)', paddingTop: 'var(--s-13)' }}
             >
               <p className="text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
-                Modificando l&apos;anello delle 09:38 si spezzano i tre successivi. Il controllo lo
-                rileva, e dice quale.
+                {t('home.sigillo.modificando_l_anello_delle_09_38')}
               </p>
             </div>
           </RevealGruppo>
@@ -210,18 +201,17 @@ export function Chiusura() {
         <div className="aurea">
           <div>
             <div className="passo">
-            <Occhiello>Il passo dopo</Occhiello>
+            <Occhiello>{t('home.sigillo.il_passo_dopo')}</Occhiello>
             <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '15ch' }}>
-              Mezz&apos;ora, e capisci se fa per te
+              {t('home.sigillo.mezz_ora_e_capisci_se_fa')}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)', maxWidth: '44ch' }}>
-              Non è una telefonata commerciale. Ti facciamo vedere il prodotto sulle procedure che
-              fai tu, e ti diciamo anche dove non ti conviene.
+              {t('home.sigillo.non_e_una_telefonata_commerciale_ti')}
             </p>
 
             <Foto
               nome="consulto-studio"
-              alt="Due professioniste sedute con una cliente in una stanza di trattamento, accanto alla poltrona e al carrello degli strumenti."
+              alt={t('home.sigillo.due_professioniste_sedute_con_una_cliente')}
               proporzione="16 / 10"
               className="mt-[var(--s-34)]"
             />

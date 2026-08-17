@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { PREANAMNESI_ATTIVA } from '@/lib/site-config'
 
 /* La pre-anamnesi che il paziente compila prenotando. — TD-123
@@ -99,11 +100,11 @@ export function PreAnamnesi({
 
   return (
     <fieldset className="pre-anamnesi">
-      <legend className="pre-anamnesi-titolo">Vuoi far arrivare il medico preparato?</legend>
+      <legend className="pre-anamnesi-titolo">{t('pazienti.preanamnesi.vuoi_far_arrivare_il_medico_preparato')}</legend>
       {/* ⚠️ **«Facoltativo» sta nella prima riga, non in fondo in grigio.** Chi
           legge in fretta deve poterlo saltare **sapendo** di poterlo saltare. */}
       <p className="text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-        È facoltativo: puoi chiedere l’appuntamento senza scrivere niente qui.
+        {t('pazienti.preanamnesi.e_facoltativo_puoi_chiedere_l_appuntamento')}
       </p>
 
       {/* 🔑 Il consenso **prima** delle domande: si acconsente a dare i dati,
@@ -160,8 +161,7 @@ export function PreAnamnesi({
               Scriverlo qui evita che qualcuno lo prenda per una cartella già
               fatta — e la stessa frase vale dall'altra parte. */}
           <p className="text-[13px]" style={{ color: 'var(--fg-muted)' }}>
-            Quello che scrivi qui non sostituisce la visita: il medico ti richiederà queste
-            cose di persona, e le verificherà.
+            {t('pazienti.preanamnesi.quello_che_scrivi_qui_non_sostituisce')}
           </p>
         </div>
       )}

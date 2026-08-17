@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -5,9 +6,9 @@ import { Reveal } from '@/components/ui/Reveal'
 import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Come usiamo l’intelligenza artificiale',
+  title: t('intelligenzaartificiale.meta_titolo_come_usiamo_l_intelligenza_art'),
   description:
-    'Dove c’è un modello linguistico dentro Fibonacci, cosa fa, cosa non fa mai, chi controlla il risultato e dove girano i dati. Senza entusiasmi.',
+    t('intelligenzaartificiale.meta_descrizione_dove_c_e_un_modello_linguistic'),
   alternates: { canonical: '/intelligenza-artificiale' },
 }
 
@@ -24,20 +25,20 @@ export const metadata: Metadata = {
 
 const DOVE = [
   {
-    titolo: 'La dettatura dell’anamnesi',
+    titolo: t('intelligenzaartificiale.la_dettatura_dell_anamnesi'),
     cosaFa: 'Trascrive quello che dici durante la visita e propone i campi compilati.',
     cosaNonFa: 'Non salva niente da sola. Ogni campo resta modificabile e il salvataggio è un tuo gesto.',
     chiControlla: 'Tu, prima di salvare.',
   },
   {
-    titolo: 'La bozza di un consenso fuori catalogo',
+    titolo: t('intelligenzaartificiale.la_bozza_di_un_consenso_fuori'),
     cosaFa: 'Costruisce la struttura di un modulo per una procedura che non è fra i modelli pronti.',
     cosaNonFa:
       'Non inventa contenuto clinico spacciandolo per verificato. Il testo esce marcato come bozza e va rivisto prima dell’uso con pazienti reali.',
     chiControlla: 'Il medico, e per il testo clinico il suo legale.',
   },
   {
-    titolo: 'Il controllo sulle allergie',
+    titolo: t('intelligenzaartificiale.il_controllo_sulle_allergie'),
     cosaFa:
       'Confronta quello che stai per prescrivere con le allergie registrate in cartella e segnala l’incongruenza.',
     cosaNonFa:
@@ -104,9 +105,9 @@ export default function IntelligenzaArtificiale() {
           <div className="aurea">
             <Reveal>
               <div>
-                <Occhiello chiaro>I confini</Occhiello>
+                <Occhiello chiaro>{t('intelligenzaartificiale.i_confini')}</Occhiello>
                 <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
-                  Cinque cose che non succedono mai
+                  {t('intelligenzaartificiale.cinque_cose_che_non_succedono_mai')}
                 </h2>
                 <ul className="mt-[var(--s-34)]">
                   {MAI.map((m) => (
@@ -124,7 +125,7 @@ export default function IntelligenzaArtificiale() {
             <Reveal da="destra">
               <Foto
                 nome="viso-detersione"
-                alt="Detersione del viso durante un trattamento estetico, con la paziente distesa e gli occhi chiusi."
+                alt={t('intelligenzaartificiale.detersione_del_viso_durante_un_trattamento')}
                 proporzione="4 / 3"
                 piena
               />
@@ -135,21 +136,16 @@ export default function IntelligenzaArtificiale() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
-          <Occhiello>Dove girano i dati</Occhiello>
+          <Occhiello>{t('intelligenzaartificiale.dove_girano_i_dati')}</Occhiello>
           <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-            La domanda che conta davvero
+            {t('intelligenzaartificiale.la_domanda_che_conta_davvero')}
           </h2>
           <div className="prosa mt-[var(--s-21)]">
             <p>
-              Un modello linguistico gira su server di qualcun altro, e questo è il punto in cui la
-              conformità di un prodotto sanitario si gioca sul serio. I fornitori che usiamo sono
-              elencati nella pagina dei sub-responsabili, con l&apos;indicazione di dove trattano i
-              dati e dell&apos;impegno contrattuale a non addestrare sui nostri.
+              {t('intelligenzaartificiale.un_modello_linguistico_gira_su_server')}
             </p>
             <p>
-              Nessuno di questi passaggi è indispensabile per tenere la cartella: la dettatura e la
-              generazione dei moduli si possono spegnere, e il prodotto continua a funzionare come
-              una cartella clinica normale. Se il tuo consulente preferisce così, si fa così.
+              {t('intelligenzaartificiale.nessuno_di_questi_passaggi_e_indispensabile')}
             </p>
           </div>
           <p className="mt-[var(--s-34)]">

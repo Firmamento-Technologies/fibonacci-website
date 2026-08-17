@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -5,9 +6,9 @@ import { VerificaDocumento } from '@/components/VerificaDocumento'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
-  title: 'Verifica un documento',
+  title: t('verifica.meta_titolo_verifica_un_documento'),
   description:
-    'Carica un PDF uscito da Fibonacci e controlla firme, metadati e integrità. Il controllo avviene nel tuo browser: il file non ci arriva.',
+    t('verifica.meta_descrizione_carica_un_pdf_uscito_da_fibona'),
   alternates: { canonical: '/verifica' },
   robots: { index: true, follow: true },
 }
@@ -47,37 +48,32 @@ export default function Verifica() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <div className="passo">
-            <Occhiello>Che cosa dimostra, e che cosa no</Occhiello>
+            <Occhiello>{t('verifica.che_cosa_dimostra_e_che_cosa')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
-              Due cose diverse che spesso vengono confuse
+              {t('verifica.due_cose_diverse_che_spesso_vengono')}
             </h2>
           </div>
 
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
             <div className="passo foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
-              <p className="numero" style={{ color: 'var(--accent)' }}>ATTIVO OGGI</p>
-              <h3 className="mt-[var(--s-13)] text-[1.3rem]">La catena di impronte</h3>
+              <p className="numero" style={{ color: 'var(--accent)' }}>{t('verifica.attivo_oggi')}</p>
+              <h3 className="mt-[var(--s-13)] text-[1.3rem]">{t('verifica.la_catena_di_impronte')}</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                Ogni scrittura nel registro porta l&apos;impronta di quella prima. Il database
-                rifiuta modifiche e cancellazioni sulle righe già chiuse. Se qualcuno interviene
-                sul database aggirando l&apos;applicazione, la catena si spezza e il controllo lo
-                rileva.
+                {t('verifica.ogni_scrittura_nel_registro_porta_l')}
               </p>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg)' }}>
-                Serve a dimostrare che un documento non è stato ritoccato dopo essere stato scritto.
+                {t('verifica.serve_a_dimostrare_che_un_documento')}
               </p>
             </div>
 
             <div className="passo foglio" style={{ padding: 'var(--pad-foglio, var(--s-34))' }}>
-              <p className="numero">NON ANCORA</p>
-              <h3 className="mt-[var(--s-13)] text-[1.3rem]">La firma qualificata</h3>
+              <p className="numero">{t('verifica.non_ancora')}</p>
+              <h3 className="mt-[var(--s-13)] text-[1.3rem]">{t('verifica.la_firma_qualificata')}</h3>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                La firma della paziente oggi è una firma elettronica avanzata. La firma
-                qualificata, quella che il codice civile equipara alla firma autografa, richiede un
-                certificato rilasciato da un prestatore accreditato: non lo abbiamo ancora.
+                {t('verifica.la_firma_della_paziente_oggi_e')}
               </p>
               <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg)' }}>
-                Finché non c&apos;è, non la scriviamo da nessuna parte. Nemmeno qui.
+                {t('verifica.finche_non_c_e_non_la')}
               </p>
             </div>
           </div>

@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { conGrassetto } from '@/components/Assistente'
 import { CONTACT_EMAIL } from '@/lib/site-config'
@@ -113,7 +114,7 @@ export function AssistenteFisso() {
         <aside
           role="dialog"
           aria-modal="false"
-          aria-label="Assistente di Fibonacci"
+          aria-label={t('assistentefisso.assistente_di_fibonacci')}
           className="chat-assistente"
         >
           <header className="chat-assistente__testa">
@@ -123,7 +124,7 @@ export function AssistenteFisso() {
             <button
               type="button"
               onClick={chiudi}
-              aria-label="Chiudi l’assistente"
+              aria-label={t('assistentefisso.chiudi_l_assistente')}
               className="chat-assistente__chiudi"
             >
               ✕
@@ -164,7 +165,7 @@ export function AssistenteFisso() {
 
           <form onSubmit={invia} className="chat-assistente__piede">
             <label htmlFor="chat-assistente-campo" className="sr-only">
-              Scrivi la tua domanda
+              {t('assistentefisso.scrivi_la_tua_domanda')}
             </label>
             <textarea
               id="chat-assistente-campo"
@@ -175,9 +176,9 @@ export function AssistenteFisso() {
               onKeyDown={(e) => {
                 if (e.key === 'Enter' && !e.shiftKey) invia(e)
               }}
-              placeholder="Scrivi una domanda…"
+              placeholder={t('assistentefisso.scrivi_una_domanda')}
             />
-            <button type="submit" disabled={inCorso} aria-label="Invia la domanda">
+            <button type="submit" disabled={inCorso} aria-label={t('assistentefisso.invia_la_domanda')}>
               ↑
             </button>
           </form>

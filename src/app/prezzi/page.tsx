@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -9,9 +10,9 @@ import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 import { ATTIVAZIONE, ANCORA, CONVIVENZA, RESIDUO } from '@/lib/listino'
 
 export const metadata: Metadata = {
-  title: 'Prezzi',
+  title: t('prezzi.meta_titolo_prezzi'),
   description:
-    'Tre piani: Solo a 129 euro al mese, Studio a 279, Clinica a 549. Pagando un anno in anticipo due mensilità sono in regalo. IVA esclusa. Migrazione dei dati e formazione comprese, nessun costo di attivazione, nessun vincolo di durata.',
+    t('prezzi.meta_descrizione_tre_piani_solo_a_129_euro'),
   alternates: { canonical: '/prezzi' },
 }
 
@@ -24,19 +25,19 @@ export const metadata: Metadata = {
 
 const NON_COMPRESO = [
   {
-    voce: 'Firma elettronica qualificata',
+    voce: t('prezzi.firma_elettronica_qualificata'),
     perche:
-      'La firma della paziente oggi è una firma elettronica avanzata: vale, ma non ha la stessa presunzione della qualificata. I certificati non ci sono ancora. Quando arriveranno lo diremo, e non cambierà il prezzo di chi è già cliente.',
+      t('prezzi.la_firma_della_paziente_oggi_e'),
   },
   {
-    voce: 'Conservazione a norma',
+    voce: t('prezzi.conservazione_a_norma'),
     perche:
-      'La conservazione sostitutiva richiede un conservatore accreditato, e non ne abbiamo ancora contrattualizzato uno. I documenti si archiviano e si esportano, ma non chiamarla conservazione a norma.',
+      t('prezzi.la_conservazione_sostitutiva_richiede_un_conservatore'),
   },
   {
-    voce: 'Invio al Sistema Tessera Sanitaria e fatturazione',
+    voce: t('prezzi.invio_al_sistema_tessera_sanitaria_e'),
     perche:
-      'Non li facciamo. Se ti serve il ciclo attivo, tienilo dove è oggi: non ha senso pagarci per una cosa che non abbiamo collaudato.',
+      t('prezzi.non_li_facciamo_se_ti_serve'),
   },
 ]
 
@@ -82,9 +83,9 @@ export default function Prezzi() {
           <div className="aurea">
             <Reveal>
               <div>
-                <Occhiello>Attivazione</Occhiello>
+                <Occhiello>{t('prezzi.attivazione')}</Occhiello>
                 <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
-                  Compreso nel prezzo, non a preventivo
+                  {t('prezzi.compreso_nel_prezzo_non_a_preventivo')}
                 </h2>
                 <ul className="mt-[var(--s-34)]">
                   {ATTIVAZIONE.map((v) => (
@@ -102,7 +103,7 @@ export default function Prezzi() {
             <Reveal da="destra">
               <Foto
                 nome="consulto-studio"
-                alt="Due professioniste sedute con una cliente in una stanza di trattamento, accanto alla poltrona e al carrello degli strumenti."
+                alt={t('prezzi.due_professioniste_sedute_con_una_cliente')}
                 proporzione="4 / 3"
                 didascalia="La configurazione dello studio la facciamo noi, con te."
               />
@@ -115,13 +116,12 @@ export default function Prezzi() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
-            <Occhiello>Quello che non c&apos;è</Occhiello>
+            <Occhiello>{t('prezzi.quello_che_non_c_e')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-              Tre cose che altri mettono nel listino e noi no
+              {t('prezzi.tre_cose_che_altri_mettono_nel')}
             </h2>
             <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-              Rientrano il giorno in cui saranno vere. Scriverle adesso vorrebbe dire spiegartele
-              dopo la firma del contratto.
+              {t('prezzi.rientrano_il_giorno_in_cui_saranno')}
             </p>
           </Reveal>
 
@@ -146,7 +146,7 @@ export default function Prezzi() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
-            <Occhiello>Se paghi già un portale</Occhiello>
+            <Occhiello>{t('prezzi.se_paghi_gia_un_portale')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               {CONVIVENZA.titolo}
             </h2>
@@ -203,7 +203,7 @@ export default function Prezzi() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal>
-            <Occhiello>Se sei sotto contratto</Occhiello>
+            <Occhiello>{t('prezzi.se_sei_sotto_contratto')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
               {RESIDUO.titolo}
             </h2>
@@ -218,7 +218,7 @@ export default function Prezzi() {
       <section className="scuro fascia">
         <div className="gabbia gabbia-stretta">
           <Reveal>
-            <Occhiello chiaro>Con che cosa si confronta</Occhiello>
+            <Occhiello chiaro>{t('prezzi.con_che_cosa_si_confronta')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch' }}>
               {ANCORA.titolo}
             </h2>
@@ -246,9 +246,9 @@ export default function Prezzi() {
           per lui non prenota, chiude. */}
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta text-center">
-          <Occhiello>Prima di scegliere</Occhiello>
+          <Occhiello>{t('prezzi.prima_di_scegliere')}</Occhiello>
           <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '20ch', marginInline: 'auto' }}>
-            Se la tua situazione non rientra nei tre
+            {t('prezzi.se_la_tua_situazione_non_rientra')}
           </h2>
           <p
             className="mt-[var(--s-21)] text-[1.0625rem]"
@@ -269,16 +269,16 @@ export default function Prezzi() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[length:var(--display-2)]">Vuoi vederlo prima di decidere?</h2>
+          <h2 className="text-[length:var(--display-2)]">{t('prezzi.vuoi_vederlo_prima_di_decidere')}</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Mezz&apos;ora, sulle procedure che fai tu.
+            {t('prezzi.mezz_ora_sulle_procedure_che_fai')}
           </p>
           <div className="mt-[var(--s-34)] flex flex-wrap justify-center gap-[var(--s-13)]">
             <Link href="/richiedi-una-demo" className="btn btn-primario">
-              Richiedi una demo
+              {t('prezzi.richiedi_una_demo')}
             </Link>
             <Link href="/domande" className="btn btn-secondario">
-              Leggi le domande frequenti
+              {t('prezzi.leggi_le_domande_frequenti')}
             </Link>
           </div>
           <p className="mt-[var(--s-34)]">

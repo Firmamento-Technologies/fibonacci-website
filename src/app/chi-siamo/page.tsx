@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -6,9 +7,9 @@ import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 import { SOCIETA, CONTACT_EMAIL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: 'Chi siamo',
+  title: t('chisiamo.meta_titolo_chi_siamo'),
   description:
-    'Chi c’è dietro Fibonacci, come lavoriamo, e a che punto siamo davvero: in pilota presso uno studio, prime attivazioni nel 2026.',
+    t('chisiamo.meta_descrizione_chi_c_e_dietro_fibonacci_come'),
   alternates: { canonical: '/chi-siamo' },
 }
 
@@ -26,24 +27,24 @@ export const metadata: Metadata = {
 
 const PRINCIPI = [
   {
-    titolo: 'Non promettiamo quello che non gira',
+    titolo: t('chisiamo.non_promettiamo_quello_che_non_gira'),
     testo:
-      'Firma qualificata e conservazione a norma non sono nel listino perché non sono attive. Quando lo saranno, lo scriveremo il giorno stesso.',
+      t('chisiamo.firma_qualificata_e_conservazione_a_norma'),
   },
   {
-    titolo: 'I dati sono del medico',
+    titolo: t('chisiamo.i_dati_sono_del_medico'),
     testo:
-      'Titolare del trattamento sei tu. L’esportazione completa è una funzione del prodotto, non una concessione da negoziare alla disdetta.',
+      t('chisiamo.titolare_del_trattamento_sei_tu_l'),
   },
   {
-    titolo: 'Il software non fa il medico',
+    titolo: t('chisiamo.il_software_non_fa_il_medico'),
     testo:
-      'Nessuna schermata propone diagnosi o terapie. Segnaliamo incongruenze, come un’allergia in cartella, e ci fermiamo lì.',
+      t('chisiamo.nessuna_schermata_propone_diagnosi_o_terapie'),
   },
   {
-    titolo: 'Le prove prima delle parole',
+    titolo: t('chisiamo.le_prove_prima_delle_parole'),
     testo:
-      'Il verificatore dei documenti è pubblico e funziona anche contro di noi. I contratti si leggono senza compilare moduli.',
+      t('chisiamo.il_verificatore_dei_documenti_e_pubblico'),
   },
 ] as const
 
@@ -65,23 +66,17 @@ export default function ChiSiamo() {
             <Reveal>
               <Foto
                 nome="cura-pelle-viso"
-                alt="Trattamento del viso in ambulatorio: mani con guanti reggono uno strumento appoggiato allo zigomo della paziente, che tiene gli occhi chiusi."
+                alt={t('chisiamo.trattamento_del_viso_in_ambulatorio_mani')}
                 proporzione="4 / 3"
               />
             </Reveal>
             <Reveal da="destra">
               <div className="prosa">
                 <p>
-                  Il prodotto è nato guardando lavorare chi la medicina estetica la fa, e chiedendo
-                  che cosa rifacesse a fine giornata. La risposta era quasi sempre la stessa: la
-                  documentazione. Non perché sia difficile, ma perché è la cosa che si rimanda
-                  finché non serve, e quando serve è tardi.
+                  {t('chisiamo.il_prodotto_e_nato_guardando_lavorare')}
                 </p>
                 <p>
-                  Da lì la scelta di costruire una cartella clinica per una specialità sola. Un
-                  gestionale che va bene per sei discipline non conosce nessuna delle sei: non sa
-                  che cosa sia un lotto di tossina, non ha una mappa del viso, e il suo modulo di
-                  consenso vale per tutto perché non descrive niente.
+                  {t('chisiamo.da_li_la_scelta_di_costruire')}
                 </p>
               </div>
             </Reveal>
@@ -92,9 +87,9 @@ export default function ChiSiamo() {
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta">
           <div className="passo">
-            <Occhiello>Come lavoriamo</Occhiello>
+            <Occhiello>{t('chisiamo.come_lavoriamo')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-              Quattro regole che ci siamo dati
+              {t('chisiamo.quattro_regole_che_ci_siamo_dati')}
             </h2>
           </div>
           <div className="mt-[var(--s-34)] grid gap-[var(--s-21)] md:grid-cols-2">
@@ -115,27 +110,21 @@ export default function ChiSiamo() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta">
           <div className="passo">
-            <Occhiello>A che punto siamo</Occhiello>
+            <Occhiello>{t('chisiamo.a_che_punto_siamo')}</Occhiello>
             <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
-              In pilota, non in scala
+              {t('chisiamo.in_pilota_non_in_scala')}
             </h2>
           </div>
           <div className="passo prosa mt-[var(--s-21)]">
             <p>
-              Il software gira in produzione presso uno studio pilota. Le prime attivazioni sono
-              del 2026. Non abbiamo una piazza di loghi da mostrare, e non ne inventiamo: nella
-              pubblicità sanitaria italiana le testimonianze dei pazienti non si possono usare, e
-              quelle dei colleghi, a questo punto, sarebbero poche e poco significative.
+              {t('chisiamo.il_software_gira_in_produzione_presso')}
             </p>
             <p>
-              Che cosa vuol dire per te, in concreto: parli con chi il prodotto lo ha costruito,
-              le tue richieste pesano sulle priorità, e in cambio accetti di lavorare con un
-              fornitore giovane. È uno scambio, non un vantaggio unilaterale, e va valutato per
-              quello che è.
+              {t('chisiamo.che_cosa_vuol_dire_per_te')}
             </p>
             {!SOCIETA.costituita && (
               <p>
-                <strong>Una nota societaria.</strong> Fibonacci sta passando a una società propria,
+                <strong>{t('chisiamo.una_nota_societaria')}</strong> Fibonacci sta passando a una società propria,
                 oggi in costituzione. Finché l&apos;iscrizione al registro delle imprese non è
                 perfezionata, ragione sociale, sede e partita IVA non compaiono nel piè di pagina:
                 preferiamo un dato mancante a un dato provvisorio.

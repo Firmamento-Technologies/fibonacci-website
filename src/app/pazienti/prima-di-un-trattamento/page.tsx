@@ -1,12 +1,13 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
 import { TestoPaziente, Sezione, COLLEGAMENTO } from '@/components/pazienti/TestoPaziente'
 
 export const metadata: Metadata = {
-  title: 'Nove domande da fare prima di un trattamento estetico',
+  title: t('pazienti.primadiuntrattamento.meta_titolo_nove_domande_da_fare_prima_di'),
   description:
-    'Che prodotto mi mettete, quanto dura, quali sono le alternative, che cosa succede se non lo faccio, chi lo esegue, cosa si fa se va storto. Domande che hai il diritto di fare, tratte dalla legge 219/2017.',
+    t('pazienti.primadiuntrattamento.meta_descrizione_che_prodotto_mi_mettete_quanto'),
   alternates: { canonical: '/pazienti/prima-di-un-trattamento' },
 }
 
@@ -65,9 +66,7 @@ export default function Page() {
         titolo="Nove domande da fare prima di un trattamento"
         sommario={
           <>
-            Non sono domande scomode: sono quelle a cui il medico è tenuto a rispondere. La
-            legge 219/2017 elenca ciò che hai diritto di sapere: qui è girato in domande da
-            fare in visita.
+            {t('pazienti.primadiuntrattamento.non_sono_domande_scomode_sono_quelle')}
           </>
         }
       >
@@ -109,11 +108,11 @@ export default function Page() {
         <Sezione id="poi" titolo="Da qui">
           <p>
             <Link href="/pazienti/consenso-informato" style={COLLEGAMENTO}>
-              Che cos’è il consenso informato
+              {t('pazienti.primadiuntrattamento.che_cos_e_il_consenso_informato')}
             </Link>{' '}
             ·{' '}
             <Link href="/pazienti/verificare-un-medico" style={COLLEGAMENTO}>
-              Come verificare che un medico è iscritto all’Ordine
+              {t('pazienti.primadiuntrattamento.come_verificare_che_un_medico_e')}
             </Link>
           </p>
         </Sezione>

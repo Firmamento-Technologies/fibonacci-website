@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata, Viewport } from 'next'
 import { AssistenteFisso } from '@/components/AssistenteFisso'
 import { Geist, Geist_Mono, Newsreader } from 'next/font/google'
@@ -157,7 +158,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             oggi funzionano, e questa correzione non doveva toglierli. */}
       </head>
       <body className="min-h-screen flex flex-col">
-        <a href="#contenuto" className="salta-al-contenuto">Salta al contenuto</a>
+        <a href="#contenuto" className="salta-al-contenuto">{t('layout.salta_al_contenuto')}</a>
         {children}
         {/* L'assistente, da ogni pagina. ⚠️ DOPO {children}: cosi' e' l'ultimo
             nell'ordine di lettura e non si mette davanti al contenuto per chi

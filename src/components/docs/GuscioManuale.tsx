@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { Header } from '@/components/chrome/Header'
@@ -49,8 +50,8 @@ export function GuscioManuale({
         <IndiceCapitoli slugCorrente={slugCorrente} />
 
         <main id="contenuto" className="manuale__colonna">
-          <nav className="manuale__briciole" aria-label="Percorso">
-            <Link href="/documentazione">Manuale</Link>
+          <nav className="manuale__briciole" aria-label={t('docs.gusciomanuale.percorso')}>
+            <Link href="/documentazione">{t('docs.gusciomanuale.manuale')}</Link>
             {briciola && (
               <>
                 <span aria-hidden="true">›</span>

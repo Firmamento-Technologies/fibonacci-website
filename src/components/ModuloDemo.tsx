@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { LEAD_API_URL, CONTACT_EMAIL } from '@/lib/site-config'
@@ -131,12 +132,10 @@ export function ModuloDemo({
   if (!CANALE_ATTIVO) {
     return (
       <div role="status">
-        <p className="occhiello">Contatti</p>
-        <h3 className="mt-[var(--s-13)] text-[1.3rem]">Il modulo non è ancora attivo</h3>
+        <p className="occhiello">{t('modulodemo.contatti')}</p>
+        <h3 className="mt-[var(--s-13)] text-[1.3rem]">{t('modulodemo.il_modulo_non_e_ancora_attivo')}</h3>
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Stiamo attivando la casella con cui riceviamo le richieste. Se lo dicessimo dopo
-          che hai compilato il modulo ti avremmo fatto perdere tempo e il messaggio
-          sarebbe andato perso: preferiamo dirtelo adesso.
+          {t('modulodemo.stiamo_attivando_la_casella_con_cui')}
         </p>
       </div>
     )
@@ -145,7 +144,7 @@ export function ModuloDemo({
   if (stato === 'inviato') {
     return (
       <div role="status">
-        <p className="occhiello">Ricevuto</p>
+        <p className="occhiello">{t('modulodemo.ricevuto')}</p>
         <h3 className="mt-[var(--s-13)] text-[1.3rem]">
           {viaPosta ? 'Si apre il tuo programma di posta' : 'Ti scriviamo entro un giorno lavorativo'}
         </h3>
@@ -191,7 +190,7 @@ export function ModuloDemo({
           />
         ) : (
           <div>
-            <label htmlFor="procedure" className="numero">Che procedure fai</label>
+            <label htmlFor="procedure" className="numero">{t('modulodemo.che_procedure_fai')}</label>
             <select
               id="procedure"
               required
@@ -200,7 +199,7 @@ export function ModuloDemo({
               className="mt-[var(--s-5)] w-full"
               style={campoStile}
             >
-              <option value="" disabled>Scegli</option>
+              <option value="" disabled>{t('modulodemo.scegli')}</option>
               {PROCEDURE.map((p) => <option key={p} value={p}>{p}</option>)}
             </select>
           </div>
@@ -219,7 +218,7 @@ export function ModuloDemo({
         style={{ color: 'var(--fg-muted)' }}
         data-misura="niente-dati-pazienti"
       >
-        ⛔ <strong>Non scrivere qui dati di pazienti</strong>: né nomi, né date di nascita,
+        ⛔ <strong>{t('modulodemo.non_scrivere_qui_dati_di_pazienti')}</strong>: né nomi, né date di nascita,
         né schermate della cartella. Per capire un problema ci basta il{' '}
         <strong>codice di riferimento</strong> che l&apos;applicazione mostra quando qualcosa
         va storto.
@@ -260,7 +259,7 @@ export function ModuloDemo({
             onClick={() => setStato('fermo')}
             style={{ color: 'var(--accent-deep)', textDecoration: 'underline' }}
           >
-            Riprova
+            {t('modulodemo.riprova')}
           </button>
           {CONTACT_EMAIL ? (
             <>

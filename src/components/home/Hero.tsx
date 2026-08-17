@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Occhiello } from '@/components/ui/elementi'
 import { ProvaMappaViso } from '@/components/home/ProvaMappaViso'
@@ -55,7 +56,7 @@ export function Hero() {
           {/* ── Parola ─────────────────────────────────────────────────── */}
           <div className="passo">
             <div className="entra-primo-schermo">
-              <Occhiello>Medicina estetica · Cartella clinica</Occhiello>
+              <Occhiello>{t('home.hero.medicina_estetica_cartella_clinica')}</Occhiello>
             </div>
 
             <h1 className="entra-primo-schermo ritardo-1 mt-[var(--s-21)] text-[length:var(--display-1)]">
@@ -96,7 +97,7 @@ export function Hero() {
                   primario invece di lasciare il primo schermo senza invito. */}
               {DEMO_URL && (
                 <a href={DEMO_URL} className="btn btn-primario" rel="noopener">
-                  Entra nella demo
+                  {t('home.hero.entra_nella_demo')}
                 </a>
               )}
               {/* Una sola etichetta in tutto il sito. Prima ce n'erano quattro
@@ -108,7 +109,7 @@ export function Hero() {
                 href="/richiedi-una-demo"
                 className={DEMO_URL ? 'btn btn-secondario' : 'btn btn-primario'}
               >
-                Richiedi una demo
+                {t('home.hero.richiedi_una_demo')}
               </Link>
             </div>
 

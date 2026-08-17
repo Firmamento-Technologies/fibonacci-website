@@ -1,5 +1,6 @@
 'use client'
 
+import { t } from '@/lib/testo'
 import { useState } from 'react'
 import { CONTATTO_API_URL } from '@/lib/site-config'
 
@@ -115,7 +116,7 @@ export function ModuloContatto({
         }}
       >
         <p style={{ fontWeight: 600, color: 'var(--rosso, #b3261e)', marginBottom: 'var(--s-8)' }}>
-          Non abbiamo inviato il messaggio, di proposito.
+          {t('pazienti.modulocontatto.non_abbiamo_inviato_il_messaggio_di')}
         </p>
         <p>{stato.messaggio}</p>
       </div>
@@ -125,7 +126,7 @@ export function ModuloContatto({
   if (stato.fase === 'fatto') {
     return (
       <div className="prosa" style={{ marginTop: 'var(--s-34)' }}>
-        <h2>Controlla la tua email</h2>
+        <h2>{t('pazienti.modulocontatto.controlla_la_tua_email')}</h2>
         <p>{stato.messaggio}</p>
         {/* Regola 3: si dice cosa succede, ⛔ non quando arriva una risposta. */}
         <p style={{ fontSize: '15px', color: 'var(--fg-muted)' }}>
@@ -143,8 +144,7 @@ export function ModuloContatto({
     <form onSubmit={invia} className="prosa" style={{ marginTop: 'var(--s-34)' }}>
       <h2>Scrivi a {nomeStudio}</h2>
       <p style={{ fontSize: '15px', color: 'var(--fg-muted)' }}>
-        Il messaggio è tuo: noi lo recapitiamo e basta. La risposta ti arriva
-        direttamente, senza passare da noi.
+        {t('pazienti.modulocontatto.il_messaggio_e_tuo_noi_lo')}
       </p>
 
       <Campo id="c-nome" etichetta="Come ti chiami" valore={nome} onChange={setNome} />
@@ -167,7 +167,7 @@ export function ModuloContatto({
 
       <p style={{ marginTop: 'var(--s-21)' }}>
         <label htmlFor="c-testo" className="block text-[15px]" style={{ fontWeight: 500 }}>
-          Che cosa ti serve
+          {t('pazienti.modulocontatto.che_cosa_ti_serve')}
         </label>
         <textarea
           id="c-testo"
@@ -198,8 +198,7 @@ export function ModuloContatto({
           soccorso, ed è l'unica cosa che qualcuno deve leggere **prima** di
           scrivere se sta male. */}
       <p style={{ fontSize: '13px', color: 'var(--fg-muted)' }}>
-        Non è un canale di emergenza e non sostituisce una visita. Se stai male adesso
-        chiama il 112 o il 118.
+        {t('pazienti.modulocontatto.non_e_un_canale_di_emergenza')}
       </p>
     </form>
   )

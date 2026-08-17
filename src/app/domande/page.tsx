@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -7,9 +8,9 @@ import { DOMANDE, CATEGORIE, type Domanda } from '@/lib/domande'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
-  title: 'Domande frequenti',
+  title: t('domande.meta_titolo_domande_frequenti'),
   description:
-    'Prezzi, dati dei pazienti, migrazione, e soprattutto quello che Fibonacci non fa. Risposte senza giri di parole.',
+    t('domande.meta_descrizione_prezzi_dati_dei_pazienti_migra'),
   alternates: { canonical: '/domande' },
 }
 
@@ -102,9 +103,9 @@ export default function DomandeFrequenti() {
 
       <section className="fascia" style={{ background: 'var(--bg-sunk)' }}>
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[length:var(--display-2)]">Manca la tua?</h2>
+          <h2 className="text-[length:var(--display-2)]">{t('domande.manca_la_tua')}</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            Chiedila qui. Se la risposta non c&apos;è in queste pagine, te lo dice.
+            {t('domande.chiedila_qui_se_la_risposta_non')}
           </p>
           <div className="mt-[var(--s-34)]">
             <Assistente />
@@ -114,7 +115,7 @@ export default function DomandeFrequenti() {
 
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
-          <h2 className="text-[length:var(--display-2)]">Preferisci una persona?</h2>
+          <h2 className="text-[length:var(--display-2)]">{t('domande.preferisci_una_persona')}</h2>
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             {CONTACT_EMAIL ? (
               <>

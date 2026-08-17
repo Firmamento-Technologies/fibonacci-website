@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
@@ -131,7 +132,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       avviso={
         m.esempio ? (
           <>
-            <strong>Pagina di esempio.</strong> Questo studio non esiste: serve a costruire e
+            <strong>{t('pazienti.medico.slug.pagina_di_esempio')}</strong> Questo studio non esiste: serve a costruire e
             collaudare la scheda prima che ci sia un medico vero.
           </>
         ) : undefined
