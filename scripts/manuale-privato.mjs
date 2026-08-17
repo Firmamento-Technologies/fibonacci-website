@@ -90,6 +90,55 @@ if (existsSync(SORGENTE)) {
   ferma(`non sono riuscito a togliere ${relative(RADICE, SORGENTE)} da out/: NON rilasciare.`)
 }
 
+
+/* ── LE ALTRE QUATTRO LINGUE ────────────────────────────────────────────────
+ *
+ * Stesso trattamento dell'italiano: si spostano fuori da `out/` (sono lo stesso
+ * manuale, e la ragione per cui l'italiano non e' pubblico vale identica) e si
+ * controllano.
+ *
+ * ⚠️ IL CONTROLLO CHE CONTA e' quello sulle traduzioni A META'. Una lingua
+ * assente e' un fatto visibile: l'app ripiega sull'italiano e si vede subito.
+ * Una lingua tradotta a meta' invece **sembra fatta**: l'indice e' completo,
+ * i titoli sono nella lingua giusta, e dentro certi capitoli il testo e'
+ * italiano. Quindi: 0 guide tradotte = lingua non generata, si passa oltre;
+ * fra 1 e tutte-meno-una = si ferma la build.
+ */
+const LINGUE = ['en', 'es', 'fr', 'de']
+const perLingua = []
+for (const l of LINGUE) {
+  const sorgenteL = join(RADICE, 'out', 'manuale-privato', l)
+  if (!existsSync(sorgenteL)) continue
+  let datiL
+  try {
+    datiL = JSON.parse(readFileSync(sorgenteL, 'utf8'))
+  } catch (e) {
+    ferma(`manuale-privato/${l} non è JSON valido: ${String(e).slice(0, 120)}`)
+  }
+  const pagineL = datiL.pagine ?? []
+  if (pagineL.length !== attese.length) {
+    ferma(`il manuale ${l} ha ${pagineL.length} guide, ne servono ${attese.length}.`)
+  }
+  const ripiegati = datiL.ripiegati ?? 0
+  if (ripiegati > 0 && ripiegati < attese.length) {
+    ferma(
+      `la lingua ${l} è tradotta a METÀ: ${attese.length - ripiegati} capitoli su ${attese.length}.`,
+      'Completa con `node scripts/traduci-manuale.mjs --lingua=' + l + ' --riprendi`, ' +
+        'oppure togli src/content/docs/' + l + '/ per tornare a un ripiego pulito sull\'italiano. ' +
+        'Una lingua a metà sembra fatta e non lo è: è il caso peggiore dei tre.',
+    )
+  }
+  writeFileSync(join(CARTELLA, `manuale-corpus.${l}.json`), JSON.stringify(datiL), 'utf-8')
+  rmSync(sorgenteL, { force: true })
+  if (existsSync(sorgenteL)) {
+    ferma(`non sono riuscito a togliere out/manuale-privato/${l}: NON rilasciare.`)
+  }
+  perLingua.push(`${l}:${attese.length - ripiegati}/${attese.length}`)
+}
+if (perLingua.length) {
+  console.log(`[manuale-privato] lingue → ${perLingua.join('  ')}`)
+}
+
 const caratteri = pagine.reduce((n, p) => n + p.markdown.length, 0)
 console.log(
   `[manuale-privato] ${pagine.length} guide, ${caratteri.toLocaleString('it-IT')} caratteri → ` +
