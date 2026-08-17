@@ -93,10 +93,10 @@ export function GuscioPaziente({
           <nav aria-label={t('pazienti.gusciopaziente.guide_per_il_paziente')} style={{ marginBottom: 'var(--s-34)' }}>
             <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-8) var(--s-21)', padding: 0 }}>
               {[
-                ['/pazienti/prima-di-un-trattamento', 'Le domande da fare prima di un trattamento'],
-                ['/pazienti/consenso-informato', 'Che cos’è il consenso informato'],
-                ['/pazienti/verificare-un-medico', 'L’albo dei medici, come si consulta'],
-                ['/pazienti/privacy', 'I tuoi dati'],
+                ['/pazienti/prima-di-un-trattamento', t('pazienti.consensoinformato.le_domande_da_fare_prima_di')],
+                ['/pazienti/consenso-informato', t('pazienti.primadiuntrattamento.che_cos_e_il_consenso_informato')],
+                ['/pazienti/verificare-un-medico', t('pazienti.gusciopaziente.l_albo_dei_medici_come_si_consulta')],
+                ['/pazienti/privacy', t('pazienti.gusciopaziente.i_tuoi_dati')],
               ].map(([href, testo]) => (
                 <li key={href} style={{ listStyle: 'none' }}>
                   <Link href={href} className="collegamento-testo">
@@ -108,13 +108,12 @@ export function GuscioPaziente({
           </nav>
 
           <p style={{ maxWidth: 'var(--measure)' }}>
-            Questa pagina è pubblicata dallo studio che vi compare, attraverso Fibonacci.
-            Le informazioni cliniche restano di sua responsabilità.{' '}
+            {t('pazienti.gusciopaziente.questa_pagina_e_pubblicata_dallo_studio')}{' '}
             {/* ⚖️ L'appuntamento è una **richiesta**, non una prenotazione
                 confermata: il sidecar crea l'appuntamento in stato `pending`
                 proprio per questo, e la pagina non deve dire al paziente una
                 cosa che lo studio non ha ancora confermato. */}
-            Le richieste di appuntamento vengono confermate dallo studio.
+            {t('pazienti.gusciopaziente.le_richieste_di_appuntamento_vengono_confermate')}
           </p>
           {/* ⚠️ L'anagrafica si accende da sola il giorno dell'iscrizione al
               registro delle imprese: `SOCIETA.costituita` è l'unico
@@ -123,7 +122,7 @@ export function GuscioPaziente({
           <p style={{ marginTop: 'var(--s-21)' }}>
             {SOCIETA.costituita
               ? `${SOCIETA.ragioneSociale} · P. IVA ${SOCIETA.partitaIva}`
-              : 'La società titolare del servizio è in costituzione: i dati compariranno qui appena iscritta al registro delle imprese.'}
+              : t('pazienti.gusciopaziente.la_societa_titolare_del_servizio_e')}
           </p>
         </div>
       </footer>

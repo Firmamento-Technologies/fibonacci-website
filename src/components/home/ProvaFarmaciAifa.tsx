@@ -63,8 +63,7 @@ export function ProvaFarmaciAifa() {
   return (
     <div className="prova-catalogo" data-testid="prova-farmaci-aifa">
       <p className="prova-viso__invito">
-        <strong>{t('home.provafarmaciaifa.provalo_qui')}</strong> Cerca un principio attivo, o un codice ATC: il
-        catalogo è quello di AIFA, sincronizzato ogni giorno.
+        <strong>{t('home.provafarmaciaifa.provalo_qui')}</strong> {t('home.provafarmaciaifa.cerca_un_principio_attivo_o_un')}
       </p>
 
       <label className="prova-catalogo__campo">
@@ -98,7 +97,7 @@ export function ProvaFarmaciAifa() {
             illustrativo e la scheda tecnica sono quelli ufficiali AIFA, a un clic dalla
             prescrizione.
             <br />
-            Cerca una molecola.
+            {t('home.provafarmaciaifa.cerca_una_molecola')}
           </p>
         )}
 

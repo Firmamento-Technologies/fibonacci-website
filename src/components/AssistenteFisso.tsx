@@ -119,7 +119,7 @@ export function AssistenteFisso() {
         >
           <header className="chat-assistente__testa">
             <span className="chat-assistente__titolo">
-              <Faccina piccola /> Assistente
+              <Faccina piccola /> {t('assistentefisso.assistente')}
             </span>
             <button
               type="button"
@@ -134,9 +134,9 @@ export function AssistenteFisso() {
           <div className="chat-assistente__corpo">
             {turni.length === 0 && (
               <p className="chat-assistente__benvenuto">
-                Chiedimi di Fibonacci: prezzi, funzioni, dove stanno i dati.
+                {t('assistentefisso.chiedimi_di_fibonacci_prezzi_funzioni_dove')}
                 <br />
-                Rispondo solo da queste pagine, e ti dico da quali.
+                {t('assistentefisso.rispondo_solo_da_queste_pagine_e')}
               </p>
             )}
 
@@ -190,7 +190,7 @@ export function AssistenteFisso() {
         type="button"
         onClick={() => (aperto ? chiudi() : setAperto(true))}
         aria-expanded={aperto}
-        aria-label={aperto ? 'Chiudi l’assistente' : 'Apri l’assistente'}
+        aria-label={aperto ? t('assistentefisso.chiudi_l_assistente') : t('assistentefisso.apri_l_assistente')}
         className="pallino-assistente"
       >
         {aperto ? <span aria-hidden="true">✕</span> : <Faccina />}

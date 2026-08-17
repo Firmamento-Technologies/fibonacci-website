@@ -42,7 +42,7 @@ export function Problema() {
               nome="cartella-a-mano"
               alt={t('home.sezioni.le_mani_di_un_medico_che')}
               proporzione="4 / 5"
-              didascalia="La documentazione che dipende dalla memoria di stasera."
+              didascalia={t('home.sezioni.la_documentazione_che_dipende_dalla_memoria')}
             />
           </Reveal>
 
@@ -321,7 +321,7 @@ export function FotoCliniche() {
               alt={t('home.sezioni.una_donna_seduta_in_ambulatorio_guarda')}
               proporzione="4 / 3"
               className="lg:order-1"
-              didascalia="Il risultato si valuta sul confronto, e il confronto va conservato bene."
+              didascalia={t('home.sezioni.il_risultato_si_valuta_sul_confronto')}
             />
           </Reveal>
         </div>
@@ -416,7 +416,7 @@ export function Garanzie() {
 
           <Reveal>
             <Link href="/conformita-europea" className="link-avanti mt-[var(--s-21)]">
-              Tutte e nove, con gli articoli citati
+              {t('home.sezioni.tutte_e_nove_con_gli_articoli')}
               <Freccia />
             </Link>
           </Reveal>
@@ -432,24 +432,24 @@ export function Garanzie() {
 
 const OBIEZIONI = [
   {
-    d: 'Ho dieci anni di pazienti altrove. Li perdo?',
-    r: 'No. Importiamo anagrafiche e storico da un file esportato dal tuo gestionale, e la migrazione è compresa. Se il tuo fornitore non esporta niente, te lo diciamo prima di firmare.',
+    d: t('home.sezioni.ho_dieci_anni_di_pazienti_altrove'),
+    r: t('home.sezioni.no_importiamo_anagrafiche_e_storico_da'),
   },
   {
-    d: 'Se domani chiudete, i dati dove finiscono?',
-    r: 'Sono tuoi: il titolare sei tu, noi trattiamo per conto tuo. Esporti tutto quando vuoi, in un formato leggibile senza di noi. È scritto nel contratto, non è una promessa a voce.',
+    d: t('home.sezioni.se_domani_chiudete_i_dati_dove'),
+    r: t('home.sezioni.sono_tuoi_il_titolare_sei_tu'),
   },
   {
-    d: 'Quanto ci metto a impararlo?',
-    r: 'Una prima visita completa la fai il primo giorno. Configurazione dello studio e formazione iniziale sono comprese nell’attivazione.',
+    d: t('home.sezioni.quanto_ci_metto_a_impararlo'),
+    r: t('home.sezioni.una_prima_visita_completa_la_fai'),
   },
   {
-    d: 'Serve internet? E se salta la linea?',
-    r: 'Sì, serve, e se cade non apri una cartella nuova. È il limite di un servizio che tiene i dati su server nostri. In cambio: backup, cifratura, e un portatile rotto non ti costa niente.',
+    d: t('home.sezioni.serve_internet_e_se_salta_la'),
+    r: t('home.sezioni.si_serve_e_se_cade_non'),
   },
   {
-    d: 'I dati dei pazienti addestrano l’intelligenza artificiale?',
-    r: 'No, ed è scritto nei contratti con i fornitori dei modelli, che trovi nella pagina dei sub-responsabili.',
+    d: t('home.sezioni.i_dati_dei_pazienti_addestrano_l'),
+    r: t('home.sezioni.no_ed_e_scritto_nei_contratti'),
   },
 ] as const
 
@@ -468,7 +468,7 @@ export function Obiezioni() {
                 {t('home.sezioni.se_una_risposta_ti_sembra_evasiva')}
               </p>
               <Link href="/domande" className="link-avanti mt-[var(--s-21)]">
-                Tutte le domande
+                {t('home.sezioni.tutte_le_domande')}
                 <Freccia />
               </Link>
             </div>

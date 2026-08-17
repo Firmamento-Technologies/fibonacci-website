@@ -40,23 +40,23 @@ export const metadata: Metadata = {
 const PASSAGGI_EHDS = [
   {
     a: 'Art. 37',
-    t: 'Documentazione tecnica',
-    d: 'Il fabbricante la redige prima di immettere il sistema sul mercato e la tiene aggiornata. Dimostra la conformità alle prescrizioni essenziali dell’Allegato II.',
+    t: t('conformitaeuropea.documentazione_tecnica'),
+    d: t('conformitaeuropea.il_fabbricante_la_redige_prima_di'),
   },
   {
     a: 'Art. 39',
-    t: 'Dichiarazione di conformità UE',
-    d: 'Attesta il rispetto delle prescrizioni essenziali. Resta accessibile per almeno dieci anni dall’immissione sul mercato.',
+    t: t('conformitaeuropea.dichiarazione_di_conformit_ue'),
+    d: t('conformitaeuropea.attesta_il_rispetto_delle_prescrizioni_essenziali'),
   },
   {
     a: 'Art. 40',
-    t: 'Ambiente digitale europeo di prova',
-    d: 'I componenti software armonizzati vanno valutati lì prima dell’immissione sul mercato. Le specifiche comuni sono demandate ad atti di esecuzione della Commissione.',
+    t: t('conformitaeuropea.ambiente_digitale_europeo_di_prova'),
+    d: t('conformitaeuropea.i_componenti_software_armonizzati_vanno_valutati'),
   },
   {
     a: 'Art. 41',
-    t: 'Marcatura CE di conformità',
-    d: 'Apposta in modo visibile, leggibile e indelebile sui documenti che accompagnano il sistema, prima dell’immissione sul mercato.',
+    t: t('conformitaeuropea.marcatura_ce_di_conformit'),
+    d: t('conformitaeuropea.apposta_in_modo_visibile_leggibile_e'),
   },
 ] as const
 
@@ -65,29 +65,29 @@ const PASSAGGI_EHDS = [
 const ALLEGATO_II = [
   {
     n: '2.6',
-    t: 'Uscire non deve essere gravoso',
-    d: 'Niente caratteristiche che rendano gravosa l’esportazione autorizzata per sostituire il sistema con un altro prodotto.',
+    t: t('conformitaeuropea.uscire_non_deve_essere_gravoso'),
+    d: t('conformitaeuropea.niente_caratteristiche_che_rendano_gravosa_l'),
     stato: 'Soddisfatta',
     come: 'l’export integrale in FHIR R4 è una funzione, disponibile senza chiedere il permesso a noi.',
   },
   {
     n: '3.1',
-    t: 'Identificare chi entra',
-    d: 'Meccanismi affidabili di identificazione e autenticazione dei professionisti sanitari.',
+    t: t('conformitaeuropea.identificare_chi_entra'),
+    d: t('conformitaeuropea.meccanismi_affidabili_di_identificazione_e_autenticazione'),
     stato: 'Soddisfatta',
     come: 'secondo fattore, sessione irrigidita, ruoli separati, compartimenti per studio.',
   },
   {
     n: '3.2 e 3.3',
-    t: 'Registrare gli accessi, e poterli esaminare',
-    d: 'Registrazione di ogni evento di accesso, e strumenti per analizzarne i dati.',
+    t: t('conformitaeuropea.registrare_gli_accessi_e_poterli_esamina'),
+    d: t('conformitaeuropea.registrazione_di_ogni_evento_di_accesso'),
     stato: 'Soddisfatta',
     come: 'registro FHIR AuditEvent legato da una catena di impronte, che consulti tu.',
   },
   {
     n: '3.4',
-    t: 'Conservazioni e accessi differenziati',
-    d: 'Periodi di conservazione e diritti di accesso diversi secondo origine e categoria del dato.',
+    t: t('conformitaeuropea.conservazioni_e_accessi_differenziati'),
+    d: t('conformitaeuropea.periodi_di_conservazione_e_diritti_di'),
     stato: 'Parziale',
     come: 'la conservazione differenziata è attiva, la granularità per origine no. Lo diciamo adesso, non quando ce lo chiederanno.',
   },
@@ -318,23 +318,23 @@ export default function ConformitaEuropea() {
               {[
                 {
                   href: '/dpa',
-                  t: 'Accordo sul trattamento dei dati',
-                  d: 'L’art. 28 fra te, titolare, e noi, responsabili.',
+                  t: t('sicurezzaedati.accordo_sul_trattamento_dei_dati'),
+                  d: t('conformitaeuropea.l_art_28_fra_te_titolare'),
                 },
                 {
                   href: '/sub-responsabili',
-                  t: 'Sub-responsabili',
-                  d: 'Chi tocca i dati oltre a noi, con sede, servizio e base giuridica.',
+                  t: t('chrome.footer.sub_responsabili'),
+                  d: t('conformitaeuropea.chi_tocca_i_dati_oltre_a'),
                 },
                 {
                   href: '/sicurezza',
-                  t: 'Misure di sicurezza',
-                  d: 'La scheda ex art. 32, compresi i limiti dichiarati.',
+                  t: t('sicurezzaedati.misure_di_sicurezza'),
+                  d: t('conformitaeuropea.la_scheda_ex_art_32_compresi'),
                 },
                 {
                   href: '/sicurezza-e-dati',
-                  t: 'Le otto domande',
-                  d: 'Le risposte brevi, senza rassicurazioni generiche.',
+                  t: t('conformitaeuropea.le_otto_domande'),
+                  d: t('conformitaeuropea.le_risposte_brevi_senza_rassicurazioni_generiche'),
                 },
               ].map((d) => (
                 <li key={d.href} style={{ borderTop: '1px solid var(--rule)' }}>

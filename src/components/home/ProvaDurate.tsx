@@ -41,8 +41,7 @@ export function ProvaDurate() {
   return (
     <div className="prova-catalogo" data-testid="prova-durate">
       <p className="prova-viso__invito">
-        <strong>{t('home.provadurate.provalo_qui')}</strong> Scegli cosa hai fatto oggi: il richiamo si calcola da
-        solo, e ti dice da dove viene.
+        <strong>{t('home.provadurate.provalo_qui')}</strong> {t('home.provadurate.scegli_cosa_hai_fatto_oggi_il')}
       </p>
 
       <div className="prova-viso__pillole" role="group" aria-label={t('home.provadurate.categoria_di_trattamento')}>
@@ -62,10 +61,9 @@ export function ProvaDurate() {
       <div className="prova-catalogo__esito" aria-live="polite">
         {!d && (
           <p className="prova-viso__vuoto">
-            Il richiamo non lo decide una tabella nostra: esce dalla frase del consenso che
-            la paziente ha firmato.
+            {t('home.provadurate.il_richiamo_non_lo_decide_una')}
             <br />
-            Scegli una categoria.
+            {t('home.provadurate.scegli_una_categoria')}
           </p>
         )}
 

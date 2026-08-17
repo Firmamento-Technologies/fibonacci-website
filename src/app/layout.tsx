@@ -38,10 +38,7 @@ const SITE_NAME = 'Fibonacci'
  * (conservatore non contrattualizzato), niente firma qualificata (certificati
  * non rilasciati): due gate ancora chiusi, e un sito che li promette li fa
  * diventare un debito verso il cliente il giorno della firma del contratto. */
-const SITE_DESCRIPTION =
-  'La cartella clinica per la medicina estetica. Consenso informato firmato in studio, mappa ' +
-  'del viso per le sedute, foto cifrate, anamnesi dettata durante la visita. Ogni scrittura ' +
-  'entra in un registro che non si può ritoccare. Dati su server europei.'
+const SITE_DESCRIPTION = t('sito.meta_descrizione_sito')
 
 export const viewport: Viewport = {
   themeColor: '#ffffff',
@@ -53,7 +50,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Fibonacci, la cartella clinica della medicina estetica',
+    default: t('sito.meta_titolo_difetto'),
     template: '%s · Fibonacci',
   },
   description: SITE_DESCRIPTION,
@@ -76,12 +73,12 @@ export const metadata: Metadata = {
     locale: TAG_LINGUA[LINGUA].replace('-', '_'),
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'Fibonacci, la cartella clinica della medicina estetica',
+    title: t('sito.meta_titolo_difetto'),
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fibonacci, la cartella clinica della medicina estetica',
+    title: t('sito.meta_titolo_difetto'),
     description: SITE_DESCRIPTION,
   },
   robots: {

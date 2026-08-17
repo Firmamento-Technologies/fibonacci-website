@@ -220,7 +220,7 @@ function Riquadro({ b, chiaro }: { b: Bollino; chiaro: boolean }) {
           className="mt-[var(--s-13)] inline-flex items-center gap-[var(--s-5)] text-[13px]"
           style={{ color: accento }}
         >
-          Controlla alla fonte <Freccia />
+          {t('bollini.controlla_alla_fonte')} <Freccia />
         </span>
       </a>
     )
@@ -233,7 +233,7 @@ function Riquadro({ b, chiaro }: { b: Bollino; chiaro: boolean }) {
         className="mt-[var(--s-13)] inline-flex items-center gap-[var(--s-5)] text-[13px]"
         style={{ color: accento }}
       >
-        Controlla <Freccia />
+        {t('bollini.controlla')} <Freccia />
       </span>
     </Link>
   )
@@ -315,7 +315,7 @@ export function BolliniPiede() {
       </ul>
 
       <p className="mt-[var(--s-13)] text-[13px]" style={{ color: 'var(--on-ink-muted)' }}>
-        Due di queste dicono che non ci siamo ancora arrivati, ed è voluto.{' '}
+        {t('bollini.due_di_queste_dicono_che_non')}{' '}
         <Link href="/conformita-europea" style={{ color: 'var(--accent-onink)', textDecoration: 'underline' }}>
           {t('bollini.tutte_e_nove_le_garanzie_con')}
         </Link>

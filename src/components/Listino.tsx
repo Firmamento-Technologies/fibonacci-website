@@ -199,7 +199,7 @@ export function SchedePiani() {
                   href="/richiedi-una-demo"
                   className={`btn ${p.consigliato ? 'btn-su-scuro' : 'btn-primario'}`}
                 >
-                  {p.prezzo === null ? 'Parliamone' : 'Richiedi una demo'}
+                  {p.prezzo === null ? t('listino.parliamone') : t('listino.richiedi_una_demo')}
                 </Link>
                 {BILLING_URL && p.prezzo !== null && (
                   <AttivaPiano piano={p} ricorrenza={ricorrenza} suScuro={p.consigliato} />
@@ -243,7 +243,7 @@ export function ListinoSintesi() {
         <Reveal>
           <p className="mt-[var(--s-34)] text-center">
             <Link href="/prezzi" className="link-avanti">
-              Che cosa comprende, e che cosa no
+              {t('listino.che_cosa_comprende_e_che_cosa')}
               <Freccia />
             </Link>
           </p>

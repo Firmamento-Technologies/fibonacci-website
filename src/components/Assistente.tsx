@@ -44,10 +44,10 @@ import { CONTACT_EMAIL } from '@/lib/site-config'
  */
 
 const ESEMPI = [
-  'Quanto costa?',
-  'Dove sono conservati i dati dei pazienti?',
-  'Le fotografie sono cifrate?',
-  'Quanto ci vuole a migrare dal gestionale che uso adesso?',
+  t('assistente.quanto_costa'),
+  t('assistente.dove_sono_conservati_i_dati_dei'),
+  t('assistente.le_fotografie_sono_cifrate'),
+  t('assistente.quanto_ci_vuole_a_migrare_dal'),
 ] as const
 
 type Esito = { risposta: string; fonti: string[] }
@@ -191,7 +191,7 @@ export function Assistente() {
             className="rounded-[var(--s-8)] px-[var(--s-21)] py-[var(--s-13)] text-[1rem] font-medium"
             style={{ background: 'var(--accent)', color: 'var(--on-ink)' }}
           >
-            {inCorso ? 'Sto leggendo il sito…' : 'Chiedi'}
+            {inCorso ? t('assistente.sto_leggendo_il_sito') : t('assistente.chiedi')}
           </button>
           {/* ⚠️ `--fg-muted` e non `--fg-faint`, e il motivo è scritto accanto al
               token in `globals.css`: **«terziario, solo ≥16px — 4.6:1 su --bg»**.

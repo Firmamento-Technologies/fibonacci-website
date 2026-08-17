@@ -77,7 +77,7 @@ export default function Verifica() {
 
           <p className="mt-[var(--s-34)]">
             <Link href="/sicurezza-e-dati" className="link-avanti">
-              Come sono protetti i dati, per esteso
+              {t('verifica.come_sono_protetti_i_dati_per')}
               <Freccia />
             </Link>
           </p>

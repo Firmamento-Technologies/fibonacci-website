@@ -159,7 +159,7 @@ export function VerificaDocumento() {
         >
           <Upload className="w-12 h-12 mx-auto mb-4" style={{ color: 'var(--accent)' }} />
           <p className="font-semibold mb-1" style={{ color: 'var(--fg)' }}>
-            {loading ? 'Analisi in corso…' : 'Trascina il PDF qui o clicca per selezionare'}
+            {loading ? t('verificadocumento.analisi_in_corso') : t('verificadocumento.trascina_il_pdf_qui_o_clicca')}
           </p>
           <p className="text-xs" style={{ color: 'var(--muted)' }}>
             {t('verificadocumento.file_rimane_sul_tuo_browser_nessun')}
@@ -258,7 +258,7 @@ export function VerificaDocumento() {
             >
               <p className="text-xs font-semibold flex items-center gap-1.5" style={{ color: '#92400e' }}>
                 <AlertCircle className="w-4 h-4" />
-                Avvertenze
+                {t('verificadocumento.avvertenze')}
               </p>
               {analysis.warnings.map((w, i) => (
                 <p key={i} className="text-xs" style={{ color: '#92400e' }}>

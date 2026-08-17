@@ -107,8 +107,7 @@ export default function Page() {
           className="text-[15px]"
           style={{ color: 'var(--fg-muted)', maxWidth: 'var(--measure)' }}
         >
-          Questo sito non usa cookie di tracciamento, non ha account e non ti profila.
-          Quando chiedi un appuntamento, i dati vanno allo studio che hai scelto.{' '}
+          {t('pazienti.questo_sito_non_usa_cookie_di')}{' '}
           <Link href="/pazienti/privacy" className="collegamento-testo">
             {t('pazienti.come_funziona_per_esteso')}
           </Link>

@@ -213,7 +213,7 @@ export function VoceElenco({
         <div className="scheda-risultato-quando">
           <p className="etichetta-quando">
             <IconaCalendario lato={14} />
-            Primo appuntamento
+            {t('pazienti.voceelenco.primo_appuntamento')}
           </p>
 
           {primo ? (
@@ -275,7 +275,7 @@ export function VoceElenco({
                punirebbe il medico per una configurazione mancante e mentirebbe
                al paziente sulla disponibilità reale. Si dice cosa fare adesso. */
             <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-              {statoOrari === 'cerco' ? 'Cerco gli orari liberi…' : 'Nessun orario pubblicato.'}
+              {statoOrari === 'cerco' ? t('pazienti.voceelenco.cerco_gli_orari_liberi') : t('pazienti.voceelenco.nessun_orario_pubblicato')}
             </p>
           )}
 

@@ -379,7 +379,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
 
           <p className="mt-[var(--s-21)]">
             <button type="submit" className="btn btn-primario" disabled={stato === 'invio'}>
-              {stato === 'invio' ? 'Invio…' : 'Invia la richiesta'}
+              {stato === 'invio' ? t('pazienti.moduloprenotazione.invio') : t('pazienti.moduloprenotazione.invia_la_richiesta')}
             </button>
           </p>
         </div>

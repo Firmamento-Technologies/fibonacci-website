@@ -67,7 +67,7 @@ export default function AutovalutazionePagina() {
           </div>
           <p className="mt-[var(--s-34)]">
             <Link href="/che-software-serve" className="link-avanti">
-              Portale, gestionale o cartella verticale: che cosa serve davvero
+              {t('autovalutazione.portale_gestionale_o_cartella_verticale_che')}
               <Freccia />
             </Link>
           </p>

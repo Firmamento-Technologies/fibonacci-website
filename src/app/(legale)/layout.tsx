@@ -38,7 +38,7 @@ export default function LayoutLegale({ children }: { children: React.ReactNode }
                 </ul>
               </nav>
               <p className="mt-[var(--s-34)] text-[13px]" style={{ color: 'var(--fg-faint)' }}>
-                Domande sulla conformità?{' '}
+                {t('legale.layout.domande_sulla_conformita')}{' '}
                 {PRIVACY_EMAIL ? (
                   <a href={`mailto:${PRIVACY_EMAIL}`} style={{ color: 'var(--accent-deep)', textDecoration: 'underline' }}>
                     {PRIVACY_EMAIL}

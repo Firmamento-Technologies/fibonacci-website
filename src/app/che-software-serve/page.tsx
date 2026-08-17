@@ -55,10 +55,10 @@ const CATEGORIE: readonly Categoria[] = [
     cosaE:
       'Una vetrina pubblica con dentro un’agenda. Il paziente ti trova cercando una prestazione nella sua città, vede le tue disponibilità e prenota da solo.',
     fa: [
-      'Ti fa trovare da chi non ti conosce',
-      'Prenotazioni a qualsiasi ora, anche a segreteria chiusa',
-      'Promemoria automatici, e quindi meno visite perse',
-      'Recensioni pubbliche e profilo',
+      t('chesoftwareserve.ti_fa_trovare_da_chi_non'),
+      t('chesoftwareserve.prenotazioni_a_qualsiasi_ora_anche_a'),
+      t('chesoftwareserve.promemoria_automatici_e_quindi_meno_visite'),
+      t('chesoftwareserve.recensioni_pubbliche_e_profilo'),
     ],
     bastaSe:
       'Stai aprendo, l’agenda non è piena, e il problema numero uno è che i pazienti nuovi non sanno che esisti.',
@@ -71,10 +71,10 @@ const CATEGORIE: readonly Categoria[] = [
     cosaE:
       'Il software di studio che fa tutto per tutte le specialità: agenda, anagrafica, fatturazione, invio al Sistema Tessera Sanitaria, e una cartella clinica a campi personalizzabili.',
     fa: [
-      'Agenda e anagrafica dei pazienti',
-      'Fatturazione e ciclo attivo',
-      'Invio al Sistema Tessera Sanitaria',
-      'Una cartella che configuri tu, campo per campo',
+      t('chesoftwareserve.agenda_e_anagrafica_dei_pazienti'),
+      t('chesoftwareserve.fatturazione_e_ciclo_attivo'),
+      t('chesoftwareserve.invio_al_sistema_tessera_sanitaria'),
+      t('chesoftwareserve.una_cartella_che_configuri_tu_campo'),
     ],
     bastaSe:
       'Lo studio è polispecialistico, la parte amministrativa pesa più di quella clinica, e hai qualcuno che il gestionale se lo configura e lo tiene configurato.',
@@ -87,10 +87,10 @@ const CATEGORIE: readonly Categoria[] = [
     cosaE:
       'Un software che conosce una specialità sola e ne dà per scontato il lavoro: le procedure, i prodotti, le aree del corpo, i consensi che servono per quelle procedure.',
     fa: [
-      'Il modulo di consenso giusto per quel trattamento, non uno per tutti',
-      'Prodotto, lotto, unità e sede legati alla seduta',
-      'Foto cliniche separate dal telefono e cifrate',
-      'Registro di chi ha aperto quale cartella, e quando',
+      t('chesoftwareserve.il_modulo_di_consenso_giusto_per'),
+      t('chesoftwareserve.prodotto_lotto_unita_e_sede_legati'),
+      t('chesoftwareserve.foto_cliniche_separate_dal_telefono_e'),
+      t('chesoftwareserve.registro_di_chi_ha_aperto_quale'),
     ],
     bastaSe:
       'Il rischio che ti tiene sveglio non è l’agenda vuota: è dover dimostrare, fra due anni, che cosa avevi spiegato a una paziente e che cosa le avevi iniettato.',
@@ -222,7 +222,7 @@ export default function CheSoftwareServe() {
           </div>
           <p className="mt-[var(--s-34)]">
             <Link href="/integrazioni" className="link-avanti">
-              Con che cosa si integra Fibonacci, e con che cosa no
+              {t('chesoftwareserve.con_che_cosa_si_integra_fibonacci')}
               <Freccia />
             </Link>
           </p>

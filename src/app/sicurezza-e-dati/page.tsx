@@ -24,47 +24,47 @@ export const metadata: Metadata = {
 
 const DOMANDE = [
   {
-    d: 'Dove stanno fisicamente i dati?',
+    d: t('sicurezzaedati.dove_stanno_fisicamente_i_dati'),
     /* ⚠️ Questa risposta diceva il contrario fino al 2026-08-16: nominava un
        fornitore tedesco e si scusava che «in Italia» sarebbe stato falso.
        Era vero fino al 10 agosto. Vedi il commento su `OSPITALITA`. */
     r: `Su server di ${OSPITALITA.fornitore}, in ${OSPITALITA.luogo}, quindi dentro ${OSPITALITA.area}. Non su cloud statunitensi, e senza repliche fuori dall’Unione: la filiera clinica non lascia il territorio europeo in nessun passaggio. Non devi crederci sulla parola: l’indirizzo del sito è pubblico e un «whois» te lo dice in trenta secondi, anche contro di noi.`,
   },
   {
-    d: 'Chi è il titolare del trattamento?',
-    r: 'Tu. I pazienti sono i tuoi, la cartella è la tua, le decisioni sul trattamento dei dati le prendi tu. Noi siamo responsabili del trattamento e agiamo su tua istruzione, con un accordo scritto ai sensi dell’art. 28 del GDPR che firmi prima di iniziare.',
+    d: t('sicurezzaedati.chi_e_il_titolare_del_trattamento'),
+    r: t('sicurezzaedati.tu_i_pazienti_sono_i_tuoi'),
   },
   {
-    d: 'Come sono cifrati?',
-    r: 'Il traffico viaggia in TLS. I dischi sono cifrati a livello di volume. Le fotografie cliniche e alcuni identificativi hanno una cifratura applicativa aggiuntiva, con chiavi che restano lato server e non passano mai dal browser.',
+    d: t('sicurezzaedati.come_sono_cifrati'),
+    r: t('sicurezzaedati.il_traffico_viaggia_in_tls_i'),
   },
   {
-    d: 'Chi, dentro Fibonacci, può leggere una cartella?',
-    r: 'Il personale tecnico che gestisce i server ha accesso all’infrastruttura, come in qualsiasi servizio ospitato. Gli accessi ai dati sono tracciati nello stesso registro che vedi tu. Non consultiamo cartelle per iniziativa nostra, e se ci chiedi assistenza su un caso concreto lo facciamo con te e resta scritto.',
+    d: t('sicurezzaedati.chi_dentro_fibonacci_puo_leggere_una'),
+    r: t('sicurezzaedati.il_personale_tecnico_che_gestisce_i'),
   },
   {
-    d: 'I dati dei pazienti addestrano modelli di intelligenza artificiale?',
-    r: 'No. I fornitori dei modelli che usiamo si sono impegnati per contratto a non addestrare sui dati che passano dalle nostre chiamate. I contratti sono elencati nella pagina dei sub-responsabili.',
+    d: t('sicurezzaedati.i_dati_dei_pazienti_addestrano_modelli'),
+    r: t('sicurezzaedati.no_i_fornitori_dei_modelli_che'),
   },
   {
-    d: 'E i backup?',
-    r: 'Backup cifrati e quotidiani, con prova di ripristino periodica: un backup che nessuno ha mai provato a ripristinare non è un backup, è una speranza. Il registro storico consente di riportare il sistema a un istante preciso, non solo all’ultima notte.',
+    d: t('sicurezzaedati.e_i_backup'),
+    r: t('sicurezzaedati.backup_cifrati_e_quotidiani_con_prova'),
   },
   {
-    d: 'Se smetto, cosa succede ai dati?',
-    r: 'Esporti tutto in un formato standard leggibile senza di noi, in qualsiasi momento e senza chiedere il permesso. Alla chiusura del rapporto i dati vengono restituiti e poi cancellati nei termini che trovi nel contratto.',
+    d: t('sicurezzaedati.se_smetto_cosa_succede_ai_dati'),
+    r: t('sicurezzaedati.esporti_tutto_in_un_formato_standard'),
   },
   {
-    d: 'E se chiudete voi?',
-    r: 'Vale lo stesso: l’esportazione è una funzione del prodotto, non un favore. Il formato è FHIR, uno standard sanitario internazionale, quindi un altro fornitore può leggerlo senza doverlo reinventare.',
+    d: t('sicurezzaedati.e_se_chiudete_voi'),
+    r: t('sicurezzaedati.vale_lo_stesso_l_esportazione_e'),
   },
 ] as const
 
 const DOCUMENTI = [
-  { titolo: t('sicurezzaedati.accordo_sul_trattamento_dei_dati'), descr: 'L’art. 28 fra te, titolare, e noi, responsabili.', href: '/dpa' },
-  { titolo: t('sicurezzaedati.sub_responsabili'), descr: 'Chi tocca i dati oltre a noi, e per fare cosa.', href: '/sub-responsabili' },
-  { titolo: t('sicurezzaedati.misure_di_sicurezza'), descr: 'La scheda tecnica ex art. 32, in dettaglio.', href: '/sicurezza' },
-  { titolo: t('sicurezzaedati.informativa_privacy'), descr: 'Come trattiamo i dati di chi visita il sito e usa il servizio.', href: '/privacy' },
+  { titolo: t('sicurezzaedati.accordo_sul_trattamento_dei_dati'), descr: t('sicurezzaedati.l_art_28_fra_te_titolare'), href: '/dpa' },
+  { titolo: t('sicurezzaedati.sub_responsabili'), descr: t('sicurezzaedati.chi_tocca_i_dati_oltre_a'), href: '/sub-responsabili' },
+  { titolo: t('sicurezzaedati.misure_di_sicurezza'), descr: t('sicurezzaedati.la_scheda_tecnica_ex_art_32'), href: '/sicurezza' },
+  { titolo: t('sicurezzaedati.informativa_privacy'), descr: t('sicurezzaedati.come_trattiamo_i_dati_di_chi'), href: '/privacy' },
 ] as const
 
 export default function SicurezzaEDati() {
@@ -174,8 +174,7 @@ export default function SicurezzaEDati() {
                 .{' '}
               </>
             )}
-            Rispondiamo, non minacciamo, e diciamo cosa abbiamo corretto. Ti chiediamo solo di non
-            toccare dati di pazienti reali mentre indaghi.
+            {t('sicurezzaedati.rispondiamo_non_minacciamo_e_diciamo_cosa')}
           </p>
         </div>
       </section>

@@ -121,17 +121,14 @@ export default function ChiSiamo() {
             </p>
             {!SOCIETA.costituita && (
               <p>
-                <strong>{t('chisiamo.una_nota_societaria')}</strong> Fibonacci sta passando a una società propria,
-                oggi in costituzione. Finché l&apos;iscrizione al registro delle imprese non è
-                perfezionata, ragione sociale, sede e partita IVA non compaiono nel piè di pagina:
-                preferiamo un dato mancante a un dato provvisorio.
+                <strong>{t('chisiamo.una_nota_societaria')}</strong> {t('chisiamo.fibonacci_sta_passando_a_una_societa')}
               </p>
             )}
           </div>
 
           <p className="mt-[var(--s-34)]">
             <Link href="/richiedi-una-demo" className="link-avanti">
-              Parliamone di persona
+              {t('chisiamo.parliamone_di_persona')}
               <Freccia />
             </Link>
           </p>

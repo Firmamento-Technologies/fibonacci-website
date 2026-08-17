@@ -189,7 +189,7 @@ export function ModuloContatto({
 
       <p>
         <button type="submit" className="btn" disabled={inCorso} style={{ minHeight: '48px' }}>
-          {inCorso ? 'Invio…' : 'Invia il messaggio'}
+          {inCorso ? t('pazienti.modulocontatto.invio') : t('pazienti.modulocontatto.invia_il_messaggio')}
         </button>
       </p>
 

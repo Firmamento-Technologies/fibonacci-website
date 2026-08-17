@@ -11,12 +11,13 @@
  * Gira dopo `next build`, dentro `out/`.
  */
 
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const OUT = join(__dirname, '..', 'out')
+const RADICE = join(__dirname, '..')
+const OUT = join(RADICE, 'out')
 /* ⚠️ Terza copia della stessa regola, trovata l'11 agosto passando al dominio
  * proprio: `next.config.ts`, `src/lib/asset-path.ts` e questo script decidevano
  * il prefisso ognuno per conto suo, con condizioni diverse. Con il dominio
@@ -47,17 +48,41 @@ const MAPPA = {
   '/ambassador': '/',
 }
 
+/* ⚠️ Anche questi vanno nella lingua della costruzione.
+ *
+ * Sono otto indirizzi vecchi che rimandano ai nuovi, e vengono generati **per
+ * ogni lingua** (`out/de/faq`, `out/fr/faq`, …). Misurato il 2026-08-17: gli
+ * otto `<title>` erano «Pagina spostata» in tutte e cinque le lingue, e
+ * `<html lang="it">` anche nella cartella tedesca — cioe' otto pagine che
+ * dichiarano a Google la lingua sbagliata.
+ *
+ * ⛔ Il dizionario NON si importa da qui: questo e' uno script Node che gira
+ *    fuori dal bundle, e `@/lib/testo` non si risolve. Si legge il JSON, che e'
+ *    la stessa fonte. */
+const LINGUA = (process.env.NEXT_PUBLIC_LINGUA ?? 'it').trim() || 'it'
+const TAG = { it: 'it-IT', en: 'en-GB', es: 'es-ES', fr: 'fr-FR', de: 'de-DE' }
+const DIZ = JSON.parse(
+  await readFile(join(RADICE, 'src', 'i18n', 'sito', `${LINGUA}.json`), 'utf8'),
+)
+/* ⛔ Se la chiave manca si FERMA, invece di scrivere italiano in una pagina
+ *    tedesca: e' il ripiego silenzioso che tutto questo lavoro chiude. */
+const testo = (k) => {
+  const v = DIZ[k]
+  if (v === undefined) throw new Error(`[reindirizzamenti] chiave «${k}» assente da ${LINGUA}.json`)
+  return v
+}
+
 const pagina = (destinazione) => `<!doctype html>
-<html lang="it">
+<html lang="${TAG[LINGUA] ?? 'it-IT'}">
 <head>
 <meta charset="utf-8">
-<title>Pagina spostata</title>
+<title>${testo('reindirizzamenti.titolo')}</title>
 <link rel="canonical" href="${BASE}${destinazione === '/' ? '/' : destinazione}">
 <meta name="robots" content="noindex,follow">
 <meta http-equiv="refresh" content="0; url=${BASE}${destinazione === '/' ? '/' : destinazione}">
 </head>
 <body>
-<p>Questa pagina si è spostata. <a href="${BASE}${destinazione === '/' ? '/' : destinazione}">Continua qui</a>.</p>
+<p>${testo('reindirizzamenti.corpo')} <a href="${BASE}${destinazione === '/' ? '/' : destinazione}">${testo('reindirizzamenti.continua')}</a>.</p>
 </body>
 </html>
 `

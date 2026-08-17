@@ -10,6 +10,8 @@
  * esattamente le due righe che un cliente avrebbe citato dopo la firma.
  */
 
+import { t } from '@/lib/testo'
+
 export interface Domanda {
   categoria: 'prezzi' | 'dati' | 'prodotto' | 'avvio' | 'limiti'
   d: string
@@ -30,122 +32,122 @@ export const DOMANDE: Domanda[] = [
   // ── Prodotto ─────────────────────────────────────────────────────────
   {
     categoria: 'prodotto',
-    d: 'Per che tipo di studio è pensato?',
-    r: 'Medicina estetica: un medico da solo o un’équipe fino a cinque operatori, con procedure iniettive, laser, peeling e biorivitalizzazione. Non serve altre specialità, e non fingiamo di farlo.',
+    d: t('lib.domande.per_che_tipo_di_studio_e'),
+    r: t('lib.domande.medicina_estetica_un_medico_da_solo'),
   },
   {
     categoria: 'prodotto',
-    d: 'La dettatura funziona davvero durante la visita?',
-    r: 'Sì: detti mentre visiti e i campi dell’anamnesi si compilano. Quello che il sistema ha capito resta sempre modificabile, e niente viene salvato senza che tu lo confermi.',
+    d: t('lib.domande.la_dettatura_funziona_davvero_durante_la'),
+    r: t('lib.domande.si_detti_mentre_visiti_e_i'),
   },
   {
     categoria: 'prodotto',
-    d: 'Posso usare i miei moduli di consenso invece dei vostri?',
-    r: 'Sì. I nostri modelli sono un punto di partenza per la struttura; il contenuto clinico è tuo e lo modifichi. Se hai già moduli rivisti dal tuo legale, li carichi e li usi.',
+    d: t('lib.domande.posso_usare_i_miei_moduli_di'),
+    r: t('lib.domande.si_i_nostri_modelli_sono_un'),
   },
   {
     categoria: 'prodotto',
-    d: 'I vostri modelli di consenso sono validati da un legale?',
-    r: 'No, e questo è importante. La struttura segue la L. 219/2017 e le indicazioni della giurisprudenza sul contenuto del consenso, ma il testo clinico va rivisto dal tuo specialista e dal tuo legale prima dell’uso con pazienti reali. Il software lo scrive anche dentro l’applicazione, non solo qui.',
+    d: t('lib.domande.i_vostri_modelli_di_consenso_sono'),
+    r: t('lib.domande.no_e_questo_e_importante_la'),
   },
   {
     categoria: 'prodotto',
     id: 'portale',
-    d: 'Uso già un portale per farmi trovare dai pazienti. Devo lasciarlo?',
-    r: 'No, e non te lo chiediamo per cominciare. Un portale riempie l’agenda; una cartella clinica registra che cosa è successo in visita. Sono due lavori diversi. Va detto per intero, però: oggi Fibonacci non parla con il portale che usi, quindi l’agenda pubblica resta dove è adesso e qui entra il lavoro clinico.',
+    d: t('lib.domande.uso_gia_un_portale_per_farmi'),
+    r: t('lib.domande.no_e_non_te_lo_chiediamo'),
   },
   {
     categoria: 'prodotto',
-    d: 'Funziona su tablet?',
-    r: 'Sì, ed è così che la paziente firma. Il resto del lavoro si fa meglio da un computer, perché una cartella clinica si compila con una tastiera.',
+    d: t('lib.domande.funziona_su_tablet'),
+    r: t('lib.domande.si_ed_e_cosi_che_la'),
   },
 
   // ── Prezzi ───────────────────────────────────────────────────────────
   {
     categoria: 'prezzi',
-    d: 'Quanto costa?',
-    r: 'Solo 129 euro al mese per un medico; Studio 279 euro al mese fino a cinque operatori. Prezzi per studio, IVA esclusa. Migrazione dei dati e formazione iniziale sono comprese, non a preventivo.',
+    d: t('lib.domande.quanto_costa'),
+    r: t('lib.domande.solo_129_euro_al_mese_per'),
   },
   {
     categoria: 'prezzi',
-    d: 'C’è una prova gratuita?',
-    r: 'No, non nella forma «iscriviti e provalo trenta giorni»: quel percorso non esiste ancora. C’è una demo pubblica con dati finti, aperta e senza registrazione, e una demo guidata di mezz’ora con noi.',
+    d: t('lib.domande.c_e_una_prova_gratuita'),
+    r: t('lib.domande.no_non_nella_forma_iscriviti_e'),
   },
   {
     categoria: 'prezzi',
-    d: 'Ci sono vincoli di durata o penali di uscita?',
-    r: 'No. Si paga mensilmente e si disdice quando si vuole. Alla disdetta esporti i dati e il rapporto finisce.',
+    d: t('lib.domande.ci_sono_vincoli_di_durata_o'),
+    r: t('lib.domande.no_si_paga_mensilmente_e_si'),
   },
   {
     categoria: 'prezzi',
-    d: 'Il prezzo aumenta dopo il primo anno?',
-    r: 'Non c’è nessun rincaro programmato. Se un giorno il listino cambierà, chi è già cliente lo saprà con preavviso e non si troverà l’aumento in fattura.',
+    d: t('lib.domande.il_prezzo_aumenta_dopo_il_primo'),
+    r: t('lib.domande.non_c_e_nessun_rincaro_programmato'),
   },
 
   // ── Dati ─────────────────────────────────────────────────────────────
   {
     categoria: 'dati',
-    d: 'Dove stanno i dati dei miei pazienti?',
-    r: 'Su server in Germania, dentro lo Spazio economico europeo. Non su cloud statunitensi. La pagina «Sicurezza e dati» lo spiega per esteso, insieme a chi altro tocca i dati.',
+    d: t('lib.domande.dove_stanno_i_dati_dei_miei'),
+    r: t('lib.domande.su_server_in_germania_dentro_lo'),
   },
   {
     categoria: 'dati',
-    d: 'Chi è il titolare del trattamento?',
-    r: 'Tu. Noi siamo responsabili e agiamo su tua istruzione, con l’accordo ex art. 28 GDPR che firmi prima di iniziare e che puoi leggere adesso, senza compilare moduli.',
+    d: t('lib.domande.chi_e_il_titolare_del_trattamento'),
+    r: t('lib.domande.tu_noi_siamo_responsabili_e_agiamo'),
   },
   {
     categoria: 'dati',
-    d: 'Posso portare via tutto se cambio idea?',
-    r: 'Sì, quando vuoi e senza chiedercelo. L’esportazione usa FHIR, uno standard sanitario internazionale: un altro fornitore lo legge senza dover reinventare il formato.',
+    d: t('lib.domande.posso_portare_via_tutto_se_cambio'),
+    r: t('lib.domande.si_quando_vuoi_e_senza_chiedercelo'),
   },
   {
     categoria: 'dati',
-    d: 'I dati dei pazienti servono ad addestrare modelli di IA?',
-    r: 'No. I fornitori dei modelli si sono impegnati per contratto a non addestrare sui dati che passano dalle nostre chiamate. I contratti sono elencati nella pagina dei sub-responsabili.',
+    d: t('lib.domande.i_dati_dei_pazienti_servono_ad'),
+    r: t('lib.domande.no_i_fornitori_dei_modelli_si'),
   },
 
   // ── Avvio ────────────────────────────────────────────────────────────
   {
     categoria: 'avvio',
-    d: 'Quanto ci metto a partire?',
-    r: 'La configurazione dello studio la facciamo noi. Una prima visita completa la fai il primo giorno; per usare tutto con scioltezza serve una settimana di pratica.',
+    d: t('lib.domande.quanto_ci_metto_a_partire'),
+    r: t('lib.domande.la_configurazione_dello_studio_la_facciamo'),
   },
   {
     categoria: 'avvio',
-    d: 'Migrate voi i dati dal gestionale che uso adesso?',
-    r: 'Sì, partendo da un file esportato dal tuo fornitore attuale. Se il tuo fornitore non esporta niente di utilizzabile, te lo diciamo prima di firmare: è un problema che va conosciuto prima, non scoperto dopo.',
+    d: t('lib.domande.migrate_voi_i_dati_dal_gestionale'),
+    r: t('lib.domande.si_partendo_da_un_file_esportato'),
   },
   {
     categoria: 'avvio',
-    d: 'Serve internet?',
-    r: 'Sì. Se la linea cade non apri una cartella nuova. È il limite di un servizio che tiene i dati su server nostri; in cambio hai backup, cifratura, e il fatto che un computer rotto in studio non ti costa nulla.',
+    d: t('lib.domande.serve_internet'),
+    r: t('lib.domande.si_se_la_linea_cade_non'),
   },
 
   // ── Limiti ───────────────────────────────────────────────────────────
   {
     categoria: 'limiti',
     id: 'cosa-manca',
-    d: 'Che cosa Fibonacci non fa, oggi?',
-    r: 'Non c’è la firma elettronica qualificata: quella della paziente è una firma elettronica avanzata. Non c’è la conservazione a norma, perché non abbiamo ancora contrattualizzato un conservatore accreditato. Non c’è l’invio al Sistema Tessera Sanitaria né la fatturazione. E non c’è un percorso di iscrizione self-service: si parte parlando con noi.',
+    d: t('lib.domande.che_cosa_fibonacci_non_fa_oggi'),
+    r: t('lib.domande.non_c_e_la_firma_elettronica'),
   },
   {
     categoria: 'limiti',
-    d: 'Mi portate pazienti nuovi?',
-    r: 'No. Non siamo un portale di prenotazione, non abbiamo un pubblico da girarti e non vendiamo visibilità. Se il problema che vuoi risolvere è farti trovare, ti serve un’altra cosa e preferiamo dirtelo prima. Fibonacci comincia a servire dal momento in cui la paziente entra in studio.',
+    d: t('lib.domande.mi_portate_pazienti_nuovi'),
+    r: t('lib.domande.no_non_siamo_un_portale_di'),
   },
   {
     categoria: 'limiti',
-    d: 'Le recensioni dei pazienti finiscono da qualche parte?',
-    r: 'No. Non raccogliamo recensioni, non le pubblichiamo e non c’è una classifica di medici. Qui non esiste una posizione da comprare, né per te né per un collega. Quello che entra è la cartella dei tuoi pazienti, e resta tua.',
+    d: t('lib.domande.le_recensioni_dei_pazienti_finiscono_da'),
+    r: t('lib.domande.no_non_raccogliamo_recensioni_non_le'),
   },
   {
     categoria: 'limiti',
-    d: 'Il software mi dice cosa prescrivere o come trattare?',
-    r: 'No, e non è una limitazione tecnica: è una scelta. Il software organizza informazioni e segnala incongruenze, ad esempio un’allergia registrata. La decisione clinica resta interamente tua, e nessuna schermata suggerisce diagnosi o terapie.',
+    d: t('lib.domande.il_software_mi_dice_cosa_prescrivere'),
+    r: t('lib.domande.no_e_non_e_una_limitazione'),
   },
   {
     categoria: 'limiti',
-    d: 'Avete clienti che possono darmi un parere?',
-    r: 'Non ancora: siamo in pilota presso uno studio e le prime attivazioni sono del 2026. Preferiamo dirlo piuttosto che riempire il sito di testimonianze, che fra l’altro nella pubblicità sanitaria italiana non si possono usare.',
+    d: t('lib.domande.avete_clienti_che_possono_darmi_un'),
+    r: t('lib.domande.non_ancora_siamo_in_pilota_presso'),
   },
 ]

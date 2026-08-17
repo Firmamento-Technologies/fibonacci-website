@@ -4,7 +4,7 @@ import { Header } from '@/components/chrome/Header'
 import { Footer } from '@/components/chrome/Footer'
 import { Occhiello, Freccia } from '@/components/ui/elementi'
 
-export const metadata = { title: 'Pagina non trovata' }
+export const metadata = { title: t('notfound.meta_titolo') }
 
 /* Una pagina 404 dice due cose: che l'indirizzo è sbagliato, e dove andare
  * adesso. Le altre sono decorazioni che allungano la strada. */

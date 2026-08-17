@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import { SITE_URL, SOCIETA } from '@/lib/site-config'
 
 /* Dati strutturati per i motori di ricerca.
@@ -84,7 +85,7 @@ export function SoftwareApplicationSchema() {
         url: SITE_URL,
         inLanguage: 'it-IT',
         description:
-          'Cartella clinica per studi di medicina estetica: consenso informato firmato in studio, mappa del viso per le sedute, foto cliniche cifrate, anamnesi dettata, registro accessi con catena di impronte.',
+          t('structureddata.cartella_clinica_per_studi_di_medicina'),
         // I prezzi dichiarati qui sono gli stessi di /prezzi. Se divergono, è
         // la pagina a fare fede e questo va corretto.
         offers: [
@@ -93,21 +94,21 @@ export function SoftwareApplicationSchema() {
             name: 'Solo',
             price: '129',
             priceCurrency: 'EUR',
-            description: 'Un medico, uno studio. Prezzo mensile, IVA esclusa.',
+            description: t('structureddata.un_medico_uno_studio_prezzo_mensile'),
           },
           {
             '@type': 'Offer',
             name: 'Studio',
             price: '279',
             priceCurrency: 'EUR',
-            description: 'Fino a cinque operatori. Prezzo mensile, IVA esclusa.',
+            description: t('structureddata.fino_a_cinque_operatori_prezzo_mensile'),
           },
           {
             '@type': 'Offer',
             name: 'Clinica',
             price: '549',
             priceCurrency: 'EUR',
-            description: 'Più sedi, o oltre cinque operatori. Prezzo mensile, IVA esclusa.',
+            description: t('structureddata.piu_sedi_o_oltre_cinque_operatori'),
           },
         ],
       }}

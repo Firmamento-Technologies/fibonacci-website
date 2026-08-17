@@ -129,7 +129,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)' }}
         >
           <IconaAlbo lato={20} />
-          Iscrizione all’Ordine dei Medici
+          {t('pazienti.schedamedico.iscrizione_all_ordine_dei_medici')}
         </h2>
         <p className="mt-[var(--s-13)]">
           Ordine di <strong>{m.medico.ordineProvinciale}</strong>, numero{' '}
@@ -240,7 +240,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           {/* ⚠️ Era «Quando è libero» (decisione dell'utente, 2026-08-13).
               Una domanda in forma di titolo si legge come una conversazione;
               qui sopra un calendario serve **l'etichetta della cosa**. */}
-          Disponibilità
+          {t('pazienti.schedamedico.disponibilita')}
         </h2>
 
         {/* 🔴 **Corretto il 2026-08-12 cablando il percorso vero**: qui c'era

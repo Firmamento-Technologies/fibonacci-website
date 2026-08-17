@@ -132,8 +132,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       avviso={
         m.esempio ? (
           <>
-            <strong>{t('pazienti.medico.slug.pagina_di_esempio')}</strong> Questo studio non esiste: serve a costruire e
-            collaudare la scheda prima che ci sia un medico vero.
+            <strong>{t('pazienti.medico.slug.pagina_di_esempio')}</strong> {t('pazienti.medico.slug.questo_studio_non_esiste_serve_a')}
           </>
         ) : undefined
       }

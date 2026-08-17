@@ -39,10 +39,10 @@ export default function RichiediUnaDemo() {
 
                 <dl className="mt-[var(--s-34)]">
                   {[
-                    ['Chi chiama', 'Una persona che il prodotto lo ha costruito, non un venditore.'],
-                    ['Cosa serve', 'Sapere che procedure fai e con che gestionale lavori oggi.'],
-                    ['Quanto dura', 'Trenta minuti. Se bastano venti, finiamo in venti.'],
-                    ['Dopo', 'Nessun richiamo insistente. Se non rispondi, non ti cerchiamo più.'],
+                    [t('richiediunademo.chi_chiama'), t('richiediunademo.una_persona_che_il_prodotto_lo')],
+                    [t('richiediunademo.cosa_serve'), t('richiediunademo.sapere_che_procedure_fai_e_con')],
+                    [t('richiediunademo.quanto_dura'), t('richiediunademo.trenta_minuti_se_bastano_venti_finiamo')],
+                    [t('richiediunademo.dopo'), t('richiediunademo.nessun_richiamo_insistente_se_non_rispondi')],
                   ].map(([k, v]) => (
                     <div
                       key={k}

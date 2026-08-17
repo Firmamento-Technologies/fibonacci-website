@@ -87,9 +87,9 @@ export function Autovalutazione() {
           style={{ maxWidth: '22ch', outline: 'none' }}
         >
           {esito.length === 0
-            ? 'Non risulta scoperto nessuno degli otto punti'
+            ? t('autovalutazione.non_risulta_scoperto_nessuno_degli_otto')
             : esito.length === 1
-              ? 'Risulta scoperto un punto'
+              ? t('autovalutazione.risulta_scoperto_un_punto')
               : `Risultano scoperti ${esito.length} punti su otto`}
         </h2>
 
@@ -217,7 +217,7 @@ export function Autovalutazione() {
       {mancanti.length > 0 && (
         <p role="alert" className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--accent-ink)' }}>
           {mancanti.length === 1
-            ? 'Manca una risposta: è segnata qui sopra.'
+            ? t('autovalutazione.manca_una_risposta_e_segnata_qui')
             : `Mancano ${mancanti.length} risposte: sono segnate qui sopra.`}
         </p>
       )}

@@ -125,11 +125,11 @@ export default function DomandeFrequenti() {
             ) : (
               'Chiedicela dal modulo di contatto. '
             )}
-            Se la domanda è buona finisce in questa pagina, con la risposta vera.
+            {t('domande.se_la_domanda_e_buona_finisce')}
           </p>
           <p className="mt-[var(--s-34)]">
             <Link href="/richiedi-una-demo" className="link-avanti">
-              Oppure chiedila in mezz&apos;ora di demo
+              {t('domande.oppure_chiedila_in_mezz_ora_di')}
               <Freccia />
             </Link>
           </p>

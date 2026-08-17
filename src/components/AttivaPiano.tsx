@@ -154,7 +154,7 @@ export function AttivaPiano({ piano, ricorrenza, suScuro = false }: Props) {
       )}
 
       <button type="submit" className={classePulsante} disabled={inCorso}>
-        {inCorso ? 'Apertura del pagamento…' : 'Vai al pagamento'}
+        {inCorso ? t('attivapiano.apertura_del_pagamento') : t('attivapiano.vai_al_pagamento')}
       </button>
     </form>
   )

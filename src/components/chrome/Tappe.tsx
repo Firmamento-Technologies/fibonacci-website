@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import { Children, isValidElement, type ReactNode } from 'react'
 import Link from 'next/link'
 import { prossima } from '@/lib/percorso'
@@ -59,7 +60,7 @@ export function Tappe({ children, href }: { children: ReactNode; href: string })
         const ultima = i === figli.length - 1
         const id = `tappa-${i + 1}`
         const bersaglio = ultima ? dopo?.href : `#tappa-${i + 2}`
-        const etichetta = ultima ? dopo?.titolo : 'Continua'
+        const etichetta = ultima ? dopo?.titolo : t('chrome.tappe.continua')
 
         return (
           <div key={id} className="tappa" id={id}>

@@ -35,11 +35,11 @@ type Stato = 'fermo' | 'invio' | 'inviato' | 'errore'
 const CANALE_ATTIVO = Boolean(LEAD_API_URL) || Boolean(CONTACT_EMAIL)
 
 const PROCEDURE = [
-  'Tossina botulinica e filler',
-  'Laser ed energie',
-  'Biorivitalizzazione e peeling',
-  'Medicina estetica del corpo',
-  'Un misto di queste',
+  t('modulodemo.tossina_botulinica_e_filler'),
+  t('modulodemo.laser_ed_energie'),
+  t('modulodemo.biorivitalizzazione_e_peeling'),
+  t('modulodemo.medicina_estetica_del_corpo'),
+  t('modulodemo.un_misto_di_queste'),
 ] as const
 
 /* `variante` esiste per una ragione sola: alla pagina delle società
@@ -146,14 +146,14 @@ export function ModuloDemo({
       <div role="status">
         <p className="occhiello">{t('modulodemo.ricevuto')}</p>
         <h3 className="mt-[var(--s-13)] text-[1.3rem]">
-          {viaPosta ? 'Si apre il tuo programma di posta' : 'Ti scriviamo entro un giorno lavorativo'}
+          {viaPosta ? t('modulodemo.si_apre_il_tuo_programma_di') : t('modulodemo.ti_scriviamo_entro_un_giorno_lavorativo')}
         </h3>
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
           {viaPosta
-            ? 'Il modulo non è riuscito a raggiungerci, quindi il messaggio è già pronto nel tuo programma di posta: manca solo che tu lo invii.'
+            ? t('modulodemo.il_modulo_non_e_riuscito_a')
             : perSocieta
-              ? 'Risponde una persona, non un modulo automatico. Se preferisci una chiamata, dillo nella risposta.'
-              : 'Proponiamo due o tre fasce orarie. Se nessuna va bene, rispondi con le tue.'}
+              ? t('modulodemo.risponde_una_persona_non_un_modulo')
+              : t('modulodemo.proponiamo_due_o_tre_fasce_orarie')}
         </p>
       </div>
     )
@@ -163,9 +163,9 @@ export function ModuloDemo({
     <form onSubmit={invia} noValidate={false}>
       {!compatto && (
         <>
-          <p className="occhiello">{perSocieta ? 'Scrivici' : 'Richiedi una demo'}</p>
+          <p className="occhiello">{perSocieta ? t('modulodemo.scrivici') : t('modulodemo.richiedi_una_demo')}</p>
           <h3 className="mt-[var(--s-13)] text-[1.3rem]">
-            {perSocieta ? 'Quattro campi, e ti risponde una persona' : 'Quattro campi, poi ti scriviamo noi'}
+            {perSocieta ? t('modulodemo.quattro_campi_e_ti_risponde_una') : t('modulodemo.quattro_campi_poi_ti_scriviamo_noi')}
           </h3>
         </>
       )}
@@ -174,7 +174,7 @@ export function ModuloDemo({
         <Campo id="nome" etichetta={t('modulodemo.nome_e_cognome')} valore={dati.nome} onChange={aggiorna('nome')} autoComplete="name" />
         <Campo
           id="studio"
-          etichetta={perSocieta ? 'Società o associazione' : 'Nome dello studio'}
+          etichetta={perSocieta ? t('modulodemo.societa_o_associazione') : t('modulodemo.nome_dello_studio')}
           valore={dati.studio}
           onChange={aggiorna('studio')}
           autoComplete="organization"
@@ -248,12 +248,12 @@ export function ModuloDemo({
         disabled={stato === 'invio' || !consenso}
         style={{ opacity: !consenso ? 0.55 : 1 }}
       >
-        {stato === 'invio' ? 'Invio…' : perSocieta ? 'Scrivici' : 'Richiedi una demo'}
+        {stato === 'invio' ? t('modulodemo.invio') : perSocieta ? t('modulodemo.scrivici') : t('modulodemo.richiedi_una_demo')}
       </button>
 
       {stato === 'errore' && (
         <p role="alert" className="mt-[var(--s-13)] text-[13px]" style={{ color: '#9c2626' }}>
-          La richiesta non è partita.{' '}
+          {t('modulodemo.la_richiesta_non_e_partita')}{' '}
           <button
             type="button"
             onClick={() => setStato('fermo')}

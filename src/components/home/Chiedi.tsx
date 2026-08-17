@@ -59,7 +59,7 @@ export function Chiedi() {
 
         <p className="mt-[var(--s-34)]">
           <Link href="/domande" className="link-avanti">
-            Oppure leggi le domande frequenti
+            {t('home.chiedi.oppure_leggi_le_domande_frequenti')}
             <Freccia />
           </Link>
         </p>

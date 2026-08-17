@@ -161,15 +161,15 @@ export default function ComeFunziona() {
       <section className="fascia">
         <div className="gabbia gabbia-stretta text-center">
           <h2 className="text-[length:var(--display-2)]">
-            {DEMO_URL ? 'Provalo, o fattelo mostrare' : 'Fattelo mostrare'}
+            {DEMO_URL ? t('comefunziona.provalo_o_fattelo_mostrare') : t('comefunziona.fattelo_mostrare')}
           </h2>
           {/* ⚠️ Legata a DEMO_URL: senza demo, dire «la demo è aperta e non
               chiede registrazione» è falso — il solo percorso è un modulo che
               la registrazione la chiede. Vedi la nota in Hero.tsx. */}
           <p className="mt-[var(--s-21)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
             {DEMO_URL
-              ? 'La demo è aperta e non chiede registrazione. Se preferisci vedertelo spiegare sulle tue procedure, mezz’ora basta.'
-              : 'Mezz’ora sulle tue procedure, coi tuoi casi. Nessun impegno.'}
+              ? t('comefunziona.la_demo_e_aperta_e_non')
+              : t('comefunziona.mezz_ora_sulle_tue_procedure_coi')}
           </p>
           <div className="mt-[var(--s-34)] flex flex-wrap justify-center gap-[var(--s-13)]">
             <Link href="/richiedi-una-demo" className="btn btn-primario">
@@ -186,7 +186,7 @@ export default function ComeFunziona() {
           </p>
           <p className="mt-[var(--s-34)]">
             <Link href="/prezzi" className="link-avanti">
-              Quanto costa
+              {t('comefunziona.quanto_costa')}
               <Freccia />
             </Link>
           </p>

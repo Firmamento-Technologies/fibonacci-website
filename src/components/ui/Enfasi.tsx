@@ -31,24 +31,61 @@
 import type { ChiaveSito } from '@/lib/testo'
 import { t } from '@/lib/testo'
 
+/**
+ * ── E IL SECONDO MARCATORE: `|`, l'a capo su schermo largo ──────────────────
+ * Alcuni titoli hanno un `<br className="a-capo-largo" />` in mezzo: manda a
+ * capo **solo** oltre una certa larghezza, perche' su un telefono forzerebbe
+ * una riga in piu' e il titolo si prenderebbe mezzo primo schermo.
+ *
+ * 🔑 Dove cade quell'a capo **dipende dalla lingua**: il tedesco ha parole
+ * lunghe e la spezzatura buona non e' nello stesso punto dell'italiano. ⇒ il
+ * marcatore sta nel dizionario, e lo sposta il traduttore. ⛔ Tenerlo nel codice
+ * avrebbe imposto a cinque lingue la metrica di una.
+ *
+ *     "pazienti.titolo": "Trova il tuo medico estetico| e prenota."
+ */
 export function Enfasi({ chiave }: { chiave: ChiaveSito }) {
   const testo = t(chiave)
   // ⛔ `split` e non una regex con `replace`: qui non si costruisce HTML da una
   //    stringa, si costruiscono NODI. Niente `dangerouslySetInnerHTML`, quindi
   //    niente modo di iniettare markup dal dizionario.
-  const pezzi = testo.split('*')
   return (
     <>
-      {pezzi.map((p, i) =>
+      {testo.split('*').map((pezzo, i) => {
         // I pezzi in posizione dispari sono quelli fra asterischi.
-        i % 2 === 1 ? (
+        //
+        // ⚠️ Lo spazio attorno al `|` viene ASSORBITO. Tre traduzioni su quattro
+        // hanno scritto «doctor | and book» invece di «doctor| and book»: senza
+        // questa riga resterebbe uno spazio orfano a fine riga, e prima
+        // dell'a capo si vedrebbe. ⛔ Correggere le quattro voci e sperare che
+        // la prossima traduzione sia precisa non e' un presidio: il componente
+        // deve reggere la variazione, che e' inevitabile con cinque lingue.
+        const contenuto = pezzo.split('|').map((p, j, tutti) => (
+          <span key={j}>
+            {/* 🔴 LO SPAZIO PRIMA DEL `<br>` E' OBBLIGATORIO, e togliendolo ho
+                rotto la pagina. `a-capo-largo` manda a capo **solo** su schermo
+                largo: su un telefono il `<br>` non c'e', e senza spazio le due
+                parole si attaccano — visto a video, «Arztund buche». Lo spazio
+                messo PRIMA dell'a capo invece funziona in tutti e due i casi:
+                su schermo largo finisce a fine riga e non si vede, su telefono
+                separa. ⛔ Non toglierlo per «pulire». */}
+            {j > 0 && (
+              <>
+                {' '}
+                <br className="a-capo-largo" />
+              </>
+            )}
+            {tutti.length > 1 ? p.trim() : p}
+          </span>
+        ))
+        return i % 2 === 1 ? (
           <span key={i} className="accento-corsivo">
-            {p}
+            {contenuto}
           </span>
         ) : (
-          p
-        ),
-      )}
+          <span key={i}>{contenuto}</span>
+        )
+      })}
     </>
   )
 }

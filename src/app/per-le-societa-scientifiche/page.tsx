@@ -190,9 +190,9 @@ export default function PerLeSocietaScientifiche() {
             </h2>
             <ul className="mt-[var(--s-34)]">
               {[
-                'Pagare per essere raccomandati agli iscritti.',
-                'Mettere un logo su questo sito senza un accordo scritto e in corso.',
-                'Legare qualunque riconoscimento al numero di prestazioni o di pazienti.',
+                t('perlesocietascientifiche.pagare_per_essere_raccomandati_agli_iscritti'),
+                t('perlesocietascientifiche.mettere_un_logo_su_questo_sito'),
+                t('perlesocietascientifiche.legare_qualunque_riconoscimento_al_numero_di'),
               ].map((v) => (
                 <li
                   key={v}
@@ -214,7 +214,7 @@ export default function PerLeSocietaScientifiche() {
           </Reveal>
           <p className="mt-[var(--s-34)] text-center">
             <Link href="/consensi-informati" className="link-avanti">
-              Che cosa deve contenere un consenso, secondo noi
+              {t('perlesocietascientifiche.che_cosa_deve_contenere_un_consenso')}
               <Freccia />
             </Link>
           </p>

@@ -21,39 +21,39 @@ export const metadata: Metadata = {
  * sentirsi rispondere. */
 const DOMANDE = [
   {
-    d: 'Che cosa mi mettete, esattamente?',
+    d: t('pazienti.primadiuntrattamento.che_cosa_mi_mettete_esattamente'),
     p: 'Nome del prodotto, non solo la categoria. «Filler» non è una risposta: l’acido ialuronico ha decine di prodotti diversi, con densità e durate diverse.',
   },
   {
-    d: 'Quanto dura, e poi che succede?',
+    d: t('pazienti.primadiuntrattamento.quanto_dura_e_poi_che_succede'),
     p: 'Un trattamento che si riassorbe ha bisogno di essere rifatto. Sapere ogni quanto cambia il conto, e cambia la decisione.',
   },
   {
-    d: 'Quali sono le alternative?',
+    d: t('pazienti.primadiuntrattamento.quali_sono_le_alternative'),
     p: 'La legge dice che le alternative vanno presentate. Se ce n’è una sola, chiedi perché: è una risposta legittima, ma deve esserci.',
   },
   {
-    d: 'E se non lo faccio?',
+    d: t('pazienti.primadiuntrattamento.e_se_non_lo_faccio'),
     p: 'È la domanda che quasi nessuno pone, ed è un diritto esplicito: ti devono dire le conseguenze del rifiuto. Spesso la risposta onesta è «niente», e va bene così.',
   },
   {
-    d: 'Quali rischi ha, non in generale, ma per me?',
+    d: t('pazienti.primadiuntrattamento.quali_rischi_ha_non_in_generale'),
     p: 'Con la tua storia clinica, i tuoi farmaci, le tue allergie. Un elenco di rischi valido per chiunque non ti ha informato di niente.',
   },
   {
-    d: 'Chi lo esegue materialmente?',
+    d: t('pazienti.primadiuntrattamento.chi_lo_esegue_materialmente'),
     p: 'Non è scontato che sia la persona con cui stai parlando.',
   },
   {
-    d: 'Che cosa si fa se qualcosa va storto, e chi lo fa?',
+    d: t('pazienti.primadiuntrattamento.che_cosa_si_fa_se_qualcosa'),
     p: 'Chiedi il percorso concreto: chi chiami, in quanto tempo rispondono, dove si interviene. Una risposta vaga è già un’informazione.',
   },
   {
-    d: 'Mi fate firmare un consenso? Posso leggerlo con calma?',
+    d: t('pazienti.primadiuntrattamento.mi_fate_firmare_un_consenso_posso'),
     p: 'Il consenso va raccolto per iscritto e finisce in cartella. Puoi chiederlo prima, e portartelo a casa a leggere.',
   },
   {
-    d: 'Quanto costa, tutto compreso?',
+    d: t('pazienti.primadiuntrattamento.quanto_costa_tutto_compreso'),
     p: 'Compresi i controlli e le sedute successive, se ne servono. Gli onorari li indica lo studio: qui non li pubblichiamo, e nella pagina sotto c’è il perché.',
   },
 ] as const

@@ -38,6 +38,7 @@
  * ⛔ Nessun prezzo: gli onorari li dice lo studio.
  */
 
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import { useMemo, useState } from 'react'
 import { VoceElenco } from '@/components/pazienti/VoceElenco'
@@ -51,11 +52,11 @@ import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
  *  di riempire il campo senza scrivere, che su un telefono è la differenza fra
  *  cercare e non cercare. */
 const SCORCIATOIE = [
-  'Tossina botulinica',
-  'Filler',
-  'Biostimolazione',
-  'Peeling',
-  'Prima visita',
+  t('pazienti.ricercamedici.tossina_botulinica'),
+  t('pazienti.ricercamedici.filler'),
+  t('pazienti.ricercamedici.biostimolazione'),
+  t('pazienti.ricercamedici.peeling'),
+  t('pazienti.ricercamedici.prima_visita'),
 ] as const
 
 /* 🔑 **Il saggio, compresso in tre fatti.**
@@ -74,9 +75,9 @@ const PASTIGLIE = [
    * possiamo farlo noi?»*. È **una regola di ammissione**, non un compito del
    * paziente: si scrive come promessa nostra. Il numero resta in pagina, ⛔ ma
    * come **prova**, non come istruzione. Vedi [[decisione-verifica-albo]]. */
-  'Solo medici iscritti all’Ordine',
-  'Nessuna classifica a pagamento',
-  'Nessun cookie, nessun account',
+  t('pazienti.ricercamedici.solo_medici_iscritti_all_ordine'),
+  t('pazienti.ricercamedici.nessuna_classifica_a_pagamento'),
+  t('pazienti.ricercamedici.nessun_cookie_nessun_account'),
 ] as const
 
 function normalizza(s: string): string {
@@ -149,11 +150,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                   un nostro dovere di ammissione, e il numero in pagina è la
                   **prova**, non il compito. [[decisione-verifica-albo]] */}
               <h1 className="titolo-servizio text-[length:var(--display-2)]">
-                Trova il tuo medico estetico
-                {/* ⚠️ L'a capo è **solo su schermo largo**: su un telefono
-                    forzava una riga in più e il titolo si prendeva mezzo primo
-                    schermo da solo. Misurato a 375px il 2026-08-13. */}
-                <br className="a-capo-largo" /> e prenota.
+                <Enfasi chiave="pazienti.ricercamedici.titolo" />
               </h1>
               <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
                 {t('pazienti.ricercamedici.solo_medici_iscritti_all_ordine_con')}
@@ -178,7 +175,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                 <input
                   value={cosa}
                   onChange={(e) => setCosa(e.target.value)}
-                  placeholder="es. tossina botulinica, o il nome del medico"
+                  placeholder={t('pazienti.ricercamedici.es_tossina_botulinica_o_il_nome')}
                   autoComplete="off"
                   className="campo-ricerca"
                 />
@@ -190,7 +187,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                 <input
                   value={dove}
                   onChange={(e) => setDove(e.target.value)}
-                  placeholder="es. Milano"
+                  placeholder={t('pazienti.ricercamedici.es_milano')}
                   autoComplete="address-level2"
                   className="campo-ricerca"
                 />
@@ -202,7 +199,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                   che serve davvero lì. */}
               <button type="submit" className="btn btn-primario bottone-cerca">
                 <IconaCerca lato={18} />
-                Cerca
+                {t('pazienti.ricercamedici.cerca')}
               </button>
             </form>
 
@@ -239,7 +236,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                   <p className="text-[15px]" style={{ display: 'flex', alignItems: 'center', gap: 'var(--s-8)', flexWrap: 'wrap' }}>
                     <span style={{ color: 'var(--accent-ink)', display: 'inline-flex', alignItems: 'center', gap: 'var(--s-5)' }}>
                       <IconaLuogo lato={15} />
-                      Ordinati dal più vicino a te
+                      {t('pazienti.ricercamedici.ordinati_dal_piu_vicino_a_te')}
                     </span>
                     <button type="button" onClick={dimentica} className="collegamento-testo" style={{ background: 'none', border: 0, cursor: 'pointer', font: 'inherit' }}>
                       {t('pazienti.ricercamedici.torna_all_ordine_alfabetico')}
@@ -255,7 +252,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                       style={{ display: 'inline-flex', alignItems: 'center', gap: 'var(--s-5)' }}
                     >
                       <IconaLuogo lato={15} />
-                      {statoPosizione === 'chiedo' ? 'Cerco la tua posizione…' : 'Vicino a me'}
+                      {statoPosizione === 'chiedo' ? t('pazienti.ricercamedici.cerco_la_tua_posizione') : t('pazienti.ricercamedici.vicino_a_me')}
                     </button>
                     {/* ⛔ Un rifiuto non si nasconde e ⛔ non si richiede: si
                         dice cosa sta guardando adesso. */}
@@ -337,7 +334,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
           <div id="risultati" style={{ scrollMarginTop: 'var(--s-21)' }} role="status">
             <h2 className="titolo-servizio text-[length:var(--display-3)]">
               {risultati.length === 0
-                ? 'Nessuno studio corrisponde'
+                ? t('pazienti.ricercamedici.nessuno_studio_corrisponde')
                 : `${risultati.length} ${
                     risultati.length === 1
                       ? `studio${filtrata ? ' trovato' : ''}`
@@ -351,8 +348,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
                 in entrambi i casi, ed è quella che conta. */}
             {risultati.length > 0 && (
               <p className="mt-[var(--s-5)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                {posizione ? 'Dal più vicino a te.' : 'In ordine alfabetico.'} Nessuno può
-                pagare per comparire più in alto.
+                {posizione ? t('pazienti.ricercamedici.dal_piu_vicino_a_te') : t('pazienti.ricercamedici.in_ordine_alfabetico')} {t('pazienti.ricercamedici.nessuno_puo_pagare_per_comparire_piu')}
               </p>
             )}
           </div>
@@ -362,8 +358,7 @@ export function RicercaMedici({ medici }: { medici: readonly SchedaMedicoPubblic
               {/* ⛔ Non si svuota la pagina: si dice **cosa fare adesso**. NN/g,
                   information scent — un vicolo cieco senza uscita fa uscire dal
                   sito, non riformulare. */}
-              Prova con meno parole, o togli il luogo. Se il tuo medico usa Fibonacci
-              e non compare qui, la sua pagina te la può dare lui.
+              {t('pazienti.ricercamedici.prova_con_meno_parole_o_togli')}
             </p>
           ) : (
             <ul style={{ padding: 0, marginTop: 'var(--s-21)' }}>

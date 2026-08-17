@@ -60,7 +60,7 @@ export function IndiceCapitoli({ slugCorrente }: { slugCorrente?: string }) {
         aria-controls={idIndice}
         onClick={() => setAperto((v) => !v)}
       >
-        <span>{aperto ? 'Chiudi l’indice' : 'Indice dei capitoli'}</span>
+        <span>{aperto ? t('docs.indicecapitoli.chiudi_l_indice') : t('docs.indicecapitoli.indice_dei_capitoli')}</span>
         <span className="manuale__apri-segno" aria-hidden="true">{aperto ? '–' : '+'}</span>
       </button>
 

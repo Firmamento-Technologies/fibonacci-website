@@ -101,7 +101,7 @@ export default function Prezzi() {
                 nome="consulto-studio"
                 alt={t('prezzi.due_professioniste_sedute_con_una_cliente')}
                 proporzione="4 / 3"
-                didascalia="La configurazione dello studio la facciamo noi, con te."
+                didascalia={t('prezzi.la_configurazione_dello_studio_la_facciamo')}
               />
             </Reveal>
           </div>
@@ -184,7 +184,7 @@ export default function Prezzi() {
             </p>
             <p className="mt-[var(--s-21)]">
               <Link href="/che-software-serve" className="link-avanti">
-                Portale, gestionale o cartella verticale: le tre categorie a confronto
+                {t('prezzi.portale_gestionale_o_cartella_verticale_le')}
                 <Freccia />
               </Link>
             </p>
@@ -254,8 +254,7 @@ export default function Prezzi() {
                 su 375px la sezione arrivava a **783px contro i 770** di una
                 schermata utile, e `altezza-pagine.mjs` la contava come passo
                 alto. Due esempi su tre bastano, e il resto lo dice il widget. */}
-            Due sedi ma un medico solo, una segretaria che non visita. Chiedi pure: se la
-            risposta non c&apos;è, lo dice.
+            {t('prezzi.due_sedi_ma_un_medico_solo')}
           </p>
           <div className="mt-[var(--s-34)]">
             <Assistente />
@@ -279,7 +278,7 @@ export default function Prezzi() {
           </div>
           <p className="mt-[var(--s-34)]">
             <Link href="/sicurezza-e-dati" className="link-avanti">
-              Dove stanno i dati, e cosa succede se smetti
+              {t('prezzi.dove_stanno_i_dati_e_cosa')}
               <Freccia />
             </Link>
           </p>

@@ -219,9 +219,9 @@ export function Chiusura() {
             </div>
             <dl className="passo mt-[var(--s-34)]" style={{ color: 'var(--fg-muted)' }}>
               {[
-                ['Chi chiama', 'Una persona che il prodotto lo ha costruito, non un venditore.'],
-                ['Cosa serve', 'Sapere che procedure fai e con che gestionale lavori oggi.'],
-                ['Cosa non facciamo', 'Nessun richiamo insistente. Se non rispondi, non ti cerchiamo più.'],
+                [t('home.sigillo.chi_chiama'), t('home.sigillo.una_persona_che_il_prodotto_lo')],
+                [t('home.sigillo.cosa_serve'), t('home.sigillo.sapere_che_procedure_fai_e_con')],
+                [t('home.sigillo.cosa_non_facciamo'), t('home.sigillo.nessun_richiamo_insistente_se_non_rispondi')],
               ].map(([k, v]) => (
                 <div key={k} className="grid gap-[var(--s-8)] py-[var(--s-13)] sm:grid-cols-[9rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
                   <dt className="numero" style={{ paddingTop: 3 }}>{k}</dt>

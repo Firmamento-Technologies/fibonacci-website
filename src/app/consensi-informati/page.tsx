@@ -130,10 +130,10 @@ export default function ConsensiInformati() {
                 </h2>
                 <ol className="mt-[var(--s-34)]">
                   {[
-                    ['Il modulo unico', 'Uguale per la tossina e per il laser. Se vale per tutto, non descrive niente.'],
-                    ['La firma in sala d’attesa', 'Firmato mentre aspetta, senza che nessuno abbia parlato con lei.'],
-                    ['Il risultato dato per certo', 'Elencare i benefici come fatti compiuti è la postura più esposta che esista in estetica.'],
-                    ['La data mancante', 'Un consenso senza data e senza tracciabilità è una dichiarazione che non si può collocare nel tempo.'],
+                    [t('consensiinformati.il_modulo_unico'), t('consensiinformati.uguale_per_la_tossina_e_per')],
+                    [t('consensiinformati.la_firma_in_sala_d_attesa'), t('consensiinformati.firmato_mentre_aspetta_senza_che_nessuno')],
+                    [t('consensiinformati.il_risultato_dato_per_certo'), t('consensiinformati.elencare_i_benefici_come_fatti_compiuti')],
+                    [t('consensiinformati.la_data_mancante'), t('consensiinformati.un_consenso_senza_data_e_senza')],
                   ].map(([t, d], i) => (
                     <li key={t} className="grid gap-[var(--s-13)] py-[var(--s-13)] sm:grid-cols-[2rem_1fr]" style={{ borderTop: '1px solid var(--rule)' }}>
                       <span className="numero" style={{ paddingTop: 4 }}>{String(i + 1).padStart(2, '0')}</span>
@@ -167,7 +167,7 @@ export default function ConsensiInformati() {
                 </p>
                 <p className="mt-[var(--s-34)]">
                   <Link href="/come-funziona" className="link-avanti">
-                    Guarda il flusso completo
+                    {t('consensiinformati.guarda_il_flusso_completo')}
                     <Freccia />
                   </Link>
                 </p>
@@ -178,7 +178,7 @@ export default function ConsensiInformati() {
                 file="/schermate/catalogo-consensi.png"
                 alt={t('consensiinformati.il_catalogo_dei_consensi_di_fibonacci')}
                 className="lg:order-1"
-                didascalia="L'avviso in alto è nel prodotto, non solo nella documentazione."
+                didascalia={t('consensiinformati.l_avviso_in_alto_e_nel')}
               />
             </Reveal>
           </div>

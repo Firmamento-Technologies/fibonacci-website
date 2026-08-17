@@ -18,6 +18,8 @@
  * Un bollino senza `prova` non è un bollino: è uno slogan dentro un cerchio.
  */
 
+import { t } from '@/lib/testo'
+
 export type StatoBollino =
   /** Vero oggi, e verificabile oggi. */
   | 'fatto'
@@ -49,92 +51,92 @@ export interface Bollino {
 export const BOLLINI: Bollino[] = [
   {
     id: 'dati-in-italia',
-    titolo: 'Dati in Italia',
+    titolo: t('lib.bollini.dati_in_italia'),
     corpo:
-      'La cartella, le fotografie e i backup stanno su infrastruttura italiana, dentro l’Unione europea. Non su cloud statunitensi, e senza repliche fuori dall’Unione.',
+      t('lib.bollini.la_cartella_le_fotografie_e_i'),
     prova:
-      'Interroga tu il registro: «whois» sull’indirizzo del sito dà ARUBA-NET, Aruba S.p.A., paese IT. La filiera per esteso è nell’elenco dei sub-responsabili.',
+      t('lib.bollini.interroga_tu_il_registro_whois_sull'),
     stato: 'fatto',
     href: '/sub-responsabili',
   },
   {
     id: 'nessun-intermediario',
-    titolo: 'Nessun intermediario',
+    titolo: t('lib.bollini.nessun_intermediario'),
     corpo:
-      'Fra il tuo browser e il nostro server non c’è nessuno: né rete di distribuzione, né proxy di terzi, né firewall applicativo gestito da altri. Nessun soggetto extra-europeo sul percorso del dato.',
+      t('lib.bollini.fra_il_tuo_browser_e_il'),
     prova:
-      'Il dominio risolve direttamente sull’indirizzo dell’infrastruttura: lo dice una interrogazione DNS, che chiunque può fare anche contro di noi.',
+      t('lib.bollini.il_dominio_risolve_direttamente_sull_indirizzo'),
     stato: 'fatto',
     href: '/sicurezza',
   },
   {
     id: 'titolare-sei-tu',
-    titolo: 'Il titolare sei tu',
+    titolo: t('lib.bollini.il_titolare_sei_tu'),
     corpo:
-      'I pazienti sono i tuoi, la cartella è la tua, le decisioni sul trattamento le prendi tu. Noi siamo responsabili e agiamo su tua istruzione scritta.',
+      t('lib.bollini.i_pazienti_sono_i_tuoi_la'),
     prova:
-      'Accordo ex art. 28 GDPR, pubblicato per intero e senza modulo da compilare. Lo firmi prima di cominciare, e lo può leggere il tuo consulente adesso.',
+      t('lib.bollini.accordo_ex_art_28_gdpr_pubblicato'),
     stato: 'fatto',
     href: '/dpa',
   },
   {
     id: 'codice-di-condotta',
-    titolo: 'Codice di condotta europeo',
+    titolo: t('lib.bollini.codice_di_condotta_europeo'),
     corpo:
-      'Il fornitore che ospita i dati aderisce al codice di condotta CISPE per i servizi cloud, approvato dalla CNIL nel 2021 ai sensi dell’art. 40 del GDPR.',
+      t('lib.bollini.il_fornitore_che_ospita_i_dati'),
     prova:
-      'L’iscrizione sta nel registro pubblico CISPE, che non è gestito da noi né dal fornitore.',
+      t('lib.bollini.l_iscrizione_sta_nel_registro_pubblico'),
     stato: 'fatto',
     href: 'https://cispe.cloud/publicregister/',
     esterno: true,
   },
   {
     id: 'registro-accessi',
-    titolo: 'Ogni accesso è scritto',
+    titolo: t('lib.bollini.ogni_accesso_e_scritto'),
     corpo:
-      'Chi apre una cartella lascia una riga: chi, quando, quale risorsa, con che esito. Le righe sono legate da una catena di impronte, quindi non si possono riscrivere a posteriori senza che si veda.',
+      t('lib.bollini.chi_apre_una_cartella_lascia_una'),
     prova:
-      'Il registro lo consulti tu, non solo noi, ed è la misura che l’art. 32 GDPR chiama per nome. La catena la verifica una pagina pubblica, senza registrazione.',
+      t('lib.bollini.il_registro_lo_consulti_tu_non'),
     stato: 'fatto',
     href: '/verifica',
   },
   {
     id: 'uscita-garantita',
-    titolo: 'Uscire è una funzione',
+    titolo: t('lib.bollini.uscire_e_una_funzione'),
     corpo:
-      'Esporti tutto in FHIR R4, uno standard sanitario internazionale, in qualsiasi momento e senza chiederci il permesso. Se cambi fornitore, i dati partono con te.',
+      t('lib.bollini.esporti_tutto_in_fhir_r4_uno'),
     prova:
-      'Art. 20 GDPR sulla portabilità, prescrizione 2.6 dell’Allegato II del regolamento EHDS, e gli indirizzi applicativi dell’art. 78 del codice di deontologia medica, che chiedono al medico di privilegiare i servizi con un formato indipendente dalla piattaforma.',
+      t('lib.bollini.art_20_gdpr_sulla_portabilita_prescrizione'),
     stato: 'fatto',
     href: '/conformita-europea',
   },
   {
     id: 'niente-addestramento',
-    titolo: 'Nessun addestramento sui tuoi dati',
+    titolo: t('lib.bollini.nessun_addestramento_sui_tuoi_dati'),
     corpo:
-      'I fornitori dei modelli che usiamo sono esclusi per contratto dall’addestrare sui dati che passano dalle nostre chiamate. La dettatura è trascritta da un fornitore europeo, e l’audio non viene conservato.',
+      t('lib.bollini.i_fornitori_dei_modelli_che_usiamo'),
     prova:
-      'Ogni fornitore è nominato nell’elenco dei sub-responsabili, con sede, servizio, categoria di dati e base giuridica.',
+      t('lib.bollini.ogni_fornitore_e_nominato_nell_elenco'),
     stato: 'fatto',
     href: '/sub-responsabili',
   },
   {
     id: 'iso-27001',
-    titolo: 'ISO 27001: il data center sì, noi no',
+    titolo: t('lib.bollini.iso_27001_il_data_center_si'),
     corpo:
-      'La certificazione appartiene a chi ospita l’infrastruttura e riguarda la sala macchine. Non dice niente sul nostro codice, sul controllo degli accessi o sulla gestione delle chiavi, e noi non la esibiamo come se lo dicesse.',
+      t('lib.bollini.la_certificazione_appartiene_a_chi_ospita'),
     prova:
-      'Adottiamo i controlli dell’Annex A come riferimento, senza certificazione di terza parte. Sta scritto al paragrafo 12 della scheda delle misure di sicurezza.',
+      t('lib.bollini.adottiamo_i_controlli_dell_annex_a'),
     stato: 'assente',
     href: '/sicurezza',
   },
   {
     id: 'marcatura-ce',
-    titolo: 'Marcatura CE: dal 2029, e non l’ha nessuno',
+    titolo: t('lib.bollini.marcatura_ce_dal_2029_e_non'),
     corpo:
-      'Il regolamento sullo spazio europeo dei dati sanitari renderà obbligatoria la marcatura CE per le cartelle cliniche elettroniche. Oggi non è apponibile: mancano gli atti di esecuzione della Commissione.',
+      t('lib.bollini.il_regolamento_sullo_spazio_europeo_dei'),
     prova:
-      'Reg. (UE) 2025/327, artt. 39 e 41, applicabile dal 26 marzo 2027 e dal 26 marzo 2029 per le categorie prioritarie. Diffida di chi la dichiara già oggi.',
+      t('lib.bollini.reg_ue_2025_327_artt_39'),
     stato: 'previsto',
     href: '/conformita-europea',
   },
@@ -214,8 +216,8 @@ export interface BollinoPiede {
 export const BOLLINI_PIEDE: BollinoPiede[] = [
   {
     marchio: 'GDPR',
-    sigla: 'Art. 28 GDPR',
-    nota: 'Il titolare sei tu. Accordo di trattamento pubblico, senza modulo da compilare.',
+    sigla: t('lib.bollini.art_28_gdpr'),
+    nota: t('lib.bollini.il_titolare_sei_tu_accordo_di'),
     stato: 'fatto',
     href: '/dpa',
   },
@@ -223,15 +225,15 @@ export const BOLLINI_PIEDE: BollinoPiede[] = [
     /* ⛔ Senza spazi: il sigillo va a capo sugli spazi, e «IT · UE» usciva su
        TRE righe dentro un cerchio da 58px. */
     marchio: 'IT/UE',
-    sigla: 'Dati in Italia',
-    nota: 'Infrastruttura italiana, nessun intermediario, nessun trasferimento fuori dall’Unione.',
+    sigla: t('lib.bollini.dati_in_italia'),
+    nota: t('lib.bollini.infrastruttura_italiana_nessun_intermediario_nessun_trasferimento'),
     stato: 'fatto',
     href: '/conformita-europea',
   },
   {
     marchio: 'ART. 32',
-    sigla: 'Misure di sicurezza',
-    nota: 'Scheda tecnica pubblicata per intero, limiti dichiarati compresi.',
+    sigla: t('lib.bollini.misure_di_sicurezza'),
+    nota: t('lib.bollini.scheda_tecnica_pubblicata_per_intero_limiti'),
     stato: 'fatto',
     href: '/sicurezza',
   },
@@ -239,15 +241,15 @@ export const BOLLINI_PIEDE: BollinoPiede[] = [
     /* ⚠️ Applicabile **da oggi**: il regolamento si applica dal 2 agosto 2026
        (art. 113), quindi qui ⛔ non si può scrivere «ci prepareremo». */
     marchio: 'AI ACT',
-    sigla: 'Art. 50 · trasparenza',
-    nota: 'Diciamo quando stai parlando con un’IA. La marcatura leggibile a macchina non c’è ancora.',
+    sigla: t('lib.bollini.art_50_trasparenza'),
+    nota: t('lib.bollini.diciamo_quando_stai_parlando_con_un'),
     stato: 'previsto',
     href: '/intelligenza-artificiale',
   },
   {
     marchio: 'EHDS',
-    sigla: 'Marcatura CE dal 2029',
-    nota: 'Oggi non è apponibile da nessuno. Tre requisiti su quattro li rispettiamo già.',
+    sigla: t('lib.bollini.marcatura_ce_dal_2029'),
+    nota: t('lib.bollini.oggi_non_e_apponibile_da_nessuno'),
     stato: 'previsto',
     href: '/conformita-europea',
   },

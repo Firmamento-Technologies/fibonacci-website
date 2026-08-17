@@ -1,5 +1,6 @@
 'use client'
 
+import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
 import Link from 'next/link'
 import { Occhiello } from '@/components/ui/elementi'
@@ -60,8 +61,7 @@ export function Hero() {
             </div>
 
             <h1 className="entra-primo-schermo ritardo-1 mt-[var(--s-21)] text-[length:var(--display-1)]">
-              Cartella clinica, consensi e immagini per la{' '}
-              <span className="accento-corsivo">medicina estetica</span>
+              <Enfasi chiave="home.hero.titolo" />
             </h1>
 
             <p
@@ -79,9 +79,7 @@ export function Hero() {
                   impronte. ⛔ E si ferma lì — **non si promette un esito legale**, che non
                   dipende da noi. Si dice cosa si riesce a dimostrare, che è quello che il
                   prodotto fa davvero. */}
-              Quando una seduta viene contestata, conta cosa riesci a dimostrare: il consenso
-              nella versione firmata quel giorno, il lotto, le foto, e un registro che non si può
-              riscrivere.
+              {t('home.hero.quando_una_seduta_viene_contestata_conta')}
             </p>
 
             {/* La demo pubblica passa in prima fila.
@@ -125,8 +123,8 @@ export function Hero() {
               style={{ color: 'var(--fg-faint)' }}
             >
               {DEMO_URL
-                ? 'La demo è aperta: nessuna registrazione, nessuna email, nessuna carta di credito. Dentro ci sono pazienti finti in uno spazio separato, e puoi toccare tutto.'
-                : 'Mezz’ora, sulle tue procedure e coi tuoi casi. Nessun impegno e nessuna carta di credito.'}
+                ? t('home.hero.la_demo_e_aperta_nessuna_registrazione')
+                : t('home.hero.mezz_ora_sulle_tue_procedure_e')}
             </p>
           </div>
 
@@ -173,15 +171,15 @@ export function Hero() {
           {[
             {
               t: 'I dati restano in Europa',
-              d: 'Server in Germania. Niente cartelle cliniche oltreoceano.',
+              d: t('home.hero.server_in_germania_niente_cartelle_cliniche'),
             },
             {
               t: 'Il registro non si riscrive',
-              d: 'Ogni modifica entra in una catena di impronte. Ritoccarla la spezza, e si vede.',
+              d: t('home.hero.ogni_modifica_entra_in_una_catena'),
             },
             {
               t: 'Siamo in avvio',
-              d: 'In pilota presso uno studio. Meglio dirlo che esibire loghi di clienti che non abbiamo.',
+              d: t('home.hero.in_pilota_presso_uno_studio_meglio'),
             },
           ].map((f) => (
             <div key={f.t}>

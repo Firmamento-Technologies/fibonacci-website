@@ -65,9 +65,7 @@ export default function Page() {
         <Sezione id="mentre-leggi" titolo={t('pazienti.privacy.mentre_leggi')}>
           <p>
             <strong>{t('pazienti.privacy.nessun_cookie_di_tracciamento_nessun_account')}</strong>{' '}
-            Non c’è un banner dei cookie perché non c’è niente da farti accettare: i caratteri
-            tipografici sono ospitati qui, non su un servizio esterno, e in queste pagine non
-            ci sono video incorporati né contatori di visite.
+            {t('pazienti.privacy.non_c_e_un_banner_dei')}
           </p>
           <p className="mt-[var(--s-13)]">
             <strong>{t('pazienti.privacy.con_un_eccezione_ed_e_la')}</strong> Sulla pagina di uno studio c’è

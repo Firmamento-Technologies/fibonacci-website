@@ -45,8 +45,7 @@ export function ProvaComplicanze() {
   return (
     <div className="prova-catalogo" data-testid="prova-complicanze">
       <p className="prova-viso__invito">
-        <strong>{t('home.provacomplicanze.provalo_qui')}</strong> Scegli cosa è successo: sotto compare la riga che
-        finisce in cartella, con il suo codice.
+        <strong>{t('home.provacomplicanze.provalo_qui')}</strong> {t('home.provacomplicanze.scegli_cosa_e_successo_sotto_compare')}
       </p>
 
       <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label={t('home.provacomplicanze.complicanza')}>
@@ -110,10 +109,7 @@ export function ProvaComplicanze() {
       </div>
 
       <p className="prova-viso__didascalia">
-        Diventa un <code>{t('home.provacomplicanze.adverseevent')}</code> FHIR legato alla seduta che l’ha originata.
-        ⛔ La gravità la scegli tu: il software non la deduce. E la segnalazione di
-        farmacovigilanza resta un tuo atto: qui si prepara il contenuto, non si trasmette
-        niente.
+        Diventa un <code>{t('home.provacomplicanze.adverseevent')}</code> {t('home.provacomplicanze.fhir_legato_alla_seduta_che_l')}
       </p>
     </div>
   )

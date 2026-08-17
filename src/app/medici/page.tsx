@@ -69,20 +69,20 @@ const COSA_CAMBIA = [
 
 const RIGHE_ELENCO = [
   {
-    d: 'Perché sono nell’elenco se non vi ho mai contattato?',
-    r: 'L’elenco è compilato leggendo i siti pubblici degli studi. I dati che riportiamo sono quelli che il tuo sito già pubblica, e che la legge sul commercio elettronico ti obbliga a pubblicare: nome, indirizzo, contatti, prestazioni dichiarate. Nessun dato clinico, nessun prezzo, nessuna foto, nessuna recensione, nessun punteggio.',
+    d: t('medici.perche_sono_nell_elenco_se_non'),
+    r: t('medici.l_elenco_e_compilato_leggendo_i'),
   },
   {
-    d: 'Chi decide in che ordine compaiono gli studi?',
-    r: 'Un criterio scritto e pubblico, che non si può comprare. Non esiste una posizione «in evidenza», nemmeno gratuita: appena esiste la casella, esiste il prezzo per averla.',
+    d: t('medici.chi_decide_in_che_ordine_compaiono'),
+    r: t('medici.un_criterio_scritto_e_pubblico_che'),
   },
   {
-    d: 'Un dato è sbagliato.',
-    r: 'Si corregge, senza ritardo. Scrivici e indica quale: la scheda riporta sempre la data dell’ultima lettura del tuo sito.',
+    d: t('medici.un_dato_e_sbagliato'),
+    r: t('medici.si_corregge_senza_ritardo_scrivici_e'),
   },
   {
-    d: 'Non voglio comparire.',
-    r: 'Il collegamento in fondo a ogni messaggio toglie la scheda e mette il tuo sito in un elenco di esclusione permanente: non verrà più letto neanche negli aggiornamenti successivi. Non serve motivare la richiesta e non c’è nessuna eccezione.',
+    d: t('medici.non_voglio_comparire'),
+    r: t('medici.il_collegamento_in_fondo_a_ogni'),
   },
 ]
 

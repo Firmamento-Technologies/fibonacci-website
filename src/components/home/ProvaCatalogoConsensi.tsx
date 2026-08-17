@@ -61,8 +61,7 @@ export function ProvaCatalogoConsensi() {
   return (
     <div className="prova-catalogo" data-testid="prova-catalogo-consensi">
       <p className="prova-viso__invito">
-        <strong>{t('home.provacatalogoconsensi.provalo_qui')}</strong> Scrivi un trattamento che fai: se il modulo esiste,
-        compare con la sua categoria.
+        <strong>{t('home.provacatalogoconsensi.provalo_qui')}</strong> {t('home.provacatalogoconsensi.scrivi_un_trattamento_che_fai_se')}
       </p>
 
       <label className="prova-catalogo__campo">
@@ -95,7 +94,7 @@ export function ProvaCatalogoConsensi() {
             <strong>{PROCEDURE.length} procedure</strong> hanno già il loro modulo, dalla
             tossina alla chirurgia.
             <br />
-            Cercane una.
+            {t('home.provacatalogoconsensi.cercane_una')}
           </p>
         )}
 

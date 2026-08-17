@@ -82,7 +82,7 @@ export default async function OGImage() {
             gap: '16px',
           }}
         >
-          {['Estetica', 'Dermatologia', 'Ortopedia', 'Psicologia', 'Nutrizione', 'Oculistica'].map((s) => (
+          {[t('opengraphimage.estetica'), t('opengraphimage.dermatologia'), t('opengraphimage.ortopedia'), t('opengraphimage.psicologia'), t('opengraphimage.nutrizione'), t('opengraphimage.oculistica')].map((s) => (
             <div
               key={s}
               style={{

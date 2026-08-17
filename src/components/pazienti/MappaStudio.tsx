@@ -84,7 +84,7 @@ export function MappaStudio({
             mente in silenzio a meno che la pagina non lo dica. */}
         {!coordinate.esatta && (
           <>
-            Posizione approssimata al comune: questo studio d’esempio non ha un indirizzo reale.{' '}
+            {t('pazienti.mappastudio.posizione_approssimata_al_comune_questo_studio')}{' '}
           </>
         )}
         <a href={mappaEsterna} target="_blank" rel="noopener noreferrer" className="collegamento-testo">

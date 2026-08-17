@@ -94,8 +94,7 @@ export function ProvaMappaViso() {
   return (
     <div className="prova-viso" data-testid="prova-mappa-viso">
       <p className="prova-viso__invito">
-        <strong>{t('home.provamappaviso.provalo_qui')}</strong> Clicca sul viso dove avresti trattato: il punto si
-        aggancia da solo all’area giusta.
+        <strong>{t('home.provamappaviso.provalo_qui')}</strong> {t('home.provamappaviso.clicca_sul_viso_dove_avresti_trattato')}
       </p>
 
       <div className="prova-viso__pillole" role="group" aria-label={t('home.provamappaviso.ritratto_di_riferimento')}>
@@ -192,9 +191,9 @@ export function ProvaMappaViso() {
 
           {segnate.length === 0 ? (
             <p className="prova-viso__vuoto">
-              Qui compaiono le aree man mano che le segni, già con il loro codice.
+              {t('home.provamappaviso.qui_compaiono_le_aree_man_mano')}
               <br />
-              Clicca sul viso.
+              {t('home.provamappaviso.clicca_sul_viso')}
             </p>
           ) : (
             <>

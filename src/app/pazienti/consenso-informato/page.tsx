@@ -37,8 +37,7 @@ export default function Page() {
             <strong>
               {t('pazienti.consensoinformato.nessun_trattamento_sanitario_puo_essere_iniziato')}
             </strong>{' '}
-            Lo dice la legge 219 del 2017, all’articolo 1. Vale per un intervento e vale per
-            una puntura di acido ialuronico.
+            {t('pazienti.consensoinformato.lo_dice_la_legge_219_del')}
           </p>
         </Sezione>
 
@@ -101,13 +100,10 @@ export default function Page() {
 
         <Sezione id="non-e" titolo={t('pazienti.consensoinformato.e_che_cosa_non_e')}>
           <p>
-            <strong>{t('pazienti.consensoinformato.non_e_una_liberatoria')}</strong> Firmare non toglie responsabilità al
-            medico e non ti fa rinunciare a niente. Anzi: un consenso raccolto male è di per
-            sé un problema del medico, indipendentemente da come è andato il trattamento.
+            <strong>{t('pazienti.consensoinformato.non_e_una_liberatoria')}</strong> {t('pazienti.consensoinformato.firmare_non_toglie_responsabilita_al_medico')}
           </p>
           <p className="mt-[var(--s-13)]">
-            <strong>{t('pazienti.consensoinformato.non_e_un_foglio_uguale_per')}</strong> Un modulo che potrebbe essere
-            firmato da chiunque per qualunque cosa non ti ha informato di niente.
+            <strong>{t('pazienti.consensoinformato.non_e_un_foglio_uguale_per')}</strong> {t('pazienti.consensoinformato.un_modulo_che_potrebbe_essere_firmato')}
           </p>
         </Sezione>
 

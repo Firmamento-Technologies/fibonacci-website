@@ -200,7 +200,7 @@ export function Header() {
             style={{ width: 48, height: 48, marginRight: 'calc(var(--s-13) * -1)' }}
             aria-expanded={menuAperto}
             aria-controls="menu-mobile"
-            aria-label={menuAperto ? 'Chiudi il menu' : 'Apri il menu'}
+            aria-label={menuAperto ? t('chrome.header.chiudi_il_menu') : t('chrome.header.apri_il_menu')}
             onClick={() => setMenuAperto((v) => !v)}
           >
             <span className="relative block" style={{ width: 21, height: 13 }}>

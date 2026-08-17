@@ -49,11 +49,11 @@ const DOVE = [
 ] as const
 
 const MAI = [
-  'Non formula diagnosi, e nessuna schermata ne propone una.',
-  'Non consiglia terapie, dosaggi o prodotti.',
-  'Non decide niente al posto tuo: non esiste un’azione che parte senza che tu la confermi.',
-  'Non parla con i pazienti al posto tuo dentro la cartella clinica.',
-  'Non addestra modelli sui dati dei tuoi pazienti.',
+  t('intelligenzaartificiale.non_formula_diagnosi_e_nessuna_schermata'),
+  t('intelligenzaartificiale.non_consiglia_terapie_dosaggi_o_prodotti'),
+  t('intelligenzaartificiale.non_decide_niente_al_posto_tuo'),
+  t('intelligenzaartificiale.non_parla_con_i_pazienti_al'),
+  t('intelligenzaartificiale.non_addestra_modelli_sui_dati_dei'),
 ] as const
 
 export default function IntelligenzaArtificiale() {
@@ -146,7 +146,7 @@ export default function IntelligenzaArtificiale() {
           </div>
           <p className="mt-[var(--s-34)]">
             <Link href="/sub-responsabili" className="link-avanti">
-              Chi tratta i dati oltre a noi
+              {t('intelligenzaartificiale.chi_tratta_i_dati_oltre_a')}
               <Freccia />
             </Link>
           </p>
