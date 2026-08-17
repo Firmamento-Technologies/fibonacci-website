@@ -1285,34 +1285,7 @@ a:where(:not(.btn)) { color: inherit; text-decoration: none; }
   padding: 2px 5px;
   border-radius: var(--r-sm);
 }
-/* ⚠️ `width: 100%` NON basta a far stare una tabella nello schermo, ed e' il
-   difetto che questa regola aveva. Con `table-layout: auto` la larghezza minima
-   delle celle vince sul 100%: misurate su un viewport da 375px, la tabella di
-   `/privacy/` arrivava a **399px** e quella di `/termini/` a **429**. Sforavano
-   il DOCUMENTO, quindi scorreva in orizzontale l'intera pagina, ⛔ non solo la
-   tabella. Sono le pagine legali: si tocca il contenitore, mai il contenuto.
-   ⇒ La tabella diventa un blocco che scorre per conto suo. `max-content` le
-   lascia la larghezza che le serve dentro quel blocco, invece di comprimerla in
-   colonne da due lettere. */
-.prosa table {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  border-collapse: collapse;
-  font-size: 15px;
-}
-/* ⛔ NIENTE `min-width: max-content` qui, ed è stato provato e misurato: con
-   `max-content` il corpo della tabella di `/privacy/` diventava largo **3631px**
-   — le celle smettevano di andare a capo e il testo si stendeva su una riga
-   sola, cioè si sostituiva uno sforamento con uno scorrimento assurdo. Con la
-   sola `width: 100%` le celle vanno a capo come prima e il blocco scorre solo
-   quando serve davvero. */
-.prosa table > tbody,
-.prosa table > thead {
-  display: table;
-  width: 100%;
-}
+.prosa table { width: 100%; border-collapse: collapse; font-size: 15px; }
 .prosa th, .prosa td {
   text-align: left;
   padding: var(--s-8) var(--s-13);
