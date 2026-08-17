@@ -1,0 +1,94 @@
+{
+  "installazione": {
+    "title": "Premier accès et configuration initiale",
+    "description": "Connexion, MFA, configuration du cabinet, invitations des opérateurs."
+  },
+  "dashboard": {
+    "title": "Le tableau de bord : que regarder le matin",
+    "description": "Indicateurs, la journée, les rappels ouverts et ce que contrôle le sélecteur de période."
+  },
+  "aiuto-e-assistenza": {
+    "title": "Où demander de l'aide",
+    "description": "Visite guidée, manuel, assistant in-app, « Demander de l'aide » et installation sur tablette : lequel utiliser et quand."
+  },
+  "anatomia": {
+    "title": "Atlas anatomique 3D",
+    "description": "Montrer au patient où l'intervention a lieu : neuf systèmes anatomiques, drill-down, limites déclarées."
+  },
+  "letteratura": {
+    "title": "Recherche dans la littérature",
+    "description": "PubMed intégré au dossier : filtres par type d'étude, abstract, full-text lorsque disponible."
+  },
+  "questionari-prom": {
+    "title": "Questionnaires au patient (PROM)",
+    "description": "Le résultat raconté par le patient, et pourquoi la tablette ne doit pas être laissée sans surveillance."
+  },
+  "catalogo-farmaci-aifa": {
+    "title": "Catalogue des médicaments : mise à jour",
+    "description": "État de l'importation AIFA, pourquoi « forcer la synchronisation » est désactivé, que faire en cas d'échec."
+  },
+  "anagrafica-paziente": {
+    "title": "Dossier patient",
+    "description": "Création, recherche, archivage, export GDPR."
+  },
+  "anamnesi-dettatura": {
+    "title": "Remplir à la voix : la dictée",
+    "description": "Dicter dans l'anamnèse, pendant la séance et dans l'évaluation : ce que la voix remplit et ce qu'elle ne remplit pas."
+  },
+  "body-map": {
+    "title": "Les zones traitées : photos et modèle 3D",
+    "description": "Marquer les zones avec des points numérotés sur le portrait ou le modèle 3D, avec l'outil, le plan et la technique pour chaque point."
+  },
+  "consensi-informati": {
+    "title": "Consentements éclairés",
+    "description": "Générer, signer et révoquer les consentements éclairés en PDF."
+  },
+  "agenda-appuntamenti": {
+    "title": "Agenda des rendez-vous",
+    "description": "Planifier les visites, calendrier partagé, rappels SMS."
+  },
+  "foto-confronto": {
+    "title": "Photos cliniques et comparaison avant/après",
+    "description": "Acquérir, chiffrer, comparer et remettre les photographies."
+  },
+  "analisi-del-volto": {
+    "title": "Analyse du visage",
+    "description": "Mesures sur la vue frontale, vue 3D et miroir en direct, angles de profil, série photographique, canon et PGAIS."
+  },
+  "parametri-cutanei": {
+    "title": "Paramètres cutanés",
+    "description": "Onze grandeurs photographiques sur une région que tu choisis, et la comparaison dans le temps."
+  },
+  "tracciabilita-lotto": {
+    "title": "Traçabilité du lot",
+    "description": "Enregistrer le lot et répondre à un rappel du fabricant."
+  },
+  "utenti-e-accessi": {
+    "title": "Utilisateurs du cabinet et révocation des accès",
+    "description": "Inviter un collaborateur et lui retirer l'accès lorsqu'il part."
+  },
+  "trattamenti": {
+    "title": "Enregistrer un traitement",
+    "description": "Produit, lot, zones, usage hors AMM, et le rappel qui en découle."
+  },
+  "esiti-e-complicanze": {
+    "title": "Résultats, complications et urgences",
+    "description": "Le mode Urgence, enregistrer une complication lors de la séance, et la fiche de signalement au Ministère."
+  },
+  "prescrizioni": {
+    "title": "Prescriptions et thérapies",
+    "description": "Catalogue AIFA, contrôle des allergies, impression de l'ordonnance."
+  },
+  "promemoria-e-richiami": {
+    "title": "Rappels et relances",
+    "description": "Les trois types de rappels, et pourquoi aucun ne se déclenche automatiquement."
+  },
+  "esportazioni-e-diritti": {
+    "title": "Exportations et droits du patient",
+    "description": "Accès, portabilité, suppression : ce qui est fait et ce qui ne l'est pas."
+  },
+  "audit-log": {
+    "title": "Journal des accès : qui a fait quoi",
+    "description": "Répondre à qui demande qui a consulté son dossier, et pourquoi le journal ne peut pas être modifié."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "installazione": {
+    "title": "Primer acceso y configuración inicial",
+    "description": "Inicio de sesión, MFA, configuración de la consulta, invitaciones a profesionales."
+  },
+  "dashboard": {
+    "title": "El panel: qué revisar por la mañana",
+    "description": "Indicadores, la jornada, recordatorios abiertos y qué controla el selector de período."
+  },
+  "aiuto-e-assistenza": {
+    "title": "Dónde solicitar ayuda",
+    "description": "Recorrido guiado, manual, asistente en la app, «Solicitar asistencia» e instalación en tablet: cuál usar y cuándo."
+  },
+  "anatomia": {
+    "title": "Atlas anatómico 3D",
+    "description": "Mostrar al paciente dónde se interviene: nueve sistemas anatómicos, drill-down, límites declarados."
+  },
+  "letteratura": {
+    "title": "Búsqueda en bibliografía",
+    "description": "PubMed integrado en la historia clínica: filtros por tipo de estudio, resumen, texto completo cuando existe."
+  },
+  "questionari-prom": {
+    "title": "Cuestionarios al paciente (PROM)",
+    "description": "El resultado descrito por el paciente y por qué no se debe dejar el tablet desatendido."
+  },
+  "catalogo-farmaci-aifa": {
+    "title": "Catálogo de medicamentos: cómo se actualiza",
+    "description": "Estado de la importación de AIFA, por qué «forzar sincronización» está deshabilitado y qué hacer si falla."
+  },
+  "anagrafica-paziente": {
+    "title": "Datos del paciente",
+    "description": "Creación, búsqueda, archivado, exportación GDPR."
+  },
+  "anamnesi-dettatura": {
+    "title": "Rellenar por voz: la dictado",
+    "description": "Dictar en la anamnesis, en la sesión y en la evaluación: qué completa la voz y qué no."
+  },
+  "body-map": {
+    "title": "Zonas tratadas: foto y modelo 3D",
+    "description": "Marcar las zonas con puntos numerados en el retrato o en el modelo 3D, con herramienta, plano y técnica de cada punto."
+  },
+  "consensi-informati": {
+    "title": "Consentimientos informados",
+    "description": "Generar, firmar y revocar los consentimientos informados en PDF."
+  },
+  "agenda-appuntamenti": {
+    "title": "Agenda de citas",
+    "description": "Planificar visitas, calendario compartido, recordatorios por SMS."
+  },
+  "foto-confronto": {
+    "title": "Fotografías clínicas y comparación antes/después",
+    "description": "Adquirir, cifrar, comparar y entregar las fotografías."
+  },
+  "analisi-del-volto": {
+    "title": "Análisis facial",
+    "description": "Medidas en vista frontal, vista 3D y espejo en vivo, ángulos de perfil, serie fotográfica, cánones y PGAIS."
+  },
+  "parametri-cutanei": {
+    "title": "Parámetros cutáneos",
+    "description": "Once magnitudes fotográficas en una región que elijas, y la comparación en el tiempo."
+  },
+  "tracciabilita-lotto": {
+    "title": "Trazabilidad del lote",
+    "description": "Registrar el lote y responder a un aviso del fabricante."
+  },
+  "utenti-e-accessi": {
+    "title": "Usuarios de la consulta y revocación de accesos",
+    "description": "Invitar a un colaborador y revocarle el acceso cuando se marche."
+  },
+  "trattamenti": {
+    "title": "Registrar un tratamiento",
+    "description": "Producto, lote, zonas, uso off-label y el recordatorio que conlleva."
+  },
+  "esiti-e-complicanze": {
+    "title": "Resultados, complicaciones y emergencias",
+    "description": "Modo Emergencia, registrar una complicación en la sesión y la ficha de notificación al Ministerio."
+  },
+  "prescrizioni": {
+    "title": "Prescripciones y terapias",
+    "description": "Catálogo AIFA, control de alergias, impresión de la receta."
+  },
+  "promemoria-e-richiami": {
+    "title": "Recordatorios y avisos",
+    "description": "Los tres tipos de recordatorios y por qué ninguno se activa solo."
+  },
+  "esportazioni-e-diritti": {
+    "title": "Exportaciones y derechos del paciente",
+    "description": "Acceso, portabilidad, cancelación: qué se hace y qué no."
+  },
+  "audit-log": {
+    "title": "Registro de accesos: quién ha hecho qué",
+    "description": "Responder a quien pregunta quién ha visto su historia clínica y por qué el registro no se corrige."
+  }
+}

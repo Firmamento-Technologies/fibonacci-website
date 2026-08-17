@@ -135,8 +135,17 @@ async function traduci(testo, lingua, voci, tentativo = 1) {
   const d = await r.json()
   let out = d.choices?.[0]?.message?.content ?? ''
   // Certi modelli incartano tutto in un blocco ```markdown nonostante la regola 1.
-  out = out.replace(/^\s*```(?:markdown|md)?\s*\n/, '').replace(/\n```\s*$/, '')
+  out = out.replace(/^\s*```(?:markdown|md|json)?\s*\n/, '').replace(/\n```\s*$/, '')
   return out.trim() + '\n'
+}
+
+/** Il JSON dentro una risposta, o `null` se non si apre. */
+function leggiJson(grezzo) {
+  try {
+    return JSON.parse(grezzo.slice(grezzo.indexOf('{'), grezzo.lastIndexOf('}') + 1))
+  } catch {
+    return null
+  }
 }
 
 /** La firma strutturale di un markdown: se cambia, la traduzione ha perso pezzi. */
@@ -178,33 +187,81 @@ function confronta(a, b) {
  */
 async function traduciIndice(lingua, voci) {
   const sorgente = await readFile(join(RADICE, 'src', 'lib', 'docs-data.ts'), 'utf-8')
+
+  /* ⚠️ I campi si estraggono UNO PER UNO dentro ogni oggetto, ⛔ non con una
+     regex sola che li pretende in quell'ordine. La prima versione lo faceva e
+     ne trovava **19 su 27**: le voci con i campi in ordine diverso sparivano,
+     e sparivano in silenzio — il conto tornava, era solo piu' corto. */
   const capitoli = []
-  const re = /slug:\s*'([^']+)',\s*\n\s*title:\s*'((?:[^'\\]|\\.)*)',\s*\n\s*description:\s*'((?:[^'\\]|\\.)*)'/g
-  for (const m of sorgente.matchAll(re)) {
-    capitoli.push({ slug: m[1], title: m[2].replace(/\\'/g, "'"), description: m[3].replace(/\\'/g, "'") })
+  for (const blocco of sorgente.split(/\}\s*,?\s*\n/)) {
+    const slug = blocco.match(/slug:\s*'([^']+)'/)?.[1]
+    const title = blocco.match(/title:\s*'((?:[^'\\]|\\.)*)'/)?.[1]
+    const description = blocco.match(/description:\s*'((?:[^'\\]|\\.)*)'/)?.[1]
+    if (slug && title && description) {
+      capitoli.push({
+        slug,
+        title: title.replace(/\\'/g, "'"),
+        description: description.replace(/\\'/g, "'"),
+      })
+    }
   }
-  if (!capitoli.length) throw new Error('indice: nessun capitolo estratto da docs-data.ts')
+  if (capitoli.length < 20) {
+    throw new Error(`indice: solo ${capitoli.length} capitoli estratti da docs-data.ts, ne servono almeno 20`)
+  }
 
-  const richiesta = capitoli.map((c) => `${c.slug}\nTITOLO: ${c.title}\nDESCRIZIONE: ${c.description}`).join('\n\n')
-  const fuori = await traduci(
-    `Traduci titolo e descrizione di ogni capitolo. Riproduci ESATTAMENTE lo stesso formato, con lo stesso slug invariato:\n\n${richiesta}`,
-    LINGUE[lingua],
-    voci,
+  /* 🔑 SI CHIEDE JSON, e non un formato a etichette.
+     La prima versione chiedeva «TITOLO:» e «DESCRIZIONE:» e il modello, che sta
+     traducendo, traduceva anche quelle: rispondeva «TITLE:» e «DESCRIPTION:».
+     Il mio parser cercava le italiane, non trovava niente, e l'indice risultava
+     **vuoto per tutte e 19 le voci**. Una chiave JSON invece e' un dato, non
+     una parola da tradurre. */
+  const richiesta = JSON.stringify(
+    Object.fromEntries(capitoli.map((c) => [c.slug, { title: c.title, description: c.description }])),
+    null,
+    1,
   )
+  const domanda =
+    'Traduci i valori di "title" e "description" di questo JSON. ' +
+    'Restituisci SOLO il JSON tradotto, con le STESSE chiavi (gli slug) e gli STESSI nomi di campo ' +
+    '("title", "description") in inglese come sono adesso: sono nomi di campo, non testo. ' +
+    'Deve essere JSON VALIDO: gli apici dentro i valori vanno protetti.\n\n' +
+    richiesta
+  const grezzo = await traduci(domanda, LINGUE[lingua], voci)
 
-  const tradotti = {}
-  for (const blocco of fuori.split(/\n\s*\n/)) {
-    const righe = blocco.trim().split('\n')
-    const slug = righe[0]?.trim()
-    const t = righe.find((r) => /^TITOLO:/i.test(r))?.replace(/^TITOLO:\s*/i, '').trim()
-    const d = righe.find((r) => /^DESCRIZIONE:/i.test(r))?.replace(/^DESCRIZIONE:\s*/i, '').trim()
-    if (slug && t && d) tradotti[slug] = { title: t, description: d }
+  let tradotti = leggiJson(grezzo)
+  /* ⚠️ Un modello sbaglia il JSON ogni tanto — un apice non protetto in un
+     titolo, e il documento non si apre piu'. Si RIPROVA, ⛔ non si accetta un
+     indice rotto e ⛔ non si tenta di ripararlo a mano: un JSON riparato con
+     una regex e' un indice che sembra giusto. */
+  for (let t = 2; !tradotti && t <= 3; t++) {
+    console.log(`      ⏳ risposta non JSON, riprovo (${t}/3)`)
+    tradotti = leggiJson(await traduci(domanda, LINGUE[lingua], voci))
+  }
+  if (!tradotti) throw new Error("la risposta non e' JSON nemmeno dopo 3 tentativi")
+
+  /* ⚠️ VIA I BACKTICK CHE NON C'ERANO NELL'ORIGINALE.
+     Il glossario dice al modello «usa questa etichetta, anche dentro i
+     backtick», e il modello a volte li AGGIUNGE dove non c'erano: misurato il
+     2026-08-17, **6 titoli inglesi su 23** contro **0 voci italiane**
+     («Atlante anatomico 3D» → «`3D Anatomy` atlas»). Nel titolo di un capitolo
+     un backtick non e' codice, e' un segno che finisce a video.
+     🔑 Si toglie solo dove l'originale non ne aveva: se un titolo italiano ne
+     porta, e' una scelta e va rispettata. */
+  for (const c of capitoli) {
+    const v = tradotti[c.slug]
+    if (!v) continue
+    if (!c.title.includes('`') && typeof v.title === 'string') v.title = v.title.replace(/`/g, '')
+    if (!c.description.includes('`') && typeof v.description === 'string') {
+      v.description = v.description.replace(/`/g, '')
+    }
   }
 
-  // ⛔ Parziale = non scritto. Un indice con metà voci tradotte è peggio di uno
-  //    tutto italiano: sembra fatto.
-  const mancanti = capitoli.filter((c) => !tradotti[c.slug]).map((c) => c.slug)
-  if (mancanti.length) throw new Error(`indice incompleto, mancano: ${mancanti.join(', ')}`)
+  // ⛔ Parziale = non scritto. Un indice con meta' voci tradotte e' peggio di
+  //    uno tutto italiano: sembra fatto.
+  const mancanti = capitoli.filter((c) => !tradotti[c.slug]?.title || !tradotti[c.slug]?.description)
+  if (mancanti.length) {
+    throw new Error(`indice incompleto, mancano: ${mancanti.map((c) => c.slug).join(', ')}`)
+  }
   await writeFile(
     join(SORGENTE, lingua, '_indice.json'),
     JSON.stringify(tradotti, null, 2) + '\n',

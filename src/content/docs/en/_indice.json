@@ -1,0 +1,94 @@
+{
+  "installazione": {
+    "title": "First login and initial setup",
+    "description": "Login, MFA, practice setup, operator invitations."
+  },
+  "dashboard": {
+    "title": "The dashboard: what to check in the morning",
+    "description": "Indicators, daily overview, open reminders, and how the time period selector works."
+  },
+  "aiuto-e-assistenza": {
+    "title": "Where to get help",
+    "description": "Guided tour, manual, in-app assistant, \"Get support\", and tablet installation: which to use and when."
+  },
+  "anatomia": {
+    "title": "3D Anatomical Atlas",
+    "description": "Showing patients where the procedure takes place: nine anatomical systems, drill-down, and declared limitations."
+  },
+  "letteratura": {
+    "title": "Literature search",
+    "description": "PubMed within the patient record: filters by study type, abstracts, and full-text when available."
+  },
+  "questionari-prom": {
+    "title": "Patient-reported outcome measures (PROM)",
+    "description": "Outcomes as reported by the patient, and why the tablet should never be left unattended."
+  },
+  "catalogo-farmaci-aifa": {
+    "title": "Drug catalog: how it stays updated",
+    "description": "AIFA import status, why \"force sync\" is disabled, and what to do if it fails."
+  },
+  "anagrafica-paziente": {
+    "title": "Patient records",
+    "description": "Creation, search, archiving, and GDPR-compliant export."
+  },
+  "anamnesi-dettatura": {
+    "title": "Voice input: dictation",
+    "description": "Dictating medical history, session notes, and assessments: what voice input fills in and what it doesn’t."
+  },
+  "body-map": {
+    "title": "Treated areas: photos and 3D model",
+    "description": "Marking areas with numbered dots on the portrait or 3D model, including tool, plane, and technique for each point."
+  },
+  "consensi-informati": {
+    "title": "Informed consents",
+    "description": "Generating, signing, and revoking informed consent forms in PDF."
+  },
+  "agenda-appuntamenti": {
+    "title": "Appointment scheduling",
+    "description": "Planning visits, shared calendar, and SMS reminders."
+  },
+  "foto-confronto": {
+    "title": "Clinical photos and before/after comparison",
+    "description": "Capturing, encrypting, comparing, and delivering photographs."
+  },
+  "analisi-del-volto": {
+    "title": "Facial analysis",
+    "description": "Measurements on frontal view, 3D view and live mirror, profile angles, photo series, canon, and PGAIS."
+  },
+  "parametri-cutanei": {
+    "title": "Skin parameters",
+    "description": "Eleven photographic metrics on a region of your choice, and comparison over time."
+  },
+  "tracciabilita-lotto": {
+    "title": "Batch traceability",
+    "description": "Recording the batch and responding to a manufacturer recall."
+  },
+  "utenti-e-accessi": {
+    "title": "Practice users and access revocation",
+    "description": "Inviting a collaborator and removing their access when they leave."
+  },
+  "trattamenti": {
+    "title": "Recording a treatment",
+    "description": "Product, batch, areas, off-label use, and the resulting recall."
+  },
+  "esiti-e-complicanze": {
+    "title": "Outcomes, complications, and emergencies",
+    "description": "Emergency mode, recording a complication during a session, and the reporting form to the Ministry."
+  },
+  "prescrizioni": {
+    "title": "Prescriptions and therapies",
+    "description": "AIFA catalog, allergy checks, and prescription printing."
+  },
+  "promemoria-e-richiami": {
+    "title": "Reminders and recalls",
+    "description": "The three types of reminders, and why none start automatically."
+  },
+  "esportazioni-e-diritti": {
+    "title": "Exports and patient rights",
+    "description": "Access, portability, and deletion: what can be done and what cannot."
+  },
+  "audit-log": {
+    "title": "Audit log: who did what",
+    "description": "Responding to requests about who accessed a patient record, and why the log cannot be edited."
+  }
+}

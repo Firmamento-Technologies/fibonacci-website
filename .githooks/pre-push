@@ -30,6 +30,25 @@ if git diff --quiet HEAD @{push} -- src scripts 2>/dev/null; then
   exit 0
 fi
 
+# ── LE TRADUZIONI DEL MANUALE ───────────────────────────────────────────────
+#
+# ⚠️ PRIMA del controllo su `out/`, e di proposito: questo legge i SORGENTI, non
+# il costruito, quindi funziona anche a `out/` assente e non costa niente.
+#
+# 🔑 Prende la cosa che il resto del collaudo non puo' vedere: una traduzione
+# **scaduta**. Il manuale italiano cambia, le altre quattro lingue no, e non si
+# vede — la pagina si apre, l'indice e' completo, i titoli sono nella lingua
+# giusta, e il capitolo racconta una schermata che non esiste piu'. Un manuale
+# che mente e' peggio di un manuale che manca.
+if ! node scripts/manuale-lingue.mjs; then
+  echo
+  echo "⛔ PUSH BLOCCATO: traduzioni del manuale piu' vecchie dell'italiano."
+  echo "   node scripts/traduci-manuale.mjs --lingua=<xx> --solo=<slug>"
+  echo "   Serve LLM_API_KEY (la stessa del prodotto)."
+  echo "   Emergenza: COLLAUDO=0 git push"
+  exit 1
+fi
+
 if [ ! -d out ]; then
   echo "⚠️  \`out/\` non c'è: costruisci prima (\`npm run build\`), oppure COLLAUDO=0."
   exit 1
@@ -56,8 +75,14 @@ done
 # rosso dal primo giorno viene spento — in questo repo è già successo due volte
 # (sta scritto in `scripts/tappe-alte.json`). Qui passa se il numero non SALE.
 echo "🔎 collaudo del sito…"
+# ⚠️ `set +e` attorno: con `errexit` attivo un'assegnazione il cui comando
+# fallisce **uccide lo script**, e la riga dopo — quella che legge il codice —
+# non viene mai eseguita. Risultato misurato: l'hook moriva in silenzio dopo
+# aver stampato «collaudo del sito…», e il push falliva senza dire perche'.
+set +e
 USCITA=$(node scripts/collaudo.mjs "http://127.0.0.1:$PORTA" 2>&1)
 CODICE=$?
+set -e
 echo "$USCITA"
 
 TETTO=$(node -e "process.stdout.write(String(require('./scripts/collaudo-cricca.json').massimo))")

@@ -1,0 +1,94 @@
+{
+  "installazione": {
+    "title": "Erster Zugriff und initiale Einrichtung",
+    "description": "Login, MFA, Praxiskonfiguration, Einladungen für medizinisches Personal."
+  },
+  "dashboard": {
+    "title": "Die Übersicht: Was morgens zu prüfen ist",
+    "description": "Indikatoren, der Tagesablauf, offene Erinnerungen und was der Zeitraumselektor steuert."
+  },
+  "aiuto-e-assistenza": {
+    "title": "Wo Hilfe angefordert werden kann",
+    "description": "Geführte Tour, Handbuch, In-App-Assistent, „Support anfragen“ und Tablet-Installation: wann was genutzt wird."
+  },
+  "anatomia": {
+    "title": "3D-Anatomieatlas",
+    "description": "Dem Patienten zeigen, wo eingegriffen wird: neun anatomische Systeme, Drill-down, deklarierte Grenzen."
+  },
+  "letteratura": {
+    "title": "Literaturrecherche",
+    "description": "PubMed in der Akte: Filter nach Studientyp, Abstract, Volltext, sofern verfügbar."
+  },
+  "questionari-prom": {
+    "title": "Patientenfragebögen (PROM)",
+    "description": "Das Ergebnis aus Patientensicht und warum das Tablet nicht unbeaufsichtigt bleiben darf."
+  },
+  "catalogo-farmaci-aifa": {
+    "title": "Arzneimittelkatalog: Aktualisierungsstatus",
+    "description": "Status des AIFA-Imports, warum „Forced Sync“ deaktiviert ist und was bei Fehlern zu tun ist."
+  },
+  "anagrafica-paziente": {
+    "title": "Patientenstammdaten",
+    "description": "Anlage, Suche, Archivierung, GDPR-Export."
+  },
+  "anamnesi-dettatura": {
+    "title": "Sprachliche Erfassung: Diktatfunktion",
+    "description": "Diktieren in Anamnese, Sitzung und Bewertung: was die Stimme erfasst und was nicht."
+  },
+  "body-map": {
+    "title": "Behandelte Bereiche: Fotos und 3D-Modell",
+    "description": "Bereiche mit nummerierten Punkten auf dem Porträt oder 3D-Modell markieren, mit Instrument, Ebene und Technik jedes Punkts."
+  },
+  "consensi-informati": {
+    "title": "Einwilligungserklärungen",
+    "description": "Einwilligungserklärungen als PDF generieren, unterschreiben und widerrufen."
+  },
+  "agenda-appuntamenti": {
+    "title": "Terminplanung",
+    "description": "Termine planen, geteilter Kalender, SMS-Erinnerungen."
+  },
+  "foto-confronto": {
+    "title": "Klinische Fotos und Vorher/Nachher-Vergleich",
+    "description": "Fotos aufnehmen, verschlüsseln, vergleichen und aushändigen."
+  },
+  "analisi-del-volto": {
+    "title": "Gesichtsanalyse",
+    "description": "Messungen von vorne, 3D-Ansicht und Live-Spiegel, Profilwinkel, Fotoserie, Kanon und PGAIS."
+  },
+  "parametri-cutanei": {
+    "title": "Hautparameter",
+    "description": "Elf fotografische Messgrößen in einem von dir gewählten Bereich und der Vergleich über die Zeit."
+  },
+  "tracciabilita-lotto": {
+    "title": "Chargentraceability",
+    "description": "Charge erfassen und auf eine Herstellerrückrufaktion reagieren."
+  },
+  "utenti-e-accessi": {
+    "title": "Praxismitglieder und Zugriffsentzug",
+    "description": "Mitarbeiter einladen und den Zugang entziehen, wenn sie gehen."
+  },
+  "trattamenti": {
+    "title": "Eine Behandlung dokumentieren",
+    "description": "Produkt, Charge, Bereiche, Off-Label-Anwendung und die daraus resultierende Rückverfolgbarkeit."
+  },
+  "esiti-e-complicanze": {
+    "title": "Ergebnisse, Komplikationen und Notfälle",
+    "description": "Notfallmodus, Komplikationen in der Sitzung dokumentieren und das Meldeformular für das Ministerium."
+  },
+  "prescrizioni": {
+    "title": "Verordnungen und Therapien",
+    "description": "AIFA-Katalog, Allergieprüfung, Rezeptdruck."
+  },
+  "promemoria-e-richiami": {
+    "title": "Erinnerungen und Rückrufe",
+    "description": "Die drei Arten von Erinnerungen und warum keine automatisch versendet wird."
+  },
+  "esportazioni-e-diritti": {
+    "title": "Exporte und Patientenrechte",
+    "description": "Zugriff, Portabilität, Löschung: was gemacht wird und was nicht."
+  },
+  "audit-log": {
+    "title": "Zugriffsprotokoll: Wer hat was gemacht",
+    "description": "Antworten auf die Frage, wer die Akte eingesehen hat, und warum das Protokoll nicht korrigiert wird."
+  }
+}
