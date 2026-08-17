@@ -93,8 +93,26 @@ try {
   execSync(`cp -Rc ${JSON.stringify(join(SITO, 'node_modules'))} ${JSON.stringify(join(W, 'node_modules'))}`)
   ok('node_modules copiato (copy-on-write)')
 
-  titolo('Costruisco per il dominio di produzione')
-  execSync('npm run build', {
+  titolo('Costruisco per il dominio di produzione, in tutte e cinque le lingue')
+  /* 🔴 `costruisci-lingue.mjs` e NON `npm run build`, e la differenza e' 1596 file.
+   * Il sito e' `output: 'export'`: la lingua si decide **in costruzione**
+   * (`NEXT_PUBLIC_LINGUA`), quindi un `next build` solo produce **solo
+   * l'italiano**. Le altre quattro vivono in `out/<lingua>/` e si ottengono
+   * costruendo cinque volte, che e' cio' che fa `costruisci-lingue.mjs`.
+   *
+   * ⚠️ Questo passo e' rimasto indietro quando e' arrivato il multilingua, e la
+   * conseguenza non era un errore: era che l'`rsync` avrebbe **cancellato dalla
+   * macchina gli alberi `en/`, `es/`, `fr/`, `de/`** gia' pubblicati. L'ha fermato
+   * il passo 6 («sta sparendo una pagina, non un frammento di build»), ⛔ non
+   * questo, che era **verde**. Misurato il 2026-08-17: costruito 41 pagine,
+   * macchina 1596 file in piu'.
+   * 🔑 Perche' quel controllo conta piu' di quanto sembri: un rilascio che
+   * *cancella* non assomiglia a un rilascio rotto, assomiglia a uno andato bene.
+   *
+   * `costruisci-lingue.mjs` verifica ogni lingua (numero di pagine allineato
+   * all'italiano, `<html lang>` giusto, una frase campione diversa dall'italiano)
+   * ed esce 1 se non torna: qui non va ricontrollato, va non aggirato. */
+  execSync('node scripts/costruisci-lingue.mjs', {
     cwd: W,
     stdio: ['ignore', 'ignore', 'inherit'],
     env: {
@@ -114,7 +132,23 @@ try {
         process.env.NEXT_PUBLIC_CONTATTO_API_URL ?? 'https://app.fibonaccimedica.it',
     },
   })
-  ok(`out/ costruito con NEXT_PUBLIC_DOMINIO_SITO=${DOMINIO}`)
+  {
+    const lingue = readdirSync(join(W, 'out'), { withFileTypes: true })
+      .filter((d) => d.isDirectory() && /^[a-z]{2}$/.test(d.name))
+      .map((d) => d.name)
+    /* ⚠️ Si CONTANO gli alberi di lingua, invece di fidarsi dell'uscita zero.
+       `costruisci-lingue.mjs` verifica ogni lingua che innesta, ma se un giorno
+       ne innestasse zero uscirebbe comunque 0, e qui si spedirebbe un sito
+       italiano sopra uno multilingua — cioe' il difetto che questo passo ha
+       appena causato una volta. */
+    if (lingue.length < 4)
+      muori(
+        `out/ ha solo ${lingue.length} alberi di lingua (${lingue.join(', ') || 'nessuno'}).`,
+        "Sulla macchina ce ne sono quattro oltre all'italiano: spedire ora li cancellerebbe.\n" +
+          '   Controlla `node scripts/costruisci-lingue.mjs` da solo.',
+      )
+    ok(`out/ costruito con NEXT_PUBLIC_DOMINIO_SITO=${DOMINIO} · italiano + ${lingue.join(', ')}`)
+  }
 
   const OUT = join(W, 'out')
 
