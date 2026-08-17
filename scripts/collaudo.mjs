@@ -32,6 +32,33 @@ import { dirname, join } from 'node:path'
 
 const QUI = dirname(fileURLToPath(import.meta.url))
 
+/**
+ * Le lingue del sito, lette da `src/lib/lingua.ts`, che è la fonte.
+ *
+ * ⛔ NON riscritte a mano qui: un elenco copiato è un elenco che divergerà, e in
+ * questo repo è già la causa scritta di due presidi rotti. Lo stesso file legge
+ * già `site-config.ts` allo stesso modo (vedi il controllo sui canali di
+ * contatto): il precedente c'è, e questo lo segue.
+ * ⚠️ Se la lettura fallisce si **muore**: un ripiego silenzioso su `['it']`
+ * farebbe passare per buona una pagina tradotta che dichiara la lingua sbagliata,
+ * cioè spegnerebbe il controllo proprio nel caso per cui esiste.
+ */
+const LINGUE_SITO = (() => {
+  const src = readFileSync(join(QUI, '..', 'src/lib/lingua.ts'), 'utf8')
+  const m = src.match(/LINGUE_SITO\s*=\s*\[([^\]]+)\]/)
+  if (!m) throw new Error("collaudo: LINGUE_SITO non è leggibile da src/lib/lingua.ts")
+  return m[1].split(',').map((s) => s.trim().replace(/['"]/g, '')).filter(Boolean)
+})()
+
+/**
+ * Che lingua deve dichiarare questo percorso. `/de/prezzi/` → `de`, `/prezzi/`
+ * → `it` (l'italiano non ha prefisso).
+ */
+function linguaAttesaPer(percorso) {
+  const primo = percorso.split('/').filter(Boolean)[0]
+  return LINGUE_SITO.includes(primo) && primo !== 'it' ? primo : 'it'
+}
+
 /** Tutti i sorgenti di `src/`: serve ai controlli statici che leggono il codice
  *  invece della pagina resa. */
 function* walkSrc(dir = join(QUI, '..', 'src')) {
@@ -289,7 +316,23 @@ async function main() {
 
     if (struttura.h1.length !== 1) problemi.push(`${percorso}: ${struttura.h1.length} elementi H1 (ne serve esattamente uno)`)
     if (!struttura.titolo) problemi.push(`${percorso}: <title> vuoto`)
-    if (struttura.lang !== 'it') problemi.push(`${percorso}: lang="${struttura.lang}"`)
+    /* ⚠️ Si guarda la SOTTOETICHETTA PRIMARIA, non la stringa intera, e la
+       differenza è costata 26 falsi rossi. Questo controllo pretendeva
+       `lang === 'it'`; col multilingua il layout emette `TAG_LINGUA[LINGUA]`,
+       cioè **`it-IT`** — che è valido per BCP 47 e più preciso, non un difetto.
+       Il cancello era rimasto indietro rispetto a una modifica voluta, e ha
+       segnato rosse tutte le pagine del sito.
+       🔑 Il senso del controllo resta intatto: serve a impedire che una pagina
+       tradotta dichiari la lingua sbagliata (un lettore di schermo leggerebbe il
+       tedesco con la pronuncia italiana). Per quello basta la sottoetichetta
+       primaria: `de`, `de-DE` e `de-AT` sono tutte «tedesco», e distinguerle
+       qui vorrebbe dire ricodificare qui l'elenco delle varianti ammesse.
+       ⛔ Ciò che NON va allentato è il confronto con la lingua ATTESA per quel
+       percorso: `lang` vuoto o di un'altra lingua resta un problema. */
+    const linguaAttesa = linguaAttesaPer(percorso)
+    const linguaBase = (struttura.lang || '').toLowerCase().split('-')[0]
+    if (linguaBase !== linguaAttesa)
+      problemi.push(`${percorso}: lang="${struttura.lang}" (attesa "${linguaAttesa}")`)
     for (const img of struttura.immaginiSenzaAlt) problemi.push(`${percorso}: immagine senza alt (${img})`)
     for (const img of struttura.immaginiRotte) problemi.push(`${percorso}: immagine ROTTA, il file non esiste (${img})`)
 
