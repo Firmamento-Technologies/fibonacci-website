@@ -78,7 +78,12 @@ REGOLE, in ordine di importanza:
    Traduci la prosa intorno, non il nome.
 4. Usa la terminologia clinica e giuridica corretta della lingua di destinazione (anamnesi, consenso informato, cartella clinica, seduta, filler, tossina botulinica, titolare del trattamento, responsabile del trattamento).
 5. Dai del tu al lettore come fa l'originale, e mantieni lo stesso registro: pratico, diretto, senza enfasi commerciale. Questo sito NON usa il linguaggio da brochure.
-6. Non aggiungere note del traduttore, non commentare le scelte, non riassumere.`
+6. Non aggiungere note del traduttore, non commentare le scelte, non riassumere.
+⛔ VIETATO IL TRATTINO LUNGO «—» (em dash), in ogni lingua e in ogni posizione.
+   E' una richiesta esplicita del committente, e un presidio del progetto lo
+   fa fallire (`scripts/niente-lineetta.mjs`). Al suo posto: DUE PUNTI se la
+   seconda parte spiega la prima, VIRGOLA davanti a una congiunzione,
+   PARENTESI per un inciso. In inglese la tentazione e' massima: resisti.`
 
   if (tipo === 'dizionario') {
     return `${comune}

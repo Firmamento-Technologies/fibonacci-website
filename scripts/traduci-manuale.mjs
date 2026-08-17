@@ -106,6 +106,11 @@ REGOLE, in ordine di importanza:
 6. Usa la terminologia clinica corretta della lingua di destinazione (anamnesi, consenso informato, cartella clinica, seduta, filler, tossina botulinica).
 7. Dai del tu al lettore, come fa l'originale, e mantieni lo stesso registro: pratico, diretto, senza enfasi commerciale.
 8. Non aggiungere note del traduttore, non commentare le scelte, non riassumere.
+⛔ VIETATO IL TRATTINO LUNGO «—» (em dash), in ogni lingua e in ogni posizione.
+   E' una richiesta esplicita del committente, e un presidio del progetto lo
+   fa fallire (`scripts/niente-lineetta.mjs`). Al suo posto: DUE PUNTI se la
+   seconda parte spiega la prima, VIRGOLA davanti a una congiunzione,
+   PARENTESI per un inciso. In inglese la tentazione e' massima: resisti.
 9. ⛔ NON usare MAI il trattino lungo (em dash). E' vietato in questo prodotto.
    Al suo posto: DUE PUNTI se introduce una spiegazione, VIRGOLA se lega due proposizioni,
    PARENTESI se racchiude un inciso. Vale anche se la lingua di destinazione lo userebbe
