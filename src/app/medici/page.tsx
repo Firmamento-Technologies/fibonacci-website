@@ -102,8 +102,7 @@ export default function MediciPage() {
       <section className="gabbia">
         <div className="prosa">
           <h2>{t('medici.che_cosa_siamo')}</h2>
-          <p>
-            Fibonacci è due cose. Un <strong>elenco pubblico</strong> di medici e studi di
+          <p>Fibonacci è due cose. Un<strong>elenco pubblico</strong> di medici e studi di
             medicina estetica in Italia, compilato leggendo i siti degli studi, che serve a
             chi cerca uno specialista. E un <strong>gestionale</strong> per lo studio:
             cartella clinica, consensi, agenda, magazzino.
@@ -123,8 +122,7 @@ export default function MediciPage() {
               <p>{x.testo}</p>
             </Fragment>
           ))}
-          <p>
-            Il listino è <Link href="/prezzi">pubblico</Link>, e{' '}
+          <p>Il listino è<Link href="/prezzi">pubblico</Link>, e{' '}
             <Link href="/come-funziona">qui</Link> c’è come funziona senza dover parlare
             con nessuno.
           </p>
@@ -154,8 +152,7 @@ export default function MediciPage() {
       <section className="gabbia">
         <div className="prosa">
           <h2>{t('medici.se_vuoi_parlarne')}</h2>
-          <p>
-            Scrivici a <a href="mailto:info@fibonaccimedica.it">info@fibonaccimedica.it</a>
+          <p>Scrivici a<a href="mailto:info@fibonaccimedica.it">info@fibonaccimedica.it</a>
             . Non richiamiamo nessuno che non ce l’abbia chiesto.
           </p>
         </div>

@@ -49,8 +49,7 @@ export function Problema() {
           <div>
             <Reveal className="passo">
               <Occhiello>{t('home.sezioni.perche_esistiamo')}</Occhiello>
-              <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
-                Nessuno apre uno studio per fare l&apos;<span className="accento-corsivo">archivista</span>
+              <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>Nessuno apre uno studio per fare l&apos;<span className="accento-corsivo">archivista</span>
               </h2>
             </Reveal>
 
@@ -91,17 +90,17 @@ export function Problema() {
 const PROCEDURE = [
   {
     nome: 'iniezione-viso',
-    alt: 'Primo piano di un trattamento iniettivo alla glabella: mani con guanti azzurri reggono la siringa mentre la paziente tiene gli occhi chiusi.',
+    alt: t('home.sezioni.primo_piano_di_un_trattamento_iniettivo'),
     didascalia: t('home.sezioni.iniettivi'),
   },
   {
     nome: 'laser-mento',
-    alt: 'Trattamento laser sul mento: operatrice e paziente indossano occhiali protettivi, il manipolo appoggia sul gel.',
+    alt: t('home.sezioni.trattamento_laser_sul_mento_operatrice_e'),
     didascalia: t('home.sezioni.laser_ed_energie'),
   },
   {
     nome: 'trattamento-viso-pennello',
-    alt: 'Applicazione di un prodotto sul viso con pennello durante un trattamento in ambulatorio.',
+    alt: t('home.sezioni.applicazione_di_un_prodotto_sul_viso'),
     didascalia: t('home.sezioni.peeling_e_biorivitalizzazione'),
   },
 ] as const
@@ -158,7 +157,7 @@ const CAPACITA = [
     titolo: t('home.sezioni.il_modulo_giusto_per_quel_trattamento'),
     testo:
       t('home.sezioni.un_modello_per_ogni_procedura_tossina'),
-    aCosaServe: 'Alla domanda «me lo aveva detto?» risponde un documento che nomina quel rischio.',
+    aCosaServe: t('home.sezioni.alla_domanda_me_lo_aveva_detto'),
     /* 🔄 Era `/schermate/catalogo-consensi.png`, l'immagine più usata del sito.
        Una lista in figura si guarda; qui la domanda del medico è UNA — «il
        modulo per quello che faccio io c'è?» — e una figura non può rispondere.
@@ -171,9 +170,9 @@ const CAPACITA = [
     titolo: t('home.sezioni.prodotto_lotto_sede_unita'),
     testo:
       t('home.sezioni.le_aree_si_segnano_sulla_mappa'),
-    aCosaServe: 'Al controllo dopo due mesi sai cosa avevi fatto, e il richiamo parte da lì.',
+    aCosaServe: t('home.sezioni.al_controllo_dopo_due_mesi_sai'),
     immagine: { tipo: 'foto', file: 'iniezione-mento', didascalia: t('home.sezioni.quello_che_entra_in_cartella_mentre') },
-    alt: 'Trattamento iniettivo al mento eseguito con guanti, la paziente distesa con gli occhi chiusi.',
+    alt: t('consensiinformati.trattamento_iniettivo_al_mento_eseguito_con'),
   },
   {
     /* 🔄 Qui c'era «Registro accessi · Chi ha aperto quella cartella», con la
@@ -190,19 +189,52 @@ const CAPACITA = [
     titolo: t('home.sezioni.se_succede_c_e_dove_scriverlo'),
     testo:
       t('home.sezioni.ecchimosi_nodulo_occlusione_vascolare_dodici_voci'),
-    aCosaServe:
-      'Un consenso elenca i rischi; se poi si avvera e non è scritto da nessuna parte, in una contestazione manca proprio la seconda metà.',
+    aCosaServe: t('home.sezioni.un_consenso_elenca_i_rischi_se'),
     immagine: { tipo: 'prova', file: 'complicanze' },
     alt: '',
+  },
+  {
+    /* ⚠️ AGGIUNTA IL 2026-08-17, e le parole di questa voce sono un VINCOLO
+       REGOLATORIO, non copy.
+       L'art. 2 punto 12 MDR mette «il materiale o le dichiarazioni di
+       promozione o vendita» **dentro** la destinazione d'uso: ciò che è scritto
+       qui può qualificare il prodotto come dispositivo medico a codice
+       invariato. Il perimetro è il §1.7 di
+       `EMR/docs/legal/valutazione-mdr-destinazione-uso.md`, che dichiara questo
+       modulo «un goniometro, un righello e un raccoglitore ordinato per data».
+       ⛔ NON scrivere mai qui: «punteggio», «indice di armonia», «simula il
+       risultato», «rileva», «indica le zone da trattare», «valore ideale».
+       Sono le parole dei concorrenti (Crisalix, Vectra, Arbrea) ed è la strada
+       breve per diventare fabbricanti di dispositivi medici.
+       Il dettaglio, con le quattro condizioni che reggono la dichiarazione, sta
+       in [[sintesi-review-sito-2026-08-17]] §2. */
+    occhiello: t('home.sezioni.analisi_del_volto'),
+    titolo: t('home.sezioni.le_misure_che_finora_facevi_a'),
+    testo: t('home.sezioni.sulla_fotografia_che_hai_scattato_tu'),
+    aCosaServe: t('home.sezioni.al_controllo_dopo_sei_mesi_il'),
+    immagine: { tipo: 'foto', file: 'consulto-studio', didascalia: t('home.sezioni.la_valutazione_si_rifa_a_ogni') },
+    alt: t('home.sezioni.medico_e_paziente_seduti_guardano_insieme'),
+  },
+  {
+    /* L'atlante è un atlante: ⛔ non osserva la paziente, non misura un
+       tessuto, non propone niente. È la voce meno esposta della pagina sul
+       piano regolatorio e la più immediata da capire, e per questo sta subito
+       dopo l'analisi del volto invece che in fondo. */
+    occhiello: t('home.sezioni.anatomia'),
+    titolo: t('home.sezioni.l_atlante_non_sta_sull_altro'),
+    testo: t('home.sezioni.i_sistemi_anatomici_si_accendono_e'),
+    aCosaServe: t('home.sezioni.quando_spieghi_dove_passa_l_arteria'),
+    immagine: { tipo: 'foto', file: 'mano-guanto-siringa', didascalia: t('home.sezioni.la_stessa_anatomia_su_cui_segni') },
+    alt: t('home.sezioni.mano_con_guanto_che_impugna_una'),
   },
   {
     occhiello: t('home.sezioni.studio'),
     titolo: t('home.sezioni.agenda_pazienti_richiami'),
     testo:
       t('home.sezioni.le_cose_ordinarie_fatte_bene_calendario'),
-    aCosaServe: 'Un posto solo. L’agenda e la cartella smettono di essere due programmi separati.',
+    aCosaServe: t('home.sezioni.un_posto_solo_l_agenda_e'),
     immagine: { tipo: 'foto', file: 'trattamento-corpo', didascalia: t('home.sezioni.la_giornata_dello_studio_in_un') },
-    alt: 'Trattamento corpo con manipolo a ultrasuoni sull’addome, eseguito in ambulatorio.',
+    alt: t('home.sezioni.trattamento_corpo_con_manipolo_a_ultrasuoni'),
   },
 ] as const
 
@@ -229,7 +261,7 @@ export function tappeCapacita() {
         <Reveal>
           <TestaSezione
             occhiello={t('home.sezioni.cosa_fa')}
-            titolo={<Enfasi chiave="home.sezioni.titolo_quattro_cose_per_come_lavora_davvero" />}
+            titolo={<Enfasi chiave="home.sezioni.titolo_sei_cose_per_come_lavora_davvero" />}
             sommario={t('home.sezioni.non_e_un_gestionale_con_sopra')}
           />
         </Reveal>

@@ -39,22 +39,22 @@ export const metadata: Metadata = {
  * Reg. (UE) 2025/327 — artt. 37, 38, 39, 40, 41, 49 e art. 105 per le date. */
 const PASSAGGI_EHDS = [
   {
-    a: 'Art. 37',
+    a: t('conformitaeuropea.art_37'),
     t: t('conformitaeuropea.documentazione_tecnica'),
     d: t('conformitaeuropea.il_fabbricante_la_redige_prima_di'),
   },
   {
-    a: 'Art. 39',
+    a: t('conformitaeuropea.art_39'),
     t: t('conformitaeuropea.dichiarazione_di_conformit_ue'),
     d: t('conformitaeuropea.attesta_il_rispetto_delle_prescrizioni_essenziali'),
   },
   {
-    a: 'Art. 40',
+    a: t('conformitaeuropea.art_40'),
     t: t('conformitaeuropea.ambiente_digitale_europeo_di_prova'),
     d: t('conformitaeuropea.i_componenti_software_armonizzati_vanno_valutati'),
   },
   {
-    a: 'Art. 41',
+    a: t('conformitaeuropea.art_41'),
     t: t('conformitaeuropea.marcatura_ce_di_conformit'),
     d: t('conformitaeuropea.apposta_in_modo_visibile_leggibile_e'),
   },
@@ -68,28 +68,28 @@ const ALLEGATO_II = [
     t: t('conformitaeuropea.uscire_non_deve_essere_gravoso'),
     d: t('conformitaeuropea.niente_caratteristiche_che_rendano_gravosa_l'),
     stato: 'Soddisfatta',
-    come: 'l’export integrale in FHIR R4 è una funzione, disponibile senza chiedere il permesso a noi.',
+    come: t('conformitaeuropea.l_export_integrale_in_fhir_r4'),
   },
   {
     n: '3.1',
     t: t('conformitaeuropea.identificare_chi_entra'),
     d: t('conformitaeuropea.meccanismi_affidabili_di_identificazione_e_autenticazione'),
     stato: 'Soddisfatta',
-    come: 'secondo fattore, sessione irrigidita, ruoli separati, compartimenti per studio.',
+    come: t('conformitaeuropea.secondo_fattore_sessione_irrigidita_ruoli_separa'),
   },
   {
     n: '3.2 e 3.3',
     t: t('conformitaeuropea.registrare_gli_accessi_e_poterli_esamina'),
     d: t('conformitaeuropea.registrazione_di_ogni_evento_di_accesso'),
     stato: 'Soddisfatta',
-    come: 'registro FHIR AuditEvent legato da una catena di impronte, che consulti tu.',
+    come: t('conformitaeuropea.registro_fhir_auditevent_legato_da_una'),
   },
   {
     n: '3.4',
     t: t('conformitaeuropea.conservazioni_e_accessi_differenziati'),
     d: t('conformitaeuropea.periodi_di_conservazione_e_diritti_di'),
     stato: 'Parziale',
-    come: 'la conservazione differenziata è attiva, la granularità per origine no. Lo diciamo adesso, non quando ce lo chiederanno.',
+    come: t('conformitaeuropea.la_conservazione_differenziata_e_attiva_la'),
   },
 ] as const
 
@@ -175,8 +175,7 @@ export default function ConformitaEuropea() {
                   <p>
                     {t('conformitaeuropea.non_e_una_formalita_da_ufficio')}
                   </p>
-                  <p style={{ color: 'var(--on-ink)' }}>
-                    Oggi la marcatura <strong>non è apponibile da nessuno</strong>: mancano gli atti
+                  <p style={{ color: 'var(--on-ink)' }}>Oggi la marcatura<strong>non è apponibile da nessuno</strong>: mancano gli atti
                     di esecuzione della Commissione sull’ambiente di prova e sul formato europeo di
                     scambio. Se un fornitore te la dichiara adesso, ti sta dicendo qualcosa su di sé.
                   </p>
@@ -274,8 +273,7 @@ export default function ConformitaEuropea() {
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
             <Occhiello>{t('conformitaeuropea.non_e_una_nostra_gentilezza')}</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>
-              Poter portare via i dati è un tuo <span className="accento-corsivo">dovere</span>, non
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>Poter portare via i dati è un tuo<span className="accento-corsivo">dovere</span>, non
               una nostra concessione
             </h2>
             <div

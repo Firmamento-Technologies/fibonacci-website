@@ -77,12 +77,27 @@ export const PIANI: readonly Piano[] = [
     chiave: 'solo-pro',
     nome: t('lib.listino.solo'),
     prezzo: 129,
-    perChi: 'Un medico, uno studio',
+    perChi: t('lib.listino.un_medico_uno_studio'),
     incluso: [
       t('lib.listino.cartella_completa_pazienti_illimitati'),
       t('lib.listino.catalogo_dei_consensi_estetici'),
       t('lib.listino.firma_della_paziente_in_studio'),
-      t('lib.listino.mappa_del_viso_e_del_corpo'),
+      /* ✅ Cambiata il 2026-08-17: era «Mappa del viso e del corpo».
+         La regola che decide dove sta una funzione: si sale di piano per
+         **numero di operatori** e per le funzioni che hanno un **costo
+         marginale vero** (la dettatura, che si paga a minuto, è infatti in
+         Studio). ⛔ Non si mette dietro il prezzo una capacità clinica che non
+         costa niente servire ⇒ analisi del volto e atlante 3D sono per tutti,
+         senza interruttore, e stanno nel piano più piccolo.
+         ⚠️ **Voce CAMBIATA e non aggiunta, e la ragione è una misura**: due
+         righe in più portavano la scheda dei tre piani da 1.009 a **1.073px**,
+         cioè oltre la sua tolleranza in `scripts/tappe-alte.json`. ⛔ Alzare
+         quella soglia era il gesto sbagliato (il file dice che può solo
+         scendere), quindi la promessa nuova è entrata **dentro una voce che
+         c'era già**. Il dettaglio sta in `/analisi-del-volto`, che è dove il
+         commento sopra `PIANI` dice di metterlo: una scheda di listino si
+         scorre, non si legge. */
+      t('lib.listino.analisi_del_volto_e_mappa_3d'),
       t('lib.listino.foto_cliniche_cifrate'),
       t('lib.listino.catena_di_impronte_sugli_accessi'),
       t('lib.listino.agenda_e_richiami'),
@@ -92,7 +107,7 @@ export const PIANI: readonly Piano[] = [
     chiave: 'studio',
     nome: t('lib.listino.studio'),
     prezzo: 279,
-    perChi: 'Fino a cinque operatori',
+    perChi: t('lib.listino.fino_a_cinque_operatori'),
     consigliato: true,
     incluso: [
       t('lib.listino.tutto_quello_che_c_e_in'),
@@ -112,7 +127,7 @@ export const PIANI: readonly Piano[] = [
     // al pagamento). 549 sta sopra i 499 che ArzaMed chiede per 15 utenti, in
     // una fascia dove nessun concorrente italiano pubblica.
     prezzo: 549,
-    perChi: 'Più sedi, o oltre cinque operatori',
+    perChi: t('lib.listino.piu_sedi_o_oltre_cinque_operatori'),
     incluso: [
       t('lib.listino.tutto_quello_che_c_e_in_2'),
       t('lib.listino.piu_sedi_agenda_unica'),
@@ -185,8 +200,7 @@ export const CONVIVENZA = {
     t('lib.listino.non_raccogliamo_recensioni_sul_tuo_conto'),
     t('lib.listino.non_vendiamo_visibilita_qui_non_c'),
   ],
-  cautela:
-    'Quello che ci rimetti, detto prima: oggi Fibonacci non parla con il portale che usi. Se lo tieni, l’agenda pubblica resta dove è adesso e le prenotazioni le riporti tu.',
+  cautela: t('lib.listino.quello_che_ci_rimetti_detto_prima'),
 } as const
 
 /**
@@ -221,6 +235,5 @@ export const ANCORA = {
   titolo: t('lib.listino.il_conto_non_si_fa_col'),
   testo:
     t('lib.listino.il_conto_non_si_fa_con'),
-  cautela:
-    'Non promettiamo che un buon consenso vinca una causa: non funziona così, e chi te lo dice ti sta vendendo qualcosa. Promettiamo che la documentazione esista, sia completa e si dimostri non ritoccata.',
+  cautela: t('lib.listino.non_promettiamo_che_un_buon_consenso'),
 } as const

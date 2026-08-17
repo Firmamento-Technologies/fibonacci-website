@@ -1,13 +1,13 @@
+import { t } from '@/lib/testo'
 import type { MetadataRoute } from 'next'
 
 export const dynamic = 'force-static'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Fibonacci · Cartella clinica per medici italiani',
+    name: t('manifest.fibonacci_cartella_clinica_per_medici_italiani'),
     short_name: 'Fibonacci',
-    description:
-      'Cartella clinica digitale FHIR R4 per medici italiani. Multi-specialità: medicina estetica, dermatologia, ortopedia, psicologia, nutrizione, oculistica.',
+    description: t('manifest.cartella_clinica_digitale_fhir_r4_per'),
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
@@ -38,14 +38,14 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     shortcuts: [
       {
-        name: 'Prova demo',
+        name: t('manifest.prova_demo'),
         short_name: 'Demo',
-        description: 'Apri la demo live di Fibonacci',
+        description: t('manifest.apri_la_demo_live_di_fibonacci'),
         url: '/prova-demo',
         icons: [{ src: '/icon-192.png', sizes: '192x192' }],
       },
       {
-        name: 'Stato servizi',
+        name: t('manifest.stato_servizi'),
         short_name: 'Status',
         url: '/status',
         icons: [{ src: '/icon-192.png', sizes: '192x192' }],

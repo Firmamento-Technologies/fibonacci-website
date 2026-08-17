@@ -45,7 +45,7 @@ const PASSI = [
        schermo perché a quella dimensione non si legge. La domanda vera non è
        «com'è fatta» ma «dove finisce quello che scrivo». */
     prova: 'sezioni',
-    alt: 'La cartella di una paziente in Fibonacci con il banner rosso delle allergie in evidenza e la cronologia delle sedute.',
+    alt: t('comefunziona.la_cartella_di_una_paziente_in'),
   },
   {
     ora: '09:20',
@@ -54,7 +54,7 @@ const PASSI = [
     testo:
       t('comefunziona.scegli_la_procedura_e_il_modulo'),
     prova: 'catalogo',
-    alt: 'Il catalogo dei consensi di Fibonacci, con i modelli raggruppati per categoria.',
+    alt: t('comefunziona.il_catalogo_dei_consensi_di_fibonacci'),
   },
   {
     ora: '09:35',
@@ -74,7 +74,7 @@ const PASSI = [
     testo:
       t('comefunziona.il_registro_raccoglie_ogni_accesso_un'),
     schermata: '/schermate/registro-accessi.png',
-    alt: 'Il registro accessi con tre righe rosse che segnalano accessi anomali.',
+    alt: t('comefunziona.il_registro_accessi_con_tre_righe'),
   },
 ] as const
 

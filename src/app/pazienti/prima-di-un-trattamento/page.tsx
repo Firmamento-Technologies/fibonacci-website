@@ -91,15 +91,13 @@ export default function Page() {
         </ol>
 
         <Sezione id="portale" titolo={t('pazienti.primadiuntrattamento.una_cosa_da_sapere_su_questo')}>
-          <p>
-            Qui non trovi <strong>prezzi, sconti né classifiche</strong>, e non è una
+          <p>Qui non trovi<strong>prezzi, sconti né classifiche</strong>, e non è una
             dimenticanza: la legge italiana vieta ai medici e alle strutture sanitarie le
             comunicazioni con «elementi di carattere attrattivo e suggestivo», comprese
             offerte e promozioni. Un portale che mette i medici in fila per prezzo mette
             **loro** nei guai, non noi.
           </p>
-          <p className="mt-[var(--s-13)]">
-            Non trovi nemmeno <strong>recensioni</strong>. Per verificarle davvero
+          <p className="mt-[var(--s-13)]">Non trovi nemmeno<strong>recensioni</strong>. Per verificarle davvero
             dovremmo collegare chi scrive alla sua cartella clinica, cioè dichiarare che
             quella persona è stata paziente di quel medico. Non lo facciamo.
           </p>

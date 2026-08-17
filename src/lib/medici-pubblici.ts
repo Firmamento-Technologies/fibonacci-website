@@ -206,8 +206,8 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
     esempio: true,
     studio: {
       nome: t('lib.medicipubblici.studio_dimostrativo'),
-      indirizzo: 'Via di Esempio 1',
-      comune: 'Carrara (MS)',
+      indirizzo: t('lib.medicipubblici.via_di_esempio_1'),
+      comune: t('lib.medicipubblici.carrara_ms'),
       telefono: '+39 000 0000000',
       email: 'esempio@fibonaccimedica.it',
       /* ⚠️ **Il comune, non il civico, e la pagina lo dichiara.** «Via di
@@ -245,8 +245,8 @@ export const MEDICI_ESEMPIO: readonly SchedaMedicoPubblica[] = [
     esempio: true,
     studio: {
       nome: t('lib.medicipubblici.secondo_studio_dimostrativo'),
-      indirizzo: 'Piazza di Esempio 2',
-      comune: 'Milano (MI)',
+      indirizzo: t('lib.medicipubblici.piazza_di_esempio_2'),
+      comune: t('lib.medicipubblici.milano_mi'),
       telefono: '+39 000 0000001',
       email: 'esempio2@fibonaccimedica.it',
       /* Comune, come l'altro esempio: l'indirizzo non esiste. */

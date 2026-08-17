@@ -52,50 +52,41 @@ interface Categoria {
 const CATEGORIE: readonly Categoria[] = [
   {
     nome: t('chesoftwareserve.il_portale_di_prenotazione'),
-    cosaE:
-      'Una vetrina pubblica con dentro un’agenda. Il paziente ti trova cercando una prestazione nella sua città, vede le tue disponibilità e prenota da solo.',
+    cosaE: t('chesoftwareserve.una_vetrina_pubblica_con_dentro_un'),
     fa: [
       t('chesoftwareserve.ti_fa_trovare_da_chi_non'),
       t('chesoftwareserve.prenotazioni_a_qualsiasi_ora_anche_a'),
       t('chesoftwareserve.promemoria_automatici_e_quindi_meno_visite'),
       t('chesoftwareserve.recensioni_pubbliche_e_profilo'),
     ],
-    bastaSe:
-      'Stai aprendo, l’agenda non è piena, e il problema numero uno è che i pazienti nuovi non sanno che esisti.',
-    nonBastaSe:
-      'La cartella è un allegato: un campo di testo e i file caricati a mano. Quello che serve dopo la visita (che cosa hai iniettato, dove, con che lotto, che cosa avevi spiegato prima) lì non c’è, o c’è in una forma che non si ritrova.',
+    bastaSe: t('chesoftwareserve.stai_aprendo_l_agenda_non_e'),
+    nonBastaSe: t('chesoftwareserve.la_cartella_e_un_allegato_un'),
     noi: false,
   },
   {
     nome: t('chesoftwareserve.il_gestionale_medico_generalista'),
-    cosaE:
-      'Il software di studio che fa tutto per tutte le specialità: agenda, anagrafica, fatturazione, invio al Sistema Tessera Sanitaria, e una cartella clinica a campi personalizzabili.',
+    cosaE: t('chesoftwareserve.il_software_di_studio_che_fa'),
     fa: [
       t('chesoftwareserve.agenda_e_anagrafica_dei_pazienti'),
       t('chesoftwareserve.fatturazione_e_ciclo_attivo'),
       t('chesoftwareserve.invio_al_sistema_tessera_sanitaria'),
       t('chesoftwareserve.una_cartella_che_configuri_tu_campo'),
     ],
-    bastaSe:
-      'Lo studio è polispecialistico, la parte amministrativa pesa più di quella clinica, e hai qualcuno che il gestionale se lo configura e lo tiene configurato.',
-    nonBastaSe:
-      '«Campi personalizzabili» vuol dire che il modello clinico lo disegni tu, ogni volta, e che due colleghi nello stesso studio lo disegnano diverso. Il giorno in cui serve cercare (tutte le pazienti che hanno ricevuto un certo lotto, per esempio) si cerca dentro campi liberi, cioè non si cerca.',
+    bastaSe: t('chesoftwareserve.lo_studio_e_polispecialistico_la_parte'),
+    nonBastaSe: t('chesoftwareserve.campi_personalizzabili_vuol_dire_che_il'),
     noi: false,
   },
   {
     nome: t('chesoftwareserve.la_cartella_verticale'),
-    cosaE:
-      'Un software che conosce una specialità sola e ne dà per scontato il lavoro: le procedure, i prodotti, le aree del corpo, i consensi che servono per quelle procedure.',
+    cosaE: t('chesoftwareserve.un_software_che_conosce_una_specialita'),
     fa: [
       t('chesoftwareserve.il_modulo_di_consenso_giusto_per'),
       t('chesoftwareserve.prodotto_lotto_unita_e_sede_legati'),
       t('chesoftwareserve.foto_cliniche_separate_dal_telefono_e'),
       t('chesoftwareserve.registro_di_chi_ha_aperto_quale'),
     ],
-    bastaSe:
-      'Il rischio che ti tiene sveglio non è l’agenda vuota: è dover dimostrare, fra due anni, che cosa avevi spiegato a una paziente e che cosa le avevi iniettato.',
-    nonBastaSe:
-      'Non ti porta pazienti nuovi e non fa marketing. Se il problema è farsi trovare, questa casella non lo risolve: lo risolve la prima.',
+    bastaSe: t('chesoftwareserve.il_rischio_che_ti_tiene_sveglio'),
+    nonBastaSe: t('chesoftwareserve.non_ti_porta_pazienti_nuovi_e'),
     noi: true,
   },
 ] as const

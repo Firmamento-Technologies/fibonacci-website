@@ -18,10 +18,10 @@ import { ModuloDemo } from '@/components/ModuloDemo'
  */
 
 const ANELLI = [
-  { et: 'Apertura cartella', ora: '09:31:04', hash: 'a41f…9c2e' },
-  { et: 'Anamnesi salvata', ora: '09:38:52', hash: 'e71b…ba2f' },
-  { et: 'Consenso firmato', ora: '09:47:19', hash: '9f2c…08d7' },
-  { et: 'Seduta registrata', ora: '10:15:33', hash: '3d80…41aa' },
+  { et: t('home.sigillo.apertura_cartella'), ora: '09:31:04', hash: 'a41f…9c2e' },
+  { et: t('home.sigillo.anamnesi_salvata'), ora: '09:38:52', hash: 'e71b…ba2f' },
+  { et: t('home.sigillo.consenso_firmato'), ora: '09:47:19', hash: '9f2c…08d7' },
+  { et: t('home.sigillo.seduta_registrata'), ora: '10:15:33', hash: '3d80…41aa' },
 ]
 
 export function Sigillo() {

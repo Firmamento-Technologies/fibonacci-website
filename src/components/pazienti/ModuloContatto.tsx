@@ -92,10 +92,10 @@ export function ModuloContatto({
       setStato({
         fase: 'errore',
         messaggio:
-          typeof d.detail === 'string' ? d.detail : 'Non è stato possibile inviare. Riprova fra poco.',
+          typeof d.detail === 'string' ? d.detail: t('pazienti.modulocontatto.non_e_stato_possibile_inviare_riprova'),
       })
     } catch {
-      setStato({ fase: 'errore', messaggio: 'Non è stato possibile inviare. Riprova fra poco.' })
+      setStato({ fase: 'errore', messaggio: t('pazienti.modulocontatto.non_e_stato_possibile_inviare_riprova') })
     }
   }
 

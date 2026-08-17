@@ -288,6 +288,33 @@ function guideAttese() {
  * aggiunto un passo verde qualunque cosa fosse successo — la forma di presidio
  * che questo progetto ha già preso più volte.
  */
+/**
+ * La frase più lunga del corpo di una guida, normalizzata come il testo
+ * pubblico. È l'impronta della guida: se **questa** compare in una pagina di
+ * vendita, qualcuno ha incollato.
+ *
+ * ⛔ Ritorna `null` se il file non c'è o non ha frasi abbastanza lunghe: in quel
+ * caso la guida **non viene controllata**, e va detto invece di far finta.
+ * ⚠️ Si legge il markdown italiano (`src/content/docs/<slug>.md`), che è la
+ * sorgente; le traduzioni ne discendono.
+ */
+function passaggioDistintivo(slug) {
+  let markdown
+  try {
+    markdown = readFileSync(join(RADICE, 'src', 'content', 'docs', `${slug}.md`), 'utf-8')
+  } catch {
+    return null
+  }
+  const frasi = markdown
+    .replace(/```[\s\S]*?```/g, ' ') // via i blocchi di codice
+    .replace(/[#>*_`|-]+/g, ' ') // via la punteggiatura di markdown
+    .split(/(?<=[.!?])\s+/)
+    .map((f) => f.replace(/\s+/g, ' ').trim())
+    .filter((f) => f.length >= 80)
+  if (frasi.length === 0) return null
+  return frasi.sort((a, b) => b.length - a.length)[0]
+}
+
 export function problemiDelCorpus(voci, guide = guideAttese()) {
   const problemi = []
 
@@ -310,10 +337,29 @@ export function problemiDelCorpus(voci, guide = guideAttese()) {
 
   /* La prova per CONTENUTO, non per indirizzo: una guida può rientrare anche
      senza il suo percorso — per esempio se qualcuno ne incolla un pezzo in una
-     pagina di vendita. Si cerca il titolo di ogni guida nel testo pubblico. */
+     pagina di vendita.
+     
+     🔴 **Cercava il TITOLO, e il 2026-08-17 è diventato rosso a torto.** Quel
+     giorno il sito ha cominciato a promuovere due funzioni che hanno anche una
+     guida: «Analisi del volto» e «Atlante anatomico 3D». Sono i **nomi delle
+     funzioni**, e compaiono in una pagina di vendita e in una voce di listino
+     esattamente come deve essere: il presidio ha letto quei due nomi e ha
+     detto «il manuale è trapelato», mentre del manuale non c'era una riga.
+     ⚠️ Il costo di un falso rosso è lo stesso di un falso verde e si paga
+     dopo: chi lo vede due volte lo spegne, e da lì in poi il controllo non
+     esiste più. ⇒ non si allenta la regola, si **misura la cosa giusta**.
+     
+     🔑 Ora si cerca un **passaggio distintivo del corpo** della guida, non il
+     suo titolo: la frase più lunga di ogni capitolo (≥ 80 caratteri), che
+     nessuno scrive per caso due volte. Nominare una funzione resta lecito;
+     **incollarne un paragrafo** no, ed è la cosa che questo presidio è nato
+     per prendere. */
   const testoPubblico = voci.map((v) => `${v.titolo} ${v.testo}`).join(' \n ')
   const titoliTrapelati = guide
-    .filter((g) => g.titolo && testoPubblico.includes(g.titolo))
+    .filter((g) => {
+      const passaggio = passaggioDistintivo(g.slug)
+      return passaggio && testoPubblico.includes(passaggio)
+    })
     .map((g) => g.slug)
   if (titoliTrapelati.length) {
     problemi.push(

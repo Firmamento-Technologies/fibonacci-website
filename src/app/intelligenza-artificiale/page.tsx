@@ -27,24 +27,21 @@ export const metadata: Metadata = {
 const DOVE = [
   {
     titolo: t('intelligenzaartificiale.la_dettatura_dell_anamnesi'),
-    cosaFa: 'Trascrive quello che dici durante la visita e propone i campi compilati.',
-    cosaNonFa: 'Non salva niente da sola. Ogni campo resta modificabile e il salvataggio è un tuo gesto.',
-    chiControlla: 'Tu, prima di salvare.',
+    cosaFa: t('intelligenzaartificiale.trascrive_quello_che_dici_durante_la'),
+    cosaNonFa: t('intelligenzaartificiale.non_salva_niente_da_sola_ogni'),
+    chiControlla: t('intelligenzaartificiale.tu_prima_di_salvare'),
   },
   {
     titolo: t('intelligenzaartificiale.la_bozza_di_un_consenso_fuori'),
-    cosaFa: 'Costruisce la struttura di un modulo per una procedura che non è fra i modelli pronti.',
-    cosaNonFa:
-      'Non inventa contenuto clinico spacciandolo per verificato. Il testo esce marcato come bozza e va rivisto prima dell’uso con pazienti reali.',
-    chiControlla: 'Il medico, e per il testo clinico il suo legale.',
+    cosaFa: t('intelligenzaartificiale.costruisce_la_struttura_di_un_modulo'),
+    cosaNonFa: t('intelligenzaartificiale.non_inventa_contenuto_clinico_spacciandolo_per'),
+    chiControlla: t('intelligenzaartificiale.il_medico_e_per_il_testo'),
   },
   {
     titolo: t('intelligenzaartificiale.il_controllo_sulle_allergie'),
-    cosaFa:
-      'Confronta quello che stai per prescrivere con le allergie registrate in cartella e segnala l’incongruenza.',
-    cosaNonFa:
-      'Non è intelligenza artificiale: è un confronto deterministico fra due elenchi. Lo scriviamo qui perché venga contato per quello che è, e non per qualcosa di più.',
-    chiControlla: 'Il segnale è un avviso, non un blocco. Decidi tu.',
+    cosaFa: t('intelligenzaartificiale.confronta_quello_che_stai_per_prescrivere'),
+    cosaNonFa: t('intelligenzaartificiale.non_e_intelligenza_artificiale_e_un'),
+    chiControlla: t('intelligenzaartificiale.il_segnale_e_un_avviso_non'),
   },
 ] as const
 
@@ -78,9 +75,9 @@ export default function IntelligenzaArtificiale() {
                 </div>
                 <dl className="mt-[var(--s-21)] grid gap-[var(--s-21)] md:grid-cols-3">
                   {[
-                    ['Cosa fa', d.cosaFa],
-                    ['Cosa non fa', d.cosaNonFa],
-                    ['Chi controlla', d.chiControlla],
+                    [t('analisidelvolto.cosa_fa'), d.cosaFa],
+                    [t('analisidelvolto.cosa_non_fa'), d.cosaNonFa],
+                    [t('analisidelvolto.chi_controlla'), d.chiControlla],
                   ].map(([k, v]) => (
                     <div key={k}>
                       <dt className="numero">{k}</dt>

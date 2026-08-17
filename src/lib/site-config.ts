@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 /* Anagrafica e indirizzi: un posto solo.
  *
  * ⚠️ INTESTAZIONE SOCIETARIA — DA COMPLETARE ALLA COSTITUZIONE.
@@ -235,7 +236,7 @@ export const SITE_URL = dominio
  * della società, non l'ubicazione della macchina. Il nome del data center va
  * letto dal pannello Aruba e scritto **allora**, non adesso. */
 export const OSPITALITA = {
-  fornitore: 'Aruba S.p.A.',
+  fornitore: t('lib.siteconfig.aruba_s_p_a'),
   luogo: 'Italia',
   /** Si innesta dopo «dentro», quindi porta con sé il proprio articolo. */
   area: "l'Unione europea",

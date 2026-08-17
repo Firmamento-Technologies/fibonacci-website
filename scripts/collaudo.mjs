@@ -27,6 +27,7 @@ import { paritaListino } from './parita-listino.mjs'
 import { classiEsistono } from './classi-esistono.mjs'
 import { nienteLineetta } from './niente-lineetta.mjs'
 import { nienteDatiElenco } from './niente-dati-elenco.mjs'
+import { problemiDelCorpus } from './corpus-assistente.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -145,16 +146,24 @@ function guideDelSito() {
 
 const GUIDE = guideDelSito()
 
-/* I titoli delle guide: servono a cercare il manuale **per contenuto** dentro
- * il corpus pubblico, non solo per indirizzo. Una guida può rientrare senza il
- * suo percorso — basta che qualcuno ne incolli un pezzo in una pagina — e in
- * quel caso il controllo sugli indirizzi resterebbe verde. */
-function titoliDelleGuide() {
-  const sorgente = readFileSync(join(QUI, '..', 'src', 'lib', 'docs-data.ts'), 'utf8')
-  const daDocsInPoi = sorgente.slice(sorgente.indexOf('export const DOCS'))
-  const RE = /slug:\s*'[a-z0-9-]+',\s*(?:\/\/[^\n]*\n\s*)*title:\s*'((?:[^'\\]|\\.)*)'/g
-  return [...daDocsInPoi.matchAll(RE)].map((m) => m[1].replace(/\\'/g, "'"))
-}
+/* Il manuale cercato **per contenuto** dentro il corpus pubblico, non solo per
+ * indirizzo: una guida può rientrare senza il suo percorso, basta che qualcuno
+ * ne incolli un pezzo in una pagina, e lì il controllo sugli indirizzi resta
+ * verde.
+ *
+ * 🔴 **CERCAVA I TITOLI, ed è diventato rosso a torto il 2026-08-17**, il giorno
+ * in cui il sito ha cominciato a promuovere «Analisi del volto» e «Atlante
+ * anatomico 3D»: sono i **nomi delle funzioni**, e sono anche i titoli di due
+ * guide. Il presidio ha letto quei nomi in una pagina di vendita e ha detto che
+ * il manuale era trapelato, mentre del manuale non c'era una riga.
+ *
+ * ⚠️ **E c'era una SECONDA copia della stessa regola** in
+ * `corpus-assistente.mjs`, corretta poche ore prima: due implementazioni della
+ * stessa cosa che divergono è il difetto che questo repo insegue da settimane.
+ * ⇒ ora questo file **importa quella**, e la regola sta in un posto solo.
+ * 🔑 La regola nuova cerca un **passaggio distintivo del corpo** della guida
+ * (la frase più lunga, ≥ 80 caratteri): nominare una funzione resta lecito,
+ * incollarne un paragrafo no. Provata per mutazione in tre direzioni. */
 
 /* Leggere il sorgente con una regex ha un modo di fallire che non si vede:
  * se qualcuno riscrive `docs-data.ts` con le virgolette doppie, o rinomina
@@ -418,16 +427,10 @@ async function main() {
           `assistente-corpus.json: ${perIndirizzo.length} pagine del manuale nel corpus PUBBLICO`,
         )
       }
-      const tutto = corpus.pagine.map((v) => `${v.titolo} ${v.testo}`).join(' \n ')
-      const titoli = titoliDelleGuide()
-      const dentro = titoli.filter((t) => tutto.includes(t))
-      if (dentro.length) {
-        problemi.push(
-          `assistente-corpus.json: il testo di ${dentro.length} guide è nel corpus pubblico (${dentro[0]}…)`,
-        )
-      }
-      if (titoli.length === 0) {
-        problemi.push('presidio rotto: non ho letto nessun titolo di guida da docs-data.ts')
+      /* Una sola implementazione, importata: vedi il commento su
+         `titoliDelleGuide` qui sopra, che questa riga ha sostituito. */
+      for (const p of problemiDelCorpus(corpus.pagine)) {
+        problemi.push(`assistente-corpus.json: ${p}`)
       }
     }
 

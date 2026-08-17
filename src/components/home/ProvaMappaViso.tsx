@@ -185,8 +185,7 @@ export function ProvaMappaViso() {
         </div>
 
         <div className="prova-viso__elenco" aria-live="polite">
-          <p className="prova-viso__titolo">
-            Aree trattate <span>{segnate.length > 0 ? `· ${segnate.length}` : ''}</span>
+          <p className="prova-viso__titolo">Aree trattate<span>{segnate.length > 0 ? `· ${segnate.length}` : ''}</span>
           </p>
 
           {segnate.length === 0 ? (

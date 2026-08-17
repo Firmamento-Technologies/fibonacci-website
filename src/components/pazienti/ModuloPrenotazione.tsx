@@ -169,8 +169,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
         const d = corpo.detail
         setMessaggio(
           typeof d === 'object' && d?.messaggio
-            ? d.messaggio
-            : 'Da quello che hai scritto potrebbe trattarsi di un’urgenza: non aspettare una risposta da qui.',
+            ? d.messaggio: t('pazienti.moduloprenotazione.da_quello_che_hai_scritto_potrebbe'),
         )
         setStato('urgenza')
         return
@@ -178,8 +177,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
       if (!r.ok) {
         setMessaggio(
           typeof corpo.detail === 'string'
-            ? corpo.detail
-            : 'Non è stato possibile inviare la richiesta. Puoi chiamare lo studio.',
+            ? corpo.detail: t('pazienti.moduloprenotazione.non_e_stato_possibile_inviare_la'),
         )
         setStato('errore')
         return

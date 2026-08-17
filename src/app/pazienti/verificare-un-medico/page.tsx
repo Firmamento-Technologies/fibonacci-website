@@ -97,7 +97,7 @@ export default function Page() {
             nessun portale scrive. */}
         <Sezione id="noi" titolo={t('pazienti.verificareunmedico.il_nostro_impegno_e_il_suo')}>
           <p>
-            <strong>{t('pazienti.verificareunmedico.l_iscrizione_all_ordine_e_la')}</strong> Ordine e numero stanno <strong>in pagina</strong>, non
+            <strong>{t('pazienti.verificareunmedico.l_iscrizione_all_ordine_e_la')}</strong>Ordine e numero stanno<strong>in pagina</strong>, non
             nascosti in fondo: non perché tocchi a te controllarli, ma perché quello che
             diciamo resti <strong>riscontrabile</strong> da chiunque, te compreso.
           </p>

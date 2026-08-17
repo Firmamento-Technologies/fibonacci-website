@@ -27,9 +27,9 @@ import {
  * prima di dire che è fatto. */
 
 const ETICHETTA: Record<StatoBollino, string> = {
-  fatto: 'Verificabile adesso',
-  assente: 'Non ce l’abbiamo',
-  previsto: 'Non ancora esigibile',
+  fatto: t('bollini.verificabile_adesso'),
+  assente: t('bollini.non_ce_l_abbiamo'),
+  previsto: t('bollini.non_ancora_esigibile'),
 }
 
 /** Il segno dentro il bollo. Tre soli, e si distinguono anche in bianco e nero. */

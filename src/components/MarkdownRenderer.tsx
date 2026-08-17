@@ -95,7 +95,7 @@ export function MarkdownRenderer({
           return (
             <a href={href} {...(esterno ? { rel: 'noopener', target: '_blank' } : {})}>
               {children}
-              {esterno && <span className="sr-only"> (si apre in una nuova scheda)</span>}
+              {esterno && <span className="sr-only"> {t('markdownrenderer.si_apre_in_una_nuova_scheda')}</span>}
             </a>
           )
         },

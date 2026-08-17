@@ -81,7 +81,7 @@ REGOLE, in ordine di importanza:
 6. Non aggiungere note del traduttore, non commentare le scelte, non riassumere.
 ⛔ VIETATO IL TRATTINO LUNGO «—» (em dash), in ogni lingua e in ogni posizione.
    E' una richiesta esplicita del committente, e un presidio del progetto lo
-   fa fallire (`scripts/niente-lineetta.mjs`). Al suo posto: DUE PUNTI se la
+   fa fallire (scripts/niente-lineetta.mjs). Al suo posto: DUE PUNTI se la
    seconda parte spiega la prima, VIRGOLA davanti a una congiunzione,
    PARENTESI per un inciso. In inglese la tentazione e' massima: resisti.`
 

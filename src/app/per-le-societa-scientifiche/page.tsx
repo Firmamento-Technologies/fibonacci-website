@@ -39,25 +39,25 @@ const OFFRIAMO = [
     titolo: t('perlesocietascientifiche.i_modelli_di_consenso_rivisti_da'),
     testo:
       t('perlesocietascientifiche.abbiamo_un_catalogo_di_moduli_scritti'),
-    perNoi: 'Per noi è la cosa che vale di più: chiude una debolezza che oggi dichiariamo.',
+    perNoi: t('perlesocietascientifiche.per_noi_e_la_cosa_che'),
   },
   {
     titolo: t('perlesocietascientifiche.condizioni_riservate_agli_iscritti'),
     testo:
       t('perlesocietascientifiche.il_listino_e_pubblico_e_resta'),
-    perNoi: 'Nessuna cifra qui: sarebbe un numero inventato prima di conoscere l’interlocutore.',
+    perNoi: t('perlesocietascientifiche.nessuna_cifra_qui_sarebbe_un_numero'),
   },
   {
     titolo: t('perlesocietascientifiche.formazione_ai_soci_sulle_cose_noiose'),
     testo:
       t('perlesocietascientifiche.non_un_webinar_di_prodotto_mezz'),
-    perNoi: 'Non siamo un provider ECM e non lo promettiamo.',
+    perNoi: t('perlesocietascientifiche.non_siamo_un_provider_ecm_e'),
   },
   {
     titolo: t('perlesocietascientifiche.un_canale_per_dirci_che_cosa'),
     testo:
       t('perlesocietascientifiche.chi_vede_cento_studi_sa_quello'),
-    perNoi: 'Senza promesse di priorità che poi non manteniamo.',
+    perNoi: t('perlesocietascientifiche.senza_promesse_di_priorita_che_poi'),
   },
 ] as const
 

@@ -131,8 +131,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           <IconaAlbo lato={20} />
           {t('pazienti.schedamedico.iscrizione_all_ordine_dei_medici')}
         </h2>
-        <p className="mt-[var(--s-13)]">
-          Ordine di <strong>{m.medico.ordineProvinciale}</strong>, numero{' '}
+        <p className="mt-[var(--s-13)]">Ordine di<strong>{m.medico.ordineProvinciale}</strong>, numero{' '}
           <strong>{m.medico.numeroIscrizione}</strong>.
         </p>
         {/* 🔴 **Qui c'era scritto «Puoi verificarlo tu, senza passare da noi»,

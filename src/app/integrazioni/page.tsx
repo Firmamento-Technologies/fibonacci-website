@@ -30,35 +30,30 @@ export const metadata: Metadata = {
 const ENTRA = [
   {
     voce: t('integrazioni.l_anagrafica_e_lo_storico_dal'),
-    come:
-      'Partiamo da un file esportato dal tuo fornitore attuale e lo carichiamo noi. È compreso nel prezzo, non è un servizio a preventivo.',
+    come: t('integrazioni.partiamo_da_un_file_esportato_dal'),
   },
   {
     voce: t('integrazioni.i_tuoi_moduli_di_consenso_se'),
-    come:
-      'Li carichi e li usi al posto dei nostri. La struttura resta la nostra, il testo clinico è tuo.',
+    come: t('integrazioni.li_carichi_e_li_usi_al'),
   },
   {
     voce: t('integrazioni.il_catalogo_dei_farmaci'),
-    come:
-      'I medicinali autorizzati arrivano dai dati pubblici dell’AIFA e si aggiornano da soli. Non devi digitare un prontuario.',
+    come: t('integrazioni.i_medicinali_autorizzati_arrivano_dai_dati'),
   },
 ] as const
 
 const ESCE = [
   {
     voce: t('integrazioni.la_cartella_completa_in_fhir_r4'),
-    come:
-      'FHIR è lo standard internazionale per i dati sanitari. Non è un nostro formato: un altro fornitore lo legge senza doverlo interpretare, ed è la ragione per cui puoi andartene senza chiedercelo.',
+    come: t('integrazioni.fhir_e_lo_standard_internazionale_per'),
   },
   {
     voce: t('integrazioni.i_documenti_firmati_in_pdf'),
-    come:
-      'Consensi e referti escono come file autonomi, verificabili anche fuori da Fibonacci. La pagina Verifica lo dimostra su un file qualsiasi, nel tuo browser.',
+    come: t('integrazioni.consensi_e_referti_escono_come_file'),
   },
   {
     voce: t('integrazioni.tutto_insieme_quando_smetti'),
-    come: 'L’esportazione completa è una funzione dell’applicazione, non una cortesia da chiedere all’assistenza.',
+    come: t('integrazioni.l_esportazione_completa_e_una_funzione'),
   },
 ] as const
 

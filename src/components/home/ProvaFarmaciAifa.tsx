@@ -40,11 +40,11 @@ const INDICE = PRINCIPI.map((p) => ({ ...p, cerca: normalizza(`${p.principio} ${
 
 /** Cosa vuol dire la sigla, per chi non la usa ogni giorno. */
 const FORNITURA: Record<string, string> = {
-  RR: 'ricetta ripetibile',
-  RNR: 'ricetta non ripetibile',
-  OSP: 'uso ospedaliero',
-  SOP: 'senza ricetta',
-  OTC: 'da banco',
+  RR: t('home.provafarmaciaifa.ricetta_ripetibile'),
+  RNR: t('home.provafarmaciaifa.ricetta_non_ripetibile'),
+  OSP: t('home.provafarmaciaifa.uso_ospedaliero'),
+  SOP: t('home.provafarmaciaifa.senza_ricetta'),
+  OTC: t('home.provafarmaciaifa.da_banco'),
 }
 
 const ESEMPI = ['ialuronico', 'botulinica', 'D11AX']
@@ -92,8 +92,7 @@ export function ProvaFarmaciAifa() {
 
       <div className="prova-catalogo__esito" aria-live="polite">
         {!q.trim() && (
-          <p className="prova-viso__vuoto">
-            Si prescrive per <strong>principio attivo</strong>, non per marca. Il foglietto
+          <p className="prova-viso__vuoto">Si prescrive per<strong>principio attivo</strong>, non per marca. Il foglietto
             illustrativo e la scheda tecnica sono quelli ufficiali AIFA, a un clic dalla
             prescrizione.
             <br />

@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     'documentazione sanitaria GDPR',
   ],
   applicationName: SITE_NAME,
-  category: 'Healthcare Software',
+  category: t('layout.healthcare_software'),
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',

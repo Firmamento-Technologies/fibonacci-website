@@ -80,7 +80,7 @@ export function SoftwareApplicationSchema() {
         '@type': 'SoftwareApplication',
         name: 'Fibonacci',
         applicationCategory: 'HealthApplication',
-        applicationSubCategory: 'Cartella clinica per la medicina estetica',
+        applicationSubCategory: t('structureddata.cartella_clinica_per_la_medicina_estetica'),
         operatingSystem: 'Web',
         url: SITE_URL,
         inLanguage: 'it-IT',

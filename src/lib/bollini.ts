@@ -231,7 +231,7 @@ export const BOLLINI_PIEDE: BollinoPiede[] = [
     href: '/conformita-europea',
   },
   {
-    marchio: 'ART. 32',
+    marchio: t('lib.bollini.art_32'),
     sigla: t('lib.bollini.misure_di_sicurezza'),
     nota: t('lib.bollini.scheda_tecnica_pubblicata_per_intero_limiti'),
     stato: 'fatto',
@@ -240,7 +240,7 @@ export const BOLLINI_PIEDE: BollinoPiede[] = [
   {
     /* ⚠️ Applicabile **da oggi**: il regolamento si applica dal 2 agosto 2026
        (art. 113), quindi qui ⛔ non si può scrivere «ci prepareremo». */
-    marchio: 'AI ACT',
+    marchio: t('lib.bollini.ai_act'),
     sigla: t('lib.bollini.art_50_trasparenza'),
     nota: t('lib.bollini.diciamo_quando_stai_parlando_con_un'),
     stato: 'previsto',

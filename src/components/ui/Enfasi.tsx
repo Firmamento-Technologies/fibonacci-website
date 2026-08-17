@@ -4,7 +4,7 @@
  * ── PERCHE' ESISTE ──────────────────────────────────────────────────────────
  * I titoloni del sito sono scritti come frammenti JSX con il corsivo dentro:
  *
- *     titolo={<>Tre piani, e l'elenco di quello che <span className="accento-corsivo">non</span> comprendono</>}
+ *     titolo={<>Tre piani, e l'elenco di quello che<span className="accento-corsivo">non</span> comprendono</>}
  *
  * 🔴 Misurato sul costruito il 2026-08-17: quei 14 titoli **restavano in
  * italiano** in tutte e quattro le lingue, nel punto piu' visibile della

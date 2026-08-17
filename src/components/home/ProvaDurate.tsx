@@ -69,8 +69,7 @@ export function ProvaDurate() {
 
         {d && (
           <div>
-            <p className="prova-durate__quando">
-              Richiamo fra <strong>{d.meseMin}-{d.meseMax} mesi</strong>
+            <p className="prova-durate__quando">Richiamo fra<strong>{d.meseMin}-{d.meseMax} mesi</strong>
               <span>, cioè fra {fra(d.meseMin)} e {fra(d.meseMax)}</span>
             </p>
             {/* La fonte, testuale. È il punto di tutto: un numero senza fonte

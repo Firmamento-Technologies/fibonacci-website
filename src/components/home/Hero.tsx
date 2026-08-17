@@ -170,15 +170,15 @@ export function Hero() {
         >
           {[
             {
-              t: 'I dati restano in Europa',
+              t: t('home.hero.i_dati_restano_in_europa'),
               d: t('home.hero.server_in_germania_niente_cartelle_cliniche'),
             },
             {
-              t: 'Il registro non si riscrive',
+              t: t('home.hero.il_registro_non_si_riscrive'),
               d: t('home.hero.ogni_modifica_entra_in_una_catena'),
             },
             {
-              t: 'Siamo in avvio',
+              t: t('home.hero.siamo_in_avvio'),
               d: t('home.hero.in_pilota_presso_uno_studio_meglio'),
             },
           ].map((f) => (

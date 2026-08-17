@@ -1,3 +1,4 @@
+import { t } from '@/lib/testo'
 import { docRevisionDate } from './doc-dates'
 import { SOCIETA, PRIVACY_EMAIL, SUPPORT_EMAIL, CONTACT_EMAIL, SITE_URL, APP_URL } from './site-config'
 
@@ -33,24 +34,39 @@ import { SOCIETA, PRIVACY_EMAIL, SUPPORT_EMAIL, CONTACT_EMAIL, SITE_URL, APP_URL
  * costituzione della società» per esteso, e nella riga «Fornitore» dei Termini
  * ricorre cinque volte di fila: la frase è corretta e il paragrafo diventa
  * illeggibile. La spiegazione sta una volta sola, nell'avviso in testa. */
-const LACUNA = '⟨da indicare⟩'
+const LACUNA = t('lib.segnaposto.da_indicare')
 
 /** Un recapito che non esiste non diventa un indirizzo finto: diventa il
  *  modulo di contatto, come già fa il piè di pagina dei legali. */
-const ripiegoModulo = (indirizzo: string) => indirizzo || 'il modulo di contatto del sito'
+const ripiegoModulo = (indirizzo: string) => indirizzo || t('lib.segnaposto.il_modulo_di_contatto_del_sito')
 
 /* ⚠️ Ogni riga porta il proprio `> `: la riga successiva NON deve iniziare a sua
  * volta con `> `, o markdown legge una citazione annidata e il riquadro esce con
  * due barre verticali. Trovato guardando la pagina, non il codice. */
+/* 🔴 PASSA DAL DIZIONARIO DAL 2026-08-17, e prima no.
+ * Queste otto righe sono **iniettate in testa a ogni documento legale**, e
+ * `risolviSegnaposto` gira uguale in tutte e cinque le lingue: un lettore
+ * inglese apriva l'informativa privacy tradotta e trovava **il riquadro in
+ * italiano**, cioè la prima cosa che si legge sulla pagina che più di ogni
+ * altra deve farsi capire.
+ * ⚠️ Nessun presidio poteva vederlo: `lingue-tradotte.mjs` confronta le frasi
+ * **che stanno nel dizionario**, e queste non c'erano; `lingue-sorgenti.mjs`
+ * aveva questo file fra le esclusioni, ⛔ e per giunta con la motivazione
+ * sbagliata («dati dei due studi dimostrativi», che stanno invece in
+ * `medici-pubblici.ts`). ⇒ una riga di esclusione scritta a occhio è costata
+ * otto righe di italiano su 28 pagine tradotte.
+ * 🔑 Trovato **rimisurando il costruito** con lo stesso metodo usato sul sito
+ * vivo, ⛔ non da un controllo: il presidio diceva «3 residui», il confronto
+ * riga per riga ne trovava 96. */
 const AVVISO_BOZZA = [
-  '**Bozza non sottoscritta, pubblicata a scopo di consultazione.**',
-  "L'intestazione societaria di questo documento è deliberatamente vuota: la",
-  'società che erogherà il servizio è una S.r.l. **non ancora costituita**, e',
-  "riportare l'anagrafica della società che ha sviluppato il software indicherebbe",
-  'una controparte contrattuale sbagliata. Denominazione, sede, partita IVA,',
-  "numero REA e recapiti vengono compilati il giorno dell'iscrizione al registro",
-  'delle imprese; fino ad allora il documento non è sottoscrivibile e non produce',
-  'effetti fra le parti.',
+  t('lib.segnaposto.bozza_non_sottoscritta_pubblicata_a_scopo'),
+  t('lib.segnaposto.l_intestazione_societaria_di_questo_documento'),
+  t('lib.segnaposto.societa_che_erogher_il_servizio_e'),
+  t('lib.segnaposto.riportare_l_anagrafica_della_societa_che'),
+  t('lib.segnaposto.una_controparte_contrattuale_sbagliata_denominazione_sede'),
+  t('lib.segnaposto.numero_rea_e_recapiti_vengono_compilati'),
+  t('lib.segnaposto.delle_imprese_fino_ad_allora_il'),
+  t('lib.segnaposto.effetti_fra_le_parti'),
 ]
   .map((riga) => `> ${riga}`)
   .join('\n')

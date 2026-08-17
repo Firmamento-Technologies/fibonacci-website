@@ -25,6 +25,7 @@ const COLONNE = [
     titolo: t('chrome.footer.il_prodotto'),
     voci: [
       { href: '/come-funziona', testo: t('chrome.footer.come_funziona') },
+      { href: '/analisi-del-volto', testo: t('chrome.footer.analisi_del_volto_e_3d') },
       { href: '/consensi-informati', testo: t('chrome.footer.consenso_informato') },
       { href: '/sicurezza-e-dati', testo: t('chrome.footer.sicurezza_e_dati') },
       { href: '/conformita-europea', testo: t('chrome.footer.conformita_europea') },
@@ -203,7 +204,7 @@ function Recapiti() {
   const caselle = [
     ['Scrivici', CONTACT_EMAIL],
     ['Assistenza', SUPPORT_EMAIL],
-    ['Dati personali', PRIVACY_EMAIL],
+    [t('chrome.footer.dati_personali'), PRIVACY_EMAIL],
   ].filter(([, indirizzo]) => indirizzo)
 
   const indirizziUnici = new Set(caselle.map(([, ind]) => ind))
@@ -275,8 +276,7 @@ function IdentitaSocietaria() {
         <br />
         {SOCIETA.sede.cap} {SOCIETA.sede.comune} ({SOCIETA.sede.provincia}), Italia
       </p>
-      <p className="mt-[var(--s-8)]">
-        Partita IVA <span style={{ color: 'var(--on-ink)' }}>{SOCIETA.partitaIva}</span>
+      <p className="mt-[var(--s-8)]">Partita IVA<span style={{ color: 'var(--on-ink)' }}>{SOCIETA.partitaIva}</span>
         {' · '}REA <span style={{ color: 'var(--on-ink)' }}>{SOCIETA.rea}</span>
       </p>
       {SOCIETA.pec && (

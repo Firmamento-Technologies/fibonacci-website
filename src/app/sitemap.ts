@@ -32,6 +32,7 @@ import { LEGAL_DOCS } from '@/lib/legal-docs'
 const REVISIONE: Record<string, string> = {
   '/': '2026-08-07',
   '/come-funziona': '2026-08-07',
+  '/analisi-del-volto': '2026-08-17',
   '/consensi-informati': '2026-08-07',
   '/che-software-serve': '2026-08-08',
   '/autovalutazione': '2026-08-08',
@@ -71,6 +72,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     pagina('/', 1),
     pagina('/come-funziona', 0.9),
+    /* ⚠️ Aggiunta il 2026-08-17. Sta a 0.85 come `che-software-serve` e non a
+       0.9: è una pagina di prodotto **profonda**, che intercetta chi cerca già
+       per nome («analisi del volto software», «atlante anatomico 3D»), non chi
+       cerca un gestionale. Vale quanto una pagina di prodotto, ⛔ non quanto la
+       home. */
+    pagina('/analisi-del-volto', 0.85),
     pagina('/consensi-informati', 0.9),
     /* Le tre pagine dell'8 agosto. `che-software-serve` sta alto perché è
        l'unica che risponde a chi cerca «gestionale medicina estetica»;
