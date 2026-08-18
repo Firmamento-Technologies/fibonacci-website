@@ -79,6 +79,10 @@
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Arianna Milia) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "armonismed.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Federico Dulio» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "artfulsurgery.com": {
   "come": "scarta",
   "nota": "⛔ NON e' uno studio italiano: indirizzo «3800 Mt Diablo Blvd #102», CAP 94549 (California), telefono (925) 299-1985. Era entrato nel criterio B perche' il nome porta «Dr Elizabeth Lee», e il criterio B ⛔ non chiede la partita IVA. Trovato guardando la scheda prima di scrivere, 2026-08-18"
@@ -175,6 +179,18 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "carboniandrea.com": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Andrea Carboni» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
+ "cascadeeyeskin.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Stati Uniti"
+ },
+ "casertaweb.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — portale locale di notizie"
+ },
  "celmade.co": {
   "come": "scarta",
   "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 916 link a pagine di prodotto e 1 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
@@ -194,6 +210,10 @@
  "centrobenesserepompeo.com": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Mesoterapia. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "centroconsulenzacollagene.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — consulenza su un prodotto, ⛔ non uno studio"
  },
  "centroesteticoalbino.it": {
   "come": "scarta",
@@ -238,6 +258,10 @@
  "centrosmiledental.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alessia Polverino) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "chikalinda.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Chika Linda» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "chipla.it": {
   "come": "impresa",
@@ -335,13 +359,25 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Chiara Lo Dato) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "clearandbrilliant.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Stati Uniti"
+ },
  "cleardermatology.net": {
   "come": "scarta",
   "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 6 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
+ "congresso.aicpe.org": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — sito di un CONGRESSO"
+ },
  "costachirurgiaplastica.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Costa») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Mesoterapia) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "cristianobiagi.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Cristiano Biagi» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "cugini.it": {
   "come": "scarta",
@@ -475,9 +511,17 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maurizio Seren) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "dermatologyandlasercenterofchapelhill.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Chapel Hill, NC"
+ },
  "dermomed.it": {
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 1 medico: Fabiana Sisti)"
+ },
+ "dettaglimedicinaestetica.setmore.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — `setmore.com`: PIATTAFORMA DI PRENOTAZIONE di terzi"
  },
  "diamondmedical.ch": {
   "come": "scarta",
@@ -503,6 +547,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Dania Janniello) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "docteurfiller.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Marsiglia"
+ },
  "doctoralia.es": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Ali Nowrouzi, Norberto Seva, Helena Escolà, Sergio Maroto, Javier Hernández) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
@@ -510,6 +558,10 @@
  "doctormedica.co": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "doctormorano.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Palma"
  },
  "doctorplasticsurgery.it": {
   "come": "medico",
@@ -667,6 +719,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Enrico Calabrese, Trattamenti Laser, Seno Mastoplastica, Corpo Addominoplastica, Novità Vi) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "esplorami.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — «Metropoli Strategiche»: ⛔ non e' uno studio"
+ },
  "estetica.nebiolovietti.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Roberto Nebiolo) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -715,6 +771,10 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "esteticatemanitogni.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Temani Togni» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "esteticatherine.com": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -726,6 +786,10 @@
  "estetistairene.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "estheticlab.beautycheck.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — `beautycheck.it`: piattaforma di prenotazione di terzi"
  },
  "eumeki.com": {
   "come": "medico",
@@ -742,6 +806,10 @@
  "fabiomichelinichirurgia.com": {
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: il titolo è «Fabio Michelini» e il dominio lo ripete per intero"
+ },
+ "fabiopappagallo.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Fabio Pappagallo» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "faceboost.org": {
   "come": "scarta",
@@ -795,6 +863,10 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giuseppe») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "fillermarket.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Marsiglia"
+ },
  "fillerroma.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Gabriele») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -814,6 +886,18 @@
  "foursurgery.it": {
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Raffaele Castaldo, Castaldo Durante) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
+ },
+ "francymorais.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Francy Morais» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
+ "fulviopanico.com": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Fulvio Panico» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
+ "gdamedical.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — grossista («Medical Wholesale»)"
  },
  "gianpieromantovani.com": {
   "come": "impresa",
@@ -854,6 +938,10 @@
  "hyaluronicfillermarket.com": {
   "come": "scarta",
   "nota": "🟡, letto a mano il 2026-08-18: «Hyaluronic Filler Market»: e' un MERCATO di filler. ⇒ ⛔ ⛔ non e' collocabile in un elenco di medici, e infatti ⛔ non nomina nessun medico"
+ },
+ "iabichino.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Iabichino» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "ialuronicofirenze.it": {
   "come": "medico",
@@ -907,6 +995,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 3 medici: Ivan Arruda, Zein Obagi, Tartaglia Ida)"
  },
+ "larampa.news": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — testata giornalistica"
+ },
  "lasermillennium.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Franco Muzi) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -914,6 +1006,14 @@
  "lauraarduin.it": {
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 0 medici: ⛔ nessuno)"
+ },
+ "lauracuccarolo.setmore.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — `setmore.com`: PIATTAFORMA DI PRENOTAZIONE di terzi"
+ },
+ "lazioeventi.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — portale di eventi"
  },
  "ldbmedicinaestetica.com": {
   "come": "medico",
@@ -934,6 +1034,10 @@
  "lookfantastic.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Jart Dolce, Barbara Sturm, Althea Elemis) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "loremipsum.io": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — SEGNAPOSTO («Lorem Ipsum»)"
  },
  "lorenafortunasme.it": {
   "come": "medico",
@@ -971,6 +1075,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Mario Dini, Stefania Enginoli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "martellaantonio.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Antonio Martella» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "massimomacridelgiudice.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Massimo Macrì) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -978,6 +1086,10 @@
  "matteogaravaglia.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Matteo Garavaglia) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "matteoragoni.com": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Matteo Ragoni» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "medermal.it": {
   "come": "medico",
@@ -1018,6 +1130,10 @@
  "medicinaesteticaalagni.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Mario») · partita IVA 02837060736 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
+ },
+ "medicinaesteticaaltmann.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Altmann» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "medicinaesteticabarak.it": {
   "come": "medico",
@@ -1094,6 +1210,10 @@
  "medicinaesteticaleone.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Angelo Leone) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticalubellisassari.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Lubelli» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "medicinaesteticamanfredonia.it": {
   "come": "medico",
@@ -1239,6 +1359,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Monia Maritan) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "monicabellina.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Monica Bellina» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "monicacongiu.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Monica») · partita IVA 01455940914 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Mesoterapia, Tossina botulinica)"
@@ -1287,6 +1411,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Chiara Compagno) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "nyd.si": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Lubiana"
+ },
  "oasibenesserebellezza.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -1299,6 +1427,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Maurizio Matrangola, Ruggero Tagliabue, Viviana Vaglica, Gregorio Redaelli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "odontoiatriacasella.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Casella» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "odontoiatriaemedicinaestetica.com": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Tomas Marco, Tomas Joosten) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
@@ -1306,6 +1438,10 @@
  "onechirurgiaestetica.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Jacopo Dei, Jacupo Dei) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "ordinemediciterni.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — e' l'ORDINE DEI MEDICI di Terni, ⛔ non uno studio"
  },
  "otorinocagliari.it": {
   "come": "medico",
@@ -1346,6 +1482,10 @@
  "pierpaolorovatti.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Pier Paolo) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "planethealthmd.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — Stati Uniti"
  },
  "plasticsurgery.it": {
   "come": "medico",
@@ -1395,6 +1535,10 @@
   "come": "scarta",
   "nota": "🟡, 2026-08-18: il sito nomina 2 medici, ⛔ MA ⛔ non e' italiano — comune «Forest», telefono (561) 246-5115 (Florida). Trovato guardando la scheda prima di scrivere"
  },
+ "reginafortunato.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Regina Fortunato» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "renzulliodontoiatria.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giulia Renzulli) · iniettivi dichiarati (Biostimolazione) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -1414,6 +1558,14 @@
  "rinofillerfirenze.it": {
   "come": "medico",
   "nota": "ex 🔵, 2026-08-18: città «Firenze» letta a mano nel sito, e il sito nomina UN SOLO medico (dott. Giovanni Salti) · iniettivi: Filler"
+ },
+ "rizzardidottfabio.org": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Fabio Rizzardi» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
+ "romafiller.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ NON e' in Italia — comune «Los»: ⛔ non e' Roma"
  },
  "romamedicoestetico.it": {
   "come": "medico",
@@ -1450,6 +1602,10 @@
  "scuolasuperioremedicinaestetica.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "sies.net": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — e' una SOCIETA' SCIENTIFICA (SIES)"
  },
  "silvanabeautycenter.com": {
   "come": "scarta",
@@ -1502,6 +1658,10 @@
  "studiderma.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "studio-meloni.com": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Patrizia Meloni» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "studiobattipaglia.com": {
   "come": "medico",
@@ -1567,6 +1727,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Francesco Sacco, Emanuele Sacco, Elettra Sacco, Pierpaolo Sacco) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "studiodentisticosarto.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Renata Sarto» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "studiodentisticovisca.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Giovanni Visca, Laura Visca, Laura La Dottoressa) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
@@ -1574,6 +1738,10 @@
  "studiodentisticozotti.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Rinaldo Zotti, Francesca Zotti, Michele Franco) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticozullo.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Zullo» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "studiodermatologiaromeo.it": {
   "come": "impresa",
@@ -1611,6 +1779,10 @@
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: «Studio Medico Gioana»: «gioana» è il cognome, ed è nel dominio · P.IVA"
  },
+ "studiogiovanditto.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Giovanditto» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "studioguadagno.com": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Ivano Guadagno, Denise Guadagno, Nicholas Guadagno, Adele Di Mauro) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
@@ -1626,6 +1798,10 @@
  "studiolemuse.it": {
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: il sito nomina UN medico (Giuseppina Ricci) · P.IVA · Roma"
+ },
+ "studiomariapiacappi.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Maria Pia Cappi» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "studiomarzolini.it": {
   "come": "impresa",
@@ -1650,6 +1826,10 @@
  "studiomedicodermatologico-asta.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Asta Francesco) · iniettivi dichiarati (Fili di trazione, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiomedicodimartino.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Di Martino» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "studiomedicoelia.it": {
   "come": "impresa",
@@ -1723,6 +1903,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Francesco Orecchio, Gianfranco Orecchio) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "studioperna.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Perna» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "studioregenesis.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -1775,9 +1959,17 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. David Stoker) · iniettivi dichiarati (Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "trattamentivisotrento.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Mattia Malpaga» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
+ },
  "tricodramma.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Silvia Cianchi) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "ugoredi.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Ugo Redi» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "usob.it": {
   "come": "scarta",
@@ -1799,9 +1991,17 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "vglabeautyque.beautycheck.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — `beautycheck.it`: piattaforma di prenotazione di terzi"
+ },
  "vichy.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Luigia Panariello, Valeria Saveri) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "vincenzoargenzio.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Vincenzo Argenzio» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "vincenzopadovano.it": {
   "come": "medico",
@@ -1822,6 +2022,10 @@
  "youchirurgiaplastica.com": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Gabriele Cricrì, Valentina Lerro) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "youdermoestetica.it": {
+  "come": "medico",
+  "nota": "🟡, letto a mano il 2026-08-18: il nome di persona «Veronica Mesiano» e' nel titolo e/o nel dominio ⇒ e' lo studio di quella persona. ⚠️ Il sito ⛔ non scrive «Dott.» davanti al nome, ed e' per questo che il classificatore ⛔ non lo vedeva"
  },
  "youepil.it": {
   "come": "scarta",
