@@ -27,6 +27,7 @@
  */
 
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import { useState } from 'react'
 import dati from '@/lib/prodotto.json'
 
@@ -64,9 +65,8 @@ export function ProvaComplicanze() {
 
       <div className="prova-catalogo__esito" aria-live="polite">
         {!c && (
-          <p className="prova-viso__vuoto">L’elenco è <strong>chiuso</strong>: si sceglie, non si scrive. È il motivo per
-            cui poi si può cercare «quante occlusioni vascolari ho avuto», e per cui nessuno
-            può dedurre una complicanza al posto tuo.
+          <p className="prova-viso__vuoto">
+            <Frase chiave="home.provacomplicanze.l_elenco_e_chiuso_si_sceglie" />
           </p>
         )}
 
@@ -107,7 +107,7 @@ export function ProvaComplicanze() {
         )}
       </div>
 
-      <p className="prova-viso__didascalia">Diventa un <code>{t('home.provacomplicanze.adverseevent')}</code> {t('home.provacomplicanze.fhir_legato_alla_seduta_che_l')}
+      <p className="prova-viso__didascalia">{t('home.provacomplicanze.diventa_un')} <code>{t('home.provacomplicanze.adverseevent')}</code> {t('home.provacomplicanze.fhir_legato_alla_seduta_che_l')}
       </p>
     </div>
   )

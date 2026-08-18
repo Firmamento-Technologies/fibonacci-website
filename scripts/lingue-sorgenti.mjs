@@ -48,16 +48,39 @@ const LINGUE = ['en', 'es', 'fr', 'de']
  * fatto prima. La differenza fra le due cose è tutta nel fatto che il numero qui
  * sotto viene da un'esecuzione, non da una stima.
  *
- * **Che cosa sono le 23 che restano**, guardate una per una il 2026-08-17: sono
- * **tutte frammenti di frase** attorno a un elemento in linea — «Il listino è
- * <Link>pubblico</Link>», «L'elenco è <strong>chiuso</strong>». ⛔ Non si
- * estraggono a pezzi: una lingua con un altro ordine delle parole li rimette
- * insieme sbagliati, e siccome il testo c'è tutto **nessun test se ne accorge**.
- * Vogliono una frase intera con segnaposto, o un `<Trans>`, ed è lavoro a sé.
- * 🔎 Provato sul campo lo stesso giorno: un'estrazione automatica ne aveva presi
- * **22**, e uno era diventato «Nessuno apre uno studio per fare l&apos;» — cioè
- * un'entità HTML finita **dentro il dizionario**, che a video si sarebbe letta
- * così com'è. Ripristinati tutti e 22.
+ * ✅ **2026-08-17, sera: da 23 a 2, e i frammenti sono finiti.** Le 23 erano
+ * tutte frammenti di frase attorno a un elemento in linea («Il listino è
+ * <Link>pubblico</Link>», «L'elenco è <strong>chiuso</strong>»), cioè testo che
+ * ⛔ non si estrae a pezzi: una lingua con un altro ordine delle parole li
+ * rimette insieme sbagliati, e siccome il testo c'è tutto **nessun test se ne
+ * accorge**. ⇒ ora la frase sta **intera** nel dizionario e il pezzo in risalto
+ * è un **marcatore** che il traduttore sposta dove la sua lingua lo vuole:
+ * `components/ui/Frase.tsx`, che è `Enfasi` applicata al corpo del testo.
+ * 🔎 Provato sul campo prima di arrivarci: un'estrazione automatica ne aveva
+ * presi 22, uno era diventato «…per fare l&apos;» (un'entità HTML **dentro il
+ * dizionario**), e il ripristino ha **mangiato lo spazio** che veniva dall'a
+ * capo, mandando in linea «Il listino è**pubblico**» per un'ora in cinque
+ * lingue. Da lì è nato `scripts/parole-attaccate.mjs`.
+ *
+ * ⚠️ **E POI IL NUMERO E' RISALITO DA 2 A 26, ED E' CRESCIUTO LO SGUARDO.**
+ * Il 2 era vero per un presidio che pretendeva l'**iniziale maiuscola**: con
+ * quella riga il conteggio diceva 0 residui mentre il costruito ne aveva **24**
+ * su `/en/`. Tolto il vincolo (vedi `TESTO_JSX`), la stessa misura ne trova **28**.
+ * ⇒ **il difetto non è cresciuto, è comparso**: sono i frammenti che continuano
+ * una frase e cominciano con punteggiatura, più qualche falso positivo di
+ * codice. ⛔ Questo numero deve ora **scendere di nuovo**, ed è lavoro dichiarato
+ * in TD-214, ⛔ non una soglia da lasciare dov'è.
+ * 🔑 La domanda da farsi quando questo numero sale è sempre la stessa: *è
+ * cresciuto il difetto o è cresciuto lo sguardo?* Qui è il secondo, tre volte in
+ * una sera, e ogni volta la prova è stata **il confronto col costruito**.
+ *
+ * **Che cosa restava quando il numero era 2**, per memoria:
+ *   · `app/manuale-lingua/[lingua]/route.ts` → «lingua non prevista», messaggio
+ *     d'errore interno di una rotta, ⛔ non testo di pagina (ed è file di
+ *     un'altra sessione, in lavorazione);
+ *   · `components/ui/Frase.tsx` → «) || href.startsWith(», che ⛔ non è prosa:
+ *     è `TESTO_JSX` che aggancia un `>` e un `<` a cavallo di una riga di
+ *     codice. Un falso positivo dichiarato, non un residuo.
  *
  * ⛔ Non si alza. Se un file nuovo lo fa salire, le sue stringhe vanno nel
  *    dizionario: è letteralmente il lavoro che questo numero misura. È la
@@ -65,7 +88,7 @@ const LINGUE = ['en', 'es', 'fr', 'de']
  *    `scripts/lint-produzione.py` nel knowledge, e per la stessa ragione: una
  *    regola scritta non è un presidio, un numero che non può salire sì.
  */
-const MASSIMO_FUORI_DIZIONARIO = 23
+const MASSIMO_FUORI_DIZIONARIO = 28
 
 /** Quanto un dizionario può coincidere con l'italiano prima di essere sospetto.
  *  ⚠️ Non zero: nomi propri, sigle e veri omografi coincidono a ragione.
@@ -93,7 +116,40 @@ const NON_SI_TRADUCE = new Set([
  * collegamenti per pagina** in tutte e quattro le lingue, ⛔ perché comincia con
  * una parentesi. È testo per chi usa uno screen reader: invisibile a video,
  * invisibile al presidio, e letto ad alta voce a chi non vede la pagina. */
-const TESTO_JSX = />\s*([A-ZÀÈÉÌÒÙ(«][^<>{}\n]{6,}?)\s*</g
+/* 🔴 L'INIZIALE E' QUALUNQUE CARATTERE, e pretenderla maiuscola era la SETTIMA
+ * cecità — la terza sulla stessa riga in un giorno (prima `(`, poi il testo su
+ * più righe, poi questa).
+ * Un frammento che continua una frase comincia con **punteggiatura**:
+ *
+ *     «: né nomi, né date di nascita, né schermate della cartella…»
+ *     «, senza che sia impedito il riuso dell'informazione…»
+ *     «. Per le altre il consenso non dà un intervallo…»
+ *
+ * Misurato il 2026-08-17 sera: con l'iniziale maiuscola il presidio diceva
+ * **0**, e il costruito aveva ancora **24 righe italiane** su `/en/`. Con
+ * l'iniziale libera: **26**. ⇒ non erano sparite, non si vedevano.
+ * 🔑 A filtrare basta già la **forma del valore** (`NON_E_PROSA`, uno spazio,
+ * non nel dizionario): l'iniziale maiuscola non aggiungeva precisione, toglieva
+ * soltanto vista. */
+const TESTO_JSX = />\s*([^\s<>{}][^<>{}\n]{6,}?)\s*</g
+
+/* 🔴 LA SESTA CECITÀ: IL TESTO CHE VA A CAPO.
+ * `TESTO_JSX` vieta `\n` dentro la corrispondenza, quindi un nodo di testo
+ * scritto su più righe — che è **la forma normale** in questo repo, perché le
+ * righe stanno sotto i 100 caratteri — gli è invisibile:
+ *
+ *     <p>
+ *       È il componente dell'applicazione, non un disegno. Nella cartella
+ *       ogni area diventa un <code>BodySite</code> codificato…
+ *     </p>
+ *
+ * Misurato il 2026-08-17 sera: con il presidio **verde a 2**, il costruito
+ * aveva ancora **30 righe italiane** su `/en/`, e stavano tutte qui.
+ * ⚠️ È la stessa lezione per la sesta volta in un giorno, e vale la pena
+ * scriverla: ogni volta che questo numero è sembrato basso, era **la vista**
+ * a essere stretta. Il confronto col costruito è ciò che lo dimostra, e per
+ * questo `lingue-tradotte.mjs` non è sostituibile. */
+const TESTO_MULTIRIGA = />\s*\n\s*([A-ZÀÈÉÌÒÙ(«][^<>{}]{15,}?)\s*</g
 const ATTRIBUTO =
   /\b(?:title|placeholder|aria-label|alt|sommario|occhiello|etichetta|didascalia|sottotitolo)="([A-ZÀÈÉÌÒÙ][^"]{5,})"/g
 
@@ -194,8 +250,18 @@ let uscita = 0
 // ── 1. Le stringhe visibili che NON stanno nel dizionario ───────────────────
 const fuori = []
 for (const f of sorgenti(SRC)) {
+  /* ⚠️ Via i commenti PRIMA di cercare: la documentazione di un componente
+   * contiene esempi di JSX apposta, e il 2026-08-17 il commento di `Frase.tsx`
+   * (che spiega il difetto mostrando la riga sbagliata) ha aggiunto **due
+   * falsi rossi** a questo presidio, più uno vecchio in `Enfasi.tsx`.
+   * 🔑 Un presidio che si accende sulla spiegazione di sé stesso insegna a
+   * non scrivere le spiegazioni. */
   const testo = readFileSync(f, 'utf8')
-  for (const re of [TESTO_JSX, ATTRIBUTO, CAMPO, ELEMENTO]) {
+    .replace(/\/\*[\s\S]*?\*\//g, ' ')
+    .split('\n')
+    .filter((r) => !r.trim().startsWith('//'))
+    .join('\n')
+  for (const re of [TESTO_JSX, TESTO_MULTIRIGA, ATTRIBUTO, CAMPO, ELEMENTO]) {
     re.lastIndex = 0
     for (const m of testo.matchAll(re)) {
       const v = m[1].replace(/\\'/g, "'").trim()

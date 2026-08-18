@@ -1,4 +1,5 @@
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
@@ -82,33 +83,25 @@ export default function Page() {
 
         <Sezione id="quando-prenoti" titolo={t('pazienti.privacy.quando_chiedi_un_appuntamento')}>
           <p>
-            Quello che scrivi (nome, telefono, e il motivo se lo indichi) serve allo studio
-            per richiamarti, e <strong>va allo studio</strong>. È lui il titolare del
-            trattamento: la pagina è sua, l’appuntamento è suo, e l’informativa completa la dà
-            lui.
+            <Frase chiave="pazienti.privacy.quello_che_scrivi_nome_telefono_e" />
           </p>
           <p className="mt-[var(--s-13)]">
             {t('pazienti.privacy.noi_facciamo_da_fornitore_tecnico_teniamo')}
           </p>
-          <p className="mt-[var(--s-13)]">Una richiesta di appuntamento <strong>non è una prenotazione confermata</strong>:
-            è lo studio a confermarla.
+          <p className="mt-[var(--s-13)]">
+            <Frase chiave="pazienti.privacy.una_richiesta_di_appuntamento_non_e" />
           </p>
         </Sezione>
 
         <Sezione id="delicati" titolo={t('pazienti.privacy.perche_ci_teniamo_tanto')}>
           <p>
-            «Nome, telefono e un trattamento estetico» non è un dato qualunque: messo insieme
-            racconta qualcosa della tua salute, e la legge europea lo protegge come tale anche
-            quando lo fa <em>indirettamente</em>. È il motivo per cui questo sito è
-            deliberatamente povero di funzioni: meno raccoglie, meno c’è da proteggere.
+            <Frase chiave="pazienti.privacy.nome_telefono_e_un_trattamento_estetico" />
           </p>
         </Sezione>
 
         <Sezione id="diritti" titolo={t('pazienti.privacy.i_tuoi_diritti')}>
           <p>
-            Accesso, rettifica, cancellazione, limitazione, opposizione e portabilità si
-            esercitano <strong>verso lo studio</strong>, che è il titolare. Se ci scrivi a noi
-            per errore, ti indirizziamo a lui: non possiamo rispondere al posto suo.
+            <Frase chiave="pazienti.privacy.accesso_rettifica_cancellazione_limitazione_opposizione_e" />
           </p>
           {/* ⚠️ Recapito e anagrafica si accendono da soli il giorno
               dell'iscrizione al registro imprese: `SOCIETA.costituita` è

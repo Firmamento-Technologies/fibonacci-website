@@ -1,6 +1,7 @@
 'use client'
 
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import { useEffect, useState, type FormEvent } from 'react'
 import { useOrariLiberi } from '@/lib/orari-liberi'
 import { PRENOTA_API_URL } from '@/lib/site-config'
@@ -222,8 +223,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
             l'appuntamento in stato `pending`. */}
         <p style={{ fontWeight: 500 }}>{t('pazienti.moduloprenotazione.richiesta_inviata')}</p>
         <p className="mt-[var(--s-8)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          È lo studio a confermarla: ti richiamano al numero che hai lasciato. Finché non ti
-          confermano, l’appuntamento <strong>non è preso</strong>.
+          <Frase chiave="pazienti.moduloprenotazione.e_lo_studio_a_confermarla_ti" />
         </p>
       </div>
     )

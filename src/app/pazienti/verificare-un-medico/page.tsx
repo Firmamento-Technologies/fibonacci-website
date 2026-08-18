@@ -1,4 +1,5 @@
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GuscioPaziente } from '@/components/pazienti/GuscioPaziente'
@@ -62,10 +63,7 @@ export default function Page() {
 
         <Sezione id="perche" titolo={t('pazienti.verificareunmedico.perche_conta_e_lo_dice_la')}>
           <p>
-            Non è un consiglio nostro. La FNOMCeO ha invitato pubblicamente i cittadini a
-            verificare che i professionisti che incontrano (anche quelli che vedono sui
-            social) siano <strong>iscritti all’Albo</strong> e a controllarne{' '}
-            <strong>i titoli</strong>.
+            <Frase chiave="pazienti.verificareunmedico.non_e_un_consiglio_nostro_la" />
           </p>
         </Sezione>
 
@@ -97,16 +95,11 @@ export default function Page() {
             nessun portale scrive. */}
         <Sezione id="noi" titolo={t('pazienti.verificareunmedico.il_nostro_impegno_e_il_suo')}>
           <p>
-            <strong>{t('pazienti.verificareunmedico.l_iscrizione_all_ordine_e_la')}</strong>Ordine e numero stanno <strong>in pagina</strong>, non
-            nascosti in fondo: non perché tocchi a te controllarli, ma perché quello che
-            diciamo resti <strong>riscontrabile</strong> da chiunque, te compreso.
+            <strong>{t('pazienti.verificareunmedico.l_iscrizione_all_ordine_e_la')}</strong>{' '}
+            <Frase chiave="pazienti.verificareunmedico.ordine_e_numero_stanno_in_pagina" />
           </p>
           <p className="mt-[var(--s-13)]">
-            Il limite, detto chiaro: l’albo è pubblico, quindi nome e numero di un medico
-            vero <strong>sono alla portata di chiunque</strong>. Confrontarli con il registro
-            dimostra che quel numero esiste, ⛔ non che chi lo ha scritto sia quella persona.
-            Sono due controlli diversi, e li stiamo tenendo distinti invece di confonderli in
-            un bollino.
+            <Frase chiave="pazienti.verificareunmedico.il_limite_detto_chiaro_l_albo" />
           </p>
           <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>
             {t('pazienti.verificareunmedico.per_questo_su_queste_pagine_non')}

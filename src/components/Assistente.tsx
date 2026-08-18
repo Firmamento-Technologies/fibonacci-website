@@ -1,6 +1,7 @@
 'use client'
 
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import { useId, useRef, useState } from 'react'
 import { CONTACT_EMAIL } from '@/lib/site-config'
 
@@ -154,8 +155,8 @@ export function Assistente() {
           id={`${idCampo}-aiuto`}
           className="mt-[var(--s-5)] text-[0.9375rem]"
           style={{ color: 'var(--fg-muted)' }}
-        >Risponde leggendo <strong>solo le pagine di questo sito</strong>, e cita quali ha usato.
-          Non conosce nulla che non sia già pubblicato qui, e non dà indicazioni cliniche.
+        >
+          <Frase chiave="assistente.risponde_leggendo_solo_le_pagine_di" />
         </p>
 
         <textarea

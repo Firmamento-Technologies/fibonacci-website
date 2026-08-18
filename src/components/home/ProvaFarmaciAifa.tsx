@@ -26,6 +26,7 @@
  */
 
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import { useMemo, useState } from 'react'
 import dati from '@/lib/farmaci-aifa.json'
 
@@ -92,9 +93,8 @@ export function ProvaFarmaciAifa() {
 
       <div className="prova-catalogo__esito" aria-live="polite">
         {!q.trim() && (
-          <p className="prova-viso__vuoto">Si prescrive per <strong>principio attivo</strong>, non per marca. Il foglietto
-            illustrativo e la scheda tecnica sono quelli ufficiali AIFA, a un clic dalla
-            prescrizione.
+          <p className="prova-viso__vuoto">
+            <Frase chiave="home.provafarmaciaifa.si_prescrive_per_principio_attivo_non" />
             <br />
             {t('home.provafarmaciaifa.cerca_una_molecola')}
           </p>

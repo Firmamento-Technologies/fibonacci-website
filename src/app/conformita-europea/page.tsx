@@ -1,5 +1,6 @@
 import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -166,18 +167,13 @@ export default function ConformitaEuropea() {
                   style={{ color: 'var(--on-ink-muted)', maxWidth: '46ch' }}
                 >
                   <p>
-                    Il Regolamento (UE) 2025/327 istituisce lo spazio europeo dei dati sanitari e
-                    detta un quadro armonizzato per i sistemi di cartelle cliniche elettroniche. Si
-                    applica dal <strong style={{ color: 'var(--on-ink)' }}>26 marzo 2027</strong>, e
-                    dal <strong style={{ color: 'var(--on-ink)' }}>26 marzo 2029</strong> per i
-                    sistemi destinati alle categorie prioritarie di dati sanitari.
+                    <Frase chiave="conformitaeuropea.il_regolamento_ue_2025_327_istituisce" />
                   </p>
                   <p>
                     {t('conformitaeuropea.non_e_una_formalita_da_ufficio')}
                   </p>
-                  <p style={{ color: 'var(--on-ink)' }}>Oggi la marcatura <strong>non è apponibile da nessuno</strong>: mancano gli atti
-                    di esecuzione della Commissione sull’ambiente di prova e sul formato europeo di
-                    scambio. Se un fornitore te la dichiara adesso, ti sta dicendo qualcosa su di sé.
+                  <p style={{ color: 'var(--on-ink)' }}>
+                    <Frase chiave="conformitaeuropea.oggi_la_marcatura_non_e_apponibile" />
                   </p>
                 </div>
               </div>
@@ -273,8 +269,8 @@ export default function ConformitaEuropea() {
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
             <Occhiello>{t('conformitaeuropea.non_e_una_nostra_gentilezza')}</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>Poter portare via i dati è un tuo <span className="accento-corsivo">dovere</span>, non
-              una nostra concessione
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>
+              <Enfasi chiave="conformitaeuropea.titolo_poter_portare_via_i_dati" />
             </h2>
             <div
               className="mt-[var(--s-21)] space-y-[var(--s-13)] text-[1.0625rem]"

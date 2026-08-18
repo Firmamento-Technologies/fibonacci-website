@@ -1,5 +1,6 @@
 import { Enfasi } from '@/components/ui/Enfasi'
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Pagina } from '@/components/chrome/Pagina'
@@ -108,9 +109,7 @@ export default function Integrazioni() {
           </div>
           <Reveal>
             <p className="mt-[var(--s-21)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-              Il limite, detto prima: se il tuo fornitore attuale non esporta niente di
-              utilizzabile, te lo diciamo <em>prima</em> di firmare. È un problema che va
-              conosciuto, non scoperto.
+              <Frase chiave="integrazioni.il_limite_detto_prima_se_il" />
             </p>
           </Reveal>
         </div>

@@ -1,4 +1,5 @@
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import { Fragment } from 'react'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -102,10 +103,8 @@ export default function MediciPage() {
       <section className="gabbia">
         <div className="prosa">
           <h2>{t('medici.che_cosa_siamo')}</h2>
-          <p>Fibonacci è due cose. Un <strong>elenco pubblico</strong> di medici e studi di
-            medicina estetica in Italia, compilato leggendo i siti degli studi, che serve a
-            chi cerca uno specialista. E un <strong>gestionale</strong> per lo studio:
-            cartella clinica, consensi, agenda, magazzino.
+          <p>
+            <Frase chiave="medici.fibonacci_e_due_cose_un_elenco" />
           </p>
           <p>
             {t('medici.le_due_cose_sono_collegate_da')}
@@ -122,9 +121,8 @@ export default function MediciPage() {
               <p>{x.testo}</p>
             </Fragment>
           ))}
-          <p>Il listino è <Link href="/prezzi">pubblico</Link>, e{' '}
-            <Link href="/come-funziona">qui</Link> c’è come funziona senza dover parlare
-            con nessuno.
+          <p>
+            <Frase chiave="medici.il_listino_e_pubblico_e_qui" link={['/prezzi', '/come-funziona']} />
           </p>
         </div>
       </section>
@@ -152,8 +150,8 @@ export default function MediciPage() {
       <section className="gabbia">
         <div className="prosa">
           <h2>{t('medici.se_vuoi_parlarne')}</h2>
-          <p>Scrivici a <a href="mailto:info@fibonaccimedica.it">info@fibonaccimedica.it</a>
-            . Non richiamiamo nessuno che non ce l’abbia chiesto.
+          <p>
+            <Frase chiave="medici.scrivici_a_info_non_richiamiamo_nessuno" link={['mailto:info@fibonaccimedica.it']} />
           </p>
         </div>
       </section>

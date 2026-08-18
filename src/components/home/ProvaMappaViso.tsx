@@ -30,6 +30,7 @@
  */
 
 import { t } from '@/lib/testo'
+import { Frase } from '@/components/ui/Frase'
 import { useRef, useState } from 'react'
 import {
   ETICHETTA_AREA,
@@ -185,7 +186,7 @@ export function ProvaMappaViso() {
         </div>
 
         <div className="prova-viso__elenco" aria-live="polite">
-          <p className="prova-viso__titolo">Aree trattate <span>{segnate.length > 0 ? `· ${segnate.length}` : ''}</span>
+          <p className="prova-viso__titolo">{t('home.provamappaviso.aree_trattate')} <span>{segnate.length > 0 ? `· ${segnate.length}` : ''}</span>
           </p>
 
           {segnate.length === 0 ? (
@@ -218,9 +219,7 @@ export function ProvaMappaViso() {
       </div>
 
       <p className="prova-viso__didascalia">
-        È il componente dell’applicazione, non un disegno. Nella cartella ogni area
-        diventa un <code>{t('home.provamappaviso.bodysite')}</code> codificato: è così che poi si può cercare «chi
-        ho trattato alla glabella».
+        <Frase chiave="home.provamappaviso.e_il_componente_dell_applicazione_non" />
       </p>
     </div>
   )

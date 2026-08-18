@@ -276,7 +276,7 @@ function IdentitaSocietaria() {
         <br />
         {SOCIETA.sede.cap} {SOCIETA.sede.comune} ({SOCIETA.sede.provincia}), Italia
       </p>
-      <p className="mt-[var(--s-8)]">Partita IVA <span style={{ color: 'var(--on-ink)' }}>{SOCIETA.partitaIva}</span>
+      <p className="mt-[var(--s-8)]">{t('chrome.footer.partita_iva')} <span style={{ color: 'var(--on-ink)' }}>{SOCIETA.partitaIva}</span>
         {' · '}REA <span style={{ color: 'var(--on-ink)' }}>{SOCIETA.rea}</span>
       </p>
       {SOCIETA.pec && (

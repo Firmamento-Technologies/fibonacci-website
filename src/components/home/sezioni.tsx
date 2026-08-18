@@ -49,7 +49,8 @@ export function Problema() {
           <div>
             <Reveal className="passo">
               <Occhiello>{t('home.sezioni.perche_esistiamo')}</Occhiello>
-              <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>Nessuno apre uno studio per fare l&apos;<span className="accento-corsivo">archivista</span>
+              <h2 className="mt-[var(--s-21)] text-[length:var(--display-2)]" style={{ maxWidth: '16ch' }}>
+                <Enfasi chiave="home.sezioni.titolo_nessuno_apre_uno_studio_per" />
               </h2>
             </Reveal>
 
