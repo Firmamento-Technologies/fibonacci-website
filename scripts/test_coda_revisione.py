@@ -259,5 +259,46 @@ class QuantiMediciNominaIlSito(unittest.TestCase):
         self.assertEqual(self.n("Dott. MANCA THOMAS"), 0)
 
 
+class VocabolarioDelleDecisioni(unittest.TestCase):
+    """🔑 Il vocabolario vive in UN posto: `TIPO_DI` + `SOLO_REGISTRATI`.
+
+    Il difetto che questo presidio chiude era **gia' avvenuto**: `--come`
+    accettava `medico|non-medico|scarta` mentre `_TIPO` conosceva anche
+    `impresa` — e nel registro c'erano **80** decisioni `impresa`, scritte
+    aggirando la riga di comando. ⇒ un esito **usato** ⛔ ma **non scrivibile**
+    dallo strumento che dovrebbe scriverlo, e nessuno se ne accorgeva perche'
+    argparse rifiuta in silenzio *prima* di arrivare al codice che sa gestirlo.
+    """
+
+    def test_argparse_accetta_esattamente_gli_esiti_dichiarati(self):
+        sorgente = (QUI / "coda-revisione.py").read_text(encoding="utf-8")
+        # ⛔ l'elenco ⛔ non deve MAI essere riscritto a mano accanto a `--come`
+        self.assertIn('ap.add_argument("--come", choices=ESITI', sorgente)
+        self.assertNotIn('choices=("medico"', sorgente)
+
+    def test_ogni_esito_che_promuove_ha_un_tipo_di_scheda(self):
+        # `--applica` legge `TIPO_DI`: un esito che promuove senza tipo
+        # scriverebbe `None` nella scheda.
+        for esito, tipo in coda.TIPO_DI.items():
+            self.assertIn(tipo, ("persona", "impresa"), esito)
+
+    def test_i_due_insiemi_non_si_sovrappongono_e_coprono_ESITI(self):
+        # Un esito in tutt'e due gli insiemi verrebbe **promosso e scartato**.
+        self.assertEqual(set(coda.TIPO_DI) & set(coda.SOLO_REGISTRATI), set())
+        self.assertEqual(set(coda.ESITI),
+                         set(coda.TIPO_DI) | set(coda.SOLO_REGISTRATI))
+
+    def test_impresa_e_scrivibile_dalla_riga_di_comando(self):
+        # ⛔ Il caso concreto che mancava: 80 decisioni gia' nel registro.
+        self.assertIn("impresa", coda.ESITI)
+
+    def test_le_istruzioni_stampate_elencano_gli_esiti_VERI(self):
+        # La riga di aiuto nel markdown si costruisce da `ESITI`: se qualcuno
+        # la riscrive a mano, torna a mentire come prima.
+        sorgente = (QUI / "coda-revisione.py").read_text(encoding="utf-8")
+        self.assertIn('"|".join(ESITI)', sorgente)
+        self.assertNotIn("--come medico|non-medico|scarta", sorgente)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

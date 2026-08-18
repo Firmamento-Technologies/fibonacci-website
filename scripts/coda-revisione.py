@@ -237,7 +237,8 @@ def scrivi_md(coda):
         "> ⛔ **Questo file ⛔ non e' l'elenco e ⛔ non pubblica niente.** E' la lista di chi va",
         "> guardato a mano. Rigenerarlo: `python3 scripts/coda-revisione.py --scrivi`.",
         "> Registrare una decisione:",
-        "> `python3 scripts/coda-revisione.py --decisa <dominio> --come medico|non-medico|scarta --nota \"…\"`",
+        "> `python3 scripts/coda-revisione.py --decisa <dominio> --come "
+        + "|".join(ESITI) + " --nota \"…\"`",
         "",
         f"**{len(aperte)} da guardare** su {len(coda)} in coda "
         f"({len(coda)-len(aperte)} gia' decise).",
@@ -341,6 +342,16 @@ def medici_nominati(testo, re_persona, non_nomi=frozenset()):
     return [f"{g[0][0]} {g[0][1]}" for g in gruppi]
 
 
+# 🔑 L'UNICO posto dove vive il vocabolario delle decisioni.
+# ⛔ Non riscriverlo altrove: `--come` e `--applica` lo leggono da qui, e
+# `test_coda_revisione.py` fa fallire chi li fa divergere. Il difetto era
+# reale: `impresa` era gia' usato **80 volte** nel registro ⛔ ma `--come`
+# ⛔ non lo accettava, quindi dalla riga di comando ⛔ non era scrivibile.
+TIPO_DI = {"medico": "persona", "impresa": "impresa"}   # promuovono nell'elenco
+SOLO_REGISTRATI = ("non-medico", "scarta")              # restano fuori
+ESITI = tuple(TIPO_DI) + SOLO_REGISTRATI
+
+
 def gruppo_deciso(coda, con_piva):
     """Le schede del gruppo **A** (`con_piva=True`) o **B** (`False`).
 
@@ -416,7 +427,7 @@ def decisioni_in_blocco(args, decisioni):
     # --applica
     # `medico` → `persona` · `impresa` → `impresa`. ⛔ `non-medico`/`scarta`
     # ⛔ non promuovono: si registrano, ⛔ ma la scheda resta fuori.
-    _TIPO = {"medico": "persona", "impresa": "impresa"}
+    _TIPO = dict(TIPO_DI)
     da_fare = {d: dict(v, tipo=_TIPO[v["come"]]) for d, v in decisioni.items()
                if v.get("come") in _TIPO}
     if not da_fare:
@@ -454,7 +465,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--scrivi", action="store_true", help="scrive la coda (json + markdown)")
     ap.add_argument("--decisa", metavar="DOMINIO", help="registra la decisione su una scheda")
-    ap.add_argument("--come", choices=("medico", "non-medico", "scarta"),
+    ap.add_argument("--come", choices=ESITI,
                     help="l'esito della revisione")
     ap.add_argument("--nota", default="", help="la prova: dove hai visto l'albo, che cosa dice")
     ap.add_argument("--decidi-A", action="store_true",
@@ -469,7 +480,7 @@ def main() -> int:
 
     if args.decisa:
         if not args.come:
-            print("⛔ serve --come medico|non-medico|scarta"); return 2
+            print("⛔ serve --come " + "|".join(ESITI)); return 2
         decisioni[args.decisa] = {"come": args.come, "nota": args.nota}
         DECISIONI.write_text(json.dumps(decisioni, ensure_ascii=False, indent=1, sort_keys=True)
                              + "\n", encoding="utf-8")

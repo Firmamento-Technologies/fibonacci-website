@@ -75,6 +75,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "argena.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la home e /per-prodotto si intestano «Studio Medico ARGENA — Dermatologia e Medicina estetica»: e' uno studio medico, ⛔ nessuna persona nominata"
+ },
  "ariannamilia.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Arianna Milia) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -191,6 +195,14 @@
   "come": "scarta",
   "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — portale locale di notizie"
  },
+ "ccsdentalstudio.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la home scrive «CCS e' l'acronimo di: Cito (Dr. Mario), Corigliano (Dr. Giuseppe), Sarti (Dr. Marco) e siamo Medici Chirurghi e Odontoiatri», con Botox e Filler fra i servizi ⇒ TRE medici ⇒ impresa. ⚠️ La forma «Cognome (Dr. Nome)» ⛔ non e' catturabile da RE_PERSONA"
+ },
+ "cecmedicalcareostia.com": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la pagina /il-nostro-team nomina Rossana Telesca (dermatologa e medico estetico), Florencia Rodriguez (medico chirurgo ed estetico) e Roberta D'Urso (odontoiatra specializzata in medicina estetica del viso) ⇒ TRE mediche ⇒ impresa. ⚠️ ⛔ Nessun «Dott.» davanti: il ruolo sta DOPO il nome"
+ },
  "celmade.co": {
   "come": "scarta",
   "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 916 link a pagine di prodotto e 1 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
@@ -211,9 +223,17 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Mesoterapia. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "centrochirurgiaesteticaroma.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — sito di chirurgia e medicina estetica a Roma con un menu «Equipe» ⇒ piu' professionisti; /medicina-estetica elenca filler, botulino e biorivitalizzazione"
+ },
  "centroconsulenzacollagene.it": {
   "come": "scarta",
   "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — consulenza su un prodotto, ⛔ non uno studio"
+ },
+ "centrodentaledigitale.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — studio dentistico su TRE sedi (Bologna, Modena, Campogalliano) che annuncia un «OPEN DAY SU MEDICINA ESTETICA A BOLOGNA» ⇒ struttura, ⛔ non un singolo. P.IVA 03678491204"
  },
  "centroesteticoalbino.it": {
   "come": "scarta",
@@ -247,6 +267,10 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "centroesteticolisoladelsole.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Centro Estetico L'Isola del Sole»: il menu ha Nails Art, Pedicure, Solarium, Ceretta — e il filler dichiarato e' «HYALURON PEN Filler labbra», cioe' il dispositivo SENZA AGO da estetista (il titolo della scheda e' proprio «Filler senza ago») ⇒ ⛔ nessun atto medico"
+ },
  "centroesteticomoderno.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Mesoterapia. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -254,6 +278,14 @@
  "centroimplantologia.it": {
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Francesco Sacco, Emanuele Sacco, Elettra Sacco, Pierpaolo Sacco) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
+ },
+ "centrolaser-medical.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — /chi-siamo dice testualmente «Il Centro Laser e' uno STUDIO MEDICO AUTORIZZATO per medicina estetica e massofisioterapia»; Massa (MS), P.IVA 00355070459"
+ },
+ "centrosalutevigevano.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — poliambulatorio: il sito ha «Ambulatori» e «Servizi specialistici», P.IVA 02220470187; la privacy indica Letizia Tindiglia c/o Centro Salute Vigevano ⇒ e' il recapito della struttura, ⛔ non un medico nominato"
  },
  "centrosmiledental.it": {
   "come": "medico",
@@ -282,6 +314,10 @@
  "chirurgia-plastica-estetica.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Mario Dini, Stefania Enginoli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "chirurgiaemedicinaestetica.net": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — /chi-siamo dice di se': «e' un PORTALE INFORMATIVO che si pone come obiettivo quello di dare informazioni veritiere… per realizzarlo ci siamo affidati ai migliori professionisti che lavorano a Milano» ⇒ ⛔ non e' uno studio"
  },
  "chirurgiaesteticabertolini.it": {
   "come": "medico",
@@ -367,13 +403,25 @@
   "come": "scarta",
   "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 6 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
+ "cmeit.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Centro Medico Eudermico Italiano — Specialist Medical Center dal 1964», polispecialistico con SETTE recapiti di citta', e la home dichiara il DIRETTORE SANITARIO: «uff. Pellegriti dr. Antonino, medico chirurgo specialista in endocrinologia» ⇒ struttura"
+ },
  "congresso.aicpe.org": {
   "come": "scarta",
   "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — sito di un CONGRESSO"
  },
+ "cosibella.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — salone «Cosi' Bella»: Servizi, Gallery, Promozioni, orari da martedi' a sabato; ⛔ nessun medico nominato, ⛔ nessun termine medico"
+ },
  "costachirurgiaplastica.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Costa») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Mesoterapia) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "criolipolisimilano.eu": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — sito monoprodotto sulla criolipolisi «con Cryoliposculpt Biotec», apparecchiatura estetica; ⛔ nessun medico nominato"
  },
  "cristianobiagi.it": {
   "come": "medico",
@@ -438,6 +486,10 @@
  "dentista-termoli.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. William Susi) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dentistaimpianti.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — studio dentistico a Rezzato (BS): implantologia a carico immediato, gnatologia, posturologia; ⛔ nessuna persona nominata"
  },
  "dentistamanfredonia.it": {
   "come": "medico",
@@ -522,6 +574,10 @@
  "dettaglimedicinaestetica.setmore.com": {
   "come": "scarta",
   "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — `setmore.com`: PIATTAFORMA DI PRENOTAZIONE di terzi"
+ },
+ "dhermoinstitute.com": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — si intesta «CENTRO ESTETICA Rigenerativa Domodossola» e il menu dice «CHI SONO»: e' un'estetista, ⛔ nessun medico nominato"
  },
  "diamondmedical.ch": {
   "come": "scarta",
@@ -715,6 +771,10 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Elvira») · partita IVA 09848120961 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
  },
+ "endermologieroma.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — si intesta «Endermologie Roma | Veronica Luzi BODY DESIGNER», con dietista e manualita' viso; ⛔ nessun titolo medico"
+ },
  "enka.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Enrico Calabrese, Trattamenti Laser, Seno Mastoplastica, Corpo Addominoplastica, Novità Vi) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
@@ -739,6 +799,10 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "esteticaelisa.com": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara «IL TITOLARE DEL TRATTAMENTO DEI DATI E': Estetica Elisa – Via Garibaldi 42/a, Sacile (PN) – C.F. BTTLSE83M48H65…»: persona fisica, ESTETISTA; ⛔ nessun medico"
+ },
  "esteticaimmaginedonna.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ivano Burello) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -746,6 +810,10 @@
  "esteticajonilda.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "esteticakatia.com": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Trattamenti estetici a Montechiarugolo (PR)»; ⛔ nessun medico nominato in nessuna pagina in cache"
  },
  "esteticalarugiada.it": {
   "come": "scarta",
@@ -755,9 +823,17 @@
   "come": "scarta",
   "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 241 link a pagine di prodotto e 1 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
+ "esteticanaturalmenteve.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara «Titolare del trattamento e' Estetica Naturalmente, Via Moglianese 31/A, Scorze' — P.IVA 04121700274»: centro estetico; ⛔ nessun medico"
+ },
  "esteticanuovamem.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "esteticaperfectatorino.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara «il titolare del trattamento e' la PERFECTA DI TRAINA ERICA (P.IVA 12216020011), in persona della sig.ra…»: ditta individuale di un'ESTETISTA, con trucco semipermanente (PMU)"
  },
  "esteticarobertamirandola.it": {
   "come": "scarta",
@@ -779,6 +855,10 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "esteticatreviso.com": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara «L'Estetica DI Eliana Dalla Longa, Valdobbiadene (TV), P.I. 03147050268»: ditta individuale di un'estetista; ⛔ nessun medico"
+ },
  "estetiqmed.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Cornelia») · partita IVA 05212000482 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler)"
@@ -786,6 +866,10 @@
  "estetistairene.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "esthena.net": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la home si intesta «SALONE DI BELLEZZA | Sesto Fiorentino, FI» e vende «mesoterapia SENZA AGHI» ⇒ ⛔ nessun atto medico"
  },
  "estheticlab.beautycheck.it": {
   "come": "scarta",
@@ -875,6 +959,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Michele Maineri) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "fisiohabilita.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — poliambulatorio a Mascalucia (CT), P.IVA 05198070871: DODICI visite specialistiche (fisiatrica, ortopedica, dermatologica, ginecologica, cardiologica…) fra cui «Visita di Medicina Estetica» e «Impianto di filler a base di acido ialuronico» ⇒ e' una struttura sanitaria, ⛔ non un centro fisioterapico"
+ },
  "folliemuggio.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Emil Vodder) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -963,9 +1051,17 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "incantoesteticanoale.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara «Titolare del trattamento e' Incanto DI Stoppani Ilaria, Santa Maria di Sala (VE), P.I. 04356610271»: ditta individuale di un'estetista; il sito vende anche apparecchiature"
+ },
  "ioledangelomedicinaestetica.it": {
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: il titolo è «Iole D'Angelo» e il dominio lo ripete per intero"
+ },
+ "irisstudioestetica.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — /about descrive «un REPARTO ESTETICA», la linea cosmetica Guinot e «una parte dedicata alla consulenza medica estetica» — ⛔ ma il medico ⛔ non e' MAI nominato in nessuna delle 8 pagine in cache"
  },
  "it.ruli.com": {
   "come": "scarta",
@@ -974,6 +1070,10 @@
  "jbaesthetics.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Jarno») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "labclinique.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la home chiude con «“LabClinique” nasce dalla volonta' professionale delle Dott.sse Mary e Lucrezia Cusmai» ⇒ DUE mediche ⇒ impresa. Corato (BA)"
  },
  "labellebleu.eu": {
   "come": "scarta",
@@ -986,6 +1086,10 @@
  "ladottoressarossi.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Rossi») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "lafenicestudio.net": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «La Fenice — Studio Professionale»: epilazione laser, pacchetti drenanti, corsi, apparecchiature a campi magnetici; ⛔ nessun medico nominato"
  },
  "lalunaestetica.it": {
   "come": "scarta",
@@ -1022,6 +1126,10 @@
  "lelisirdellabellezza.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "lesteticaonline.it": {
+  "come": "medico",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — il sito nomina «Dott.ssa Basile M. Gaetana – Medico Estetico» e «– Specialista in…»: UNA sola persona in tutte le pagine ⇒ e' il suo studio. ⚠️ RE_PERSONA ⛔ non la vedeva perche' il nome e' scritto ROVESCIATO (cognome, poi iniziale, poi nome)"
  },
  "lipostamina.com": {
   "come": "medico",
@@ -1095,6 +1203,14 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alessandro Medici) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "medesteticmontesilvano.it": {
+  "come": "medico",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — il sito attribuisce i trattamenti alla «Dott.ssa Di Bartolomeo» (due occorrenze), Montesilvano — Corso Umberto I 271. ⚠️ RE_PERSONA ⛔ non la vedeva perche' c'e' SOLO il cognome, per giunta con la particella"
+ },
+ "medestetik.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — riscaricato il 2026-08-18 (10.573 caratteri): si presenta come «un unico STUDIO ESTETICO», le recensioni parlano di manicure, pedicure e «questo CENTRO ESTETICO… la titolare, Micaela», e la privacy dichiara titolare «Micaela Loberti». «albo» e «iscritt» compaiono ZERO volte ⇒ e' un'estetista"
+ },
  "medicalbeautymilano.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ferraris Giuseppe) · iniettivi dichiarati (Fili di trazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -1106,6 +1222,10 @@
  "medicalprimemonza.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Sandro Carnio) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicina-estetica-asti.it": {
+  "come": "medico",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — il sito scrive «dott. Gabriele M. Boero, esperto in trattamenti…» e «Dott G.M. Boero»: UNA persona ⇒ il suo studio. P.IVA 01510010059. ⚠️ RE_PERSONA ⛔ non lo vedeva per l'INIZIALE PUNTATA in mezzo al nome"
  },
  "medicina-estetica-bologna.it": {
   "come": "medico",
@@ -1295,6 +1415,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Carlo Castelfranchi) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "medicinaesteticatorino.biz": {
+  "come": "medico",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara la ragione sociale per esteso: «Medicina Estetica Torino DI Luciano Ruggieri» — la forma «X di Nome Cognome» e' una DITTA INDIVIDUALE — e il sito si intesta «studio medico crocetta». P.IVA 06656680011"
+ },
  "medicinaesteticaturco.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Luigi Turco) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -1451,6 +1575,10 @@
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Gino Luca, Pagni Gino) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
  },
+ "palermomedicinaestetica.com": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — il sito e' in SPAGNOLO («Tratamientos esteticos con atencion personalizada», robots in spagnolo con fuso America/Argentina) e fra le pagine c'e' /casiku-casino-app-android/ ⇒ ⛔ non e' uno studio italiano"
+ },
  "pamiderm.com": {
   "come": "scarta",
   "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 6 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
@@ -1514,6 +1642,10 @@
  "primamedical.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Carmelo Guarneri, Antonella Di Leo) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "primestetica.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — e' una RIVISTA: «Ultimi articoli», «Cerca articoli», pezzi firmati e datati (Vitalba Ferri, 14 giugno 2026) ⇒ ⛔ non e' uno studio"
  },
  "prpmed.de": {
   "come": "scarta",
@@ -1603,6 +1735,14 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "seasonroses.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la privacy dichiara «Il titolare del trattamento e' Letizia Vinci (Season Rose), Martina Franca»: ditta individuale, ⛔ nessun titolo medico"
+ },
+ "senso-estetico.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Senso Estetico – CENTRO ESTETICO e benessere, Trapani»: make-up, ricostruzione unghie, nail art; ⛔ nessun medico nominato"
+ },
  "sies.net": {
   "come": "scarta",
   "nota": "🟡, letto a mano il 2026-08-18: ⛔ non e' uno studio medico — e' una SOCIETA' SCIENTIFICA (SIES)"
@@ -1618,6 +1758,10 @@
  "skinberica.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Leonardo Rossati) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "slimnowcenter.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «SlimNow CENTRO ESTETICO – Cirie'», con carrello e voucher sconto; la privacy indica «SlimNOW con sede in Cirie'», ⛔ nessuna persona con titolo medico"
  },
  "smilebeautycenter.it": {
   "come": "scarta",
@@ -1646,6 +1790,10 @@
  "stefanolovero.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Stefano Lovero) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "stomatologiconovateweb.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Stomatologico Novate Studio Associato», la home cita «Dr. Aulisio e il suo Staff» e dichiara «un direttore sanitario che segue direttamente ogni terapia» ⇒ studio associato, ⛔ non un singolo. P.IVA 06994390158"
  },
  "studicampagna.it": {
   "come": "medico",
@@ -1759,6 +1907,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Christian Giani, Simona Ferri) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "studioennebigiaffori.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Studio odontoiatrico Affori» a Milano, P.IVA 11219300966: implantologia, ortodonzia, endodonzia; ⛔ nessuna persona nominata"
+ },
  "studioesteticarigenerativa.it": {
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 2 medici: Sabrina Verga, Sergio Montes)"
@@ -1770,6 +1922,10 @@
  "studioesteticolife.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "studiofisiolan.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «STUDIO DI RIABILITAZIONE Bianco Picanza Sanna», Lanciano (CH): back school, pilates, teleriabilitazione ⇒ fisioterapia. I tre cognomi sono fisioterapisti, e un fisioterapista ⛔ non inietta"
  },
  "studiofracassi.it": {
   "come": "scarta",
@@ -1863,6 +2019,10 @@
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Elena Mele) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "studiomedicoponciroli.it": {
+  "come": "medico",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — il menu dice «CHI SONO» al SINGOLARE, con Medicina Estetica e Medicina Generale, e il dominio porta il cognome (Ponciroli); Inveruno (MI) ⇒ studio di un solo medico"
+ },
  "studiomedicorosa.it": {
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 5 medici: Alessandro Rosa, Marco Salvatore, Alfonso Bencivenga, Franco)"
@@ -1870,6 +2030,10 @@
  "studiomedicoruzza.com": {
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: il sito nomina UN medico · «Dermatologa ruzza» nel titolo, «ruzza» nel dominio"
+ },
+ "studiomedicosalus.it": {
+  "come": "impresa",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — «Studio Medico Salus», Via Maremmana III 41, San Cesareo (RM), P.IVA 09063261003: «Salus» e' il nome dello studio, ⛔ non un cognome"
  },
  "studiomedicoscarsolanovara.it": {
   "come": "impresa",
@@ -1946,6 +2110,10 @@
  "teoxane.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "terapiacellulite.it": {
+  "come": "scarta",
+  "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — la home si firma «Sies» ed elenca «About Sies»: e' la SOCIETA' SCIENTIFICA, la stessa gia' scartata come sies.net il 2026-08-18 ⇒ stesso soggetto, stessa decisione"
  },
  "thetweakmentsguide.com": {
   "come": "scarta",
