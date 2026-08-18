@@ -45,8 +45,49 @@ from recapiti_filtri import (  # noqa: E402
 )
 
 QUI = Path(__file__).resolve().parent
-FONTE = QUI.parent / "src/dati/cliniche/_recapiti.json"
-USCITA = QUI.parent / "src/dati/cliniche/_recapiti-classificati.json"
+CARTELLA = QUI.parent / "src/dati/cliniche"
+FONTE = CARTELLA / "_recapiti.json"
+USCITA = CARTELLA / "_recapiti-classificati.json"
+
+
+def carica_schede():
+    """`dominio → scheda`, dai file per comune di `src/dati/cliniche/`.
+
+    🔴 **Esiste perché il 18 agosto questo script ha dato una risposta sbagliata
+    per difetto**, e l'utente l'ha vista subito: *«solo 256 liberi
+    professionisti abbiamo trovato??? che ricerca è?»*.
+
+    Il secondo asse (l'art. 4(1): «identifica una persona fisica?») guardava
+    **la parte prima della `@`** e concludeva che `info@michelasalmaso.com`
+    ⛔ non identificasse nessuno, mentre **la scheda dice `Michela Salmaso`**.
+    ⇒ contava **256** persone fisiche dove ce n'erano **almeno 448**.
+
+    🔑 E il dato giusto **c'era già**: ogni scheda porta `tipoSoggetto` e
+    `ragioneClassificazione`, calcolati durante la raccolta guardando forma
+    societaria, partita IVA, iscrizione all'albo e nome della struttura. Questo
+    script ne aveva scritto una **seconda** versione, peggiore, che li ignorava.
+    ⇒ ⛔ non indovinare ciò che la raccolta ha già deciso: **leggilo**.
+
+    ⚠️ La nota di limite c'era, stampata **sotto il numero** («un nome
+    commerciale che contiene un cognome identifica comunque una persona»), e
+    ⛔ non ha presidiato niente: chi legge prende il numero. Un avvertimento
+    ⛔ non è un presidio.
+    """
+    schede = {}
+    for f in sorted(CARTELLA.glob("*.json")):
+        if f.name.startswith("_"):
+            continue
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        voci = d if isinstance(d, list) else d.get("studi", d.get("cliniche", []))
+        if isinstance(voci, dict):
+            voci = list(voci.values())
+        for v in voci:
+            if isinstance(v, dict) and v.get("dominio"):
+                schede[v["dominio"]] = v
+    return schede
 
 # Domini che ⛔ non sono di nessuno studio: segnaposto dei modelli di sito e
 # elenchi telefonici da cui la scheda e' stata presa.
@@ -99,7 +140,8 @@ def pulisci_nome(nome: str) -> str:
     return re.sub(r"^\d+\s*(Numero telefonico dell['’]utenza)?\s*", "", nome or "").strip()
 
 
-def classifica(dati: dict) -> list[dict]:
+def classifica(dati: dict, schede: dict | None = None) -> list[dict]:
+    schede = schede if schede is not None else carica_schede()
     # Un dominio che serve PIU' studi diversi ⛔ non e' il sito di uno studio:
     # e' un'agenzia, un gruppo o un portale. Si deduce dai dati, ⛔ non da un
     # elenco scritto a mano, cosi' un portale nuovo viene preso il giorno stesso.
@@ -129,22 +171,39 @@ def classifica(dati: dict) -> list[dict]:
             esito, perche = "usare", "dominio che serve solo questo studio"
 
         # Il taglio del GDPR, e ⛔ SOLO su chi passa il primo.
-        # ⚠️ La domanda dell'art. 4(1) e' «identifica una persona fisica?».
+        # ⚠️ La domanda dell'art. 4(1) e' «identifica una persona fisica?», e la
+        # risposta sta nella SCHEDA (nome, forma societaria, partita IVA,
+        # iscrizione all'albo), ⛔ non nella parte prima della @.
         locale = email.split("@", 1)[0] if "@" in email else ""
-        base = re.split(r"[._-]", locale)[0]
-        di_ruolo = base in RUOLO or locale in RUOLO
+        scheda = schede.get(chiave, {})
+        tipo = (scheda.get("tipoSoggetto") or "").strip()
+        ragione = (scheda.get("ragioneClassificazione") or "").strip()
 
         if FISICA.search(nome):
             soggetto, perche_s = "fisica", "il nome contiene un titolo personale"
-        elif not di_ruolo:
-            soggetto, perche_s = "fisica", f"l'indirizzo sembra personale ({locale}@)"
+        elif tipo == "persona":
+            soggetto, perche_s = "fisica", f"la scheda dice «persona»: {ragione}"
+        elif tipo == "impresa":
+            soggetto, perche_s = "giuridica", f"la scheda dice «impresa»: {ragione}"
+        elif tipo in ("incerto", "", "non_pertinente", "non_medico"):
+            # 🔴 «incerto» ⛔ NON diventa «non identifica nessuno»: sarebbe
+            # esattamente il modo in cui il numero e' sceso a 256. Resta una
+            # categoria propria, che si vede nel rapporto e va guardata.
+            soggetto, perche_s = "da-guardare", (
+                f"la scheda dice «{tipo or 'vuoto'}»: {ragione or 'nessuna ragione registrata'}")
+        elif not scheda:
+            # ⚠️ Ripiego dichiarato: nessuna scheda per questo dominio (schede
+            # non ancora committate). Si torna all'euristica sull'indirizzo, e
+            # ⛔ nel dubbio si dice «fisica», ⛔ non «nessuno».
+            base = re.split(r"[._-]", locale)[0]
+            if base in RUOLO or locale in RUOLO:
+                soggetto, perche_s = "da-guardare", "nessuna scheda: indirizzo di ruolo, soggetto ignoto"
+            else:
+                soggetto, perche_s = "fisica", f"nessuna scheda: indirizzo personale ({locale}@)"
         elif GIURIDICA.search(nome):
-            soggetto, perche_s = "giuridica", "forma societaria nel nome, indirizzo di ruolo"
+            soggetto, perche_s = "giuridica", "forma societaria nel nome"
         else:
-            # Nome commerciale + indirizzo di ruolo: ⛔ nessuna persona
-            # identificata. ⚠️ Resta il caso del nome che CONTIENE un cognome
-            # («Studio Rossi»): ⛔ non lo distingue una regola, va guardato.
-            soggetto, perche_s = "non-identifica", "nome commerciale e indirizzo di ruolo: nessuna persona identificata"
+            soggetto, perche_s = "da-guardare", "scheda senza tipo: da guardare"
 
         fuori.append({
             "chiave": chiave, "nome": nome, "email": email,
@@ -166,7 +225,8 @@ def main() -> int:
     args = ap.parse_args()
 
     dati = json.loads(FONTE.read_text(encoding="utf-8"))
-    righe = classifica(dati)
+    schede = carica_schede()
+    righe = classifica(dati, schede)
 
     print(f"── {len(righe)} recapiti ──\n")
     print("Indirizzo:")
@@ -175,19 +235,26 @@ def main() -> int:
         print(f"  {n:5}  {100*n/len(righe):5.1f}%  {esito}")
     print("\nSoggetto (solo per i 'usare'):")
     usabili = [r for r in righe if r["esito"] == "usare"]
-    for s in ("fisica", "giuridica", "non-identifica"):
+    for s in ("fisica", "giuridica", "da-guardare"):
         n = sum(1 for r in usabili if r["soggetto"] == s)
         print(f"  {n:5}  {100*n/len(usabili):5.1f}%  {s}")
 
     dovuta = [r for r in righe if r["informativa_dovuta"]]
     print(f"\n⇒ INFORMATIVA ART. 14 DOVUTA E SPEDIBILE: {len(dovuta)}")
     giur = sum(1 for r in usabili if r["soggetto"] == "giuridica")
-    noid = sum(1 for r in usabili if r["soggetto"] == "non-identifica")
+    noid = sum(1 for r in usabili if r["soggetto"] == "da-guardare")
     print(f"  (da {len(righe)}: -{len(righe)-len(usabili)} indirizzi da scartare o verificare, "
-          f"-{giur} persone giuridiche, -{noid} schede che NON identificano nessuno)")
-    print("\n⚠️ Limite noto dei 'non-identifica': un nome commerciale che CONTIENE un")
-    print("   cognome («Studio Rossi» + info@studiorossi.it) identifica comunque una")
-    print("   persona. Una regola ⛔ non lo distingue: va guardato un campione a mano.")
+          f"-{giur} persone giuridiche, -{noid} da guardare)")
+    print(f"\n📇 Schede lette per decidere il soggetto: {len(schede)}")
+    senza = sum(1 for r in righe if r["chiave"] not in schede)
+    if senza:
+        print(f"⚠️  {senza} recapiti ⛔ NON hanno una scheda in `src/dati/cliniche/`:")
+        print("    per loro si ripiega sull'indirizzo, che e' il criterio DEBOLE.")
+    print("\n🔴 I 'da-guardare' ⛔ NON sono «nessuna persona identificata»: sono i casi")
+    print("   che la raccolta ha lasciato aperti (nessuna forma societaria e nessun")
+    print("   nome di struttura e' spesso proprio un libero professionista).")
+    print("   ⛔ Contarli come «non dovuta» e' l'errore che il 18 agosto ha fatto")
+    print("   scendere il numero da 448 a 256.")
     print("\n⚠️ I 'verificare' NON sono esclusi dall'obbligo: sono esclusi dall'INVIO")
     print("   finche' non si sa a chi appartiene quell'indirizzo. Per loro resta")
     print("   l'informativa pubblicata, e vanno guardati a mano.")
