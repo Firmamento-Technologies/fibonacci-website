@@ -130,5 +130,38 @@ class CheCosaLaCodaNONFa(unittest.TestCase):
         self.assertEqual(r["decisa"], {"come": "medico", "nota": "albo"})
 
 
+class IlNomeProprioDopoIlTitolo(unittest.TestCase):
+    """Separa `Dott.ssa Monica Congiu` da `Chirurgo Plastico a Milano`."""
+
+    def test_riconosce_un_nome_proprio(self):
+        for t, att in (("Dott.ssa Monica Congiu", "Monica"),
+                       ("Dott. Mario Loris Alagni", "Mario"),
+                       ("Dr. Salvatore Rao", "Salvatore")):
+            self.assertEqual(coda.nome_proprio(t), att, t)
+
+    def test_le_MAIUSCOLE_contano_come_nome(self):
+        self.assertEqual(coda.nome_proprio("DOTT.SSA GABRIELLA FRATTINI"), "GABRIELLA")
+
+    def test_la_bandiera_re_I_serve(self):
+        # 🔴 Senza `re.I` il modello cerca `dott` minuscolo e nei titoli c'e'
+        # `Dott.ssa`: il gruppo A contava **1** scheda invece di 38, ⛔ senza
+        # protestare. Questo test lo prende.
+        self.assertIsNotNone(coda.nome_proprio("Dott.ssa Monica Congiu"))
+        self.assertIsNotNone(coda.nome_proprio("DR. MARIO ROSSI"))
+
+    def test_una_QUALIFICA_non_e_un_nome(self):
+        for t in ("Chirurgo Plastico a Milano", "Studio Medico Gioana",
+                  "Dott. Dentista a Rho", "Dr. Chirurgo Estetico"):
+            self.assertIsNone(coda.nome_proprio(t), t)
+
+    def test_le_parole_d_interfaccia_non_sono_nomi(self):
+        # 🔴 Cercando nel CORPO della pagina si estraeva «Prenota» da «Dott…
+        # Prenota una visita», e la regola prometteva a `persona` l'ASL di
+        # Novara e un giornale locale. ⇒ si guarda solo il NOME della scheda,
+        # e queste parole restano escluse comunque.
+        for t in ("Dott. Prenota una visita", "Dr. Contatti", "Dott. Scopri di piu'"):
+            self.assertIsNone(coda.nome_proprio(t), t)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

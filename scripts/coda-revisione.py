@@ -134,6 +134,44 @@ def valuta(v):
     return "da-guardare", "nessun titolo e nessun lessico di estetica: si apre il sito"
 
 
+# 🔑 «Nome proprio dopo il titolo»: serve a separare `Dott.ssa Monica Congiu`
+# da `Chirurgo Plastico a Milano`. ⚠️ Le parole qui sotto sono **qualifiche**,
+# ⛔ non nomi.
+_QUALIFICA = {
+    "chirurgo", "chirurga", "medico", "medica", "dentista", "dermatologo", "dermatologa",
+    "odontoiatra", "odontoiatri", "specialista", "estetico", "estetica", "plastico", "plastica",
+    "maxillo", "studio", "centro", "clinica", "poliambulatorio", "ambulatorio", "medicina",
+    "chirurgia", "laser", "nutrizionista", "fisioterapista", "psicologo", "veterinario",
+    # ⚠️ Parole d'**interfaccia**: ⛔ non compaiono nel nome di una scheda, ⛔ ma se
+    # un giorno qualcuno estendesse `nome_proprio()` al corpo della pagina si
+    # ritroverebbe «Dott… **Prenota** una visita» ⇒ «il nome proprio è Prenota».
+    # 🔴 È successo il 2026-08-18 in una misura, e la regola prometteva a
+    # `persona` **l'ASL di Novara** e un **giornale locale**.
+    "prenota", "prenotazioni", "contatti", "contattaci", "scopri", "leggi", "chiama",
+    "tutto", "home", "seguici", "richiedi",
+}
+# ⚠️ `re.I` **serve**: senza, il modello cerca `dott` minuscolo e nei titoli dei
+# siti c'e' `Dott.ssa`. Misurato: senza la bandiera il gruppo A contava **1**
+# scheda invece di 38, e ⛔ non protestava.
+_TITOLO_NOME = re.compile(
+    r"\b(?:dott(?:oressa|ore|or)?|dr|prof)\.?\s*(?:ssa)?\.?\s+([A-ZÀ-Ù][A-Za-zÀ-ÿ'’]{2,15})",
+    re.I)
+
+
+def nome_proprio(testo):
+    """La prima parola dopo un titolo professionale che ⛔ non sia una qualifica.
+
+    ⚠️ Si guarda **solo il nome della scheda**, ⛔ mai il corpo della pagina:
+    misurato il 2026-08-18, cercando nel testo si estraeva «**Prenota**» da
+    «Dott… Prenota una visita», e la regola prometteva a `persona` **l'ASL di
+    Novara** e un **giornale locale**.
+    """
+    for w in _TITOLO_NOME.findall(testo or ""):
+        if w.lower() not in _QUALIFICA:
+            return w
+    return None
+
+
 ORDINE = ["medico-probabile", "da-guardare", "segnale-contrario", "senza-collocazione"]
 ETICHETTA = {
     "medico-probabile": "🟢 MEDICO PROBABILE",
@@ -241,6 +279,78 @@ def scrivi_md(coda):
     CODA_MD.write_text("\n".join(righe) + "\n", encoding="utf-8")
 
 
+def decisioni_in_blocco(args, decisioni):
+    """`--decidi-A` registra il gruppo A · `--applica` lo scrive nelle schede.
+
+    🔑 **Perché passa da un file di decisioni e ⛔ non da una regola nel
+    classificatore.** Provato e **misurato** il 2026-08-18: il criterio del
+    gruppo A ⛔ non si può scrivere in `classifica()`, perché lì manca il pezzo
+    che lo rende sicuro — **«dichiara un iniettivo»**, che sta nelle
+    `prestazioni` della scheda e ⛔ non nel testo che il classificatore riceve.
+    Provandolo lo stesso, la regola prometteva **l'ASL di Novara** e un
+    **giornale locale**.
+    ⇒ la decisione è **di prodotto, presa su una popolazione già filtrata**, e
+    si registra come tale: con **chi**, **quando** e **la prova**.
+
+    ⚠️ Sopravvive a `--riclassifica` perché quel ripasso è **monotòno** e
+    ⛔ non declassa mai un `persona`. ⛔ Ma ⛔ NON sopravvive a una raccolta
+    nuova sullo stesso dominio, che ricalcola la scheda da zero: per quello
+    servirebbe che `analizza()` leggesse questo file. → voce aperta.
+    """
+    schede = carica()
+    coda = costruisci(schede, decisioni)
+
+    if args.decidi_A:
+        gruppo = [r for r in coda
+                  if r["gruppo"] == "medico-probabile"
+                  and nome_proprio(r["nome"]) and r["partitaIva"]]
+        for r in gruppo:
+            decisioni[r["dominio"]] = {
+                "come": "medico",
+                "nota": (f"gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il "
+                         f"titolo («{nome_proprio(r['nome'])}») · partita IVA {r['partitaIva']} · "
+                         f"⛔ nessuna forma societaria · ⛔ nessun nome di struttura · "
+                         f"iniettivi dichiarati ({', '.join(r['iniettivi'])})"),
+            }
+        DECISIONI.write_text(json.dumps(decisioni, ensure_ascii=False, indent=1, sort_keys=True)
+                             + "\n", encoding="utf-8")
+        print(f"✓ registrate {len(gruppo)} decisioni «medico» (gruppo A) in {DECISIONI.name}")
+        print("  ⇒ ⛔ le schede NON sono ancora cambiate: `--applica` per scriverle.")
+        return 0
+
+    # --applica
+    da_fare = {d: v for d, v in decisioni.items() if v.get("come") == "medico"}
+    if not da_fare:
+        print("⛔ nessuna decisione «medico» registrata: prima `--decidi-A`.")
+        return 0
+    scritte, gia = 0, 0
+    for f in sorted(CARTELLA.glob("*.json")):
+        if f.name.startswith("_"):
+            continue
+        try:
+            righe = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        tocca = False
+        for s in righe if isinstance(righe, list) else []:
+            if not isinstance(s, dict) or s.get("dominio") not in da_fare:
+                continue
+            if s.get("tipoSoggetto") == "persona":
+                gia += 1
+                continue
+            s["tipoSoggetto"] = "persona"
+            s["ragioneClassificazione"] = da_fare[s["dominio"]]["nota"]
+            s["escluso"] = False
+            s["motivoEsclusione"] = ""
+            scritte += 1
+            tocca = True
+        if tocca:
+            f.write_text(json.dumps(righe, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"✅ {scritte} schede portate a «persona» ({gia} lo erano già)")
+    print("   La ragione scritta nella scheda porta la prova, ⛔ non solo l'esito.")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--scrivi", action="store_true", help="scrive la coda (json + markdown)")
@@ -248,6 +358,10 @@ def main() -> int:
     ap.add_argument("--come", choices=("medico", "non-medico", "scarta"),
                     help="l'esito della revisione")
     ap.add_argument("--nota", default="", help="la prova: dove hai visto l'albo, che cosa dice")
+    ap.add_argument("--decidi-A", action="store_true",
+                    help="registra come «medico» il gruppo A: nome proprio dopo il titolo E partita IVA")
+    ap.add_argument("--applica", action="store_true",
+                    help="SCRIVE nelle schede le decisioni gia' registrate (tipoSoggetto=persona)")
     args = ap.parse_args()
 
     decisioni = json.loads(DECISIONI.read_text(encoding="utf-8")) if DECISIONI.is_file() else {}
@@ -260,6 +374,9 @@ def main() -> int:
                              + "\n", encoding="utf-8")
         print(f"✓ {args.decisa} → {args.come}" + (f" ({args.nota})" if args.nota else ""))
         return 0
+
+    if args.decidi_A or args.applica:
+        return decisioni_in_blocco(args, decisioni)
 
     schede = carica()
     if not schede:
