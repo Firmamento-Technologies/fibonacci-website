@@ -1,4 +1,8 @@
 {
+ "adaesthetics.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Alessandra Mattiucci, Sandro Rizzato, Alessandro Dall’) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "aeaugusta.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -7,6 +11,10 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Evelyn») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "agemedica.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Antonio Toscano, Katia Forcella) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "agostinobruno.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -14,6 +22,22 @@
  "alopecia24.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "altheabiomedica.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 8 medici (Silvio Saba, Valentina Saba, Marco Ferazzani, Daniele Gensini, Raoul Mauro, Andrea Zampier) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "anemostudio.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Ilaria Berto, Lorenza De Paoli, Luciano Blasetti) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "antonioiodice.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Antonio Iodice) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "antoniottaviani.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Antonio Ottaviani) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "apmedicinaestetica.com": {
   "come": "scarta",
@@ -39,25 +63,93 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "beautymedicals.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Barbara Marziani) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "beautystudium.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Enrico Volpin) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "biomedgroup.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "biomedichc.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Silvia Tomasutti) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "blefaroplastica-torino.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Massimo Dolcet) · iniettivi dichiarati (Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "borsalino17.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Piercarlo») · partita IVA 01306730068 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Tossina botulinica)"
  },
+ "botulino.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Piercarlo Masolini) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "botulinofirenze.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giovanni Salti) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "brdental.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giuseppe Reitano) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "breathcy.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "bruciagrassopotenza.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Simona Pomarico) · iniettivi dichiarati (Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "caeremedical.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 6 medici (Giulia Montazzoli, Pietro Donato, Federica Lauria, Pasquale Marco, Fabio Infusino, Riccard) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "calvizie.net": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "centro-dentistico.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Ana Zoia, Giordano Valerio, Bydanova Olga, Grandesso Dario, Stefu Jasmina) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "centroimplantologia.it": {
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Francesco Sacco, Emanuele Sacco, Elettra Sacco, Pierpaolo Sacco) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
+ },
+ "centrosmiledental.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alessia Polverino) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "chipla.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Giuseppe Lombardo, Serena Tamburino, Marcello Gulino) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "chipra.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Claudio Pinzetta, Andreas Ambach, Armin Simeoni, Mario San) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "chirurgestetica.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Nicola Pittoni) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "chirurgia-albania.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Pedro Alexandre, Matteo Cimmino, Walid Eljabu, Raniero Orsini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "chirurgia-plastica-estetica.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Mario Dini, Stefania Enginoli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "chirurgiaesteticabertolini.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Lino Bertolini) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "chirurgiaesteticagenova.it": {
   "come": "medico",
@@ -103,6 +195,10 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Dario») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "chirurgiaplasticapiemonte.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Daniele Bollero) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "chirurgoesteticotorino.com": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Salvatore») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -110,6 +206,10 @@
  "chirurgomaxillofacciale.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Francesco Sacco) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "cldmedicinaestetica.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Chiara Lo Dato) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "costachirurgiaplastica.it": {
   "come": "medico",
@@ -119,17 +219,53 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "damasalus-chirurgia.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Daniela Arbore, Michele Roberto) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "dariobertossi.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Dario Bertossi) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "davinci.al": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "delamed.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alberto Ferraglio) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dentalc.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Clementina Candela) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "dentalcenterrho.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Bosotti») · partita IVA 10992200153 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
+ "dentalfamilymarino.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Franco D'Ambrosio, Miriam Fabbrizi, Federica Rendo, Sarah Agostinelli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "dentalinedisklinik.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Aylin Aktar) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dentalvstudio.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Rosario Valenti) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dentalwellnessgigliotti.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Diego Gigliotti) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "dentista-termoli.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. William Susi) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dentistamanfredonia.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maridora Tubazio) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "derecamilot.it": {
   "come": "medico",
@@ -146,6 +282,10 @@
  "dermatologia-ferrara.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Maria») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "dermatologiaestetica.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Matteo Basso, Emanuela Di Lella) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "dermatologiaestetica.it": {
   "come": "medico",
@@ -179,9 +319,29 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Michele») · partita IVA 01669830018 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Mesoterapia)"
  },
+ "dermatologoserenrosso.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maurizio Seren) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "diamondmedical.ch": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "dietologosalerno.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Raffaella Galdieri) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "digebeau.net": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alberto Bologna) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "djmedical.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Dania Janniello) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "doctoralia.es": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Ali Nowrouzi, Norberto Seva, Helena Escolà, Sergio Maroto, Javier Hernández) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "doctormedica.co": {
   "come": "scarta",
@@ -190,6 +350,10 @@
  "domenicocampa.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Campa») · partita IVA 10210391214 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Fili di trazione, Filler, Tossina botulinica)"
+ },
+ "domenicomiccolis.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Domenico Miccolis) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "dorsia.es": {
   "come": "scarta",
@@ -215,9 +379,21 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Pensa») · partita IVA 01446690115 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler)"
  },
+ "dottoressaranza.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alessandra Ranza) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "dottoressasalsidermatologa.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Benedetta Salsi) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dottorpan.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ivan Pan) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "dottpellapaolo.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Paolo Pella) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "dr-blaas.it": {
   "come": "medico",
@@ -239,6 +415,10 @@
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Vittoria Isola) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "drleggett.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Lee Read, Lee The) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "drluciolaghi.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Lucio») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -259,13 +439,29 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Baker») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Fili di trazione, Filler, Mesoterapia, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "drtarico.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maria Stella) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "dsaesthetic.com": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Dario Scognamiglio) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "duepuntiderma.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maria Nadia) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "eccellenzesanitarie.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "eco109.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Simone Ugo) · iniettivi dichiarati (Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "eips.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Stavrou Meet, Theodora Papavasiliou, Stavrou'nun Uzman) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "elviragentile.com": {
   "come": "scarta",
@@ -275,13 +471,49 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Elvira») · partita IVA 09848120961 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
  },
+ "enka.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Enrico Calabrese, Trattamenti Laser, Seno Mastoplastica, Corpo Addominoplastica, Novità Vi) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "estetica.nebiolovietti.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Roberto Nebiolo) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "estetica24.eu": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Balocco Riccardo) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "esteticaimmaginedonna.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ivano Burello) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "esteticasicura.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Merlino Chiama) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "estetiqmed.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Cornelia») · partita IVA 05212000482 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler)"
  },
+ "eumeki.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Antonio Capraro) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "faceboost.org": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "facesmilexperts.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Pietro Vavalli, Sandra Bertollini, Anna Maria) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "farmaciaamodeo.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 9 medici (Francesco Indirizzo, Francesco Amodeo, Rosanna Vinciguerra, Gabriella Amodeo, Cristina Amo) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "farmaciadelbivio.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 10 medici (Alessandro Gardini, Elisa Moretti, Giulia Tonetti, Andrea Brogna, Lucrezia Galbucci, Barba) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "farmaciapaludo.com": {
   "come": "scarta",
@@ -291,6 +523,10 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Erika») · partita IVA 02023410760 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
+ "fillerialuronico.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giovanni Salti) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "fillerlabbracatania.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giuseppe») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -298,6 +534,14 @@
  "fillerroma.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Gabriele») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "fillervarese.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Michele Maineri) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "folliemuggio.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Emil Vodder) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "foursurgery.it": {
   "come": "impresa",
@@ -307,13 +551,41 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Gioia») · partita IVA 04377611209 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
+ "glbeauty.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Luigi Castaldo, Giuseppe Quarto) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "gloriaestetica.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ivano Burello) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "gmaesthetic.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giulia Marin) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "goldclinique.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 6 medici (Andrea Aru, Silvia Caria, Maurizio Ledda, Antonio Lasia, Gianluca Demelas, Zoe Serra) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "healthycent.com": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Deetjen») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "ialuronicofirenze.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giovanni Salti) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "ilchirurgoestetico.com": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Sergio Delfino) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "ildentistadifamiglia-cornaredo.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Francesco Rizzi) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "ilmedicoestetico.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Riccardo Giordano) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "imehelvetia.com": {
   "come": "scarta",
@@ -331,6 +603,18 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Rossi») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "lasermillennium.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Franco Muzi) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "lipostamina.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giovanni Benfenati) · iniettivi dichiarati (Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "lookfantastic.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Jart Dolce, Barbara Sturm, Althea Elemis) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "luccioli.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Luccioli») · partita IVA 04969980483 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler)"
@@ -338,6 +622,38 @@
  "luxurydentalconvvertito.wordpress.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "mariagraziarosella.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maria Grazia) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "mariodini-rinoplastica.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Mario Dini, Stefania Enginoli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "massimomacridelgiudice.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Massimo Macrì) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "matteogaravaglia.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Matteo Garavaglia) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medermal.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alessandro Medici) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicalbeautymilano.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ferraris Giuseppe) · iniettivi dichiarati (Fili di trazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicalprimemonza.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Sandro Carnio) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicina-estetica-bologna.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Piero Notarrigo) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "medicinaestetica-mb.com": {
   "come": "medico",
@@ -347,9 +663,25 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Maria») · partita IVA 04664010016 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica)"
  },
+ "medicinaestetica.citylifeinstitute.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Cristiano Capuzzo) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaestetica.dentalhousevelletri.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Garadia Moccia) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "medicinaesteticaalagni.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Mario») · partita IVA 02837060736 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
+ },
+ "medicinaesteticabarak.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maya Barak) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticabattaglia.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mario Loris) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "medicinaesteticabenevento.it": {
   "come": "medico",
@@ -359,9 +691,17 @@
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Barbara Gunnella) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "medicinaesteticabrescia.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giancarlo Nervi) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "medicinaesteticabrindisi.com": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Porro») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "medicinaesteticacatania.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mirko Campisi) · iniettivi dichiarati (Biostimolazione, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "medicinaesteticacatania.it": {
   "come": "medico",
@@ -375,6 +715,10 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Stefano») · partita IVA 12296020014 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica)"
  },
+ "medicinaesteticaelba.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Monica Rognini) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "medicinaesteticaesalutegenova.com": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Roberto») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -387,17 +731,69 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giuseppe») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "medicinaesteticagreco.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Domenico Greco) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticagrosseto.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Alessandra Mencarelli, Carlo Alberto) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "medicinaesteticaks.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Katia Siviero) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticaleone.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Angelo Leone) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticamanfredonia.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Elena Ricci) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticamansi.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Armando Mansi) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "medicinaesteticamaxim.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Tatiana») · partita IVA 12413910014 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
+ },
+ "medicinaesteticamessina.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Giuseppe Picarella, Alessandro Picarella) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "medicinaesteticamilano.com": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giuseppe») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "medicinaesteticamoderna.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Marco Mannucci) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "medicinaesteticanoninvasiva.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giovanni») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "medicinaesteticaorlandini.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Maria Cristina, Davide Tonini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "medicinaesteticaortadiatella.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Cesario Ferrante) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticaparabiago.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Oleg Vrabie) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticapescara.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Fabiana Quaranta, Daniela De Rubeis) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "medicinaesteticapiemonte.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Daniel Navarro) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "medicinaesteticaroma.com": {
   "come": "medico",
@@ -411,9 +807,33 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Cavallero») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "medicinaesteticasasso.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Filomena Sasso) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticataranto.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Enrica Petraroli) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticativoli.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Carlo Castelfranchi) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticaturco.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Luigi Turco) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticaviso.milano.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alexandrina Ciobanu) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "medico-estetico-rao.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Salvatore») · partita IVA 02087240830 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
+ },
+ "medicoesteticobergamo.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giuseppina Albani) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "medicoesteticobrescia.it": {
   "come": "medico",
@@ -423,6 +843,14 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («PORRO») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "mediestetic.info": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Stella Messina) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "meso.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Stefano Marcelli, Michel Pistor) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "mgestetica22.com.ar": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -431,13 +859,29 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "miaestetica.it": {
+  "come": "scarta",
+  "nota": "gruppo 🟡, 2026-08-18: il nome dichiara un PORTALE, ⛔ non uno studio. Nomina piu' medici perche' li elenca, ⛔ non perche' ci lavorino"
+ },
  "milanomedicinaestetica.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Spada») · partita IVA 02340350814 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
  },
+ "milojevic.hr": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Sabrina Eye) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "moniamaritan.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Monia Maritan) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "monicacongiu.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Monica») · partita IVA 01455940914 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Mesoterapia, Tossina botulinica)"
+ },
+ "morselli.org": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Ralph Millard, Paolo Morselli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "musachirurgiaplastica.it": {
   "come": "impresa",
@@ -447,13 +891,33 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Maria») · partita IVA 02276320997 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
  },
+ "mypersonalantiaging.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Raffaella Lavinia) · iniettivi dichiarati (Fili di trazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "neurotossinabotulinica.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "nuovamedicinaestetica.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Chiara Compagno) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "oculista-kaneva-tzanova.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Petia») · partita IVA 02667870360 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica)"
+ },
+ "odontoiatraseregno.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Maurizio Matrangola, Ruggero Tagliabue, Viviana Vaglica, Gregorio Redaelli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "odontoiatriaemedicinaestetica.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Tomas Marco, Tomas Joosten) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "onechirurgiaestetica.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Jacopo Dei, Jacupo Dei) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "otorinocagliari.it": {
   "come": "medico",
@@ -463,6 +927,10 @@
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Gino Luca, Pagni Gino) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
  },
+ "parkderm.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 8 medici (Glodny’s Favorites, Warner’s Favorites, Queen’s Favorites, Yoon’s Favorites, Jesse Yoon, B) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "paviamedicinaestetica.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Carenzio») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -471,29 +939,105 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Pier») · partita IVA 18282921008 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
+ "pierpaolorovatti.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Pier Paolo) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "plasticsurgery.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Francesco Alia) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "plexrmilano.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Francesco Rizzi, Giorgio Fippi) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "plmedicinaestetica.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Cinzia Pedemonte) · iniettivi dichiarati (Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "politerapico.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Franco Ghiazza, Giovanni Rechichi) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "prenota.medicinaesteticaostia.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Aldo Alessi) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "primaelisa.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Maria Elisa) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "primamedical.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Carmelo Guarneri, Antonella Di Leo) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "pvmedica.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Pasquale Virciglio) · iniettivi dichiarati (Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "rbmedicinaestetica.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Raffaella Benvenuto) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "rdamedicinaestetica.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Rosaria D'Ambrosio, Rosaria D’Ambrosio) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "renzulliodontoiatria.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giulia Renzulli) · iniettivi dichiarati (Biostimolazione) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "rigenerativa.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Fabio Cerullo) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "rimozionetatuaggibergamo.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alberto Ferraglio) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "rimuoverefiller.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Luca Fracasso) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "romamedicoestetico.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Luca Carotenuto) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "rubenscenter.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Rebecca Rossi) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "salvatricelarosa.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Salvatrice La Rosa) · iniettivi dichiarati (Biostimolazione) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "samosgroup.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Maurizio») · partita IVA 00017798885 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
+ "sanpieroodontoiatria.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Elena Mei) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "sapadental.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Alessandra Mancini, Patrizia Sabatini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "saramei.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mei Trattamenti) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "scuolasuperioremedicinaestetica.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "skinberica.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Leonardo Rossati) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "soluzionesudore.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Calogero Porrello) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "soniapanedermatologo.com": {
   "come": "medico",
@@ -507,25 +1051,121 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "springstderm.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Jelena Vasic, Erica Dommasch, Nadia Kihiczak) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "stefanolovero.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Stefano Lovero) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "studicampagna.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Nunzio») · partita IVA 05919430875 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica)"
+ },
+ "studidentisticifallucchi.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Fallucchi Antonio) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "studiderma.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "studiobenedent.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mozzillo Raffaella) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiocontinibali.dental": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Miriam Conti) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiodentisticobaldari.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Andrea Baldari) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiodentisticocosta.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giuseppe Costa) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiodentisticodanna.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Doroty D'Anna, Paolo D'Anna, Giada Levantino) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "studiodentisticodrazzi.it": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Roberto») · partita IVA 00786320531 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica)"
+ },
+ "studiodentisticoleonardi.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Silvia Leonardi) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiodentisticolivorno.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Mario Scarpellini, Chiara Scarpellini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticomonnalisa.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Andrea Benevento, Guido Del Prete, Vittoria De Simone, Carmela Assante) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticoraco.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 13 medici (Giuseppe Raco, Giovanni Raco, Andrea Raco, Guido Grippaudo, Giorgio Pompa, Roberto Pistill) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticoricca.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Ricca Fabio, Ricca Giulia) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticosacco.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Francesco Sacco, Emanuele Sacco, Elettra Sacco, Pierpaolo Sacco) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticovisca.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Giovanni Visca, Laura Visca, Laura La Dottoressa) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticozotti.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Rinaldo Zotti, Francesca Zotti, Michele Franco) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodermatologiaromeo.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Romeo Fabio, Romeo di Reggio) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodermatologico.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Leonardo Bevilaqua) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiodermatologicoaiello.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Francesco Saverio) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiodermatologiconovarese.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Christian Giani, Simona Ferri) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studioguadagno.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Ivano Guadagno, Denise Guadagno, Nicholas Guadagno, Adele Di Mauro) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
  "studioharmonia.it": {
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Federico Sentinelli, Andrea Poletti) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
  },
+ "studiolabomed.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Grazia Bonanni, Aurora La Gioia, Federica Celesti) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiomarzolini.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Simone Marzolini, Stefano Marzolini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "studiomedicoalexander.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Patti Gesualdo) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiomedicodermatologico-asta.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Asta Francesco) · iniettivi dichiarati (Fili di trazione, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "studiomedicoelia.it": {
   "come": "impresa",
@@ -534,6 +1174,14 @@
  "studiomedicoeos.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alba Haya) · iniettivi dichiarati (Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiomedicoestetico.mybestshops.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giambattista Mauro) · iniettivi dichiarati (Biostimolazione) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiomedicoetherea.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ermanno Colloca) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "studiomedicofranceschelli.it": {
   "come": "medico",
@@ -559,13 +1207,37 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («MARISA») · partita IVA 00525270187 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler)"
  },
+ "studionice.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mario Gioia) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studioodontoiatricoedestetico.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Silvia Saracino) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studioodontoiatriconegro.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alberto Negro) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studioorecchio.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Francesco Orecchio, Gianfranco Orecchio) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "studioregenesis.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "studiorosatobeatrice.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 6 medici (Beatrice Rosato, Andrea Rosato, Francesca Trovato, Martina Gasperotti, Letizia Di Blasio, ) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "studiosaladino.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "studiosezioneaurea.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Noemi Vicchio) · iniettivi dichiarati (Biostimolazione, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
  "superinformati.com": {
   "come": "scarta",
@@ -575,6 +1247,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "symeoudental.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Makis Symeou, Elva Symeou, Gaetano Pisano) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
  "teoxane.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -583,12 +1259,48 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "todoestetica.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. David Stoker) · iniettivi dichiarati (Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "tricodramma.com": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Silvia Cianchi) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "usob.it": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "vdermastudio.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Gian Marco) · iniettivi dichiarati (Biostimolazione, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
  "venus.ai": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "vichy.it": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Luigia Panariello, Valeria Saveri) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "vincenzopadovano.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Vincenzo Padovano) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "vivianaparis.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Paris Viviana) · iniettivi dichiarati (Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "vrmedicinaestetica.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Viktorija Radcuka) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "youchirurgiaplastica.com": {
+  "come": "impresa",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Gabriele Cricrì, Valentina Lerro) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "youplast.it": {
+  "come": "medico",
+  "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giuseppe Manzo) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  }
 }

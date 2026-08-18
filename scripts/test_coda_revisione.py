@@ -8,6 +8,7 @@ appartiene a un elenco di medici.
 """
 import importlib.util
 import sys
+import re
 import unittest
 from pathlib import Path
 
@@ -197,6 +198,65 @@ class IDueGruppiDecisi(unittest.TestCase):
         # promuove: «Studio Medico X» puo' essere uno studio con piu' medici.
         c = self._coda()
         self.assertIsNone(coda.nome_proprio(c["c.it"]["nome"]))
+
+
+class QuantiMediciNominaIlSito(unittest.TestCase):
+    """La prova che decide `persona` da `impresa`, e le sue due deduplicazioni."""
+
+    RP = re.compile(r"\b(?i:dott(?:oressa|ore|or)?|dr|prof)\.?(?i:\s?ssa)?\.?\s+"
+                    r"([A-ZÀ-Ù][a-zà-ù'’]{2,15})\s+"
+                    r"((?:(?i:d[ei]|d[ae]l|d[ae]lla|l[ao])\s+)?"
+                    r"[A-ZÀ-Ù](?:['’][A-ZÀ-Ù])?[a-zà-ù'’]{2,15})\b")
+
+    # ⚠️ Le parole del mestiere si **passano**, come fa il chiamante vero.
+    NON_NOMI = frozenset({"medicina", "estetica", "milano", "roma", "chirurgia"})
+
+    def n(self, t):
+        return len(coda.medici_nominati(t, self.RP, self.NON_NOMI))
+
+    def test_le_parole_del_mestiere_NON_sono_medici(self):
+        # 🔴 Senza passarle, «Dott. Medicina Estetica» veniva contato come un
+        # medico: i siti con «un solo medico» passavano da 112 a 39 e la misura
+        # si ribaltava.
+        # ⚠️ Si usa «Roma Milano»: «estetica» sta **gia'** in `_NON_NOMI` del
+        # modulo, quindi ⛔ non dimostrerebbe che l'elenco passato serva.
+        self.assertEqual(self.n("Dott. Roma Milano"), 0)
+        self.assertEqual(len(coda.medici_nominati("Dott. Roma Milano", self.RP)), 1,
+                         "senza l'elenco passato, le parole del mestiere passano per medici")
+
+    def test_uno_solo_e_due_diversi(self):
+        self.assertEqual(self.n("Dott. Mario Rossi"), 1)
+        self.assertEqual(self.n("Dott. Mario Rossi, Dott.ssa Anna Bianchi"), 2)
+
+    def test_lo_STESSO_nome_ripetuto_e_una_persona_sola(self):
+        # 🔴 Il caso piu' semplice, e l'ho perso riscrivendo la funzione:
+        # fondendo solo sulla «posizione diversa», la coppia IDENTICA ⛔ non si
+        # fondeva. «Massimo Macrì» risultava **4 medici**, e il suo studio
+        # finiva fra le imprese.
+        self.assertEqual(self.n("Dott. Mario Rossi. Il dott. Mario Rossi riceve. "
+                                "Scrivi al dott. Mario Rossi"), 1)
+
+    def test_l_ORDINE_invertito_e_la_stessa_persona(self):
+        self.assertEqual(self.n("Dott. Manca Thomas, Dott. Thomas Manca"), 1)
+
+    def test_un_nome_a_TRE_parole_e_una_persona_sola(self):
+        # «Maria Grazia Rosella» produce «Maria Grazia» e «Rosella Maria».
+        self.assertEqual(self.n("Dott.ssa Maria Grazia e Dott. Rosella Maria"), 1)
+        self.assertEqual(self.n("Dott. Stefano Lovero, Dott. Lovero Skip"), 1)
+
+    def test_ma_DUE_FRATELLI_restano_due(self):
+        # 🔴 Il caso che vieta di fondere ogni coppia che condivide un token:
+        # «Umberto Longo» e «Filippo Longo» condividono il **cognome**, e sono
+        # due persone. Il discriminante e' la **posizione** del token condiviso.
+        self.assertEqual(self.n("Dott. Umberto Longo e Dott. Filippo Longo"), 2)
+
+    def test_limite_i_nomi_TUTTI_MAIUSCOLI_non_vengono_visti(self):
+        # ⚠️ **Dichiarato, ⛔ non nascosto**: `RE_PERSONA` vuole le minuscole
+        # dopo la prima lettera, quindi «Dott. MANCA THOMAS» ⛔ non produce
+        # nessuna coppia. Il test esiste per ⛔ non far credere che il caso sia
+        # coperto — la prima stesura lo dava per funzionante e verificava il
+        # confronto in minuscolo su un dato che ⛔ non arrivava mai.
+        self.assertEqual(self.n("Dott. MANCA THOMAS"), 0)
 
 
 if __name__ == "__main__":

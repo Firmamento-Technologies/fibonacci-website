@@ -279,6 +279,68 @@ def scrivi_md(coda):
     CODA_MD.write_text("\n".join(righe) + "\n", encoding="utf-8")
 
 
+# ⛔ Parole che RE_PERSONA cattura ma ⛔ non sono nomi.
+_NON_NOMI = {"menu", "chirurgo", "chirurga", "radiografia", "odontoiatria", "dermatologo",
+             "dermatologa", "estetico", "estetica", "plastico", "plastica", "associato",
+             "prenota", "contatti", "medico", "medica", "studio", "centro", "clinica"}
+
+
+def medici_nominati(testo, re_persona, non_nomi=frozenset()):
+    """I medici **distinti** nominati nel testo, con nome e cognome.
+
+    🔑 **Perche' e' la prova che conta.** Un sito che nomina **un solo** medico
+    e' lo studio di quel medico; uno che ne nomina **piu' d'uno** e' uno studio
+    con piu' medici — cioe' un'impresa, che nell'elenco ci sta comunque, ⛔ ma
+    con l'etichetta giusta.
+
+    ⚠️ **Due deduplicazioni, e la seconda ⛔ non e' ovvia**:
+    1. **l'ordine**: «Manca Thomas» e «Thomas Manca» sono la stessa persona ⇒ si
+       confronta l'**insieme** dei due token, ⛔ non la stringa;
+    2. **i nomi a TRE parole**: «Maria Grazia Rosella» produce le coppie
+       «Maria Grazia» e «Rosella Maria», che condividono «maria» ⇒ sembrano due
+       persone. 🔴 ⛔ Ma ⛔ non si possono fondere tutte le coppie che
+       condividono un token: «Umberto **Longo**» e «Filippo **Longo**» sono
+       **due fratelli**, e condividono il cognome.
+       ✅ Il discriminante e' la **posizione**: nel nome a tre parole il token
+       condiviso sta in posizioni **diverse** (2ª e 1ª); fra due fratelli sta
+       nella **stessa** (il cognome, sempre 2ª).
+    """
+    coppie = []
+    for a, b in re_persona.findall(testo or ""):
+        # ⚠️ `non_nomi` si **riceve**, ⛔ non si ricopia: l'elenco vero e'
+        # `PAROLE_NON_NOME` in `raccolta-cliniche.py`, e una seconda copia
+        # divergerebbe. 🔴 Senza, «Medicina Estetica» finiva **contato fra i
+        # medici**: i siti con «un solo medico» passavano da 112 a 39, cioe' la
+        # misura si ribaltava.
+        fuori = _NON_NOMI | non_nomi
+        if a.lower() in fuori or b.lower() in fuori or a.lower() == b.lower():
+            continue
+        coppie.append((a, b))
+    gruppi = []                       # ogni gruppo = una persona
+    for a, b in coppie:
+        ta, tb = a.lower(), b.lower()
+        for g in gruppi:
+            for (xa, xb) in g:
+                # ⚠️ **In minuscolo da entrambe le parti**: la prima versione
+                # confrontava `ta` (minuscolo) con `xb` (com'era scritto), e
+                # ⛔ non fondeva mai niente — «thomas» ⛔ non e' «Thomas».
+                # 🔴 **Tre casi, e il primo l'avevo perso riscrivendo**: la
+                # coppia IDENTICA (lo stesso nome ripetuto nella pagina), che
+                # ⛔ non condivide token «in posizione diversa» e quindi ⛔ non
+                # si fondeva. Misurato: «Massimo Macrì» contato **4 volte**, e
+                # il suo studio finiva fra le imprese.
+                if ({ta, tb} == {xa.lower(), xb.lower()}          # identica o invertita
+                        or ta == xb.lower() or tb == xa.lower()):  # nome a tre parole
+                    g.append((a, b))
+                    break
+            else:
+                continue
+            break
+        else:
+            gruppi.append([(a, b)])
+    return [f"{g[0][0]} {g[0][1]}" for g in gruppi]
+
+
 def gruppo_deciso(coda, con_piva):
     """Le schede del gruppo **A** (`con_piva=True`) o **B** (`False`).
 
