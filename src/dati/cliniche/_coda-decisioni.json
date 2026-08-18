@@ -167,6 +167,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 5 medici (Ana Zoia, Giordano Valerio, Bydanova Olga, Grandesso Dario, Stefu Jasmina) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "centro-keiron.com": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina UN SOLO medico (dott. Giuseppe Scalera) · iniettivi: Filler"
+ },
  "centrobenesserepompeo.com": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Mesoterapia. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -335,6 +339,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "deaclinique.com": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina UN SOLO medico (dott. Carlo De Feo) · iniettivi: Filler, Tossina botulinica"
+ },
  "delamed.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alberto Ferraglio) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -455,6 +463,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Alberto Bologna) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "ditraniodontoiatria.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 4 medici (Giuseppe Di Trani, Silvia Sabatini, Rebecca Bonavolontà, Roberta Giunt) ⇒ studio con piu' medici"
+ },
  "djmedical.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Dania Janniello) · iniettivi dichiarati (Biostimolazione, Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -558,6 +570,10 @@
  "drluciolaghi.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Lucio») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "drmatildelucchesi.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 3 medici (Matilde Lucchesi, Luciano Ghirardi, Fabrizio Ghirardi) ⇒ studio con piu' medici"
  },
  "drnunziata-chirurgiaplastica.it": {
   "come": "medico",
@@ -722,6 +738,10 @@
  "folliemuggio.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Emil Vodder) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "fotomedicina.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: il sito nomina 1 medici, ⛔ MA ⛔ non e' italiano — comune «Barcelona», CAP 08022 (Spagna). Trovato guardando la scheda prima di scrivere"
  },
  "foursurgery.it": {
   "come": "impresa",
@@ -1235,6 +1255,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Rosaria D'Ambrosio, Rosaria D’Ambrosio) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "refreshmedical.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: il sito nomina 2 medici, ⛔ MA ⛔ non e' italiano — comune «Forest», telefono (561) 246-5115 (Florida). Trovato guardando la scheda prima di scrivere"
+ },
  "renzulliodontoiatria.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giulia Renzulli) · iniettivi dichiarati (Biostimolazione) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -1335,9 +1359,21 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "studiobattipaglia.com": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina UN SOLO medico (dott. Tina Battipaglia) · iniettivi: Biostimolazione, Fili di trazione"
+ },
+ "studiobelsito.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 4 medici (Enrico Maria, Giacomo Riccio, Camilla Sharf, Camilla Scharf) ⇒ studio con piu' medici"
+ },
  "studiobenedent.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mozzillo Raffaella) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiobrunettiferroni.it": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina UN SOLO medico (dott. Massimo Brunetti) · iniettivi: Biostimolazione, Filler, Tossina botulinica"
  },
  "studiocontinibali.dental": {
   "come": "medico",
@@ -1366,6 +1402,10 @@
  "studiodentisticolivorno.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Mario Scarpellini, Chiara Scarpellini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "studiodentisticomagrini.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 4 medici (Paolo Magrini, Mario Magrini, Angiolina Montemurro, Martina De Pace) ⇒ studio con piu' medici"
  },
  "studiodentisticomonnalisa.it": {
   "come": "impresa",
@@ -1435,9 +1475,17 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Simone Marzolini, Stefano Marzolini) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "studiomedicoalbierodeganutti.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 2 medici (Alberto Maria, Stefano Deganutti) ⇒ studio con piu' medici"
+ },
  "studiomedicoalexander.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Patti Gesualdo) · iniettivi dichiarati (Biostimolazione, Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studiomedicoaurorapinerolo.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 2 medici (Albertini Gianfranco, Borri Franco) ⇒ studio con piu' medici"
  },
  "studiomedicodermatologico-asta.it": {
   "come": "medico",
@@ -1490,6 +1538,10 @@
  "studionice.it": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Mario Gioia) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "studioodontoiatricodalporto.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 7 medici (Giorgio Dal Porto, Raffaele Dal Porto, Giacomo Dal Porto, Alessandro M) ⇒ studio con piu' medici"
  },
  "studioodontoiatricoedestetico.it": {
   "come": "medico",
@@ -1558,6 +1610,10 @@
  "valet.it": {
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 0 medici: ⛔ nessuno)"
+ },
+ "vangloy.com": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: letta la pagina «chi siamo / team», che la raccolta ⛔ non aveva scaricato — nomina 9 medici (Silvio Abatangelo, Domenico Abate, Anna Maria, Martina Abblasio, Franc) ⇒ studio con piu' medici"
  },
  "vdermastudio.it": {
   "come": "medico",
