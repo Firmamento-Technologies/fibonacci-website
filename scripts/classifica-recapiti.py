@@ -40,7 +40,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from recapiti_filtri import _e_nominativa, _origine_non_propria  # noqa: E402
+from recapiti_filtri import (  # noqa: E402
+    _e_nominativa, _origine_non_propria, studi_per_dominio,
+)
 
 QUI = Path(__file__).resolve().parent
 FONTE = QUI.parent / "src/dati/cliniche/_recapiti.json"
@@ -194,8 +196,8 @@ def main() -> int:
         # ⚠️ Il filtro definitivo sta nel raccoglitore (`costruisci-db.py`): questo
         # e' il rimedio sul file GIA' scritto, per non dover rifare la raccolta.
         # ⛔ Non e' un doppione: e' la **stessa** funzione, importata.
-        conta = collections.Counter(
-            (v.get("email") or "").strip().lower().split("@")[-1] for v in dati.values()
+        conta = studi_per_dominio(
+            ((v.get("nome") or ""), v.get("email")) for v in dati.values()
         )
         tenute = {
             k: v for k, v in dati.items()

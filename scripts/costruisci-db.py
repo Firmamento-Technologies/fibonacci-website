@@ -167,7 +167,9 @@ PUBBLICATI = os.path.join(USCITA, "_pubblicati.json")
 RECAPITI = os.path.join(USCITA, "_recapiti.json")
 
 
-from recapiti_filtri import _e_nominativa, _origine_non_propria  # noqa: E402
+from recapiti_filtri import (  # noqa: E402
+    _NON_PROPRI, _e_nominativa, _origine_non_propria, studi_per_dominio,
+)
 
 
 def scrivi_recapiti(db):
@@ -218,27 +220,38 @@ def scrivi_recapiti(db):
         "SELECT dominio, nome, email, origine FROM studi "
         "WHERE email IS NOT NULL AND email != ''"))
 
-    # Quante volte compare ogni dominio: serve a riconoscere i portali e le
-    # agenzie, e va contato **prima** di filtrare.
-    conta = {}
-    for _, _, e, _ in grezze:
-        dom = (e or "").strip().lower().split("@")[-1]
-        conta[dom] = conta.get(dom, 0) + 1
+    # Quali studi DISTINTI compaiono per ogni dominio: serve a riconoscere i
+    # portali e le agenzie, e va costruito **prima** di filtrare.
+    # ⚠️ Nomi distinti, ⛔ non righe: due righe dello stesso studio ⛔ non fanno
+    # di un dominio un portale (misurato: ne perdeva 20).
+    conta = studi_per_dominio((n, e) for _, n, e, _ in grezze)
 
-    righe, tolte_nome, tolte_origine = {}, 0, 0
+    righe, tolte_nome, tolte_elenco, tolte_dominio = {}, 0, 0, 0
     for d, n, e, o in grezze:
         if _e_nominativa(e):
             tolte_nome += 1
             continue
         if _origine_non_propria(e, conta):
-            tolte_origine += 1
+            dom = (e or "").strip().lower().split("@")[-1]
+            if any(p in dom for p in _NON_PROPRI):
+                tolte_elenco += 1
+            else:
+                tolte_dominio += 1
             continue
         righe[d] = {"nome": n, "email": e, "origine": o}
 
-    # ⚠️ Si **stampa** che cosa è stato tolto: un filtro silenzioso è un filtro
-    # che nessuno accorge quando smette di funzionare.
-    print(f"   scartati per l'informativa: {tolte_nome} indirizzi nominativi, "
-          f"{tolte_origine} da portali/agenzie/segnaposto")
+    # ⚠️ Si stampa che cosa è stato tolto **e per quale motivo, uno per uno**.
+    # 🔴 La riga con il solo totale c'era già, ed è servita a niente: il
+    # 18 agosto diceva «306 scartati» mentre **122 erano tolti per la ragione
+    # sbagliata** (studi che usano Gmail, e righe doppie dello stesso studio).
+    # Un filtro che toglie sembra sempre che stia lavorando: serve la
+    # **ripartizione**, ⛔ non la somma.
+    print(f"   scartati per l'informativa: {tolte_nome} nominativi · "
+          f"{tolte_elenco} portali/segnaposto noti · "
+          f"{tolte_dominio} dominio condiviso da studi diversi")
+    if tolte_dominio > len(grezze) // 10:
+        print(f"   ⚠️  {tolte_dominio} tolti per «dominio condiviso» sono TANTI: "
+              f"guarda quali domini sono, ⛔ non fidarti del totale.")
 
     json.dump(righe, open(RECAPITI, "w", encoding="utf-8"),
               ensure_ascii=False, indent=0, sort_keys=True)
@@ -377,6 +390,19 @@ def interroga(db):
 
 
 if __name__ == "__main__":
+    # ⚠️ `--riesporta` riscrive **solo** `_recapiti.json` dall'archivio già
+    # raccolto, senza rete.
+    # 🔴 Serve perché `scrivi_recapiti()` sta dentro `costruisci()`: quando
+    # cambia un **filtro** (18 agosto: due correzioni che restituivano 111
+    # recapiti tolti per errore), la correzione ⛔ non arriva ai dati finché
+    # qualcuno non rifà la raccolta intera. E `classifica-recapiti.py --applica`
+    # ⛔ non aiuta: sa **togliere**, ⛔ non rimettere.
+    if "--riesporta" in sys.argv:
+        if not os.path.exists(DB):
+            sys.exit("⛔ non c'è `directory.sqlite`: serve una raccolta prima.")
+        scrivi_recapiti(sqlite3.connect(DB))
+        sys.exit(0)
+
     db = sqlite3.connect(DB) if "--prova" in sys.argv and os.path.exists(DB) else costruisci()
     interroga(db)
     print("\n⛔ Database LOCALE: ⛔ non è raggiungibile dal sito e ⛔ non entra nella build.")

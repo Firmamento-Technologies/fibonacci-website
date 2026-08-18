@@ -34,13 +34,14 @@ questo progetto ha gia' pagato piu' volte.
 
 from __future__ import annotations
 
-import collections
 import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from recapiti_filtri import _e_nominativa, _origine_non_propria  # noqa: E402
+from recapiti_filtri import (  # noqa: E402
+    _e_nominativa, _origine_non_propria, studi_per_dominio,
+)
 
 FONTE = Path(__file__).resolve().parent.parent / "src/dati/cliniche/_recapiti.json"
 
@@ -53,8 +54,8 @@ def main() -> int:
         return 0
 
     dati = json.loads(FONTE.read_text(encoding="utf-8"))
-    conta = collections.Counter(
-        (v.get("email") or "").strip().lower().split("@")[-1] for v in dati.values()
+    conta = studi_per_dominio(
+        ((v.get("nome") or ""), v.get("email")) for v in dati.values()
     )
     nominativi = [v["email"] for v in dati.values() if _e_nominativa(v.get("email", ""))]
     estranei = [

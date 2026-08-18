@@ -43,6 +43,22 @@ _RUOLO = {
     "assistenza", "supporto", "privacy", "pec", "fatture", "fatturazione", "sede",
 }
 
+# 🔴 Caselle di posta GRATUITE. Stanno qui perché il segno «lo stesso dominio
+# compare per più studi» ⛔ NON vale per loro: `gmail.com` compare per **83**
+# studi diversi ⛔ non perché sia un'agenzia, ma perché 83 studi usano Gmail, e
+# `mariorossi@gmail.com` è **il recapito dello studio**, esattamente come lo è
+# `info@mariorossi.it`.
+# ⚠️ Misurato il 2026-08-18, dopo che il filtro aveva tolto **102** recapiti
+# legittimi per questa ragione: 83 gmail, 6 libero, 6 hotmail, 3 alice,
+# 2 tiscali, 2 virgilio. ⇒ togliere il recapito di uno studio perché usa Gmail
+# è ⛔ il contrario di quello che il filtro doveva fare.
+_POSTA_GRATUITA = {
+    "gmail.com", "googlemail.com", "libero.it", "hotmail.com", "hotmail.it",
+    "outlook.com", "outlook.it", "live.it", "live.com", "yahoo.it", "yahoo.com",
+    "alice.it", "virgilio.it", "tiscali.it", "tin.it", "icloud.com", "me.com",
+    "fastwebnet.it", "aruba.it", "pec.it", "email.it", "inwind.it", "teletu.it",
+}
+
 # Domini che ⛔ non sono di nessuno studio: segnaposto dei modelli di sito ed
 # elenchi/portali da cui la scheda può essere stata letta.
 _NON_PROPRI = (
@@ -71,13 +87,29 @@ def _e_nominativa(email):
     return len(pezzi) >= 2 and all(p.isalpha() and len(p) > 2 for p in pezzi[:2])
 
 
-def _origine_non_propria(email, dominio_conta):
+def _origine_non_propria(email, studi_per_dominio):
     """Vero se l'indirizzo ⛔ non viene dal sito dello studio.
+
+    `studi_per_dominio` è `dominio → insieme dei NOMI di studio distinti`.
 
     Due segni, e il secondo si **deduce dai dati**: un dominio che compare per
     **più studi diversi** ⛔ non è il sito di uno studio, è un portale, un gruppo
     o l'agenzia che ha fatto i siti. Dedurlo invece di elencarlo a mano fa sì
     che un portale nuovo venga preso **il giorno stesso**.
+
+    🔴 **Due correzioni misurate il 2026-08-18**, dopo aver contato che cosa il
+    filtro toglieva davvero (**306** righe, ⛔ non le poche attese):
+
+    1. **le caselle gratuite sono escluse dal secondo segno** (`_POSTA_GRATUITA`):
+       condividere `gmail.com` ⛔ non dice niente su chi possiede l'indirizzo, e
+       il filtro stava buttando **102** recapiti di studi veri;
+    2. **si contano i NOMI distinti, ⛔ non le righe**: prima bastavano due righe
+       *dello stesso studio* (duplicati in archivio) perché il suo dominio
+       sembrasse condiviso, e se ne perdevano altri **20**.
+
+    ⚠️ La lezione generale, che vale oltre questo file: un filtro che toglie va
+    **contato per categoria** prima di crederlo giusto. Qui sembrava sano e
+    toglieva **122 righe su 306 per la ragione sbagliata**, cioè il **40%**.
     """
     email = (email or "").strip().lower()
     if "@" not in email:
@@ -85,7 +117,22 @@ def _origine_non_propria(email, dominio_conta):
     dom = email.split("@", 1)[1]
     if any(p in dom for p in _NON_PROPRI):
         return True
-    return dominio_conta.get(dom, 0) > 1
+    if dom in _POSTA_GRATUITA:
+        return False
+    return len(studi_per_dominio.get(dom, ())) > 1
 
 
+def studi_per_dominio(righe):
+    """`dominio → insieme dei nomi di studio distinti`, da `(nome, email)`.
 
+    ⚠️ Sta **qui** e ⛔ non nei tre chiamanti: erano tre `Counter` copiati, e la
+    correzione del 18 agosto avrebbe dovuto essere fatta in tre posti, cioè
+    dimenticata in due. È lo stesso motivo per cui i filtri stanno in questo file.
+    """
+    mappa = {}
+    for nome, email in righe:
+        e = (email or "").strip().lower()
+        if "@" not in e:
+            continue
+        mappa.setdefault(e.split("@", 1)[1], set()).add((nome or "").strip().lower())
+    return mappa
