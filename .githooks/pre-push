@@ -96,6 +96,28 @@ if ! node scripts/lingue-sorgenti.mjs; then
   exit 1
 fi
 
+# ── I TEST PYTHON DEGLI SCRIPT SUI DATI ─────────────────────────────────────
+#
+# 🔴 **Aggiunti il 2026-08-18, e il motivo e' che non li lanciava NESSUNO.**
+# `test_recapiti_filtri.py`, `test_coda_revisione.py` e `test_cerca_albo.py`
+# erano nel repo, verdi, e ⛔ mai eseguiti: il cancello controllava solo il
+# JavaScript. E' la forma peggiore di presidio — chi lo vede smette di cercare.
+#
+# ⚠️ Sono i test degli script che decidono **chi finisce nell'elenco** e **quali
+# recapiti si tengono**: se regrediscono in silenzio, il danno ⛔ non si vede
+# guardando il sito.
+for t in scripts/test_*.py; do
+  [ -e "$t" ] || continue
+  if ! python3 "$t" >/tmp/_pytest_out 2>&1; then
+    echo
+    echo "⛔ PUSH BLOCCATO: $t è rosso."
+    tail -25 /tmp/_pytest_out
+    echo "   Emergenza: COLLAUDO=0 git push"
+    exit 1
+  fi
+done
+echo "✅ test python degli script sui dati: verdi"
+
 if [ ! -d out ]; then
   echo "⚠️  \`out/\` non c'è: costruisci prima (\`npm run build\`), oppure COLLAUDO=0."
   exit 1

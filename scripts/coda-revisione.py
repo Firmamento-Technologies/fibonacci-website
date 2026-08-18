@@ -51,6 +51,7 @@ CARTELLA = QUI.parent / "src/dati/cliniche"
 CODA_JSON = CARTELLA / "_coda-revisione.json"
 CODA_MD = CARTELLA / "_coda-revisione.md"
 DECISIONI = CARTELLA / "_coda-decisioni.json"
+ALBO = CARTELLA / "_coda-albo.json"
 
 # Atti che un centro estetico ⛔ non esegue: iniezioni. Sono il motivo per cui
 # la scheda entra in coda.
@@ -174,8 +175,24 @@ def costruisci(schede, decisioni):
     return coda
 
 
+def albo_trovato():
+    """`dominio → prova dell'albo`, se `cerca-albo.py` e' gia' passato.
+
+    🔑 Sta **qui** e ⛔ non in un secondo file da aprire a parte: chi rivede
+    guarda **una** tabella. Una prova che vive in un altro file e' una prova che
+    nessuno legge.
+    ⚠️ Se il file ⛔ non c'e', la colonna dice **«?»**, ⛔ non «no»: sono due
+    cose diverse, e confonderle e' come dire «zero problemi» quando la misura
+    ⛔ non e' stata fatta.
+    """
+    if not ALBO.is_file():
+        return None
+    return {e["dominio"]: e["albo"] for e in json.loads(ALBO.read_text(encoding="utf-8"))}
+
+
 def scrivi_md(coda):
     aperte = [r for r in coda if not r["decisa"]]
+    albi = albo_trovato()
     righe = [
         "# Coda di revisione — chi dichiara di iniettare ed e' fuori dall'elenco",
         "",
@@ -187,6 +204,12 @@ def scrivi_md(coda):
         f"**{len(aperte)} da guardare** su {len(coda)} in coda "
         f"({len(coda)-len(aperte)} gia' decise).",
         "",
+        (f"✅ **Albo gia' cercato**: trovato per **{sum(1 for v in albi.values() if v)}** "
+         f"schede (`scripts/cerca-albo.py`). La colonna **albo** porta la prova."
+         if albi is not None else
+         "⚠️ **L'albo ⛔ non e' ancora stato cercato**: la colonna dice `?`, che ⛔ non e' «no».\n"
+         "> Si cerca con `python3 scripts/cerca-albo.py --rete --scrivi`."),
+        "",
         "⚠️ **La domanda da farsi aprendo il sito** e' una sola: **c'e' un medico dietro?**",
         "Il segno migliore e' l'**iscrizione all'albo**, e ⛔ quasi mai sta in homepage:",
         "sta nelle **note legali** e nell'**informativa privacy**, che deve nominare il titolare.",
@@ -197,12 +220,23 @@ def scrivi_md(coda):
         if not blocco:
             continue
         righe += [f"## {ETICHETTA[g]} — {len(blocco)}", "", f"*{blocco[0]['perche']}*", "",
-                  "| # | nome | dove | iniettivi | P.IVA | sito |", "|--:|---|---|---|---|---|"]
+                  "| # | nome | dove | albo | iniettivi | P.IVA | sito |",
+                  "|--:|---|---|---|---|---|---|"]
         for i, r in enumerate(blocco, 1):
             dove = f"{r['comune']} ({r['provincia']})" if r["comune"] else "n/d"
             piva = r["partitaIva"] or "n/d"
-            righe.append(f"| {i} | {r['nome'][:44]} | {dove} | {', '.join(r['iniettivi'])} "
-                         f"| {piva} | {r['sito']} |")
+            if albi is None:
+                col = "?"
+            elif not albi.get(r["dominio"]):
+                col = "—"
+            else:
+                a = albi[r["dominio"]]
+                col = (f"🟢 {a['provincia']} n. {a['numero']}" if a["numero"]
+                       else "🟡 citato, senza numero")
+                if a["conDirettoreSanitario"]:
+                    col += " ⚠️ dir. san."
+            righe.append(f"| {i} | {r['nome'][:44]} | {dove} | {col} "
+                         f"| {', '.join(r['iniettivi'])} | {piva} | {r['sito']} |")
         righe.append("")
     CODA_MD.write_text("\n".join(righe) + "\n", encoding="utf-8")
 

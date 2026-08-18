@@ -398,9 +398,30 @@ RE_AUT = re.compile(r'autorizzazione\s+sanitaria|aut\.\s*san(?:it)?\.|accreditat
 # la categoria che mancava. L'albo lo risolve: la pubblicità sanitaria **deve**
 # indicare l'iscrizione (L. 145/2018 c. 536), una società ⛔ non ce l'ha, e la
 # prova ⛔ non dipende da come è scritto il nome.
+# 🔴 **ALLARGATA il 2026-08-18, e la misura dice quanto perdeva: 14 → 34**, cioe'
+# **piu' del doppio**, sulle stesse 679 schede e sulle stesse pagine.
+# Cinque forme reali che la versione stretta ⛔ non vedeva, tutte raccolte da
+# siti veri:
+#   1. **la provincia IN MEZZO** — «ordine provinciale **di Roma** dei medici
+#      chirurghi»: la vecchia pretendeva `provinciale dei medici` di seguito;
+#   2. **il sostantivo invece del participio** — «**Iscrizione** Ordine Medici
+#      Brescia n. 5366»: la vecchia voleva «iscritt**o**/iscritt**a** all'albo»,
+#      oppure «**n.** iscrizione albo» col `n.` davanti;
+#   3. **«Albo Provinciale dei Medici Chirurghi»** — `albo\s+(?:dei\s+)?medici`
+#      ⛔ non ammette «provinciale» in mezzo;
+#   4. **gli odontoiatri** — «Albo Odontoiatri Taranto n. 23». Un odontoiatra che
+#      inietta filler e' un medico a tutti gli effetti per questo elenco;
+#   5. **l'abbreviazione** — «Ordine **Prov.le** dei Medici Chirurghi».
+# 🔑 ⇒ il classificatore mandava in «incerto» schede che **dichiaravano l'albo**,
+# e l'albo e' l'UNICA via a `persona`. ⚠️ Questo ⛔ non e' un cambio di prodotto:
+# e' una regex che ⛔ non trovava cio' che era stata scritta per trovare.
 RE_ALBO = re.compile(
-    r'(iscritt[oa]\s+all.\s*albo|ordine\s+dei\s+medici|ordine\s+provinciale\s+dei\s+medici'
-    r'|albo\s+(?:dei\s+)?medici|omceo|n\.?\s*(?:di\s+)?iscrizione\s+(?:all.\s*)?albo)', re.I)
+    r"(iscri\w*\s+(?:all[a']?\s*)?(?:albo|ordine)"
+    r"|albo\s+(?:prov\w*\.?\s*(?:le)?\s+)?(?:(?:dei|degli|delle)\s+)?"
+    r"(?:medic|odontoiatr|chirurg)"
+    r"|ordine\s+(?:prov\w*\.?\s*(?:le)?\s+)?(?:di\s+[A-Za-zÀ-ÿ'’-]+\s+)?"
+    r"(?:(?:dei|degli)\s+)?(?:medic|odontoiatr)"
+    r"|omceo|o\.m\.c\.e\.o)", re.I)
 RE_SPECIALITA = re.compile(
     r'(specialist[ao]\s+in|specializzat[oa]\s+in|medico\s+chirurg|chirurgo\s+plastic'
     r'|medicina\s+estetica|dermatolog|medico\s+estetic)', re.I)

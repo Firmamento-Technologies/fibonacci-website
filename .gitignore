@@ -57,3 +57,11 @@ src/dati/cliniche/_recapiti-classificati.json
 src/dati/cliniche/_coda-revisione.json
 src/dati/cliniche/_coda-revisione.md
 src/dati/cliniche/_coda-decisioni.json
+src/dati/cliniche/_coda-albo.json
+# 🔴 La cache delle pagine scaricate: **889 MB** in 10.227 cartelle, una per
+# sito, al 2026-08-18. `raccolta-cliniche.py` lo scrive gia' nel suo commento —
+# «la cache e' dato personale come le schede, ⛔ non un file tecnico» — ⛔ ma non
+# era ignorata: era solo **mai aggiunta**, che regge finche' nessuno scrive
+# `git add -A`. E' la stessa trappola di `_recapiti.json`, con tre ordini di
+# grandezza in piu'.
+raccolta-cache/
