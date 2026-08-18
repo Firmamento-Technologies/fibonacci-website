@@ -66,15 +66,43 @@ export function schermateFresche(radiceSito) {
     return { stato: 'non-verificabile', motivo: 'il manifesto non registra il commit EMR' }
   }
 
+  // ⚠️ **Contro `origin/main`, ⛔ non contro `HEAD`** (corretto il 2026-08-18).
+  // 🔴 Il difetto misurato: `git log -1` senza riferimento legge il **ramo su
+  // cui l'albero EMR condiviso si trova adesso**, e quell'albero è di tutte le
+  // sessioni. Il 18 agosto era su `claude/cancelli-1-2-3` a `a05fbd93`, che ⛔
+  // **non è su `origin/main`**: il cancello ha fermato un rilascio nominando
+  // un commit che non sarebbe mai stato pubblicato.
+  // 🔑 La domanda giusta è «le schermate corrispondono a **ciò che si
+  // rilascia**», e ciò che si rilascia è `origin/main` (lo dice `rilascia.mjs`,
+  // che costruisce da un worktree su quel riferimento). Un ramo di lavoro
+  // altrui ⛔ non c'entra, in nessuna delle due direzioni: potrebbe anche
+  // renderlo **verde per sbaglio**, se quell'albero stesse su un commit vecchio.
   let attuale
   try {
     attuale = execFileSync(
       'git',
-      ['-C', repoEmr, 'log', '-1', '--format=%H', '--', ...PERCORSI_CHE_CAMBIANO_LA_RESA],
+      [
+        '-C',
+        repoEmr,
+        'log',
+        '-1',
+        '--format=%H',
+        'refs/remotes/origin/main',
+        '--',
+        ...PERCORSI_CHE_CAMBIANO_LA_RESA,
+      ],
       { encoding: 'utf8' },
     ).trim()
   } catch {
-    return { stato: 'non-verificabile', motivo: 'EMR non è un repo git leggibile da qui' }
+    return {
+      stato: 'non-verificabile',
+      // ⚠️ Dichiarare che cosa NON si è guardato, ⛔ non tacere: senza il
+      // riferimento remoto la freschezza non è verificabile, e un presidio
+      // che tace su ciò che non ha guardato è peggio di uno assente.
+      motivo:
+        "EMR non è leggibile da qui, oppure manca `refs/remotes/origin/main` " +
+        '(serve un `git -C ../EMR fetch origin main`): freschezza non verificata',
+    }
   }
 
   if (attuale === manifesto.commitFrontendEmr) return { stato: 'fresche', motivo: null }
