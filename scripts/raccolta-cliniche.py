@@ -719,9 +719,17 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
         return {"dominio": host, "escluso": True, "motivoEsclusione": "robots.txt vieta la lettura"}
     # ⚠️ ⛔ non chiamarla `html`: quel nome è il **modulo** che serve a sciogliere
     # le entità qui sotto, e ombreggiarlo rompe `html.unescape` a metà funzione.
-    radice, url_reale = leggi(base)
-    if not radice:  # ⚠️ alcuni domini rispondono **solo** sotto `www.`
-        radice, url_reale = leggi(f"https://www.{host}/")
+    # ⚠️ Quattro tentativi, e i due in chiaro ⛔ non sono un di piu'.
+    # 📏 Misurato il 2026-08-18 su un campione delle **343** schede archiviate
+    # come «il sito non ha risposto»: **17 su 40 rispondevano**, e **14 di
+    # quelle 17 solo su `http`**. ⇒ un terzo di quelle schede ⛔ non erano
+    # irraggiungibili: **⛔ non le avevamo mai chiamate al numero giusto.**
+    # 🔑 Leggere in chiaro una pagina pubblica e' cio' che fa un browser quando
+    # il sito ⛔ non offre altro: ⛔ nessuna credenziale, ⛔ nessun dato inviato.
+    for tentativo in (base, f"https://www.{host}/", f"http://{host}/", f"http://www.{host}/"):
+        radice, url_reale = leggi(tentativo)
+        if radice:
+            break
     if not radice:
         conta("falliti")
         return {"dominio": host, "escluso": True, "motivoEsclusione": "il sito non ha risposto"}
@@ -1938,6 +1946,53 @@ def un_dominio_un_file(prova=True):
     print(f"\n✅ ripulite {sum(len(v) for v in da_togliere.values())} copie in {len(da_togliere)} file")
 
 
+def riprova_falliti(prova=True):
+    """Ritenta i domini archiviati come «il sito non ha risposto».
+
+    📏 **Perche' esiste**: 343 schede su 10.694 portavano quel motivo, e un
+    sondaggio su 40 ha trovato che **17 rispondevano** — **14 solo su `http`**.
+    ⇒ ⛔ non erano irraggiungibili: `analizza()` provava **solo `https`**.
+
+    ⚠️ Va lanciato **dopo** la ricaduta su `http`, altrimenti rifa' esattamente
+    le stesse quattro chiamate che erano gia' fallite.
+    """
+    import glob
+    per_file, da_fare = {}, []
+    for p in sorted(glob.glob(os.path.join(USCITA, "*.json"))):
+        if os.path.basename(p).startswith("_"):
+            continue
+        try:
+            per_file[p] = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+        for s in per_file[p]:
+            if isinstance(s, dict) and s.get("motivoEsclusione", "").startswith("il sito non ha risposto"):
+                da_fare.append((p, s))
+    print(f"━━━ {len(da_fare)} schede da ritentare ━━━")
+    ripresi, ancora = 0, 0
+    for p, s in da_fare:
+        nuova = analizza(s["dominio"], s.get("provincia", "") or "")
+        if nuova.get("motivoEsclusione", "").startswith("il sito non ha risposto"):
+            ancora += 1
+            continue
+        ripresi += 1
+        print(f"  ✅ {s['dominio'][:40]:42} {str(nuova.get('nome'))[:30]:32} "
+              f"{nuova.get('tipoSoggetto')}")
+        if not prova:
+            # ⚠️ Si **sostituisce** la scheda: quella vecchia ⛔ non contiene
+            # niente da salvare — solo il dominio e il motivo del fallimento.
+            s.clear()
+            s.update(nuova)
+        time.sleep(0.5)
+    print(f"\n━━━ {ripresi} recuperate · {ancora} ancora mute ━━━")
+    if prova:
+        print("\n⚠️ PROVA: niente scritto. Rilancia con `--riprova-falliti --scrivi`.")
+        return
+    for p, schede in per_file.items():
+        json.dump(schede, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"✅ riscritti {len(per_file)} file")
+
+
 def riclassifica(prova=True):
     """Ripassa le schede **già raccolte** col classificatore aggiornato,
     leggendo dalla **cache** e ⛔ senza una sola richiesta di rete.
@@ -2257,6 +2312,12 @@ if __name__ == "__main__":
         sys.exit(0)
     if "--un-file" in arg:
         un_dominio_un_file(prova="--scrivi" not in arg)
+        sys.exit(0)
+    if "--riprova-falliti" in arg:
+        # 🔑 Ritenta **solo** le schede archiviate come «il sito non ha
+        # risposto», e ⛔ nient'altro: e' la coda che la ricaduta su `http` ha
+        # reso recuperabile. ⛔ Non tocca le schede che avevano gia' risposto.
+        riprova_falliti(prova="--scrivi" not in arg)
         sys.exit(0)
     if "--riclassifica" in arg:
         riclassifica(prova="--scrivi" not in arg)
