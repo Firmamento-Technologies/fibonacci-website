@@ -139,6 +139,39 @@ class MetodoB_DalCap(unittest.TestCase):
         self.assertIsNone(cdd.estrai_dal_cap({"provincia": "na"}, self.MAPPA,
                                              "P.IVA 80129123456")[0])
 
+    def test_un_numero_fuori_dall_intervallo_italiano(self):
+        # 🔴 `00000` aveva imparato «Bergamo» e l'ha dato a **11 schede**.
+        for c in ("00000", "00001", "99999", "abcde"):
+            self.assertFalse(cdd.cap_plausibile(c), c)
+        for c in ("00010", "20100", "98168", "80129"):
+            self.assertTrue(cdd.cap_plausibile(c), c)
+
+    def test_l_intervallo_NON_basta_a_escludere_i_CAP_STRANIERI(self):
+        # ⚠️ **Dichiarato, ⛔ non nascosto**: `13485` (Berlino), `27701`
+        # (Durham), `60606` (**Chicago**) cadono **dentro** l'intervallo
+        # italiano. L'intervallo prende `00000`; gli stranieri li prende
+        # l'altra guardia — il **nome del comune** in `SPAZZATURA`.
+        # 🔑 Due problemi diversi, due guardie diverse: crederne una sola
+        # sufficiente e' come credere che due prove d'accordo siano due prove.
+        for c in ("13485", "27701", "60606"):
+            self.assertTrue(cdd.cap_plausibile(c), c)
+        for nome in ("Chicago", "ZoomInfo", "Catálogo"):
+            schede = [(None, {"cap": "60606", "comune": nome, "provincia": "mi"})] * 3
+            self.assertNotIn("60606", cdd.mappa_cap(schede), nome)
+
+    def test_un_CAP_non_plausibile_NON_da_il_comune(self):
+        self.assertIsNone(cdd.estrai_dal_cap({"provincia": "bg"}, {"00000": ("Bergamo", "bg")},
+                                             "… 00000 …")[0])
+
+    def test_i_valori_che_NON_sono_comuni_italiani_restano_fuori(self):
+        # 🔴 «Zagreb», «GDPR», «USA», «Monday» stavano nel campo `comune` di
+        # qualche scheda. Finche' `provincia` conteneva uno slug, il confronto
+        # fra province li teneva fuori **per caso**; corretto quel campo, la
+        # guardia e' caduta e sono usciti — 12 schede sarebbero finite a Zagabria.
+        for v in ("Zagreb", "GDPR", "USA", "Monday", "Handcrafted"):
+            schede = [(None, {"cap": "20100", "comune": v, "provincia": "mi"})] * 3
+            self.assertNotIn("20100", cdd.mappa_cap(schede), v)
+
     def test_i_comuni_TRONCATI_non_entrano_nella_mappa(self):
         # «San» ⛔ non e' un comune: e' un nome tagliato a meta' in una scheda
         # sbagliata. Misurato: 5 schede sarebbero finite a «San».

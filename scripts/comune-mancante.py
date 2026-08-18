@@ -78,6 +78,16 @@ def _testo(html):
 SPAZZATURA = {
     "medicina", "estetica", "estetico", "centri", "centro", "studio", "studi", "clinica",
     "salute", "indirizzo", "servizi", "comment", "convenzione", "chirurgia", "bellezza",
+    # 🔴 Valori che ⛔ non sono comuni italiani e stavano nel campo `comune` di
+    # qualche scheda. Trovati il 2026-08-18 **dopo** aver corretto `provincia`:
+    # finche' il campo conteneva uno slug, il confronto fra province li teneva
+    # fuori **per caso**; svuotandolo, la guardia e' caduta e sono usciti.
+    # ⚠️ Sono **14 voci su 1.652** (0,8%): un elenco esplicito costa meno di una
+    # soglia, che a ≥3 ne lascerebbe comunque passare 2 e butterebbe via
+    # Abbiategrasso, Acerra e Acireale.
+    "zagreb", "gdpr", "usa", "del", "handcrafted", "monday", "italy", "italia",
+    "web", "europe", "accesso", "accessi", "home", "cookie",
+    "catalogo", "zoominfo", "chicago", "berlin", "london", "paris", "madrid",
 }
 
 # 🔑 Le parole che nei domini stanno DAVANTI alla citta'. Distinguono
@@ -118,7 +128,7 @@ def mappa_cap(schede):
         c = (s.get("cap") or "").strip()
         com = (s.get("comune") or "").strip()
         p = (s.get("provincia") or "").strip().lower()
-        if re.fullmatch(r"\d{5}", c) and len(com) > 2:
+        if re.fullmatch(r"\d{5}", c) and cap_plausibile(c) and len(com) > 2:
             per_cap[c][(com, p)] += 1
     # ⛔ Comuni **troncati** ereditati da schede sbagliate: «San», «Santa»,
     # «Sant» ⛔ non sono comuni, sono l'inizio di un nome tagliato a meta'.
@@ -126,16 +136,33 @@ def mappa_cap(schede):
     monchi = {"san", "santa", "sant", "santo", "borgo", "villa", "monte", "castel", "citta"}
     return {c: v.most_common(1)[0][0] for c, v in per_cap.items()
             if len({x[0].lower() for x in v}) == 1
-            and v.most_common(1)[0][0][0].strip().lower() not in monchi}
+            and v.most_common(1)[0][0][0].strip().lower() not in monchi
+            and _piatto(v.most_common(1)[0][0][0]) not in SPAZZATURA}
 
 
 RE_CAP = re.compile(r"(?<!\d)(\d{5})(?!\d)")
+
+
+def cap_plausibile(cap):
+    """Vero se il numero puo' essere un CAP **italiano**.
+
+    🔴 Aggiunto il 2026-08-18 **dopo aver guardato la provenienza scritta**: il
+    CAP **`00000`** aveva imparato «Bergamo» da una scheda sbagliata e l'ha
+    dato a **11 schede**; e i CAP `13485`, `27701`, `60606` — che sono di
+    **Berlino, Durham e Chicago** — avevano imparato «Catálogo», «ZoomInfo» e
+    **«Chicago»**.
+    ⚠️ I CAP italiani vanno da **00010** a **98168**: `00000` ⛔ non e' un CAP, e
+    un cinque cifre trovato in una pagina puo' benissimo essere **straniero**.
+    """
+    return cap.isdigit() and "00010" <= cap <= "98168"
 
 
 def estrai_dal_cap(scheda, cap_comune, testo):
     """`(comune, perche')` dal primo CAP della pagina che la provincia conferma."""
     prov = (scheda.get("provincia") or "").strip().lower()
     for cap in dict.fromkeys(RE_CAP.findall(testo or "")):
+        if not cap_plausibile(cap):
+            continue
         coppia = cap_comune.get(cap)
         if not coppia:
             continue
