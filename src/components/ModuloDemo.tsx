@@ -1,6 +1,7 @@
 'use client'
 
 import { t } from '@/lib/testo'
+import { LINGUA } from '@/lib/lingua'
 import { useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { LEAD_API_URL, CONTACT_EMAIL } from '@/lib/site-config'
@@ -161,6 +162,35 @@ export function ModuloDemo({
 
   return (
     <form onSubmit={invia} noValidate={false}>
+      {/* ── DOVE SIAMO OGGI (TD-208) ────────────────────────────────────
+          🔴 Il difetto era il **silenzio**, ⛔ non il modulo: questo modulo
+          risponde 200 in francese, e un modulo che risponde **è un'offerta al
+          mercato che lo legge**. Oggi non possiamo servirlo, e per ragioni
+          misurate: la società non è costituita, e la Francia richiede una
+          certificazione HDS che ⛔ non abbiamo (senza è reato).
+
+          ⛔ **Non si nasconde il modulo**: chi scrive da fuori è un contatto,
+          non un problema. Gli si dice la verità e si prende il recapito.
+
+          🔑 Sta **dentro il modulo** e non sulle pagine che lo ospitano: sono
+          tre oggi (richiesta demo, società scientifiche, sigillo in home) e la
+          quarta la scriverà qualcun altro. → [[decisione-paesi-serviti-oggi]] */}
+      {LINGUA !== 'it' && (
+        <p
+          role="note"
+          style={{
+            border: '1px solid var(--rule)',
+            borderRadius: '4px',
+            padding: 'var(--s-13) var(--s-21)',
+            marginBottom: 'var(--s-21)',
+            fontSize: '14px',
+            color: 'var(--fg-muted)',
+          }}
+        >
+          <strong style={{ color: 'var(--fg)' }}>{t('demo.paesiserviti.titolo')}</strong>{' '}
+          {t('demo.paesiserviti.testo')}
+        </p>
+      )}
       {!compatto && (
         <>
           <p className="occhiello">{perSocieta ? t('modulodemo.scrivici') : t('modulodemo.richiedi_una_demo')}</p>
