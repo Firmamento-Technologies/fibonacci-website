@@ -267,7 +267,12 @@ def main() -> int:
                 # ⛔ non e' un comune letto sulla pagina, e chi lo rilegge deve
                 # poterli distinguere — come `precisioneCoord` fa per le
                 # coordinate.
-                s["precisioneComune"] = f"dal dominio: {perche}"
+                # ⚠️ **⛔ Non si scrive «dal dominio» a prescindere.** Il
+                # prefisso era **fisso**, e i 145 comuni venuti dal **CAP** si
+                # portavano dietro l'etichetta sbagliata: una provenienza che
+                # ⛔ non dice il metodo vero ⛔ non serve a niente.
+                s["precisioneComune"] = (perche if perche.startswith("dal CAP")
+                                         else f"dal dominio: {perche}")
                 scritte += 1
         f.write_text(json.dumps(righe, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"\n✅ scritto `comune` su {scritte} schede, con `precisioneComune` che dice da dove viene")

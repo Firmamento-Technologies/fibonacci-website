@@ -100,6 +100,17 @@ class ILimitiDichiarati(unittest.TestCase):
         self.assertEqual(cdd.estrai(sch("valeria-salerno.com", "sa"), PROV)[0], "salerno")
 
 
+class LaProvenienzaDiceIlMetodoVERO(unittest.TestCase):
+    def test_il_CAP_non_si_etichetta_come_dominio(self):
+        # 🔴 Il prefisso era **fisso**: i 145 comuni venuti dal CAP si
+        # portavano dietro «dal dominio». Una provenienza che ⛔ non dice il
+        # metodo vero ⛔ non serve a niente.
+        _, perche = cdd.estrai_dal_cap({"provincia": "na"}, {"80129": ("Napoli", "na")},
+                                       "… 80129 …")
+        self.assertTrue(perche.startswith("dal CAP"))
+        self.assertNotIn("dal dominio", perche)
+
+
 class MetodoB_DalCap(unittest.TestCase):
     """Il CAP e' un **codice**: ⛔ non e' ambiguo come una parola in un dominio."""
 
