@@ -454,8 +454,35 @@ RE_SOCIETA_HOST = re.compile(r'(srls?|spa|snc|sas)(?:\.|$)', re.I)
 # ⚠️ Il titolo è insensibile alle maiuscole — `Dr.` ⛔ non combacia con `dr` —
 # ⛔ ma il **nome** no: deve restare maiuscolo, altrimenti il filtro si riapre
 # su qualsiasi parola. Da qui i gruppi `(?i:…)` solo sul titolo.
+# 🔴 **Due difetti misurati il 2026-08-18 su schede vere ancora in coda**, e
+# ⛔ nessuno dei due si vedeva senza guardare i nomi che restavano fuori:
+#
+#   1. **il titolo scritto per esteso.** `dott|dr|prof` + `ssa` facoltativo
+#      copre «Dott.», «Dr.», «Dott.ssa» ⛔ ma **non** «**Dottoressa** Elena
+#      Fasola» né «**Dottor** Mario Rossi»: dopo `dott` la regex pretendeva un
+#      punto o uno spazio, e trovava `oressa`.
+#   2b. **l'apostrofo con la maiuscola dopo.** «Marco **D'Ettorre**»: il gruppo
+#      voleva `[A-ZÀ-Ù]` **una sola volta**, poi solo minuscole ⇒ dopo la `D` e
+#      l'apostrofo trovava una `E` **maiuscola** e si fermava. ⚠️ `piatto()`
+#      **toglieva già** l'apostrofo per confrontare col dominio — quel commento
+#      c'è dal 13 agosto — ⛔ ma la coppia ⛔ non veniva mai formata, quindi quel
+#      lavoro ⛔ non serviva a niente. 🔑 **Due presidi allineati sullo stesso
+#      caso, e nessuno dei due funzionava**, perché stavano in due punti diversi
+#      della stessa catena.
+#   2. **il cognome in due parole.** «Dott.ssa Roberta **Di Maggio**»: il
+#      secondo gruppo vuole almeno 3 caratteri (`[A-ZÀ-Ù][a-zà-ù]{2,15}`), e
+#      «Di» ne ha due ⇒ **nessuna coppia**, quindi ⛔ nessuna delle tre vie a
+#      `persona`. ⚠️ E il dominio era `dottoressa**dimaggio**.it`: la prova
+#      c'era, ⛔ non veniva letta.
+#
+# ⚠️ La soglia dei 6 caratteri del cognome ⛔ **NON** è stata toccata: è
+# **misurata** (2026-08-16) e sotto i 6 il rischio che una parola comune
+# coincida col dominio diventa reale. `siino` (5) resta fuori **di proposito**.
 RE_PERSONA = re.compile(
-    r'\b(?i:dott|dr|prof)\.?(?i:\s?ssa)?\.?\s+([A-ZÀ-Ù][a-zà-ù\'’]{2,15})\s+([A-ZÀ-Ù][a-zà-ù\'’]{2,15})\b')
+    r'\b(?i:dott(?:oressa|ore|or)?|dr|prof)\.?(?i:\s?ssa)?\.?\s+'
+    r'([A-ZÀ-Ù][a-zà-ù\'’]{2,15})\s+'
+    r'((?:(?i:d[ei]|d[ae]l|d[ae]lla|d[ae]gli|l[ao]|van|von|mac|mc)\s+)?'
+    r'[A-ZÀ-Ù](?:[\'’][A-ZÀ-Ù])?[a-zà-ù\'’]{2,15})\b')
 PAROLE_NON_NOME = {
     "medicina", "estetica", "estetico", "clinic", "clinica", "medical", "centro", "studio",
     "milano", "roma", "torino", "napoli", "chirurgia", "chirurgo", "specialista", "medico",
@@ -562,7 +589,11 @@ def classifica(host, nome, testo, ctx_piva):
     def piatto(s):
         """⚠️ L'apostrofo ⛔ non è un accento e `senza_accenti` ⛔ non lo toglie:
         `D'Ettorre` ⛔ non combaciava mai con `dettorre` nel dominio."""
-        return senza_accenti(s).lower().replace("'", "").replace("’", "").replace("-", "")
+        # ⚠️ **E nemmeno lo spazio**: un cognome in due parole («Di Maggio»)
+        # nel dominio è **incollato** (`dottoressadimaggio.it`), esattamente
+        # come l'apostrofo di `D'Ettorre`.
+        return (senza_accenti(s).lower()
+                .replace("'", "").replace("’", "").replace("-", "").replace(" ", ""))
 
     stelo = piatto(host.split(".")[0].replace("_", ""))
     struttura_nel_dominio = bool(RE_STRUTTURA_HOST.search(host))
