@@ -78,6 +78,14 @@ Aux fins des présentes Conditions Générales, on entend par :
 
 3.3 Le Client est tenu de communiquer sans délai au Fournisseur toute modification des données anagraphiques ou fiscales, en les mettant à jour depuis le panneau « Account » du Service.
 
+3.4 **Étapes techniques de la conclusion.** Conformément à l'art. 12 du décret législatif 70/2003, le contrat est conclu selon les étapes suivantes : (a) remplissage du formulaire d'inscription sur `{URL_APP}` avec les données personnelles, professionnelles et fiscales ; (b) consultation des présentes Conditions Générales et de la politique de confidentialité, accessibles depuis les liens du formulaire ; (c) approbation des Conditions Générales au moyen d'une première case et approbation spécifique et distincte des clauses énumérées à l'art. 20.1 au moyen d'une seconde case ; (d) envoi du formulaire ; (e) envoi par le Fournisseur d'un message de confirmation à l'adresse électronique indiquée, contenant le récapitulatif de la commande.
+
+3.5 **Correction des erreurs de saisie.** Avant l'envoi du formulaire, le Client peut modifier librement chaque donnée saisie. Après l'envoi, les données personnelles et fiscales restent corrigeables depuis le panneau « Compte » du Service, conformément au point 3.3.
+
+3.6 **Langue du contrat.** Le contrat est conclu en **langue italienne**. Les traductions des présentes Conditions dans d'autres langues sont fournies à titre de courtoisie pour en faciliter la lecture : en cas de divergence, le texte italien prévaut, comme indiqué en tête de chaque traduction.
+
+3.7 **Conservation et accès au texte contractuel.** Les présentes Conditions Générales sont publiées à une adresse stable et permanente sur `{URL_SITO}/termini`, sous une forme qui en permet à tout moment la consultation, la mémorisation et la reproduction sur un support durable, y compris par impression ou enregistrement de la page. Le Fournisseur recommande au Client d'en conserver une copie au moment de la souscription. Le Fournisseur conserve également la preuve de l'acceptation donnée, avec l'indication de la version des Conditions acceptée et de la date, et en délivre copie au Client sur demande écrite.
+
 ---
 
 ## Art. 4 - Période d'Essai (Trial)

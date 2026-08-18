@@ -78,6 +78,14 @@ Ai fini delle presenti Condizioni Generali si intende per:
 
 3.3 Il Cliente e tenuto a comunicare tempestivamente al Fornitore ogni variazione dei dati anagrafici o fiscali, aggiornando i medesimi dal pannello "Account" del Servizio.
 
+3.4 **Fasi tecniche della conclusione.** Ai sensi dell'art. 12 del D.Lgs. 70/2003, il contratto si conclude attraverso le fasi seguenti: (a) compilazione del modulo di registrazione su `{URL_APP}` con i dati anagrafici, professionali e fiscali; (b) consultazione delle presenti Condizioni Generali e dell'informativa privacy, accessibili dai collegamenti presenti nel modulo; (c) approvazione delle Condizioni Generali mediante apposizione di un primo flag e approvazione specifica e separata delle clausole vessatorie elencate all'art. 20.1 mediante un secondo flag; (d) invio del modulo; (e) invio da parte del Fornitore di un messaggio di conferma all'indirizzo di posta elettronica indicato, contenente il riepilogo dell'ordine.
+
+3.5 **Correzione degli errori di inserimento.** Prima dell'invio del modulo il Cliente puo' modificare liberamente ogni dato inserito. Dopo l'invio, i dati anagrafici e fiscali restano correggibili dal pannello "Account" del Servizio, secondo quanto previsto al punto 3.3.
+
+3.6 **Lingua del contratto.** Il contratto si conclude in **lingua italiana**. Le traduzioni delle presenti Condizioni in altre lingue sono fornite a titolo di cortesia per agevolarne la lettura: in caso di divergenza fra le versioni prevale il testo italiano, come indicato in testa a ciascuna traduzione.
+
+3.7 **Conservazione e accesso al testo contrattuale.** Le presenti Condizioni Generali sono pubblicate a un indirizzo stabile e permanente su `{URL_SITO}/termini`, in una forma che ne consente in qualsiasi momento la consultazione, la memorizzazione e la riproduzione su supporto durevole, anche mediante stampa o salvataggio della pagina. Il Fornitore raccomanda al Cliente di conservarne copia al momento della sottoscrizione. Il Fornitore conserva altresi' evidenza dell'avvenuta accettazione, con l'indicazione della versione delle Condizioni accettata e della data, e ne rilascia copia al Cliente su richiesta scritta.
+
 ---
 
 ## Art. 4 - Periodo di Prova (Trial)

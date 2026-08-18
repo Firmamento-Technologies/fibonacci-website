@@ -80,6 +80,14 @@ A los efectos de las presentes Condiciones Generales se entiende por:
 
 3.3 El Cliente está obligado a comunicar de inmediato al Proveedor cualquier cambio en los datos anagráficos o fiscales, actualizándolos desde el panel "Cuenta" del Servicio.
 
+3.4 **Fases técnicas de la celebración.** Con arreglo al art. 12 del Decreto Legislativo 70/2003, el contrato se celebra a través de las siguientes fases: (a) cumplimentación del formulario de registro en `{URL_APP}` con los datos personales, profesionales y fiscales; (b) consulta de las presentes Condiciones Generales y de la información sobre privacidad, accesibles desde los enlaces del formulario; (c) aprobación de las Condiciones Generales mediante una primera casilla y aprobación específica y separada de las cláusulas enumeradas en el art. 20.1 mediante una segunda casilla; (d) envío del formulario; (e) envío por parte del Proveedor de un mensaje de confirmación a la dirección de correo electrónico indicada, con el resumen del pedido.
+
+3.5 **Corrección de los errores de introducción.** Antes del envío del formulario el Cliente puede modificar libremente cualquier dato introducido. Tras el envío, los datos personales y fiscales siguen siendo corregibles desde el panel "Cuenta" del Servicio, conforme al punto 3.3.
+
+3.6 **Lengua del contrato.** El contrato se celebra en **lengua italiana**. Las traducciones de las presentes Condiciones a otras lenguas se facilitan por cortesía para facilitar su lectura: en caso de divergencia prevalece el texto italiano, tal como se indica al inicio de cada traducción.
+
+3.7 **Conservación y acceso al texto contractual.** Las presentes Condiciones Generales están publicadas en una dirección estable y permanente en `{URL_SITO}/termini`, de forma que permite en todo momento su consulta, almacenamiento y reproducción en un soporte duradero, incluso mediante impresión o guardado de la página. El Proveedor recomienda al Cliente conservar una copia en el momento de la suscripción. El Proveedor conserva asimismo constancia de la aceptación prestada, con indicación de la versión de las Condiciones aceptada y de la fecha, y facilita copia al Cliente previa solicitud por escrito.
+
 ---
 
 ## Art. 4 - Período de Prueba (Trial)

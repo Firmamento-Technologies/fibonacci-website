@@ -80,6 +80,14 @@ Im Sinne dieser Allgemeinen Geschäftsbedingungen gelten folgende Definitionen:
 
 3.3 Der Kunde ist verpflichtet, dem Anbieter jede Änderung der anagraphischen oder steuerlichen Daten unverzüglich mitzuteilen, indem er diese im Bereich „Account“ des Dienstes aktualisiert.
 
+3.4 **Technische Schritte des Vertragsschlusses.** Gemäß Art. 12 des Gesetzesdekrets 70/2003 kommt der Vertrag über folgende Schritte zustande: (a) Ausfüllen des Registrierungsformulars unter `{URL_APP}` mit den personenbezogenen, berufsbezogenen und steuerlichen Daten; (b) Einsichtnahme in diese Allgemeinen Bedingungen und in die Datenschutzerklärung, die über die Links im Formular erreichbar sind; (c) Zustimmung zu den Allgemeinen Bedingungen mittels eines ersten Häkchens und gesonderte, spezifische Zustimmung zu den in Art. 20.1 aufgeführten Klauseln mittels eines zweiten Häkchens; (d) Absenden des Formulars; (e) Versand einer Bestätigungsnachricht durch den Anbieter an die angegebene E-Mail-Adresse mit der Zusammenfassung der Bestellung.
+
+3.5 **Berichtigung von Eingabefehlern.** Vor dem Absenden des Formulars kann der Kunde jede eingegebene Angabe frei ändern. Nach dem Absenden bleiben die personenbezogenen und steuerlichen Daten über den Bereich „Konto" des Dienstes berichtigbar, gemäß Ziffer 3.3.
+
+3.6 **Vertragssprache.** Der Vertrag wird in **italienischer Sprache** geschlossen. Übersetzungen dieser Bedingungen in andere Sprachen werden aus Gefälligkeit bereitgestellt, um das Lesen zu erleichtern: bei Abweichungen ist der italienische Text maßgeblich, wie am Anfang jeder Übersetzung angegeben.
+
+3.7 **Aufbewahrung des und Zugang zum Vertragstext.** Diese Allgemeinen Bedingungen sind unter einer stabilen und dauerhaften Adresse auf `{URL_SITO}/termini` veröffentlicht, in einer Form, die jederzeit ihre Einsichtnahme, Speicherung und Wiedergabe auf einem dauerhaften Datenträger erlaubt, auch durch Ausdrucken oder Speichern der Seite. Der Anbieter empfiehlt dem Kunden, bei Vertragsschluss eine Kopie aufzubewahren. Der Anbieter bewahrt ferner den Nachweis der erteilten Zustimmung auf, unter Angabe der angenommenen Version der Bedingungen und des Datums, und stellt dem Kunden auf schriftliche Anfrage eine Kopie zur Verfügung.
+
 ---
 
 ## Art. 4 - Testzeitraum (Trial)

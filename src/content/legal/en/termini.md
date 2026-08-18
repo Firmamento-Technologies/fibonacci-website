@@ -80,6 +80,14 @@ For the purposes of these General Conditions, the following terms shall mean:
 
 3.3 The Client must promptly notify the Provider of any changes to identification or tax data, updating them via the "Account" panel of the Service.
 
+3.4 **Technical steps of conclusion.** Pursuant to art. 12 of Legislative Decree 70/2003, the contract is concluded through the following steps: (a) completion of the registration form at `{URL_APP}` with personal, professional and tax data; (b) consultation of these General Conditions and of the privacy notice, reachable from the links in the form; (c) approval of the General Conditions by means of a first tick and specific, separate approval of the clauses listed in art. 20.1 by means of a second tick; (d) submission of the form; (e) sending by the Supplier of a confirmation message to the e-mail address provided, containing a summary of the order.
+
+3.5 **Correction of input errors.** Before submitting the form the Client may freely amend any data entered. After submission, personal and tax data remain correctable from the "Account" panel of the Service, as set out in point 3.3.
+
+3.6 **Language of the contract.** The contract is concluded in **Italian**. Translations of these Conditions into other languages are provided as a courtesy to make them easier to read: in case of any discrepancy the Italian text prevails, as stated at the top of each translation.
+
+3.7 **Retention of and access to the contractual text.** These General Conditions are published at a stable and permanent address at `{URL_SITO}/termini`, in a form that allows them to be consulted, stored and reproduced on a durable medium at any time, including by printing or saving the page. The Supplier recommends that the Client keep a copy at the time of subscription. The Supplier also retains evidence of the acceptance given, indicating the version of the Conditions accepted and the date, and provides the Client with a copy upon written request.
+
 ---
 
 ## Art. 4 - Trial Period

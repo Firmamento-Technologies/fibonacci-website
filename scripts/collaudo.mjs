@@ -24,6 +24,7 @@ import { paritaCatalogo } from './parita-catalogo.mjs'
 import { paritaFarmaci } from './parita-farmaci.mjs'
 import { paritaProdotto } from './parita-prodotto.mjs'
 import { paritaListino } from './parita-listino.mjs'
+import { paritaVessatorie } from './parita-vessatorie.mjs'
 import { classiEsistono } from './classi-esistono.mjs'
 import { paroleAttaccate } from './parole-attaccate.mjs'
 import { nienteLineetta } from './niente-lineetta.mjs'
@@ -937,6 +938,18 @@ async function main() {
   paritaCatalogo(problemi, (m) => console.log(giallo('\n' + m)))
   paritaFarmaci(problemi, (m) => console.log(giallo('\n' + m)))
   paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
+  /* 🔴 `paritaListino` era IMPORTATA E MAI CHIAMATA, misurato il 2026-08-18.
+     Il file che la definisce racconta due divergenze di prezzo fra vetrina e
+     modulo di registrazione, la seconda **dopo essere state corrette**, e si
+     chiude dicendo «questo confronto è ciò che rende la copia sostenibile».
+     ⇒ non lo rendeva: nessuno lo eseguiva. È la forma più silenziosa del
+     «costruito ma non cablato», perché un presidio che non gira **non è
+     distinguibile da uno che passa**. */
+  paritaListino(problemi, (m) => console.log(giallo('\n' + m)))
+  /* ⚠️ La più costosa delle parità: una clausola vessatoria che sta nel
+     contratto e non nella schermata di accettazione **non ha effetto**
+     (art. 1341 co. 2 c.c.). Vedi la testa di `parita-vessatorie.mjs`. */
+  paritaVessatorie(problemi, (m) => console.log(giallo('\n' + m)))
   classiEsistono(problemi)
   nienteLineetta(problemi)
   /* ⚠️ Lo spazio fra il testo e il tag che gli sta accanto. Sembra pedanteria e
