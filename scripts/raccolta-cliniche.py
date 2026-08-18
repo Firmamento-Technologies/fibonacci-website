@@ -612,7 +612,12 @@ def carica_decisioni():
         d = json.load(open(p, encoding="utf-8"))
     except Exception:
         return {}
-    return {k: v for k, v in d.items() if isinstance(v, dict) and v.get("come") == "medico"}
+    # `medico` → `persona` · `impresa` → `impresa`. ⛔ `non-medico` e `scarta`
+    # ⛔ NON promuovono: una revisione che dice «⛔ non è un medico» deve poter
+    # essere registrata **senza** far entrare la scheda nell'elenco.
+    _TIPO = {"medico": "persona", "impresa": "impresa"}
+    return {k: dict(v, tipo=_TIPO[v["come"]]) for k, v in d.items()
+            if isinstance(v, dict) and v.get("come") in _TIPO}
 
 
 DECISE = carica_decisioni()
@@ -757,7 +762,7 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
     # ⚠️ **La revisione umana vince**, e sta QUI e ⛔ non dopo: cosi' anche il
     # CAP fuori provincia qui sotto ⛔ non puo' riportarla a «incerto».
     if host in DECISE:
-        tipo, ragione = "persona", DECISE[host]["nota"]
+        tipo, ragione = DECISE[host]["tipo"], DECISE[host]["nota"]
 
     tel = [normalizza_tel(t) for t in RE_TEL_HREF.findall(tutto)]
     tel = [t for t in dict.fromkeys(tel) if t]
@@ -1977,7 +1982,7 @@ def riclassifica(prova=True):
             prima = s.get("tipoSoggetto", "?")
             dopo, ragione = classifica(s["dominio"], s.get("nome", ""), piatto, ctx)
             if s["dominio"] in DECISE:      # ⚠️ la revisione umana vince, qui come in analizza()
-                dopo, ragione = "persona", DECISE[s["dominio"]]["nota"]
+                dopo, ragione = DECISE[s["dominio"]]["tipo"], DECISE[s["dominio"]]["nota"]
             # 🔑 **Il ripasso è MONOTÒNO: recupera, ⛔ non declassa.** Il testo
             # riletto dalla cache può essere **più povero** di quello letto in
             # origine (`analizza` segue fino a 3 pagine interne; in cache può

@@ -55,6 +55,27 @@ class LaRevisioneUmanaVince(unittest.TestCase):
             racc.USCITA = vecchia
         self.assertEqual(set(dec), {"si.it"},
                          "⛔ una decisione «non-medico» o «scarta» NON deve promuovere")
+        self.assertEqual(dec["si.it"]["tipo"], "persona")
+
+    def test_una_decisione_impresa_porta_a_impresa_NON_a_persona(self):
+        # ⚠️ Uno studio che nomina PIU' medici ⛔ non e' un libero professionista:
+        # e' un'impresa — che nell'elenco ci sta comunque, ⛔ ma con l'etichetta
+        # giusta.
+        d = Path(tempfile.mkdtemp())
+        (d / "_coda-decisioni.json").write_text(json.dumps({
+            "uno.it": {"come": "medico", "nota": "un solo medico"},
+            "tanti.it": {"come": "impresa", "nota": "quattro medici"},
+            "no.it": {"come": "non-medico", "nota": "centro estetico"},
+        }), encoding="utf-8")
+        vecchia = racc.USCITA
+        try:
+            racc.USCITA = str(d)
+            dec = racc.carica_decisioni()
+        finally:
+            racc.USCITA = vecchia
+        self.assertEqual(dec["uno.it"]["tipo"], "persona")
+        self.assertEqual(dec["tanti.it"]["tipo"], "impresa")
+        self.assertNotIn("no.it", dec)
 
     def test_senza_il_file_non_ci_sono_decisioni_e_NON_si_rompe(self):
         vecchia = racc.USCITA

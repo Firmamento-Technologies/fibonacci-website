@@ -352,7 +352,11 @@ def decisioni_in_blocco(args, decisioni):
         return 0
 
     # --applica
-    da_fare = {d: v for d, v in decisioni.items() if v.get("come") == "medico"}
+    # `medico` → `persona` · `impresa` → `impresa`. ⛔ `non-medico`/`scarta`
+    # ⛔ non promuovono: si registrano, ⛔ ma la scheda resta fuori.
+    _TIPO = {"medico": "persona", "impresa": "impresa"}
+    da_fare = {d: dict(v, tipo=_TIPO[v["come"]]) for d, v in decisioni.items()
+               if v.get("come") in _TIPO}
     if not da_fare:
         print("⛔ nessuna decisione «medico» registrata: prima `--decidi-A`.")
         return 0
@@ -368,10 +372,10 @@ def decisioni_in_blocco(args, decisioni):
         for s in righe if isinstance(righe, list) else []:
             if not isinstance(s, dict) or s.get("dominio") not in da_fare:
                 continue
-            if s.get("tipoSoggetto") == "persona":
+            if s.get("tipoSoggetto") == da_fare[s["dominio"]]["tipo"]:
                 gia += 1
                 continue
-            s["tipoSoggetto"] = "persona"
+            s["tipoSoggetto"] = da_fare[s["dominio"]]["tipo"]
             s["ragioneClassificazione"] = da_fare[s["dominio"]]["nota"]
             s["escluso"] = False
             s["motivoEsclusione"] = ""
@@ -379,7 +383,7 @@ def decisioni_in_blocco(args, decisioni):
             tocca = True
         if tocca:
             f.write_text(json.dumps(righe, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"✅ {scritte} schede portate a «persona» ({gia} lo erano già)")
+    print(f"✅ {scritte} schede portate al tipo deciso ({gia} c'erano già)")
     print("   La ragione scritta nella scheda porta la prova, ⛔ non solo l'esito.")
     return 0
 
