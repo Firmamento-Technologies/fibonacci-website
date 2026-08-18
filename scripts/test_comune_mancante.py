@@ -10,7 +10,7 @@ import unittest
 from pathlib import Path
 
 QUI = Path(__file__).resolve().parent
-_spec = importlib.util.spec_from_file_location("cdd", QUI / "comune-dal-dominio.py")
+_spec = importlib.util.spec_from_file_location("cdd", QUI / "comune-mancante.py")
 cdd = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(cdd)
 
@@ -98,6 +98,53 @@ class ILimitiDichiarati(unittest.TestCase):
         # quindi il comune scritto resta **plausibile**. Il test esiste per
         # ⛔ non far credere che il caso sia coperto.
         self.assertEqual(cdd.estrai(sch("valeria-salerno.com", "sa"), PROV)[0], "salerno")
+
+
+class MetodoB_DalCap(unittest.TestCase):
+    """Il CAP e' un **codice**: ⛔ non e' ambiguo come una parola in un dominio."""
+
+    MAPPA = {"80129": ("Napoli", "na"), "16128": ("Genova", "ge"), "05100": ("Terni", "tr")}
+
+    def test_il_CAP_nella_pagina_da_il_comune(self):
+        c, perche = cdd.estrai_dal_cap({"provincia": "na"}, self.MAPPA,
+                                       "Via G. L. Bernini 45, 80129 Tel 081...")
+        self.assertEqual(c, "Napoli")
+        self.assertIn("80129", perche)
+
+    def test_se_la_provincia_CONTRADDICE_il_CAP_non_si_sceglie(self):
+        # 🔴 Misurato: 234 casi. Sceglierne uno a caso avrebbe messo studi nella
+        # città sbagliata — e in un elenco per vicinanza è il danno peggiore.
+        self.assertIsNone(cdd.estrai_dal_cap({"provincia": "ge"}, self.MAPPA,
+                                             "… 80129 …")[0])
+
+    def test_senza_provincia_il_CAP_basta(self):
+        self.assertEqual(cdd.estrai_dal_cap({"provincia": ""}, self.MAPPA, "… 05100 …")[0],
+                         "Terni")
+
+    def test_un_numero_di_5_cifre_dentro_uno_piu_lungo_NON_e_un_CAP(self):
+        # ⚠️ La prima versione di questo test era VUOTA: usava una P.IVA le cui
+        # prime cifre ⛔ non erano un CAP mappato, quindi restava verde anche
+        # togliendo i confini. Qui «80129» sta **dentro** la P.IVA.
+        self.assertIsNone(cdd.estrai_dal_cap({"provincia": "na"}, self.MAPPA,
+                                             "P.IVA 80129123456")[0])
+
+    def test_i_comuni_TRONCATI_non_entrano_nella_mappa(self):
+        # «San» ⛔ non e' un comune: e' un nome tagliato a meta' in una scheda
+        # sbagliata. Misurato: 5 schede sarebbero finite a «San».
+        schede = [(None, {"cap": "47030", "comune": "San", "provincia": "fc"}),
+                  (None, {"cap": "47030", "comune": "San", "provincia": "fc"})]
+        self.assertNotIn("47030", cdd.mappa_cap(schede))
+
+    def test_i_CAP_AMBIGUI_non_entrano_nella_mappa(self):
+        # 326 CAP su 2.022 compaiono con più comuni: un CAP che punta a due
+        # posti ⛔ non e' una prova.
+        schede = [(None, {"cap": "20100", "comune": "Milano", "provincia": "mi"}),
+                  (None, {"cap": "20100", "comune": "Sesto", "provincia": "mi"}),
+                  (None, {"cap": "16128", "comune": "Genova", "provincia": "ge"}),
+                  (None, {"cap": "16128", "comune": "Genova", "provincia": "ge"})]
+        mp = cdd.mappa_cap(schede)
+        self.assertNotIn("20100", mp, "un CAP ambiguo ⛔ non deve entrare")
+        self.assertEqual(mp["16128"], ("Genova", "ge"))
 
 
 if __name__ == "__main__":

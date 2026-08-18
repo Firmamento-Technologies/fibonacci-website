@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
-"""Estrae il COMUNE dal dominio, quando la provincia lo conferma.
+"""Riempie il COMUNE mancante, con DUE metodi indipendenti.
 
-    python3 scripts/comune-dal-dominio.py            # il rapporto, ⛔ non scrive
-    python3 scripts/comune-dal-dominio.py --scrivi   # riempie il campo `comune`
+    python3 scripts/comune-mancante.py            # il rapporto, ⛔ non scrive
+    python3 scripts/comune-mancante.py --scrivi   # riempie il campo `comune`
+
+  **A · dal DOMINIO** — la citta' e' incollata nel nome del sito
+        (`dermacarepadova.it`), e la **provincia** della scheda conferma.
+  **B · dal CAP** — nella pagina c'e' un CAP, e la mappa **CAP → comune**
+        costruita **dai nostri stessi dati** dice quale citta' e'.
+
+🔑 B esiste perche' A arriva solo dove il proprietario ha messo la citta' nel
+dominio. Il CAP invece sta nel **piede di pagina** di quasi tutti i siti veri, e
+⛔ non e' ambiguo: e' un codice.
 
 ── PERCHE' ESISTE ────────────────────────────────────────────────────────────
 **3.312 schede su 10.649 (31%) ⛔ non hanno il comune**, e un elenco di medici
@@ -40,6 +49,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import importlib.util
 import json
 import re
 import sys
@@ -48,6 +58,20 @@ from pathlib import Path
 
 QUI = Path(__file__).resolve().parent
 CARTELLA = QUI.parent / "src/dati/cliniche"
+
+# ⛔ La cache e il ripulitore del testo ⛔ NON si riscrivono: sono in
+# `raccolta-cliniche.py`, e una seconda copia divergerebbe.
+_spec = importlib.util.spec_from_file_location("racc", QUI / "raccolta-cliniche.py")
+racc = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(racc)
+
+
+def _pagine(dominio):
+    return [corpo for _, corpo in racc.pagine_in_cache(dominio)]
+
+
+def _testo(html):
+    return racc.testo_di(html)
 
 # ⛔ Parole del mestiere finite nel campo `comune` di qualche scheda sbagliata.
 # «Medicina» e «Estetica» ⛔ non sono la citta' di `medicina-estetica-milano.it`.
@@ -76,6 +100,53 @@ MIN = 6   # ⚠️ sotto le 6 lettere («asti», «roma», «terni») il rumore 
 def _piatto(s):
     s = "".join(c for c in unicodedata.normalize("NFD", s or "") if not unicodedata.combining(c))
     return re.sub(r"[^a-z]", "", s.lower())
+
+
+def mappa_cap(schede):
+    """`CAP → (comune, provincia)`, dalle schede **gia' verificate**.
+
+    🔑 Come per i comuni, la fonte e' **dentro casa**: 7.312 schede hanno CAP e
+    comune insieme. ⛔ Nessun elenco da procurarsi, e nessuna licenza da
+    rispettare.
+
+    ⚠️ **I CAP ambigui si buttano.** 326 CAP su 2.022 compaiono con **piu' di un
+    comune** — i CAP di citta' grandi coprono piu' frazioni, e certi comuni li
+    condividono. Un CAP che punta a due posti ⛔ non e' una prova: si scarta.
+    """
+    per_cap = collections.defaultdict(collections.Counter)
+    for _, s in schede:
+        c = (s.get("cap") or "").strip()
+        com = (s.get("comune") or "").strip()
+        p = (s.get("provincia") or "").strip().lower()
+        if re.fullmatch(r"\d{5}", c) and len(com) > 2:
+            per_cap[c][(com, p)] += 1
+    # ⛔ Comuni **troncati** ereditati da schede sbagliate: «San», «Santa»,
+    # «Sant» ⛔ non sono comuni, sono l'inizio di un nome tagliato a meta'.
+    # Misurato: 5 schede sarebbero finite a «San».
+    monchi = {"san", "santa", "sant", "santo", "borgo", "villa", "monte", "castel", "citta"}
+    return {c: v.most_common(1)[0][0] for c, v in per_cap.items()
+            if len({x[0].lower() for x in v}) == 1
+            and v.most_common(1)[0][0][0].strip().lower() not in monchi}
+
+
+RE_CAP = re.compile(r"(?<!\d)(\d{5})(?!\d)")
+
+
+def estrai_dal_cap(scheda, cap_comune, testo):
+    """`(comune, perche')` dal primo CAP della pagina che la provincia conferma."""
+    prov = (scheda.get("provincia") or "").strip().lower()
+    for cap in dict.fromkeys(RE_CAP.findall(testo or "")):
+        coppia = cap_comune.get(cap)
+        if not coppia:
+            continue
+        com, p = coppia
+        # ⚠️ Se la provincia della scheda e quella del CAP **divergono**, ⛔ non
+        # si sceglie: si scarta. Misurato: 234 casi, e sceglierne uno a caso
+        # avrebbe messo studi nella citta' sbagliata.
+        if prov and p and prov != p:
+            continue
+        return com, f"dal CAP {cap} trovato nella pagina, con la provincia che concorda"
+    return None, None
 
 
 def carica():
@@ -153,8 +224,16 @@ def main() -> int:
         print("    (⛔ non e' «zero da riempire» — e' una misura che non c'e')")
         return 0
     senza = [(f, s) for f, s in schede if not (s.get("comune") or "").strip()]
-    tro = [(f, s, *estrai(s, per_prov)) for f, s in senza]
-    tro = [t for t in tro if t[2]]
+    cap_comune = mappa_cap(schede)
+    tro = []
+    for f, s in senza:
+        c, perche = estrai(s, per_prov)                    # A · dal dominio
+        if not c:                                          # B · dal CAP
+            testo = re.sub(r"\s+", " ",
+                           "\n".join(_testo(x) for x in _pagine(s["dominio"])))
+            c, perche = estrai_dal_cap(s, cap_comune, testo)
+        if c:
+            tro.append((f, s, c, perche))
 
     print(f"── {len(schede)} schede · {len(senza)} senza comune "
           f"({len(senza)/len(schede):.0%}) ──\n")
@@ -162,9 +241,9 @@ def main() -> int:
     print(f"  comuni di riferimento     : {len({c for cs in per_prov.values() for c in cs})}")
     print(f"\n  🟢 comune estratto e confermato dalla provincia: {len(tro)}")
     print(f"  ⬜ resta senza                                  : {len(senza)-len(tro)}")
-    q = collections.Counter(p.split(",")[0] for _, _, _, p in tro)
-    for k, n in q.most_common():
-        print(f"       {n:4}  {k}")
+    dal_cap = sum(1 for _, _, _, p in tro if p.startswith("dal CAP"))
+    print(f"       A · dal dominio : {len(tro)-dal_cap}")
+    print(f"       B · dal CAP     : {dal_cap}")
     print("\n  ── quali città ──")
     for c, n in collections.Counter(c for _, _, c, _ in tro).most_common(12):
         print(f"       {n:3}  {c}")
