@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "gedoc.aslnapoli2nord.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "larosedelabeaute.it",
   "nome": "Centro Estetico Villaricca La Rose de la Beautè",
   "formaSocietaria": "",

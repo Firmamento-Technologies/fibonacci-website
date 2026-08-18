@@ -156,6 +156,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "marsicalive.it",
+  "nome": "MarsicaLive, news e dirette Live dall'Abruzzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://marsicalive.it/",
+  "indirizzo": "Via Monte Velino 59",
+  "cap": "67051",
+  "comune": "Avezzano",
+  "provincia": "avezzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://marsicalive.it/",
+   "https://marsicalive.it/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "newdermavezzano.it",
   "nome": "New Derm Beauty Clinic",
   "formaSocietaria": "",

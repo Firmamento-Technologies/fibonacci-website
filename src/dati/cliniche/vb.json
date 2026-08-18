@@ -31,6 +31,54 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "claudiadiverio.com",
+  "nome": "Dott.ssa Claudia Diverio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "studio@claudiadiverio.com",
+  "sitoUrl": "https://www.claudiadiverio.com/",
+  "indirizzo": "Via Bonaventura Cavalieri, 16",
+  "cap": "28925",
+  "comune": "VERBANIA",
+  "provincia": "vb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Claudia Diverio, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.claudiadiverio.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Claudia Diverio, e il dominio lo ripete"
+ },
+ {
+  "dominio": "demarcogiuseppe.it",
+  "nome": "Dermatologia Verbania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393394675289",
+  "email": "",
+  "sitoUrl": "https://www.demarcogiuseppe.it/",
+  "indirizzo": "Piazza Papa Giovanni XXIII, 21",
+  "cap": "28922",
+  "comune": "Verbania",
+  "provincia": "vb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.demarcogiuseppe.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dottelsharkawy.com",
   "nome": "Medicina Estetica a Verbania, Dott. Elsharkawy Waleed",
   "formaSocietaria": "",
@@ -106,6 +154,37 @@
   "precisioneCoord": "civico"
  },
  {
+  "dominio": "dottoressaenricamari.it",
+  "nome": "Dottoressa Enrica Mari: gastroenterologo, medico estetico, omeopata.",
+  "formaSocietaria": "",
+  "partitaIva": "06291840152",
+  "telefono": "+393406152549",
+  "email": "",
+  "sitoUrl": "https://dottoressaenricamari.it/",
+  "indirizzo": "Via San Vittore, 32",
+  "cap": "28921",
+  "comune": "Verbania",
+  "provincia": "vb",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Enrica Mari, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottoressaenricamari.it/",
+   "https://dottoressaenricamari.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Enrica Mari, cognome dentro il dominio"
+ },
+ {
   "dominio": "dvskintherapist.it",
   "nome": "Centro Estetico DVSkinTherapist di Denise Valle a Verbania",
   "formaSocietaria": "",
@@ -166,5 +245,33 @@
   "motivoEsclusione": "",
   "nomeStrutturato": "stresasalute.it",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "yoys.it",
+  "nome": "Yoys",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.yoys.it/",
+  "indirizzo": "Via Quirino di Marzio 62",
+  "cap": "",
+  "comune": "",
+  "provincia": "vb",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.yoys.it/",
+   "https://www.yoys.it/indirizzo/impresa-di-costruzione-sedi-di-fiere-campionarie",
+   "https://www.yoys.it/indirizzo/fornitore-di-lenti-a-contatto"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

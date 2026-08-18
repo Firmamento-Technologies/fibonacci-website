@@ -148,6 +148,31 @@
   "tipoDichiarato": "Person"
  },
  {
+  "dominio": "fiordibellezza.com",
+  "nome": "Fior di bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393929700036",
+  "email": "info@fiordibellezza.com",
+  "sitoUrl": "https://www.fiordibellezza.com/",
+  "indirizzo": "Via Quasimodo 18",
+  "cap": "20025",
+  "comune": "",
+  "provincia": "legnano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fiordibellezza.com/",
+   "https://www.fiordibellezza.com/copia-di-chi-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "locale.infobel.it",
   "nome": "Elenco delle aziende locali del Italia",
   "formaSocietaria": "",

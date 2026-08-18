@@ -29,6 +29,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "aisot.it",
+  "nome": "Aisot",
+  "formaSocietaria": "",
+  "partitaIva": "03224201206",
+  "telefono": "",
+  "email": "info@aisot.it",
+  "sitoUrl": "https://aisot.it/",
+  "indirizzo": "Via Piangipane 141",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://aisot.it/",
+   "https://aisot.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "amoronlus.com",
   "nome": "Amor ETS",
   "formaSocietaria": "",
@@ -216,6 +241,34 @@
   "lat": 46.682519,
   "lon": 11.123069,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "siot.it",
+  "nome": "SIOT",
+  "formaSocietaria": "",
+  "partitaIva": "04938411008",
+  "telefono": "",
+  "email": "segreteria@siot.it",
+  "sitoUrl": "https://siot.it/",
+  "indirizzo": "Via Nicola Martelli, 3",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "merano",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://siot.it/",
+   "https://siot.it/contatti/",
+   "https://siot.it/about-siot/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "termemerano.it",

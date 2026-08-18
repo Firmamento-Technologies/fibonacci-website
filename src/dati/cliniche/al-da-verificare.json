@@ -135,6 +135,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ordinemedici.al.it",
+  "nome": "Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Alessan",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390131253666",
+  "email": "",
+  "sitoUrl": "https://ordinemedici.al.it/",
+  "indirizzo": "Via Pisacane, 21",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "al",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedici.al.it/",
+   "https://ordinemedici.al.it/privacy.html",
+   "https://ordinemedici.al.it/note-legali.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "ospedale.al.it",
   "nome": "ospedale.al.it",
   "formaSocietaria": "",

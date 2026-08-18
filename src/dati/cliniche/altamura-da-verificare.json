@@ -1,1 +1,31 @@
-[]
+[
+ {
+  "dominio": "beautyspecialistaltamura.it",
+  "nome": "Beauty Specialist",
+  "formaSocietaria": "",
+  "partitaIva": "08652340723",
+  "telefono": "+393713537850",
+  "email": "info@beautyspecialistaltamura.it",
+  "sitoUrl": "https://www.beautyspecialistaltamura.it/",
+  "indirizzo": "Via Pompei, 53",
+  "cap": "70022",
+  "comune": "Acconsento",
+  "provincia": "altamura",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.beautyspecialistaltamura.it/",
+   "https://www.beautyspecialistaltamura.it/contatti/",
+   "https://www.beautyspecialistaltamura.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

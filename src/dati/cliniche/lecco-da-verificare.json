@@ -65,6 +65,32 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "sespera.it",
+  "nome": "sespera.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@sespera.it",
+  "sitoUrl": "https://www.sespera.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lecco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sespera.it/",
+   "https://www.sespera.it/chi-siamo/",
+   "https://www.sespera.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiomedicoisolago.it",
   "nome": "Studio Medico Isolago \"De Micheli\"",
   "formaSocietaria": "",

@@ -118,6 +118,30 @@
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
+  "dominio": "porto.br.it",
+  "nome": "Autorità Portuale di Brindisi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://porto.br.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "martina-franca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://porto.br.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "seasonroses.it",
   "nome": "Season Roses",
   "formaSocietaria": "",

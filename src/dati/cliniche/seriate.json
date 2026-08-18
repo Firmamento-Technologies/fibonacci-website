@@ -114,6 +114,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "feniof.it",
+  "nome": "Federazione Nazionale Imprese Onoranze Funebri",
+  "formaSocietaria": "",
+  "partitaIva": "01111130371",
+  "telefono": "",
+  "email": "info@feniof.it",
+  "sitoUrl": "https://www.feniof.it/",
+  "indirizzo": "Via P. Miliani, 7",
+  "cap": "40132",
+  "comune": "Bologna",
+  "provincia": "seriate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.feniof.it/",
+   "https://www.feniof.it/wp-content/uploads/2024/03/5-CONTATTI_.pdf"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicalspaceseriate.it",
   "nome": "Medical Space",
   "formaSocietaria": "SRL",

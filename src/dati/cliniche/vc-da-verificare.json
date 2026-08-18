@@ -92,5 +92,33 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiogiacomasso.it",
+  "nome": "studiogiacomasso.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390161255807",
+  "email": "studio.giacomasso@gmail.com",
+  "sitoUrl": "https://www.studiogiacomasso.it/web/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vc",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiogiacomasso.it/web/",
+   "https://www.studiogiacomasso.it/web/index.php/chi-siamo",
+   "https://www.studiogiacomasso.it/web/index.php/chi-siamo/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

@@ -110,5 +110,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "villasilviamed.com",
+  "nome": "Villa Silvia Med",
+  "formaSocietaria": "",
+  "partitaIva": "14954711009",
+  "telefono": "+390717927961",
+  "email": "info.laboratorio@villasilviamed.com",
+  "sitoUrl": "https://www.villasilviamed.com/",
+  "indirizzo": "Viale Anita Garibaldi 64",
+  "cap": "60019",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villasilviamed.com/",
+   "https://www.villasilviamed.com/struttura-e-sedi-villa-silvia-med/",
+   "https://www.villasilviamed.com/sedi/casa-cura-villa-silvia/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

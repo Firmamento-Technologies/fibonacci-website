@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "centroesteticonamaste-barcellona.it",
+  "nome": "Centro Estetico Namaste",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticonamaste-barcellona.it/",
+  "indirizzo": "via Madia,27",
+  "cap": "94043",
+  "comune": "USA",
+  "provincia": "barcellona-pozzo-di-gotto",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticonamaste-barcellona.it/",
+   "https://www.centroesteticonamaste-barcellona.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "clinicacicero.it",
   "nome": "Francesca Cicero",
   "formaSocietaria": "",

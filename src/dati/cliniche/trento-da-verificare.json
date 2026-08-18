@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "dominio": "villabiancatrento.it",
+  "nome": "Casa di Cura Villa Bianca Trento",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00123990228",
+  "telefono": "+390461916000",
+  "email": "info@villabiancatrento.it",
+  "sitoUrl": "https://www.villabiancatrento.it/",
+  "indirizzo": "Via Piave, 78",
+  "cap": "38122",
+  "comune": "",
+  "provincia": "trento",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villabiancatrento.it/",
+   "https://www.villabiancatrento.it/contatti/",
+   "https://www.villabiancatrento.it/privacy-policy-sito-web/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

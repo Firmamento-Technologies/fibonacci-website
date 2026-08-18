@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "076625221.telefono.click",
+  "nome": "076625221 Numero telefonico dell'utenza Casa Di Cura Privata Madonna D",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39076625221",
+  "email": "info@telefono.click",
+  "sitoUrl": "https://076625221.telefono.click/",
+  "indirizzo": "",
+  "cap": "00053",
+  "comune": "CIVITAVECCHIA",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://076625221.telefono.click/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "cdbuonarroti.it",
   "nome": "Centro Diagnostico Buonarroti",
   "formaSocietaria": "SRL",
@@ -98,6 +122,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ebigea.it",
+  "nome": "Ebigea â¢ Elaborazione Bilanci Dati SanitÃ",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03478310372",
+  "telefono": "",
+  "email": "amministrazione@ebigea.it",
+  "sitoUrl": "https://ebigea.it/",
+  "indirizzo": "via A. Costa 43",
+  "cap": "",
+  "comune": "",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ebigea.it/",
+   "https://ebigea.it/contatti.php",
+   "https://ebigea.it/privacy.php"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "esteticamente-civitavecchia.it",
   "nome": "EsteticaMente Civitavecchia",
   "formaSocietaria": "",
@@ -130,6 +180,57 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "giomi.com",
+  "nome": "Giomi",
+  "formaSocietaria": "SPA",
+  "partitaIva": "06619881003",
+  "telefono": "",
+  "email": "info@giomi.com",
+  "sitoUrl": "https://www.giomi.com/",
+  "indirizzo": "Viale Carso 44",
+  "cap": "00195",
+  "comune": "Roma",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.giomi.com/",
+   "https://www.giomi.com/contatti/contatti-strutture-ospedaliere/",
+   "https://www.giomi.com/contatti/contatti-rsa-e-case-di-riposo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "giominext.com",
+  "nome": "Home Giomi RSA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08085901000",
+  "telefono": "",
+  "email": "info@giominext.com",
+  "sitoUrl": "https://giominext.com/",
+  "indirizzo": "Viale Carso, 44",
+  "cap": "00195",
+  "comune": "Roma",
+  "provincia": "civitavecchia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://giominext.com/",
+   "https://giominext.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "marcobonifacio.com",
   "nome": "Fisioterapia Civitavecchia Fisioterapia",
   "formaSocietaria": "SRL",
@@ -159,6 +260,35 @@
   "lat": 42.093752,
   "lon": 11.792246,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ricercare-imprese.it",
+  "nome": "✅ Trova aziende",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@firmenweb.de",
+  "sitoUrl": "https://www.ricercare-imprese.it/",
+  "indirizzo": "Piazza Giovan Battista Donati, 2",
+  "cap": "56126",
+  "comune": "Pisa",
+  "provincia": "civitavecchia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ricercare-imprese.it/",
+   "https://www.ricercare-imprese.it/contatto",
+   "https://www.ricercare-imprese.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "rossanacatalano.it",

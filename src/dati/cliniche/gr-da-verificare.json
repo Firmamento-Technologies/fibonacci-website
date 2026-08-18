@@ -143,6 +143,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "local.italy724.info",
+  "nome": "Local Search",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://local.italy724.info/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "gr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://local.italy724.info/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "medicinaesteticagrosseto.it",
   "nome": "Medicina estetica Roma e Grosseto",
   "formaSocietaria": "",

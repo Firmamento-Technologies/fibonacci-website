@@ -30,6 +30,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "paratico.corriere.it",
+  "nome": "Comune di Paratico, cinema, farmacie, aperture domenicali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://paratico.corriere.it/",
+  "indirizzo": "via Angelo Rizzoli, 8",
+  "cap": "20132",
+  "comune": "Milano",
+  "provincia": "palazzolo-sull-oglio",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://paratico.corriere.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "poliambulatoriogaleno.it",
   "nome": "Poliambulatorio Galeno: medicina del lavoro, sportiva e specialistica",
   "formaSocietaria": "",

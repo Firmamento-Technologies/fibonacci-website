@@ -32,6 +32,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "cmasalute.it",
+  "nome": "Centro polispecialistico a Gela",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02095550857",
+  "telefono": "",
+  "email": "segreteria@salutesportbenessere.it",
+  "sitoUrl": "https://www.cmasalute.it/",
+  "indirizzo": "Via Licata, 16",
+  "cap": "00195",
+  "comune": "Roma",
+  "provincia": "gela",
+  "prestazioni": [
+   "Biostimolazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.cmasalute.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dottoressaclaudiaascia.com",
   "nome": "Dott.ssa Claudia Ascia",
   "formaSocietaria": "",
@@ -67,6 +93,30 @@
   ],
   "tipoDichiarato": "Dentist",
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "gela.corriere.it",
+  "nome": "Comune di Gela, cinema, farmacie, aperture domenicali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gela.corriere.it/",
+  "indirizzo": "Piazza San Francesco 9",
+  "cap": "93012",
+  "comune": "Gela",
+  "provincia": "gela",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://gela.corriere.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "trasparenza.unige.it",

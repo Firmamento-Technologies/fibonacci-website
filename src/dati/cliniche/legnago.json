@@ -1,5 +1,38 @@
 [
  {
+  "dominio": "c84.it",
+  "nome": "Centro Estetico C84",
+  "formaSocietaria": "",
+  "partitaIva": "04469710232",
+  "telefono": "+390442750994",
+  "email": "",
+  "sitoUrl": "https://c84.it/",
+  "indirizzo": "",
+  "cap": "37045",
+  "comune": "Legnago",
+  "provincia": "legnago",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://c84.it/",
+   "https://c84.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "casadicuradomussalutis.it",
   "nome": "Domus Salutis Città di Legnago Casa di cura Ambulatori",
   "formaSocietaria": "",
@@ -57,6 +90,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "corporeabeauty.it",
+  "nome": "Centro estetico a Legnago",
+  "formaSocietaria": "",
+  "partitaIva": "04510570239",
+  "telefono": "+390442750957",
+  "email": "",
+  "sitoUrl": "https://www.corporeabeauty.it/",
+  "indirizzo": "",
+  "cap": "37045",
+  "comune": "Legnago",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.corporeabeauty.it/",
+   "https://www.corporeabeauty.it/chi-siamo/",
+   "https://www.corporeabeauty.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dralessandromicai.com",
   "nome": "DrMicai",
   "formaSocietaria": "",
@@ -83,6 +142,30 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Micai, cognome dentro il dominio"
+ },
+ {
+  "dominio": "lombardiashopping.it",
+  "nome": "Il Portale delle Aziende della Lombardia",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lombardiashopping.it/",
+  "indirizzo": "Via S. Fiorano, 54",
+  "cap": "20852",
+  "comune": "Villasanta",
+  "provincia": "legnago",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://lombardiashopping.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "poliambulatorio-sanfrancesco.it",
@@ -113,6 +196,36 @@
   "lat": 45.192498,
   "lon": 11.311127,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "sicadoma.it",
+  "nome": "Sicadoma-Estetista Legnago",
+  "formaSocietaria": "SAS",
+  "partitaIva": "02977710231",
+  "telefono": "+390442600611",
+  "email": "",
+  "sitoUrl": "https://sicadoma.it/",
+  "indirizzo": "Via del Pontiere 24",
+  "cap": "37045",
+  "comune": "Legnago",
+  "provincia": "legnago",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://sicadoma.it/",
+   "https://sicadoma.it/centro-estetico-legnago-chi-siamo/",
+   "https://sicadoma.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "studiogardinale.it",

@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "cocospacejesolo.it",
+  "nome": "COCO’ SPACE, Scienza Pelle Anima",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@cocospacejesolo.it",
+  "sitoUrl": "https://www.cocospacejesolo.it/",
+  "indirizzo": "Piazza Le Corbusier, 4",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cocospacejesolo.it/",
+   "https://www.cocospacejesolo.it/contatti/",
+   "https://www.cocospacejesolo.it/privacy-e-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "cronoshare.it",
   "nome": "Trova Professionisti di Fiducia e Confronta i Preventivi",
   "formaSocietaria": "",
@@ -109,5 +138,37 @@
   "lat": 41.89332,
   "lon": 12.482932,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studioesteticatiffany.it",
+  "nome": "Studio di Estetica a Jesolo",
+  "formaSocietaria": "",
+  "partitaIva": "04320640271",
+  "telefono": "+393336329539",
+  "email": "",
+  "sitoUrl": "https://www.studioesteticatiffany.it/",
+  "indirizzo": "Via Roma Destra, 1",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Biostimolazione",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studioesteticatiffany.it/",
+   "https://www.studioesteticatiffany.it/chi-siamo/",
+   "https://www.studioesteticatiffany.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

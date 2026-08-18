@@ -26,6 +26,32 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "clinicasantantoniorsa.it",
+  "nome": "Clinica Sant’Antonio RSA",
+  "formaSocietaria": "",
+  "partitaIva": "00175180603",
+  "telefono": "+390775250154",
+  "email": "segreteria@clinicasantonio.it",
+  "sitoUrl": "https://www.clinicasantantoniorsa.it/",
+  "indirizzo": "Via Marittima, 222",
+  "cap": "03100",
+  "comune": "Frosinone",
+  "provincia": "frosinone",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicasantantoniorsa.it/",
+   "https://www.clinicasantantoniorsa.it/privacy-policy/",
+   "https://www.clinicasantantoniorsa.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "glowesthetic.it",
   "nome": "Glow Esthetic",
   "formaSocietaria": "",

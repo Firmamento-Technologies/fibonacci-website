@@ -1,8 +1,66 @@
 [
  {
+  "dominio": "aopd.veneto.it",
+  "nome": "Homepage Azienda Ospedale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390498211111",
+  "email": "",
+  "sitoUrl": "https://www.aopd.veneto.it/",
+  "indirizzo": "Via Giustiniani, 2",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "abano-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aopd.veneto.it/",
+   "https://www.aopd.veneto.it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bur.regione.veneto.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "casadicuradiaz.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "greenbeautyabano.com",
+  "nome": "Green Beauty Abano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393515178569",
+  "email": "",
+  "sitoUrl": "https://www.greenbeautyabano.com/",
+  "indirizzo": "Via G. Puccini, 1",
+  "cap": "35031",
+  "comune": "Abano Terme",
+  "provincia": "abano-terme",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.greenbeautyabano.com/",
+   "https://www.greenbeautyabano.com/contattaci"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  },
  {
   "dominio": "policlinicoabano.it",
@@ -39,5 +97,29 @@
   "lat": 43.947098,
   "lon": 12.630769,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "veneto.direzionesanitaria.it",
+  "nome": "Direzione Sanitaria Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://veneto.direzionesanitaria.it/",
+  "indirizzo": "Via Feltre n. 57",
+  "cap": "",
+  "comune": "",
+  "provincia": "abano-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://veneto.direzionesanitaria.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

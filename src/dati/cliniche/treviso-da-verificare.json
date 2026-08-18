@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "dominio": "vulvodinia.eu",
+  "nome": "Associazione Italiana Vulvodinia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390250042000",
+  "email": "info@vulvodinia.org",
+  "sitoUrl": "https://www.vulvodinia.eu/",
+  "indirizzo": "Via G.B. Pergolesi, 4",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "treviso",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.vulvodinia.eu/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -33,6 +33,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "cassagaleno.eu",
+  "nome": "Galeno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "amministrazione@cassagaleno.it",
+  "sitoUrl": "https://cassagaleno.eu/",
+  "indirizzo": "Via Parigi, 11",
+  "cap": "00185",
+  "comune": "Roma",
+  "provincia": "aprilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cassagaleno.eu/",
+   "https://cassagaleno.eu/chi-siamo/",
+   "https://cassagaleno.eu/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "drgrech.it",
   "nome": "Dr. Giuseppe Grech",
   "formaSocietaria": "",
@@ -127,5 +153,10 @@
   "lat": 41.728889,
   "lon": 12.658269,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "refertionline.casadicuracittadiaprilia.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

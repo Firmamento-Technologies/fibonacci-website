@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "centroradiologicopotito.it",
+  "nome": "Centro Radiologico Potito -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39087491720",
+  "email": "prenotazioni@centroradiologicopotito.it",
+  "sitoUrl": "https://www.centroradiologicopotito.it/",
+  "indirizzo": "Via Conte Verde 7",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "cb",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centroradiologicopotito.it/",
+   "https://www.centroradiologicopotito.it/contatti/",
+   "https://www.centroradiologicopotito.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "colibrimagazine.it",
   "nome": "Il Colibrì",
   "formaSocietaria": "",

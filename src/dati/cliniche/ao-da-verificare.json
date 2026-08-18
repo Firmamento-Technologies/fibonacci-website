@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "aliceveglio.com",
+  "nome": "Alice Veglio Official Website",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@aliceveglio.com",
+  "sitoUrl": "https://aliceveglio.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ao",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aliceveglio.com/",
+   "https://aliceveglio.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "aosta.bakeca.it",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",

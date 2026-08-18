@@ -38,5 +38,30 @@
   "dominio": "studiodermatologicopace.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "studiomedicosanfrancesco.it",
+  "nome": "Studio Medico San Francesco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicosanfrancesco.it",
+  "sitoUrl": "https://www.studiomedicosanfrancesco.it/",
+  "indirizzo": "Via F.lli Sebastiani n.161",
+  "cap": "02100",
+  "comune": "Rieti",
+  "provincia": "ri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomedicosanfrancesco.it/",
+   "https://www.studiomedicosanfrancesco.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

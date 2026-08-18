@@ -100,5 +100,31 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 08:00-18:00"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "villachiarugi.it",
+  "nome": "VILLA CHIARUGI",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07239950632",
+  "telefono": "",
+  "email": "info@villachiarugi.it",
+  "sitoUrl": "https://www.villachiarugi.it/",
+  "indirizzo": "Via Giuseppe Atzori,283",
+  "cap": "84014",
+  "comune": "Nocera",
+  "provincia": "nocera-inferiore",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.villachiarugi.it/",
+   "https://www.villachiarugi.it/dove-siamo/",
+   "https://www.villachiarugi.it/PRIVACY/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

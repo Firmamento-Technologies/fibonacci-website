@@ -152,5 +152,31 @@
   "lat": 46.280541,
   "lon": 12.078914,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ordinemedicibelluno.it",
+  "nome": "Ordine Medici Chirurghi e Odontoiatri della Provincia di Belluno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390437940531",
+  "email": "",
+  "sitoUrl": "https://ordinemedicibelluno.it/",
+  "indirizzo": "Viale Europa 34",
+  "cap": "32100",
+  "comune": "Belluno",
+  "provincia": "bl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedicibelluno.it/",
+   "https://ordinemedicibelluno.it/ordine/organi-istituzionali/chi-siamo.html",
+   "https://ordinemedicibelluno.it/ordine/segreteria/contatti.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

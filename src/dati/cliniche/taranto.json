@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "clinicabernardini.it",
+  "nome": "Casa di Cura Bernardini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@greenecosrl.it",
+  "sitoUrl": "https://www.clinicabernardini.it/",
+  "indirizzo": "Via Scoglio del Tonno 64",
+  "cap": "74121",
+  "comune": "",
+  "provincia": "taranto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicabernardini.it/",
+   "https://www.clinicabernardini.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "facestetiq.it",
   "nome": "Facestetiq",
   "formaSocietaria": "SRL",
@@ -100,6 +125,31 @@
   "lat": 40.548816,
   "lon": 17.08058,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "pacchettisalute.it",
+  "nome": "Pacchetti Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@pacchettisalute.it",
+  "sitoUrl": "https://www.pacchettisalute.it/",
+  "indirizzo": "Via Scoglio del Tonno 64",
+  "cap": "74121",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.pacchettisalute.it/",
+   "https://www.pacchettisalute.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "sosmedico.org",

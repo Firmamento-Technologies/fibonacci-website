@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "bandi.aslto5.piemonte.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "labeautiquestetica.it",
   "nome": "Centro di estetica avanzata Pinerolo",
   "formaSocietaria": "",

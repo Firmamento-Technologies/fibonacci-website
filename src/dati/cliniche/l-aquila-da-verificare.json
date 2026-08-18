@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "aiac.it",
+  "nome": "AIAC",
+  "formaSocietaria": "",
+  "partitaIva": "05616291000",
+  "telefono": "+390642020412",
+  "email": "segreteria@aiac.it",
+  "sitoUrl": "https://www.aiac.it/",
+  "indirizzo": "Via Biagio Petrocelli 226",
+  "cap": "00173",
+  "comune": "Roma",
+  "provincia": "l-aquila",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aiac.it/",
+   "https://www.aiac.it/associazione/identita-e-mission/chi-siamo",
+   "https://www.aiac.it/privacy-e-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticapiuaq.it",
   "nome": "Estetica Più di Simona Paolucci",
   "formaSocietaria": "",
@@ -30,6 +56,11 @@
   "lat": 42.136885,
   "lon": 13.610341,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "sanita.regione.abruzzo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "sensazionidibenessere.it",

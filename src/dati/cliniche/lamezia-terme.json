@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "abonante.it",
+  "nome": "Dr. Sergio Abonante Chirurgo Senologo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://abonante.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lamezia-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Sergio Abonante, cognome nel dominio",
+  "fonteUrl": [
+   "https://abonante.it/",
+   "https://abonante.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Sergio Abonante, cognome nel dominio"
+ },
+ {
   "dominio": "centromedicogitalia.it",
   "nome": "Centro Medico G Italia",
   "formaSocietaria": "SRLS",
@@ -122,6 +147,33 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "francescaprovenzano.it",
+  "nome": "Francesca Provenzano: Anti-Age Specialist Lamezia Terme • Catanzaro",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03686780796",
+  "telefono": "",
+  "email": "info@marcopostlamezia.com",
+  "sitoUrl": "https://www.francescaprovenzano.it/",
+  "indirizzo": "via Paolo Orsi 9",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.francescaprovenzano.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "ilmiospaziosalute.it",
   "nome": "Spazio Salute",
   "formaSocietaria": "",
@@ -151,6 +203,32 @@
   "lat": 38.964507,
   "lon": 16.302145,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "latricoclinica.it",
+  "nome": "La TricoClinica",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "03912920794",
+  "telefono": "+393444086070",
+  "email": "info@latricoclinica.it",
+  "sitoUrl": "https://latricoclinica.it/",
+  "indirizzo": "Via Sebastiano Guzzi, 38",
+  "cap": "",
+  "comune": "",
+  "provincia": "lamezia-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://latricoclinica.it/",
+   "https://latricoclinica.it/chi-siamo/",
+   "https://latricoclinica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "lessenzadelbenessere.com",
@@ -278,5 +356,82 @@
   "lat": 38.964507,
   "lon": 16.302145,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiomedicomichelangelo.it",
+  "nome": "Studio Medico Michelangelo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3909681945692",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicomichelangelo.it/",
+  "indirizzo": "",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiomedicomichelangelo.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "villamichelino.org",
+  "nome": "villamichelino.org",
+  "formaSocietaria": "",
+  "partitaIva": "01473410791",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.villamichelino.org/",
+  "indirizzo": "Via Duca d'Aosta, 164",
+  "cap": "88046",
+  "comune": "Lamezia Terme",
+  "provincia": "lamezia-terme",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.villamichelino.org/",
+   "https://www.villamichelino.org/chi-siamo",
+   "https://www.villamichelino.org/chi-siamo/codice-etico"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "visitamedical.it",
+  "nome": "VisitaMedical -",
+  "formaSocietaria": "",
+  "partitaIva": "03975130794",
+  "telefono": "+390963230208",
+  "email": "",
+  "sitoUrl": "https://www.visitamedical.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lamezia-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.visitamedical.it/",
+   "https://www.visitamedical.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

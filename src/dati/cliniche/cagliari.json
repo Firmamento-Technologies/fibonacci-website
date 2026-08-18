@@ -1,5 +1,82 @@
 [
  {
+  "dominio": "alessandrasassu.it",
+  "nome": "Dott.ssa Alessandra Sassu",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390705488084",
+  "email": "info@alessandrasassu.it",
+  "sitoUrl": "https://www.alessandrasassu.it/",
+  "indirizzo": "Via Nuoro 10",
+  "cap": "09125",
+  "comune": "",
+  "provincia": "cagliari",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandra Sassu, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.alessandrasassu.it/",
+   "https://www.alessandrasassu.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandra Sassu, e il dominio lo ripete"
+ },
+ {
+  "dominio": "casadicurasantantonio.com",
+  "nome": "Casa di Cura Sant’Antonio",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01061930929",
+  "telefono": "",
+  "email": "info@casadicurasantantonio.com",
+  "sitoUrl": "https://www.casadicurasantantonio.com/",
+  "indirizzo": "Via Chironi, 3",
+  "cap": "09125",
+  "comune": "Cagliari",
+  "provincia": "cagliari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.casadicurasantantonio.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "casadicuravillaelena.it",
+  "nome": "Casa di Cura Villa Elena - Cagliari - Casa di Cura Villa Elena - Cagli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390707054500",
+  "email": "amministrazione@casadicuravillaelena.it",
+  "sitoUrl": "https://www.casadicuravillaelena.it/",
+  "indirizzo": "Via Dante Alighieri, 133",
+  "cap": "09128",
+  "comune": "Cagliari",
+  "provincia": "cagliari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.casadicuravillaelena.it/",
+   "https://www.casadicuravillaelena.it/chi-siamo/",
+   "https://www.casadicuravillaelena.it/le-sedi/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "clinicasantanna.it",
   "nome": "Casa di Cura Sant'Anna",
   "formaSocietaria": "",

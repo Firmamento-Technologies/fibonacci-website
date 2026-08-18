@@ -1,1 +1,162 @@
-[]
+[
+ {
+  "dominio": "aiop-puglia.it",
+  "nome": "Aiop Puglia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390805246787",
+  "email": "",
+  "sitoUrl": "https://www.aiop-puglia.it/",
+  "indirizzo": "Via G. Gentile, 61",
+  "cap": "70126",
+  "comune": "Bari",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aiop-puglia.it/",
+   "https://www.aiop-puglia.it/chi-siamo/",
+   "https://www.aiop-puglia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "alcase.it",
+  "nome": "ALCASE Italia per la lotta contro il cancro del polmone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@alcase.it",
+  "sitoUrl": "https://alcase.it/",
+  "indirizzo": "Via Pier Carlo Boggio, 41",
+  "cap": "12100",
+  "comune": "Cuneo",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://alcase.it/",
+   "https://alcase.it/contatti/",
+   "https://alcase.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "burp.regione.puglia.it",
+  "nome": "Bollettino Ufficiale della Regione Puglia (BURP)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://burp.regione.puglia.it/",
+  "indirizzo": "Via G. Gentile, 52",
+  "cap": "70126",
+  "comune": "Bari",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://burp.regione.puglia.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cordoneombelicale.it",
+  "nome": "Cordone Ombelicale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3939800454577",
+  "email": "info@cordoneombelicale.it",
+  "sitoUrl": "https://www.cordoneombelicale.it/",
+  "indirizzo": "Via Della Pineta 153",
+  "cap": "09125",
+  "comune": "Cagliari",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cordoneombelicale.it/",
+   "https://www.cordoneombelicale.it/chi-siamo/",
+   "https://www.cordoneombelicale.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dottorgiuseppevirgilio.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "edizionieuropee.it",
+  "nome": "Edizioni Europee",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://edizionieuropee.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://edizionieuropee.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "trapianti.salute.gov.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "uniba.coursecatalogue.cineca.it",
+  "nome": "uniba.coursecatalogue.cineca.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://uniba.coursecatalogue.cineca.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://uniba.coursecatalogue.cineca.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

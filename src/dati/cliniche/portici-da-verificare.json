@@ -22,5 +22,30 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "clinicabianchi.it",
+  "nome": "Clinica Bianchi",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01286971211",
+  "telefono": "+390816119111",
+  "email": "info@clinicabianchi.it",
+  "sitoUrl": "https://www.clinicabianchi.it/",
+  "indirizzo": "via Libertà 342",
+  "cap": "80055",
+  "comune": "Portici",
+  "provincia": "portici",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicabianchi.it/",
+   "https://www.clinicabianchi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

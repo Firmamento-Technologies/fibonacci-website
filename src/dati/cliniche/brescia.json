@@ -34,6 +34,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "albereta.it",
+  "nome": "L'Albereta Relais & Châteaux",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390307760550",
+  "email": "info@albereta.it",
+  "sitoUrl": "https://www.albereta.it/",
+  "indirizzo": "via Vittorio Emanuele 23",
+  "cap": "25030",
+  "comune": "Erbusco",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.albereta.it/",
+   "https://www.albereta.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "aurapoliambulatori.it",
   "nome": "Arphé Poliambulatorio a Brescia",
   "formaSocietaria": "SRL",
@@ -61,6 +86,31 @@
   "lat": 45.77958,
   "lon": 10.425873,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "brescia.figliedisancamillo.it",
+  "nome": "Casa di cura di Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390302910311",
+  "email": "info.bs@figliesancamillo.it",
+  "sitoUrl": "https://brescia.figliedisancamillo.it/",
+  "indirizzo": "Via Filippo Turati, 44",
+  "cap": "25123",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://brescia.figliedisancamillo.it/",
+   "https://brescia.figliedisancamillo.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "centromedicovaltrompia.it",
@@ -99,6 +149,56 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "franzin.org",
+  "nome": "Gamma Knife Interventi di radiochirurgia stereotassica |Dr. Franzin",
+  "formaSocietaria": "",
+  "partitaIva": "12860230155",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://franzin.org/",
+  "indirizzo": "via Bissolati, 57",
+  "cap": "25100",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Franzin Gamma, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://franzin.org/",
+   "https://franzin.org/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Franzin Gamma, cognome dentro il dominio"
+ },
+ {
+  "dominio": "giornaledibrescia.it",
+  "nome": "Giornale di Brescia: notizie e video di Brescia e provincia",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00272770173",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.giornaledibrescia.it/",
+  "indirizzo": "Via Solferino 22",
+  "cap": "25121",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.giornaledibrescia.it/",
+   "https://www.giornaledibrescia.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "igeapoliambulatoribrescia.it",
   "nome": "Poliambulatorio Brescia",
   "formaSocietaria": "",
@@ -124,5 +224,33 @@
   "lat": 45.77958,
   "lon": 10.425873,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studioodontoiatricorosi.it",
+  "nome": "Studio dentistico Brescia: Rosi&Partners",
+  "formaSocietaria": "",
+  "partitaIva": "03863870980",
+  "telefono": "+3903048310",
+  "email": "segreteria@studioodontoiatricorosi.it",
+  "sitoUrl": "https://www.studioodontoiatricorosi.it/",
+  "indirizzo": "Via Sorelle Ambrosetti 6",
+  "cap": "48310",
+  "comune": "",
+  "provincia": "brescia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studioodontoiatricorosi.it/",
+   "https://www.studioodontoiatricorosi.it/contatti",
+   "https://www.studioodontoiatricorosi.it/privacy-cookie-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

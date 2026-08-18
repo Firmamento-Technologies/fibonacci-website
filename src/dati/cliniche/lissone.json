@@ -190,5 +190,35 @@
   "lat": 45.550749,
   "lon": 9.301222,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiodentisticolissonezamataro.it",
+  "nome": "Studio Dentistico Zamataro Lissone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393349112304",
+  "email": "info@studiodentisticolissonezamataro.it",
+  "sitoUrl": "https://www.studiodentisticolissonezamataro.it/",
+  "indirizzo": "Via Besozzi, 7",
+  "cap": "20851",
+  "comune": "Lissone",
+  "provincia": "lissone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alessandro Zamataro, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiodentisticolissonezamataro.it/",
+   "https://www.studiodentisticolissonezamataro.it/chi-siamo",
+   "https://www.studiodentisticolissonezamataro.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alessandro Zamataro, cognome dentro il dominio"
  }
 ]

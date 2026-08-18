@@ -65,5 +65,29 @@
   "lat": 44.364061,
   "lon": 12.059009,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ravennatoday.it",
+  "nome": "RavennaToday",
+  "formaSocietaria": "SPA",
+  "partitaIva": "10786801000",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ravennatoday.it/",
+  "indirizzo": "via B. Nigrisoli 129",
+  "cap": "20159",
+  "comune": "Milano",
+  "provincia": "ravenna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ravennatoday.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

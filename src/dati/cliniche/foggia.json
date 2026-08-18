@@ -63,5 +63,31 @@
   "lat": 41.502811,
   "lon": 15.4529,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "villaigea.org",
+  "nome": "Casa di Cura Villa Igea Prof. Brodetti",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00419680715",
+  "telefono": "+390881742958",
+  "email": "info@villaigea.org",
+  "sitoUrl": "https://www.villaigea.org/",
+  "indirizzo": "Via Vittime Civili, 112",
+  "cap": "71121",
+  "comune": "Foggia",
+  "provincia": "foggia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.villaigea.org/",
+   "https://www.villaigea.org/chi-siamo/",
+   "https://www.villaigea.org/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

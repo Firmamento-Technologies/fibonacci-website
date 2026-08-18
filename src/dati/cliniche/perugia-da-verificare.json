@@ -30,5 +30,118 @@
   "lat": 43.107032,
   "lon": 12.402996,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "clinicalami.it",
+  "nome": "Clinica Lami Perugia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinicalami.it/",
+  "indirizzo": "Strada Fosso Infernaccio – 06129",
+  "cap": "06129",
+  "comune": "Perugia",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://clinicalami.it/",
+   "https://clinicalami.it/chi-siamo/",
+   "https://clinicalami.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "diegogigliotti.com",
+  "nome": "Diego Gigliotti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390645435319",
+  "email": "segreteria@diegogigliotti.com",
+  "sitoUrl": "https://diegogigliotti.com/",
+  "indirizzo": "Piazza Santiago del Cile, 8",
+  "cap": "",
+  "comune": "",
+  "provincia": "perugia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://diegogigliotti.com/",
+   "https://diegogigliotti.com/contatti/",
+   "http://diegogigliotti.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eco109.com",
+  "nome": "Eco109",
+  "formaSocietaria": "",
+  "partitaIva": "02889061202",
+  "telefono": "+390516167101",
+  "email": "info@eco109.com",
+  "sitoUrl": "https://eco109.com/",
+  "indirizzo": "Viale Bruno Buozzi, 51",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "perugia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Radiofrequenza",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://eco109.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lavoce.it",
+  "nome": "Notizie e approfondimenti dall'Umbria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lavoce.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lavoce.it/",
+   "https://www.lavoce.it/chi-siamo-la-voce-giornale-regionale-umbro/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

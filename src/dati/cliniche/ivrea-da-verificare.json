@@ -29,6 +29,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "assistenzafamiglia.it",
+  "nome": "Assistenza Famiglia",
+  "formaSocietaria": "",
+  "partitaIva": "07520540019",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://assistenzafamiglia.it/",
+  "indirizzo": "Via Franco Alfano, 9",
+  "cap": "10154",
+  "comune": "TORINO",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://assistenzafamiglia.it/",
+   "https://assistenzafamiglia.it/chi-siamo/",
+   "https://assistenzafamiglia.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticoelle.it",
   "nome": "Centro Estetico Elle",
   "formaSocietaria": "",
@@ -63,6 +89,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ciacformazione.it",
+  "nome": "ciacformazione.it",
+  "formaSocietaria": "",
+  "partitaIva": "05157480012",
+  "telefono": "",
+  "email": "amministrazione@ciacformazione.it",
+  "sitoUrl": "https://ciacformazione.it/",
+  "indirizzo": "Via Mazzini, 80",
+  "cap": "10087",
+  "comune": "Valperga",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ciacformazione.it/",
+   "https://ciacformazione.it/chi-siamo",
+   "https://ciacformazione.it/chi-siamo/storia"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticalinearcenter.com",
   "nome": "Estetica",
   "formaSocietaria": "",
@@ -92,9 +144,108 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "guariti.com",
+  "nome": "GUARITI.COM",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info.guariti@gmail.com",
+  "sitoUrl": "https://guariti.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://guariti.com/",
+   "https://guariti.com/contatti/",
+   "https://guariti.com/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "lungodora.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "master-officinah.unito.it",
+  "nome": "Master in Cure Palliative e Terapia del Dolore - sede di Ivrea",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.master-officinah.unito.it/do/home.pl",
+  "indirizzo": "Via Verdi 8",
+  "cap": "10124",
+  "comune": "Torino",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.master-officinah.unito.it/do/home.pl"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pkg-education.com",
+  "nome": "pkg-education.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.pkg-education.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pkg-education.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "portalediabete.org",
+  "nome": "Portale Diabete -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.portalediabete.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.portalediabete.org/",
+   "https://www.portalediabete.org/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studiosimondi.it",
@@ -119,5 +270,29 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "trasparenza.aslcittaditorino.it",
+  "nome": "IIS Windows Server",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://trasparenza.aslcittaditorino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://trasparenza.aslcittaditorino.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

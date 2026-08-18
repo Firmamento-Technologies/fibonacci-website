@@ -327,6 +327,83 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "esteticaallegrazie.it",
+  "nome": "Estetica Alle Grazie a Bassano. Bellezza e tecnologia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393279520128",
+  "email": "info@esteticaallegrazie.it",
+  "sitoUrl": "https://www.esteticaallegrazie.it/",
+  "indirizzo": "Via IV Armata, 44",
+  "cap": "36061",
+  "comune": "Bassano",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.esteticaallegrazie.it/",
+   "https://www.esteticaallegrazie.it/contatti/",
+   "https://www.esteticaallegrazie.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticaov.it",
+  "nome": "BLUE CENTER",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390424525390",
+  "email": "info@esteticaov.it",
+  "sitoUrl": "https://esteticaov.it/",
+  "indirizzo": "Via Cà Rezzonico n°54",
+  "cap": "36061",
+  "comune": "Bassano",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://esteticaov.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "progroup-ocradregioneveneto.it",
+  "nome": "Progroup OCRAD Regione Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "10049450967",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://progroup-ocradregioneveneto.it/",
+  "indirizzo": "Via Fabio Filzi, 3",
+  "cap": "20092",
+  "comune": "Cinisello Balsamo",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://progroup-ocradregioneveneto.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "rinnovalab.it",
   "nome": "Rinnova Medical Lab",
   "formaSocietaria": "SRL",

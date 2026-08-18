@@ -230,5 +230,29 @@
   "lat": 38.82996,
   "lon": 16.431557,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ro.scribd.com",
+  "nome": "Scribd: Home to the world's documents.",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://it.scribd.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lamezia-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://it.scribd.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

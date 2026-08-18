@@ -88,6 +88,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ilgirodelmondo.it",
+  "nome": ":: Home Page del Centro di Medicina dei Viaggi della Divisione \"A\"",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ilgirodelmondo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "settimo-torinese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ilgirodelmondo.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "it.indeed.com",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
@@ -150,5 +174,29 @@
   "lat": 45.137335,
   "lon": 7.771015,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "vaccinarsinpiemonte.org",
+  "nome": "Vaccinarsi in Piemonte: Vaccinazioni in Piemonte",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vaccinarsinpiemonte.org/",
+  "indirizzo": "Viale Città d'Europa 74",
+  "cap": "00144",
+  "comune": "Roma",
+  "provincia": "settimo-torinese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vaccinarsinpiemonte.org/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

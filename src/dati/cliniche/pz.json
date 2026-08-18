@@ -66,6 +66,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "lucianoviola.it",
+  "nome": "Visita Dermatologica",
+  "formaSocietaria": "",
+  "partitaIva": "01661850766",
+  "telefono": "+393476849650",
+  "email": "",
+  "sitoUrl": "https://www.lucianoviola.it/",
+  "indirizzo": "",
+  "cap": "85100",
+  "comune": "POTENZA",
+  "provincia": "pz",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luciano Viola, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.lucianoviola.it/",
+   "https://www.lucianoviola.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luciano Viola, e il dominio lo ripete"
+ },
+ {
   "dominio": "nichemedicina.it",
   "nome": "Medicina, Fisioterapia, Centro Ozono Terapia",
   "formaSocietaria": "SRL",

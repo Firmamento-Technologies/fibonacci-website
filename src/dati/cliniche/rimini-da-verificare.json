@@ -1,5 +1,55 @@
 [
  {
+  "dominio": "acmt-rete.it",
+  "nome": "ACMT-Rete per la malattia di Charcot-Marie-Tooth",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.acmt-rete.it/",
+  "indirizzo": "corso Vai alla sezione Bando di Ricerca 2023",
+  "cap": "",
+  "comune": "",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.acmt-rete.it/",
+   "https://www.acmt-rete.it/associazione/contatti",
+   "https://www.acmt-rete.it/associazione/contatti/volontari"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "auslromagna.trasparenza-valutazione-merito.it",
+  "nome": "Amministrazione Trasparente",
+  "formaSocietaria": "",
+  "partitaIva": "02483810392",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://auslromagna.trasparenza-valutazione-merito.it/",
+  "indirizzo": "Via A. De Gasperi, 8",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://auslromagna.trasparenza-valutazione-merito.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "campisichirurgiaestetica.com",
   "nome": "Chirurgia estetica Rimini, San Marino, Bologna, Forlì",
   "formaSocietaria": "",
@@ -30,6 +80,32 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "orthochildren.org",
+  "nome": "Centro Ortopedico Pediatrico Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@orthochildren.org",
+  "sitoUrl": "https://orthochildren.org/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://orthochildren.org/",
+   "https://orthochildren.org/chi-siamo/",
+   "https://orthochildren.org/sedi/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "soletsalus.it",
   "nome": "Sol et Salus",
   "formaSocietaria": "",
@@ -56,5 +132,31 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Sol et Salus",
   "tipoDichiarato": "MedicalOrganization"
+ },
+ {
+  "dominio": "villasalus.rn.it",
+  "nome": "Villa Salus",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00391170404",
+  "telefono": "+390541720315",
+  "email": "info@villasalus.rn.it",
+  "sitoUrl": "https://villasalus.rn.it/",
+  "indirizzo": "Viale Porto Palos 93",
+  "cap": "47922",
+  "comune": "Viserbella",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://villasalus.rn.it/",
+   "https://villasalus.rn.it/dove-siamo",
+   "https://villasalus.rn.it/chi-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

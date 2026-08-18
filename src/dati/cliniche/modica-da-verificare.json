@@ -42,5 +42,55 @@
   "lat": 36.858921,
   "lon": 14.761302,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "medicalprime-modica.it",
+  "nome": "Medical Prime Modica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medicalprime-modica.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "modica",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medicalprime-modica.it/",
+   "https://medicalprime-modica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicinamodernamodica.it",
+  "nome": "Medicina Moderna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinamodernamodica.it/",
+  "indirizzo": "Via Resistenza Partigiana 257",
+  "cap": "",
+  "comune": "",
+  "provincia": "modica",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicinamodernamodica.it/",
+   "https://www.medicinamodernamodica.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "gazzettadisalerno.it",
+  "nome": "Gazzetta di Salerno",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "12406560966",
+  "telefono": "",
+  "email": "info@dueaconsulting.com",
+  "sitoUrl": "https://www.gazzettadisalerno.it/",
+  "indirizzo": "Piazza Municipio 13",
+  "cap": "20124",
+  "comune": "Milano",
+  "provincia": "salerno",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.gazzettadisalerno.it/",
+   "https://www.gazzettadisalerno.it/contatti/",
+   "https://www.gazzettadisalerno.it/amalfi-si-insedia-la-nuova-giunta-milano/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiodentisticocirodagostino.it",
   "nome": "Studio Dentistico Pontecagnano",
   "formaSocietaria": "",
@@ -27,5 +55,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ciro D'agostino, cognome dentro il dominio"
+ },
+ {
+  "dominio": "tortorellaspa.com",
+  "nome": "Casa di Cura Tortorella",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390892578666",
+  "email": "amministrazione@casadicuratortorella.it",
+  "sitoUrl": "https://www.tortorellaspa.com/",
+  "indirizzo": "Via Nicola Aversano n.1",
+  "cap": "84124",
+  "comune": "Salerno",
+  "provincia": "salerno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.tortorellaspa.com/",
+   "https://www.tortorellaspa.com/contatti-privacy/",
+   "https://www.tortorellaspa.com/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

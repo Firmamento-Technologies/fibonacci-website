@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "afevaemiliaromagna.org",
+  "nome": "afevaemiliaromagna.org",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://afevaemiliaromagna.org/",
+  "indirizzo": "Via Cimarosa, 101",
+  "cap": "44100",
+  "comune": "Ferrara",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://afevaemiliaromagna.org/",
+   "https://afevaemiliaromagna.org/contatti/",
+   "https://afevaemiliaromagna.org/informativa-privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroesteticolessenza.it",
   "nome": "Centro Estetico l'Essenza, Casale Monferrato. Scopri chi siamo!",
   "formaSocietaria": "",
@@ -62,6 +88,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "csvastialessandria.it",
+  "nome": "CSVAA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@pec.csvastiale",
+  "sitoUrl": "https://csvastialessandria.it/",
+  "indirizzo": "via Verona 1",
+  "cap": "15121",
+  "comune": "Alessandria",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://csvastialessandria.it/",
+   "https://csvastialessandria.it/profilo/chi-siamo.asp",
+   "https://csvastialessandria.it/contatti/dove-siamo.asp"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dermolasermed.com",
   "nome": "DermoLaser",
   "formaSocietaria": "",
@@ -100,6 +152,32 @@
   "lat": 45.4668,
   "lon": 9.1905,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ilmonferrato.it",
+  "nome": "Il Monferrato > Prima pagina",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00150360063",
+  "telefono": "+390142456070",
+  "email": "",
+  "sitoUrl": "https://www.ilmonferrato.it/pagina/PvJJJSenik-nGY-zx_jlIA/prima-pagina",
+  "indirizzo": "via Adam. Cronaca 15",
+  "cap": "15033",
+  "comune": "Casale",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.ilmonferrato.it/pagina/PvJJJSenik-nGY-zx_jlIA/prima-pagina",
+   "https://www.ilmonferrato.it/contatti/",
+   "https://www.ilmonferrato.it/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "innovamedical.it",
@@ -193,6 +271,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "lospiffero.com",
+  "nome": "- LO SPIFFERO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lospiffero.com/",
+  "indirizzo": "via Pietro Micca 10",
+  "cap": "10122",
+  "comune": "Torino",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lospiffero.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "marcofrigerio.net",
   "nome": "Riflessologia",
   "formaSocietaria": "",
@@ -221,6 +323,56 @@
   "tipoDichiarato": "Person"
  },
  {
+  "dominio": "primaalessandria.it",
+  "nome": "Prima Alessandria",
+  "formaSocietaria": "SRL",
+  "partitaIva": "15478161001",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://primaalessandria.it/",
+  "indirizzo": "Via Idiomi 1",
+  "cap": "20057",
+  "comune": "Assago",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://primaalessandria.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "radiogold.it",
+  "nome": "Radio Gold News",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02096050063",
+  "telefono": "+390131221887",
+  "email": "amministrazione@radiogold.it",
+  "sitoUrl": "https://radiogold.it/",
+  "indirizzo": "strada Sabato, 15",
+  "cap": "13419",
+  "comune": "Spalto",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://radiogold.it/",
+   "https://radiogold.it/chi-siamo/",
+   "https://radiogold.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "renoviamedicalclinic.it",
   "nome": "Renovia Medical Clinic",
   "formaSocietaria": "",
@@ -247,6 +399,30 @@
   "motivoEsclusione": "",
   "nomeStrutturato": "Renovia Medical Clinic",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "santannacasale.it",
+  "nome": "Nuova Casa di Cura Sant’Anna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@santannacasale.it",
+  "sitoUrl": "https://santannacasale.it/",
+  "indirizzo": "Viale Cavalli d’Olivola, 22",
+  "cap": "15033",
+  "comune": "Casale",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://santannacasale.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "studiodentisticoscarrone.it",

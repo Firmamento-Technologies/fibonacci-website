@@ -101,6 +101,35 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "giovannacalcullichirurgo.com",
+  "nome": "Dott.ssa Giovanna Calculli",
+  "formaSocietaria": "",
+  "partitaIva": "08648820721",
+  "telefono": "+393501587771",
+  "email": "",
+  "sitoUrl": "https://www.giovannacalcullichirurgo.com/",
+  "indirizzo": "Via Luigi Einaudi 81",
+  "cap": "75100",
+  "comune": "Matera",
+  "provincia": "mt",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giovanna Calculli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.giovannacalcullichirurgo.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giovanna Calculli, cognome dentro il dominio"
+ },
+ {
   "dominio": "laseremedicinaestetica.it",
   "nome": "Dr Marco Pisciotta",
   "formaSocietaria": "SOCIETÀSEMPLICE",

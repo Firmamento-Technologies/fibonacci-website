@@ -24,6 +24,31 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "luxurymargaritaesthetique.it",
+  "nome": "Luxury Margarita Esthétique",
+  "formaSocietaria": "",
+  "partitaIva": "04454160245",
+  "telefono": "",
+  "email": "info@luxurymargaritaesthetique.it",
+  "sitoUrl": "https://www.luxurymargaritaesthetique.it/",
+  "indirizzo": "Via Campo Marzio, 30",
+  "cap": "36061",
+  "comune": "Bassano",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.luxurymargaritaesthetique.it/",
+   "https://www.luxurymargaritaesthetique.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "noidonne.org",
   "nome": "NoiDonne",
   "formaSocietaria": "",
@@ -44,6 +69,33 @@
    "https://noidonne.org/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "puratelie.it",
+  "nome": "PurAtelié",
+  "formaSocietaria": "",
+  "partitaIva": "03843760244",
+  "telefono": "+390424503161",
+  "email": "",
+  "sitoUrl": "https://puratelie.it/",
+  "indirizzo": "Via Contrà San Giorgio 11",
+  "cap": "",
+  "comune": "",
+  "provincia": "bassano-del-grappa",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://puratelie.it/",
+   "https://puratelie.it/contatto/"
+  ],
+  "lettoIl": "2026-08-17",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },

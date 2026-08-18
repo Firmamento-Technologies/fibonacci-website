@@ -37,5 +37,10 @@
   "dominio": "reddit.com",
   "escluso": true,
   "motivoEsclusione": "robots.txt vieta la lettura"
+ },
+ {
+  "dominio": "verif.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

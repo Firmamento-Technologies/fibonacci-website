@@ -26,6 +26,33 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "roccofusco.com",
+  "nome": "Dottor Rocco Fusco: medico chirurgo specializzato in medicina dello sp",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.roccofusco.com/",
+  "indirizzo": "Via Bosco Magliano 62",
+  "cap": "83030",
+  "comune": "Montefredane",
+  "provincia": "av",
+  "prestazioni": [
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.roccofusco.com/",
+   "https://www.roccofusco.com/contatti-dottor-fusco"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "tironestudiomedico.com",
   "nome": "Studio Medico Tirone: Eccellenza Polispecialistica ad Avellino",
   "formaSocietaria": "",

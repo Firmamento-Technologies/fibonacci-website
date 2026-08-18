@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "ats-valpadana.it",
+  "nome": "ats-valpadana.it",
+  "formaSocietaria": "",
+  "partitaIva": "02481970206",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ats-valpadana.it/",
+  "indirizzo": "via della Conciliazione, 10",
+  "cap": "00193",
+  "comune": "Comune",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://ats-valpadana.it/",
+   "https://ats-valpadana.it/note-legali",
+   "https://ats-valpadana.it/amministrazione-trasparente/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dottoressa-agataborsella.it",
   "nome": "Dottoressa Agata Borsella",
   "formaSocietaria": "",

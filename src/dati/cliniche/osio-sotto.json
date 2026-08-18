@@ -32,6 +32,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "malattierare.gov.it",
+  "nome": "Portale delle Malattie Rare",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info.centraleoperativa@asl.vt.it",
+  "sitoUrl": "https://www.malattierare.gov.it/",
+  "indirizzo": "Via Vincenzo Verrastro, 9",
+  "cap": "85100",
+  "comune": "Potenza",
+  "provincia": "osio-sotto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.malattierare.gov.it/",
+   "https://www.malattierare.gov.it/puntiContattoRegionali/lista",
+   "https://www.malattierare.gov.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiberruti.it",
   "nome": "Studi Berruti dal 1979",
   "formaSocietaria": "",

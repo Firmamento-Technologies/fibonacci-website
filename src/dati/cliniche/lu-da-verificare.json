@@ -5,6 +5,38 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "medicinaesteticanoninvasiva.it",
+  "nome": "Dott. Giovanni Mosti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393298055196",
+  "email": "",
+  "sitoUrl": "https://www.medicinaesteticanoninvasiva.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lu",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicinaesteticanoninvasiva.it/",
+   "https://www.medicinaesteticanoninvasiva.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiomedicoderlin.it",
   "nome": "Home * Studio Medico Derlin",
   "formaSocietaria": "",

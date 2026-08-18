@@ -1,5 +1,53 @@
 [
  {
+  "dominio": "albopretorionline.it",
+  "nome": "ALBO PRETORIO ON LINE",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00205740426",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://albopretorionline.it/",
+  "indirizzo": "Via Valle Miano 13",
+  "cap": "60125",
+  "comune": "Ancona",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://albopretorionline.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "casadicuravilladelsole.it",
+  "nome": "casadicuravilladelsole.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.casadicuravilladelsole.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.casadicuravilladelsole.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "healthcentersrl.com",
   "nome": "HEALTH CENTER NUTRIZIONE SALUTE",
   "formaSocietaria": "SRL",
@@ -29,5 +77,81 @@
   "lat": 39.596685,
   "lon": 16.333056,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "lattemielecalabria.it",
+  "nome": "Radio LatteMiele Calabria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lattemielecalabria.it/en",
+  "indirizzo": "Via Nuova del Campo 38",
+  "cap": "08141",
+  "comune": "Napoli",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lattemielecalabria.it/en",
+   "https://lattemielecalabria.it/en/contatti/redazione",
+   "https://lattemielecalabria.it/en/privacy-policy/utenti/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "m.fatturatoitalia.it",
+  "nome": "FatturatoItalia.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "11372821006",
+  "telefono": "",
+  "email": "info@adcapital.it",
+  "sitoUrl": "https://m.fatturatoitalia.it/",
+  "indirizzo": "Piazza Di Spagna S.r.l. Di De Luca Grazia € 584",
+  "cap": "00156",
+  "comune": "Roma",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://m.fatturatoitalia.it/",
+   "https://m.fatturatoitalia.it/contatti/",
+   "https://m.fatturatoitalia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "online-aspco.sisr.regione.calabria.it",
+  "nome": "Ricerca Albo",
+  "formaSocietaria": "",
+  "partitaIva": "02853720783",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://online-aspco.sisr.regione.calabria.it/AlboOnline/ricercaAlbo",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://online-aspco.sisr.regione.calabria.it/AlboOnline/ricercaAlbo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

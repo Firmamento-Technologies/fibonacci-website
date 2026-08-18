@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "aifi.net",
+  "nome": "A.I.FI. Associazione Italiana di Fisioterapia",
+  "formaSocietaria": "",
+  "partitaIva": "04521221004",
+  "telefono": "",
+  "email": "info@aifi.net",
+  "sitoUrl": "https://aifi.net/",
+  "indirizzo": "Via Fermo 2",
+  "cap": "00182",
+  "comune": "Roma",
+  "provincia": "pavia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://aifi.net/",
+   "https://aifi.net/contatti/",
+   "https://aifi.net/informativa-trattamento-dati-personali-da-modulo-di-contatto/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "lecarezzedivenere.it",
   "nome": "Centro estetico Pavia",
   "formaSocietaria": "",

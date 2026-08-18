@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "fondazionefirmo.com",
+  "nome": "Fondazione FIRMO per le malattie delle ossa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.fondazionefirmo.com/",
+  "indirizzo": "Via San Gallo 123",
+  "cap": "50129",
+  "comune": "Firenze",
+  "provincia": "reggio-calabria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fondazionefirmo.com/",
+   "https://www.fondazionefirmo.com/la-fondazione/chi-siamo/",
+   "https://www.fondazionefirmo.com/contatti/info-contatto/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiodermatologiaromeo.it",
   "nome": "Videodermatoscopia",
   "formaSocietaria": "",
@@ -25,6 +51,32 @@
    "https://www.studiodermatologiaromeo.it/Contatti"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomiloro.com",
+  "nome": "Trattamenti professionali ortopedia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39090363889",
+  "email": "",
+  "sitoUrl": "https://www.studiomiloro.com/",
+  "indirizzo": "Via Argentieri 30",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "reggio-calabria",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomiloro.com/",
+   "https://www.studiomiloro.com/chi-siamo",
+   "https://www.studiomiloro.com/contatti"
+  ],
+  "lettoIl": "2026-08-17",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },

@@ -1,5 +1,56 @@
 [
  {
+  "dominio": "dsmcn.unisi.it",
+  "nome": "Dipartimento di Scienze mediche, chirurgiche e neuroscienze",
+  "formaSocietaria": "",
+  "partitaIva": "00273530527",
+  "telefono": "",
+  "email": "amministrazione.dsmcn@unisi.it",
+  "sitoUrl": "https://www.dsmcn.unisi.it/it",
+  "indirizzo": "Viale Mario Bracci, 16",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "varese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.dsmcn.unisi.it/it",
+   "https://www.dsmcn.unisi.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "ebs-medical.com",
+  "nome": "Udstyr til klinikker",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ebs-medical.com",
+  "sitoUrl": "https://ebs-medical.com/",
+  "indirizzo": "",
+  "cap": "04320",
+  "comune": "Tuusula",
+  "provincia": "varese",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ebs-medical.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticaaphroditevarese.it",
   "nome": "home",
   "formaSocietaria": "",
@@ -20,6 +71,32 @@
    "https://esteticaaphroditevarese.it/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "smartxide.es",
+  "nome": "Smartxide",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lasertechib.com",
+  "sitoUrl": "https://smartxide.es/",
+  "indirizzo": "",
+  "cap": "28022",
+  "comune": "Madrid",
+  "provincia": "varese",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://smartxide.es/"
+  ],
+  "lettoIl": "2026-08-17",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }

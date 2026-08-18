@@ -33,6 +33,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "annarosagiampaoletti.it",
+  "nome": "Anna Rosa Giampaoletti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@elisabettaospici.com",
+  "sitoUrl": "https://www.annarosagiampaoletti.it/",
+  "indirizzo": "via Pasquinelli, 2",
+  "cap": "60035",
+  "comune": "JESI",
+  "provincia": "jesi",
+  "prestazioni": [
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.annarosagiampaoletti.it/",
+   "https://www.annarosagiampaoletti.it/chi-siamo/feed/",
+   "https://www.annarosagiampaoletti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "medicivallesina.it",
   "nome": "Medici Vallesina",
   "formaSocietaria": "",

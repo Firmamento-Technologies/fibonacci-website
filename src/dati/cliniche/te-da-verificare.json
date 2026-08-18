@@ -66,5 +66,10 @@
   "lat": 42.658118,
   "lon": 13.699625,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiolegalelaurenzo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

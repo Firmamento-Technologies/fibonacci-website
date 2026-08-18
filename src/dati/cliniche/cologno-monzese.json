@@ -31,6 +31,36 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "eleonoraiachini.com",
+  "nome": "Dott.ssa Eleonora Iachini",
+  "formaSocietaria": "",
+  "partitaIva": "10367380960",
+  "telefono": "",
+  "email": "info@centromedicoiachini.com",
+  "sitoUrl": "https://eleonoraiachini.com/",
+  "indirizzo": "",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "cologno-monzese",
+  "prestazioni": [
+   "Filler",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Eleonora Iachini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://eleonoraiachini.com/",
+   "https://eleonoraiachini.com/about-me/",
+   "https://eleonoraiachini.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Eleonora Iachini, e il dominio lo ripete"
+ },
+ {
   "dominio": "ilcentro.it",
   "nome": "il Centro",
   "formaSocietaria": "SPA",

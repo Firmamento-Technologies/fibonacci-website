@@ -329,5 +329,30 @@
   "lat": 45.535722,
   "lon": 9.237655,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "up-salute.it",
+  "nome": "Benvenuti in UPsalute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.up-salute.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sesto-san-giovanni",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.up-salute.it/",
+   "https://www.up-salute.it/index.php/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

@@ -1,5 +1,55 @@
 [
  {
+  "dominio": "dipsi.unich.it",
+  "nome": "Dipartimento di Psicologia",
+  "formaSocietaria": "",
+  "partitaIva": "01335970693",
+  "telefono": "",
+  "email": "info@unich.it",
+  "sitoUrl": "https://dipsi.unich.it/",
+  "indirizzo": "Viale Pindaro,42",
+  "cap": "66100",
+  "comune": "CHIETI",
+  "provincia": "avellino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dipsi.unich.it/",
+   "https://dipsi.unich.it/dipartimento/chi-siamo",
+   "https://dipsi.unich.it/dipartimento/dove-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "kinomanija-online.online",
+  "nome": "kinomanija-online.online",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://kinomanija-online.online/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "avellino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://kinomanija-online.online/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "luciotironechirurgoplastico.it",
   "nome": "Chirurgia plastica Napoli",
   "formaSocietaria": "",

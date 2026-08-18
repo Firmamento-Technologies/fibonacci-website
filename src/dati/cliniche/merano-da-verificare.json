@@ -1,5 +1,63 @@
 [
  {
+  "dominio": "assets-eu-01.kc-usercontent.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "beautymissimi.it",
+  "nome": "Beautymissimi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://beautymissimi.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://beautymissimi.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centrobenessereelisir.com",
+  "nome": "Centro Benessere Elisir",
+  "formaSocietaria": "",
+  "partitaIva": "02256660214",
+  "telefono": "",
+  "email": "info@centrobenessereelisir.com",
+  "sitoUrl": "https://centrobenessereelisir.com/",
+  "indirizzo": "Via Leonardo da Vinci, 12",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centrobenessereelisir.com/",
+   "https://centrobenessereelisir.com/contatti/",
+   "https://centrobenessereelisir.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "chipra.it",
   "nome": "Spezialisten Praxis Bozen Meran Bruneck Latsch Südtirol › CHIPRA",
   "formaSocietaria": "",
@@ -59,6 +117,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ladurner-aesthetic.it",
+  "nome": "Ladurner aesthetic studio: trattamenti cosmetici a Merano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473231046",
+  "email": "info@ladurner-aesthetic.it",
+  "sitoUrl": "https://www.ladurner-aesthetic.it/it/",
+  "indirizzo": "Via Portici, 296",
+  "cap": "39012",
+  "comune": "Merano",
+  "provincia": "merano",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ladurner-aesthetic.it/it/",
+   "https://www.ladurner-aesthetic.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "ordinemedici.bz.it",
   "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Bol",
   "formaSocietaria": "",
@@ -88,6 +174,35 @@
   "lat": 46.655942,
   "lon": 11.229637,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "osservatorio-salute.provincia.bz.it",
+  "nome": "Osservatorio Salute",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://osservatorio-salute.provincia.bz.it/it",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "merano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://osservatorio-salute.provincia.bz.it/it"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "salus-beauty.net",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "stjosef.it",

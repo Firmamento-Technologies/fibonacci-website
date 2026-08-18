@@ -29,6 +29,58 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "comune.ravenna.it",
+  "nome": "Comune di Ravenna",
+  "formaSocietaria": "",
+  "partitaIva": "00354730392",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://comune.ravenna.it/",
+  "indirizzo": "viale delle Nazioni Si ricorda che dalle 9",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "ravenna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://comune.ravenna.it/",
+   "https://comune.ravenna.it/informativa-privacy/",
+   "https://comune.ravenna.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "domusnova.it",
+  "nome": "Domus Nova Ravenna",
+  "formaSocietaria": "",
+  "partitaIva": "03831150366",
+  "telefono": "+390544508311",
+  "email": "info@domusnova.it",
+  "sitoUrl": "https://www.domusnova.it/",
+  "indirizzo": "Via P. Pavirani, 44",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "ravenna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.domusnova.it/",
+   "https://www.domusnova.it/info-contatti-domus-nova-ravenna-san-francesco/",
+   "https://www.domusnova.it/privacy-e-policy-e-informativa-cookies/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "ravenna33.it",
   "nome": "Home Page R33",
   "formaSocietaria": "SRL",

@@ -52,12 +52,8 @@
     "description": "Capturing, encrypting, comparing, and delivering photographs."
   },
   "analisi-del-volto": {
-    "title": "Facial analysis",
-    "description": "Measurements on frontal view, 3D view and live mirror, profile angles, photo series, canon, and PGAIS."
-  },
-  "parametri-cutanei": {
-    "title": "Skin parameters",
-    "description": "Eleven photographic metrics on a region of your choice, and comparison over time."
+    "title": "Face analysis",
+    "description": "Direct before/after comparison, 3D view of the face, live mirror and PGAIS judgement."
   },
   "tracciabilita-lotto": {
     "title": "Batch traceability",

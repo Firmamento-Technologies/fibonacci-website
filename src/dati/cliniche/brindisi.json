@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "casadicurasalus.it",
+  "nome": "Casa di Cura Salus",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3908311771148",
+  "email": "",
+  "sitoUrl": "https://www.casadicurasalus.it/",
+  "indirizzo": "Via Appia, 366",
+  "cap": "72100",
+  "comune": "BRINDISI",
+  "provincia": "brindisi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.casadicurasalus.it/",
+   "https://www.casadicurasalus.it/chi-siamo/",
+   "https://www.casadicurasalus.it/chi-siamo/storia/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "giovanniportaluri.it",
   "nome": "Dott. Giovanni Portaluri",
   "formaSocietaria": "",

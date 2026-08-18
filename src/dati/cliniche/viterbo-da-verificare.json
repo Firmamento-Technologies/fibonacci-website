@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "casadicuravillaimmacolata.it",
+  "nome": "Casa di Cura Villa Immacolata",
+  "formaSocietaria": "",
+  "partitaIva": "00999531007",
+  "telefono": "+390761292513",
+  "email": "accoglienza.ca@provinciaromanacamilliani.it",
+  "sitoUrl": "https://www.casadicuravillaimmacolata.it/",
+  "indirizzo": "Strada Sammartinese 65",
+  "cap": "29251",
+  "comune": "Ambulatorio",
+  "provincia": "viterbo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.casadicuravillaimmacolata.it/",
+   "https://www.casadicuravillaimmacolata.it/contatti/",
+   "https://www.casadicuravillaimmacolata.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticoanid.it",
   "nome": "ANID: Centro estetico Viterbo: trattamenti corpo, viso, mani, piscina,",
   "formaSocietaria": "",
@@ -26,5 +52,10 @@
   "lat": 42.493689,
   "lon": 11.945068,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "deplazio.net",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "albopretorio.gvcc.net",
+  "nome": "albopretorio.gvcc.net",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://albopretorio.gvcc.net/AlboPretorioOnline/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bolzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://albopretorio.gvcc.net/AlboPretorioOnline/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cdn.docs.univr.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "cityclinic.it",
   "nome": "Cityclinic",
   "formaSocietaria": "",
@@ -29,5 +58,140 @@
   "lat": 46.655942,
   "lon": 11.229637,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "dnb.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "fondazione-liebenau.it",
+  "nome": "www.fondazione-liebenau.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39037787606",
+  "email": "info@fondazione-liebenau.it",
+  "sitoUrl": "https://www.fondazione-liebenau.it/",
+  "indirizzo": "Via Cologna 1",
+  "cap": "39100",
+  "comune": "Bolzano",
+  "provincia": "bolzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.fondazione-liebenau.it/",
+   "https://www.fondazione-liebenau.it/chi-siamo/fondazione-liebenau/",
+   "https://www.fondazione-liebenau.it/contatti/persona-di-riferimento/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gesundheitsbericht-gesundheitsbeobachtung.provinz.bz.it",
+  "nome": "gesundheitsbericht-gesundheitsbeobachtung.provinz.bz.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gesundheitsbericht-gesundheitsbeobachtung.provinz.bz.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bolzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://gesundheitsbericht-gesundheitsbeobachtung.provinz.bz.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "marienklinik.it",
+  "nome": "Marienklinik Bozen",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390471310600",
+  "email": "info@pec.marienklin",
+  "sitoUrl": "https://www.marienklinik.it/",
+  "indirizzo": "",
+  "cap": "39100",
+  "comune": "Bozen",
+  "provincia": "bolzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.marienklinik.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "martinsbrunn.it",
+  "nome": "ParkClinic",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390473205600",
+  "email": "info@parkclinic.it",
+  "sitoUrl": "https://www.martinsbrunn.it/",
+  "indirizzo": "",
+  "cap": "39012",
+  "comune": "Meran",
+  "provincia": "bolzano",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.martinsbrunn.it/",
+   "https://www.martinsbrunn.it/impressum-privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "relazione-osservatorio-salute.provincia.bz.it",
+  "nome": "relazione-osservatorio-salute.provincia.bz.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://relazione-osservatorio-salute.provincia.bz.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bolzano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://relazione-osservatorio-salute.provincia.bz.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "stiftung-st-elisabeth.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "accademiaesteticamed.it",
+  "nome": "Scuola per Estetiste",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://accademiaesteticamed.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "carpi",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://accademiaesteticamed.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "biomedicalcarpi.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -60,6 +84,34 @@
   "lat": 44.78357,
   "lon": 10.885452,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "esteticamentecarpi.it",
+  "nome": "esteticamentecarpi.it",
+  "formaSocietaria": "",
+  "partitaIva": "02832420364",
+  "telefono": "+393666510787",
+  "email": "info@esteticamentecarpi.it",
+  "sitoUrl": "https://esteticamentecarpi.it/",
+  "indirizzo": "Via Silvio Pellico, 29",
+  "cap": "41012",
+  "comune": "ESTETICAmente",
+  "provincia": "carpi",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticamentecarpi.it/",
+   "https://esteticamentecarpi.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "lisabioestetica.it",

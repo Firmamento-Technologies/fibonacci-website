@@ -1,5 +1,87 @@
 [
  {
+  "dominio": "eidosestetica.it",
+  "nome": "Centro estetico a Milazzo",
+  "formaSocietaria": "",
+  "partitaIva": "03536960838",
+  "telefono": "+390902145905",
+  "email": "",
+  "sitoUrl": "https://eidosestetica.it/",
+  "indirizzo": "Via Risorgimento 167",
+  "cap": "98057",
+  "comune": "Milazzo",
+  "provincia": "milazzo",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://eidosestetica.it/",
+   "https://eidosestetica.it/contatti/",
+   "https://eidosestetica.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "martinamaioestetica.com",
+  "nome": "Centro Estetico a Milazzo (ME)",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393313225672",
+  "email": "",
+  "sitoUrl": "https://www.martinamaioestetica.com/",
+  "indirizzo": "Via Della Concordia, 23",
+  "cap": "98057",
+  "comune": "Milazzo",
+  "provincia": "milazzo",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.martinamaioestetica.com/",
+   "https://www.martinamaioestetica.com/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "odontoiatriadeluca.it",
+  "nome": "Dentista a Milazzo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03740900836",
+  "telefono": "+393663623063",
+  "email": "info@odontoiatriadeluca.it",
+  "sitoUrl": "https://www.odontoiatriadeluca.it/",
+  "indirizzo": "via G. Matteotti, 24",
+  "cap": "98057",
+  "comune": "Milazzo",
+  "provincia": "milazzo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.odontoiatriadeluca.it/",
+   "https://www.odontoiatriadeluca.it/contatti/",
+   "https://www.odontoiatriadeluca.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "polimedmilazzo.com",
   "nome": "Polimed Milazzo",
   "formaSocietaria": "",

@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "albese.ospedaliere.it",
+  "nome": "RSA RSD PSICHIATRIA Villa San Benedetto Menni Albese Como",
+  "formaSocietaria": "",
+  "partitaIva": "01045701008",
+  "telefono": "+390314291511",
+  "email": "info.vsb@ospedaliere.it",
+  "sitoUrl": "https://albese.ospedaliere.it/",
+  "indirizzo": "Via Roma, 16",
+  "cap": "22032",
+  "comune": "Albese",
+  "provincia": "ascoli-piceno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://albese.ospedaliere.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "laboratoriobiolab.it",
   "nome": "Biolab",
   "formaSocietaria": "SRL",
@@ -27,6 +51,32 @@
   "lat": 42.88342,
   "lon": 13.539593,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "lnx.confindustria.ap.it",
+  "nome": "Confindustria di Ascoli Piceno",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lnx.confindustria.ap.it/",
+  "indirizzo": "Corso Mazzini 151",
+  "cap": "",
+  "comune": "",
+  "provincia": "ascoli-piceno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lnx.confindustria.ap.it/",
+   "https://lnx.confindustria.ap.it/media/plg_system_eprivacy/css/ribbon.css",
+   "https://lnx.confindustria.ap.it/il-sistema-confindustria/chi-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "nazzarenobassetti.it",

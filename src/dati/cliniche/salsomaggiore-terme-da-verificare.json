@@ -82,5 +82,55 @@
   "lat": 44.814762,
   "lon": 9.979576,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "termesaluteintour.it",
+  "nome": "TERME SALUTE IN TOUR",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.termesaluteintour.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.termesaluteintour.it/",
+   "https://www.termesaluteintour.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "villaigea.termest.it",
+  "nome": "villaigea.termest.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01690800337",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://villaigea.termest.it/",
+  "indirizzo": "Viale Berenini, 2",
+  "cap": "43039",
+  "comune": "Salsomaggiore",
+  "provincia": "salsomaggiore-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://villaigea.termest.it/",
+   "https://villaigea.termest.it/index.php/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

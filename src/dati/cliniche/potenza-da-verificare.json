@@ -27,5 +27,31 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "trmtv.it",
+  "nome": "trmtv",
+  "formaSocietaria": "",
+  "partitaIva": "01278880776",
+  "telefono": "+390835700011",
+  "email": "amministrazione@trmtv.it",
+  "sitoUrl": "https://www.trmtv.it/",
+  "indirizzo": "Via Giolitti, 18",
+  "cap": "75100",
+  "comune": "Matera",
+  "provincia": "potenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.trmtv.it/",
+   "https://www.trmtv.it/about",
+   "https://www.trmtv.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

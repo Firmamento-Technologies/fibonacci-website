@@ -31,6 +31,32 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "alopecia24.it",
+  "nome": "Alopecia24",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.alopecia24.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ap",
+  "prestazioni": [
+   "Filler"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.alopecia24.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centromedicoascoli.it",
   "nome": "Centro Medico Ascoli Piceno",
   "formaSocietaria": "SRLS",
@@ -59,5 +85,35 @@
   "lat": 42.88342,
   "lon": 13.539593,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ethigate.it",
+  "nome": "Ethigate®",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01044990677",
+  "telefono": "",
+  "email": "info@ethigate.it",
+  "sitoUrl": "https://www.ethigate.it/",
+  "indirizzo": "Viale Marconi, 55",
+  "cap": "64016",
+  "comune": "",
+  "provincia": "ap",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ethigate.it/",
+   "https://www.ethigate.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "zunicantiaging.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

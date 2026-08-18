@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "aeaugusta.com",
+  "nome": "Aesthetic Essentials",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://aeaugusta.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "augusta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aeaugusta.com/",
+   "https://aeaugusta.com/about/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "gdf.gov.it",
   "nome": "gdf.gov.it",
   "formaSocietaria": "",
@@ -27,5 +56,30 @@
   "lat": 41.89332,
   "lon": 12.482932,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiopatena.it",
+  "nome": "Fabio Patena",
+  "formaSocietaria": "",
+  "partitaIva": "02164320893",
+  "telefono": "+393283611951",
+  "email": "",
+  "sitoUrl": "https://studiopatena.it/",
+  "indirizzo": "Via Andrea Saluta, 8",
+  "cap": "96011",
+  "comune": "Augusta",
+  "provincia": "augusta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiopatena.it/",
+   "https://studiopatena.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

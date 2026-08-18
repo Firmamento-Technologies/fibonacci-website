@@ -1,5 +1,134 @@
 [
  {
+  "dominio": "afeasanita.it",
+  "nome": "• Software Gestionale Sanitario: Software Gestionale per la sanità",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08365701005",
+  "telefono": "+39074420631",
+  "email": "amministrazione@afea.eu",
+  "sitoUrl": "https://afeasanita.it/",
+  "indirizzo": "Via Curio Fornaci 2",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://afeasanita.it/",
+   "https://afeasanita.it/contatti/",
+   "https://afeasanita.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "artroscopiavillaserenacatanzaro.it",
+  "nome": "Artroscopia Villa Serena Catanzaro",
+  "formaSocietaria": "",
+  "partitaIva": "00839840790",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://artroscopiavillaserenacatanzaro.it/",
+  "indirizzo": "Via Luigi Pascali, 11",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://artroscopiavillaserenacatanzaro.it/",
+   "https://artroscopiavillaserenacatanzaro.it/faculty-e-contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "catanzaroinforma.it",
+  "nome": "Catanzaro Informa",
+  "formaSocietaria": "",
+  "partitaIva": "03258250798",
+  "telefono": "",
+  "email": "amministrazione@catanzaroinforma.it",
+  "sitoUrl": "https://www.catanzaroinforma.it/",
+  "indirizzo": "Via G.Garibaldi 16",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.catanzaroinforma.it/",
+   "https://www.catanzaroinforma.it/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicavillaserena.com",
+  "nome": "Villa Serena",
+  "formaSocietaria": "",
+  "partitaIva": "00839840790",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinicavillaserena.com/",
+  "indirizzo": "Via Luigi Pascali, 11",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicavillaserena.com/",
+   "https://clinicavillaserena.com/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "consiglioregionale.calabria.it",
+  "nome": "Consiglio regionale della Calabria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.consiglioregionale.calabria.it/portale",
+  "indirizzo": "Via Cardinale Portanova - 89123",
+  "cap": "89123",
+  "comune": "Reggio",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.consiglioregionale.calabria.it/portale",
+   "https://www.consiglioregionale.calabria.it/portale/Cittadino/Privacy/Privacy",
+   "https://www.consiglioregionale.calabria.it/portale/LinkFooter/Privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "lineamary.it",
   "nome": "Linea Mary",
   "formaSocietaria": "SRL",
@@ -67,6 +196,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "quotidianodelsud.it",
+  "nome": "Il Quotidiano del Sud",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02193320781",
+  "telefono": "",
+  "email": "amministrazione@quotidianodelsud.it",
+  "sitoUrl": "https://www.quotidianodelsud.it/",
+  "indirizzo": "piazza ANTONIO ANASTASI Mileto, 50",
+  "cap": "87040",
+  "comune": "Castrolibero",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.quotidianodelsud.it/",
+   "https://www.quotidianodelsud.it/gerenza-e-contatti",
+   "https://www.quotidianodelsud.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiodentisticomatozzo.it",
   "nome": "Dott. Matozzo Antonio",
   "formaSocietaria": "",
@@ -96,5 +251,31 @@
   "lat": 38.687717,
   "lon": 16.550044,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "villadelsolecatanzaro.com",
+  "nome": "Casa di Cura Villa del Sole - Catanzaro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390961741909",
+  "email": "prenotazioni@villadelsolecatanzaro.com",
+  "sitoUrl": "https://villadelsolecatanzaro.com/",
+  "indirizzo": "Viale Pio X, 202",
+  "cap": "88100",
+  "comune": "Catanzaro",
+  "provincia": "catanzaro",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://villadelsolecatanzaro.com/",
+   "https://villadelsolecatanzaro.com/contatti/",
+   "https://villadelsolecatanzaro.com/wp-content/uploads/2023/10/informativa_privacy_vds.pdf"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

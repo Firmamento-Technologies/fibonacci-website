@@ -1,5 +1,57 @@
 [
  {
+  "dominio": "anisappiemonte.it",
+  "nome": "ANISAP Piemonte",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@anisappiemonte.it",
+  "sitoUrl": "https://www.anisappiemonte.it/",
+  "indirizzo": "Corso Venezia 10",
+  "cap": "10155",
+  "comune": "Torino",
+  "provincia": "chieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.anisappiemonte.it/",
+   "https://www.anisappiemonte.it/contatti2/",
+   "https://www.anisappiemonte.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "asl.novara.it",
+  "nome": "Homepage ASL Novara",
+  "formaSocietaria": "",
+  "partitaIva": "01522670031",
+  "telefono": "+390321374111",
+  "email": "",
+  "sitoUrl": "https://www.asl.novara.it/",
+  "indirizzo": "viale Roma, 7",
+  "cap": "28100",
+  "comune": "Novara",
+  "provincia": "chieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.asl.novara.it/",
+   "https://www.asl.novara.it/it/area-tematica/privacy",
+   "https://www.asl.novara.it/index.php/it/area-tematica/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "drstefanobrezzo.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"

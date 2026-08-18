@@ -33,6 +33,33 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "esteticafutura.com",
+  "nome": "Il tuo centro estetico e benessere ad Alghero",
+  "formaSocietaria": "",
+  "partitaIva": "02784750909",
+  "telefono": "+39079981059",
+  "email": "",
+  "sitoUrl": "https://esteticafutura.com/",
+  "indirizzo": "Via Antonio Lo Frasso 74",
+  "cap": "",
+  "comune": "",
+  "provincia": "alghero",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://esteticafutura.com/",
+   "https://esteticafutura.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticaimmaginedonna.it",
   "nome": "Estetica Immagine Donna",
   "formaSocietaria": "",

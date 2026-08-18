@@ -34,5 +34,31 @@
   "lat": 37.519172,
   "lon": 15.007936,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "humanitascatania.it",
+  "nome": "Benvenuti in Humanitas Istituto Clinico Catanese",
+  "formaSocietaria": "",
+  "partitaIva": "10982360967",
+  "telefono": "+390957339000",
+  "email": "info@humanitascatania.it",
+  "sitoUrl": "https://www.humanitascatania.it/",
+  "indirizzo": "",
+  "cap": "95045",
+  "comune": "Misterbianco",
+  "provincia": "misterbianco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.humanitascatania.it/",
+   "https://www.humanitascatania.it/chi-siamo/",
+   "https://www.humanitascatania.it/info/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

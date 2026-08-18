@@ -38,6 +38,30 @@
   "precisioneCoord": "civico"
  },
  {
+  "dominio": "arvaslazio.org",
+  "nome": "A.R.V.A.S. Associazione Regionale Volontari Assistenza Sanitaria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://arvaslazio.org/",
+  "indirizzo": "Viale Bruno Buozzi 47",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "pomezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://arvaslazio.org/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "chirurgoplasticoroma.info",
   "nome": "Chirurgo Plastico Roma",
   "formaSocietaria": "",

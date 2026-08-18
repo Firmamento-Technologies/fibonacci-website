@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "caseriposo.net",
+  "nome": "Caseriposo.net, il portale leader delle case di riposo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.caseriposo.net/",
+  "indirizzo": "",
+  "cap": "18198",
+  "comune": "Huetor",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.caseriposo.net/",
+   "https://www.caseriposo.net/contatti/",
+   "https://www.caseriposo.net/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "essenzamedica.it",
   "nome": "Poliambulatorio a Rimini",
   "formaSocietaria": "",
@@ -33,6 +59,32 @@
   "lat": 43.947098,
   "lon": 12.630769,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "health.clust-er.it",
+  "nome": "Clust-ER Health",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@health.clust",
+  "sitoUrl": "https://health.clust-er.it/",
+  "indirizzo": "Via Roma, 19",
+  "cap": "40017",
+  "comune": "San Giovanni",
+  "provincia": "rimini",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://health.clust-er.it/",
+   "https://health.clust-er.it/chi-siamo/",
+   "https://health.clust-er.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "montanarisalute.it",

@@ -29,6 +29,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "docenti.unisi.it",
+  "nome": "Elenco docenti",
+  "formaSocietaria": "",
+  "partitaIva": "00273530527",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://docenti.unisi.it/it",
+  "indirizzo": "via Banchi di Sotto 55",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "si",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://docenti.unisi.it/it"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "dottordisiena.com",
   "nome": "dottor Massimo Di Siena",
   "formaSocietaria": "",
@@ -61,6 +85,31 @@
   "lat": 44.575685,
   "lon": 11.36481,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "elisabettamarchetti.it",
+  "nome": "Accademia del Ben Essere Siena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@elisabettamarchetti.it",
+  "sitoUrl": "https://elisabettamarchetti.it/",
+  "indirizzo": "Via del Paradiso 27",
+  "cap": "53100",
+  "comune": "Siena",
+  "provincia": "si",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://elisabettamarchetti.it/",
+   "https://elisabettamarchetti.it/contatti-accademia-del-ben-essere/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "esteticaarmonia.it",
@@ -157,6 +206,32 @@
   "lat": 43.422646,
   "lon": 11.126394,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "sienamed.it",
+  "nome": "Studi Medici Specialistici",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.sienamed.it/",
+  "indirizzo": "Piazza Maestri del Lavoro, 27",
+  "cap": "",
+  "comune": "",
+  "provincia": "si",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.sienamed.it/",
+   "https://www.sienamed.it/contatti",
+   "https://www.sienamed.it/contatti-1"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studiomedicoleoni.it",

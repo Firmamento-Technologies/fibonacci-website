@@ -1,5 +1,36 @@
 [
  {
+  "dominio": "dottoressasisti.eu",
+  "nome": "Otorinolaringoiatria e medico chirurgo estetico ad Arezzo",
+  "formaSocietaria": "",
+  "partitaIva": "01494630518",
+  "telefono": "+3936921740",
+  "email": "",
+  "sitoUrl": "https://dottoressasisti.eu/",
+  "indirizzo": "",
+  "cap": "52028",
+  "comune": "Terranuova",
+  "provincia": "ar",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://dottoressasisti.eu/",
+   "https://dottoressasisti.eu/privacy-policy/",
+   "https://dottoressasisti.eu/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dottormigliorini.com",
   "nome": "Dottor Giuseppe Megliorni",
   "formaSocietaria": "",
@@ -26,6 +57,32 @@
   "lat": 43.769871,
   "lon": 11.255576,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ialtoscana.it",
+  "nome": "IAL Toscana",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04668110481",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ialtoscana.it/",
+  "indirizzo": "Via Benedetto Dei 2",
+  "cap": "50127",
+  "comune": "Firenze",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ialtoscana.it/",
+   "https://ialtoscana.it/dove-siamo/",
+   "https://ialtoscana.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "isasanita.com",
@@ -90,6 +147,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "pierantoniobacci.it",
+  "nome": "Specialista in Chirurgia e Malattie Vascolari",
+  "formaSocietaria": "",
+  "partitaIva": "00245230511",
+  "telefono": "+390575355998",
+  "email": "",
+  "sitoUrl": "https://pierantoniobacci.it/",
+  "indirizzo": "Via Monte Falco 31",
+  "cap": "52100",
+  "comune": "Arezzo",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pier Antonio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://pierantoniobacci.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pier Antonio, cognome dentro il dominio"
+ },
+ {
   "dominio": "sapracentrosanitario.it",
   "nome": "SAPRA Centro Sanitario",
   "formaSocietaria": "",
@@ -117,6 +198,55 @@
   "lat": 43.517202,
   "lon": 11.763879,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studimedicimichelangelo.it",
+  "nome": "Studi Medici Michelangelo",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02415920517",
+  "telefono": "+393917629637",
+  "email": "",
+  "sitoUrl": "https://www.studimedicimichelangelo.it/",
+  "indirizzo": "Via Calamandrei 94",
+  "cap": "52100",
+  "comune": "AREZZO",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.studimedicimichelangelo.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "tecnicoprofessionalearezzo.edu.it",
+  "nome": "Istituto Tecnico Professionale Arezzo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tecnicoprofessionalearezzo.edu.it/",
+  "indirizzo": "via Fiorentina 179",
+  "cap": "52100",
+  "comune": "AR",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.tecnicoprofessionalearezzo.edu.it/",
+   "https://www.tecnicoprofessionalearezzo.edu.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "theskinclinic.beauty",

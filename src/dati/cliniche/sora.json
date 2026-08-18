@@ -29,6 +29,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "informare.camcom.it",
+  "nome": "InforMare",
+  "formaSocietaria": "",
+  "partitaIva": "02421330602",
+  "telefono": "+390775824193",
+  "email": "info@informare.camcom.it",
+  "sitoUrl": "https://www.informare.camcom.it/",
+  "indirizzo": "Piazza XIX maggio n.10",
+  "cap": "03100",
+  "comune": "Frosinone",
+  "provincia": "sora",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.informare.camcom.it/",
+   "https://www.informare.camcom.it/sedi-e-accreditamenti/",
+   "https://www.informare.camcom.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicalgroupitalia.it",
   "nome": "HOME Page Medical Group Italia",
   "formaSocietaria": "",

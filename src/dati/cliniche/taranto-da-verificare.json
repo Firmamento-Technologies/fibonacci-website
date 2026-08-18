@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "cittadelladellacarita.it",
+  "nome": "Home :: Cittadella della Carità :: Fondazione eretta in ENTE MORALE",
+  "formaSocietaria": "",
+  "partitaIva": "01051420733",
+  "telefono": "",
+  "email": "segreteria@cittadelladellacarita.it",
+  "sitoUrl": "https://www.cittadelladellacarita.it/",
+  "indirizzo": "",
+  "cap": "74123",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.cittadelladellacarita.it/",
+   "https://www.cittadelladellacarita.it/contatti",
+   "https://www.cittadelladellacarita.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "dottmicheleferrante.it",
   "nome": "Michele Ferrante",
   "formaSocietaria": "",
@@ -31,5 +57,29 @@
   "lat": 40.548816,
   "lon": 17.08058,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "villaverdetaranto.it",
+  "nome": "Casa di cura villa verde",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00943900738",
+  "telefono": "+390997727678",
+  "email": "",
+  "sitoUrl": "https://villaverdetaranto.it/",
+  "indirizzo": "via Lago di Garda /Porto Mercantile Autobus n.18",
+  "cap": "74121",
+  "comune": "Taranto",
+  "provincia": "taranto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://villaverdetaranto.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

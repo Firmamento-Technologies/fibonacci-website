@@ -134,6 +134,11 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "chirurgiaplastica.ar.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "dottorlaurentiandrea.it",
   "nome": "Dentista Arezzo",
   "formaSocietaria": "",
@@ -207,6 +212,56 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "tipoSoggetto": "incerto",
   "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "letiziacappelletti.it",
+  "nome": "letiziacappelletti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://letiziacappelletti.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://letiziacappelletti.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "matteonofri.com",
+  "nome": "Matteo Nofri Interior Designer ad Arezzo",
+  "formaSocietaria": "",
+  "partitaIva": "01990700518",
+  "telefono": "+393394058994",
+  "email": "info@matteonofri.com",
+  "sitoUrl": "https://www.matteonofri.com/",
+  "indirizzo": "",
+  "cap": "52048",
+  "comune": "Monte San",
+  "provincia": "ar",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.matteonofri.com/",
+   "https://www.matteonofri.com/about/",
+   "https://www.matteonofri.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "medicinaesteticacaroni.com",

@@ -29,6 +29,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "comune.madonnadelsasso.vb.it",
+  "nome": "Comune di Madonna del Sasso",
+  "formaSocietaria": "",
+  "partitaIva": "00311870034",
+  "telefono": "+390322981177",
+  "email": "",
+  "sitoUrl": "https://www.comune.madonnadelsasso.vb.it/it-it/home",
+  "indirizzo": "via Follina e Piazza 1",
+  "cap": "28894",
+  "comune": "Madonna",
+  "provincia": "omegna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.comune.madonnadelsasso.vb.it/it-it/home",
+   "https://www.comune.madonnadelsasso.vb.it/it-it/privacy",
+   "https://www.comune.madonnadelsasso.vb.it/it-it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "enaip.piemonte.it",
   "nome": "En.A.I.P. Piemonte ETS",
   "formaSocietaria": "",
@@ -56,6 +82,32 @@
   "lat": 45.067755,
   "lon": 7.682489,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "piemonteimmigrazione.it",
+  "nome": "Piemonte Immigrazione",
+  "formaSocietaria": "",
+  "partitaIva": "04328830015",
+  "telefono": "",
+  "email": "info@piemonteimmigrazione.it",
+  "sitoUrl": "https://piemonteimmigrazione.it/",
+  "indirizzo": "Via Nizza 18",
+  "cap": "10125",
+  "comune": "Torino",
+  "provincia": "omegna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://piemonteimmigrazione.it/",
+   "https://piemonteimmigrazione.it/osservatorio/contatti",
+   "https://piemonteimmigrazione.it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "verdino.eu",

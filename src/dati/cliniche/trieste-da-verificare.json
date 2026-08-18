@@ -27,5 +27,31 @@
   "lat": 45.650481,
   "lon": 13.793126,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "polits.it",
+  "nome": "Gruppo Policlinico Triestino S.p.A.",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01437300328",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.polits.it/",
+  "indirizzo": "via Carducci 2",
+  "cap": "34133",
+  "comune": "Trieste",
+  "provincia": "trieste",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.polits.it/",
+   "https://www.polits.it/chi-siamo",
+   "https://www.polits.it/chi-siamo/storia"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

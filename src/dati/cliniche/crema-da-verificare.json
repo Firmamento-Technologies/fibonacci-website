@@ -729,6 +729,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "informagiovani.comune.cremona.it",
+  "nome": "Informagiovani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://informagiovani.comune.cremona.it/",
+  "indirizzo": "Via Palestro 17",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://informagiovani.comune.cremona.it/",
+   "https://informagiovani.comune.cremona.it/content/chi-siamo",
+   "https://informagiovani.comune.cremona.it/content/dove-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "it.svr.com",
   "nome": "Laboratoire SVR",
   "formaSocietaria": "",
@@ -1084,6 +1110,32 @@
   "lettoIl": "2026-08-15",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "studiomedicoarancio.it",
+  "nome": "Studio Medico Arancio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@studiomedicoarancio.it",
+  "sitoUrl": "https://www.studiomedicoarancio.it/",
+  "indirizzo": "Via Marazzi, 8",
+  "cap": "26013",
+  "comune": "Crema",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studiomedicoarancio.it/",
+   "https://www.studiomedicoarancio.it/dove-siamo/",
+   "https://www.studiomedicoarancio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  },
  {
   "dominio": "stylight.it",

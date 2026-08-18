@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "diversamedica.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "esteticalessia.it",
   "nome": "Estetica Alessia",
   "formaSocietaria": "",
@@ -30,6 +35,32 @@
   "lat": 41.686702,
   "lon": 12.777043,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "fernandomarcucci.it",
+  "nome": "Chirurgo Ortopedico Roma",
+  "formaSocietaria": "",
+  "partitaIva": "13661921000",
+  "telefono": "+393247981195",
+  "email": "info@fernandomarcucci.it",
+  "sitoUrl": "https://fernandomarcucci.it/",
+  "indirizzo": "Via del Giordano, 33",
+  "cap": "00049",
+  "comune": "Velletri",
+  "provincia": "velletri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fernandomarcucci.it/",
+   "https://fernandomarcucci.it/privacy-policy/",
+   "https://fernandomarcucci.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "medicinaestetica.dentalhousevelletri.it",

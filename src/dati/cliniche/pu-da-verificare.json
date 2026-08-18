@@ -51,6 +51,30 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "marcheshopping.it",
+  "nome": "Il Portale delle Aziende delle Marche",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://marcheshopping.it/",
+  "indirizzo": "Via Osimana 52",
+  "cap": "06033",
+  "comune": "Cannara",
+  "provincia": "pu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://marcheshopping.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "simonasilvestri.it",
   "nome": "Simona Silvestri Studio Dentistico",
   "formaSocietaria": "SRL",

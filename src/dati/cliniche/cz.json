@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "chirurgiaplasticacalabria.it",
+  "nome": "chirurgiaplasticacalabria.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.chirurgiaplasticacalabria.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cz",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.chirurgiaplasticacalabria.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "ipazia-dcc.it",
   "nome": "Poliambulatorio di chirurgia, cardiologia, dermatologia, medicina ed a",
   "formaSocietaria": "",

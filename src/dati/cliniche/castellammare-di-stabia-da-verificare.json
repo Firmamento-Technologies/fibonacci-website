@@ -34,5 +34,31 @@
   "lat": 40.694305,
   "lon": 14.480481,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "sip.it",
+  "nome": "Società Italiana di Pediatria",
+  "formaSocietaria": "",
+  "partitaIva": "06299590965",
+  "telefono": "",
+  "email": "segreteria@sip.it",
+  "sitoUrl": "https://sip.it/",
+  "indirizzo": "Via Cavour, 58",
+  "cap": "00184",
+  "comune": "Roma",
+  "provincia": "castellammare-di-stabia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sip.it/",
+   "https://sip.it/chi-siamo/",
+   "https://sip.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

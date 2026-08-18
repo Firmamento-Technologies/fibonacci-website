@@ -34,6 +34,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "mc.unipr.it",
+  "nome": "Dipartimento di Medicina e Chirurgia",
+  "formaSocietaria": "",
+  "partitaIva": "00308780345",
+  "telefono": "+390521033184",
+  "email": "amministrazione.dimec@unipr.it",
+  "sitoUrl": "https://mc.unipr.it/",
+  "indirizzo": "Via Gramsci 14",
+  "cap": "43126",
+  "comune": "Parma",
+  "provincia": "parma",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mc.unipr.it/",
+   "https://mc.unipr.it/dipartimento/contatti-dove-siamo-e-come-raggiungerci",
+   "https://mc.unipr.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "polistudioreabilita.it",
   "nome": "Polistudio Reabilita Parma",
   "formaSocietaria": "",
@@ -68,5 +94,30 @@
   "lat": 44.7964,
   "lon": 10.3262,
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "portale.siva.it",
+  "nome": "Portale SIVA",
+  "formaSocietaria": "",
+  "partitaIva": "12520870150",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://portale.siva.it/it-IT/home/default",
+  "indirizzo": "via Capecelatro 66",
+  "cap": "20148",
+  "comune": "Milano",
+  "provincia": "parma",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://portale.siva.it/it-IT/home/default",
+   "https://portale.siva.it/it-IT/home/aboutUs"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

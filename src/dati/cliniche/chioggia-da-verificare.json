@@ -24,6 +24,33 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "carismachioggia.myadj.it",
+  "nome": "- Centro estetico",
+  "formaSocietaria": "",
+  "partitaIva": "03637050273",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://carismachioggia.myadj.it/",
+  "indirizzo": "",
+  "cap": "30010",
+  "comune": "Categoria",
+  "provincia": "chioggia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://carismachioggia.myadj.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "chioggiapp.it",
   "nome": "CHIOGGIA SCONTI",
   "formaSocietaria": "",

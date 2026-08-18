@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "corsi.unibo.it",
+  "nome": "Studiare",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unibo.it/it/studiare",
+  "indirizzo": "Via Zamboni, 33",
+  "cap": "40126",
+  "comune": "Bologna",
+  "provincia": "bologna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unibo.it/it/studiare"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "fatimadcunha.com",
   "nome": "Medicina estetica, Bologna, Dott.ssa Fatima D'Cunha",
   "formaSocietaria": "",
@@ -28,5 +52,88 @@
   "lat": 44.493758,
   "lon": 11.343031,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "grupposave.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "grupposocietadolce.it",
+  "nome": "IL MONDO DOLCE IN PRIMO PIANO",
+  "formaSocietaria": "",
+  "partitaIva": "03772490375",
+  "telefono": "",
+  "email": "info@societadolce.it",
+  "sitoUrl": "https://www.grupposocietadolce.it/",
+  "indirizzo": "Via Cristina da Pizzano n.5",
+  "cap": "40133",
+  "comune": "Bologna",
+  "provincia": "bologna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.grupposocietadolce.it/",
+   "https://www.grupposocietadolce.it/contatti/",
+   "https://www.grupposocietadolce.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "unibo.it",
+  "nome": "Università di Bologna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unibo.it/it",
+  "indirizzo": "Via Zamboni, 33",
+  "cap": "40126",
+  "comune": "Bologna",
+  "provincia": "bologna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unibo.it/it",
+   "https://www.unibo.it/it/ateneo/chi-siamo",
+   "https://www.unibo.it/it/ateneo/organizzazione-e-sedi"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "villalaura.it",
+  "nome": "Ospedale Privato Accreditato Villa Laura",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02378901207",
+  "telefono": "+390516246411",
+  "email": "info@villalaura.it",
+  "sitoUrl": "https://www.villalaura.it/",
+  "indirizzo": "Via Emilia Levante, 137",
+  "cap": "40139",
+  "comune": "Bologna",
+  "provincia": "bologna",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.villalaura.it/",
+   "https://www.villalaura.it/contatti/",
+   "https://www.villalaura.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

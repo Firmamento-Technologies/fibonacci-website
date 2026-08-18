@@ -1,5 +1,35 @@
 [
  {
+  "dominio": "augustanazari.com",
+  "nome": "Dott.ssa Augusta Nazari",
+  "formaSocietaria": "",
+  "partitaIva": "00107360992",
+  "telefono": "+390109847523",
+  "email": "",
+  "sitoUrl": "https://www.augustanazari.com/",
+  "indirizzo": "Via Milite Ignoto, 41",
+  "cap": "16035",
+  "comune": "Rapallo",
+  "provincia": "augusta",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Augusta Nazari, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.augustanazari.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Augusta Nazari, e il dominio lo ripete"
+ },
+ {
   "dominio": "centroesteticolunaria.it",
   "nome": "Centro Estetico Lunaria ad Augusta Relax e Benessere",
   "formaSocietaria": "SRL",

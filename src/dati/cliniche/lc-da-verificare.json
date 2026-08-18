@@ -59,5 +59,31 @@
   "lat": 45.900548,
   "lon": 9.412025,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "omceolecco.it",
+  "nome": "Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@omceolecco.it",
+  "sitoUrl": "https://www.omceolecco.it/",
+  "indirizzo": "Corso Martiri della Liberazione n° 86",
+  "cap": "",
+  "comune": "",
+  "provincia": "lc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.omceolecco.it/",
+   "https://www.omceolecco.it/ordine/organi-istituzionali/chi-siamo",
+   "https://www.omceolecco.it/professione/modulistica/privacy-iscritti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

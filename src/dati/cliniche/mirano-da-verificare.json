@@ -41,6 +41,31 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "eaesteticavanzata.it",
+  "nome": "Centro estetico a Mirano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://eaesteticavanzata.it/",
+  "indirizzo": "Via Padova 4a",
+  "cap": "",
+  "comune": "",
+  "provincia": "mirano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://eaesteticavanzata.it/",
+   "https://eaesteticavanzata.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "estensi33.it",
   "nome": "Poliambulatorio Comacchio • Estensi 33",
   "formaSocietaria": "",
@@ -73,6 +98,37 @@
    "Monday,Tuesday,Wednesday,Thursday,Friday 08:30-19:30"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "lesteticamirano.it",
+  "nome": "L'Estetica di Martina Raciti",
+  "formaSocietaria": "",
+  "partitaIva": "04174580276",
+  "telefono": "",
+  "email": "info@lesteticamirano.it",
+  "sitoUrl": "https://lesteticamirano.it/",
+  "indirizzo": "Piazza Aldo Moro Via G. Verdi, 44",
+  "cap": "30035",
+  "comune": "Mirano",
+  "provincia": "mirano",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://lesteticamirano.it/",
+   "https://lesteticamirano.it/contattaci/",
+   "https://lesteticamirano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "mirostudioestetico.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "waze.com",

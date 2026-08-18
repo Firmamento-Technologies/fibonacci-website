@@ -89,6 +89,35 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "dariograziano.it",
+  "nome": "Dario Graziano",
+  "formaSocietaria": "",
+  "partitaIva": "01884800036",
+  "telefono": "+390248001660",
+  "email": "contatti@dariograziano.it",
+  "sitoUrl": "https://www.dariograziano.it/",
+  "indirizzo": "Viale Coni Zugna, 23",
+  "cap": "",
+  "comune": "",
+  "provincia": "or",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Dario Graziano, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.dariograziano.it/",
+   "https://www.dariograziano.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dario Graziano, e il dominio lo ripete"
+ },
+ {
   "dominio": "esteticalive.it",
   "nome": "Chirurgia Estetica",
   "formaSocietaria": "",

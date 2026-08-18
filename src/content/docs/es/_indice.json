@@ -52,12 +52,8 @@
     "description": "Adquirir, cifrar, comparar y entregar las fotografías."
   },
   "analisi-del-volto": {
-    "title": "Análisis facial",
-    "description": "Medidas en vista frontal, vista 3D y espejo en vivo, ángulos de perfil, serie fotográfica, cánones y PGAIS."
-  },
-  "parametri-cutanei": {
-    "title": "Parámetros cutáneos",
-    "description": "Once magnitudes fotográficas en una región que elijas, y la comparación en el tiempo."
+    "title": "Análisis del rostro",
+    "description": "Comparación directa antes/después, vista 3D del rostro, espejo en vivo y juicio PGAIS."
   },
   "tracciabilita-lotto": {
     "title": "Trazabilidad del lote",

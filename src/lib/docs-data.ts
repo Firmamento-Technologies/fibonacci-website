@@ -141,17 +141,9 @@ export const DOCS: DocMeta[] = [
     slug: 'analisi-del-volto',
     title: 'Analisi del volto',
     description:
-      'Misure sul frontale, vista 3D e specchio dal vivo, angoli di profilo, serie fotografica, canone e PGAIS.',
+      'Confronto diretto fra prima e dopo, vista 3D del volto, specchio dal vivo e giudizio PGAIS.',
     category: 'utilizzo',
     icon: 'ScanFace',
-  },
-  {
-    slug: 'parametri-cutanei',
-    title: 'Parametri cutanei',
-    description:
-      'Undici grandezze fotografiche su una regione che scegli tu, e il confronto nel tempo.',
-    category: 'utilizzo',
-    icon: 'Ruler',
   },
   {
     slug: 'tracciabilita-lotto',

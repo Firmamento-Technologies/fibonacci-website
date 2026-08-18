@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "dominio": "ats-bg.it",
+  "nome": "ATS Bergamo",
+  "formaSocietaria": "",
+  "partitaIva": "04114400163",
+  "telefono": "+39035385111",
+  "email": "",
+  "sitoUrl": "https://ats-bg.it/",
+  "indirizzo": "Via Gallicciolli 4",
+  "cap": "24121",
+  "comune": "",
+  "provincia": "bergamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ats-bg.it/",
+   "https://ats-bg.it/contatti-e-numeri-utili",
+   "https://ats-bg.it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "eoipso.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "globalstoreitalia.com",
+  "nome": "Global Store Italia",
+  "formaSocietaria": "",
+  "partitaIva": "01766910192",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://globalstoreitalia.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bergamo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://globalstoreitalia.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

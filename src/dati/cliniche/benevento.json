@@ -30,5 +30,57 @@
   "lat": 41.247688,
   "lon": 14.705941,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "clinicasantaritabenevento.it",
+  "nome": "NUOVA CLINICA S. RITA - BENEVENTO",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390824311475",
+  "email": "info@clinicasantaritabenevento.it",
+  "sitoUrl": "https://www.clinicasantaritabenevento.it/",
+  "indirizzo": "Viale Antonio Mellusi, 103",
+  "cap": "",
+  "comune": "",
+  "provincia": "benevento",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicasantaritabenevento.it/",
+   "https://www.clinicasantaritabenevento.it/contatti/",
+   "https://www.clinicasantaritabenevento.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "labtv.net",
+  "nome": "LabTV",
+  "formaSocietaria": "",
+  "partitaIva": "02757950643",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.labtv.net/",
+  "indirizzo": "Via Chiaio, 5",
+  "cap": "83010",
+  "comune": "Torrioni",
+  "provincia": "benevento",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.labtv.net/",
+   "https://www.labtv.net/chi-siamo/",
+   "https://www.labtv.net/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

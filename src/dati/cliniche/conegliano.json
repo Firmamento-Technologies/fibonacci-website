@@ -1,5 +1,37 @@
 [
  {
+  "dominio": "beautycliniques.beautycheck.it",
+  "nome": "Prenota",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://beautycliniques.beautycheck.it/booking/prenotaPerGiorno.aspx",
+  "indirizzo": "Viale Italia, 224",
+  "cap": "31015",
+  "comune": "Conegliano",
+  "provincia": "conegliano",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://beautycliniques.beautycheck.it/booking/prenotaPerGiorno.aspx",
+   "https://beautycliniques.beautycheck.it/contatti",
+   "https://beautycliniques.beautycheck.it/privacy.aspx"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centromarusia.it",
   "nome": "Centro medico",
   "formaSocietaria": "",
@@ -179,6 +211,34 @@
   "lat": 45.886217,
   "lon": 12.297757,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "rigenera-clinic.com",
+  "nome": "RIGENERA SKIN CARE CLINIC",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05277450267",
+  "telefono": "+390438415356",
+  "email": "info@rigenera-clinic.com",
+  "sitoUrl": "https://www.rigenera-clinic.com/",
+  "indirizzo": "Via Piovesana, 159",
+  "cap": "31015",
+  "comune": "Conegliano",
+  "provincia": "conegliano",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.rigenera-clinic.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "spatiumstudio.it",

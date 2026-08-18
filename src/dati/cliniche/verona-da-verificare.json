@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "be.linkedin.com",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ },
+ {
   "dominio": "chiaradaloja.it",
   "nome": "Dott.ssa Chiara D'Aloja",
   "formaSocietaria": "",
@@ -25,6 +30,84 @@
   "lat": 45.529671,
   "lon": 10.940022,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "depressionepostpartum.it",
+  "nome": "Un sorriso per le mamme",
+  "formaSocietaria": "",
+  "partitaIva": "05041450965",
+  "telefono": "",
+  "email": "info@fondazioneonda.it",
+  "sitoUrl": "https://www.depressionepostpartum.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.depressionepostpartum.it/",
+   "https://www.depressionepostpartum.it/il-progetto/contatti/",
+   "https://www.depressionepostpartum.it/il-progetto/contatti/privacy-disclaimer/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "eufoton.com",
+  "nome": "Laser medicali",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00970570321",
+  "telefono": "",
+  "email": "info@eufoton.com",
+  "sitoUrl": "https://www.eufoton.com/it/",
+  "indirizzo": "Via Flavia 23",
+  "cap": "34148",
+  "comune": "Trieste",
+  "provincia": "verona",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.eufoton.com/it/",
+   "https://www.eufoton.com/it/contatti",
+   "https://www.eufoton.com/it/privacy-form"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "rocketreach.co",
+  "nome": "RocketReach Lead Intelligence: Phone and Email Finder",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://rocketreach.co/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://rocketreach.co/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "sarazecchetto.it",
@@ -64,6 +147,32 @@
   "lat": 45.438496,
   "lon": 10.992412,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "skinlaserco.co.za",
+  "nome": "Skin Laser Co",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390827473479",
+  "email": "",
+  "sitoUrl": "https://skinlaserco.co.za/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "verona",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://skinlaserco.co.za/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studiodentisticodonev.it",

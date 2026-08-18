@@ -33,6 +33,32 @@
   "tipoDichiarato": "Physician"
  },
  {
+  "dominio": "casadicuravillasilvia.it",
+  "nome": "Casa di Cura Villa Silvia",
+  "formaSocietaria": "",
+  "partitaIva": "14954711009",
+  "telefono": "",
+  "email": "info@ricoverivillasilvia.com",
+  "sitoUrl": "https://www.casadicuravillasilvia.it/",
+  "indirizzo": "Via Quirino Majorana 203",
+  "cap": "01597",
+  "comune": "Senigallia",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.casadicuravillasilvia.it/",
+   "https://www.casadicuravillasilvia.it/chi-siamo/",
+   "https://www.casadicuravillasilvia.it/chi-siamo/lavora-con-noi/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "claudiabarucca.it",
   "nome": "Claudia Barucca",
   "formaSocietaria": "",
@@ -300,6 +326,32 @@
   "lat": 43.714906,
   "lon": 13.217742,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "villasilvia.com",
+  "nome": "Gruppo Villa Silvia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390717927961",
+  "email": "info@villasilvia.com",
+  "sitoUrl": "https://villasilvia.com/",
+  "indirizzo": "Viale Anita Garibaldi 64",
+  "cap": "",
+  "comune": "",
+  "provincia": "senigallia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://villasilvia.com/",
+   "https://villasilvia.com/contatti/",
+   "https://villasilvia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "villasorrisosrl.it",

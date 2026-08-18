@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "burc.regione.campania.it",
+  "nome": "Burc Digitale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://burc.regione.campania.it/eBurcWeb/publicContent/home/index.iface",
+  "indirizzo": "via Santa Lucia n. 81",
+  "cap": "80132",
+  "comune": "Napoli",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://burc.regione.campania.it/eBurcWeb/publicContent/home/index.iface",
+   "https://burc.regione.campania.it/eBurcWeb/publicContent/home/privacy.iface"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "carmendeluca.it",
   "nome": "Medicina Estetica a Cassino",
   "formaSocietaria": "",
@@ -73,6 +98,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "doctrine.it",
+  "nome": "Doctrine, l'intelligenza artificiale giuridica per avvocati e giuristi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.doctrine.it/",
+  "indirizzo": "",
+  "cap": "27001",
+  "comune": "GDPR",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.doctrine.it/",
+   "https://www.doctrine.it/contatti/doctrine",
+   "https://www.doctrine.it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "figebo.it",
   "nome": "Figebo Centro Medico Polispecialistico Cassino",
   "formaSocietaria": "SRL",
@@ -127,6 +178,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Flora Estetica Avanzata – Centro Estetico a Cassino",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "m.companyreports.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
  },
  {
   "dominio": "studiodermatologico.com",

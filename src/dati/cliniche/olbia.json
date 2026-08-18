@@ -33,6 +33,32 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "costaclinic.it",
+  "nome": "Costa Clinic",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02783470905",
+  "telefono": "+3907891920100",
+  "email": "info@costaclinic.it",
+  "sitoUrl": "https://www.costaclinic.it/",
+  "indirizzo": "",
+  "cap": "07026",
+  "comune": "Sardegna",
+  "provincia": "olbia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.costaclinic.it/",
+   "https://www.costaclinic.it/chi-siamo/",
+   "https://www.costaclinic.it/contatti/"
+  ],
+  "lettoIl": "2026-08-18",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "danielamasia.com",
   "nome": "Chirurgia Ricostruttiva, Chirurgia Plastica e Medicina Estetica",
   "formaSocietaria": "",
@@ -100,6 +126,35 @@
   "lat": 40.923266,
   "lon": 9.502744,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "dfesteticaavanzata.it",
+  "nome": "DELIA FADDA",
+  "formaSocietaria": "",
+  "partitaIva": "01537870907",
+  "telefono": "+39337819928",
+  "email": "",
+  "sitoUrl": "https://www.dfesteticaavanzata.it/",
+  "indirizzo": "Via Capoverde 2",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.dfesteticaavanzata.it/",
+   "https://www.dfesteticaavanzata.it/contatti/",
+   "https://www.dfesteticaavanzata.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-18",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "medicalcenterchirurgiaplastica.com",
@@ -233,6 +288,32 @@
   "lat": 40.923266,
   "lon": 9.502744,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "policlinicogemelli.it",
+  "nome": "Policlinico Universitario Fondazione Agostino Gemelli",
+  "formaSocietaria": "",
+  "partitaIva": "13109681000",
+  "telefono": "+390688805560",
+  "email": "",
+  "sitoUrl": "https://www.policlinicogemelli.it/",
+  "indirizzo": "Largo Francesco Vito 1",
+  "cap": "00168",
+  "comune": "Roma",
+  "provincia": "olbia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://www.policlinicogemelli.it/",
+   "https://www.policlinicogemelli.it/contatti/",
+   "https://www.policlinicogemelli.it/contatti/numeri-utili/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "studiomedicomura.com",

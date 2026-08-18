@@ -1,5 +1,57 @@
 [
  {
+  "dominio": "bedandbreakfast.it",
+  "nome": "Bed and Breakfast Italia",
+  "formaSocietaria": "",
+  "partitaIva": "01194800882",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bedandbreakfast.it/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "acireale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bedandbreakfast.it/it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroesteticoilmondodicaterina.com",
+  "nome": "Il Mondo di Caterina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393272877922",
+  "email": "",
+  "sitoUrl": "https://centroesteticoilmondodicaterina.com/",
+  "indirizzo": "Via Romeo, 58",
+  "cap": "95024",
+  "comune": "Acireale",
+  "provincia": "acireale",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://centroesteticoilmondodicaterina.com/",
+   "https://centroesteticoilmondodicaterina.com/contatti/",
+   "https://centroesteticoilmondodicaterina.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "drmusmarra.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -36,5 +88,53 @@
   "lat": 37.612777,
   "lon": 15.16588,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "oasidelbenessereacireale.it",
+  "nome": "Oasi del Benessere Acireale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://oasidelbenessereacireale.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "acireale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://oasidelbenessereacireale.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "topaziaestetica.com",
+  "nome": "Centro Estetico Acireale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@topaziaestetica.com",
+  "sitoUrl": "https://www.topaziaestetica.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "acireale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.topaziaestetica.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  }
 ]

@@ -1,5 +1,57 @@
 [
  {
+  "dominio": "aiopcampania.it",
+  "nome": "AIOP Campania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@aiopcampania.it",
+  "sitoUrl": "https://www.aiopcampania.it/",
+  "indirizzo": "Via Appia snc - Atripalda (AV) 0825629111",
+  "cap": "75888",
+  "comune": "CASA",
+  "provincia": "battipaglia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.aiopcampania.it/",
+   "https://www.aiopcampania.it/casedicura.asp"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "aslsalerno.etrasparenza.it",
+  "nome": "Portale Trasparenza ASL Salerno",
+  "formaSocietaria": "",
+  "partitaIva": "04701800650",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://aslsalerno.etrasparenza.it/",
+  "indirizzo": "Via Nizza, 146",
+  "cap": "84124",
+  "comune": "Salerno",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://aslsalerno.etrasparenza.it/",
+   "https://aslsalerno.etrasparenza.it/pagina605_privacy.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centrobiomedical.it",
   "nome": "Centro Biomedical: dermatologia clinica, tricologica, chirurgica ed es",
   "formaSocietaria": "SRL",
@@ -185,5 +237,30 @@
   "lat": 40.609254,
   "lon": 14.982144,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "servisan.org",
+  "nome": "Aritmologo, cardiologo ed elettrofisiologo in campania nelle provincie",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@serv-san.it",
+  "sitoUrl": "https://servisan.org/",
+  "indirizzo": "",
+  "cap": "84015",
+  "comune": "NOCERA",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://servisan.org/",
+   "https://www.servisan.org/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

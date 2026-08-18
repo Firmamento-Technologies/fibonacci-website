@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "centroesteticodolcesole.it",
+  "nome": "Dolce Sole",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@centroesteticodolcesole.it",
+  "sitoUrl": "https://www.centroesteticodolcesole.it/",
+  "indirizzo": "Via Sempione, 1",
+  "cap": "22077",
+  "comune": "",
+  "provincia": "olgiate-comasco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.centroesteticodolcesole.it/",
+   "https://www.centroesteticodolcesole.it/chi-siamo/",
+   "https://www.centroesteticodolcesole.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-18",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroesteticolineadue.it",
   "nome": "Centro estetico e benessere viso e corpo a Como",
   "formaSocietaria": "",

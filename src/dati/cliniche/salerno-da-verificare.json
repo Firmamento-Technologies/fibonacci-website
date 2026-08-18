@@ -1,5 +1,62 @@
 [
  {
+  "dominio": "aigef.it",
+  "nome": "AIGFF- Associazione Italiana Ginecologia Estetica Funzionale",
+  "formaSocietaria": "",
+  "partitaIva": "13553441000",
+  "telefono": "",
+  "email": "segreteria@aigef.it",
+  "sitoUrl": "https://www.aigef.it/",
+  "indirizzo": "Via Domenico Chelini 16",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "salerno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aigef.it/",
+   "https://www.aigef.it/aigef/chi-siamo/",
+   "https://www.aigef.it/aigef/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "albertocapone.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "collprimvasc.org",
+  "nome": "Collprimvasc",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@pec.collprimva",
+  "sitoUrl": "https://www.collprimvasc.org/",
+  "indirizzo": "Corso Vittorio Emanuele II 103",
+  "cap": "10128",
+  "comune": "Torino",
+  "provincia": "salerno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.collprimvasc.org/",
+   "https://www.collprimvasc.org/chi-siamo/",
+   "https://www.collprimvasc.org/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "fillersalerno.it",
   "nome": "Filler Salerno",
   "formaSocietaria": "",
@@ -31,5 +88,10 @@
   "lat": 40.419442,
   "lon": 15.310756,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "intranet.aslnapoli1centro.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

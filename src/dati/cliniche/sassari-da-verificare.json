@@ -28,5 +28,10 @@
   "nomeStrutturato": "Medìs Centro Clinico",
   "tipoDichiarato": "MedicalClinic",
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "policlinicosassarese.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

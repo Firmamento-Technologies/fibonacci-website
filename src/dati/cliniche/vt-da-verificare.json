@@ -1,5 +1,53 @@
 [
  {
+  "dominio": "dermatologoviterbo.com",
+  "nome": "Dr. Cesare Palombi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dermatologoviterbo.it",
+  "sitoUrl": "https://dermatologoviterbo.com/",
+  "indirizzo": "Via Belluno, 67",
+  "cap": "01100",
+  "comune": "Viterbo",
+  "provincia": "vt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dermatologoviterbo.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "edoardocerbelli.it",
+  "nome": "Edoardo Cerbelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://edoardocerbelli.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "vt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://edoardocerbelli.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "medicinaesteticaks.it",
   "nome": "medicinaesteticaks.it",
   "formaSocietaria": "",

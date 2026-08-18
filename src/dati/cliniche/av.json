@@ -87,5 +87,29 @@
   "lat": 40.996545,
   "lon": 15.140569,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "tgnewstv.it",
+  "nome": "TGNews TV - Ultime notizie Avellino - Irpinia - Sannio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.tgnewstv.it/",
+  "indirizzo": "via Roma Flumeri con la Festa del Giglio 14",
+  "cap": "19737",
+  "comune": "Cronaca",
+  "provincia": "av",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.tgnewstv.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

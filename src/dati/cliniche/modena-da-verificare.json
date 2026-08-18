@@ -1,1 +1,189 @@
-[]
+[
+ {
+  "dominio": "albertodigiovanni.it",
+  "nome": "Dott. Alberto di Giovanni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.albertodigiovanni.it/",
+  "indirizzo": "Via Gustavo Modena, 21",
+  "cap": "20129",
+  "comune": "Milano",
+  "provincia": "modena",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.albertodigiovanni.it/",
+   "https://www.albertodigiovanni.it/dove-siamo/",
+   "https://www.albertodigiovanni.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "anisap-emiliaromagna.it",
+  "nome": "ANISAP Emilia Romagna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@anisap-emiliaromagna.it",
+  "sitoUrl": "https://www.anisap-emiliaromagna.it/",
+  "indirizzo": "Via A. Begarelli 31",
+  "cap": "41121",
+  "comune": "Modena",
+  "provincia": "modena",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.anisap-emiliaromagna.it/",
+   "https://www.anisap-emiliaromagna.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "apps.ausl.re.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "archiviostampa.comune.modena.it",
+  "nome": "Comunicati",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://archiviostampa.comune.modena.it/",
+  "indirizzo": "via Taglio 30",
+  "cap": "41121",
+  "comune": "Modena",
+  "provincia": "modena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://archiviostampa.comune.modena.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bur.regione.emilia-romagna.it",
+  "nome": "Ricerca Bollettini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3939800662200",
+  "email": "",
+  "sitoUrl": "https://bur.regione.emilia-romagna.it/ricerca",
+  "indirizzo": "Viale Aldo Moro n. 52",
+  "cap": "40127",
+  "comune": "Bologna",
+  "provincia": "modena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://bur.regione.emilia-romagna.it/ricerca",
+   "https://bur.regione.emilia-romagna.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gazzettadimodena.it",
+  "nome": "Gazzetta di Modena",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.gazzettadimodena.it:443/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "modena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.gazzettadimodena.it:443/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "sestopotere.com",
+  "nome": "Sestopotere",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sestopotere.com/",
+  "indirizzo": "via Bruni 20",
+  "cap": "14428",
+  "comune": "Bologna",
+  "provincia": "modena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sestopotere.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "villaigea.it",
+  "nome": "Villa Igea",
+  "formaSocietaria": "",
+  "partitaIva": "00418870366",
+  "telefono": "+39059447411",
+  "email": "",
+  "sitoUrl": "https://www.villaigea.it/",
+  "indirizzo": "Via Stradella, 73",
+  "cap": "41126",
+  "comune": "Modena",
+  "provincia": "modena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.villaigea.it/",
+   "https://www.villaigea.it/contatti/",
+   "https://www.villaigea.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

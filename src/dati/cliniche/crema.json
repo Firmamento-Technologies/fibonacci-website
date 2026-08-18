@@ -2157,6 +2157,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "scuolaispe.it",
+  "nome": ".: Scuola ISPE :.",
+  "formaSocietaria": "",
+  "partitaIva": "00851350199",
+  "telefono": "",
+  "email": "info@scuolaispe.it",
+  "sitoUrl": "https://www.scuolaispe.it/",
+  "indirizzo": "Via Carlo Urbino, 62",
+  "cap": "26013",
+  "comune": "Crema",
+  "provincia": "crema",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.scuolaispe.it/",
+   "https://www.scuolaispe.it/contatti/",
+   "https://www.scuolaispe.it/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "stylosophy.it",
   "nome": "Stylosophy",
   "formaSocietaria": "SRL",

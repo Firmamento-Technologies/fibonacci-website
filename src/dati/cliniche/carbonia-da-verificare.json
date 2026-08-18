@@ -1,1 +1,52 @@
-[]
+[
+ {
+  "dominio": "aslsulcis.it",
+  "nome": "ASL Sulcis Iglesiente",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aslsulcis.it/",
+  "indirizzo": "Corso Antincendio 3",
+  "cap": "09013",
+  "comune": "Carbonia",
+  "provincia": "carbonia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.aslsulcis.it/",
+   "https://www.aslsulcis.it/14-agosto-chiusura-straordinaria-sedi-asl/",
+   "https://www.aslsulcis.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "local.reteimprese.it",
+  "nome": "AZIENDE",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390399515267",
+  "email": "",
+  "sitoUrl": "https://local.reteimprese.it/",
+  "indirizzo": "Via Aldo Moro, 22",
+  "cap": "23879",
+  "comune": "LC",
+  "provincia": "carbonia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://local.reteimprese.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ }
+]

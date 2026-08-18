@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "farmaciagrecofranca.com",
+  "nome": "FARMACIA GRECO FRANCA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "06029460877",
+  "telefono": "",
+  "email": "amministrazione@farmaciagrecofranca.com",
+  "sitoUrl": "https://www.farmaciagrecofranca.com/",
+  "indirizzo": "Via Zinirco 1",
+  "cap": "95045",
+  "comune": "",
+  "provincia": "misterbianco",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.farmaciagrecofranca.com/",
+   "https://www.farmaciagrecofranca.com/policies/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "italogarigale.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"

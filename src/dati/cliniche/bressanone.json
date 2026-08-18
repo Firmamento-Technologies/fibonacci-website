@@ -60,6 +60,68 @@
   "tipoDichiarato": "Person Organization"
  },
  {
+  "dominio": "esteticacerbone.com",
+  "nome": "Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393341405442",
+  "email": "info@rowtech.it",
+  "sitoUrl": "https://www.esteticacerbone.com/",
+  "indirizzo": "Corso Italia 177",
+  "cap": "80011",
+  "comune": "Acerra",
+  "provincia": "bressanone",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Luigi Cerbone, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.esteticacerbone.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luigi Cerbone, cognome dentro il dominio"
+ },
+ {
+  "dominio": "esteticapaolobastianelli.it",
+  "nome": "Estetica Paolo Bastianelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticapaolobastianelli.it/",
+  "indirizzo": "Viale Pinturicchio, 45",
+  "cap": "",
+  "comune": "",
+  "provincia": "bressanone",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Fili di trazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Paolo Bastianelli, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.esteticapaolobastianelli.it/",
+   "https://www.esteticapaolobastianelli.it/chi-siamo/",
+   "https://www.esteticapaolobastianelli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Paolo Bastianelli, cognome dentro il dominio"
+ },
+ {
   "dominio": "gardetto.it",
   "nome": "Chirurgo Prof. A. Gardetto a Bressanone-Alto Adige",
   "formaSocietaria": "",

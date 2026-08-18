@@ -31,6 +31,38 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "elenapescarini.com",
+  "nome": "Dott.ssa Elena Pescarini",
+  "formaSocietaria": "",
+  "partitaIva": "02631581200",
+  "telefono": "+393478547325",
+  "email": "",
+  "sitoUrl": "https://www.elenapescarini.com/",
+  "indirizzo": "Via Mondo, 42",
+  "cap": "40127",
+  "comune": "Bologna",
+  "provincia": "carini",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Elena Pescarini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.elenapescarini.com/",
+   "https://www.elenapescarini.com/chi-siamo/",
+   "https://www.elenapescarini.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Elena Pescarini, e il dominio lo ripete"
+ },
+ {
   "dominio": "vivaestetica.it",
   "nome": "Istituto di bellezza",
   "formaSocietaria": "",

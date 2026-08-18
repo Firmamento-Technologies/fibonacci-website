@@ -35,6 +35,82 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "casadicuraliotti.it",
+  "nome": "Casa di Cura Liotti",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01678940543",
+  "telefono": "+390755721647",
+  "email": "amministrazione@pec.liotti.eu",
+  "sitoUrl": "https://www.casadicuraliotti.it/",
+  "indirizzo": "via Serafino Siepi 11",
+  "cap": "06128",
+  "comune": "Perugia",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.casadicuraliotti.it/",
+   "https://www.casadicuraliotti.it/chi-siamo/",
+   "https://www.casadicuraliotti.it/wp-content/uploads/sedimento.pdf"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "casadicuravillafiorita.it",
+  "nome": "Casa di Cura Privata Accreditata SSN",
+  "formaSocietaria": "SRL",
+  "partitaIva": "15434171003",
+  "telefono": "",
+  "email": "segreteria@casadicurakwh.it",
+  "sitoUrl": "https://www.casadicuravillafiorita.it/",
+  "indirizzo": "Via XX Settembre, 55",
+  "cap": "06124",
+  "comune": "Perugia",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.casadicuravillafiorita.it/",
+   "https://www.casadicuravillafiorita.it/chi-siamo",
+   "https://www.casadicuravillafiorita.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "convenzioni.industriawelfaresalute.it",
+  "nome": "IWS",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://convenzioni.industriawelfaresalute.it/",
+  "indirizzo": "Via Vicenza 23",
+  "cap": "00185",
+  "comune": "Roma",
+  "provincia": "perugia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://convenzioni.industriawelfaresalute.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "flexorlab.it",
   "nome": "Studio medico di riabilitazione a Perugia",
   "formaSocietaria": "",
@@ -101,6 +177,32 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday 14:30-19:00"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "ultraformermpt.bioskin.it",
+  "nome": "Ultraformer MPT",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04331000374",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ultraformermpt.bioskin.it/",
+  "indirizzo": "",
+  "cap": "40127",
+  "comune": "BOLOGNA",
+  "provincia": "perugia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ultraformermpt.bioskin.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "villa-salus.it",

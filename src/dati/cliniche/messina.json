@@ -1,5 +1,81 @@
 [
  {
+  "dominio": "cappellani.giomi.com",
+  "nome": "Homepage Cappellani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3909036811",
+  "email": "info.cappellanigiomi@giomi.com",
+  "sitoUrl": "https://cappellani.giomi.com/",
+  "indirizzo": "Viale Regina Elena, 335",
+  "cap": "98121",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Salvatore Cappellani, cognome nel dominio",
+  "fonteUrl": [
+   "https://cappellani.giomi.com/",
+   "https://cappellani.giomi.com/dove-siamo/",
+   "https://cappellani.giomi.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Salvatore Cappellani, cognome nel dominio"
+ },
+ {
+  "dominio": "casadicuracristore.it",
+  "nome": "Casa Di Cura Cristo Re",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390903718111",
+  "email": "amministrazione@casadicuracristore.it",
+  "sitoUrl": "https://www.casadicuracristore.it/",
+  "indirizzo": "Viale Principe Umberto, 89",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.casadicuracristore.it/",
+   "https://www.casadicuracristore.it/about/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "casadicurasancamillome.it",
+  "nome": "Casa di Cura San Camillo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390906402300",
+  "email": "",
+  "sitoUrl": "https://www.casadicurasancamillome.it/",
+  "indirizzo": "Viale Principe Umberto, 71",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.casadicurasancamillome.it/",
+   "https://www.casadicurasancamillome.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "chirurgiaesteticabarbaromarco.com",
   "nome": "Chirurgo Estetico Messina, Reggio Calabria, Catania",
   "formaSocietaria": "",
@@ -30,6 +106,59 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "irccsme.it",
+  "nome": "Centro Neurolesi Bonino Pulejo Messina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3909411898059",
+  "email": "info@irccsme.it",
+  "sitoUrl": "https://irccsme.it/",
+  "indirizzo": "Strada Statale 113",
+  "cap": "98124",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://irccsme.it/",
+   "https://irccsme.it/chi-siamo/",
+   "https://irccsme.it/chi-siamo/direzione/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "messinaweb.eu",
+  "nome": "messinaweb.eu",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@messinaweb.eu",
+  "sitoUrl": "https://www.messinaweb.eu/",
+  "indirizzo": "via I Settembre,117",
+  "cap": "10337",
+  "comune": "Comunicati",
+  "provincia": "messina",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.messinaweb.eu/",
+   "https://www.messinaweb.eu/homepage/chi-siamo.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
   "dominio": "omceo.me.it",
   "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della provincia di Mes",
   "formaSocietaria": "",
@@ -57,6 +186,57 @@
   "lat": 38.193757,
   "lon": 15.554208,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ospedalegiglio.it",
+  "nome": "Ospedale Giglio",
+  "formaSocietaria": "",
+  "partitaIva": "05205490823",
+  "telefono": "+390921920111",
+  "email": "info@hsrgiglio.it",
+  "sitoUrl": "https://www.ospedalegiglio.it/",
+  "indirizzo": "Via Anna Salamone, 99",
+  "cap": "98073",
+  "comune": "Mistretta",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ospedalegiglio.it/",
+   "https://www.ospedalegiglio.it/contatti/",
+   "https://www.ospedalegiglio.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "santellieditore.it",
+  "nome": "Casa Editrice Santelli",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03566420786",
+  "telefono": "",
+  "email": "info@santellieditore.it",
+  "sitoUrl": "https://www.santellieditore.it/",
+  "indirizzo": "Via Giorgio Enrico Falck, 5",
+  "cap": "20099",
+  "comune": "Sesto San Giovanni",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.santellieditore.it/",
+   "https://www.santellieditore.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "studiobarbera.it",
@@ -89,5 +269,29 @@
   "lat": 38.193757,
   "lon": 15.554208,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiomedicotreemme.it",
+  "nome": "Studio Medico Tre Emme",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomedicotreemme.it/",
+  "indirizzo": "",
+  "cap": "98061",
+  "comune": "Brolo",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.studiomedicotreemme.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

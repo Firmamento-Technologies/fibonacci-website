@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "abomeyestetica.it",
+  "nome": "Abomey Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "03777531207",
+  "telefono": "+3905421880345",
+  "email": "",
+  "sitoUrl": "https://abomeyestetica.it/",
+  "indirizzo": "Via Lasie, 10",
+  "cap": "40026",
+  "comune": "Imola",
+  "provincia": "imola",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://abomeyestetica.it/",
+   "https://abomeyestetica.it/privacy-policy/",
+   "https://abomeyestetica.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centroesteticoavantgarde.it",
   "nome": "Trattamenti estetici",
   "formaSocietaria": "",

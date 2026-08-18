@@ -34,6 +34,36 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "atelieristitutodibellezza.it",
+  "nome": "trattamenti corpo tecnologie avanzate e massaggio drenante Jesolo",
+  "formaSocietaria": "",
+  "partitaIva": "04535990271",
+  "telefono": "+393669905159",
+  "email": "",
+  "sitoUrl": "https://www.atelieristitutodibellezza.it/",
+  "indirizzo": "Via Piave Vecchio, 17",
+  "cap": "30016",
+  "comune": "Jesolo",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.atelieristitutodibellezza.it/",
+   "https://www.atelieristitutodibellezza.it/privacy-policy/",
+   "https://www.atelieristitutodibellezza.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "clinicahebe.it",
   "nome": "Clinica Hebe",
   "formaSocietaria": "",
@@ -124,6 +154,32 @@
   "lat": 45.536709,
   "lon": 12.638334,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studio-marando.com",
+  "nome": "Ginecologia e Medicina Estetica",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393883268290",
+  "email": "info@studio-marando.com",
+  "sitoUrl": "https://studio-marando.com/",
+  "indirizzo": "Piazza Brescia 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "jesolo",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Marando Ginecologia, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studio-marando.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Marando Ginecologia, cognome dentro il dominio"
  },
  {
   "dominio": "studioperazzolo.it",

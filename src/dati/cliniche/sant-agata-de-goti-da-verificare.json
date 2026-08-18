@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "comune.casalettospartano.sa.it",
+  "nome": "Comune di Casaletto Spartano",
+  "formaSocietaria": "",
+  "partitaIva": "84001470651",
+  "telefono": "+393792544960",
+  "email": "",
+  "sitoUrl": "https://www.comune.casalettospartano.sa.it/",
+  "indirizzo": "Via Nazionale, 226",
+  "cap": "84030",
+  "comune": "Casaletto",
+  "provincia": "sant-agata-de-goti",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.comune.casalettospartano.sa.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "kosmeoreb.com",
   "nome": "Centro estetico a Sant’Agata de’ Goti",
   "formaSocietaria": "",

@@ -1,5 +1,86 @@
 [
  {
+  "dominio": "allergicamente.it",
+  "nome": "Allergicamente",
+  "formaSocietaria": "",
+  "partitaIva": "07266551006",
+  "telefono": "",
+  "email": "info@allergicamente.it",
+  "sitoUrl": "https://www.allergicamente.it/",
+  "indirizzo": "Viale G. Mazzini, 70",
+  "cap": "50132",
+  "comune": "Firenze",
+  "provincia": "rivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.allergicamente.it/",
+   "https://www.allergicamente.it/credits-contatti/",
+   "https://www.allergicamente.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "associazioneilmelo.org",
+  "nome": "I nostri servizi -",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.associazioneilmelo.org/",
+  "indirizzo": "Corso Francia, 147",
+  "cap": "",
+  "comune": "",
+  "provincia": "rivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.associazioneilmelo.org/",
+   "https://www.associazioneilmelo.org/chi-siamo/",
+   "https://www.associazioneilmelo.org/dove-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "asst-pini-cto.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "biomedico.campusnet.unito.it",
+  "nome": "Corso di Laurea in Tecniche di Laboratorio Biomedico - Torino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://biomedico.campusnet.unito.it/do/home.pl",
+  "indirizzo": "Via Verdi 8",
+  "cap": "10124",
+  "comune": "Torino",
+  "provincia": "rivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://biomedico.campusnet.unito.it/do/home.pl"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centroesteticoamarsi.it",
   "nome": "Centro Estetico Amarsi",
   "formaSocietaria": "",
@@ -28,6 +109,60 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Centro Estetico Amarsi",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "comitatomacula.it",
+  "nome": "Associazione Comitato Macula",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393534761953",
+  "email": "info@comitatomacula.it",
+  "sitoUrl": "https://comitatomacula.it/",
+  "indirizzo": "Via Nino Ronco 31",
+  "cap": "16134",
+  "comune": "GENOVA",
+  "provincia": "rivoli",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://comitatomacula.it/",
+   "https://comitatomacula.it/chi-siamo/",
+   "https://comitatomacula.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cplrivoli.it",
+  "nome": "CPL Rivoli",
+  "formaSocietaria": "",
+  "partitaIva": "11039940017",
+  "telefono": "",
+  "email": "info@cplrivoli.it",
+  "sitoUrl": "https://www.cplrivoli.it/",
+  "indirizzo": "Piazza Garibaldi 1",
+  "cap": "",
+  "comune": "",
+  "provincia": "rivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cplrivoli.it/",
+   "https://www.cplrivoli.it/contatti/",
+   "https://www.cplrivoli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "crisalix.com",

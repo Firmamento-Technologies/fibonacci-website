@@ -1,5 +1,57 @@
 [
  {
+  "dominio": "policlinicosanmarco.it",
+  "nome": "Policlinico San Marco Mestre",
+  "formaSocietaria": "",
+  "partitaIva": "00347320277",
+  "telefono": "",
+  "email": "info@policlinicosanmarco.it",
+  "sitoUrl": "https://www.policlinicosanmarco.it/",
+  "indirizzo": "Via Francesco Zanotto 40",
+  "cap": "30173",
+  "comune": "Mestre",
+  "provincia": "venezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.policlinicosanmarco.it/",
+   "https://www.policlinicosanmarco.it/contatti/",
+   "https://www.policlinicosanmarco.it/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "saninveneto.it",
+  "nome": "Sani.In.Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390412584960",
+  "email": "segreteria@saninveneto.it",
+  "sitoUrl": "https://www.saninveneto.it/",
+  "indirizzo": "Via Fratelli Bandiera 35",
+  "cap": "30175",
+  "comune": "Marghera",
+  "provincia": "venezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.saninveneto.it/",
+   "https://www.saninveneto.it/chi-siamo/",
+   "https://www.saninveneto.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "studiodentisticotognon.com",
   "nome": "Studio dentistico odontoiatrico a Venezia",
   "formaSocietaria": "",
@@ -27,5 +79,29 @@
   "lat": 45.437191,
   "lon": 12.33459,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "trasparenza.aulss3.veneto.it",
+  "nome": "Trasparenza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://trasparenza.aulss3.veneto.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "venezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://trasparenza.aulss3.veneto.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

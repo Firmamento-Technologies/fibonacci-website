@@ -64,6 +64,11 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "medicinaesteticaoristano.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "medicservice.it",
   "nome": "Medic Service",
   "formaSocietaria": "",
@@ -84,6 +89,56 @@
    "https://medicservice.it/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "portanuovaoristano.com",
+  "nome": "Centro Commerciale Porta Nuova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@portanuovaoristano.com",
+  "sitoUrl": "https://www.portanuovaoristano.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "or",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.portanuovaoristano.com/",
+   "https://www.portanuovaoristano.com/dove-siamo/",
+   "https://www.portanuovaoristano.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "santalessio.it",
+  "nome": "santalessio.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.santalessio.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "or",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.santalessio.it/"
+  ],
+  "lettoIl": "2026-08-17",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },

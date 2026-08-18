@@ -102,6 +102,35 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "dermatologo-gianlucamio.com",
+  "nome": "Dott. Gianluca Mio",
+  "formaSocietaria": "",
+  "partitaIva": "04730180876",
+  "telefono": "+390959518494",
+  "email": "",
+  "sitoUrl": "https://www.dermatologo-gianlucamio.com/",
+  "indirizzo": "Via Brando Brandi 58",
+  "cap": "47121",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Gianluca Mio, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.dermatologo-gianlucamio.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Gianluca Mio, cognome dentro il dominio"
+ },
+ {
   "dominio": "dottoressafrancescalolli.com",
   "nome": "Dott.ssa Francesca Lolli",
   "formaSocietaria": "",
@@ -420,6 +449,31 @@
   "lat": 45.4668,
   "lon": 9.1905,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studioalbertomonti.it",
+  "nome": "Studio di dermatologia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39054332861",
+  "email": "",
+  "sitoUrl": "https://www.studioalbertomonti.it/",
+  "indirizzo": "Corso della Repubblica 116",
+  "cap": "47121",
+  "comune": "Forlì",
+  "provincia": "fc",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Alberto Contatti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studioalbertomonti.it/",
+   "https://www.studioalbertomonti.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Alberto Contatti, cognome dentro il dominio"
  },
  {
   "dominio": "studiodentisticocamporesi.it",

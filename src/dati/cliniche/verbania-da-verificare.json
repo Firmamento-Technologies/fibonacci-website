@@ -1,5 +1,30 @@
 [
  {
+  "dominio": "centromedicinsieme.it",
+  "nome": "Poliambulatorio Medico",
+  "formaSocietaria": "",
+  "partitaIva": "02001620034",
+  "telefono": "+39032453039",
+  "email": "info@centromedicinsieme.it",
+  "sitoUrl": "https://www.centromedicinsieme.it/",
+  "indirizzo": "Via Roma, 9",
+  "cap": "28844",
+  "comune": "Villadossola",
+  "provincia": "verbania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.centromedicinsieme.it/",
+   "https://www.centromedicinsieme.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "esteticastudiogiovanna.it",
   "nome": "Estetica Studio Giovanna",
   "formaSocietaria": "",

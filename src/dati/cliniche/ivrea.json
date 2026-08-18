@@ -1,5 +1,78 @@
 [
  {
+  "dominio": "agenzievittoria.com",
+  "nome": "Elenco Agenzie Vittoria Assicurazioni aperte oggi vicino a me",
+  "formaSocietaria": "SPA",
+  "partitaIva": "01329510158",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.agenzievittoria.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.agenzievittoria.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ail.it",
+  "nome": "AIL",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info.shop@ail.it",
+  "sitoUrl": "https://www.ail.it/",
+  "indirizzo": "Via Casilina 5",
+  "cap": "00182",
+  "comune": "Roma",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ail.it/",
+   "https://www.ail.it/contattaci"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "borsaparto.spio.it",
+  "nome": "Come preparare la Borsa Parto",
+  "formaSocietaria": "SRL",
+  "partitaIva": "07575260638",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://borsaparto.spio.it/",
+  "indirizzo": "Via Siris 11",
+  "cap": "80133",
+  "comune": "Napoli",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://borsaparto.spio.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centroesteticoedoneivrea.com",
   "nome": "ESTETICA EDONÈ",
   "formaSocietaria": "",
@@ -86,6 +159,32 @@
   "lat": 45.467379,
   "lon": 7.874797,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "colorectalcenter.it",
+  "nome": "Specialisti in chirurgia del colon",
+  "formaSocietaria": "",
+  "partitaIva": "08916020012",
+  "telefono": "+393355951269",
+  "email": "info@colorectalcenter.it",
+  "sitoUrl": "https://www.colorectalcenter.it/it/",
+  "indirizzo": "Via Ramella Germanin, 6",
+  "cap": "10015",
+  "comune": "Ivrea",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.colorectalcenter.it/it/",
+   "https://www.colorectalcenter.it/it/chi-siamo/",
+   "https://www.colorectalcenter.it/it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "corradoandorno.it",
@@ -178,6 +277,80 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "gavecelt.it",
+  "nome": "Gli Accessi Venosi Centrali a Lungo Termine",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gavecelt.it/nuovo/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://gavecelt.it/nuovo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ginniccenter.com",
+  "nome": "Ginnic Fitness Club",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@ginniccenter.com",
+  "sitoUrl": "https://www.ginniccenter.com/",
+  "indirizzo": "Via Marconi 7",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ginniccenter.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "ivrea.cnexthub.com",
+  "nome": "C.NEXT IVREA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "12975570016",
+  "telefono": "",
+  "email": "info@ivrea.cnexthub.c",
+  "sitoUrl": "https://ivrea.cnexthub.com/",
+  "indirizzo": "Via Guglielmo Jervis, 11",
+  "cap": "10015",
+  "comune": "Ivrea",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://ivrea.cnexthub.com/",
+   "https://ivrea.cnexthub.com/contatti/",
+   "https://ivrea.cnexthub.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "jervis22.com",
   "nome": "Jervis 22 e Masso Sport",
   "formaSocietaria": "",
@@ -200,6 +373,30 @@
    "https://www.jervis22.com/privacy-e-cookies/"
   ],
   "lettoIl": "2026-08-15",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lasentinella.it",
+  "nome": "La Sentinella del Canavese",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08410170727",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lasentinella.it/",
+  "indirizzo": "Via De Blasio snc 70132",
+  "cap": "70132",
+  "comune": "Bari",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://lasentinella.it/"
+  ],
+  "lettoIl": "2026-08-17",
   "escluso": false,
   "motivoEsclusione": ""
  },
@@ -238,6 +435,58 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "noemacongressi.it",
+  "nome": "NOEMA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03809750379",
+  "telefono": "",
+  "email": "info@noemacongressi.it",
+  "sitoUrl": "https://www.noemacongressi.it/",
+  "indirizzo": "via Orefici, 4",
+  "cap": "40124",
+  "comune": "Bologna",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.noemacongressi.it/",
+   "https://www.noemacongressi.it/chi-siamo/",
+   "https://www.noemacongressi.it/chi-siamo/metodo-di-lavoro/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pinnapintor.it",
+  "nome": "Clinica Pinna Pintor",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11239610014",
+  "telefono": "",
+  "email": "info@pinnapintorsrl.it",
+  "sitoUrl": "https://www.pinnapintor.it/",
+  "indirizzo": "Via Vespucci, 61",
+  "cap": "10129",
+  "comune": "Torino",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.pinnapintor.it/",
+   "https://www.pinnapintor.it/contatti/",
+   "https://www.pinnapintor.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "poliambulatoriogardaflip.com",
   "nome": "Poliambulatorio Garda Flip",
   "formaSocietaria": "",
@@ -261,5 +510,54 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "primailcanavese.it",
+  "nome": "Prima il Canavese",
+  "formaSocietaria": "SRL",
+  "partitaIva": "15478161001",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://primailcanavese.it/",
+  "indirizzo": "Via Idiomi 1",
+  "cap": "20057",
+  "comune": "Assago",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://primailcanavese.it/",
+   "https://primailcanavese.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiomedicorinaldi.it",
+  "nome": "Dott.ssa Dolores Rinaldi",
+  "formaSocietaria": "",
+  "partitaIva": "10129900012",
+  "telefono": "+393391662046",
+  "email": "info@studiomedicorinaldi.it",
+  "sitoUrl": "https://studiomedicorinaldi.it/",
+  "indirizzo": "Corso Massimo D'Azeglio 65",
+  "cap": "",
+  "comune": "",
+  "provincia": "ivrea",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Dolores Rinaldi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studiomedicorinaldi.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Dolores Rinaldi, cognome dentro il dominio"
  }
 ]

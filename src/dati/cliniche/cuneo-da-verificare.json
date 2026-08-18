@@ -1,1 +1,156 @@
-[]
+[
+ {
+  "dominio": "corep.it",
+  "nome": "Corep",
+  "formaSocietaria": "",
+  "partitaIva": "05462680017",
+  "telefono": "",
+  "email": "info@corep.it",
+  "sitoUrl": "https://corep.it/",
+  "indirizzo": "Via Verdi 25",
+  "cap": "10124",
+  "comune": "Torino",
+  "provincia": "cuneo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://corep.it/",
+   "https://corep.it/chi-siamo.html",
+   "https://corep.it/contatti.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "indicepa.gov.it",
+  "nome": "IpaPortale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://indicepa.gov.it/ipa-portale/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cuneo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://indicepa.gov.it/ipa-portale/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "io-net.org",
+  "nome": "IO • NET",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@io-net.org",
+  "sitoUrl": "https://www.io-net.org/",
+  "indirizzo": "Piazza Vivaria, 1",
+  "cap": "05018",
+  "comune": "Orvieto",
+  "provincia": "cuneo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.io-net.org/",
+   "https://www.io-net.org/chi-siamo-2/",
+   "https://www.io-net.org/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medchirurgia.campusnet.unito.it",
+  "nome": "Laurea Magistrale in Medicina e Chirurgia - sede di Torino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medchirurgia.campusnet.unito.it/do/home.pl",
+  "indirizzo": "Via Verdi 8",
+  "cap": "10124",
+  "comune": "Torino",
+  "provincia": "cuneo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medchirurgia.campusnet.unito.it/do/home.pl"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medradiocn.campusnet.unito.it",
+  "nome": "Corso di Laurea in Tecniche di Radiologia Medica, per Immagini e Radio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://medradiocn.campusnet.unito.it/do/home.pl",
+  "indirizzo": "Piazza Torino, 3",
+  "cap": "10124",
+  "comune": "Torino",
+  "provincia": "cuneo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://medradiocn.campusnet.unito.it/do/home.pl"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "openpnrr.it",
+  "nome": "OpenPNRR",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://openpnrr.it/",
+  "indirizzo": "corso A buon punto Completate 169",
+  "cap": "00185",
+  "comune": "Roma",
+  "provincia": "cuneo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://openpnrr.it/",
+   "https://openpnrr.it/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "trasparenza.scr.piemonte.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
+ }
+]

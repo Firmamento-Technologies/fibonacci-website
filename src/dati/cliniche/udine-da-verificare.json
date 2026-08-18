@@ -1,1 +1,27 @@
-[]
+[
+ {
+  "dominio": "cecos.it",
+  "nome": "CECOS Italia",
+  "formaSocietaria": "",
+  "partitaIva": "01568081002",
+  "telefono": "+393510057868",
+  "email": "info@cecos.it",
+  "sitoUrl": "https://www.cecos.it/",
+  "indirizzo": "",
+  "cap": "00198",
+  "comune": "Roma",
+  "provincia": "udine",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cecos.it/",
+   "https://www.cecos.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

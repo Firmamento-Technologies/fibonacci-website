@@ -29,6 +29,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "dermovicenza.com",
+  "nome": "Studio dermatologico Cogo Dr. Massimo",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390444560089",
+  "email": "",
+  "sitoUrl": "https://www.dermovicenza.com/",
+  "indirizzo": "Via Zampieri 15",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vicenza",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dermovicenza.com/",
+   "https://www.dermovicenza.com/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "skinberica.it",
   "nome": "Skin Berica",
   "formaSocietaria": "",

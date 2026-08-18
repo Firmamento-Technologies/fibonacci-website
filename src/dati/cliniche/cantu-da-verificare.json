@@ -1,1 +1,55 @@
-[]
+[
+ {
+  "dominio": "beautys-marikagisondi.it",
+  "nome": "beautys-marikagisondi",
+  "formaSocietaria": "",
+  "partitaIva": "03546880133",
+  "telefono": "+393459791421",
+  "email": "info@beautys-marikagisondi.it",
+  "sitoUrl": "https://www.beautys-marikagisondi.it/",
+  "indirizzo": "",
+  "cap": "22063",
+  "comune": "Cantù",
+  "provincia": "cantu",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.beautys-marikagisondi.it/",
+   "https://www.beautys-marikagisondi.it/about/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "simfer.it",
+  "nome": "SIMFER",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@simfer.it",
+  "sitoUrl": "https://simfer.it/",
+  "indirizzo": "",
+  "cap": "00198",
+  "comune": "ROMA",
+  "provincia": "cantu",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://simfer.it/",
+   "https://simfer.it/contatti/",
+   "https://simfer.it/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

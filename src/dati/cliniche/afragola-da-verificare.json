@@ -187,5 +187,31 @@
   "lat": 40.926012,
   "lon": 14.310831,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "pupia.tv",
+  "nome": "Pupia.tv",
+  "formaSocietaria": "",
+  "partitaIva": "03296370616",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.pupia.tv/",
+  "indirizzo": "Via Aversa 45",
+  "cap": "81030",
+  "comune": "Gricignano",
+  "provincia": "afragola",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.pupia.tv/",
+   "https://www.pupia.tv/contatti",
+   "https://www.pupia.tv/contatti-e-gerenza"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

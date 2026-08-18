@@ -54,5 +54,32 @@
   "lat": 46.716549,
   "lon": 11.657851,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "dolomitikas.com",
+  "nome": "Dolomitikas",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dolomitikas.com/",
+  "indirizzo": "Via Fienili 12",
+  "cap": "39042",
+  "comune": "Brixen",
+  "provincia": "bressanone",
+  "prestazioni": [
+   "Peeling chimico",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://dolomitikas.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
  }
 ]

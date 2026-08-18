@@ -34,6 +34,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ausl.latina.it",
+  "nome": "ausl.latina.it",
+  "formaSocietaria": "",
+  "partitaIva": "01684950593",
+  "telefono": "",
+  "email": "amministrazione@pec.ausl.latin",
+  "sitoUrl": "https://www.ausl.latina.it/",
+  "indirizzo": "Via P.L. Nervi cc LatinaFiori - 04100",
+  "cap": "04100",
+  "comune": "Latina",
+  "provincia": "aprilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.ausl.latina.it/",
+   "https://www.ausl.latina.it/contatti",
+   "https://www.ausl.latina.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "elkalab.com",
   "nome": "Elkalab",
   "formaSocietaria": "",
@@ -101,6 +127,30 @@
   "lat": 41.594202,
   "lon": 12.648576,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "lifenet.it",
+  "nome": "Lifenet Healthcare",
+  "formaSocietaria": "SPA",
+  "partitaIva": "14365250969",
+  "telefono": "",
+  "email": "info@lifenet.it",
+  "sitoUrl": "https://www.lifenet.it/",
+  "indirizzo": "Viale Luigi Majno 5",
+  "cap": "20122",
+  "comune": "Milano",
+  "provincia": "aprilia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.lifenet.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "oraridiapertura24.it",

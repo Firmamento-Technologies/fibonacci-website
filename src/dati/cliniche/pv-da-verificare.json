@@ -128,6 +128,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "icsmaugeri.it",
+  "nome": "icsmaugeri.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://icsmaugeri.it/",
+  "indirizzo": "largo Augusto sarà chiuso da lunedì 10",
+  "cap": "27100",
+  "comune": "Pavia",
+  "provincia": "pv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://icsmaugeri.it/",
+   "https://icsmaugeri.it/dove-siamo",
+   "https://icsmaugeri.it/gruppo-maugeri/chi-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "medicinaesteticabarak.it",
   "nome": "MEDICINA ESTETICA AVANZATA",
   "formaSocietaria": "",
@@ -321,6 +347,32 @@
   "lat": 45.036855,
   "lon": 9.137825,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "simedica.tv",
+  "nome": "Simedica.tv",
+  "formaSocietaria": "",
+  "partitaIva": "08377360964",
+  "telefono": "",
+  "email": "info@simedica.tv",
+  "sitoUrl": "https://www.simedica.tv/",
+  "indirizzo": "via Luigi Capranica, 14",
+  "cap": "20131",
+  "comune": "Milano",
+  "provincia": "pv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.simedica.tv/",
+   "https://www.simedica.tv/chi-siamo-e-cosa-facciamo/",
+   "https://www.simedica.tv/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studiomoscamarisa.com",

@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "essenziastudio.it",
+  "nome": "Main Home",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393492505532",
+  "email": "info@essenziastudio.it",
+  "sitoUrl": "https://www.essenziastudio.it/",
+  "indirizzo": "Via Alessandro Manzoni, 5",
+  "cap": "34170",
+  "comune": "Gorizia",
+  "provincia": "go",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.essenziastudio.it/",
+   "https://www.essenziastudio.it/chi-siamo/",
+   "https://www.essenziastudio.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "lepetiteedienne.it",
   "nome": "Le Petite Ediénne",
   "formaSocietaria": "",

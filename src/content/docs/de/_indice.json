@@ -53,11 +53,7 @@
   },
   "analisi-del-volto": {
     "title": "Gesichtsanalyse",
-    "description": "Messungen von vorne, 3D-Ansicht und Live-Spiegel, Profilwinkel, Fotoserie, Kanon und PGAIS."
-  },
-  "parametri-cutanei": {
-    "title": "Hautparameter",
-    "description": "Elf fotografische Messgrößen in einem von dir gewählten Bereich und der Vergleich über die Zeit."
+    "description": "Direkter Vorher-Nachher-Vergleich, 3D-Ansicht des Gesichts, Live-Spiegel und PGAIS-Beurteilung."
   },
   "tracciabilita-lotto": {
     "title": "Chargentraceability",

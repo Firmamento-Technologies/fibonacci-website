@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { DOCS_IN_ORDINE } from '@/lib/docs-data'
 import { LINGUE_MANUALE, loadDocLingua, loadIndiceLingua, type LinguaManuale } from '@/lib/docs-file'
 import { indiceDaMarkdown } from '@/lib/ancore'
+import { conNotaDiGiurisdizione } from '@/lib/giurisdizione'
 
 /* IL MANUALE NELLE ALTRE QUATTRO LINGUE — e ⛔ **NON pubblicato**, come l'italiano.
  *
@@ -48,7 +49,13 @@ export async function GET(_req: Request, ctx: { params: Promise<{ lingua: string
 
   const pagine = await Promise.all(
     DOCS_IN_ORDINE.map(async (d, i) => {
-      const markdown = await loadDocLingua(d.slug, l)
+      // ⚠️ Tradurre ⛔ non basta: il manuale parla di AIFA, PEC, L. 219/2017 e
+      //    Ordine dei Medici, cioè di obblighi **italiani**. Un capitolo in
+      //    tedesco che li descrive è peggio di uno in italiano, perché
+      //    l'italiano si riconosce come «scritto per un altro paese» e il
+      //    tedesco no: sembra applicabile. Il perché per esteso, e che cosa
+      //    questo avviso ⛔ NON fa, stanno in `lib/giurisdizione.ts`.
+      const markdown = conNotaDiGiurisdizione(await loadDocLingua(d.slug, l), l)
       const voce = indice[d.slug]
       if (!voce) ripiegati++
       return {

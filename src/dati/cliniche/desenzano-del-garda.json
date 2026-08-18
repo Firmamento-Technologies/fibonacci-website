@@ -65,6 +65,37 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "beautyaestheticerelax.com",
+  "nome": "Beauty aesthetic e Relax",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.beautyaestheticerelax.com/",
+  "indirizzo": "via Giuseppe di Vittorio, 91",
+  "cap": "",
+  "comune": "",
+  "provincia": "desenzano-del-garda",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.beautyaestheticerelax.com/",
+   "https://www.beautyaestheticerelax.com/contatti/",
+   "https://www.beautyaestheticerelax.com/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centromedicosantangela.com",
   "nome": "Centro medico specialistico Desenzano del Garda",
   "formaSocietaria": "",

@@ -1,5 +1,54 @@
 [
  {
+  "dominio": "bbday.it",
+  "nome": "B&B Day",
+  "formaSocietaria": "",
+  "partitaIva": "01194800882",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bbday.it/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lecce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.bbday.it/it/",
+   "https://www.bbday.it/it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "casevacanza.online",
+  "nome": "Case Vacanza in Italia: Affitti Brevi e Migliori Offerte",
+  "formaSocietaria": "",
+  "partitaIva": "01194800882",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.casevacanza.online/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lecce",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.casevacanza.online/it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "emaderm.it",
   "nome": "Centro Estetico Lecce di Emaderm",
   "formaSocietaria": "",

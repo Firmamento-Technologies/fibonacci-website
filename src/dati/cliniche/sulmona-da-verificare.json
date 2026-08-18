@@ -31,6 +31,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "neuropsicomotricista.it",
+  "nome": "neuropsicomotricista.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393319919939",
+  "email": "info@neuropsicomotricista.it",
+  "sitoUrl": "https://www.neuropsicomotricista.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "sulmona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.neuropsicomotricista.it/",
+   "https://www.neuropsicomotricista.it/dove-siamo/commissioni-d-albo-del-tnpee.html",
+   "https://www.neuropsicomotricista.it/dove-siamo/studi-privati-di-psicomotricita.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "newmedicalcentersulmona.it",
   "nome": "New Medical Center - Sulmona - Studi medici e servizi sanitari",
   "formaSocietaria": "",

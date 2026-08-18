@@ -53,11 +53,7 @@
   },
   "analisi-del-volto": {
     "title": "Analyse du visage",
-    "description": "Mesures sur la vue frontale, vue 3D et miroir en direct, angles de profil, série photographique, canon et PGAIS."
-  },
-  "parametri-cutanei": {
-    "title": "Paramètres cutanés",
-    "description": "Onze grandeurs photographiques sur une région que tu choisis, et la comparaison dans le temps."
+    "description": "Comparaison directe avant/après, vue 3D du visage, miroir en direct et jugement PGAIS."
   },
   "tracciabilita-lotto": {
     "title": "Traçabilité du lot",

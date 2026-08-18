@@ -165,6 +165,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "ginecologamazzoccanti.it",
+  "nome": "Ginecologa a Terni",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39360489964",
+  "email": "info@ginecologamazzoccanti.it",
+  "sitoUrl": "https://www.ginecologamazzoccanti.it/",
+  "indirizzo": "Via Industria, 17",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Cinzia Mazzoccanti, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.ginecologamazzoccanti.it/",
+   "https://www.ginecologamazzoccanti.it/contatti/",
+   "https://www.ginecologamazzoccanti.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Cinzia Mazzoccanti, cognome dentro il dominio"
+ },
+ {
   "dominio": "italia-servizi.org",
   "nome": "Italia Servizi",
   "formaSocietaria": "",

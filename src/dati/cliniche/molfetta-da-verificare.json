@@ -159,5 +159,31 @@
   "lat": 41.199246,
   "lon": 16.596828,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studioconnydiamante.it",
+  "nome": "Studio Make Up Conny Diamante",
+  "formaSocietaria": "",
+  "partitaIva": "07402040724",
+  "telefono": "+390803385855",
+  "email": "",
+  "sitoUrl": "https://studioconnydiamante.it/",
+  "indirizzo": "Vicolo Muro, 23",
+  "cap": "70056",
+  "comune": "Molfetta",
+  "provincia": "molfetta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studioconnydiamante.it/",
+   "https://studioconnydiamante.it/contatti/",
+   "https://studioconnydiamante.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

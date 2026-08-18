@@ -54,6 +54,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "provinciaromanacamilliani.it",
+  "nome": "Provincia Romana Camilliani",
+  "formaSocietaria": "",
+  "partitaIva": "00999531007",
+  "telefono": "+390776817226",
+  "email": "info@rsasancamillosora.it",
+  "sitoUrl": "https://provinciaromanacamilliani.it/",
+  "indirizzo": "Largo O. Respighi, 6",
+  "cap": "00135",
+  "comune": "Roma",
+  "provincia": "viterbo",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://provinciaromanacamilliani.it/",
+   "https://provinciaromanacamilliani.it/contatti/",
+   "https://provinciaromanacamilliani.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "tommasoagostini.com",
   "nome": "Chirurgia Estetica, Chirurgia Plastica Dott. Tommaso Agostini",
   "formaSocietaria": "",

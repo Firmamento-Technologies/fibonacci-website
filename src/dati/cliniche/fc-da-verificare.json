@@ -151,5 +151,10 @@
    "Friday 09:00-15:00"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "zety.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

@@ -65,6 +65,37 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "emilianofrati.wordpress.com",
+  "nome": "Emiliano Frati",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://emilianofrati.wordpress.com/",
+  "indirizzo": "Viale della Repubblica 298",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "po",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://emilianofrati.wordpress.com/",
+   "https://emilianofrati.wordpress.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "esteticadenise.it",
   "nome": "Estetica Denise",
   "formaSocietaria": "",
@@ -118,6 +149,30 @@
   "lat": 43.935718,
   "lon": 11.094147,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiomannelliprato.com",
+  "nome": "Studio Mannelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.studiomannelliprato.com/",
+  "indirizzo": "Via Viareggio 10",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "po",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.studiomannelliprato.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studiomedicodrgiuliapoggi.it",

@@ -266,6 +266,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "sannapomezia.it",
+  "nome": "Homepage S. Anna",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01998571002",
+  "telefono": "",
+  "email": "info@sannapomezia.it",
+  "sitoUrl": "https://sannapomezia.it/",
+  "indirizzo": "Via del Mare, 69",
+  "cap": "00040",
+  "comune": "Pomezia",
+  "provincia": "pomezia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://sannapomezia.it/",
+   "https://sannapomezia.it/dove-siamo/",
+   "https://sannapomezia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "scuolelanuovaimmagine.it",
   "nome": "Scuola d'Estetica La Nuova Immagine ad Albano è un centro di formazion",
   "formaSocietaria": "",

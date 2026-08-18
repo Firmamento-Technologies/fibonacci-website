@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "aversa.infoisinfo.it",
+  "nome": "Cerca Negozi Aversa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://aversa.infoisinfo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "aversa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://aversa.infoisinfo.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "bollinirosa.alekos.net",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "comfortzona.it",
   "nome": "Comfort Zona",
   "formaSocietaria": "",
@@ -62,6 +91,31 @@
   "lat": 40.973212,
   "lon": 14.204928,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "lidentita.it",
+  "nome": "L'Identità",
+  "formaSocietaria": "",
+  "partitaIva": "14039411005",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.lidentita.it/",
+  "indirizzo": "Via Teulada, 52",
+  "cap": "00195",
+  "comune": "Roma",
+  "provincia": "aversa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.lidentita.it/",
+   "https://www.lidentita.it/cisgiordania-continua-lassedio-alle-case-dei-palestinesi-a-qusra/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "portalesalute.aslcaserta.it",

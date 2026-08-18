@@ -31,5 +31,55 @@
   "lat": 44.847635,
   "lon": 9.666531,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "progettosollievo.it",
+  "nome": "Progetto Sollievo",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00203950332",
+  "telefono": "+3905231860433",
+  "email": "info@progettosollievo.it",
+  "sitoUrl": "https://progettosollievo.it/",
+  "indirizzo": "Via Morigi, 41",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "piacenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://progettosollievo.it/",
+   "https://progettosollievo.it/contatti/",
+   "https://progettosollievo.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "trasparenza.regione.emilia-romagna.it",
+  "nome": "trasparenza.regione.emilia-romagna.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://trasparenza.regione.emilia-romagna.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "piacenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://trasparenza.regione.emilia-romagna.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

@@ -37,6 +37,11 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "dati.salute.gov.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "dottpellapaolo.it",
   "nome": "Trattamento dermatiti",
   "formaSocietaria": "",
@@ -65,6 +70,106 @@
   "lat": 45.538462,
   "lon": 8.055921,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "festivaldellaprevenzione.it",
+  "nome": "Festival Prevenzione",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@liltpalermo.it",
+  "sitoUrl": "https://festivaldellaprevenzione.it/",
+  "indirizzo": "Via Venezian 1",
+  "cap": "20133",
+  "comune": "Milano",
+  "provincia": "biella",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://festivaldellaprevenzione.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "legatumoribs.it",
+  "nome": "LILT Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@legatumoribs.it",
+  "sitoUrl": "https://www.legatumoribs.it/",
+  "indirizzo": "via Galileo Galilei, 20",
+  "cap": "25128",
+  "comune": "BRESCIA",
+  "provincia": "biella",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.legatumoribs.it/",
+   "https://www.legatumoribs.it/chi-siamo/",
+   "https://www.legatumoribs.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "openfiber.it",
+  "nome": "openfiber.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://openfiber.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "biella",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://openfiber.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "salutissima.it",
+  "nome": "Assistenza Sanitaria Integrativa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@salutissima.it",
+  "sitoUrl": "https://salutissima.it/",
+  "indirizzo": "Via Nino Costa, 16",
+  "cap": "14100",
+  "comune": "Asti",
+  "provincia": "biella",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://salutissima.it/",
+   "https://salutissima.it/chi-siamo/",
+   "https://salutissima.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studioesteticoilglicine.it",
@@ -99,5 +204,10 @@
   "lat": 45.566954,
   "lon": 8.086912,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "trasparenza.aslbi.piemonte.it",
+  "escluso": true,
+  "motivoEsclusione": "robots.txt vieta la lettura"
  }
 ]

@@ -65,6 +65,38 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "dottoressachiaratommasi.it",
+  "nome": "Nutrizionista e Trattamenti di Medicina Estetica a La Spezia",
+  "formaSocietaria": "",
+  "partitaIva": "01466770110",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dottoressachiaratommasi.it/",
+  "indirizzo": "via Vittorio Veneto 126",
+  "cap": "",
+  "comune": "",
+  "provincia": "sp",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Chiara Tommasi, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://dottoressachiaratommasi.it/",
+   "https://dottoressachiaratommasi.it/privacy-policy/",
+   "https://dottoressachiaratommasi.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Chiara Tommasi, cognome dentro il dominio"
+ },
+ {
   "dominio": "istitutoradiologicoberetta.it",
   "nome": "Istituto Radiologico Beretta",
   "formaSocietaria": "",
@@ -126,6 +158,31 @@
   "nomeStrutturato": "LEVANTE LASER STUDIO",
   "tipoDichiarato": "LocalBusiness",
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "medicinaesteticadrapchind.it",
+  "nome": "Medicina Estetica Drapchind La Spezia",
+  "formaSocietaria": "",
+  "partitaIva": "00428920458",
+  "telefono": "+393683799759",
+  "email": "info@medicinaesteticadrapchind.it",
+  "sitoUrl": "https://medicinaesteticadrapchind.it/home/",
+  "indirizzo": "Via Pascoli, 19",
+  "cap": "19124",
+  "comune": "",
+  "provincia": "sp",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Drapchind, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://medicinaesteticadrapchind.it/home/",
+   "https://medicinaesteticadrapchind.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Drapchind, cognome dentro il dominio"
  },
  {
   "dominio": "microchirurgiaricostruttiva.it",

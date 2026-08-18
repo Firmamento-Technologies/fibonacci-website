@@ -92,5 +92,29 @@
   "lat": 40.7778,
   "lon": 8.921997,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "sites.unica.it",
+  "nome": "Università degli Studi di Cagliari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sites.unica.it/",
+  "indirizzo": "Via Università 40",
+  "cap": "09124",
+  "comune": "Cagliari",
+  "provincia": "quartu-sant-elena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sites.unica.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

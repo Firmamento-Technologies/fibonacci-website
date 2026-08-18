@@ -122,5 +122,31 @@
   "lat": 46.215672,
   "lon": 10.173178,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ordinemedicisondrio.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri di Sondrio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390342515200",
+  "email": "segreteria@ordinemedicisondrio.it",
+  "sitoUrl": "https://ordinemedicisondrio.it/",
+  "indirizzo": "Via Trento 68",
+  "cap": "23100",
+  "comune": "Sondrio",
+  "provincia": "so",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ordinemedicisondrio.it/",
+   "https://ordinemedicisondrio.it/ordine/segreteria/urp-contatti",
+   "https://ordinemedicisondrio.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

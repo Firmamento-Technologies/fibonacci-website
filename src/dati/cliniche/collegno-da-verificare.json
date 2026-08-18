@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "a-leads.co",
+  "nome": "B2B contact data & lead enrichment",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://a-leads.co/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "collegno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://a-leads.co/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "clinicasantaines.it",
   "nome": "Clinica medica ortopedica Santa Ines",
   "formaSocietaria": "",
@@ -25,6 +49,32 @@
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata",
   "nomeStrutturato": "Clinica medica ortopedica santa ines",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "concorsipubblici.com",
+  "nome": "Concorsi Pubblici Quiz e Mobilità",
+  "formaSocietaria": "",
+  "partitaIva": "03439400403",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.concorsipubblici.com/",
+  "indirizzo": "",
+  "cap": "31200",
+  "comune": "Enti",
+  "provincia": "collegno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.concorsipubblici.com/",
+   "https://www.concorsipubblici.com/chi-siamo",
+   "https://www.concorsipubblici.com/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "dentistaroma.net",
@@ -153,6 +203,32 @@
   "lat": 45.077547,
   "lon": 7.572426,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "retedora.it",
+  "nome": "Dora",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+3901118836546",
+  "email": "info@retedora.it",
+  "sitoUrl": "https://retedora.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "collegno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://retedora.it/",
+   "https://retedora.it/chi-siamo/",
+   "https://retedora.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "starbeautynails.it",

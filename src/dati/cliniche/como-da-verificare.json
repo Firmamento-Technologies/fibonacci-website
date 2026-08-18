@@ -30,6 +30,110 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "cmimoncloa.com",
+  "nome": "Centro Medico Integral Moncloa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@cmimoncloa.com",
+  "sitoUrl": "https://cmimoncloa.com/",
+  "indirizzo": "",
+  "cap": "28015",
+  "comune": "Madrid",
+  "provincia": "como",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cmimoncloa.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "dekalaser.es",
+  "nome": "Tecnología Láser Médico-Estética Profesional",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lasertechib.com",
+  "sitoUrl": "https://dekalaser.es/",
+  "indirizzo": "",
+  "cap": "13485",
+  "comune": "Catálogo",
+  "provincia": "como",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dekalaser.es/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "dorsia.es",
+  "nome": "Dorsia: Clínicas de Cirugía Estética, Medicina y Obesidad",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.dorsia.es/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "como",
+  "prestazioni": [
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.dorsia.es/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fotomedicina.com",
+  "nome": "Instituto De Fotomedicina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://fotomedicina.com/",
+  "indirizzo": "",
+  "cap": "08022",
+  "comune": "Barcelona",
+  "provincia": "como",
+  "prestazioni": [
+   "Peeling chimico",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fotomedicina.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "iosaluteebellezza.it",
   "nome": "Centro estetico a Como: Bellezza ed Emozione",
   "formaSocietaria": "",
@@ -61,5 +165,29 @@
   "lat": 45.939476,
   "lon": 9.14941,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "monalisatouch.es",
+  "nome": "Monalisatouch",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@lasertechib.com",
+  "sitoUrl": "https://monalisatouch.es/",
+  "indirizzo": "",
+  "cap": "28022",
+  "comune": "Madrid",
+  "provincia": "como",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://monalisatouch.es/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

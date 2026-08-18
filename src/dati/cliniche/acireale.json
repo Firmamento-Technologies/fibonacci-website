@@ -33,6 +33,114 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "beautyzoneacireale.it",
+  "nome": "Estetica Avanzata",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "06098180877",
+  "telefono": "+393282944219",
+  "email": "info@beautyzoneacireale.it",
+  "sitoUrl": "https://www.beautyzoneacireale.it/",
+  "indirizzo": "Corso Italia 95",
+  "cap": "95024",
+  "comune": "Acireale",
+  "provincia": "acireale",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.beautyzoneacireale.it/",
+   "https://www.beautyzoneacireale.it/chi-siamo",
+   "https://www.beautyzoneacireale.it/privacypolicy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "bslmedica.it",
+  "nome": "BSL MEDICA",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05528150872",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.bslmedica.it/",
+  "indirizzo": "via Lazzaretto 25",
+  "cap": "95024",
+  "comune": "Acireale",
+  "provincia": "acireale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bslmedica.it/",
+   "https://www.bslmedica.it/privacy-policy-bsl-medica-visite-specialistiche-acireale/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "centrocommercialeciclope.it",
+  "nome": "Centro Commerciale Ciclope a Acireale: il tuo shopping mitico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04397090871",
+  "telefono": "+390957639018",
+  "email": "info@centrocommercialeciclope.it",
+  "sitoUrl": "https://www.centrocommercialeciclope.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "acireale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centrocommercialeciclope.it/",
+   "https://www.centrocommercialeciclope.it/contatti/",
+   "https://www.centrocommercialeciclope.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticacireale.com",
+  "nome": "Estetica Acireale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390957648781",
+  "email": "centro.lestetica@hotmail.com",
+  "sitoUrl": "https://esteticacireale.com/",
+  "indirizzo": "Via Veneto, 21",
+  "cap": "95024",
+  "comune": "Acireale",
+  "provincia": "acireale",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://esteticacireale.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicina-antiaging-catania.it",
   "nome": "Nella Fazzio | Medicina Antiaging Catania",
   "formaSocietaria": "",
@@ -61,5 +169,30 @@
   "lat": 37.616116,
   "lon": 15.079231,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "villasofiaacireale.it",
+  "nome": "J. F. KENNEDY SRL",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.villasofiaacireale.it/",
+  "indirizzo": "Via delle Terme 80",
+  "cap": "95024",
+  "comune": "Acireale",
+  "provincia": "acireale",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.villasofiaacireale.it/",
+   "https://www.villasofiaacireale.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

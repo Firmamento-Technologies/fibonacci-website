@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "dominio": "gruppootologico.com",
+  "nome": "Gruppo Otologico",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00203950332",
+  "telefono": "+390523754362",
+  "email": "segreteria@gruppootologico.com",
+  "sitoUrl": "https://gruppootologico.com/",
+  "indirizzo": "Via Morigi, 41",
+  "cap": "29121",
+  "comune": "Piacenza",
+  "provincia": "piacenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://gruppootologico.com/",
+   "https://gruppootologico.com/le-nostre-sedi/",
+   "https://gruppootologico.com/chi-siamo/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ }
+]

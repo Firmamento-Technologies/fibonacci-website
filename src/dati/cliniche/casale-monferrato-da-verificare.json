@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "cedoam.it",
+  "nome": "Cedoam",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390142434130",
+  "email": "info@cedoam.it",
+  "sitoUrl": "https://www.cedoam.it/",
+  "indirizzo": "Viale Giolitti 2",
+  "cap": "",
+  "comune": "",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cedoam.it/",
+   "https://www.cedoam.it/chi-siamo/il-cedoam/",
+   "https://www.cedoam.it/chi-siamo/il-cedoam/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "dottoressanicoleabate.com",
   "nome": "Dottoressa Nicole Abate",
   "formaSocietaria": "",
@@ -58,6 +84,30 @@
   "lat": 45.136266,
   "lon": 8.449813,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "federicagrosso.it",
+  "nome": "Federica Grosso",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://federicagrosso.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "casale-monferrato",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://federicagrosso.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "medicartsrl.it",

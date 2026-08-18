@@ -1,5 +1,65 @@
 [
  {
+  "dominio": "atomicacomunicazione.it",
+  "nome": "Atomica Comunicazione",
+  "formaSocietaria": "SRL",
+  "partitaIva": "04690430238",
+  "telefono": "+390454649970",
+  "email": "",
+  "sitoUrl": "https://atomicacomunicazione.it/",
+  "indirizzo": "Via Del Perlar, 2",
+  "cap": "37135",
+  "comune": "Verona",
+  "provincia": "verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://atomicacomunicazione.it/",
+   "https://atomicacomunicazione.it/chi-siamo/",
+   "https://atomicacomunicazione.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "clinicarinova.it",
+  "nome": "Clinica Rinòva",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@clinicarinova.it",
+  "sitoUrl": "https://www.clinicarinova.it/",
+  "indirizzo": "Via N. Tommaseo, 67",
+  "cap": "35131",
+  "comune": "Padova",
+  "provincia": "verona",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Biostimolazione",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia",
+   "Trattamento cicatrici",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.clinicarinova.it/",
+   "https://www.clinicarinova.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicoestetico-cavallini.com",
   "nome": "Dr. Alvise Cavallini",
   "formaSocietaria": "",
@@ -139,5 +199,31 @@
   "orari": [
    "Mo 09:00-18:00, Tu 10:00-20:00, We 09:00-19:00, Th 10:00-20:"
   ]
+ },
+ {
+  "dominio": "villasantachiara.it",
+  "nome": "Casa di Cura Villa Santa Chiara",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00417510237",
+  "telefono": "+390458708111",
+  "email": "info@villasantachiara.it",
+  "sitoUrl": "https://villasantachiara.it/",
+  "indirizzo": "Via Monte Recamao, 7",
+  "cap": "37142",
+  "comune": "Quinto",
+  "provincia": "verona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://villasantachiara.it/",
+   "https://villasantachiara.it/contatti/",
+   "https://villasantachiara.it/contatti/lavora-con-noi/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

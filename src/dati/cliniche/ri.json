@@ -59,6 +59,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "gioiadimuzio.it",
+  "nome": "Dr.ssa Gioia Di Muzio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://gioiadimuzio.it/",
+  "indirizzo": "Via Alessio Baldovinetti, 13",
+  "cap": "53009",
+  "comune": "Copyright",
+  "provincia": "ri",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://gioiadimuzio.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "medicinaesteticacervelli.com",
   "nome": "Medicina Estetica Cristiano Cervelli",
   "formaSocietaria": "",
@@ -89,5 +115,34 @@
   "lat": 42.414736,
   "lon": 12.885888,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "valentinovellone.it",
+  "nome": "Dott. Valentino Vellone",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393515343156",
+  "email": "info@valentinovellone.it",
+  "sitoUrl": "https://www.valentinovellone.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ri",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Valentino Vellone, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.valentinovellone.it/",
+   "https://www.valentinovellone.it/about/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Valentino Vellone, e il dominio lo ripete"
  }
 ]

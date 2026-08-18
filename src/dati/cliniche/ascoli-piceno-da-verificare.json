@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "dindondan.app",
+  "nome": "DinDonDan",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@dindondan.app",
+  "sitoUrl": "https://dindondan.app/orarimesse/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "ascoli-piceno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dindondan.app/orarimesse/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "poliambulatorio-leonardo.it",
   "nome": "Poliambulatorio LEONARDO Centro Medico Chirurgico Specialistico Maltig",
   "formaSocietaria": "",
@@ -22,5 +46,10 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "prod-cms-marche.s3.eu-south-1.amazonaws.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

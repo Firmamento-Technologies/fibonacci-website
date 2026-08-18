@@ -31,6 +31,32 @@
   "motivoEsclusione": ""
  },
  {
+  "dominio": "cdcsolatrix.it",
+  "nome": "Casa di Cura Solatrix Spa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390464491111",
+  "email": "info@cdcsolatrix.it",
+  "sitoUrl": "https://www.cdcsolatrix.it/",
+  "indirizzo": "Via Bellini 11",
+  "cap": "38068",
+  "comune": "Rovereto",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.cdcsolatrix.it/",
+   "https://www.cdcsolatrix.it/contatti/",
+   "https://www.cdcsolatrix.it/privacy-cookie-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dentistamenoni.it",
   "nome": "Studio Dentistico Menoni: Il Tuo Dentista A Rovereto",
   "formaSocietaria": "",
@@ -66,6 +92,31 @@
   "precisioneCoord": "civico"
  },
  {
+  "dominio": "farmaciecomunalirovereto.it",
+  "nome": "Farmacie Comunali Rovereto",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01648950226",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.farmaciecomunalirovereto.it/",
+  "indirizzo": "Viale Trento, 33",
+  "cap": "38068",
+  "comune": "Rovereto",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.farmaciecomunalirovereto.it/",
+   "https://www.farmaciecomunalirovereto.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "paololisi.it",
   "nome": "Studio medico odontoiatrico",
   "formaSocietaria": "",
@@ -97,6 +148,31 @@
   "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura",
   "nomeStrutturato": "Studio Medico Odontoiatrico Avanzato Lisi",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "staging.farmaciecomunalirovereto.it",
+  "nome": "Farmacie Comunali Rovereto",
+  "formaSocietaria": "SRL",
+  "partitaIva": "01648950226",
+  "telefono": "",
+  "email": "info@farmaciasoave.com",
+  "sitoUrl": "https://staging.farmaciecomunalirovereto.it/",
+  "indirizzo": "Piazza Erbe, 17",
+  "cap": "38068",
+  "comune": "Rovereto",
+  "provincia": "rovereto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://staging.farmaciecomunalirovereto.it/",
+   "https://staging.farmaciecomunalirovereto.it/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "studiodentisticostoffella.it",

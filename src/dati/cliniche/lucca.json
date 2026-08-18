@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "diocesilucca.it",
+  "nome": "Arcidiocesi di Lucca",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.diocesilucca.it/",
+  "indirizzo": "Viale Castruccio Castracani 435",
+  "cap": "",
+  "comune": "",
+  "provincia": "lucca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.diocesilucca.it/",
+   "https://www.diocesilucca.it/per-contattare-larcivescovo/",
+   "https://www.diocesilucca.it/contatti-ufficio-stampa/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dottgiannini.com",
   "nome": "Chirurgia estetica e funzionale",
   "formaSocietaria": "",

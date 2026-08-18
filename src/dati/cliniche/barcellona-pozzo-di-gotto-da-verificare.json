@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "anzitalia.com",
+  "nome": "▷ anzitalia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://anzitalia.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "barcellona-pozzo-di-gotto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://anzitalia.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "apmedicinaestetica.com",
   "nome": "AP Medicina Estetica",
   "formaSocietaria": "",
@@ -35,6 +59,11 @@
   "tipoDichiarato": "Person Organization"
  },
  {
+  "dominio": "asp.messina.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "coccoledibenessere.com",
   "nome": "Centro estetico",
   "formaSocietaria": "",
@@ -65,5 +94,30 @@
   "lat": 38.148306,
   "lon": 15.217552,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studioiannelli.it",
+  "nome": "Poliambulatorio Studio Iannelli",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390909791366",
+  "email": "info@studioiannelli.it",
+  "sitoUrl": "https://www.studioiannelli.it/",
+  "indirizzo": "Via Barcellona Castroreale, 82",
+  "cap": "98051",
+  "comune": "Barcellona",
+  "provincia": "barcellona-pozzo-di-gotto",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.studioiannelli.it/",
+   "https://www.studioiannelli.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

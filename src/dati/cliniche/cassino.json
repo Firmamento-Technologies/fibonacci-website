@@ -1,5 +1,81 @@
 [
  {
+  "dominio": "cassino.corriere.it",
+  "nome": "Comune di Cassino, cinema, farmacie, aperture domenicali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://cassino.corriere.it/",
+  "indirizzo": "via Angelo Rizzoli, 8",
+  "cap": "20132",
+  "comune": "Milano",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://cassino.corriere.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "esteticabeautyhelp.it",
+  "nome": "Centro Estetico Cassino (Frosinone) • Estetica Beauty Help",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "02897220600",
+  "telefono": "",
+  "email": "info@esteticabeautyhelp.it.",
+  "sitoUrl": "https://www.esteticabeautyhelp.it/",
+  "indirizzo": "Via Giacomo Leopardi, 1",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.esteticabeautyhelp.it/",
+   "https://www.esteticabeautyhelp.it/contatti-e-dove-siamo/",
+   "http://www.esteticabeautyhelp.it/informativa-sulla-privacy-sui-cookie/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "medicinatraslazionaleunina.it",
+  "nome": "Dipartimento di Scienze Mediche Traslazionali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicinatraslazionaleunina.it/",
+  "indirizzo": "Via Sergio Pansini 5",
+  "cap": "80131",
+  "comune": "Napoli",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.medicinatraslazionaleunina.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "orlsardegna.it",
   "nome": "Dott. Manca Thomas. Otorinolaringoiatra e Medico Estetico",
   "formaSocietaria": "",
@@ -32,6 +108,32 @@
   "lat": 39.216953,
   "lon": 9.112851,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "santannacassino.it",
+  "nome": "Casa di Cura Cassino",
+  "formaSocietaria": "SNC",
+  "partitaIva": "00627760606",
+  "telefono": "+3907761729009",
+  "email": "info@website.com",
+  "sitoUrl": "https://www.santannacassino.it/",
+  "indirizzo": "",
+  "cap": "03043",
+  "comune": "Cassino",
+  "provincia": "cassino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.santannacassino.it/",
+   "https://www.santannacassino.it/chi-siamo/",
+   "https://www.santannacassino.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "vderma.it",

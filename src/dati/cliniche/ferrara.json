@@ -99,6 +99,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "comunicazioneitaliana.net",
+  "nome": "Comunicazioneitaliana.NET",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@comunicazioneitaliana.it",
+  "sitoUrl": "https://comunicazioneitaliana.net/",
+  "indirizzo": "via Alessandro Trotter 3",
+  "cap": "00156",
+  "comune": "Roma",
+  "provincia": "ferrara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://comunicazioneitaliana.net/",
+   "https://comunicazioneitaliana.net/chi-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "dermesthetic.it",
   "nome": "Dermesthetic",
   "formaSocietaria": "",

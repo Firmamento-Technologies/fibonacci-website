@@ -242,5 +242,55 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "pordenone.bakeca.it",
+  "nome": "Bakeca a Pordenone: la bacheca di annunci gratuiti, pubblica il tuo an",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09239540017",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://pordenone.bakeca.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://pordenone.bakeca.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "salvatorefino.it",
+  "nome": "Medicina Estetica Salvatore Fino",
+  "formaSocietaria": "",
+  "partitaIva": "03499740714",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.salvatorefino.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "pn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.salvatorefino.it/",
+   "https://www.salvatorefino.it/contatti/",
+   "https://www.salvatorefino.it/contatti/domande-e-risposte/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  }
 ]

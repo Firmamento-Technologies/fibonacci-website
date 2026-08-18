@@ -255,6 +255,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "maurablini.it",
+  "nome": "Dott.ssa Maura Blini",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393492538191",
+  "email": "",
+  "sitoUrl": "https://www.maurablini.it/",
+  "indirizzo": "Via Vincenzo Monti 79",
+  "cap": "20145",
+  "comune": "Milano",
+  "provincia": "gallarate",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Maura Blini, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.maurablini.it/",
+   "https://www.maurablini.it/contatti/",
+   "https://www.maurablini.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Maura Blini, e il dominio lo ripete"
+ },
+ {
   "dominio": "mmvbeauty.com",
   "nome": "Michela Morace Visagista",
   "formaSocietaria": "SRL",
@@ -389,5 +415,35 @@
   "lat": 45.659895,
   "lon": 8.793201,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiopozzitaubert.it",
+  "nome": "Dentista a Gallarate dal 1979",
+  "formaSocietaria": "SRL",
+  "partitaIva": "03810650121",
+  "telefono": "+390331274018",
+  "email": "info@studiopozzitaubert.it",
+  "sitoUrl": "https://studiopozzitaubert.it/",
+  "indirizzo": "Via Gino de Rizzoli 11",
+  "cap": "21013",
+  "comune": "Gallarate",
+  "provincia": "gallarate",
+  "prestazioni": [
+   "Filler",
+   "Biostimolazione",
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://studiopozzitaubert.it/",
+   "https://studiopozzitaubert.it/contatti/",
+   "https://studiopozzitaubert.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

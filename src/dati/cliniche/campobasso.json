@@ -93,5 +93,32 @@
   "lat": 41.717265,
   "lon": 14.826227,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "villa-maria.it",
+  "nome": "Villa Maria | Clinica Privata | Campobasso -",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00158120709",
+  "telefono": "+39087491723",
+  "email": "info@villa-maria.it",
+  "sitoUrl": "https://www.villa-maria.it/",
+  "indirizzo": "Viale Principe di Piemonte, 4",
+  "cap": "86100",
+  "comune": "Campobasso",
+  "provincia": "campobasso",
+  "prestazioni": [
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.villa-maria.it/",
+   "https://www.villa-maria.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

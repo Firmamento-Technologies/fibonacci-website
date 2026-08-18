@@ -68,6 +68,31 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "bambinopoli.it",
+  "nome": "Bambinopoli.it",
+  "formaSocietaria": "SRL",
+  "partitaIva": "09595010969",
+  "telefono": "",
+  "email": "info@bambinopoli.it",
+  "sitoUrl": "https://www.bambinopoli.it/",
+  "indirizzo": "Via Trieste 1",
+  "cap": "35121",
+  "comune": "Padova",
+  "provincia": "aversa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.bambinopoli.it/",
+   "https://www.bambinopoli.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "clinicavillafiorita.it",
   "nome": "Clinica Villa Fiorita",
   "formaSocietaria": "SPA",
@@ -152,6 +177,37 @@
   "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Maione, e il dominio lo ripete"
+ },
+ {
+  "dominio": "roberta-martinoli-nutrizionista.it",
+  "nome": "Home Default",
+  "formaSocietaria": "",
+  "partitaIva": "10362181009",
+  "telefono": "",
+  "email": "info@fisiohealthciampino.it",
+  "sitoUrl": "https://roberta-martinoli-nutrizionista.it/",
+  "indirizzo": "Viale Mazzini n. 33",
+  "cap": "00195",
+  "comune": "Zona",
+  "provincia": "aversa",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Mesoterapia",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://roberta-martinoli-nutrizionista.it/",
+   "https://roberta-martinoli-nutrizionista.it/contatti/",
+   "https://roberta-martinoli-nutrizionista.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
  },
  {
   "dominio": "vincenzopiconedermatologo.it",

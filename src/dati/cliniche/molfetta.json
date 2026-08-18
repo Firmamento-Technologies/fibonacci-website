@@ -88,5 +88,29 @@
   "lat": 41.199246,
   "lon": 16.596828,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiopisanidermatologia.com",
+  "nome": "Dott.ssa Maria Carla Pisani",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393463036417",
+  "email": "",
+  "sitoUrl": "https://www.studiopisanidermatologia.com/",
+  "indirizzo": "Via Giacomo Salepico, 91",
+  "cap": "70056",
+  "comune": "Molfetta",
+  "provincia": "molfetta",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Pisani Via, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.studiopisanidermatologia.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Pisani Via, cognome dentro il dominio"
  }
 ]

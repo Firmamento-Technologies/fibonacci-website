@@ -154,5 +154,30 @@
    "Saturday 09:00-13:00"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "ospedalesettimo.it",
+  "nome": "Ospedale Civico città di Settimo Torinese",
+  "formaSocietaria": "",
+  "partitaIva": "08507160011",
+  "telefono": "",
+  "email": "amministrazione@cert.ospedaleci",
+  "sitoUrl": "https://ospedalesettimo.it/",
+  "indirizzo": "Via Santa Cristina n.3",
+  "cap": "10036",
+  "comune": "Settimo",
+  "provincia": "settimo-torinese",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://ospedalesettimo.it/",
+   "https://ospedalesettimo.it/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

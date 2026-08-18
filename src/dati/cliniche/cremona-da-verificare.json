@@ -1,1 +1,103 @@
-[]
+[
+ {
+  "dominio": "arcacardio.eu",
+  "nome": "Prima Pagina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.arcacardio.eu/category/prima-pagina/",
+  "indirizzo": "Viale Bruno Buozzi, 56",
+  "cap": "00197",
+  "comune": "Roma",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.arcacardio.eu/category/prima-pagina/",
+   "https://www.arcacardio.eu/chi-siamo/",
+   "https://www.arcacardio.eu/contatti-2/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "centroalzheimer.org",
+  "nome": "Centro Alzheimer",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroalzheimer.org/",
+  "indirizzo": "Via Pilastroni 4",
+  "cap": "25125",
+  "comune": "Brescia",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.centroalzheimer.org/",
+   "https://www.centroalzheimer.org/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cremonawelfare.it",
+  "nome": "Cremona Welfare",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390372415661",
+  "email": "info@cremonawelfare.it",
+  "sitoUrl": "https://cremonawelfare.it/",
+  "indirizzo": "Via Bonomelli, 81",
+  "cap": "26100",
+  "comune": "Cremona",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://cremonawelfare.it/",
+   "https://cremonawelfare.it/chi-siamo/",
+   "https://cremonawelfare.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "testperditamemoria.it",
+  "nome": "Test Perdita Memoria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://testperditamemoria.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cremona",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://testperditamemoria.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

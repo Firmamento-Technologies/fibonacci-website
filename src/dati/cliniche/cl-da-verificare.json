@@ -66,5 +66,29 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Elisir Centro Estetico",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "ordinemedicicl.it",
+  "nome": "Ordine dei Medici Chirurghi e Odontoiatri di Caltanissetta",
+  "formaSocietaria": "",
+  "partitaIva": "80000610859",
+  "telefono": "+390934591848",
+  "email": "segreteria@ordinemedicicl.it",
+  "sitoUrl": "https://www.ordinemedicicl.it/",
+  "indirizzo": "corso PQM Caltanissetta 26",
+  "cap": "93100",
+  "comune": "Caltanissetta",
+  "provincia": "cl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.ordinemedicicl.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

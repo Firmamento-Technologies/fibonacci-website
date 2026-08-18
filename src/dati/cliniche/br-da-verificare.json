@@ -116,6 +116,11 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "sceglimedico.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "studiodentisticobaldari.it",
   "nome": "Studio Baldari",
   "formaSocietaria": "",

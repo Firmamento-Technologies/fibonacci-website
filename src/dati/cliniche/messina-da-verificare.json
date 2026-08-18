@@ -1,5 +1,57 @@
 [
  {
+  "dominio": "brasil.ultherapy.com",
+  "nome": "Ultherapy",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://brasil.ultherapy.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "messina",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://brasil.ultherapy.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "casadicuravillasalus.it",
+  "nome": "Casa Di Cura Villa Salus Messina",
+  "formaSocietaria": "",
+  "partitaIva": "01379750837",
+  "telefono": "",
+  "email": "info@villasalus.eu",
+  "sitoUrl": "https://www.casadicuravillasalus.it/",
+  "indirizzo": "Viale Regina Margherita, 15",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.casadicuravillasalus.it/",
+   "https://www.casadicuravillasalus.it/chi-siamo/",
+   "https://www.casadicuravillasalus.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centridentisticidandrea.it",
   "nome": "Dentista a Messina e Milazzo",
   "formaSocietaria": "",
@@ -31,5 +83,105 @@
   "lat": 38.193757,
   "lon": 15.554208,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "cittametropolitana.me.it",
+  "nome": "Città Metropolitana di Messina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39090776111",
+  "email": "",
+  "sitoUrl": "https://cittametropolitana.me.it/",
+  "indirizzo": "Corso Cavour, 87",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cittametropolitana.me.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "cms.omceo.me.it",
+  "nome": "Corso di Formazione Manageriale per Dirigenti di Strutture Complesse –",
+  "formaSocietaria": "",
+  "partitaIva": "80004050839",
+  "telefono": "+39090691089",
+  "email": "",
+  "sitoUrl": "https://cms.omceo.me.it/",
+  "indirizzo": "",
+  "cap": "98124",
+  "comune": "Messina",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://cms.omceo.me.it/",
+   "https://cms.omceo.me.it/privacy/",
+   "https://cms.omceo.me.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "laureesanitarietorvergata.it",
+  "nome": "laureesanitarietorvergata.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.laureesanitarietorvergata.it/",
+  "indirizzo": "Via Montpellier, 1",
+  "cap": "00133",
+  "comune": "Roma",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.laureesanitarietorvergata.it/",
+   "https://www.laureesanitarietorvergata.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "letteraemme.it",
+  "nome": "LetteraEmme",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.letteraemme.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "messina",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.letteraemme.it/",
+   "https://www.letteraemme.it/informativa-sulla-privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

@@ -1,5 +1,33 @@
 [
  {
+  "dominio": "casadicuramontanari.it",
+  "nome": "Home Casa di Cura Montanari",
+  "formaSocietaria": "",
+  "partitaIva": "00413900408",
+  "telefono": "+390541988129",
+  "email": "",
+  "sitoUrl": "https://www.casadicuramontanari.it/",
+  "indirizzo": "Via Cosseria 28",
+  "cap": "50129",
+  "comune": "Firenze",
+  "provincia": "mc",
+  "prestazioni": [
+   "Radiofrequenza"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.casadicuramontanari.it/",
+   "https://www.casadicuramontanari.it/contatti",
+   "https://www.casadicuramontanari.it/chi-siamo/storia"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "centroesteticoimagine.com",
   "nome": "Scopri il Centro Estetico Imagine » a Macerata",
   "formaSocietaria": "",
@@ -33,6 +61,11 @@
    "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 08:00-20:0"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "cscleonardo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "ernesto.it",
@@ -91,6 +124,11 @@
    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday 08:30-20:30"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "hormoneformula.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "medicamarche.it",

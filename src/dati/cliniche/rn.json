@@ -69,6 +69,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "esteticalagana.it",
+  "nome": "Medicina Estetica Lagana'",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.esteticalagana.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "rn",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Giuseppe Laganà, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.esteticalagana.it/",
+   "https://www.esteticalagana.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Giuseppe Laganà, cognome dentro il dominio"
+ },
+ {
   "dominio": "fabiocchi.it",
   "nome": "Luca Fabiocchi",
   "formaSocietaria": "",
@@ -92,6 +117,34 @@
   "lettoIl": "2026-08-16",
   "escluso": true,
   "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Luca Fabiocchi, cognome nel dominio"
+ },
+ {
+  "dominio": "francescopaolosalamone.com",
+  "nome": "Dott. Francesco Paolo Salamone",
+  "formaSocietaria": "",
+  "partitaIva": "02035840897",
+  "telefono": "+390541448329",
+  "email": "",
+  "sitoUrl": "https://www.francescopaolosalamone.com/",
+  "indirizzo": "Viale Costantinopoli 31",
+  "cap": "47924",
+  "comune": "Rimini",
+  "provincia": "rn",
+  "prestazioni": [
+   "Biostimolazione",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Paolo, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.francescopaolosalamone.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Paolo, cognome dentro il dominio"
  },
  {
   "dominio": "kuravita.it",
@@ -374,5 +427,33 @@
    "Saturday 07:30-13:30"
   ],
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "stefanocatrani.it",
+  "nome": "Dermatologo Rimini, Dermatologia e Venereologia",
+  "formaSocietaria": "",
+  "partitaIva": "04362850408",
+  "telefono": "+393337663368",
+  "email": "info@stefanocatrani.it",
+  "sitoUrl": "https://www.stefanocatrani.it/",
+  "indirizzo": "Via della Fiera, 21",
+  "cap": "47923",
+  "comune": "Rimini",
+  "provincia": "rn",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Stefano Catrani, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.stefanocatrani.it/",
+   "https://www.stefanocatrani.it/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Stefano Catrani, e il dominio lo ripete"
  }
 ]

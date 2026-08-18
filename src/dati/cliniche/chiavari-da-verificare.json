@@ -127,6 +127,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "liguriashopping.it",
+  "nome": "Liguria Shopping",
+  "formaSocietaria": "SPA",
+  "partitaIva": "11905750961",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://liguriashopping.it/",
+  "indirizzo": "Via Visconti, 39",
+  "cap": "19018",
+  "comune": "Vernazza",
+  "provincia": "chiavari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://liguriashopping.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "omceoge.it",
   "nome": "omceoge.it",
   "formaSocietaria": "",

@@ -62,6 +62,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "mapy.com",
+  "nome": "Mapy.com",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://mapy.com/it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cesena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mapy.com/it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "overplace.com",
   "escluso": true,
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
@@ -129,5 +153,30 @@
   "lat": 44.136352,
   "lon": 12.242244,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "sititematici.comune.cesena.fc.it",
+  "nome": "sititematici.comune.cesena.fc.it",
+  "formaSocietaria": "",
+  "partitaIva": "00143280402",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sititematici.comune.cesena.fc.it/home",
+  "indirizzo": "Piazza del Popolo 10",
+  "cap": "47521",
+  "comune": "Cesena",
+  "provincia": "cesena",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sititematici.comune.cesena.fc.it/home",
+   "https://sititematici.comune.cesena.fc.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

@@ -138,5 +138,30 @@
   "dominio": "occhioebenessere.it",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "servizi.ospfe.it",
+  "nome": "Carta dei Servizi",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://servizi.ospfe.it/it",
+  "indirizzo": "Via Aldo Moro, 8",
+  "cap": "44124",
+  "comune": "Cona",
+  "provincia": "nichelino",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://servizi.ospfe.it/it",
+   "https://servizi.ospfe.it/it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

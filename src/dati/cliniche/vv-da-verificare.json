@@ -5,6 +5,11 @@
   "motivoEsclusione": "il sito non ha risposto"
  },
  {
+  "dominio": "cybo.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "dottssachiaragradia.it",
   "nome": "Dott.ssa Chiara Gradia",
   "formaSocietaria": "",
@@ -42,5 +47,30 @@
   "lat": 38.642334,
   "lon": 16.101976,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "studiomedicomoscati.it",
+  "nome": "studiomedicomoscati.it",
+  "formaSocietaria": "",
+  "partitaIva": "03343770792",
+  "telefono": "+390963591976",
+  "email": "info@studiomedicomoscati.it",
+  "sitoUrl": "https://studiomedicomoscati.it/",
+  "indirizzo": "Via P. De Maria, 46",
+  "cap": "89900",
+  "comune": "Vibo",
+  "provincia": "vv",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://studiomedicomoscati.it/",
+   "https://studiomedicomoscati.it/i-contatti-dello-studio-moscati-di-vibo-valentia"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

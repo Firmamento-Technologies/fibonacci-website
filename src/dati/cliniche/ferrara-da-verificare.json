@@ -1,1 +1,54 @@
-[]
+[
+ {
+  "dominio": "unife.it",
+  "nome": "Università degli Studi di Ferrara",
+  "formaSocietaria": "",
+  "partitaIva": "00434690384",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unife.it/it",
+  "indirizzo": "via Ludovico Ariosto, 35",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "ferrara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unife.it/it",
+   "https://www.unife.it/it/contatti",
+   "https://www.unife.it/it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "unioncamere.gov.it",
+  "nome": "unioncamere.gov.it",
+  "formaSocietaria": "",
+  "partitaIva": "01000211001",
+  "telefono": "+39064704240",
+  "email": "segreteria.legislativo@unioncamere.it",
+  "sitoUrl": "https://unioncamere.gov.it/",
+  "indirizzo": "Piazza Sallustio, 21",
+  "cap": "00187",
+  "comune": "Roma",
+  "provincia": "ferrara",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://unioncamere.gov.it/",
+   "https://unioncamere.gov.it/chi-siamo/storia",
+   "https://unioncamere.gov.it/chi-siamo/normativa"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

@@ -190,6 +190,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "studioromano.net",
+  "nome": "Dermatologa dott.ssa Ivana Romano specialista in Dermatologia e Malatt",
+  "formaSocietaria": "",
+  "partitaIva": "03753320757",
+  "telefono": "+393477801964",
+  "email": "info@studioromano.net",
+  "sitoUrl": "https://studioromano.net/",
+  "indirizzo": "Via Giosuè Carducci 24",
+  "cap": "73011",
+  "comune": "ALEZIO",
+  "provincia": "gallipoli",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Ivana Romano, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://studioromano.net/",
+   "https://studioromano.net/errore404",
+   "https://studioromano.net/contatto"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Ivana Romano, cognome dentro il dominio"
+ },
+ {
   "dominio": "unicamillus.org",
   "nome": "UniCamillus",
   "formaSocietaria": "",

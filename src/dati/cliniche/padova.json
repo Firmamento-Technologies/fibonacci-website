@@ -60,6 +60,32 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "studiodemarch.it",
+  "nome": "Studio De March",
+  "formaSocietaria": "",
+  "partitaIva": "03394660264",
+  "telefono": "",
+  "email": "info@studiodemarch.it",
+  "sitoUrl": "https://studiodemarch.it/",
+  "indirizzo": "Via Giuseppe e Luigi Olivi 3",
+  "cap": "31100",
+  "comune": "TV",
+  "provincia": "padova",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://studiodemarch.it/",
+   "https://studiodemarch.it/it/contatto-89.asp",
+   "https://studiodemarch.it/it/note-legali-332.asp"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiodentisticozambon.it",
   "nome": "Studio Dentistico Zambon",
   "formaSocietaria": "",

@@ -29,6 +29,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "centroceva.com",
+  "nome": "Medico",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02288400928",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centroceva.com/",
+  "indirizzo": "Via Santa Caterina, 8",
+  "cap": "09013",
+  "comune": "Carbonia",
+  "provincia": "carbonia",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centroceva.com/",
+   "https://www.centroceva.com/about-us",
+   "https://www.centroceva.com/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "pietroaste.it",
   "nome": "Dr. Pietro Aste",
   "formaSocietaria": "",

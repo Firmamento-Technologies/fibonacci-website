@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "accolti.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "greenparkmantova.it",
   "nome": "greenparkmantova.it",
   "formaSocietaria": "",

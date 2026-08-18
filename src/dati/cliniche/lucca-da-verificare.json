@@ -1,5 +1,34 @@
 [
  {
+  "dominio": "affittacamereilponte.com",
+  "nome": "affittacamere economici lucca vicino centro",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.affittacamereilponte.com/",
+  "indirizzo": "via Sarzanese trav. III n 11",
+  "cap": "55100",
+  "comune": "Ponte San",
+  "provincia": "lucca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.affittacamereilponte.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "claudiogiuntini.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "martinicentromedico.it",
   "nome": "Martini Centro Medico Lucca",
   "formaSocietaria": "",
@@ -29,6 +58,58 @@
   "lat": 44.017764,
   "lon": 10.45443,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "medacta.com",
+  "nome": "Medacta Corporate",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medacta.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "lucca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medacta.com/",
+   "https://www.medacta.com/EN/about-us",
+   "https://www.medacta.com/EN/compliance-global-about-us"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "opilucca.it",
+  "nome": "Ordine delle Professioni Infermieristiche di Lucca",
+  "formaSocietaria": "",
+  "partitaIva": "80012820462",
+  "telefono": "",
+  "email": "segreteria@opilucca.it",
+  "sitoUrl": "https://www.opilucca.it/",
+  "indirizzo": "Via Viaccia I, 140",
+  "cap": "55100",
+  "comune": "LUCCA",
+  "provincia": "lucca",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.opilucca.it/",
+   "https://www.opilucca.it/privacy-policy/",
+   "https://www.opilucca.it/note-legali/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
   "dominio": "studioodontoiatricofagnani.it",

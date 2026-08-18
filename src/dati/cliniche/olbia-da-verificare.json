@@ -1,5 +1,60 @@
 [
  {
+  "dominio": "centroesteticoolbia.it",
+  "nome": "Centro Estetico a Olbia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39078957080",
+  "email": "",
+  "sitoUrl": "https://www.centroesteticoolbia.it/",
+  "indirizzo": "Via Luigi Poletti, 20",
+  "cap": "07026",
+  "comune": "IT",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.centroesteticoolbia.it/",
+   "https://www.centroesteticoolbia.it/contatti"
+  ],
+  "lettoIl": "2026-08-18",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
+  "dominio": "cipnes.eu",
+  "nome": "Cipnes",
+  "formaSocietaria": "",
+  "partitaIva": "00322750902",
+  "telefono": "+390789597125",
+  "email": "",
+  "sitoUrl": "https://www.cipnes.eu/",
+  "indirizzo": "Via Zambia 7",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "olbia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.cipnes.eu/",
+   "https://www.cipnes.eu/chi-siamo",
+   "https://www.cipnes.eu/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "dermatologoolbia.com",
   "nome": "Dermatologia pediatrica",
   "formaSocietaria": "",
@@ -32,8 +87,62 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "essenzadibellezzaolbia.it",
+  "nome": "Essenza di Bellezza",
+  "formaSocietaria": "",
+  "partitaIva": "02103130908",
+  "telefono": "+39078957766",
+  "email": "",
+  "sitoUrl": "https://essenzadibellezzaolbia.it/",
+  "indirizzo": "Via Gemito, 13",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "olbia",
+  "prestazioni": [
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://essenzadibellezzaolbia.it/",
+   "https://essenzadibellezzaolbia.it/contatti/",
+   "https://essenzadibellezzaolbia.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-18",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
   "dominio": "materolbia.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "tfdentalclinic.it",
+  "nome": "Dentista a Olbia",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393283854207",
+  "email": "info@tfdentalclinic.it",
+  "sitoUrl": "https://tfdentalclinic.it/",
+  "indirizzo": "Via Pisano, 59",
+  "cap": "07026",
+  "comune": "Olbia",
+  "provincia": "olbia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://tfdentalclinic.it/",
+   "https://tfdentalclinic.it/contatti/",
+   "https://tfdentalclinic.it/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-18",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

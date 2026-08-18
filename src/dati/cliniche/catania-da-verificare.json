@@ -1,5 +1,189 @@
 [
  {
+  "dominio": "acopsicilia.it",
+  "nome": "ACOP Sicilia",
+  "formaSocietaria": "",
+  "partitaIva": "06096680878",
+  "telefono": "+390916859709",
+  "email": "info@acopsicilia.it",
+  "sitoUrl": "https://www.acopsicilia.it/",
+  "indirizzo": "Via Ruggero Settimo 78",
+  "cap": "90141",
+  "comune": "Palermo",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.acopsicilia.it/",
+   "https://www.acopsicilia.it/chi-siamo/",
+   "https://www.acopsicilia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "aiopsicilia.it",
+  "nome": "AIOP SICILIA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390916259511",
+  "email": "segreteria@aiopsicilia.it",
+  "sitoUrl": "https://www.aiopsicilia.it/",
+  "indirizzo": "Via La Farina, 3",
+  "cap": "",
+  "comune": "",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aiopsicilia.it/",
+   "https://www.aiopsicilia.it/chi-siamo/",
+   "https://www.aiopsicilia.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "ao-garibaldi.ct.it",
+  "nome": "ARNAS Garibaldi",
+  "formaSocietaria": "",
+  "partitaIva": "04721270876",
+  "telefono": "+390294567500",
+  "email": "",
+  "sitoUrl": "https://ao-garibaldi.ct.it/",
+  "indirizzo": "Piazza Santa Maria di Gesù, 5",
+  "cap": "95124",
+  "comune": "Catania",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://ao-garibaldi.ct.it/",
+   "https://ao-garibaldi.ct.it/utente/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "archivio.rischioinfettivo.it",
+  "nome": "archivio.rischioinfettivo.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://archivio.rischioinfettivo.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://archivio.rischioinfettivo.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "archivio.unime.it",
+  "nome": "Universita' degli Studi di Messina",
+  "formaSocietaria": "",
+  "partitaIva": "00724160833",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://archivio.unime.it/it",
+  "indirizzo": "Piazza Pugliatti, 1",
+  "cap": "98122",
+  "comune": "Messina",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://archivio.unime.it/it",
+   "https://archivio.unime.it/it/ateneo/contatti",
+   "https://archivio.unime.it/it/ateneo/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "clinicagretter.it",
+  "nome": "Clinica Gretter",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+39095408111",
+  "email": "",
+  "sitoUrl": "https://www.clinicagretter.it/",
+  "indirizzo": "Piazza Mancini Battaglia 5",
+  "cap": "95126",
+  "comune": "Catania",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.clinicagretter.it/",
+   "https://www.clinicagretter.it/chi-siamo/",
+   "https://www.clinicagretter.it/wp-content/uploads/2024/04/All-DR.CIN_.02-Informativa-Privacy-Pazienti-Rev.-8-def.pdf"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "drmarcoromeo.com",
+  "nome": "Inicio",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://drmarcoromeo.com/",
+  "indirizzo": "",
+  "cap": "28001",
+  "comune": "Madrid",
+  "provincia": "catania",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://drmarcoromeo.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "mdpi.com",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "medesteticadamato.it",
   "nome": "Medico estetico Catania",
   "formaSocietaria": "",
@@ -27,5 +211,67 @@
   "lat": 37.502236,
   "lon": 15.08738,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "medicina.unict.it",
+  "nome": "Scuola di Medicina",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicina.unict.it/",
+  "indirizzo": "Via Santa Sofia, 86",
+  "cap": "95123",
+  "comune": "Catania",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.medicina.unict.it/",
+   "https://www.medicina.unict.it/content/privacy",
+   "https://www.medicina.unict.it/content/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "old.aspct.it",
+  "nome": "Asp Catania",
+  "formaSocietaria": "",
+  "partitaIva": "04721260877",
+  "telefono": "",
+  "email": "info@net-serv.it",
+  "sitoUrl": "https://old.aspct.it/",
+  "indirizzo": "Via S. Maria La Grande, 5",
+  "cap": "95124",
+  "comune": "Catania",
+  "provincia": "catania",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://old.aspct.it/",
+   "https://old.aspct.it/privacy/",
+   "https://old.aspct.it/privacy/default.aspx"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "policlinicorodolicosanmarco.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "ww1.aspenna.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  }
 ]

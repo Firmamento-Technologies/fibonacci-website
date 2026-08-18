@@ -70,5 +70,31 @@
   "lat": 39.404795,
   "lon": 16.15799,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "miocomune.tv",
+  "nome": "Cronaca e Notizie da Cosenza e Calabria",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.miocomune.tv/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cosenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.miocomune.tv/",
+   "https://www.miocomune.tv/contatti",
+   "https://www.miocomune.tv/informativa-sulla-privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

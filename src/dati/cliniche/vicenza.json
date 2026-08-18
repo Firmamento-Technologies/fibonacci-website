@@ -1,5 +1,83 @@
 [
  {
+  "dominio": "clinicalivenza.com.br",
+  "nome": "ClÍnica Livenza",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://clinicalivenza.com.br/",
+  "indirizzo": "",
+  "cap": "17360",
+  "comune": "RQE",
+  "provincia": "vicenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il dominio dichiara una struttura",
+  "fonteUrl": [
+   "https://clinicalivenza.com.br/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "eretenia.com",
+  "nome": "Casa di cura Vicenza",
+  "formaSocietaria": "SPA",
+  "partitaIva": "00444840243",
+  "telefono": "+390444994511",
+  "email": "",
+  "sitoUrl": "https://www.eretenia.com/it/casa-di-cura-vicenza",
+  "indirizzo": "Viale Eretenio, 12",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vicenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.eretenia.com/it/casa-di-cura-vicenza",
+   "https://www.eretenia.com/it/documentazione-privacy",
+   "https://www.eretenia.com/it/policy-privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "studiodentisticoestetico-fbg.it",
+  "nome": "Studio Medico Odontoiatrico Associato",
+  "formaSocietaria": "",
+  "partitaIva": "02802510244",
+  "telefono": "",
+  "email": "info@studiodentisticoestetico-fbg.it",
+  "sitoUrl": "https://www.studiodentisticoestetico-fbg.it/",
+  "indirizzo": "Via Rossini, 8",
+  "cap": "36100",
+  "comune": "Vicenza",
+  "provincia": "vicenza",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.studiodentisticoestetico-fbg.it/",
+   "https://www.studiodentisticoestetico-fbg.it/wp-content/uploads/2026/02/Privacy-policy-ver-MP-21.01.2026.pdf"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "studiodentisticoinnocenti.it",
   "nome": "Studio Dentistico Innocenti / SDI",
   "formaSocietaria": "",

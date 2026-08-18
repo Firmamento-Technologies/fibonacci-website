@@ -135,6 +135,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "tivoli.corriere.it",
+  "nome": "Comune di Tivoli, cinema, farmacie, aperture domenicali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://tivoli.corriere.it/",
+  "indirizzo": "Piazza del Governo, n. 1",
+  "cap": "00019",
+  "comune": "TIVOLI",
+  "provincia": "tivoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://tivoli.corriere.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "unimedgroup.it",
   "nome": "Poliambulatorio e diagnostica per immagini e Check-Up a Tivoli",
   "formaSocietaria": "",

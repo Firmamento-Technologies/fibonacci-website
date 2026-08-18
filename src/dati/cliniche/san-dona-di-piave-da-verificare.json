@@ -25,6 +25,30 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  },
  {
+  "dominio": "sandonadipiave.netsons.org",
+  "nome": "Il miglior sito su San Donà di Piave",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://sandonadipiave.netsons.org/",
+  "indirizzo": "via Vito Orcalli testimoni del �900",
+  "cap": "",
+  "comune": "",
+  "provincia": "san-dona-di-piave",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://sandonadipiave.netsons.org/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "sistemi.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"

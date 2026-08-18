@@ -29,6 +29,35 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "benesseresoleluna.it",
+  "nome": "Centro Benessere Soleluna",
+  "formaSocietaria": "SNC",
+  "partitaIva": "03814590281",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.benesseresoleluna.it/",
+  "indirizzo": "Via Santuario, 37",
+  "cap": "35031",
+  "comune": "ABANO",
+  "provincia": "abano-terme",
+  "prestazioni": [
+   "Laser",
+   "Radiofrequenza",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.benesseresoleluna.it/",
+   "https://www.benesseresoleluna.it/Privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centromedicocmo.it",
   "nome": "CMO CENTRO ODONTOIATRICO",
   "formaSocietaria": "",
@@ -56,6 +85,32 @@
   "lat": 45.599004,
   "lon": 12.888008,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "ioveneto.it",
+  "nome": "IOV Istituto Oncologico Veneto",
+  "formaSocietaria": "",
+  "partitaIva": "04074560287",
+  "telefono": "",
+  "email": "info@casavalentiniterrani.it",
+  "sitoUrl": "https://www.ioveneto.it/",
+  "indirizzo": "via Gattamelata, 64",
+  "cap": "35128",
+  "comune": "Padova",
+  "provincia": "abano-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.ioveneto.it/",
+   "https://www.ioveneto.it/istituto/chi-siamo/",
+   "https://www.ioveneto.it/sedi/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "medicarmonia.com",
@@ -125,6 +180,57 @@
   "lat": 45.407717,
   "lon": 11.873446,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "newmyspa.it",
+  "nome": "NEW MYSPA",
+  "formaSocietaria": "SPA",
+  "partitaIva": "05635320287",
+  "telefono": "",
+  "email": "info@newmyspa.it",
+  "sitoUrl": "https://www.newmyspa.it/",
+  "indirizzo": "Via Marzia, 74",
+  "cap": "35031",
+  "comune": "Abano Terme",
+  "provincia": "abano-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria nel dominio",
+  "fonteUrl": [
+   "https://www.newmyspa.it/",
+   "https://www.newmyspa.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "poliambulatoriodegiorgio.com",
+  "nome": "Ambulatorio Polispecialistico Padova",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390498600260",
+  "email": "",
+  "sitoUrl": "https://www.poliambulatoriodegiorgio.com/",
+  "indirizzo": "Via Mazzini - 35031",
+  "cap": "35031",
+  "comune": "Abano Terme",
+  "provincia": "abano-terme",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.poliambulatoriodegiorgio.com/",
+   "https://www.poliambulatoriodegiorgio.com/contattaci",
+   "https://www.poliambulatoriodegiorgio.com/privacy-policy-e-cookie-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "premiereabano.it",
@@ -215,6 +321,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "savoiaterme.it",
+  "nome": "Hotel Savoia Thermæ & Spa",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390498231111",
+  "email": "info@savoiaterme.it",
+  "sitoUrl": "https://www.savoiaterme.it/it/",
+  "indirizzo": "Via Pietro D'Abano, 53",
+  "cap": "35031",
+  "comune": "Abano Terme",
+  "provincia": "abano-terme",
+  "prestazioni": [
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.savoiaterme.it/it/",
+   "https://www.savoiaterme.it/it/contatti/dove-siamo/",
+   "https://www.savoiaterme.it/it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "smeraldoterme.it",
   "nome": "Hotel Smeraldo",
   "formaSocietaria": "",
@@ -270,6 +404,35 @@
   "lat": 45.360314,
   "lon": 11.789783,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "tfsabano.com",
+  "nome": "Centro Estetico Abano Terme",
+  "formaSocietaria": "SRL",
+  "partitaIva": "05472770287",
+  "telefono": "+393514551817",
+  "email": "info@tfsabano.com",
+  "sitoUrl": "https://tfsabano.com/",
+  "indirizzo": "Via Martiri d'Ungheria, 48",
+  "cap": "35031",
+  "comune": "Abano Terme",
+  "provincia": "abano-terme",
+  "prestazioni": [
+   "Peeling chimico",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://tfsabano.com/",
+   "https://tfsabano.com/assets/about-BIYye7Ch.js",
+   "https://tfsabano.com/chi-siamo"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "thebeautysuiteabano.it",

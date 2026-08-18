@@ -387,5 +387,35 @@
   "lettoIl": "2026-08-15",
   "escluso": false,
   "motivoEsclusione": ""
+ },
+ {
+  "dominio": "zavarinidrguido.com",
+  "nome": "Dermatologo esperto a Ferrara",
+  "formaSocietaria": "",
+  "partitaIva": "01083850386",
+  "telefono": "+393483652860",
+  "email": "",
+  "sitoUrl": "https://www.zavarinidrguido.com/",
+  "indirizzo": "Via Lollio, 5",
+  "cap": "44121",
+  "comune": "Ferrara",
+  "provincia": "fe",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Peeling chimico"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Guido Zavarini, cognome dentro il dominio",
+  "fonteUrl": [
+   "https://www.zavarinidrguido.com/",
+   "https://www.zavarinidrguido.com/contatti/",
+   "https://www.zavarinidrguido.com/dichiarazione-sulla-privacy-ue/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Guido Zavarini, cognome dentro il dominio"
  }
 ]

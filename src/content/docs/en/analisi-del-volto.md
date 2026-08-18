@@ -1,93 +1,66 @@
 # Facial Analysis
 
-This guide describes the morphological analysis of the face: the measurements that Fibonacci derives from a frontal photograph, the comparison with neoclassical canons, the three-dimensional view, the photographic series by view, saving to the medical record, and recording the clinical judgment (PGAIS) on the before/after comparison. The analysis produces measurements (angles, ratios, deviations) and tracks them over time; the judgment remains the physician's.
+This guide describes the **Facial Analysis** page: the **direct comparison between two photographs** (before and after), the **three-dimensional view** of the face, the **live mirror**, and the recording of the **clinical judgment (PGAIS)** on the comparison.
+
+The page **does not measure**. It does not calculate angles, ratios, deviations, or scores, does not save them in the medical record, and does not compare them with any reference: it displays the photographs and the shape of the face, and the judgment remains the physician’s.
 
 ## Prerequisites
 
-- Account with the role `Physician` or `Practice admin`.
-- At least one frontal photograph of the face already in the medical record (see the guide «Clinical photos and before/after comparison»).
+- Account with role `medico` or `admin studio`.
+- At least one frontal photograph of the face already in the medical record (see the guide "Clinical Photos and Before/After Comparison").
 
 ## Where to find it
 
-The `Facial analysis` button is located in the top bar of the patient's medical record, next to `Data and contacts` and the `Export` menu, and is visible from any tab.
+The `Analisi del volto` button is located in the top bar of the patient’s medical record, next to `Dati e persone` and the `Esporta` menu, and is visible from any tab.
 
-## What it measures, and on which photo
+## Before/After Comparison
 
-Detection occurs **in the browser**: the photograph does not leave the system, and no external service receives it. From a frontal shot, the analysis derives:
+The first click selects the shot under examination, the second on another photograph adds the comparison: the two cards are placed side by side and viewed together. This is the central action of the page.
 
-- the **facial midline** and the **parallelism of planes** (interpupillary, external canthi, and labial commissures), as deviation in degrees from the perpendicular to the midline;
-- the **thirds** (ratio of middle third to lower third). The upper third is not calculable: it requires the hairline, which the model does not identify, and the page states this instead of estimating it;
-- **which side is wider** at the zygomatic arches, external canthi, and commissures. It indicates which side, not "how asymmetric the face is": the model's source excludes this second use;
-- the **quality of the shot** (head rotations), which marks non-frontal shots instead of hiding their numbers.
+Above each photograph, the page indicates when the **shot is not comparable**: a different pose (chin raised, head rotated) changes what is visible, and two different poses cannot be compared. The warning does not block anything: it informs before someone draws a conclusion.
 
-Measurements are dimensionless (angles, ratios, percentages) because from a photograph without a metric reference, millimeters cannot be honestly derived.
+## The 3D View
 
-## Comparison with the neoclassical canon
+The `Foto | 3D` switch displays the shape of the face reconstructed from landmark points, navigable (*"Drag to rotate, scroll to zoom"*), in surface, mesh, or **`Rilievo`** mode, which colors the surface by depth instead of mimicking the skin: this is how volume asymmetries are visible to the eye. All 468 landmark points are also visible.
 
-Each item shows the measured value, the reference canon value, and the deviation between the two. The comparison with the canon and the before/after comparison remain separate: merging them would yield a number that answers neither "how much it deviates from the reference" nor "what the treatment achieved."
+**This is not a scan**: depth is estimated from a single photograph and is relative. It is used to rotate around the shape and show it to the patient, **not** to measure protrusions or volumes. For volumes and surface maps, stereophotogrammetry hardware is required, which this page does not claim to replace.
 
-## The 3D view
+## The Mesh Overlay on the Photograph
 
-The `Photo | 3D` toggle shows the face mesh reconstructed from landmark points, navigable (*«Drag to rotate, scroll to zoom»*), in surface, wireframe, or **`Relief`** mode, which colors the surface by depth instead of mimicking skin: this is how volume asymmetries are visually apparent. All 468 landmark points are also visible.
+The `Maglia` button overlays the landmark point mesh on the photograph: it shows **how the software sees the shape of the face**. It is not a measurement or a judgment; it remains active between photos because those who use it do so consistently.
 
-**This is not a scan**: depth is estimated from a single photograph and is relative: it serves to rotate around the shape, not to measure protrusions or volumes. For volumes and surface maps, stereophotogrammetry hardware is required, which this page does not claim to replace.
+## The Live Mirror
 
-## Profile angles, manually placed
+`Specchio dal vivo` activates the camera and shows the patient their face in real time, with the prompt to `Inquadra il viso`. **It does not measure or record anything**, and the camera *"is off. It only turns on when you request it"*: it is used during the consultation to discuss an area while looking at it together.
 
-On lateral views, the model does not provide the necessary points, so the physician places them: the `Profile angles (points placed manually)` section asks for **six points** and, when all are present, measures the angles (*«Six points placed: angles measured»*). `Restart` resets them.
+## The Photographic Series by View
 
-This is the only part of the page where the measurement depends on where you click: two different sets of clicks yield two different results, and repeatability is yours.
-
-## Measurements in millimeters
-
-`Calibrate with a marker` converts ratios into millimeters: declare the `Actual size (mm)` of an object present in the shot and click on its two ends. From there, the page displays the `Absolute measurements (calibrated)`; `Redo clicks` and `Recalibrate` repeat the operation.
-
-⚠️ **Calibration applies only on-screen**: millimeters are not saved to the medical record because they depend on a marker and two clicks at that moment. What is saved are the ratios and angles, which do not require scaling.
-
-## The live mirror
-
-`Live mirror` activates the camera and shows the patient their face in real time, with the prompt to `Frame the face`. **It does not measure or record anything**, and the camera *«is off. It turns on only when you request it»*: it is used during the consultation to discuss an area while looking at it together.
-
-## The photographic series by view
-
-The clinical photographic protocol is a series of shots from defined views (frontal, lateral, 45° oblique, plus dynamic shots for facial expressions) repeated identically at each visit. For this reason, upon upload, each photo can specify the **view**; the `Photos` tab shows the series from the most recent visit and indicates which views are missing.
+The clinical photographic protocol is a series of shots taken from defined views (frontal, lateral, 45° oblique, plus dynamic shots for facial expressions) repeated identically at each visit. For this reason, upon upload, each photo can indicate the **view**; the `Foto` tab displays the series from the most recent visit and indicates which views are missing.
 
 Three rules of the series:
 
-- the view is **optional**: photographs uploaded before this feature do not have it, and "not specified" remains different from "frontal." The system never fills in the field automatically;
-- the checklist **informs but does not block**: shots outside the series are allowed;
-- when taking a photo from the camera with a selected view, the **previous shot of the same view appears transparently in the viewfinder**: overlaying the face on the ghost image is the practical way to repeat framing and distance.
+- The view is **optional**: photographs uploaded before this feature was available do not have it, and "not indicated" remains different from "frontal". The system never fills in the field automatically;
+- The checklist **informs but does not block**: shots outside the series are allowed;
+- When taking a photo from the camera with a selected view, the **previous shot of the same view appears transparently in the viewfinder**: overlaying the face on the ghost image is the practical way to repeat framing and distance.
 
-The analysis works on frontal shots (and those without a specified view); if other shots are excluded, the page indicates how many.
+The page works on frontal shots (and those without a specified view); if other shots are excluded, it indicates how many.
 
-## Saving measurements to the medical record, and reading them over time
+## Recording PGAIS from the Comparison
 
-Measurements are recalculated from the photograph each time the page is opened; **they are only saved to the medical record if the physician saves them**, using the `Save to medical record` button below the numbers. This is an explicit action by design: a number generated by a model enters clinical documentation only by the physician's decision, and the record itself declares who measured (the model, in the browser), from which photograph, and who decided to save.
+After selecting two photographs, the `Registra PGAIS` button appears. PGAIS is the physician’s judgment on the result, given **by comparing the pre- and post-treatment photographs**: recording it here means also recording which two shots were being viewed, without copying dates.
 
-Three rules for saving:
+The response is a label ("Much improved," "Improved," etc.), never a number: the GAIS numbering is used in opposite directions in the literature, and a number saved without its direction would no longer be interpretable over time.
 
-- the clinical date of the measurement is that **of the shot**, not the day it is saved;
-- re-saving the same photograph **updates** the existing record, it does not create a second one;
-- a shot marked "to be repeated" (rotated head) **cannot be saved**: its numbers are not comparable and would harm a historical series.
+## Common Errors
 
-From the second save onward, the page displays the **Over time** section: a small series for each measurement, on the actual dates of the shots, with the most recent value and the difference from the first. This is the comparison of the face with itself (which this page centers) extended beyond the pair of photographs.
+- **Comparing shots of different views.** A frontal and a 45° shot from the same day only resemble each other in name: the comparison is valid between homologous views.
+- **Photographing the "after" too soon.** Before edema has subsided, the comparison documents swelling, not the result.
+- **Reading the 3D as a measurement.** It is a representation of the shape derived from a single photograph: it is used to observe and show, not to quantify.
 
-## Recording the PGAIS from the comparison
+## Frequently Asked Questions
 
-After selecting two photographs (the first is the shot under examination, the second is the comparison), the "What has changed" section shows the differences and the `Record PGAIS` button. The PGAIS is the physician's judgment on the result, given **by comparing the pre- and post-treatment photographs**: recording it here means also recording which two shots were being viewed, without copying dates.
+**Does the page save anything in the medical record?** Only the PGAIS, which is the physician’s judgment, along with the two shots it refers to. The 3D shape and the mesh are recalculated from the photograph each time the page is opened and are not stored.
 
-The response is a label («Much improved», «Improved», …), never a number: the GAIS numbering is used in literature in opposite directions, and a number saved without the direction would no longer be interpretable over time.
+**Does the analysis send the photo to an external service?** No. The landmark point model runs in the browser; the photograph remains encrypted in the system and is decrypted only for those with the right to view it, as with any other clinical photo.
 
-## Common errors
-
-- **Comparing shots from different views.** A frontal and a 45° shot from the same day only resemble each other in name: the comparison is valid between homologous views.
-- **Photographing the "after" too soon.** With unabsorbed edema, the comparison documents swelling, not the result.
-- **Reading the canon as a report card.** It is a historical geometric reference: the deviation is a difference between two numbers, not a treatment indication.
-
-## Frequently asked questions
-
-**Are measurements saved to the medical record?** Only if the physician saves them, using the dedicated button: they are recalculated from the photograph each time the page is opened, and the copy in the medical record declares who measured and from which shot. See «Saving measurements to the medical record».
-
-**Does the analysis send the photo to an external service?** No. The landmark model runs in the browser; the photograph remains encrypted in the system and is decrypted only for those with the right to view it, as with any other clinical photo.
-
-**Why is there no overall harmony score?** Product choice: the page provides all measurements; synthesis and judgment remain with the physician.
+**Why are there no facial measurements?** A product choice. A clinical number only makes sense with its declared accuracy and with someone accountable for that accuracy: until that exists, the page displays the photographs and the shape, leaving measurement and judgment to the physician.

@@ -1,5 +1,54 @@
 [
  {
+  "dominio": "emaroma.it",
+  "nome": "Donare il sangue a Roma",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390633062906",
+  "email": "info@emaroma.it",
+  "sitoUrl": "https://www.emaroma.it/",
+  "indirizzo": "Via Martinotti, 20",
+  "cap": "00135",
+  "comune": "Roma",
+  "provincia": "foggia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.emaroma.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "medicina.unifg.it",
+  "nome": "medicina.unifg.it",
+  "formaSocietaria": "",
+  "partitaIva": "03016180717",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.medicina.unifg.it/it",
+  "indirizzo": "Via A.Gramsci 89",
+  "cap": "",
+  "comune": "",
+  "provincia": "foggia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.medicina.unifg.it/it",
+   "https://www.medicina.unifg.it/it/dipartimenti/la-storia-e-le-sedi"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "studiomedicoparisi.com",
   "nome": "Chirurgia Plastica Ricostruttiva",
   "formaSocietaria": "",

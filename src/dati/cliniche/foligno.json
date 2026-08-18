@@ -129,6 +129,30 @@
   "tipoDichiarato": "Organization"
  },
  {
+  "dominio": "villaurora.com",
+  "nome": "HOME Page Casa di Cura Villa Aurora Foligno",
+  "formaSocietaria": "SRL",
+  "partitaIva": "00201490547",
+  "telefono": "+390742351405",
+  "email": "info@villaurora.com",
+  "sitoUrl": "https://villaurora.com/",
+  "indirizzo": "Via Arno, 2",
+  "cap": "06034",
+  "comune": "Foligno",
+  "provincia": "foligno",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://villaurora.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "walterbugiantella.it",
   "nome": "Medicina e Chirurgia Estetica Foligno",
   "formaSocietaria": "",

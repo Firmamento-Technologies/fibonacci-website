@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "amministrazionetrasparente.auslromagna.it",
+  "nome": "Pubblicità legale, trasparenza ed anticorruzione",
+  "formaSocietaria": "",
+  "partitaIva": "02483810392",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://amministrazionetrasparente.auslromagna.it/",
+  "indirizzo": "Via De Gasperi 8",
+  "cap": "48121",
+  "comune": "Ravenna",
+  "provincia": "faenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://amministrazionetrasparente.auslromagna.it/",
+   "https://www.auslromagna.it/privacy",
+   "https://www.auslromagna.it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "andreamezzoli.com",
   "escluso": true,
   "motivoEsclusione": "il sito non ha risposto"
@@ -39,6 +65,31 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "federicaosti.it",
+  "nome": "Federica Osti",
+  "formaSocietaria": "",
+  "partitaIva": "02065900389",
+  "telefono": "+390546609288",
+  "email": "info@federicaosti.it",
+  "sitoUrl": "https://federicaosti.it/",
+  "indirizzo": "Corso Matteotti 10",
+  "cap": "48018",
+  "comune": "Faenza",
+  "provincia": "faenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://federicaosti.it/",
+   "https://federicaosti.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
   "dominio": "laviolacentrobenessere.it",
   "nome": "Elettrostimolazione",
   "formaSocietaria": "",
@@ -68,5 +119,32 @@
   "lat": 44.285556,
   "lon": 11.883205,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "querzo.com",
+  "nome": "Trova medici specialisti vicino a te",
+  "formaSocietaria": "",
+  "partitaIva": "03232370920",
+  "telefono": "",
+  "email": "info@querzo.com",
+  "sitoUrl": "https://www.querzo.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "faenza",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://www.querzo.com/",
+   "https://www.querzo.com/privacy-policy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

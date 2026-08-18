@@ -29,5 +29,55 @@
   "lat": 40.518319,
   "lon": 15.82096,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "skillworks.eu",
+  "nome": "Skillworks",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390308373176",
+  "email": "info@skillworks.it",
+  "sitoUrl": "https://skillworks.eu/",
+  "indirizzo": "Via Vittorio Emanuele II, 28",
+  "cap": "25030",
+  "comune": "Roncadelle",
+  "provincia": "potenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://skillworks.eu/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "statoquotidiano.it",
+  "nome": "StatoQuotidiano",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "segreteria@statoquotidiano.it",
+  "sitoUrl": "https://www.statoquotidiano.it/",
+  "indirizzo": "via del Signore” 24",
+  "cap": "",
+  "comune": "",
+  "provincia": "potenza",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.statoquotidiano.it/",
+   "https://www.statoquotidiano.it/contatti/",
+   "https://www.statoquotidiano.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

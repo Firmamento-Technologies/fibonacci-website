@@ -35,6 +35,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "laviel.com",
+  "nome": "Laviel",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://laviel.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "varese",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://laviel.com/",
+   "https://laviel.com/pages/about-laviel-cosmetics",
+   "https://laviel.com/pages/about-us"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "paolomontemurro.com",
   "nome": "Dr. Paolo Montemurro Chirurgo Plastico a Varese Milano Lugano",
   "formaSocietaria": "",

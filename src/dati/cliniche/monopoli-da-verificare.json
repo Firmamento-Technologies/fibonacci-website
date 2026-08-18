@@ -178,5 +178,31 @@
   "lat": 41.125784,
   "lon": 16.862029,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "unicaantiage.it",
+  "nome": "Unica Antiage",
+  "formaSocietaria": "",
+  "partitaIva": "02171500768",
+  "telefono": "",
+  "email": "info@unicaantiage.it",
+  "sitoUrl": "https://unicaantiage.it/",
+  "indirizzo": "Via Canonico del Drago, 18",
+  "cap": "70043",
+  "comune": "Monopoli",
+  "provincia": "monopoli",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://unicaantiage.it/",
+   "https://unicaantiage.it/unica-antiage-monopoli-contatti/",
+   "https://unicaantiage.it/privacy-policy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

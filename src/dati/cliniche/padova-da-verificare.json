@@ -1,5 +1,10 @@
 [
  {
+  "dominio": "centrofoniatria.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
   "dominio": "drmatteostocco.com",
   "nome": "Dr. Matteo Stocco",
   "formaSocietaria": "",
@@ -28,5 +33,31 @@
   "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura",
   "nomeStrutturato": "Matteo Stocco",
   "tipoDichiarato": "Organization"
+ },
+ {
+  "dominio": "omco.pd.it",
+  "nome": "Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Pad",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390498718855",
+  "email": "info@omco.pd.it",
+  "sitoUrl": "https://omco.pd.it/",
+  "indirizzo": "Via S. Prosdocimo, 6",
+  "cap": "35139",
+  "comune": "Padova",
+  "provincia": "padova",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://omco.pd.it/",
+   "https://omco.pd.it/ordine/segreteria/urp-contatti.html",
+   "https://omco.pd.it/ordine/segreteria/dove-siamo.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
  }
 ]

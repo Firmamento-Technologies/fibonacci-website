@@ -62,6 +62,30 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "centromedicofiemme.com",
+  "nome": "Centro Medico Fiemme",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02247150226",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.centromedicofiemme.com/",
+  "indirizzo": "Via Monte Mulat n.17",
+  "cap": "38037",
+  "comune": "Predazzo",
+  "provincia": "cl",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.centromedicofiemme.com/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centromedicosedita.com",
   "nome": "Centro medico di fisioterapia",
   "formaSocietaria": "",

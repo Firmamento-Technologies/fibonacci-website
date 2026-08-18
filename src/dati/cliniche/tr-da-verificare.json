@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "aospterni.it",
+  "nome": "Azienda Ospedaliera Santa Maria Terni",
+  "formaSocietaria": "",
+  "partitaIva": "00679270553",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aospterni.it/",
+  "indirizzo": "Viale Tristano di Joannuccio 05100",
+  "cap": "05100",
+  "comune": "Terni",
+  "provincia": "tr",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aospterni.it/",
+   "https://www.aospterni.it/contatti",
+   "https://www.aospterni.it/azienda/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
   "dominio": "centrolaserterni.it",
   "nome": "centrolaserterni",
   "formaSocietaria": "",

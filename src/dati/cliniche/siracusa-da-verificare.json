@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "dominio": "dati.ars.sicilia.it",
+  "nome": "dati.ars.sicilia.it",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://dati.ars.sicilia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "siracusa",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://dati.ars.sicilia.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

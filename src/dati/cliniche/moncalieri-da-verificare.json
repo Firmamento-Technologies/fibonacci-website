@@ -226,5 +226,29 @@
   "lat": 45.000461,
   "lon": 7.684754,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "uisp.it",
+  "nome": "UISP Nazionale",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.uisp.it/nazionale/",
+  "indirizzo": "corso Condividi 31",
+  "cap": "00155",
+  "comune": "Roma",
+  "provincia": "moncalieri",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.uisp.it/nazionale/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

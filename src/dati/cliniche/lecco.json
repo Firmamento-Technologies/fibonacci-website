@@ -1,5 +1,55 @@
 [
  {
+  "dominio": "areu.lombardia.it",
+  "nome": "AREU",
+  "formaSocietaria": "",
+  "partitaIva": "11513540960",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.areu.lombardia.it/",
+  "indirizzo": "Viale Monza 223",
+  "cap": "20126",
+  "comune": "Milano",
+  "provincia": "lecco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://www.areu.lombardia.it/",
+   "https://www.areu.lombardia.it/web/home/privacy",
+   "https://www.areu.lombardia.it/web/home/contatti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "casadicuratalamoni.it",
+  "nome": "Casa di Cura Lecco",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390341274111",
+  "email": "",
+  "sitoUrl": "https://www.casadicuratalamoni.it/",
+  "indirizzo": "Via S. Nicolò, 12",
+  "cap": "",
+  "comune": "",
+  "provincia": "lecco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "il nome dichiara una struttura",
+  "fonteUrl": [
+   "https://www.casadicuratalamoni.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "justyouestetica.it",
   "nome": "Trattamenti ayurvedici",
   "formaSocietaria": "",
@@ -31,5 +81,55 @@
   "lat": 45.900548,
   "lon": 9.412025,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "leccoonline.com",
+  "nome": "Lecco online: portale lecchese di notizie locali, cultura, cronaca e p",
+  "formaSocietaria": "SRL",
+  "partitaIva": "02533410136",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.leccoonline.com/",
+  "indirizzo": "Via Lazzaretto i VVF e il 118",
+  "cap": "23807",
+  "comune": "Merate",
+  "provincia": "lecco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.leccoonline.com/",
+   "https://www.leccoonline.com/p/contatti/479",
+   "https://www.leccoonline.com/p/contatti-pubblicita/596"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
+  "dominio": "lierna.corriere.it",
+  "nome": "Comune di Lierna, cinema, farmacie, aperture domenicali",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://lierna.corriere.it/",
+  "indirizzo": "Via E. V. Parodi, 33",
+  "cap": "23827",
+  "comune": "Lierna",
+  "provincia": "lecco",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria dichiarata nel sito",
+  "fonteUrl": [
+   "https://lierna.corriere.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  }
 ]

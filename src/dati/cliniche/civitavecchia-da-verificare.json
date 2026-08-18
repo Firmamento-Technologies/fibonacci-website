@@ -148,5 +148,36 @@
   "lat": 42.465427,
   "lon": 12.172462,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "vglabeautyque.beautycheck.it",
+  "nome": "VG LABEAUTYQUE",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://vglabeautyque.beautycheck.it/",
+  "indirizzo": "Via Doria, 22",
+  "cap": "00053",
+  "comune": "Civitavecchia",
+  "provincia": "civitavecchia",
+  "prestazioni": [
+   "Filler",
+   "Tossina botulinica",
+   "Laser",
+   "Epilazione"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://vglabeautyque.beautycheck.it/",
+   "https://vglabeautyque.beautycheck.it/contatti",
+   "https://vglabeautyque.beautycheck.it/privacy.aspx"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
  }
 ]

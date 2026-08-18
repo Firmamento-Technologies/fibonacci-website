@@ -217,6 +217,34 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "rimozione-tatuaggi-laser.it",
+  "nome": "Rimozione Tatuaggi con Laser Discovery Pico Plus a Prato",
+  "formaSocietaria": "",
+  "partitaIva": "05624710488",
+  "telefono": "+390574584453",
+  "email": "",
+  "sitoUrl": "https://www.rimozione-tatuaggi-laser.it/",
+  "indirizzo": "Viale della Repubblica, 141",
+  "cap": "59100",
+  "comune": "Prato",
+  "provincia": "po",
+  "prestazioni": [
+   "Filler",
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "iscrizione all'albo e specializzazione, senza forma societaria né struttura",
+  "fonteUrl": [
+   "https://www.rimozione-tatuaggi-laser.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: iscrizione all'albo e specializzazione, senza forma societaria né struttura"
+ },
+ {
   "dominio": "villa-fiorita.it",
   "nome": "Casa di Cura Villafiorita (Prato)",
   "formaSocietaria": "",

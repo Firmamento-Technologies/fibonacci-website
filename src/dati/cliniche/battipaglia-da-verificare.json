@@ -1,5 +1,29 @@
 [
  {
+  "dominio": "atropa.it",
+  "nome": "- Atropa Beauty Club",
+  "formaSocietaria": "",
+  "partitaIva": "05661360650",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.atropa.it/",
+  "indirizzo": "via N. Giacumbi, 5",
+  "cap": "84091",
+  "comune": "Battipaglia",
+  "provincia": "battipaglia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "non_medico",
+  "ragioneClassificazione": "lessico di estetica non medica e nessun termine medico",
+  "fonteUrl": [
+   "https://www.atropa.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_medico: lessico di estetica non medica e nessun termine medico"
+ },
+ {
   "dominio": "biosanitaslab.it",
   "nome": "BioSanitas Lab",
   "formaSocietaria": "",
@@ -61,6 +85,11 @@
   "nomeStrutturato": "Brogna Dott.ssa Lina",
   "tipoDichiarato": "MedicalClinic",
   "precisioneCoord": "civico"
+ },
+ {
+  "dominio": "clinica-salus.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
  },
  {
   "dominio": "donnemedico.org",

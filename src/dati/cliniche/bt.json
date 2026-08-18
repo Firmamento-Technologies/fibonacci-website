@@ -1,5 +1,31 @@
 [
  {
+  "dominio": "barlettaviva.it",
+  "nome": "BarlettaViva: notizie da Barletta, eventi e turismo a Barletta",
+  "formaSocietaria": "SRL",
+  "partitaIva": "08059640725",
+  "telefono": "",
+  "email": "amministrazione@innovanews.it",
+  "sitoUrl": "https://barlettaviva.it/",
+  "indirizzo": "Via delle Querce 8",
+  "cap": "70056",
+  "comune": "Molfetta",
+  "provincia": "bt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://barlettaviva.it/",
+   "https://barlettaviva.it/info/privacy/newsletter/",
+   "https://barlettaviva.it/info/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
+ },
+ {
   "dominio": "centralinosanitario.cupsolidale.it",
   "nome": "Centralino Sanitario",
   "formaSocietaria": "",
@@ -243,6 +269,32 @@
   "lat": 41.321498,
   "lon": 16.28687,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "puglia.com",
+  "nome": "Puglia: Cosa Vedere, Eventi e Ricette",
+  "formaSocietaria": "SRLS",
+  "partitaIva": "07498750723",
+  "telefono": "+390883253255",
+  "email": "",
+  "sitoUrl": "https://www.puglia.com/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "bt",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "impresa",
+  "ragioneClassificazione": "forma societaria accanto alla partita IVA",
+  "fonteUrl": [
+   "https://www.puglia.com/",
+   "https://puglia.com/business/contatti.html",
+   "https://www.puglia.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": false,
+  "motivoEsclusione": ""
  },
  {
   "dominio": "simonacarpagnanodermatologa.com",

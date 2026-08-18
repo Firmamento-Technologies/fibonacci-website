@@ -1,1 +1,136 @@
-[]
+[
+ {
+  "dominio": "aousassari.it",
+  "nome": "Azienda Ospedaliera Universitaria di Sassari",
+  "formaSocietaria": "",
+  "partitaIva": "02268260904",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aousassari.it/",
+  "indirizzo": "Viale San Pietro, 10",
+  "cap": "07100",
+  "comune": "Sassari",
+  "provincia": "cagliari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aousassari.it/",
+   "https://www.aousassari.it/note-legali/",
+   "https://www.aousassari.it/privacy/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "aressardegna.it",
+  "nome": "ARES Sardegna",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.aressardegna.it/",
+  "indirizzo": "Via Piero della Francesca 1",
+  "cap": "09047",
+  "comune": "Selargius",
+  "provincia": "cagliari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.aressardegna.it/",
+   "https://www.aressardegna.it/azienda/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "facolta.unica.it",
+  "nome": "Facoltà e dipartimenti",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.unica.it/it/ateneo/facolta-e-dipartimenti",
+  "indirizzo": "Via Università 40",
+  "cap": "09124",
+  "comune": "Cagliari",
+  "provincia": "cagliari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.unica.it/it/ateneo/facolta-e-dipartimenti"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "gruppoospedalieroleonardo.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "milamedic.it",
+  "nome": "Tecnologie Medicali e Laser",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "info@milamedic.it",
+  "sitoUrl": "https://www.milamedic.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "cagliari",
+  "prestazioni": [
+   "Laser"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.milamedic.it/",
+   "https://www.milamedic.it/chi-siamo-milamedic/",
+   "https://www.milamedic.it/entra-in-contatto-con-milamedic/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "zeroventiquattro.it",
+  "nome": "Zeroventiquattro.it | L'informazione per le imprese, le startup,",
+  "formaSocietaria": "",
+  "partitaIva": "03486300712",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.zeroventiquattro.it/",
+  "indirizzo": "Via San Francesco, 44",
+  "cap": "71017",
+  "comune": "Torremaggiore",
+  "provincia": "cagliari",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.zeroventiquattro.it/",
+   "https://www.zeroventiquattro.it/redazione/chi-siamo/",
+   "https://www.zeroventiquattro.it/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]

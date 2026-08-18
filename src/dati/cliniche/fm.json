@@ -63,6 +63,37 @@
   "precisioneCoord": "comune"
  },
  {
+  "dominio": "carmensalvatore.it",
+  "nome": "Studio Medicina Estetica Dott.ssa Carmen Salvatore",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.carmensalvatore.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "fm",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Laser",
+   "Mesoterapia"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Carmen Salvatore, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://www.carmensalvatore.it/",
+   "https://www.carmensalvatore.it/le-sedi/",
+   "https://www.carmensalvatore.it/contattaci/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Carmen Salvatore, e il dominio lo ripete"
+ },
+ {
   "dominio": "dermatologoferro.it",
   "nome": "Centro Dermatologico Ferro",
   "formaSocietaria": "",
@@ -168,6 +199,36 @@
   "lat": 43.132253,
   "lon": 13.536383,
   "precisioneCoord": "comune"
+ },
+ {
+  "dominio": "francescolino.com",
+  "nome": "Dr. Francesco Lino",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+393348309917",
+  "email": "info@francescolino.com",
+  "sitoUrl": "https://francescolino.com/",
+  "indirizzo": "Via Gino Chierici, 6",
+  "cap": "81100",
+  "comune": "Caserta",
+  "provincia": "fm",
+  "prestazioni": [
+   "Tossina botulinica",
+   "Peeling chimico",
+   "Radiofrequenza",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "persona",
+  "ragioneClassificazione": "studio di un professionista: dott. Francesco Lino, e il dominio lo ripete",
+  "fonteUrl": [
+   "https://francescolino.com/",
+   "https://francescolino.com/contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ persona: studio di un professionista: dott. Francesco Lino, e il dominio lo ripete"
  },
  {
   "dominio": "ilmondodiamelie.it",

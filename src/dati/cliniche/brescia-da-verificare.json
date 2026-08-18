@@ -1,1 +1,222 @@
-[]
+[
+ {
+  "dominio": "ats-brescia.it",
+  "nome": "ATS Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "03775430980",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://ats-brescia.it/",
+  "indirizzo": "Viale Duca degli Abruzzi, 15",
+  "cap": "25124",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": true,
+  "tipoSoggetto": "non_pertinente",
+  "ragioneClassificazione": "altra specialità e nessuna medicina estetica dichiarata",
+  "fonteUrl": [
+   "https://ats-brescia.it/",
+   "https://ats-brescia.it/contatti",
+   "https://ats-brescia.it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ non_pertinente: altra specialità e nessuna medicina estetica dichiarata"
+ },
+ {
+  "dominio": "comune.brescia.it",
+  "nome": "Comune di Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "00761890177",
+  "telefono": "+3903029771",
+  "email": "",
+  "sitoUrl": "https://comune.brescia.it/it",
+  "indirizzo": "Piazza della Loggia, 1",
+  "cap": "25121",
+  "comune": "Brescia",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://comune.brescia.it/it",
+   "https://comune.brescia.it/it/privacy"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "encantolive.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "ferrarichirurgia.com",
+  "nome": "Luca Ferrari",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.ferrarichirurgia.com/",
+  "indirizzo": "Via Vittorio Emanuele II 60",
+  "cap": "25121",
+  "comune": "",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.ferrarichirurgia.com/",
+   "https://www.ferrarichirurgia.com/contatto-3",
+   "https://www.ferrarichirurgia.com/about"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "fondazionecamplani.it",
+  "nome": "Fondazione Teresa Camplani",
+  "formaSocietaria": "",
+  "partitaIva": "03372480982",
+  "telefono": "+3903030601",
+  "email": "",
+  "sitoUrl": "https://fondazionecamplani.it/",
+  "indirizzo": "Viale Pompilio, 65",
+  "cap": "30601",
+  "comune": "Privati",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": true,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://fondazionecamplani.it/",
+   "https://fondazionecamplani.it/come-contattarci",
+   "https://fondazionecamplani.it/privacy-policy-update"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "igibd.it",
+  "nome": "IG-IBD",
+  "formaSocietaria": "",
+  "partitaIva": "06773690489",
+  "telefono": "",
+  "email": "segreteria@igibd.it",
+  "sitoUrl": "https://igibd.it/",
+  "indirizzo": "Via Pietro Metastasio 22",
+  "cap": "50124",
+  "comune": "Firenze",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://igibd.it/",
+   "https://igibd.it/it/contatti",
+   "https://igibd.it/it/note-legali"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "lombardiabeniculturali.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "mastoplasticalocalsoft.it",
+  "nome": "Mastoplastica a Catania",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "+390954039992",
+  "email": "",
+  "sitoUrl": "https://mastoplasticalocalsoft.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://mastoplasticalocalsoft.it/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "monnalisatouch-brescia.it",
+  "nome": "MonnaLisa Touch Brescia",
+  "formaSocietaria": "",
+  "partitaIva": "03336940179",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://www.monnalisatouch-brescia.it/",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "brescia",
+  "prestazioni": [
+   "Laser",
+   "Trattamento cicatrici"
+  ],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://www.monnalisatouch-brescia.it/",
+   "https://www.monnalisatouch-brescia.it/monnalisa-touch-brescia-contatti/"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ },
+ {
+  "dominio": "pistorale.it",
+  "escluso": true,
+  "motivoEsclusione": "il sito non ha risposto"
+ },
+ {
+  "dominio": "poliambulanza.it",
+  "nome": "NetScaler AAA",
+  "formaSocietaria": "",
+  "partitaIva": "",
+  "telefono": "",
+  "email": "",
+  "sitoUrl": "https://poliambulanza.it/logon/LogonPoint/tmindex.html",
+  "indirizzo": "",
+  "cap": "",
+  "comune": "",
+  "provincia": "brescia",
+  "prestazioni": [],
+  "dichiaraDirettoreSanitario": false,
+  "dichiaraAutorizzazioneSanitaria": false,
+  "tipoSoggetto": "incerto",
+  "ragioneClassificazione": "nessuna forma societaria e nessun nome di struttura",
+  "fonteUrl": [
+   "https://poliambulanza.it/logon/LogonPoint/tmindex.html"
+  ],
+  "lettoIl": "2026-08-17",
+  "escluso": true,
+  "motivoEsclusione": "⛔ incerto: nessuna forma societaria e nessun nome di struttura"
+ }
+]
