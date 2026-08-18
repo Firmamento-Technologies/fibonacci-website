@@ -39,6 +39,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 8 medici (Silvio Saba, Valentina Saba, Marco Ferazzani, Daniele Gensini, Raoul Mauro, Andrea Zampier) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "amarissimo.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 0 link a pagine di prodotto e 4 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "amiraestetica.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Tossina botulinica. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -107,6 +111,10 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Mesoterapia. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "bellezzaesalutefrascati.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 6 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "bellinformafloridia.com": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Biostimolazione. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -166,6 +174,14 @@
  "calvizie.net": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "celmade.co": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 916 link a pagine di prodotto e 1 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
+ "centralefillers.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 1611 link a pagine di prodotto e 6 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
  "centro-dentistico.it": {
   "come": "impresa",
@@ -319,9 +335,17 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Chiara Lo Dato) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "cleardermatology.net": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 6 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "costachirurgiaplastica.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Costa») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Mesoterapia) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "cugini.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 9 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
  "curemedicoestetiche.com": {
   "come": "scarta",
@@ -458,6 +482,10 @@
  "diamondmedical.ch": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
+ },
+ "diegogigliotti.com": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: seconda passata sulle pagine delle persone (curriculum, biografia, dott-*) — nomina UN SOLO medico (dott. Diego Gigliotti) · iniettivi: Biostimolazione, Fili di trazione, Filler, Tossina botulinica"
  },
  "dietologosalerno.com": {
   "come": "medico",
@@ -623,6 +651,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 3 medici (Stavrou Meet, Theodora Papavasiliou, Stavrou'nun Uzman) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "elbsbusinessschool.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 5 link a pagine di prodotto e 2 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "elviragentile.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -663,6 +695,10 @@
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
  },
+ "esteticamaia.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 241 link a pagine di prodotto e 1 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "esteticanuovamem.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -699,6 +735,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 0 medici: ⛔ nessuno)"
  },
+ "exense.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 35 link a pagine di prodotto e 2 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "fabiomichelinichirurgia.com": {
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: il titolo è «Fabio Michelini» e il dominio lo ripete per intero"
@@ -723,9 +763,25 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "farmaciarealefirenze.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: e' una FARMACIA, ⛔ non uno studio medico. ⇒ ⛔ ⛔ non e' collocabile in un elenco di medici, e infatti ⛔ non nomina nessun medico"
+ },
+ "farmamedbari.it": {
+  "come": "impresa",
+  "nota": "🟡, 2026-08-18: seconda passata sulle pagine delle persone — nomina 4 medici (Giacomo Volpe, Claudio Torrisi, Luz Alexandra, Strippoli Dott) ⇒ studio con piu' medici"
+ },
+ "farmasave.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 3 link a pagine di prodotto e 3 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "ferriaesthetic.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Erika») · partita IVA 02023410760 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
+ },
+ "fillercare.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 24 link a pagine di prodotto e 4 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
  "fillerfirenze.it": {
   "come": "medico",
@@ -783,6 +839,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 6 medici (Andrea Aru, Silvia Caria, Maurizio Ledda, Antonio Lasia, Gianluca Demelas, Zoe Serra) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "haremgroup.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 58 link a pagine di prodotto e 2 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "healthycent.com": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Deetjen») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -790,6 +850,10 @@
  "homebeauty.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "hyaluronicfillermarket.com": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: «Hyaluronic Filler Market»: e' un MERCATO di filler. ⇒ ⛔ ⛔ non e' collocabile in un elenco di medici, e infatti ⛔ non nomina nessun medico"
  },
  "ialuronicofirenze.it": {
   "come": "medico",
@@ -835,6 +899,10 @@
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Rossi») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
+ "lalunaestetica.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 12 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "landing.medicinaesteticatartaglia.it": {
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 3 medici: Ivan Arruda, Zein Obagi, Tartaglia Ida)"
@@ -847,6 +915,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 0 medici: ⛔ nessuno)"
  },
+ "ldbmedicinaestetica.com": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: seconda passata sulle pagine delle persone (curriculum, biografia, dott-*) — nomina UN SOLO medico (dott. Lorella Di Battista) · iniettivi: Filler, Mesoterapia"
+ },
  "lelisirdellabellezza.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -854,6 +926,10 @@
  "lipostamina.com": {
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Giovanni Benfenati) · iniettivi dichiarati (Mesoterapia) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "liquidomanduria.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 2746 link a pagine di prodotto e 6 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
  "lookfantastic.it": {
   "come": "impresa",
@@ -870,6 +946,10 @@
  "lucebeauty.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
+ },
+ "luigieboli.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 49 link a pagine di prodotto e 5 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
  "luxurydentalconvvertito.wordpress.com": {
   "come": "scarta",
@@ -1023,6 +1103,10 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Armando Mansi) · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "medicinaesteticamassicci.it": {
+  "come": "medico",
+  "nota": "🟡, 2026-08-18: seconda passata sulle pagine delle persone (curriculum, biografia, dott-*) — nomina UN SOLO medico (dott. Domenico Feleppa) · iniettivi: Biostimolazione, Filler, Mesoterapia, Tossina botulinica"
+ },
  "medicinaesteticamaxim.com": {
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Tatiana») · partita IVA 12413910014 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Mesoterapia, Tossina botulinica)"
@@ -1167,6 +1251,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Ralph Millard, Paolo Morselli) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "mrfiller.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 1399 link a pagine di prodotto e 5 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "musachirurgiaplastica.it": {
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Isidoro Musmarra, Camille Ozil) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
@@ -1227,6 +1315,10 @@
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Gino Luca, Pagni Gino) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
  },
+ "pamiderm.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 6 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "paologrecodermatologo.it": {
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: il sito nomina UN medico · P.IVA · Caprarica"
@@ -1283,6 +1375,10 @@
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Carmelo Guarneri, Antonella Di Leo) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
  },
+ "prpmed.de": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 0 link a pagine di prodotto e 5 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "pvmedica.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Pasquale Virciglio) · iniettivi dichiarati (Fili di trazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
@@ -1322,6 +1418,10 @@
  "romamedicoestetico.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Luca Carotenuto) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "rsvmultiservice.it": {
+  "come": "scarta",
+  "nota": "🟡, letto a mano il 2026-08-18: «Multiservice»: ⛔ non e' uno studio medico. ⇒ ⛔ ⛔ non e' collocabile in un elenco di medici, e infatti ⛔ non nomina nessun medico"
  },
  "rubenscenter.it": {
   "come": "medico",
@@ -1495,6 +1595,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵, 2026-08-18: guardato a mano il titolo e il dominio, ⛔ NESSUNA città leggibile — e la scheda ⛔ non ha comune, ⛔ né partita IVA, ⛔ né telefono italiano. Un elenco che funziona per vicinanza ⛔ non può ospitarla. (il sito nomina 2 medici: Sabrina Verga, Sergio Montes)"
  },
+ "studioesteticatiffany.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 69 link a pagine di prodotto e 1 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "studioesteticolife.it": {
   "come": "scarta",
   "nota": "gruppo 🔴, 2026-08-18: il nome ha lessico di estetica non medica, ⛔ nessun termine medico, ⛔ NESSUN medico nominato nel sito e ⛔ nessun direttore sanitario, ⛔ ma dichiara Filler. ⇒ ⛔ non e' collocabile in un elenco di MEDICI: ⛔ non c'e' un medico identificabile. ⚠️ ⛔ Non si afferma che sia illecito: nessuno dei due brain copre la L. 1/1990 sugli atti riservati, e il medico potrebbe esserci senza essere nominato"
@@ -1643,6 +1747,10 @@
   "come": "medico",
   "nota": "🟢, letto a mano il 2026-08-18: «Tiziana Surrenti Dermatologa», e «surrenti» è nel dominio"
  },
+ "svetlaestetica.com": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 24 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "swissmedic.ch": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -1707,9 +1815,17 @@
   "come": "medico",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Viktorija Radcuka) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "wellnessestetica.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 1049 link a pagine di prodotto e 2 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
+ },
  "youchirurgiaplastica.com": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Gabriele Cricrì, Valentina Lerro) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
+ },
+ "youepil.it": {
+  "come": "scarta",
+  "nota": "🟡, 2026-08-18: e' un NEGOZIO ONLINE, ⛔ non uno studio — 12 link a pagine di prodotto e 0 frasi del carrello nel testo. ⇒ ⛔ non nomina nessun medico perche' ⛔ non ce n'e' uno: vende. Fra questi ci sono rivenditori di filler, farmacie, una scuola di formazione e perfino un'enoteca (2.746 prodotti)"
  },
  "youplast.it": {
   "come": "medico",
