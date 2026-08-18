@@ -1020,6 +1020,8 @@
   "pazienti.consensoinformato.prima_di_decidere": "Prima di decidere",
   "pazienti.consensoinformato.puoi_cambiare_idea_sempre": "Puoi cambiare idea. Sempre",
   "pazienti.consensoinformato.un_modulo_che_potrebbe_essere_firmato": "Un modulo che potrebbe essere\n            firmato da chiunque per qualunque cosa non ti ha informato di niente.",
+  "pazienti.giurisdizione.testo": "I diritti descritti qui sono quelli della legge italiana (L. 219/2017 sul consenso informato). Se ti curi in un altro paese valgono le regole di quel paese: chiedi al tuo medico e verifica che cosa prevede la legge di casa tua.",
+  "pazienti.giurisdizione.titolo": "Di quale paese parlano queste pagine",
   "pazienti.gusciopaziente.guide_per_il_paziente": "Guide per il paziente",
   "pazienti.gusciopaziente.i_tuoi_dati": "I tuoi dati",
   "pazienti.gusciopaziente.l_albo_dei_medici_come_si_consulta": "L’albo dei medici, come si consulta",

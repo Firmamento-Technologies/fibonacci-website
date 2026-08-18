@@ -1020,6 +1020,8 @@
   "pazienti.consensoinformato.prima_di_decidere": "Avant de décider",
   "pazienti.consensoinformato.puoi_cambiare_idea_sempre": "Tu peux changer d'avis. Toujours",
   "pazienti.consensoinformato.un_modulo_che_potrebbe_essere_firmato": "Un module qui pourrait être\n            signé par n’importe qui pour n’importe quoi ne t’a rien expliqué.",
+  "pazienti.giurisdizione.testo": "Les droits décrits ici sont ceux que donne la loi italienne (loi 219/2017 sur le consentement éclairé). Si tu es soigné dans un autre pays, ce sont les règles de ce pays qui s'appliquent : demande à ton médecin et vérifie ce que prévoit ta propre loi.",
+  "pazienti.giurisdizione.titolo": "De quel pays parlent ces pages",
   "pazienti.gusciopaziente.guide_per_il_paziente": "Guides pour le patient",
   "pazienti.gusciopaziente.i_tuoi_dati": "Tes données",
   "pazienti.gusciopaziente.l_albo_dei_medici_come_si_consulta": "Le tableau des médecins, comment le consulter",

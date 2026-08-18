@@ -1,4 +1,5 @@
 import { t } from '@/lib/testo'
+import { LINGUA } from '@/lib/lingua'
 import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
@@ -64,6 +65,48 @@ export function GuscioPaziente({
           </Link>
         </div>
       </header>
+
+      {/* ── LA NOTA DI GIURISDIZIONE (TD-207) ──────────────────────────
+          🔴 **Il difetto che chiude, misurato in vetrina il 2026-08-18**: la
+          versione francese di `/pazienti/prima-di-un-trattamento/` diceva
+          **due volte** «la loi 219/2017 liste ce que tu as le droit de
+          savoir». Una persona in Francia leggeva, in francese, che i suoi
+          diritti di paziente stanno in una **legge italiana**.
+
+          🔑 **Sta nel GUSCIO e non sulle singole pagine**, ed è la parte che
+          conta: le pagine paziente sono quattro oggi, e la quinta la scriverà
+          qualcun altro. Un elenco di pagine da annotare invecchia **in
+          silenzio** — la pagina nuova esce senza avviso e nessuno se ne
+          accorge. Qui la eredita chi entra.
+
+          ⛔ **Non traduce l'obbligo italiano nel suo equivalente locale.**
+          Scrivere che in Francia vale l'art. L1111-2 CSP vorrebbe dire dare
+          una consulenza legale su un ordinamento che ⛔ nessuno qui ha
+          verificato, e un riferimento normativo sbagliato **viaggia**: chi lo
+          legge lo cita. Si dice l'unica cosa onesta: *questo pezzo è
+          italiano, la regola applicabile è la tua*.
+
+          ⚠️ In italiano ⛔ non compare: al lettore italiano direbbe che la
+          legge italiana è italiana. */}
+      {LINGUA !== 'it' && (
+        <aside
+          role="note"
+          className="gabbia"
+          style={{
+            border: '1px solid var(--rule)',
+            borderRadius: '4px',
+            padding: 'var(--s-21)',
+            marginBottom: 'var(--s-34)',
+            fontSize: '15px',
+            color: 'var(--fg-muted)',
+          }}
+        >
+          <strong style={{ color: 'var(--fg)' }}>
+            {t('pazienti.giurisdizione.titolo')}
+          </strong>{' '}
+          {t('pazienti.giurisdizione.testo')}
+        </aside>
+      )}
 
       <main id="contenuto">{children}</main>
 

@@ -1020,6 +1020,8 @@
   "pazienti.consensoinformato.prima_di_decidere": "Before you decide",
   "pazienti.consensoinformato.puoi_cambiare_idea_sempre": "You can change your mind. Always",
   "pazienti.consensoinformato.un_modulo_che_potrebbe_essere_firmato": "A form that could be signed by anyone for anything hasn’t informed you of anything.",
+  "pazienti.giurisdizione.testo": "The rights described here are the ones Italian law gives you (Law 219/2017 on informed consent). If you are treated in another country, that country's rules apply: ask your doctor, and check what your own law provides.",
+  "pazienti.giurisdizione.titolo": "Which country these pages describe",
   "pazienti.gusciopaziente.guide_per_il_paziente": "Patient guides",
   "pazienti.gusciopaziente.i_tuoi_dati": "Your data",
   "pazienti.gusciopaziente.l_albo_dei_medici_come_si_consulta": "How to check the Medical Register",
