@@ -34,7 +34,16 @@ export const PERCORSI_CHE_CAMBIANO_LA_RESA = [
 
 /** L'ultimo commit dell'EMR che ha toccato la resa. `null` se il repo non c'è. */
 export function commitFrontendEmr(candidati) {
-  for (const dir of candidati) {
+  // ⚠️ **Un candidato ESPLICITO batte quelli indovinati** (2026-08-18).
+  // 🔴 Il difetto: il primo candidato è `../EMR`, cioè l'albero **condiviso**,
+  // che sta sul ramo di chi ci ha lavorato per ultimo. Chi rigenera le
+  // schermate da un `git worktree` su `origin/main` — l'unico modo corretto,
+  // perché l'albero condiviso ha il lavoro in corso di altri — si vedeva
+  // timbrare il manifesto col commit **di un altro ramo**: un manifesto che
+  // dichiara una provenienza che le immagini ⛔ non hanno.
+  // ⇒ se qualcuno ha detto da dove costruisce, gli si crede.
+  const espliciti = candidati.filter((d) => d === process.env.EMR_REPO && d)
+  for (const dir of [...espliciti, ...candidati.filter((d) => !espliciti.includes(d))]) {
     if (!dir || !existsSync(dir)) continue
     try {
       return execFileSync(
