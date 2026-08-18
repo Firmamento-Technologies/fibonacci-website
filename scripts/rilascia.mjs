@@ -95,7 +95,8 @@ const git = (args, dir = SITO) =>
 // aver costruito il sito.
 titolo('Le schermate vengono dal codice che gira adesso?')
 {
-  const f = schermateFresche(SITO)
+  // ⚠️ Col riferimento: si guarda il manifesto di CIO' CHE SI RILASCIA.
+  const f = schermateFresche(SITO, RIF)
   if (f.stato === 'vecchie' && SCHERMATE_VECCHIE) {
     console.log(giallo('   ⚠️  CANCELLO SALTATO con --schermate-vecchie. Che cosa non è stato guardato:'))
     console.log(giallo(`      ${f.motivo.split('\n')[0]}`))

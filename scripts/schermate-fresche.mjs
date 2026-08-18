@@ -43,11 +43,26 @@ import { PERCORSI_CHE_CAMBIANO_LA_RESA } from './ancora-emr.mjs'
  * @param {string} radiceSito  la cartella `website/`
  * @returns {{stato: 'fresche'|'vecchie'|'non-verificabile', motivo: string|null}}
  */
-export function schermateFresche(radiceSito) {
+export function schermateFresche(radiceSito, rif = null) {
+  // ⚠️ **Il manifesto del RIFERIMENTO CHE SI RILASCIA, ⛔ non quello sul disco**
+  // (2026-08-18). Terza istanza dello stesso difetto in un pomeriggio: il
+  // rilascio costruisce da un worktree su `origin/main`, ⛔ ma la freschezza
+  // veniva letta dall'albero **locale**, che e' condiviso e quasi sempre
+  // indietro. Risultato misurato: schermate rigenerate e spinte, cancello
+  // ancora rosso, e il motivo nominava un manifesto che nessuno stava per
+  // pubblicare.
+  // 🔑 La regola generale, e vale per tutti e tre i casi: **un controllo di
+  // rilascio deve leggere ciò che si rilascia**, non ciò che si ha sotto mano.
   const manifestoPath = join(radiceSito, 'public/schermate/manifesto.json')
   let manifesto
   try {
-    manifesto = JSON.parse(readFileSync(manifestoPath, 'utf8'))
+    manifesto = JSON.parse(
+      rif
+        ? execFileSync('git', ['-C', radiceSito, 'show', `${rif}:public/schermate/manifesto.json`], {
+            encoding: 'utf8',
+          })
+        : readFileSync(manifestoPath, 'utf8'),
+    )
   } catch (e) {
     return {
       stato: 'vecchie',
