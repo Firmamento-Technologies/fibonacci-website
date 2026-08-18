@@ -163,5 +163,41 @@ class IlNomeProprioDopoIlTitolo(unittest.TestCase):
             self.assertIsNone(coda.nome_proprio(t), t)
 
 
+class IDueGruppiDecisi(unittest.TestCase):
+    """A e B sono **disgiunti**: la partita IVA li separa, ⛔ non li ordina."""
+
+    def _coda(self):
+        s = {
+            "a.it": scheda(dominio="a.it", nome="Dott.ssa Anna Bianchi", partitaIva="01234567890"),
+            "b.it": scheda(dominio="b.it", nome="Dott. Marco Verdi"),
+            "c.it": scheda(dominio="c.it", nome="Chirurgo Plastico a Milano",
+                           partitaIva="09876543210"),
+        }
+        return {r["dominio"]: r for r in coda.costruisci(s, {})}
+
+    def test_A_vuole_la_partita_IVA_e_B_la_esclude(self):
+        # ⚠️ Si chiama `gruppo_deciso()`, ⛔ NON si riscrive il criterio: un test
+        # che riscrive il criterio **conferma se stesso** e ⛔ non diventa mai
+        # rosso quando il codice cambia.
+        righe = coda.costruisci({
+            "a.it": scheda(dominio="a.it", nome="Dott.ssa Anna Bianchi", partitaIva="01234567890"),
+            "b.it": scheda(dominio="b.it", nome="Dott. Marco Verdi"),
+            "c.it": scheda(dominio="c.it", nome="Chirurgo Plastico a Milano",
+                           partitaIva="09876543210"),
+        }, {})
+        A = [r["dominio"] for r in coda.gruppo_deciso(righe, True)]
+        B = [r["dominio"] for r in coda.gruppo_deciso(righe, False)]
+        self.assertEqual(A, ["a.it"])
+        self.assertEqual(B, ["b.it"])
+        self.assertEqual(set(A) & set(B), set(), "una scheda ⛔ non puo' stare in A e in B")
+
+    def test_chi_ha_solo_una_QUALIFICA_resta_fuori_da_entrambi(self):
+        # 🔴 «Chirurgo Plastico a Milano» ha la partita IVA ⛔ ma ⛔ nessun nome
+        # proprio: ⛔ non entra ne' in A ne' in B. E' il gruppo C, che ⛔ non si
+        # promuove: «Studio Medico X» puo' essere uno studio con piu' medici.
+        c = self._coda()
+        self.assertIsNone(coda.nome_proprio(c["c.it"]["nome"]))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

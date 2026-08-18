@@ -279,8 +279,30 @@ def scrivi_md(coda):
     CODA_MD.write_text("\n".join(righe) + "\n", encoding="utf-8")
 
 
+def gruppo_deciso(coda, con_piva):
+    """Le schede del gruppo **A** (`con_piva=True`) o **B** (`False`).
+
+    ⚠️ Sta **fuori** da `decisioni_in_blocco()` di proposito: se il criterio
+    vive dentro il comando, il test deve **riscriverlo** per verificarlo — e un
+    test che riscrive il criterio **conferma se stesso**. Misurato il
+    2026-08-18: la prova per mutazione ⛔ non diventava rossa perche' il test
+    ⛔ non chiamava questo codice.
+    """
+    return [r for r in coda
+            if r["gruppo"] == "medico-probabile"
+            and nome_proprio(r["nome"])
+            and bool(r["partitaIva"]) == con_piva]
+
+
 def decisioni_in_blocco(args, decisioni):
     """`--decidi-A` registra il gruppo A · `--applica` lo scrive nelle schede.
+
+    **A** = nome proprio dopo il titolo **+ partita IVA** (cinque prove).
+    **B** = lo stesso **senza** la partita IVA (quattro prove), perché quei siti
+    ⛔ non la pubblicano — misurato: la sola **parola** «P.IVA/codice
+    fiscale/VAT» compare in **0 su 33**, e **26 su 33** hanno già una pagina
+    legale letta. ⇒ la gamba mancante è **cercata e non trovata**, ⛔ non
+    dimenticata, e **la nota della decisione lo dice**.
 
     🔑 **Perché passa da un file di decisioni e ⛔ non da una regola nel
     classificatore.** Provato e **misurato** il 2026-08-18: il criterio del
@@ -300,21 +322,32 @@ def decisioni_in_blocco(args, decisioni):
     schede = carica()
     coda = costruisci(schede, decisioni)
 
-    if args.decidi_A:
-        gruppo = [r for r in coda
-                  if r["gruppo"] == "medico-probabile"
-                  and nome_proprio(r["nome"]) and r["partitaIva"]]
+    if args.decidi_A or args.decidi_B:
+        conPiva = bool(args.decidi_A)
+        lettera = "A" if conPiva else "B"
+        gruppo = gruppo_deciso(coda, conPiva)
         for r in gruppo:
-            decisioni[r["dominio"]] = {
-                "come": "medico",
-                "nota": (f"gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il "
-                         f"titolo («{nome_proprio(r['nome'])}») · partita IVA {r['partitaIva']} · "
-                         f"⛔ nessuna forma societaria · ⛔ nessun nome di struttura · "
-                         f"iniettivi dichiarati ({', '.join(r['iniettivi'])})"),
-            }
+            prove = [f"nome proprio dopo il titolo («{nome_proprio(r['nome'])}»)"]
+            if conPiva:
+                prove.append(f"partita IVA {r['partitaIva']}")
+            prove += ["⛔ nessuna forma societaria", "⛔ nessun nome di struttura",
+                      f"iniettivi dichiarati ({', '.join(r['iniettivi'])})"]
+            nota = (f"gruppo {lettera}, decisione dell'utente del 2026-08-18: "
+                    + " · ".join(prove))
+            if not conPiva:
+                # 🔑 Si scrive PERCHE' manca, ⛔ non si tace: chi rilegge deve
+                # sapere che la gamba mancante e' stata **cercata e non
+                # trovata**, ⛔ non dimenticata.
+                nota += (" — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti "
+                         "⛔ non la pubblicano: misurato il 2026-08-18, la sola parola "
+                         "«P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno "
+                         "gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa "
+                         "e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)")
+            decisioni[r["dominio"]] = {"come": "medico", "nota": nota}
         DECISIONI.write_text(json.dumps(decisioni, ensure_ascii=False, indent=1, sort_keys=True)
                              + "\n", encoding="utf-8")
-        print(f"✓ registrate {len(gruppo)} decisioni «medico» (gruppo A) in {DECISIONI.name}")
+        print(f"✓ registrate {len(gruppo)} decisioni «medico» (gruppo {lettera}) "
+              f"in {DECISIONI.name}")
         print("  ⇒ ⛔ le schede NON sono ancora cambiate: `--applica` per scriverle.")
         return 0
 
@@ -360,6 +393,8 @@ def main() -> int:
     ap.add_argument("--nota", default="", help="la prova: dove hai visto l'albo, che cosa dice")
     ap.add_argument("--decidi-A", action="store_true",
                     help="registra come «medico» il gruppo A: nome proprio dopo il titolo E partita IVA")
+    ap.add_argument("--decidi-B", action="store_true",
+                    help="registra come «medico» il gruppo B: come A ⛔ ma SENZA la partita IVA")
     ap.add_argument("--applica", action="store_true",
                     help="SCRIVE nelle schede le decisioni gia' registrate (tipoSoggetto=persona)")
     args = ap.parse_args()
@@ -375,7 +410,7 @@ def main() -> int:
         print(f"✓ {args.decisa} → {args.come}" + (f" ({args.nota})" if args.nota else ""))
         return 0
 
-    if args.decidi_A or args.applica:
+    if args.decidi_A or args.decidi_B or args.applica:
         return decisioni_in_blocco(args, decisioni)
 
     schede = carica()
