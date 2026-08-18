@@ -23,6 +23,10 @@
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Arianna Milia) · iniettivi dichiarati (Filler) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
  },
+ "artfulsurgery.com": {
+  "come": "scarta",
+  "nota": "⛔ NON e' uno studio italiano: indirizzo «3800 Mt Diablo Blvd #102», CAP 94549 (California), telefono (925) 299-1985. Era entrato nel criterio B perche' il nome porta «Dr Elizabeth Lee», e il criterio B ⛔ non chiede la partita IVA. Trovato guardando la scheda prima di scrivere, 2026-08-18"
+ },
  "artofdermatology.com": {
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
@@ -55,6 +59,10 @@
   "come": "impresa",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina 4 medici (Francesco Sacco, Emanuele Sacco, Elettra Sacco, Pierpaolo Sacco) ⇒ ⛔ NON un libero professionista: e' uno studio con piu' medici, e uno studio e' un'impresa — che nell'elenco ci sta comunque"
  },
+ "chirurgiaesteticagenova.it": {
+  "come": "medico",
+  "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giuseppe») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
  "chirurgiaesteticaragusa.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Giuseppe») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -62,6 +70,14 @@
  "chirurgiaesteticascime.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Ignazio Scimè) · iniettivi dichiarati (Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "chirurgiaesteticavarese.com": {
+  "come": "medico",
+  "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Silvia») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "chirurgiamedicinaestetica.com": {
+  "come": "medico",
+  "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Lorenzo») · partita IVA 01960390514 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
  "chirurgiaplastica-brescia.it": {
   "come": "medico",
@@ -126,6 +142,10 @@
  "dermatologavenezia.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Rossana») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "dermatologia-ferrara.it": {
+  "come": "medico",
+  "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Maria») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
  "dermatologiaestetica.it": {
   "come": "medico",
@@ -303,6 +323,10 @@
   "come": "scarta",
   "nota": "gruppo 🔵 senza collocazione, decisione dell'utente del 2026-08-18: ⛔ non e' uno studio medico italiano collocabile (fabbricante, rivenditore, portale, scuola, agenzia, segnaposto o sito estero) e ⛔ non ha ne' comune, ne' partita IVA, ne' telefono italiano. Un elenco che funziona per vicinanza ⛔ non puo' ospitare una scheda senza un luogo"
  },
+ "jbaesthetics.it": {
+  "come": "medico",
+  "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Jarno») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
  "ladottoressarossi.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Rossi») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
@@ -334,6 +358,10 @@
  "medicinaesteticabg.it": {
   "come": "medico",
   "nota": "gruppo C, decisione dell'utente del 2026-08-18: il sito nomina UN SOLO medico (dott. Barbara Gunnella) · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica) · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura ⇒ studio di un professionista"
+ },
+ "medicinaesteticabrindisi.com": {
+  "come": "medico",
+  "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Porro») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
  "medicinaesteticacatania.it": {
   "come": "medico",
@@ -390,6 +418,10 @@
  "medicoesteticobrescia.it": {
   "come": "medico",
   "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Michaela») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
+ },
+ "medicoesteticobrindisi.it": {
+  "come": "medico",
+  "nota": "gruppo B, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («PORRO») · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Filler, Tossina botulinica) — ⚠️ la partita IVA ⛔ NON e' fra le prove perche' questi siti ⛔ non la pubblicano: misurato il 2026-08-18, la sola parola «P.IVA/codice fiscale/VAT» compare in 0 su 33, e 26 su 33 hanno gia' una pagina legale letta. ⛔ Cercarla nei registri d'impresa e' vietato: sono raccolte altrui (DOMINI_ESCLUSI)"
  },
  "mgestetica22.com.ar": {
   "come": "scarta",
