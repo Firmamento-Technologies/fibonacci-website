@@ -189,6 +189,24 @@ def scrivi_recapiti(db):
     «trovato ma inutilizzabile» — che è poi il caso in cui si finisce per dire
     a un estraneo **chi c'è nell'elenco senza recapito**.
 
+    🔴 **E questo file ⛔ NON è una lista di vendita.** L'informativa pubblicata
+    (§3) dichiara: *«Il trattamento **non ha finalità di marketing**. Dai dati di
+    questo elenco **non vengono inviate comunicazioni commerciali**,
+    promozionali o di sollecitazione all'acquisto di prodotti o servizi del
+    Titolare.»*
+
+    ⚠️ Quella frase ⛔ non è cautela: è **la ragione per cui il bilanciamento del
+    legittimo interesse regge**. L'assenza di marketing è ciò che rende
+    l'impatto minimo e l'aspettativa dell'interessato difendibile: un archivio
+    di recapiti costruito **senza contatto preventivo** e usato per vendere è
+    precisamente la fattispecie sanzionata a Bisnode.
+
+    ⇒ questo file serve a **recapitare il messaggio di un paziente** allo studio
+    (§4 dell'informativa), e a nient'altro. Chi volesse usarlo per una campagna
+    commerciale deve **prima** cambiare l'informativa **e rimandarla**, ⛔ non
+    dopo: fino ad allora ogni invio promozionale da qui smentisce un documento
+    che abbiamo pubblicato noi.
+
     ⛔ **E questo file ⛔ NON è il registro delle opposizioni.** Chi si oppone
     sparisce da qui **alla prossima costruzione**, che può essere lontana ⇒
     l'endpoint deve ricontrollare `_opposizioni.jsonl` **al momento
