@@ -568,6 +568,56 @@ def ripulisci_comune(grezzo):
 def senza_accenti(s):
     return "".join(c for c in unicodedata.normalize("NFD", s) if not unicodedata.combining(c))
 
+# ═════════════════════════ chi entra nell'elenco, e chi l'ha deciso
+#
+# 🔴 **Questa funzione esiste perche' la regola era scritta in DUE posti che
+# ⛔ non dicevano la stessa cosa**, e per settimane nessuno se n'e' accorto:
+#
+#     `analizza()`      `escluso = tipo != "impresa"`          ⇒ una PERSONA fuori
+#     `riclassifica()`  `escluso = tipo in (incerto, non_medico)` ⇒ una PERSONA dentro
+#
+# 📏 Misurato il 2026-08-18: **1.079 schede `persona` erano ESCLUSE** e 685 no —
+# stesso tipo, due destini. E il loro `motivoEsclusione` diceva, alla lettera:
+# «⛔ persona: studio di un professionista: dott. …» ⇒ **erano fuori dall'elenco
+# dei medici per il fatto di essere medici.** Piu' 150 `non_pertinente` DENTRO,
+# che sono «altra specialita' e nessuna medicina estetica dichiarata».
+# 🔑 ⇒ una regola sola, in una funzione sola, chiamata da tutti e due.
+DENTRO = ("impresa", "persona")
+
+
+def stato_elenco(tipo, ragione):
+    """`(escluso, motivoEsclusione)` — **l'unico posto** che lo decide."""
+    if tipo in DENTRO:
+        return False, ""
+    return True, f"⛔ {tipo}: {ragione}"
+
+
+def carica_decisioni():
+    """Le revisioni fatte da una persona, che **vincono** sul classificatore.
+
+    🔑 **Perche' serve.** `analizza()` ricalcola la scheda **da zero** ad ogni
+    raccolta: senza questo file, una decisione presa guardando il sito verrebbe
+    cancellata al giro dopo **senza un errore**, e chi l'ha presa lo scoprirebbe
+    solo ricontando.
+
+    ⚠️ Il file e' **tracciato da git** di proposito (⛔ non ignorato come
+    `_recapiti.json`): e' un **registro di decisioni**, e le schede su cui
+    decide sono gia' tracciate. Un file di decisioni che vive su una sola
+    macchina ⛔ non e' un registro, e' un appunto.
+    """
+    p = os.path.join(USCITA, "_coda-decisioni.json")
+    if not os.path.exists(p):
+        return {}
+    try:
+        d = json.load(open(p, encoding="utf-8"))
+    except Exception:
+        return {}
+    return {k: v for k, v in d.items() if isinstance(v, dict) and v.get("come") == "medico"}
+
+
+DECISE = carica_decisioni()
+
+
 def classifica(host, nome, testo, ctx_piva):
     """impresa · persona · incerto — ⛔ si pubblica **solo** `impresa`.
 
@@ -704,6 +754,10 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
     piva_m = RE_PIVA.search(piatto)
     ctx = piatto[max(0, piva_m.start() - 160):piva_m.start() + 40] if piva_m else ""
     tipo, ragione = classifica(host, nome, piatto, ctx)
+    # ⚠️ **La revisione umana vince**, e sta QUI e ⛔ non dopo: cosi' anche il
+    # CAP fuori provincia qui sotto ⛔ non puo' riportarla a «incerto».
+    if host in DECISE:
+        tipo, ragione = "persona", DECISE[host]["nota"]
 
     tel = [normalizza_tel(t) for t in RE_TEL_HREF.findall(tutto)]
     tel = [t for t in dict.fromkeys(tel) if t]
@@ -718,7 +772,7 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
     # ⚠️ Vale per **chiunque**, ⛔ non solo per le imprese: era vincolato a
     # `tipo == "impresa"` e un professionista è finito sotto Milano con il
     # comune di **Padova**. Chi ha più sedi ⛔ non è per forza una società.
-    if atteso and capcom and not capcom.group(1).startswith(atteso):
+    if atteso and capcom and host not in DECISE and not capcom.group(1).startswith(atteso):
         tipo, ragione = "incerto", (
             f"CAP {capcom.group(1)} fuori dalla provincia {provincia}: probabile gruppo con "
             "più sedi ⇒ l'indirizzo letto ⛔ non è quello della città cercata")
@@ -742,8 +796,8 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
         "ragioneClassificazione": ragione,
         "fonteUrl": [u for u, _ in pagine],
         "lettoIl": time.strftime("%Y-%m-%d"),
-        "escluso": tipo != "impresa",
-        "motivoEsclusione": "" if tipo == "impresa" else f"⛔ {tipo}: {ragione}",
+        "escluso": stato_elenco(tipo, ragione)[0],
+        "motivoEsclusione": stato_elenco(tipo, ragione)[1],
     }
 
 # ═══════════════════════════ P6 · la scoperta nazionale
@@ -1922,6 +1976,8 @@ def riclassifica(prova=True):
             ctx = piatto[max(0, piva_m.start() - 160):piva_m.start() + 40] if piva_m else ""
             prima = s.get("tipoSoggetto", "?")
             dopo, ragione = classifica(s["dominio"], s.get("nome", ""), piatto, ctx)
+            if s["dominio"] in DECISE:      # ⚠️ la revisione umana vince, qui come in analizza()
+                dopo, ragione = "persona", DECISE[s["dominio"]]["nota"]
             # 🔑 **Il ripasso è MONOTÒNO: recupera, ⛔ non declassa.** Il testo
             # riletto dalla cache può essere **più povero** di quello letto in
             # origine (`analizza` segue fino a 3 pagine interne; in cache può
@@ -1942,12 +1998,27 @@ def riclassifica(prova=True):
                 if not prova:
                     s["tipoSoggetto"] = dopo
                     s["ragioneClassificazione"] = ragione
-                    s["escluso"] = dopo in ("incerto", "non_medico")
-                    s["motivoEsclusione"] = "" if dopo in ("impresa", "persona") else f"⛔ {dopo}: {ragione}"
+                    s["escluso"], s["motivoEsclusione"] = stato_elenco(dopo, ragione)
+            # 🔴 **E si riconcilia `escluso` ANCHE quando il tipo ⛔ non cambia.**
+            # Era il buco: questo ripasso scriveva **solo** se il tipo cambiava,
+            # quindi una scheda gia' `persona` e gia' esclusa da `analizza()`
+            # ⛔ non veniva mai corretta. Sono **1.079 medici** rimasti fuori
+            # dall'elenco perche' nessuno rileggeva la loro casella.
+            atteso_e, atteso_m = stato_elenco(dopo, s.get("ragioneClassificazione") or ragione)
+            if bool(s.get("escluso")) != atteso_e:
+                esiti["🔧 «escluso» riconciliato col tipo"] = \
+                    esiti.get("🔧 «escluso» riconciliato col tipo", 0) + 1
+                if not prova:
+                    s["escluso"], s["motivoEsclusione"] = atteso_e, atteso_m
     print(f"━━━ {letti} schede ripassate dalla cache · {senza_cache} senza cache · "
           f"{len(cambi)} cambiano ━━━")
     for k, n in sorted(esiti.items(), key=lambda x: -x[1]):
-        marchio = "  " if k.split(" → ")[0] == k.split(" → ")[1] else "🔄"
+        # ⚠️ ⛔ Non tutte le chiavi sono «prima → dopo»: la riconciliazione di
+        # `escluso` ⛔ non e' un passaggio di tipo. Assumerlo faceva **saltare
+        # il rapporto** con un IndexError — e il rapporto sta **prima** di
+        # `smista()`, quindi il ripasso moriva senza scrivere niente.
+        pezzi = k.split(" → ")
+        marchio = "  " if len(pezzi) == 2 and pezzi[0] == pezzi[1] else "🔄"
         print(f"  {marchio} {k:34} {n}")
     for d, n, a, b, r in cambi[:25]:
         print(f"     {d:36} {n:40} {a} → {b}")

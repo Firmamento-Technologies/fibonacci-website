@@ -56,7 +56,11 @@ src/dati/cliniche/_recapiti-classificati.json
 # mano, con nome, recapiti e prestazioni di persone reali.
 src/dati/cliniche/_coda-revisione.json
 src/dati/cliniche/_coda-revisione.md
-src/dati/cliniche/_coda-decisioni.json
+# ⚠️ `_coda-decisioni.json` NON e' ignorato, ed e' deliberato: e' il **registro
+# delle revisioni fatte da una persona**, e la raccolta lo legge per ⛔ non
+# cancellarle al giro dopo. Un registro che vive su una sola macchina ⛔ non e'
+# un registro, e' un appunto. ⛔ Non aggiunge esposizione: le schede su cui
+# decide sono gia' tracciate, con gli stessi nomi e le stesse partite IVA.
 src/dati/cliniche/_coda-albo.json
 # 🔴 La cache delle pagine scaricate: **889 MB** in 10.227 cartelle, una per
 # sito, al 2026-08-18. `raccolta-cliniche.py` lo scrive gia' nel suo commento —
