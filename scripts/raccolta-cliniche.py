@@ -711,6 +711,16 @@ def classifica(host, nome, testo, ctx_piva):
         return "non_medico", "lessico di estetica non medica e nessun termine medico"
     return "incerto", "nessuna forma societaria e nessun nome di struttura"
 
+# 🔑 Stessa identica regola di `SIGLA` in `provincia-vera.py`: due lettere =
+# sigla di provincia. ⚠️ **E' una COPIA, dichiarata**: i due script ⛔ non si
+# importano a vicenda (`provincia-vera.py` importa solo la libreria standard),
+# e per un'espressione di quattro caratteri un import fra due CLI costerebbe
+# piu' di quanto rende. ⛔ Ma una copia taciuta e' come quelle che questo
+# progetto ha gia' pagato: `test_provincia_vera.py` **legge tutti e due i file
+# e fa fallire chi le fa divergere**.
+SIGLA_PROVINCIA = re.compile(r"^[A-Za-z]{2}$")
+
+
 def analizza(host, provincia, dove_cercare=None, max_pagine=3):
     base = f"https://{host}/"
     dove_cercare = dove_cercare or RE_INTERNI
@@ -801,7 +811,20 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
         "indirizzo": re.sub(r'\s+', ' ', via.group(1)).strip(" ,") if via else "",
         "cap": capcom.group(1) if capcom else "",
         "comune": ripulisci_comune(capcom.group(2)) if capcom else "",
-        "provincia": provincia,
+        # 🔴 **`provincia` e' DOVE ABBIAMO CERCATO, ⛔ non dove sta lo studio.**
+        # Per i bersagli-comune il chiamante passa lo **slug del comune**
+        # («rivalta-di-torino», «russi»), come dice il commento in
+        # `scoperta_nazionale()`. Scriverlo in `provincia` fa credere a chi
+        # legge che sia la sigla della provincia, e su quel campo si appoggiano
+        # le conferme del comune ⇒ le indebolisce tutte.
+        # ⚠️ Il 2026-08-18 il difetto e' stato **riparato nei dati** da
+        # `provincia-vera.py` ⛔ ma ⛔ NON qui: 73 schede nuove lo avevano gia'
+        # rimesso, **nessuna con `cercatoIn`**. ⇒ correggere l'istanza ⛔ non
+        # chiude la classe.
+        # 🔑 La sigla vera la ricava `provincia-vera.py` dai dati della scheda
+        # (comune capoluogo, CAP dominante); qui ci si limita a ⛔ non mentire.
+        "provincia": provincia if SIGLA_PROVINCIA.match(provincia or "") else "",
+        "cercatoIn": provincia or "",
         "prestazioni": [n for n, r in PRESTAZIONI.items() if re.search(r, piatto, re.I)],
         "dichiaraDirettoreSanitario": bool(RE_DIRSAN.search(piatto)),
         "dichiaraAutorizzazioneSanitaria": bool(RE_AUT.search(piatto)),

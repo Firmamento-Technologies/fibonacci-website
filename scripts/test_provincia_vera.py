@@ -69,5 +69,40 @@ class CosaSuccedeAiDatiSbagliati(unittest.TestCase):
         self.assertIsNone(pv.provincia_vera({"comune": "Vattelapesca"}, CAPO, {})[0])
 
 
+class LaRegolaDellaSiglaEUNASOLA(unittest.TestCase):
+    """⚠️ `SIGLA` vive in DUE file, e la copia e' dichiarata nel codice.
+
+    🔴 Il difetto che questo presidio chiude e' **gia' avvenuto**: il
+    2026-08-18 `provincia-vera.py` ha ripulito i dati spostando lo slug in
+    `cercatoIn`, ⛔ ma `raccolta-cliniche.py` ⛔ non e' stato toccato ⇒ **73
+    schede nuove** avevano gia' lo slug di nuovo in `provincia`, e **nessuna**
+    aveva `cercatoIn`. Correggere l'istanza ⛔ non chiude la classe.
+    """
+
+    def _pattern(self, nome, simbolo):
+        import re as _re
+        src = (QUI / nome).read_text(encoding="utf-8")
+        m = _re.search(simbolo + r'\s*=\s*re\.compile\((r?"[^"]*")\)', src)
+        self.assertIsNotNone(m, f"{simbolo} non trovata in {nome}")
+        return m.group(1)
+
+    def test_le_due_copie_sono_IDENTICHE(self):
+        self.assertEqual(self._pattern("provincia-vera.py", "SIGLA"),
+                         self._pattern("raccolta-cliniche.py", "SIGLA_PROVINCIA"))
+
+    def test_la_raccolta_NON_scrive_piu_lo_slug_in_provincia(self):
+        # ⛔ La riga `"provincia": provincia,` nuda e' il difetto: scriveva
+        # «rivalta-di-torino» dove chi legge si aspetta «TO».
+        src = (QUI / "raccolta-cliniche.py").read_text(encoding="utf-8")
+        self.assertNotIn('"provincia": provincia,', src)
+        self.assertIn('"provincia": provincia if SIGLA_PROVINCIA.match', src)
+
+    def test_la_raccolta_conserva_lo_slug_invece_di_buttarlo(self):
+        # Lo slug e' un dato utile (DOVE abbiamo cercato): si rinomina, ⛔ non
+        # si perde.
+        src = (QUI / "raccolta-cliniche.py").read_text(encoding="utf-8")
+        self.assertIn('"cercatoIn": provincia or ""', src)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

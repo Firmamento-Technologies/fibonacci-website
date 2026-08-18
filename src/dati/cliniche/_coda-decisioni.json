@@ -995,6 +995,10 @@
   "come": "medico",
   "nota": "gruppo A, decisione dell'utente del 2026-08-18: nome proprio dopo il titolo («Gioia») · partita IVA 04377611209 · ⛔ nessuna forma societaria · ⛔ nessun nome di struttura · iniettivi dichiarati (Biostimolazione, Filler, Tossina botulinica)"
  },
+ "giulialorusso.com": {
+  "come": "medico",
+  "nota": "letto a mano il 2026-08-18: OGNI pagina ha nel titolo «… | Dott.ssa Giulia Lo Russo» — chirurgia plastica ricostruttiva ed estetica, Firenze (CAP 50121), P.IVA 06511980481, tel +39 055 244950. UNA sola persona in tutto il sito. ⚠️ Il classificatore ⛔ non la vedeva perche' prende come «nome» la META' PRIMA della barra verticale («Chirurgia Plastica Ricostruttiva ed Estetica»), e il nome del medico sta DOPO"
+ },
  "glbeauty.it": {
   "come": "impresa",
   "nota": "gruppo 🟡, decisione dell'utente del 2026-08-18: il sito nomina 2 medici (Luigi Castaldo, Giuseppe Quarto) ⇒ ⛔ NON un libero professionista: uno studio con piu' medici, che nell'elenco ci sta comunque"
@@ -1210,6 +1214,10 @@
  "medestetik.it": {
   "come": "scarta",
   "nota": "letto a mano il 2026-08-18 nelle pagine gia' in cache — riscaricato il 2026-08-18 (10.573 caratteri): si presenta come «un unico STUDIO ESTETICO», le recensioni parlano di manicure, pedicure e «questo CENTRO ESTETICO… la titolare, Micaela», e la privacy dichiara titolare «Micaela Loberti». «albo» e «iscritt» compaiono ZERO volte ⇒ e' un'estetista"
+ },
+ "medestetiq.it": {
+  "come": "medico",
+  "nota": "aperta col BROWSER il 2026-08-18, perche' il lettore ⛔ non poteva: l'HTML servito ha UN SOLO link (la favicon) e tutta la navigazione la costruisce il JS ⇒ le pagine interne erano irraggiungibili indovinando i percorsi (i veri sono /chisono, /services, /contacts). Il titolo di /chisono e': «Dott. Emanuele Del Favero - Medico Chirurgo e Specialista in Medicina Estetica». Il pie' di pagina, su ogni pagina: «MedestetIQ e i loghi sono marchi registrati … di proprieta' esclusiva del dott. Emanuele Del Favero» + «P. IVA: 04462020282» + la dichiarazione ex L. 24/2017 (Gelli-Bianco) art. 4 c. 3 «non sono stati erogati risarcimenti per danni da rischio sanitario», che e' un obbligo di trasparenza degli esercenti la professione sanitaria. Menu «Chi sono» al SINGOLARE ⇒ un solo medico. Belluno"
  },
  "medicalbeautymilano.com": {
   "come": "medico",
