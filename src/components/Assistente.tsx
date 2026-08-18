@@ -154,7 +154,7 @@ export function Assistente() {
           id={`${idCampo}-aiuto`}
           className="mt-[var(--s-5)] text-[0.9375rem]"
           style={{ color: 'var(--fg-muted)' }}
-        >Risponde leggendo<strong>solo le pagine di questo sito</strong>, e cita quali ha usato.
+        >Risponde leggendo <strong>solo le pagine di questo sito</strong>, e cita quali ha usato.
           Non conosce nulla che non sia già pubblicato qui, e non dà indicazioni cliniche.
         </p>
 

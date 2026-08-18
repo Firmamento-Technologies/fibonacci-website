@@ -175,7 +175,7 @@ export default function ConformitaEuropea() {
                   <p>
                     {t('conformitaeuropea.non_e_una_formalita_da_ufficio')}
                   </p>
-                  <p style={{ color: 'var(--on-ink)' }}>Oggi la marcatura<strong>non è apponibile da nessuno</strong>: mancano gli atti
+                  <p style={{ color: 'var(--on-ink)' }}>Oggi la marcatura <strong>non è apponibile da nessuno</strong>: mancano gli atti
                     di esecuzione della Commissione sull’ambiente di prova e sul formato europeo di
                     scambio. Se un fornitore te la dichiara adesso, ti sta dicendo qualcosa su di sé.
                   </p>
@@ -273,7 +273,7 @@ export default function ConformitaEuropea() {
         <div className="gabbia gabbia-stretta">
           <Reveal className="passo">
             <Occhiello>{t('conformitaeuropea.non_e_una_nostra_gentilezza')}</Occhiello>
-            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>Poter portare via i dati è un tuo<span className="accento-corsivo">dovere</span>, non
+            <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '24ch' }}>Poter portare via i dati è un tuo <span className="accento-corsivo">dovere</span>, non
               una nostra concessione
             </h2>
             <div

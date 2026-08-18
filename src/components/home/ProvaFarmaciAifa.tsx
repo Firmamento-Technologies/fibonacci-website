@@ -92,7 +92,7 @@ export function ProvaFarmaciAifa() {
 
       <div className="prova-catalogo__esito" aria-live="polite">
         {!q.trim() && (
-          <p className="prova-viso__vuoto">Si prescrive per<strong>principio attivo</strong>, non per marca. Il foglietto
+          <p className="prova-viso__vuoto">Si prescrive per <strong>principio attivo</strong>, non per marca. Il foglietto
             illustrativo e la scheda tecnica sono quelli ufficiali AIFA, a un clic dalla
             prescrizione.
             <br />

@@ -64,7 +64,7 @@ export default function Page() {
             <strong>l’alternativa</strong> e <strong>il non farlo</strong> sono due opzioni
             vere, e devono esserti presentate come tali.
           </p>
-          <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>Puoi anche scegliere il contrario:<em>non</em> ricevere le informazioni, o
+          <p className="mt-[var(--s-13)]" style={{ color: 'var(--fg-muted)' }}>Puoi anche scegliere il contrario: <em>non</em> ricevere le informazioni, o
             indicare una persona di fiducia che le riceva al posto tuo. Anche questo è un
             tuo diritto, e va messo per iscritto in cartella.
           </p>
@@ -80,14 +80,14 @@ export default function Page() {
         </Sezione>
 
         <Sezione id="revoca" titolo={t('pazienti.consensoinformato.puoi_cambiare_idea_sempre')}>
-          <p>Hai il diritto di<strong>rifiutare</strong> in tutto o in parte, e di{' '}
+          <p>Hai il diritto di <strong>rifiutare</strong> in tutto o in parte, e di{' '}
             <strong>revocare il consenso in qualsiasi momento</strong>: anche dopo averlo
             dato, anche quando revocarlo interrompe il trattamento. Non devi giustificarti.
           </p>
         </Sezione>
 
         <Sezione id="estetica" titolo={t('pazienti.consensoinformato.perche_in_medicina_estetica_e_piu')}>
-          <p>Un trattamento estetico si fa su una persona<strong>sana</strong>, e{' '}
+          <p>Un trattamento estetico si fa su una persona <strong>sana</strong>, e{' '}
             <strong>non è necessario</strong>: nessuno sta curando una malattia. Per questo
             i giudici chiedono al medico estetico un’informazione{' '}
             <strong>più rigorosa</strong> che altrove: deve mettere in conto anche il

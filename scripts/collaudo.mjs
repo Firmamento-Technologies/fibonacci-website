@@ -25,6 +25,7 @@ import { paritaFarmaci } from './parita-farmaci.mjs'
 import { paritaProdotto } from './parita-prodotto.mjs'
 import { paritaListino } from './parita-listino.mjs'
 import { classiEsistono } from './classi-esistono.mjs'
+import { paroleAttaccate } from './parole-attaccate.mjs'
 import { nienteLineetta } from './niente-lineetta.mjs'
 import { nienteDatiElenco } from './niente-dati-elenco.mjs'
 import { problemiDelCorpus } from './corpus-assistente.mjs'
@@ -938,6 +939,18 @@ async function main() {
   paritaProdotto(problemi, (m) => console.log(giallo('\n' + m)))
   classiEsistono(problemi)
   nienteLineetta(problemi)
+  /* ⚠️ Lo spazio fra il testo e il tag che gli sta accanto. Sembra pedanteria e
+     non lo è: il 2026-08-17 sono finite in linea, in cinque lingue, frasi come
+     «Il listino è**pubblico**» e «Scrivici a**info@fibonaccimedica.it**».
+     Sorgente valido, tipi giusti, build verde, presidi della traduzione tutti
+     contenti: si vedeva **solo leggendo la pagina**. Vedi la testa di
+     `parole-attaccate.mjs`. */
+  for (const x of paroleAttaccate()) {
+    problemi.push(
+      `manca lo spazio fra testo e tag in ${x.file}: «…${x.testo}» <${x.tag}> ` +
+        '⇒ in JSX lo spazio dell\'a capo non sopravvive se la riga viene riscritta',
+    )
+  }
   /* 🔴 Il piu' serio: guarda il COSTRUITO e fallisce se un recapito
      dell'elenco (3.118 indirizzi di persone reali) e' finito in una pagina
      pubblicabile. Vedi la testa di `niente-dati-elenco.mjs`. */

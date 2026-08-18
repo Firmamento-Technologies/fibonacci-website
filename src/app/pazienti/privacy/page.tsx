@@ -90,7 +90,7 @@ export default function Page() {
           <p className="mt-[var(--s-13)]">
             {t('pazienti.privacy.noi_facciamo_da_fornitore_tecnico_teniamo')}
           </p>
-          <p className="mt-[var(--s-13)]">Una richiesta di appuntamento<strong>non è una prenotazione confermata</strong>:
+          <p className="mt-[var(--s-13)]">Una richiesta di appuntamento <strong>non è una prenotazione confermata</strong>:
             è lo studio a confermarla.
           </p>
         </Sezione>
