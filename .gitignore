@@ -44,3 +44,10 @@ next-env.d.ts
 # Il manuale, generato dalla build e NON pubblicato (vedi scripts/manuale-privato.mjs).
 # ⛔ Non committarlo: è un artefatto, e la sorgente sono i .md in src/content/docs.
 /manuale/
+
+# I recapiti raccolti e la loro classificazione: dati personali di persone
+# reali, mai committati. ⚠️ `_recapiti.json` non era ignorato — era solo «mai
+# aggiunto», che regge finché nessuno scrive `git add -A`. Il file
+# classificato nasce dallo stesso dato e finiva nella stessa trappola.
+src/dati/cliniche/_recapiti.json
+src/dati/cliniche/_recapiti-classificati.json
