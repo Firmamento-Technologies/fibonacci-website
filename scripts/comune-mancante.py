@@ -133,7 +133,13 @@ def mappa_cap(schede):
     # ⛔ Comuni **troncati** ereditati da schede sbagliate: «San», «Santa»,
     # «Sant» ⛔ non sono comuni, sono l'inizio di un nome tagliato a meta'.
     # Misurato: 5 schede sarebbero finite a «San».
-    monchi = {"san", "santa", "sant", "santo", "borgo", "villa", "monte", "castel", "citta"}
+    # ⚠️ «Porto» e' arrivato dopo gli altri: il CAP 07046 e' **Porto Torres**,
+    # e la mappa aveva imparato il nome tagliato a meta' da una scheda sbagliata.
+    # 🔑 Sono tutti **primi pezzi di nomi composti**: se il valore e' solo
+    # quello, la scheda da cui viene era gia' monca.
+    monchi = {"san", "santa", "sant", "santo", "borgo", "villa", "monte", "castel", "citta",
+              "porto", "torre", "torri", "campo", "cava", "sesto", "rocca", "colle", "casal",
+              "cerreto", "serra", "pieve", "bagno", "bagni", "castello", "castelli"}
     return {c: v.most_common(1)[0][0] for c, v in per_cap.items()
             if len({x[0].lower() for x in v}) == 1
             and v.most_common(1)[0][0][0].strip().lower() not in monchi
@@ -199,6 +205,25 @@ def carica():
                     for p, cs in per_prov.items()}
 
 
+def nomi_veri(schede):
+    """`comune appiattito → come si scrive davvero`.
+
+    🔴 Il metodo dal dominio restituiva la forma **appiattita**, e scriveva
+    «genova» minuscolo nel campo `comune` (da `andi**genova**.it`). ⚠️ Sembra un
+    dettaglio, ⛔ ma quel campo lo si confronta con altri comuni e lo si mostra:
+    una forma diversa dalle altre e' un dato che ⛔ non combacia.
+    """
+    conta = collections.Counter()
+    for _, s in schede:
+        com = (s.get("comune") or "").strip()
+        if len(com) > 2:
+            conta[(_piatto(com), com)] += 1
+    fuori = {}
+    for (piatto_, vero), n in conta.most_common():
+        fuori.setdefault(piatto_, vero)
+    return fuori
+
+
 def _prefisso_valido(pref):
     """Vero se davanti alla citta' c'e' **niente** o una parola riconoscibile."""
     return pref == "" or any(pref.endswith(t) for t in TERMINI)
@@ -246,6 +271,7 @@ def main() -> int:
     args = ap.parse_args()
 
     schede, per_prov = carica()
+    veri = nomi_veri(schede)
     if not schede:
         print("⚠️  nessuna scheda in `src/dati/cliniche/`: ⛔ NON e' stato estratto niente.")
         print("    (⛔ non e' «zero da riempire» — e' una misura che non c'e')")
@@ -260,7 +286,9 @@ def main() -> int:
                            "\n".join(_testo(x) for x in _pagine(s["dominio"])))
             c, perche = estrai_dal_cap(s, cap_comune, testo)
         if c:
-            tro.append((f, s, c, perche))
+            # ⚠️ Si scrive il comune **come si scrive davvero**, ⛔ non la forma
+            # appiattita che serve solo a confrontare.
+            tro.append((f, s, veri.get(_piatto(c), c), perche))
 
     print(f"── {len(schede)} schede · {len(senza)} senza comune "
           f"({len(senza)/len(schede):.0%}) ──\n")

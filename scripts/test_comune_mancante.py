@@ -172,6 +172,21 @@ class MetodoB_DalCap(unittest.TestCase):
             schede = [(None, {"cap": "20100", "comune": v, "provincia": "mi"})] * 3
             self.assertNotIn("20100", cdd.mappa_cap(schede), v)
 
+    def test_i_nomi_composti_TAGLIATI_A_META_non_entrano(self):
+        # 🔴 «Porto» arrivava dal CAP 07046, che e' **Porto Torres**: la mappa
+        # aveva imparato il nome monco da una scheda sbagliata.
+        for v in ("Porto", "Torre", "Campo", "Sesto", "Rocca", "Pieve"):
+            schede = [(None, {"cap": "07046", "comune": v, "provincia": "ss"})] * 3
+            self.assertNotIn("07046", cdd.mappa_cap(schede), v)
+
+    def test_il_comune_si_scrive_come_va_scritto(self):
+        # 🔴 Il metodo dal dominio scriveva «genova» minuscolo, la forma
+        # appiattita che serve solo a **confrontare**.
+        veri = cdd.nomi_veri([(None, {"comune": "Genova"}), (None, {"comune": "Genova"}),
+                              (None, {"comune": "Reggio Emilia"})])
+        self.assertEqual(veri["genova"], "Genova")
+        self.assertEqual(veri["reggioemilia"], "Reggio Emilia")
+
     def test_i_comuni_TRONCATI_non_entrano_nella_mappa(self):
         # «San» ⛔ non e' un comune: e' un nome tagliato a meta' in una scheda
         # sbagliata. Misurato: 5 schede sarebbero finite a «San».
@@ -189,6 +204,40 @@ class MetodoB_DalCap(unittest.TestCase):
         mp = cdd.mappa_cap(schede)
         self.assertNotIn("20100", mp, "un CAP ambiguo ⛔ non deve entrare")
         self.assertEqual(mp["16128"], ("Genova", "ge"))
+
+
+class IlGiroINTERO_scriveSuFile(unittest.TestCase):
+    """⚠️ Prova d'integrazione, e ⛔ non e' un lusso.
+
+    🔴 Le prove per mutazione hanno mostrato **tre volte in un giorno** che un
+    test puo' verificare una funzione **senza che nessuno la chiami**: qui
+    `nomi_veri()` era giusta e `main()` ⛔ non la usava, e la mutazione
+    sopravviveva. ⇒ un test che si ferma alla funzione ⛔ non copre il
+    **cablaggio**.
+    """
+
+    def test_il_comune_scritto_sul_FILE_ha_le_maiuscole_giuste(self):
+        import contextlib, io, json, sys, tempfile
+        d = Path(tempfile.mkdtemp())
+        (d / "prova.json").write_text(json.dumps([
+            # due schede che insegnano come si scrive «Genova»…
+            {"dominio": "a.it", "comune": "Genova", "provincia": "ge", "cap": "16121"},
+            {"dominio": "b.it", "comune": "Genova", "provincia": "ge", "cap": "16121"},
+            # …e una senza comune, il cui dominio finisce per «genova»
+            {"dominio": "andigenova.it", "comune": "", "provincia": "ge",
+             "nome": "ANDI Genova"},
+        ], ensure_ascii=False), encoding="utf-8")
+        vecchie = (cdd.CARTELLA, sys.argv)
+        try:
+            cdd.CARTELLA = d
+            sys.argv = ["x", "--scrivi"]
+            with contextlib.redirect_stdout(io.StringIO()):   # ⚠️ il rapporto coprirebbe il verdetto
+                cdd.main()
+        finally:
+            cdd.CARTELLA, sys.argv = vecchie
+        scritte = {r["dominio"]: r for r in json.loads((d / "prova.json").read_text(encoding="utf-8"))}
+        self.assertEqual(scritte["andigenova.it"]["comune"], "Genova",
+                         "il giro intero ha scritto la forma appiattita")
 
 
 if __name__ == "__main__":
