@@ -167,6 +167,9 @@ PUBBLICATI = os.path.join(USCITA, "_pubblicati.json")
 RECAPITI = os.path.join(USCITA, "_recapiti.json")
 
 
+from recapiti_filtri import _e_nominativa, _origine_non_propria  # noqa: E402
+
+
 def scrivi_recapiti(db):
     """Il **solo** dato che il canale di contatto deve vedere. — TD-166
 
@@ -193,9 +196,32 @@ def scrivi_recapiti(db):
     comanda: è l'unico modo perché un'opposizione accolta **adesso** valga
     **adesso**.
     """
-    righe = {d: {"nome": n, "email": e, "origine": o} for d, n, e, o in db.execute(
+    grezze = list(db.execute(
         "SELECT dominio, nome, email, origine FROM studi "
-        "WHERE email IS NOT NULL AND email != ''")}
+        "WHERE email IS NOT NULL AND email != ''"))
+
+    # Quante volte compare ogni dominio: serve a riconoscere i portali e le
+    # agenzie, e va contato **prima** di filtrare.
+    conta = {}
+    for _, _, e, _ in grezze:
+        dom = (e or "").strip().lower().split("@")[-1]
+        conta[dom] = conta.get(dom, 0) + 1
+
+    righe, tolte_nome, tolte_origine = {}, 0, 0
+    for d, n, e, o in grezze:
+        if _e_nominativa(e):
+            tolte_nome += 1
+            continue
+        if _origine_non_propria(e, conta):
+            tolte_origine += 1
+            continue
+        righe[d] = {"nome": n, "email": e, "origine": o}
+
+    # ⚠️ Si **stampa** che cosa è stato tolto: un filtro silenzioso è un filtro
+    # che nessuno accorge quando smette di funzionare.
+    print(f"   scartati per l'informativa: {tolte_nome} indirizzi nominativi, "
+          f"{tolte_origine} da portali/agenzie/segnaposto")
+
     json.dump(righe, open(RECAPITI, "w", encoding="utf-8"),
               ensure_ascii=False, indent=0, sort_keys=True)
     intero = sum(os.path.getsize(DB + c) for c in ("", "-wal", "-shm")

@@ -39,6 +39,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from recapiti_filtri import _e_nominativa, _origine_non_propria  # noqa: E402
+
 QUI = Path(__file__).resolve().parent
 FONTE = QUI.parent / "src/dati/cliniche/_recapiti.json"
 USCITA = QUI.parent / "src/dati/cliniche/_recapiti-classificati.json"
@@ -153,6 +156,11 @@ def classifica(dati: dict) -> list[dict]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--scrivi", action="store_true", help="scrive il file classificato")
+    ap.add_argument(
+        "--applica",
+        action="store_true",
+        help="RIMUOVE dal file dei recapiti le righe che l'informativa vieta",
+    )
     args = ap.parse_args()
 
     dati = json.loads(FONTE.read_text(encoding="utf-8"))
@@ -181,6 +189,23 @@ def main() -> int:
     print("\n⚠️ I 'verificare' NON sono esclusi dall'obbligo: sono esclusi dall'INVIO")
     print("   finche' non si sa a chi appartiene quell'indirizzo. Per loro resta")
     print("   l'informativa pubblicata, e vanno guardati a mano.")
+
+    if args.applica:
+        # ⚠️ Il filtro definitivo sta nel raccoglitore (`costruisci-db.py`): questo
+        # e' il rimedio sul file GIA' scritto, per non dover rifare la raccolta.
+        # ⛔ Non e' un doppione: e' la **stessa** funzione, importata.
+        conta = collections.Counter(
+            (v.get("email") or "").strip().lower().split("@")[-1] for v in dati.values()
+        )
+        tenute = {
+            k: v for k, v in dati.items()
+            if not _e_nominativa(v.get("email", ""))
+            and not _origine_non_propria(v.get("email", ""), conta)
+        }
+        FONTE.write_text(json.dumps(tenute, ensure_ascii=False, indent=0, sort_keys=True) + "\n",
+                         encoding="utf-8")
+        print(f"\n✓ applicato: {len(dati)} → {len(tenute)} "
+              f"(-{len(dati)-len(tenute)} righe che l'informativa vieta)")
 
     if args.scrivi:
         USCITA.write_text(json.dumps(righe, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

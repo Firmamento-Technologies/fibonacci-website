@@ -67,6 +67,23 @@ fi
 #    costruito a cinque lingue, l'hook **dichiara quale controllo non ha girato**.
 #    Un presidio che tace su cio' che non ha guardato e' il difetto che questo
 #    lavoro e' nato per chiudere.
+# ── I dati raccolti rispettano quello che l'informativa PROMETTE? ───────────
+# 🔴 Il 18 agosto 2026 l'informativa pubblicata dichiarava due cose che i dati
+# contraddicevano (16 indirizzi nominativi «scartati automaticamente» che
+# c'erano ancora, e 11 voci da un elenco telefonico mentre §2 dice che l'origine
+# e' una sola). Un'informativa che dichiara «non trattiamo X» mentre X e'
+# nell'archivio e' PEGGIO di un'informativa assente.
+# ⚠️ Costa un decimo di secondo e legge la FONTE, mentre `niente-dati-elenco`
+# guarda il COSTRUITO: due domande diverse, servono tutte e due.
+if ! python3 scripts/promesse-informativa.py; then
+  echo
+  echo "⛔ PUSH BLOCCATO: i dati raccolti contraddicono l'informativa pubblicata."
+  echo "   Si sana FACENDO quello che l'informativa promette:"
+  echo "     python3 scripts/classifica-recapiti.py --applica"
+  echo "   ⛔ Non indebolendo l'informativa."
+  exit 1
+fi
+
 if ! node scripts/lingue-sorgenti.mjs; then
   echo
   echo "⛔ PUSH BLOCCATO: la traduzione del sito è regredita."
