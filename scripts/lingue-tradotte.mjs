@@ -70,7 +70,40 @@ const LINGUE = ['en', 'es', 'fr', 'de']
  * tedesca dice «Botulinumtoxin», non «Tossina botulinica».
  * ⛔ Da qui può solo scendere.
  */
-const MASSIMO_RESIDUI = 8
+/**
+ * ⛔ **ZERO, e non è severità: è che i residui legittimi ora hanno un nome.**
+ *
+ * 🔴 La soglia valeva **8**, e il 2026-08-19 si è misurato che cosa proteggeva
+ * davvero: dopo aver marcato i dati del medico la linea di base era scesa a
+ * **3 · 8 · 4 · 3**, cioè restavano **cinque posti liberi**. Provato: rimessa a
+ * mano la stringa «Tutti gli studi», il presidio la elencava su tutte e quattro
+ * le schede **restando VERDE**, perché 3+4 ≤ 8. Un margine numerico non
+ * distingue un residuo che va bene da un difetto: li conta insieme.
+ *
+ * ⇒ Ora i residui accettati sono **elencati per nome** in `AMMESSI`, ognuno con
+ * il perché, e tutto il resto è rosso al primo. ⚠️ Aggiungere una voce ad
+ * `AMMESSI` è una decisione che si scrive; alzare un numero non lo era.
+ */
+const MASSIMO_RESIDUI = 0
+
+/**
+ * Le frasi che restano in italiano **a ragione**, con il motivo scritto.
+ * ⛔ Non è una lista in cui parcheggiare ciò che non si ha voglia di tradurre:
+ * ogni voce è stata **guardata nella pagina** prima di entrare qui, e quelle
+ * che si sono rivelate difetti veri (i titoli delle sezioni nel riquadro della
+ * cartella, i nomi delle categorie in quello dei richiami) sono state
+ * **corrette**, non ammesse.
+ */
+const AMMESSI = {
+  // Identificativi fiscali italiani: nominano strumenti dell'ordinamento
+  // italiano e restano tali anche in un documento spagnolo o tedesco, accanto
+  // al valore che li segue. Tradurli direbbe una cosa falsa.
+  'chrome.footer.partita_iva': 'nome di un identificativo fiscale italiano',
+  // I due documenti del sito si chiamano così anche nelle altre lingue: è il
+  // loro titolo, e il rimando deve poterci arrivare.
+  'lib.legaldocs.privacy_policy': 'titolo proprio del documento',
+  'lib.legaldocs.cookie_policy': 'titolo proprio del documento',
+}
 
 /**
  * E quante frasi tradotte ci si aspetta di TROVARE. Misurate lo stesso giorno:
@@ -189,13 +222,16 @@ for (const l of LINGUE) {
 
     for (const k of confrontabili) {
       if (contiene(t, tr[k])) tradotte += 1
-      if (contiene(t, it[k])) residui.push({ pagina: neutro, chiave: k, testo: it[k] })
+      if (contiene(t, it[k]) && !(k in AMMESSI)) {
+        residui.push({ pagina: neutro, chiave: k, testo: it[k] })
+      }
     }
   }
 
   const esito = identiche.length === 0 && residui.length <= MASSIMO_RESIDUI && tradotte >= MINIMO_TRADOTTE
   console.log(
     `${esito ? '✅' : '⛔'} ${l}: tradotte ${tradotte} · residui ${residui.length}` +
+      ` · ${Object.keys(AMMESSI).length} frasi ammesse per nome` +
       (identiche.length ? ` · ${identiche.length} pagine IDENTICHE all'italiano` : ''),
   )
 

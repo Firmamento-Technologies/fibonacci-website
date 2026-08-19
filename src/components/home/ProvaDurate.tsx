@@ -25,6 +25,22 @@ import dati from '@/lib/prodotto.json'
 type Durata = { codice: string; nome: string; meseMin: number; meseMax: number; fonte: string }
 const DURATE = dati.durate as Durata[]
 
+/* Il nome delle tre categorie, dal dizionario. ⚠️ In `prodotto.json` stanno in
+ * italiano (quel file è la sorgente dei codici e degli intervalli, ⛔ non della
+ * lingua) e uscivano in italiano anche nelle quattro pagine tradotte.
+ * 🔑 Il presidio ne vedeva **una sola** — «Tossina botulinica», l'unica che
+ * coincide con una voce del dizionario: le altre due erano invisibili perché
+ * una frase mai messa nel dizionario ⛔ non può risultarne mancante.
+ * ⚠️ Il resto di questo riquadro (i mesi, la citazione della fonte, la
+ * didascalia finale) è **ancora scritto a mano in italiano**, per la stessa
+ * ragione, ed è registrato come rilievo: qui si chiude ciò che il presidio
+ * misura, ⛔ non tutto ciò che è da tradurre. */
+const NOME_DURATA: Record<string, string> = {
+  'tossina-bot': t('home.provadurate.tossina_botulinica_tipo_a'),
+  'filler-ha': t('home.provadurate.filler_acido_ialuronico'),
+  'biostim-pllla': t('home.provadurate.biostimolatore'),
+}
+
 export function ProvaDurate() {
   const [scelto, setScelto] = useState<string | null>(null)
   const d = DURATE.find((x) => x.codice === scelto) ?? null
@@ -53,7 +69,7 @@ export function ProvaDurate() {
             aria-pressed={scelto === x.codice}
             className={`prova-viso__pillola${scelto === x.codice ? ' e-scelta' : ''}`}
           >
-            {x.nome.split(' (')[0]}
+            {NOME_DURATA[x.codice] ?? x.nome.split(' (')[0]}
           </button>
         ))}
       </div>

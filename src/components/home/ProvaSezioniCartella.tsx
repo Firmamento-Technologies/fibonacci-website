@@ -19,7 +19,7 @@
  * e nasconderlo darebbe l'idea che l'anagrafica non ci sia.
  */
 
-import { t } from '@/lib/testo'
+import { t, t2 } from '@/lib/testo'
 import { useState } from 'react'
 import dati from '@/lib/prodotto.json'
 
@@ -46,6 +46,22 @@ const NOME: Record<string, string> = {
   equipe: t('home.provasezionicartella.quipe'),
 }
 
+/* I titoli delle sei sezioni. ⚠️ Stanno in `prodotto.json` **in italiano** —
+ * quel file è la sorgente degli identificativi, non della lingua — e per mesi
+ * sono usciti in italiano anche nelle pagine tedesche, inglesi, spagnole e
+ * francesi: «Riepilogo Anamnesi Cure Foto Documenti Dati e persone» in mezzo a
+ * un paragrafo tradotto. 🔎 Il presidio della traduzione ne vedeva **uno solo**
+ * (`Documenti`, l'unico che coincide con una voce del dizionario) ⇒ misurato,
+ * corretto e messo qui accanto ai tredici nomi che erano già a posto. */
+const TITOLO: Record<string, string> = {
+  riepilogo: t('home.provasezionicartella.riepilogo'),
+  anamnesi: t('home.documentochesicompone.anamnesi'),
+  cure: t('home.provasezionicartella.cure'),
+  immagini: t('home.provasezionicartella.foto'),
+  documenti: t('legale.layout.documenti'),
+  dati: t('home.provasezionicartella.dati_e_persone'),
+}
+
 export function ProvaSezioniCartella() {
   const [aperta, setAperta] = useState<string | null>(null)
   const s = SEZIONI.find((x) => x.id === aperta) ?? null
@@ -54,8 +70,8 @@ export function ProvaSezioniCartella() {
   return (
     <div className="prova-catalogo" data-testid="prova-sezioni-cartella">
       <p className="prova-viso__invito">
-        <strong>{t('home.provasezionicartella.provalo_qui')}</strong> {SEZIONI.length} sezioni, {totale} posti dove finisce
-        quello che scrivi. Toccane una.
+        <strong>{t('home.provasezionicartella.provalo_qui')}</strong>{' '}
+        {t2('home.provasezionicartella.sezioni_e_posti', { sezioni: SEZIONI.length, posti: totale })}
       </p>
 
       <div className="prova-viso__pillole prova-sezioni__pillole" role="group" aria-label={t('home.provasezionicartella.sezioni_della_cartella')}>
@@ -67,7 +83,7 @@ export function ProvaSezioniCartella() {
             aria-pressed={aperta === x.id}
             className={`prova-viso__pillola${aperta === x.id ? ' e-scelta' : ''}`}
           >
-            {x.titolo}
+            {TITOLO[x.id] ?? x.titolo}
           </button>
         ))}
       </div>
@@ -81,7 +97,7 @@ export function ProvaSezioniCartella() {
         {s && (
           <>
             <p className="prova-catalogo__titolo" style={{ fontWeight: 600 }}>
-              {s.titolo}
+              {TITOLO[s.id] ?? s.titolo}
             </p>
             <ul className="prova-catalogo__lista">
               {s.dentro.map((t) => (
