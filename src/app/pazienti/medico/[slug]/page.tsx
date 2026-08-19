@@ -129,6 +129,14 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
   return (
     <GuscioPaziente
+      /* 🛑 Il marchio che il RILASCIO legge (`scripts/rilascia.mjs`), e il
+         motivo per cui non basta l'avviso qui sotto: quello è una frase, ed è
+         **tradotta** — un controllo che cercasse il testo sarebbe verde in
+         italiano e cieco sulle altre quattro lingue. Questo è un attributo,
+         uguale in tutte. ⛔ Non metterlo su una pagina che non è di prova: è
+         ciò che tiene fuori dal sito le schede dei medici veri (vincolo
+         dell'utente del 2026-08-16). */
+      scheda={m.esempio ? 'esempio' : undefined}
       avviso={
         m.esempio ? (
           <>

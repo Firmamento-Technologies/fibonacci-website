@@ -30,16 +30,23 @@ import { SOCIETA } from '@/lib/site-config'
 export function GuscioPaziente({
   children,
   avviso,
+  scheda,
 }: {
   children: ReactNode
   /** Riga in cima, sopra tutto: oggi serve a dichiarare le pagine di esempio. */
   avviso?: ReactNode
+  /** Che cosa È questa pagina, per chi la legge a macchina. Oggi un valore
+   *  solo, `'esempio'`: lo scrive la scheda di uno studio di prova e lo
+   *  controlla il rilascio. ⛔ Non è decorazione: senza, quella pagina viene
+   *  trattata come la scheda di un medico vero e il rilascio si ferma. */
+  scheda?: 'esempio'
 }) {
   return (
     <>
       {avviso && (
         <div
           role="status"
+          data-scheda={scheda}
           className="text-center"
           style={{
             background: 'var(--bg-sunk)',

@@ -210,7 +210,25 @@ try {
   const schede = existsSync(join(OUT, 'pazienti/medico'))
     ? readdirSync(join(OUT, 'pazienti/medico'))
     : []
-  const nonEsempi = schede.filter((s) => !s.startsWith('studio-dimostrativo'))
+  /* 🔑 **Come si riconosce un esempio**, e perché la regola è cambiata il
+   * 2026-08-19 (decisione dell'utente, chiesta prima di toccare il controllo).
+   * Prima bastava il **nome della cartella** (`studio-dimostrativo*`), che
+   * copriva i due studi scritti a mano dentro il sito. Poi il canale ha
+   * cominciato a servire studi **veri sul VPS di prova** — finti, marcati
+   * `esempio: true` dal sidecar, `noindex`, con il riquadro «questo studio non
+   * esiste» in cima — e il controllo li ha presi per medici veri: il rilascio
+   * si è fermato su `studio-di-collaudo-alfa`/`-beta`.
+   * ⇒ Ora vale il **marchio nella pagina** (`data-scheda="esempio"`, scritto da
+   * `GuscioPaziente`), che è la stessa cosa che decide `noindex` e i dati
+   * strutturati. ⛔ Il nome resta accettato per i due scritti a mano.
+   * ⚠️ **Il vincolo non è stato allentato**: le 4.647 schede raccolte NON hanno
+   * quel marchio — nessuno lo scrive per loro — quindi restano fuori, ed è
+   * proprio ciò che questo controllo difende. */
+  const nonEsempi = schede.filter((s) => {
+    if (s.startsWith('studio-dimostrativo')) return false
+    const html = readFileSync(join(OUT, 'pazienti/medico', s, 'index.html'), 'utf8')
+    return !html.includes('data-scheda="esempio"')
+  })
   if (nonEsempi.length) {
     muori(
       `nel costruito ci sono ${nonEsempi.length} schede di medici che NON sono esempi: ` +
