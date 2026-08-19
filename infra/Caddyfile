@@ -228,7 +228,21 @@ app.fibonaccimedica.it {
 	# ⚠️ Qui passano immagini cliniche cifrate e PDF firmati: il corpo puo'
 	# essere grande, quindi niente limite piu' stretto del necessario.
 	handle_path /pdf/* {
-		reverse_proxy 127.0.0.1:8201
+		# 🔴 LISTA BIANCA (2026-08-19). Prima qui c'era un catch-all: TUTTO il
+		# sidecar era su internet, misurato dal vivo — `/pdf/docs` e
+		# `/pdf/openapi.json` rispondevano 200 a chiunque, e gli `/internal/*`
+		# (provisioning con super-admin) erano raggiungibili. È lo stesso buco
+		# R1 già chiuso nel Caddyfile interno dell'EMR (`@pdf_pubbliche`):
+		# questa lista DEVE restare allineata a quella — se una rotta nuova
+		# serve al browser, si aggiunge in tutti e due i posti.
+		# ⚠️ I percorsi qui sono POST-strip (`handle_path` toglie `/pdf`).
+		@pubbliche path /health /signup /signup/stato /webhook/* /pubblico/* /prenotazioni/esito /consensi/* /allegato/* /comunicazioni/* /letteratura/* /aifa/* /photo/* /render-md /render-consent /render-patient-summary /send-visit-email /send-document-email /send-appointment-reminder /sign-pades /verify-pdfa /verify-pdfa-strict /anonymize-face /strip-exif /watermark-photo /extract-watermark /body-map/extract /voxtral/transcribe /extract-anamnesi /chatbot/* /tasks/suggest /audit/export /patient/* /fse/* /studio/invita-collega /manuale /manuale/*
+		handle @pubbliche {
+			reverse_proxy 127.0.0.1:8201
+		}
+		handle {
+			respond "Accesso non consentito" 403
+		}
 	}
 
 
