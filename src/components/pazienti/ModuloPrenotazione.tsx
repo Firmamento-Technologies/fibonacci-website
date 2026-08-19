@@ -106,7 +106,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
     const cercato = new URLSearchParams(window.location.search).get('slot')
     if (cercato) setSlot(orari.find((s) => s.id === cercato) ?? null)
   }, [orari, slot])
-  const [dati, setDati] = useState({ nome: '', telefono: '', motivo: '' })
+  const [dati, setDati] = useState({ nome: '', telefono: '', email: '', motivo: '' })
   /* TD-123: facoltativa e spenta di default. `preAnamnesiDaInviare` decide se
      c'è qualcosa da spedire — ⛔ qui non si rilegge il flag. */
   const [preAnamnesi, setPreAnamnesi] = useState<DatiPreAnamnesi>(PRE_ANAMNESI_VUOTA)
@@ -153,6 +153,7 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
           slotId: slot.id,
           nome: dati.nome,
           telefono: dati.telefono,
+          email: dati.email,
           motivo: dati.motivo,
           /* ⚠️ Si spedisce **solo se c'è consenso e qualcosa dentro**: un campo
              `preAnamnesi: {}` vuoto nel corpo insegnerebbe al server ad
@@ -345,6 +346,20 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
             valore={dati.telefono}
             onChange={aggiorna('telefono')}
             completamento="tel"
+            richiesto
+          />
+          {/* È il recapito della CONFERMA (e dell'eventuale «non accolta»):
+              qui è obbligatoria — il flusso promette una risposta via email,
+              e senza indirizzo la promessa sarebbe vuota. Il server la tratta
+              comunque come facoltativa: il canale regge anche chi prenota da
+              un modulo più vecchio. */}
+          <Campo
+            id="p-email"
+            etichetta={t('pazienti.moduloprenotazione.email_per_la_conferma')}
+            tipo="email"
+            valore={dati.email}
+            onChange={aggiorna('email')}
+            completamento="email"
             richiesto
           />
           <Campo

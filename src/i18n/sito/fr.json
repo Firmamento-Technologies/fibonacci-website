@@ -1081,6 +1081,7 @@
   "pazienti.moduloprenotazione.cerco_gli_orari_liberi": "Recherche des créneaux disponibles…",
   "pazienti.moduloprenotazione.da_quello_che_hai_scritto_potrebbe": "D'après ce que tu as écrit, il pourrait s'agir d'une urgence : n'attends pas de réponse ici.",
   "pazienti.moduloprenotazione.e_lo_studio_a_confermarla_ti": "C’est le cabinet qui la confirme : ils te rappellent au numéro que tu as laissé. Tant qu’ils ne te confirment pas, le rendez-vous *n’est pas pris*.",
+  "pazienti.moduloprenotazione.email_per_la_conferma": "E-mail (pour la confirmation)",
   "pazienti.moduloprenotazione.invia_la_richiesta": "Envoyer la demande",
   "pazienti.moduloprenotazione.invio": "Envoi…",
   "pazienti.moduloprenotazione.la_prenotazione_online_da_questa_pagina": "La réservation en ligne depuis cette page n’est pas encore active : pour prendre rendez-vous,\n        appelle le cabinet.",

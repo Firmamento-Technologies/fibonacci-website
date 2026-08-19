@@ -79,11 +79,11 @@ export const metadata: Metadata = {
  * perché per esteso, e la regola del fail-closed, stanno in
  * `lib/medici-pubblici.ts`. */
 
-export default function Page() {
+export default async function Page() {
   /* ⚠️ L'ordinamento è **davvero** alfabetico perché la pagina lo dichiara in
    * fondo: una riga che promette un criterio e un elenco che ne segue un altro
    * è una bugia piccola e gratuita. `localeCompare('it')` per le accentate. */
-  const pubblicati = mediciPubblicati()
+  const pubblicati = (await mediciPubblicati())
     .filter((m) => mostraEsempi() || !m.esempio)
     .slice()
     .sort((a, b) => a.medico.nome.localeCompare(b.medico.nome, 'it'))

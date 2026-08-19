@@ -198,6 +198,10 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         </div>
       </section>
 
+      {/* ⚠️ Solo se ci sono: gli studi veri arrivano dall'elenco del sidecar
+          con `prestazioni: []` (non ancora modellate sull'Organization), e un
+          titolo sopra il niente sembrerebbe un guasto della pagina. */}
+      {m.prestazioni.length > 0 && (
       <section aria-labelledby="prestazioni" style={{ marginTop: 'var(--s-34)' }}>
         <h2 id="prestazioni" className="titolo-servizio text-[length:var(--display-3)]">
           {t('pazienti.schedamedico.prestazioni')}
@@ -217,6 +221,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           {t('pazienti.schedamedico.gli_onorari_te_li_indica_lo')}
         </p>
       </section>
+      )}
 
       </div>
       {/* 🔑 **Il pannello di prenotazione sta a DESTRA, e non e' vezzo.** E' la

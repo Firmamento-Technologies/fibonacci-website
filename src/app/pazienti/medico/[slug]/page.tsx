@@ -21,8 +21,8 @@ import { SITE_URL } from '@/lib/site-config'
 
 export const dynamicParams = false
 
-export function generateStaticParams() {
-  return mediciPubblicati().map((m) => ({ slug: m.slug }))
+export async function generateStaticParams() {
+  return (await mediciPubblicati()).map((m) => ({ slug: m.slug }))
 }
 
 export async function generateMetadata({
@@ -31,7 +31,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const m = medicoPerSlug(slug)
+  const m = await medicoPerSlug(slug)
   if (!m) return {}
 
   const titolo = `${m.medico.nome}, ${m.studio.nome} (${m.studio.comune})`
@@ -52,7 +52,7 @@ export async function generateMetadata({
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const m = medicoPerSlug(slug)
+  const m = await medicoPerSlug(slug)
   if (!m) notFound()
 
   /* Dati strutturati: `Physician` (sottotipo di `MedicalBusiness`, a sua volta

@@ -1,25 +1,23 @@
 /* I medici che hanno acceso la pagina pubblica — TD-95, primo pezzo.
  *
- * ── DA DOVE ARRIVERANNO I DATI ─────────────────────────────────────────────
- * ⚠️ **Oggi qui c'è un solo studio di esempio, e non è una scorciatoia: è lo
- * stato vero del progetto.** Nessuno studio ha ancora acconsentito, perché
- * l'interruttore di consenso non esiste (TD-93) e non ci sono clienti.
- *
- * Quando ci saranno, questo modulo **non cambia forma**: `SchedaMedicoPubblica`
- * ricalca **campo per campo** ciò che il sidecar già restituisce da
- * `GET /pubblico/studio/{organization_id}` (`EMR/services/pdf-signer/
- * scheda_pubblica.py`, proiezione a lista bianca scritta a mano). Cablarlo
- * sarà **sostituire una funzione**, non riscrivere le pagine:
- *
- *     export async function mediciPubblicati() {
- *       const r = await fetch(`${SIDECAR}/pubblico/elenco`)   // TD-94
- *       return (await r.json()) as SchedaMedicoPubblica[]
- *     }
+ * ── DA DOVE ARRIVANO I DATI (TD-94, cablato il 2026-08-19) ─────────────────
+ * Dal sidecar: `GET /pubblico/elenco` restituisce gli studi che stanno
+ * nell'allowlist del deployment E hanno acceso il consenso (TD-93), già nella
+ * forma di `SchedaMedicoPubblica` (la proiezione a lista bianca è la STESSA
+ * della scheda singola: `EMR/services/pdf-signer/scheda_pubblica.py`,
+ * `voce_elenco`). Gli esempi scritti a mano restano: servono al collaudo
+ * delle pagine e a esercitare i rami che i dati veri non esercitano.
  *
  * ⛔ La lettura avviene **in costruzione**, mai dal browser del visitatore: il
  * sito è `output: 'export'` e il contenuto dev'essere dentro l'HTML servito,
  * altrimenti la pagina non si posiziona — che è l'unica ragione per cui
  * esiste. Vedi [[piano-canale-paziente-implementazione]] §P4.2.
+ *
+ * 🔴 **Se `NEXT_PUBLIC_PRENOTA_API_URL` è impostata e l'elenco non risponde,
+ * la BUILD FALLISCE** — di proposito: una ricostruzione che pubblicasse il
+ * sito senza i medici veri farebbe sparire le loro pagine in silenzio, che è
+ * la forma peggiore del guasto. Senza la variabile (build locali, CI) non si
+ * chiama niente e restano gli esempi.
  *
  * ── ⛔ DA QUI NON SI LEGGE MAI IL CRM ───────────────────────────────────────
  * Esiste un secondo registro di medici — il **CRM** (Atomic CRM self-hosted,
@@ -381,7 +379,33 @@ export function mostraEsempi(): boolean {
   return esempiRichiesti() > 0
 }
 
-/** Gli studi da pubblicare. Oggi: solo gli esempi.
+/* ── L'elenco vero, dal sidecar (TD-94) ─────────────────────────────────────
+ *
+ * ⚠️ Gira SOLO in costruzione (le pagine che lo chiamano sono server
+ * components di un sito `output: 'export'`): nel bundle del browser questa
+ * funzione non viene mai invocata — di qui importano solo i formattatori.
+ * La promessa è condivisa a livello di modulo perché la chiamano più pagine
+ * (elenco, schede, parametri statici): una fetch sola per build worker. */
+let elencoDalSidecar: Promise<SchedaMedicoPubblica[]> | undefined
+
+async function mediciDalSidecar(): Promise<SchedaMedicoPubblica[]> {
+  const base = (process.env.NEXT_PUBLIC_PRENOTA_API_URL ?? '').trim().replace(/\/$/, '')
+  if (!base) return []
+  const r = await fetch(`${base}/pubblico/elenco`, { cache: 'no-store' })
+  if (!r.ok) {
+    /* 🔴 Build rossa, non elenco vuoto: vedi la testata del file. */
+    throw new Error(
+      `L'elenco dei medici non risponde (${r.status} da ${base}/pubblico/elenco): ` +
+        'non pubblico un sito senza le loro pagine.',
+    )
+  }
+  const dati = (await r.json()) as { medici?: Omit<SchedaMedicoPubblica, 'slot'>[] }
+  /* `slot: []` è deliberato: gli orari veri arrivano dal sidecar a runtime
+   * (`useOrariLiberi`), e quelli cotti in build sarebbero già vecchi. */
+  return (dati.medici ?? []).map((m) => ({ ...m, slot: [] as SlotPubblico[] }))
+}
+
+/** Gli studi da pubblicare: quelli VERI dal sidecar, più gli esempi.
  *
  * ⚠️ Torna gli esempi **anche a interruttore spento**, ed è voluto: le loro
  * schede devono continuare a essere costruite, perché `scripts/collaudo.mjs`
@@ -389,17 +413,24 @@ export function mostraEsempi(): boolean {
  * su una build senza flag. A nasconderli è **l'elenco**, che è l'unico posto
  * dove un visitatore li conterebbe come medici veri; le schede portano già
  * `noindex`, il riquadro «questo studio non esiste» e nessun dato strutturato,
- * e non stanno nella sitemap. */
-export function mediciPubblicati(): readonly SchedaMedicoPubblica[] {
+ * e non stanno nella sitemap. Vale anche per gli studi veri marcati «di
+ * prova» dal sidecar (`esempio: true`): stessa regola, stessa ragione. */
+export async function mediciPubblicati(): Promise<readonly SchedaMedicoPubblica[]> {
+  elencoDalSidecar ??= mediciDalSidecar()
+  const reali = await elencoDalSidecar
   const richiesti = esempiRichiesti()
-  if (richiesti > MEDICI_ESEMPIO.length) {
-    return [...MEDICI_ESEMPIO, ...esempiGenerati(richiesti)]
-  }
-  return MEDICI_ESEMPIO
+  const esempi =
+    richiesti > MEDICI_ESEMPIO.length
+      ? [...MEDICI_ESEMPIO, ...esempiGenerati(richiesti)]
+      : [...MEDICI_ESEMPIO]
+  /* I veri prima: l'elenco li mostra in testa, e uno slug che collidesse con
+   * un esempio vincerebbe — non può succedere (gli slug veri finiscono con la
+   * coda dell'id), ma l'ordine lo garantisce comunque. */
+  return [...reali, ...esempi]
 }
 
-export function medicoPerSlug(slug: string): SchedaMedicoPubblica | undefined {
-  return mediciPubblicati().find((m) => m.slug === slug)
+export async function medicoPerSlug(slug: string): Promise<SchedaMedicoPubblica | undefined> {
+  return (await mediciPubblicati()).find((m) => m.slug === slug)
 }
 
 /** L'indirizzo pubblico di una scheda. Un solo posto che lo costruisce, così

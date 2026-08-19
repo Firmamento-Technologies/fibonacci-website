@@ -1081,6 +1081,7 @@
   "pazienti.moduloprenotazione.cerco_gli_orari_liberi": "Suche freie Termine…",
   "pazienti.moduloprenotazione.da_quello_che_hai_scritto_potrebbe": "Aus dem, was du geschrieben hast, könnte es sich um einen Notfall handeln: Warte nicht auf eine Antwort von hier.",
   "pazienti.moduloprenotazione.e_lo_studio_a_confermarla_ti": "Die Praxis bestätigt sie: Sie rufen dich unter der Nummer zurück, die du hinterlassen hast. Bis sie nicht bestätigt ist, *ist der Termin nicht vereinbart*.",
+  "pazienti.moduloprenotazione.email_per_la_conferma": "E-Mail (für die Bestätigung)",
   "pazienti.moduloprenotazione.invia_la_richiesta": "Anfrage senden",
   "pazienti.moduloprenotazione.invio": "Senden…",
   "pazienti.moduloprenotazione.la_prenotazione_online_da_questa_pagina": "Die Online-Buchung über diese Seite ist noch nicht aktiv: Für einen Termin rufst du die Praxis an.",
