@@ -8,7 +8,7 @@ import { Occhiello, Freccia, Foto } from '@/components/ui/elementi'
 
 export const metadata: Metadata = {
   title: t('analisidelvolto.meta_titolo_analisi_del_volto_e'),
-  description: t('analisidelvolto.meta_descrizione_misure_geometriche_sulle_fotografie'),
+  description: t('analisidelvolto.meta_descrizione_il_prima_e_il'),
   alternates: { canonical: '/analisi-del-volto' },
 }
 
@@ -23,59 +23,74 @@ export const metadata: Metadata = {
  * codice invariato.** Non è un rischio teorico: è il canale per cui si diventa
  * fabbricante di dispositivi medici senza scrivere una riga di codice.
  *
- * Il perimetro non è stato inventato qui: è il **§1.7** di
- * `EMR/docs/legal/valutazione-mdr-destinazione-uso.md`, che dichiara questo
- * modulo *«un goniometro, un righello e un raccoglitore ordinato per data»*.
- * Ogni riga di questa pagina sta dentro quella dichiarazione, e le tre colonne
- * (cosa fa · cosa non fa · chi controlla) sono la forma che il sito aveva già
- * inventato per `/intelligenza-artificiale`: nata per l'art. 50 dell'AI Act, si
- * è rivelata **la forma giusta anche per l'MDR**, perché dice la funzione e ne
- * dichiara il confine nello stesso respiro.
+ * ── ✅ RISCRITTA IL 2026-08-19, E IL PRODOTTO È CAMBIATO SOTTO ──────────────
+ * ⚠️ Questa pagina prometteva **misure**: inclinazione dei tre piani, rapporto
+ * fra i terzi, differenze destra/sinistra, millimetri da calibrazione. Il
+ * 2026-08-19 quelle funzioni sono state **tolte dal prodotto** (decisione
+ * dell'utente, motivata sotto), e con loro sono sparite dal manuale e da qui.
+ *
+ * 🔑 La ragione non è regolatoria per prudenza, è **la Regola 11 dell'allegato
+ * VIII MDR letta per quello che dice**: un software che fornisce informazioni
+ * usate per prendere decisioni a fini diagnostici o terapeutici è classe IIa.
+ * Il §4.2 di MDCG 2019-11 rev.1 la motiva con le *«conseguenze del danno
+ * indiretto derivante dal non fornire l'informazione corretta»*. ⇒ un numero
+ * clinico sbagliato **è** il danno, e chi lo fornisce ne risponde. Un righello
+ * si vende tarato, e a tararlo ci vuole qualcuno che ne risponda: finché quel
+ * qualcuno non c'è, ⛔ non si vendono numeri.
+ *
+ * ⇒ Il perimetro **non è più** «un goniometro e un righello» del §1.7 di
+ * `EMR/docs/legal/valutazione-mdr-destinazione-uso.md`: è **più stretto**.
+ * Oggi il modulo è *un raccoglitore ordinato per data, un visore di forma e il
+ * posto dove il medico scrive il proprio giudizio*. Nessuna misura, nessun
+ * numero, nessuna soglia.
  *
  * ⛔ PAROLE VIETATE, in ogni lingua e in ogni posizione:
  *   «punteggio», «indice di armonia», «voto», «valore ideale», «anomalo»,
  *   «rileva», «diagnostica», «simula il risultato», «anteprima del risultato»,
- *   «indica le zone da trattare», «consigliato», «raccomandato».
+ *   «indica le zone da trattare», «consigliato», «raccomandato»,
+ *   e ora anche **«misura», «calcola», «millimetri», «angolo», «rapporto»**
+ *   riferiti al volto della paziente.
  * Sono il vocabolario dei concorrenti (Crisalix, Vectra, Arbrea, Visia:
  * simulazione pre-operatoria, outcome scoring, predictive analytics). Ognuna,
- * da sola, rende **falsa** la dichiarazione del §1.7.
+ * da sola, rimette il prodotto dentro la Regola 11.
  *
  * ⚠️ E una cosa da sapere prima di modificare: la verifica MDR del 2026-08-15
  * contava fra le prove a nostro favore che *«il modulo non è promosso in
  * nessuna pagina pubblica del sito»*. Questa pagina toglie quella riga di
  * proposito, su richiesta dell'utente del 2026-08-17, ed è il motivo per cui
- * ogni frase qui è la frase del §1.7 e non una sua parafrasi più larga.
- * Contesto completo: [[sintesi-review-sito-2026-08-17]] §2 e §3.
+ * ogni frase qui descrive un **gesto del medico** e mai un giudizio del
+ * software. Contesto: [[sintesi-review-sito-2026-08-17]] §2 e §3, e
+ * [[decisione-via-le-misure-dal-volto]].
  */
 
 /* Le quattro funzioni, ognuna col suo confine. L'ordine è quello in cui le
- * incontra chi visita: prima la misura, poi il tempo, poi i millimetri, e
- * infine la qualità dello scatto, che viene prima dei numeri ma si capisce
- * dopo averli visti. */
+ * incontra chi visita: prima il confronto, che è il gesto centrale; poi
+ * l'avviso che dice quando quel confronto non regge; poi il giudizio che ne
+ * esce; e infine il 3D, che è la cosa che si guarda e non la cosa che decide. */
 const COSA = [
   {
-    titolo: t('analisidelvolto.le_misure_sulla_fotografia'),
-    cosaFa: t('analisidelvolto.calcola_l_inclinazione_dei_tre_piani'),
-    cosaNonFa: t('analisidelvolto.non_rileva_niente_e_non_qualifica'),
-    chiControlla: t('analisidelvolto.scegli_tu_la_fotografia_e_i'),
+    titolo: t('analisidelvolto.due_fotografie_una_accanto_all_altra'),
+    cosaFa: t('analisidelvolto.il_primo_clic_sceglie_lo_scatto'),
+    cosaNonFa: t('analisidelvolto.non_allinea_non_ritocca_non_sovrappone'),
+    chiControlla: t('analisidelvolto.scegli_tu_le_due_fotografie_e'),
   },
   {
-    titolo: t('analisidelvolto.lo_stesso_volto_in_ordine_di'),
-    cosaFa: t('analisidelvolto.le_stesse_misure_ripetute_e_messe'),
-    cosaNonFa: t('analisidelvolto.nessuna_soglia_e_nessun_avviso_su'),
-    chiControlla: t('analisidelvolto.la_lettura_della_variazione_e_tua'),
+    titolo: t('analisidelvolto.quando_due_scatti_non_si_possono'),
+    cosaFa: t('analisidelvolto.se_la_posa_e_diversa_mento'),
+    cosaNonFa: t('analisidelvolto.non_blocca_niente_e_non_scarta'),
+    chiControlla: t('analisidelvolto.decidi_tu_se_rifare_lo_scatto_o'),
   },
   {
-    titolo: t('analisidelvolto.i_millimetri_quando_li_vuoi'),
-    cosaFa: t('analisidelvolto.se_segni_con_due_clic_un'),
-    cosaNonFa: t('analisidelvolto.non_si_calibra_da_sola_e'),
-    chiControlla: t('analisidelvolto.la_calibrazione_e_un_tuo_gesto'),
+    titolo: t('analisidelvolto.il_giudizio_con_gli_scatti_a'),
+    cosaFa: t('analisidelvolto.dal_confronto_registri_la_scala_di'),
+    cosaNonFa: t('analisidelvolto.non_lo_calcola_e_non_lo'),
+    chiControlla: t('analisidelvolto.lo_scrivi_tu_ed_e_l'),
   },
   {
-    titolo: t('analisidelvolto.la_qualita_dello_scatto_viene_prima'),
-    cosaFa: t('analisidelvolto.se_la_testa_e_girata_oltre'),
-    cosaNonFa: t('analisidelvolto.non_li_nasconde_nascondere_un_numero'),
-    chiControlla: t('analisidelvolto.decidi_tu_se_rifare_lo_scatto'),
+    titolo: t('analisidelvolto.la_forma_del_viso_in_tre'),
+    cosaFa: t('analisidelvolto.dalla_stessa_fotografia_ricostruisce_la_forma'),
+    cosaNonFa: t('analisidelvolto.non_e_una_scansione_la_profondita'),
+    chiControlla: t('analisidelvolto.serve_a_guardare_e_a_mostrare'),
   },
 ] as const
 
@@ -84,8 +99,8 @@ export default function AnalisiDelVolto() {
     <Pagina
       href="/analisi-del-volto"
       occhiello={t('analisidelvolto.analisi_del_volto')}
-      titolo={<Enfasi chiave="analisidelvolto.titolo_le_misure_che_finora_facevi_a" />}
-      sommario={t('analisidelvolto.sulla_fotografia_che_hai_scattato_e')}
+      titolo={<Enfasi chiave="analisidelvolto.titolo_il_prima_e_il_dopo_uno" />}
+      sommario={t('analisidelvolto.le_fotografie_che_hai_scattato_tu')}
     >
       <section style={{ paddingBottom: 'var(--s-8)' }}>
         <div className="gabbia gabbia-stretta">
@@ -117,9 +132,10 @@ export default function AnalisiDelVolto() {
       </section>
 
       {/* ⚠️ La sezione che vale più di tutte, e la sola che un concorrente non
-          può copiare senza rinunciare al proprio prodotto. Il contenuto non è
-          una posizione commerciale: è scritto in testa a `analisi-volto.tsx`
-          nell'applicazione, e la letteratura è quella citata lì. */}
+          può copiare senza rinunciare al proprio prodotto. Dal 2026-08-19 dice
+          anche che **i numeri non ci sono più**, ed è una posizione, non una
+          mancanza: è il capoverso «Perché non ci sono misure del viso» della
+          guida, ed è la cosa che i concorrenti a punteggio non possono dire. */}
       <section className="scuro fascia">
         <div className="gabbia">
           <div className="aurea">
@@ -127,11 +143,14 @@ export default function AnalisiDelVolto() {
               <div>
                 <Occhiello chiaro>{t('analisidelvolto.quello_che_non_c_e')}</Occhiello>
                 <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '17ch' }}>
-                  {t('analisidelvolto.non_c_e_un_punteggio_di')}
+                  {t('analisidelvolto.non_c_e_un_punteggio_e')}
                 </h2>
                 <div className="prosa mt-[var(--s-21)]">
                   <p style={{ color: 'var(--on-ink-muted)' }}>
                     {t('analisidelvolto.i_canoni_neoclassici_non_descrivono_le')}
+                  </p>
+                  <p style={{ color: 'var(--on-ink-muted)' }}>
+                    {t('analisidelvolto.e_non_ci_sono_numeri_ne')}
                   </p>
                   <p style={{ color: 'var(--on-ink-muted)' }}>
                     {t('analisidelvolto.l_unico_confronto_che_non_presuppone')}
@@ -148,6 +167,44 @@ export default function AnalisiDelVolto() {
                 alt={t('analisidelvolto.una_donna_seduta_in_ambulatorio_si')}
                 proporzione="4 / 3"
                 piena
+              />
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Lo scatto. ⚠️ Sta DOPO il confronto e non prima, benché in ambulatorio
+          venga prima: chi arriva qui cerca il prima/dopo, e la ripetibilità
+          dell'inquadratura si capisce solo dopo aver visto a cosa serve.
+          È anche la parte più difficile da copiare senza rifare la camera. */}
+      <section className="fascia">
+        <div className="gabbia">
+          <div className="aurea">
+            <Reveal>
+              <div>
+                <Occhiello>{t('analisidelvolto.lo_scatto')}</Occhiello>
+                <h2 className="mt-[var(--s-13)] text-[length:var(--display-2)]" style={{ maxWidth: '18ch' }}>
+                  {t('analisidelvolto.due_foto_si_confrontano_se_sono')}
+                </h2>
+                <div className="prosa mt-[var(--s-21)]">
+                  <p>{t('analisidelvolto.il_protocollo_fotografico_e_una_serie')}</p>
+                  <p>{t('analisidelvolto.scattando_dalla_camera_con_una_vista')}</p>
+                  <p>{t('analisidelvolto.e_c_e_lo_specchio_dal')}</p>
+                </div>
+                <p
+                  className="mt-[var(--s-21)] text-[15px]"
+                  style={{ color: 'var(--fg)', borderLeft: '2px solid var(--accent)', paddingLeft: 'var(--s-13)' }}
+                >
+                  {t('analisidelvolto.la_lista_delle_viste_informa_e')}
+                </p>
+              </div>
+            </Reveal>
+            <Reveal da="destra">
+              <Foto
+                nome="consulto-studio"
+                alt={t('analisidelvolto.medico_e_paziente_seduti_guardano_insieme')}
+                proporzione="4 / 3"
+                didascalia={t('analisidelvolto.la_stessa_inquadratura_a_ogni_visita')}
               />
             </Reveal>
           </div>

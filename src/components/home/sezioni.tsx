@@ -200,19 +200,26 @@ const CAPACITA = [
        L'art. 2 punto 12 MDR mette «il materiale o le dichiarazioni di
        promozione o vendita» **dentro** la destinazione d'uso: ciò che è scritto
        qui può qualificare il prodotto come dispositivo medico a codice
-       invariato. Il perimetro è il §1.7 di
-       `EMR/docs/legal/valutazione-mdr-destinazione-uso.md`, che dichiara questo
-       modulo «un goniometro, un righello e un raccoglitore ordinato per data».
+       invariato.
+       ✅ RISCRITTA IL 2026-08-19: prometteva «le misure che finora facevi a
+       occhio», e quelle misure **non esistono più nel prodotto** (tolte lo
+       stesso giorno, decisione dell'utente). Il perimetro non è più «un
+       goniometro e un righello» del §1.7 di
+       `EMR/docs/legal/valutazione-mdr-destinazione-uso.md`: è **più stretto**,
+       cioè un raccoglitore ordinato per data, un visore di forma e il posto
+       dove il medico scrive il proprio giudizio.
        ⛔ NON scrivere mai qui: «punteggio», «indice di armonia», «simula il
-       risultato», «rileva», «indica le zone da trattare», «valore ideale».
-       Sono le parole dei concorrenti (Crisalix, Vectra, Arbrea) ed è la strada
-       breve per diventare fabbricanti di dispositivi medici.
-       Il dettaglio, con le quattro condizioni che reggono la dichiarazione, sta
-       in [[sintesi-review-sito-2026-08-17]] §2. */
+       risultato», «rileva», «indica le zone da trattare», «valore ideale», e
+       ora nemmeno «misura», «calcola», «millimetri», «angolo», «rapporto»
+       riferiti al volto della paziente. Sono le parole dei concorrenti
+       (Crisalix, Vectra, Arbrea) ed è la strada breve per rientrare nella
+       Regola 11 dell'allegato VIII MDR, cioè classe IIa.
+       Il dettaglio sta in [[sintesi-review-sito-2026-08-17]] §2 e in
+       [[decisione-via-le-misure-dal-volto]]. */
     occhiello: t('home.sezioni.analisi_del_volto'),
-    titolo: t('home.sezioni.le_misure_che_finora_facevi_a'),
-    testo: t('home.sezioni.sulla_fotografia_che_hai_scattato_tu'),
-    aCosaServe: t('home.sezioni.al_controllo_dopo_sei_mesi_il'),
+    titolo: t('home.sezioni.il_prima_e_il_dopo_uno'),
+    testo: t('home.sezioni.due_fotografie_della_stessa_cartella_affiancate'),
+    aCosaServe: t('home.sezioni.al_controllo_dopo_sei_mesi_non'),
     immagine: { tipo: 'foto', file: 'consulto-studio', didascalia: t('home.sezioni.la_valutazione_si_rifa_a_ogni') },
     alt: t('home.sezioni.medico_e_paziente_seduti_guardano_insieme'),
   },

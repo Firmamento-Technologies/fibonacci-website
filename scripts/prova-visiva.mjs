@@ -22,6 +22,7 @@ const GIRO = [
   ['/sicurezza-e-dati', 'sicurezza', [0]],
   ['/come-funziona', 'come-funziona', [0, 1200]],
   ['/consensi-informati', 'consensi', [0]],
+  ['/analisi-del-volto', 'analisi-del-volto', [0, 900, 2000, 2600, 3600]],
   ['/richiedi-una-demo', 'demo', [0]],
 ]
 
