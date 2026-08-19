@@ -1,6 +1,6 @@
 {
-  "generato": "2026-08-18T00:44:09.032Z",
-  "commitFrontendEmr": "3c6eb4327c0b7e87de4cc676cd42b868773d1b5f",
+  "generato": "2026-08-19T00:53:07.811Z",
+  "commitFrontendEmr": "7626be49e25bd0b9b92de08f6c77b5d50ff588be",
   "larghezze": [
     720,
     1120,
@@ -92,18 +92,18 @@
       "varianti": [
         {
           "w": 720,
-          "webp": 22886,
-          "avif": 16862
+          "webp": 24974,
+          "avif": 18601
         },
         {
           "w": 1120,
-          "webp": 44482,
-          "avif": 31405
+          "webp": 49686,
+          "avif": 34843
         },
         {
           "w": 1400,
-          "webp": 63084,
-          "avif": 40002
+          "webp": 69048,
+          "avif": 44775
         }
       ]
     }
