@@ -236,7 +236,7 @@ app.fibonaccimedica.it {
 		# questa lista DEVE restare allineata a quella — se una rotta nuova
 		# serve al browser, si aggiunge in tutti e due i posti.
 		# ⚠️ I percorsi qui sono POST-strip (`handle_path` toglie `/pdf`).
-		@pubbliche path /health /signup /signup/stato /webhook/* /pubblico/* /prenotazioni/esito /consensi/* /allegato/* /comunicazioni/* /letteratura/* /aifa/* /photo/* /render-md /render-consent /render-patient-summary /send-visit-email /send-document-email /send-appointment-reminder /sign-pades /verify-pdfa /verify-pdfa-strict /anonymize-face /strip-exif /watermark-photo /extract-watermark /body-map/extract /voxtral/transcribe /extract-anamnesi /chatbot/* /tasks/suggest /audit/export /patient/* /fse/* /studio/invita-collega /manuale /manuale/*
+		@pubbliche path /health /signup /signup/stato /webhook/* /pubblico/* /prenotazioni/esito /prenotazioni/disponibilita /consensi/* /allegato/* /comunicazioni/* /letteratura/* /aifa/* /photo/* /render-md /render-consent /render-patient-summary /send-visit-email /send-document-email /send-appointment-reminder /sign-pades /verify-pdfa /verify-pdfa-strict /anonymize-face /strip-exif /watermark-photo /extract-watermark /body-map/extract /voxtral/transcribe /extract-anamnesi /chatbot/* /tasks/suggest /audit/export /patient/* /fse/* /studio/invita-collega /manuale /manuale/*
 		handle @pubbliche {
 			reverse_proxy 127.0.0.1:8201
 		}
