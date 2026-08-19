@@ -1,329 +1,38 @@
-# ⛔ QUESTO FILE NON GIRA. ⛔
+# ⛔ QUESTA NON È PIÙ LA CONFIGURAZIONE. È un rimando. ⛔
 #
-# E' una copia storica della configurazione del reverse proxy. Caddy gira sull'**host**, via systemd,
-# leggendo `/etc/caddy/Caddyfile`.
+# La configurazione di Caddy per `fibonaccimedica.it` e `app.fibonaccimedica.it`
+# vive in **un posto solo**:
 #
-# ⇒ Modificare questo file **non cambia niente in esercizio**, e il gesto non
-# da' nessun errore. E' gia' successo il 2026-08-12 su `website/infra/Caddyfile`,
-# l'altra copia che non gira.
+#     EMR/infra/caddy/Caddyfile.aruba            ← la sorgente versionata
+#     /etc/caddy/Caddyfile (sulla macchina)      ← quella che gira
+#     EMR/infra/scripts/check-caddyfile-sync.sh  ← le confronta ogni 6 ore
 #
-# 🔑 Dove guardare invece:
-#   · il file che gira ..... /etc/caddy/Caddyfile (sulla macchina)
-#   · la copia versionata .. infra/caddy/Caddyfile.aruba
-#   · il controllo ......... infra/scripts/check-caddyfile-sync.sh (ogni 6 ore,
-#     confronta la configurazione EFFICACE: i commenti possono differire)
-# ⇒ TD-109.
-
-# Fibonacci — vetrina statica su fibonaccimedica.it
+# ── PERCHÉ QUI NON C'È PIÙ NIENTE (TD-256, 2026-08-19) ──────────────────────
 #
-# Il sito e' `output: 'export'` di Next: file statici, nessun runtime. Caddy li
-# serve e prende il certificato da solo (ACME) appena il DNS punta qui.
+# 🔴 Qui c'era una copia completa, 329 righe, che dichiarava in testa di **non
+# girare**. Il 2026-08-19 si è misurato che era **esattamente quella a girare**:
+# `/etc/caddy/Caddyfile` sulla macchina era questo file, intestazione compresa.
+# Le differenze erano 6 righe.
 #
-# ⚠️ Finche' il record A di fibonaccimedica.it non e' 188.213.175.26, Caddy
-# NON riesce a emettere il certificato: e' atteso, riprova da solo, e il sito
-# resta raggiungibile su GitHub Pages nel frattempo.
-
-# Il `.com` esiste per difendere il marchio, non per essere un secondo sito: due
-# indirizzi con lo stesso contenuto si dividono il posizionamento e confondono
-# chi linka. Quindi rimanda al `.it`, che e' il canonico deciso.
-# `{uri}` conserva il percorso: /prezzi/ sul .com arriva su /prezzi/ del .it.
-fibonaccimedica.com, www.fibonaccimedica.com {
-	redir https://fibonaccimedica.it{uri} permanent
-}
-
-# Stessa regola gia' applicata al `.com`, ora anche al `www` del `.it`: un solo
-# indirizzo canonico. C'era un `<link rel=canonical>` a mitigare, ma e' un
-# suggerimento che i motori possono ignorare; un 301 no. E chi copia un link
-# dalla barra si porta dietro l'indirizzo giusto.
-# ⚠️ Il certificato di `www` serve LO STESSO, per poter servire il rimando in
-# HTTPS: e' quello ottenuto l'11 agosto alle 14:20, non si tocca.
-www.fibonaccimedica.it {
-	redir https://fibonaccimedica.it{uri} permanent
-}
-
-fibonaccimedica.it {
-	root * /var/www/fibonaccimedica
-	encode gzip zstd
-
-	# ── LA LINGUA, SCELTA DAL SERVER AL PRIMO COLPO ──────────────────────
-	#
-	# Il sito e' costruito cinque volte (`scripts/costruisci-lingue.mjs`):
-	# l'italiano alla radice, le altre sotto /en /es /fr /de. Qui Caddy legge
-	# la lingua che il BROWSER dichiara e manda alla versione giusta.
-	#
-	# 🔑 PERCHE' `Accept-Language` E NON LA GEOLOCALIZZAZIONE, che e' la
-	#    domanda ovvia. Tre ragioni, in ordine di peso:
-	#    1. **E' piu' giusta**: un medico italiano a Monaco vuole l'italiano,
-	#       un tedesco a Milano vuole il tedesco. La posizione risponde alla
-	#       domanda sbagliata; la lingua del browser e' quella che l'utente
-	#       ha scelto da se'.
-	#    2. **L'indirizzo IP e' un dato personale** (GDPR, cons. 30 e
-	#       giurisprudenza CGUE C-582/14): geolocalizzarlo per ogni visita
-	#       significa trattarlo, e questo sito oggi non tratta niente e non
-	#       ha bisogno del banner cookie. ⛔ Non lo si rompe per una comodita'.
-	#    3. Caddy legge l'intestazione **senza plugin e senza banche dati**;
-	#       il GeoIP vorrebbe un modulo esterno e un file da tenere aggiornato.
-	#
-	# ⚠️ Il matcher si chiama `header_regexp`, ⛔ NON `header_regex`: con il nome
-	#    sbagliato `caddy validate` dice «module not registered» e la
-	#    configurazione non parte affatto. ⇒ **validare prima di applicare**: e'
-	#    la differenza fra un errore visto e un sito spento.
-	#
-	# ⚠️ QUANDO **NON** DEVE SCATTARE, che e' la parte delicata:
-	#    · se l'utente ha gia' scelto (biscotto `lingua`) ⇒ si rispetta;
-	#    · se e' gia' su un percorso con prefisso ⇒ niente giro secondo;
-	#    · se non e' una pagina (asset, /assistente/*, /contatto/*) ⇒ un
-	#      reindirizzamento la romperebbe;
-	#    · **302 e non 301**: la scelta puo' cambiare, e un 301 resta nella
-	#      cache del browser per sempre.
-	@pagina {
-		header Accept *text/html*
-		not header Cookie *lingua=*
-		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		not path /*.xml /*.txt /*.json /*.ico /*.svg /*.png /*.webmanifest
-	}
-	@de {
-		header Accept *text/html*
-		not header Cookie *lingua=*
-		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regexp Accept-Language ^\s*de\b
-	}
-	@fr {
-		header Accept *text/html*
-		not header Cookie *lingua=*
-		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regexp Accept-Language ^\s*fr\b
-	}
-	@es {
-		header Accept *text/html*
-		not header Cookie *lingua=*
-		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regexp Accept-Language ^\s*es\b
-	}
-	# ⚠️ L'inglese per ULTIMO fra i match e' voluto: `en` e' la lingua che
-	# quasi ogni browser mette in coda alla propria lista, quindi va accettata
-	# solo quando e' **la prima**, o riceverebbe anche chi ha `it, en`.
-	@en {
-		header Accept *text/html*
-		not header Cookie *lingua=*
-		not path /en/* /es/* /fr/* /de/* /_next/* /assistente/* /contatto/*
-		header_regexp Accept-Language ^\s*en\b
-	}
-	redir @de /de{uri} 302
-	redir @fr /fr{uri} 302
-	redir @es /es{uri} 302
-	redir @en /en{uri} 302
-	# ⛔ Senza questo, una cache (o un proxy aziendale) servirebbe a tutti la
-	# prima lingua che ha visto. E' il difetto classico di questo schema.
-	header @pagina Vary "Accept-Language, Cookie"
-
-	# Il sito e' costruito con `trailingSlash: true`: ogni pagina e' una
-	# cartella con dentro index.html. Senza questa riga /prezzi/ darebbe 404.
-	try_files {path} {path}/index.html {path}.html
-	file_server
-
-	# ── L'assistente pubblico (TD-90) ────────────────────────────────────
-	# ⚠️ Sta QUI, sul dominio del sito, e non su `app.` — di proposito. Il
-	# widget e' una pagina statica che chiama `/assistente/domanda`: se il
-	# servizio stesse sull'altro host sarebbe una chiamata **cross-origin**,
-	# e servirebbe aprire CORS su un endpoint pubblico non autenticato. Con
-	# lo stesso host non serve aprire niente.
-	#
-	# ⛔ `handle_path` toglie il prefisso: il servizio ragiona su `/domanda`
-	# e `/salute`, non sa di stare sotto `/assistente`. Stessa scelta del
-	# BFF piu' sotto, e per la stessa ragione — un servizio che conosce il
-	# proprio prefisso e' un servizio che si rompe quando lo si sposta.
-	handle_path /assistente/* {
-		# Una domanda e' testo, e il servizio la tronca comunque a 500
-		# caratteri: il limite qui costa zero mentre a valle costerebbe token.
-		# ⚠️ 16 KB e non 8: allineato a cio' che gira davvero sulla macchina,
-		# verificato col diff il 2026-08-12. Quando il file versionato e la
-		# macchina divergono, e' la macchina a dire cosa gira — il file la
-		# descrive, non la comanda.
-		request_body {
-			max_size 16KB
-		}
-		reverse_proxy 127.0.0.1:8212
-	}
-
-	# I contatti dal modulo «Richiedi una demo» — TD-108.
-	#
-	# 🔴 Prima di questa riga il modulo NON aveva un canale: `LEAD_API_URL` era
-	# vuoto, `fetch('')` mandava la POST alla pagina stessa, il sito statico
-	# rispondeva 200 e il modulo dichiarava «ti scriviamo» mentre il contatto
-	# spariva. Almeno uno e' andato perso davvero.
-	#
-	# ⛔ `handle_path` toglie il prefisso: il sidecar espone `/lead` e non sa di
-	# stare sotto `/contatto`. Stessa ragione dell'assistente qui sopra.
-	# ✅ Stesso dominio del sito ⇒ **nessun CORS da configurare**: e' il motivo
-	# per cui il percorso sta qui e non su `app.fibonaccimedica.it`.
-	handle_path /contatto/* {
-		# Quattro campi di testo. Un modulo pubblico e' un imbuto: il tetto qui
-		# costa zero e ferma il rumore prima che tocchi il servizio.
-		request_body {
-			max_size 8KB
-		}
-		reverse_proxy 127.0.0.1:8201
-	}
-
-	# Pagina 404 del sito invece di quella nuda di Caddy.
-	handle_errors {
-		@notfound expression {err.status_code} == 404
-		rewrite @notfound /404.html
-		file_server
-	}
-
-	# Intestazioni di sicurezza. Sono poche e tutte giustificate: il sito non
-	# ha login ne' dati, quindi non serve altro.
-	header {
-		# HSTS: un anno. ⚠️ Da NON mettere prima che il certificato funzioni,
-		# altrimenti un browser che ha visto l'intestazione si rifiuta di
-		# aprire il sito in HTTP anche se il TLS si rompe.
-		Strict-Transport-Security "max-age=31536000; includeSubDomains"
-		X-Content-Type-Options "nosniff"
-		Referrer-Policy "strict-origin-when-cross-origin"
-		X-Frame-Options "SAMEORIGIN"
-		# Toglie l'intestazione che annuncia il server.
-		-Server
-	}
-
-	# Gli asset con impronta nel nome sono immutabili: si possono tenere a
-	# lungo. L'HTML no, o un aggiornamento non si vedrebbe.
-	@immutabili path /_next/static/*
-	header @immutabili Cache-Control "public, max-age=31536000, immutable"
-	@html path *.html /
-	header @html Cache-Control "public, max-age=0, must-revalidate"
-
-	log {
-		output file /var/log/caddy/fibonaccimedica.log {
-			roll_size 10MiB
-			roll_keep 5
-		}
-	}
-}
-
-# ── L'applicazione ────────────────────────────────────────────────────────────
+# 🔑 Il costo, che è il motivo per cui la copia è stata tolta invece di
+# corretta: copiandola sulla macchina si è **cancellata la correzione TD-153**
+# sulla cache, che stava solo nell'altra copia. Nessun errore, nessun avviso:
+# semplicemente, da internet `/assets/*` ha ricominciato a rispondere
+# `cache-control: no-store` e ogni visita riscaricava l'intero pacchetto
+# dell'app. Verificato con
+# `curl -sI https://app.fibonaccimedica.it/assets/index-<impronta>.js`.
 #
-# Un solo host per tre cose, e non e' una scorciatoia: gli indirizzi sono
-# COTTI DENTRO il bundle al momento della build (`VITE_MEDPLUM_BASE_URL`,
-# `VITE_PDF_SIGNER_URL` sono build args, non variabili di runtime). Quindi
-# questo blocco non e' libero di instradare come gli pare: deve corrispondere
-# a cio' che il JavaScript gia' costruito chiedera'. Misurato dentro
-# l'immagine: `/api/` e `/pdf/...`.
+# ⇒ Due file che nessuno confronta divergono, ed è una legge. Il presidio delle
+#   6 ore ne teneva d'occhio **due**; questo terzo stava fuori dal suo campo
+#   visivo, e ha vinto lui. Un presidio che guarda metà del problema è più
+#   pericoloso di uno che manca.
 #
-# Il vantaggio di tenerli sullo stesso host e' che il browser non fa nessuna
-# richiesta cross-origin: niente preflight CORS, niente cookie di terze parti.
-app.fibonaccimedica.it {
-	encode gzip zstd
-
-	# ── L'API FHIR (Medplum) ──────────────────────────────────────────────
-	# Il bundle chiama https://app.fibonaccimedica.it/api/fhir/R4/... e
-	# Medplum si aspetta /fhir/R4/... : il prefisso va TOLTO, non inoltrato.
-	handle_path /api/* {
-		reverse_proxy 127.0.0.1:8103
-	}
-
-	# ── Il sidecar dei PDF e delle foto ───────────────────────────────────
-	# Stessa logica: /pdf/photo/erase → /photo/erase.
-	# ⚠️ Qui passano immagini cliniche cifrate e PDF firmati: il corpo puo'
-	# essere grande, quindi niente limite piu' stretto del necessario.
-	handle_path /pdf/* {
-		# 🔴 LISTA BIANCA (2026-08-19). Prima qui c'era un catch-all: TUTTO il
-		# sidecar era su internet, misurato dal vivo — `/pdf/docs` e
-		# `/pdf/openapi.json` rispondevano 200 a chiunque, e gli `/internal/*`
-		# (provisioning con super-admin) erano raggiungibili. È lo stesso buco
-		# R1 già chiuso nel Caddyfile interno dell'EMR (`@pdf_pubbliche`):
-		# questa lista DEVE restare allineata a quella — se una rotta nuova
-		# serve al browser, si aggiunge in tutti e due i posti.
-		# ⚠️ I percorsi qui sono POST-strip (`handle_path` toglie `/pdf`).
-		@pubbliche path /health /signup /signup/stato /webhook/* /pubblico/* /prenotazioni/esito /prenotazioni/disponibilita /consensi/* /allegato/* /comunicazioni/* /letteratura/* /aifa/* /photo/* /render-md /render-consent /render-patient-summary /send-visit-email /send-document-email /send-appointment-reminder /sign-pades /verify-pdfa /verify-pdfa-strict /anonymize-face /strip-exif /watermark-photo /extract-watermark /body-map/extract /voxtral/transcribe /extract-anamnesi /chatbot/* /tasks/suggest /audit/export /patient/* /fse/* /studio/invita-collega /manuale /manuale/*
-		handle @pubbliche {
-			reverse_proxy 127.0.0.1:8201
-		}
-		handle {
-			respond "Accesso non consentito" 403
-		}
-	}
-
-
-	# ── Il BFF (TD-13) ────────────────────────────────────────────────────
-	# Tiene la sessione al posto del browser: da qui passano le chiamate ai
-	# sidecar con un cookie HttpOnly invece del bearer.
-	# ⛔ `handle_path` toglie `/bff`: il servizio ragiona su `/pdf/...`, non su
-	# `/bff/pdf/...`. Inoltrare il prefisso darebbe 404 su tutto.
-	# ⚠️ Inerte finche' il frontend non e' costruito con `VITE_BFF_ENABLED=true`:
-	# (⚠️ VITE_, non WEB_: `WEB_BFF_ENABLED` non esiste nel codice, e chi lo
-	# impostasse non otterrebbe niente — senza nessun errore.)
-	# oggi nessuno chiama questo percorso.
-	handle_path /bff/* {
-		# I corpi qui dentro sono foto cliniche e audio della visita: il tetto
-		# deve reggerli, o il guasto sembra «la foto non si carica».
-		request_body {
-			max_size 60MB
-		}
-		reverse_proxy 127.0.0.1:8210
-	}
-
-	# ── Il webhook di Stripe, e SOLO quello ───────────────────────────────
-	# ⛔ **Non `handle_path /billing/*`.** Il servizio `billing` espone sei
-	# rotte e **nessuna e' autenticata**: `/checkout/create-session`,
-	# `/portal/create-session`, `/ambassador/onboard` e `/ambassador/payout`.
-	# L'ultima oggi e' uno scaffold che risponde 501 — il codice del bonifico
-	# Stripe e' commentato — ma e' una rotta che un giorno spostera' denaro, e
-	# aprirla adesso significherebbe lasciarla aperta anche allora.
-	# ⇒ Si espone **un percorso esatto**, non un prefisso.
-	#
-	# ⚠️ `rewrite` e non `handle_path`: il servizio si aspetta `/webhook/stripe`,
-	# e qui il prefisso `/billing` c'e' solo per non occupare la radice.
-	#
-	# 🔒 Chi puo' chiamarlo e' Stripe e basta, ma non per via di Caddy: il
-	# servizio **verifica la firma** dell'evento con `STRIPE_WEBHOOK_SECRET`.
-	# Senza firma valida risponde 400. Il filtro vero e' quello.
-	handle /billing/webhook/stripe {
-		rewrite * /webhook/stripe
-		reverse_proxy 127.0.0.1:8205
-	}
-
-	# ── L'applicazione vera e propria ─────────────────────────────────────
-	# nginx dentro il container gestisce gia' il fallback su index.html
-	# (e' una SPA: ogni percorso deve tornare l'index o un ricaricamento su
-	# /pazienti/123 darebbe 404).
-	handle {
-		reverse_proxy 127.0.0.1:8091
-	}
-
-	# ── Intestazioni ──────────────────────────────────────────────────────
-	# Piu' severe di quelle della vetrina, perche' qui c'e' una sessione.
-	header {
-		Strict-Transport-Security "max-age=31536000; includeSubDomains"
-		X-Content-Type-Options "nosniff"
-		Referrer-Policy "strict-origin-when-cross-origin"
-		# ⛔ DENY e non SAMEORIGIN: una cartella clinica non va incorniciata
-		# da nessuno, nemmeno da un'altra pagina dello stesso sito.
-		X-Frame-Options "DENY"
-		# Il browser non deve mai tenere in cache una risposta autenticata.
-		Cache-Control "no-store"
-		# ── CSP ───────────────────────────────────────────────────────────
-		# ⚠️ MANCAVA, e non era una svista qualsiasi: la sessione dell'app vive
-		# in `localStorage` (TD-13), quindi la CSP e' cio' che sta fra un XSS e
-		# il token. Il progetto ne aveva gia' una in `EMR/infra/Caddyfile`; il
-		# blocco scritto stasera per questo host non l'aveva copiata.
-		# 🔑 Qui e' PIU' STRETTA dell'originale: quella prevedeva sottodomini
-		# separati (api./pdf./transcriber.) e doveva elencarli in connect-src.
-		# Servendo tutto da un host solo con i percorsi, basta 'self'.
-		# `'wasm-unsafe-eval'` serve a mediapipe (la mappa del viso).
-		Content-Security-Policy "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' data:; img-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' wss://app.fibonaccimedica.it; frame-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; worker-src 'self' blob:; object-src 'none'; media-src 'self' blob:"
-		-Server
-	}
-
-	# Gli asset con impronta nel nome sono l'eccezione: immutabili.
-	@immutabili path /assets/*
-	header @immutabili Cache-Control "public, max-age=31536000, immutable"
-
-	log {
-		output file /var/log/caddy/app-fibonaccimedica.log {
-			roll_size 10MiB
-			roll_keep 5
-		}
-	}
-}
+# ⚠️ Se cerchi la configurazione **di questo sito** (radice, negoziazione di
+# lingua, cache degli asset di Next): è nel blocco `fibonaccimedica.it` del file
+# in `EMR/infra/caddy/Caddyfile.aruba`. Sta insieme all'altra perché **Caddy è
+# uno solo** e serve i due host dallo stesso file: separarla qui significherebbe
+# tenere due sorgenti per un file solo, che è il difetto appena chiuso.
+#
+# ⛔ Non rimettere una copia qui. Se ti serve leggerla senza il repo EMR:
+#
+#     ssh fibonacci 'cat /etc/caddy/Caddyfile'
