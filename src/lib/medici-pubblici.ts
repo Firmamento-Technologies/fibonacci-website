@@ -391,7 +391,11 @@ let elencoDalSidecar: Promise<SchedaMedicoPubblica[]> | undefined
 async function mediciDalSidecar(): Promise<SchedaMedicoPubblica[]> {
   const base = (process.env.NEXT_PUBLIC_PRENOTA_API_URL ?? '').trim().replace(/\/$/, '')
   if (!base) return []
-  const r = await fetch(`${base}/pubblico/elenco`, { cache: 'no-store' })
+  /* ⚠️ Niente `cache: 'no-store'`: renderebbe la rotta DINAMICA e il sito è
+   * `output: 'export'` — la build fallisce (misurato al primo rilascio). La
+   * cache di build va benissimo: l'elenco è la fotografia del momento della
+   * costruzione, che è esattamente il contratto di un sito statico. */
+  const r = await fetch(`${base}/pubblico/elenco`)
   if (!r.ok) {
     /* 🔴 Build rossa, non elenco vuoto: vedi la testata del file. */
     throw new Error(
