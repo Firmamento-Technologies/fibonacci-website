@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { giornoInItaliano, oraInItaliano, mappaStudio } from '@/lib/medici-pubblici'
 import { Ritratto } from '@/components/pazienti/VoceElenco'
+import { Dato } from '@/components/pazienti/Dato'
 import { IconaAlbo, IconaCalendario, IconaLuogo, IconaTelefono } from '@/components/pazienti/Icone'
 import { ModuloPrenotazione } from '@/components/pazienti/ModuloPrenotazione'
 import { MappaStudio } from '@/components/pazienti/MappaStudio'
@@ -65,7 +66,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           d'uscita più usata dopo il tasto indietro del telefono. */}
       <p className="text-[15px]">
         <Link href="/pazienti" style={COLLEGAMENTO}>
-          ← Tutti gli studi
+          ← {t('pazienti.schedamedico.tutti_gli_studi')}
         </Link>
       </p>
 
@@ -82,7 +83,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         <Ritratto m={m} grande />
         <div style={{ minWidth: 0 }}>
           <p className="text-[13px] uppercase tracking-[.08em]" style={{ color: 'var(--fg-faint)' }}>
-            {m.medico.titolo}
+            <Dato>{m.medico.titolo}</Dato>
           </p>
           {/* ⚠️ Sans anche qui: nell'elenco era gia' cosi', e due caratteri
               diversi per lo stesso nome nelle due viste si notano. */}
@@ -92,7 +93,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
             {m.medico.nome}
           </h1>
           <p className="mt-[var(--s-13)] text-[1.0625rem]" style={{ color: 'var(--fg-muted)' }}>
-            {m.studio.nome} · {m.studio.comune}
+            <Dato>{m.studio.nome}</Dato> · <Dato>{m.studio.comune}</Dato>
           </p>
         </div>
       </header>
@@ -131,7 +132,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
           <IconaAlbo lato={20} />
           {t('pazienti.schedamedico.iscrizione_all_ordine_dei_medici')}
         </h2>
-        <p className="mt-[var(--s-13)]">{t('pazienti.schedamedico.ordine_di')} <strong>{m.medico.ordineProvinciale}</strong>, numero{' '}
+        <p className="mt-[var(--s-13)]">{t('pazienti.schedamedico.ordine_di')} <strong><Dato>{m.medico.ordineProvinciale}</Dato></strong>, {t('pazienti.schedamedico.numero')}{' '}
           <strong>{m.medico.numeroIscrizione}</strong>.
         </p>
         {/* 🔴 **Qui c'era scritto «Puoi verificarlo tu, senza passare da noi»,
@@ -211,7 +212,7 @@ export function SchedaMedico({ m }: { m: SchedaMedicoPubblica }) {
         <ul className="fila-chip mt-[var(--s-13)]" style={{ maxWidth: 'var(--measure)' }}>
           {m.prestazioni.map((p) => (
             <li key={p} className="chip-prestazione">
-              {p}
+              <Dato>{p}</Dato>
             </li>
           ))}
         </ul>

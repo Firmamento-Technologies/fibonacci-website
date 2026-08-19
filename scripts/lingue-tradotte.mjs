@@ -105,6 +105,21 @@ const ENTITA = {
 function visibile(file) {
   let s = readFileSync(file, 'utf8')
   s = s.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/g, ' ')
+  /* 🔴 **Via il testo che è DATO del medico, non interfaccia** (2026-08-19).
+   * Quando il canale pazienti ha cominciato a pubblicare studi veri, la pagina
+   * inglese di uno studio di Milano conteneva «Tossina botulinica» e «Medico
+   * chirurgo»: parole italiane dal dizionario, quindi contate come residui —
+   * da ≤8 a **15-20**, con il rilascio bloccato. ⛔ Ma tradurle sarebbe
+   * SBAGLIATO, non difficile: è il medico che dichiara che cosa fa, e
+   * riscriverglielo in un'altra lingua vuol dire pubblicare una prestazione
+   * che non ha dichiarato.
+   * ⇒ Il dato si marca alla sorgente (`components/pazienti/Dato.tsx`) e qui si
+   * salta. ⚠️ **Non è un allentamento**: è la stessa distinzione già fatta per
+   * i nomi propri qualche riga più giù (`tr[k] !== it[k]`), applicata a ciò che
+   * il dizionario non può conoscere perché arriva da un'altra macchina.
+   * 🔑 Provato rimettendo un difetto e pretendendo il rosso: le etichette
+   * dell'interfaccia sulle stesse pagine continuano a essere misurate. */
+  s = s.replace(/<span data-dato=""[^>]*>[\s\S]*?<\/span>/g, ' ')
   s = s.replace(/<[^>]+>/g, ' ')
   s = s.replace(/&#?\w+;/g, (m) => ENTITA[m] ?? (/^&#\d+;$/.test(m) ? String.fromCharCode(+m.slice(2, -1)) : m))
   return s.replace(/\s+/g, ' ').trim()

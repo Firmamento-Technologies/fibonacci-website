@@ -1,6 +1,7 @@
 'use client'
 
-import { t } from '@/lib/testo'
+import { t, t2 } from '@/lib/testo'
+import { Dato } from '@/components/pazienti/Dato'
 import Link from 'next/link'
 import type { SchedaMedicoPubblica } from '@/lib/medici-pubblici'
 import { useOrariLiberi } from '@/lib/orari-liberi'
@@ -112,7 +113,7 @@ export function VoceElenco({
                 </Link>
               </h3>
               <p className="mt-[var(--s-3)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-                {m.medico.titolo} · {m.studio.nome}
+                <Dato>{m.medico.titolo}</Dato> · <Dato>{m.studio.nome}</Dato>
               </p>
               {/* 🔑 **L'indirizzo è un collegamento alla mappa** (richiesta
                   dell'utente, 2026-08-13). Era testo morto: su un telefono
@@ -176,7 +177,7 @@ export function VoceElenco({
           <p className="pillola-albo mt-[var(--s-13)]">
             <IconaAlbo />
             <span>
-              Ordine di {m.medico.ordineProvinciale} · n. {m.medico.numeroIscrizione}
+              {t('pazienti.schedamedico.ordine_di')} <Dato>{m.medico.ordineProvinciale}</Dato> · {t('pazienti.voceelenco.n')} {m.medico.numeroIscrizione}
             </span>
           </p>
 
@@ -185,12 +186,12 @@ export function VoceElenco({
           <ul className="fila-chip mt-[var(--s-13)]">
             {prime.map((p) => (
               <li key={p} className="chip-prestazione">
-                {p}
+                <Dato>{p}</Dato>
               </li>
             ))}
             {altre > 0 && (
               <li className="text-[15px]" style={{ color: 'var(--fg-muted)', alignSelf: 'center' }}>
-                e altre {altre}
+                {t2('pazienti.voceelenco.e_altre', { n: altre })}
               </li>
             )}
           </ul>

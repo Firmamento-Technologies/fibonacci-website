@@ -142,7 +142,7 @@ export function ModuloContatto({
 
   return (
     <form onSubmit={invia} className="prosa" style={{ marginTop: 'var(--s-34)' }}>
-      <h2>Scrivi a {nomeStudio}</h2>
+      <h2>{t('pazienti.modulocontatto.scrivi_a')} {nomeStudio}</h2>
       <p style={{ fontSize: '15px', color: 'var(--fg-muted)' }}>
         {t('pazienti.modulocontatto.il_messaggio_e_tuo_noi_lo')}
       </p>

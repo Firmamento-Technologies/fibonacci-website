@@ -209,8 +209,8 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
       >
         <p style={{ fontWeight: 500 }}>{messaggio}</p>
         <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          Questa pagina non può darti assistenza medica: la tua richiesta di appuntamento{' '}
-          <strong>non è stata inviata</strong>.
+          {t('pazienti.moduloprenotazione.non_puo_darti_assistenza')}{' '}
+          <strong>{t('pazienti.moduloprenotazione.non_e_stata_inviata')}</strong>.
         </p>
       </div>
     )

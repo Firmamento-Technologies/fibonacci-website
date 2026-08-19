@@ -158,6 +158,25 @@ try {
        * (verificato col preflight il 2026-08-16). */
       NEXT_PUBLIC_CONTATTO_API_URL:
         process.env.NEXT_PUBLIC_CONTATTO_API_URL ?? 'https://app.fibonaccimedica.it',
+      /* 🔴 **Le tre del canale pazienti, e senza di esse il rilascio CANCELLA
+       * pagine.** Misurato il 2026-08-19: lanciando `rilascia.mjs` senza
+       * ambiente, la prova a vuoto dell'rsync ha dichiarato **22 cose in
+       * cancellazione fuori da `_next/`**, fra cui l'intera cartella
+       * `pazienti/medico/studio-di-collaudo-beta-013634/`. Il motivo: queste
+       * variabili non erano fissate qui, si passavano **a mano** sulla riga di
+       * comando, e chi rilascia senza saperlo costruisce un sito **senza il
+       * canale**: `PRENOTA_API_URL` vuota ⇒ l'elenco non viene chiesto al
+       * sidecar (⇒ zero studi veri), `PAZIENTI_ESEMPI` spenta ⇒ spariscono
+       * anche i due dimostrativi.
+       * ⚠️ I valori di destinazione **non sono difetti dei moduli**: quelli
+       * restano spenti di default apposta (un modulo che spedisce nel vuoto è
+       * peggio di un modulo assente). È il RILASCIO che deve dire dove sta
+       * andando, ed è esattamente ciò che fa la riga qui sopra per il contatto.
+       * ⇒ Fissate qui, sovrascrivibili dall'ambiente come le altre. */
+      NEXT_PUBLIC_PRENOTA_API_URL:
+        process.env.NEXT_PUBLIC_PRENOTA_API_URL ?? 'https://app.fibonaccimedica.it/pdf',
+      NEXT_PUBLIC_PREANAMNESI: process.env.NEXT_PUBLIC_PREANAMNESI ?? 'true',
+      NEXT_PUBLIC_PAZIENTI_ESEMPI: process.env.NEXT_PUBLIC_PAZIENTI_ESEMPI ?? 'true',
     },
   })
   {
