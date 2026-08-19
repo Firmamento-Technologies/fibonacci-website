@@ -73,7 +73,41 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 QUI = os.path.dirname(os.path.abspath(__file__))
 RADICE = os.path.dirname(QUI)
-USCITA = os.path.join(RADICE, "src", "dati", "cliniche")
+# ── Il settore: il punto di parametrizzazione della raccolta ────────────────
+# Un settore è un modulo in `scripts/settori/<slug>.py` con: le 5 famiglie di
+# MODELLI di ricerca, la tassonomia PRESTAZIONI, CARTELLA_SCHEDE e FILE_STATO.
+# ⚠️ Il default è `estetica` coi PERCORSI STORICI (src/dati/cliniche,
+# stato-scoperta.json): il comportamento di ieri resta bit-identico, presidiato
+# da `test_settori.py`. Gli altri settori scrivono in cartelle e stati PROPRI:
+# due raccolte non si pestano mai i file.
+# 🔑 `--settore` si legge PRIMA di ogni altra cosa perché i percorsi qui sotto
+# ne dipendono; il resto del motore (classificatore, cache, robots, decisioni
+# umane, DOMINI_ESCLUSI) è NEUTRO e condiviso fra i settori.
+sys.path.insert(0, QUI)
+import importlib as _importlib
+
+
+def _carica_settore():
+    slug = "estetica"
+    for i, a in enumerate(sys.argv):
+        if a.startswith("--settore="):
+            slug = a.split("=", 1)[1]
+        elif a == "--settore" and i + 1 < len(sys.argv):
+            slug = sys.argv[i + 1]
+    if not re.fullmatch(r"[a-z-]{3,40}", slug):
+        print(f"⛔ settore non valido: {slug!r}"); raise SystemExit(2)
+    try:
+        return slug, _importlib.import_module(f"settori.{slug}")
+    except ModuleNotFoundError:
+        import pathlib
+        noti = sorted(x.stem for x in (pathlib.Path(QUI) / "settori").glob("*.py")
+                      if not x.stem.startswith("_"))
+        print(f"⛔ settore sconosciuto: {slug!r} — noti: {', '.join(noti)}")
+        raise SystemExit(2)
+
+
+SETTORE, _settore = _carica_settore()
+USCITA = os.path.join(RADICE, "src", "dati", _settore.CARTELLA_SCHEDE)
 CONTATTO = "https://fibonaccimedica.it"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36")
@@ -205,16 +239,7 @@ def robots_permette(url):
         return True
 
 # ═════════════════════════════════════════════════ 1. scoperta
-MODELLI = [
-    "studio medicina estetica {c}",
-    "centro medicina estetica {c}",
-    "ambulatorio medicina estetica {c}",
-    "poliambulatorio medicina estetica {c}",
-    "clinica medicina estetica {c}",
-    "medicina estetica {c} filler acido ialuronico",
-    "medicina estetica {c} tossina botulinica",
-    "medicina estetica {c} biostimolazione viso",
-]
+MODELLI = _settore.MODELLI
 # 🔑 I **professionisti** ⛔ non escono dalle ricerche qui sopra: chi cerca
 # «studio medicina estetica» trova le insegne, ⛔ non i medici. Servono parole
 # diverse — misurato il 2026-08-13: queste quattro hanno restituito **dieci
@@ -229,22 +254,10 @@ MODELLI = [
 # ⚠️ E la profondità ⛔ non è una via d'uscita: su DuckDuckGo la pagina 2 rende
 # **0 domini nuovi** (il parametro `s=` è ignorato) ⇒ 10 risultati per ricerca è
 # un **tetto**, e la copertura si prende solo con **più query diverse**.
-MODELLI_TRATTAMENTO = [
-    "botulino {c} medico",
-    "filler labbra {c}",
-    "laser viso {c} medico",
-    "criolipolisi {c}",
-    "biorivitalizzazione viso {c}",
-    "chirurgo plastico {c}",
-]
+MODELLI_TRATTAMENTO = _settore.MODELLI_TRATTAMENTO
 # Per i **comuni** bastano quattro modelli: sono centri piccoli, e oltre il
 # quarto la resa crolla perché l'inventario locale finisce, ⛔ non il motore.
-MODELLI_COMUNE = [
-    "medicina estetica {c}",
-    "medico estetico {c}",
-    "centro medico estetico {c}",
-    "filler {c}",
-]
+MODELLI_COMUNE = _settore.MODELLI_COMUNE
 # 🔴 **Misurato il 2026-08-14: il soffitto ⛔ non è il ranking, è la nostra
 # pigrizia.** Avevo ipotizzato che il limite fosse strutturale — «il motore dà 10
 # risultati e restituisce solo chi si posiziona, la coda lunga è invisibile».
@@ -254,29 +267,7 @@ MODELLI_COMUNE = [
 # troppe poche domande**.
 # 🔑 ⇒ la profondità della griglia va **proporzionata alla città**: 58 modelli
 # per le grandi, 18 per i capoluoghi minori, 4 per i comuni.
-MODELLI_PROFONDI = [
-    "rughe viso {c} medico estetico", "acido ialuronico viso {c}", "peeling viso {c} medico",
-    "mesoterapia {c}", "fili di trazione viso {c}", "blefaroplastica {c}", "rinofiller {c}",
-    "lipofilling viso {c}", "radiofrequenza viso {c}", "microneedling {c}", "PRP viso {c}",
-    "trattamento occhiaie {c}", "zigomi filler {c}", "mento filler {c}", "cellulite {c} medico",
-    "criolipolisi addome {c}", "epilazione laser {c} medico", "macchie viso laser {c}",
-    "couperose {c} medico", "acne cicatrici {c} medico", "caduta capelli {c} medico",
-    "iperidrosi ascellare {c}", "medicina estetica {c} prima visita", "ambulatorio estetico {c}",
-    "poliambulatorio estetico {c}", "clinica estetica {c} prezzi", "medico estetico {c} centro",
-    "medicina anti-aging {c}", "medicina rigenerativa viso {c}", "dermatologo estetico {c}",
-    "specialista filler {c}", "botulino rughe fronte {c}", "skinbooster {c}", "profhilo {c}",
-    "trattamento viso uomo {c}", "medicina estetica {c} nord", "medicina estetica {c} sud",
-    "studio medicina estetica {c} centro", "centro laser {c} medico", "medicina estetica corpo {c}",
-    "rimodellamento corpo {c}", "trattamento collo {c} medico", "décolleté trattamento {c}",
-    "mani ringiovanimento {c}", "smagliature {c} medico", "medicina estetica {c} uomo",
-    "labbra volume {c} medico", "sopracciglia lifting {c}", "doppio mento {c} trattamento",
-    "medicina estetica {c} recensioni", "chirurgia estetica {c} clinica", "medico estetico {c} online",
-    "prenota medicina estetica {c}", "consulenza medicina estetica {c}", "aesthetic clinic {c}",
-    "medicina estetica {c} viso naturale", "biorivitalizzante {c}", "vitamine viso {c} medico",
-    "ossigenoterapia viso {c}", "carbossiterapia {c}", "pressoterapia {c} medico",
-    "onde d urto cellulite {c}", "laser co2 frazionato {c}", "hifu {c} lifting",
-    "ultherapy {c}", "morpheus8 {c}", "emsculpt {c}",
-]
+MODELLI_PROFONDI = _settore.MODELLI_PROFONDI
 # 🔑 **Quattro modelli su 85 cercavano una persona, e infatti le persone erano
 # 324 su 1.986.** ⚠️ Il difetto ⛔ non era solo la classificazione (corretta il
 # 2026-08-15: +326 professionisti recuperati **dalle schede già raccolte**):
@@ -286,24 +277,7 @@ MODELLI_PROFONDI = [
 # ⇒ i modelli qui sotto cercano *come si presenta una persona*, ⛔ non una
 # struttura. Misurato sul motore prima di scriverli: `"medico estetico" Milano
 # "iscritto all'albo"` rende **9 host** contro i 2 di una query con `site:`.
-MODELLI_PROFESSIONISTI = [
-    "medico estetico {c} studio privato",
-    "dottoressa medicina estetica {c} studio",
-    "specialista medicina estetica {c} visita",
-    "medico estetico {c} filler labbra",
-    # ⚠️ Le virgolette **contano**: senza, il motore allarga a «medicina
-    # estetica» generico e torna la stessa manciata di portali.
-    '"medico estetico" {c} "iscritto all\'albo"',
-    '"medicina estetica" {c} "ordine dei medici"',
-    "dott medicina estetica {c} sito ufficiale",
-    "dott.ssa medicina estetica {c} studio",
-    "specialista in medicina estetica {c} curriculum",
-    "chirurgo plastico {c} studio privato",
-    "dermatologo {c} medicina estetica studio",
-    "medico estetico {c} biografia formazione",
-    "medico chirurgo estetico {c} riceve su appuntamento",
-    "medicina estetica {c} dott visita privata",
-]
+MODELLI_PROFESSIONISTI = _settore.MODELLI_PROFESSIONISTI
 
 def scopri(citta, pausa=4.0):
     """⛔ Dal motore si prende **solo l'URL**: nessun titolo, nessuno snippet,
@@ -497,18 +471,7 @@ RE_LEGALI = re.compile(r'href="([^"#?]{1,120}?(?:privacy|note-legali|note_legali
                        r'termini|condizioni|trasparenza|societ|legal)[^"#?]{0,40})"', re.I)
 CASELLE_DI_RUOLO = ("info", "segreteria", "prenotazioni", "prenota", "contatti", "contatto",
                     "amministrazione", "reception", "studio", "clinica", "centro", "accoglienza")
-PRESTAZIONI = {
-    "Filler": r"\bfiller\b|acido\s+ialuronico",
-    "Tossina botulinica": r"botulin|botox",
-    "Biostimolazione": r"biostimolaz|biorivitalizzaz",
-    "Peeling chimico": r"peeling",
-    "Laser": r"\blaser\b",
-    "Mesoterapia": r"mesoterap",
-    "Radiofrequenza": r"radiofrequenz",
-    "Fili di trazione": r"fili\s+di\s+trazione|fili\s+riassorbibili",
-    "Trattamento cicatrici": r"cicatric",
-    "Epilazione": r"epilazion",
-}
+PRESTAZIONI = _settore.PRESTAZIONI
 
 def testo_di(grezzo):
     """⚠️ Le entità si sciolgono con `html.unescape`, ⛔ non con una lista fatta
@@ -846,7 +809,7 @@ def analizza(host, provincia, dove_cercare=None, max_pagine=3):
 # ⚠️ **Il blocco ⛔ non è un errore HTTP**: DuckDuckGo risponde **200** con una
 # pagina senza risultati (o 202). Misurato il 2026-08-13: ⛔ non si accorge di
 # nulla chi guarda solo il codice di stato — si guarda **se ci sono link**.
-STATO_P6 = os.path.join(QUI, "stato-scoperta.json")
+STATO_P6 = os.path.join(QUI, _settore.FILE_STATO)
 
 def carica_stato():
     if os.path.exists(STATO_P6):
