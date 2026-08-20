@@ -59,7 +59,12 @@ export function nienteDatiElenco(problemi) {
     // guardato. Si dice, e si prosegue.
     problemi.push(
       'dati elenco: manca `_recapiti.json`, quindi il controllo sui dati ' +
-        'pubblicati NON e stato fatto (rigeneralo con `python3 scripts/costruisci-db.py`)',
+        'pubblicati NON e stato fatto.\n' +
+        '      ⚠️ In un `git worktree` e NORMALE: il file e generato e sta in .gitignore,\n' +
+        '      quindi ⛔ non e un guasto da cercare.\n' +
+        '      Riparazione, ~0,5 s:  python3 scripts/costruisci-db.py\n' +
+        '      ⛔ Non copiarlo dall albero condiviso: la e generato da dati con le\n' +
+        '      modifiche non committate di altre sessioni, e ⛔ non combacia con out/.',
     )
     return 0
   }

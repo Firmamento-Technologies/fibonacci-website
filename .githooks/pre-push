@@ -75,6 +75,36 @@ fi
 # nell'archivio e' PEGGIO di un'informativa assente.
 # ⚠️ Costa un decimo di secondo e legge la FONTE, mentre `niente-dati-elenco`
 # guarda il COSTRUITO: due domande diverse, servono tutte e due.
+# ── IL FILE GENERATO CHE IN UN WORKTREE NON C'E' MAI ────────────────────────
+#
+# 🔴 **Aggiunto il 2026-08-21 perche' mi e' costato quattro minuti per niente**
+# (TD-288). `src/dati/cliniche/_recapiti.json` e' **generato** e sta in
+# `.gitignore`: esiste solo dove qualcuno lo ha costruito, quindi in un
+# `git worktree` appena creato ⛔ non c'e'. Lo leggono **due** controlli:
+#   · `promesse-informativa.py` (qui sotto), che si comporta bene: dichiara di
+#     ⛔ non aver verificato e lascia passare, perche' e' un avviso;
+#   · `niente-dati-elenco.mjs` dentro il collaudo, che lo conta come **problema**
+#     — giustamente, perche' li' la cricca e' a zero e un controllo che non ha
+#     girato ⛔ non e' un verde.
+# ⇒ il push proseguiva, costruiva, faceva girare il collaudo, e **falliva dopo
+#   ~4 minuti** per una cosa che si sapeva **al secondo zero**.
+#
+# 🔑 Perche' fermarsi qui e ⛔ non generarlo da soli: un cancello che scrive file
+# di dati per conto tuo e' un cancello che fa cose che non hai chiesto. Costa una
+# riga di comando e mezzo secondo, e chi la lancia sa che cosa ha lanciato.
+if [ ! -f src/dati/cliniche/_recapiti.json ]; then
+  echo
+  echo "⛔ PUSH FERMATO SUBITO (invece che fra ~4 minuti):"
+  echo "   manca \`src/dati/cliniche/_recapiti.json\`."
+  echo "   ⚠️  In un \`git worktree\` e' NORMALE: il file e' generato e sta in .gitignore,"
+  echo "   quindi ⛔ non e' un guasto da cercare. Il collaudo piu' avanti lo conterebbe"
+  echo "   come problema e fallirebbe sulla cricca."
+  echo "     python3 scripts/costruisci-db.py      # ~0,5 s, nessuna rete, niente va online"
+  echo "   ⛔ Non copiarlo dall'albero condiviso: la' e' generato da dati con le modifiche"
+  echo "   non committate di altre sessioni, quindi ⛔ non combacia con l'out/ di qui."
+  exit 1
+fi
+
 if ! python3 scripts/promesse-informativa.py; then
   echo
   echo "⛔ PUSH BLOCCATO: i dati raccolti contraddicono l'informativa pubblicata."

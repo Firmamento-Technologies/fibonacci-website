@@ -50,6 +50,15 @@ next-env.d.ts
 # aggiunto», che regge finché nessuno scrive `git add -A`. Il file
 # classificato nasce dallo stesso dato e finiva nella stessa trappola.
 src/dati/cliniche/_recapiti.json
+# Generato dallo stesso comando (`costruisci-db.py`): un database LOCALE di 4.658
+# schede, che ⛔ non e' raggiungibile dal sito e ⛔ non entra nella build. Restava
+# non tracciato, e un `git add -A` lo avrebbe committato (TD-288, 2026-08-21).
+scripts/directory.sqlite
+scripts/directory.sqlite-wal
+scripts/directory.sqlite-shm
+# Stessa famiglia: lo lascia dietro qualunque script python di questa cartella.
+__pycache__/
+*.pyc
 src/dati/cliniche/_recapiti-classificati.json
 # La coda di revisione dei 678 (`scripts/coda-revisione.py`): stessi dati, stessa
 # regola. ⛔ Non e' l'elenco e ⛔ non va online — e' la lista di chi va guardato a
