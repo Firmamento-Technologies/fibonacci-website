@@ -1098,7 +1098,6 @@
   "pazienti.moduloprenotazione.nome": "Name",
   "pazienti.moduloprenotazione.non_e_stata_inviata": "was not sent",
   "pazienti.moduloprenotazione.non_e_stato_possibile_inviare_la": "Could not send the request. You can call the practice.",
-  "pazienti.moduloprenotazione.non_puo_darti_assistenza": "This page cannot give you medical assistance: your appointment request",
   "pazienti.moduloprenotazione.quello_che_scrivi_va_allo_studio": "What you write goes to the clinic, which is the data controller. We don’t use it for anything else.",
   "pazienti.moduloprenotazione.richiesta_inviata": "Request sent.",
   "pazienti.moduloprenotazione.scegli_un_orario": "Choose a time",

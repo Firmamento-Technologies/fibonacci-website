@@ -31,12 +31,13 @@ import {
  * a confrontarle.
  *
  * ── LE TRE RISPOSTE CHE CONTANO ────────────────────────────────────────────
- * · **409** → `{ urgenza, destinazione, messaggio }`. ⚠️ **Non è un errore di
- *   validazione e non va mostrato come tale**: chi ha appena scritto che gli si
- *   sta gonfiando la gola non deve vedere un campo rosso. Il commento nel
- *   sidecar lo dice: *«400 dice "i dati sono sbagliati, correggili"; 409 dice
- *   "la richiesta è comprensibile ma non è di questo canale"»*. Si mostra il
- *   **messaggio del server**, in evidenza, e il modulo sparisce.
+ * · **409** → l'orario non è più libero. ⚠️ **Fino al 2026-08-20 qui c'era
+ *   altro**: il 409 portava `{ urgenza, destinazione, messaggio }` e il modulo
+ *   spariva mostrando dove rivolgersi. Quel percorso ⛔ non esiste più — il
+ *   canale ⛔ non analizza il motivo (MDR Allegato VIII Regola 11), e al suo
+ *   posto c'è l'**avviso fisso** in cima al modulo. ⛔ Non reintrodurlo senza
+ *   riaprire la decisione: `EMR/services/pdf-signer/test_prenotazione_urgenza.py`
+ *   diventa rosso, e la destinazione d'uso §1.1 torna falsa.
  * · **400** → una stringa **già scritta per il paziente** dal sidecar: si
  *   mostra quella, ⛔ mai un codice HTTP.
  * · **ok** → lo stato è **`richiesta-inviata`**, ⛔ mai «prenotato»: il
