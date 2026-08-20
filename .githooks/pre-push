@@ -118,8 +118,17 @@ for t in scripts/test_*.py; do
 done
 echo "✅ test python degli script sui dati: verdi"
 
+# ⚠️ **La variabile NON è un dettaglio, e questa riga è stata corretta il
+# 2026-08-20 perché mandava a sbattere.** Diceva solo `npm run build`, e un build
+# senza dominio prende `basePath: /fibonacci-website` (è GitHub Pages): `out/`
+# servito alla radice chiede il CSS a `/fibonacci-website/_next/…`, che dà 404,
+# e il collaudo muore su «Pagina SENZA CSS» dopo ~3 minuti di costruzione buttati.
+# ⇒ chi seguiva l'istruzione perdeva un build intero per scoprirlo.
 if [ ! -d out ]; then
-  echo "⚠️  \`out/\` non c'è: costruisci prima (\`npm run build\`), oppure COLLAUDO=0."
+  echo "⚠️  \`out/\` non c'è. Costruisci PER IL COLLAUDO (senza prefisso di percorso):"
+  echo "     NEXT_PUBLIC_DOMINIO_SITO=collaudo.local npm run build"
+  echo "   ⛔ Non \`npm run build\` liscio: il CSS finirebbe sotto /fibonacci-website/ e"
+  echo "   il collaudo si fermerebbe su «Pagina SENZA CSS». Oppure COLLAUDO=0."
   exit 1
 fi
 
