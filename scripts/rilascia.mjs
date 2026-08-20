@@ -5,6 +5,7 @@
  *   node scripts/rilascia.mjs            # rilascia da origin/main
  *   node scripts/rilascia.mjs --prova    # fa tutto tranne l'rsync vero
  *   node scripts/rilascia.mjs --ref HEAD # rilascia da un altro riferimento
+ *   node scripts/rilascia.mjs --copia-vecchia  # eccezione dichiarata al passo 1
  *
  * ── PERCHÉ ESISTE (2026-08-16) ──────────────────────────────────────────────
  * Fino a oggi il rilascio era una sequenza **eseguita a mano**: costruisci,
@@ -70,6 +71,21 @@ const PROVA = argomenti.includes('--prova')
  * di un'altra sessione.
  */
 const SCHERMATE_VECCHIE = argomenti.includes('--schermate-vecchie')
+/**
+ * ⚠️ **L'uscita dichiarata dal cancello del passo 1.** Serve quando si sa
+ * davvero perché si sta eseguendo una copia vecchia di questo file: per esempio
+ * per riprodurre un rilascio andato storto, o per bisezionare un difetto.
+ *
+ * 🔑 Come `--schermate-vecchie`, e per la stessa ragione: un cancello **tolto**
+ * non si rimette, e il prossimo che ha fretta trova la strada già aperta. Così
+ * invece l'eccezione va scritta sulla riga di comando, si vede a video, e resta
+ * una traccia di che cosa NON è stato controllato.
+ *
+ * ⛔ **Non è un'abbreviazione per «il cancello mi dà fastidio».** Se è rosso, la
+ * risposta giusta è quasi sempre di tre righe: worktree su `origin/main`,
+ * `node_modules` copiato, rilancia da lì. Le stampa il messaggio stesso.
+ */
+const COPIA_VECCHIA = argomenti.includes('--copia-vecchia')
 const RIF = argomenti.includes('--ref') ? argomenti[argomenti.indexOf('--ref') + 1] : 'origin/main'
 
 const rosso = (t) => `\x1b[31m${t}\x1b[0m`
@@ -89,7 +105,95 @@ function muori(motivo, comeSiRipara) {
 const git = (args, dir = SITO) =>
   execFileSync('git', ['-C', dir, ...args], { encoding: 'utf8' }).trim()
 
-// ── 1. Le schermate ─────────────────────────────────────────────────────────
+// ── 1. La copia che stai eseguendo ──────────────────────────────────────────
+/* 🔴 **Esiste perché il 2026-08-20 ho cancellato 10 pagine dal sito vivo
+ * obbedendo a una versione vecchia di questo file** (TD-286).
+ *
+ * Il punto che lo rende possibile: `rilascia.mjs` **costruisce** da un worktree
+ * su `origin/main`, ma **si esegue** dalla cartella da cui è stato lanciato. Le
+ * due cose possono divergere, e quella sera divergevano di **43 commit**. Da lì
+ * due difetti insieme, tutti e due silenziosi:
+ *   1. la copia vecchia non fissava `NEXT_PUBLIC_PRENOTA_API_URL` e le altre due
+ *      del canale pazienti (aggiunte il 2026-08-19) ⇒ la costruzione non chiedeva
+ *      l'elenco al sidecar, e faceva **210 pagine invece di 220**;
+ *   2. il controllo delle schede riconosceva gli esempi dal **nome della
+ *      cartella** invece che dal marchio `data-scheda="esempio"`, regola cambiata
+ *      il 2026-08-19 su decisione dell'utente.
+ * ⇒ la prova a vuoto diceva «l'rsync cancellerebbe 110 cose FUORI da `_next/`»,
+ *   che si legge come *«sul sito c'è roba di troppo»* e invece era *«la tua
+ *   costruzione è incompleta»*. Ho corretto il sito invece della misura.
+ *
+ * 🔑 La lezione, più larga di questo file: **un cancello è codice, e il codice
+ * invecchia**. La sua diagnosi è credibile proprio quando è falsa, perché
+ * descrive con precisione un mondo che non c'è più. ⇒ un rosso che accusa
+ * **l'esistente** va sospettato di accusare **la tua misura**.
+ *
+ * ⚠️ Si misura **dopo un `fetch`**, ⛔ non sul `refs/remotes/origin/main` che sta
+ * sul disco: quello si muove solo quando qualcuno lo muove, e un confronto
+ * contro un riferimento fermo direbbe «allineato» a chiunque. Verificato il
+ * 2026-08-20 che qui il fetch aggiorna davvero il ref (in `EMR` **non** lo fa:
+ * per questo la riga è misurata e non data per buona).
+ *
+ * ⛔ Se il fetch non riesce non si tira a indovinare: senza misura non c'è verde.
+ * È la stessa regola del `pre-push` (*«una misura che non c'è ⛔ non è zero
+ * problemi»*). E ha un tetto di tempo con il prompt delle credenziali spento,
+ * perché un rilascio **appeso** è peggio di un rilascio fermato.
+ */
+titolo('La copia di questo script è aggiornata?')
+{
+  try {
+    execFileSync('git', ['-C', SITO, 'fetch', 'origin', 'main', '--quiet'], {
+      encoding: 'utf8',
+      timeout: 60_000,
+      env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+    })
+  } catch (e) {
+    muori(
+      `non riesco a chiedere a origin qual è l'ultimo main: ${String(e.message).split('\n')[0]}`,
+      'Senza quella risposta non so se questo script è vecchio, e una misura che non c’è\n' +
+        '   ⛔ non è un verde. Riprova quando la rete c’è, oppure dichiara l’eccezione\n' +
+        '   con --copia-vecchia.',
+    )
+  }
+
+  const dietro = Number(git(['rev-list', '--count', 'HEAD..origin/main']))
+  const qui = git(['rev-parse', '--short', 'HEAD'])
+  const la = git(['rev-parse', '--short', 'origin/main'])
+
+  if (dietro > 0 && COPIA_VECCHIA) {
+    console.log(giallo(`   ⚠️  CANCELLO SALTATO con --copia-vecchia: questa copia è ${dietro} commit indietro.`))
+    console.log(giallo(`      ${qui} contro ${la}. I controlli dei passi che seguono sono quelli di ALLORA.`))
+    console.log(giallo('      ⛔ Se uno di essi diventa rosso, sospetta PRIMA questa copia.'))
+  } else if (dietro > 0) {
+    muori(
+      `questa copia di rilascia.mjs è ${dietro} commit indietro rispetto a origin/main ` +
+        `(${qui} contro ${la}).\n` +
+        '   Costruirebbe il codice nuovo con i controlli vecchi, e i due possono non essere\n' +
+        '   d’accordo: è già successo, ed è costato 10 pagine cancellate dal sito vivo.',
+      'Rilascia dalla copia giusta (è la sequenza che ha funzionato il 2026-08-20):\n' +
+        '     git worktree add --detach /tmp/rilascio origin/main\n' +
+        `     cp -Rc ${JSON.stringify(join(SITO, 'node_modules'))} /tmp/rilascio/node_modules\n` +
+        `     cd /tmp/rilascio && node scripts/rilascia.mjs ${argomenti.join(' ')}`.trimEnd() +
+        '\n' +
+        '     git worktree remove --force /tmp/rilascio   # alla fine\n\n' +
+        '   ⛔ Se sai davvero perché ti serve la copia vecchia: --copia-vecchia,\n' +
+        '   che lo dichiara a video invece di nasconderlo.',
+    )
+  } else {
+    /* ⚠️ «avanti» ⛔ non è un problema: chi sviluppa questo script ha commit
+     * locali sopra `origin/main` e contiene comunque tutto ciò che c'è là.
+     * Ma ⛔ non si scrive «allineata», che gli farebbe credere che i suoi commit
+     * siano già sul remoto. */
+    const avanti = Number(git(['rev-list', '--count', 'origin/main..HEAD']))
+    ok(
+      avanti === 0
+        ? `allineata a origin/main (${la})`
+        : `contiene tutto origin/main (${la}), più ${avanti} commit locali ⛔ non spinti`,
+    )
+  }
+}
+
+// ── 2. Le schermate ─────────────────────────────────────────────────────────
 // Prima di tutto, perché è il controllo che costa di più riparare: se sono
 // vecchie serve accendere l'EMR e ricatturare, e non ha senso scoprirlo dopo
 // aver costruito il sito.
@@ -107,7 +211,7 @@ titolo('Le schermate vengono dal codice che gira adesso?')
   else ok('fresche')
 }
 
-// ── 2. Il worktree ──────────────────────────────────────────────────────────
+// ── 3. Il worktree ──────────────────────────────────────────────────────────
 titolo(`Costruisco da un worktree su ${RIF}`)
 const sha = git(['rev-parse', RIF])
 const W = mkdtempSync(join(tmpdir(), 'rilascio-fibonacci-'))
@@ -199,7 +303,7 @@ try {
 
   const OUT = join(W, 'out')
 
-  // ── 3. I controlli sul costruito ──────────────────────────────────────────
+  // ── 4. I controlli sul costruito ──────────────────────────────────────────
   titolo('Controlli sul costruito, prima di spedire')
 
   /* 🛑 **Le schede dei medici non vanno online** (vincolo esplicito
@@ -266,7 +370,7 @@ try {
   }
   ok(`${urls.length} URL in sitemap, tutti con una pagina`)
 
-  // ── 4. Copia di sicurezza ─────────────────────────────────────────────────
+  // ── 5. Copia di sicurezza ─────────────────────────────────────────────────
   titolo('Copia di sicurezza sulla macchina')
   if (PROVA) {
     console.log(giallo('   (--prova: saltata)'))
@@ -279,7 +383,7 @@ try {
     ok(`/root/${nome}`)
   }
 
-  // ── 5. La prova a vuoto ───────────────────────────────────────────────────
+  // ── 6. La prova a vuoto ───────────────────────────────────────────────────
   /* ⚠️ `--delete` su una radice web è il comando che può svuotare il sito. La
      prova a vuoto non è prudenza generica: si pretende che **ogni cancellazione
      stia dentro `_next/`**, cioè sia un frammento di build vecchio. Una
@@ -304,7 +408,7 @@ try {
     ok('nessuna cancellazione fuori da _next/');
   }
 
-  // ── 6. Il rilascio ────────────────────────────────────────────────────────
+  // ── 7. Il rilascio ────────────────────────────────────────────────────────
   titolo('Rilascio');
   if (PROVA) {
     console.log(giallo('   (--prova: non spedisco niente)'))
@@ -315,7 +419,7 @@ try {
     ok('spedito')
   }
 
-  // ── 7. La verifica DA INTERNET ────────────────────────────────────────────
+  // ── 8. La verifica DA INTERNET ────────────────────────────────────────────
   /* ⛔ Non dal disco e non dalla macchina: dal di fuori, che è da dove lo
      guarda chi compra. Un rilascio che non si verifica da internet è un
      rilascio dichiarato, non misurato. */
