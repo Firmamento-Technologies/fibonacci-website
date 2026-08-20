@@ -43,7 +43,7 @@ import {
  *   paziente ha accettato, lo studio no.
  */
 
-type Stato = 'fermo' | 'invio' | 'inviata' | 'urgenza' | 'errore'
+type Stato = 'fermo' | 'invio' | 'inviata' | 'errore'
 
 /** Risolve la prova di lavoro: cerca il primo `n` per cui
  *  `sha256(seme + n)` ha almeno `difficolta` bit iniziali a zero.
@@ -164,18 +164,9 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
         }),
       })
       const corpo = (await r.json().catch(() => ({}))) as {
-        detail?: string | { urgenza?: boolean; messaggio?: string }
+        detail?: string
       }
 
-      if (r.status === 409) {
-        const d = corpo.detail
-        setMessaggio(
-          typeof d === 'object' && d?.messaggio
-            ? d.messaggio: t('pazienti.moduloprenotazione.da_quello_che_hai_scritto_potrebbe'),
-        )
-        setStato('urgenza')
-        return
-      }
       if (!r.ok) {
         setMessaggio(
           typeof corpo.detail === 'string'
@@ -191,29 +182,6 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
       setMessaggio('Non è stato possibile inviare la richiesta. Puoi chiamare lo studio.')
       setStato('errore')
     }
-  }
-
-  /* ── L'urgenza prende tutta la scena ──────────────────────────────────────
-     ⚠️ Il modulo **sparisce**: lasciarlo sotto inviterebbe a riprovare, e
-     riprovare è esattamente la cosa sbagliata da fare adesso. */
-  if (stato === 'urgenza') {
-    return (
-      <div
-        role="alert"
-        style={{
-          marginTop: 'var(--s-21)',
-          padding: 'var(--s-21)',
-          background: 'var(--bg-sunk)',
-          borderRadius: 'var(--r-lg)',
-        }}
-      >
-        <p style={{ fontWeight: 500 }}>{messaggio}</p>
-        <p className="mt-[var(--s-13)] text-[15px]" style={{ color: 'var(--fg-muted)' }}>
-          {t('pazienti.moduloprenotazione.non_puo_darti_assistenza')}{' '}
-          <strong>{t('pazienti.moduloprenotazione.non_e_stata_inviata')}</strong>.
-        </p>
-      </div>
-    )
   }
 
   if (stato === 'inviata') {
@@ -252,6 +220,40 @@ export function ModuloPrenotazione({ m }: { m: SchedaMedicoPubblica }) {
 
   return (
     <form onSubmit={invia} style={{ marginTop: 'var(--s-21)' }}>
+      {/* ── L'AVVISO SULLE URGENZE, E PERCHÉ È FISSO ────────────────────────
+          🔴 **Qui c'era il contrario**: il modulo mandava il motivo al server,
+          il server lo analizzava e, se sembrava un'emergenza, rispondeva 409 e
+          una schermata prendeva tutto lo spazio dicendo a chi rivolgersi.
+          **Tolto il 2026-08-20, per decisione dell'utente** (`EMR@2e0b2d84`).
+          ⚖️ MDR, Allegato VIII, Regola 11: un software che risponde «vai al
+          118» oppure «no, chiama lo studio» **fornisce informazioni usate per
+          prendere una decisione terapeutica**, e questo avvia la qualificazione
+          come dispositivo medico. La destinazione d'uso §1.1 dichiara che
+          Fibonacci ⛔ non fa *«alcuna funzione di triage o di valutazione
+          dell'urgenza clinica»*: si è scelto di renderla vera.
+          🔴 E la misura che ha chiuso la discussione: il filtro accettava
+          quattro categorie estetiche e **scartava** le altre — «mi si sta
+          gonfiando la gola e faccio fatica a respirare» andava al **118** per
+          la regola, e la prenotazione **passava lo stesso**.
+          🔑 **Un avviso fisso ⛔ non analizza e ⛔ non decide**, quindi non è
+          quell'informazione — e arriva **prima** che il paziente scriva,
+          invece che dopo aver compilato tutto.
+          ⛔ **Non trasformarlo in un avviso condizionale** («se hai scritto X
+          allora…»): sarebbe di nuovo analisi del testo, e la dichiarazione
+          tornerebbe falsa nello stesso istante. */}
+      <p
+        role="note"
+        className="text-[15px]"
+        style={{
+          marginBottom: 'var(--s-21)',
+          padding: 'var(--s-13)',
+          background: 'var(--bg-sunk)',
+          borderRadius: 'var(--r-lg)',
+          color: 'var(--fg-muted)',
+        }}
+      >
+        <Frase chiave="pazienti.moduloprenotazione.avviso_urgenze" />
+      </p>
       {/* ── IL CALENDARIO ───────────────────────────────────────────────────
           🔴 **Qui c'era un difetto vero, non solo una forma povera.** La
           legenda diceva *«Scegli un orario · {giorno di `orari[0]`}»* e sotto
