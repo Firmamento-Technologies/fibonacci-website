@@ -306,6 +306,35 @@ try {
   // ── 4. I controlli sul costruito ──────────────────────────────────────────
   titolo('Controlli sul costruito, prima di spedire')
 
+  /* 🔴 **Il presidio che vede tutto girava solo quando nessuno lo guardava** (TD-214).
+   * Ce ne sono due sulla traduzione, e il difetto era la loro divisione del lavoro:
+   * `lingue-sorgenti.mjs` gira a ogni push ⛔ ma legge i **dizionari**, quindi ⛔ non
+   * vede una stringa scritta a mano nel codice; `lingue-tradotte.mjs` legge il
+   * **testo delle pagine costruite** e le vedrebbe tutte, ⛔ ma pretende un `out/` a
+   * cinque lingue (~20 minuti) ⇒ nel `pre-push` stampava «NON eseguito» e passava.
+   * 🔑 *Quello che vede ⛔ non girava, quello che gira ⛔ non vede.*
+   *
+   * ⇒ Qui gira, ed è il posto giusto: i venti minuti si sono **appena spesi** per
+   * pubblicare (passo 4), quindi il costruito a cinque lingue **c'è già** e la
+   * misura costa un secondo. ⛔ E qui è anche il momento in cui serve davvero: è
+   * l'ultimo istante prima che una pagina in italiano finisca su `/fr/`.
+   *
+   * ⚠️ Lo script si ferma da sé se `out/` manca o è parziale (misura «zero residui»
+   * su niente, che è il modo classico in cui questo controllo diventava verde).
+   * ⇒ qui ⛔ non si ricontrolla, si lascia parlare. */
+  try {
+    execSync('node scripts/lingue-tradotte.mjs', { cwd: W, stdio: ['ignore', 'pipe', 'inherit'] })
+    ok('nessuna pagina tradotta è rimasta in italiano')
+  } catch {
+    muori(
+      'nel costruito ci sono pagine ancora in italiano sotto /en/, /de/, /es/ o /fr/.',
+      'Le frasi le elenca lo script qui sopra: vanno nei dizionari.\n' +
+        '   ⛔ Non si pubblica: una pagina italiana su /fr/ è **peggio** di una non tradotta,\n' +
+        '      perché l’italiano si riconosce a colpo d’occhio come «scritto per un altro\n' +
+        '      paese», mentre una frase sbagliata tradotta male no.',
+    )
+  }
+
   /* 🛑 **Le schede dei medici non vanno online** (vincolo esplicito
    * dell'utente, 2026-08-16): sono 4.647 persone reali raccolte senza
    * chiederglielo, e l'informativa art. 14 non è valida finché la società non
