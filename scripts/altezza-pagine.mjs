@@ -140,6 +140,7 @@ for (const u of PAGINE) {
    ritmo slitta anche se nessun passo sfora. La freccia non conta: sta nella
    tappa e in nessun passo, ed è giusto così. */
 const TEL = { width: 375, height: 812 }
+const sforanoTel = []
 const telefono = await browser.newPage({ viewport: TEL, isMobile: true, hasTouch: true, deviceScaleFactor: 2 })
 let oltreTel = 0
 const senzaV = []
@@ -169,12 +170,20 @@ for (const u of PAGINE) {
     const passo = (el) => getComputedStyle(el).getPropertyValue('--passo').trim() === '1'
     let oltre = 0
     const slitta = []
+    /* ⚠️ Si registra anche **quale** passo sfora, non solo quanti (2026-08-21).
+       Prima la riga diceva «4 PASSI più alti di una schermata» e basta: un
+       numero che ⛔ non si può chiudere, perché ⛔ non dice dove guardare. Chi lo
+       trova rosso ha due strade, cercarli a mano o alzare la soglia — e la
+       seconda è il gesto con cui i presidi si perdono. */
+    const sforano = []
     for (const t of document.querySelectorAll('.tappa')) {
       const passi = [...t.querySelectorAll('*')].filter(passo)
       const alte = passi.length
         ? passi.map((x) => x.getBoundingClientRect().height)
         : [t.getBoundingClientRect().height]
-      oltre += alte.filter((h) => h > utile * 1.02).length
+      const troppo = alte.filter((h) => h > utile * 1.02)
+      oltre += troppo.length
+      for (const h of troppo) sforano.push({ id: t.id, h: Math.round(h), utile: Math.round(utile) })
       if (passi.length) {
         const v = t.querySelector(':scope > .freccia-avanti')
         /* ⚠️ `--coda-passo` va scalato: è il modo in cui il sito DICHIARA
@@ -198,10 +207,11 @@ for (const u of PAGINE) {
         if (fuori > 100) slitta.push({ id: t.id, fuori })
       }
     }
-    return { oltre, slitta }
+    return { oltre, slitta, sforano }
   }, utileTel)
   oltreTel += esito.oltre
   for (const s of esito.slitta) slittano.push({ u, ...s })
+  for (const s of esito.sforano) sforanoTel.push({ u, ...s })
 
   /* ⚠️ SI SCORRE DAVVERO, non si simula: per un elemento `sticky` il
      rettangolo letto da fermi è la posizione **non agganciata**, cioè
@@ -290,6 +300,12 @@ if (sforate.length) {
 }
 
 const attesoTel = CRICCA.telefono_fuori_misura
+if (sforanoTel.length) {
+  console.log('\n· quali passi sforano su telefono:')
+  for (const s of sforanoTel.sort((a, b) => b.h - a.h)) {
+    console.log(`  ${Math.round((s.h / s.utile) * 100)}%  ${s.h}px (utile ${s.utile})  ${s.u}#${s.id}`)
+  }
+}
 console.log(
   `\nSu telefono (${TEL.width}×${TEL.height}): ${oltreTel} PASSI più alti di una schermata` +
     ` — la cricca dice ${attesoTel}.`,
