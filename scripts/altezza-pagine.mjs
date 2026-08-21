@@ -142,7 +142,6 @@ for (const u of PAGINE) {
 const TEL = { width: 375, height: 812 }
 const sforanoTel = []
 const telefono = await browser.newPage({ viewport: TEL, isMobile: true, hasTouch: true, deviceScaleFactor: 2 })
-let oltreTel = 0
 const senzaV = []
 const slittano = []
 for (const u of PAGINE) {
@@ -168,7 +167,6 @@ for (const u of PAGINE) {
 
   const esito = await telefono.evaluate((utile) => {
     const passo = (el) => getComputedStyle(el).getPropertyValue('--passo').trim() === '1'
-    let oltre = 0
     const slitta = []
     /* ⚠️ Si registra anche **quale** passo sfora, non solo quanti (2026-08-21).
        Prima la riga diceva «4 PASSI più alti di una schermata» e basta: un
@@ -182,7 +180,6 @@ for (const u of PAGINE) {
         ? passi.map((x) => x.getBoundingClientRect().height)
         : [t.getBoundingClientRect().height]
       const troppo = alte.filter((h) => h > utile * 1.02)
-      oltre += troppo.length
       for (const h of troppo) sforano.push({ id: t.id, h: Math.round(h), utile: Math.round(utile) })
       if (passi.length) {
         const v = t.querySelector(':scope > .freccia-avanti')
@@ -207,9 +204,8 @@ for (const u of PAGINE) {
         if (fuori > 100) slitta.push({ id: t.id, fuori })
       }
     }
-    return { oltre, slitta, sforano }
+    return { slitta, sforano }
   }, utileTel)
-  oltreTel += esito.oltre
   for (const s of esito.slitta) slittano.push({ u, ...s })
   for (const s of esito.sforano) sforanoTel.push({ u, ...s })
 
@@ -299,30 +295,51 @@ if (sforate.length) {
   )
 }
 
-const attesoTel = CRICCA.telefono_fuori_misura
+/* 🔴 Si confrontano INSIEMI, ⛔ non numeri (2026-08-21, TD-304).
+   La riga diceva «4 passi sforano, la cricca dice 2» e ⛔ non diceva quali: un
+   numero che ⛔ non si puo' chiudere. E c'era di peggio del rumore — con un
+   conteggio, **due passi potevano scambiarsi di posto** (uno corretto, uno
+   nuovo che sfora) e il totale restava 2, cioe' **verde su una regressione**.
+   ⚠️ `tollerate` faceva gia' cosi' per il desktop: il telefono era l'unico
+   rimasto indietro. */
+if (CRICCA.telefono_fuori_misura !== undefined) {
+  console.error('\n⛔ `tappe-alte.json` ha ancora `telefono_fuori_misura` (il vecchio conteggio).')
+  console.error('   Va sostituito da `tollerate_telefono`, un elenco di {pagina, tappa, px, perche}.')
+  process.exit(1)
+}
+const chiave = (x) => `${x.pagina ?? x.u}#${x.tappa ?? x.id}`
+const tollerateTel = new Set((CRICCA.tollerate_telefono ?? []).map(chiave))
+const nuoviTel = sforanoTel.filter((s) => !tollerateTel.has(chiave(s)))
+const rientratiTel = [...tollerateTel].filter((k) => !sforanoTel.some((s) => chiave(s) === k))
+
+console.log(
+  `\nSu telefono (${TEL.width}×${TEL.height}): ${sforanoTel.length} PASSI più alti di una schermata` +
+    ` — tollerati ${tollerateTel.size}.`,
+)
 if (sforanoTel.length) {
   console.log('\n· quali passi sforano su telefono:')
   for (const s of sforanoTel.sort((a, b) => b.h - a.h)) {
-    console.log(`  ${Math.round((s.h / s.utile) * 100)}%  ${s.h}px (utile ${s.utile})  ${s.u}#${s.id}`)
+    const noto = tollerateTel.has(chiave(s)) ? 'tollerato' : '⛔ NUOVO'
+    console.log(`  ${Math.round((s.h / s.utile) * 100)}%  ${s.h}px (utile ${s.utile})  ${chiave(s)}  ${noto}`)
   }
 }
-console.log(
-  `\nSu telefono (${TEL.width}×${TEL.height}): ${oltreTel} PASSI più alti di una schermata` +
-    ` — la cricca dice ${attesoTel}.`,
-)
+if (rientratiTel.length) {
+  console.log('\n✓ Rientrati: togli queste righe da `tollerate_telefono` in scripts/tappe-alte.json:')
+  for (const k of rientratiTel) console.log(`  ${k}`)
+}
+if (nuoviTel.length) {
+  console.log(
+    `\n⛔ ${nuoviTel.length} PASSO/I NUOVO/I fuori misura su telefono.\n` +
+      '   Lì le colonne si impilano, quindi ogni riga in più costa il doppio.\n' +
+      '   ⛔ Non aggiungerli a `tollerate_telefono` per far tornare il verde:\n' +
+      '      quell\'elenco è il lavoro che questo controllo misura.',
+  )
+}
+
 if (slittano.length) {
   console.log(`\n· ${slittano.length} tappe con pixel fuori dai passi (il ritmo slitta, nessun passo sfora):`)
   for (const s of slittano.sort((a, b) => b.fuori - a.fuori)) console.log(`  ${s.fuori}px  ${s.u}#${s.id}`)
 }
-if (oltreTel > attesoTel) {
-  console.log(
-    `\n⛔ PEGGIORATO su telefono: ${oltreTel} contro ${attesoTel}.\n` +
-      '   Lì le colonne si impilano, quindi ogni riga in più costa il doppio.',
-  )
-} else if (oltreTel < attesoTel) {
-  console.log(`\n✓ Migliorato: porta \`telefono_fuori_misura\` a ${oltreTel} in scripts/tappe-alte.json.`)
-}
-
 if (senzaV.length) {
   console.log(`\n⛔ Su telefono, ${senzaV.length} pagine hanno tratti SENZA una V in vista:`)
   for (const s of senzaV) console.log(`  ${s.u}: a y = ${s.buchi.slice(0, 6).join(', ')}${s.buchi.length > 6 ? '…' : ''}`)
@@ -336,5 +353,5 @@ if (senzaV.length) {
   console.log('\n✓ Su telefono la V è in vista da ogni punto del percorso.')
 }
 
-if (sforate.length || vuote.length || TOLLERATE.size || oltreTel > attesoTel || senzaV.length) process.exit(1)
+if (sforate.length || vuote.length || TOLLERATE.size || nuoviTel.length || senzaV.length) process.exit(1)
 console.log('\n✓ nessuna tappa vuota, nessuna nuova tappa fuori misura')

@@ -40,6 +40,20 @@
       "perche": "La chiusura con i quattro campi del modulo. Il modulo non si spezza. ⚠️ Era `tappa-16` fino al 2026-08-16, e prima ancora `tappa-15`: è la TERZA rinumerazione della stessa sezione, che non è mai cambiata di un pixel. Vedi `_fragilita_nota`. ⚠️ Rinumerata il 2026-08-17 da `tappa-17` a `tappa-19`: NON perché la sezione sia cambiata, ma perché la home ha due tappe nuove («Analisi del volto» e «Anatomia») inserite prima di questa. È esattamente la fragilità dichiarata in `_fragilita_nota`, e succede per la seconda volta."
     }
   ],
-  "telefono_fuori_misura": 2,
+  "_telefono": "⚠️ Era un NUMERO (`telefono_fuori_misura: 2`) fino al 2026-08-21, ed è stato un difetto: la riga diceva «4 passi sforano, la cricca dice 2» senza dire QUALI. Chi lo trovava rosso aveva due strade — cercarli a mano pagina per pagina, oppure alzare il numero — e la seconda è il gesto con cui i presidi si perdono. Peggio: con un conteggio, DUE passi potevano scambiarsi di posto (uno corretto, uno nuovo che sfora) e il totale restava 2, cioè verde. Ora è un elenco, come `tollerate` lo è sempre stato per il desktop.",
+  "tollerate_telefono": [
+    {
+      "pagina": "/richiedi-una-demo",
+      "tappa": "tappa-2",
+      "px": 785,
+      "perche": "Il modulo è UN gesto solo: occhiello, titolo, quattro campi, l'avviso di non scrivere dati di pazienti, il consenso e il pulsante. Spezzarlo in due schermate vuol dire che chi compila non vede il pulsante mentre scrive, o non vede l'avviso quando lo preme. ⛔ Non dividere: semmai accorciare l'avviso."
+    },
+    {
+      "pagina": "/per-le-societa-scientifiche",
+      "tappa": "tappa-7",
+      "px": 773,
+      "perche": "Stesso modulo, stessa ragione. ⚠️ Sfora di soli 18px su 755: è il caso più vicino a rientrare, ed è quello da guardare per primo se si tocca la spaziatura dei campi."
+    }
+  ],
   "_telefono": "Quanti PASSI superano una schermata su 375×812. Il passo — non la tappa — è l'unità di lettura sul telefono: 375×755 offre 3,3 volte meno area di 1264×809, quindi la TAPPA lì non ci sta e non ci può stare. Erano 33 tappe; spezzando in passi sono 2 passi, e sono i due MODULI (richiedi-una-demo e per-le-societa-scientifiche), 18 e 30px oltre: un modulo non si spezza a metà, e i campi sono già al minimo (8px di margine interno, 8 fra un campo e l'altro). Cricca: può solo scendere."
 }

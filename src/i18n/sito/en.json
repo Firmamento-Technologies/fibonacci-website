@@ -57,7 +57,7 @@
   "assistente.per_esempio_i_dati_restano_in": "For example: does the data stay in Europe?",
   "assistente.quanto_ci_vuole_a_migrare_dal": "How long does it take to migrate from the management system you're currently using?",
   "assistente.quanto_costa": "How much does it cost?",
-  "assistente.risponde_leggendo_solo_le_pagine_di": "This is an automated assistant powered by artificial intelligence. Responds by reading *only the pages of this site* and cites which ones were used. It knows nothing beyond what is already published here and does not provide clinical guidance.",
+  "assistente.risponde_leggendo_solo_le_pagine_di": "Artificial intelligence assistant: it answers by reading *only the pages of this site* and cites which it used. It gives no clinical guidance.",
   "assistente.sto_leggendo_il_sito": "Reading the site…",
   "assistentefisso.apri_l_assistente": "Open assistant",
   "assistentefisso.assistente": "Assistant",
