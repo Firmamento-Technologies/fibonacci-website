@@ -96,5 +96,35 @@ class LaRevisioneUmanaVince(unittest.TestCase):
             racc.USCITA = vecchia
 
 
+class LaDecisioneSopravviveAUnaRaccoltaNUOVA(unittest.TestCase):
+    """🔴 Il presidio che mancava, e la nota che l'ha reso necessario.
+
+    `coda-revisione.py` ha portato scritto per giorni «⛔ NON sopravvive a una
+    raccolta nuova sullo stesso dominio … → voce aperta», ⛔ **quando il
+    cablaggio c'era gia'**. Una nota vecchia costa piu' di una mancante: fa
+    ripartire da capo su un problema risolto — e' successo il 2026-08-22.
+    ⇒ La frase diventa un test. Se un giorno `analizza()` smettesse di
+    consultare le decisioni, qui diventa rosso invece di restare un commento.
+    """
+
+    def test_analizza_consulta_le_decisioni_PRIMA_di_classificare(self):
+        sorgente = (Path(__file__).parent / "raccolta-cliniche.py").read_text(encoding="utf-8")
+        righe = sorgente.split("\n")
+        inizio = next(i for i, r in enumerate(righe) if r.startswith("def analizza("))
+        fine = next(i for i in range(inizio + 1, len(righe)) if righe[i].startswith("def "))
+        corpo = "\n".join(righe[inizio:fine])
+        # ⚠️ Si guarda il CORPO di `analizza()`, ⛔ non tutto il file: `DECISE`
+        #    compare anche in `riclassifica()`, e quella e' un'altra strada.
+        self.assertIn("DECISE", corpo,
+                      "analizza() ⛔ non consulta piu' le decisioni: una revisione "
+                      "umana verrebbe cancellata alla prossima raccolta, senza errore")
+
+    def test_la_decisione_vince_sul_classificatore_e_non_e_solo_letta(self):
+        sorgente = (Path(__file__).parent / "raccolta-cliniche.py").read_text(encoding="utf-8")
+        # ⛔ Leggerle e ⛔ non usarle sarebbe lo stesso difetto con un'altra faccia.
+        self.assertIn('DECISE[host]["tipo"]', sorgente)
+        self.assertIn("DECISE = carica_decisioni()", sorgente)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

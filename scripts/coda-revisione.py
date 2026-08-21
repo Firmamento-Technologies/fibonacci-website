@@ -388,9 +388,17 @@ def decisioni_in_blocco(args, decisioni):
     si registra come tale: con **chi**, **quando** e **la prova**.
 
     ⚠️ Sopravvive a `--riclassifica` perché quel ripasso è **monotòno** e
-    ⛔ non declassa mai un `persona`. ⛔ Ma ⛔ NON sopravvive a una raccolta
-    nuova sullo stesso dominio, che ricalcola la scheda da zero: per quello
-    servirebbe che `analizza()` leggesse questo file. → voce aperta.
+    ⛔ non declassa mai un `persona`.
+    ✅ **E sopravvive anche a una raccolta nuova sullo stesso dominio**, che
+    ricalcola la scheda da zero: `raccolta-cliniche.py` legge questo file in
+    `carica_decisioni()` e `analizza()` lo consulta **prima** di classificare
+    (`if host in DECISE`). ⛔ `scarta` e `non-medico` ⛔ non promuovono: una
+    revisione che dice «⛔ non è un medico» si registra **senza** far entrare la
+    scheda nell'elenco.
+    🔴 **Questa nota diceva «→ voce aperta» fino al 2026-08-22, e ⛔ non era più
+    vero**: il cablaggio c'era già. Mi ha fatto ripartire da capo su un problema
+    risolto — che è precisamente il danno che una nota vecchia fa, e il motivo
+    per cui vale la pena correggerla invece di aggiungerne una nuova sotto.
     """
     schede = carica()
     coda = costruisci(schede, decisioni)
