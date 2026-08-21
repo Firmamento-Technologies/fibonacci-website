@@ -157,7 +157,7 @@ export function AssistenteFisso() {
 
             {inCorso && (
               <p className="chat-assistente__risposta chat-assistente__attesa" role="status">
-                sto leggendo le pagine…
+                {t('assistentefisso.sto_leggendo_le_pagine')}
               </p>
             )}
             <div ref={fondo} />

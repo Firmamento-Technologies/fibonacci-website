@@ -88,7 +88,16 @@ const LINGUE = ['en', 'es', 'fr', 'de']
  *    `scripts/lint-produzione.py` nel knowledge, e per la stessa ragione: una
  *    regola scritta non è un presidio, un numero che non può salire sì.
  */
-const MASSIMO_FUORI_DIZIONARIO = 28
+/* 🔴 **28 → 25 il 2026-08-21, e il motivo è che il margine si era mangiato da solo.**
+ * Il numero fu messo a **28** quando la misura era **23**: cinque di margine, ⛔ e un
+ * cricchetto con margine ⛔ non è un cricchetto — è un permesso. Misurato oggi: erano
+ * diventate **26**, cioè **tre stringhe nuove entrate in silenzio**, tutte dentro il
+ * margine, ⛔ senza che niente diventasse rosso. Una era un difetto vero:
+ * `AssistenteFisso.tsx` diceva «sto leggendo le pagine…» **scritta a mano**, quindi un
+ * francese la leggeva in italiano. Ora è nel dizionario ⇒ 25.
+ * ⇒ 🔑 **il tetto sta sul numero misurato, ⛔ non sopra**: solo così il primo residuo
+ *   nuovo fa rumore il giorno in cui entra. */
+const MASSIMO_FUORI_DIZIONARIO = 25
 
 /** Quanto un dizionario può coincidere con l'italiano prima di essere sospetto.
  *  ⚠️ Non zero: nomi propri, sigle e veri omografi coincidono a ragione.
