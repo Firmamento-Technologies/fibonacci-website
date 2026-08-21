@@ -154,6 +154,20 @@ echo "✅ test python degli script sui dati: verdi"
 # servito alla radice chiede il CSS a `/fibonacci-website/_next/…`, che dà 404,
 # e il collaudo muore su «Pagina SENZA CSS» dopo ~3 minuti di costruzione buttati.
 # ⇒ chi seguiva l'istruzione perdeva un build intero per scoprirlo.
+# ── L'assistente dichiara di essere un'IA? (TD-296, AI Act art. 50) ─────────
+# Il servizio è ACCESO e pubblico. Il testo descriveva il comportamento
+# («risponde leggendo solo le pagine di questo sito») senza mai dire che è un
+# sistema di IA, in tutte e cinque le lingue. Costa una riga di testo; il
+# presidio serve perché una traduzione rifatta la porterebbe via in silenzio.
+if ! node scripts/dichiarazione-ia.mjs; then
+  echo
+  echo "⛔ PUSH BLOCCATO: l'assistente non si dichiara un'intelligenza artificiale."
+  echo "   AI Act art. 50(1): chi interagisce con un sistema di IA va informato."
+  echo "   La dichiarazione va IN TESTA al testo del riquadro, in ogni lingua."
+  echo "   Emergenza: COLLAUDO=0 git push"
+  exit 1
+fi
+
 if [ ! -d out ]; then
   echo "⚠️  \`out/\` non c'è. Costruisci PER IL COLLAUDO (senza prefisso di percorso):"
   echo "     NEXT_PUBLIC_DOMINIO_SITO=collaudo.local npm run build"
