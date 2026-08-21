@@ -69,7 +69,7 @@ function Prezzo({ piano, ricorrenza }: { piano: Piano; ricorrenza: Ricorrenza })
       <div className="flex items-baseline gap-[var(--s-8)]">
         <span style={stileCifra}>{inEuro(mensile)}&thinsp;€</span>
         <span className="text-[15px]" style={{ color: coloreNota }}>
-          al mese
+          {t('listino.al_mese')}
         </span>
       </div>
       {/* ⚠️ Sull'annuale si scrive SEMPRE anche quanto si paga in una volta:
@@ -118,7 +118,7 @@ function Interruttore({
           {o.etichetta}
           {o.v === 'yearly' && (
             <span className="ml-[var(--s-8)] numero" style={{ color: valore === o.v ? 'var(--accent-onink)' : 'var(--accent)' }}>
-              −2 MESI
+              {t('listino.due_mesi_gratis')}
             </span>
           )}
         </button>

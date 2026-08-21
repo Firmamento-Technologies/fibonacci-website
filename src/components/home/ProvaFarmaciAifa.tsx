@@ -117,7 +117,7 @@ export function ProvaFarmaciAifa() {
                   ATC {p.atc} · {FORNITURA[p.fornitura] ?? p.fornitura} ·{' '}
                   {p.confezioni} confezion{p.confezioni === 1 ? 'e' : 'i'}
                 </span>
-                <span className="prova-catalogo__pronto">foglietto AIFA</span>
+                <span className="prova-catalogo__pronto">{t('provafarmaciaifa.foglietto_aifa')}</span>
               </li>
             ))}
           </ul>

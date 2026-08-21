@@ -111,7 +111,7 @@ export function ProvaCatalogoConsensi() {
               <li key={p.slug}>
                 <span className="prova-catalogo__titolo">{p.titolo}</span>
                 <span className="prova-catalogo__categoria">{p.categoria}</span>
-                <span className="prova-catalogo__pronto">modulo pronto</span>
+                <span className="prova-catalogo__pronto">{t('provacatalogoconsensi.modulo_pronto')}</span>
               </li>
             ))}
           </ul>

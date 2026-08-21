@@ -97,7 +97,7 @@ const LINGUE = ['en', 'es', 'fr', 'de']
  * francese la leggeva in italiano. Ora è nel dizionario ⇒ 25.
  * ⇒ 🔑 **il tetto sta sul numero misurato, ⛔ non sopra**: solo così il primo residuo
  *   nuovo fa rumore il giorno in cui entra. */
-const MASSIMO_FUORI_DIZIONARIO = 25
+const MASSIMO_FUORI_DIZIONARIO = 15
 
 /** Quanto un dizionario può coincidere con l'italiano prima di essere sospetto.
  *  ⚠️ Non zero: nomi propri, sigle e veri omografi coincidono a ragione.
@@ -216,6 +216,14 @@ const NON_E_PROSA = [
   /^["']/,
   /^%s/,
   /^[+]\d/,
+  /* 🔴 IL CODICE NON È PROSA, e questa riga vale sei stringhe su venticinque.
+     La documentazione di `Frase.tsx` **spiega il difetto mostrando la riga
+     sbagliata** ⇒ quattro frammenti di JavaScript finivano nel conteggio, più
+     un `return (` e un `i % 2 === 1 ?` altrove. Il cricchetto misurava anche
+     **sé stesso**, e chi doveva farlo scendere non poteva.
+     ⚠️ Nessuno di questi segni compare in prosa italiana da interfaccia: sono
+     operatori e parole chiave, ⛔ non parole. */
+  /===|!==|&&|\|\||=>|\breturn\b|\bif\s*\(|\.\w+\(/,
 ]
 
 const ESCLUSI = [
@@ -293,6 +301,23 @@ if (fuori.length > MASSIMO_FUORI_DIZIONARIO) {
   console.log(`   ⛔ NON alzare MASSIMO_FUORI_DIZIONARIO: è il lavoro che misura.`)
 } else {
   console.log(`✅ ${fuori.length} stringhe fuori dal dizionario (massimo ${MASSIMO_FUORI_DIZIONARIO})`)
+}
+
+/* 🔑 L'elenco si vedeva SOLO quando il presidio era rosso, e solo i primi 12.
+   ⇒ il lavoro che il cricchetto misura era **invisibile a chi doveva farlo**:
+   per sapere che cosa resta bisognava abbassare la soglia a mano e far fallire
+   il controllo. `--elenco` lo stampa **tutto**, senza cambiare l'esito. */
+if (process.argv.includes('--elenco')) {
+  console.log(`\n── le ${fuori.length} stringhe, per file ──`)
+  const perFile = new Map()
+  for (const x of fuori) {
+    if (!perFile.has(x.file)) perFile.set(x.file, [])
+    perFile.get(x.file).push(x.testo)
+  }
+  for (const [f, testi] of [...perFile].sort()) {
+    console.log(`   ${f}`)
+    for (const v of testi) console.log(`      «${v}»`)
+  }
 }
 
 // ── 2. Le cinque lingue hanno le stesse chiavi ───────────────────────────────
