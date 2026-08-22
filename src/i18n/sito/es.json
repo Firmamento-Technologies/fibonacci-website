@@ -451,6 +451,8 @@
   "home.provadurate.filler_acido_ialuronico": "Relleno de ácido hialurónico",
   "home.provadurate.il_richiamo_non_lo_decide_una": "El recordatorio no lo decide una tabla nuestra: surge de la frase del consentimiento que la paciente ha firmado.",
   "home.provadurate.provalo_qui": "Pruébalo aquí.",
+  "home.provadurate.cioe_fra_e": ", es decir entre {{da}} y {{a}}",
+  "home.provadurate.dal_consenso_di": "del consentimiento de {{nome}}",
   "home.provadurate.richiamo_fra": "Recordatorio en",
   "home.provadurate.scegli_cosa_hai_fatto_oggi_il": "Elige qué has hecho hoy: el recordatorio se calcula solo, y te indica de dónde proviene.",
   "home.provadurate.scegli_una_categoria": "Elige una categoría.",

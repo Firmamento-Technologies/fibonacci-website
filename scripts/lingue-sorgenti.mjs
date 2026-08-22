@@ -99,6 +99,12 @@ const LINGUE = ['en', 'es', 'fr', 'de']
  *   nuovo fa rumore il giorno in cui entra. */
 const MASSIMO_FUORI_DIZIONARIO = 15
 
+/* Il cricchetto dei testi **interpolati** (TD-260), contato a parte.
+   📏 Misurato il 2026-08-22 sulla sorgente: **22**, sceso a **20** portando nel
+   dizionario le due del riquadro dei richiami (TD-260). ⛔ Non alzarlo: se scende,
+   si abbassa. Vedi `TESTO_INTERPOLATO` per il perché sono invisibili all'altro. */
+const MASSIMO_INTERPOLATO = 20
+
 /** Quanto un dizionario può coincidere con l'italiano prima di essere sospetto.
  *  ⚠️ Non zero: nomi propri, sigle e veri omografi coincidono a ragione.
  *  Misurato: en 1,7% · es 2,4% · fr 1,2% · de 1,1%. Soglia al 15%, cioè sei
@@ -141,6 +147,25 @@ const NON_SI_TRADUCE = new Set([
  * non nel dizionario): l'iniziale maiuscola non aggiungeva precisione, toglieva
  * soltanto vista. */
 const TESTO_JSX = />\s*([^\s<>{}][^<>{}\n]{6,}?)\s*</g
+
+/* 🔴 LA SETTIMA CECITÀ: IL TESTO CHE CONTIENE UN VALORE (TD-260).
+ * `TESTO_JSX` vieta le **graffe**, quindi un nodo di testo con dentro un
+ * `{valore}` gli è invisibile — e in questo repo è una forma comunissima:
+ *
+ *     <span>, cioè fra {fra(d.meseMin)} e {fra(d.meseMax)}</span>
+ *     <cite>dal consenso di {d.nome}</cite>
+ *
+ * ⚠️ **È l'altra metà del problema di TD-259**, ⛔ non un allargamento: quel
+ * presidio misura le chiavi il cui valore italiano compare in una pagina
+ * tradotta, quindi una frase **mai messa nel dizionario** ⛔ non può risultarne
+ * mancante. Questa la vede **dalla sorgente**, che è l'unico posto dove esiste.
+ * 📏 Misurato il 2026-08-19: su nove stringhe italiane trovate a mano nelle
+ * pagine tedesche, il presidio ne vedeva **due**.
+ *
+ * ⚖️ Conta **a parte** (`MASSIMO_INTERPOLATO`) e ⛔ non insieme alle altre: sono
+ * due cricchetti con due lavori diversi, e sommarli renderebbe illeggibili
+ * entrambi. */
+const TESTO_INTERPOLATO = />\s*([^\s<>{}][^<>\n]*\{[^<>\n]*)\s*</g
 
 /* 🔴 LA SESTA CECITÀ: IL TESTO CHE VA A CAPO.
  * `TESTO_JSX` vieta `\n` dentro la corrispondenza, quindi un nodo di testo
@@ -318,6 +343,42 @@ if (process.argv.includes('--elenco')) {
     console.log(`   ${f}`)
     for (const v of testi) console.log(`      «${v}»`)
   }
+}
+
+// ── 1-bis. La prosa italiana dentro un testo INTERPOLATO (TD-260) ──────────
+/* ⚠️ `{' '}` è uno **spazio JSX**, ⛔ non un valore: si normalizza a spazio invece
+   di escluderlo, o si nasconderebbe prosa vera («Scrivi a{' '}» resterebbe muto). */
+const interpolati = []
+for (const f of sorgenti(SRC)) {
+  const testo = readFileSync(f, 'utf8')
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/^\s*\/\/.*$/gm, '')
+  for (const m of testo.matchAll(TESTO_INTERPOLATO)) {
+    const grezzo = m[1].trim()
+    // Lo spazio JSX torna spazio; gli altri valori spariscono, e resta la prosa.
+    const prosa = grezzo.replace(/\{'\s*'\}/g, ' ').replace(/\{[^}]*\}/g, '').trim()
+    // ⛔ Meno di quattro lettere ⛔ non è una frase: è punteggiatura attorno a un valore.
+    if (prosa.replace(/[^A-Za-zÀ-ÿ]/g, '').length < 4) continue
+    if (valori.has(prosa)) continue
+    if (NON_E_PROSA.some((r) => r.test(prosa))) continue
+    interpolati.push({ file: relative(SRC, f), testo: prosa })
+  }
+}
+if (interpolati.length > MASSIMO_INTERPOLATO) {
+  uscita = 1
+  console.log(
+    `⛔ ${interpolati.length} testi INTERPOLATI con prosa italiana fuori dal dizionario ` +
+      `(massimo ${MASSIMO_INTERPOLATO}):`,
+  )
+  for (const x of interpolati.slice(0, 12)) console.log(`   ${x.file}\n      «${x.testo.slice(0, 66)}»`)
+  console.log(`   ⇒ usa <Frase chiave="…"/> o t('chiave', { valore }).`)
+  console.log(`   ⛔ NON alzare MASSIMO_INTERPOLATO: è il lavoro che misura.`)
+} else {
+  console.log(`✅ ${interpolati.length} testi interpolati fuori dal dizionario (massimo ${MASSIMO_INTERPOLATO})`)
+}
+if (process.argv.includes('--elenco') && interpolati.length) {
+  console.log(`\n── i ${interpolati.length} testi interpolati ──`)
+  for (const x of interpolati) console.log(`   ${x.file}\n      «${x.testo}»`)
 }
 
 // ── 2. Le cinque lingue hanno le stesse chiavi ───────────────────────────────

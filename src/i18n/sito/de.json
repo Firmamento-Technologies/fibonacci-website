@@ -451,6 +451,8 @@
   "home.provadurate.filler_acido_ialuronico": "Hyaluronsäure-Filler",
   "home.provadurate.il_richiamo_non_lo_decide_una": "Die Erinnerung wird nicht durch eine unserer Tabellen festgelegt: Sie ergibt sich aus dem Text der Einwilligung,\n            die die Patientin unterschrieben hat.",
   "home.provadurate.provalo_qui": "Hier testen.",
+  "home.provadurate.cioe_fra_e": ", also zwischen {{da}} und {{a}}",
+  "home.provadurate.dal_consenso_di": "aus der Einwilligung {{nome}}",
   "home.provadurate.richiamo_fra": "Erinnerung in",
   "home.provadurate.scegli_cosa_hai_fatto_oggi_il": "Wähle aus, was du heute gemacht hast: Die Erinnerung wird\n        automatisch berechnet und zeigt dir, woher sie stammt.",
   "home.provadurate.scegli_una_categoria": "Wähle eine Kategorie.",

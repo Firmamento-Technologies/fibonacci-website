@@ -18,7 +18,7 @@
  * disonesta che si può fare con questi dati.
  */
 
-import { t } from '@/lib/testo'
+import { t, t2 } from '@/lib/testo'
 import { useState } from 'react'
 import dati from '@/lib/prodotto.json'
 
@@ -86,7 +86,7 @@ export function ProvaDurate() {
         {d && (
           <div>
             <p className="prova-durate__quando">{t('home.provadurate.richiamo_fra')} <strong>{d.meseMin}-{d.meseMax} mesi</strong>
-              <span>, cioè fra {fra(d.meseMin)} e {fra(d.meseMax)}</span>
+              <span>{t2('home.provadurate.cioe_fra_e', { da: fra(d.meseMin), a: fra(d.meseMax) })}</span>
             </p>
             {/* La fonte, testuale. È il punto di tutto: un numero senza fonte
                 è un'opinione, e su una cartella clinica le opinioni non
@@ -97,7 +97,11 @@ export function ProvaDurate() {
                   `toLowerCase()` secco produceva «tossina botulinica di tipo a»,
                   e su un sierotipo la maiuscola è parte del nome. Stesso difetto
                   già corretto nel generatore dei farmaci, ripetuto qui. */}
-              <cite>dal consenso di {d.nome.charAt(0).toLowerCase() + d.nome.slice(1)}</cite>
+              <cite>
+                    {t2('home.provadurate.dal_consenso_di', {
+                      nome: d.nome.charAt(0).toLowerCase() + d.nome.slice(1),
+                    })}
+                  </cite>
             </blockquote>
           </div>
         )}

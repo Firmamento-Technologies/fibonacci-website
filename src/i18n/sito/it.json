@@ -451,6 +451,8 @@
   "home.provadurate.filler_acido_ialuronico": "Filler ad acido ialuronico",
   "home.provadurate.il_richiamo_non_lo_decide_una": "Il richiamo non lo decide una tabella nostra: esce dalla frase del consenso che\n            la paziente ha firmato.",
   "home.provadurate.provalo_qui": "Provalo qui.",
+  "home.provadurate.cioe_fra_e": ", cioè fra {{da}} e {{a}}",
+  "home.provadurate.dal_consenso_di": "dal consenso di {{nome}}",
   "home.provadurate.richiamo_fra": "Richiamo fra",
   "home.provadurate.scegli_cosa_hai_fatto_oggi_il": "Scegli cosa hai fatto oggi: il richiamo si calcola da\n        solo, e ti dice da dove viene.",
   "home.provadurate.scegli_una_categoria": "Scegli una categoria.",

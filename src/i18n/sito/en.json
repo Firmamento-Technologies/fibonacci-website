@@ -451,6 +451,8 @@
   "home.provadurate.filler_acido_ialuronico": "Hyaluronic acid filler",
   "home.provadurate.il_richiamo_non_lo_decide_una": "The recall isn’t decided by one of our tables: it comes from the consent statement the patient signed.",
   "home.provadurate.provalo_qui": "Try it here.",
+  "home.provadurate.cioe_fra_e": ", that is between {{da}} and {{a}}",
+  "home.provadurate.dal_consenso_di": "from the {{nome}} consent form",
   "home.provadurate.richiamo_fra": "Follow-up in",
   "home.provadurate.scegli_cosa_hai_fatto_oggi_il": "Select what you did today: the recall is calculated automatically, and it tells you where it comes from.",
   "home.provadurate.scegli_una_categoria": "Select a category.",

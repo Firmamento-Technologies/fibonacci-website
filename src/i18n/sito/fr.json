@@ -451,6 +451,8 @@
   "home.provadurate.filler_acido_ialuronico": "Filler à l'acide hyaluronique",
   "home.provadurate.il_richiamo_non_lo_decide_una": "Le rappel n’est pas décidé par un tableau de notre part : il découle de la phrase du consentement que\n            la patiente a signé.",
   "home.provadurate.provalo_qui": "Essaie-le ici.",
+  "home.provadurate.cioe_fra_e": ", c’est-à-dire entre {{da}} et {{a}}",
+  "home.provadurate.dal_consenso_di": "d’après le consentement {{nome}}",
   "home.provadurate.richiamo_fra": "Rappel dans",
   "home.provadurate.scegli_cosa_hai_fatto_oggi_il": "Choisis ce que tu as fait aujourd’hui : le rappel se calcule\n        automatiquement, et il t’indique d’où il provient.",
   "home.provadurate.scegli_una_categoria": "Choisis une catégorie.",
